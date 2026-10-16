@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "contentReady": true,
+  "assets": [
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/character-card.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/character-card.png",
+      "sha256": "d49b285177ac0c2d4a24952e0d0a3dd555911e3a535148f47fa787a7c8c1cb3d",
+      "size": 1518754,
+      "contentType": "image/png",
+      "downloadName": "character-card.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/front.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/front.png",
+      "sha256": "f4c48db33a9039eecbbc7a7338d28312f412da3abdfe5176aa410fdeb3d3ed38",
+      "size": 1484124,
+      "contentType": "image/png",
+      "downloadName": "front.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/back.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/back.png",
+      "sha256": "f3f1461fe608fd2bbee41269f1b1620ac172c4b70048787385b1f6edaedc18b2",
+      "size": 1422734,
+      "contentType": "image/png",
+      "downloadName": "back.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/headgear.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/headgear.png",
+      "sha256": "6368c6545027cb9e8551e57ae1ce5bd9e98d233a177c02d4c25b9eabd2d1b479",
+      "size": 1830885,
+      "contentType": "image/png",
+      "downloadName": "headgear.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/face.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/face.png",
+      "sha256": "d81a7022fbc4b413708d91c5bbbe0adfcb40ddd22c986a26d3a8bb0594dfe899",
+      "size": 1906075,
+      "contentType": "image/png",
+      "downloadName": "face.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/expressions.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/expressions.png",
+      "sha256": "b0ad2cb7a0be7432e0e826fbe56942a44c4108f3c3a750f779dad9568dcc6e63",
+      "size": 2391105,
+      "contentType": "image/png",
+      "downloadName": "expressions.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/body-base.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/body-base.png",
+      "sha256": "80da1bca31dddfafc8342dc5db7e59db6265cbd7996e76d3e6b08afae76298cf",
+      "size": 1567331,
+      "contentType": "image/png",
+      "downloadName": "body-base.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/layer-inner.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/layer-inner.png",
+      "sha256": "fa99075d30efc58d353fbf5bddaa7c5d5c93129e91bda1c040cf0fdc29d98d9a",
+      "size": 1308300,
+      "contentType": "image/png",
+      "downloadName": "layer-inner.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/layer-harness.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/layer-harness.png",
+      "sha256": "9936537d4158388dfc485bf60375b0bf1c0b583efdb12ed746ad3b9d0cab5340",
+      "size": 1344148,
+      "contentType": "image/png",
+      "downloadName": "layer-harness.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/layer-jacket.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/layer-jacket.png",
+      "sha256": "6ceac233f15cbde646c26f7b3e6821e4bef23d3aac3a0135b7831547dee69062",
+      "size": 1363669,
+      "contentType": "image/png",
+      "downloadName": "layer-jacket.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/innerwear.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/innerwear.png",
+      "sha256": "3f0ba9c95648b9323850d861fc806ab0137822c6a31421f628b28b150f7808b9",
+      "size": 1249968,
+      "contentType": "image/png",
+      "downloadName": "innerwear.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/jacket.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/jacket.png",
+      "sha256": "b5ad25ca7365bd5b3b9c4eb17ed1d2073eabca21dd1a1a2865b279fbf01daa9b",
+      "size": 1666745,
+      "contentType": "image/png",
+      "downloadName": "jacket.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/hosiery.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/hosiery.png",
+      "sha256": "c69a35b2492f83a04cbfa7affa9b5722c75ff82f7ca13e35a9be89766af7825d",
+      "size": 1249287,
+      "contentType": "image/png",
+      "downloadName": "hosiery.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/harness.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/harness.png",
+      "sha256": "eb4ba2338d344d0e3f5129d8f21f3d0e6780f84c74668aedf30482b85cd0e9ff",
+      "size": 1299588,
+      "contentType": "image/png",
+      "downloadName": "harness.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/thigh-gear.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/thigh-gear.png",
+      "sha256": "38204c7e9ee28060e9023061ffb88f9c30aef6404617f2b622402b6d4e6b45be",
+      "size": 1488707,
+      "contentType": "image/png",
+      "downloadName": "thigh-gear.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/knee-guard.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/knee-guard.png",
+      "sha256": "f7954355926fb995a68ba37182cd95110c4a57964ee4ff064f727ad57e5365d1",
+      "size": 1396770,
+      "contentType": "image/png",
+      "downloadName": "knee-guard.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/gloves.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/gloves.png",
+      "sha256": "ca1ca6b2cbe06e0525a29fe9a3f0b69dac121302fdf6541f45800248709c962e",
+      "size": 1286708,
+      "contentType": "image/png",
+      "downloadName": "gloves.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/shoes-saw.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/shoes-saw.png",
+      "sha256": "0a15ab37dc119fb1f04a00b85a5b0c281ad7ea1b7c5925c8323a3d5974804a49",
+      "size": 1591426,
+      "contentType": "image/png",
+      "downloadName": "shoes-saw.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/saw-sheath.png",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/saw-sheath.png",
+      "sha256": "9222c67a272ccf6be7df094b1bd0950143769e5f1c07acc99d0244632edeca34",
+      "size": 1176948,
+      "contentType": "image/png",
+      "downloadName": "saw-sheath.png"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/bunny-design-whitepaper-1.0.0.pdf",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/bunny-design-whitepaper-1.0.0.pdf",
+      "sha256": "146a68f7d5ba66b246f4a8aa797a4d0bb8689d82c961e0873b6a147bb380f72f",
+      "size": 47894429,
+      "contentType": "application/pdf",
+      "downloadName": "bunny-design-whitepaper-1.0.0.pdf"
+    },
+    {
+      "character": "bunny",
+      "version": "1.0.0",
+      "path": "/media/bunny/1.0.0/bunny-original-assets-1.0.0.zip",
+      "key": "x_ops/design/characters/bunny/releases/1.0.0/bunny-original-assets-1.0.0.zip",
+      "sha256": "5e42ba4539a414bc95363ad874199e4aa8c1ac033f712ef8f8e9fe7842ee835e",
+      "size": 27336167,
+      "contentType": "application/zip",
+      "downloadName": "bunny-original-assets-1.0.0.zip"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+:root {
+  --vp-font-family-base: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --vp-c-brand-1: #6551b9;
+  --vp-c-brand-2: #7462c4;
+  --vp-c-brand-3: #6551b9;
+  --vp-c-brand-soft: #7462c412;
+  --vp-c-bg: #fff;
+  --vp-c-bg-alt: #faf9fd;
+  --vp-c-bg-soft: #f6f5fa;
+  --vp-c-text-1: #25243a;
+  --vp-c-text-2: #626077;
+  --vp-c-text-3: #76738b;
+  --vp-c-divider: #e8e5ef;
+  --vp-home-hero-name-color: var(--vp-c-brand-1);
+  --vp-home-hero-name-background: none;
+  --vp-button-brand-bg: #6551b9;
+  --vp-button-brand-hover-bg: #5743a8;
+  --vp-button-brand-active-bg: #4f3c9b;
+  --vp-button-brand-text: #fff;
+  --vp-button-alt-bg: #f2f0f8;
+  --vp-button-alt-hover-bg: #eae6f4;
+}
+
+.VPNavBarTitle .title { letter-spacing: -0.035em; font-weight: 650; }
+.VPHome { padding-bottom: 80px !important; }
+.VPHomeHero { padding-top: 88px !important; padding-bottom: 56px !important; }
+.VPHomeHero .name { font-size: 18px; font-weight: 650; letter-spacing: 0.015em; line-height: 1.6; }
+.VPHomeHero .text { max-width: 760px; margin-top: 10px; font-size: clamp(36px, 4.5vw, 56px); font-weight: 650; letter-spacing: -0.045em; line-height: 1.2; }
+.VPHomeHero .tagline { max-width: 640px; margin-top: 20px; font-size: 18px; line-height: 1.8; }
+.VPHomeHero .actions { padding-top: 28px; }
+.VPHomeHero .image-container { width: 280px; height: 432px; transform: none; }
+.VPHomeHero .image-bg { display: none; }
+.VPHomeHero .image-src { max-width: 100%; max-height: 100%; border: 1px solid #b3cde4; border-radius: 10px; box-shadow: 0 10px 28px #23415b12; }
+.VPFeature { border-color: var(--vp-c-divider) !important; border-radius: 12px !important; background-color: var(--vp-c-bg) !important; }
+.VPFeature .box { padding: 24px !important; }
+.VPFeature .title { font-size: 16px; }
+.VPFeature .details { padding-top: 8px; line-height: 1.8; }
+.vp-doc h1 { letter-spacing: -0.04em; line-height: 1.35; }
+.vp-doc h2 { letter-spacing: -0.02em; }
+.vp-doc p, .vp-doc li { line-height: 1.9; }
+.vp-doc a { text-underline-offset: 4px; }
+.vp-doc .custom-block { border-radius: 8px; }
+.home-notes { max-width: 1152px; margin: 40px auto 0; padding-top: 28px; border-top: 1px solid var(--vp-c-divider); }
+.home-notes .section-label { margin: 0 0 12px; color: var(--vp-c-brand-1); font-size: 12px; font-weight: 650; letter-spacing: 0.08em; }
+.home-notes h2 { margin: 0; color: var(--vp-c-text-1); font-size: 22px; font-weight: 600; letter-spacing: -0.025em; }
+.home-notes p { max-width: 740px; margin-top: 12px; color: var(--vp-c-text-2); font-size: 15px; line-height: 1.9; }
+.home-notes a { color: var(--vp-c-brand-1); text-decoration: underline; text-underline-offset: 4px; }
+.home-note-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+.document-status { display: inline-flex; align-items: center; gap: 8px; margin: 8px 0 24px; padding: 6px 10px; border: 1px solid var(--vp-c-divider); border-radius: 6px; color: var(--vp-c-text-2); background: var(--vp-c-bg-alt); font-size: 12px; font-weight: 500; }
+.document-status::before { width: 6px; height: 6px; border-radius: 50%; background: var(--vp-c-brand-2); content: ""; }
+.document-intro { color: var(--vp-c-text-2); font-size: 18px; line-height: 1.9; }
+.chapter-meta { margin: 24px 0 32px; padding: 18px 20px; border-left: 2px solid var(--vp-c-brand-2); background: var(--vp-c-bg-alt); }
+.chapter-meta p { margin: 0; font-size: 14px; }
+
+@media (min-width: 960px) {
+  .VPHomeHero .main { max-width: 700px; }
+  .VPHomeHero .image { min-width: 320px; }
+  .VPDoc.has-aside .content-container { max-width: 780px; }
+}
+@media (max-width: 1199px) {
+  .home-notes { margin-right: 64px; margin-left: 64px; }
+}
+@media (max-width: 959px) {
+  .VPHomeHero { padding-top: 112px !important; padding-bottom: 40px !important; }
+  .VPHomeHero .text { margin-right: auto; margin-left: auto; }
+  .VPHomeHero .tagline { margin-right: auto; margin-left: auto; font-size: 17px; }
+  .VPHomeHero .image { margin: 0 0 36px; }
+  .VPHomeHero .image-container { width: 220px; height: 340px; }
+  .home-notes { margin-right: 48px; margin-left: 48px; }
+}
+@media (max-width: 639px) {
+  .VPHome { padding-bottom: 48px !important; }
+  .VPHomeHero { padding-top: 96px !important; padding-bottom: 32px !important; }
+  .VPHomeHero .name { font-size: 15px; }
+  .VPHomeHero .text { font-size: 32px; }
+  .VPHomeHero .tagline { font-size: 16px; }
+  .VPHomeHero .image-container { width: 180px; height: 284px; }
+  .VPHomeHero .image { margin-bottom: 28px; }
+  .home-notes { margin: 32px 24px 0; }
+  .home-note-grid { grid-template-columns: 1fr; gap: 24px; }
+  .home-notes h2 { font-size: 20px; }
+  .document-intro { font-size: 17px; }
+}

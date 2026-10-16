@@ -1,0 +1,14 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+.wrangler/
+.release/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.log
+*.pdf
+*.zip
+.DS_Store
+__pycache__/
