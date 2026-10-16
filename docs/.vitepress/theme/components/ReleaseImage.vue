@@ -7,6 +7,7 @@ const props = defineProps<{
   alt: string
   original?: string
   caption?: string
+  detail?: string
 }>()
 
 const dialog = ref<HTMLDialogElement>()
@@ -66,7 +67,11 @@ onBeforeUnmount(() => {
     </button>
     <p v-else class="release-image__unavailable">图片暂不可用</p>
     <figcaption v-if="caption || originalUrl" class="release-image__caption">
-      <span v-if="caption">{{ caption }}</span>
+      <span class="release-image__caption-copy">
+        <span class="figure-number" aria-hidden="true"></span>
+        <strong v-if="caption">{{ caption }}</strong>
+        <span v-if="detail" class="release-image__caption-detail">{{ detail }}</span>
+      </span>
       <a v-if="originalUrl" :href="originalUrl" target="_blank" rel="noopener noreferrer">查看原图 <span aria-hidden="true">↗</span></a>
     </figcaption>
 

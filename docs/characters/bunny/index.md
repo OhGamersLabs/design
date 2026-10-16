@@ -1,50 +1,55 @@
 ---
-title: 角色总览
-description: Bunny 终稿角色设计白皮书 · 角色总览
+title: "轻亮轮廓与重型工具"
+description: "Bunny 角色设计白皮书 · 轻亮轮廓与重型工具"
 releaseReady: true
+pageClass: bunny-editorial
+aside: false
+section: identity
+lead: "白发兔耳、深色眼镜与橙色服装，建立远近都可辨识的角色。"
 ---
 
-# Bunny 角色总览
+# 轻亮轮廓与重型工具
 
-<div class="document-status">终稿白皮书 · 1.0.0</div>
+<EditorialPair>
+  <template #visual>
+    <ReleaseImage
+      src="/characters/bunny/1.1.0/character-card.webp"
+      alt="角色卡"
+      original="/media/bunny/1.1.0/character-card.png"
+      caption="角色卡"
+    />
+  </template>
+  <template #text>
+    <div class="bunny-identification">
+      <h2>整体识别</h2>
+      <p>兔耳提高轮廓的辨识度；白发与黑色镜片形成脸部明暗对照。橙色外套连接上半身与单侧橙袜，红色短裤和鞋提供次级重心。</p>
+      <h2>不对称规则</h2>
+      <p>人物左腿为橙色长袜与护膝，右腿为盒袋和短袜。人物右手为全指手套，左手为露指手套与腕具。左右均以角色自身为准。</p>
+    </div>
+  </template>
+</EditorialPair>
 
-[阅读下一章：设计语言](/characters/bunny/design-language) · [下载 PDF 与终稿资料](/characters/bunny/downloads)
+## 姿态分工
 
-<ReleaseImage
-  src="/characters/bunny/1.0.0/character-card.webp"
-  alt="角色卡"
-  original="/media/bunny/1.0.0/character-card.png"
-  caption="角色卡"
-/>
+主卡展示角色气质；正背整装图展示衣物、装备与带路。造型可以变化，安装侧别与部件数量不随姿态变化。
 
-Bunny 以轻盈的兔耳轮廓、深色眼部护具和明快的橙色服装构成识别。左右非对称的袜装与护具，加上厚底鞋和背负电锯，形成鲜明的角色形象。
+## 正背整装
 
-角色卡保留有表现力的姿态，用于展示完整气质和视觉重心。
+<div class="bunny-view-pair">
+  <ReleaseImage
+    src="/characters/bunny/1.1.0/front.webp"
+    alt="正面整装"
+    original="/media/bunny/1.1.0/front.png"
+    caption="正面整装"
+  />
+  <ReleaseImage
+    src="/characters/bunny/1.1.0/back.webp"
+    alt="背面整装"
+    original="/media/bunny/1.1.0/back.png"
+    caption="背面整装"
+  />
+</div>
 
-头具：深色连片眼镜、露嘴、细弧头梁。
+[继续阅读：同一张脸的不同状态](/characters/bunny/face) · [终稿资产与下载](/characters/bunny/downloads)
 
-服装：橙色短外套、黑色高领、白色内搭、红色短裤。
-
-下肢：左右非对称袜装、单侧护膝、同款左右鞋。
-
-终稿背负电锯连同鞘具，是整体轮廓的一部分。
-
-## 正面与背面整装
-
-<ReleaseImage
-  src="/characters/bunny/1.0.0/front.webp"
-  alt="正面整装"
-  original="/media/bunny/1.0.0/front.png"
-  caption="正面整装"
-/>
-
-<ReleaseImage
-  src="/characters/bunny/1.0.0/back.webp"
-  alt="背面整装"
-  original="/media/bunny/1.0.0/back.png"
-  caption="背面整装"
-/>
-
-人物右侧等于正面图左侧。所有不对称装备以角色自身左右为基准。
-
-[返回角色总览](/characters/bunny/)
+[返回目录](/characters/bunny/)

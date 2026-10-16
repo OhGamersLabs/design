@@ -1,66 +1,14 @@
 ---
-title: 头部与表情
-description: Bunny 终稿角色设计白皮书 · 头部与表情
+title: "头部与表情"
+description: "Bunny 角色设计白皮书 · 头部与表情"
 releaseReady: true
+pageClass: bunny-editorial
+aside: false
+section: identity
+lead: "本页保留原章节地址，请按新版章节继续阅读。"
 ---
 
 # 头部与表情
 
-## 头部总成
-
-<ReleaseImage
-  src="/characters/bunny/1.0.0/headgear.webp"
-  alt="护目镜与头部总成"
-  original="/media/bunny/1.0.0/headgear.png"
-  caption="护目镜与头部总成"
-/>
-
-连片镜体保持深 U 形避鼻口，嘴与下巴露出。正面和可见角度使用三枚橙色上扣。
-
-细黑色弧梁配窄白边和橙色调节部，连接耳杯；兔耳属于配饰，不是新增生物器官。
-
-白橙耳杯与侧接清楚分层。被发束遮住的安装位仍是视觉结构方案，未给出加工公差与材料强度。
-
-## 护目镜与耳机细部
-
-深色镜片覆盖眼部，中央 U 形缺口为鼻梁留出空间。
-
-白色细眉梁配三枚橙扣；白色分节侧接与橙白耳杯相接。
-
-镜体与耳机不能画成覆盖头顶的一体白壳。镜架和耳机头梁仍应各自可辨。
-
-镜体、眉梁、夹扣、侧接与耳杯清晰分层。具体紧固件、转轴自由度与隐藏安装位属于后续工程深化范围。
-
-## 脸型与身份基准
-
-<ReleaseImage
-  src="/characters/bunny/1.0.0/face.webp"
-  alt="脸型基准"
-  original="/media/bunny/1.0.0/face.png"
-  caption="脸型基准"
-/>
-
-脸型设定是头部身份基准：面部比例、眼型、鼻口位置与白发层次需要延续。
-
-拆掉眼镜不意味着重新设计一张脸；戴镜时的鼻口也必须能对应摘镜状态。
-
-图中红眼是特殊表情状态的视觉参考，常态使用蓝色眼睛。
-
-脸型参照与当前头具材质参照分工不同，使用时兼顾身份比例与头具图中的简洁发束画法。
-
-## 表情范围与口部可读性
-
-<ReleaseImage
-  src="/characters/bunny/1.0.0/expressions.webp"
-  alt="表情范围"
-  original="/media/bunny/1.0.0/expressions.png"
-  caption="表情范围"
-/>
-
-露嘴造型让嘴角、唇线与下颌变化成为更重要的表演信息。
-
-表达强度主要来自眉眼、口形与头部方向，而不是改变脸宽、眼距和年龄感。
-
-设计分析：戴深色镜时，口部与身体姿态要承担更多情绪。需要强眼神表演的镜头，可使用摘镜状态，而不是临时把深色镜片改成透明。
-
-[返回角色总览](/characters/bunny/)
+- [脸型与表情 · 同一张脸的不同状态](/characters/bunny/face)
+- [头部系统 · 三套部件组成一个头部系统](/characters/bunny/headgear)

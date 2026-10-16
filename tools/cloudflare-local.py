@@ -97,46 +97,114 @@ def preflight(client):
                       'intercepting_routes': len(matching_routes), 'bucket_direct_public_access': False}))
 
 
-def upload(client):
-    subprocess.run(['npm', 'run', 'check:release'], cwd=ROOT, check=True)
-    catalog = json.loads((ROOT / 'catalog/releases.json').read_text())
-    assets = catalog['assets']
-    for asset in assets:
-        path = ROOT / '.release' / asset['character'] / asset['version'] / asset['downloadName']
-        body = path.read_bytes()
-        if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256']:
-            raise RuntimeError('Local release integrity mismatch: ' + asset['path'])
-    prefix = 'x_ops/design/characters/bunny/releases/1.0.0/'
-    cursor = None
+def release_groups(catalog):
+    """Select only current catalog groups, with one active version per character."""
+    if (not isinstance(catalog, dict) or catalog.get('schemaVersion') != 1 or
+            catalog.get('contentReady') is not True or
+            not isinstance(catalog.get('assets'), list) or not catalog['assets']):
+        raise RuntimeError('Production requires approved content and a nonempty release catalog')
+    groups, versions, paths, keys = {}, {}, set(), set()
+    for asset in catalog['assets']:
+        if not isinstance(asset, dict):
+            raise RuntimeError('Invalid release asset metadata')
+        character, version = asset.get('character'), asset.get('version')
+        if (not isinstance(character, str) or not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,63}', character) or
+                not isinstance(version, str) or not re.fullmatch(r'[0-9]+\.[0-9]+\.[0-9]+(?:-[a-z0-9-]+)?', version)):
+            raise RuntimeError('Invalid release character or version')
+        if character in versions and versions[character] != version:
+            raise RuntimeError('Each character must have one active version: ' + character)
+        versions[character] = version
+        prefix = f'/media/{character}/{version}/'
+        path, key = asset.get('path'), asset.get('key')
+        filename = path[len(prefix):] if isinstance(path, str) and path.startswith(prefix) else ''
+        if (not re.fullmatch(r'[A-Za-z0-9._-]+', filename) or '..' in filename or
+                key != f'x_ops/design/characters/{character}/releases/{version}/{filename}' or
+                path in paths or key in keys):
+            raise RuntimeError('Invalid or duplicate release path/key')
+        size, sha = asset.get('size'), asset.get('sha256')
+        if (type(size) is not int or not 0 < size <= 9007199254740991 or
+                not isinstance(sha, str) or not re.fullmatch(r'[a-fA-F0-9]{64}', sha) or
+                asset.get('contentType') not in {'image/png', 'image/jpeg', 'image/webp', 'application/pdf', 'application/zip'}):
+            raise RuntimeError('Invalid release asset integrity metadata')
+        groups.setdefault((character, version), []).append(asset)
+        paths.add(path)
+        keys.add(key)
+    return groups
+
+
+def local_release_files(catalog, root=ROOT):
+    """Validate every local file before performing any remote operation."""
+    groups = release_groups(catalog)
+    files = []
+    for assets in groups.values():
+        for asset in assets:
+            filename = asset['key'].rsplit('/', 1)[1]
+            path = Path(root) / '.release' / asset['character'] / asset['version'] / filename
+            body = path.read_bytes()
+            if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256'].lower():
+                raise RuntimeError('Local release integrity mismatch: ' + asset['path'])
+            files.append((asset, path))
+    return groups, files
+
+
+def list_release_objects(client, groups):
+    """Complete pagination separately for every active character/version prefix."""
     present = {}
-    while True:
-        query = {'prefix': prefix, 'per_page': 1000}
-        if cursor:
-            query['cursor'] = cursor
-        page = client.call(f'/accounts/{ACCOUNT}/r2/buckets/{BUCKET}/objects?' + urllib.parse.urlencode(query))
-        present.update({item['key']: item for item in page.get('result') or []})
-        info = page.get('result_info') or {}
-        cursor = info.get('cursor') if info.get('is_truncated') else None
-        if not cursor:
-            break
-    for asset in assets:
-        path = ROOT / '.release' / asset['character'] / asset['version'] / asset['downloadName']
+    for character, version in groups:
+        prefix = f'x_ops/design/characters/{character}/releases/{version}/'
+        cursor, cursors = None, set()
+        while True:
+            query = {'prefix': prefix, 'per_page': 1000}
+            if cursor:
+                query['cursor'] = cursor
+            page = client.call(f'/accounts/{ACCOUNT}/r2/buckets/{BUCKET}/objects?' + urllib.parse.urlencode(query))
+            for item in page.get('result') or []:
+                key = item.get('key') if isinstance(item, dict) else None
+                if not isinstance(key, str) or not key.startswith(prefix):
+                    raise RuntimeError('R2 listing returned an object outside the requested release prefix')
+                present[key] = item
+            info = page.get('result_info') or {}
+            if not info.get('is_truncated'):
+                break
+            cursor = info.get('cursor')
+            if not isinstance(cursor, str) or not cursor or cursor in cursors:
+                raise RuntimeError('Incomplete or repeated R2 listing pagination cursor')
+            cursors.add(cursor)
+    return present
+
+
+def upload_release_objects(client, catalog, root=ROOT):
+    """Upload exact current release files through an injected client; never auto-publish old versions."""
+    groups, files = local_release_files(catalog, root)
+    present = list_release_objects(client, groups)
+    for asset, path in files:
         endpoint = f'/accounts/{ACCOUNT}/r2/buckets/{BUCKET}/objects/' + urllib.parse.quote(asset['key'], safe='/')
         if asset['key'] in present:
             body = client.call(endpoint, binary=True)
-            if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256']:
+            if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256'].lower():
                 raise RuntimeError('Existing release object differs; refuse overwrite: ' + asset['path'])
             print(json.dumps({'object': asset['path'], 'status': 'existing_identical_skipped'}), flush=True)
             continue
-        result = client.call(endpoint, method='PUT', data=path.read_bytes(),
+        body = path.read_bytes()
+        if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256'].lower():
+            raise RuntimeError('Local release integrity mismatch: ' + asset['path'])
+        # Defense in depth only: this REST header is not an asserted atomic no-overwrite guarantee.
+        # Publishing must be serialized; existing keys are checked above and read back below.
+        result = client.call(endpoint, method='PUT', data=body,
                              headers={'Content-Type': asset['contentType'], 'If-None-Match': '*'})
         metadata = result.get('result') or {}
         if int(metadata.get('size', -1)) != asset['size']:
             raise RuntimeError('Uploaded size mismatch: ' + asset['path'])
         body = client.call(endpoint, binary=True)
-        if hashlib.sha256(body).hexdigest() != asset['sha256']:
-            raise RuntimeError('Uploaded hash mismatch: ' + asset['path'])
+        if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256'].lower():
+            raise RuntimeError('Uploaded hash or size mismatch: ' + asset['path'])
         print(json.dumps({'object': asset['path'], 'status': 'uploaded_and_verified', 'bytes': len(body)}), flush=True)
+
+
+def upload(client):
+    subprocess.run(['npm', 'run', 'check:release'], cwd=ROOT, check=True)
+    catalog = json.loads((ROOT / 'catalog/releases.json').read_text())
+    upload_release_objects(client, catalog)
 
 
 def wrangler(key, email, args):

@@ -1,28 +1,35 @@
 ---
-title: 双手与腕部
-description: Bunny 终稿角色设计白皮书 · 双手与腕部
+title: "先能握持，再安排硬件"
+description: "Bunny 角色设计白皮书 · 先能握持，再安排硬件"
 releaseReady: true
+pageClass: bunny-editorial
+aside: false
+section: components
+lead: "双手装备不对称，但指节和掌面都服从自然手部结构。"
 ---
 
-# 双手与腕部装备
+
+# 先能握持，再安排硬件
+
+## 侧别
+
+人物右手使用全指手套；左手使用露指手套与腕具。不能把两只手自动镜像成同款。
+
+## 活动
+
+硬片避开主要指关节，掌面保留握持所需的柔性。手背、掌面和握持状态分别检查。
+
+## 细节
+
+金色指环状装饰与手套分层，不粘连相邻手指。握持工具时同时检查手腕方向和手柄接触。
+
+## 图示对照
 
 <ReleaseImage
-  src="/characters/bunny/1.0.0/gloves.webp"
-  alt="双手装备"
-  original="/media/bunny/1.0.0/gloves.png"
-  caption="双手装备"
+  src="/characters/bunny/1.1.0/gloves.webp"
+  alt="手套"
+  original="/media/bunny/1.1.0/gloves.png"
+  caption="手套"
 />
 
-一侧是完整手套，另一侧为露指手套与腕部装备，不能自动镜像成两只相同的手。
-
-手背、掌面和握持状态分别检查。硬片避开主要指关节，掌面保留握持所需的柔性。
-
-金色指环状装饰与黑色手套分层，不能生成额外指头或把相邻手指粘成一块。
-
-握电锯时还要在总成图检查手腕方向和手柄接触。
-
-## 左右规则
-
-人物右手为全指手套；左手为露指手套与腕具。手背、掌面、关节活动范围和握持接触要在完整角色动作中一起检查。
-
-[返回角色总览](/characters/bunny/)
+[返回目录](/characters/bunny/)

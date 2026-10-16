@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { bunnySections } from './bunny-navigation.mjs'
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -6,8 +7,9 @@ export default defineConfig({
   description: 'OhGamers 角色设计白皮书、终稿与通用规范。',
   cleanUrls: true,
   appearance: false,
+  markdown: { headers: true },
   head: [
-    ['meta', { name: 'theme-color', content: '#faf9ff' }],
+    ['meta', { name: 'theme-color', content: '#fffdfa' }],
   ],
   themeConfig: {
     siteTitle: 'OhGamers / Design',
@@ -21,19 +23,12 @@ export default defineConfig({
           text: '角色档案',
           items: [
             {
-              text: 'Bunny · 1.0.0',
-              items: [
-                { text: '角色总览', link: '/characters/bunny/' },
-                { text: '设计语言', link: '/characters/bunny/design-language' },
-                { text: '头部与表情', link: '/characters/bunny/head-expressions' },
-                { text: '上装与分层', link: '/characters/bunny/upper-layers' },
-                { text: '双手与腕部', link: '/characters/bunny/hands' },
-                { text: '腿部与护具', link: '/characters/bunny/legs' },
-                { text: '鞋部结构', link: '/characters/bunny/shoes' },
-                { text: '电锯与背负', link: '/characters/bunny/saw' },
-                { text: '穿戴组合', link: '/characters/bunny/assembly' },
-                { text: '下载与资产索引', link: '/characters/bunny/downloads' },
-              ],
+              text: 'Bunny · 1.1.0',
+              items: bunnySections.map((section) => ({
+                text: `${section.number} · ${section.label}`,
+                link: section.link,
+                items: section.items.filter((item) => item.link !== section.link),
+              })),
             },
           ],
         },
