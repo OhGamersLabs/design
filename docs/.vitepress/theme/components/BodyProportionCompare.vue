@@ -24,7 +24,7 @@ function imageStyle(source: Source, view: View) {
 </script>
 
 <template>
-  <div class="body-comparison" aria-label="v2比例底子与本轮原色身体局部修订的等高图面对照">
+  <div class="body-comparison" :aria-label="`${previous.label}与${candidate.label}的等高图面对照`">
     <p class="body-comparison__note">以图面冠顶与赤脚地面统一显示高度；等比缩放与平移，不改变原图身体宽窄。对齐点为图面近似位置，不是骨骼测量。</p>
     <div class="body-comparison__views">
       <section v-for="(view, index) in previous.views" :key="view.label" class="body-comparison__view" :aria-label="view.label">

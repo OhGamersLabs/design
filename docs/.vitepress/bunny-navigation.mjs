@@ -32,7 +32,7 @@ export const bunnySections = [
     "description": "人物基准",
     "items": [
       {
-        "text": "v2局部修订 · 身体三视",
+        "text": "v2 · 手绘线稿与赛璐璐修订",
         "link": "/characters/bunny/body-base"
       },
       {

@@ -9,7 +9,8 @@ aside: true
 
 ## 3.1.0 本地修订
 
-- [v2局部修订 · 原色身体三视 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png)
+- [v2 · 手绘线稿与赛璐璐修订 PNG](/media/bunny/3.1.0/body-v2-cel-refined-v1.png)
+- [原v2局部修订 · 画风对照 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png)
 - [v2比例底子 · 对照参考 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png)
 - [当前穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)
 - [当前身份16格表情 PNG](/media/bunny/3.1.0/expressions-current-identity.png)
@@ -18,7 +19,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-身体修订是本轮二维基础体局部稿，尚未同步穿戴层及尺寸；原01与旧尺寸板作为沿革资料保留。原图包包含这两张 v2 相关 PNG，清单记录各自状态与来源哈希。
+身体修订是本轮二维基础体稿；当前赛璐璐稿只进一步调整线稿与上色，尚未同步穿戴层及尺寸，其他既有图尚未逐张重绘。原01与旧尺寸板作为沿革资料保留。原图包包含上述三张 v2 相关 PNG，清单记录各自状态与来源哈希。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 

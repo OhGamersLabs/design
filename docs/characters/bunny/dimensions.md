@@ -8,7 +8,7 @@ aside: true
 # 人物统一尺寸
 
 ::: warning 尺寸仍对应原01身体基准
-本页H、坐标与宽度仅对应[原01身体三视](/characters/bunny/body-base#original-01-reference)，不对应本轮 v2 局部修订稿。以下尺寸尚未随身体修订重新测量。
+本页H、坐标与宽度仅对应[原01身体三视](/characters/bunny/body-base#original-01-reference)，不对应本轮 v2 修订稿。以下尺寸尚未随身体修订重新测量。
 :::
 
 以下保留原01的身高、宽度与站位记录。当前武器设计另行说明，不把旧版武器比例套用到新的外形。

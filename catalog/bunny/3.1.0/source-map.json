@@ -197,5 +197,14 @@
     "review_status": "local-body-revision",
     "description": "本轮二维基础体修订稿；修整胸部衣物连接、侧背臀部包转，保留v2腰腿比例与纤细体型。",
     "scope": "未同步穿戴层及尺寸；原01与旧尺寸保留为沿革资料。"
+  },
+  "bunny/body-v2-cel-refined-v1.png": {
+    "baseline_sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+    "based_on": "/media/bunny/3.1.0/body-v2-local-refined-v1.png",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-cel-style/bunny-v2-cel-v5.png",
+    "source_artifact_sha256": "780dcbbea754db2bf76ff349ce093b0356fa150c1d3348f206d41e194dc2a516",
+    "review_status": "local-body-style-revision",
+    "description": "v2 · 手绘线稿与赛璐璐修订：日系二次元手绘线稿、平涂主色和硬边阴影；保留已修订v2的腰腿比例、胸臀轮廓、站姿与色系。",
+    "scope": "本轮仅更新二维基础体画风；穿戴层与尺寸未同步，其他既有图尚未逐张重绘。"
   }
 }

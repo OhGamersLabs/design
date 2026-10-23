@@ -1,7 +1,7 @@
 {
-  "status": "local-body-revision",
+  "status": "local-body-cel-revision",
   "alignment": "approximate image-plane hair crown/floor; equal uniform scaling, not anatomical measurements",
-  "scope": "本轮二维基础体局部修订；未同步穿戴层与尺寸",
+  "scope": "原v2比例底子与当前二维基础体修订对照；未同步穿戴层与尺寸",
   "previous": {
     "label": "v2 · 比例底子",
     "src": "/characters/bunny/3.1.0/body-v2-proportion-reference.webp",
@@ -28,8 +28,8 @@
     ]
   },
   "candidate": {
-    "label": "v2局部修订 · 本轮二维基础体",
-    "src": "/characters/bunny/3.1.0/body-v2-local-refined-v1.webp",
+    "label": "v2 · 手绘线稿与赛璐璐修订",
+    "src": "/characters/bunny/3.1.0/body-v2-cel-refined-v1.webp",
     "width": 1536,
     "views": [
       {

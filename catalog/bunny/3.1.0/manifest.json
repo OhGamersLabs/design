@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 42,
+  "asset_count": 43,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -1054,6 +1054,40 @@
       }
     },
     {
+      "id": "body-v2-cel-refined-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "body-v2-cel-refined-v1",
+      "source": {
+        "kind": "revised-reference",
+        "baseline_sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+        "based_on": "/media/bunny/3.1.0/body-v2-local-refined-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-cel-style/bunny-v2-cel-v5.png",
+        "source_artifact_sha256": "780dcbbea754db2bf76ff349ce093b0356fa150c1d3348f206d41e194dc2a516",
+        "review_status": "local-body-style-revision",
+        "description": "v2 · 手绘线稿与赛璐璐修订：日系二次元手绘线稿、平涂主色和硬边阴影；保留已修订v2的腰腿比例、胸臀轮廓、站姿与色系。",
+        "scope": "本轮仅更新二维基础体画风；穿戴层与尺寸未同步，其他既有图尚未逐张重绘。"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/body-v2-cel-refined-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1605393,
+        "sha256": "780dcbbea754db2bf76ff349ce093b0356fa150c1d3348f206d41e194dc2a516",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/body-v2-cel-refined-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 962432,
+        "sha256": "1220a9fa28562632bf753fc52c2d8727f9a999520395a29af71d11d1b91b7474",
+        "alpha": false
+      }
+    },
+    {
       "id": "body-v2-local-refined-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -1267,8 +1301,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 63727214,
-      "sha256": "3311a23e3dd2da17237bfe8dc67c4a2e16ac4f699167032abab21aace5923729"
+      "bytes": 65061732,
+      "sha256": "616379381379d57ddc78dacffd8a2349a146586f7562d65f3199015f83bae928"
     }
   ]
 }

@@ -1,0 +1,55 @@
+{
+  "status": "local-style-revision",
+  "alignment": "approximate image-plane hair crown/floor; equal uniform scaling, not anatomical measurements",
+  "scope": "仅比较已修订v2的画风；保持形体、站姿与色系",
+  "previous": {
+    "label": "v2局部修订 · 原画风",
+    "src": "/characters/bunny/3.1.0/body-v2-local-refined-v1.webp",
+    "width": 1536,
+    "views": [
+      {
+        "label": "正面",
+        "centerX": 358,
+        "crownY": 37,
+        "floorY": 947
+      },
+      {
+        "label": "角色右侧",
+        "centerX": 780,
+        "crownY": 37,
+        "floorY": 947
+      },
+      {
+        "label": "背面",
+        "centerX": 1176,
+        "crownY": 37,
+        "floorY": 947
+      }
+    ]
+  },
+  "candidate": {
+    "label": "v2 · 手绘线稿与赛璐璐修订",
+    "src": "/characters/bunny/3.1.0/body-v2-cel-refined-v1.webp",
+    "width": 1536,
+    "views": [
+      {
+        "label": "正面",
+        "centerX": 358,
+        "crownY": 37,
+        "floorY": 947
+      },
+      {
+        "label": "角色右侧",
+        "centerX": 780,
+        "crownY": 37,
+        "floorY": 947
+      },
+      {
+        "label": "背面",
+        "centerX": 1176,
+        "crownY": 37,
+        "floorY": 947
+      }
+    ]
+  }
+}
