@@ -9,6 +9,8 @@ aside: true
 
 ## 3.1.0 本地修订
 
+- [v2局部修订 · 原色身体三视 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png)
+- [v2比例底子 · 对照参考 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png)
 - [当前穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)
 - [当前身份16格表情 PNG](/media/bunny/3.1.0/expressions-current-identity.png)
 - [鞋带收尾与腿带活动 PNG](/media/bunny/3.1.0/35-lacing-thigh-motion.png)
@@ -16,11 +18,13 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-原图包包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
+身体修订是本轮二维基础体局部稿，尚未同步穿戴层及尺寸；原01与旧尺寸板作为沿革资料保留。原图包包含这两张 v2 相关 PNG，清单记录各自状态与来源哈希。
+
+原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
 ## 人物与识别
 
-<ul><li><a href="/media/bunny/3.1.0/00-origin-positioning.png">原始形象与设计定位</a></li><li><a href="/media/bunny/3.1.0/01-body-baseline.png">身体基准三视图</a></li><li><a href="/media/bunny/3.1.0/dimension-01-character-dimension-standard.png">人物尺寸基准</a></li><li><a href="/media/bunny/3.1.0/02-identity-style.png">面部身份与画风</a></li></ul>
+<ul><li><a href="/media/bunny/3.1.0/00-origin-positioning.png">原始形象与设计定位</a></li><li><a href="/media/bunny/3.1.0/01-body-baseline.png">原01身体三视 · 沿革参考</a></li><li><a href="/media/bunny/3.1.0/dimension-01-character-dimension-standard.png">原01人物尺寸板</a></li><li><a href="/media/bunny/3.1.0/02-identity-style.png">面部身份与画风</a></li></ul>
 
 ## 贴身衣层
 

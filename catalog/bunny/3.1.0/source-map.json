@@ -184,5 +184,18 @@
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/dimension-02-weapon-dimension-standard.png",
     "page": "https://design.ohgamers.org/characters/bunny/weapon-history",
     "baseline_sha256": "c8df9152a55a702b45b391654a6eee3cf0aaa8a78ee5ae542ac77303839fe2f6"
+  },
+  "bunny/body-v2-proportion-reference.png": {
+    "baseline_sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
+    "reference_role": "selected-proportion-foundation",
+    "review_status": "local-reference",
+    "description": "用户认可的v2原色纤细比例底子；用于本轮二维基础体局部修订对照。"
+  },
+  "bunny/body-v2-local-refined-v1.png": {
+    "baseline_sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
+    "based_on": "/media/bunny/3.1.0/body-v2-proportion-reference.png",
+    "review_status": "local-body-revision",
+    "description": "本轮二维基础体修订稿；修整胸部衣物连接、侧背臀部包转，保留v2腰腿比例与纤细体型。",
+    "scope": "未同步穿戴层及尺寸；原01与旧尺寸保留为沿革资料。"
   }
 }

@@ -355,6 +355,26 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/body-v2-local-refined-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/body-v2-local-refined-v1.png",
+      "sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+      "size": 1610310,
+      "contentType": "image/png",
+      "downloadName": "body-v2-local-refined-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/body-v2-proportion-reference.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/body-v2-proportion-reference.png",
+      "sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
+      "size": 1594077,
+      "contentType": "image/png",
+      "downloadName": "body-v2-proportion-reference.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/dimension-01-character-dimension-standard.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/dimension-01-character-dimension-standard.png",
       "sha256": "e9e84fc9905865f2bc20877921e8059ac24aa6271c50c167bf71ad9971be0f13",
@@ -407,8 +427,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "69687d841f569953ede098f90df92690c720dbec4736d6e217ea8377df08de4e",
-      "size": 61105018,
+      "sha256": "3311a23e3dd2da17237bfe8dc67c4a2e16ac4f699167032abab21aace5923729",
+      "size": 63727214,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

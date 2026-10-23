@@ -1,30 +1,55 @@
 {
-  "status": "awaiting reviewed color/slender body revision",
-  "alignment": "approximate image-plane crown/floor; not anatomical measurements",
+  "status": "local-body-revision",
+  "alignment": "approximate image-plane hair crown/floor; equal uniform scaling, not anatomical measurements",
+  "scope": "本轮二维基础体局部修订；未同步穿戴层与尺寸",
   "previous": {
-    "label": "当前原色身体基准",
-    "src": "/characters/bunny/3.1.0/01-body-baseline.webp",
-    "width": 2400,
+    "label": "v2 · 比例底子",
+    "src": "/characters/bunny/3.1.0/body-v2-proportion-reference.webp",
+    "width": 1536,
     "views": [
       {
         "label": "正面",
-        "centerX": 720,
-        "crownY": 356,
-        "floorY": 1445
+        "centerX": 358,
+        "crownY": 37,
+        "floorY": 947
       },
       {
         "label": "角色右侧",
-        "centerX": 1200,
-        "crownY": 356,
-        "floorY": 1445
+        "centerX": 780,
+        "crownY": 37,
+        "floorY": 947
       },
       {
         "label": "背面",
-        "centerX": 1680,
-        "crownY": 356,
-        "floorY": 1445
+        "centerX": 1176,
+        "crownY": 37,
+        "floorY": 947
       }
     ]
   },
-  "candidate": null
+  "candidate": {
+    "label": "v2局部修订 · 本轮二维基础体",
+    "src": "/characters/bunny/3.1.0/body-v2-local-refined-v1.webp",
+    "width": 1536,
+    "views": [
+      {
+        "label": "正面",
+        "centerX": 358,
+        "crownY": 37,
+        "floorY": 947
+      },
+      {
+        "label": "角色右侧",
+        "centerX": 780,
+        "crownY": 37,
+        "floorY": 947
+      },
+      {
+        "label": "背面",
+        "centerX": 1176,
+        "crownY": 37,
+        "floorY": 947
+      }
+    ]
+  }
 }

@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 40,
+  "asset_count": 42,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -1054,6 +1054,69 @@
       }
     },
     {
+      "id": "body-v2-local-refined-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "body-v2-local-refined-v1",
+      "source": {
+        "kind": "revised-reference",
+        "baseline_sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
+        "based_on": "/media/bunny/3.1.0/body-v2-proportion-reference.png",
+        "review_status": "local-body-revision",
+        "description": "本轮二维基础体修订稿；修整胸部衣物连接、侧背臀部包转，保留v2腰腿比例与纤细体型。",
+        "scope": "未同步穿戴层及尺寸；原01与旧尺寸保留为沿革资料。"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/body-v2-local-refined-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1610310,
+        "sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/body-v2-local-refined-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 942564,
+        "sha256": "ae10dea64d46a7be4e19d6ce457a12aa3390ef582146ad03b226c20ce237f137",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-v2-proportion-reference",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "body-v2-proportion-reference",
+      "source": {
+        "kind": "recovered-reference",
+        "baseline_sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
+        "reference_role": "selected-proportion-foundation",
+        "review_status": "local-reference",
+        "description": "用户认可的v2原色纤细比例底子；用于本轮二维基础体局部修订对照。"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/body-v2-proportion-reference.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1594077,
+        "sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/body-v2-proportion-reference.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 916306,
+        "sha256": "4f720a94c6922bff0515b2957843d13d39de53d71e532932744d8683b5f86188",
+        "alpha": false
+      }
+    },
+    {
       "id": "dimension-01-character-dimension-standard",
       "character": "bunny",
       "version": "3.1.0",
@@ -1204,8 +1267,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 61105018,
-      "sha256": "69687d841f569953ede098f90df92690c720dbec4736d6e217ea8377df08de4e"
+      "bytes": 63727214,
+      "sha256": "3311a23e3dd2da17237bfe8dc67c4a2e16ac4f699167032abab21aace5923729"
     }
   ]
 }
