@@ -9,9 +9,12 @@ import urllib.parse
 
 ROOT = Path(__file__).resolve().parents[1]
 STATIC = ROOT / 'docs/.vitepress/dist'
-CATALOG = json.loads((ROOT / 'catalog/releases.json').read_text())
-MEDIA = {item['path']: ROOT / '.release' / item['character'] / item['version'] / item['key'].rsplit('/', 1)[1]
-         for item in CATALOG['assets']}
+def local_media():
+    # Rebuilt catalogs can add new review images while this preview stays open.
+    catalog = json.loads((ROOT / 'catalog/releases.json').read_text())
+    return {item['path']: ROOT / '.release' / item['character'] / item['version'] / item['key'].rsplit('/', 1)[1]
+            for item in catalog['assets']}
+
 
 
 class Handler(http.server.BaseHTTPRequestHandler):
@@ -24,7 +27,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
     def serve(self, head):
         url = urllib.parse.urlsplit(self.path)
         if url.path == '/media' or url.path.startswith('/media/'):
-            path = MEDIA.get(url.path) if not url.query else None
+            path = local_media().get(url.path) if not url.query else None
             if path is None or not path.is_file():
                 return self.send_error(404)
         else:

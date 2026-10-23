@@ -1,35 +1,20 @@
 ---
-title: "贴身层建立清晰的上下边界"
-description: "Bunny 角色设计白皮书 · 贴身层建立清晰的上下边界"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: components
-lead: "白色短上衣与红色平角短裤，是服装层次的基础。"
+title: "贴身衣层"
+releaseReady: false
+aside: true
 ---
+# 贴身衣层
 
+白色上衣与红色短裤独立定义领口、袖窿、门襟、口袋和裤脚；穿戴三视保持自然包裹与臀部弧度。
 
-# 贴身层建立清晰的上下边界
+## 贴身衣层穿着三视
 
-## 版型
+<ReleaseImage src="/characters/bunny/3.1.0/03-innerwear-coverage.webp" original="/media/bunny/3.1.0/03-innerwear-coverage.png" alt="贴身衣层穿着三视" caption="贴身衣层穿着三视" />
 
-白色高领短上衣保留小型横向开口，背面使用简洁后中结构。红色短裤以明确裤腰和完整裤片收束，裤脚平直。
+## 白色上衣结构
 
-## 覆盖
+<ReleaseImage src="/characters/bunny/3.1.0/04-white-top-construction.webp" original="/media/bunny/3.1.0/04-white-top-construction.png" alt="白色上衣结构" caption="白色上衣结构" />
 
-正、侧、背对应同一裤腰高度与裤脚长度；白色上衣与皮肤之间的边界要明确，不能因高光混为一体。
+## 红色短裤结构
 
-## 材质
-
-使用低对比平涂和少量折线表示织物。缝线服务于版型，不为增加复杂度而到处添加。
-
-## 图示对照
-
-<ReleaseImage
-  src="/characters/bunny/1.1.0/innerwear.webp"
-  alt="内搭与短裤"
-  original="/media/bunny/1.1.0/innerwear.png"
-  caption="内搭与短裤"
-/>
-
-[返回目录](/characters/bunny/)
+<ReleaseImage src="/characters/bunny/3.1.0/05-red-shorts-construction.webp" original="/media/bunny/3.1.0/05-red-shorts-construction.png" alt="红色短裤结构" caption="红色短裤结构" />

@@ -1,35 +1,32 @@
 ---
-title: "先能握持，再安排硬件"
-description: "Bunny 角色设计白皮书 · 先能握持，再安排硬件"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: components
-lead: "双手装备不对称，但指节和掌面都服从自然手部结构。"
+title: "手部装备"
+releaseReady: false
+aside: true
 ---
+# 手部装备
 
+右手全指手套配红色护环；左手半指手套配橙色数字采集设备。不同姿势保持手指长度与关节关系。
 
-# 先能握持，再安排硬件
+## 手部装备累计衣层
 
-## 侧别
+<ReleaseImage src="/characters/bunny/3.1.0/13-hands-cumulative-threeview.webp" original="/media/bunny/3.1.0/13-hands-cumulative-threeview.png" alt="手部装备累计衣层" caption="手部装备累计衣层" />
 
-人物右手使用全指手套；左手使用露指手套与腕具。不能把两只手自动镜像成同款。
+## 手部装备穿戴
 
-## 活动
+<ReleaseImage src="/characters/bunny/3.1.0/10-hand-wearing.webp" original="/media/bunny/3.1.0/10-hand-wearing.png" alt="手部装备穿戴" caption="手部装备穿戴" />
 
-硬片避开主要指关节，掌面保留握持所需的柔性。手背、掌面和握持状态分别检查。
+## 手套独立视图
 
-## 细节
+<ReleaseImage src="/characters/bunny/3.1.0/11-glove-views.webp" original="/media/bunny/3.1.0/11-glove-views.png" alt="手套独立视图" caption="手套独立视图" />
 
-金色指环状装饰与手套分层，不粘连相邻手指。握持工具时同时检查手腕方向和手柄接触。
+## 腕部设备与护环
 
-## 图示对照
+<ReleaseImage src="/characters/bunny/3.1.0/12-wrist-accessories.webp" original="/media/bunny/3.1.0/12-wrist-accessories.png" alt="腕部设备与护环" caption="腕部设备与护环 · 3.1 修订（1245 × 1263）" />
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/gloves.webp"
-  alt="手套"
-  original="/media/bunny/1.1.0/gloves.png"
-  caption="手套"
-/>
+## 红护环 · 开合结构 {#cuff-opening}
 
-[返回目录](/characters/bunny/)
+<ReleaseImage src="/characters/bunny/3.1.0/34-cuff-mechanism.webp" original="/media/bunny/3.1.0/34-cuff-mechanism.png" alt="红护环三部分开合外观结构：闭合、开启、铰链与锁扣接口" caption="01闭合 / 02开启 / 03铰链与锁扣接口" />
+
+红护环采用双半壳、内侧竖轴铰链和外侧齐平机械锁扣。先解锁，再绕铰链打开，包在手套腕口外闭合，无需把整只手穿过闭合圆环。黑色软内衬贴合腕口，手背根部保留屈伸空间；不配置电子功能。
+
+本图定义开合外观和装配方向，锁扣内部公差、耐久与实际活动范围仍需制作验证。

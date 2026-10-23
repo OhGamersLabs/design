@@ -1,35 +1,28 @@
 ---
-title: "三套部件组成一个头部系统"
-description: "Bunny 角色设计白皮书 · 三套部件组成一个头部系统"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: language
-lead: "护目镜、耳机与兔耳配饰分别可读，依靠细连接统一。"
+title: "头部装备"
+releaseReady: false
+aside: true
 ---
+# 头部装备
 
+护目镜、耳机、兔耳配饰为独立部件。露出嘴部；眼镜镜腿与耳机弧形头梁各自独立，不能合并成面罩。
 
-# 三套部件组成一个头部系统
+## 头部装备累计衣层
 
-## 识别
+<ReleaseImage src="/characters/bunny/3.1.0/29-head-equipment-cumulative.webp" original="/media/bunny/3.1.0/29-head-equipment-cumulative.png" alt="头部装备累计衣层" caption="头部装备累计衣层" />
 
-B 型深色连片镜覆盖眼部，中央 U 形缺口避开鼻梁，鼻口与下巴露出。白色眉梁上保留三枚橙色夹扣。
+## 头部装备穿戴
 
-## 连接
+<ReleaseImage src="/characters/bunny/3.1.0/25-head-equipment-wearing.webp" original="/media/bunny/3.1.0/25-head-equipment-wearing.png" alt="头部装备穿戴" caption="头部装备穿戴" />
 
-窄黑色耳机弧梁带细白边和橙色调节件；橙白耳杯与白色分节侧接清楚分层。兔耳根部的配饰安装保持独立。
+## 护目镜独立结构
 
-## 绘制
+<ReleaseImage src="/characters/bunny/3.1.0/26-goggles-components.webp" original="/media/bunny/3.1.0/26-goggles-components.png" alt="护目镜独立结构" caption="护目镜独立结构" />
 
-头顶是白发，不是一体硬帽。发束以白色块和浅紫硬边阴影表达；镜体和耳杯用少量清晰高光，避免连续写实反射。
+## 耳机独立结构
 
-## 图示对照
+<ReleaseImage src="/characters/bunny/3.1.0/27-headphones-components.webp" original="/media/bunny/3.1.0/27-headphones-components.png" alt="耳机独立结构" caption="耳机独立结构" />
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/headgear.webp"
-  alt="头部总成"
-  original="/media/bunny/1.1.0/headgear.png"
-  caption="头部总成"
-/>
+## 兔耳配饰结构
 
-[返回目录](/characters/bunny/)
+<ReleaseImage src="/characters/bunny/3.1.0/28-ear-accessories-components.webp" original="/media/bunny/3.1.0/28-ear-accessories-components.png" alt="兔耳配饰结构" caption="兔耳配饰结构" />

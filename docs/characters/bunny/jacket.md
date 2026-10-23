@@ -1,35 +1,24 @@
 ---
-title: "蓬松外层包住紧实核心"
-description: "Bunny 角色设计白皮书 · 蓬松外层包住紧实核心"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: components
-lead: "短衣身、宽袖与收口袖口，产生外松内紧的轮廓对比。"
+title: "橙色外套"
+releaseReady: false
+aside: true
 ---
+# 橙色外套
 
+短款开襟外套保留红色内襟、黑色袖口、左袖口袋和眼形标志；黑领中央保留白圆 OG 标志，承载带位于外套外侧。
 
-# 蓬松外层包住紧实核心
+此穿着图已包含外侧承载带，并非只新增外套的中间衣层。先看外套覆盖关系，再看独立衣片与局部细节；下一页单独说明承载带的连接。
 
-## 轮廓
+<span id="外套穿着三视"></span>
 
-橙色短夹克保留宽松袖体，袖口收束；开放前襟让白色内搭和承载带仍可读。
+## 外套与外侧承载关系
 
-## 归属
+<ReleaseImage src="/characters/bunny/3.1.0/22-jacket-wearing.webp" original="/media/bunny/3.1.0/22-jacket-wearing.png" alt="外套与外侧承载关系" caption="外套与外侧承载关系" />
 
-黑色高领属于外套系统，不与头具重复。肩带、袖袋与眼形标识各自有明确位置。
+## 外套独立结构
 
-## 动作
+<ReleaseImage src="/characters/bunny/3.1.0/23-jacket-components.webp" original="/media/bunny/3.1.0/23-jacket-components.png" alt="外套独立结构" caption="外套独立结构" />
 
-衣褶解释布料在肘部和袖口的张力。袖口留出手套与腕具的连接，不用硬壳体积解释柔软衣袖。
+## 外套局部细节
 
-## 图示对照
-
-<ReleaseImage
-  src="/characters/bunny/1.1.0/jacket.webp"
-  alt="外套"
-  original="/media/bunny/1.1.0/jacket.png"
-  caption="外套"
-/>
-
-[返回目录](/characters/bunny/)
+<ReleaseImage src="/characters/bunny/3.1.0/24-jacket-details.webp" original="/media/bunny/3.1.0/24-jacket-details.png" alt="外套局部细节" caption="外套局部细节" />

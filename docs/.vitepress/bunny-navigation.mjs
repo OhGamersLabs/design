@@ -1,113 +1,121 @@
 export const bunnySections = [
   {
     "id": "identity",
-    "label": "角色识别",
+    "label": "角色与画风",
     "number": "01",
     "link": "/characters/bunny/",
-    "description": "先识别整体，再锁定脸型、轮廓与不对称特征。",
+    "description": "角色与画风",
     "items": [
       {
-        "text": "轻亮轮廓与重型工具",
+        "text": "Bunny · 角色设计",
         "link": "/characters/bunny/"
       },
       {
-        "text": "同一张脸的不同状态",
+        "text": "面部与身份",
         "link": "/characters/bunny/face"
-      }
-    ]
-  },
-  {
-    "id": "language",
-    "label": "视觉逻辑",
-    "number": "02",
-    "link": "/characters/bunny/visual-language",
-    "description": "用色彩分工和统一笔触解释同一个角色。",
-    "items": [
-      {
-        "text": "色彩负责识别 笔触统一材质",
-        "link": "/characters/bunny/visual-language"
       },
       {
-        "text": "三套部件组成一个头部系统",
-        "link": "/characters/bunny/headgear"
+        "text": "当前身份表情与变化",
+        "link": "/characters/bunny/expressions"
+      },
+      {
+        "text": "配色与 2D 手绘语言",
+        "link": "/characters/bunny/visual-language"
       }
     ]
   },
   {
-    "id": "components",
-    "label": "部件系统",
-    "number": "03",
+    "id": "baseline",
+    "label": "人物基准",
+    "number": "02",
     "link": "/characters/bunny/body-base",
-    "description": "让柔性衣物、固定带和硬质装备各有归属。",
+    "description": "人物基准",
     "items": [
       {
-        "text": "先建立稳定的身体基准",
+        "text": "身体比例固定基准",
         "link": "/characters/bunny/body-base"
       },
       {
-        "text": "贴身层建立清晰的上下边界",
-        "link": "/characters/bunny/innerwear"
+        "text": "人物统一尺寸",
+        "link": "/characters/bunny/dimensions"
       },
       {
-        "text": "蓬松外层包住紧实核心",
-        "link": "/characters/bunny/jacket"
-      },
-      {
-        "text": "袜装是柔性层，不是外骨骼",
-        "link": "/characters/bunny/hosiery"
-      },
-      {
-        "text": "带路连续，扣件有落点",
-        "link": "/characters/bunny/harness"
-      },
-      {
-        "text": "先能握持，再安排硬件",
-        "link": "/characters/bunny/hands"
-      },
-      {
-        "text": "双带把盒袋固定在外侧",
-        "link": "/characters/bunny/thigh-gear"
-      },
-      {
-        "text": "膝前硬片与膝后弹性带",
-        "link": "/characters/bunny/knee-guard"
-      },
-      {
-        "text": "同款镜像鞋，前侧后分工明确",
-        "link": "/characters/bunny/shoes"
-      },
-      {
-        "text": "工具外观与收纳关系成套设计",
-        "link": "/characters/bunny/saw"
-      }
-    ]
-  },
-  {
-    "id": "assembly",
-    "label": "穿戴结构",
-    "number": "04",
-    "link": "/characters/bunny/assembly",
-    "description": "由内而外组合，正背与遮挡保持连续。",
-    "items": [
-      {
-        "text": "按覆盖关系由内向外组合",
+        "text": "衣层与部件阅读顺序",
         "link": "/characters/bunny/assembly"
       }
     ]
   },
   {
-    "id": "application",
-    "label": "应用规范",
-    "number": "05",
-    "link": "/characters/bunny/application",
-    "description": "用于新视角与动作时，结构和画法都不漂移。",
+    "id": "layers",
+    "label": "由内到外",
+    "number": "03",
+    "link": "/characters/bunny/innerwear",
+    "description": "由内到外",
     "items": [
       {
-        "text": "扩展姿态 不扩写角色",
+        "text": "贴身衣层",
+        "link": "/characters/bunny/innerwear"
+      },
+      {
+        "text": "袜装",
+        "link": "/characters/bunny/hosiery"
+      },
+      {
+        "text": "鞋靴",
+        "link": "/characters/bunny/shoes"
+      },
+      {
+        "text": "手部装备",
+        "link": "/characters/bunny/hands"
+      },
+      {
+        "text": "腿部盒袋与任务终端",
+        "link": "/characters/bunny/thigh-gear"
+      },
+      {
+        "text": "橙色外套",
+        "link": "/characters/bunny/jacket"
+      },
+      {
+        "text": "承载带与固定点",
+        "link": "/characters/bunny/harness"
+      },
+      {
+        "text": "头部装备",
+        "link": "/characters/bunny/headgear"
+      }
+    ]
+  },
+  {
+    "id": "complete",
+    "label": "累计与武器",
+    "number": "04",
+    "link": "/characters/bunny/assembled",
+    "description": "累计与武器",
+    "items": [
+      {
+        "text": "当前累计穿戴",
+        "link": "/characters/bunny/assembled"
+      },
+      {
+        "text": "武器与收纳",
+        "link": "/characters/bunny/saw"
+      }
+    ]
+  },
+  {
+    "id": "application",
+    "label": "应用与下载",
+    "number": "05",
+    "link": "/characters/bunny/application",
+    "description": "应用与下载",
+    "items": [
+      {
+        "text": "应用规范",
         "link": "/characters/bunny/application"
       },
       {
-        "text": "终稿资产与下载",
+        "text": "设计图与参考下载",
         "link": "/characters/bunny/downloads"
       }
     ]

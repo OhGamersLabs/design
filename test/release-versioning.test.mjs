@@ -147,3 +147,26 @@ test('frontmatter false cannot be bypassed by releaseReady true in Markdown body
   await write(root, 'docs/characters/bunny/index.md', '---\nreleaseReady: false\n---\nreleaseReady: true\n')
   await assert.rejects(() => verify(root), /not ready/i)
 })
+
+// The historical 19-image contract applies to the 1.x final pack, not future guides.
+test('Bunny 3.x accepts its exact manifest count while preserving all integrity checks', async (t) => {
+  const { root } = await fixture(t, [{ character: 'bunny', version: '3.1.0', count: 36 }])
+  assert.equal((await verify(root)).webImages, 36)
+})
+
+test('local validation permits draft content but still requires exact original files', async (t) => {
+  const f = await fixture(t, [{ character: 'bunny', version: '3.1.0', count: 2 }])
+  f.catalog.contentReady = false
+  await write(f.root, 'catalog/releases.json', f.catalog)
+  const { verifyRelease } = await import('../tools/verify-release.mjs')
+  assert.equal((await verifyRelease(f.root, { production: false })).webImages, 2)
+  await assert.rejects(() => verifyRelease(f.root, { production: false, verifyOriginals: true }), /ENOENT/)
+  for (let i = 0; i < 2; i++) {
+    await write(f.root, `.release/bunny/3.1.0/image-${i}.png`, Buffer.from(`original bunny 3.1.0 ${i}`))
+  }
+  await write(f.root, '.release/bunny/3.1.0/whitepaper.pdf', Buffer.from('PDF bunny 3.1.0'))
+  assert.equal((await verifyRelease(f.root, { production: false, verifyOriginals: true })).webImages, 2)
+  await write(f.root, '.release/bunny/3.1.0/image-0.png', Buffer.from('original bunny 3.1.0 X'))
+  await assert.rejects(() => verifyRelease(f.root, { production: false, verifyOriginals: true }), /original integrity/)
+  await assert.rejects(() => verify(f.root), /Production/)
+})

@@ -4,8 +4,8 @@ import { useData } from 'vitepress'
 import { computed } from 'vue'
 import BunnyChapterHeader from './components/BunnyChapterHeader.vue'
 
-const { page } = useData()
-const isBunny = computed(() => page.value.relativePath.startsWith('characters/bunny/'))
+const { page, frontmatter } = useData()
+const isBunny = computed(() => page.value.relativePath.startsWith('characters/bunny/') && frontmatter.value.pageClass === 'bunny-editorial')
 </script>
 
 <template>

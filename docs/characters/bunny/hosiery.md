@@ -1,35 +1,16 @@
 ---
-title: "袜装是柔性层，不是外骨骼"
-description: "Bunny 角色设计白皮书 · 袜装是柔性层，不是外骨骼"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: components
-lead: "长袜、短袜与前臂套各自独立，贴合身体而不锁住关节。"
+title: "袜装"
+releaseReady: false
+aside: true
 ---
+# 袜装
 
+角色左腿为橙色长袜，右腿为白色短袜。袜口贴合身体并产生轻微压痕，织物与腿部轮廓连续。
 
-# 袜装是柔性层，不是外骨骼
+## 袜装穿着三视
 
-## 构成
+<ReleaseImage src="/characters/bunny/3.1.0/06-hosiery-wearing.webp" original="/media/bunny/3.1.0/06-hosiery-wearing.png" alt="袜装穿着三视" caption="袜装穿着三视" />
 
-人物左腿穿橙色长袜，右腿穿白色短袜；灰色前臂套为独立部件。各自的上下边缘和长度保持清楚。
+## 袜装针织细节
 
-## 连接
-
-袜口与短裤之间、踝口与鞋之间保留一致的覆盖关系。长袜不通过新增吊带连接短裤。
-
-## 绘制
-
-用少量硬边色块表达贴合形体。膝与胫部仍是织物曲面，不画成突起的刚性装甲。
-
-## 图示对照
-
-<ReleaseImage
-  src="/characters/bunny/1.1.0/hosiery.webp"
-  alt="袜套"
-  original="/media/bunny/1.1.0/hosiery.png"
-  caption="袜套"
-/>
-
-[返回目录](/characters/bunny/)
+<ReleaseImage src="/characters/bunny/3.1.0/07-hosiery-knit-details.webp" original="/media/bunny/3.1.0/07-hosiery-knit-details.png" alt="袜装针织细节" caption="袜装针织细节" />

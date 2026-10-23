@@ -1,63 +1,24 @@
 ---
-title: "按覆盖关系由内向外组合"
-description: "Bunny 角色设计白皮书 · 按覆盖关系由内向外组合"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: assembly
-lead: "分层图解释装配顺序，整装图验证所有层仍属于同一个角色。"
+title: "衣层与部件阅读顺序"
+releaseReady: false
+aside: true
 ---
+# 衣层与部件阅读顺序
 
+按身体向外的覆盖关系阅读，每层先看全身穿戴，再看该层局部与独立部件。图上的编号保留原始资料编号，不等于这里的阅读顺序。
 
-# 按覆盖关系由内向外组合
+## 基准
 
-## 第一层
+<ul><li><a href="/characters/bunny/body-base">身体比例固定基准</a></li><li><a href="/characters/bunny/dimensions">人物统一尺寸</a></li></ul>
 
-身体比例稳定后，加入白色内搭、红色短裤、袜套与前臂套，先确定覆盖边界。
+## 由内到外
 
-## 第二层
+<ol><li><a href="/characters/bunny/innerwear">贴身衣层</a>：穿着三视 → 白色上衣 → 红色短裤。</li><li><a href="/characters/bunny/hosiery">袜装</a>：穿着三视 → 针织细节。</li><li><a href="/characters/bunny/shoes">鞋靴</a>：穿着三视 → 独立结构。</li><li><a href="/characters/bunny/hands">手部装备</a>：累计全身 → 局部穿戴 → 手套 → 腕部设备。</li><li><a href="/characters/bunny/thigh-gear">腿部盒袋与任务终端</a>：累计全身 → 局部穿戴 → 终端 → 维护盒袋。</li><li><a href="/characters/bunny/jacket">橙色外套</a>：穿着与覆盖关系 → 独立衣片 → 局部细节。</li><li><a href="/characters/bunny/harness">承载带与固定点</a>：外套外侧位置 → 隐去外套的连接定位 → 带路、扣件与腰带。</li><li><a href="/characters/bunny/headgear">头部装备</a>：累计全身 → 头部局部 → 护目镜、耳机与兔耳配饰。</li><li><a href="/characters/bunny/assembled">武器水平收纳</a>：完整累计三视 → <a href="/characters/bunny/saw">收纳图解与比例口径</a>。</li></ol>
 
-加入承载带、腿侧盒袋和护膝，检查扣件落点、带路及左右侧别。
+## 外套与承载带的图示边界
 
-## 第三层
+外套穿着图已经包含外侧承载带；承载带定位图则隐去外套，以露出带路。两者配合阅读，不把定位图当作少穿一层后的累计结果，也不声称现有资料包含每一步的纯净增量图。
 
-外套覆盖核心层，再加入手套、鞋、头具与背负工具。检查领口、袖口、腰部和背面遮挡。
+## 当前累计结果
 
-## 图示对照
-
-<ReleaseImage
-  src="/characters/bunny/1.1.0/layer-inner.webp"
-  alt="内搭穿戴"
-  original="/media/bunny/1.1.0/layer-inner.png"
-  caption="内搭穿戴"
-/>
-
-<ReleaseImage
-  src="/characters/bunny/1.1.0/layer-harness.webp"
-  alt="护具穿戴"
-  original="/media/bunny/1.1.0/layer-harness.png"
-  caption="护具穿戴"
-/>
-
-<ReleaseImage
-  src="/characters/bunny/1.1.0/layer-jacket.webp"
-  alt="外套穿戴"
-  original="/media/bunny/1.1.0/layer-jacket.png"
-  caption="外套穿戴"
-/>
-
-<ReleaseImage
-  src="/characters/bunny/1.1.0/front.webp"
-  alt="正面整装"
-  original="/media/bunny/1.1.0/front.png"
-  caption="正面整装"
-/>
-
-<ReleaseImage
-  src="/characters/bunny/1.1.0/back.webp"
-  alt="背面整装"
-  original="/media/bunny/1.1.0/back.png"
-  caption="背面整装"
-/>
-
-[返回目录](/characters/bunny/)
+<a href="/characters/bunny/assembled">当前累计穿戴</a>展示加入背腰水平收纳武器后的正侧背三视，并保留上一层头部装备作为对照；<a href="/characters/bunny/saw">武器收纳与设计状态</a>说明收纳图解与比例口径。

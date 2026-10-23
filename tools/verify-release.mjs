@@ -13,8 +13,8 @@ const isRecord = (value) => value !== null && typeof value === 'object' && !Arra
 const isFilename = (value) => typeof value === 'string' && filenamePattern.test(value) && !value.includes('..')
 
 /** Only catalog entries select active releases; retained directories never expand the allowlist. */
-export function collectReleaseGroups(catalog) {
-  const allowed = validateCatalog(catalog, { production: true })
+export function collectReleaseGroups(catalog, { production = true } = {}) {
+  const allowed = validateCatalog(catalog, { production })
   const versions = new Map()
   const groups = new Map()
   for (const asset of allowed.values()) {
@@ -36,7 +36,7 @@ export function validateReleaseManifest(manifest, group, allowed) {
       !Number.isSafeInteger(manifest.asset_count) || manifest.asset_count !== manifest.assets.length) {
     throw new Error(`Invalid release manifest: ${group.character}/${group.version}`)
   }
-  if (group.character === 'bunny' && manifest.asset_count !== 19) {
+  if (group.character === 'bunny' && ['1.0.0', '1.1.0'].includes(group.version) && manifest.asset_count !== 19) {
     throw new Error('Expected 19 approved Bunny final images')
   }
   const referenced = new Set()
@@ -85,9 +85,9 @@ function requireReadyFrontmatter(markdown, character) {
 }
 
 /** Verify one active version per character using a supplied checkout root (also useful for isolated fixtures). */
-export async function verifyRelease(root = defaultRoot) {
+export async function verifyRelease(root = defaultRoot, { production = true, verifyOriginals = false } = {}) {
   const json = async (relative) => JSON.parse(await readFile(resolve(root, relative), 'utf8'))
-  const { allowed, groups } = collectReleaseGroups(await json('catalog/releases.json'))
+  const { allowed, groups } = collectReleaseGroups(await json('catalog/releases.json'), { production })
   const releases = []
   for (const group of groups) {
     const manifestPath = `catalog/${group.character}/${group.version}/manifest.json`
@@ -103,8 +103,18 @@ export async function verifyRelease(root = defaultRoot) {
         throw new Error(`Web asset integrity mismatch: ${asset.path}`)
       }
     }
-    const overview = await readFile(resolve(root, `docs/characters/${group.character}/index.md`), 'utf8')
-    requireReadyFrontmatter(overview, group.character)
+    if (production) {
+      const overview = await readFile(resolve(root, `docs/characters/${group.character}/index.md`), 'utf8')
+      requireReadyFrontmatter(overview, group.character)
+    }
+    if (verifyOriginals) {
+      for (const asset of group.assets) {
+        const bytes = await readFile(resolve(root, '.release', group.character, group.version, asset.path.split('/').at(-1)))
+        if (bytes.length !== asset.size || createHash('sha256').update(bytes).digest('hex') !== asset.sha256.toLowerCase()) {
+          throw new Error(`Local original integrity mismatch: ${asset.path}`)
+        }
+      }
+    }
     releases.push({ character: group.character, version: group.version, webImages: webAssets.length, r2Urls: group.assets.length })
   }
   return { webImages: releases.reduce((sum, release) => sum + release.webImages, 0), r2Urls: allowed.size, releases }
@@ -112,8 +122,9 @@ export async function verifyRelease(root = defaultRoot) {
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
-    const result = await verifyRelease()
-    console.log(`Release ready: ${result.webImages} verified web images; ${result.r2Urls} exact R2 URLs; ${result.releases.length} active releases`)
+    const local = process.argv.includes('--local')
+    const result = await verifyRelease(defaultRoot, { production: !local, verifyOriginals: local })
+    console.log(`${local ? 'Local reference verified' : 'Release ready'}: ${result.webImages} verified web images; ${result.r2Urls} exact media URLs; ${result.releases.length} active releases`)
   } catch (error) {
     console.error(error.message)
     process.exitCode = 1

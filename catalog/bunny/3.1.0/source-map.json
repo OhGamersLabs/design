@@ -1,0 +1,188 @@
+{
+  "origins/bunny-original.png": {
+    "url": "https://design.ohgamers.org/media/origins/1.0.0/bunny-original.png",
+    "page": "https://design.ohgamers.org/characters/bunny/",
+    "baseline_sha256": "d1f8982e7c9553957b500b0e3778e20071ae55b81b84bff7a42b8f370a273a20"
+  },
+  "bunny/00-origin-positioning.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/00-origin-positioning.png",
+    "page": "https://design.ohgamers.org/characters/bunny/",
+    "baseline_sha256": "7307c3e2e7208eb03b1621d1031c2713067b32661ccc536d6b130a1830367afd"
+  },
+  "bunny/31-neutral-stored-threeview.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/31-neutral-stored-threeview.png",
+    "page": "https://design.ohgamers.org/characters/bunny/",
+    "baseline_sha256": "08e51c7ae203b7187e8711bf627325a4a3165e822b71977cc4bd0e71c6c13364"
+  },
+  "bunny/02-identity-style.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/02-identity-style.png",
+    "page": "https://design.ohgamers.org/characters/bunny/face",
+    "baseline_sha256": "af914d5a15c9bc54d2338f03295e7cca1c83ddb98f12618ed35cf9bbc6e503f6"
+  },
+  "bunny/recovered-expressions-2.1.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/recovered-expressions-2.1.png",
+    "page": "https://design.ohgamers.org/characters/bunny/expressions",
+    "baseline_sha256": "b08c8ce3ab4ca714762a2210c7ca4b9b9fceaa122d09b378c47dd0216ecc8be8",
+    "historical_design_version": "2.1"
+  },
+  "bunny/24-jacket-details.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/24-jacket-details.png",
+    "page": "https://design.ohgamers.org/characters/bunny/visual-language",
+    "baseline_sha256": "e902ae0caa771acb9ca9a0ee64cd35750800867d3d022ee0761394ee80b794e9"
+  },
+  "bunny/07-hosiery-knit-details.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/07-hosiery-knit-details.png",
+    "page": "https://design.ohgamers.org/characters/bunny/visual-language",
+    "baseline_sha256": "bc72041c99c04505f16a4c5be96f3645a68bca6970780a7840eadee485f57999"
+  },
+  "bunny/01-body-baseline.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/01-body-baseline.png",
+    "page": "https://design.ohgamers.org/characters/bunny/body-base",
+    "baseline_sha256": "269961a0cc7fd65b33b87e27946f6966d030348a4f61da204bab4a63be9fdbe3"
+  },
+  "bunny/dimension-01-character-dimension-standard.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/dimension-01-character-dimension-standard.png",
+    "page": "https://design.ohgamers.org/characters/bunny/body-base",
+    "baseline_sha256": "e9e84fc9905865f2bc20877921e8059ac24aa6271c50c167bf71ad9971be0f13"
+  },
+  "bunny/03-innerwear-coverage.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/03-innerwear-coverage.png",
+    "page": "https://design.ohgamers.org/characters/bunny/innerwear",
+    "baseline_sha256": "48d913983e75ed7e6e44f155c7bc8fb7b83e3de7594ad4c41a8a19fc4ff7ba7e"
+  },
+  "bunny/04-white-top-construction.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/04-white-top-construction.png",
+    "page": "https://design.ohgamers.org/characters/bunny/innerwear",
+    "baseline_sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1"
+  },
+  "bunny/05-red-shorts-construction.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/05-red-shorts-construction.png",
+    "page": "https://design.ohgamers.org/characters/bunny/innerwear",
+    "baseline_sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d"
+  },
+  "bunny/06-hosiery-wearing.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/06-hosiery-wearing.png",
+    "page": "https://design.ohgamers.org/characters/bunny/hosiery",
+    "baseline_sha256": "aa3bb65023f4a40ddcbcf7ae2c3c542771e924e24f3edf51ce7dd90acf788528"
+  },
+  "bunny/08-footwear-wearing-r2.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/08-footwear-wearing-r2.png",
+    "page": "https://design.ohgamers.org/characters/bunny/shoes",
+    "baseline_sha256": "37c30051d5c080db6fbd158a8a1a43eb125538151aed4fe80cf0f4ffe0646f2b"
+  },
+  "bunny/09-footwear-construction.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/09-footwear-construction.png",
+    "page": "https://design.ohgamers.org/characters/bunny/shoes",
+    "baseline_sha256": "ca0665da34aa1c7fffd0ce8258bf1baf44f8892717997352704333c5608eeb6c"
+  },
+  "bunny/13-hands-cumulative-threeview.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/13-hands-cumulative-threeview.png",
+    "page": "https://design.ohgamers.org/characters/bunny/hands",
+    "baseline_sha256": "b84c28969570be5dd0023567b19f8264c520ed76ba9fb937cc3105b20cdde798"
+  },
+  "bunny/10-hand-wearing.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/10-hand-wearing.png",
+    "page": "https://design.ohgamers.org/characters/bunny/hands",
+    "baseline_sha256": "98ae5a65bfeb74a3dcc99ff6f9085f60ea0bc8a62fdf53317e539ea0b1ac59ca"
+  },
+  "bunny/11-glove-views.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/11-glove-views.png",
+    "page": "https://design.ohgamers.org/characters/bunny/hands",
+    "baseline_sha256": "485f93e85081d486aa85596acc67253f52c4b6ed713957c726af3497e6e036c1"
+  },
+  "bunny/12-wrist-accessories.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/12-wrist-accessories.png",
+    "page": "https://design.ohgamers.org/characters/bunny/hands",
+    "baseline_sha256": "e30c2efa45773c45086ac314bd051f9c0708ef9cfffcbbd5065288a0734e5a32"
+  },
+  "bunny/17-thigh-cumulative-threeview.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/17-thigh-cumulative-threeview.png",
+    "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
+    "baseline_sha256": "6ba13cac1d7fc894acf568e23410898dd460f58c834c48a66fe3c263df169df8"
+  },
+  "bunny/14-thigh-wearing.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/14-thigh-wearing.png",
+    "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
+    "baseline_sha256": "ec54023618d4651c051192a9848b8f59f9a3fd14494a685db38feca813fdbc7f"
+  },
+  "bunny/15-task-terminal.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/15-task-terminal.png",
+    "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
+    "baseline_sha256": "7502812c3ac7336bab3224a66b5a65da208e6a6ebb649fa04f658ee04e62618b"
+  },
+  "bunny/16-maintenance-pouch.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/16-maintenance-pouch.png",
+    "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
+    "baseline_sha256": "35380d86e00e678de157f607ba2db803cc61c7dc50184172d59931fa178f7a37"
+  },
+  "bunny/22-jacket-wearing.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/22-jacket-wearing.png",
+    "page": "https://design.ohgamers.org/characters/bunny/jacket",
+    "baseline_sha256": "4f196158fa701954277978adc487712342de6690c101eef22632c54449300183"
+  },
+  "bunny/23-jacket-components.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/23-jacket-components.png",
+    "page": "https://design.ohgamers.org/characters/bunny/jacket",
+    "baseline_sha256": "696f176054ee58f2689533ed7623201a017bfa185da61d630cf95f6994128829"
+  },
+  "bunny/18-carrier-wearing.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/18-carrier-wearing.png",
+    "page": "https://design.ohgamers.org/characters/bunny/harness",
+    "baseline_sha256": "e1f0061728007e69b545b79d68c5b694c44658a2e79c831a44a51f529b374f25"
+  },
+  "bunny/19-carrier-components.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/19-carrier-components.png",
+    "page": "https://design.ohgamers.org/characters/bunny/harness",
+    "baseline_sha256": "3a8614c0a4cfed3b64d4703e55c61895913f5ce9afecac35de3a9f155d5be2ff"
+  },
+  "bunny/20-carrier-details.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/20-carrier-details.png",
+    "page": "https://design.ohgamers.org/characters/bunny/harness",
+    "baseline_sha256": "7ac756bda8693f4d14297649019a84511f4473049ed2dcbb3bfbeeb73944691e"
+  },
+  "bunny/21-carrier-details.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/21-carrier-details.png",
+    "page": "https://design.ohgamers.org/characters/bunny/harness",
+    "baseline_sha256": "4c8da3a3967374f7d7fc4aba910562a0e823457112b9a9171760a462229bec4d"
+  },
+  "bunny/29-head-equipment-cumulative.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/29-head-equipment-cumulative.png",
+    "page": "https://design.ohgamers.org/characters/bunny/headgear",
+    "baseline_sha256": "c104845bf9796e95759572e22e80ed8c52856e7fb820836f65b8a9395b2d6e1e"
+  },
+  "bunny/25-head-equipment-wearing.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/25-head-equipment-wearing.png",
+    "page": "https://design.ohgamers.org/characters/bunny/headgear",
+    "baseline_sha256": "0d9e9d729d29c633640484e6f366a0aab150232fafb1bd062195cc0cf14a2e12"
+  },
+  "bunny/26-goggles-components.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/26-goggles-components.png",
+    "page": "https://design.ohgamers.org/characters/bunny/headgear",
+    "baseline_sha256": "7661d2db6f1a480009c99e75a729703bf05e306a29b8ecc9e76dbc5a0901df41"
+  },
+  "bunny/27-headphones-components.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/27-headphones-components.png",
+    "page": "https://design.ohgamers.org/characters/bunny/headgear",
+    "baseline_sha256": "9c007e2548265c195f5b910a846d22d29c7efe8939b66c22d3b00ee35ed501e4"
+  },
+  "bunny/28-ear-accessories-components.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/28-ear-accessories-components.png",
+    "page": "https://design.ohgamers.org/characters/bunny/headgear",
+    "baseline_sha256": "86621662d9fd83e4cee1cba39754dfcea9fac2dfa5101ea04ea56e4ba19c69d1"
+  },
+  "bunny/30-compact-weapon-exterior-parts.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/30-compact-weapon-exterior-parts.png",
+    "page": "https://design.ohgamers.org/characters/bunny/saw",
+    "baseline_sha256": "f75b4465eca5c7e96af21328a7cba224e0206bc3ad58f62537e7ed59505fda88"
+  },
+  "bunny/31-neutral-stored-design-guide.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/31-neutral-stored-design-guide.png",
+    "page": "https://design.ohgamers.org/characters/bunny/saw",
+    "baseline_sha256": "8969d0fdbea8c389fb218dbd547b29019b8e408818b79ccbb920526b57f5abbd"
+  },
+  "bunny/dimension-02-weapon-dimension-standard.png": {
+    "url": "https://design.ohgamers.org/media/bunny/3.0.0/dimension-02-weapon-dimension-standard.png",
+    "page": "https://design.ohgamers.org/characters/bunny/weapon-history",
+    "baseline_sha256": "c8df9152a55a702b45b391654a6eee3cf0aaa8a78ee5ae542ac77303839fe2f6"
+  }
+}

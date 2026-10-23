@@ -1,14 +1,9 @@
 ---
-title: "上装与分层"
-description: "Bunny 角色设计白皮书 · 上装与分层"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: components
-lead: "本页保留原章节地址，请按新版章节继续阅读。"
+title: "历史章节入口"
 ---
 
-# 上装与分层
+# 历史章节入口
 
-- [内搭与短裤 · 贴身层建立清晰的上下边界](/characters/bunny/innerwear)
-- [外套与领口 · 蓬松外层包住紧实核心](/characters/bunny/jacket)
+此旧版章节已由当前设计替代。
+
+[阅读 贴身衣层](/characters/bunny/innerwear)

@@ -1,35 +1,22 @@
 ---
-title: "同款镜像鞋，前侧后分工明确"
-description: "Bunny 角色设计白皮书 · 同款镜像鞋，前侧后分工明确"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: components
-lead: "鞋舌、鞋头、踝扣与鞋跟的位置不能因视角而迁移。"
+title: "鞋靴"
+releaseReady: false
+aside: true
 ---
+# 鞋靴
 
+红白鞋靴独立于武器系统。鞋口、袜口、脚踝和鞋舌遮挡关系保持连续，不穿模。
 
-# 同款镜像鞋，前侧后分工明确
+## 鞋靴穿着三视
 
-## 正面
+<ReleaseImage src="/characters/bunny/3.1.0/08-footwear-wearing-r2.webp" original="/media/bunny/3.1.0/08-footwear-wearing-r2.png" alt="鞋靴穿着三视" caption="鞋靴穿着三视" />
 
-三槽鞋舌板、白色交叉带、鞋头四铆钉与外角橙圈组成主要识别。
+## 鞋靴独立结构
 
-## 左右对应
+<ReleaseImage src="/characters/bunny/3.1.0/09-footwear-construction.webp" original="/media/bunny/3.1.0/09-footwear-construction.png" alt="鞋靴独立结构" caption="鞋靴独立结构" />
 
-左右鞋是同款镜像，鞋底高度一致。前鞋舌不能从背面鞋口长出，侧扣不变成随机装饰。
+## 鞋带收尾与收纳
 
-## 侧面
+<ReleaseImage src="/characters/bunny/3.1.0/35-lacing-thigh-motion.webp" original="/media/bunny/3.1.0/35-lacing-thigh-motion.png" alt="鞋带结收纳与坐姿、抬右腿时的腿带关系；橙袜左鞋内踝不设圆扣" caption="01鞋带结 / 02收纳 / 03坐姿 / 04抬右腿" />
 
-踝扣、白色中底与红色鞋跟分层，外后跟保留金色六角标。外侧标记不移动到正后跟。
-
-## 图示对照
-
-<ReleaseImage
-  src="/characters/bunny/1.1.0/shoes-saw.webp"
-  alt="鞋与电锯部件图，鞋部位于下半部"
-  original="/media/bunny/1.1.0/shoes-saw.png"
-  caption="鞋与电锯"
-/>
-
-[返回目录](/characters/bunny/)
+01掀开鞋舌收纳片可见白色鞋带结和短尾；02把结与尾端收入上鞋舌袋，维持原有交叉系带，不留悬垂线头。外踝圆件与内侧鞋面分开，不能镜像复制。

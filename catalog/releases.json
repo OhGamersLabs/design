@@ -1,216 +1,426 @@
 {
   "schemaVersion": 1,
-  "contentReady": true,
+  "contentReady": false,
   "assets": [
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/character-card.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/character-card.png",
-      "sha256": "54d78e3e254a0a9e22c8ba4d507ff36432b6cd4ca8365513c19256efcc66caa5",
-      "size": 1044750,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/00-origin-positioning.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/00-origin-positioning.png",
+      "sha256": "7307c3e2e7208eb03b1621d1031c2713067b32661ccc536d6b130a1830367afd",
+      "size": 994718,
       "contentType": "image/png",
-      "downloadName": "character-card.png"
+      "downloadName": "00-origin-positioning.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/front.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/front.png",
-      "sha256": "813695dda57ead82c862163d45b58c4217faad6a02e971ff7e687cd21b584870",
-      "size": 994511,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/01-body-baseline.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/01-body-baseline.png",
+      "sha256": "269961a0cc7fd65b33b87e27946f6966d030348a4f61da204bab4a63be9fdbe3",
+      "size": 768045,
       "contentType": "image/png",
-      "downloadName": "front.png"
+      "downloadName": "01-body-baseline.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/back.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/back.png",
-      "sha256": "53496620408e7279ba8dabf6bb657100a771ce7c687e1e4bc68868d5ffd24399",
-      "size": 857110,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/02-identity-style.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/02-identity-style.png",
+      "sha256": "af914d5a15c9bc54d2338f03295e7cca1c83ddb98f12618ed35cf9bbc6e503f6",
+      "size": 1118385,
       "contentType": "image/png",
-      "downloadName": "back.png"
+      "downloadName": "02-identity-style.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/headgear.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/headgear.png",
-      "sha256": "1bc80c7bfa4bd0b5b38fe3fc1c5f6623a686ff3c30a7eda52c8d9aa54891e056",
-      "size": 2068971,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/03-innerwear-coverage.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/03-innerwear-coverage.png",
+      "sha256": "48d913983e75ed7e6e44f155c7bc8fb7b83e3de7594ad4c41a8a19fc4ff7ba7e",
+      "size": 805045,
       "contentType": "image/png",
-      "downloadName": "headgear.png"
+      "downloadName": "03-innerwear-coverage.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/face.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/face.png",
-      "sha256": "97f02ea0f6e296e6edb49ae30a8b821ec4d0527e10f9b5e0d497ae19446b574f",
-      "size": 2143089,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/04-white-top-construction.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/04-white-top-construction.png",
+      "sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1",
+      "size": 2148002,
       "contentType": "image/png",
-      "downloadName": "face.png"
+      "downloadName": "04-white-top-construction.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/expressions.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/expressions.png",
-      "sha256": "637b05a96f5b82e1504ba996436f34697fd49ef7ec0d7f6cd77fa16c400ffab0",
-      "size": 2601956,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/05-red-shorts-construction.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/05-red-shorts-construction.png",
+      "sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d",
+      "size": 2380908,
       "contentType": "image/png",
-      "downloadName": "expressions.png"
+      "downloadName": "05-red-shorts-construction.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/body-base.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/body-base.png",
-      "sha256": "f13aa27056d9b647e78f12ebbc147652845e55be0b0ee1255d29e338ff9cc287",
-      "size": 1600142,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/06-hosiery-wearing.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/06-hosiery-wearing.png",
+      "sha256": "aa3bb65023f4a40ddcbcf7ae2c3c542771e924e24f3edf51ce7dd90acf788528",
+      "size": 819244,
       "contentType": "image/png",
-      "downloadName": "body-base.png"
+      "downloadName": "06-hosiery-wearing.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/layer-inner.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/layer-inner.png",
-      "sha256": "389629e3ba2e20822a7b8267ecc98fb4da4f2807496a878a9f4cc4e61bbdb80b",
-      "size": 1447207,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/07-hosiery-knit-details.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/07-hosiery-knit-details.png",
+      "sha256": "bc72041c99c04505f16a4c5be96f3645a68bca6970780a7840eadee485f57999",
+      "size": 2613936,
       "contentType": "image/png",
-      "downloadName": "layer-inner.png"
+      "downloadName": "07-hosiery-knit-details.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/layer-harness.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/layer-harness.png",
-      "sha256": "403b4a1d420744834482d12bc3d7c0e56da5ad4e6252ed1934c29bd11dfc0fec",
-      "size": 1480349,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/08-footwear-wearing-r2.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/08-footwear-wearing-r2.png",
+      "sha256": "37c30051d5c080db6fbd158a8a1a43eb125538151aed4fe80cf0f4ffe0646f2b",
+      "size": 1307996,
       "contentType": "image/png",
-      "downloadName": "layer-harness.png"
+      "downloadName": "08-footwear-wearing-r2.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/layer-jacket.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/layer-jacket.png",
-      "sha256": "547533dac2f84991e2db74a41f057587e24583a3007aeb017a009bb2bea513a4",
-      "size": 1521094,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/09-footwear-construction.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/09-footwear-construction.png",
+      "sha256": "ca0665da34aa1c7fffd0ce8258bf1baf44f8892717997352704333c5608eeb6c",
+      "size": 2410260,
       "contentType": "image/png",
-      "downloadName": "layer-jacket.png"
+      "downloadName": "09-footwear-construction.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/innerwear.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/innerwear.png",
-      "sha256": "fc1750e1e55d33f8344bc1e91970d65711ac6e2d749eb5c337aa1cc73021357b",
-      "size": 1289839,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/10-hand-wearing.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/10-hand-wearing.png",
+      "sha256": "98ae5a65bfeb74a3dcc99ff6f9085f60ea0bc8a62fdf53317e539ea0b1ac59ca",
+      "size": 2073604,
       "contentType": "image/png",
-      "downloadName": "innerwear.png"
+      "downloadName": "10-hand-wearing.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/jacket.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/jacket.png",
-      "sha256": "424dee1191b73cf4b5aa9f29d649892a677bf73f26e6bbd672f7082eaad3ccd4",
-      "size": 1721595,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/11-glove-views.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/11-glove-views.png",
+      "sha256": "485f93e85081d486aa85596acc67253f52c4b6ed713957c726af3497e6e036c1",
+      "size": 2380023,
       "contentType": "image/png",
-      "downloadName": "jacket.png"
+      "downloadName": "11-glove-views.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/hosiery.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/hosiery.png",
-      "sha256": "ca60da452b1a1b2b614c161d401f80f9d2d5924a75ee0620579e1fe2251c97f3",
-      "size": 1295074,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/12-wrist-accessories.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/12-wrist-accessories.png",
+      "sha256": "646832202f178a92848dd7dd45ea44634e794a04853e842bff1a50993104b210",
+      "size": 1663035,
       "contentType": "image/png",
-      "downloadName": "hosiery.png"
+      "downloadName": "12-wrist-accessories.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/harness.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/harness.png",
-      "sha256": "af23c5a0991bc2b1e4069182721f75f9714d3ff15f4688c7a37405c8d7dbc758",
-      "size": 1427657,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/13-hands-cumulative-threeview.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/13-hands-cumulative-threeview.png",
+      "sha256": "b84c28969570be5dd0023567b19f8264c520ed76ba9fb937cc3105b20cdde798",
+      "size": 961319,
       "contentType": "image/png",
-      "downloadName": "harness.png"
+      "downloadName": "13-hands-cumulative-threeview.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/thigh-gear.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/thigh-gear.png",
-      "sha256": "5ff53a5850826be136d50de0727ea7841b62765c72b2501ff85a96aab63780c4",
-      "size": 1332558,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/14-thigh-wearing.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/14-thigh-wearing.png",
+      "sha256": "ec54023618d4651c051192a9848b8f59f9a3fd14494a685db38feca813fdbc7f",
+      "size": 1752947,
       "contentType": "image/png",
-      "downloadName": "thigh-gear.png"
+      "downloadName": "14-thigh-wearing.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/knee-guard.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/knee-guard.png",
-      "sha256": "3e74a030e271a62b8fd68a19ea444b5c8dd1096b670d0b3c12e0769a68b81038",
-      "size": 1345336,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/15-task-terminal.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/15-task-terminal.png",
+      "sha256": "7502812c3ac7336bab3224a66b5a65da208e6a6ebb649fa04f658ee04e62618b",
+      "size": 1811283,
       "contentType": "image/png",
-      "downloadName": "knee-guard.png"
+      "downloadName": "15-task-terminal.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/gloves.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/gloves.png",
-      "sha256": "8655dd0a25dce12a2731f4cddf48789f5ac469be673df6d1d6292ed1ba09afd3",
-      "size": 1568113,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/16-maintenance-pouch.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/16-maintenance-pouch.png",
+      "sha256": "35380d86e00e678de157f607ba2db803cc61c7dc50184172d59931fa178f7a37",
+      "size": 2361827,
       "contentType": "image/png",
-      "downloadName": "gloves.png"
+      "downloadName": "16-maintenance-pouch.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/shoes-saw.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/shoes-saw.png",
-      "sha256": "d9a9f5fb0f1103210471d4fc2e121e712fcfaba8ef7bee1866d53deab560a913",
-      "size": 1791730,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/17-thigh-cumulative-threeview.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/17-thigh-cumulative-threeview.png",
+      "sha256": "6ba13cac1d7fc894acf568e23410898dd460f58c834c48a66fe3c263df169df8",
+      "size": 1110813,
       "contentType": "image/png",
-      "downloadName": "shoes-saw.png"
+      "downloadName": "17-thigh-cumulative-threeview.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/saw-sheath.png",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/saw-sheath.png",
-      "sha256": "9b1398de8b32e1e9570537d2ca89ffd2efed4485c7c59c4f2d25dc2d1f68df4e",
-      "size": 1410172,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/18-carrier-wearing.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/18-carrier-wearing.png",
+      "sha256": "e1f0061728007e69b545b79d68c5b694c44658a2e79c831a44a51f529b374f25",
+      "size": 1004283,
       "contentType": "image/png",
-      "downloadName": "saw-sheath.png"
+      "downloadName": "18-carrier-wearing.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/bunny-design-whitepaper-1.1.0.pdf",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/bunny-design-whitepaper-1.1.0.pdf",
-      "sha256": "c145a6f47d0e80d3161bd4051f068445a68aa4d8638294da1d00847aa1c73607",
-      "size": 34717985,
-      "contentType": "application/pdf",
-      "downloadName": "bunny-design-whitepaper-1.1.0.pdf"
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/19-carrier-components.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/19-carrier-components.png",
+      "sha256": "3a8614c0a4cfed3b64d4703e55c61895913f5ce9afecac35de3a9f155d5be2ff",
+      "size": 1330728,
+      "contentType": "image/png",
+      "downloadName": "19-carrier-components.png"
     },
     {
       "character": "bunny",
-      "version": "1.1.0",
-      "path": "/media/bunny/1.1.0/bunny-original-assets-1.1.0.zip",
-      "key": "x_ops/design/characters/bunny/releases/1.1.0/bunny-original-assets-1.1.0.zip",
-      "sha256": "622bcd01b425d484aea09ac4cabe2e82fd3b406618dc7e63c685938453ec0b67",
-      "size": 28572657,
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/20-carrier-details.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/20-carrier-details.png",
+      "sha256": "7ac756bda8693f4d14297649019a84511f4473049ed2dcbb3bfbeeb73944691e",
+      "size": 1919038,
+      "contentType": "image/png",
+      "downloadName": "20-carrier-details.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/21-carrier-details.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/21-carrier-details.png",
+      "sha256": "4c8da3a3967374f7d7fc4aba910562a0e823457112b9a9171760a462229bec4d",
+      "size": 1578389,
+      "contentType": "image/png",
+      "downloadName": "21-carrier-details.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/22-jacket-wearing.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/22-jacket-wearing.png",
+      "sha256": "4f196158fa701954277978adc487712342de6690c101eef22632c54449300183",
+      "size": 1118156,
+      "contentType": "image/png",
+      "downloadName": "22-jacket-wearing.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/23-jacket-components.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/23-jacket-components.png",
+      "sha256": "696f176054ee58f2689533ed7623201a017bfa185da61d630cf95f6994128829",
+      "size": 1385246,
+      "contentType": "image/png",
+      "downloadName": "23-jacket-components.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/24-jacket-details.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/24-jacket-details.png",
+      "sha256": "e902ae0caa771acb9ca9a0ee64cd35750800867d3d022ee0761394ee80b794e9",
+      "size": 2344338,
+      "contentType": "image/png",
+      "downloadName": "24-jacket-details.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/25-head-equipment-wearing.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/25-head-equipment-wearing.png",
+      "sha256": "0d9e9d729d29c633640484e6f366a0aab150232fafb1bd062195cc0cf14a2e12",
+      "size": 2114580,
+      "contentType": "image/png",
+      "downloadName": "25-head-equipment-wearing.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/26-goggles-components.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/26-goggles-components.png",
+      "sha256": "7661d2db6f1a480009c99e75a729703bf05e306a29b8ecc9e76dbc5a0901df41",
+      "size": 1804545,
+      "contentType": "image/png",
+      "downloadName": "26-goggles-components.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/27-headphones-components.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/27-headphones-components.png",
+      "sha256": "9c007e2548265c195f5b910a846d22d29c7efe8939b66c22d3b00ee35ed501e4",
+      "size": 1949800,
+      "contentType": "image/png",
+      "downloadName": "27-headphones-components.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/28-ear-accessories-components.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/28-ear-accessories-components.png",
+      "sha256": "86621662d9fd83e4cee1cba39754dfcea9fac2dfa5101ea04ea56e4ba19c69d1",
+      "size": 1528785,
+      "contentType": "image/png",
+      "downloadName": "28-ear-accessories-components.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/29-head-equipment-cumulative.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/29-head-equipment-cumulative.png",
+      "sha256": "c104845bf9796e95759572e22e80ed8c52856e7fb820836f65b8a9395b2d6e1e",
+      "size": 1242467,
+      "contentType": "image/png",
+      "downloadName": "29-head-equipment-cumulative.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/30-compact-weapon-exterior-parts.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/30-compact-weapon-exterior-parts.png",
+      "sha256": "f75b4465eca5c7e96af21328a7cba224e0206bc3ad58f62537e7ed59505fda88",
+      "size": 1477859,
+      "contentType": "image/png",
+      "downloadName": "30-compact-weapon-exterior-parts.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/31-neutral-stored-design-guide.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/31-neutral-stored-design-guide.png",
+      "sha256": "8969d0fdbea8c389fb218dbd547b29019b8e408818b79ccbb920526b57f5abbd",
+      "size": 789898,
+      "contentType": "image/png",
+      "downloadName": "31-neutral-stored-design-guide.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/31-neutral-stored-threeview.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/31-neutral-stored-threeview.png",
+      "sha256": "08e51c7ae203b7187e8711bf627325a4a3165e822b71977cc4bd0e71c6c13364",
+      "size": 771116,
+      "contentType": "image/png",
+      "downloadName": "31-neutral-stored-threeview.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/34-cuff-mechanism.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/34-cuff-mechanism.png",
+      "sha256": "f0503834d9b817b3027ff06b27e193903b9157071f0592dd05806fcc6ae578e2",
+      "size": 1382469,
+      "contentType": "image/png",
+      "downloadName": "34-cuff-mechanism.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/35-lacing-thigh-motion.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/35-lacing-thigh-motion.png",
+      "sha256": "1b1b6151c386704260fb58e7550b6107e2a687abc6a569377b9e5a93fcc942f1",
+      "size": 1721956,
+      "contentType": "image/png",
+      "downloadName": "35-lacing-thigh-motion.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/dimension-01-character-dimension-standard.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/dimension-01-character-dimension-standard.png",
+      "sha256": "e9e84fc9905865f2bc20877921e8059ac24aa6271c50c167bf71ad9971be0f13",
+      "size": 940538,
+      "contentType": "image/png",
+      "downloadName": "dimension-01-character-dimension-standard.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/dimension-02-weapon-dimension-standard.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/dimension-02-weapon-dimension-standard.png",
+      "sha256": "c8df9152a55a702b45b391654a6eee3cf0aaa8a78ee5ae542ac77303839fe2f6",
+      "size": 845785,
+      "contentType": "image/png",
+      "downloadName": "dimension-02-weapon-dimension-standard.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/expressions-current-identity.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/expressions-current-identity.png",
+      "sha256": "8d3c85725ef5a9e018c393965f0b3b6ba286f2cfdbedca1ec8393ebc9fb11eba",
+      "size": 2335418,
+      "contentType": "image/png",
+      "downloadName": "expressions-current-identity.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/outfit-pose-current.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/outfit-pose-current.png",
+      "sha256": "c896bd1ed2448503a4ec0997b3475ba2e232230bc059d43b6ad2ea93f6ed710f",
+      "size": 1539521,
+      "contentType": "image/png",
+      "downloadName": "outfit-pose-current.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/recovered-expressions-2.1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/recovered-expressions-2.1.png",
+      "sha256": "b08c8ce3ab4ca714762a2210c7ca4b9b9fceaa122d09b378c47dd0216ecc8be8",
+      "size": 2364442,
+      "contentType": "image/png",
+      "downloadName": "recovered-expressions-2.1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
+      "sha256": "69687d841f569953ede098f90df92690c720dbec4736d6e217ea8377df08de4e",
+      "size": 61105018,
       "contentType": "application/zip",
-      "downloadName": "bunny-original-assets-1.1.0.zip"
+      "downloadName": "bunny-3.1.0-design-reference.zip"
+    },
+    {
+      "character": "origins",
+      "version": "1.0.0",
+      "path": "/media/origins/1.0.0/bunny-original.png",
+      "key": "x_ops/design/characters/origins/releases/1.0.0/bunny-original.png",
+      "sha256": "d1f8982e7c9553957b500b0e3778e20071ae55b81b84bff7a42b8f370a273a20",
+      "size": 1392486,
+      "contentType": "image/png",
+      "downloadName": "bunny-original.png"
     }
   ]
 }

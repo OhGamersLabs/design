@@ -1,52 +1,65 @@
 ---
-title: "终稿资产与下载"
-description: "Bunny 角色设计白皮书 · 终稿资产与下载"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: application
-lead: "原图用于细节核对，网页展示版用于快速阅读。"
+title: "设计图与参考下载"
+releaseReady: false
+aside: true
 ---
+# 设计图与参考下载
 
+下列原始 PNG 按衣层页面排列。设计指南、当前收纳参考和既有参考分组列出，不把参考图统称为艺术终稿。最终角色卡与新版 PDF 尚未定稿。
 
-# 终稿资产与下载
+## 3.1.0 本地修订
 
-## 文件分工
+- [当前穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)
+- [当前身份16格表情 PNG](/media/bunny/3.1.0/expressions-current-identity.png)
+- [鞋带收尾与腿带活动 PNG](/media/bunny/3.1.0/35-lacing-thigh-motion.png)
+- [红护环开合结构 PNG](/media/bunny/3.1.0/34-cuff-mechanism.png)
+- [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
+- [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-完整白皮书说明设计逻辑与部件关系，原始 PNG 保留各自像素尺寸，网页展示版本不替代原图用于生产核对。
+原图包包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
-## 使用顺序
+## 人物与识别
 
-先确认完整角色，对照部件，再检查装配，最后扩展到新视角与动作。
+<ul><li><a href="/media/bunny/3.1.0/00-origin-positioning.png">原始形象与设计定位</a></li><li><a href="/media/bunny/3.1.0/01-body-baseline.png">身体基准三视图</a></li><li><a href="/media/bunny/3.1.0/dimension-01-character-dimension-standard.png">人物尺寸基准</a></li><li><a href="/media/bunny/3.1.0/02-identity-style.png">面部身份与画风</a></li></ul>
 
+## 贴身衣层
 
+<ul><li><a href="/media/bunny/3.1.0/03-innerwear-coverage.png">贴身衣层穿着三视</a></li><li><a href="/media/bunny/3.1.0/04-white-top-construction.png">白色上衣结构</a></li><li><a href="/media/bunny/3.1.0/05-red-shorts-construction.png">红色短裤结构</a></li></ul>
 
-## 完整文件
+## 袜装
 
-- [角色设计白皮书 PDF](/media/bunny/1.1.0/bunny-design-whitepaper-1.1.0.pdf)
-- [19 张透明原始 PNG](/media/bunny/1.1.0/bunny-original-assets-1.1.0.zip)
-- [版本与哈希清单](/catalog/bunny/1.1.0/manifest.json)
+<ul><li><a href="/media/bunny/3.1.0/06-hosiery-wearing.png">袜装穿着三视</a></li><li><a href="/media/bunny/3.1.0/07-hosiery-knit-details.png">袜装针织细节</a></li></ul>
 
-## 原图逐项下载
+## 鞋靴
 
-- [角色卡](/media/bunny/1.1.0/character-card.png)
-- [正面整装](/media/bunny/1.1.0/front.png)
-- [背面整装](/media/bunny/1.1.0/back.png)
-- [头部总成](/media/bunny/1.1.0/headgear.png)
-- [脸型](/media/bunny/1.1.0/face.png)
-- [表情](/media/bunny/1.1.0/expressions.png)
-- [身体比例](/media/bunny/1.1.0/body-base.png)
-- [内搭穿戴](/media/bunny/1.1.0/layer-inner.png)
-- [护具穿戴](/media/bunny/1.1.0/layer-harness.png)
-- [外套穿戴](/media/bunny/1.1.0/layer-jacket.png)
-- [内搭与短裤](/media/bunny/1.1.0/innerwear.png)
-- [外套](/media/bunny/1.1.0/jacket.png)
-- [袜套](/media/bunny/1.1.0/hosiery.png)
-- [承载带](/media/bunny/1.1.0/harness.png)
-- [腿侧盒袋](/media/bunny/1.1.0/thigh-gear.png)
-- [护膝](/media/bunny/1.1.0/knee-guard.png)
-- [手套](/media/bunny/1.1.0/gloves.png)
-- [鞋与电锯](/media/bunny/1.1.0/shoes-saw.png)
-- [电锯鞘](/media/bunny/1.1.0/saw-sheath.png)
+<ul><li><a href="/media/bunny/3.1.0/08-footwear-wearing-r2.png">鞋靴穿着三视</a></li><li><a href="/media/bunny/3.1.0/09-footwear-construction.png">鞋靴独立结构</a></li></ul>
 
-[返回目录](/characters/bunny/)
+## 手部装备
+
+<ul><li><a href="/media/bunny/3.1.0/13-hands-cumulative-threeview.png">手部装备累计衣层</a></li><li><a href="/media/bunny/3.1.0/10-hand-wearing.png">手部装备穿戴</a></li><li><a href="/media/bunny/3.1.0/11-glove-views.png">手套独立视图</a></li><li><a href="/media/bunny/3.1.0/12-wrist-accessories.png">腕部设备与护环</a></li></ul>
+
+## 腿部装备
+
+<ul><li><a href="/media/bunny/3.1.0/17-thigh-cumulative-threeview.png">腿部装备累计衣层</a></li><li><a href="/media/bunny/3.1.0/14-thigh-wearing.png">腿部装备穿戴</a></li><li><a href="/media/bunny/3.1.0/15-task-terminal.png">任务终端</a></li><li><a href="/media/bunny/3.1.0/16-maintenance-pouch.png">维护盒袋与内容物</a></li></ul>
+
+## 外套
+
+<ul><li><a href="/media/bunny/3.1.0/22-jacket-wearing.png">外套穿着三视</a></li><li><a href="/media/bunny/3.1.0/23-jacket-components.png">外套独立结构</a></li><li><a href="/media/bunny/3.1.0/24-jacket-details.png">外套局部细节</a></li></ul>
+
+## 承载带与固定点
+
+<ul><li><a href="/media/bunny/3.1.0/18-carrier-wearing.png">承载带定位（隐去外套）</a></li><li><a href="/media/bunny/3.1.0/19-carrier-components.png">承载带独立部件</a></li><li><a href="/media/bunny/3.1.0/20-carrier-details.png">承载带扣件细节</a></li><li><a href="/media/bunny/3.1.0/21-carrier-details.png">腰带与固定点</a></li></ul>
+
+## 头部装备
+
+<ul><li><a href="/media/bunny/3.1.0/29-head-equipment-cumulative.png">头部装备累计衣层</a></li><li><a href="/media/bunny/3.1.0/25-head-equipment-wearing.png">头部装备穿戴</a></li><li><a href="/media/bunny/3.1.0/26-goggles-components.png">护目镜独立结构</a></li><li><a href="/media/bunny/3.1.0/27-headphones-components.png">耳机独立结构</a></li><li><a href="/media/bunny/3.1.0/28-ear-accessories-components.png">兔耳配饰结构</a></li></ul>
+
+旧版武器资料不列为当前设计图，回溯时请见<a href="/characters/bunny/weapon-history">历史参考</a>。
+
+## 当前武器外观与收纳参考
+
+<ul><li><a href="/media/bunny/3.1.0/30-compact-weapon-exterior-parts.png">武器外观分件图</a></li><li><a href="/media/bunny/3.1.0/31-neutral-stored-threeview.png">武器收纳累计三视图</a></li><li><a href="/media/bunny/3.1.0/31-neutral-stored-design-guide.png">武器衣层 · 水平收纳图解</a></li></ul>
+
+## 既有表情参考
+
+<ul><li><a href="/media/bunny/3.1.0/recovered-expressions-2.1.png">16 格表情参考（从 PDF 恢复的 PNG）</a>：脸型、瞳色与发束以当前身份基准校准，不列为当前艺术终稿。</li></ul>
