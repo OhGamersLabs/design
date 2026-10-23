@@ -1,5 +1,5 @@
 ---
-title: "v2 · 头部同步身体三视"
+title: "v2 · 身体三视基准"
 releaseReady: false
 aside: true
 ---
@@ -8,35 +8,46 @@ import comparison from './body-comparison.json'
 import styleComparison from './body-style-comparison.json'
 </script>
 
-# v2 · 头部同步身体三视
+# v2 · 身体三视基准
 
 <span id="gray-proportion-review"></span>
 
-::: info 本轮头部同步修订
-在已完成形体与赛璐璐画风修订的 **v2** 基础上，按[中性头部样板](/characters/bunny/face)重新校准五官关系、蓝眼共同视线及银白发束。[16格表情](/characters/bunny/expressions)采用同一头部基准。
+::: info 本轮正面上衣色块修订
+在已完成头部同步的 **v2** 身体图上，仅清理正面运动上衣下围内部的软灰暗带，使这一小块深色面更干净、连续，保留原衣缘与主褶线。
 
-身体保持已修订 v2 的头身关系、腰长、腿长、侧腰、胸臀轮廓、站姿与纤细体型，保留原肤色及黑色运动内搭。穿戴装备与尺寸资料尚未同步，其他既有图尚未逐张重绘。
+头颈、皮肤、手脚和身体比例轮廓沿用修订前的完整身体图。[中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)继续沿用。穿戴装备与尺寸资料尚未同步，其他既有图尚未逐张重绘。
 :::
 
 ## 本轮修订三视图
 
-<ReleaseImage src="/characters/bunny/3.1.0/body-v2-head-refined-v1.webp" original="/media/bunny/3.1.0/body-v2-head-refined-v1.png" alt="v2头部同步身体三视：按新中性样板校准正、右侧、背面头部，保留纤细身体形体" caption="v2 · 头部同步身体三视" />
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-detail-refined-v1.webp" original="/media/bunny/3.1.0/body-v2-detail-refined-v1.png" alt="v2身体三视：仅修整正面上衣下围内部深色色块，保留头部、身体形体及侧背视图" caption="v2 · 上衣下围色块修订" />
 
 ## 形体局部修订至当前稿对照 {#v2-style-comparison}
 
-左侧为已完成形体局部修订的 v2，右侧包含后续手绘线稿、平涂与硬边阴影修订，以及本轮头部五官关系和发束画法校准。身体腰腿、侧腰、胸臀与站姿保持；头部的变化应与中性样板一起核对。
+左侧为已完成形体局部修订的 v2，右侧包含后续画风、头部同步及本轮正面上衣下围色块修订。身体腰腿、侧腰、胸臀与站姿保持；此前头部五官关系与发束的变化可与中性样板一起核对。
 
 <BodyProportionCompare :previous="styleComparison.previous" :candidate="styleComparison.candidate" />
 
-[查看原局部修订 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png) · [查看当前身体 PNG](/media/bunny/3.1.0/body-v2-head-refined-v1.png) · [查看画风标准](/characters/bunny/visual-language#本轮身体三视图的画风标准)
+[查看原局部修订 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png) · [查看当前身体 PNG](/media/bunny/3.1.0/body-v2-detail-refined-v1.png) · [查看画风标准](/characters/bunny/visual-language#本轮身体三视图的画风标准)
 
 ## 原v2与当前稿比例对照 {#v2-local-comparison}
 
-左侧为用户认可的原 v2 比例底子，右侧为当前稿。形体局部修订调整胸部衣物连接与侧背臀部包转，随后调整画风并同步头部；腰腿比例与纤细体型继续以原 v2 核对。
+左侧为用户认可的原 v2 比例底子，右侧为当前稿。既有形体、画风和头部修订继续保留，本轮只清理正面上衣下围色块；腰腿比例与纤细体型继续以原 v2 核对。
 
 <BodyProportionCompare :previous="comparison.previous" :candidate="comparison.candidate" />
 
-[查看完整原 v2 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png) · [查看当前稿 PNG](/media/bunny/3.1.0/body-v2-head-refined-v1.png)
+[查看完整原 v2 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png) · [查看当前稿 PNG](/media/bunny/3.1.0/body-v2-detail-refined-v1.png)
+
+## 本轮局部填色前参考 {#before-front-band-refinement}
+
+<details>
+<summary>已同步头部的完整身体 · 上衣色块修订前</summary>
+
+本轮以这张完整身体图为基础，保留头部与身体形体，只修整正面上衣下围内部的色面。
+
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-head-refined-v1.webp" original="/media/bunny/3.1.0/body-v2-head-refined-v1.png" alt="上衣下围局部填色前的完整v2身体三视，历史参考" caption="v2头部同步身体 · 上衣色块修订前" />
+
+</details>
 
 ## 头部同步前参考 {#before-head-revision}
 

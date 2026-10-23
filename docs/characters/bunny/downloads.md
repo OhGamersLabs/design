@@ -9,7 +9,8 @@ aside: true
 
 ## 3.1.0 本地修订
 
-- [v2 · 头部同步身体三视 PNG](/media/bunny/3.1.0/body-v2-head-refined-v1.png)
+- [v2 · 上衣下围色块修订 PNG](/media/bunny/3.1.0/body-v2-detail-refined-v1.png)
+- [v2头部同步身体 · 上衣色块修订前 PNG](/media/bunny/3.1.0/body-v2-head-refined-v1.png)
 - [v2赛璐璐身体 · 头部修订前 PNG](/media/bunny/3.1.0/body-v2-cel-refined-v1.png)
 - [原v2局部修订 · 画风对照 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png)
 - [v2比例底子 · 对照参考 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png)
@@ -21,7 +22,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-当前身体三视与16格表情已同步本轮中性头部，身体腰腿与胸臀形体保持。穿戴装备及尺寸尚未同步，其他既有图尚未逐张重绘。原图包保留当前身体、头部、表情，以及头部修改前身体、形体局部修订和原 v2 比例底子；清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
+本轮身体图仅清理正面上衣下围内部的软灰暗带，保留头部、皮肤、手脚与身体比例轮廓。中性头部和16格表情继续沿用；穿戴装备及尺寸尚未同步。原图包保留当前稿、局部填色前完整身体，以及全部既有阶段原图；清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
