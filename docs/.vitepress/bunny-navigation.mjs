@@ -32,7 +32,7 @@ export const bunnySections = [
     "description": "人物基准",
     "items": [
       {
-        "text": "身体基准与灰模审阅",
+        "text": "原色纤细身体基准",
         "link": "/characters/bunny/body-base"
       },
       {

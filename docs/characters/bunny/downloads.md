@@ -7,13 +7,6 @@ aside: true
 
 下列原始 PNG 按衣层页面排列。设计指南、当前收纳参考和既有参考分组列出，不把参考图统称为艺术终稿。最终角色卡与新版 PDF 尚未定稿。
 
-## 二维身体比例审阅候选
-
-- [无装备二维灰模正侧背 PNG](/media/bunny/3.1.0/36-gray-body-proportion-candidate.png)（1536×1024，待用户选定比例）
-- [旧基准与新候选的图面对照](/characters/bunny/body-base#gray-proportion-review)
-
-候选不是已确认的新标准；现行穿戴和旧尺寸页尚未同步。原图包包含该审阅候选，不能把入包等同于用户批准。
-
 ## 3.1.0 本地修订
 
 - [当前穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)

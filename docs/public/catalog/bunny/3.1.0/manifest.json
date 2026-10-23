@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 41,
+  "asset_count": 40,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -1054,33 +1054,6 @@
       }
     },
     {
-      "id": "36-gray-body-proportion-candidate",
-      "character": "bunny",
-      "version": "3.1.0",
-      "title": "36-gray-body-proportion-candidate",
-      "source": {
-        "kind": "local-design-revision"
-      },
-      "original": {
-        "path": "/media/bunny/3.1.0/36-gray-body-proportion-candidate.png",
-        "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1601362,
-        "sha256": "3713a2392b33c32c116a129223412727cae1f06b88c3877d4f4be0590f13daa5",
-        "alpha": false
-      },
-      "web": {
-        "path": "/characters/bunny/3.1.0/36-gray-body-proportion-candidate.webp",
-        "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 83224,
-        "sha256": "c8882c310d1414e13d88e07e65e5d08d90f75f93525c4b526c0cf1b5c093cacf",
-        "alpha": false
-      }
-    },
-    {
       "id": "dimension-01-character-dimension-standard",
       "character": "bunny",
       "version": "3.1.0",
@@ -1231,8 +1204,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 62380673,
-      "sha256": "3dc23ab47a0cd4e8b6674a81aa017ee8f0d09b6cd4a60b6837051a115152a8d8"
+      "bytes": 61105018,
+      "sha256": "69687d841f569953ede098f90df92690c720dbec4736d6e217ea8377df08de4e"
     }
   ]
 }
