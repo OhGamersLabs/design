@@ -9,11 +9,11 @@ aside: true
 
 ## 本轮身体修订
 
-[查看 v2 · 手绘线稿与赛璐璐修订](/characters/bunny/body-base)：保留已修订 v2 的腰腿比例、胸臀轮廓与纤细体型，改为清楚线稿、平涂主色和硬边阴影。页面保留原局部修订与原 v2 的分别对照。穿戴层与尺寸资料尚未同步，其他既有图尚未逐张重绘。
+[查看 v2 · 头部同步身体三视](/characters/bunny/body-base)：按中性头部样板校准五官、共同视线及银白发束，保持已修订 v2 的腰腿比例、胸臀轮廓与纤细体型。页面保留原局部修订、原 v2 比例底子与头部修改前身体参考。穿戴装备与尺寸资料尚未同步，其他既有图尚未逐张重绘。
 
 ## 本轮补充
 
-- [当前身份16格表情](/characters/bunny/expressions)：银白短发、蓝眼与当前脸型。
+- [v2中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)：当前身体与表情已同步银白发、蓝眼、发束分组和五官关系。
 - [红护环开合结构](/characters/bunny/hands#cuff-opening)：铰链、锁扣与手套腕口关系。
 - [鞋带结与尾端收纳](/characters/bunny/shoes#鞋带收尾与收纳)、[坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
 

@@ -1,7 +1,7 @@
 {
-  "status": "local-style-revision",
+  "status": "local-head-synchronized-body",
   "alignment": "approximate image-plane hair crown/floor; equal uniform scaling, not anatomical measurements",
-  "scope": "仅比较已修订v2的画风；保持形体、站姿与色系",
+  "scope": "从形体局部修订到当前画风及头部校准；身体腰腿胸臀与站姿保持，五官关系和发束重新校准",
   "previous": {
     "label": "v2局部修订 · 原画风",
     "src": "/characters/bunny/3.1.0/body-v2-local-refined-v1.webp",
@@ -28,8 +28,8 @@
     ]
   },
   "candidate": {
-    "label": "v2 · 手绘线稿与赛璐璐修订",
-    "src": "/characters/bunny/3.1.0/body-v2-cel-refined-v1.webp",
+    "label": "v2 · 头部同步身体三视",
+    "src": "/characters/bunny/3.1.0/body-v2-head-refined-v1.webp",
     "width": 1536,
     "views": [
       {

@@ -203,8 +203,162 @@
     "based_on": "/media/bunny/3.1.0/body-v2-local-refined-v1.png",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-cel-style/bunny-v2-cel-v5.png",
     "source_artifact_sha256": "780dcbbea754db2bf76ff349ce093b0356fa150c1d3348f206d41e194dc2a516",
-    "review_status": "local-body-style-revision",
+    "review_status": "historical-before-head-revision",
     "description": "v2 · 手绘线稿与赛璐璐修订：日系二次元手绘线稿、平涂主色和硬边阴影；保留已修订v2的腰腿比例、胸臀轮廓、站姿与色系。",
-    "scope": "本轮仅更新二维基础体画风；穿戴层与尺寸未同步，其他既有图尚未逐张重绘。"
+    "scope": "本轮头部同步前的赛璐璐身体参考；保留用于回溯画风与身体形体。"
+  },
+  "bunny/head-v2-cel-reference-v1.png": {
+    "baseline_sha256": "780dcbbea754db2bf76ff349ce093b0356fa150c1d3348f206d41e194dc2a516",
+    "based_on": "/media/bunny/3.1.0/body-v2-cel-refined-v1.png",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-head-neutral-v2.png",
+    "source_artifact_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
+    "review_status": "local-neutral-head-reference",
+    "description": "v2中性头部样板：校准双眼共同视线、自然表情不对称与发束分组；银白主色配少量冷灰蓝硬边阴影。",
+    "scope": "中性头部样板已同步到当前身体三视与16格表情；穿戴装备与尺寸未同步。",
+    "reference_chain": [
+      {
+        "stage": "current-body-head-crops",
+        "body_path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-cel-refined-v1.png",
+        "body_sha256": "780dcbbea754db2bf76ff349ce093b0356fa150c1d3348f206d41e194dc2a516",
+        "method": "read-only original-pixel crop, no resampling or repainting",
+        "crops": [
+          {
+            "view": "front",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/source-head-front.png",
+            "sha256": "e8e768405597ffbca6b7182d10950f7265d5429fa9293603641c084e3e01882a",
+            "bounds_xyxy": [
+              264,
+              26,
+              453,
+              208
+            ]
+          },
+          {
+            "view": "right-profile",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/source-head-right-profile.png",
+            "sha256": "2d64c1e1111b8d4aec27e05c5208e8bb589884756e7dd83d88c24da4e6f2ea7c",
+            "bounds_xyxy": [
+              681,
+              26,
+              859,
+              208
+            ]
+          },
+          {
+            "view": "back",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/source-head-back.png",
+            "sha256": "06821c578c62c6eb3c2301060849244482ba5aa1868ca679a119369479d435da",
+            "bounds_xyxy": [
+              1088,
+              26,
+              1273,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "stage": "neutral-head-intermediate",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-head-neutral-v1.png",
+        "sha256": "6beb84881eb86e966b4e709352af446afb5ee487a583e7173721efc956fef613"
+      },
+      {
+        "stage": "selected-neutral-head",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-head-neutral-v2.png",
+        "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f"
+      }
+    ],
+    "historical_identity_reference": {
+      "path": "/media/bunny/3.1.0/02-identity-style.png",
+      "sha256": "af914d5a15c9bc54d2338f03295e7cca1c83ddb98f12618ed35cf9bbc6e503f6",
+      "role": "read-only identity diagnosis; not an image-generation input"
+    }
+  },
+  "bunny/expressions-v2-cel-v1.png": {
+    "baseline_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
+    "based_on": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-expressions-16-v1.png",
+    "source_artifact_sha256": "5644fa554fdcd666b0b40d61679dd1e91f2240a4041695cd965251e423625677",
+    "review_status": "local-head-synchronized-expression-sheet",
+    "description": "v2 · 16格表情：沿用本轮中性头部的身份、画风、银白发与蓝眼；保留原16项表情及4×4顺序。",
+    "scope": "与中性头部及当前身体三视同步的16格表情；穿戴装备与尺寸未同步。",
+    "reference_chain": [
+      {
+        "role": "identity-style-hair-and-eye-reference",
+        "path": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
+        "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f"
+      },
+      {
+        "role": "expression-and-4x4-layout-reference-only",
+        "path": "/media/bunny/3.1.0/expressions-current-identity.png",
+        "sha256": "8d3c85725ef5a9e018c393965f0b3b6ba286f2cfdbedca1ec8393ebc9fb11eba"
+      },
+      {
+        "role": "selected-expression-sheet",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-expressions-16-v1.png",
+        "sha256": "5644fa554fdcd666b0b40d61679dd1e91f2240a4041695cd965251e423625677"
+      }
+    ],
+    "expressions_row_major": [
+      "中性",
+      "微笑",
+      "大笑",
+      "惊讶",
+      "生气",
+      "怒喊",
+      "鼓腮不满",
+      "怀疑",
+      "疲倦",
+      "含泪难过",
+      "大哭",
+      "担忧",
+      "眨眼俏皮",
+      "会心笑",
+      "兴奋",
+      "安心"
+    ]
+  },
+  "bunny/expressions-current-identity.png": {
+    "baseline_sha256": "8d3c85725ef5a9e018c393965f0b3b6ba286f2cfdbedca1ec8393ebc9fb11eba",
+    "review_status": "historical-before-head-revision",
+    "description": "头部修订前的16格表情；只保留情绪设计与4×4构图回溯，不作为当前脸型、发色或眼部画法模板。"
+  },
+  "bunny/body-v2-head-refined-v1.png": {
+    "baseline_sha256": "780dcbbea754db2bf76ff349ce093b0356fa150c1d3348f206d41e194dc2a516",
+    "based_on": "/media/bunny/3.1.0/body-v2-cel-refined-v1.png",
+    "head_reference": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
+    "head_reference_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-body-head-sync-v2.png",
+    "source_artifact_sha256": "dbc608ca5423142208c7ccac90556ca08c25c0a33f5be8c3b0d83dc5f62d603c",
+    "review_status": "local-head-synchronized-body",
+    "description": "v2 · 头部同步身体三视：五官关系、蓝眼共同视线与银白发束按中性样板重新校准，保持腰腿、侧腰、胸臀与站姿。",
+    "scope": "中性头部、身体三视与16格表情已同步；穿戴装备与尺寸未同步，其他既有素材未全部重绘。",
+    "reference_chain": [
+      {
+        "role": "accepted-full-body-foundation",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/source-body-accepted.png",
+        "sha256": "780dcbbea754db2bf76ff349ce093b0356fa150c1d3348f206d41e194dc2a516"
+      },
+      {
+        "role": "accepted-neutral-head-reference",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-head-neutral-v2.png",
+        "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f"
+      },
+      {
+        "role": "head-synchronization-intermediate",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-body-head-sync-v1.png",
+        "sha256": "1c85d9f45f7263776c59c025d2bb5d9a916422b8bd23cf1ebed218d74c900dac"
+      },
+      {
+        "role": "back-head-color-reference-crop",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/reference-neutral-v2-back-head.png",
+        "sha256": "d1e9d72076a1e5520e35352dc6e2d2814311946dd42bd642307935786b5a34d1"
+      },
+      {
+        "role": "selected-back-head-local-refinement",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-body-head-sync-v2.png",
+        "sha256": "dbc608ca5423142208c7ccac90556ca08c25c0a33f5be8c3b0d83dc5f62d603c"
+      }
+    ]
   }
 }
