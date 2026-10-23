@@ -7,6 +7,10 @@ aside: true
 
 白发、兔耳、橙红衣装与露嘴护目镜共同形成角色识别。
 
+## 先审阅二维身体基准
+
+[查看二维灰模比例修订与旧基准等高对照](/characters/bunny/body-base#gray-proportion-review)。新图为无装备身体三视审阅候选，待用户选定比例；以下现行穿戴与尺寸资料尚未同步，不视为已随新灰模更新。
+
 ## 本轮补充
 
 - [当前身份16格表情](/characters/bunny/expressions)：银白短发、蓝眼与当前脸型。

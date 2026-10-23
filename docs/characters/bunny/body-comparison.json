@@ -1,0 +1,54 @@
+{
+  "status": "root visual reviewed, pending user choice",
+  "alignment": "approximate image-plane crown/floor; not anatomical measurements",
+  "previous": {
+    "label": "旧基准",
+    "src": "/characters/bunny/3.1.0/01-body-baseline.webp",
+    "width": 2400,
+    "views": [
+      {
+        "label": "正面",
+        "centerX": 720,
+        "crownY": 356,
+        "floorY": 1445
+      },
+      {
+        "label": "角色右侧",
+        "centerX": 1200,
+        "crownY": 356,
+        "floorY": 1445
+      },
+      {
+        "label": "背面",
+        "centerX": 1680,
+        "crownY": 356,
+        "floorY": 1445
+      }
+    ]
+  },
+  "candidate": {
+    "label": "修订候选",
+    "src": "/characters/bunny/3.1.0/36-gray-body-proportion-candidate.webp",
+    "width": 1536,
+    "views": [
+      {
+        "label": "正面",
+        "centerX": 315,
+        "crownY": 59,
+        "floorY": 942
+      },
+      {
+        "label": "角色右侧",
+        "centerX": 765,
+        "crownY": 59,
+        "floorY": 942
+      },
+      {
+        "label": "背面",
+        "centerX": 1220,
+        "crownY": 59,
+        "floorY": 942
+      }
+    ]
+  }
+}
