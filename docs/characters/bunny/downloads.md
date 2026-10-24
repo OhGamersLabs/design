@@ -11,9 +11,9 @@ aside: true
 
 <span id="native-body-views"></span>
 
-- [v2 · 基础文胸身体三视（正面）PNG](/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png)
-- [v2 · 基础文胸身体三视（侧面）PNG](/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png)
-- [v2 · 基础文胸身体三视（背面）PNG](/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png)
+- [v2 · 基础文胸身体三视（正面）PNG](/media/bunny/3.1.0/body-v2-fresh-cel-front-v1.png)
+- [v2 · 基础文胸身体三视（侧面）PNG](/media/bunny/3.1.0/body-v2-fresh-cel-side-v1.png)
+- [v2 · 基础文胸身体三视（背面）PNG](/media/bunny/3.1.0/body-v2-fresh-cel-back-v1.png)
 - [此前身体工作稿 · 上衣下围色块修订 PNG](/media/bunny/3.1.0/body-v2-detail-refined-v1.png)
 - [v2头部同步尝试稿 · 上衣色块修订前 PNG](/media/bunny/3.1.0/body-v2-head-refined-v1.png)
 - [v2赛璐璐身体 · 头部修订前 PNG](/media/bunny/3.1.0/body-v2-cel-refined-v1.png)
@@ -27,7 +27,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基础文胸正、侧、背三张完整人物图均为独立的 1024×1536 原尺寸 PNG，作为衣层设计基准的工作稿保留；正面内腿杂线已清理，图面尺寸已按对应原图复核。首层白色上衣与红色短裤的穿着三视及两张结构板已补齐，袜装层另有三张完整穿着稿与匹配结构资料；鞋靴和后续装备尚未同步。此前被拒的衣层候选继续从下载与原图包撤出。原图包保留当前基模、首层衣装五图、袜装四图、此前运动款三图、旧03—05、各阶段身体、中性头部、16格表情与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
+基模、白色上衣与红色短裤、袜装三组共九张人物图均从空白画布完整新绘，保留生图工具直接输出的 1024×1536 PNG。本轮新基模的图面尺寸另行量读；三张既有结构板、中性头部与16格表情保持原件。鞋靴和后续装备尚未按本轮重绘。原图包同时保留明确标注的重绘前历史资料；此前被拒的衣层候选继续撤出，不进入当前目录与原图包。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -35,10 +35,23 @@ aside: true
 
 标尺 SVG 各自包含完整原图，可离线打开；人物图像保持原样。尺寸为可见图面读数，包含发量，不是厘米或围度。三视分别记录，不以拉伸图片消除差异。
 
-- [正面标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-front-v1.svg) · [正面原尺寸 PNG](/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png)
-- [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-side-v1.svg) · [侧面原尺寸 PNG](/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png)
-- [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-back-v1.svg) · [背面原尺寸 PNG](/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png)
+- [正面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-front-v1.svg) · [正面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-front-v1.png)
+- [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-side-v1.svg) · [侧面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-side-v1.png)
+- [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-back-v1.svg) · [背面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-back-v1.png)
 - [测量坐标与定义 JSON](/catalog/bunny/3.1.0/body-measurements.json) · [尺寸表与适用范围](/characters/bunny/dimensions)
+
+## 完整新绘前 · 基础文胸身体与尺寸 {#before-fresh-body}
+
+<details>
+<summary>完整新绘前 · 基础文胸身体三视</summary>
+
+- [完整新绘前 · 正面 PNG](/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png)
+- [完整新绘前 · 侧面 PNG](/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png)
+- [完整新绘前 · 背面 PNG](/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png)
+
+</details>
+
+[此前基础文胸测量 JSON](/catalog/bunny/3.1.0/body-measurements-basic-bra-v1.json) · [正面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-front-v1.svg) · [侧面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-side-v1.svg) · [背面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-back-v1.svg)
 
 ## 此前运动款 · 身体与尺寸 {#sports-body-history}
 
@@ -55,13 +68,22 @@ aside: true
 
 ## 贴身衣层 {#layer1-assets}
 
-- [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-front-v3.png)
-- [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v4.png)
-- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v4.png)
+- [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.png)
+- [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.png)
+- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.png)
 - [白色上衣 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png)
 - [红色短裤 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png)
 
-穿着三视各为 1024×1536，两张结构板各为 1536×1024。结构板下排是部件与成衣接合位置示意，部分保留已装构件作对照；编号解释见[衣层页](/characters/bunny/innerwear)，不作为缝制顺序或裁剪纸样。
+本轮完整新绘的穿着三视各为 1024×1536；两张既有结构板各为 1536×1024，保持原图。结构板下排是部件与成衣接合位置示意，部分保留已装构件作对照；编号解释见[衣层页](/characters/bunny/innerwear)，不作为缝制顺序或裁剪纸样。
+
+<details>
+<summary>完整新绘前 · 第一层穿着三视</summary>
+
+- [完整新绘前 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-front-v3.png)
+- [完整新绘前 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v4.png)
+- [完整新绘前 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v4.png)
+
+</details>
 
 <details>
 <summary>臀部布面修订前 · 首层侧背穿着与红裤结构</summary>
@@ -98,12 +120,21 @@ aside: true
 
 ## 袜装
 
-- [袜装层 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-front-v1.png)
-- [袜装层 · 侧面 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-side-v1.png)
-- [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-back-v1.png)
+- [袜装层 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.png)
+- [袜装层 · 侧面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png)
+- [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v1.png)
 - [袜装 · 结构与针织细节 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png)
 
 结构说明见[袜装页](/characters/bunny/hosiery#hosiery-construction)。
+
+<details>
+<summary>完整新绘前 · 袜装穿着三视</summary>
+
+- [完整新绘前 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-front-v1.png)
+- [完整新绘前 · 侧面 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-side-v1.png)
+- [完整新绘前 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-back-v1.png)
+
+</details>
 
 <details>
 <summary>原06/07 · 既有袜装穿着与针织资料</summary>

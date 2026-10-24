@@ -9,7 +9,7 @@ aside: true
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：本轮展示基础文胸正、侧、背三张完整人物工作稿，可逐张放大与下载，并保留此前运动款、原 v2 和局部修订稿的等高对照。当前三视作为衣层设计基准，图面比例已按新原图复核；[首层白色上衣与红色短裤](/characters/bunny/innerwear)的穿着三视及结构板已补齐，[袜装层](/characters/bunny/hosiery)的穿着三视与匹配结构资料已补齐，鞋靴和后续装备尚未同步。此前被拒的衣层候选继续撤出当前展示与下载包；[贴身衣层页](/characters/bunny/innerwear)展示本轮五图，并折叠保留旧03—05。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：本轮从空白画布完整新绘基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)三组三视，共九张完整人物图，分别放大与下载。以既定身份、比例、衣物结构和配色为参考，用清楚线稿、平涂与硬边赛璐璐阴影呈现。新基模的[图面尺寸](/characters/bunny/dimensions)已从对应新原图重新量读；旧九图及旧测量保留作重绘前历史。三张既有结构板、中性头部与16格表情保持原件，鞋靴和后续装备尚未按本轮重绘。
 
 ## 本轮补充
 
@@ -26,7 +26,7 @@ aside: true
 
 ## 设计规范
 
-当前修订从 [v2 身体工作稿](/characters/bunny/body-base)、[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)继续。当前三视工作稿作为衣层设计基准，[图面比例已记录](/characters/bunny/dimensions)，实际厘米身高尚未设定；首层白色上衣与红色短裤已提供对应穿着与结构资料，[袜装层](/characters/bunny/hosiery)的穿着三视与匹配结构资料已补齐，鞋靴和后续装备尚未同步。旧尺寸继续作为历史参考，资料仍按由内到外的顺序阅读。
+当前制作以[完整新绘 v2 基模](/characters/bunny/body-base)及其[图面比例](/characters/bunny/dimensions)为依据，身份继续对照[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。首层衣装和袜装已各有一组三张完整新绘人物；实际厘米身高尚未设定，其余衣层与装备保留既有资料，按由内到外顺序继续核对。今后人物三视的完整新绘要求见[手绘语言标准](/characters/bunny/visual-language#完整三视的绘制方式)。
 
 下方 00 图是 **2026-10-18 的旧基准沿革**，保留原图与原字。图内“最新已确认基模”“当前锁定的制作依据”均指当时版本，不作为当前 v2 制作依据。
 

@@ -6,30 +6,47 @@ aside: true
 # 贴身衣层
 
 ::: info 第一层衣层 · 白色上衣与红色短裤
-以[当前 v2 基础文胸三视](/characters/bunny/body-base)和[图面尺寸](/characters/bunny/dimensions)为依据，展示正、侧、背的完整穿着稿与两张匹配的衣物结构板。本轮仅处理白色上衣与红色短裤，[袜装层](/characters/bunny/hosiery)另有穿着三视与匹配结构资料，鞋靴、夹克和其他装备尚未同步。旧03、04、05折叠保留，供回溯款式来源。
+本轮以[当前 v2 完整新绘基模](/characters/bunny/body-base)和[图面尺寸](/characters/bunny/dimensions)为依据，从空白画布分别绘制三张完整穿着稿。白色上衣与红色短裤的两张既有结构板继续保留作结构参考，本轮没有重绘结构板。本轮仅处理白色上衣与红色短裤，[袜装层](/characters/bunny/hosiery)另有穿着三视与匹配结构资料，鞋靴、夹克和其他装备尚未同步。旧03、04、05折叠保留，供回溯款式来源。
 :::
 
 ## 第一层穿着三视 {#layer1-wearing}
 
-三张完整人物稿均保留 1024×1536 原尺寸 PNG，可逐张放大与下载。穿着稿用于核对衣物覆盖、腰位与前后结构。本轮仅整理三视红裤裤面的杂纹，保留已认可的造型、裁片线与主要明暗分区。基模、图面尺寸、白色上衣与红色短裤结构板保持。
+三张完整人物稿均保留生图工具直接输出的 1024×1536 PNG，可逐张放大与下载。通过完整新绘核对衣物覆盖、腰位与前后结构，保持清楚线稿、平涂固有色和硬边阴影；不在旧人物图上贴补衣物或局部擦改。
 
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-front-v3.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-front-v3.png" alt="v2第一层穿着正面：白色上衣、红色短裤与完整人物" caption="第一层衣层 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.png" alt="完整新绘 · 白色上衣与红色短裤 · 正面" caption="v2 · 完整新绘 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-side-v4.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-side-v4.png" alt="v2第一层穿着侧面：白色上衣和红色短裤的覆盖与腰位" caption="第一层衣层 · 侧面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.png" alt="完整新绘 · 白色上衣与红色短裤 · 侧面" caption="v2 · 完整新绘 · 侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-back-v4.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-back-v4.png" alt="v2第一层穿着背面：白色上衣与红色短裤的后侧结构" caption="第一层衣层 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.png" alt="完整新绘 · 白色上衣与红色短裤 · 背面" caption="v2 · 完整新绘 · 背面" />
 
 </div>
 
-[下载本轮五张原尺寸 PNG](/characters/bunny/downloads#layer1-assets)
+[下载当前三张穿着稿与两张结构资料 PNG](/characters/bunny/downloads#layer1-assets)
+
+<details>
+<summary>完整新绘前 · 第一层穿着三视</summary>
+
+此前三张人物图保留原始文件与下载地址，仅作沿革对照；当前稿见上方。
+
+<div class="bunny-body-views">
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-front-v3.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-front-v3.png" alt="完整新绘前历史 · 白色上衣与红色短裤 · 正面" caption="完整新绘前 · 正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-side-v4.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-side-v4.png" alt="完整新绘前历史 · 白色上衣与红色短裤 · 侧面" caption="完整新绘前 · 侧面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-back-v4.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-back-v4.png" alt="完整新绘前历史 · 白色上衣与红色短裤 · 背面" caption="完整新绘前 · 背面" />
+
+</div>
+
+</details>
 
 ## 白色上衣结构
 
 上排为成衣正、侧、背视图，下排为**部件与成衣接合位置示意**。部分成衣保留已装部件用于位置对照；编号是位置索引，不表示缝制顺序，也不提供可直接裁剪的纸样。
 
-<ReleaseImage src="/characters/bunny/3.1.0/white-top-v2-layer1-construction-v1.webp" original="/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png" alt="本轮白色上衣正侧背结构与四组部件接合位置：领筒、胸前开口包边、袖窿包边和下摆" caption="白色上衣 · 成衣三视与部件接合位置示意" />
+<ReleaseImage src="/characters/bunny/3.1.0/white-top-v2-layer1-construction-v1.webp" original="/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png" alt="既有白色上衣正侧背结构与四组部件接合位置：领筒、胸前开口包边、袖窿包边和下摆" caption="白色上衣 · 成衣三视与部件接合位置示意" />
 
 | 编号 | 对应部件与位置 |
 | --- | --- |
@@ -51,7 +68,7 @@ aside: true
 
 上排为成衣正、侧、背视图，下排为**部件与成衣接合位置示意**。已装部件与分离部件可同时出现，用于核对位置关系，不代表完整爆炸拆分或裁剪纸样。
 
-<ReleaseImage src="/characters/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.webp" original="/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png" alt="本轮红色短裤正侧背结构与四组部件位置：腰头门襟、前袋、后侧拼接片与贴袋、裤脚翻边" caption="红色短裤 · 成衣三视与部件接合位置示意" />
+<ReleaseImage src="/characters/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.webp" original="/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png" alt="既有红色短裤正侧背结构与四组部件位置：腰头门襟、前袋、后侧拼接片与贴袋、裤脚翻边" caption="红色短裤 · 成衣三视与部件接合位置示意" />
 
 | 编号 | 对应部件与位置 |
 | --- | --- |

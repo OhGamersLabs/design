@@ -6,7 +6,7 @@ aside: true
 # 袜装
 
 ::: info 袜装层 · 橙色长袜与白色短袜
-在[当前第一层白色上衣与红色短裤](/characters/bunny/innerwear#layer1-wearing)之上添加袜装，提供正、侧、背完整穿着稿与匹配结构资料。鞋靴和后续装备尚未同步；当前基模和图面尺寸仍作为设计依据。
+本轮以[完整新绘的第一层白色上衣与红色短裤](/characters/bunny/innerwear#layer1-wearing)为设计参考，从空白画布分别绘制包含袜装的正、侧、背完整人物；既有袜装结构与细节板继续保留，本轮没有重绘结构板。鞋靴和后续装备尚未同步；当前基模和图面尺寸仍作为设计依据。
 :::
 
 角色左腿为橙色长袜，右腿为白色短袜。袜口贴合身体并产生轻微压痕，织物与腿部轮廓连续。
@@ -15,19 +15,36 @@ aside: true
 
 ## 袜装穿着三视
 
-三张完整人物图分别展示、放大和下载，保留生图工具原输出 PNG。
+三张完整新绘人物分别展示、放大和下载，保留生图工具直接输出的 1024×1536 PNG。以干净线条和平涂硬边阴影核对袜口、袜筒和完整足部，不在旧人物上贴补袜装。
 
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-layer2-front-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-layer2-front-v1.png" alt="v2袜装层正面：当前白色上衣与红色短裤上添加左腿橙色长袜、右腿白色短袜" caption="袜装层 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.png" alt="完整新绘 · 橙色长袜与白色短袜 · 正面" caption="v2 · 完整新绘 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-layer2-side-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-layer2-side-v1.png" alt="v2袜装层侧面：当前白色上衣与红色短裤上添加左腿橙色长袜、右腿白色短袜" caption="袜装层 · 侧面" />
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png" alt="完整新绘 · 橙色长袜与白色短袜 · 侧面" caption="v2 · 完整新绘 · 侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-layer2-back-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-layer2-back-v1.png" alt="v2袜装层背面：当前白色上衣与红色短裤上添加左腿橙色长袜、右腿白色短袜" caption="袜装层 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v1.png" alt="完整新绘 · 橙色长袜与白色短袜 · 背面" caption="v2 · 完整新绘 · 背面" />
 
 </div>
 
-[下载袜装层四张原尺寸 PNG](/characters/bunny/downloads#hosiery-assets)
+[下载当前袜装三视与既有结构资料 PNG](/characters/bunny/downloads#hosiery-assets)
+
+<details>
+<summary>完整新绘前 · 袜装穿着三视</summary>
+
+此前三张人物图保留原始文件与下载地址，仅作沿革对照；当前稿见上方。
+
+<div class="bunny-body-views">
+
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-layer2-front-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-layer2-front-v1.png" alt="完整新绘前历史 · 橙色长袜与白色短袜 · 正面" caption="完整新绘前 · 正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-layer2-side-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-layer2-side-v1.png" alt="完整新绘前历史 · 橙色长袜与白色短袜 · 侧面" caption="完整新绘前 · 侧面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-layer2-back-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-layer2-back-v1.png" alt="完整新绘前历史 · 橙色长袜与白色短袜 · 背面" caption="完整新绘前 · 背面" />
+
+</div>
+
+</details>
 
 <span id="hosiery-construction"></span>
 

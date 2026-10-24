@@ -1,7 +1,7 @@
 {
   "status": "local-body-work-in-progress",
   "alignment": "approximate image-plane hair crown/floor; equal uniform scaling, not anatomical measurements; new views use visible envelope min(R,G,B)<240, exclusive right/bottom",
-  "scope": "原v2比例底子与本轮基础文胸三视逐视对照；校准胸型与文胸结构，以既定头部、腰腿臀和手足比例为约束。图面尺寸已按新原图复核，首层白色上衣与红色短裤已有对应穿着与结构资料，其余衣层与装备尚未同步。",
+  "scope": "保留左侧历史形体参考，与本轮完整新绘三视逐视对照。新图以既定身份、比例与配色为设计参考，核对完整轮廓、线稿和赛璐璐色块；图面尺寸从新原图重新量读。首层衣装与袜装各有完整新绘三视，三张既有结构板保留，其余装备尚未按本轮重绘。",
   "previous": {
     "label": "v2 · 比例底子",
     "src": "/characters/bunny/3.1.0/body-v2-proportion-reference.webp",
@@ -28,33 +28,33 @@
     ]
   },
   "candidate": {
-    "label": "v2 · 基础文胸身体三视",
-    "src": "/characters/bunny/3.1.0/body-v2-basic-bra-front-v1.webp",
+    "label": "v2 · 完整新绘身体三视",
+    "src": "/characters/bunny/3.1.0/body-v2-fresh-cel-front-v1.webp",
     "width": 1024,
     "views": [
       {
         "label": "正面",
-        "src": "/characters/bunny/3.1.0/body-v2-basic-bra-front-v1.webp",
+        "src": "/characters/bunny/3.1.0/body-v2-fresh-cel-front-v1.webp",
         "width": 1024,
-        "centerX": 511,
+        "centerX": 511.5,
         "crownY": 25,
-        "floorY": 1500
+        "floorY": 1501
       },
       {
         "label": "角色右侧",
-        "src": "/characters/bunny/3.1.0/body-v2-basic-bra-side-v1.webp",
+        "src": "/characters/bunny/3.1.0/body-v2-fresh-cel-side-v1.webp",
         "width": 1024,
-        "centerX": 510.5,
-        "crownY": 25,
-        "floorY": 1493
+        "centerX": 510.0,
+        "crownY": 23,
+        "floorY": 1492
       },
       {
         "label": "背面",
-        "src": "/characters/bunny/3.1.0/body-v2-basic-bra-back-v1.webp",
+        "src": "/characters/bunny/3.1.0/body-v2-fresh-cel-back-v1.webp",
         "width": 1024,
-        "centerX": 511,
-        "crownY": 24,
-        "floorY": 1498
+        "centerX": 511.5,
+        "crownY": 23,
+        "floorY": 1497
       }
     ]
   }
