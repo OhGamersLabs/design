@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 47,
+  "asset_count": 50,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -1106,10 +1106,10 @@
         "based_on": "/media/bunny/3.1.0/body-v2-head-refined-v1.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-body-finish-audit/deterministic-band-fix/bunny-v2-body-band-flat-local-v2.png",
         "source_artifact_sha256": "a462c4fcc71b252588ff07cab9a1a774e20988def1ec8424e176747ef0d8a1ad",
-        "review_status": "local-body-work-in-progress",
+        "review_status": "historical-before-complete-person-revision",
         "method": "deterministic-local-color-fill",
         "description": "v2 · 上衣下围色块修订：仅清理正面运动上衣下围内部的软灰暗带，保留原衣缘、主褶线与身体形体。",
-        "scope": "当前工作稿，基模仍在修订，头部与中性样板的对应关系待核对；暂不进入后续衣层同步。本次撤出衣层不改变身体图、头部基准和16格表情原件，穿戴装备与尺寸未同步。",
+        "scope": "完整人物重绘前的身体工作稿；保留此前头部同步尝试及上衣下围局部填色的历史状态，不代表该阶段已完成基模修订。",
         "reference_chain": [
           {
             "role": "sole-clean-full-image-source",
@@ -1166,6 +1166,246 @@
         "height": 1024,
         "bytes": 964078,
         "sha256": "0d07b92326c2aa7331bb2964447c180b60fbe8ad0e3ff8cdbcd109621e7874a2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-v2-full-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "body-v2-full-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "baseline_sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+        "based_on": "/media/bunny/3.1.0/body-v2-local-refined-v1.png",
+        "head_reference": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
+        "head_reference_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/body-back-cel-v1.png",
+        "source_artifact_sha256": "3b66f124ee652a0ae07b82abddea9357548404dff11ea6fd500b566bfffe4fe8",
+        "review_status": "local-complete-person-work-in-progress",
+        "method": "complete-person-lineart-then-independent-color",
+        "description": "v2 · 完整人物修订工作稿（背面）：该视角先绘制完整人物线稿，再独立上色，保留1024×1536原生画幅。",
+        "scope": "本轮二维基础体工作稿，黑色运动内搭；与原v2比例和中性头部样板继续核对，尚非用户最终确认成品。衣层、装备与尺寸未同步。",
+        "reference_chain": [
+          {
+            "role": "body-geometry-reference",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-local-refined-v1.png",
+            "sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "role": "head-design-reference",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v1.png",
+            "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "role": "complete-person-lineart-and-sole-color-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/body-back-lineart-v1.png",
+            "sha256": "220df11c95eea38f66f563cb176b388be7601f3275df1b4df40fd7ac91ea0b61",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "role": "original-builtin-color-output",
+            "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-8fe1dd04-8cc0-4517-93d6-2acca50c3af0.png",
+            "sha256": "3b66f124ee652a0ae07b82abddea9357548404dff11ea6fd500b566bfffe4fe8",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/final-base-redraw-provenance.json",
+          "sha256": "16573cbca6ba7c89fc0aefaea06be1466dc4cf31dd5769e5f9b5fe1cf04cd1c0",
+          "contents": "Actual source crops, whole-person lineart and color prompts/requests, original tool outputs and final QA references. Selected PNG is byte-identical to its native tool output; no body-part composition or production resampling."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/body-v2-full-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1463906,
+        "sha256": "3b66f124ee652a0ae07b82abddea9357548404dff11ea6fd500b566bfffe4fe8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/body-v2-full-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 747580,
+        "sha256": "7d317181a7b98071db5b0e460256d257fd3eb36579faf13efd34306f612ab1e9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-v2-full-front-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "body-v2-full-front-v1",
+      "source": {
+        "kind": "revised-reference",
+        "baseline_sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+        "based_on": "/media/bunny/3.1.0/body-v2-local-refined-v1.png",
+        "head_reference": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
+        "head_reference_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/body-front-cel-v2-b1.png",
+        "source_artifact_sha256": "402903443612577cd7b2d022c87d0bba13c3a30fde11c53248c6d2adec20a0ac",
+        "review_status": "local-complete-person-work-in-progress",
+        "method": "complete-person-lineart-then-independent-color",
+        "description": "v2 · 完整人物修订工作稿（正面）：该视角先绘制完整人物线稿，再独立上色，保留1024×1536原生画幅。",
+        "scope": "本轮二维基础体工作稿，黑色运动内搭；与原v2比例和中性头部样板继续核对，尚非用户最终确认成品。衣层、装备与尺寸未同步。",
+        "reference_chain": [
+          {
+            "role": "body-geometry-reference",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-local-refined-v1.png",
+            "sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "role": "head-design-reference",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v1.png",
+            "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "role": "complete-person-lineart-and-sole-color-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/body-front-lineart-v2-a2.png",
+            "sha256": "97eaf705a23c44afbc4cbf8ac1b487f3985352007a238a92bd418b10cb88380a",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "role": "original-builtin-color-output",
+            "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-33064cb3-7c13-4ffc-bbd4-f3582ed12ce1.png",
+            "sha256": "402903443612577cd7b2d022c87d0bba13c3a30fde11c53248c6d2adec20a0ac",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/final-base-redraw-provenance.json",
+          "sha256": "16573cbca6ba7c89fc0aefaea06be1466dc4cf31dd5769e5f9b5fe1cf04cd1c0",
+          "contents": "Actual source crops, whole-person lineart and color prompts/requests, original tool outputs and final QA references. Selected PNG is byte-identical to its native tool output; no body-part composition or production resampling."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/body-v2-full-front-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1141927,
+        "sha256": "402903443612577cd7b2d022c87d0bba13c3a30fde11c53248c6d2adec20a0ac",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/body-v2-full-front-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 636998,
+        "sha256": "498d4d20ef116daeae71986681e571b3fb56ea62517ee659009bfaca7d782667",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-v2-full-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "body-v2-full-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "baseline_sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+        "based_on": "/media/bunny/3.1.0/body-v2-local-refined-v1.png",
+        "head_reference": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
+        "head_reference_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/body-side-cel-v1.png",
+        "source_artifact_sha256": "79654b8b0c7865394d6e0927a4e33d82e9bc9b9fc92c2f698711f81efa13f38d",
+        "review_status": "local-complete-person-work-in-progress",
+        "method": "complete-person-lineart-then-independent-color",
+        "description": "v2 · 完整人物修订工作稿（侧面）：该视角先绘制完整人物线稿，再独立上色，保留1024×1536原生画幅。",
+        "scope": "本轮二维基础体工作稿，黑色运动内搭；与原v2比例和中性头部样板继续核对，尚非用户最终确认成品。衣层、装备与尺寸未同步。",
+        "reference_chain": [
+          {
+            "role": "body-geometry-reference",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-local-refined-v1.png",
+            "sha256": "c7a4ffd6310c3b8e2fe458c03269eea672264d67503bf908ff73d88f11da5477",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "role": "head-design-reference",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v1.png",
+            "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "role": "complete-person-lineart-and-sole-color-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/body-side-lineart-v1.png",
+            "sha256": "c18afcc41657d4a9d13e2aae314b173357156b8dd3d3b960b272496f681f48f8",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "role": "original-builtin-color-output",
+            "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-6e0b68a7-07ae-4b25-9823-47b817178a27.png",
+            "sha256": "79654b8b0c7865394d6e0927a4e33d82e9bc9b9fc92c2f698711f81efa13f38d",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/final-base-redraw-provenance.json",
+          "sha256": "16573cbca6ba7c89fc0aefaea06be1466dc4cf31dd5769e5f9b5fe1cf04cd1c0",
+          "contents": "Actual source crops, whole-person lineart and color prompts/requests, original tool outputs and final QA references. Selected PNG is byte-identical to its native tool output; no body-part composition or production resampling."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/body-v2-full-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1525475,
+        "sha256": "79654b8b0c7865394d6e0927a4e33d82e9bc9b9fc92c2f698711f81efa13f38d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/body-v2-full-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 704276,
+        "sha256": "6a2b9ecb110e7a20c06de243ece48e19fde79c03d000906cf325f8d9462ba685",
         "alpha": false
       }
     },
@@ -1610,8 +1850,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 71517308,
-      "sha256": "aae21423780e628634e20c92129dfbc04d676eb6cb327e73611b9bc410e56713"
+      "bytes": 74796412,
+      "sha256": "816f368f56195224d894e673c2ce9c67dee3d2635fbfe819f552f1209849322f"
     }
   ]
 }

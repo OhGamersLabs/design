@@ -1,7 +1,7 @@
 {
   "status": "local-body-work-in-progress",
   "alignment": "approximate image-plane hair crown/floor; equal uniform scaling, not anatomical measurements",
-  "scope": "从形体局部修订到当前身体工作稿的画风调整、头部同步尝试及正面上衣下围色块修订；头部与中性样板的对应关系待核对，身体腰腿胸臀与站姿保持，暂不进入后续衣层同步，穿戴装备与尺寸未同步",
+  "scope": "此前局部修订与本轮三张完整人物工作稿逐视对照；核对完整人物的头颈、线条、色块及胸腰臀腿关系，当前仍为工作稿，暂不进入后续衣层同步，装备与尺寸未同步",
   "previous": {
     "label": "v2局部修订 · 原画风",
     "src": "/characters/bunny/3.1.0/body-v2-local-refined-v1.webp",
@@ -28,27 +28,33 @@
     ]
   },
   "candidate": {
-    "label": "v2 · 身体三视基准",
-    "src": "/characters/bunny/3.1.0/body-v2-detail-refined-v1.webp",
-    "width": 1536,
+    "label": "v2 · 完整人物修订工作稿",
+    "src": "/characters/bunny/3.1.0/body-v2-full-front-v1.webp",
+    "width": 1024,
     "views": [
       {
         "label": "正面",
-        "centerX": 358,
-        "crownY": 37,
-        "floorY": 947
+        "src": "/characters/bunny/3.1.0/body-v2-full-front-v1.webp",
+        "width": 1024,
+        "centerX": 512.0,
+        "crownY": 25,
+        "floorY": 1500
       },
       {
         "label": "角色右侧",
-        "centerX": 780,
-        "crownY": 37,
-        "floorY": 947
+        "src": "/characters/bunny/3.1.0/body-v2-full-side-v1.webp",
+        "width": 1024,
+        "centerX": 510.5,
+        "crownY": 25,
+        "floorY": 1494
       },
       {
         "label": "背面",
-        "centerX": 1176,
-        "crownY": 37,
-        "floorY": 947
+        "src": "/characters/bunny/3.1.0/body-v2-full-back-v1.webp",
+        "width": 1024,
+        "centerX": 510.5,
+        "crownY": 24,
+        "floorY": 1500
       }
     ]
   }

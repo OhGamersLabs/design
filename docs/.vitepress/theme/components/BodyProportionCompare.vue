@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
 
-type View = { label: string; centerX: number; crownY: number; floorY: number }
+type View = { label: string; centerX: number; crownY: number; floorY: number; src?: string; width?: number }
 type Source = { label: string; src: string; width: number; views: View[] }
 const props = defineProps<{ previous: Source; candidate: Source }>()
 const frameRatio = 0.4
@@ -16,7 +16,7 @@ function imageStyle(source: Source, view: View) {
   // Both sources share one display height. A single scale per view preserves
   // image proportions; translation removes the source board's headings.
   return {
-    width: `${source.width / height / frameRatio * 100}%`,
+    width: `${(view.width ?? source.width) / height / frameRatio * 100}%`,
     left: `${50 - view.centerX / height / frameRatio * 100}%`,
     top: `${(imagePadding - view.crownY / height) / (1 + 2 * imagePadding) * 100}%`,
   }
@@ -33,7 +33,7 @@ function imageStyle(source: Source, view: View) {
           <figure v-for="source in [props.previous, props.candidate]" :key="source.src">
             <figcaption>{{ source.label }}</figcaption>
             <div class="body-comparison__frame" :style="frameStyle">
-              <img class="body-comparison__image" :src="withBase(source.src)" :alt="`${source.label} · ${source.views[index].label}图面等高裁切`" :style="imageStyle(source, source.views[index])" loading="lazy" decoding="async" />
+              <img class="body-comparison__image" :src="withBase(source.views[index].src ?? source.src)" :alt="`${source.label} · ${source.views[index].label}图面等高对照`" :style="imageStyle(source, source.views[index])" loading="lazy" decoding="async" />
             </div>
           </figure>
         </div>

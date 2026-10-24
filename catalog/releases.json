@@ -375,6 +375,36 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/body-v2-full-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/body-v2-full-back-v1.png",
+      "sha256": "3b66f124ee652a0ae07b82abddea9357548404dff11ea6fd500b566bfffe4fe8",
+      "size": 1463906,
+      "contentType": "image/png",
+      "downloadName": "body-v2-full-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/body-v2-full-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/body-v2-full-front-v1.png",
+      "sha256": "402903443612577cd7b2d022c87d0bba13c3a30fde11c53248c6d2adec20a0ac",
+      "size": 1141927,
+      "contentType": "image/png",
+      "downloadName": "body-v2-full-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/body-v2-full-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/body-v2-full-side-v1.png",
+      "sha256": "79654b8b0c7865394d6e0927a4e33d82e9bc9b9fc92c2f698711f81efa13f38d",
+      "size": 1525475,
+      "contentType": "image/png",
+      "downloadName": "body-v2-full-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/body-v2-head-refined-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/body-v2-head-refined-v1.png",
       "sha256": "dbc608ca5423142208c7ccac90556ca08c25c0a33f5be8c3b0d83dc5f62d603c",
@@ -477,8 +507,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "aae21423780e628634e20c92129dfbc04d676eb6cb327e73611b9bc410e56713",
-      "size": 71517308,
+      "sha256": "816f368f56195224d894e673c2ce9c67dee3d2635fbfe819f552f1209849322f",
+      "size": 74796412,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

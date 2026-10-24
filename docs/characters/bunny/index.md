@@ -9,11 +9,11 @@ aside: true
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前工作稿，基模仍在修订；暂不进入后续衣层同步。页面保留局部填色前身体及更早阶段的对照。本次衣层候选未获采用，已撤出当前展示与下载包；[贴身衣层页](/characters/bunny/innerwear)保留既有参考。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：本轮正、侧、背分别展示完整人物修订工作稿，可逐张放大与下载，并保留原 v2 和此前身体稿的等高对照。基模仍在修订，暂不进入后续衣层同步。此前被拒的衣层候选继续撤出当前展示与下载包；[贴身衣层页](/characters/bunny/innerwear)保留既有参考。
 
 ## 本轮补充
 
-- [v2中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)：保留银白发、蓝眼、发束分组和五官关系的修订；身体中的头部仍是同步尝试，需继续核对。
+- [v2中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)：保留银白发、蓝眼、发束分组和五官关系的修订；本轮完整人物工作稿继续对照样板核对。
 - [红护环开合结构](/characters/bunny/hands#cuff-opening)：铰链、锁扣与手套腕口关系。
 - [鞋带结与尾端收纳](/characters/bunny/shoes#鞋带收尾与收纳)、[坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
 
