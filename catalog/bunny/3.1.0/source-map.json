@@ -51,22 +51,22 @@
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/03-innerwear-coverage.png",
     "page": "https://design.ohgamers.org/characters/bunny/innerwear",
     "baseline_sha256": "48d913983e75ed7e6e44f155c7bc8fb7b83e3de7594ad4c41a8a19fc4ff7ba7e",
-    "review_status": "existing-innerwear-reference",
-    "description": "原03衣层参考：保留旧身体与旧头部上的穿戴关系，作为既有参考；尚未与当前v2工作稿同步。"
+    "review_status": "historical-innerwear-style-reference",
+    "description": "原03衣层沿革参考：保留旧身体与旧头部上的穿戴关系，用于回溯既有款式；不作为当前v2衣层制作稿。"
   },
   "bunny/04-white-top-construction.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/04-white-top-construction.png",
     "page": "https://design.ohgamers.org/characters/bunny/innerwear",
     "baseline_sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1",
-    "review_status": "existing-garment-construction-reference",
-    "scope": "保留既有款式结构，尚未与当前v2基础文胸三视同步；白色上衣和红色短裤的新版穿着与拆解正在制作。"
+    "review_status": "historical-garment-construction-reference",
+    "scope": "保留既有款式结构作为历史来源；当前首层穿着及部件接合位置示意使用独立新稿，本历史图不覆盖、不重绘。"
   },
   "bunny/05-red-shorts-construction.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/05-red-shorts-construction.png",
     "page": "https://design.ohgamers.org/characters/bunny/innerwear",
     "baseline_sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d",
-    "review_status": "existing-garment-construction-reference",
-    "scope": "保留既有款式结构，尚未与当前v2基础文胸三视同步；白色上衣和红色短裤的新版穿着与拆解正在制作。"
+    "review_status": "historical-garment-construction-reference",
+    "scope": "保留既有款式结构作为历史来源；当前首层穿着及部件接合位置示意使用独立新稿，本历史图不覆盖、不重绘。"
   },
   "bunny/06-hosiery-wearing.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/06-hosiery-wearing.png",
@@ -609,7 +609,7 @@
     "review_status": "local-basic-bra-body-work-in-progress",
     "method": "builtin-full-frame-reference-edit-followed-by-authorized-local-line-cleanup",
     "description": "v2 · 基础文胸身体三视（正面）：中等饱满胸型、基础文胸结构与较低中央线条；保留1024×1536完整画幅。正面内腿影面中的杂线已清理。",
-    "scope": "以既定头部、腰腿臀和手足比例为约束，保留黑色内裤。图面尺寸按对应原图复核，不给杯码、围度或厘米数据；衣层与装备尚未同步。正面在完整生成图上作局部去线；最终PNG为原尺寸修订图，不是未经后处理的工具原始输出。",
+    "scope": "以既定头部、腰腿臀和手足比例为约束，保留黑色内裤。图面尺寸按对应原图复核，不给杯码、围度或厘米数据；首层白色上衣与红色短裤已有对应穿着与结构资料，其余衣层与装备尚未同步。正面在完整生成图上作局部去线；最终PNG为原尺寸修订图，不是未经后处理的工具原始输出。",
     "reference_chain": [
       {
         "role": "previous-sports-body",
@@ -760,7 +760,7 @@
     "review_status": "local-basic-bra-body-work-in-progress",
     "method": "builtin-full-frame-reference-edit",
     "description": "v2 · 基础文胸身体三视（侧面）：中等饱满胸型、基础文胸结构与较低中央线条；保留1024×1536完整画幅。",
-    "scope": "以既定头部、腰腿臀和手足比例为约束，保留黑色内裤。图面尺寸按对应原图复核，不给杯码、围度或厘米数据；衣层与装备尚未同步。本视图保留完整生成输出；文胸设计参考清线前正面a2，来源链未变。",
+    "scope": "以既定头部、腰腿臀和手足比例为约束，保留黑色内裤。图面尺寸按对应原图复核，不给杯码、围度或厘米数据；首层白色上衣与红色短裤已有对应穿着与结构资料，其余衣层与装备尚未同步。本视图保留完整生成输出；文胸设计参考清线前正面a2，来源链未变。",
     "reference_chain": [
       {
         "role": "previous-sports-body",
@@ -824,7 +824,7 @@
     "review_status": "local-basic-bra-body-work-in-progress",
     "method": "builtin-full-frame-reference-edit",
     "description": "v2 · 基础文胸身体三视（背面）：中等饱满胸型、基础文胸结构与较低中央线条；保留1024×1536完整画幅。",
-    "scope": "以既定头部、腰腿臀和手足比例为约束，保留黑色内裤。图面尺寸按对应原图复核，不给杯码、围度或厘米数据；衣层与装备尚未同步。本视图保留完整生成输出；文胸设计参考清线前正面a2，来源链未变。",
+    "scope": "以既定头部、腰腿臀和手足比例为约束，保留黑色内裤。图面尺寸按对应原图复核，不给杯码、围度或厘米数据；首层白色上衣与红色短裤已有对应穿着与结构资料，其余衣层与装备尚未同步。本视图保留完整生成输出；文胸设计参考清线前正面a2，来源链未变。",
     "reference_chain": [
       {
         "role": "previous-sports-body",
@@ -878,6 +878,646 @@
       "sha256": "375c3367c0acfb6c2d0dad0aa28400651617c48f65f2eba3ad64e42f9bd5dbce",
       "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/body-v2-basic-bra-measurements-inner-thigh-clean-v1.json",
       "scope": "可见图面读数；正面文胸杯外缘为y415指定截面，不含外侧腋前肤线，不是最大裸胸宽、胸围或杯码。遮挡处不赋值。"
+    }
+  },
+  "bunny/innerwear-v2-layer1-front-v1.png": {
+    "page": "/characters/bunny/innerwear",
+    "baseline_sha256": "90a7d0dcec2b7a228a14a3daef037ab3eea5601ff63d04a0bd4fc30d741bad3a",
+    "based_on": "/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/layer1-front-cel-b1-edge-clean-v1.png",
+    "source_artifact_sha256": "a91ea7fe10e6038304fd30ba7a134d7e66f61b89585569435f53a1d638842326",
+    "review_status": "local-layer1-worn-view-reference",
+    "method": "Complete-figure builtin lineart and color, then source-local shadow-edge cleanup; not a clothing/body collage",
+    "description": "v2 · 第一层衣层穿着（正面）：白色上衣与红色短裤的完整人物稿，1024×1536原尺寸PNG。",
+    "scope": "仅本轮白色上衣与红色短裤；袜鞋、夹克和其他装备尚未同步。当前基模、头部、表情和图面尺寸原件保持。",
+    "reference_chain": [
+      {
+        "role": "body-design-baseline",
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-basic-bra-front-v1.png",
+        "sha256": "90a7d0dcec2b7a228a14a3daef037ab3eea5601ff63d04a0bd4fc30d741bad3a"
+      }
+    ],
+    "generation_stages": [
+      {
+        "stage": "front A2",
+        "method": "builtin imagegen",
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-front-layer1-lineart-a2.json",
+          "sha256": "e314d59804cb54867073a93bd1ce28ad289e9623b8da99828f46baf5e04e8a9b"
+        },
+        "actual_result_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-front-layer1-lineart-a2.json",
+          "sha256": "f198fdbb5e9817d1b5a823a9db7fe6c67438d51f61bb9d0fdccca8c372032f8c"
+        },
+        "inputs": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/body-front-basic-bra-inner-thigh-local-v1.png",
+            "sha256": "90a7d0dcec2b7a228a14a3daef037ab3eea5601ff63d04a0bd4fc30d741bad3a",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/reference-04-white-top-construction.png",
+            "sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1",
+            "size": [
+              2400,
+              2262
+            ],
+            "mode": "RGB"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/reference-05-red-shorts-construction.png",
+            "sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d",
+            "size": [
+              2400,
+              2262
+            ],
+            "mode": "RGB"
+          }
+        ],
+        "original_output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-front-lineart-a2.png",
+          "sha256": "f8dcd1293893a4c38a51cf4b41b52cecd8ee45a9f871ec48bc32072c4999f7cc",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        "status": "FAIL waist too low; upstream to A3"
+      },
+      {
+        "stage": "front A3",
+        "method": "builtin imagegen",
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-front-layer1-lineart-a3-waist.json",
+          "sha256": "91415c9c32ca9adb983354ef4bc7a6e9276cec022ffe0fe92e592ab648849c91"
+        },
+        "actual_result_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-front-layer1-lineart-a3.json",
+          "sha256": "1ac7c1613dc0ceceb5dce3884bdd5a640640b22c9001a94119f7f3872a5db657"
+        },
+        "inputs": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-front-lineart-a2.png",
+            "sha256": "f8dcd1293893a4c38a51cf4b41b52cecd8ee45a9f871ec48bc32072c4999f7cc",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          }
+        ],
+        "original_output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-front-lineart-a3.png",
+          "sha256": "b496cc539c1c86d885ecf2500cb3facba142cb707b003a77447a34c6bce70075",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        "status": "PASS lineart"
+      },
+      {
+        "stage": "front B1",
+        "method": "builtin imagegen",
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-front-layer1-cel-b1.json",
+          "sha256": "4f1230f756ffc7399ab54ed8bfb40fa2fc145039e6127dffa724c86bfdf43f02"
+        },
+        "actual_result_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-front-layer1-cel-b1.json",
+          "sha256": "00c14b7e5932e64f3a08419dcbd24ed1887d43dbb4d39fd24050de23b17c578e"
+        },
+        "inputs": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-front-lineart-a3.png",
+            "sha256": "b496cc539c1c86d885ecf2500cb3facba142cb707b003a77447a34c6bce70075",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          }
+        ],
+        "original_output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-front-cel-b1.png",
+          "sha256": "26bf8ea83eac7cf6603d850ca441d70140219216c300eb2b51478f8a43db935b",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        "status": "Local shadow upper-edge cleanup required; unchanged original retained"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/final-layer1-five-artifacts-provenance-v1.json",
+      "sha256": "1209eaead61a55607b8338c885706d99477b68fab59680af05d87f84ddea3186",
+      "contents": "Frozen final five accepted artifacts; complete worn lineart/color input chain; front local shadow-edge cleanup and back collar recolor; both construction boards generated from the accepted worn views."
+    },
+    "local_edit": {
+      "local_source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-front-cel-b1.png",
+        "sha256": "26bf8ea83eac7cf6603d850ca441d70140219216c300eb2b51478f8a43db935b",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "script": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/clean_front_cel_shadow_edge_v1.py",
+        "sha256": "de8ceb7ccfdd6a7ecfc83882a4b4ed98df3657f42b248fcaf2ab25ab91c2565e"
+      },
+      "parameters": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/parameters-v1.json",
+        "sha256": "69e8980c6969335d1c2d86705679bcac7638bad36fd168b86835882551b94d38"
+      },
+      "actual_mask": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/actual-changed-mask-v1.png",
+        "sha256": "c456cdf4955a831d03c5dac01f273ed2b6e028ca285f02add3cd591e662b3420",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "L"
+      },
+      "guard": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/original-ink-fold-protection-mask-v1.png",
+        "sha256": "353efe4de086c3f21a526d4776410f318f1b3132e6abbac15a995b5e510585a7",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "L"
+      },
+      "verification": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/verification-v1.json",
+        "sha256": "1bb22aa9f22fcba3cbcc11367693b4c81061cf853ffbe0b4c69148a0412426a8"
+      },
+      "readonly_verifier": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/verify_edge_cleanup_v1.py",
+        "sha256": "8f9f9c458df1e4bc13f876b0685d01f3aad90d04ae2c8a78e2dd2ac83407ed83"
+      },
+      "changed_pixels": 2545,
+      "bbox": [
+        405,
+        432,
+        620,
+        460
+      ],
+      "authorized_mask": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/authorized-narrow-band-mask-v1.png",
+        "sha256": "b25f6ef4be205fe1c03e518b0226b0859ba3b36011ff661989e9787fb11ac254",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "L"
+      },
+      "scope": "正面白衣主影上缘窄混色带局部清理。",
+      "invariants": "Mask exterior, protected original ink/boundaries and alpha unchanged; pixel checks accompany actual visual review."
+    }
+  },
+  "bunny/innerwear-v2-layer1-side-v1.png": {
+    "page": "/characters/bunny/innerwear",
+    "baseline_sha256": "022988a40ae32a97e015c7410ee6e8d7a6653b587e35000440167dea4fbb47a3",
+    "based_on": "/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-cel-b1.png",
+    "source_artifact_sha256": "dabfe271747854864d891a1112f0764e591fa506243dde0349ecba90cf05ad62",
+    "review_status": "local-layer1-worn-view-reference",
+    "method": "Complete-figure builtin lineart, local semantic waistband revision in builtin imagegen, then color; final is byte-identical native output",
+    "description": "v2 · 第一层衣层穿着（侧面）：白色上衣与红色短裤的完整人物稿，1024×1536原尺寸PNG。",
+    "scope": "仅本轮白色上衣与红色短裤；袜鞋、夹克和其他装备尚未同步。当前基模、头部、表情和图面尺寸原件保持。",
+    "reference_chain": [
+      {
+        "role": "body-design-baseline",
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-basic-bra-side-v1.png",
+        "sha256": "022988a40ae32a97e015c7410ee6e8d7a6653b587e35000440167dea4fbb47a3"
+      }
+    ],
+    "generation_stages": [
+      {
+        "stage": "side A1",
+        "method": "builtin imagegen",
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-side-layer1-lineart-a1.json",
+          "sha256": "7999fc5d38e2d37c2bec6c4431d905185399a068bb06e6114e47eb73744a53ec"
+        },
+        "actual_result_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-side-layer1-lineart-a1.json",
+          "sha256": "0122f507355dbaac0d1718a3705b130253c36bb661169de076a3928b3b5a3e27"
+        },
+        "inputs": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-side-basic-bra-medium-v1.png",
+            "sha256": "022988a40ae32a97e015c7410ee6e8d7a6653b587e35000440167dea4fbb47a3",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-front-lineart-a3.png",
+            "sha256": "b496cc539c1c86d885ecf2500cb3facba142cb707b003a77447a34c6bce70075",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/reference-05-red-shorts-construction.png",
+            "sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d",
+            "size": [
+              2400,
+              2262
+            ],
+            "mode": "RGB"
+          }
+        ],
+        "original_output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-lineart-a1.png",
+          "sha256": "ae4773030a35dbf982890fbc6adb49c941f899fa750d89386e257b57de5d86bb",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        "status": "FAIL excessive waistband tilt; upstream to A2"
+      },
+      {
+        "stage": "side A2",
+        "method": "builtin imagegen",
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-side-layer1-lineart-a2-waist.json",
+          "sha256": "66aabce9a8bf3781148243151b54e6e133c50e83c6b3c47d2cf8829a1024832a"
+        },
+        "actual_result_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-side-lineart-a2.json",
+          "sha256": "5242092178c0842d63fdc088c522679d465a3e5699fc457a12c42a618e560649"
+        },
+        "inputs": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-lineart-a1.png",
+            "sha256": "ae4773030a35dbf982890fbc6adb49c941f899fa750d89386e257b57de5d86bb",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          }
+        ],
+        "original_output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-lineart-a2.png",
+          "sha256": "65e138949728c9a49103cb56f1605feedcbb0f65683f143954a0a4994db8f588",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        "status": "PASS lineart"
+      },
+      {
+        "stage": "side B1",
+        "method": "builtin imagegen",
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-side-layer1-cel-b1.json",
+          "sha256": "2cdcfc4dd2fc7e08e529826eadab4202ac7b64f5aa08d24c8d0b850ddb0c0875"
+        },
+        "actual_result_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-side-cel-b1.json",
+          "sha256": "cb04f30af22f7b4d77125ac1bbc7d5b61282b2fefe4ed76891d35ba07f03c1df"
+        },
+        "inputs": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-lineart-a2.png",
+            "sha256": "65e138949728c9a49103cb56f1605feedcbb0f65683f143954a0a4994db8f588",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          }
+        ],
+        "original_output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-cel-b1.png",
+          "sha256": "dabfe271747854864d891a1112f0764e591fa506243dde0349ecba90cf05ad62",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        "status": "PASS final native PNG"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/final-layer1-five-artifacts-provenance-v1.json",
+      "sha256": "1209eaead61a55607b8338c885706d99477b68fab59680af05d87f84ddea3186",
+      "contents": "Frozen final five accepted artifacts; complete worn lineart/color input chain; front local shadow-edge cleanup and back collar recolor; both construction boards generated from the accepted worn views."
+    }
+  },
+  "bunny/innerwear-v2-layer1-back-v1.png": {
+    "page": "/characters/bunny/innerwear",
+    "baseline_sha256": "3c2c08818b5db012d39a1d482874b9194a3027786533cdada5429bd2406d1664",
+    "based_on": "/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/layer1-back-cel-b1-collar-white-v1.png",
+    "source_artifact_sha256": "f2defc60bc356f0be17eb871efc9f8c4776fe2f11d01bd118aff75b0e7d90c25",
+    "review_status": "local-layer1-worn-view-reference",
+    "method": "Complete-figure builtin lineart and color, then existing collar-panel-only local recolor; not a clothing/body collage",
+    "description": "v2 · 第一层衣层穿着（背面）：白色上衣与红色短裤的完整人物稿，1024×1536原尺寸PNG。",
+    "scope": "仅本轮白色上衣与红色短裤；袜鞋、夹克和其他装备尚未同步。当前基模、头部、表情和图面尺寸原件保持。",
+    "reference_chain": [
+      {
+        "role": "body-design-baseline",
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-basic-bra-back-v1.png",
+        "sha256": "3c2c08818b5db012d39a1d482874b9194a3027786533cdada5429bd2406d1664"
+      }
+    ],
+    "generation_stages": [
+      {
+        "stage": "back A1",
+        "method": "builtin imagegen",
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-back-layer1-lineart-a1.json",
+          "sha256": "25c2223f3d60e4aea047fe812c06d305e8325fdfa331caeebcdfe1518791f8cb"
+        },
+        "actual_result_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-back-layer1-lineart-a1.json",
+          "sha256": "ff7e2fd9019f61131327e8354a26f57efd0887407337b75e7067cff00499b22b"
+        },
+        "inputs": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-back-basic-bra-medium-v1.png",
+            "sha256": "3c2c08818b5db012d39a1d482874b9194a3027786533cdada5429bd2406d1664",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-front-lineart-a3.png",
+            "sha256": "b496cc539c1c86d885ecf2500cb3facba142cb707b003a77447a34c6bce70075",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/reference-05-red-shorts-construction.png",
+            "sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d",
+            "size": [
+              2400,
+              2262
+            ],
+            "mode": "RGB"
+          }
+        ],
+        "original_output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-back-lineart-a1.png",
+          "sha256": "74f7fd362913802fda8b87d11fab79cffecd1da5f7ecaf37e1355a3b2554507c",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        "status": "PASS lineart"
+      },
+      {
+        "stage": "back B1",
+        "method": "builtin imagegen",
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-back-layer1-cel-b1.json",
+          "sha256": "624e6b1edf323577c724b6bab7e6f90b54411aaf9ce85614fd73899e433572e8"
+        },
+        "actual_result_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-back-cel-b1.json",
+          "sha256": "f55deca0a51d19da30174dd9aa084361fd56d5fbcf73ff9c6d04be06c145f854"
+        },
+        "inputs": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-back-lineart-a1.png",
+            "sha256": "74f7fd362913802fda8b87d11fab79cffecd1da5f7ecaf37e1355a3b2554507c",
+            "size": [
+              1024,
+              1536
+            ],
+            "mode": "RGB"
+          }
+        ],
+        "original_output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-back-cel-b1.png",
+          "sha256": "487ecf7fd18b48a1284be6d784f954abde4c96b80904071b7d8da519fc622ff4",
+          "size": [
+            1024,
+            1536
+          ],
+          "mode": "RGB"
+        },
+        "status": "Local collar-panel recolor required; unchanged original retained"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/final-layer1-five-artifacts-provenance-v1.json",
+      "sha256": "1209eaead61a55607b8338c885706d99477b68fab59680af05d87f84ddea3186",
+      "contents": "Frozen final five accepted artifacts; complete worn lineart/color input chain; front local shadow-edge cleanup and back collar recolor; both construction boards generated from the accepted worn views."
+    },
+    "local_edit": {
+      "local_source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-back-cel-b1.png",
+        "sha256": "487ecf7fd18b48a1284be6d784f954abde4c96b80904071b7d8da519fc622ff4",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGB"
+      },
+      "script": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/recolor_back_collar_v1.py",
+        "sha256": "3044a4756d2ccc565342645741959a841dfe4874e01568dac30cbdd6e72c7bed"
+      },
+      "parameters": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/parameters-v1.json",
+        "sha256": "861be6661cb9b2a08d1ca34e681edbda310ebd3e0d6051fd83e5c2b57af7ce82"
+      },
+      "actual_mask": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/actual-changed-mask-v1.png",
+        "sha256": "87a7d3293f6ac27a6b840210bab55588f051f02b5c7d874784f3e4affe00fa7d",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "L"
+      },
+      "guard": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/original-boundary-guard-v1.png",
+        "sha256": "e603fe4bcc90c5bb65683e4dba5cbd9d9ad94e4e2b57174a851a52d67bce1b44",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "L"
+      },
+      "verification": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/verification-v1.json",
+        "sha256": "9ac9dbabe5991adb1d275b04ea33899edaa9b58d6cab89713283daee46b60759"
+      },
+      "readonly_verifier": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/verify_collar_recolor_v1.py",
+        "sha256": "4a55ea02772b9c411673fdc30247bac02fb2dd5ed70c45797af9a010b20678b5"
+      },
+      "changed_pixels": 1755,
+      "bbox": [
+        468,
+        268,
+        556,
+        292
+      ],
+      "scope": "背面已有领片内部定点改为白色，保留衣缘与结构线。",
+      "invariants": "Mask exterior, protected original ink/boundaries and alpha unchanged; pixel checks accompany actual visual review."
+    }
+  },
+  "bunny/white-top-v2-layer1-construction-v1.png": {
+    "page": "/characters/bunny/innerwear",
+    "baseline_sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1",
+    "based_on": "/media/bunny/3.1.0/04-white-top-construction.png",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/white-top-construction-v1.png",
+    "source_artifact_sha256": "d949df8f7e088623bc4429a15a2a12e71712b2f1cf7291e73bf2707c9e57e890",
+    "review_status": "local-layer1-construction-reference",
+    "method": "builtin imagegen; original native output byte-identical copy; no local alteration",
+    "description": "白色上衣 · 成衣正侧背与部件接合位置示意，1536×1024原尺寸PNG。",
+    "scope": "对应本轮三张穿着稿；下排为部件与成衣接合位置示意，部分保留已装构件作位置对照，不是完整爆炸图、缝制顺序或裁剪纸样。",
+    "reference_chain": [
+      {
+        "role": "historical-style-origin-not-generation-input",
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/04-white-top-construction.png",
+        "sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1"
+      },
+      {
+        "role": "actual-generation-input",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/layer1-front-cel-b1-edge-clean-v1.png",
+        "sha256": "a91ea7fe10e6038304fd30ba7a134d7e66f61b89585569435f53a1d638842326",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      {
+        "role": "actual-generation-input",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-cel-b1.png",
+        "sha256": "dabfe271747854864d891a1112f0764e591fa506243dde0349ecba90cf05ad62",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      {
+        "role": "actual-generation-input",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/layer1-back-cel-b1-collar-white-v1.png",
+        "sha256": "f2defc60bc356f0be17eb871efc9f8c4776fe2f11d01bd118aff75b0e7d90c25",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      {
+        "role": "actual-generation-request",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-white-top-construction-v1.json",
+        "sha256": "bcd811a08f589869185e4902ec7ca6dcb77c381e8135a7523d24c442bef44967"
+      },
+      {
+        "role": "original-builtin-tool-output",
+        "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-1fa297ea-a65f-44bd-9fe7-5d029503ee2e.png",
+        "sha256": "d949df8f7e088623bc4429a15a2a12e71712b2f1cf7291e73bf2707c9e57e890",
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      {
+        "role": "actual-generation-result-record",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-white-top-construction-v1.json",
+        "sha256": "8d47a99071ab8a203725dc1665dff114dbbf1aadc7ad5f44f97b71a24fa00f86"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/final-layer1-five-artifacts-provenance-v1.json",
+      "sha256": "1209eaead61a55607b8338c885706d99477b68fab59680af05d87f84ddea3186",
+      "contents": "Frozen final five accepted artifacts; complete worn lineart/color input chain; front local shadow-edge cleanup and back collar recolor; both construction boards generated from the accepted worn views."
+    }
+  },
+  "bunny/red-shorts-v2-layer1-construction-v1.png": {
+    "page": "/characters/bunny/innerwear",
+    "baseline_sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d",
+    "based_on": "/media/bunny/3.1.0/05-red-shorts-construction.png",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/red-shorts-construction-v1.png",
+    "source_artifact_sha256": "769bb8955048c86b657122309420d805c49a75a8ab9d0ffd3e76817a16a2f68d",
+    "review_status": "local-layer1-construction-reference",
+    "method": "builtin imagegen; original native output byte-identical copy; no local alteration",
+    "description": "红色短裤 · 成衣正侧背与部件接合位置示意，1536×1024原尺寸PNG。",
+    "scope": "对应本轮三张穿着稿；下排为部件与成衣接合位置示意，部分保留已装构件作位置对照，不是完整爆炸图、缝制顺序或裁剪纸样。",
+    "reference_chain": [
+      {
+        "role": "historical-style-origin-not-generation-input",
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/05-red-shorts-construction.png",
+        "sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d"
+      },
+      {
+        "role": "actual-generation-input",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/layer1-front-cel-b1-edge-clean-v1.png",
+        "sha256": "a91ea7fe10e6038304fd30ba7a134d7e66f61b89585569435f53a1d638842326",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      {
+        "role": "actual-generation-input",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-cel-b1.png",
+        "sha256": "dabfe271747854864d891a1112f0764e591fa506243dde0349ecba90cf05ad62",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      {
+        "role": "actual-generation-input",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/layer1-back-cel-b1-collar-white-v1.png",
+        "sha256": "f2defc60bc356f0be17eb871efc9f8c4776fe2f11d01bd118aff75b0e7d90c25",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB"
+      },
+      {
+        "role": "actual-generation-request",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/request-red-shorts-construction-v1.json",
+        "sha256": "13e67968a3a223936fd5c2d2567246f1c16be281f37491626181e8df2eded382"
+      },
+      {
+        "role": "original-builtin-tool-output",
+        "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-bc6f72eb-6d4b-4c43-a6b3-be9435b4d8ab.png",
+        "sha256": "769bb8955048c86b657122309420d805c49a75a8ab9d0ffd3e76817a16a2f68d",
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGB"
+      },
+      {
+        "role": "actual-generation-result-record",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/result-red-shorts-construction-v1.json",
+        "sha256": "6237d6ae04b798f34f24ec608f1d3c5264d1b7a1401d5bd0e2d9840a41fe444d"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/final-layer1-five-artifacts-provenance-v1.json",
+      "sha256": "1209eaead61a55607b8338c885706d99477b68fab59680af05d87f84ddea3186",
+      "contents": "Frozen final five accepted artifacts; complete worn lineart/color input chain; front local shadow-edge cleanup and back collar recolor; both construction boards generated from the accepted worn views."
     }
   }
 }

@@ -9,7 +9,7 @@ aside: true
 
 ## 本轮身体三视图的画风标准
 
-采用**日系二次元手绘线稿与赛璐璐上色**作为修订标准。当前[基础文胸身体三视](/characters/bunny/body-base)作为衣层设计基准，[图面尺寸与比例](/characters/bunny/dimensions)已按对应原图复核；[中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)保留供核对。白色上衣与红色短裤的第一阶段设计待同步；03衣层图、04/05衣物拆件仍为既有参考，其余衣层与装备也未随当前三视重绘。
+采用**日系二次元手绘线稿与赛璐璐上色**作为修订标准。当前[基础文胸身体三视](/characters/bunny/body-base)作为衣层设计基准，[图面尺寸与比例](/characters/bunny/dimensions)已按对应原图复核；[中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)保留供核对。[首层白色上衣与红色短裤](/characters/bunny/innerwear)已有对应穿着三视与结构板；03衣层图、04/05衣物拆件仍作为历史款式参考，其余衣层与装备未随当前三视重绘。
 
 - **线稿清楚分层**：外轮廓完整，内部五官、衣物边缘和转折线更轻；线条保留自然粗细与收尖，不以模糊色边替代结构线。
 - **固有色平涂**：皮肤、银白头发、蓝眼和黑色基础内衣保留各自清楚的主色面，不用连续明暗渐变填满形体。

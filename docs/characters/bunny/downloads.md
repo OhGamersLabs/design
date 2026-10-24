@@ -27,7 +27,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-本轮基础文胸正、侧、背三张完整人物图均为独立的 1024×1536 原尺寸 PNG，作为衣层设计基准的工作稿保留；正面内腿杂线已清理，图面尺寸已按新原图复核，衣层与装备尚未同步。此前被拒的衣层候选继续从下载与原图包撤出。原图包保留本轮三图、此前运动款三图、旧03、各阶段身体、中性头部、16格表情与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
+基础文胸正、侧、背三张完整人物图均为独立的 1024×1536 原尺寸 PNG，作为衣层设计基准的工作稿保留；正面内腿杂线已清理，图面尺寸已按对应原图复核。首层白色上衣与红色短裤的穿着三视及两张结构板已补齐，其余衣层与装备尚未同步。此前被拒的衣层候选继续从下载与原图包撤出。原图包保留当前基模、首层衣装五图、此前运动款三图、旧03—05、各阶段身体、中性头部、16格表情与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -53,11 +53,24 @@ aside: true
 
 <ul><li><a href="/media/bunny/3.1.0/00-origin-positioning.png">2026-10-18旧基准沿革 · 原始形象与设计定位</a></li><li><a href="/media/bunny/3.1.0/01-body-baseline.png">原01身体三视 · 沿革参考</a></li><li><a href="/media/bunny/3.1.0/dimension-01-character-dimension-standard.png">原01人物尺寸板</a></li><li><a href="/media/bunny/3.1.0/02-identity-style.png">原02面部板 · 历史身份与旧配色</a></li></ul>
 
-## 贴身衣层
+## 贴身衣层 {#layer1-assets}
+
+- [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-front-v1.png)
+- [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v1.png)
+- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png)
+- [白色上衣 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png)
+- [红色短裤 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png)
+
+穿着三视各为 1024×1536，两张结构板各为 1536×1024。结构板下排是部件与成衣接合位置示意，部分保留已装构件作对照；编号解释见[衣层页](/characters/bunny/innerwear)，不作为缝制顺序或裁剪纸样。
+
+<details>
+<summary>原03—05 · 既有穿着与款式结构</summary>
 
 <ul><li><a href="/media/bunny/3.1.0/03-innerwear-coverage.png">原03 · 既有贴身衣层参考</a></li><li><a href="/media/bunny/3.1.0/04-white-top-construction.png">白色上衣 · 既有款式结构参考</a></li><li><a href="/media/bunny/3.1.0/05-red-shorts-construction.png">红色短裤 · 既有款式结构参考</a></li></ul>
 
-03保留既有穿着参考，04、05保留原始款式结构；这些资料尚未与当前v2工作稿同步，也未按本轮画风重绘。
+03保留旧身体上的穿着参考，04、05保留原始款式结构；三张历史资料保持原样，不代替当前第一层衣装图。
+
+</details>
 
 ## 袜装
 

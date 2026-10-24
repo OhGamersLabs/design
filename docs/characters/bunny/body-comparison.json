@@ -1,7 +1,7 @@
 {
   "status": "local-body-work-in-progress",
   "alignment": "approximate image-plane hair crown/floor; equal uniform scaling, not anatomical measurements; new views use visible envelope min(R,G,B)<240, exclusive right/bottom",
-  "scope": "原v2比例底子与本轮基础文胸三视逐视对照；校准胸型与文胸结构，以既定头部、腰腿臀和手足比例为约束。图面尺寸已按新原图复核，衣层与装备尚未同步。",
+  "scope": "原v2比例底子与本轮基础文胸三视逐视对照；校准胸型与文胸结构，以既定头部、腰腿臀和手足比例为约束。图面尺寸已按新原图复核，首层白色上衣与红色短裤已有对应穿着与结构资料，其余衣层与装备尚未同步。",
   "previous": {
     "label": "v2 · 比例底子",
     "src": "/characters/bunny/3.1.0/body-v2-proportion-reference.webp",

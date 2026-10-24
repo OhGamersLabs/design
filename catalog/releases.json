@@ -515,6 +515,36 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/innerwear-v2-layer1-back-v1.png",
+      "sha256": "f2defc60bc356f0be17eb871efc9f8c4776fe2f11d01bd118aff75b0e7d90c25",
+      "size": 949458,
+      "contentType": "image/png",
+      "downloadName": "innerwear-v2-layer1-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/innerwear-v2-layer1-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/innerwear-v2-layer1-front-v1.png",
+      "sha256": "a91ea7fe10e6038304fd30ba7a134d7e66f61b89585569435f53a1d638842326",
+      "size": 1271133,
+      "contentType": "image/png",
+      "downloadName": "innerwear-v2-layer1-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/innerwear-v2-layer1-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/innerwear-v2-layer1-side-v1.png",
+      "sha256": "dabfe271747854864d891a1112f0764e591fa506243dde0349ecba90cf05ad62",
+      "size": 1503910,
+      "contentType": "image/png",
+      "downloadName": "innerwear-v2-layer1-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/outfit-pose-current.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/outfit-pose-current.png",
       "sha256": "c896bd1ed2448503a4ec0997b3475ba2e232230bc059d43b6ad2ea93f6ed710f",
@@ -535,10 +565,30 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/red-shorts-v2-layer1-construction-v1.png",
+      "sha256": "769bb8955048c86b657122309420d805c49a75a8ab9d0ffd3e76817a16a2f68d",
+      "size": 1540617,
+      "contentType": "image/png",
+      "downloadName": "red-shorts-v2-layer1-construction-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/white-top-v2-layer1-construction-v1.png",
+      "sha256": "d949df8f7e088623bc4429a15a2a12e71712b2f1cf7291e73bf2707c9e57e890",
+      "size": 1688937,
+      "contentType": "image/png",
+      "downloadName": "white-top-v2-layer1-construction-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "f72fa4903476830e9ecec6e02c2ab22de7a5f94608ba0d6022032a1bf97afc7e",
-      "size": 78533011,
+      "sha256": "b08c0aef9a3670a0558509a996d7bec9d8653d2478b0c878c724f74dba8f8ab4",
+      "size": 84780930,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

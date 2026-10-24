@@ -14,7 +14,7 @@ import braComparison from './body-bra-comparison.json'
 <span id="gray-proportion-review"></span>
 
 ::: warning 当前工作稿
-当前基础文胸三视作为衣层设计基准，图面比例已按对应原图复核；白色上衣、红色短裤及其余衣层与装备尚未同步。下方保留当前身体图与各阶段对照。
+当前基础文胸三视作为衣层设计基准，图面比例已按对应原图复核；[首层白色上衣与红色短裤](/characters/bunny/innerwear)的穿着三视及结构板已补齐，其余衣层与装备尚未同步。下方保留当前身体图与各阶段对照。
 :::
 
 ::: info 本轮基础文胸修订
