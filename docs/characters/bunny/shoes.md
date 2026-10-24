@@ -15,11 +15,13 @@ aside: true
 
 三张完整人物各为 1024×1536。鞋底厚度属于鞋层外形，人物比例仍参照[当前基模与图面尺寸](/characters/bunny/dimensions)；本页不提供隐藏踝位置、内部足床的精确尺寸或三维装配结论。
 
+本次完整重绘右侧面与独立结构板，灰色圆锚改为双色硬边，正面与背面保持原稿。
+
 <div class="bunny-body-views">
 
 <ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png" alt="完整新绘 · 红白鞋靴层 · 正面" caption="v2 · 鞋靴层 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.png" alt="完整新绘 · 红白鞋靴层 · 右侧面，朝画面右侧" caption="v2 · 鞋靴层 · 右侧面" />
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.png" alt="完整重绘 · 红白鞋靴层 · 右侧面，灰色圆锚双色硬边" caption="v2 · 鞋靴层 · 右侧面 · 金属硬边色块修订" />
 
 <ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png" alt="完整新绘 · 红白鞋靴层 · 背面" caption="v2 · 鞋靴层 · 背面" />
 
@@ -29,11 +31,22 @@ aside: true
 
 ## 鞋靴独立结构 {#footwear-construction}
 
-<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-layer3-construction-v1.webp" original="/media/bunny/3.1.0/footwear-v2-layer3-construction-v1.png" alt="红白鞋靴独立结构：右鞋各面、鞋底、部件分层与鞋带收纳" caption="v2 · 鞋靴独立结构 · 1536×1024" />
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-layer3-construction-v2.webp" original="/media/bunny/3.1.0/footwear-v2-layer3-construction-v2.png" alt="红白鞋靴独立结构：右鞋各面、鞋底、部件分层与鞋带收纳，灰色圆锚双色硬边" caption="v2 · 鞋靴独立结构 · 金属硬边色块修订 · 1536×1024" />
 
 01—04 展示同一只右鞋的正面、外侧、内侧和背面，05 为鞋底。外踝大圆件与前端小橙圈属于外侧，内侧没有这两件；正面与背面只见大圆件侧缘，前端小橙圈不出现在后跟面。
 
 06 分开鞋帮、白色中底与带红色侧块的黑色外底，虚线表示相互对应的位置。07 对照上鞋舌袋打开与合拢：白色鞋带结和短尾收在袋中，下方仍保留交叉系带。结构板用于说明可见部件与接合位置，不是裁剪纸样、制造步骤或投产规格。
+
+<details>
+<summary>金属硬边色块修订前 · 侧面与结构板</summary>
+
+以下是此前已采用的完整重绘稿。本次收紧灰色圆锚的硬边赛璐璐处理后转为历史参考，保留原件和下载地址。
+
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.png" alt="金属硬边色块修订前 · 鞋靴右侧面，历史参考" caption="此前鞋靴右侧面 · 历史参考" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-layer3-construction-v1.webp" original="/media/bunny/3.1.0/footwear-v2-layer3-construction-v1.png" alt="金属硬边色块修订前 · 鞋靴独立结构，历史参考" caption="此前鞋靴独立结构 · 历史参考" />
+
+</details>
 
 <details>
 <summary>鞋靴完整重绘前 · 旧穿着与独立结构</summary>

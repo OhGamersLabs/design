@@ -191,11 +191,23 @@ aside: true
 ## 鞋靴 {#footwear-assets}
 
 - [鞋靴层 · 正面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png)
-- [鞋靴层 · 右侧面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.png)
+- [鞋靴层 · 右侧面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.png)
 - [鞋靴层 · 背面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png)
-- [鞋靴 · 独立结构与鞋带收纳 PNG](/media/bunny/3.1.0/footwear-v2-layer3-construction-v1.png)
+- [鞋靴 · 独立结构与鞋带收纳 PNG](/media/bunny/3.1.0/footwear-v2-layer3-construction-v2.png)
 
 穿着三视各为 1024×1536，独立结构板为 1536×1024，均保留工具原始 PNG。结构说明见[鞋靴页](/characters/bunny/shoes#footwear-construction)；结构板说明可见部件与接合位置，不是裁剪纸样或投产规格。
+
+本次完整重绘右侧面与结构板，灰色圆锚改为双色硬边；正面、背面保持。
+
+<details>
+<summary>金属硬边色块修订前 · 侧面与结构板</summary>
+
+- [此前鞋靴右侧面 · 历史原图 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.png)
+- [此前鞋靴独立结构 · 历史原图 PNG](/media/bunny/3.1.0/footwear-v2-layer3-construction-v1.png)
+
+此前已采用的两张稿件保留原件与网址，当前版本见上方。
+
+</details>
 
 <details>
 <summary>鞋靴完整重绘前 · 旧穿着、结构与动作补图</summary>

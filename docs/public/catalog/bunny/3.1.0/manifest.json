@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 94,
+  "asset_count": 96,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -2631,9 +2631,9 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-side-native-v2.png",
         "source_artifact_sha256": "add04b9068d988046c63b2398a377ce44cad63afeb5f1f6c9c588c10f3983a7c",
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-        "description": "鞋靴层右侧完整人物，朝画面右侧，远侧橙袜腿自然遮挡；整张新绘，保留生图工具原件。",
+        "description": "此前已采用的鞋靴侧面或结构板；收紧灰色圆锚的硬边赛璐璐处理后转为历史参考，原件、来源与下载URL保留。",
         "scope": "当前鞋靴层三张完整人物及一张独立结构板。基模三视、图面尺寸、头部、16格表情和此前衣层资料保持。PNG与工具输出逐字节一致；结构板说明可见部件，不是生产纸样或精确3D装配。",
-        "review_status": "current-footwear-layer-reference",
+        "review_status": "historical-before-footwear-hard-edge-metal-revision",
         "review_scope": "Root已检查完整图、原尺寸局部、三视及配套结构板，接受可见二维设计；隐藏踝位置和内部足床未经测量。",
         "candidate_revision": 2,
         "delivery_series_revision": 1,
@@ -2695,6 +2695,83 @@
       }
     },
     {
+      "id": "footwear-v2-fresh-cel-side-v2",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "footwear-v2-fresh-cel-side-v2",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/shoes",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/footwear-side-color-native-v5.png",
+        "source_artifact_sha256": "af449ef66c3bc528054f2a681abd43e74920f24f4b9428fe6bd6c846a560b0ee",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "鞋靴层右侧完整人物：整张重绘，灰色圆锚与连接件采用双色硬边，保留工具原件。",
+        "scope": "仅更新鞋靴侧面与结构板；正面、背面、基模、图面尺寸、表情及此前衣层保持。无本地画面修补，网页仅作无损转换。",
+        "review_status": "current-footwear-hard-edge-metal-reference",
+        "review_scope": "Root与材质专项审查看过完整图及原尺寸局部，确认灰锚双色硬界。未确认新增明显随机白斑、周期碎纹或广泛云斑；微小档内色差与侧裤弱色变仍有判读限制，不作全像素同色或完全无瑕疵声明。",
+        "candidate_revision": 5,
+        "delivery_series_revision": 2,
+        "generation_node": "footwear-side-color-native-v5",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png",
+            "sha256": "1bff3ceb095d2fad3755156925c47979b6eab42d3f69a817982b347934fc60cd",
+            "role": "current accepted character identity/body/pose/all existing clothing and colors; no footwear rendering inherited"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/footwear-construction-color-native-v4.png",
+            "sha256": "f547cd3d02364f8deba75ea54f6f51192803bcd45cf4c0a85970d6912972b2f7",
+            "role": "complete right-boot design and exact per-part colors including hard two-gray small anchor"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/selected-generation-provenance.json",
+          "sha256": "15f9da7949d74478c1c887c32f9c258afccb90ce325ef0865831a5ed6eb6762c"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/request-side-color-v5.json",
+          "sha256": "f94b42e4399294953c44dec19dfd824e96f58a9acea5af7de0dcbb75855c27d4"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Create a complete fresh full-color Japanese anime character design drawing, full head-to-toe RIGHT-SIDE PROFILE facing screen RIGHT, on pure white background.\n\nREFERENCE 1 is the current accepted adult Bunny woman wearing socks. It is authoritative for her identity, exact visible body shape and proportions, pose, hair, ear, face, skin, top, shorts and sock colors. REFERENCE 2 is the newly approved boot design master. It is authoritative for the new footwear design, material color zones and its hard-edge two-gray ankle-anchor paint. The output is the same woman from reference 1 now wearing the boots from reference 2. Use only these two clear reference jobs. Render the entire new illustration, not an overlay or cutout.\n\nPreserve the same silver-white layered short hair, blue eye, small close-to-head ear, chest volume, slim waist, rounded buttock profile, long thigh/calf relationships, shoulder and knee locations relative to body units, relaxed arm and natural five-finger hand. Same white sleeveless high-neck crop top and red cuffed shorts. Near/right leg wears the WHITE calf sock. Far/left orange leg is hidden by this strict side view as in reference 1; do not invent a new exposed far leg. Match the original complete silhouette and modest standing pose. No widening the body, shortening calves or making a long torso. Keep deliberate hard skin and clothing shadow shapes with clear boundaries. Hair, skin and red shorts must be clean cel regions without cloudy patches, mottling, white specks or blur.\n\nAdd the RIGHT BOOT from panel 02 OUTER of reference 2 to the sock-covered right foot, toe pointing right. Preserve the foot's plausible position within the boot and sock continuity at the shoe collar. The shoe sole adds height; allow room below the figure or uniformly scale the WHOLE figure if needed. Never squash individual leg segments or move the knee just to match old canvas edges.\n\nCRITICAL TARGET: Look at the SMALL SILVER-GRAY circular anchor ABOVE the large black ankle disc in reference 2. It has TWO visibly distinct gray color regions: a pale upper-left face and a darker lower-right segment meeting at a hard straight diagonal color boundary. Paint this exact small gray cap in the output with that clear two-tone division, even at its small size. It is NOT a softly shaded round bead. No spherical glow or continuous gradient. Let color areas meet sharply without adding a physical seam, black incision, bevel ring or new component. The connector below it is gray with a hard dark side plane. This hard two-gray paint is only on the silver-gray small cap/link. Do NOT apply it to or recolor the LARGE BLACK ankle disc.\n\nCopy all boot colors and pieces exactly from reference 2: red upper/tongue cover/collar exterior, gray cover plaque with three black vertical slots and three little yellow-orange squares beneath, orange instep underneath WHITE crossed laces and BLACK eyelets. Closed upper cover conceals white lace knot and short tails, while lower crossing laces stay visible. White collar lining, toe inset, side/heel insert and one white midsole. Large outer ankle disc has a WIDE BLACK outer face and BLACK central circle, with ONE NARROW ORANGE interior ring. Gray cap/link sits above it. The separate small orange ring is at the OUTER FOREFOOT near the toe, never on the rear heel. Yellow-orange badge on outer heel side block. BLACK front toe bumper (four tiny silver studs only where the viewpoint allows), BLACK contact lugs, RED heel and forefoot side blocks with black angled support between. No extra silver side rivets or white rectangular side panels. No glove, jacket, leg gear, weapon or other layer.\n\nHand-drawn clean ink plus strict hard-edge CEL colors throughout. Reference 2 shows the exact required gray-anchor treatment—copy its sharp light/dark break. No soft metallic gradient, soft painting, noise, grain, hatch, stipple, mosaic, random white flecks, or 3D material effects. Keep one complete profile figure, entire head and sole visible. Do not include the design board, swatches, inset examples, text or additional views. Portrait native 1024x1536 if available.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/footwear-construction-color-native-v4.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a16eab-299d-7cb1-81d5-5b67214508af/exec-c8b668e9-d935-405f-a7a4-a32aef63740d.png",
+          "sha256": "af449ef66c3bc528054f2a681abd43e74920f24f4b9428fe6bd6c846a560b0ee"
+        },
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-texture-recheck-20261025/redraw-review/joint-result.json",
+          "sha256": "d6c65d79745fc139b1249c0f0e80f45dda695e4a7e60804d1e0cb22876fd507a"
+        },
+        "baseline_sha256": "1bff3ceb095d2fad3755156925c47979b6eab42d3f69a817982b347934fc60cd",
+        "baseline_role": "Actual design reference in the recorded request; final drawing is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1078880,
+        "sha256": "af449ef66c3bc528054f2a681abd43e74920f24f4b9428fe6bd6c846a560b0ee",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 582254,
+        "sha256": "236279e3606e180ead810afef7cdb927ba11e1362a9588c4316fccabaaa32240",
+        "alpha": false
+      }
+    },
+    {
       "id": "footwear-v2-layer3-construction-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -2705,9 +2782,9 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png",
         "source_artifact_sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33",
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-        "description": "鞋靴独立结构板，同一只右鞋的各面、鞋底、分层与鞋带收纳；整张新绘，保留生图工具原件。",
+        "description": "此前已采用的鞋靴侧面或结构板；收紧灰色圆锚的硬边赛璐璐处理后转为历史参考，原件、来源与下载URL保留。",
         "scope": "当前鞋靴层三张完整人物及一张独立结构板。基模三视、图面尺寸、头部、16格表情和此前衣层资料保持。PNG与工具输出逐字节一致；结构板说明可见部件，不是生产纸样或精确3D装配。",
-        "review_status": "current-footwear-layer-reference",
+        "review_status": "historical-before-footwear-hard-edge-metal-revision",
         "review_scope": "Root已检查完整图、原尺寸局部、三视及配套结构板，接受可见二维设计；隐藏踝位置和内部足床未经测量。",
         "candidate_revision": 2,
         "delivery_series_revision": 1,
@@ -2760,6 +2837,89 @@
         "height": 1024,
         "bytes": 1020212,
         "sha256": "bcfbc2602c02176161842b31f2b14e7dae8ec95754abdfb1e29e9cdb4a0314aa",
+        "alpha": false
+      }
+    },
+    {
+      "id": "footwear-v2-layer3-construction-v2",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "footwear-v2-layer3-construction-v2",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/shoes",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/footwear-construction-color-native-v4.png",
+        "source_artifact_sha256": "f547cd3d02364f8deba75ea54f6f51192803bcd45cf4c0a85970d6912972b2f7",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "鞋靴独立结构板：整张重绘，灰色圆锚与连接件采用双色硬边，保留工具原件。",
+        "scope": "仅更新鞋靴侧面与结构板；正面、背面、基模、图面尺寸、表情及此前衣层保持。无本地画面修补，网页仅作无损转换。",
+        "review_status": "current-footwear-hard-edge-metal-reference",
+        "review_scope": "Root与材质专项审查看过完整图及原尺寸局部，确认灰锚双色硬界。未确认新增明显随机白斑、周期碎纹或广泛云斑；微小档内色差与侧裤弱色变仍有判读限制，不作全像素同色或完全无瑕疵声明。",
+        "candidate_revision": 4,
+        "delivery_series_revision": 2,
+        "generation_node": "footwear-construction-color-native-v4",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/footwear-construction-lineart-native-v2.png",
+            "sha256": "b8d06873c3a203591664a010913f45a01a9f2a2fc7fee7f1fec8f3ba62b63d28",
+            "role": "geometry and layout only"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png",
+            "sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33",
+            "role": "accepted local color assignment only; exclude original soft gray rendering"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/gray-anchor-example-native-v2.png",
+            "sha256": "4f6dd4e310190a190a1da3d4c6d02cbef8e7329c50f20a19a24175c9d170e058",
+            "role": "hard two-gray boundary style only; no geometry or color allocation elsewhere"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/selected-generation-provenance.json",
+          "sha256": "15f9da7949d74478c1c887c32f9c258afccb90ce325ef0865831a5ed6eb6762c"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/request-construction-color-v4.json",
+          "sha256": "7988acdbf269eba2a3f33d18e0123fff57869a166d122df549aa8c2f38b55aeb"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Make a COMPLETE NEW DRAWING, using three supplied visual references with different jobs. Reference 1 is clean uncolored lineart: it controls the exact silhouettes, geometry, design and composition. Reference 2 is the correctly colored accepted artwork: it controls EVERY component's color assignment and the identity, never the soft rendering of gray components. Reference 3 is a TWO-TONE GRAPHIC STYLE SAMPLE ONLY: it controls the hard two-gray paint of the small silver-gray circular anchors and gray links. Do not add the sample circle to the output, do not enlarge any anchor to its size, and do not borrow its layout. All output pixels must be newly drawn. Keep the entire scene, not a cropped detail.\nThe very specific required change from reference 2 is the small silver-gray circular anchor above the large BLACK ankle disc. Its face must be a flat pale gray region plus one obvious flat darker gray lower-right quarter, separated by a clean straight diagonal boundary exactly as visually demonstrated by reference 3. Let the two gray fill regions meet at a crisp color boundary WITHOUT adding a black line, incision, physical seam or new geometric part. The sample's diagonal line is not a seam; real component contours and actual seams are only those in reference 1. No continuous rounded shading, no bevel halo, no highlight bloom, no cloudy intermediate tones. Render corresponding gray links as flat gray with a hard dark side plane. This same two-tone hard division must remain legible at the anchor's actual small size. Gray components stay silver-gray; do not recolor them red, black, orange or white.\nUse reference 2 to recover the precise local colors: red tongue cover and collar exterior; gray plaque with three black slots and THREE YELLOW-ORANGE little blocks; orange tongue only under the white crossed laces / within the opened lace pocket; white toe inset, collar lining, side heel insert and midsole; BLACK eyelets; BLACK toe bumper with only four tiny SILVER studs; BLACK segmented contact sole with RED side blocks. Large ankle disc has a WIDE BLACK outer body and BLACK center; the sole orange on that disc is the NARROW INNER ring. The small orange forefoot ring is a different piece at the toe end, not at the heel. Copy these exact assignments from the correct color artwork rather than guessing from the lineart.\nClean Japanese anime hand-drawn ink and hard-edge cel color. The large color regions are even local colors. Keep deliberate bounded shadow shapes; do not smear them into gradients. No random white specks, no cloudy stains, no grain, noise, crosshatching, stippling, dithering, mosaic or painterly wash. Pure white background. Preserve composition and proportions.\nOUTPUT: the full landscape seven-panel RIGHT BOOT construction design board, same panel layout and labels as references 1 and 2. Top 01 FRONT, 02 OUTER, 03 INNER, 04 REAR; bottom 05 SOLE, 06 LAYERS, 07 LACES.\nPreserve ONE right boot consistently: front outer side is screen left, outer profile toe points RIGHT, inner profile toe points LEFT, rear outer side screen right. The inner profile has no large outer ankle disc, link, forefoot ring or outer heel badge. The front/back only show the edge appropriate to the viewpoint. Every small panel follows the same right boot.\n06 LAYERS remains a real three-piece exploded diagram with one upper, exactly one white midsole and one black outsole with red SIDE blocks. Removed midsole/outsole do not remain duplicated on the upper. Upper carries its ankle hardware and laces. Outsole carries the toe ring, red side blocks and outer heel badge. Shoe points right throughout.\n05 SOLE: BLACK contact tread, exactly the original TWO ORANGE insert shapes at heel and forefoot; no extra orange chevrons, no red contact blocks.\n07 LACES: open RED upper cover with ORANGE inner pocket, WHITE knot and short tails contained inside; closed RED cover with gray three-slot plaque/three yellow blocks. Preserve white crossing laces. No side hardware in these tongue-detail views.\nPaint the gray anchors in BOTH 02 and 06 exactly in the two-tone hard diagonal style of reference 3. All other geometry and colors match reference 2. This is a visual design/construction board, not a manufacturing pattern. No extra swatches, no additional characters. Landscape native 1536x1024 if available.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/footwear-construction-lineart-native-v2.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/gray-anchor-example-native-v2.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a16eab-299d-7cb1-81d5-5b67214508af/exec-8dcf7578-5ab2-435a-983b-aa7faa9e35d2.png",
+          "sha256": "f547cd3d02364f8deba75ea54f6f51192803bcd45cf4c0a85970d6912972b2f7"
+        },
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-texture-recheck-20261025/redraw-review/joint-result.json",
+          "sha256": "d6c65d79745fc139b1249c0f0e80f45dda695e4a7e60804d1e0cb22876fd507a"
+        },
+        "baseline_sha256": "b8d06873c3a203591664a010913f45a01a9f2a2fc7fee7f1fec8f3ba62b63d28",
+        "baseline_role": "Actual design reference in the recorded request; final drawing is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/cel-anchor-redraw/footwear-construction-lineart-native-v2.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/footwear-v2-layer3-construction-v2.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1576720,
+        "sha256": "f547cd3d02364f8deba75ea54f6f51192803bcd45cf4c0a85970d6912972b2f7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/footwear-v2-layer3-construction-v2.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1021668,
+        "sha256": "e6145abfc9e43b9d88b23f4410b394c7268b3864c116f1b910de0ec7f74958e1",
         "alpha": false
       }
     },
@@ -5787,8 +5947,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 130129642,
-      "sha256": "ad568732089702ee1a07c0c8597808d3bec6ea927198b380ce364bf3a21e3523"
+      "bytes": 132391431,
+      "sha256": "68d9a1380f02788d12fab8ba7b1df4b8bf405c11a5ca5a15202c5a99d64331ba"
     }
   ]
 }

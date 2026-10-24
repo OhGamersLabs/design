@@ -585,12 +585,32 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-fresh-cel-side-v2.png",
+      "sha256": "af449ef66c3bc528054f2a681abd43e74920f24f4b9428fe6bd6c846a560b0ee",
+      "size": 1078880,
+      "contentType": "image/png",
+      "downloadName": "footwear-v2-fresh-cel-side-v2.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/footwear-v2-layer3-construction-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-layer3-construction-v1.png",
       "sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33",
       "size": 1568210,
       "contentType": "image/png",
       "downloadName": "footwear-v2-layer3-construction-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/footwear-v2-layer3-construction-v2.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-layer3-construction-v2.png",
+      "sha256": "f547cd3d02364f8deba75ea54f6f51192803bcd45cf4c0a85970d6912972b2f7",
+      "size": 1576720,
+      "contentType": "image/png",
+      "downloadName": "footwear-v2-layer3-construction-v2.png"
     },
     {
       "character": "bunny",
@@ -947,8 +967,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "ad568732089702ee1a07c0c8597808d3bec6ea927198b380ce364bf3a21e3523",
-      "size": 130129642,
+      "sha256": "68d9a1380f02788d12fab8ba7b1df4b8bf405c11a5ca5a15202c5a99d64331ba",
+      "size": 132391431,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },
