@@ -11,15 +11,15 @@ aside: true
 
 ## 第一层穿着三视 {#layer1-wearing}
 
-三张完整人物稿均保留 1024×1536 原尺寸 PNG，可逐张放大与下载。穿着稿用于核对衣物覆盖、腰位与前后结构；基模及其图面尺寸原件保持。
+三张完整人物稿均保留 1024×1536 原尺寸 PNG，可逐张放大与下载。穿着稿用于核对衣物覆盖、腰位与前后结构。本轮修订红色短裤侧、背视的布面体积表达，并同步红裤结构板；基模、图面尺寸、正面穿着与白色上衣结构板保持。
 
 <div class="bunny-body-views">
 
 <ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-front-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-front-v1.png" alt="v2第一层穿着正面：白色上衣、红色短裤与完整人物" caption="第一层衣层 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-side-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-side-v1.png" alt="v2第一层穿着侧面：白色上衣和红色短裤的覆盖与腰位" caption="第一层衣层 · 侧面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-side-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-side-v2.png" alt="v2第一层穿着侧面：白色上衣和红色短裤的覆盖与腰位" caption="第一层衣层 · 侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-back-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png" alt="v2第一层穿着背面：白色上衣与红色短裤的后侧结构" caption="第一层衣层 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-back-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-back-v2.png" alt="v2第一层穿着背面：白色上衣与红色短裤的后侧结构" caption="第一层衣层 · 背面" />
 
 </div>
 
@@ -51,7 +51,7 @@ aside: true
 
 上排为成衣正、侧、背视图，下排为**部件与成衣接合位置示意**。已装部件与分离部件可同时出现，用于核对位置关系，不代表完整爆炸拆分或裁剪纸样。
 
-<ReleaseImage src="/characters/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.webp" original="/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png" alt="本轮红色短裤正侧背结构与四组部件位置：腰头门襟、前袋、后侧拼接片与贴袋、裤脚翻边" caption="红色短裤 · 成衣三视与部件接合位置示意" />
+<ReleaseImage src="/characters/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.webp" original="/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png" alt="本轮红色短裤正侧背结构与四组部件位置：腰头门襟、前袋、后侧拼接片与贴袋、裤脚翻边" caption="红色短裤 · 成衣三视与部件接合位置示意" />
 
 | 编号 | 对应部件与位置 |
 | --- | --- |
@@ -66,6 +66,19 @@ aside: true
 保留既有腰头、开口和口袋设计，作为本轮修订的款式依据；此图不是当前穿着稿的新版拆解。
 
 <ReleaseImage src="/characters/bunny/3.1.0/05-red-shorts-construction.webp" original="/media/bunny/3.1.0/05-red-shorts-construction.png" alt="红色短裤既有款式结构参考，尚未按本轮画风重绘" caption="红色短裤 · 既有款式结构参考" />
+
+</details>
+
+<details>
+<summary>臀部布面修订前 · 首层侧背穿着与红裤结构</summary>
+
+首轮稿保留作沿革对照，当前修订见上方展示。
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-side-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-side-v1.png" alt="臀部布面修订前 · 侧面穿着，历史对照" caption="臀部布面修订前 · 侧面穿着" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-back-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png" alt="臀部布面修订前 · 背面穿着，历史对照" caption="臀部布面修订前 · 背面穿着" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.webp" original="/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png" alt="臀部布面修订前 · 红色短裤结构，历史对照" caption="臀部布面修订前 · 红色短裤结构" />
 
 </details>
 

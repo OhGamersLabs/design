@@ -56,12 +56,23 @@ aside: true
 ## 贴身衣层 {#layer1-assets}
 
 - [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-front-v1.png)
-- [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v1.png)
-- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png)
+- [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v2.png)
+- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v2.png)
 - [白色上衣 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png)
-- [红色短裤 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png)
+- [红色短裤 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png)
 
 穿着三视各为 1024×1536，两张结构板各为 1536×1024。结构板下排是部件与成衣接合位置示意，部分保留已装构件作对照；编号解释见[衣层页](/characters/bunny/innerwear)，不作为缝制顺序或裁剪纸样。
+
+<details>
+<summary>臀部布面修订前 · 首层侧背穿着与红裤结构</summary>
+
+首轮稿保留作沿革对照，当前修订见上方展示。
+
+- [臀部布面修订前 · 侧面穿着 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v1.png)
+- [臀部布面修订前 · 背面穿着 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png)
+- [臀部布面修订前 · 红色短裤结构 PNG](/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png)
+
+</details>
 
 <details>
 <summary>原03—05 · 既有穿着与款式结构</summary>

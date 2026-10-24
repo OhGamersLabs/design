@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 58,
+  "asset_count": 61,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -2170,10 +2170,10 @@
         "based_on": "/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/layer1-back-cel-b1-collar-white-v1.png",
         "source_artifact_sha256": "f2defc60bc356f0be17eb871efc9f8c4776fe2f11d01bd118aff75b0e7d90c25",
-        "review_status": "local-layer1-worn-view-reference",
+        "review_status": "historical-layer1-before-hip-fit",
         "method": "Complete-figure builtin lineart and color, then existing collar-panel-only local recolor; not a clothing/body collage",
-        "description": "v2 · 第一层衣层穿着（背面）：白色上衣与红色短裤的完整人物稿，1024×1536原尺寸PNG。",
-        "scope": "仅本轮白色上衣与红色短裤；袜鞋、夹克和其他装备尚未同步。当前基模、头部、表情和图面尺寸原件保持。",
+        "description": "臀部布面修订前 · v2 · 第一层衣层穿着（背面）：白色上衣与红色短裤的完整人物稿，1024×1536原尺寸PNG。",
+        "scope": "保留首轮衣层稿供沿革对照；当前侧、背穿着与红裤结构以同页后续修订为准。原来源及图像字节不变。",
         "reference_chain": [
           {
             "role": "body-design-baseline",
@@ -2343,6 +2343,103 @@
         "height": 1536,
         "bytes": 671648,
         "sha256": "ed4b3017172c3b2195380b11ee5c2dce0c117c7dafec0f6134f085b3ad6a0e79",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-v2-layer1-back-v2",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "innerwear-v2-layer1-back-v2",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/innerwear",
+        "baseline_sha256": "f2defc60bc356f0be17eb871efc9f8c4776fe2f11d01bd118aff75b0e7d90c25",
+        "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/layer1-back-hip-fit-v3.png",
+        "source_artifact_sha256": "a5373833a11976bb2e06f7b5889d0f37aee7e634acb206210d5f6c827311ea57",
+        "review_status": "local-layer1-hip-fit-worn-reference",
+        "method": "builtin imagegen; output copied byte-for-byte",
+        "description": "v2 · 第一层衣层穿着（背面）：红色短裤臀部布面修订，1024×1536原尺寸PNG。",
+        "scope": "仅修订红色短裤侧、背视的布面体积表达及对应结构示意；基模、图面尺寸、正面穿着、白色上衣结构板保持。其余衣层与装备未同步。",
+        "reference_chain": [
+          {
+            "role": "actual-generation-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/layer1-back-cel-b1-collar-white-v1.png",
+            "sha256": "f2defc60bc356f0be17eb871efc9f8c4776fe2f11d01bd118aff75b0e7d90c25"
+          },
+          {
+            "role": "unchanged-body-fit-reference-not-input-to-this-builtin-call",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-back-basic-bra-medium-v1.png",
+            "sha256": "3c2c08818b5db012d39a1d482874b9194a3027786533cdada5429bd2406d1664"
+          }
+        ],
+        "generation_stages": [
+          {
+            "id": "back-hip-fit-v3",
+            "status": "accepted-root-and-independent-QA",
+            "request": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/request-back-hip-fit-v3.json",
+              "sha256": "3eb6e4f3ee74ca901aae3361628b3f78dcc3b3ef51218f279c95622489c799a1"
+            },
+            "inputs": [
+              {
+                "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/back-cel-collar-cleanup/layer1-back-cel-b1-collar-white-v1.png",
+                "sha256": "f2defc60bc356f0be17eb871efc9f8c4776fe2f11d01bd118aff75b0e7d90c25"
+              }
+            ],
+            "output": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/layer1-back-hip-fit-v3.png",
+              "sha256": "a5373833a11976bb2e06f7b5889d0f37aee7e634acb206210d5f6c827311ea57",
+              "size": [
+                1024,
+                1536
+              ]
+            },
+            "native_output": {
+              "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-59cd2b28-dffc-46cc-90c4-6a4635844519.png",
+              "sha256": "a5373833a11976bb2e06f7b5889d0f37aee7e634acb206210d5f6c827311ea57",
+              "size": [
+                1024,
+                1536
+              ]
+            }
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/final-hip-fit-three-artifacts-provenance-v2.json",
+          "sha256": "9330a951d87b13443d0abf815c12260f0532a7ec9208333d8e21b2b6c78df5c9",
+          "contents": "Accepted side/back garment-volume and matching red-shorts construction references; actual builtin requests and outputs, rejected attempts, same-source side contour repair, and prior-stage provenance are recorded."
+        },
+        "previous_stage_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/final-layer1-five-artifacts-provenance-v1.json",
+          "sha256": "1209eaead61a55607b8338c885706d99477b68fab59680af05d87f84ddea3186"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-59cd2b28-dffc-46cc-90c4-6a4635844519.png",
+          "sha256": "a5373833a11976bb2e06f7b5889d0f37aee7e634acb206210d5f6c827311ea57",
+          "size": [
+            1024,
+            1536
+          ]
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/innerwear-v2-layer1-back-v2.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1555833,
+        "sha256": "a5373833a11976bb2e06f7b5889d0f37aee7e634acb206210d5f6c827311ea57",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/innerwear-v2-layer1-back-v2.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 818290,
+        "sha256": "f4df1fc3ed7864cdb9f16d813421f6f9da341651e405b079ec5b44798a25c972",
         "alpha": false
       }
     },
@@ -2588,10 +2685,10 @@
         "based_on": "/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-cel-b1.png",
         "source_artifact_sha256": "dabfe271747854864d891a1112f0764e591fa506243dde0349ecba90cf05ad62",
-        "review_status": "local-layer1-worn-view-reference",
+        "review_status": "historical-layer1-before-hip-fit",
         "method": "Complete-figure builtin lineart, local semantic waistband revision in builtin imagegen, then color; final is byte-identical native output",
-        "description": "v2 · 第一层衣层穿着（侧面）：白色上衣与红色短裤的完整人物稿，1024×1536原尺寸PNG。",
-        "scope": "仅本轮白色上衣与红色短裤；袜鞋、夹克和其他装备尚未同步。当前基模、头部、表情和图面尺寸原件保持。",
+        "description": "臀部布面修订前 · v2 · 第一层衣层穿着（侧面）：白色上衣与红色短裤的完整人物稿，1024×1536原尺寸PNG。",
+        "scope": "保留首轮衣层稿供沿革对照；当前侧、背穿着与红裤结构以同页后续修订为准。原来源及图像字节不变。",
         "reference_chain": [
           {
             "role": "body-design-baseline",
@@ -2744,6 +2841,175 @@
       }
     },
     {
+      "id": "innerwear-v2-layer1-side-v2",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "innerwear-v2-layer1-side-v2",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/innerwear",
+        "baseline_sha256": "dabfe271747854864d891a1112f0764e591fa506243dde0349ecba90cf05ad62",
+        "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-side-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/layer1-side-hip-fit-v3-contour-restored-v3.png",
+        "source_artifact_sha256": "25c24a83a728c482034c6eb83fabf3e76b201eb1f82379c1af410ac76517aa40",
+        "review_status": "local-layer1-hip-fit-worn-reference",
+        "method": "builtin v3 followed by same-source narrow lower-seat contour/color repair",
+        "description": "v2 · 第一层衣层穿着（侧面）：红色短裤臀部布面修订，1024×1536原尺寸PNG。",
+        "scope": "仅修订红色短裤侧、背视的布面体积表达及对应结构示意；基模、图面尺寸、正面穿着、白色上衣结构板保持。其余衣层与装备未同步。",
+        "reference_chain": [
+          {
+            "role": "actual-generation-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-cel-b1.png",
+            "sha256": "dabfe271747854864d891a1112f0764e591fa506243dde0349ecba90cf05ad62"
+          },
+          {
+            "role": "unchanged-body-fit-reference-not-input-to-this-builtin-call",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-side-basic-bra-medium-v1.png",
+            "sha256": "022988a40ae32a97e015c7410ee6e8d7a6653b587e35000440167dea4fbb47a3"
+          }
+        ],
+        "generation_stages": [
+          {
+            "id": "side-hip-fit-v3",
+            "status": "source-for-accepted-local-contour-repair",
+            "request": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/request-side-hip-fit-v3.json",
+              "sha256": "7b172ba5a3a2b0c3d954dc3c87d0b43ac4dbafbfe33c176baeb0564aa4f9ab85"
+            },
+            "inputs": [
+              {
+                "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/layer1-side-cel-b1.png",
+                "sha256": "dabfe271747854864d891a1112f0764e591fa506243dde0349ecba90cf05ad62"
+              }
+            ],
+            "output": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/layer1-side-hip-fit-v3.png",
+              "sha256": "944ffbf856b4b95879b368ec547241b8cf15ea2721c634fc7e064574a789c8de",
+              "size": [
+                1024,
+                1536
+              ]
+            },
+            "native_output": {
+              "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-d4c28513-45bd-423a-94a5-3ffa4f5528f6.png",
+              "sha256": "944ffbf856b4b95879b368ec547241b8cf15ea2721c634fc7e064574a789c8de",
+              "size": [
+                1024,
+                1536
+              ]
+            }
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/final-hip-fit-three-artifacts-provenance-v2.json",
+          "sha256": "9330a951d87b13443d0abf815c12260f0532a7ec9208333d8e21b2b6c78df5c9",
+          "contents": "Accepted side/back garment-volume and matching red-shorts construction references; actual builtin requests and outputs, rejected attempts, same-source side contour repair, and prior-stage provenance are recorded."
+        },
+        "previous_stage_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/final-layer1-five-artifacts-provenance-v1.json",
+          "sha256": "1209eaead61a55607b8338c885706d99477b68fab59680af05d87f84ddea3186"
+        },
+        "local_edit": {
+          "source": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/layer1-side-hip-fit-v3.png",
+            "sha256": "944ffbf856b4b95879b368ec547241b8cf15ea2721c634fc7e064574a789c8de",
+            "size": [
+              1024,
+              1536
+            ]
+          },
+          "accepted_output": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/layer1-side-hip-fit-v3-contour-restored-v3.png",
+            "sha256": "25c24a83a728c482034c6eb83fabf3e76b201eb1f82379c1af410ac76517aa40",
+            "size": [
+              1024,
+              1536
+            ]
+          },
+          "method": "No imported image patches or global resampling. Locally redrawn same-source contour and cloth color, preserving accepted turning plane and pocket perspective.",
+          "changed_pixels": 584,
+          "fixed_authorized_bbox": [
+            422,
+            699,
+            453,
+            746
+          ],
+          "outside_fixed_bbox_RGBA_differences": 0,
+          "outside_actual_mask_RGBA_differences": 0,
+          "alpha_differences": 0,
+          "rear_pocket_line_guard_bbox": [
+            430,
+            699,
+            480,
+            707
+          ],
+          "guard_RGBA_differences": 0,
+          "supporting_files": [
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/restore_side_lower_contour_v3.py",
+              "sha256": "dda97ae98a5a84192fd68713da3b8d872c37efc929fccf9475683b5d280c8a88"
+            },
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/verify_side_lower_contour_v3.py",
+              "sha256": "dc938c2610faee4154fd0f5167d7532d3be1ec414fb9daf4f831d9582f599228"
+            },
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/actual-mask.png",
+              "sha256": "6620145548995fff39c85313f7d6120c1867c7dca3156a4fd4c5c2e511421ce4"
+            },
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/coverage-mask.png",
+              "sha256": "fcc1cd7de2e254acf8a456c236020df4b7efbac5eae65d5b88fec95fe569330a"
+            },
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/verification.json",
+              "sha256": "b6cfc8862a64369c72f8d7278fb9af3b32fae1b2fbe97e81e602b6ebaebe065a"
+            },
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/independent-fixed-region-verification.json",
+              "sha256": "799dec6bc149ad3c96b5c178c2dbdcb47cf03b493e2427fa292512afa5086efc"
+            },
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/base-source-candidate-native.png",
+              "sha256": "f3e2276a39e3b096441452d00c56020b7d6cf15c43e697272d77b20a6d666d69"
+            },
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/base-source-candidate-4x.png",
+              "sha256": "950288d8d0b52b6b96baa6f84ee162677c1038a77f32b4cccc13d07fc153f0e8"
+            }
+          ],
+          "superseded_siblings": [
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v1/layer1-side-hip-fit-v3-contour-restored-v1.png",
+              "reason": "visible horizontal color join; not adopted"
+            },
+            {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v2/layer1-side-hip-fit-v3-contour-restored-v2.png",
+              "reason": "upper mask touched a few pocket-line pixels; restored in final local-v3"
+            }
+          ]
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/innerwear-v2-layer1-side-v2.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1369263,
+        "sha256": "25c24a83a728c482034c6eb83fabf3e76b201eb1f82379c1af410ac76517aa40",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/innerwear-v2-layer1-side-v2.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 835692,
+        "sha256": "00b08dd46c9371ec6487258ebe8fd9e55918620edb1870c9b4d5114c0841c7e1",
+        "alpha": false
+      }
+    },
+    {
       "id": "outfit-pose-current",
       "character": "bunny",
       "version": "3.1.0",
@@ -2813,10 +3079,10 @@
         "based_on": "/media/bunny/3.1.0/05-red-shorts-construction.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/red-shorts-construction-v1.png",
         "source_artifact_sha256": "769bb8955048c86b657122309420d805c49a75a8ab9d0ffd3e76817a16a2f68d",
-        "review_status": "local-layer1-construction-reference",
+        "review_status": "historical-layer1-before-hip-fit",
         "method": "builtin imagegen; original native output byte-identical copy; no local alteration",
-        "description": "红色短裤 · 成衣正侧背与部件接合位置示意，1536×1024原尺寸PNG。",
-        "scope": "对应本轮三张穿着稿；下排为部件与成衣接合位置示意，部分保留已装构件作位置对照，不是完整爆炸图、缝制顺序或裁剪纸样。",
+        "description": "臀部布面修订前 · 红色短裤 · 成衣正侧背与部件接合位置示意，1536×1024原尺寸PNG。",
+        "scope": "保留首轮衣层稿供沿革对照；当前侧、背穿着与红裤结构以同页后续修订为准。原来源及图像字节不变。",
         "reference_chain": [
           {
             "role": "historical-style-origin-not-generation-input",
@@ -2888,6 +3154,116 @@
         "height": 1024,
         "bytes": 1031974,
         "sha256": "59f8908a756326904365f1b022a66d119c4f8cfa406dd06946268b969ea455dd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "red-shorts-v2-layer1-construction-v2",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "red-shorts-v2-layer1-construction-v2",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/innerwear",
+        "baseline_sha256": "769bb8955048c86b657122309420d805c49a75a8ab9d0ffd3e76817a16a2f68d",
+        "based_on": "/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/red-shorts-construction-hip-fit-v3.png",
+        "source_artifact_sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+        "review_status": "local-layer1-hip-fit-construction-reference",
+        "method": "builtin imagegen; output copied byte-for-byte",
+        "description": "红色短裤 · 臀部布面修订后的成衣三视与部件接合位置示意，1536×1024原尺寸PNG。",
+        "scope": "仅修订红色短裤侧、背视的布面体积表达及对应结构示意；基模、图面尺寸、正面穿着、白色上衣结构板保持。其余衣层与装备未同步。 下排为部件与成衣接合位置示意，部分保留已装构件作位置对照，不是完整爆炸图、缝制顺序或裁剪纸样。",
+        "reference_chain": [
+          {
+            "role": "actual-generation-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/red-shorts-construction-v1.png",
+            "sha256": "769bb8955048c86b657122309420d805c49a75a8ab9d0ffd3e76817a16a2f68d"
+          },
+          {
+            "role": "accepted-fit-comparison-reference-not-input-to-this-builtin-call",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/layer1-side-hip-fit-v3-contour-restored-v3.png",
+            "sha256": "25c24a83a728c482034c6eb83fabf3e76b201eb1f82379c1af410ac76517aa40",
+            "size": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "role": "accepted-fit-comparison-reference-not-input-to-this-builtin-call",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/layer1-back-hip-fit-v3.png",
+            "sha256": "a5373833a11976bb2e06f7b5889d0f37aee7e634acb206210d5f6c827311ea57",
+            "size": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "generation_stages": [
+          {
+            "id": "red-shorts-hip-fit-v3",
+            "status": "accepted-root-and-independent-QA",
+            "request": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/request-red-shorts-hip-fit-v3.json",
+              "sha256": "c586a8ed62bfcccba947d81812cd324024b318d50ca2a2b43c042b5ca821a7b3"
+            },
+            "inputs": [
+              {
+                "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/red-shorts-construction-v1.png",
+                "sha256": "769bb8955048c86b657122309420d805c49a75a8ab9d0ffd3e76817a16a2f68d"
+              }
+            ],
+            "output": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/red-shorts-construction-hip-fit-v3.png",
+              "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "native_output": {
+              "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-2feaf5b3-362c-44a4-9d07-91fd26b326fd.png",
+              "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/final-hip-fit-three-artifacts-provenance-v2.json",
+          "sha256": "9330a951d87b13443d0abf815c12260f0532a7ec9208333d8e21b2b6c78df5c9",
+          "contents": "Accepted side/back garment-volume and matching red-shorts construction references; actual builtin requests and outputs, rejected attempts, same-source side contour repair, and prior-stage provenance are recorded."
+        },
+        "previous_stage_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/final-layer1-five-artifacts-provenance-v1.json",
+          "sha256": "1209eaead61a55607b8338c885706d99477b68fab59680af05d87f84ddea3186"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-2feaf5b3-362c-44a4-9d07-91fd26b326fd.png",
+          "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+          "size": [
+            1536,
+            1024
+          ]
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1641552,
+        "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1064388,
+        "sha256": "d84631237236fcac2832e01b6c80c82d2fcd85ab3a3c1c77a2432a19d1c5af77",
         "alpha": false
       }
     },
@@ -2987,8 +3363,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 84780930,
-      "sha256": "b08c0aef9a3670a0558509a996d7bec9d8653d2478b0c878c724f74dba8f8ab4"
+      "bytes": 88823865,
+      "sha256": "a9109affa12aafdf508d5112ce65a4841e5d048d72f233f7248f59c5226289df"
     }
   ]
 }
