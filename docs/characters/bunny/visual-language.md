@@ -9,7 +9,7 @@ aside: true
 
 ## 本轮身体三视图的画风标准
 
-采用**日系二次元手绘线稿与赛璐璐上色**作为修订标准。当前[基础文胸身体三视](/characters/bunny/body-base)作为衣层设计基准，[图面尺寸与比例](/characters/bunny/dimensions)已按对应原图复核；[中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)保留供核对。[首层白色上衣与红色短裤](/characters/bunny/innerwear)已有对应穿着三视与结构板；03衣层图、04/05衣物拆件仍作为历史款式参考，其余衣层与装备未随当前三视重绘。
+采用**日系二次元手绘线稿与赛璐璐上色**作为修订标准。当前[基础文胸身体三视](/characters/bunny/body-base)作为衣层设计基准，[图面尺寸与比例](/characters/bunny/dimensions)已按对应原图复核；[中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)保留供核对。[首层白色上衣与红色短裤](/characters/bunny/innerwear)已有对应穿着三视与结构板；03衣层图、04/05衣物拆件仍作为历史款式参考，[袜装层](/characters/bunny/hosiery)也已提供穿着三视与匹配结构资料；鞋靴和后续装备尚未同步。
 
 - **线稿清楚分层**：外轮廓完整，内部五官、衣物边缘和转折线更轻；线条保留自然粗细与收尖，不以模糊色边替代结构线。
 - **固有色平涂**：皮肤、银白头发、蓝眼和黑色基础内衣保留各自清楚的主色面，不用连续明暗渐变填满形体。
@@ -35,7 +35,7 @@ aside: true
 
 金属扣件可以有克制的边缘亮面；针织和布面不沿整条外轮廓加塑料式高光。深色镜片与金属边缘的画法分别参照<a href="/characters/bunny/headgear#护目镜独立结构">护目镜独立结构</a>和<a href="/characters/bunny/harness#承载带扣件细节">承载带扣件细节</a>，不能把高反射效果复制到所有材料。
 
-以下外套、袜装图保留作既有结构与材质例证，尚未按本轮严格赛璐璐标准逐张重绘。
+以下外套与旧袜装图保留作历史结构及材质例证；当前袜装资料见[袜装页](/characters/bunny/hosiery)，其余例证未逐张重绘。
 
 <ReleaseImage src="/characters/bunny/3.1.0/24-jacket-details.webp" original="/media/bunny/3.1.0/24-jacket-details.png" alt="既有外套局部：衣片边缘、翻盖遮挡与布面阴影示例" caption="既有结构例证：外套局部的结构线与阴影" />
 
@@ -43,7 +43,7 @@ aside: true
 
 <ul><li>针织：袜口用罗纹方向与轻微收束说明弹性；近景可画线圈与织物间隙，远景保留干净色块，不让织纹盖过腿部轮廓。</li><li>衣布：上衣、短裤与外套的结构通过包边、缝线、开口和布褶区分。参照<a href="/characters/bunny/innerwear#白色上衣结构">白色上衣</a>与<a href="/characters/bunny/innerwear#红色短裤结构">红色短裤</a>，不凭空增加材质花纹。</li><li>织带与扣件：黑色带面保持扁平、连续，金属钩环用边缘和开口区分。固定路径与金属反光是两件事，不用亮斑掩盖连接关系。</li><li>护目镜：深色镜片只保留小面积、受控的平面反光；嘴部和鼻尖保持外露，不增加面罩。</li></ul>
 
-<ReleaseImage src="/characters/bunny/3.1.0/07-hosiery-knit-details.webp" original="/media/bunny/3.1.0/07-hosiery-knit-details.png" alt="袜装局部：罗纹袜口、针织线圈与足部接缝" caption="材质例证：针织近景与远景的不同信息密度" />
+<ReleaseImage src="/characters/bunny/3.1.0/07-hosiery-knit-details.webp" original="/media/bunny/3.1.0/07-hosiery-knit-details.png" alt="原07袜装局部历史参考：罗纹袜口、针织线圈与足部接缝" caption="原07 · 针织材质沿革参考" />
 
 ## 跨页复核
 

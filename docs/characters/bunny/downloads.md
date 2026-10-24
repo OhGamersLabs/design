@@ -27,7 +27,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基础文胸正、侧、背三张完整人物图均为独立的 1024×1536 原尺寸 PNG，作为衣层设计基准的工作稿保留；正面内腿杂线已清理，图面尺寸已按对应原图复核。首层白色上衣与红色短裤的穿着三视及两张结构板已补齐，其余衣层与装备尚未同步。此前被拒的衣层候选继续从下载与原图包撤出。原图包保留当前基模、首层衣装五图、此前运动款三图、旧03—05、各阶段身体、中性头部、16格表情与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
+基础文胸正、侧、背三张完整人物图均为独立的 1024×1536 原尺寸 PNG，作为衣层设计基准的工作稿保留；正面内腿杂线已清理，图面尺寸已按对应原图复核。首层白色上衣与红色短裤的穿着三视及两张结构板已补齐，袜装层另有三张完整穿着稿与匹配结构资料；鞋靴和后续装备尚未同步。此前被拒的衣层候选继续从下载与原图包撤出。原图包保留当前基模、首层衣装五图、袜装四图、此前运动款三图、旧03—05、各阶段身体、中性头部、16格表情与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -94,9 +94,24 @@ aside: true
 
 </details>
 
+<span id="hosiery-assets"></span>
+
 ## 袜装
 
-<ul><li><a href="/media/bunny/3.1.0/06-hosiery-wearing.png">袜装穿着三视</a></li><li><a href="/media/bunny/3.1.0/07-hosiery-knit-details.png">袜装针织细节</a></li></ul>
+- [袜装层 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-front-v1.png)
+- [袜装层 · 侧面 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-side-v1.png)
+- [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-back-v1.png)
+- [袜装 · 结构与针织细节 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png)
+
+结构说明见[袜装页](/characters/bunny/hosiery#hosiery-construction)。
+
+<details>
+<summary>原06/07 · 既有袜装穿着与针织资料</summary>
+
+- [原06 · 既有袜装穿着沿革 PNG](/media/bunny/3.1.0/06-hosiery-wearing.png)
+- [原07 · 既有针织细节沿革 PNG](/media/bunny/3.1.0/07-hosiery-knit-details.png)
+
+</details>
 
 ## 鞋靴
 

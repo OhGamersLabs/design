@@ -6,7 +6,7 @@ aside: true
 # 贴身衣层
 
 ::: info 第一层衣层 · 白色上衣与红色短裤
-以[当前 v2 基础文胸三视](/characters/bunny/body-base)和[图面尺寸](/characters/bunny/dimensions)为依据，展示正、侧、背的完整穿着稿与两张匹配的衣物结构板。本轮仅处理白色上衣与红色短裤，袜鞋、夹克和其他装备尚未同步。旧03、04、05折叠保留，供回溯款式来源。
+以[当前 v2 基础文胸三视](/characters/bunny/body-base)和[图面尺寸](/characters/bunny/dimensions)为依据，展示正、侧、背的完整穿着稿与两张匹配的衣物结构板。本轮仅处理白色上衣与红色短裤，[袜装层](/characters/bunny/hosiery)另有穿着三视与匹配结构资料，鞋靴、夹克和其他装备尚未同步。旧03、04、05折叠保留，供回溯款式来源。
 :::
 
 ## 第一层穿着三视 {#layer1-wearing}

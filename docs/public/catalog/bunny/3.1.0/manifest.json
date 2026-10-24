@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 64,
+  "asset_count": 68,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -206,7 +206,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/06-hosiery-wearing.png",
         "page": "https://design.ohgamers.org/characters/bunny/hosiery",
-        "baseline_sha256": "aa3bb65023f4a40ddcbcf7ae2c3c542771e924e24f3edf51ce7dd90acf788528"
+        "baseline_sha256": "aa3bb65023f4a40ddcbcf7ae2c3c542771e924e24f3edf51ce7dd90acf788528",
+        "review_status": "historical-hosiery-style-reference",
+        "description": "原06 · 旧身体上的袜装穿着沿革",
+        "scope": "保留原图、原URL及原始来源，供回溯袜装设计；当前袜装穿着与结构资料见袜装页的新稿。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/06-hosiery-wearing.png",
@@ -236,7 +239,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/07-hosiery-knit-details.png",
         "page": "https://design.ohgamers.org/characters/bunny/visual-language",
-        "baseline_sha256": "bc72041c99c04505f16a4c5be96f3645a68bca6970780a7840eadee485f57999"
+        "baseline_sha256": "bc72041c99c04505f16a4c5be96f3645a68bca6970780a7840eadee485f57999",
+        "review_status": "historical-hosiery-style-reference",
+        "description": "原07 · 既有袜装款式与针织细节沿革",
+        "scope": "保留原图、原URL及原始来源，供回溯袜装设计；当前袜装穿着与结构资料见袜装页的新稿。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/07-hosiery-knit-details.png",
@@ -2159,6 +2165,250 @@
       }
     },
     {
+      "id": "hosiery-v2-layer2-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "hosiery-v2-layer2-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/hosiery",
+        "baseline_sha256": "c2b510e5ea5f0f53e1bb53bb004894b5cc3470d4bbb10c43cfd35a06804ba179",
+        "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-back-v4.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-back-native-v1.png",
+        "source_artifact_sha256": "9dbd6806ce48c677d71d30e503aab6fa44b992d4e3eff149f3868ea14b7711d9",
+        "review_status": "native-imagegen-hosiery-reference",
+        "method": "builtin image_gen; original tool PNG copied byte-for-byte; no postprocessing",
+        "description": "v2 · 袜装层穿着（背面）：在当前首层衣装上添加左腿橙色长袜与右腿白色短袜，1024×1536 生图工具原输出 PNG。",
+        "scope": "本视角增加不对称针织袜装，沿用当前第一层衣装与人物设计。现有基模、图面尺寸、首层衣装及结构板原件保持；鞋靴与后续装备尚未同步。",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/innerwear-v2-layer1-back-v4.png",
+            "sha256": "c2b510e5ea5f0f53e1bb53bb004894b5cc3470d4bbb10c43cfd35a06804ba179",
+            "role": "complete edit target"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-front-native-v2.png",
+            "sha256": "5606458e69bf49e4f8d498314b67987230b0dae0f137d4122b08248ca24cda64",
+            "role": "sock design or clean-cloth reference only"
+          }
+        ],
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/request-hosiery-back-v1.json",
+          "sha256": "3f5f1ff92f75fe91ff61ed59e87ffe60b0c6fd77936fe2f9ba5f6cb0fd6ad3f3"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-b308ae77-d521-4d4f-a107-4dded02cd94b.png",
+          "sha256": "9dbd6806ce48c677d71d30e503aab6fa44b992d4e3eff149f3868ea14b7711d9"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/final-native-hosiery-provenance.json",
+          "sha256": "4813cb52e9c4f3e038e3959a9e3e891a0ff330975cc8940f39a332da913173e4",
+          "contents": "Four accepted builtin imagegen outputs with their actual requests, immediate references, complete generation chain and original tool files. PNGs retained byte-for-byte without postprocessing."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/hosiery-v2-layer2-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1578077,
+        "sha256": "9dbd6806ce48c677d71d30e503aab6fa44b992d4e3eff149f3868ea14b7711d9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/hosiery-v2-layer2-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 874490,
+        "sha256": "3e1f4a321bffa750577641ab7925151d9add9c7ed38d192f719af34b45a8041f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-v2-layer2-construction-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "hosiery-v2-layer2-construction-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/hosiery",
+        "baseline_sha256": "5606458e69bf49e4f8d498314b67987230b0dae0f137d4122b08248ca24cda64",
+        "based_on": "/media/bunny/3.1.0/hosiery-v2-layer2-front-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-construction-native-v1.png",
+        "source_artifact_sha256": "8fd5736ad788db1a064b35ea340132192fbef46aaf05d93adb6c1433166a24bd",
+        "review_status": "native-imagegen-hosiery-reference",
+        "method": "builtin image_gen; original tool PNG copied byte-for-byte; no postprocessing",
+        "description": "v2 · 袜装结构与细节示意：罗纹袜口和袜筒过渡、针织线圈、脚跟成形、普通闭合袜尖与接缝，1536×1024 生图工具原输出 PNG。",
+        "scope": "对应当前袜装穿着稿的结构与细节资料，参考已接受的正背穿着稿及旧07针织设计；不代表生产纸样、真实针距、厘米尺寸或制造规格。",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-front-native-v2.png",
+            "sha256": "5606458e69bf49e4f8d498314b67987230b0dae0f137d4122b08248ca24cda64",
+            "role": "current front wearing sock design"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-back-native-v1.png",
+            "sha256": "9dbd6806ce48c677d71d30e503aab6fa44b992d4e3eff149f3868ea14b7711d9",
+            "role": "current back wearing sock design"
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/07-hosiery-knit-details.png",
+            "sha256": "bc72041c99c04505f16a4c5be96f3645a68bca6970780a7840eadee485f57999",
+            "role": "old07 continuous-knit/detail ideas only"
+          }
+        ],
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/request-hosiery-construction-v2.json",
+          "sha256": "ef22a7d5c73aa4a5185750b40fe1988b9fc8d382f45a9c6999a6ed9dc7ddb361"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-42fb4803-8e5a-4696-a3ba-ba9f71526027.png",
+          "sha256": "8fd5736ad788db1a064b35ea340132192fbef46aaf05d93adb6c1433166a24bd"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/final-native-hosiery-provenance.json",
+          "sha256": "4813cb52e9c4f3e038e3959a9e3e891a0ff330975cc8940f39a332da913173e4",
+          "contents": "Four accepted builtin imagegen outputs with their actual requests, immediate references, complete generation chain and original tool files. PNGs retained byte-for-byte without postprocessing."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1667225,
+        "sha256": "8fd5736ad788db1a064b35ea340132192fbef46aaf05d93adb6c1433166a24bd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/hosiery-v2-layer2-construction-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1076224,
+        "sha256": "c443f0d9ffcd5886229e2ddccd87d7c13dd0d09419616a23ea2fb87061f28c55",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-v2-layer2-front-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "hosiery-v2-layer2-front-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/hosiery",
+        "baseline_sha256": "76bcc8cf5ee638ff7daed6dea3c2cb422e0e50be8b70c9a2dd9478f23a48e540",
+        "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-front-v3.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-front-native-v2.png",
+        "source_artifact_sha256": "5606458e69bf49e4f8d498314b67987230b0dae0f137d4122b08248ca24cda64",
+        "review_status": "native-imagegen-hosiery-reference",
+        "method": "builtin image_gen; original tool PNG copied byte-for-byte; no postprocessing",
+        "description": "v2 · 袜装层穿着（正面）：在当前首层衣装上添加左腿橙色长袜与右腿白色短袜，1024×1536 生图工具原输出 PNG。",
+        "scope": "本视角增加不对称针织袜装，沿用当前第一层衣装与人物设计。现有基模、图面尺寸、首层衣装及结构板原件保持；鞋靴与后续装备尚未同步。",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-front-native-v1.png",
+            "sha256": "b766794c42ad7d6f5ef6b2e3d01d0b186f49f6c427f8b4d1620463202b7dce8b",
+            "role": "complete edit target"
+          }
+        ],
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/request-hosiery-front-v2.json",
+          "sha256": "47539adceeaf12e4a6249986ba21cf33560801a5776a6a2484493f0f42f6e7ec"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-d1777264-9f4e-408f-9c0e-8443e9725421.png",
+          "sha256": "5606458e69bf49e4f8d498314b67987230b0dae0f137d4122b08248ca24cda64"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/final-native-hosiery-provenance.json",
+          "sha256": "4813cb52e9c4f3e038e3959a9e3e891a0ff330975cc8940f39a332da913173e4",
+          "contents": "Four accepted builtin imagegen outputs with their actual requests, immediate references, complete generation chain and original tool files. PNGs retained byte-for-byte without postprocessing."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/hosiery-v2-layer2-front-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1574086,
+        "sha256": "5606458e69bf49e4f8d498314b67987230b0dae0f137d4122b08248ca24cda64",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/hosiery-v2-layer2-front-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 895052,
+        "sha256": "d8baea513b142b9e9799aa5964deac34d63f73fc6f0d95c11301faabfe9a1d13",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-v2-layer2-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "hosiery-v2-layer2-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/hosiery",
+        "baseline_sha256": "74b39037300b982bc4c336c8d00ba459545170b800724796822930d9d94b0694",
+        "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-side-v4.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-side-native-v3.png",
+        "source_artifact_sha256": "fe2d046f660f1f67ee54cc8214536df0b8b528c59207f5a6b6044dfab038962c",
+        "review_status": "native-imagegen-hosiery-reference",
+        "method": "builtin image_gen; original tool PNG copied byte-for-byte; no postprocessing",
+        "description": "v2 · 袜装层穿着（侧面）：在当前首层衣装上添加左腿橙色长袜与右腿白色短袜，1024×1536 生图工具原输出 PNG。",
+        "scope": "本视角增加不对称针织袜装，沿用当前第一层衣装与人物设计。现有基模、图面尺寸、首层衣装及结构板原件保持；鞋靴与后续装备尚未同步。",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-side-native-v2.png",
+            "sha256": "b26864fc31d842f9b81e4a34eda3a4b10adac278773f7d1a3b05a6ba24ec8adc",
+            "role": "complete edit target"
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/innerwear-v2-layer1-side-v4.png",
+            "sha256": "74b39037300b982bc4c336c8d00ba459545170b800724796822930d9d94b0694",
+            "role": "sock design or clean-cloth reference only"
+          }
+        ],
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/request-hosiery-side-v3.json",
+          "sha256": "93884e3d6da4954abf6c821ac16ffa325768e2aeaa20447d34579c101b601335"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-712faa52-119c-4a9f-a841-1f1f6329f13e.png",
+          "sha256": "fe2d046f660f1f67ee54cc8214536df0b8b528c59207f5a6b6044dfab038962c"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/final-native-hosiery-provenance.json",
+          "sha256": "4813cb52e9c4f3e038e3959a9e3e891a0ff330975cc8940f39a332da913173e4",
+          "contents": "Four accepted builtin imagegen outputs with their actual requests, immediate references, complete generation chain and original tool files. PNGs retained byte-for-byte without postprocessing."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/hosiery-v2-layer2-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1480854,
+        "sha256": "fe2d046f660f1f67ee54cc8214536df0b8b528c59207f5a6b6044dfab038962c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/hosiery-v2-layer2-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 826800,
+        "sha256": "e4fdc7f83c94334d5f3bd36f51ee5d1da1ac92add7cdb1624cd61250691e2741",
+        "alpha": false
+      }
+    },
+    {
       "id": "innerwear-v2-layer1-back-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -3546,8 +3796,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 92506521,
-      "sha256": "be5a0f24d585c5a7af3f26a06f19fc17ef823bcdb776b39faf2061ee0dbf9672"
+      "bytes": 97777177,
+      "sha256": "35618ca19e85c1c361ff3b0b8f24773f5a014d5fa40e4b645f02ebc6d008252c"
     }
   ]
 }

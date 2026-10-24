@@ -515,6 +515,46 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hosiery-v2-layer2-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-layer2-back-v1.png",
+      "sha256": "9dbd6806ce48c677d71d30e503aab6fa44b992d4e3eff149f3868ea14b7711d9",
+      "size": 1578077,
+      "contentType": "image/png",
+      "downloadName": "hosiery-v2-layer2-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-layer2-construction-v1.png",
+      "sha256": "8fd5736ad788db1a064b35ea340132192fbef46aaf05d93adb6c1433166a24bd",
+      "size": 1667225,
+      "contentType": "image/png",
+      "downloadName": "hosiery-v2-layer2-construction-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hosiery-v2-layer2-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-layer2-front-v1.png",
+      "sha256": "5606458e69bf49e4f8d498314b67987230b0dae0f137d4122b08248ca24cda64",
+      "size": 1574086,
+      "contentType": "image/png",
+      "downloadName": "hosiery-v2-layer2-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hosiery-v2-layer2-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-layer2-side-v1.png",
+      "sha256": "fe2d046f660f1f67ee54cc8214536df0b8b528c59207f5a6b6044dfab038962c",
+      "size": 1480854,
+      "contentType": "image/png",
+      "downloadName": "hosiery-v2-layer2-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/innerwear-v2-layer1-back-v1.png",
       "sha256": "f2defc60bc356f0be17eb871efc9f8c4776fe2f11d01bd118aff75b0e7d90c25",
@@ -647,8 +687,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "be5a0f24d585c5a7af3f26a06f19fc17ef823bcdb776b39faf2061ee0dbf9672",
-      "size": 92506521,
+      "sha256": "35618ca19e85c1c361ff3b0b8f24773f5a014d5fa40e4b645f02ebc6d008252c",
+      "size": 97777177,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },
