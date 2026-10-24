@@ -11,9 +11,9 @@ aside: true
 
 <span id="native-body-views"></span>
 
-- [v2 · 完整人物修订工作稿（正面）PNG](/media/bunny/3.1.0/body-v2-full-front-v1.png)
-- [v2 · 完整人物修订工作稿（侧面）PNG](/media/bunny/3.1.0/body-v2-full-side-v1.png)
-- [v2 · 完整人物修订工作稿（背面）PNG](/media/bunny/3.1.0/body-v2-full-back-v1.png)
+- [v2 · 基础文胸身体三视（正面）PNG](/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png)
+- [v2 · 基础文胸身体三视（侧面）PNG](/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png)
+- [v2 · 基础文胸身体三视（背面）PNG](/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png)
 - [此前身体工作稿 · 上衣下围色块修订 PNG](/media/bunny/3.1.0/body-v2-detail-refined-v1.png)
 - [v2头部同步尝试稿 · 上衣色块修订前 PNG](/media/bunny/3.1.0/body-v2-head-refined-v1.png)
 - [v2赛璐璐身体 · 头部修订前 PNG](/media/bunny/3.1.0/body-v2-cel-refined-v1.png)
@@ -27,7 +27,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-本轮正、侧、背三张完整人物图均为独立的 1024×1536 原生 PNG，作为衣层设计基准的工作稿保留；本轮补齐图面比例，衣层与装备尚未同步。此前被拒的衣层候选继续从下载与原图包撤出。原图包保留本轮三图、旧03、各阶段身体、中性头部、16格表情与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
+本轮基础文胸正、侧、背三张完整人物图均为独立的 1024×1536 原尺寸 PNG，作为衣层设计基准的工作稿保留；正面内腿杂线已清理，图面尺寸已按新原图复核，衣层与装备尚未同步。此前被拒的衣层候选继续从下载与原图包撤出。原图包保留本轮三图、此前运动款三图、旧03、各阶段身体、中性头部、16格表情与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -35,10 +35,19 @@ aside: true
 
 标尺 SVG 各自包含完整原图，可离线打开；人物图像保持原样。尺寸为可见图面读数，包含发量，不是厘米或围度。三视分别记录，不以拉伸图片消除差异。
 
-- [正面标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-front.svg) · [正面原始 PNG](/media/bunny/3.1.0/body-v2-full-front-v1.png)
-- [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-side.svg) · [侧面原始 PNG](/media/bunny/3.1.0/body-v2-full-side-v1.png)
-- [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-back.svg) · [背面原始 PNG](/media/bunny/3.1.0/body-v2-full-back-v1.png)
+- [正面标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-front-v1.svg) · [正面原尺寸 PNG](/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png)
+- [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-side-v1.svg) · [侧面原尺寸 PNG](/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png)
+- [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-back-v1.svg) · [背面原尺寸 PNG](/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png)
 - [测量坐标与定义 JSON](/catalog/bunny/3.1.0/body-measurements.json) · [尺寸表与适用范围](/characters/bunny/dimensions)
+
+## 此前运动款 · 身体与尺寸 {#sports-body-history}
+
+下列原图和标尺保留基础文胸修订前的状态。旧衣物胸宽属于运动款，不能用于本轮文胸。
+
+- [运动款正面 PNG](/media/bunny/3.1.0/body-v2-full-front-v1.png) · [正面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-front.svg)
+- [运动款侧面 PNG](/media/bunny/3.1.0/body-v2-full-side-v1.png) · [侧面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-side.svg)
+- [运动款背面 PNG](/media/bunny/3.1.0/body-v2-full-back-v1.png) · [背面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-back.svg)
+- [运动款测量记录 JSON](/catalog/bunny/3.1.0/body-measurements-sports-v1.json)
 
 ## 人物与识别
 

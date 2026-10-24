@@ -5,8 +5,8 @@ aside: true
 ---
 # 贴身衣层
 
-::: warning 暂不进入衣层同步
-[v2 身体三视](/characters/bunny/body-base)是当前工作稿，基模仍在修订；暂不进入后续衣层同步。本次衣层候选未获采用，已从当前展示与下载包撤出。
+::: info 衣层第一阶段待同步
+以[当前 v2 基础文胸三视](/characters/bunny/body-base)和[图面尺寸](/characters/bunny/dimensions)继续白色上衣与红色短裤的穿着、拆解设计。新衣层尚未接入，下方保留既有款式资料。此前被拒的衣层候选继续从当前展示与下载包撤出。
 :::
 
 ## 既有贴身衣层参考 {#before-v2-innerwear}

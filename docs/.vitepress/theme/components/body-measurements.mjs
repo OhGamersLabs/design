@@ -13,8 +13,23 @@ const number = (value) => typeof value === 'number' && Number.isFinite(value)
 const escape = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[char]))
 
 export const formatNumber = (value, digits = 2) => number(value) ? Number(value.toFixed(digits)).toString() : '—'
-export const artworkUrl = (id, original = false) => `${original ? '/media' : '/characters'}/bunny/3.1.0/body-v2-full-${id}-v1.${original ? 'png' : 'webp'}`
-export const measurementUrl = (id) => `/characters/bunny/3.1.0/body-v2-measurements-${id}.svg`
+
+function measurementResources(view, id) {
+  const resources = view.resources === undefined ? {
+    original: `/media/bunny/3.1.0/body-v2-full-${id}-v1.png`,
+    web: `/characters/bunny/3.1.0/body-v2-full-${id}-v1.webp`,
+    ruler: `/characters/bunny/3.1.0/body-v2-measurements-${id}.svg`,
+  } : view.resources
+  const patterns = {
+    original: /^\/media\/bunny\/3\.1\.0\/[a-zA-Z0-9][a-zA-Z0-9._-]*\.png$/,
+    web: /^\/characters\/bunny\/3\.1\.0\/[a-zA-Z0-9][a-zA-Z0-9._-]*\.webp$/,
+    ruler: /^\/characters\/bunny\/3\.1\.0\/[a-zA-Z0-9][a-zA-Z0-9._-]*\.svg$/,
+  }
+  for (const [name, pattern] of Object.entries(patterns)) {
+    if (typeof resources?.[name] !== 'string' || !pattern.test(resources[name])) throw new Error(`Invalid measurement resource: ${id}.${name}`)
+  }
+  return { original: resources.original, web: resources.web, ruler: resources.ruler }
+}
 
 function uncertainty(value) {
   if (number(value)) return `取点约 ±${formatNumber(value, 1)} px`
@@ -69,7 +84,7 @@ export function measurementModel(data, id) {
   }
   const widths = ['shoulder', 'waist', 'hip'].map((key) => rows.find((row) => row.id === key)?.px)
   return {
-    id, label: labels[id] ?? id, source: view.source, H, rows,
+    id, label: labels[id] ?? id, source: view.source, resources: measurementResources(view, id), H, rows,
     headCount: number(head) && head > 0 ? H / head : null,
     widthRatio: widths.every((value) => number(value) && value > 0) ? `${formatNumber(widths[0] / widths[1])} : 1 : ${formatNumber(widths[2] / widths[1])}` : null,
   }

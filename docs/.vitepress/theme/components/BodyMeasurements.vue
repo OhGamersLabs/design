@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { withBase } from 'vitepress'
 import ReleaseImage from './ReleaseImage.vue'
-import { artworkUrl, formatNumber, measurementModel, measurementUrl } from './body-measurements.mjs'
+import { formatNumber, measurementModel } from './body-measurements.mjs'
 
 const props = defineProps({ data: { type: Object, required: true } })
 const selected = ref('front')
@@ -22,10 +22,10 @@ const current = computed(() => measurementModel(props.data, selected.value))
     </div>
     <div class="body-measurements__layout">
       <div class="body-measurements__figure">
-        <ReleaseImage :src="measurementUrl(selected)" :original="measurementUrl(selected)" :alt="`${current.label}图面尺寸标尺`" :caption="`${current.label}标尺 · 可放大或查看原始尺寸`" />
+        <ReleaseImage :src="current.resources.ruler" :original="current.resources.ruler" :alt="`${current.label}图面尺寸标尺`" :caption="`${current.label}标尺 · 可放大或查看原始尺寸`" />
         <div class="body-measurements__downloads">
-          <a :href="withBase(measurementUrl(selected))" download>下载{{ current.label }}标尺 SVG</a>
-          <a :href="withBase(artworkUrl(selected, true))" target="_blank" rel="noopener noreferrer">查看原始人物 PNG ↗</a>
+          <a :href="withBase(current.resources.ruler)" download>下载{{ current.label }}标尺 SVG</a>
+          <a :href="withBase(current.resources.original)" target="_blank" rel="noopener noreferrer">查看原始人物 PNG ↗</a>
         </div>
       </div>
       <div class="body-measurements__readings">

@@ -6,6 +6,7 @@ aside: true
 <script setup>
 import comparison from './body-comparison.json'
 import styleComparison from './body-style-comparison.json'
+import braComparison from './body-bra-comparison.json'
 </script>
 
 # v2 · 身体三视基准
@@ -13,42 +14,71 @@ import styleComparison from './body-style-comparison.json'
 <span id="gray-proportion-review"></span>
 
 ::: warning 当前工作稿
-当前三视工作稿作为衣层设计基准，本轮补齐图面比例；衣层与装备尚未同步。下方保留当前身体图与各阶段对照。
+当前基础文胸三视作为衣层设计基准，图面比例已按对应原图复核；白色上衣、红色短裤及其余衣层与装备尚未同步。下方保留当前身体图与各阶段对照。
 :::
 
-::: info 本轮完整人物修订
-正面、侧面与背面分别从完整人物线稿继续上色，以 v2 的纤细体型与腰腿比例为核对依据，头发和五官参考[中性头部样板](/characters/bunny/face)。三张图各自保留完整原始画幅，可分别放大查看和下载。
+::: info 本轮基础文胸修订
+本轮校准胸部体量、基础文胸结构与中央线条，保留中等饱满、明确的胸型，以既定头部和腰腿臀比例为约束。正面内腿影面中的杂线已清理。正面、侧面与背面各自保留 1024×1536 的原尺寸 PNG，可分别放大查看和下载。
 
-当前仍是二维基础体工作稿，保留黑色运动内搭，供逐视核对。[中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)原件继续保留；本轮已记录[图面尺寸与比例](/characters/bunny/dimensions#current-body-measurements)，实际厘米身高尚未设定；衣层与装备未同步。
+当前仍是二维基础体工作稿，穿着黑色基础文胸与内裤，供逐视核对。[中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)原件继续保留；[图面尺寸与比例](/characters/bunny/dimensions#current-body-measurements)对应本轮三张原图，实际厘米身高尚未设定，图面读数不换算杯码或围度。
 :::
 
 ## 三张完整人物工作稿
 
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/body-v2-full-front-v1.webp" original="/media/bunny/3.1.0/body-v2-full-front-v1.png" alt="v2完整人物修订工作稿正面：银白短发、蓝眼、黑色运动内搭与完整手足" caption="v2 · 完整人物修订工作稿（正面）" />
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-basic-bra-front-v1.webp" original="/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png" alt="v2基础文胸身体工作稿正面：银白短发、蓝眼、黑色基础文胸与完整手足" caption="v2 · 基础文胸身体三视（正面）" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/body-v2-full-side-v1.webp" original="/media/bunny/3.1.0/body-v2-full-side-v1.png" alt="v2完整人物修订工作稿侧面：头颈、胸腰臀、手臂和足部完整展示" caption="v2 · 完整人物修订工作稿（侧面）" />
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-basic-bra-side-v1.webp" original="/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png" alt="v2基础文胸身体工作稿侧面：头颈、文胸结构、胸腰臀和完整手足" caption="v2 · 基础文胸身体三视（侧面）" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/body-v2-full-back-v1.webp" original="/media/bunny/3.1.0/body-v2-full-back-v1.png" alt="v2完整人物修订工作稿背面：银白发束、背部与腰臀腿完整展示" caption="v2 · 完整人物修订工作稿（背面）" />
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-basic-bra-back-v1.webp" original="/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png" alt="v2基础文胸身体工作稿背面：银白发束、文胸后带、背部与腰臀腿" caption="v2 · 基础文胸身体三视（背面）" />
 
 </div>
 
+## 运动款至基础文胸对照 {#basic-bra-comparison}
+
+左侧为此前运动款三视，右侧为本轮基础文胸三视。逐视核对胸型、衣物结构与中央线条，也同时查看头部、腰腿臀和手足的整体关系。人物按可见外包络等高对齐；此处的布局定位与[尺寸表的主描线取点](/characters/bunny/dimensions)分别记录。
+
+<BodyProportionCompare :previous="braComparison.previous" :candidate="braComparison.candidate" />
+
+[查看此前运动款与尺寸资料](#sports-body-history) · [下载本轮三张原尺寸 PNG](/characters/bunny/downloads#native-body-views)
+
 ## 形体局部修订至当前稿对照 {#v2-style-comparison}
 
-左侧为此前形体局部修订的 v2，右侧分别使用本轮三张完整人物工作稿。逐视核对头颈衔接、五官发束、胸腰臀与腰腿关系，以及整个人物的线条和色块。
+左侧为此前形体局部修订的 v2，右侧分别使用本轮基础文胸三视。逐视核对头颈衔接、五官发束、胸腰臀与腰腿关系，以及整个人物的线条和色块。
 
 <BodyProportionCompare :previous="styleComparison.previous" :candidate="styleComparison.candidate" />
 
-[查看原局部修订 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png) · [下载本轮三张原生 PNG](/characters/bunny/downloads#native-body-views) · [查看画风标准](/characters/bunny/visual-language#本轮身体三视图的画风标准)
+[查看原局部修订 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png) · [下载本轮三张原尺寸 PNG](/characters/bunny/downloads#native-body-views) · [查看画风标准](/characters/bunny/visual-language#本轮身体三视图的画风标准)
 
 ## 原v2与当前稿比例对照 {#v2-local-comparison}
 
-左侧为用户认可的原 v2 比例底子，右侧为本轮完整人物工作稿。冠顶与赤脚地面按每张原图分别对齐，以等高图面核对腰长、腿长与纤细轮廓；这不是骨骼尺寸测量，也不代表当前稿已获最终确认。
+左侧为用户认可的原 v2 比例底子，右侧为本轮基础文胸三视。冠顶与赤脚地面按每张原图分别对齐，以等高图面核对腰长、腿长与纤细轮廓；这不是骨骼尺寸测量，也不代表整套角色资料已完成同步。
 
 <BodyProportionCompare :previous="comparison.previous" :candidate="comparison.candidate" />
 
 [查看完整原 v2 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png)
+
+## 此前运动款 · 身体与尺寸 {#sports-body-history}
+
+<details>
+<summary>展开此前运动款三视及其图面尺寸</summary>
+
+这三张完整人物稿是本轮基础文胸修订的前一版，保留原始图像与下载地址。此前尺寸记录中的衣物胸宽对应运动款，不能套用到当前文胸。
+
+<div class="bunny-body-views">
+
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-full-front-v1.webp" original="/media/bunny/3.1.0/body-v2-full-front-v1.png" alt="基础文胸修订前的运动款身体正面，历史参考" caption="此前运动款 · 正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-full-side-v1.webp" original="/media/bunny/3.1.0/body-v2-full-side-v1.png" alt="基础文胸修订前的运动款身体侧面，历史参考" caption="此前运动款 · 侧面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-full-back-v1.webp" original="/media/bunny/3.1.0/body-v2-full-back-v1.png" alt="基础文胸修订前的运动款身体背面，历史参考" caption="此前运动款 · 背面" />
+
+</div>
+
+[运动款测量记录 JSON](/catalog/bunny/3.1.0/body-measurements-sports-v1.json) · [正面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-front.svg) · [侧面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-side.svg) · [背面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-back.svg)
+
+</details>
 
 ## 此前身体工作稿 {#before-full-person-revision}
 

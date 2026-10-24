@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 50,
+  "asset_count": 53,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -20,7 +20,7 @@
         "page": "https://design.ohgamers.org/characters/bunny/",
         "baseline_sha256": "7307c3e2e7208eb03b1621d1031c2713067b32661ccc536d6b130a1830367afd",
         "review_status": "historical-baseline-2026-10-18",
-        "description": "2026-10-18旧基准沿革；保留原图与图内当时的最新基模说明。当前修订从v2身体工作稿、精修头部和16格表情继续，基模尚未完成。"
+        "description": "2026-10-18旧基准沿革；保留原图与图内当时的最新基模说明。当前衣层制作依据为v2基础文胸三视及对应图面比例，精修中性头部和16格表情继续保留。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/00-origin-positioning.png",
@@ -144,7 +144,7 @@
         "page": "https://design.ohgamers.org/characters/bunny/innerwear",
         "baseline_sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1",
         "review_status": "existing-garment-construction-reference",
-        "scope": "保留既有款式结构，尚未按本轮画风重绘或与当前v2工作稿同步；基模仍在修订，暂不进入后续衣层同步。"
+        "scope": "保留既有款式结构，尚未与当前v2基础文胸三视同步；白色上衣和红色短裤的新版穿着与拆解正在制作。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/04-white-top-construction.png",
@@ -176,7 +176,7 @@
         "page": "https://design.ohgamers.org/characters/bunny/innerwear",
         "baseline_sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d",
         "review_status": "existing-garment-construction-reference",
-        "scope": "保留既有款式结构，尚未按本轮画风重绘或与当前v2工作稿同步；基模仍在修订，暂不进入后续衣层同步。"
+        "scope": "保留既有款式结构，尚未与当前v2基础文胸三视同步；白色上衣和红色短裤的新版穿着与拆解正在制作。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/05-red-shorts-construction.png",
@@ -1062,6 +1062,360 @@
       }
     },
     {
+      "id": "body-v2-basic-bra-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "body-v2-basic-bra-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "baseline_sha256": "3b66f124ee652a0ae07b82abddea9357548404dff11ea6fd500b566bfffe4fe8",
+        "based_on": "/media/bunny/3.1.0/body-v2-full-back-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-back-basic-bra-medium-v1.png",
+        "source_artifact_sha256": "3c2c08818b5db012d39a1d482874b9194a3027786533cdada5429bd2406d1664",
+        "review_status": "local-basic-bra-body-work-in-progress",
+        "method": "builtin-full-frame-reference-edit",
+        "description": "v2 · 基础文胸身体三视（背面）：中等饱满胸型、基础文胸结构与较低中央线条；保留1024×1536完整画幅。",
+        "scope": "以既定头部、腰腿臀和手足比例为约束，保留黑色内裤。图面尺寸按对应原图复核，不给杯码、围度或厘米数据；衣层与装备尚未同步。本视图保留完整生成输出；文胸设计参考清线前正面a2，来源链未变。",
+        "reference_chain": [
+          {
+            "role": "previous-sports-body",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-full-back-v1.png",
+            "sha256": "3b66f124ee652a0ae07b82abddea9357548404dff11ea6fd500b566bfffe4fe8",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "role": "final-generation-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/source-current-body-back.png",
+            "sha256": "3b66f124ee652a0ae07b82abddea9357548404dff11ea6fd500b566bfffe4fe8"
+          },
+          {
+            "role": "final-generation-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-front-basic-bra-medium-v1.png",
+            "sha256": "a2a0155193cef6865884e31c222131e99cbb2181eb47fc4cbe41abbf04417691"
+          },
+          {
+            "role": "actual-final-generation-request",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/request-back-basic-bra-medium-v1.json",
+            "sha256": "6179e7c0affce7a5951401aef35f4a81e1df6dc800d0ec55361622bc10a783a8"
+          },
+          {
+            "role": "original-builtin-tool-output",
+            "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-90ef4883-7c69-4bb2-8f26-57b8e65bc474.png",
+            "sha256": "3c2c08818b5db012d39a1d482874b9194a3027786533cdada5429bd2406d1664"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/final-basic-bra-provenance-inner-thigh-clean-v1.json",
+          "sha256": "0141b9fb4b1d2fc84f3b59b5c8eff7f1198c07510103dd1c518f941f80dd5634",
+          "contents": "Actual builtin generation requests and outputs; front upstream a2 plus authorized local inner-thigh line cleanup and masks; unchanged side/back source chains; image alignment and measurement provenance."
+        },
+        "layout_alignment": {
+          "definition": "Read-only min(R,G,B)<240 visible outer bbox; right/bottom exclusive. centerX=(left+right)/2. Separate from measurement H main-outline convention.",
+          "bbox": [
+            257,
+            24,
+            765,
+            1498
+          ],
+          "centerX": 511,
+          "crownY": 24,
+          "floorY": 1498
+        },
+        "measurements": {
+          "path": "/catalog/bunny/3.1.0/body-measurements.json",
+          "sha256": "375c3367c0acfb6c2d0dad0aa28400651617c48f65f2eba3ad64e42f9bd5dbce",
+          "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/body-v2-basic-bra-measurements-inner-thigh-clean-v1.json",
+          "scope": "可见图面读数；正面文胸杯外缘为y415指定截面，不含外侧腋前肤线，不是最大裸胸宽、胸围或杯码。遮挡处不赋值。"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1572202,
+        "sha256": "3c2c08818b5db012d39a1d482874b9194a3027786533cdada5429bd2406d1664",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/body-v2-basic-bra-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 830598,
+        "sha256": "54328219189df53e7071dceaa2f375df57d8c462dc2e22b3bfcde56ca7e1d28c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-v2-basic-bra-front-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "body-v2-basic-bra-front-v1",
+      "source": {
+        "kind": "revised-reference",
+        "baseline_sha256": "402903443612577cd7b2d022c87d0bba13c3a30fde11c53248c6d2adec20a0ac",
+        "based_on": "/media/bunny/3.1.0/body-v2-full-front-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/body-front-basic-bra-inner-thigh-local-v1.png",
+        "source_artifact_sha256": "90a7d0dcec2b7a228a14a3daef037ab3eea5601ff63d04a0bd4fc30d741bad3a",
+        "review_status": "local-basic-bra-body-work-in-progress",
+        "method": "builtin-full-frame-reference-edit-followed-by-authorized-local-line-cleanup",
+        "description": "v2 · 基础文胸身体三视（正面）：中等饱满胸型、基础文胸结构与较低中央线条；保留1024×1536完整画幅。正面内腿影面中的杂线已清理。",
+        "scope": "以既定头部、腰腿臀和手足比例为约束，保留黑色内裤。图面尺寸按对应原图复核，不给杯码、围度或厘米数据；衣层与装备尚未同步。正面在完整生成图上作局部去线；最终PNG为原尺寸修订图，不是未经后处理的工具原始输出。",
+        "reference_chain": [
+          {
+            "role": "previous-sports-body",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-full-front-v1.png",
+            "sha256": "402903443612577cd7b2d022c87d0bba13c3a30fde11c53248c6d2adec20a0ac",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "role": "medium-full-volume-reference",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-front-basic-bra-volume-v1.png",
+            "sha256": "660a95f2068fd8548bb7622a076fb3eecc01bfe02e16b7f060e0df68ef20a621",
+            "width": 1024,
+            "height": 1536
+          },
+          {
+            "role": "volume-generation-request",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/request-front-basic-bra-volume-v1.json",
+            "sha256": "90ac7897b20e6f9c0b37108819ce2987c5e4207a6e4fbf046322e7cf1fbada44"
+          },
+          {
+            "role": "sole-final-generation-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-front-basic-bra-volume-v1.png",
+            "sha256": "660a95f2068fd8548bb7622a076fb3eecc01bfe02e16b7f060e0df68ef20a621"
+          },
+          {
+            "role": "actual-final-generation-request",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/request-front-basic-bra-medium-v1.json",
+            "sha256": "02347cbf1ac8bfdfd69b7c9f0798df795ba599c08a1bdb2f13f12245de7a16a7"
+          },
+          {
+            "role": "original-builtin-tool-output",
+            "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-ac59238c-32c7-4d60-a38c-087af7d30764.png",
+            "sha256": "a2a0155193cef6865884e31c222131e99cbb2181eb47fc4cbe41abbf04417691"
+          },
+          {
+            "role": "local-cleanup-upstream-art",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-front-basic-bra-medium-v1.png",
+            "sha256": "a2a0155193cef6865884e31c222131e99cbb2181eb47fc4cbe41abbf04417691"
+          },
+          {
+            "role": "local-cleanup-script",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/clean_inner_thigh_v1.py",
+            "sha256": "842e98d8a5594ed360822993322bc6d260e2b6285de04f2d31257eeab1070601"
+          },
+          {
+            "role": "local-cleanup-mask-plan",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/mask-plan-v1.json",
+            "sha256": "4b1cfc26500e869afc08335f79a100cb09c9f2542167167971629f577680c23b"
+          },
+          {
+            "role": "local-cleanup-color-parameters",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/sampled-color-parameters-v1.json",
+            "sha256": "f17b8b2466b5131369600f92f840353c98278319223a51492de60d496d0e4a06"
+          },
+          {
+            "role": "local-cleanup-approved-mask",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/stroke-mask-plan-v1.png",
+            "sha256": "8b8ae7048573421e14af36854ba2e62331f1dc97a11aa2b5c8188b107e215cf6"
+          },
+          {
+            "role": "local-cleanup-boundary-guard",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/true-boundary-protection-mask-v1.png",
+            "sha256": "138c6fdf87a2afedc7fcead34a71244ebc7f444926b9da13f1f858883e3191c3"
+          },
+          {
+            "role": "local-cleanup-verification",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/verification-local-cleanup-v1.json",
+            "sha256": "0db84c250d0da348e0fa26ecd0c680c8fa90e73a4b9a2d68709e8482f08745c0"
+          },
+          {
+            "role": "local-cleanup-readonly-verifier",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/verify_inner_thigh_cleanup.py",
+            "sha256": "2bb2e19fe231215d0ea44d9a74fa46200cfd20e9e48bb4ee50cc44e82880d893"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/final-basic-bra-provenance-inner-thigh-clean-v1.json",
+          "sha256": "0141b9fb4b1d2fc84f3b59b5c8eff7f1198c07510103dd1c518f941f80dd5634",
+          "contents": "Actual builtin generation requests and outputs; front upstream a2 plus authorized local inner-thigh line cleanup and masks; unchanged side/back source chains; image alignment and measurement provenance."
+        },
+        "layout_alignment": {
+          "definition": "Read-only min(R,G,B)<240 visible outer bbox; right/bottom exclusive. centerX=(left+right)/2. Separate from measurement H main-outline convention.",
+          "bbox": [
+            256,
+            25,
+            766,
+            1500
+          ],
+          "centerX": 511,
+          "crownY": 25,
+          "floorY": 1500
+        },
+        "measurements": {
+          "path": "/catalog/bunny/3.1.0/body-measurements.json",
+          "sha256": "375c3367c0acfb6c2d0dad0aa28400651617c48f65f2eba3ad64e42f9bd5dbce",
+          "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/body-v2-basic-bra-measurements-inner-thigh-clean-v1.json",
+          "scope": "可见图面读数；正面文胸杯外缘为y415指定截面，不含外侧腋前肤线，不是最大裸胸宽、胸围或杯码。遮挡处不赋值。"
+        },
+        "local_edit": {
+          "source": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-front-basic-bra-medium-v1.png",
+            "sha256": "a2a0155193cef6865884e31c222131e99cbb2181eb47fc4cbe41abbf04417691"
+          },
+          "implementation": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/clean_inner_thigh_v1.py",
+            "sha256": "842e98d8a5594ed360822993322bc6d260e2b6285de04f2d31257eeab1070601"
+          },
+          "parameters": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/mask-plan-v1.json",
+            "sha256": "4b1cfc26500e869afc08335f79a100cb09c9f2542167167971629f577680c23b"
+          },
+          "sampledColors": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/sampled-color-parameters-v1.json",
+            "sha256": "f17b8b2466b5131369600f92f840353c98278319223a51492de60d496d0e4a06"
+          },
+          "approvedMask": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/stroke-mask-plan-v1.png",
+            "sha256": "8b8ae7048573421e14af36854ba2e62331f1dc97a11aa2b5c8188b107e215cf6"
+          },
+          "actualChangedMask": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/actual-changed-mask-v1.png",
+            "sha256": "8b8ae7048573421e14af36854ba2e62331f1dc97a11aa2b5c8188b107e215cf6",
+            "mode": "L",
+            "nonzeroPixels": 221
+          },
+          "trueBoundaryProtectionMask": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/true-boundary-protection-mask-v1.png",
+            "sha256": "138c6fdf87a2afedc7fcead34a71244ebc7f444926b9da13f1f858883e3191c3"
+          },
+          "verification": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/verification-local-cleanup-v1.json",
+            "sha256": "0db84c250d0da348e0fa26ecd0c680c8fa90e73a4b9a2d68709e8482f08745c0"
+          },
+          "readOnlyVerifier": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/verify_inner_thigh_cleanup.py",
+            "sha256": "2bb2e19fe231215d0ea44d9a74fa46200cfd20e9e48bb4ee50cc44e82880d893"
+          }
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1272583,
+        "sha256": "90a7d0dcec2b7a228a14a3daef037ab3eea5601ff63d04a0bd4fc30d741bad3a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/body-v2-basic-bra-front-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 852910,
+        "sha256": "88db615f818f1766db842893601185fd6db0737680ee109c7cf30c6b4cd88bae",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-v2-basic-bra-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "body-v2-basic-bra-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "baseline_sha256": "79654b8b0c7865394d6e0927a4e33d82e9bc9b9fc92c2f698711f81efa13f38d",
+        "based_on": "/media/bunny/3.1.0/body-v2-full-side-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-side-basic-bra-medium-v1.png",
+        "source_artifact_sha256": "022988a40ae32a97e015c7410ee6e8d7a6653b587e35000440167dea4fbb47a3",
+        "review_status": "local-basic-bra-body-work-in-progress",
+        "method": "builtin-full-frame-reference-edit",
+        "description": "v2 · 基础文胸身体三视（侧面）：中等饱满胸型、基础文胸结构与较低中央线条；保留1024×1536完整画幅。",
+        "scope": "以既定头部、腰腿臀和手足比例为约束，保留黑色内裤。图面尺寸按对应原图复核，不给杯码、围度或厘米数据；衣层与装备尚未同步。本视图保留完整生成输出；文胸设计参考清线前正面a2，来源链未变。",
+        "reference_chain": [
+          {
+            "role": "previous-sports-body",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-full-side-v1.png",
+            "sha256": "79654b8b0c7865394d6e0927a4e33d82e9bc9b9fc92c2f698711f81efa13f38d",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "role": "final-generation-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/source-current-body-side.png",
+            "sha256": "79654b8b0c7865394d6e0927a4e33d82e9bc9b9fc92c2f698711f81efa13f38d"
+          },
+          {
+            "role": "final-generation-input",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/body-front-basic-bra-medium-v1.png",
+            "sha256": "a2a0155193cef6865884e31c222131e99cbb2181eb47fc4cbe41abbf04417691"
+          },
+          {
+            "role": "actual-final-generation-request",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/request-side-basic-bra-medium-v1.json",
+            "sha256": "7afd93b1549837bd38299a45ead47161b9665dfa0e3290a5f5a0ee2e42629f80"
+          },
+          {
+            "role": "original-builtin-tool-output",
+            "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-b1c3bebc-069f-4d7f-8ffe-45e311252d8c.png",
+            "sha256": "022988a40ae32a97e015c7410ee6e8d7a6653b587e35000440167dea4fbb47a3"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/final-basic-bra-provenance-inner-thigh-clean-v1.json",
+          "sha256": "0141b9fb4b1d2fc84f3b59b5c8eff7f1198c07510103dd1c518f941f80dd5634",
+          "contents": "Actual builtin generation requests and outputs; front upstream a2 plus authorized local inner-thigh line cleanup and masks; unchanged side/back source chains; image alignment and measurement provenance."
+        },
+        "layout_alignment": {
+          "definition": "Read-only min(R,G,B)<240 visible outer bbox; right/bottom exclusive. centerX=(left+right)/2. Separate from measurement H main-outline convention.",
+          "bbox": [
+            371,
+            25,
+            650,
+            1493
+          ],
+          "centerX": 510.5,
+          "crownY": 25,
+          "floorY": 1493
+        },
+        "measurements": {
+          "path": "/catalog/bunny/3.1.0/body-measurements.json",
+          "sha256": "375c3367c0acfb6c2d0dad0aa28400651617c48f65f2eba3ad64e42f9bd5dbce",
+          "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/bra-reference/inner-thigh-local-cleanup/body-v2-basic-bra-measurements-inner-thigh-clean-v1.json",
+          "scope": "可见图面读数；正面文胸杯外缘为y415指定截面，不含外侧腋前肤线，不是最大裸胸宽、胸围或杯码。遮挡处不赋值。"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1529026,
+        "sha256": "022988a40ae32a97e015c7410ee6e8d7a6653b587e35000440167dea4fbb47a3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/body-v2-basic-bra-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 759696,
+        "sha256": "ef589f3a492cd0ec70dfd356025c23efb615b473604bff72ec74de7f6f09fe2e",
+        "alpha": false
+      }
+    },
+    {
       "id": "body-v2-cel-refined-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -1182,10 +1536,10 @@
         "head_reference_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/body-back-cel-v1.png",
         "source_artifact_sha256": "3b66f124ee652a0ae07b82abddea9357548404dff11ea6fd500b566bfffe4fe8",
-        "review_status": "local-complete-person-work-in-progress",
+        "review_status": "historical-sports-body-reference",
         "method": "complete-person-lineart-then-independent-color",
-        "description": "v2 · 完整人物修订工作稿（背面）：该视角先绘制完整人物线稿，再独立上色，保留1024×1536原生画幅。",
-        "scope": "当前三视工作稿作为衣层设计基准，保留黑色运动内搭；图面比例已记录，实际厘米身高尚未设定。衣层与装备尚未同步，不作为全站生产终稿。",
+        "description": "此前运动款身体三视（背面）：完整人物线稿后独立上色的1024×1536原始工作稿，保留为基础文胸修订前参考。",
+        "scope": "此前运动款及其图面读数作为历史保留，当前基模使用基础文胸三视；旧衣物胸宽不套用到新版。",
         "reference_chain": [
           {
             "role": "body-geometry-reference",
@@ -1230,7 +1584,7 @@
           "contents": "Actual source crops, whole-person lineart and color prompts/requests, original tool outputs and final QA references. Selected PNG is byte-identical to its native tool output; no body-part composition or production resampling."
         },
         "measurements": {
-          "path": "/catalog/bunny/3.1.0/body-measurements.json",
+          "path": "/catalog/bunny/3.1.0/body-measurements-sports-v1.json",
           "sha256": "5004e05ce482014bc93a3ad89f5ff0654221826972dc573b8fc9885aaa866f0c",
           "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-dimensions-measure-20261024/body-v2-measurements.json",
           "scope": "原图可见发冠、轮廓与指定截面的图面读数；不更改图像，不推算围度或厘米。"
@@ -1268,10 +1622,10 @@
         "head_reference_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/body-front-cel-v2-b1.png",
         "source_artifact_sha256": "402903443612577cd7b2d022c87d0bba13c3a30fde11c53248c6d2adec20a0ac",
-        "review_status": "local-complete-person-work-in-progress",
+        "review_status": "historical-sports-body-reference",
         "method": "complete-person-lineart-then-independent-color",
-        "description": "v2 · 完整人物修订工作稿（正面）：该视角先绘制完整人物线稿，再独立上色，保留1024×1536原生画幅。",
-        "scope": "当前三视工作稿作为衣层设计基准，保留黑色运动内搭；图面比例已记录，实际厘米身高尚未设定。衣层与装备尚未同步，不作为全站生产终稿。",
+        "description": "此前运动款身体三视（正面）：完整人物线稿后独立上色的1024×1536原始工作稿，保留为基础文胸修订前参考。",
+        "scope": "此前运动款及其图面读数作为历史保留，当前基模使用基础文胸三视；旧衣物胸宽不套用到新版。",
         "reference_chain": [
           {
             "role": "body-geometry-reference",
@@ -1316,7 +1670,7 @@
           "contents": "Actual source crops, whole-person lineart and color prompts/requests, original tool outputs and final QA references. Selected PNG is byte-identical to its native tool output; no body-part composition or production resampling."
         },
         "measurements": {
-          "path": "/catalog/bunny/3.1.0/body-measurements.json",
+          "path": "/catalog/bunny/3.1.0/body-measurements-sports-v1.json",
           "sha256": "5004e05ce482014bc93a3ad89f5ff0654221826972dc573b8fc9885aaa866f0c",
           "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-dimensions-measure-20261024/body-v2-measurements.json",
           "scope": "原图可见发冠、轮廓与指定截面的图面读数；不更改图像，不推算围度或厘米。"
@@ -1354,10 +1708,10 @@
         "head_reference_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/body-side-cel-v1.png",
         "source_artifact_sha256": "79654b8b0c7865394d6e0927a4e33d82e9bc9b9fc92c2f698711f81efa13f38d",
-        "review_status": "local-complete-person-work-in-progress",
+        "review_status": "historical-sports-body-reference",
         "method": "complete-person-lineart-then-independent-color",
-        "description": "v2 · 完整人物修订工作稿（侧面）：该视角先绘制完整人物线稿，再独立上色，保留1024×1536原生画幅。",
-        "scope": "当前三视工作稿作为衣层设计基准，保留黑色运动内搭；图面比例已记录，实际厘米身高尚未设定。衣层与装备尚未同步，不作为全站生产终稿。",
+        "description": "此前运动款身体三视（侧面）：完整人物线稿后独立上色的1024×1536原始工作稿，保留为基础文胸修订前参考。",
+        "scope": "此前运动款及其图面读数作为历史保留，当前基模使用基础文胸三视；旧衣物胸宽不套用到新版。",
         "reference_chain": [
           {
             "role": "body-geometry-reference",
@@ -1402,7 +1756,7 @@
           "contents": "Actual source crops, whole-person lineart and color prompts/requests, original tool outputs and final QA references. Selected PNG is byte-identical to its native tool output; no body-part composition or production resampling."
         },
         "measurements": {
-          "path": "/catalog/bunny/3.1.0/body-measurements.json",
+          "path": "/catalog/bunny/3.1.0/body-measurements-sports-v1.json",
           "sha256": "5004e05ce482014bc93a3ad89f5ff0654221826972dc573b8fc9885aaa866f0c",
           "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-dimensions-measure-20261024/body-v2-measurements.json",
           "scope": "原图可见发冠、轮廓与指定截面的图面读数；不更改图像，不推算围度或厘米。"
@@ -1868,8 +2222,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 74796647,
-      "sha256": "7bb039b44a9aa52d6d924632a2f542bfdd9246f3f8b1eac13ceb1ae7ff4bf3f6"
+      "bytes": 78533011,
+      "sha256": "f72fa4903476830e9ecec6e02c2ab22de7a5f94608ba0d6022032a1bf97afc7e"
     }
   ]
 }

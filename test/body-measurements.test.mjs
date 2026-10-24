@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict'
 import { execFile } from 'node:child_process'
-import { cp, mkdir, mkdtemp, rm } from 'node:fs/promises'
+import { createHash } from 'node:crypto'
+import { cp, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { dirname, join, resolve } from 'node:path'
 import { promisify } from 'node:util'
@@ -95,22 +96,152 @@ test('invalid heights and active image schemes fail instead of producing an unch
   assert.throws(() => measurementModel(data, 'front'), /Invalid image height/)
 })
 
-test('building downloadable rulers needs only tracked assets; local verification still requires native PNGs', async (t) => {
+test('explicit per-view resources select the matching artwork and ruler without changing measurements', () => {
+  const data = fixture()
+  const original = measurementModel(data, 'front')
+  assert.deepEqual(original.resources, {
+    original: '/media/bunny/3.1.0/body-v2-full-front-v1.png',
+    web: '/characters/bunny/3.1.0/body-v2-full-front-v1.webp',
+    ruler: '/characters/bunny/3.1.0/body-v2-measurements-front.svg',
+  })
+  data.views.front.resources = {
+    original: '/media/bunny/3.1.0/renamed-front.png',
+    web: '/characters/bunny/3.1.0/renamed-front.webp',
+    ruler: '/characters/bunny/3.1.0/renamed-front-ruler.svg',
+  }
+  const revised = measurementModel(data, 'front')
+  assert.deepEqual(revised.resources, data.views.front.resources)
+  assert.deepEqual(revised.rows, original.rows)
+  assert.equal(revised.H, original.H)
+})
+
+test('explicit resources reject missing fields, external URLs and paths outside the body release', () => {
+  const resources = {
+    original: '/media/bunny/3.1.0/renamed-front.png',
+    web: '/characters/bunny/3.1.0/renamed-front.webp',
+    ruler: '/characters/bunny/3.1.0/renamed-front-ruler.svg',
+  }
+  for (const patch of [
+    { original: undefined },
+    { web: 'https://example.com/front.webp' },
+    { original: '/media/bunny/3.1.0/../outside.png' },
+    { ruler: '/characters/bunny/3.1.0/front.svg?replace=1' },
+    { ruler: '/characters/bunny/3.1.0/front.webp' },
+  ]) {
+    const data = fixture()
+    data.views.front.resources = { ...resources, ...patch }
+    assert.throws(() => measurementModel(data, 'front'), /Invalid measurement resource/)
+  }
+})
+
+test('legacy sports measurements reproduce their original rulers using only tracked assets', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'body-measurements-test-'))
   t.after(() => rm(root, { recursive: true, force: true }))
   const source = resolve(import.meta.dirname, '..')
   for (const path of [
     'tools/build-body-measurements.mjs',
     'docs/.vitepress/theme/components/body-measurements.mjs',
-    'catalog/bunny/3.1.0/body-measurements.json',
     'catalog/bunny/3.1.0/manifest.json',
     ...['front', 'side', 'back'].map((id) => `docs/public/characters/bunny/3.1.0/body-v2-full-${id}-v1.webp`),
   ]) {
     await mkdir(dirname(join(root, path)), { recursive: true })
     await cp(join(source, path), join(root, path))
   }
+  const historical = await readFile(join(source, 'catalog/bunny/3.1.0/body-measurements-sports-v1.json'))
+  assert.equal(createHash('sha256').update(historical).digest('hex'), '5004e05ce482014bc93a3ad89f5ff0654221826972dc573b8fc9885aaa866f0c')
+  await writeFile(join(root, 'catalog/bunny/3.1.0/body-measurements.json'), historical)
   const run = promisify(execFile)
   const result = await run(process.execPath, ['tools/build-body-measurements.mjs'], { cwd: root })
   assert.match(result.stdout, /3 self-contained SVGs/)
+  for (const id of ['front', 'side', 'back']) {
+    const path = `docs/public/characters/bunny/3.1.0/body-v2-measurements-${id}.svg`
+    assert.deepEqual(await readFile(join(root, path)), await readFile(join(source, path)))
+  }
+  assert.deepEqual(await readFile(join(root, 'docs/public/catalog/bunny/3.1.0/body-measurements.json')), historical)
   await assert.rejects(run(process.execPath, ['tools/build-body-measurements.mjs', '--check'], { cwd: root }), /ENOENT/)
+})
+
+test('the current canonical measurements build rulers from their own tracked artwork', async (t) => {
+  const root = await mkdtemp(join(tmpdir(), 'body-measurements-current-'))
+  t.after(() => rm(root, { recursive: true, force: true }))
+  const source = resolve(import.meta.dirname, '..')
+  const dataBytes = await readFile(join(source, 'catalog/bunny/3.1.0/body-measurements.json'))
+  const data = JSON.parse(dataBytes)
+  const resources = Object.entries(data.views).map(([id, view]) => ({
+    web: view.resources?.web ?? `/characters/bunny/3.1.0/body-v2-full-${id}-v1.webp`,
+    ruler: view.resources?.ruler ?? `/characters/bunny/3.1.0/body-v2-measurements-${id}.svg`,
+  }))
+  for (const path of [
+    'tools/build-body-measurements.mjs',
+    'docs/.vitepress/theme/components/body-measurements.mjs',
+    'catalog/bunny/3.1.0/body-measurements.json',
+    'catalog/bunny/3.1.0/manifest.json',
+    ...resources.map(({ web }) => `docs/public${web}`),
+  ]) {
+    await mkdir(dirname(join(root, path)), { recursive: true })
+    await cp(join(source, path), join(root, path))
+  }
+  const run = promisify(execFile)
+  await run(process.execPath, ['tools/build-body-measurements.mjs'], { cwd: root })
+  for (const { web, ruler } of resources) {
+    const svg = await readFile(join(root, `docs/public${ruler}`), 'utf8')
+    const embedded = Buffer.from(svg.match(/href="data:image\/webp;base64,([^\"]+)"/)[1], 'base64')
+    assert.deepEqual(embedded, await readFile(join(source, `docs/public${web}`)))
+  }
+  assert.deepEqual(await readFile(join(root, 'docs/public/catalog/bunny/3.1.0/body-measurements.json')), dataBytes)
+  await assert.rejects(run(process.execPath, ['tools/build-body-measurements.mjs', '--check'], { cwd: root }), /ENOENT/)
+})
+
+test('the builder and native verifier use explicit resource paths without requiring legacy filenames', async (t) => {
+  const root = await mkdtemp(join(tmpdir(), 'body-measurements-resources-'))
+  t.after(() => rm(root, { recursive: true, force: true }))
+  const source = resolve(import.meta.dirname, '..')
+  // Small, valid transparent fixtures keep the test independent of ignored art.
+  const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGNgYGBgAAAABQABpfZFQAAAAABJRU5ErkJggg==', 'base64')
+  const webp = Buffer.from('UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==', 'base64')
+  const hash = (bytes) => createHash('sha256').update(bytes).digest('hex')
+  const data = { schemaVersion: 1, views: {} }
+  const manifest = { assets: [] }
+  for (const path of ['tools/build-body-measurements.mjs', 'docs/.vitepress/theme/components/body-measurements.mjs']) {
+    await mkdir(dirname(join(root, path)), { recursive: true })
+    await cp(join(source, path), join(root, path))
+  }
+  for (const id of ['front', 'side', 'back']) {
+    const resources = {
+      original: `/media/bunny/3.1.0/fixture-${id}.png`,
+      web: `/characters/bunny/3.1.0/fixture-${id}.webp`,
+      ruler: `/characters/bunny/3.1.0/fixture-${id}-ruler.svg`,
+    }
+    data.views[id] = {
+      resources,
+      source: { path: `/art-source/fixture-${id}.png`, sha256: hash(png), width: 1, height: 1 },
+      height: { crownY: 0, floorY: 1, definition: 'Fixture height' },
+      landmarks: {},
+    }
+    const originalPath = `.release/bunny/3.1.0/fixture-${id}.png`
+    const webPath = `docs/public${resources.web}`
+    await mkdir(dirname(join(root, originalPath)), { recursive: true })
+    await mkdir(dirname(join(root, webPath)), { recursive: true })
+    await writeFile(join(root, originalPath), png)
+    await writeFile(join(root, webPath), webp)
+    manifest.assets.push({
+      original: { path: resources.original, sha256: hash(png), width: 1, height: 1 },
+      web: { path: resources.web, sha256: hash(webp), width: 1, height: 1 },
+    })
+  }
+  for (const [name, content] of [['body-measurements.json', data], ['manifest.json', manifest]]) {
+    const path = join(root, 'catalog/bunny/3.1.0', name)
+    await mkdir(dirname(path), { recursive: true })
+    await writeFile(path, JSON.stringify(content))
+  }
+  const run = promisify(execFile)
+  await run(process.execPath, ['tools/build-body-measurements.mjs'], { cwd: root })
+  await run(process.execPath, ['tools/build-body-measurements.mjs', '--check'], { cwd: root })
+  for (const id of ['front', 'side', 'back']) {
+    const svg = await readFile(join(root, `docs/public/characters/bunny/3.1.0/fixture-${id}-ruler.svg`), 'utf8')
+    const embedded = Buffer.from(svg.match(/href="data:image\/webp;base64,([^\"]+)"/)[1], 'base64')
+    assert.deepEqual(embedded, webp)
+  }
+  await writeFile(join(root, '.release/bunny/3.1.0/fixture-front.png'), Buffer.concat([png, Buffer.from('changed')]))
+  await assert.rejects(run(process.execPath, ['tools/build-body-measurements.mjs', '--check'], { cwd: root }), /does not match the native PNG: front/)
 })
