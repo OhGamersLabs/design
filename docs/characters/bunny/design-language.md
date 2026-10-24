@@ -1,13 +1,9 @@
 ---
-title: "设计语言"
-description: "Bunny 角色设计白皮书 · 设计语言"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: language
-lead: "本页保留原章节地址，请按新版章节继续阅读。"
+title: "历史章节入口"
 ---
 
-# 设计语言
+# 历史章节入口
 
-- [视觉逻辑 · 色彩负责识别 笔触统一材质](/characters/bunny/visual-language)
+此旧版章节已由当前设计替代。
+
+[阅读 配色与 2D 手绘语言](/characters/bunny/visual-language)

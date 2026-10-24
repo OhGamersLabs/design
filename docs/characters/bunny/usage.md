@@ -1,13 +1,9 @@
 ---
-title: "使用规范"
-description: "Bunny 角色设计白皮书 · 使用规范"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: application
-lead: "本页保留原章节地址，请按新版章节继续阅读。"
+title: "历史章节入口"
 ---
 
-# 使用规范
+# 历史章节入口
 
-- [应用规范 · 扩展姿态 不扩写角色](/characters/bunny/application)
+此旧版章节已由当前设计替代。
+
+[阅读 应用规范](/characters/bunny/application)

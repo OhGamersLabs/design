@@ -23,7 +23,7 @@ export default defineConfig({
           text: '角色档案',
           items: [
             {
-              text: 'Bunny · 1.1.0',
+              text: 'Bunny · 3.1.0 本地修订',
               items: bunnySections.map((section) => ({
                 text: `${section.number} · ${section.label}`,
                 link: section.link,
@@ -41,7 +41,7 @@ export default defineConfig({
       ],
     },
     outline: { label: '本页目录', level: [2, 3] },
-    docFooter: { prev: '上一章', next: '下一章' },
+    docFooter: { prev: '上一页', next: '下一页' },
     sidebarMenuLabel: '章节导航',
     returnToTopLabel: '回到顶部',
     darkModeSwitchLabel: '外观',

@@ -12,7 +12,7 @@ const localHeadings = computed(() => page.value.headers || [])
   <header class="bunny-chapter-header">
     <div class="bunny-chapter-header__meta">
       <a :href="withBase('/characters/bunny/')">角色档案 / BUNNY</a>
-      <span class="bunny-release-version">1.1.0</span>
+      <span class="bunny-release-version">3.1.0</span>
     </div>
     <nav class="bunny-reading-path" aria-label="Bunny 白皮书阅读顺序">
       <ol>

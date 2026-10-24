@@ -1,42 +1,29 @@
 ---
-title: "同一张脸的不同状态"
-description: "Bunny 角色设计白皮书 · 同一张脸的不同状态"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: identity
-lead: "脸型是身份，表情是变化；眼镜遮挡不能改写面部比例。"
+title: "面部与身份"
+releaseReady: false
+aside: true
 ---
+# 面部与身份
 
+银白发、蓝色眼睛、发束结构与五官关系以本轮中性头部样板为依据。采用日系手绘线稿与清楚的赛璐璐色块。
 
-# 同一张脸的不同状态
+## v2 · 中性头部样板
 
-## 身份基准
+<ReleaseImage src="/characters/bunny/3.1.0/head-v2-cel-reference-v1.webp" original="/media/bunny/3.1.0/head-v2-cel-reference-v1.png" alt="v2中性头部样板：正面、角色右侧与背面，银白短发、蓝眼与清楚发束" caption="v2 · 中性头部样板" />
 
-成年、纤细而有运动感的形象；蓝色眼睛与白发构成常态。面宽、眼距、鼻口位置和下颌形状在不同表情中保持稳定。
+正面双眼朝向共同的视线目标，保留轻微自然差异，不把一只眼机械镜像到另一侧。侧面按转向收窄可见眼形，眉眼、鼻尖、嘴与下颏保持连贯关系。
 
-## 口部表演
+发色以银白主面为主，少量冷灰蓝硬边阴影说明发束重叠。发旋、刘海、脸侧外翻束与后颈长度保持同一套分组，不用密集碎线或大面积蓝紫渐变塑造头发。
 
-深色护目镜弱化眼神时，嘴角、口形和头部方向承担更多情绪。需要清晰眼部表演的镜头可用摘镜状态，不临时把镜片改为透明。
+[16格表情](/characters/bunny/expressions)沿用本轮中性样板。[身体三视](/characters/bunny/body-base)中的头部仍为同步尝试稿，与样板的对应关系尚需继续核对。穿戴装备与尺寸尚未同步，头部装备图仍保留既有设计资料。
 
-## 状态边界
+## 历史身份资料
 
-红眼只作为特殊状态的视觉参考。常态不同时改变眼色、脸型和头发结构。
+<details>
+<summary>原02面部板 · 历史身份与旧配色</summary>
 
-## 图示对照
+原02保留用于回溯角色身份与设计说明。其旧配色、发丝画法和眼部细节不作为本轮画法模板；本轮样板从头部同步尝试前的赛璐璐身体三视继续校准。
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/face.webp"
-  alt="脸型"
-  original="/media/bunny/1.1.0/face.png"
-  caption="脸型"
-/>
+<ReleaseImage src="/characters/bunny/3.1.0/02-identity-style.webp" original="/media/bunny/3.1.0/02-identity-style.png" alt="原02面部板，历史身份资料与旧配色" caption="原02 · 历史身份资料" />
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/expressions.webp"
-  alt="表情"
-  original="/media/bunny/1.1.0/expressions.png"
-  caption="表情"
-/>
-
-[返回目录](/characters/bunny/)
+</details>

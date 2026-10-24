@@ -1,42 +1,34 @@
 ---
-title: "工具外观与收纳关系成套设计"
-description: "Bunny 角色设计白皮书 · 工具外观与收纳关系成套设计"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: components
-lead: "电锯是重型识别物，背负鞘让它成为可组织的随身装备。"
+title: "武器收纳与设计状态"
+releaseReady: false
+aside: true
 ---
+# 武器收纳与设计状态
 
+<span id="武器设计状态"></span><span id="武器外形规范"></span><span id="武器外形尺寸基准"></span>
 
-# 工具外观与收纳关系成套设计
+当前武器采用紧凑外形与后置闭合 D 形握柄，以背腰水平收纳三视展示和既有衣层的关系。以下为当前设计参考，不声明独立工程尺寸或艺术终稿已经完成。
 
-## 工具构成
+## 武器外观分件
 
-机壳、握把、导板与链条各自可辨；链齿沿封闭导向连续排列。
+本体、后置闭合握柄与独立护套分开展示，用于核对紧凑轮廓及外观部件。该图不是制作规格；衣装遮挡与收纳后的正侧背投影以下方收纳图为准。
 
-## 收纳
+<ReleaseImage src="/characters/bunny/3.1.0/30-compact-weapon-exterior-parts.webp" original="/media/bunny/3.1.0/30-compact-weapon-exterior-parts.png" alt="紧凑武器本体、后置闭合 D 形握柄与独立护套" caption="武器外观分件 · 当前设计参考，非制作规格" />
 
-鞘覆盖导板与链条，机体与手柄留在人物右肩上方，长鞘斜向左髋。鞘口与工具体量相互对应。
+## 武器收纳图解
 
-## 背负
+<ReleaseImage src="/characters/bunny/3.1.0/31-neutral-stored-design-guide.webp" original="/media/bunny/3.1.0/31-neutral-stored-design-guide.png" alt="武器衣层 · 水平收纳（当前设计参考）" caption="武器衣层 · 水平收纳（当前设计参考）" />
 
-肩带和腰部连接表达携行关系并释放双手。抽取路径、真实重心与运动摆动须独立验证。
+## 与当前衣层的关系
 
-## 图示对照
+<ul><li>正面：身体与手臂遮挡大部分武器，不为提高可见度而移动收纳位置。</li><li>侧面：核对机身厚度、收纳件与衣物的前后关系。</li><li>背面：完整检查机身、护套和固定座的水平轮廓。</li></ul>
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/shoes-saw.webp"
-  alt="鞋与电锯部件图，电锯位于上半部"
-  original="/media/bunny/1.1.0/shoes-saw.png"
-  caption="鞋与电锯"
-/>
+不带版面说明的三视见<a href="/characters/bunny/assembled">当前累计穿戴</a>。
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/saw-sheath.webp"
-  alt="电锯鞘"
-  original="/media/bunny/1.1.0/saw-sheath.png"
-  caption="电锯鞘"
-/>
+## 图内比例的适用口径
 
-[返回目录](/characters/bunny/)
+图内约 0.32H 是当前收纳外形的视觉比例参考，含后握把；该图的 H 从头顶到鞋底，不含兔耳。这与<a href="/characters/bunny/dimensions">人物尺寸基准</a>的赤脚 H 不同，不能直接混算或替代新的独立尺寸校准。
+
+## 历史资料
+
+<a href="/characters/bunny/weapon-history">旧版武器尺寸（历史参考，不作为当前标准）</a>对应更早的长型外形，保留旧图访问地址，仅供回溯设计变化。

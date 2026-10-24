@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "character_id": "origins",
+  "release_version": "1.0.0",
+  "language": "zh-CN",
+  "title": "角色原始手稿",
+  "status": "local-review",
+  "source": "https://design.ohgamers.org/characters/bunny/",
+  "baseline_version": "1.0.0",
+  "asset_count": 1,
+  "assets": [
+    {
+      "id": "bunny-original",
+      "character": "origins",
+      "version": "1.0.0",
+      "title": "bunny-original",
+      "source": {
+        "kind": "recovered-reference",
+        "url": "https://design.ohgamers.org/media/origins/1.0.0/bunny-original.png",
+        "page": "https://design.ohgamers.org/characters/bunny/",
+        "baseline_sha256": "d1f8982e7c9553957b500b0e3778e20071ae55b81b84bff7a42b8f370a273a20"
+      },
+      "original": {
+        "path": "/media/origins/1.0.0/bunny-original.png",
+        "mime_type": "image/png",
+        "width": 1722,
+        "height": 2048,
+        "bytes": 1392486,
+        "sha256": "d1f8982e7c9553957b500b0e3778e20071ae55b81b84bff7a42b8f370a273a20",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/1.0.0/bunny-original.webp",
+        "mime_type": "image/webp",
+        "width": 1513,
+        "height": 1800,
+        "bytes": 162592,
+        "sha256": "62693de96576d14bb14afa5f92f3214b7240f17e1a352ec8e296ecc33789450b",
+        "alpha": true
+      }
+    }
+  ],
+  "downloads": []
+}

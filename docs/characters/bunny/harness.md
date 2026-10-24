@@ -1,35 +1,32 @@
 ---
-title: "带路连续，扣件有落点"
-description: "Bunny 角色设计白皮书 · 带路连续，扣件有落点"
-releaseReady: true
-pageClass: bunny-editorial
-aside: false
-section: components
-lead: "承载结构把附挂物的位置组织起来，而不是装饰性黑线。"
+title: "承载带与固定点"
+releaseReady: false
+aside: true
 ---
+# 承载带与固定点
 
+肩带与腰带位于外套外侧。金色调节扣只在前肩，胸下带正面使用银色扣；背部黑色锚袢与银色挂扣连接腰带。橙色护盖位于前腰锚点，不复制到背面。
 
-# 带路连续，扣件有落点
+先用包含外套的穿着图核对最终覆盖关系，再看隐去外套的结构定位图。后者只为说明连接点，不表示穿戴时移除外套。
 
-## 带路
+## 外套外侧的承载位置
 
-上躯干带、腰带与腿侧附挂使用不同路线。每条带在转到背面后仍有连续去向。
+<ReleaseImage src="/characters/bunny/3.1.0/22-jacket-wearing.webp" original="/media/bunny/3.1.0/22-jacket-wearing.png" alt="外套外侧的承载位置" caption="外套外侧的承载位置" />
 
-## 扣件
+<span id="承载带穿戴"></span>
 
-橙色圆扣、矩形调节件与折返带端使用有限而一致的造型语言；扣件固定在带面或支撑结构上。
+## 承载带定位（隐去外套）
 
-## 承载
+<ReleaseImage src="/characters/bunny/3.1.0/18-carrier-wearing.webp" original="/media/bunny/3.1.0/18-carrier-wearing.png" alt="承载带定位（隐去外套）" caption="承载带定位（隐去外套）" />
 
-装备的视觉承载关系应回到躯干或骨盆区域，不仅悬挂在松软外套上。真实承重与抗滑表现需另外验证。
+## 承载带独立部件
 
-## 图示对照
+<ReleaseImage src="/characters/bunny/3.1.0/19-carrier-components.webp" original="/media/bunny/3.1.0/19-carrier-components.png" alt="承载带独立部件" caption="承载带独立部件" />
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/harness.webp"
-  alt="承载带"
-  original="/media/bunny/1.1.0/harness.png"
-  caption="承载带"
-/>
+## 承载带扣件细节
 
-[返回目录](/characters/bunny/)
+<ReleaseImage src="/characters/bunny/3.1.0/20-carrier-details.webp" original="/media/bunny/3.1.0/20-carrier-details.png" alt="承载带扣件细节" caption="承载带扣件细节" />
+
+## 腰带与固定点
+
+<ReleaseImage src="/characters/bunny/3.1.0/21-carrier-details.webp" original="/media/bunny/3.1.0/21-carrier-details.png" alt="腰带与固定点" caption="腰带与固定点" />

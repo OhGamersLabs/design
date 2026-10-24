@@ -88,6 +88,12 @@
 .bunny-view-pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
 .bunny-view-pair .release-image { margin-top: 0; }
 .bunny-view-pair .release-image__trigger img { height: 620px; max-height: 620px; }
+.bunny-body-views { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; align-items: start; }
+.bunny-body-views .release-image { min-width: 0; margin: 0; }
+.bunny-body-views .release-image__trigger img { height: auto; }
+@media (max-width: 639px) {
+  .bunny-body-views { grid-template-columns: 1fr; gap: 28px; }
+}
 .bunny-key-points { margin: 20px 0 28px; padding: 18px 22px; border-left: 2px solid var(--bunny-accent); background: #faf7f2; }
 .bunny-key-points .key-points-label { margin-top: 0 !important; color: var(--vp-c-brand-1) !important; font-size: 11px !important; font-weight: 650; letter-spacing: .06em; }
 .bunny-key-points p:last-child { margin-bottom: 0; }
