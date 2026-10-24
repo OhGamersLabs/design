@@ -13,13 +13,13 @@ import styleComparison from './body-style-comparison.json'
 <span id="gray-proportion-review"></span>
 
 ::: warning 当前工作稿
-基模仍在修订；暂不进入后续衣层同步。下方保留当前身体图与各阶段对照，不代表基模已完成。
+当前三视工作稿作为衣层设计基准，本轮补齐图面比例；衣层与装备尚未同步。下方保留当前身体图与各阶段对照。
 :::
 
 ::: info 本轮完整人物修订
 正面、侧面与背面分别从完整人物线稿继续上色，以 v2 的纤细体型与腰腿比例为核对依据，头发和五官参考[中性头部样板](/characters/bunny/face)。三张图各自保留完整原始画幅，可分别放大查看和下载。
 
-当前仍是二维基础体工作稿，保留黑色运动内搭，供逐视核对。[中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)原件继续保留；衣层、装备与尺寸尚未同步。
+当前仍是二维基础体工作稿，保留黑色运动内搭，供逐视核对。[中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)原件继续保留；本轮已记录[图面尺寸与比例](/characters/bunny/dimensions#current-body-measurements)，实际厘米身高尚未设定；衣层与装备未同步。
 :::
 
 ## 三张完整人物工作稿
@@ -85,10 +85,10 @@ import styleComparison from './body-style-comparison.json'
 
 ## 原01身体三视 · 沿革参考 {#original-01-reference}
 
-原01保留用于核对既有设计资料。以下尺寸板对应原01，不对应上方 v2 修订稿。
+原01保留用于核对既有设计资料。以下尺寸板对应原01，不对应上方 v2 修订稿；[当前稿的图面尺寸另行记录](/characters/bunny/dimensions#current-body-measurements)。
 
 <ReleaseImage src="/characters/bunny/3.1.0/01-body-baseline.webp" original="/media/bunny/3.1.0/01-body-baseline.png" alt="原01身体三视图，沿革参考" caption="原01身体三视 · 沿革参考" />
 
 ## 原01人物尺寸板
 
-<ReleaseImage src="/characters/bunny/3.1.0/dimension-01-character-dimension-standard.webp" original="/media/bunny/3.1.0/dimension-01-character-dimension-standard.png" alt="原01人物尺寸板，尚未对应v2修订重新测量" caption="原01尺寸资料 · 尚未随本轮身体修订更新" />
+<ReleaseImage src="/characters/bunny/3.1.0/dimension-01-character-dimension-standard.webp" original="/media/bunny/3.1.0/dimension-01-character-dimension-standard.png" alt="原01人物尺寸板，历史参考" caption="原01尺寸资料 · 历史参考" />

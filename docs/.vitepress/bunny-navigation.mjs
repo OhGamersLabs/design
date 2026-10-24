@@ -36,7 +36,7 @@ export const bunnySections = [
         "link": "/characters/bunny/body-base"
       },
       {
-        "text": "人物统一尺寸",
+        "text": "图面尺寸与比例",
         "link": "/characters/bunny/dimensions"
       },
       {

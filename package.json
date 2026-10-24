@@ -8,12 +8,12 @@
   },
   "scripts": {
     "dev": "vitepress dev docs --host 127.0.0.1",
-    "build": "node tools/release-catalog.mjs && vitepress build docs",
+    "build": "node tools/release-catalog.mjs && node tools/build-body-measurements.mjs && vitepress build docs",
     "preview": "vitepress preview docs --host 127.0.0.1",
     "test": "node --test && python3 -m unittest discover -s test -p '*_test.py'",
     "check:release": "node tools/release-catalog.mjs --production && node tools/verify-release.mjs",
     "deploy:dry-run": "wrangler deploy --dry-run --outdir .wrangler/dry-run",
-    "check:local": "node tools/verify-release.mjs --local"
+    "check:local": "node tools/verify-release.mjs --local && node tools/build-body-measurements.mjs --check"
   },
   "dependencies": {
     "vue": "^3.5.13"

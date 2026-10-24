@@ -27,9 +27,18 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-本轮正、侧、背三张完整人物图均为独立的 1024×1536 原生 PNG，仍是修订工作稿；暂不进入后续衣层同步。此前被拒的衣层候选继续从下载与原图包撤出。原图包保留本轮三图、旧03、各阶段身体、中性头部、16格表情与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
+本轮正、侧、背三张完整人物图均为独立的 1024×1536 原生 PNG，作为衣层设计基准的工作稿保留；本轮补齐图面比例，衣层与装备尚未同步。此前被拒的衣层候选继续从下载与原图包撤出。原图包保留本轮三图、旧03、各阶段身体、中性头部、16格表情与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
+
+## 当前基模尺寸资料 {#body-measurements}
+
+标尺 SVG 各自包含完整原图，可离线打开；人物图像保持原样。尺寸为可见图面读数，包含发量，不是厘米或围度。三视分别记录，不以拉伸图片消除差异。
+
+- [正面标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-front.svg) · [正面原始 PNG](/media/bunny/3.1.0/body-v2-full-front-v1.png)
+- [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-side.svg) · [侧面原始 PNG](/media/bunny/3.1.0/body-v2-full-side-v1.png)
+- [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-back.svg) · [背面原始 PNG](/media/bunny/3.1.0/body-v2-full-back-v1.png)
+- [测量坐标与定义 JSON](/catalog/bunny/3.1.0/body-measurements.json) · [尺寸表与适用范围](/characters/bunny/dimensions)
 
 ## 人物与识别
 

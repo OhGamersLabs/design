@@ -428,7 +428,7 @@
     "review_status": "local-complete-person-work-in-progress",
     "method": "complete-person-lineart-then-independent-color",
     "description": "v2 · 完整人物修订工作稿（正面）：该视角先绘制完整人物线稿，再独立上色，保留1024×1536原生画幅。",
-    "scope": "本轮二维基础体工作稿，黑色运动内搭；与原v2比例和中性头部样板继续核对，尚非用户最终确认成品。衣层、装备与尺寸未同步。",
+    "scope": "当前三视工作稿作为衣层设计基准，保留黑色运动内搭；图面比例已记录，实际厘米身高尚未设定。衣层与装备尚未同步，不作为全站生产终稿。",
     "reference_chain": [
       {
         "role": "body-geometry-reference",
@@ -471,6 +471,12 @@
       "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/final-base-redraw-provenance.json",
       "sha256": "16573cbca6ba7c89fc0aefaea06be1466dc4cf31dd5769e5f9b5fe1cf04cd1c0",
       "contents": "Actual source crops, whole-person lineart and color prompts/requests, original tool outputs and final QA references. Selected PNG is byte-identical to its native tool output; no body-part composition or production resampling."
+    },
+    "measurements": {
+      "path": "/catalog/bunny/3.1.0/body-measurements.json",
+      "sha256": "5004e05ce482014bc93a3ad89f5ff0654221826972dc573b8fc9885aaa866f0c",
+      "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-dimensions-measure-20261024/body-v2-measurements.json",
+      "scope": "原图可见发冠、轮廓与指定截面的图面读数；不更改图像，不推算围度或厘米。"
     }
   },
   "bunny/body-v2-full-side-v1.png": {
@@ -483,7 +489,7 @@
     "review_status": "local-complete-person-work-in-progress",
     "method": "complete-person-lineart-then-independent-color",
     "description": "v2 · 完整人物修订工作稿（侧面）：该视角先绘制完整人物线稿，再独立上色，保留1024×1536原生画幅。",
-    "scope": "本轮二维基础体工作稿，黑色运动内搭；与原v2比例和中性头部样板继续核对，尚非用户最终确认成品。衣层、装备与尺寸未同步。",
+    "scope": "当前三视工作稿作为衣层设计基准，保留黑色运动内搭；图面比例已记录，实际厘米身高尚未设定。衣层与装备尚未同步，不作为全站生产终稿。",
     "reference_chain": [
       {
         "role": "body-geometry-reference",
@@ -526,6 +532,12 @@
       "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/final-base-redraw-provenance.json",
       "sha256": "16573cbca6ba7c89fc0aefaea06be1466dc4cf31dd5769e5f9b5fe1cf04cd1c0",
       "contents": "Actual source crops, whole-person lineart and color prompts/requests, original tool outputs and final QA references. Selected PNG is byte-identical to its native tool output; no body-part composition or production resampling."
+    },
+    "measurements": {
+      "path": "/catalog/bunny/3.1.0/body-measurements.json",
+      "sha256": "5004e05ce482014bc93a3ad89f5ff0654221826972dc573b8fc9885aaa866f0c",
+      "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-dimensions-measure-20261024/body-v2-measurements.json",
+      "scope": "原图可见发冠、轮廓与指定截面的图面读数；不更改图像，不推算围度或厘米。"
     }
   },
   "bunny/body-v2-full-back-v1.png": {
@@ -538,7 +550,7 @@
     "review_status": "local-complete-person-work-in-progress",
     "method": "complete-person-lineart-then-independent-color",
     "description": "v2 · 完整人物修订工作稿（背面）：该视角先绘制完整人物线稿，再独立上色，保留1024×1536原生画幅。",
-    "scope": "本轮二维基础体工作稿，黑色运动内搭；与原v2比例和中性头部样板继续核对，尚非用户最终确认成品。衣层、装备与尺寸未同步。",
+    "scope": "当前三视工作稿作为衣层设计基准，保留黑色运动内搭；图面比例已记录，实际厘米身高尚未设定。衣层与装备尚未同步，不作为全站生产终稿。",
     "reference_chain": [
       {
         "role": "body-geometry-reference",
@@ -581,6 +593,12 @@
       "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-base-reassessment-20261024/final-base-redraw-provenance.json",
       "sha256": "16573cbca6ba7c89fc0aefaea06be1466dc4cf31dd5769e5f9b5fe1cf04cd1c0",
       "contents": "Actual source crops, whole-person lineart and color prompts/requests, original tool outputs and final QA references. Selected PNG is byte-identical to its native tool output; no body-part composition or production resampling."
+    },
+    "measurements": {
+      "path": "/catalog/bunny/3.1.0/body-measurements.json",
+      "sha256": "5004e05ce482014bc93a3ad89f5ff0654221826972dc573b8fc9885aaa866f0c",
+      "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-dimensions-measure-20261024/body-v2-measurements.json",
+      "scope": "原图可见发冠、轮廓与指定截面的图面读数；不更改图像，不推算围度或厘米。"
     }
   }
 }
