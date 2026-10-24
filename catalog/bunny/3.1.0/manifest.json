@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 47,
+  "asset_count": 48,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -18,7 +18,9 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/00-origin-positioning.png",
         "page": "https://design.ohgamers.org/characters/bunny/",
-        "baseline_sha256": "7307c3e2e7208eb03b1621d1031c2713067b32661ccc536d6b130a1830367afd"
+        "baseline_sha256": "7307c3e2e7208eb03b1621d1031c2713067b32661ccc536d6b130a1830367afd",
+        "review_status": "historical-baseline-2026-10-18",
+        "description": "2026-10-18旧基准沿革；保留原图与图内当时的最新基模说明，当前制作依据为v2身体、精修头部和16格表情。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/00-origin-positioning.png",
@@ -108,7 +110,9 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/03-innerwear-coverage.png",
         "page": "https://design.ohgamers.org/characters/bunny/innerwear",
-        "baseline_sha256": "48d913983e75ed7e6e44f155c7bc8fb7b83e3de7594ad4c41a8a19fc4ff7ba7e"
+        "baseline_sha256": "48d913983e75ed7e6e44f155c7bc8fb7b83e3de7594ad4c41a8a19fc4ff7ba7e",
+        "review_status": "historical-before-v2-innerwear-sync",
+        "description": "原03衣层参考：保留旧身体与旧头部上的穿戴关系，用于设计沿革；当前贴身衣层以v2同步三视为准。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/03-innerwear-coverage.png",
@@ -138,7 +142,9 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/04-white-top-construction.png",
         "page": "https://design.ohgamers.org/characters/bunny/innerwear",
-        "baseline_sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1"
+        "baseline_sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1",
+        "review_status": "existing-garment-construction-reference",
+        "scope": "保留既有款式结构，尚未按本轮画风重绘；当前穿着比例与画法以v2贴身衣层三视为准。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/04-white-top-construction.png",
@@ -168,7 +174,9 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/05-red-shorts-construction.png",
         "page": "https://design.ohgamers.org/characters/bunny/innerwear",
-        "baseline_sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d"
+        "baseline_sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d",
+        "review_status": "existing-garment-construction-reference",
+        "scope": "保留既有款式结构，尚未按本轮画风重绘；当前穿着比例与画法以v2贴身衣层三视为准。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/05-red-shorts-construction.png",
@@ -1539,6 +1547,115 @@
       }
     },
     {
+      "id": "innerwear-v2-cel-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "innerwear-v2-cel-v1",
+      "source": {
+        "kind": "revised-reference",
+        "baseline_sha256": "a462c4fcc71b252588ff07cab9a1a774e20988def1ec8424e176747ef0d8a1ad",
+        "based_on": "/media/bunny/3.1.0/body-v2-detail-refined-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/body-v2-innerwear-three-view-v2.png",
+        "source_artifact_sha256": "9925d948442ef00f71103121359a9018d551356cedc36054367edcec56811b25",
+        "review_status": "local-v2-innerwear-three-view",
+        "method": "crop-only-garment-generation-and-deterministic-layer-composition",
+        "description": "v2 · 贴身衣层三视：在已验收身体上同步白色上衣和红色短裤，保留头部、手脚与腰腿比例；衣物采用平涂与硬边阴影。",
+        "scope": "仅同步贴身衣层；其余衣层、装备与尺寸尚未同步。旧03保留为历史，04/05保留既有款式结构。",
+        "reference_chain": [
+          {
+            "role": "locked-original-body-not-resampled",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-detail-refined-v1.png",
+            "sha256": "a462c4fcc71b252588ff07cab9a1a774e20988def1ec8424e176747ef0d8a1ad"
+          },
+          {
+            "role": "old03-waist-placement-reference-only",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/03-innerwear-coverage.png",
+            "sha256": "48d913983e75ed7e6e44f155c7bc8fb7b83e3de7594ad4c41a8a19fc4ff7ba7e"
+          },
+          {
+            "role": "existing-garment-construction-reference",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/04-white-top-construction.png",
+            "sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1"
+          },
+          {
+            "role": "existing-garment-construction-reference",
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/05-red-shorts-construction.png",
+            "sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d"
+          },
+          {
+            "role": "accepted-front-sample-preserved-in-full-sheet",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/body-v2-innerwear-front-sample-v2.png",
+            "sha256": "540cb2ea4e6583b85551ec1cfcdb0e26ae750763352698e4d793cefcab6aaca0"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/final-artifact-provenance.json",
+          "sha256": "2ea58db4cbfd1f82a967fc4893be74cf35075f45ce7590935bf6e5473ce893e9",
+          "contents": "Exact paths and SHA-256 for front/side/back original-pixel crops, three builtin requests and prompts, original generated outputs, native/full garment layers, masks and reproduction scripts.",
+          "method": "Three crop-only garment candidates; generated skin and white background were not adopted. Garment outlines and seams retained, flat colors and hard-edged shadows composed only within clothing coverage. Source a462 was not globally generated or resampled."
+        },
+        "edit_evidence": [
+          {
+            "role": "combined-garment-rgba-layer",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/innerwear-all-views-layer-v2.png",
+            "sha256": "d8582cef634e37d7b9eb65f1be327c46d58e2a123e4fad053df917656639850f"
+          },
+          {
+            "role": "combined-garment-coverage-mask",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/innerwear-all-views-coverage-mask-v2.png",
+            "sha256": "818d463b59d3d0922716ef23a6c1513164490769d5f085c5d4b0da5756774c01"
+          },
+          {
+            "role": "side-foreground-arm-protection-mask",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/side-foreground-arm-protect-v2.png",
+            "sha256": "2be2d01916556f28f01f4516aceba67b43c2bcb8e6d6acdd672bd01547660d1a"
+          },
+          {
+            "role": "front-layer-compositor-and-parameters",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/compose_front_innerwear_v2.py",
+            "sha256": "18598a4c81ec7c1ec402e99b997ef11030eadb13e8883d08746169d0fb659a2d"
+          },
+          {
+            "role": "side-back-compositor-and-parameters",
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/compose_three_view_innerwear_v2.py",
+            "sha256": "b28c079c2a57a4dceaeb3f0cba3d13bd6e1eac1d051252d5e87f2139dc30c998"
+          },
+          {
+            "role": "independent-visual-and-pixel-review",
+            "path": "/private/tmp/bunny-innerwear-independent-qa-20261024/three-view-v2/review.md",
+            "sha256": "6165d2a4270b85ec6704d7cdb1b3f1f889da12b6ac2c194661e46bca395ba710"
+          }
+        ],
+        "pixel_verification": {
+          "changed_from_a462_rgba_pixels": 66254,
+          "outside_all_garment_masks_rgba_differences": 0,
+          "front540c_changed_pixels": 0,
+          "side_foreground_arm_protected_pixels": 13225,
+          "side_foreground_arm_rgba_differences": 0,
+          "alpha_unchanged": true,
+          "all_layers_reconstruct_final": true
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/innerwear-v2-cel-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1289298,
+        "sha256": "9925d948442ef00f71103121359a9018d551356cedc36054367edcec56811b25",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/innerwear-v2-cel-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 917230,
+        "sha256": "a9a79e4d04e5b6ae353046b6b0fd4d8c77464b0edd908514f943c9a496053c8e",
+        "alpha": false
+      }
+    },
+    {
       "id": "outfit-pose-current",
       "character": "bunny",
       "version": "3.1.0",
@@ -1602,8 +1719,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 71516757,
-      "sha256": "256183ab0299ccc57930615800063100eb97aa2f03ec6e68b63cd603f0f11664"
+      "bytes": 72808614,
+      "sha256": "20a33a5439f9886e7e3cbc52b11183e6155c133c99a019f6ad4cf2ee52cccb4e"
     }
   ]
 }

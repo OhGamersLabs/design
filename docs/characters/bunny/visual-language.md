@@ -9,7 +9,7 @@ aside: true
 
 ## 本轮身体三视图的画风标准
 
-采用**日系二次元手绘线稿与赛璐璐上色**。当前[身体三视](/characters/bunny/body-base)、[中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)已同步本轮头部与画风；穿戴装备与尺寸未同步，其他既有图尚未逐一重绘，不能据此视为全站画风已统一。
+采用**日系二次元手绘线稿与赛璐璐上色**。当前[身体三视](/characters/bunny/body-base)、[中性头部](/characters/bunny/face)、[16格表情](/characters/bunny/expressions)与[贴身衣层三视](/characters/bunny/innerwear)已同步这一画风。其余衣层、装备与尺寸尚未同步，04/05衣物拆件仍为既有款式结构资料，其他既有图也尚未逐一重绘。
 
 - **线稿清楚分层**：外轮廓完整，内部五官、衣物边缘和转折线更轻；线条保留自然粗细与收尖，不以模糊色边替代结构线。
 - **固有色平涂**：皮肤、银白头发、蓝眼和黑色运动内搭保留各自清楚的主色面，不用连续明暗渐变填满形体。

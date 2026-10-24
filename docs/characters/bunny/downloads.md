@@ -9,6 +9,7 @@ aside: true
 
 ## 3.1.0 本地修订
 
+- [v2 · 贴身衣层三视 PNG](/media/bunny/3.1.0/innerwear-v2-cel-v1.png)
 - [v2 · 上衣下围色块修订 PNG](/media/bunny/3.1.0/body-v2-detail-refined-v1.png)
 - [v2头部同步身体 · 上衣色块修订前 PNG](/media/bunny/3.1.0/body-v2-head-refined-v1.png)
 - [v2赛璐璐身体 · 头部修订前 PNG](/media/bunny/3.1.0/body-v2-cel-refined-v1.png)
@@ -22,17 +23,19 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-本轮身体图仅清理正面上衣下围内部的软灰暗带，保留头部、皮肤、手脚与身体比例轮廓。中性头部和16格表情继续沿用；穿戴装备及尺寸尚未同步。原图包保留当前稿、局部填色前完整身体，以及全部既有阶段原图；清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
+贴身衣层三视已在当前 v2 身体上同步白色上衣与红色短裤，身体、头部和16格表情原件保持。其余衣层、装备及尺寸尚未同步。原图包保留新衣层、旧03、各阶段身体与全部既有原图；清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
 ## 人物与识别
 
-<ul><li><a href="/media/bunny/3.1.0/00-origin-positioning.png">原始形象与设计定位</a></li><li><a href="/media/bunny/3.1.0/01-body-baseline.png">原01身体三视 · 沿革参考</a></li><li><a href="/media/bunny/3.1.0/dimension-01-character-dimension-standard.png">原01人物尺寸板</a></li><li><a href="/media/bunny/3.1.0/02-identity-style.png">原02面部板 · 历史身份与旧配色</a></li></ul>
+<ul><li><a href="/media/bunny/3.1.0/00-origin-positioning.png">2026-10-18旧基准沿革 · 原始形象与设计定位</a></li><li><a href="/media/bunny/3.1.0/01-body-baseline.png">原01身体三视 · 沿革参考</a></li><li><a href="/media/bunny/3.1.0/dimension-01-character-dimension-standard.png">原01人物尺寸板</a></li><li><a href="/media/bunny/3.1.0/02-identity-style.png">原02面部板 · 历史身份与旧配色</a></li></ul>
 
 ## 贴身衣层
 
-<ul><li><a href="/media/bunny/3.1.0/03-innerwear-coverage.png">贴身衣层穿着三视</a></li><li><a href="/media/bunny/3.1.0/04-white-top-construction.png">白色上衣结构</a></li><li><a href="/media/bunny/3.1.0/05-red-shorts-construction.png">红色短裤结构</a></li></ul>
+<ul><li><a href="/media/bunny/3.1.0/innerwear-v2-cel-v1.png">v2 · 贴身衣层三视</a></li><li><a href="/media/bunny/3.1.0/03-innerwear-coverage.png">原03 · v2同步前衣层参考</a></li><li><a href="/media/bunny/3.1.0/04-white-top-construction.png">白色上衣 · 既有款式结构参考</a></li><li><a href="/media/bunny/3.1.0/05-red-shorts-construction.png">红色短裤 · 既有款式结构参考</a></li></ul>
+
+04、05保留原始款式结构，尚未按本轮画风重绘；当前穿着比例与画法以v2贴身衣层三视为准。
 
 ## 袜装
 

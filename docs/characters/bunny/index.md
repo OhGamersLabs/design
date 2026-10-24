@@ -7,9 +7,9 @@ aside: true
 
 白发、兔耳、橙红衣装与露嘴护目镜共同形成角色识别。
 
-## 本轮身体修订
+## 身体与第一层衣服
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：本轮仅清理正面运动上衣下围内部的软灰暗带，保留已同步的头部、身体比例轮廓、皮肤与手脚。页面保留本轮填色前身体及更早阶段的对照。穿戴装备与尺寸资料尚未同步，其他既有图尚未逐张重绘。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：保持已验收的头部、身体比例轮廓、皮肤与手脚，页面保留局部填色前身体及更早阶段的对照。[贴身衣层三视](/characters/bunny/innerwear)已在同一身体上同步白色上衣与红色短裤；其余衣层、装备与尺寸资料尚未同步。
 
 ## 本轮补充
 
@@ -25,9 +25,11 @@ aside: true
 
 ## 设计规范
 
-以固定基模和人物尺寸为依据，按由内到外的顺序，把每层穿戴与该层独立部件放在一起阅读。
+当前制作依据为 [v2 身体三视基准](/characters/bunny/body-base)、[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。衣层与装备按由内到外的顺序阅读；目前已同步[贴身衣层](/characters/bunny/innerwear)，其余穿戴图和旧尺寸仍待同步。
 
-<ReleaseImage src="/characters/bunny/3.1.0/00-origin-positioning.webp" original="/media/bunny/3.1.0/00-origin-positioning.png" alt="原始形象与设计定位" caption="原始形象与设计定位" />
+下方 00 图是 **2026-10-18 的旧基准沿革**，保留原图与原字。图内“最新已确认基模”“当前锁定的制作依据”均指当时版本，不作为当前 v2 制作依据。
+
+<ReleaseImage src="/characters/bunny/3.1.0/00-origin-positioning.webp" original="/media/bunny/3.1.0/00-origin-positioning.png" alt="2026-10-18 旧基准沿革：原始形象与设计定位" caption="2026-10-18 旧基准沿革 · 保留原始说明" />
 
 <ul><li><a href="/characters/bunny/body-base">从身体基准开始</a></li><li><a href="/characters/bunny/dimensions">人物统一尺寸</a></li><li><a href="/characters/bunny/assembly">衣层与部件阅读顺序</a></li></ul>
 
