@@ -11,15 +11,15 @@ aside: true
 
 ## 第一层穿着三视 {#layer1-wearing}
 
-三张完整人物稿均保留 1024×1536 原尺寸 PNG，可逐张放大与下载。穿着稿用于核对衣物覆盖、腰位与前后结构。本轮修订红色短裤侧、背视的布面体积表达，并同步红裤结构板；基模、图面尺寸、正面穿着与白色上衣结构板保持。
+三张完整人物稿均保留 1024×1536 原尺寸 PNG，可逐张放大与下载。穿着稿用于核对衣物覆盖、腰位与前后结构。本轮仅整理三视红裤裤面的杂纹，保留已认可的造型、裁片线与主要明暗分区。基模、图面尺寸、白色上衣与红色短裤结构板保持。
 
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-front-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-front-v1.png" alt="v2第一层穿着正面：白色上衣、红色短裤与完整人物" caption="第一层衣层 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-front-v3.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-front-v3.png" alt="v2第一层穿着正面：白色上衣、红色短裤与完整人物" caption="第一层衣层 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-side-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-side-v2.png" alt="v2第一层穿着侧面：白色上衣和红色短裤的覆盖与腰位" caption="第一层衣层 · 侧面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-side-v4.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-side-v4.png" alt="v2第一层穿着侧面：白色上衣和红色短裤的覆盖与腰位" caption="第一层衣层 · 侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-back-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-back-v2.png" alt="v2第一层穿着背面：白色上衣与红色短裤的后侧结构" caption="第一层衣层 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-back-v4.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-back-v4.png" alt="v2第一层穿着背面：白色上衣与红色短裤的后侧结构" caption="第一层衣层 · 背面" />
 
 </div>
 
@@ -79,6 +79,19 @@ aside: true
 <ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-back-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png" alt="臀部布面修订前 · 背面穿着，历史对照" caption="臀部布面修订前 · 背面穿着" />
 
 <ReleaseImage src="/characters/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.webp" original="/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png" alt="臀部布面修订前 · 红色短裤结构，历史对照" caption="臀部布面修订前 · 红色短裤结构" />
+
+</details>
+
+<details>
+<summary>裤面整理前 · 第一层穿着三视</summary>
+
+保留已认可造型在裤面整理前的状态，供检查杂纹整理效果；当前图见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-front-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-front-v1.png" alt="裤面整理前 · 正面穿着，历史对照" caption="裤面整理前 · 正面穿着" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-side-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-side-v2.png" alt="裤面整理前 · 侧面穿着，历史对照" caption="裤面整理前 · 侧面穿着" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-layer1-back-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-layer1-back-v2.png" alt="裤面整理前 · 背面穿着，历史对照" caption="裤面整理前 · 背面穿着" />
 
 </details>
 

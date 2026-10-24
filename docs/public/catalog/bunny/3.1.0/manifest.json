@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 61,
+  "asset_count": 64,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -2358,10 +2358,10 @@
         "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/layer1-back-hip-fit-v3.png",
         "source_artifact_sha256": "a5373833a11976bb2e06f7b5889d0f37aee7e634acb206210d5f6c827311ea57",
-        "review_status": "local-layer1-hip-fit-worn-reference",
+        "review_status": "historical-layer1-before-texture-cleanup",
         "method": "builtin imagegen; output copied byte-for-byte",
-        "description": "v2 · 第一层衣层穿着（背面）：红色短裤臀部布面修订，1024×1536原尺寸PNG。",
-        "scope": "仅修订红色短裤侧、背视的布面体积表达及对应结构示意；基模、图面尺寸、正面穿着、白色上衣结构板保持。其余衣层与装备未同步。",
+        "description": "裤面整理前 · v2 · 第一层衣层穿着（背面）：红色短裤臀部布面修订，1024×1536原尺寸PNG。",
+        "scope": "保留已认可造型在裤面整理前的状态，供核对杂纹整理；当前三视见同页。原来源、造型记录及图像字节不变。",
         "reference_chain": [
           {
             "role": "actual-generation-input",
@@ -2444,6 +2444,67 @@
       }
     },
     {
+      "id": "innerwear-v2-layer1-back-v4",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "innerwear-v2-layer1-back-v4",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/innerwear",
+        "baseline_sha256": "a5373833a11976bb2e06f7b5889d0f37aee7e634acb206210d5f6c827311ea57",
+        "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-back-v2.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/imagegen-texture-cleanup-20261024/layer1-back-texture-imagegen-v1.png",
+        "source_artifact_sha256": "c2b510e5ea5f0f53e1bb53bb004894b5cc3470d4bbb10c43cfd35a06804ba179",
+        "review_status": "native-imagegen-layer1-texture-refined-reference",
+        "method": "builtin image_gen precise-object edit; original tool PNG copied byte-for-byte; no postprocessing",
+        "description": "v2 · 第一层衣层穿着（背面）：整理红裤裤面杂纹，沿用已认可造型，1024×1536生图工具原输出PNG。",
+        "scope": "更新本视角红裤裤面表现，沿用已认可的造型、裁片线与主要明暗分区。基模、图面尺寸及两张衣物结构板原件保持；其余衣层与装备尚未同步。",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/layer1-back-hip-fit-v3.png",
+            "sha256": "a5373833a11976bb2e06f7b5889d0f37aee7e634acb206210d5f6c827311ea57",
+            "role": "complete accepted-shape edit target"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/red-shorts-construction-hip-fit-v3.png",
+            "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+            "role": "clean fabric rendering and palette reference only"
+          }
+        ],
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/imagegen-texture-cleanup-20261024/request-back-texture-imagegen-v1.json",
+          "sha256": "c3ca7f3bc809846b9fcc0947cab7e79708162b37bf4443c3b7e13f66208f3e1a"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-889ad0b7-e55f-4a71-80eb-4382496d502d.png",
+          "sha256": "c2b510e5ea5f0f53e1bb53bb004894b5cc3470d4bbb10c43cfd35a06804ba179"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/imagegen-texture-cleanup-20261024/final-native-texture-provenance.json",
+          "sha256": "25d99d253c28530fa31b886e65c9f337dfc199e8c5dc3d0f1d5e4886c8e61bde",
+          "contents": "Three accepted builtin imagegen outputs with actual targets, references, requests and original tool files. PNGs retained byte-for-byte without postprocessing."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/innerwear-v2-layer1-back-v4.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1490525,
+        "sha256": "c2b510e5ea5f0f53e1bb53bb004894b5cc3470d4bbb10c43cfd35a06804ba179",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/innerwear-v2-layer1-back-v4.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 807058,
+        "sha256": "996923214b2ba3926a6a21fdd553c334ecf52330972f3ff3fe160ca8537e0a68",
+        "alpha": false
+      }
+    },
+    {
       "id": "innerwear-v2-layer1-front-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -2455,10 +2516,10 @@
         "based_on": "/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/layer1-front-cel-b1-edge-clean-v1.png",
         "source_artifact_sha256": "a91ea7fe10e6038304fd30ba7a134d7e66f61b89585569435f53a1d638842326",
-        "review_status": "local-layer1-worn-view-reference",
+        "review_status": "historical-layer1-before-texture-cleanup",
         "method": "Complete-figure builtin lineart and color, then source-local shadow-edge cleanup; not a clothing/body collage",
-        "description": "v2 · 第一层衣层穿着（正面）：白色上衣与红色短裤的完整人物稿，1024×1536原尺寸PNG。",
-        "scope": "仅本轮白色上衣与红色短裤；袜鞋、夹克和其他装备尚未同步。当前基模、头部、表情和图面尺寸原件保持。",
+        "description": "裤面整理前 · v2 · 第一层衣层穿着（正面）：白色上衣与红色短裤的完整人物稿，1024×1536原尺寸PNG。",
+        "scope": "保留已认可造型在裤面整理前的状态，供核对杂纹整理；当前三视见同页。原来源、造型记录及图像字节不变。",
         "reference_chain": [
           {
             "role": "body-design-baseline",
@@ -2674,6 +2735,67 @@
       }
     },
     {
+      "id": "innerwear-v2-layer1-front-v3",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "innerwear-v2-layer1-front-v3",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/innerwear",
+        "baseline_sha256": "a91ea7fe10e6038304fd30ba7a134d7e66f61b89585569435f53a1d638842326",
+        "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-front-v1.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/imagegen-texture-cleanup-20261024/layer1-front-texture-imagegen-v1.png",
+        "source_artifact_sha256": "76bcc8cf5ee638ff7daed6dea3c2cb422e0e50be8b70c9a2dd9478f23a48e540",
+        "review_status": "native-imagegen-layer1-texture-refined-reference",
+        "method": "builtin image_gen precise-object edit; original tool PNG copied byte-for-byte; no postprocessing",
+        "description": "v2 · 第一层衣层穿着（正面）：整理红裤裤面杂纹，沿用已认可造型，1024×1536生图工具原输出PNG。",
+        "scope": "更新本视角红裤裤面表现，沿用已认可的造型、裁片线与主要明暗分区。基模、图面尺寸及两张衣物结构板原件保持；其余衣层与装备尚未同步。",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/front-cel-edge-cleanup/layer1-front-cel-b1-edge-clean-v1.png",
+            "sha256": "a91ea7fe10e6038304fd30ba7a134d7e66f61b89585569435f53a1d638842326",
+            "role": "complete accepted-shape edit target"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/red-shorts-construction-hip-fit-v3.png",
+            "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+            "role": "clean fabric rendering and palette reference only"
+          }
+        ],
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/imagegen-texture-cleanup-20261024/request-front-texture-imagegen-v1.json",
+          "sha256": "b4b47094cc3abb453b40ecb174718ca9021ceb4a21e83a92b792f83f6a19350d"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-c92a9b7a-4f92-45f2-b7e2-d7b1dc28fd8c.png",
+          "sha256": "76bcc8cf5ee638ff7daed6dea3c2cb422e0e50be8b70c9a2dd9478f23a48e540"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/imagegen-texture-cleanup-20261024/final-native-texture-provenance.json",
+          "sha256": "25d99d253c28530fa31b886e65c9f337dfc199e8c5dc3d0f1d5e4886c8e61bde",
+          "contents": "Three accepted builtin imagegen outputs with actual targets, references, requests and original tool files. PNGs retained byte-for-byte without postprocessing."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/innerwear-v2-layer1-front-v3.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1508483,
+        "sha256": "76bcc8cf5ee638ff7daed6dea3c2cb422e0e50be8b70c9a2dd9478f23a48e540",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/innerwear-v2-layer1-front-v3.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 866952,
+        "sha256": "8887296540528c421de20db2e42ed4d871a61109db4a3911cf6a1fe7e6f85b62",
+        "alpha": false
+      }
+    },
+    {
       "id": "innerwear-v2-layer1-side-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -2852,10 +2974,10 @@
         "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-side-v1.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/layer1-side-hip-fit-v3-contour-restored-v3.png",
         "source_artifact_sha256": "25c24a83a728c482034c6eb83fabf3e76b201eb1f82379c1af410ac76517aa40",
-        "review_status": "local-layer1-hip-fit-worn-reference",
+        "review_status": "historical-layer1-before-texture-cleanup",
         "method": "builtin v3 followed by same-source narrow lower-seat contour/color repair",
-        "description": "v2 · 第一层衣层穿着（侧面）：红色短裤臀部布面修订，1024×1536原尺寸PNG。",
-        "scope": "仅修订红色短裤侧、背视的布面体积表达及对应结构示意；基模、图面尺寸、正面穿着、白色上衣结构板保持。其余衣层与装备未同步。",
+        "description": "裤面整理前 · v2 · 第一层衣层穿着（侧面）：红色短裤臀部布面修订，1024×1536原尺寸PNG。",
+        "scope": "保留已认可造型在裤面整理前的状态，供核对杂纹整理；当前三视见同页。原来源、造型记录及图像字节不变。",
         "reference_chain": [
           {
             "role": "actual-generation-input",
@@ -3006,6 +3128,67 @@
         "height": 1536,
         "bytes": 835692,
         "sha256": "00b08dd46c9371ec6487258ebe8fd9e55918620edb1870c9b4d5114c0841c7e1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-v2-layer1-side-v4",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "innerwear-v2-layer1-side-v4",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/innerwear",
+        "baseline_sha256": "25c24a83a728c482034c6eb83fabf3e76b201eb1f82379c1af410ac76517aa40",
+        "based_on": "/media/bunny/3.1.0/innerwear-v2-layer1-side-v2.png",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/imagegen-texture-cleanup-20261024/layer1-side-texture-imagegen-v1.png",
+        "source_artifact_sha256": "74b39037300b982bc4c336c8d00ba459545170b800724796822930d9d94b0694",
+        "review_status": "native-imagegen-layer1-texture-refined-reference",
+        "method": "builtin image_gen precise-object edit; original tool PNG copied byte-for-byte; no postprocessing",
+        "description": "v2 · 第一层衣层穿着（侧面）：整理红裤裤面杂纹，沿用已认可造型，1024×1536生图工具原输出PNG。",
+        "scope": "更新本视角红裤裤面表现，沿用已认可的造型、裁片线与主要明暗分区。基模、图面尺寸及两张衣物结构板原件保持；其余衣层与装备尚未同步。",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/side-lower-contour-local-v3/layer1-side-hip-fit-v3-contour-restored-v3.png",
+            "sha256": "25c24a83a728c482034c6eb83fabf3e76b201eb1f82379c1af410ac76517aa40",
+            "role": "complete accepted-shape edit target"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/red-shorts-construction-hip-fit-v3.png",
+            "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+            "role": "clean fabric rendering and palette reference only"
+          }
+        ],
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/imagegen-texture-cleanup-20261024/request-side-texture-imagegen-v1.json",
+          "sha256": "c9af562019955e4974c237575eaebaa0e49fb97c1e11430885bf9a10133b9eff"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-62ca2748-f47d-416e-a272-8525f3a78a85.png",
+          "sha256": "74b39037300b982bc4c336c8d00ba459545170b800724796822930d9d94b0694"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/imagegen-texture-cleanup-20261024/final-native-texture-provenance.json",
+          "sha256": "25d99d253c28530fa31b886e65c9f337dfc199e8c5dc3d0f1d5e4886c8e61bde",
+          "contents": "Three accepted builtin imagegen outputs with actual targets, references, requests and original tool files. PNGs retained byte-for-byte without postprocessing."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/innerwear-v2-layer1-side-v4.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1539395,
+        "sha256": "74b39037300b982bc4c336c8d00ba459545170b800724796822930d9d94b0694",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/innerwear-v2-layer1-side-v4.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 832314,
+        "sha256": "c5fa74b24b0e5d8fb5f5dd342ad73818b6fa1dbbe9886ed0936e004548626230",
         "alpha": false
       }
     },
@@ -3363,8 +3546,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 88823865,
-      "sha256": "a9109affa12aafdf508d5112ce65a4841e5d048d72f233f7248f59c5226289df"
+      "bytes": 92506521,
+      "sha256": "be5a0f24d585c5a7af3f26a06f19fc17ef823bcdb776b39faf2061ee0dbf9672"
     }
   ]
 }

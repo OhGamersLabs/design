@@ -55,9 +55,9 @@ aside: true
 
 ## 贴身衣层 {#layer1-assets}
 
-- [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-front-v1.png)
-- [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v2.png)
-- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v2.png)
+- [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-front-v3.png)
+- [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v4.png)
+- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v4.png)
 - [白色上衣 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png)
 - [红色短裤 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png)
 
@@ -71,6 +71,17 @@ aside: true
 - [臀部布面修订前 · 侧面穿着 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v1.png)
 - [臀部布面修订前 · 背面穿着 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v1.png)
 - [臀部布面修订前 · 红色短裤结构 PNG](/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png)
+
+</details>
+
+<details>
+<summary>裤面整理前 · 第一层穿着三视</summary>
+
+保留已认可造型在裤面整理前的状态，供检查杂纹整理效果；当前图见上方。
+
+- [裤面整理前 · 正面穿着 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-front-v1.png)
+- [裤面整理前 · 侧面穿着 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-side-v2.png)
+- [裤面整理前 · 背面穿着 PNG](/media/bunny/3.1.0/innerwear-v2-layer1-back-v2.png)
 
 </details>
 
