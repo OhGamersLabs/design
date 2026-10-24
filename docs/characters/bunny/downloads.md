@@ -19,7 +19,7 @@ aside: true
 - [v2赛璐璐身体 · 头部修订前 PNG](/media/bunny/3.1.0/body-v2-cel-refined-v1.png)
 - [原v2局部修订 · 画风对照 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png)
 - [v2比例底子 · 对照参考 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png)
-- [v2 · 中性头部样板 PNG](/media/bunny/3.1.0/head-v2-cel-reference-v2.png)
+- [v2 · 中性头部样板 PNG](/media/bunny/3.1.0/head-v2-cel-reference-v3.png)
 - [当前穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)
 - [v2 · 16 格表情 PNG](/media/bunny/3.1.0/expressions-v2-cel-v2.png)
 - [鞋带收尾与腿带活动 PNG](/media/bunny/3.1.0/35-lacing-thigh-motion.png)
@@ -27,7 +27,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基模、白色上衣与红色短裤、袜装三组共九张人物图均从空白画布完整新绘，保留生图工具直接输出的 1024×1536 PNG。本轮更新中性头部、16格表情与三组完整正面，核对耳发与统一画风；基模正面的图面尺寸按新原图重新量读，侧背与三张结构板保持。鞋靴和后续装备尚未按本轮重绘。原图包同时保留明确标注的重绘前历史资料；此前被拒的衣层候选继续撤出，不进入当前目录与原图包。
+基模、首层衣装和袜装各有三张完整新绘人物。本次完整重绘首层衣装和袜装的正面、背面，以及中性头部卡和袜装结构板，共六张，核对平涂固有色、硬边阴影与云斑杂纹。基模三视及图面尺寸、16格表情、两张侧面人物和白衣／红裤结构板保持；鞋靴与后续装备尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；此前被拒的衣层候选继续撤出。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -39,6 +39,20 @@ aside: true
 - [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-side-v1.svg) · [侧面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-side-v1.png)
 - [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-back-v1.svg) · [背面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-back-v1.png)
 - [测量坐标与定义 JSON](/catalog/bunny/3.1.0/body-measurements.json) · [尺寸表与适用范围](/characters/bunny/dimensions)
+
+## 平涂与色块重绘前 · 历史原件 {#before-clean-cel-assets}
+
+<details>
+<summary>展开此前四张穿着稿、中性头部与袜装结构板</summary>
+
+- [平涂与色块重绘前 · 第一层正面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.png)
+- [平涂与色块重绘前 · 第一层背面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png)
+- [平涂与色块重绘前 · 袜装正面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.png)
+- [平涂与色块重绘前 · 袜装背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.png)
+- [平涂与色块重绘前 · 中性头部样板 PNG](/media/bunny/3.1.0/head-v2-cel-reference-v2.png)
+- [平涂与色块重绘前 · 袜装结构与细节板 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png)
+
+</details>
 
 ## 耳部与发色修订前 · 历史原件 {#before-ear-hair-assets}
 
@@ -83,9 +97,9 @@ aside: true
 
 ## 贴身衣层 {#layer1-assets}
 
-- [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.png)
+- [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.png)
 - [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.png)
-- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png)
+- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.png)
 - [白色上衣 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png)
 - [红色短裤 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png)
 
@@ -140,14 +154,12 @@ aside: true
 
 </details>
 
-<span id="hosiery-assets"></span>
+## 袜装 {#hosiery-assets}
 
-## 袜装
-
-- [袜装层 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.png)
+- [袜装层 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.png)
 - [袜装层 · 侧面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png)
-- [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.png)
-- [袜装 · 结构与针织细节 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png)
+- [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png)
+- [袜装 · 结构与针织细节 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-construction-v2.png)
 
 结构说明见[袜装页](/characters/bunny/hosiery#hosiery-construction)。
 

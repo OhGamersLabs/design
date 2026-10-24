@@ -575,6 +575,16 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/head-v2-cel-reference-v3.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/head-v2-cel-reference-v3.png",
+      "sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768",
+      "size": 1580903,
+      "contentType": "image/png",
+      "downloadName": "head-v2-cel-reference-v3.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-fresh-cel-back-v1.png",
       "sha256": "8faaaf7e43f32706817bb2c81f4d3240b2807136e21c1f0e9db2908d189e87e4",
@@ -595,6 +605,16 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-fresh-cel-back-v3.png",
+      "sha256": "fd2c3efe531d0858d220a06c71f975ccf9cfff425efc1590d3cd4e028fa55c8f",
+      "size": 1183827,
+      "contentType": "image/png",
+      "downloadName": "hosiery-v2-fresh-cel-back-v3.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-fresh-cel-front-v1.png",
       "sha256": "487aa2a6fa4aa96960dcc99cc7a95253ed64bde2a610fb372f03f046f6654c16",
@@ -611,6 +631,16 @@
       "size": 1546444,
       "contentType": "image/png",
       "downloadName": "hosiery-v2-fresh-cel-front-v2.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-fresh-cel-front-v3.png",
+      "sha256": "7165dd529f0b365404b8a07748661540617ffa57b5570a71b7e4dd47f08f9f3f",
+      "size": 1196193,
+      "contentType": "image/png",
+      "downloadName": "hosiery-v2-fresh-cel-front-v3.png"
     },
     {
       "character": "bunny",
@@ -641,6 +671,16 @@
       "size": 1667225,
       "contentType": "image/png",
       "downloadName": "hosiery-v2-layer2-construction-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hosiery-v2-layer2-construction-v2.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-layer2-construction-v2.png",
+      "sha256": "a7175b82fbd6bb6a76ef20aa74eb2e65f0881d4ad63fbafeed8d4d0314c8c26a",
+      "size": 1803173,
+      "contentType": "image/png",
+      "downloadName": "hosiery-v2-layer2-construction-v2.png"
     },
     {
       "character": "bunny",
@@ -685,6 +725,16 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/innerwear-v2-fresh-cel-back-v3.png",
+      "sha256": "b357631a7a2f2a15d02d3b6c4f6a5f0feef8bc94b4957b77cc357357b1670253",
+      "size": 1153738,
+      "contentType": "image/png",
+      "downloadName": "innerwear-v2-fresh-cel-back-v3.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/innerwear-v2-fresh-cel-front-v1.png",
       "sha256": "7cb64248f7c1dc16f4f1f6f1a44ec5fc28f50bef0587d0c4b97e9b9d6a841eb9",
@@ -701,6 +751,16 @@
       "size": 1568746,
       "contentType": "image/png",
       "downloadName": "innerwear-v2-fresh-cel-front-v2.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/innerwear-v2-fresh-cel-front-v3.png",
+      "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f",
+      "size": 1138015,
+      "contentType": "image/png",
+      "downloadName": "innerwear-v2-fresh-cel-front-v3.png"
     },
     {
       "character": "bunny",
@@ -847,8 +907,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "b94a0b5dd931980b5135ac80cedb413827fac8faaea703b837a68e0335c7bfe9",
-      "size": 118395902,
+      "sha256": "3fdbce633fed347dae64490b932a0645bc5c2f6d93a5e6e0b14bb223b908f7a5",
+      "size": 125238873,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

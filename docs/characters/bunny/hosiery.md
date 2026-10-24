@@ -6,7 +6,7 @@ aside: true
 # 袜装
 
 ::: info 袜装层 · 橙色长袜与白色短袜
-本轮以[完整新绘的第一层白色上衣与红色短裤](/characters/bunny/innerwear#layer1-wearing)为设计参考，从空白画布分别绘制包含袜装的正、侧、背完整人物；既有袜装结构与细节板继续保留，本轮没有重绘结构板。鞋靴和后续装备尚未同步；当前基模和图面尺寸仍作为设计依据。
+当前穿着稿以[完整新绘的第一层白色上衣与红色短裤](/characters/bunny/innerwear#layer1-wearing)为设计参考，分别展示从空白画布完整新绘的正、侧、背三视。本轮正面、背面和结构与细节板完整重绘，侧面沿用此前新绘稿。鞋靴和后续装备尚未同步；当前基模和图面尺寸仍作为设计依据。
 :::
 
 角色左腿为橙色长袜，右腿为白色短袜。袜口贴合身体并产生轻微压痕，织物与腿部轮廓连续。
@@ -19,19 +19,30 @@ aside: true
 
 当前背面核对了高腰红裤的遮挡：基模两处短记号按固定的腰窝／骶区提示处理，衣物覆盖后不再外露，也不移到裤腰边缘；可见后中沟保持简洁自然。
 
-本轮正面按新中性头部样板完整重绘，核对耳部连接与银白发束的颜色归属；侧背及结构板保持。
+本轮从空白画布完整重绘正面与背面，保留既定耳发、衣物覆盖与形体设计，重新核对平涂色面和硬边阴影。侧面沿用此前完整新绘稿。袜装结构与细节板同步重绘。
 
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.png" alt="完整新绘 · 橙色长袜与白色短袜 · 正面" caption="v2 · 完整新绘 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.png" alt="完整新绘 · 橙色长袜与白色短袜 · 正面" caption="v2 · 完整新绘 · 正面" />
 
 <ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png" alt="完整新绘 · 橙色长袜与白色短袜 · 侧面" caption="v2 · 完整新绘 · 侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.png" alt="完整新绘 · 橙色长袜与白色短袜 · 背面" caption="v2 · 完整新绘 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png" alt="完整新绘 · 橙色长袜与白色短袜 · 背面" caption="v2 · 完整新绘 · 背面" />
 
 </div>
 
-[下载当前袜装三视与既有结构资料 PNG](/characters/bunny/downloads#hosiery-assets)
+[下载当前袜装三视与结构资料 PNG](/characters/bunny/downloads#hosiery-assets)
+
+<details>
+<summary>平涂与色块重绘前 · 正面与背面</summary>
+
+此前原图保留作沿革对照，当前稿见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.png" alt="平涂与色块重绘前 · 袜装正面" caption="平涂与色块重绘前 · 袜装正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.png" alt="平涂与色块重绘前 · 袜装背面" caption="平涂与色块重绘前 · 袜装背面" />
+
+</details>
 
 <details>
 <summary>耳部与发色修订前 · 袜装正面</summary>
@@ -83,7 +94,16 @@ aside: true
 
 用于说明两只袜子的结构与细节关系；具体针距、厘米尺寸和生产纸样尚未设定。
 
-<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-layer2-construction-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png" alt="v2袜装结构与针织细节：橙色长袜和白色短袜的匹配资料" caption="袜装 · 结构与针织细节示意" />
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-layer2-construction-v2.webp" original="/media/bunny/3.1.0/hosiery-v2-layer2-construction-v2.png" alt="v2袜装结构与针织细节：橙色长袜和白色短袜的匹配资料" caption="袜装 · 结构与针织细节示意" />
+
+<details>
+<summary>平涂与色块重绘前 · 袜装结构与细节</summary>
+
+此前原图保留作沿革对照，当前稿见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-layer2-construction-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png" alt="平涂与色块重绘前 · 袜装结构与细节板" caption="平涂与色块重绘前 · 袜装结构与细节板" />
+
+</details>
 
 <details>
 <summary>原06/07 · 既有袜装穿着与针织资料</summary>

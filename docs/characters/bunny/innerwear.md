@@ -15,19 +15,30 @@ aside: true
 
 当前背面核对了高腰红裤的遮挡：基模两处短记号按固定的腰窝／骶区提示处理，衣物覆盖后不再外露，也不移到裤腰边缘；可见后中沟保持简洁自然。
 
-本轮正面按新中性头部样板完整重绘，核对耳部连接与银白发束的颜色归属；侧背及结构板保持。
+本轮从空白画布完整重绘正面与背面，保留既定耳发、衣物覆盖与形体设计，重新核对平涂色面和硬边阴影。侧面沿用此前完整新绘稿。白色上衣与红色短裤的两张结构板保持。
 
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.png" alt="完整新绘 · 白色上衣与红色短裤 · 正面" caption="v2 · 完整新绘 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.png" alt="完整新绘 · 白色上衣与红色短裤 · 正面" caption="v2 · 完整新绘 · 正面" />
 
 <ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.png" alt="完整新绘 · 白色上衣与红色短裤 · 侧面" caption="v2 · 完整新绘 · 侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png" alt="完整新绘 · 白色上衣与红色短裤 · 背面" caption="v2 · 完整新绘 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.png" alt="完整新绘 · 白色上衣与红色短裤 · 背面" caption="v2 · 完整新绘 · 背面" />
 
 </div>
 
 [下载当前三张穿着稿与两张结构资料 PNG](/characters/bunny/downloads#layer1-assets)
+
+<details>
+<summary>平涂与色块重绘前 · 正面与背面</summary>
+
+此前原图保留作沿革对照，当前稿见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.png" alt="平涂与色块重绘前 · 第一层正面" caption="平涂与色块重绘前 · 第一层正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png" alt="平涂与色块重绘前 · 第一层背面" caption="平涂与色块重绘前 · 第一层背面" />
+
+</details>
 
 <details>
 <summary>耳部与发色修订前 · 第一层正面</summary>

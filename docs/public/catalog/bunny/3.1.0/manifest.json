@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 84,
+  "asset_count": 90,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -2571,9 +2571,9 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-ear-hair-native-v5.png",
         "source_artifact_sha256": "370c98ffb270ddd18638d86511f0d32ec4c1a2003a71434a135318ab6ad78c56",
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-        "description": "中性头部样板：完整新绘，核对耳部连接、银白发束与肤色的界限及手绘线稿、赛璐璐画风。",
-        "scope": "本轮更新中性头部、16格表情及基模、白衣红裤、袜装三个完整正面；侧背和既有结构板保留。原尺寸 PNG 与内置生图工具原输出字节一致，没有本地画面后处理。",
-        "review_status": "current-ear-hair-refined-work-reference",
+        "description": "平涂与色块重绘前 · 中性头部卡；保留原件供沿革对照。",
+        "scope": "此前工作稿已退出当前对应视图，原字节和来源链保留；当前图见本轮完整新绘稿。",
+        "review_status": "historical-before-clean-cel-redraw",
         "reference_chain": [
           {
             "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-front-calibration-native-v1.png",
@@ -2616,6 +2616,84 @@
         "height": 1024,
         "bytes": 1064802,
         "sha256": "1e249a47b5cad4e2ed2d7cca8b851a39713d6b6e62b53d103b9a8f5d98c3b67d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "head-v2-cel-reference-v3",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "head-v2-cel-reference-v3",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/face",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/neutral-cel-native-b1.png",
+        "source_artifact_sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "中性头部卡：从空白画布完整新绘，保持既定设计，核对平涂色面、清楚线稿与硬边赛璐璐阴影。",
+        "scope": "本次更新首层衣装与袜装的正面、背面，中性头部卡及袜装结构板六图。基模、尺寸、16格表情、侧面人物和白衣／红裤结构板保持；PNG 与内置生图原输出字节一致，无本地画面后处理。",
+        "review_status": "current-clean-cel-redraw-reference",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/neutral-lineart-native-a1.png",
+            "sha256": "0b4395025eb78dc2bdac6978f0dcac5c93962b28cf1f8a3ab63cc91e5c70c4cf"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/final-support-b1-provenance.json",
+          "sha256": "8a9ab9c9a0dedd5d606db7f0647e8c060120d648e7dbae217a94bec88fdebfba"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/request-neutral-cel-b1.json",
+          "sha256": "88c8a06983a09cb63f1c0d7eefeb1bd956500fe9989a3e854e128192cfb5e78f"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-fbe0-75b0-ac89-8ac9137e29a9/exec-7e9bdbbe-ad5d-4999-b69f-d44450164167.png",
+          "sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768"
+        },
+        "baseline_sha256": "0b4395025eb78dc2bdac6978f0dcac5c93962b28cf1f8a3ab63cc91e5c70c4cf",
+        "baseline_role": "Actual generated lineart or design input; final artwork is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/neutral-lineart-native-a1.png",
+        "generation_stages": {
+          "lineart": {
+            "source": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/neutral-lineart-native-a1.png",
+              "sha256": "0b4395025eb78dc2bdac6978f0dcac5c93962b28cf1f8a3ab63cc91e5c70c4cf"
+            },
+            "nativeOutput": {
+              "path": "/Users/roy/.codex/generated_images/01a169c1-fbe0-75b0-ac89-8ac9137e29a9/exec-50c934da-dee0-4a5f-a9b4-b33185810070.png",
+              "sha256": "0b4395025eb78dc2bdac6978f0dcac5c93962b28cf1f8a3ab63cc91e5c70c4cf"
+            },
+            "request": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/request-neutral-lineart-a1.json",
+              "sha256": "5eea5fcec1bdc217d5febd1defb75410f0f4cb7cd62b8f7d6c5850b40ddccea7"
+            },
+            "references": [
+              {
+                "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v2.png",
+                "sha256": "370c98ffb270ddd18638d86511f0d32ec4c1a2003a71434a135318ab6ad78c56"
+              }
+            ]
+          },
+          "color": "Final native output used only the generated full lineart and text palette; no local image edits."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/head-v2-cel-reference-v3.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1580903,
+        "sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/head-v2-cel-reference-v3.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 981340,
+        "sha256": "5802b882ff4904d4936aa09dc0bbf7e8da68395d6507bb4e05dd0961c70bcdb0",
         "alpha": false
       }
     },
@@ -2699,9 +2777,9 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/hosiery-back-native-v1.png",
         "source_artifact_sha256": "b3588082b6d250e6e7a752d129ea8ef1f277b303c7140cf2b3215020b2f00cc6",
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-        "description": "袜装层 · 背面；从空白画布完整新绘，修正高腰红裤对固定腰窝／骶区提示的遮挡，保留内置生图工具原输出字节。",
-        "scope": "本次仅替换首层衣装与袜装两个背面。衣物覆盖基模的固定短记号，不把记号移到裤腰边；可见后中沟保留简洁表达。基模、六张正侧面、全部测量与既有结构板保持。未做本地图像后处理。",
-        "review_status": "current-fresh-redraw-work-reference",
+        "description": "平涂与色块重绘前 · 袜装背面；保留原件供沿革对照。",
+        "scope": "此前工作稿已退出当前对应视图，原字节和来源链保留；当前图见本轮完整新绘稿。",
+        "review_status": "historical-before-clean-cel-redraw",
         "reference_chain": [
           {
             "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/innerwear-back-native-v1.png",
@@ -2754,6 +2832,126 @@
         "height": 1536,
         "bytes": 856226,
         "sha256": "6f95937c0afff9495263f1f8e663c426bba435b995daca1099663a4473fdce3a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-v2-fresh-cel-back-v3",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "hosiery-v2-fresh-cel-back-v3",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/hosiery",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/hosiery-back-native-v3.png",
+        "source_artifact_sha256": "fd2c3efe531d0858d220a06c71f975ccf9cfff425efc1590d3cd4e028fa55c8f",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "袜装背面：从空白画布完整新绘，保持既定设计，核对平涂色面、清楚线稿与硬边赛璐璐阴影。",
+        "scope": "本次更新首层衣装与袜装的正面、背面，中性头部卡及袜装结构板六图。基模、尺寸、16格表情、侧面人物和白衣／红裤结构板保持；PNG 与内置生图原输出字节一致，无本地画面后处理。",
+        "review_status": "current-clean-cel-redraw-reference",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/hosiery-back-line-native-v2.png",
+            "sha256": "5773d17a04ed6722b1627bf24f01cf30638a5ca1fc2772a310019ea843802143",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/fronts/hosiery-front-clean-native-v1.png",
+            "sha256": "7165dd529f0b365404b8a07748661540617ffa57b5570a71b7e4dd47f08f9f3f",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/backs-handoff.json",
+          "sha256": "74035188f91a1e3400c0ab97ac94b4c899a3cb6ef7bb11c5765381212d4320ce"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/hosiery-back-v3-actual-request.json",
+          "sha256": "abecf3918428c3314c8f77478fa99fa75f569a29c6f4b058366fc2a9fd724b4c"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a16e86-908e-7f42-a704-e1654297c059/exec-7e5ee352-ec18-41c6-bb82-3c3e86c31c8a.png",
+          "sha256": "fd2c3efe531d0858d220a06c71f975ccf9cfff425efc1590d3cd4e028fa55c8f"
+        },
+        "baseline_sha256": "5773d17a04ed6722b1627bf24f01cf30638a5ca1fc2772a310019ea843802143",
+        "baseline_role": "Actual generated lineart or design input; final artwork is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/hosiery-back-line-native-v2.png",
+        "generation_stages": {
+          "native_preparation": [
+            {
+              "source": {
+                "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/hosiery-back-line-native-v1.png",
+                "sha256": "4f50af59627b2265312822ca55721e6a88b17a92ec5b5e8dab5340abaa96a194"
+              },
+              "nativeOutput": {
+                "path": "/Users/roy/.codex/generated_images/01a16e86-908e-7f42-a704-e1654297c059/exec-879ea533-8773-4850-b027-e8b9911ce766.png",
+                "sha256": "4f50af59627b2265312822ca55721e6a88b17a92ec5b5e8dab5340abaa96a194"
+              },
+              "request": {
+                "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/hosiery-back-line-v1-actual-request.json",
+                "sha256": "9df0ddf73d705f7c2afaa50df8eeda7b9abe8bdb6b0f367d5a3c239f5a14a84e"
+              },
+              "references": [
+                {
+                  "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.png",
+                  "sha256": "b3588082b6d250e6e7a752d129ea8ef1f277b303c7140cf2b3215020b2f00cc6",
+                  "dimensions": [
+                    1024,
+                    1536
+                  ]
+                }
+              ]
+            },
+            {
+              "source": {
+                "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/hosiery-back-line-native-v2.png",
+                "sha256": "5773d17a04ed6722b1627bf24f01cf30638a5ca1fc2772a310019ea843802143"
+              },
+              "nativeOutput": {
+                "path": "/Users/roy/.codex/generated_images/01a16e86-908e-7f42-a704-e1654297c059/exec-466c2a85-48d4-44b3-81b5-71e4490939cd.png",
+                "sha256": "5773d17a04ed6722b1627bf24f01cf30638a5ca1fc2772a310019ea843802143"
+              },
+              "request": {
+                "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/hosiery-back-line-v2-actual-request.json",
+                "sha256": "8c4dfef4d3d48d920e0190be13f78f0f35bb20faab97ce2ca71f2116f228444e"
+              },
+              "references": [
+                {
+                  "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/hosiery-back-line-native-v1.png",
+                  "sha256": "4f50af59627b2265312822ca55721e6a88b17a92ec5b5e8dab5340abaa96a194",
+                  "dimensions": [
+                    1024,
+                    1536
+                  ]
+                }
+              ]
+            }
+          ],
+          "color": "Final native output used full generated rear lineart plus accepted front palette/style; no local image edits."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1183827,
+        "sha256": "fd2c3efe531d0858d220a06c71f975ccf9cfff425efc1590d3cd4e028fa55c8f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 681538,
+        "sha256": "26e693f2ded5f4d2be84e5050c3c06423182285ebad517dfb2ecc7049c77be84",
         "alpha": false
       }
     },
@@ -2837,9 +3035,9 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/hosiery-front-native-v7.png",
         "source_artifact_sha256": "8e39647f9fd5e607f6cb681b9fc164c6f017e9bd6f6b77f9591dc8ed59adea76",
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-        "description": "袜装正面：完整新绘，核对耳部连接、银白发束与肤色的界限及手绘线稿、赛璐璐画风。",
-        "scope": "本轮更新中性头部、16格表情及基模、白衣红裤、袜装三个完整正面；侧背和既有结构板保留。原尺寸 PNG 与内置生图工具原输出字节一致，没有本地画面后处理。",
-        "review_status": "current-ear-hair-refined-work-reference",
+        "description": "平涂与色块重绘前 · 袜装正面；保留原件供沿革对照。",
+        "scope": "此前工作稿已退出当前对应视图，原字节和来源链保留；当前图见本轮完整新绘稿。",
+        "review_status": "historical-before-clean-cel-redraw",
         "reference_chain": [
           {
             "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/innerwear-front-native-v4.png",
@@ -2911,6 +3109,69 @@
         "height": 1536,
         "bytes": 880456,
         "sha256": "b6504f756d4d5f78d500d63c8ce33dd82f7ece1dabf96c9a4edd8a37594ac10b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-v2-fresh-cel-front-v3",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "hosiery-v2-fresh-cel-front-v3",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/hosiery",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/fronts/hosiery-front-clean-native-v1.png",
+        "source_artifact_sha256": "7165dd529f0b365404b8a07748661540617ffa57b5570a71b7e4dd47f08f9f3f",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "袜装正面：从空白画布完整新绘，保持既定设计，核对平涂色面、清楚线稿与硬边赛璐璐阴影。",
+        "scope": "本次更新首层衣装与袜装的正面、背面，中性头部卡及袜装结构板六图。基模、尺寸、16格表情、侧面人物和白衣／红裤结构板保持；PNG 与内置生图原输出字节一致，无本地画面后处理。",
+        "review_status": "current-clean-cel-redraw-reference",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.png",
+            "sha256": "8e39647f9fd5e607f6cb681b9fc164c6f017e9bd6f6b77f9591dc8ed59adea76",
+            "actual_viewed": true,
+            "role": "full character and sock length/side/closed-toe design"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/fronts/innerwear-front-clean-native-v1.png",
+            "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f",
+            "actual_viewed": true,
+            "role": "consistent character/clothes design and clean cel paint"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/fronts/final-two-fronts-native-provenance.json",
+          "sha256": "7d219288b5bc266055747182e4cac33c38e51d1733e33000889ad964e52308de"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/fronts/request-hosiery-front-clean-v1.json",
+          "sha256": "c7077a8636c92d254b88f888a452f857634930e21c785c9e84a768e1ea158d0e"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-8520f9b4-3ba9-47f2-8cfc-15b95b7de742.png",
+          "sha256": "7165dd529f0b365404b8a07748661540617ffa57b5570a71b7e4dd47f08f9f3f"
+        },
+        "baseline_sha256": "8e39647f9fd5e607f6cb681b9fc164c6f017e9bd6f6b77f9591dc8ed59adea76",
+        "baseline_role": "Actual generated lineart or design input; final artwork is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1196193,
+        "sha256": "7165dd529f0b365404b8a07748661540617ffa57b5570a71b7e4dd47f08f9f3f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 690582,
+        "sha256": "f8472e0f028395157d83d30f7bc09d60f674d9dbf8d3b13677e13e8628591761",
         "alpha": false
       }
     },
@@ -3056,10 +3317,10 @@
         "based_on": "/media/bunny/3.1.0/hosiery-v2-layer2-front-v1.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-construction-native-v1.png",
         "source_artifact_sha256": "8fd5736ad788db1a064b35ea340132192fbef46aaf05d93adb6c1433166a24bd",
-        "review_status": "native-imagegen-hosiery-reference",
+        "review_status": "historical-before-clean-cel-redraw",
         "method": "builtin image_gen; original tool PNG copied byte-for-byte; no postprocessing",
-        "description": "v2 · 袜装结构与细节示意：罗纹袜口和袜筒过渡、针织线圈、脚跟成形、普通闭合袜尖与接缝，1536×1024 生图工具原输出 PNG。",
-        "scope": "对应当前袜装穿着稿的结构与细节资料，参考已接受的正背穿着稿及旧07针织设计；不代表生产纸样、真实针距、厘米尺寸或制造规格。",
+        "description": "平涂与色块重绘前 · 袜装结构与细节板；保留原件供沿革对照。",
+        "scope": "此前工作稿已退出当前对应视图，原字节和来源链保留；当前图见本轮完整新绘稿。",
         "reference_chain": [
           {
             "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hosiery-20261024/hosiery-front-native-v2.png",
@@ -3107,6 +3368,84 @@
         "height": 1024,
         "bytes": 1076224,
         "sha256": "c443f0d9ffcd5886229e2ddccd87d7c13dd0d09419616a23ea2fb87061f28c55",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-v2-layer2-construction-v2",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "hosiery-v2-layer2-construction-v2",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/hosiery",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/hosiery-board-cel-native-b1.png",
+        "source_artifact_sha256": "a7175b82fbd6bb6a76ef20aa74eb2e65f0881d4ad63fbafeed8d4d0314c8c26a",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "袜装结构与细节板：从空白画布完整新绘，保持既定设计，核对平涂色面、清楚线稿与硬边赛璐璐阴影。",
+        "scope": "本次更新首层衣装与袜装的正面、背面，中性头部卡及袜装结构板六图。基模、尺寸、16格表情、侧面人物和白衣／红裤结构板保持；PNG 与内置生图原输出字节一致，无本地画面后处理。",
+        "review_status": "current-clean-cel-redraw-reference",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/hosiery-board-lineart-native-a1.png",
+            "sha256": "d09299400c7ea78c4293dabc34bcf88409605994f6816ddb2f84327a4fe2df61"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/final-support-b1-provenance.json",
+          "sha256": "8a9ab9c9a0dedd5d606db7f0647e8c060120d648e7dbae217a94bec88fdebfba"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/request-hosiery-board-cel-b1.json",
+          "sha256": "fed824c84f9597c694712c2793006c94632d1688d3f594fccab0d18c06a54a30"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-fbe0-75b0-ac89-8ac9137e29a9/exec-2cbb7192-2f08-4034-b9e0-1580090eaf19.png",
+          "sha256": "a7175b82fbd6bb6a76ef20aa74eb2e65f0881d4ad63fbafeed8d4d0314c8c26a"
+        },
+        "baseline_sha256": "d09299400c7ea78c4293dabc34bcf88409605994f6816ddb2f84327a4fe2df61",
+        "baseline_role": "Actual generated lineart or design input; final artwork is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/hosiery-board-lineart-native-a1.png",
+        "generation_stages": {
+          "lineart": {
+            "source": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/hosiery-board-lineart-native-a1.png",
+              "sha256": "d09299400c7ea78c4293dabc34bcf88409605994f6816ddb2f84327a4fe2df61"
+            },
+            "nativeOutput": {
+              "path": "/Users/roy/.codex/generated_images/01a169c1-fbe0-75b0-ac89-8ac9137e29a9/exec-f42672b6-3084-4cc1-b129-2fa4300d8fc4.png",
+              "sha256": "d09299400c7ea78c4293dabc34bcf88409605994f6816ddb2f84327a4fe2df61"
+            },
+            "request": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/support/request-hosiery-board-lineart-a1.json",
+              "sha256": "c62cadc98e82f9646ba64627f4b95fe1ba887bc52b94c2aaa5428ff5a919f91e"
+            },
+            "references": [
+              {
+                "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png",
+                "sha256": "8fd5736ad788db1a064b35ea340132192fbef46aaf05d93adb6c1433166a24bd"
+              }
+            ]
+          },
+          "color": "Final native output used only the generated full lineart and text palette; no local image edits."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/hosiery-v2-layer2-construction-v2.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1803173,
+        "sha256": "a7175b82fbd6bb6a76ef20aa74eb2e65f0881d4ad63fbafeed8d4d0314c8c26a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/hosiery-v2-layer2-construction-v2.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1161994,
+        "sha256": "b234cc2edcc87c3499c2d9ea4e9a7e0b076db928facadc12bb5967a48f63d9c4",
         "alpha": false
       }
     },
@@ -3316,9 +3655,9 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/innerwear-back-native-v1.png",
         "source_artifact_sha256": "b938851abedd715e025ca1141b4edfa0de49791d31b1319ef2a0ed7a37f22139",
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-        "description": "第一层白色上衣与红色短裤 · 背面；从空白画布完整新绘，修正高腰红裤对固定腰窝／骶区提示的遮挡，保留内置生图工具原输出字节。",
-        "scope": "本次仅替换首层衣装与袜装两个背面。衣物覆盖基模的固定短记号，不把记号移到裤腰边；可见后中沟保留简洁表达。基模、六张正侧面、全部测量与既有结构板保持。未做本地图像后处理。",
-        "review_status": "current-fresh-redraw-work-reference",
+        "description": "平涂与色块重绘前 · 第一层背面；保留原件供沿革对照。",
+        "scope": "此前工作稿已退出当前对应视图，原字节和来源链保留；当前图见本轮完整新绘稿。",
+        "review_status": "historical-before-clean-cel-redraw",
         "reference_chain": [
           {
             "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-back-native-v3.png",
@@ -3380,6 +3719,102 @@
         "height": 1536,
         "bytes": 827212,
         "sha256": "5f041548ad698b60e2df27dd53a97d39d230d6d3f82947bca21aaa7507d8c264",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-v2-fresh-cel-back-v3",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "innerwear-v2-fresh-cel-back-v3",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/innerwear",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/innerwear-back-native-v7.png",
+        "source_artifact_sha256": "b357631a7a2f2a15d02d3b6c4f6a5f0feef8bc94b4957b77cc357357b1670253",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "第一层背面：从空白画布完整新绘，保持既定设计，核对平涂色面、清楚线稿与硬边赛璐璐阴影。",
+        "scope": "本次更新首层衣装与袜装的正面、背面，中性头部卡及袜装结构板六图。基模、尺寸、16格表情、侧面人物和白衣／红裤结构板保持；PNG 与内置生图原输出字节一致，无本地画面后处理。",
+        "review_status": "current-clean-cel-redraw-reference",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/innerwear-back-line-native-v1.png",
+            "sha256": "2450ba1378c11ad82809b776c68165558ff0c3693a038e686384d8fc9f696162",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/fronts/innerwear-front-clean-native-v1.png",
+            "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/backs-handoff.json",
+          "sha256": "74035188f91a1e3400c0ab97ac94b4c899a3cb6ef7bb11c5765381212d4320ce"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/innerwear-back-v7-actual-request.json",
+          "sha256": "7a085761bd592cdc2b6c234d509e8638e6db2b71de85f738df3cfde742890d6b"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a16e86-908e-7f42-a704-e1654297c059/exec-21cc43b0-e1e5-457d-9a74-d60a6ecaa130.png",
+          "sha256": "b357631a7a2f2a15d02d3b6c4f6a5f0feef8bc94b4957b77cc357357b1670253"
+        },
+        "baseline_sha256": "2450ba1378c11ad82809b776c68165558ff0c3693a038e686384d8fc9f696162",
+        "baseline_role": "Actual generated lineart or design input; final artwork is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/innerwear-back-line-native-v1.png",
+        "generation_stages": {
+          "native_preparation": [
+            {
+              "source": {
+                "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/innerwear-back-line-native-v1.png",
+                "sha256": "2450ba1378c11ad82809b776c68165558ff0c3693a038e686384d8fc9f696162"
+              },
+              "nativeOutput": {
+                "path": "/Users/roy/.codex/generated_images/01a16e86-908e-7f42-a704-e1654297c059/exec-7360b45f-929d-4325-9648-a325eaa8e119.png",
+                "sha256": "2450ba1378c11ad82809b776c68165558ff0c3693a038e686384d8fc9f696162"
+              },
+              "request": {
+                "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/backs/innerwear-back-line-v1-actual-request.json",
+                "sha256": "cbedd692f2674614a2972796b87a25cbe448c5cc43930c31acd216e92fee4c25"
+              },
+              "references": [
+                {
+                  "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png",
+                  "sha256": "b938851abedd715e025ca1141b4edfa0de49791d31b1319ef2a0ed7a37f22139",
+                  "dimensions": [
+                    1024,
+                    1536
+                  ]
+                }
+              ]
+            }
+          ],
+          "color": "Final native output used full generated rear lineart plus accepted front palette/style; no local image edits."
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1153738,
+        "sha256": "b357631a7a2f2a15d02d3b6c4f6a5f0feef8bc94b4957b77cc357357b1670253",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 670794,
+        "sha256": "fb97381825a4a0efe57284bb0af134191a455885f36bd06d9a2bf96fe2d30c2b",
         "alpha": false
       }
     },
@@ -3463,9 +3898,9 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/innerwear-front-native-v4.png",
         "source_artifact_sha256": "16515779d9d4fd97697a145cf7305a5f8c9e5cc4866ea9dbd82523631d4ceb9f",
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-        "description": "白衣红裤正面：完整新绘，核对耳部连接、银白发束与肤色的界限及手绘线稿、赛璐璐画风。",
-        "scope": "本轮更新中性头部、16格表情及基模、白衣红裤、袜装三个完整正面；侧背和既有结构板保留。原尺寸 PNG 与内置生图工具原输出字节一致，没有本地画面后处理。",
-        "review_status": "current-ear-hair-refined-work-reference",
+        "description": "平涂与色块重绘前 · 第一层正面；保留原件供沿革对照。",
+        "scope": "此前工作稿已退出当前对应视图，原字节和来源链保留；当前图见本轮完整新绘稿。",
+        "review_status": "historical-before-clean-cel-redraw",
         "reference_chain": [
           {
             "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-innerwear-front-native-v2.png",
@@ -3528,6 +3963,75 @@
         "height": 1536,
         "bytes": 872184,
         "sha256": "f4d1f2472012bf5eac72e52f5e97791bbea25a7d25d4e81192260e868f25b0ac",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-v2-fresh-cel-front-v3",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "innerwear-v2-fresh-cel-front-v3",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/innerwear",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/fronts/innerwear-front-clean-native-v1.png",
+        "source_artifact_sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "第一层正面：从空白画布完整新绘，保持既定设计，核对平涂色面、清楚线稿与硬边赛璐璐阴影。",
+        "scope": "本次更新首层衣装与袜装的正面、背面，中性头部卡及袜装结构板六图。基模、尺寸、16格表情、侧面人物和白衣／红裤结构板保持；PNG 与内置生图原输出字节一致，无本地画面后处理。",
+        "review_status": "current-clean-cel-redraw-reference",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.png",
+            "sha256": "16515779d9d4fd97697a145cf7305a5f8c9e5cc4866ea9dbd82523631d4ceb9f",
+            "actual_viewed": true,
+            "role": "full-character design/proportions/pose"
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v2.png",
+            "sha256": "370c98ffb270ddd18638d86511f0d32ec4c1a2003a71434a135318ab6ad78c56",
+            "actual_viewed": true,
+            "role": "head identity and ear projection design"
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png",
+            "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+            "actual_viewed": true,
+            "role": "garment construction design"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/fronts/final-two-fronts-native-provenance.json",
+          "sha256": "7d219288b5bc266055747182e4cac33c38e51d1733e33000889ad964e52308de"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-clean-cel-redraw-20261024/fronts/request-innerwear-front-clean-v1.json",
+          "sha256": "995d2a0f61177d26abece2f8c528dda53d1805a852eec3b262454bd1313f484d"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-2b3ab8c1-49e7-4735-badb-dac52965b1d5.png",
+          "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f"
+        },
+        "baseline_sha256": "16515779d9d4fd97697a145cf7305a5f8c9e5cc4866ea9dbd82523631d4ceb9f",
+        "baseline_role": "Actual generated lineart or design input; final artwork is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1138015,
+        "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 644068,
+        "sha256": "66db06109d9fae31a57689fcb8ec19cc145164c78291a01f68b95777778ed0fa",
         "alpha": false
       }
     },
@@ -4988,8 +5492,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 118395902,
-      "sha256": "b94a0b5dd931980b5135ac80cedb413827fac8faaea703b837a68e0335c7bfe9"
+      "bytes": 125238873,
+      "sha256": "3fdbce633fed347dae64490b932a0645bc5c2f6d93a5e6e0b14bb223b908f7a5"
     }
   ]
 }
