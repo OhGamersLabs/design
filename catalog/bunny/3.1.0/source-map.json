@@ -226,9 +226,9 @@
     "based_on": "/media/bunny/3.1.0/body-v2-cel-refined-v1.png",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-head-neutral-v2.png",
     "source_artifact_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
-    "review_status": "local-neutral-head-reference",
-    "description": "v2中性头部样板：校准双眼共同视线、自然表情不对称与发束分组；银白主色配少量冷灰蓝硬边阴影。",
-    "scope": "中性头部样板作为16格表情的身份与画风参考；身体三视中的头部仍为同步尝试稿，对应关系待核对。穿戴装备与尺寸未同步。",
+    "review_status": "historical-before-ear-hair-refinement",
+    "description": "耳部与发色修订前 · 中性头部样板；保留原件供沿革对照。",
+    "scope": "此前工作稿，已由本轮完整新绘的耳发修订稿替代；原图字节与来源链保留，不作为当前对应视图。",
     "reference_chain": [
       {
         "stage": "current-body-head-crops",
@@ -293,9 +293,9 @@
     "based_on": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-expressions-16-v1.png",
     "source_artifact_sha256": "5644fa554fdcd666b0b40d61679dd1e91f2240a4041695cd965251e423625677",
-    "review_status": "local-head-synchronized-expression-sheet",
-    "description": "v2 · 16格表情：沿用本轮中性头部的身份、画风、银白发与蓝眼；保留原16项表情及4×4顺序。",
-    "scope": "按中性头部样板修订的16格表情；身体三视中的头部仍为同步尝试稿，对应关系待核对。穿戴装备与尺寸未同步。",
+    "review_status": "historical-before-ear-hair-refinement",
+    "description": "耳部与发色修订前 · 16 格表情；保留原件供沿革对照。",
+    "scope": "此前工作稿，已由本轮完整新绘的耳发修订稿替代；原图字节与来源链保留，不作为当前对应视图。",
     "reference_chain": [
       {
         "role": "identity-style-hair-and-eye-reference",
@@ -2084,9 +2084,9 @@
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-front-native-v2.png",
     "source_artifact_sha256": "049297db23c86dbb2860d6c3c205e69e6bccc0be21343f64b1ea250c0c66d5e0",
     "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-    "description": "身体基模 · 正面；按既定身份与款式参考完整新绘，保留内置生图工具原输出字节。",
-    "scope": "本轮基模、首层白衣红裤与袜装共九张完整新绘人物；日系手绘线稿、平涂底色与硬边赛璐璐阴影。未做图像后处理；既有三张结构板、头部与表情资料保留，其余装备尚未按本轮重绘。",
-    "review_status": "current-fresh-redraw-work-reference",
+    "description": "耳部与发色修订前 · 身体基模正面；保留原件供沿革对照。",
+    "scope": "此前工作稿，已由本轮完整新绘的耳发修订稿替代；原图字节与来源链保留，不作为当前对应视图。",
+    "review_status": "historical-before-ear-hair-refinement",
     "reference_chain": [
       {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-basic-bra-front-v1.png",
@@ -2123,7 +2123,7 @@
     "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
     "based_on": "/media/bunny/3.1.0/body-v2-basic-bra-front-v1.png",
     "measurements": {
-      "path": "/catalog/bunny/3.1.0/body-measurements.json",
+      "path": "/catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json",
       "sha256": "2318cf53a8d0440f7fcb91c3ffd7fdfcc56f9e8593991c7c7660ad869d8cefae",
       "source_artifact_path": "/tmp/bunny-fresh-cel-site-20261024/body-v2-fresh-measurements.json",
       "scope": "本图重新量读的可见图面比例；含发量头高，指定截面宽度，遮挡不可量项留空；不代表厘米、围度或杯码。"
@@ -2173,7 +2173,7 @@
     "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
     "based_on": "/media/bunny/3.1.0/body-v2-basic-bra-side-v1.png",
     "measurements": {
-      "path": "/catalog/bunny/3.1.0/body-measurements.json",
+      "path": "/catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json",
       "sha256": "2318cf53a8d0440f7fcb91c3ffd7fdfcc56f9e8593991c7c7660ad869d8cefae",
       "source_artifact_path": "/tmp/bunny-fresh-cel-site-20261024/body-v2-fresh-measurements.json",
       "scope": "本图重新量读的可见图面比例；含发量头高，指定截面宽度，遮挡不可量项留空；不代表厘米、围度或杯码。"
@@ -2232,7 +2232,7 @@
     "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
     "based_on": "/media/bunny/3.1.0/body-v2-fresh-cel-front-v1.png",
     "measurements": {
-      "path": "/catalog/bunny/3.1.0/body-measurements.json",
+      "path": "/catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json",
       "sha256": "2318cf53a8d0440f7fcb91c3ffd7fdfcc56f9e8593991c7c7660ad869d8cefae",
       "source_artifact_path": "/tmp/bunny-fresh-cel-site-20261024/body-v2-fresh-measurements.json",
       "scope": "本图重新量读的可见图面比例；含发量头高，指定截面宽度，遮挡不可量项留空；不代表厘米、围度或杯码。"
@@ -2243,9 +2243,9 @@
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-innerwear-front-native-v2.png",
     "source_artifact_sha256": "7cb64248f7c1dc16f4f1f6f1a44ec5fc28f50bef0587d0c4b97e9b9d6a841eb9",
     "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-    "description": "白色上衣与红色短裤 · 正面；按既定身份与款式参考完整新绘，保留内置生图工具原输出字节。",
-    "scope": "本轮基模、首层白衣红裤与袜装共九张完整新绘人物；日系手绘线稿、平涂底色与硬边赛璐璐阴影。未做图像后处理；既有三张结构板、头部与表情资料保留，其余装备尚未按本轮重绘。",
-    "review_status": "current-fresh-redraw-work-reference",
+    "description": "耳部与发色修订前 · 白衣红裤正面；保留原件供沿革对照。",
+    "scope": "此前工作稿，已由本轮完整新绘的耳发修订稿替代；原图字节与来源链保留，不作为当前对应视图。",
+    "review_status": "historical-before-ear-hair-refinement",
     "reference_chain": [
       {
         "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-front-native-v2.png",
@@ -2384,9 +2384,9 @@
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-hosiery-front-native-v1.png",
     "source_artifact_sha256": "487aa2a6fa4aa96960dcc99cc7a95253ed64bde2a610fb372f03f046f6654c16",
     "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-    "description": "袜装层 · 正面；按既定身份与款式参考完整新绘，保留内置生图工具原输出字节。",
-    "scope": "本轮基模、首层白衣红裤与袜装共九张完整新绘人物；日系手绘线稿、平涂底色与硬边赛璐璐阴影。未做图像后处理；既有三张结构板、头部与表情资料保留，其余装备尚未按本轮重绘。",
-    "review_status": "current-fresh-redraw-work-reference",
+    "description": "耳部与发色修订前 · 袜装正面；保留原件供沿革对照。",
+    "scope": "此前工作稿，已由本轮完整新绘的耳发修订稿替代；原图字节与来源链保留，不作为当前对应视图。",
+    "review_status": "historical-before-ear-hair-refinement",
     "reference_chain": [
       {
         "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-innerwear-front-native-v2.png",
@@ -2607,5 +2607,268 @@
     "baseline_sha256": "b938851abedd715e025ca1141b4edfa0de49791d31b1319ef2a0ed7a37f22139",
     "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
     "based_on": "/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png"
+  },
+  "bunny/head-v2-cel-reference-v2.png": {
+    "page": "/characters/bunny/face",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-ear-hair-native-v5.png",
+    "source_artifact_sha256": "370c98ffb270ddd18638d86511f0d32ec4c1a2003a71434a135318ab6ad78c56",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "中性头部样板：完整新绘，核对耳部连接、银白发束与肤色的界限及手绘线稿、赛璐璐画风。",
+    "scope": "本轮更新中性头部、16格表情及基模、白衣红裤、袜装三个完整正面；侧背和既有结构板保留。原尺寸 PNG 与内置生图工具原输出字节一致，没有本地画面后处理。",
+    "review_status": "current-ear-hair-refined-work-reference",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-front-calibration-native-v1.png",
+        "sha256": "b02d13faead824518bbc5573f50eba80803679871a0b617ecaad2e5c05c01cb3"
+      },
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v1.png",
+        "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/final-neutral-expressions-round2-provenance.json",
+      "sha256": "69c90785b541df3e17695d6c7105602861fde655fe177cba415f81c20dee800c"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/request-neutral-ear-hair-v5.json",
+      "sha256": "59ca55f98c88383eb84c56122e006c30ab9bc83e6db46d3e9d51bdeb85be8a0c"
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-0e905c6d-9f1c-4a83-86dd-f2c4be6309ce.png",
+      "sha256": "370c98ffb270ddd18638d86511f0d32ec4c1a2003a71434a135318ab6ad78c56"
+    },
+    "baseline_sha256": "b02d13faead824518bbc5573f50eba80803679871a0b617ecaad2e5c05c01cb3",
+    "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-front-calibration-native-v1.png"
+  },
+  "bunny/expressions-v2-cel-v2.png": {
+    "page": "/characters/bunny/expressions",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/expressions-ear-hair-native-v2.png",
+    "source_artifact_sha256": "a6dd535e5acbe9dfab82b232ebb094a5c62b2766b5d1cc1fdb49789233437e74",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "16 格表情：完整新绘，核对耳部连接、银白发束与肤色的界限及手绘线稿、赛璐璐画风。",
+    "scope": "本轮更新中性头部、16格表情及基模、白衣红裤、袜装三个完整正面；侧背和既有结构板保留。原尺寸 PNG 与内置生图工具原输出字节一致，没有本地画面后处理。",
+    "review_status": "current-ear-hair-refined-work-reference",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-front-calibration-native-v1.png",
+        "sha256": "b02d13faead824518bbc5573f50eba80803679871a0b617ecaad2e5c05c01cb3"
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-ear-hair-native-v5.png",
+        "sha256": "370c98ffb270ddd18638d86511f0d32ec4c1a2003a71434a135318ab6ad78c56"
+      },
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/expressions-v2-cel-v1.png",
+        "sha256": "5644fa554fdcd666b0b40d61679dd1e91f2240a4041695cd965251e423625677"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/final-neutral-expressions-round2-provenance.json",
+      "sha256": "69c90785b541df3e17695d6c7105602861fde655fe177cba415f81c20dee800c"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/request-expressions-ear-hair-v2.json",
+      "sha256": "15cf0c20ae436315ecbd1be74ed1e28f2d8ba83eb4b90a58c1997c861076bd41"
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-acb3f5d7-c9b4-4761-a162-cfaba3cd6b0a.png",
+      "sha256": "a6dd535e5acbe9dfab82b232ebb094a5c62b2766b5d1cc1fdb49789233437e74"
+    },
+    "baseline_sha256": "b02d13faead824518bbc5573f50eba80803679871a0b617ecaad2e5c05c01cb3",
+    "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-front-calibration-native-v1.png",
+    "expressions_row_major": [
+      "中性",
+      "微笑",
+      "大笑",
+      "惊讶",
+      "生气",
+      "怒喊",
+      "鼓腮不满",
+      "怀疑",
+      "疲倦",
+      "含泪难过",
+      "大哭",
+      "担忧",
+      "眨眼俏皮",
+      "会心笑",
+      "兴奋",
+      "安心"
+    ],
+    "reference_roles": [
+      "已接受的单正面耳形校准样板。",
+      "完整新中性头部卡，统一三视身份、耳发和画风。",
+      "旧表情板仅参考16项情绪、转头与4×4排列。"
+    ]
+  },
+  "bunny/body-v2-fresh-cel-front-v2.png": {
+    "page": "/characters/bunny/body-base",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/base-front-native-v4.png",
+    "source_artifact_sha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "身体基模正面：完整新绘，核对耳部连接、银白发束与肤色的界限及手绘线稿、赛璐璐画风。",
+    "scope": "本轮更新中性头部、16格表情及基模、白衣红裤、袜装三个完整正面；侧背和既有结构板保留。原尺寸 PNG 与内置生图工具原输出字节一致，没有本地画面后处理。",
+    "review_status": "current-ear-hair-refined-work-reference",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-front-native-v2.png",
+        "sha256": "049297db23c86dbb2860d6c3c205e69e6bccc0be21343f64b1ea250c0c66d5e0",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "role": "body proportions pose composition clothing ONLY; old head ignored"
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-front-calibration-native-v1.png",
+        "sha256": "b02d13faead824518bbc5573f50eba80803679871a0b617ecaad2e5c05c01cb3",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "role": "sole accepted face ear hair line and color master"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/fronts-round2-native-handoff.manifest.json",
+      "sha256": "d81326a83f9c0acb6d61a0aca3627c7fc6f7ff1df847e05b89632cb80c6dd37b"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/base-front-native-v4.request.json",
+      "sha256": "5871dd63bbd79eae8beb6a165bae76d67a0e0fc066693dd5111d285ecfc290cf"
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a16e0c-d1eb-7e72-a7a1-7e55eb2e5af1/exec-e61a80f6-cca1-461a-8817-67a3a6bacd5d.png",
+      "sha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127"
+    },
+    "baseline_sha256": "049297db23c86dbb2860d6c3c205e69e6bccc0be21343f64b1ea250c0c66d5e0",
+    "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-front-native-v2.png",
+    "reference_roles": "Actual reference roles and ordering are recorded in generation_request; references guide the complete new drawing and are not pasted image layers.",
+    "measurements": {
+      "path": "/catalog/bunny/3.1.0/body-measurements.json",
+      "sha256": "aa544a3f54d380c41a4ef6841b8e57edb765e46df75575fbf3c5de8ac4962efc",
+      "source_artifact_path": "/private/tmp/bunny-ear-hair-site-20261024/round2/body-measurements-ear-hair.json",
+      "scope": "本图实际重读的可见主描线比例；包含发量、指定文胸截面及估读容差，不推断厘米、围度或杯码。"
+    }
+  },
+  "bunny/innerwear-v2-fresh-cel-front-v2.png": {
+    "page": "/characters/bunny/innerwear",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/innerwear-front-native-v4.png",
+    "source_artifact_sha256": "16515779d9d4fd97697a145cf7305a5f8c9e5cc4866ea9dbd82523631d4ceb9f",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "白衣红裤正面：完整新绘，核对耳部连接、银白发束与肤色的界限及手绘线稿、赛璐璐画风。",
+    "scope": "本轮更新中性头部、16格表情及基模、白衣红裤、袜装三个完整正面；侧背和既有结构板保留。原尺寸 PNG 与内置生图工具原输出字节一致，没有本地画面后处理。",
+    "review_status": "current-ear-hair-refined-work-reference",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-innerwear-front-native-v2.png",
+        "sha256": "7cb64248f7c1dc16f4f1f6f1a44ec5fc28f50bef0587d0c4b97e9b9d6a841eb9",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "role": "original outfit, pose and framing only; old head ignored"
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/base-front-native-v4.png",
+        "sha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "role": "accepted anatomy/body scale master"
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-front-calibration-native-v1.png",
+        "sha256": "b02d13faead824518bbc5573f50eba80803679871a0b617ecaad2e5c05c01cb3",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "role": "sole accepted face, narrow attached ears and hair master"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/fronts-round2-native-handoff.manifest.json",
+      "sha256": "d81326a83f9c0acb6d61a0aca3627c7fc6f7ff1df847e05b89632cb80c6dd37b"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/innerwear-front-native-v4.request.json",
+      "sha256": "1d6cf41c63eec2153509597d0a3e46c21694e16e91e24bb986243d8f825fd99c"
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a16e0c-d1eb-7e72-a7a1-7e55eb2e5af1/exec-e59d19f4-ef1d-4993-ae6d-7f541e051d15.png",
+      "sha256": "16515779d9d4fd97697a145cf7305a5f8c9e5cc4866ea9dbd82523631d4ceb9f"
+    },
+    "baseline_sha256": "7cb64248f7c1dc16f4f1f6f1a44ec5fc28f50bef0587d0c4b97e9b9d6a841eb9",
+    "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-innerwear-front-native-v2.png",
+    "reference_roles": "Actual reference roles and ordering are recorded in generation_request; references guide the complete new drawing and are not pasted image layers."
+  },
+  "bunny/hosiery-v2-fresh-cel-front-v2.png": {
+    "page": "/characters/bunny/hosiery",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/hosiery-front-native-v7.png",
+    "source_artifact_sha256": "8e39647f9fd5e607f6cb681b9fc164c6f017e9bd6f6b77f9591dc8ed59adea76",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "袜装正面：完整新绘，核对耳部连接、银白发束与肤色的界限及手绘线稿、赛璐璐画风。",
+    "scope": "本轮更新中性头部、16格表情及基模、白衣红裤、袜装三个完整正面；侧背和既有结构板保留。原尺寸 PNG 与内置生图工具原输出字节一致，没有本地画面后处理。",
+    "review_status": "current-ear-hair-refined-work-reference",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/innerwear-front-native-v4.png",
+        "sha256": "16515779d9d4fd97697a145cf7305a5f8c9e5cc4866ea9dbd82523631d4ceb9f",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "role": "accepted complete clothed character; primary identity, anatomy and outfit master"
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/base-front-native-v4.png",
+        "sha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "role": "accepted anatomy/body scale/pose confirmation"
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/neutral-front-calibration-native-v1.png",
+        "sha256": "b02d13faead824518bbc5573f50eba80803679871a0b617ecaad2e5c05c01cb3",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "role": "accepted face, narrow attached ears and hair design calibration"
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-hosiery-front-native-v1.png",
+        "sha256": "487aa2a6fa4aa96960dcc99cc7a95253ed64bde2a610fb372f03f046f6654c16",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "role": "original sock design only; all original head and upper body regions explicitly excluded"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/fronts-round2-native-handoff.manifest.json",
+      "sha256": "d81326a83f9c0acb6d61a0aca3627c7fc6f7ff1df847e05b89632cb80c6dd37b"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/hosiery-front-native-v7.request.json",
+      "sha256": "bf9201f059b92d7f71e51bafdda952659a16fe232f9ae9b8eb327201437376a7"
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a16e0c-d1eb-7e72-a7a1-7e55eb2e5af1/exec-728566aa-c047-450d-a3b3-ec9352187c43.png",
+      "sha256": "8e39647f9fd5e607f6cb681b9fc164c6f017e9bd6f6b77f9591dc8ed59adea76"
+    },
+    "baseline_sha256": "16515779d9d4fd97697a145cf7305a5f8c9e5cc4866ea9dbd82523631d4ceb9f",
+    "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/innerwear-front-native-v4.png",
+    "reference_roles": "Actual reference roles and ordering are recorded in generation_request; references guide the complete new drawing and are not pasted image layers."
   }
 }

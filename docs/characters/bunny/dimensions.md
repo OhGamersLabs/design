@@ -11,7 +11,7 @@ import measurements from '../../../catalog/bunny/3.1.0/body-measurements.json'
 
 # v2 · 图面尺寸与比例
 
-本页记录[当前完整新绘的基础文胸三视](/characters/bunny/body-base)的图面读数，便于核对头身比、肩腰胯关系及躯干与腿长。坐标均从本轮三张新原图重新读取，分别记录并保留图面差异；当前三视作为衣层设计基准，[首层白色上衣与红色短裤](/characters/bunny/innerwear)已提供穿着三视和结构板，[袜装层](/characters/bunny/hosiery)另有穿着三视与匹配结构资料，鞋靴和后续装备尚未同步。本页仍记录基模，未改为衣物成品尺寸。
+本页记录[当前完整新绘的基础文胸三视](/characters/bunny/body-base)的图面读数，便于核对头身比、肩腰胯关系及躯干与腿长。三视分别记录各自原图的可见轮廓。本轮只重新读取耳发修订后正面的坐标，侧背原图与已核读数保持；当前三视作为衣层设计基准，[首层白色上衣与红色短裤](/characters/bunny/innerwear)已提供穿着三视和结构板，[袜装层](/characters/bunny/hosiery)另有穿着三视与匹配结构资料，鞋靴和后续装备尚未同步。本页仍记录基模，未改为衣物成品尺寸。
 
 ::: info 图面比例与实际设定
 **H** 是可见发冠最高点至赤脚地面的图面高度；**h** 是可见发冠至下颏的头高，包含发量，不另估被头发遮住的颅顶。头身比为 H ÷ h。
@@ -26,6 +26,17 @@ import measurements from '../../../catalog/bunny/3.1.0/body-measurements.json'
 <BodyMeasurements :data="measurements" />
 
 [查看三张完整原图与等高对照](/characters/bunny/body-base) · [下载三视标尺与测量数据](/characters/bunny/downloads#body-measurements)
+
+## 耳部与发色修订前 · 图面尺寸 {#before-ear-hair-measurements}
+
+<details>
+<summary>展开修订前的正面与三视测量快照</summary>
+
+这份完整三视记录对应耳发修订前的正面及继续使用的侧背。旧正面读数不套用到当前新绘正面；旧三张标尺与原图保持。
+
+[历史三视测量 JSON](/catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json) · [正面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-front-v1.svg) · [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-side-v1.svg) · [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-back-v1.svg)
+
+</details>
 
 ## 完整新绘前 · 基础文胸尺寸 {#basic-bra-body-measurements}
 

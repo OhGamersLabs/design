@@ -19,8 +19,8 @@
   "views": {
     "front": {
       "source": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-front-native-v2.png",
-        "sha256": "049297db23c86dbb2860d6c3c205e69e6bccc0be21343f64b1ea250c0c66d5e0",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/base-front-native-v4.png",
+        "sha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
         "width": 1024,
         "height": 1536
       },
@@ -67,12 +67,12 @@
         },
         "waist": {
           "y": 530,
-          "definition": "自然腰最窄躯干区的中部；新图主轮廓最窄平台约 y521–538，不含双臂。",
+          "definition": "自然腰最窄躯干区的中部；本新图主轮廓最窄平台约 y524–536，不含双臂。",
           "visibility": "visible",
           "tolerancePx": 10
         },
         "crotch": {
-          "y": 729,
+          "y": 728,
           "definition": "黑内搭下端之后两腿间白隙的可见起点；不是骨盆关节或臀下折。",
           "visibility": "visible",
           "tolerancePx": 3,
@@ -102,14 +102,14 @@
         },
         "chest": {
           "xLeft": 413,
-          "xRight": 612,
+          "xRight": 611,
           "y": 415,
           "definition": "文胸杯外缘在 y415 指定截面的图面宽度；不计外侧腋前肤线，不是最大裸胸宽、胸围或杯码。",
           "visibility": "visible",
           "tolerancePx": 3
         },
         "waist": {
-          "xLeft": 435,
+          "xLeft": 436,
           "xRight": 588,
           "y": 530,
           "definition": "自然腰最窄区的躯干外轮廓主描线中心之间，不含双臂。",
@@ -120,8 +120,8 @@
             550
           ],
           "minimumPlateauY": [
-            521,
-            538
+            524,
+            536
           ]
         },
         "hip": {
@@ -136,8 +136,8 @@
             770
           ],
           "maximumPlateauY": [
-            715,
-            750
+            725,
+            735
           ]
         }
       },
@@ -179,9 +179,9 @@
         }
       },
       "resources": {
-        "original": "/media/bunny/3.1.0/body-v2-fresh-cel-front-v1.png",
-        "web": "/characters/bunny/3.1.0/body-v2-fresh-cel-front-v1.webp",
-        "ruler": "/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-front-v1.svg"
+        "original": "/media/bunny/3.1.0/body-v2-fresh-cel-front-v2.png",
+        "web": "/characters/bunny/3.1.0/body-v2-fresh-cel-front-v2.webp",
+        "ruler": "/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-front-v2.svg"
       }
     },
     "side": {
@@ -472,11 +472,11 @@
       }
     }
   },
-  "measurementMethod": "逐张读取全新人物原图的可见主描线，所有取点均经独立原像素标注抽查。不同视角保留自身投影差异，不强行拉齐，不用旧坐标替代新读数。",
+  "measurementMethod": "本轮正面从耳发修订后的完整新原图重新读取可见主描线，并经原像素标注核对；侧背沿用各自已核原图与读数。不同视角保留自身投影差异，不拉伸统一。",
   "qaEvidence": [
     {
-      "path": "/tmp/bunny-fresh-cel-qa-20261024/fresh-front-v2-measurement-draft-review.json",
-      "sha256": "25c409c9037d1881c91a96f76ad656e85a52f9111096c2e0ebbc76a068e624f6"
+      "path": "/tmp/bunny-ear-hair-qa-20261024/ear-projection-review/measurements-662c/new-front-662c-actual-measurements.json",
+      "sha256": "9f8ae48e673c218f0a5692a93f0a15a2f358446381de5a823b02fdd81aa4401e"
     },
     {
       "path": "/tmp/bunny-fresh-cel-qa-20261024/fresh-side-measurement-draft-review.json",
@@ -488,8 +488,8 @@
     }
   ],
   "acceptedDraft": {
-    "path": "/tmp/bunny-fresh-cel-site-20261024/body-v2-fresh-measurements-draft-v1.json",
-    "sha256": "18e91b19f1cf6b79ec0310efda98464d5fb5afc7d5f6486db736b1568b102fde"
+    "path": "/tmp/bunny-ear-hair-qa-20261024/ear-projection-review/measurements-662c/new-front-662c-view-object.json",
+    "sha256": "74396c9cf02b568e95f22fee58acc47be9cf55210ceccd34932390731662a92f"
   },
   "settingEvidence": {
     "heightCm": null,
@@ -510,14 +510,14 @@
     ]
   },
   "previousMeasurementRecord": {
-    "path": "/tmp/bunny-fresh-cel-site-20261024/body-measurements-before.json",
-    "sha256": "375c3367c0acfb6c2d0dad0aa28400651617c48f65f2eba3ad64e42f9bd5dbce",
-    "historicalPublicURL": "/catalog/bunny/3.1.0/body-measurements-basic-bra-v1.json",
-    "scope": "上一组基础文胸工作稿的测量，仅作历史，不套用于本轮新绘人物。"
+    "path": "/private/tmp/bunny-ear-hair-site-20261024/round2/body-measurements-before.json",
+    "sha256": "2318cf53a8d0440f7fcb91c3ffd7fdfcc56f9e8593991c7c7660ad869d8cefae",
+    "historicalPublicURL": "/catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json",
+    "scope": "耳发修订前的完整三视测量；旧正面不套用到当前新绘正面，侧背记录继续使用。"
   },
   "acceptance": {
-    "artSources": "Root and independent visual QA accepted exact front049297db, sidec4ca73b3, back995d2fa9 full native figures.",
-    "measurementPoints": "Independent QA accepted front and side point reads, then explicitly accepted back995d point reads after viewing head/torso/floor original-pixel annotations.",
+    "artSources": "Root and independent visual QA accepted exact new front662c8c38; sidec4ca73b3 and back995d2fa9 retained unchanged.",
+    "measurementPoints": "Independent QA reread new front662c from actual original pixels and root reviewed the data and marked original-pixel diagnostics. Side/back point records unchanged.",
     "sideLimits": "y680 depth includes black underwear projection and is not maximum buttock depth; chest and waist depth occluded.",
     "frontLimits": "Knee y1055 ±15 px and ankle y1405 ±12 px remain approximate reference levels; derived lengths retain endpoint notes.",
     "backLimits": "Chin is hidden; no back head count or inferred joint centers.",

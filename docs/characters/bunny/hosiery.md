@@ -19,9 +19,11 @@ aside: true
 
 当前背面核对了高腰红裤的遮挡：基模两处短记号按固定的腰窝／骶区提示处理，衣物覆盖后不再外露，也不移到裤腰边缘；可见后中沟保持简洁自然。
 
+本轮正面按新中性头部样板完整重绘，核对耳部连接与银白发束的颜色归属；侧背及结构板保持。
+
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.png" alt="完整新绘 · 橙色长袜与白色短袜 · 正面" caption="v2 · 完整新绘 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.png" alt="完整新绘 · 橙色长袜与白色短袜 · 正面" caption="v2 · 完整新绘 · 正面" />
 
 <ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png" alt="完整新绘 · 橙色长袜与白色短袜 · 侧面" caption="v2 · 完整新绘 · 侧面" />
 
@@ -30,6 +32,15 @@ aside: true
 </div>
 
 [下载当前袜装三视与既有结构资料 PNG](/characters/bunny/downloads#hosiery-assets)
+
+<details>
+<summary>耳部与发色修订前 · 袜装正面</summary>
+
+保留此前原图作沿革对照，当前稿见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.png" alt="耳部与发色修订前 · 袜装正面，历史参考" caption="耳部与发色修订前 · 袜装正面" />
+
+</details>
 
 <details>
 <summary>后腰遮挡修订前 · 袜装背面</summary>

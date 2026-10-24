@@ -11,7 +11,7 @@ aside: true
 
 <span id="native-body-views"></span>
 
-- [v2 · 基础文胸身体三视（正面）PNG](/media/bunny/3.1.0/body-v2-fresh-cel-front-v1.png)
+- [v2 · 基础文胸身体三视（正面）PNG](/media/bunny/3.1.0/body-v2-fresh-cel-front-v2.png)
 - [v2 · 基础文胸身体三视（侧面）PNG](/media/bunny/3.1.0/body-v2-fresh-cel-side-v1.png)
 - [v2 · 基础文胸身体三视（背面）PNG](/media/bunny/3.1.0/body-v2-fresh-cel-back-v1.png)
 - [此前身体工作稿 · 上衣下围色块修订 PNG](/media/bunny/3.1.0/body-v2-detail-refined-v1.png)
@@ -19,15 +19,15 @@ aside: true
 - [v2赛璐璐身体 · 头部修订前 PNG](/media/bunny/3.1.0/body-v2-cel-refined-v1.png)
 - [原v2局部修订 · 画风对照 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png)
 - [v2比例底子 · 对照参考 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png)
-- [v2 · 中性头部样板 PNG](/media/bunny/3.1.0/head-v2-cel-reference-v1.png)
+- [v2 · 中性头部样板 PNG](/media/bunny/3.1.0/head-v2-cel-reference-v2.png)
 - [当前穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)
-- [v2 · 16 格表情 PNG](/media/bunny/3.1.0/expressions-v2-cel-v1.png)
+- [v2 · 16 格表情 PNG](/media/bunny/3.1.0/expressions-v2-cel-v2.png)
 - [鞋带收尾与腿带活动 PNG](/media/bunny/3.1.0/35-lacing-thigh-motion.png)
 - [红护环开合结构 PNG](/media/bunny/3.1.0/34-cuff-mechanism.png)
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基模、白色上衣与红色短裤、袜装三组共九张人物图均从空白画布完整新绘，保留生图工具直接输出的 1024×1536 PNG。本轮新基模的图面尺寸另行量读；三张既有结构板、中性头部与16格表情保持原件。鞋靴和后续装备尚未按本轮重绘。原图包同时保留明确标注的重绘前历史资料；此前被拒的衣层候选继续撤出，不进入当前目录与原图包。
+基模、白色上衣与红色短裤、袜装三组共九张人物图均从空白画布完整新绘，保留生图工具直接输出的 1024×1536 PNG。本轮更新中性头部、16格表情与三组完整正面，核对耳发与统一画风；基模正面的图面尺寸按新原图重新量读，侧背与三张结构板保持。鞋靴和后续装备尚未按本轮重绘。原图包同时保留明确标注的重绘前历史资料；此前被拒的衣层候选继续撤出，不进入当前目录与原图包。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -35,10 +35,25 @@ aside: true
 
 标尺 SVG 各自包含完整原图，可离线打开；人物图像保持原样。尺寸为可见图面读数，包含发量，不是厘米或围度。三视分别记录，不以拉伸图片消除差异。
 
-- [正面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-front-v1.svg) · [正面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-front-v1.png)
+- [正面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-front-v2.svg) · [正面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-front-v2.png)
 - [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-side-v1.svg) · [侧面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-side-v1.png)
 - [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-back-v1.svg) · [背面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-back-v1.png)
 - [测量坐标与定义 JSON](/catalog/bunny/3.1.0/body-measurements.json) · [尺寸表与适用范围](/characters/bunny/dimensions)
+
+## 耳部与发色修订前 · 历史原件 {#before-ear-hair-assets}
+
+<details>
+<summary>展开此前中性头、16格表情、三组正面与尺寸</summary>
+
+- [耳部与发色修订前 · 中性头部样板 PNG](/media/bunny/3.1.0/head-v2-cel-reference-v1.png)
+- [耳部与发色修订前 · 16 格表情 PNG](/media/bunny/3.1.0/expressions-v2-cel-v1.png)
+- [耳部与发色修订前 · 基模正面 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-front-v1.png)
+- [耳部与发色修订前 · 第一层正面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.png)
+- [耳部与发色修订前 · 袜装正面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.png)
+
+[历史三视测量 JSON](/catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json) · [正面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-front-v1.svg) · [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-side-v1.svg) · [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-back-v1.svg)
+
+</details>
 
 ## 完整新绘前 · 基础文胸身体与尺寸 {#before-fresh-body}
 
@@ -68,7 +83,7 @@ aside: true
 
 ## 贴身衣层 {#layer1-assets}
 
-- [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.png)
+- [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.png)
 - [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.png)
 - [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png)
 - [白色上衣 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png)
@@ -129,7 +144,7 @@ aside: true
 
 ## 袜装
 
-- [袜装层 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.png)
+- [袜装层 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.png)
 - [袜装层 · 侧面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png)
 - [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.png)
 - [袜装 · 结构与针织细节 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png)

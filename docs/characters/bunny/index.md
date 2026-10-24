@@ -9,12 +9,12 @@ aside: true
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：本轮从空白画布完整新绘基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)三组三视，共九张完整人物图，分别放大与下载。以既定身份、比例、衣物结构和配色为参考，用清楚线稿、平涂与硬边赛璐璐阴影呈现。新基模的[图面尺寸](/characters/bunny/dimensions)已从对应新原图重新量读；旧九图及旧测量保留作重绘前历史。三张既有结构板、中性头部与16格表情保持原件，鞋靴和后续装备尚未按本轮重绘。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：本轮从空白画布完整新绘基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)三组三视，共九张完整人物图，分别放大与下载。以既定身份、比例、衣物结构和配色为参考，用清楚线稿、平涂与硬边赛璐璐阴影呈现。新基模的[图面尺寸](/characters/bunny/dimensions)已从对应新原图重新量读；旧九图及旧测量保留作重绘前历史。本次更新中性头部、16格表情与三组完整正面，复核耳部连接、银白发色和统一画风；侧背与三张结构板保持。正面基模尺寸按新原图重新量读，旧图与旧三视测量继续保留，鞋靴和后续装备尚未按本轮重绘。
 
 ## 本轮补充
 
 - [当前基模图面尺寸与比例](/characters/bunny/dimensions)：头身比、肩腰胯宽与躯干腿长分别按三视记录，文胸衣物截面已重新测量，厘米身高尚未设定。
-- [v2中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)：保留银白发、蓝眼、发束分组和五官关系的修订；本轮完整人物工作稿继续对照样板核对。
+- [v2中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)：以新中性样板统一耳部、银白发色和16格手绘画风，三组完整正面分别重绘核对。
 - [红护环开合结构](/characters/bunny/hands#cuff-opening)：铰链、锁扣与手套腕口关系。
 - [鞋带结与尾端收纳](/characters/bunny/shoes#鞋带收尾与收纳)、[坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
 

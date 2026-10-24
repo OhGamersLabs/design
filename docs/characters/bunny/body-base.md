@@ -16,7 +16,7 @@ import braComparison from './body-bra-comparison.json'
 ::: info 本轮完整新绘
 当前展示从空白画布完整新绘的正、侧、背三张身体工作稿，以既定人物身份、比例、基础内衣与配色为参考。采用清楚的手绘线稿、固有色平涂和硬边赛璐璐阴影，逐视核对耳部、头颈、背部、手足与整体轮廓。
 
-三张 1024×1536 PNG 分别放大与下载。[图面尺寸与比例](/characters/bunny/dimensions#current-body-measurements)已按这三张新原图重新量读，实际厘米身高尚未设定，不换算围度或杯码。[中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)原件保留供核对。
+三张 1024×1536 PNG 分别放大与下载。本轮正面按新[中性头部样板](/characters/bunny/face)完整重绘，修正耳部连接与耳旁发束的颜色归属；侧背保持已确认稿。[16格表情](/characters/bunny/expressions)同步复核耳发与画风。[图面尺寸与比例](/characters/bunny/dimensions#current-body-measurements)中的正面取点已按对应新原图重新读取，侧背记录保持；实际厘米身高尚未设定，不换算围度或杯码。
 
 [第一层白色上衣与红色短裤](/characters/bunny/innerwear)及[袜装层](/characters/bunny/hosiery)各提供三张完整新绘穿着稿；三张既有结构板保留作结构参考，鞋靴和其他装备尚未按本轮重绘。
 :::
@@ -25,13 +25,24 @@ import braComparison from './body-bra-comparison.json'
 
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/body-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/body-v2-fresh-cel-front-v1.png" alt="完整新绘 · 基础文胸身体 · 正面" caption="v2 · 完整新绘 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-fresh-cel-front-v2.webp" original="/media/bunny/3.1.0/body-v2-fresh-cel-front-v2.png" alt="完整新绘 · 基础文胸身体 · 正面" caption="v2 · 完整新绘 · 正面" />
 
 <ReleaseImage src="/characters/bunny/3.1.0/body-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/body-v2-fresh-cel-side-v1.png" alt="完整新绘 · 基础文胸身体 · 侧面" caption="v2 · 完整新绘 · 侧面" />
 
 <ReleaseImage src="/characters/bunny/3.1.0/body-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/body-v2-fresh-cel-back-v1.png" alt="完整新绘 · 基础文胸身体 · 背面" caption="v2 · 完整新绘 · 背面" />
 
 </div>
+
+<details>
+<summary>耳部与发色修订前 · 基模正面</summary>
+
+保留此前原图作沿革对照，当前稿见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/body-v2-fresh-cel-front-v1.png" alt="耳部与发色修订前 · 基模正面，历史参考" caption="耳部与发色修订前 · 基模正面" />
+
+</details>
+
+[耳发修订前的完整三视测量 JSON](/catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json) · [对应历史标尺](/characters/bunny/dimensions#before-ear-hair-measurements)
 
 ## 完整新绘前后对照 {#basic-bra-comparison}
 

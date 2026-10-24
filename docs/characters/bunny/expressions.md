@@ -8,13 +8,22 @@ releaseReady: false
 
 银白短发、蓝眼、脸型与五官关系沿用本轮[中性头部样板](/characters/bunny/face)。保持手绘线稿与赛璐璐色块，情绪变化由眉眼和嘴型共同承担；眼睛保持蓝色，不因惊讶、担忧或兴奋改变瞳色。
 
-当前[身体三视](/characters/bunny/body-base)中的头部仍为同步尝试稿，与中性样板的对应关系尚需核对。穿戴装备与尺寸资料尚未同步。
+本轮完整重绘 16 格，以新中性样板统一身份、耳部连接、银白发色、线条密度与赛璐璐色块；旧表情板只参考情绪与转头。逐格核对画风后，原有 16 项情绪及排列保持。基模、首层衣装和袜装各更新完整正面，侧背沿用既有稿；当前基模尺寸另见[图面尺寸](/characters/bunny/dimensions)。
 
-<ReleaseImage src="/characters/bunny/3.1.0/expressions-v2-cel-v1.webp" original="/media/bunny/3.1.0/expressions-v2-cel-v1.png" alt="Bunny v2的16格表情：中性、微笑、大笑、惊讶、生气、怒喊、鼓腮、怀疑、疲倦、含泪、大哭、担忧、眨眼、会心笑、兴奋与安心" caption="v2 · 16 格表情" />
+<ReleaseImage src="/characters/bunny/3.1.0/expressions-v2-cel-v2.webp" original="/media/bunny/3.1.0/expressions-v2-cel-v2.png" alt="Bunny v2的16格表情：中性、微笑、大笑、惊讶、生气、怒喊、鼓腮、怀疑、疲倦、含泪、大哭、担忧、眨眼、会心笑、兴奋与安心" caption="v2 · 16 格表情" />
 
 按行从左至右：中性 / 微笑 / 大笑 / 惊讶；生气 / 怒喊 / 鼓腮不满 / 怀疑；疲倦 / 含泪难过 / 大哭 / 担忧；眨眼俏皮 / 会心笑 / 兴奋 / 安心。
 
 ## 历史表情参考
+
+<details>
+<summary>耳部与发色修订前 · 16 格表情</summary>
+
+保留此前原图作沿革对照，当前稿见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/expressions-v2-cel-v1.webp" original="/media/bunny/3.1.0/expressions-v2-cel-v1.png" alt="耳部与发色修订前 · 16 格表情，历史参考" caption="耳部与发色修订前 · 16 格表情" />
+
+</details>
 
 <details>
 <summary>头部修订前的16格表情</summary>
