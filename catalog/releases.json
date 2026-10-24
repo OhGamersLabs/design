@@ -555,6 +555,46 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-fresh-cel-back-v1.png",
+      "sha256": "463eb209a7e582789fb5725f88c5b4381d6884f31e6645cef8ba73a56208f4a0",
+      "size": 1213663,
+      "contentType": "image/png",
+      "downloadName": "footwear-v2-fresh-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-fresh-cel-front-v1.png",
+      "sha256": "b2fe9dfc6229eb706f430e9a5f36459c0e4e2917c2755a4a6529837de1c8c8ba",
+      "size": 1607157,
+      "contentType": "image/png",
+      "downloadName": "footwear-v2-fresh-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-fresh-cel-side-v1.png",
+      "sha256": "add04b9068d988046c63b2398a377ce44cad63afeb5f1f6c9c588c10f3983a7c",
+      "size": 1419177,
+      "contentType": "image/png",
+      "downloadName": "footwear-v2-fresh-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/footwear-v2-layer3-construction-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-layer3-construction-v1.png",
+      "sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33",
+      "size": 1568210,
+      "contentType": "image/png",
+      "downloadName": "footwear-v2-layer3-construction-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/head-v2-cel-reference-v1.png",
       "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
@@ -907,8 +947,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "3fdbce633fed347dae64490b932a0645bc5c2f6d93a5e6e0b14bb223b908f7a5",
-      "size": 125238873,
+      "sha256": "ad568732089702ee1a07c0c8597808d3bec6ea927198b380ce364bf3a21e3523",
+      "size": 130129642,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

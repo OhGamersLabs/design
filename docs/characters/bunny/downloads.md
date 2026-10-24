@@ -22,12 +22,11 @@ aside: true
 - [v2 · 中性头部样板 PNG](/media/bunny/3.1.0/head-v2-cel-reference-v3.png)
 - [当前穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)
 - [v2 · 16 格表情 PNG](/media/bunny/3.1.0/expressions-v2-cel-v2.png)
-- [鞋带收尾与腿带活动 PNG](/media/bunny/3.1.0/35-lacing-thigh-motion.png)
 - [红护环开合结构 PNG](/media/bunny/3.1.0/34-cuff-mechanism.png)
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基模、首层衣装和袜装各有三张完整新绘人物。本次完整重绘首层衣装和袜装的正面、背面，以及中性头部卡和袜装结构板，共六张，核对平涂固有色、硬边阴影与云斑杂纹。基模三视及图面尺寸、16格表情、两张侧面人物和白衣／红裤结构板保持；鞋靴与后续装备尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；此前被拒的衣层候选继续撤出。
+基模、首层衣装和袜装各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。本次新增鞋靴层正、侧、背三张完整人物及一张独立结构板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；手部、腿部、外套等后续装备尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；被拒候选不进入原图包。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -189,9 +188,25 @@ aside: true
 
 </details>
 
-## 鞋靴
+## 鞋靴 {#footwear-assets}
 
-<ul><li><a href="/media/bunny/3.1.0/08-footwear-wearing-r2.png">鞋靴穿着三视</a></li><li><a href="/media/bunny/3.1.0/09-footwear-construction.png">鞋靴独立结构</a></li></ul>
+- [鞋靴层 · 正面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png)
+- [鞋靴层 · 右侧面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.png)
+- [鞋靴层 · 背面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png)
+- [鞋靴 · 独立结构与鞋带收纳 PNG](/media/bunny/3.1.0/footwear-v2-layer3-construction-v1.png)
+
+穿着三视各为 1024×1536，独立结构板为 1536×1024，均保留工具原始 PNG。结构说明见[鞋靴页](/characters/bunny/shoes#footwear-construction)；结构板说明可见部件与接合位置，不是裁剪纸样或投产规格。
+
+<details>
+<summary>鞋靴完整重绘前 · 旧穿着、结构与动作补图</summary>
+
+- [原08 · 旧鞋靴穿着三视 PNG](/media/bunny/3.1.0/08-footwear-wearing-r2.png)
+- [原09 · 旧鞋靴独立结构 PNG](/media/bunny/3.1.0/09-footwear-construction.png)
+- [原35 · 鞋带收尾与腿带活动历史补图 PNG](/media/bunny/3.1.0/35-lacing-thigh-motion.png)
+
+三张旧图与下载地址保持。原35沿用此前补图，本轮未重绘；当前鞋靴层见上方四张新图。
+
+</details>
 
 ## 手部装备
 

@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 90,
+  "asset_count": 94,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -272,7 +272,9 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/08-footwear-wearing-r2.png",
         "page": "https://design.ohgamers.org/characters/bunny/shoes",
-        "baseline_sha256": "37c30051d5c080db6fbd158a8a1a43eb125538151aed4fe80cf0f4ffe0646f2b"
+        "baseline_sha256": "37c30051d5c080db6fbd158a8a1a43eb125538151aed4fe80cf0f4ffe0646f2b",
+        "review_status": "historical-before-footwear-layer-redraw",
+        "description": "鞋靴层完整重绘前的历史资料；保留原件、原始来源和下载URL，当前人物三视及独立结构板见鞋靴页。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/08-footwear-wearing-r2.png",
@@ -302,7 +304,9 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/09-footwear-construction.png",
         "page": "https://design.ohgamers.org/characters/bunny/shoes",
-        "baseline_sha256": "ca0665da34aa1c7fffd0ce8258bf1baf44f8892717997352704333c5608eeb6c"
+        "baseline_sha256": "ca0665da34aa1c7fffd0ce8258bf1baf44f8892717997352704333c5608eeb6c",
+        "review_status": "historical-before-footwear-layer-redraw",
+        "description": "鞋靴层完整重绘前的历史资料；保留原件、原始来源和下载URL，当前人物三视及独立结构板见鞋靴页。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/09-footwear-construction.png",
@@ -2465,6 +2469,297 @@
         "height": 1254,
         "bytes": 1686590,
         "sha256": "863581ed52e9176091bcb4739b5cf5081f33f3917df565d140853db946a01b0c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "footwear-v2-fresh-cel-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "footwear-v2-fresh-cel-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/shoes",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-back-native-v2.png",
+        "source_artifact_sha256": "463eb209a7e582789fb5725f88c5b4381d6884f31e6645cef8ba73a56208f4a0",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "鞋靴层背面完整人物；整张新绘，保留生图工具原件。",
+        "scope": "当前鞋靴层三张完整人物及一张独立结构板。基模三视、图面尺寸、头部、16格表情和此前衣层资料保持。PNG与工具输出逐字节一致；结构板说明可见部件，不是生产纸样或精确3D装配。",
+        "review_status": "current-footwear-layer-reference",
+        "review_scope": "Root已检查完整图、原尺寸局部、三视及配套结构板，接受可见二维设计；隐藏踝位置和内部足床未经测量。",
+        "candidate_revision": 2,
+        "delivery_series_revision": 1,
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png",
+            "sha256": "fd2c3efe531d0858d220a06c71f975ccf9cfff425efc1590d3cd4e028fa55c8f"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png",
+            "sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/generation-provenance.json",
+          "sha256": "2b6f6c3e55ad535a7513734c59e49d58389cebcd3bd6653a6b5a14bbed71da05"
+        },
+        "single_image_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/provenance-back-v2.json",
+          "sha256": "3729d0c5c339b903b9741b20e30fcbc8b8eff2c3aec06bfbc1f9b07519c9f100"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/request-back-v2.json",
+          "sha256": "4c85e7e0d97f12d28c046760467f7953f31872d2c1d1fa92492ed7495410be0a"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Use case: stylized-concept. Create ONE entirely NEW complete full-body REAR VIEW of adult Bunny from a blank canvas, facing straight away. This is a full new drawing, not a patch.\nImage 1 is the sole authority for the character's rear pose, anatomy, hair, proportions, current clothes and socks. Preserve her slim long-legged silhouette, shoulder-waist-hip relationship, full rounded buttocks under shorts, back of the silver-white hair and relaxed hands. Image 2 is only the footwear board; use panel 04 REAR for the visible heel surfaces and the other panels only to understand parts that remain HIDDEN. Do not let front shoe details leak onto the heels.\nKeep white closed-back sleeveless high-neck crop top with back center seam and band; red cuffed shorts with rear yoke, two rear pockets and central belt loop. Character LEFT orange thigh-high sock is SCREEN LEFT; character RIGHT white calf sock is SCREEN RIGHT. Add only a correctly handed red-white boot pair. The socks flow into the collars.\nShoe backs must exactly follow panel 04: red rear pull tab, red collar and heel counter, white lining/white heel panel, white midsole, large solid BLACK heel bumper with segmented black lugs. Each outside ankle disc is only a thin side edge: far LEFT on orange-sock left boot and far RIGHT on white-sock right boot. Gray connector on the outside where visible. Inner edges between feet are plain.\nThe smaller orange circles are on the FOREFOOT near the unseen toe end, well in front of the heels. Therefore there are ZERO small orange rings or circles anywhere on the visible REAR outsole/heel surfaces in this drawing. Do not copy the little toe rings from board panel 01 onto the rear. The heel rubber is uninterrupted black. Large lateral ankle disc edge may retain its orange rim. No front tongue plaques, crossing laces, silver toe studs, front eyelets or bows appear on the heel faces. Lace knot/tails are stored in front and hidden from this rear.\n\nBody/boot fit: uniformly scale the ENTIRE reference figure about 96% for page layout on a 1024x1536 portrait, preserving every anatomical ratio and leaving roughly 50-60 pixels BELOW the socked-foot baseline for thick soles. Do not shorten calves or move ankles up independently. The original socked foot after uniform scaling fits inside the boots above the new outsole; retain its heel axis and foot room. Complete head and soles with clear margins.\nBack anatomy is based only on image 1. No front clavicles, breasts/cleavage, abdomen or belly-button markings. The high shorts cover the sacral/waist-dimple marks: no diamond marks above the waist or relocated to the waistband. Smooth natural visible lower back; shorts conform to full buttocks.\nStyle matches image 1: Japanese 2D hand-drawn clean contours, silver-white hair with pale cool cel shadows, warm skin, deep red shorts, orange left sock and white right sock. Continuous flat color fields, limited crisp hard-edged shadows. No cloudy gradients, isolated white speckles, soft airbrush shading, mosaics, noisy texture or 3D gloss. Plain white background, one figure, no labels, no added gloves/devices/thigh straps/jacket/headgear/weapon.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a16eab-299d-7cb1-81d5-5b67214508af/exec-bda3814e-6f15-4892-9592-6615e899c7b3.png",
+          "sha256": "463eb209a7e582789fb5725f88c5b4381d6884f31e6645cef8ba73a56208f4a0"
+        },
+        "baseline_sha256": "fd2c3efe531d0858d220a06c71f975ccf9cfff425efc1590d3cd4e028fa55c8f",
+        "baseline_role": "Actual design reference in the recorded request; final drawing is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1213663,
+        "sha256": "463eb209a7e582789fb5725f88c5b4381d6884f31e6645cef8ba73a56208f4a0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 729916,
+        "sha256": "7973e1f5da2efd79392bf9883a3c159c9311ebc3cb545331f1266a2b8bd7a010",
+        "alpha": false
+      }
+    },
+    {
+      "id": "footwear-v2-fresh-cel-front-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "footwear-v2-fresh-cel-front-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/shoes",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-front-native-v2.png",
+        "source_artifact_sha256": "b2fe9dfc6229eb706f430e9a5f36459c0e4e2917c2755a4a6529837de1c8c8ba",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "鞋靴层正面完整人物；整张新绘，保留生图工具原件。",
+        "scope": "当前鞋靴层三张完整人物及一张独立结构板。基模三视、图面尺寸、头部、16格表情和此前衣层资料保持。PNG与工具输出逐字节一致；结构板说明可见部件，不是生产纸样或精确3D装配。",
+        "review_status": "current-footwear-layer-reference",
+        "review_scope": "Root已检查完整图、原尺寸局部、三视及配套结构板，接受可见二维设计；隐藏踝位置和内部足床未经测量。",
+        "candidate_revision": 2,
+        "delivery_series_revision": 1,
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.png",
+            "sha256": "7165dd529f0b365404b8a07748661540617ffa57b5570a71b7e4dd47f08f9f3f"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png",
+            "sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/generation-provenance.json",
+          "sha256": "2b6f6c3e55ad535a7513734c59e49d58389cebcd3bd6653a6b5a14bbed71da05"
+        },
+        "single_image_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/provenance-front-v2.json",
+          "sha256": "e73ff8d65c065befb5937d004d22c4faa22ce5f22c1fb170a8a53a4cffdba4bb"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/request-front-v2.json",
+          "sha256": "521106bda8dfb20622b58c5a0941d5bdea5a251e19c1b11f11b4b8ee9cb3fba3"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Use case: stylized-concept. Draw ONE complete NEW full-body FRONT VIEW of the adult woman Bunny, from a blank canvas, as the next cumulative footwear layer. Do not paste or locally repair either reference.\nReference 1 is the authoritative current character and previous clothing layer: identity, slim long-legged body, face/head size, shoulder/waist/hip proportions, torso length, chest/hip volume, relaxed standing stance, silver-white hair, tiny ears close to the head, blue eyes, white high-neck sleeveless cropped top with front oval cutout, red rolled-hem shorts and asymmetric socks. Preserve these and the clean hand-drawn cel style.\nReference 2 is the newly clarified footwear direction ONLY. Its seven panels depict the RIGHT BOOT, with outer and inner faces clearly different. Adopt this exact red/white/orange/black shoe design and create a correctly handed pair for reference 1. No board, labels or other drawing from reference 2 should appear in the final.\n\nView and left/right: strict straight-on front, full hair to sole, hands relaxed to sides. Character RIGHT leg is on SCREEN LEFT and wears the WHITE calf sock. Character LEFT leg is on SCREEN RIGHT and wears the ORANGE thigh-high sock. Do not swap them or add further equipment.\nFor the WHITE-sock right boot, its outer edge is SCREEN LEFT: large black-and-orange outer-ankle disc and small orange forefoot/outsole ring must both be on the far LEFT edge. For the ORANGE-sock left boot, its outer edge is SCREEN RIGHT: both external circular details must be on the far RIGHT edge. The two inner sides between the feet have NO large ankle circles and NO little orange toe rings. In this frontal camera the lateral ankle discs are only narrow edge profiles; never turn them face-on. Differentiate each large ankle disc (near the ankle) from its smaller forefoot orange ring (near the sole).\nEach shoe: red high-top upper, white toe insert and collar lining, orange tongue under white X laces through black eyelets; closed red upper tongue flap with one gray three-slot plaque and THREE small yellow-orange squares. White knot and short tails stored inside the top tongue pocket, nothing dangling. Black front toe bumper with FOUR small silver studs, a single continuous white midsole, segmented black lug outsole with red sidewall blocks and the outer heel badge. The same exact components must be on both boots in physically correct left/right positions. Front shoes stay near-front-view rather than one being an exaggerated side view.\nFit: ankle discs sit beside the ankle joints, not halfway up the shins. Boot collars sit just above the ankles, socks flow continuously inside them, and the boots contain the existing feet. Add sole thickness below the footbed. Preserve anatomical body ratios and knee-to-ankle length; do not compress lower legs to keep the old barefoot ground line. Uniform scale of the entire figure for canvas margins is allowed; independent shrinking or shortening of legs/body is not. Leave clear white margin below the new soles, with no cropped hair or feet.\nArt: Japanese 2D hand-drawn model-sheet illustration; clean confident outlines with a little line-weight variation; continuous flat local colors; sparse clean hard-edged cel shadows only. Match reference 1's silver-white hair, pale cool hair shadows, warm skin, deep red shorts and orange sock. Smooth red fabric planes without pale/cloudy patches. Plain white background, one figure, no text.\nNo gloves, wrist devices, thigh straps/boxes, jacket, harness, headgear or weapons. No proportion redesign, fattening, short legs, long waist, flattened hips, enlarged detached ears, skin-colored hair tufts, photoreal or 3D rendering, soft airbrush shading, mosaics, flecks or mottled cloudy texture. Portrait native canvas; target 1024x1536 if available.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a16eab-299d-7cb1-81d5-5b67214508af/exec-a831e9e9-18e3-4f52-941c-4370af877dbd.png",
+          "sha256": "b2fe9dfc6229eb706f430e9a5f36459c0e4e2917c2755a4a6529837de1c8c8ba"
+        },
+        "baseline_sha256": "7165dd529f0b365404b8a07748661540617ffa57b5570a71b7e4dd47f08f9f3f",
+        "baseline_role": "Actual design reference in the recorded request; final drawing is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1607157,
+        "sha256": "b2fe9dfc6229eb706f430e9a5f36459c0e4e2917c2755a4a6529837de1c8c8ba",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 883360,
+        "sha256": "98fc7790e287156c6d87e5f65283a008a3064287de5879c352004c7f26a4f762",
+        "alpha": false
+      }
+    },
+    {
+      "id": "footwear-v2-fresh-cel-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "footwear-v2-fresh-cel-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/shoes",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-side-native-v2.png",
+        "source_artifact_sha256": "add04b9068d988046c63b2398a377ce44cad63afeb5f1f6c9c588c10f3983a7c",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "鞋靴层右侧完整人物，朝画面右侧，远侧橙袜腿自然遮挡；整张新绘，保留生图工具原件。",
+        "scope": "当前鞋靴层三张完整人物及一张独立结构板。基模三视、图面尺寸、头部、16格表情和此前衣层资料保持。PNG与工具输出逐字节一致；结构板说明可见部件，不是生产纸样或精确3D装配。",
+        "review_status": "current-footwear-layer-reference",
+        "review_scope": "Root已检查完整图、原尺寸局部、三视及配套结构板，接受可见二维设计；隐藏踝位置和内部足床未经测量。",
+        "candidate_revision": 2,
+        "delivery_series_revision": 1,
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png",
+            "sha256": "1bff3ceb095d2fad3755156925c47979b6eab42d3f69a817982b347934fc60cd"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png",
+            "sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/generation-provenance.json",
+          "sha256": "2b6f6c3e55ad535a7513734c59e49d58389cebcd3bd6653a6b5a14bbed71da05"
+        },
+        "single_image_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/provenance-side-v2.json",
+          "sha256": "30416aac0e57e77d4301201fa1627889515950d62823cf638d5c9d9d8d9d0f75"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/request-side-v2.json",
+          "sha256": "140fc7a383367e0116acc04e698c424e5b4e298f9fb61e72f83a1ddcde773d06"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Use case: stylized-concept. Draw a complete NEW full-body RIGHT SIDE PROFILE of adult Bunny, facing SCREEN RIGHT, from a blank canvas. This is a complete character drawing, not a patch or pasted footwear.\nImage 1 is the accepted current side body and cumulative clothing. Its anatomy, face, head/body ratio, chest projection, short natural waist, rounded buttocks, hanging hand, thigh/calf proportions and white sock are authoritative. Image 2 is ONLY the exact shoe construction/palette; panel 02 OUTER is the visible right boot. No frontal-character reference is supplied.\nAdd only this red-and-white boot to the visible white-sock right foot. Maintain the precisely overlapped profile pose: far orange-sock left leg and its boot are naturally hidden behind the near leg, not forced into view. Same white sleeveless high-neck crop top with barely visible front cutout, same red cuffed shorts with side/back pocket placement, same white calf sock.\n\nComposition and anatomical fit are essential: retain the complete body in image 1 at ONE consistent slightly smaller scale, approximately 96% of the reference figure, to reserve about 50-60 pixels of extra space BELOW the reference bare/socked foot for the boot sole on a 1024x1536 portrait. This is a whole-character layout adjustment, not a shorter calf or smaller foot. Keep head-to-body, shoulder-to-hip, thigh-to-calf and knee-to-ankle ratios unchanged. The original socked heel/sole position, after this uniform whole-character scaling, is the shoe's INTERNAL footbed; the thick outsole must lie BELOW it. Do not place the new external sole on the old internal footbed and push the foot upward. Keep the toe room and heel-under-calf axis anatomically plausible. Full hair and soles with white margins. Do not crop.\nThe ankle circle sits beside the actual ankle area, with the calf continuing down inside the shaft to the foot. Boot upper height modestly above the ankle, not halfway to the knee. Outer lateral right boot has toe pointing RIGHT, heel LEFT, clean white midsole over black segmented lug outsole and red sidewall blocks. Red upper, white toe insert, orange tongue, white crossing laces through black eyelets, white collar lining. Large black orange-ring disc near outer ankle; its short connecting link AND ROUND UPPER ANCHOR are SILVER GRAY, exactly as board panel 02. The round upper anchor is not red. Keep silver-gray hardware distinct from surrounding red fabric. The separate small orange forefoot ring is on the toe-side outsole at RIGHT; yellow-orange badge is on heel sidewall at LEFT.\nClosed upper red tongue flap carries gray plaque with three vertical dark slots and three small yellow-orange squares. White knot and short tails entirely inside its top pocket; crossing laces visible below, no loose tails. Rear red pull tab. No front toe face artificially rotated to expose hidden details.\nPreserve silver-white layered hair, blue visible eye, narrow close-fitting ear under side hair, warm skin and clean proportions. Japanese hand-drawn 2D linework with weighted contours, continuous flat local color and sparse HARD-EDGE cel shadows. Skin and red cloth have no cloudy mottled paint, white flecks, soft airbrush patches or grain. Keep chest and buttock volume from the primary reference rather than flattening them.\nOne full character on white background, no text. No gloves, devices, straps, jacket, headgear or weapon. No change in anatomical proportions or mixed front/profile anatomy.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a16eab-299d-7cb1-81d5-5b67214508af/exec-37cb219c-b426-4ddc-8539-4a23e5d00e1e.png",
+          "sha256": "add04b9068d988046c63b2398a377ce44cad63afeb5f1f6c9c588c10f3983a7c"
+        },
+        "baseline_sha256": "1bff3ceb095d2fad3755156925c47979b6eab42d3f69a817982b347934fc60cd",
+        "baseline_role": "Actual design reference in the recorded request; final drawing is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1419177,
+        "sha256": "add04b9068d988046c63b2398a377ce44cad63afeb5f1f6c9c588c10f3983a7c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 815136,
+        "sha256": "9f495e0e27fa610a9f99749257bfaf4466c791f16a4eeb472180740c26301413",
+        "alpha": false
+      }
+    },
+    {
+      "id": "footwear-v2-layer3-construction-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "footwear-v2-layer3-construction-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/shoes",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/footwear-construction-native-v2.png",
+        "source_artifact_sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "鞋靴独立结构板，同一只右鞋的各面、鞋底、分层与鞋带收纳；整张新绘，保留生图工具原件。",
+        "scope": "当前鞋靴层三张完整人物及一张独立结构板。基模三视、图面尺寸、头部、16格表情和此前衣层资料保持。PNG与工具输出逐字节一致；结构板说明可见部件，不是生产纸样或精确3D装配。",
+        "review_status": "current-footwear-layer-reference",
+        "review_scope": "Root已检查完整图、原尺寸局部、三视及配套结构板，接受可见二维设计；隐藏踝位置和内部足床未经测量。",
+        "candidate_revision": 2,
+        "delivery_series_revision": 1,
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/09-footwear-construction.png",
+            "sha256": "ca0665da34aa1c7fffd0ce8258bf1baf44f8892717997352704333c5608eeb6c"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/generation-provenance.json",
+          "sha256": "2b6f6c3e55ad535a7513734c59e49d58389cebcd3bd6653a6b5a14bbed71da05"
+        },
+        "single_image_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/provenance-construction-v2.json",
+          "sha256": "ed502a373e276026da22fee65cc41deda714683972dff5dbc84db0d3af8c9132"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-footwear-skill-trial-20261025/request-construction-v2.json",
+          "sha256": "c4bf7c74e906d1711ac90b8846cccc7de1de25f8b9e5fa528a3f028f666e2669"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Use case: stylized-concept. Create one COMPLETELY NEW hand-drawn anime footwear design breakdown board from a blank canvas. White landscape canvas, crisp weighted black outlines, flat red/white/orange/charcoal shapes, limited hard-edged cel shadows. The provided historical image is a footwear-shape reference only. It depicts a left boot in some panels; this new board must consistently depict the RIGHT boot, so do not copy its front-view left/right placement. Do not reuse its page title or explanatory writing.\nMake seven numbered panels: 01 FRONT, 02 OUTER, 03 INNER, 04 REAR across the upper row; 05 SOLE, 06 LAYERS, 07 LACES below. Drawings dominant, neat small labels, no extra prose. This is an exterior design explanation, not engineering and no physical dimensions.\n\nEvery full shoe is the SAME RIGHT BOOT:\n01 FRONT points at viewer: outside is SCREEN LEFT. The outside ankle black/orange circular clasp is seen as a narrow black-and-gray side edge just beyond the LEFT ankle silhouette, not face-on. Small orange ring on the outside toe bumper is at the far LEFT toe edge. The inside right edge has neither circular part. Four silver studs on the frontal black toe bumper. Do not turn this boot into an oblique view.\n02 OUTER is true lateral profile with TOE POINTING RIGHT: show big orange-ring black ankle clasp at heel/ankle on left of this profile; short gray link joins it to red upper collar. Show separate small orange ring near the toe on the right. Red heel sidewall below the ankle has a small yellow-orange badge.\n03 INNER is true medial profile with TOE POINTING LEFT: plain red-and-white ankle, NO big circle, no gray link, no small orange toe ring, no yellow heel badge. Same shoe silhouette and color-blocked seams otherwise.\n04 REAR points heel at viewer: outside is SCREEN RIGHT, so the large ankle clasp is only a thin side edge at far right. Red centered pull tab, white padded collar lining, red heel counter, white heel region and black lugs align.\n05 SOLE bottom view TOE POINTING RIGHT, show matching black segmented lugs, narrower waist channel, forefoot/heel orange inserts. No invented mechanical features.\n\n06 LAYERS uses the SAME RIGHT-BOOT OUTER PROFILE, TOE POINTING RIGHT, but separates ONLY THREE exterior assemblies vertically with thin dashed alignment lines:\nTOP: complete red-and-white UPPER with tongue, white crossing laces, white toe inset, collar and attached outer ankle clasp. It ends at a plain thin lower edge at foot level. It has NO white midsole band, NO black outsole, NO red protruding sole blocks, and NO yellow heel badge.\nMIDDLE: one continuous solid WHITE MIDSOLE shape following the foot, and no red or black parts.\nBOTTOM: one BLACK SEGMENTED OUTSOLE containing ALL protruding RED sidewall blocks, including the red heel block with its yellow-orange badge and the separate small orange ring on outer forefoot. Exactly ONE set of red bottom blocks, on this BOTTOM assembly only.\nThe three silhouettes line up and would reassemble into panel 02, without duplicated sole bands or red blocks. This diagram is simple visible component separation, no hidden internals, no fasteners, no claims about fabrication.\n\n07 LACES has two isolated CENTRAL TONGUE close-ups only, with NO side ankle components or hardware in either inset. Left: lift the upper red tongue cover to expose a compact tied WHITE knot with short loops and two SHORT tails sitting entirely inside the orange upper-tongue pocket. Right: cover lowered, knot/tails hidden in the pocket; lower white crossing laces remain visible. The red tongue cover face has a gray rectangle containing THREE dark vertical slots and exactly THREE small yellow-orange squares beneath.\n\nConsistent design everywhere: red upper, orange tongue underneath white crossed laces through black eyelets, white toe inset, white padded lining, white midsole, red accents on segmented black lug outsole; four silver toe bumper dots. Large outside ankle clasp and small outside forefoot orange ring are different pieces and never placed on the inner ankle/inner toe. Refined low high-top boot silhouette and believable foot room. No human body, no socks, no weapons or other equipment. Clean flat local colors, no airbrush gradient, mottling, white speckles or tiny noisy texture.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/09-footwear-construction.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a16eab-299d-7cb1-81d5-5b67214508af/exec-7c6130ca-716d-44da-9903-6f218954a1ba.png",
+          "sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33"
+        },
+        "baseline_sha256": "ca0665da34aa1c7fffd0ce8258bf1baf44f8892717997352704333c5608eeb6c",
+        "baseline_role": "Actual design reference in the recorded request; final drawing is native imagegen output, not a locally edited pixel parent.",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/09-footwear-construction.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/footwear-v2-layer3-construction-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1568210,
+        "sha256": "8ff120c6c21da66cb1f9dec6bcdf31f6819e06cb1cf87a2d5dde9b00747adc33",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/footwear-v2-layer3-construction-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1020212,
+        "sha256": "bcfbc2602c02176161842b31f2b14e7dae8ec95754abdfb1e29e9cdb4a0314aa",
         "alpha": false
       }
     },
@@ -5492,8 +5787,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 125238873,
-      "sha256": "3fdbce633fed347dae64490b932a0645bc5c2f6d93a5e6e0b14bb223b908f7a5"
+      "bytes": 130129642,
+      "sha256": "ad568732089702ee1a07c0c8597808d3bec6ea927198b380ce364bf3a21e3523"
     }
   ]
 }

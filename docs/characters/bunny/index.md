@@ -9,14 +9,14 @@ aside: true
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)三组三视共九张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。本次完整重绘首层衣装和袜装的正面、背面，以及中性头部卡和袜装结构板，共六张，核对平涂固有色、硬边阴影与云斑杂纹。基模三视及图面尺寸、16格表情、两张侧面人物和白衣／红裤结构板保持；鞋靴与后续装备尚未同步。旧图与旧尺寸记录保留作沿革参考。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)与[鞋靴](/characters/bunny/shoes)四组三视共十二张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。本次新增鞋靴层正、侧、背三张完整人物及一张独立结构板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；手部、腿部、外套等后续装备尚未同步。旧鞋资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
 
 ## 本轮补充
 
 - [当前基模图面尺寸与比例](/characters/bunny/dimensions)：头身比、肩腰胯宽与躯干腿长分别按三视记录，文胸衣物截面已重新测量，厘米身高尚未设定。
 - [v2中性头部样板](/characters/bunny/face)：完整重绘，核对清楚线稿、平涂与硬边色块；[16格表情](/characters/bunny/expressions)保留已复核稿。
 - [红护环开合结构](/characters/bunny/hands#cuff-opening)：铰链、锁扣与手套腕口关系。
-- [鞋带结与尾端收纳](/characters/bunny/shoes#鞋带收尾与收纳)、[坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
+- [当前鞋带结与尾端收纳结构](/characters/bunny/shoes#footwear-construction)、[既有坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
 
 这些补图作为现有分层三视的延伸。武器实握、固定座/取出过程与原稿持锯角色卡仍待补齐，现有收纳图继续用于结构参考。
 
