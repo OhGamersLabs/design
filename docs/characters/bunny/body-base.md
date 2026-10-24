@@ -12,19 +12,23 @@ import styleComparison from './body-style-comparison.json'
 
 <span id="gray-proportion-review"></span>
 
-::: info 本轮正面上衣色块修订
-在已完成头部同步的 **v2** 身体图上，仅清理正面运动上衣下围内部的软灰暗带，使这一小块深色面更干净、连续，保留原衣缘与主褶线。
-
-头颈、皮肤、手脚和身体比例轮廓沿用修订前的完整身体图。[中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)继续沿用。穿戴装备与尺寸资料尚未同步，其他既有图尚未逐张重绘。
+::: warning 当前工作稿
+基模仍在修订；暂不进入后续衣层同步。下方保留当前身体图与各阶段对照，不代表基模已完成。
 :::
 
-## 本轮修订三视图
+::: info 本轮正面上衣色块修订
+在此前尝试同步头部的 **v2** 身体稿上，仅清理正面运动上衣下围内部的软灰暗带，使这一小块深色面更干净、连续，保留原衣缘与主褶线。
+
+头颈、皮肤、手脚和身体比例轮廓沿用修订前的身体工作稿。[中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)继续沿用。穿戴装备与尺寸资料尚未同步，其他既有图尚未逐张重绘。
+:::
+
+## 当前身体工作稿
 
 <ReleaseImage src="/characters/bunny/3.1.0/body-v2-detail-refined-v1.webp" original="/media/bunny/3.1.0/body-v2-detail-refined-v1.png" alt="v2身体三视：仅修整正面上衣下围内部深色色块，保留头部、身体形体及侧背视图" caption="v2 · 上衣下围色块修订" />
 
 ## 形体局部修订至当前稿对照 {#v2-style-comparison}
 
-左侧为已完成形体局部修订的 v2，右侧包含后续画风、头部同步及本轮正面上衣下围色块修订。身体腰腿、侧腰、胸臀与站姿保持；此前头部五官关系与发束的变化可与中性样板一起核对。
+左侧为此前形体局部修订的 v2，右侧包含后续画风调整、头部同步尝试及本轮正面上衣下围色块修订。身体腰腿、侧腰、胸臀与站姿保持；此前头部五官关系与发束的变化可与中性样板一起核对。
 
 <BodyProportionCompare :previous="styleComparison.previous" :candidate="styleComparison.candidate" />
 
@@ -41,20 +45,20 @@ import styleComparison from './body-style-comparison.json'
 ## 本轮局部填色前参考 {#before-front-band-refinement}
 
 <details>
-<summary>已同步头部的完整身体 · 上衣色块修订前</summary>
+<summary>v2头部同步尝试稿 · 上衣色块修订前</summary>
 
-本轮以这张完整身体图为基础，保留头部与身体形体，只修整正面上衣下围内部的色面。
+本轮以这张头部同步尝试稿为基础，保留原有头部与身体形体，只修整正面上衣下围内部的色面；头部同步尚需继续修订。
 
-<ReleaseImage src="/characters/bunny/3.1.0/body-v2-head-refined-v1.webp" original="/media/bunny/3.1.0/body-v2-head-refined-v1.png" alt="上衣下围局部填色前的完整v2身体三视，历史参考" caption="v2头部同步身体 · 上衣色块修订前" />
+<ReleaseImage src="/characters/bunny/3.1.0/body-v2-head-refined-v1.webp" original="/media/bunny/3.1.0/body-v2-head-refined-v1.png" alt="v2头部同步尝试稿，上衣下围局部填色前的历史参考" caption="v2头部同步尝试稿 · 上衣色块修订前" />
 
 </details>
 
-## 头部同步前参考 {#before-head-revision}
+## 头部同步尝试前参考 {#before-head-revision}
 
 <details>
 <summary>上次赛璐璐身体 · 头部修订前</summary>
 
-此图保留本轮头部修改前的身体状态，用于核对身体形体与原有发束、眼部画法；当前头部以上方同步稿及中性样板为准。
+此图保留本轮头部修改前的身体状态，用于核对身体形体与原有发束、眼部画法。可与上方头部同步尝试稿及中性样板对照，身体稿中的头部仍待修订。
 
 <ReleaseImage src="/characters/bunny/3.1.0/body-v2-cel-refined-v1.webp" original="/media/bunny/3.1.0/body-v2-cel-refined-v1.png" alt="头部修订前的v2赛璐璐身体三视，历史参考" caption="v2赛璐璐身体 · 头部修订前" />
 

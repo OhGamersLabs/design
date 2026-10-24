@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 48,
+  "asset_count": 47,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -20,7 +20,7 @@
         "page": "https://design.ohgamers.org/characters/bunny/",
         "baseline_sha256": "7307c3e2e7208eb03b1621d1031c2713067b32661ccc536d6b130a1830367afd",
         "review_status": "historical-baseline-2026-10-18",
-        "description": "2026-10-18旧基准沿革；保留原图与图内当时的最新基模说明，当前制作依据为v2身体、精修头部和16格表情。"
+        "description": "2026-10-18旧基准沿革；保留原图与图内当时的最新基模说明。当前修订从v2身体工作稿、精修头部和16格表情继续，基模尚未完成。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/00-origin-positioning.png",
@@ -111,8 +111,8 @@
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/03-innerwear-coverage.png",
         "page": "https://design.ohgamers.org/characters/bunny/innerwear",
         "baseline_sha256": "48d913983e75ed7e6e44f155c7bc8fb7b83e3de7594ad4c41a8a19fc4ff7ba7e",
-        "review_status": "historical-before-v2-innerwear-sync",
-        "description": "原03衣层参考：保留旧身体与旧头部上的穿戴关系，用于设计沿革；当前贴身衣层以v2同步三视为准。"
+        "review_status": "existing-innerwear-reference",
+        "description": "原03衣层参考：保留旧身体与旧头部上的穿戴关系，作为既有参考；尚未与当前v2工作稿同步。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/03-innerwear-coverage.png",
@@ -144,7 +144,7 @@
         "page": "https://design.ohgamers.org/characters/bunny/innerwear",
         "baseline_sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1",
         "review_status": "existing-garment-construction-reference",
-        "scope": "保留既有款式结构，尚未按本轮画风重绘；当前穿着比例与画法以v2贴身衣层三视为准。"
+        "scope": "保留既有款式结构，尚未按本轮画风重绘或与当前v2工作稿同步；基模仍在修订，暂不进入后续衣层同步。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/04-white-top-construction.png",
@@ -176,7 +176,7 @@
         "page": "https://design.ohgamers.org/characters/bunny/innerwear",
         "baseline_sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d",
         "review_status": "existing-garment-construction-reference",
-        "scope": "保留既有款式结构，尚未按本轮画风重绘；当前穿着比例与画法以v2贴身衣层三视为准。"
+        "scope": "保留既有款式结构，尚未按本轮画风重绘或与当前v2工作稿同步；基模仍在修订，暂不进入后续衣层同步。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/05-red-shorts-construction.png",
@@ -1074,7 +1074,7 @@
         "source_artifact_sha256": "780dcbbea754db2bf76ff349ce093b0356fa150c1d3348f206d41e194dc2a516",
         "review_status": "historical-before-head-revision",
         "description": "v2 · 手绘线稿与赛璐璐修订：日系二次元手绘线稿、平涂主色和硬边阴影；保留已修订v2的腰腿比例、胸臀轮廓、站姿与色系。",
-        "scope": "本轮头部同步前的赛璐璐身体参考；保留用于回溯画风与身体形体。"
+        "scope": "本轮头部同步尝试前的赛璐璐身体参考；保留用于回溯画风与身体形体。"
       },
       "original": {
         "path": "/media/bunny/3.1.0/body-v2-cel-refined-v1.png",
@@ -1106,10 +1106,10 @@
         "based_on": "/media/bunny/3.1.0/body-v2-head-refined-v1.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-body-finish-audit/deterministic-band-fix/bunny-v2-body-band-flat-local-v2.png",
         "source_artifact_sha256": "a462c4fcc71b252588ff07cab9a1a774e20988def1ec8424e176747ef0d8a1ad",
-        "review_status": "local-front-garment-color-refinement",
+        "review_status": "local-body-work-in-progress",
         "method": "deterministic-local-color-fill",
         "description": "v2 · 上衣下围色块修订：仅清理正面运动上衣下围内部的软灰暗带，保留原衣缘、主褶线与身体形体。",
-        "scope": "头部、皮肤、手脚及身体比例轮廓保持；头部基准和16格表情不变，穿戴装备与尺寸未同步。",
+        "scope": "当前工作稿，基模仍在修订，头部与中性样板的对应关系待核对；暂不进入后续衣层同步。本次撤出衣层不改变身体图、头部基准和16格表情原件，穿戴装备与尺寸未同步。",
         "reference_chain": [
           {
             "role": "sole-clean-full-image-source",
@@ -1183,8 +1183,8 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-head-expression-style/bunny-v2-body-head-sync-v2.png",
         "source_artifact_sha256": "dbc608ca5423142208c7ccac90556ca08c25c0a33f5be8c3b0d83dc5f62d603c",
         "review_status": "historical-before-front-garment-color-refinement",
-        "description": "v2 · 头部同步身体三视：五官关系、蓝眼共同视线与银白发束按中性样板重新校准，保持腰腿、侧腰、胸臀与站姿。",
-        "scope": "本轮正面上衣下围色块修订前的完整身体参考；已同步的头部、身体形体与16格身份仍沿用。",
+        "description": "v2 · 头部同步尝试稿：依据中性样板尝试调整五官与银白发束，保留腰腿、侧腰、胸臀与站姿；头部对应关系仍待核对。",
+        "scope": "正面上衣下围色块修订前的身体尝试稿，保留为历史参考；头部同步尚未完成，不能作为已经统一的身体基准。",
         "reference_chain": [
           {
             "role": "accepted-full-body-foundation",
@@ -1398,7 +1398,7 @@
         "source_artifact_sha256": "5644fa554fdcd666b0b40d61679dd1e91f2240a4041695cd965251e423625677",
         "review_status": "local-head-synchronized-expression-sheet",
         "description": "v2 · 16格表情：沿用本轮中性头部的身份、画风、银白发与蓝眼；保留原16项表情及4×4顺序。",
-        "scope": "与中性头部及当前身体三视同步的16格表情；穿戴装备与尺寸未同步。",
+        "scope": "按中性头部样板修订的16格表情；身体三视中的头部仍为同步尝试稿，对应关系待核对。穿戴装备与尺寸未同步。",
         "reference_chain": [
           {
             "role": "identity-style-hair-and-eye-reference",
@@ -1467,7 +1467,7 @@
         "source_artifact_sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
         "review_status": "local-neutral-head-reference",
         "description": "v2中性头部样板：校准双眼共同视线、自然表情不对称与发束分组；银白主色配少量冷灰蓝硬边阴影。",
-        "scope": "中性头部样板已同步到当前身体三视与16格表情；穿戴装备与尺寸未同步。",
+        "scope": "中性头部样板作为16格表情的身份与画风参考；身体三视中的头部仍为同步尝试稿，对应关系待核对。穿戴装备与尺寸未同步。",
         "reference_chain": [
           {
             "stage": "current-body-head-crops",
@@ -1547,115 +1547,6 @@
       }
     },
     {
-      "id": "innerwear-v2-cel-v1",
-      "character": "bunny",
-      "version": "3.1.0",
-      "title": "innerwear-v2-cel-v1",
-      "source": {
-        "kind": "revised-reference",
-        "baseline_sha256": "a462c4fcc71b252588ff07cab9a1a774e20988def1ec8424e176747ef0d8a1ad",
-        "based_on": "/media/bunny/3.1.0/body-v2-detail-refined-v1.png",
-        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/body-v2-innerwear-three-view-v2.png",
-        "source_artifact_sha256": "9925d948442ef00f71103121359a9018d551356cedc36054367edcec56811b25",
-        "review_status": "local-v2-innerwear-three-view",
-        "method": "crop-only-garment-generation-and-deterministic-layer-composition",
-        "description": "v2 · 贴身衣层三视：在已验收身体上同步白色上衣和红色短裤，保留头部、手脚与腰腿比例；衣物采用平涂与硬边阴影。",
-        "scope": "仅同步贴身衣层；其余衣层、装备与尺寸尚未同步。旧03保留为历史，04/05保留既有款式结构。",
-        "reference_chain": [
-          {
-            "role": "locked-original-body-not-resampled",
-            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-detail-refined-v1.png",
-            "sha256": "a462c4fcc71b252588ff07cab9a1a774e20988def1ec8424e176747ef0d8a1ad"
-          },
-          {
-            "role": "old03-waist-placement-reference-only",
-            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/03-innerwear-coverage.png",
-            "sha256": "48d913983e75ed7e6e44f155c7bc8fb7b83e3de7594ad4c41a8a19fc4ff7ba7e"
-          },
-          {
-            "role": "existing-garment-construction-reference",
-            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/04-white-top-construction.png",
-            "sha256": "6a39979ce4bf551520e2a409543c962f629c1ed855c154e2561b7897e2de1bd1"
-          },
-          {
-            "role": "existing-garment-construction-reference",
-            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/05-red-shorts-construction.png",
-            "sha256": "4b2f0600aa5fe0dc78ba89cb5464ff006e01afaa6b06f7f628b812c0cb25b19d"
-          },
-          {
-            "role": "accepted-front-sample-preserved-in-full-sheet",
-            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/body-v2-innerwear-front-sample-v2.png",
-            "sha256": "540cb2ea4e6583b85551ec1cfcdb0e26ae750763352698e4d793cefcab6aaca0"
-          }
-        ],
-        "generation_provenance": {
-          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/final-artifact-provenance.json",
-          "sha256": "2ea58db4cbfd1f82a967fc4893be74cf35075f45ce7590935bf6e5473ce893e9",
-          "contents": "Exact paths and SHA-256 for front/side/back original-pixel crops, three builtin requests and prompts, original generated outputs, native/full garment layers, masks and reproduction scripts.",
-          "method": "Three crop-only garment candidates; generated skin and white background were not adopted. Garment outlines and seams retained, flat colors and hard-edged shadows composed only within clothing coverage. Source a462 was not globally generated or resampled."
-        },
-        "edit_evidence": [
-          {
-            "role": "combined-garment-rgba-layer",
-            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/innerwear-all-views-layer-v2.png",
-            "sha256": "d8582cef634e37d7b9eb65f1be327c46d58e2a123e4fad053df917656639850f"
-          },
-          {
-            "role": "combined-garment-coverage-mask",
-            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/innerwear-all-views-coverage-mask-v2.png",
-            "sha256": "818d463b59d3d0922716ef23a6c1513164490769d5f085c5d4b0da5756774c01"
-          },
-          {
-            "role": "side-foreground-arm-protection-mask",
-            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/side-foreground-arm-protect-v2.png",
-            "sha256": "2be2d01916556f28f01f4516aceba67b43c2bcb8e6d6acdd672bd01547660d1a"
-          },
-          {
-            "role": "front-layer-compositor-and-parameters",
-            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/compose_front_innerwear_v2.py",
-            "sha256": "18598a4c81ec7c1ec402e99b997ef11030eadb13e8883d08746169d0fb659a2d"
-          },
-          {
-            "role": "side-back-compositor-and-parameters",
-            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-v2-innerwear-layer-study/compose_three_view_innerwear_v2.py",
-            "sha256": "b28c079c2a57a4dceaeb3f0cba3d13bd6e1eac1d051252d5e87f2139dc30c998"
-          },
-          {
-            "role": "independent-visual-and-pixel-review",
-            "path": "/private/tmp/bunny-innerwear-independent-qa-20261024/three-view-v2/review.md",
-            "sha256": "6165d2a4270b85ec6704d7cdb1b3f1f889da12b6ac2c194661e46bca395ba710"
-          }
-        ],
-        "pixel_verification": {
-          "changed_from_a462_rgba_pixels": 66254,
-          "outside_all_garment_masks_rgba_differences": 0,
-          "front540c_changed_pixels": 0,
-          "side_foreground_arm_protected_pixels": 13225,
-          "side_foreground_arm_rgba_differences": 0,
-          "alpha_unchanged": true,
-          "all_layers_reconstruct_final": true
-        }
-      },
-      "original": {
-        "path": "/media/bunny/3.1.0/innerwear-v2-cel-v1.png",
-        "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1289298,
-        "sha256": "9925d948442ef00f71103121359a9018d551356cedc36054367edcec56811b25",
-        "alpha": false
-      },
-      "web": {
-        "path": "/characters/bunny/3.1.0/innerwear-v2-cel-v1.webp",
-        "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 917230,
-        "sha256": "a9a79e4d04e5b6ae353046b6b0fd4d8c77464b0edd908514f943c9a496053c8e",
-        "alpha": false
-      }
-    },
-    {
       "id": "outfit-pose-current",
       "character": "bunny",
       "version": "3.1.0",
@@ -1719,8 +1610,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 72808614,
-      "sha256": "20a33a5439f9886e7e3cbc52b11183e6155c133c99a019f6ad4cf2ee52cccb4e"
+      "bytes": 71517308,
+      "sha256": "aae21423780e628634e20c92129dfbc04d676eb6cb327e73611b9bc410e56713"
     }
   ]
 }

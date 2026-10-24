@@ -1,7 +1,7 @@
 {
-  "status": "local-front-garment-color-refinement",
+  "status": "local-body-work-in-progress",
   "alignment": "approximate image-plane hair crown/floor; equal uniform scaling, not anatomical measurements",
-  "scope": "原v2比例底子与当前身体基准对照；包含已完成的头部同步和当前正面上衣下围色块修订，身体腰腿胸臀与站姿保持，穿戴装备与尺寸未同步",
+  "scope": "原v2比例底子与当前身体工作稿对照；包含头部同步尝试和正面上衣下围色块修订，头部与中性样板的对应关系待核对；身体腰腿胸臀与站姿保持，暂不进入后续衣层同步，穿戴装备与尺寸未同步",
   "previous": {
     "label": "v2 · 比例底子",
     "src": "/characters/bunny/3.1.0/body-v2-proportion-reference.webp",

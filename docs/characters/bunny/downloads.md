@@ -9,9 +9,8 @@ aside: true
 
 ## 3.1.0 本地修订
 
-- [v2 · 贴身衣层三视 PNG](/media/bunny/3.1.0/innerwear-v2-cel-v1.png)
 - [v2 · 上衣下围色块修订 PNG](/media/bunny/3.1.0/body-v2-detail-refined-v1.png)
-- [v2头部同步身体 · 上衣色块修订前 PNG](/media/bunny/3.1.0/body-v2-head-refined-v1.png)
+- [v2头部同步尝试稿 · 上衣色块修订前 PNG](/media/bunny/3.1.0/body-v2-head-refined-v1.png)
 - [v2赛璐璐身体 · 头部修订前 PNG](/media/bunny/3.1.0/body-v2-cel-refined-v1.png)
 - [原v2局部修订 · 画风对照 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png)
 - [v2比例底子 · 对照参考 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png)
@@ -23,7 +22,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-贴身衣层三视已在当前 v2 身体上同步白色上衣与红色短裤，身体、头部和16格表情原件保持。其余衣层、装备及尺寸尚未同步。原图包保留新衣层、旧03、各阶段身体与全部既有原图；清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
+当前身体图是工作稿，基模仍在修订；暂不进入后续衣层同步。本次衣层候选未获采用，已从当前下载与原图包撤出。身体、头部和16格表情原件保持；原图包保留旧03、各阶段身体与全部既有原图，清单记录各自状态与来源哈希。原01与旧尺寸板作为沿革资料保留。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -33,9 +32,9 @@ aside: true
 
 ## 贴身衣层
 
-<ul><li><a href="/media/bunny/3.1.0/innerwear-v2-cel-v1.png">v2 · 贴身衣层三视</a></li><li><a href="/media/bunny/3.1.0/03-innerwear-coverage.png">原03 · v2同步前衣层参考</a></li><li><a href="/media/bunny/3.1.0/04-white-top-construction.png">白色上衣 · 既有款式结构参考</a></li><li><a href="/media/bunny/3.1.0/05-red-shorts-construction.png">红色短裤 · 既有款式结构参考</a></li></ul>
+<ul><li><a href="/media/bunny/3.1.0/03-innerwear-coverage.png">原03 · 既有贴身衣层参考</a></li><li><a href="/media/bunny/3.1.0/04-white-top-construction.png">白色上衣 · 既有款式结构参考</a></li><li><a href="/media/bunny/3.1.0/05-red-shorts-construction.png">红色短裤 · 既有款式结构参考</a></li></ul>
 
-04、05保留原始款式结构，尚未按本轮画风重绘；当前穿着比例与画法以v2贴身衣层三视为准。
+03保留既有穿着参考，04、05保留原始款式结构；这些资料尚未与当前v2工作稿同步，也未按本轮画风重绘。
 
 ## 袜装
 

@@ -8,7 +8,7 @@ releaseReady: false
 
 银白短发、蓝眼、脸型与五官关系沿用本轮[中性头部样板](/characters/bunny/face)。保持手绘线稿与赛璐璐色块，情绪变化由眉眼和嘴型共同承担；眼睛保持蓝色，不因惊讶、担忧或兴奋改变瞳色。
 
-当前[身体三视](/characters/bunny/body-base)已同步同一中性头部。穿戴装备与尺寸资料尚未同步。
+当前[身体三视](/characters/bunny/body-base)中的头部仍为同步尝试稿，与中性样板的对应关系尚需核对。穿戴装备与尺寸资料尚未同步。
 
 <ReleaseImage src="/characters/bunny/3.1.0/expressions-v2-cel-v1.webp" original="/media/bunny/3.1.0/expressions-v2-cel-v1.png" alt="Bunny v2的16格表情：中性、微笑、大笑、惊讶、生气、怒喊、鼓腮、怀疑、疲倦、含泪、大哭、担忧、眨眼、会心笑、兴奋与安心" caption="v2 · 16 格表情" />
 

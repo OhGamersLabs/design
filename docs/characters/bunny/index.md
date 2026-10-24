@@ -7,13 +7,13 @@ aside: true
 
 白发、兔耳、橙红衣装与露嘴护目镜共同形成角色识别。
 
-## 身体与第一层衣服
+## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：保持已验收的头部、身体比例轮廓、皮肤与手脚，页面保留局部填色前身体及更早阶段的对照。[贴身衣层三视](/characters/bunny/innerwear)已在同一身体上同步白色上衣与红色短裤；其余衣层、装备与尺寸资料尚未同步。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前工作稿，基模仍在修订；暂不进入后续衣层同步。页面保留局部填色前身体及更早阶段的对照。本次衣层候选未获采用，已撤出当前展示与下载包；[贴身衣层页](/characters/bunny/innerwear)保留既有参考。
 
 ## 本轮补充
 
-- [v2中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)：当前身体与表情已同步银白发、蓝眼、发束分组和五官关系。
+- [v2中性头部样板](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)：保留银白发、蓝眼、发束分组和五官关系的修订；身体中的头部仍是同步尝试，需继续核对。
 - [红护环开合结构](/characters/bunny/hands#cuff-opening)：铰链、锁扣与手套腕口关系。
 - [鞋带结与尾端收纳](/characters/bunny/shoes#鞋带收尾与收纳)、[坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
 
@@ -25,7 +25,7 @@ aside: true
 
 ## 设计规范
 
-当前制作依据为 [v2 身体三视基准](/characters/bunny/body-base)、[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。衣层与装备按由内到外的顺序阅读；目前已同步[贴身衣层](/characters/bunny/innerwear)，其余穿戴图和旧尺寸仍待同步。
+当前修订从 [v2 身体工作稿](/characters/bunny/body-base)、[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)继续。基模尚未完成，衣层、装备与旧尺寸未随当前工作稿同步；既有衣层与装备资料仍按由内到外的顺序阅读。
 
 下方 00 图是 **2026-10-18 的旧基准沿革**，保留原图与原字。图内“最新已确认基模”“当前锁定的制作依据”均指当时版本，不作为当前 v2 制作依据。
 
