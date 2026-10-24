@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 77,
+  "asset_count": 79,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -2409,9 +2409,9 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-hosiery-back-native-v2.png",
         "source_artifact_sha256": "8faaaf7e43f32706817bb2c81f4d3240b2807136e21c1f0e9db2908d189e87e4",
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-        "description": "袜装层 · 背面；按既定身份与款式参考完整新绘，保留内置生图工具原输出字节。",
-        "scope": "本轮基模、首层白衣红裤与袜装共九张完整新绘人物；日系手绘线稿、平涂底色与硬边赛璐璐阴影。未做图像后处理；既有三张结构板、头部与表情资料保留，其余装备尚未按本轮重绘。",
-        "review_status": "current-fresh-redraw-work-reference",
+        "description": "袜装层 · 背面；后腰遮挡修订前的完整新绘历史稿，已退出当前穿着设计基准，保留原文件与来源。",
+        "scope": "历史沿革：高腰红裤对基模固定腰窝／骶区提示的遮挡尚未修正；当前背面采用同页独立新版本。此状态不改变基模或尺寸，也不表示背部必须没有内线。",
+        "review_status": "historical-before-posterior-coverage",
         "reference_chain": [
           {
             "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-innerwear-back-native-v2.png",
@@ -2464,6 +2464,75 @@
         "height": 1536,
         "bytes": 836978,
         "sha256": "ef9a274486744fa7a42c690cfb49a82e734b779d20da428416326537a0bd5ef4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-v2-fresh-cel-back-v2",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "hosiery-v2-fresh-cel-back-v2",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/hosiery",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/hosiery-back-native-v1.png",
+        "source_artifact_sha256": "b3588082b6d250e6e7a752d129ea8ef1f277b303c7140cf2b3215020b2f00cc6",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "袜装层 · 背面；从空白画布完整新绘，修正高腰红裤对固定腰窝／骶区提示的遮挡，保留内置生图工具原输出字节。",
+        "scope": "本次仅替换首层衣装与袜装两个背面。衣物覆盖基模的固定短记号，不把记号移到裤腰边；可见后中沟保留简洁表达。基模、六张正侧面、全部测量与既有结构板保持。未做本地图像后处理。",
+        "review_status": "current-fresh-redraw-work-reference",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/innerwear-back-native-v1.png",
+            "sha256": "b938851abedd715e025ca1141b4edfa0de49791d31b1319ef2a0ed7a37f22139",
+            "size": [
+              1024,
+              1536
+            ],
+            "role": "New accepted b938 posterior anatomy, outfit, pose and clothing occlusion"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-hosiery-front-native-v1.png",
+            "sha256": "487aa2a6fa4aa96960dcc99cc7a95253ed64bde2a610fb372f03f046f6654c16",
+            "size": [
+              1024,
+              1536
+            ],
+            "role": "Frozen front487 hosiery design only, not front anatomy"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/final-two-back-provenance.json",
+          "sha256": "fe1e073957b82e7687c782d4b8e061279e42193a2118b4603bf9256e59fcd269"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/request-hosiery-back-v1.json",
+          "sha256": "b312083a5ce007c08d6715af1271912613296898ce6c006c5cfb17c62d5f650c"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-7c71f4f6-aa5a-4bea-aa61-06f41378bf7c.png",
+          "sha256": "b3588082b6d250e6e7a752d129ea8ef1f277b303c7140cf2b3215020b2f00cc6"
+        },
+        "baseline_sha256": "b938851abedd715e025ca1141b4edfa0de49791d31b1319ef2a0ed7a37f22139",
+        "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
+        "based_on": "/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1547915,
+        "sha256": "b3588082b6d250e6e7a752d129ea8ef1f277b303c7140cf2b3215020b2f00cc6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 856226,
+        "sha256": "6f95937c0afff9495263f1f8e663c426bba435b995daca1099663a4473fdce3a",
         "alpha": false
       }
     },
@@ -2860,9 +2929,9 @@
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-innerwear-back-native-v2.png",
         "source_artifact_sha256": "c5d95d2c046c638cafa7251fbf62962e4e8c4c244e04ea3965876fe4ab9ef81e",
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
-        "description": "白色上衣与红色短裤 · 背面；按既定身份与款式参考完整新绘，保留内置生图工具原输出字节。",
-        "scope": "本轮基模、首层白衣红裤与袜装共九张完整新绘人物；日系手绘线稿、平涂底色与硬边赛璐璐阴影。未做图像后处理；既有三张结构板、头部与表情资料保留，其余装备尚未按本轮重绘。",
-        "review_status": "current-fresh-redraw-work-reference",
+        "description": "第一层白色上衣与红色短裤 · 背面；后腰遮挡修订前的完整新绘历史稿，已退出当前穿着设计基准，保留原文件与来源。",
+        "scope": "历史沿革：高腰红裤对基模固定腰窝／骶区提示的遮挡尚未修正；当前背面采用同页独立新版本。此状态不改变基模或尺寸，也不表示背部必须没有内线。",
+        "review_status": "historical-before-posterior-coverage",
         "reference_chain": [
           {
             "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-back-native-v3.png",
@@ -2924,6 +2993,84 @@
         "height": 1536,
         "bytes": 848828,
         "sha256": "78e83502ed8b7e2ef11b8688dbb9cda237e32887cf58603a71a8dfe4a41355ea",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-v2-fresh-cel-back-v2",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "innerwear-v2-fresh-cel-back-v2",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/innerwear",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/innerwear-back-native-v1.png",
+        "source_artifact_sha256": "b938851abedd715e025ca1141b4edfa0de49791d31b1319ef2a0ed7a37f22139",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "第一层白色上衣与红色短裤 · 背面；从空白画布完整新绘，修正高腰红裤对固定腰窝／骶区提示的遮挡，保留内置生图工具原输出字节。",
+        "scope": "本次仅替换首层衣装与袜装两个背面。衣物覆盖基模的固定短记号，不把记号移到裤腰边；可见后中沟保留简洁表达。基模、六张正侧面、全部测量与既有结构板保持。未做本地图像后处理。",
+        "review_status": "current-fresh-redraw-work-reference",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-back-native-v3.png",
+            "sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+            "size": [
+              1024,
+              1536
+            ],
+            "role": "Accepted base995 posterior anatomy, body proportions and standing pose"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-innerwear-side-native-v1.png",
+            "sha256": "32a74e480e63e7626bc948492cdffd94323925379f72c71abf0df58abb22055e",
+            "size": [
+              1024,
+              1536
+            ],
+            "role": "Accepted side32a clothing design and height only"
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png",
+            "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+            "size": [
+              1536,
+              1024
+            ],
+            "role": "Red shorts f18 garment construction and cel-color reference only"
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/final-two-back-provenance.json",
+          "sha256": "fe1e073957b82e7687c782d4b8e061279e42193a2118b4603bf9256e59fcd269"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/posterior-lumbar/after-evidence/request-innerwear-back-v1.json",
+          "sha256": "1c119a62fdf38475d9211111714fbbb5db5e9248eef828b8298f7948c69f2598"
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a169c1-4754-7770-8f6c-ff38d565c590/exec-1b80e085-2440-4abd-9834-6a98bae9389e.png",
+          "sha256": "b938851abedd715e025ca1141b4edfa0de49791d31b1319ef2a0ed7a37f22139"
+        },
+        "baseline_sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "baseline_role": "Design reference only; complete new drawing, not a pixel-edit parent.",
+        "based_on": "/media/bunny/3.1.0/body-v2-fresh-cel-back-v1.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1451474,
+        "sha256": "b938851abedd715e025ca1141b4edfa0de49791d31b1319ef2a0ed7a37f22139",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 827212,
+        "sha256": "5f041548ad698b60e2df27dd53a97d39d230d6d3f82947bca21aaa7507d8c264",
         "alpha": false
       }
     },
@@ -4453,8 +4600,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 108200362,
-      "sha256": "1ed340dcf2d495ece9db0a75a523b038a038df0bb593e218bdebe93afe2f0c50"
+      "bytes": 110656842,
+      "sha256": "0098c425f7e6e1c8e5e15a1af4210d9b45479db39bd9862e09bf0b52a77dcf26"
     }
   ]
 }

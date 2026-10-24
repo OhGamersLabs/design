@@ -70,11 +70,20 @@ aside: true
 
 - [第一层穿着 · 正面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.png)
 - [第一层穿着 · 侧面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.png)
-- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.png)
+- [第一层穿着 · 背面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png)
 - [白色上衣 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/white-top-v2-layer1-construction-v1.png)
 - [红色短裤 · 成衣三视与接合位置 PNG](/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.png)
 
 本轮完整新绘的穿着三视各为 1024×1536；两张既有结构板各为 1536×1024，保持原图。结构板下排是部件与成衣接合位置示意，部分保留已装构件作对照；编号解释见[衣层页](/characters/bunny/innerwear)，不作为缝制顺序或裁剪纸样。
+
+<details>
+<summary>后腰遮挡修订前 · 第一层背面</summary>
+
+- [后腰遮挡修订前 · 第一层背面 PNG](/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.png)
+
+已退出当前穿着设计基准，保留原文件作沿革参考。
+
+</details>
 
 <details>
 <summary>完整新绘前 · 第一层穿着三视</summary>
@@ -122,10 +131,19 @@ aside: true
 
 - [袜装层 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.png)
 - [袜装层 · 侧面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png)
-- [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v1.png)
+- [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.png)
 - [袜装 · 结构与针织细节 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-construction-v1.png)
 
 结构说明见[袜装页](/characters/bunny/hosiery#hosiery-construction)。
+
+<details>
+<summary>后腰遮挡修订前 · 袜装背面</summary>
+
+- [后腰遮挡修订前 · 袜装背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v1.png)
+
+已退出当前穿着设计基准，保留原文件作沿革参考。
+
+</details>
 
 <details>
 <summary>完整新绘前 · 袜装穿着三视</summary>

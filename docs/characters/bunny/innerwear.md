@@ -13,17 +13,28 @@ aside: true
 
 三张完整人物稿均保留生图工具直接输出的 1024×1536 PNG，可逐张放大与下载。通过完整新绘核对衣物覆盖、腰位与前后结构，保持清楚线稿、平涂固有色和硬边阴影；不在旧人物图上贴补衣物或局部擦改。
 
+当前背面核对了高腰红裤的遮挡：基模两处短记号按固定的腰窝／骶区提示处理，衣物覆盖后不再外露，也不移到裤腰边缘；可见后中沟保持简洁自然。
+
 <div class="bunny-body-views">
 
 <ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.png" alt="完整新绘 · 白色上衣与红色短裤 · 正面" caption="v2 · 完整新绘 · 正面" />
 
 <ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.png" alt="完整新绘 · 白色上衣与红色短裤 · 侧面" caption="v2 · 完整新绘 · 侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.png" alt="完整新绘 · 白色上衣与红色短裤 · 背面" caption="v2 · 完整新绘 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.png" alt="完整新绘 · 白色上衣与红色短裤 · 背面" caption="v2 · 完整新绘 · 背面" />
 
 </div>
 
 [下载当前三张穿着稿与两张结构资料 PNG](/characters/bunny/downloads#layer1-assets)
+
+<details>
+<summary>后腰遮挡修订前 · 第一层背面</summary>
+
+旧背面已退出当前穿着设计基准，原图与下载保留供沿革对照。
+
+<ReleaseImage src="/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.png" alt="后腰遮挡修订前 · 第一层白色上衣与红色短裤背面，历史参考" caption="后腰遮挡修订前 · 历史背面" />
+
+</details>
 
 <details>
 <summary>完整新绘前 · 第一层穿着三视</summary>
