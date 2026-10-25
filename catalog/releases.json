@@ -615,6 +615,56 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hands-v2-fresh-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hands-v2-fresh-cel-back-v1.png",
+      "sha256": "32f43eabb1c1ecff24d60ca5de196ad625149ffb0037df496981081f67b31c27",
+      "size": 1534308,
+      "contentType": "image/png",
+      "downloadName": "hands-v2-fresh-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hands-v2-fresh-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hands-v2-fresh-cel-front-v1.png",
+      "sha256": "c3c347e3cfaf5ca32d737608695706f5512d732ff2b66a4dc90fa379a5656180",
+      "size": 1607090,
+      "contentType": "image/png",
+      "downloadName": "hands-v2-fresh-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hands-v2-fresh-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hands-v2-fresh-cel-side-v1.png",
+      "sha256": "7d81ad6e8c08c16dcb59b115131001ba1db1961620714d2dc2aa0d4a39ee8b89",
+      "size": 1544824,
+      "contentType": "image/png",
+      "downloadName": "hands-v2-fresh-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hands-v2-layer4-gloves-construction-v1.png",
+      "sha256": "341e045496fa25466297645ba9444a6c583e18bbd238de74ca664a24e37d2adb",
+      "size": 1317319,
+      "contentType": "image/png",
+      "downloadName": "hands-v2-layer4-gloves-construction-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hands-v2-layer4-wrist-construction-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hands-v2-layer4-wrist-construction-v1.png",
+      "sha256": "0930561b3021da8795e2f5da2ff539acf5cdd7028b5f00120d16e17d4ced0e57",
+      "size": 1449369,
+      "contentType": "image/png",
+      "downloadName": "hands-v2-layer4-wrist-construction-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/head-v2-cel-reference-v1.png",
       "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
@@ -967,8 +1017,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "68d9a1380f02788d12fab8ba7b1df4b8bf405c11a5ca5a15202c5a99d64331ba",
-      "size": 132391431,
+      "sha256": "62958efc457c929f96a5096ee1f1379e6fec6b709eb63399a872499db7d72b44",
+      "size": 138582454,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

@@ -11,7 +11,7 @@ import measurements from '../../../catalog/bunny/3.1.0/body-measurements.json'
 
 # v2 · 图面尺寸与比例
 
-本页记录[当前完整新绘的基础文胸三视](/characters/bunny/body-base)的图面读数，便于核对头身比、肩腰胯关系及躯干与腿长。三视分别记录各自原图的可见轮廓。耳发修订后的正面坐标、侧背原图与已核读数保持；当前三视作为衣层设计基准，[首层白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装层](/characters/bunny/hosiery)和[鞋靴层](/characters/bunny/shoes)均有穿着三视与匹配结构资料，其他后续装备尚未同步。本页仍记录基模，未改为衣物成品尺寸或穿鞋后总高。
+本页记录[当前完整新绘的基础文胸三视](/characters/bunny/body-base)的图面读数，便于核对头身比、肩腰胯关系及躯干与腿长。三视分别记录各自原图的可见轮廓。耳发修订后的正面坐标、侧背原图与已核读数保持；当前三视作为衣层设计基准，[首层白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装层](/characters/bunny/hosiery)、[鞋靴层](/characters/bunny/shoes)和[手部层](/characters/bunny/hands)均有穿着三视与匹配结构资料，腿部装备与之后的衣层尚未同步。本页仍记录基模，未改为衣物成品尺寸或穿鞋后总高。
 
 ::: info 图面比例与实际设定
 **H** 是可见发冠最高点至赤脚地面的图面高度；**h** 是可见发冠至下颏的头高，包含发量，不另估被头发遮住的颅顶。头身比为 H ÷ h。

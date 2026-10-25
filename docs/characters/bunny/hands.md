@@ -5,28 +5,57 @@ aside: true
 ---
 # 手部装备
 
-右手全指手套配红色护环；左手半指手套配橙色数字采集设备。不同姿势保持手指长度与关节关系。
+::: info 第四层 · 手部装备
+当前手部层沿用[白色上衣、红色短裤](/characters/bunny/innerwear)、[非对称袜装](/characters/bunny/hosiery)与[红白鞋靴](/characters/bunny/shoes)，加入左右不同的手套与腕部设备。正、侧、背三张完整人物及两张部件板均为整张新绘，保留原生 PNG、放大入口与下载。腿部装备、外套及之后的衣层尚未同步。
+:::
 
-## 手部装备累计衣层
+## 手部装备穿着三视 {#hands-wearing}
 
-<ReleaseImage src="/characters/bunny/3.1.0/13-hands-cumulative-threeview.webp" original="/media/bunny/3.1.0/13-hands-cumulative-threeview.png" alt="手部装备累计衣层" caption="手部装备累计衣层" />
+角色右手戴黑色全指手套与红色机械护环，手背至食指不设橙色装饰线；左手戴带橙色指口边的半指手套与橙色数字采集设备。正面中右手在画面左侧，背面相反。右侧视图朝画面右侧，近侧为右手；远侧手部按视角自然遮挡。
 
-## 手部装备穿戴
+三张完整人物各为 1024×1536，人物比例仍参照[当前基模与图面尺寸](/characters/bunny/dimensions)。
 
-<ReleaseImage src="/characters/bunny/3.1.0/10-hand-wearing.webp" original="/media/bunny/3.1.0/10-hand-wearing.png" alt="手部装备穿戴" caption="手部装备穿戴" />
+<div class="bunny-body-views">
 
-## 手套独立视图
+<ReleaseImage src="/characters/bunny/3.1.0/hands-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/hands-v2-fresh-cel-front-v1.png" alt="完整新绘 · 手部装备层 · 正面，右手黑色全指手套与红护环，左手半指手套与橙色采集设备" caption="v2 · 手部装备层 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/11-glove-views.webp" original="/media/bunny/3.1.0/11-glove-views.png" alt="手套独立视图" caption="手套独立视图" />
+<ReleaseImage src="/characters/bunny/3.1.0/hands-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/hands-v2-fresh-cel-side-v1.png" alt="完整新绘 · 手部装备层 · 右侧面，近侧右手黑色全指手套与红护环" caption="v2 · 手部装备层 · 右侧面" />
 
-## 腕部设备与护环
+<ReleaseImage src="/characters/bunny/3.1.0/hands-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/hands-v2-fresh-cel-back-v1.png" alt="完整新绘 · 手部装备层 · 背面，左右手套与腕部设备按角色归属侧对应" caption="v2 · 手部装备层 · 背面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/12-wrist-accessories.webp" original="/media/bunny/3.1.0/12-wrist-accessories.png" alt="腕部设备与护环" caption="腕部设备与护环 · 3.1 修订（1245 × 1263）" />
+</div>
 
-## 红护环 · 开合结构 {#cuff-opening}
+[下载当前手部三视与两张部件板 PNG](/characters/bunny/downloads#hands-assets)
 
-<ReleaseImage src="/characters/bunny/3.1.0/34-cuff-mechanism.webp" original="/media/bunny/3.1.0/34-cuff-mechanism.png" alt="红护环三部分开合外观结构：闭合、开启、铰链与锁扣接口" caption="01闭合 / 02开启 / 03铰链与锁扣接口" />
+## 手套独立视图 {#gloves-construction}
 
-红护环采用双半壳、内侧竖轴铰链和外侧齐平机械锁扣。先解锁，再绕铰链打开，包在手套腕口外闭合，无需把整只手穿过闭合圆环。黑色软内衬贴合腕口，手背根部保留屈伸空间；不配置电子功能。
+<ReleaseImage src="/characters/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.webp" original="/media/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.png" alt="手套四面部件板：右手全指手套的手背与掌面，左手半指手套的手背与掌面" caption="v2 · 手套独立视图 · 1536×1024" />
 
-本图定义开合外观和装配方向，锁扣内部公差、耐久与实际活动范围仍需制作验证。
+四格分别展示右手手背、右手掌面、左手手背和左手掌面。右手为覆盖全部手指的黑色手套，不设橙线或甲形装饰；左手露出指端，保留橙色指口边。掌面与手背按同一只手对应，不能直接镜像替换。
+
+## 腕部设备 · 开合与部件 {#cuff-opening}
+
+<ReleaseImage src="/characters/bunny/3.1.0/hands-v2-layer4-wrist-construction-v1.webp" original="/media/bunny/3.1.0/hands-v2-layer4-wrist-construction-v1.png" alt="腕部六格部件板：右红护环穿戴、开启与壳衬及单轴分离；左采集器手背屏幕、掌侧扣带与模块软带分离" caption="v2 · 腕部设备开合与部件 · 1536×1024" />
+
+右腕三格展示红护环的穿戴、开启与部件关系。两组半壳及对应黑色内衬围合在手套腕口外，内侧铰耳按 2＋1 交错关系共用一根轴，外侧以机械锁扣闭合。护环不配置电子功能，无需让整只手穿过闭合圆环。
+
+左腕三格展示橙色采集模块的手背屏幕、掌侧扣带，以及模块与连续软带分离后的对应位置。右护环的半壳结构与左采集器的软带结构分别表达。
+
+两张部件板说明可见外部部件、开合方向与接合位置，不是生产纸样；隐藏紧固方式、制造公差、耐久和实际活动范围尚未验证。侧面人物仅呈现该视角可见的护环边缘，不能据此推定遮挡内的结构。
+
+<details>
+<summary>手部完整重绘前 · 旧累计衣层、穿戴与部件资料</summary>
+
+以下五张保留旧原件与下载地址，作为款式沿革。旧图中的右手橙线属于此前方向；当前手部层以上方五张新图为准，原13累计图不作当前基模比例依据。
+
+<ReleaseImage src="/characters/bunny/3.1.0/13-hands-cumulative-threeview.webp" original="/media/bunny/3.1.0/13-hands-cumulative-threeview.png" alt="历史参考 · 旧手部装备累计衣层" caption="原13 · 旧手部装备累计衣层" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/10-hand-wearing.webp" original="/media/bunny/3.1.0/10-hand-wearing.png" alt="历史参考 · 旧手部装备局部穿戴" caption="原10 · 旧手部装备穿戴" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/11-glove-views.webp" original="/media/bunny/3.1.0/11-glove-views.png" alt="历史参考 · 旧手套独立视图" caption="原11 · 旧手套独立视图" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/12-wrist-accessories.webp" original="/media/bunny/3.1.0/12-wrist-accessories.png" alt="历史参考 · 旧腕部设备与护环" caption="原12 · 旧腕部设备与护环 · 3.1 修订（1245×1263）" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/34-cuff-mechanism.webp" original="/media/bunny/3.1.0/34-cuff-mechanism.png" alt="历史参考 · 旧红护环闭合、开启及铰链锁扣接口" caption="原34 · 旧红护环开合结构" />
+
+</details>

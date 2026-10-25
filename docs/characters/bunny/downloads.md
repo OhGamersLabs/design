@@ -22,11 +22,10 @@ aside: true
 - [v2 · 中性头部样板 PNG](/media/bunny/3.1.0/head-v2-cel-reference-v3.png)
 - [当前穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)
 - [v2 · 16 格表情 PNG](/media/bunny/3.1.0/expressions-v2-cel-v2.png)
-- [红护环开合结构 PNG](/media/bunny/3.1.0/34-cuff-mechanism.png)
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基模、首层衣装和袜装各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。本次新增鞋靴层正、侧、背三张完整人物及一张独立结构板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；手部、腿部、外套等后续装备尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；被拒候选不进入原图包。
+基模、首层衣装、袜装和鞋靴各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。本次新增手部层正、侧、背三张完整人物及手套、腕部设备两张部件板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；腿部装备、外套及之后的衣层尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -220,9 +219,28 @@ aside: true
 
 </details>
 
-## 手部装备
+## 手部装备 {#hands-assets}
 
-<ul><li><a href="/media/bunny/3.1.0/13-hands-cumulative-threeview.png">手部装备累计衣层</a></li><li><a href="/media/bunny/3.1.0/10-hand-wearing.png">手部装备穿戴</a></li><li><a href="/media/bunny/3.1.0/11-glove-views.png">手套独立视图</a></li><li><a href="/media/bunny/3.1.0/12-wrist-accessories.png">腕部设备与护环</a></li></ul>
+- [v2 · 手部装备层 · 正面原始 PNG](/media/bunny/3.1.0/hands-v2-fresh-cel-front-v1.png)
+- [v2 · 手部装备层 · 右侧面原始 PNG](/media/bunny/3.1.0/hands-v2-fresh-cel-side-v1.png)
+- [v2 · 手部装备层 · 背面原始 PNG](/media/bunny/3.1.0/hands-v2-fresh-cel-back-v1.png)
+- [v2 · 手套独立视图 · 原始 PNG](/media/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.png)
+- [v2 · 腕部设备开合与部件 · 原始 PNG](/media/bunny/3.1.0/hands-v2-layer4-wrist-construction-v1.png)
+
+当前三视与两张部件板采用右手黑色全指手套无橙线的设计，左手保留半指橙边与橙色采集设备。部件板说明可见部件与接合关系，不是生产纸样。
+
+<details>
+<summary>手部完整重绘前 · 旧累计衣层、穿戴与部件资料</summary>
+
+- [原13 · 旧手部装备累计衣层 PNG](/media/bunny/3.1.0/13-hands-cumulative-threeview.png)
+- [原10 · 旧手部装备局部穿戴 PNG](/media/bunny/3.1.0/10-hand-wearing.png)
+- [原11 · 旧手套独立视图 PNG](/media/bunny/3.1.0/11-glove-views.png)
+- [原12 · 旧腕部设备与护环 PNG](/media/bunny/3.1.0/12-wrist-accessories.png)
+- [原34 · 旧红护环开合结构 PNG](/media/bunny/3.1.0/34-cuff-mechanism.png)
+
+五张旧图保留原件与网址，右手橙线为此前方向，仅作历史参考。当前手部层见上方五张新图；未采用的本轮候选未收录。
+
+</details>
 
 ## 腿部装备
 
