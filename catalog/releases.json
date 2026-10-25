@@ -725,6 +725,66 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/harness-v2-layer7-buckle-details-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/harness-v2-layer7-buckle-details-v1.png",
+      "sha256": "4c5ef018634f59d3fbd5dedbd7afa139700412588d901cbf79d40a8e5630875e",
+      "size": 1358496,
+      "contentType": "image/png",
+      "downloadName": "harness-v2-layer7-buckle-details-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/harness-v2-layer7-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/harness-v2-layer7-cel-back-v1.png",
+      "sha256": "40e9b7d8e40856dbec63c5424c03e9eaac546c48d0cadb1ddd1ee278d2657dba",
+      "size": 1178063,
+      "contentType": "image/png",
+      "downloadName": "harness-v2-layer7-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/harness-v2-layer7-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/harness-v2-layer7-cel-front-v1.png",
+      "sha256": "ca4813c48df0463dfcb6923073173a77560bf614d50f3c195a92677b7b9f9ddb",
+      "size": 1293636,
+      "contentType": "image/png",
+      "downloadName": "harness-v2-layer7-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/harness-v2-layer7-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/harness-v2-layer7-cel-side-v1.png",
+      "sha256": "0e333abcf75e3dc3a40196f261d79e5408dbcc869e750d18b2417c16c6cf226f",
+      "size": 1152284,
+      "contentType": "image/png",
+      "downloadName": "harness-v2-layer7-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/harness-v2-layer7-components-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/harness-v2-layer7-components-v1.png",
+      "sha256": "db7b5cd3ec8f86b7a789bbd1a3ecbc47620e7e5388bb9ac03ac6c8d156c82ad8",
+      "size": 1360312,
+      "contentType": "image/png",
+      "downloadName": "harness-v2-layer7-components-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/harness-v2-layer7-waist-anchors-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/harness-v2-layer7-waist-anchors-v1.png",
+      "sha256": "e9ccfde3a783473f88f26b221e4295cb4be1bdfdd06b39027676dad60d907539",
+      "size": 1372572,
+      "contentType": "image/png",
+      "downloadName": "harness-v2-layer7-waist-anchors-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/head-v2-cel-reference-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/head-v2-cel-reference-v1.png",
       "sha256": "c08cdba7bdd18fa2512278322a9c169b91e83229b3b88b2cab4fbb0dc208f84f",
@@ -1297,8 +1357,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "4e3c3520c172e6235285ed638ebbf8bf9aea268d9b5ba0727f3249b09b30e659",
-      "size": 173863254,
+      "sha256": "649665935de35533f3973fbad5c000e9101f58bae96b6e4334fbd35041ffdf62",
+      "size": 180292957,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

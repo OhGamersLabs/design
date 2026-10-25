@@ -13,12 +13,12 @@ aside: true
 
 ## 由内到外
 
-<ol><li><a href="/characters/bunny/innerwear">贴身衣层</a>：穿着三视 → 白色上衣 → 红色短裤。</li><li><a href="/characters/bunny/hosiery">袜装</a>：穿着三视 → 针织细节。</li><li><a href="/characters/bunny/shoes">鞋靴</a>：穿着三视 → 独立结构。</li><li><a href="/characters/bunny/hands">手部装备</a>：穿着三视 → 手套独立视图 → 腕部设备开合与部件。</li><li><a href="/characters/bunny/thigh-gear">腿部盒袋与任务终端</a>：穿着三视 → 任务终端与腿带 → 维护盒袋与内容物。</li><li><a href="/characters/bunny/jacket">橙色外套</a>：穿着三视 → 独立三视与外部分解 → 局部细节。</li><li><a href="/characters/bunny/harness">承载带与固定点</a>：外套外侧位置 → 隐去外套的连接定位 → 带路、扣件与腰带。</li><li><a href="/characters/bunny/headgear">头部装备</a>：累计全身 → 头部局部 → 护目镜、耳机与兔耳配饰。</li><li><a href="/characters/bunny/assembled">武器水平收纳</a>：完整累计三视 → <a href="/characters/bunny/saw">收纳图解与比例口径</a>。</li></ol>
+<ol><li><a href="/characters/bunny/innerwear">贴身衣层</a>：穿着三视 → 白色上衣 → 红色短裤。</li><li><a href="/characters/bunny/hosiery">袜装</a>：穿着三视 → 针织细节。</li><li><a href="/characters/bunny/shoes">鞋靴</a>：穿着三视 → 独立结构。</li><li><a href="/characters/bunny/hands">手部装备</a>：穿着三视 → 手套独立视图 → 腕部设备开合与部件。</li><li><a href="/characters/bunny/thigh-gear">腿部盒袋与任务终端</a>：穿着三视 → 任务终端与腿带 → 维护盒袋与内容物。</li><li><a href="/characters/bunny/jacket">橙色外套</a>：穿着三视 → 独立三视与外部分解 → 局部细节。</li><li><a href="/characters/bunny/harness">承载带与固定点</a>：累计穿戴三视 → 独立三视与部件 → 扣件细节 → 腰带与固定点。</li><li><a href="/characters/bunny/headgear">头部装备</a>：累计全身 → 头部局部 → 护目镜、耳机与兔耳配饰。</li><li><a href="/characters/bunny/assembled">武器水平收纳</a>：完整累计三视 → <a href="/characters/bunny/saw">收纳图解与比例口径</a>。</li></ol>
 
 ## 外套与承载带的图示边界
 
-当前外套层在腿部装备层上加入前长后短的橙色夹克，前襟略盖白衣、短后摆露出窄白边，不含后续外侧承载带；领口改为普通前开口领，纯白 OG 连环品牌图形位于左袖功能袋袋身正面中央；眼徽和领前 OG 圆牌不再使用。承载带页仍保留旧设计定位：旧22含外套与承载带，旧18隐去外套以露出带路。这些旧图未同步当前人物与外套款式，不作本层累计结果。
+当前外套层在腿部装备层上加入前长后短的橙色夹克，前襟略盖白衣、短后摆露出窄白边，不含后续外侧承载带；领口改为普通前开口领，纯白 OG 连环品牌图形位于左袖功能袋袋身正面中央；眼徽和领前 OG 圆牌不再使用。新承载带层在当前外套外侧加入肩带、胸下带和腰带，并提供三张穿戴图及三张结构细节板。旧22含外套与承载带、旧18隐去外套的定位资料折叠保留，不代替当前累计结果。
 
 ## 当前累计结果
 
-<a href="/characters/bunny/assembled">当前累计穿戴</a>展示加入背腰水平收纳武器后的正侧背三视，并保留上一层头部装备作为对照；<a href="/characters/bunny/saw">武器收纳与设计状态</a>说明收纳图解与比例口径。
+当前已同步的最高衣层是<a href="/characters/bunny/harness#harness-wearing">承载带层</a>。<a href="/characters/bunny/headgear">头部装备</a>与<a href="/characters/bunny/assembled">武器累计穿戴</a>仍为既有参考，尚未同步本轮头部、夹克与承载带；<a href="/characters/bunny/saw">武器收纳与设计状态</a>保留收纳图解与比例口径。

@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 129,
+  "asset_count": 135,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -576,7 +576,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/18-carrier-wearing.png",
         "page": "https://design.ohgamers.org/characters/bunny/harness",
-        "baseline_sha256": "e1f0061728007e69b545b79d68c5b694c44658a2e79c831a44a51f529b374f25"
+        "baseline_sha256": "e1f0061728007e69b545b79d68c5b694c44658a2e79c831a44a51f529b374f25",
+        "review_status": "historical-harness-topology-reference",
+        "description": "原18—22承载带与旧外套关系沿革参考；原件和来源保持，未同步当前头部、身体与前长后短夹克。当前承载带层见本页新绘三视与三张结构细节板。",
+        "superseded_by": "/characters/bunny/harness#harness-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/18-carrier-wearing.png",
@@ -606,7 +609,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/19-carrier-components.png",
         "page": "https://design.ohgamers.org/characters/bunny/harness",
-        "baseline_sha256": "3a8614c0a4cfed3b64d4703e55c61895913f5ce9afecac35de3a9f155d5be2ff"
+        "baseline_sha256": "3a8614c0a4cfed3b64d4703e55c61895913f5ce9afecac35de3a9f155d5be2ff",
+        "review_status": "historical-harness-topology-reference",
+        "description": "原18—22承载带与旧外套关系沿革参考；原件和来源保持，未同步当前头部、身体与前长后短夹克。当前承载带层见本页新绘三视与三张结构细节板。",
+        "superseded_by": "/characters/bunny/harness#harness-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/19-carrier-components.png",
@@ -636,7 +642,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/20-carrier-details.png",
         "page": "https://design.ohgamers.org/characters/bunny/harness",
-        "baseline_sha256": "7ac756bda8693f4d14297649019a84511f4473049ed2dcbb3bfbeeb73944691e"
+        "baseline_sha256": "7ac756bda8693f4d14297649019a84511f4473049ed2dcbb3bfbeeb73944691e",
+        "review_status": "historical-harness-topology-reference",
+        "description": "原18—22承载带与旧外套关系沿革参考；原件和来源保持，未同步当前头部、身体与前长后短夹克。当前承载带层见本页新绘三视与三张结构细节板。",
+        "superseded_by": "/characters/bunny/harness#harness-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/20-carrier-details.png",
@@ -666,7 +675,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/21-carrier-details.png",
         "page": "https://design.ohgamers.org/characters/bunny/harness",
-        "baseline_sha256": "4c8da3a3967374f7d7fc4aba910562a0e823457112b9a9171760a462229bec4d"
+        "baseline_sha256": "4c8da3a3967374f7d7fc4aba910562a0e823457112b9a9171760a462229bec4d",
+        "review_status": "historical-harness-topology-reference",
+        "description": "原18—22承载带与旧外套关系沿革参考；原件和来源保持，未同步当前头部、身体与前长后短夹克。当前承载带层见本页新绘三视与三张结构细节板。",
+        "superseded_by": "/characters/bunny/harness#harness-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/21-carrier-details.png",
@@ -696,7 +708,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/22-jacket-wearing.png",
         "page": "https://design.ohgamers.org/characters/bunny/jacket",
-        "baseline_sha256": "4f196158fa701954277978adc487712342de6690c101eef22632c54449300183"
+        "baseline_sha256": "4f196158fa701954277978adc487712342de6690c101eef22632c54449300183",
+        "review_status": "historical-harness-topology-reference",
+        "description": "原18—22承载带与旧外套关系沿革参考；原件和来源保持，未同步当前头部、身体与前长后短夹克。当前承载带层见本页新绘三视与三张结构细节板。",
+        "superseded_by": "/characters/bunny/harness#harness-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/22-jacket-wearing.png",
@@ -4006,6 +4021,633 @@
         "height": 1024,
         "bytes": 889456,
         "sha256": "ef1246f0f541e4d5b694cbfd7dc6a51eab8188a10e6d79251bd8929198dc2f14",
+        "alpha": false
+      }
+    },
+    {
+      "id": "harness-v2-layer7-buckle-details-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-layer7-buckle-details-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/media/bunny/3.1.0/20-carrier-details.png",
+        "baseline_sha256": "7ac756bda8693f4d14297649019a84511f4473049ed2dcbb3bfbeeb73944691e",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-buckle-details-v1.png",
+        "source_artifact_sha256": "4c5ef018634f59d3fbd5dedbd7afa139700412588d901cbf79d40a8e5630875e",
+        "review_status": "current-layer7-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-buckle-details-v1-request.json",
+          "sha256": "ca1a03051052d70149cead872bd33cf18b721a03faf851500151900b6503e49d"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Create one NEW four-panel harness hardware details sheet, clean 2x2 layout with generous margins. Entirely freshly drawn Japanese hand-ink + hard CEL-color character-design technical illustration, pure white background, crisp dark weighted contours, matte charcoal webbing with limited flat hard shadows, gold/silver hardware only 2–3 solid tone planes. No photorealistic gradients, grain, chalk/white mottling, tiny scratches or soft 3D product shading. Keep intentional stitching and clean metal edges. Short plain English labels only as specified, no paragraphs or dimension numbers, no invented mechanisms or production ratings.\nImage1 old20 defines gold shoulder adjuster, silver swivel hook and silver chest buckle. Image2 old21 defines the DIFFERENT black waist quick buckle. These are structural references only; remove soft rendered gradient style.\nPanel1 label \"01 ADJUSTER\": one front GOLD rounded rectangular strap adjuster on black shoulder webbing, and beside it an oblique threading explanation showing the same webbing returning through the adjuster and tucked under a black keeper. No free long tail, no invented buckle prongs.\nPanel2 label \"02 HOOK\": two separate states of ONE identical SILVER swivel snap hook, CLOSED attached to one lower belt anchor ring and OPEN gate for explanation. Hook upper rectangular strap bar, short swivel collar, hook body and inward-opening hinged gate are legible. Exactly one hook in each separate state; never chain two hooks together. Gold is not used here. The lower ring belongs to sewn black anchor webbing.\nPanel3 label \"03 CHEST\": SILVER-faced center UNDERBUST release buckle on black webbing, one closed example and below one separated male+female pair. Preserve image1 shape: silver rectangular outer rails, black strap slots and black two-prong inner male clip. Only these two halves in the exploded state, no third duplicate center block. Clear compact hardware.\nPanel4 label \"04 WAIST\": BLACK low-profile center WAIST release buckle from image2 on black belt, one closed example and below separated matching two black halves. Keep this visually BLACK/charcoal with limited gray hard-edge highlight; no silver outer frame or orange cover. Waist and chest buckles are unmistakably different.\nEach panel is a separate illustration context. No quantity text or unsupported load/production claims, no extra hardware types, no straps crossing into neighboring panels. Closed/open drawings retain identical component geometry.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/20-carrier-details.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/21-carrier-details.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-13025593-2175-43ec-a911-a5b7a9710f2f.png",
+          "sha256": "4c5ef018634f59d3fbd5dedbd7afa139700412588d901cbf79d40a8e5630875e"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/20-carrier-details.png",
+            "sha256": "7ac756bda8693f4d14297649019a84511f4473049ed2dcbb3bfbeeb73944691e",
+            "dimensions": [
+              2400,
+              2350
+            ]
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/21-carrier-details.png",
+            "sha256": "4c8da3a3967374f7d7fc4aba910562a0e823457112b9a9171760a462229bec4d",
+            "dimensions": [
+              2400,
+              2350
+            ]
+          }
+        ],
+        "description": "承载带层 · 扣件细节；完整新绘，按当前夹克与基模身份衔接。",
+        "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
+          "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-buckle-details-v1-independent-review.json",
+          "sha256": "e106410f1804a2a9ed5702bcfab4063abffb177315b1c985c9c249ac75f9d187"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/selected-final-six.json",
+          "sha256": "0893f44db0399a29773a40a14554e9eee4e8800b15379e33668c5d9dcff8eda4"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/actual-generation.json",
+          "sha256": "865f5a2fcf140e1b911add783321fe47e8478814a3c0f5974867ae76de302894"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-buckle-details-v1-node.json",
+          "sha256": "174bf60d2760544015745da04c3ab165707f2df96cf0ca3830c69d5c66940be0"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-layer7-buckle-details-v1.json",
+          "sha256": "3e1089e0f0b570007d7aee649ccc508b68cae0882ab187574ad4caa9aa6aa290"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-layer7-buckle-details-v1.png",
+        "mime_type": "image/png",
+        "width": 1270,
+        "height": 1239,
+        "bytes": 1358496,
+        "sha256": "4c5ef018634f59d3fbd5dedbd7afa139700412588d901cbf79d40a8e5630875e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-layer7-buckle-details-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1270,
+        "height": 1239,
+        "bytes": 814562,
+        "sha256": "b5501ae369ca4a6b3a1757c51f96442e4411e3ce28cb35c55551d0a19f3ee297",
+        "alpha": false
+      }
+    },
+    {
+      "id": "harness-v2-layer7-cel-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-layer7-cel-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+        "baseline_sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-back-v2.png",
+        "source_artifact_sha256": "40e9b7d8e40856dbec63c5424c03e9eaac546c48d0cadb1ddd1ee278d2657dba",
+        "review_status": "current-layer7-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-back-v2-request.json",
+          "sha256": "515da09ba87f2ee84c1829b86d0c0b95a8ec762ee7a7ee9247f104dfc7999d2f"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Draw a completely NEW complete full-body BACK view of the same adult Bunny, head to shoe soles, white portrait1024x1536. Fresh entire hand-drawn Japanese ink and HARD CEL color; no patch, paste or compositing.\nREFERENCE1 is the current accepted same-view JACKET figure and sole full-body layout/clothing reference. Preserve every head/body ratio, chest/waist/hips/longlegs, exact white shirt and high-low orange jacket hem, red shorts waistband/loops/crotch, gloves/devices/right-thigh terminal+pouch/socks/shoes. Add harness outside clothing. Do not raise pants or shorten exposed torso.\nREFERENCE2 same-view current base HEAD is sole head identity/color/line authority: continuous cool-gray silver-white hair shadows, dark contours, quiet peach skin and blue eyes when visible. Keep reference1 scale/pose. No extra fragmented white highlights, cyan eyes, electric-blue ink or waxy skin.\nREFERENCE3 shows the already correct UPPER HARNESS only. Match these shoulder straps and H-shaped back: two parallel vertical shoulder straps joined by an upper stabilizer and a lower underbust ring rear segment. Never X; no gold adjusters or silver center chest clasp behind. Maintain all clothes hems; ring wraps around torso, never over sleeve exterior.\nREFERENCE4 clarifies exactly ONE silver swivel snap hook closed onto ONE lower anchor ring. Draw only one such clean connection per visible side, two in this back view. No doubled hook body, rear hardware ghosted through front, extra chain or tangled outlines. Hook metal remains normal compact size; use readable two/three-tone HARD CEL planes.\nREFERENCE5 is waist-belt structure only; position determined by the RED SHORTS in reference1.\nCRITICAL WAIST FIT: The black waist belt lies ON THE EXISTING PANTS WAISTBAND, with red belt loops wrapping over/holding the black belt, not on bare abdomen above the pants. The earlier floating-at-top arrangement is rejected. At matching image1 scale, rear pants-waist belt zone approximately y575–608; these are visual placement aids, not new anatomy. Follow the curved waistband at each side. Leave the red shorts waistband and loops where they already are and insert the black belt into that zone, covering its upper fabric naturally. Keep rear-center RED pants belt loop clearly crossing over the black belt; do not replace it with a new black buckle.\nTo reach this lower correct belt position, extend the BLACK WEBBING LOWER ENDS of the two shoulder straps modestly downward across the exposed waist; do not stretch metal hooks into long chain links or pull jacket hems down. Each compact hook joins one silver ring on one sewn black belt anchor.\nBACK belt has TWO black sewn anchor tabs with silver rings/hooks; no orange covers, no gold hardware, no center buckle. Front components hidden. Left OG sleeve pocket is on screen LEFT.\nPreserve original small official white connected OG mark in its left sleeve pocket, ordinary OPEN collar with visible FINE DIAGONAL rib knit, vertical cuff ribs, normal narrow white sock-top ribs, exact gear screens and no added right-glove orange stripe. Existing opaque clothes may be naturally covered but never redesigned. Matte black webbing flat charcoal with sparse crisp shadows, retain real folds/seams, no cloudy mottling, white specks, grain, chrome gradient or airbrushed cloth. No labels or extra equipment.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/base-back-head.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/back-harness-upper-only.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/single-closed-silver-hook.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/old21-belt-back.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-b9c9e960-7735-40e0-b916-556374aa7300.png",
+          "sha256": "40e9b7d8e40856dbec63c5424c03e9eaac546c48d0cadb1ddd1ee278d2657dba"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+            "sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/base-back-head.png",
+            "sha256": "a67f7c93a1410002f428ded99b9c2499b79b4672724806572501333191845dd9",
+            "dimensions": [
+              350,
+              340
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/back-harness-upper-only.png",
+            "sha256": "2017014712f620119447ffe8bce44d6a15a4876faa7901495d02b4cb4a8bf1f1",
+            "dimensions": [
+              240,
+              220
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/single-closed-silver-hook.png",
+            "sha256": "03c02eadd72a04ce0634b7164e4656d3aa2c07cf68e40301e324219c008574fd",
+            "dimensions": [
+              330,
+              720
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/old21-belt-back.png",
+            "sha256": "dd0963003c1dc1f8b86d4f5eb941c10387774a5e68409cf95ef73a624466f3b0",
+            "dimensions": [
+              1080,
+              420
+            ]
+          }
+        ],
+        "description": "承载带层 · 累计穿戴背面；完整新绘，按当前夹克与基模身份衔接。",
+        "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
+          "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-back-v2-independent-review.json",
+          "sha256": "a6aae3f97c473d83e273a1de843dc1ce0dc643f21a8491ff69b982659b1bd8db"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/selected-final-six.json",
+          "sha256": "0893f44db0399a29773a40a14554e9eee4e8800b15379e33668c5d9dcff8eda4"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/actual-generation.json",
+          "sha256": "865f5a2fcf140e1b911add783321fe47e8478814a3c0f5974867ae76de302894"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-back-v2-node.json",
+          "sha256": "a15e04186c77ea1c224747f69f473c24e66277e9a9c1b4539b4ab93feabc0afe"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-layer7-cel-back-v1.json",
+          "sha256": "e8f2c37a69d31f246700e2d69ab4ac9233f31c197b9663b8aa0986430ee42cf7"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-layer7-cel-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1178063,
+        "sha256": "40e9b7d8e40856dbec63c5424c03e9eaac546c48d0cadb1ddd1ee278d2657dba",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-layer7-cel-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 659814,
+        "sha256": "9815665be4c93e3f939c55abba949645763498e6ca93f0165890b6212d1b08af",
+        "alpha": false
+      }
+    },
+    {
+      "id": "harness-v2-layer7-cel-front-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-layer7-cel-front-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+        "baseline_sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-front-v2.png",
+        "source_artifact_sha256": "ca4813c48df0463dfcb6923073173a77560bf614d50f3c195a92677b7b9f9ddb",
+        "review_status": "current-layer7-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-front-v2-request.json",
+          "sha256": "2342ffcf073e248105bbfa530e5c896e61c8eeefff438882e9c4dfe18f96b6e8"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Draw a completely NEW complete full-body FRONT view of the same adult Bunny, head to shoe soles, white portrait1024x1536. Fresh entire hand-drawn Japanese ink and HARD CEL color; no patch, paste or compositing.\nREFERENCE1 is the current accepted same-view JACKET figure and sole full-body layout/clothing reference. Preserve every head/body ratio, chest/waist/hips/longlegs, exact white shirt and high-low orange jacket hem, red shorts waistband/loops/crotch, gloves/devices/right-thigh terminal+pouch/socks/shoes. Add harness outside clothing. Do not raise pants or shorten exposed torso.\nREFERENCE2 same-view current base HEAD is sole head identity/color/line authority: continuous cool-gray silver-white hair shadows, dark contours, quiet peach skin and blue eyes when visible. Keep reference1 scale/pose. No extra fragmented white highlights, cyan eyes, electric-blue ink or waxy skin.\nREFERENCE3 shows the already correct UPPER HARNESS only. Match these shoulder straps and two gold FRONT shoulder adjusters plus ONE underbust ring with SILVER center clasp. No upper-front crossband; back bridge invisible through opaque body. Maintain all clothes hems; ring wraps around torso, never over sleeve exterior.\nREFERENCE4 clarifies exactly ONE silver swivel snap hook closed onto ONE lower anchor ring. Draw only one such clean connection per visible side, two in this front view. No doubled hook body, rear hardware ghosted through front, extra chain or tangled outlines. Hook metal remains normal compact size; use readable two/three-tone HARD CEL planes.\nREFERENCE5 is waist-belt structure only; position determined by the RED SHORTS in reference1.\nCRITICAL WAIST FIT: The black waist belt lies ON THE EXISTING PANTS WAISTBAND, with red belt loops wrapping over/holding the black belt, not on bare abdomen above the pants. The earlier floating-at-top arrangement is rejected. At matching image1 scale, center pants-waist belt zone is approximately y598–625; these are visual placement aids, not new anatomy. Follow the curved waistband at each side. Leave the red shorts waistband and loops where they already are and insert the black belt into that zone, covering its upper fabric naturally. The original silver pants button is naturally hidden BEHIND the central BLACK harness belt buckle. Do not recolor it red, move it lower, or show a second button below.\nTo reach this lower correct belt position, extend the BLACK WEBBING LOWER ENDS of the two shoulder straps modestly downward across the exposed waist; do not stretch metal hooks into long chain links or pull jacket hems down. Each compact hook joins one silver ring on one sewn black belt anchor.\nFRONT belt has TWO orange circular covers on anchor bases, one per side, and one low-profile BLACK central release buckle. Exactly2 gold shoulder adjusters/2 visible silver hooks/2 orange covers; no hidden rear parts shown.\nPreserve original small official white connected OG mark in its left sleeve pocket, ordinary OPEN collar with visible FINE DIAGONAL rib knit, vertical cuff ribs, normal narrow white sock-top ribs, exact gear screens and no added right-glove orange stripe. Existing opaque clothes may be naturally covered but never redesigned. Matte black webbing flat charcoal with sparse crisp shadows, retain real folds/seams, no cloudy mottling, white specks, grain, chrome gradient or airbrushed cloth. No labels or extra equipment.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/base-front-head.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/front-harness-upper-only.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/single-closed-silver-hook.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/old21-belt-front.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-aee8b7b5-1255-46b8-9371-fe021bb4f3fe.png",
+          "sha256": "ca4813c48df0463dfcb6923073173a77560bf614d50f3c195a92677b7b9f9ddb"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+            "sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/base-front-head.png",
+            "sha256": "0b0621ff0a82158224cb0e0e1b0a4e53fd5e357cb1ef71644ec8166d69fab4a2",
+            "dimensions": [
+              350,
+              340
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/front-harness-upper-only.png",
+            "sha256": "1b835123164e833c0bc5a615e7640eff4a7fb8367420773cee3c52334ff2d3e0",
+            "dimensions": [
+              250,
+              220
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/single-closed-silver-hook.png",
+            "sha256": "03c02eadd72a04ce0634b7164e4656d3aa2c07cf68e40301e324219c008574fd",
+            "dimensions": [
+              330,
+              720
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/old21-belt-front.png",
+            "sha256": "5d30c904b1e4942044eb6a661cb9890a44c329e78cf39d192b52c0db1d1ad5aa",
+            "dimensions": [
+              1080,
+              420
+            ]
+          }
+        ],
+        "description": "承载带层 · 累计穿戴正面；完整新绘，按当前夹克与基模身份衔接。",
+        "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
+          "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-front-v2-independent-review.json",
+          "sha256": "c8daa01ecb87c30dec793656e917e7a83adf3802f6817a913536aa87f8929133"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/selected-final-six.json",
+          "sha256": "0893f44db0399a29773a40a14554e9eee4e8800b15379e33668c5d9dcff8eda4"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/actual-generation.json",
+          "sha256": "865f5a2fcf140e1b911add783321fe47e8478814a3c0f5974867ae76de302894"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-front-v2-node.json",
+          "sha256": "0b201e60d00619e13ed4f342bf289885d3eec7d4747b0ae883778440f50efa71"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-layer7-cel-front-v1.json",
+          "sha256": "58ef4a1eb0d6ce70112f633d45de7a9184346c45cb255fa34fc412bee401b113"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-layer7-cel-front-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1293636,
+        "sha256": "ca4813c48df0463dfcb6923073173a77560bf614d50f3c195a92677b7b9f9ddb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-layer7-cel-front-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 802954,
+        "sha256": "3339621208c7caa837dc8f64a02296b6774e72f8a2e37775c9f6697300c0fc72",
+        "alpha": false
+      }
+    },
+    {
+      "id": "harness-v2-layer7-cel-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-layer7-cel-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.png",
+        "baseline_sha256": "a84fa973b6e3f20dee8f2124d812c01d521c1d13921af06ca6b35dfea12647c6",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-side-v2.png",
+        "source_artifact_sha256": "0e333abcf75e3dc3a40196f261d79e5408dbcc869e750d18b2417c16c6cf226f",
+        "review_status": "current-layer7-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-side-v2-request.json",
+          "sha256": "84e36d6b420733654044b4a076f2bbc4890d3c82e9420aa863b3e0f0aa908c50"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Create a completely NEW full-body right-side drawing of the same adult Bunny facing SCREEN RIGHT, white portrait1024x1536, freshly drawn Japanese hand ink and hard cel colors throughout. No pixel patch or collage.\nImage1 is the accepted whole-body/cumulative-clothing/harness GEOMETRY reference, with ONE wrong component: the WAIST BELT FRONT CENTER BUCKLE is shown with a silver rim. Replace that component in the full redraw with the correct small BLACK/charcoal low-profile buckle from image3. In this strict side view it is only a narrow BLACK EDGE at the frontmost waist (screen RIGHT, near pants-waist height). It must NOT have a bright silver/white outline or metal outer frame; only very restrained DARK GRAY hard-edge facets. Do not turn its entire frontal face toward the camera.\nImportant distinction: the CHEST underbust center buckle higher up stays SILVER. The waist belt buckle lower down stays BLACK. Silver swivel hook and receiving ring above the orange round waist anchor also remain silver. Orange cover remains orange, not a buckle.\nKeep image1 belt correctly on the existing red pants waistband, sleeve/body occlusion, one visible gold front-shoulder adjuster, compact single silver hook-to-ring connection, orange FRONT anchor cover, and hidden rear harness. Ring wraps torso behind near orange sleeve, never outside around the sleeve. Do not change webbing routes, heights or hardware counts.\nImage2 current same-view BODY BASE HEAD is sole head/color/line authority: large continuous cool-gray hair shadows, dark ink, blue visible eye, subtle peach skin, natural close ear. Preserve image1 head/body scale and current clean head. No extra white hair fragments, blue outlines, pale cloudy blotches or reddish neck.\nKeep all current garment geometry from image1: open ordinary fine-rib black collar, highlow orange front-long/back-short jacket, original red facing, existing white shirt, red shorts rise/loops/cuffs, black right full glove/red wrist, right thigh gray terminal and pouch, white sock and correct boots/outer ankle hardware. Near right sleeve plain, far left OG pocket stays hidden. Matte flat local colors with limited closed hard shadows, clear fine collar/cuff/sock-top ribs, no soft gradients/texture specks/grain/mosaic. Complete whole figure, no words or extra parts.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-side-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/base-side-head.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/black-waist-clasp.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-076417e3-5859-4d73-a704-03aec4a6adbc.png",
+          "sha256": "0e333abcf75e3dc3a40196f261d79e5408dbcc869e750d18b2417c16c6cf226f"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-side-v1.png",
+            "sha256": "ee8478cb921f8c3a28bd129ed813e08b88850a14400c731ba9cb017c9858ea86",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/base-side-head.png",
+            "sha256": "e671e4c071292f726dceab2474813899d5be601a304ff61912f2fee3d2afea7a",
+            "dimensions": [
+              350,
+              340
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/black-waist-clasp.png",
+            "sha256": "df26e0bcadf02e3e6f24a0933daf77342f4216a7cc34ba5f5d7b7f557608da72",
+            "dimensions": [
+              970,
+              530
+            ]
+          }
+        ],
+        "description": "承载带层 · 累计穿戴右侧面；完整新绘，按当前夹克与基模身份衔接。",
+        "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
+          "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-side-v2-independent-review.json",
+          "sha256": "0b867f663923a8ffa2290971dc40fb0b4aef44544fcab3d235bc007239031e12"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/selected-final-six.json",
+          "sha256": "0893f44db0399a29773a40a14554e9eee4e8800b15379e33668c5d9dcff8eda4"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/actual-generation.json",
+          "sha256": "865f5a2fcf140e1b911add783321fe47e8478814a3c0f5974867ae76de302894"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-side-v2-node.json",
+          "sha256": "2a661a4cefa3f500dd26b51f608deb965a16ac404720c1904e7d3ff5aceb3b2b"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-layer7-cel-side-v1.json",
+          "sha256": "b53e6bd30f86c44f779e0be0baaceb043b8d39c4b72f86168fb27f76226fb9b6"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-layer7-cel-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1152284,
+        "sha256": "0e333abcf75e3dc3a40196f261d79e5408dbcc869e750d18b2417c16c6cf226f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-layer7-cel-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 682822,
+        "sha256": "7b46a8d6723ba88967c8ca9fef79afc90f955072c6ebd094a8672e5343d99649",
+        "alpha": false
+      }
+    },
+    {
+      "id": "harness-v2-layer7-components-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-layer7-components-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/media/bunny/3.1.0/19-carrier-components.png",
+        "baseline_sha256": "3a8614c0a4cfed3b64d4703e55c61895913f5ce9afecac35de3a9f155d5be2ff",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-components-v1.png",
+        "source_artifact_sha256": "db7b5cd3ec8f86b7a789bbd1a3ecbc47620e7e5388bb9ac03ac6c8d156c82ad8",
+        "review_status": "current-layer7-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-components-v1-request.json",
+          "sha256": "5d17aed907d453c1140f907fbfbe0f6f4bb4f5e963a8191282e03fe0d7604df0"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Create one NEW landscape harness COMPONENT/EXPLODED design sheet. Entirely freshly drawn Japanese hand-ink + hard CEL-color character-design technical illustration, pure white background, crisp dark weighted contours, matte charcoal webbing with limited flat hard shadows, gold/silver hardware only 2–3 solid tone planes. No photorealistic gradients, grain, chalk/white mottling, tiny scratches or soft 3D product shading. Keep intentional stitching and clean metal edges. Short plain English labels only as specified, no paragraphs or dimension numbers, no invented mechanisms or production ratings.\nImage1 old independent harness sheet is exact COMPONENT TOPOLOGY authority. Image2 current accepted upper-harness native crop is only the clean cel-color drawing quality/black tone reference; do not copy the body, clothes, sheet text or background.\nTOP ROW: three separate assembled UNWORN harness views, labels \"FRONT\", \"RIGHT SIDE\", \"BACK\". Right-side diagram must have FRONT to screen RIGHT (opposite image1 middle example), gold adjuster and front orange cover towards RIGHT. Each entire harness has TWO continuous shoulder straps; exactly TWO front gold rectangular adjusters; ONE full underbust loop with SILVER buckle only front center; ONE upper-back stabilizer. Rear H not X. Four silver swivel snap hooks total, two front+two rear, each to one belt ring. Waist belt: four black sewn anchor tabs/rings, ONLY two FRONT tabs have orange round covers; BLACK low-profile central buckle front only; plain back. An empty front assembly may show the rear bridge through its opening, but separate near/far straps cleanly; no extra real components.\nBOTTOM ROW: a true exploded assembly distinct from the three assembled reference views. Label \"ASSEMBLY\". Exactly SIX separated PHYSICAL entities: one upper webbing harness assembly at left (both shoulder straps, gold adjusters, upper rear bridge and underbust loop with silver chest clasp remain integrated), FOUR separate identical silver swivel hook units in a clear 2x2 cluster at center (each includes its upper strap bar and hook), and ONE complete waist belt subassembly at right (black front buckle and four anchor rings/tabs remain attached, front two orange covers stay on). Simple dashed leaders connect the four bare folded webbing ends to the four detached hooks, then to the four belt anchor rings. Upper mother assembly MUST HAVE NO SILVER HOOKS STILL ATTACHED: the detached four are the only hooks in this exploded group. Waist belt retains its four anchor RINGS, not four additional hook bodies. Distinguish closed snap hook from plain polygonal anchor ring. No duplicate exploded parts, no arbitrary pile, no extra crossed back strap.\nGive the lower exploded zone generous width; keep diagram spacing and all small hardware readable. Upper assembled reference views are separately boxed/ruled off from exploded group so six-entity conservation is unambiguous. No garment/face/head drawing.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/19-carrier-components.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/back-harness-upper-only.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-37b3fbb9-6734-4259-80df-21b388ee79fd.png",
+          "sha256": "db7b5cd3ec8f86b7a789bbd1a3ecbc47620e7e5388bb9ac03ac6c8d156c82ad8"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/19-carrier-components.png",
+            "sha256": "3a8614c0a4cfed3b64d4703e55c61895913f5ce9afecac35de3a9f155d5be2ff",
+            "dimensions": [
+              2400,
+              1800
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/back-harness-upper-only.png",
+            "sha256": "2017014712f620119447ffe8bce44d6a15a4876faa7901495d02b4cb4a8bf1f1",
+            "dimensions": [
+              240,
+              220
+            ]
+          }
+        ],
+        "description": "承载带层 · 独立三视与部件；完整新绘，按当前夹克与基模身份衔接。",
+        "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
+          "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-components-v1-independent-review.json",
+          "sha256": "2a375f954946ef778a214ebb852d77ea71d1ad793925c7affff665b99236ed8b"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/selected-final-six.json",
+          "sha256": "0893f44db0399a29773a40a14554e9eee4e8800b15379e33668c5d9dcff8eda4"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/actual-generation.json",
+          "sha256": "865f5a2fcf140e1b911add783321fe47e8478814a3c0f5974867ae76de302894"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-components-v1-node.json",
+          "sha256": "e30dbc3ff4e0a13eac944f89ea3794b3d7865a9ebcfa493bab559db41b64c80f"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-layer7-components-v1.json",
+          "sha256": "3c57f203259ff86a546163402207972ac54accceaced74404680fd64e7e138f2"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-layer7-components-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1360312,
+        "sha256": "db7b5cd3ec8f86b7a789bbd1a3ecbc47620e7e5388bb9ac03ac6c8d156c82ad8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-layer7-components-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 769094,
+        "sha256": "b006231832f34e7b7b7aecd18c928237512c5af24d37ac27919cb0b84dd50203",
+        "alpha": false
+      }
+    },
+    {
+      "id": "harness-v2-layer7-waist-anchors-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-layer7-waist-anchors-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/media/bunny/3.1.0/21-carrier-details.png",
+        "baseline_sha256": "4c8da3a3967374f7d7fc4aba910562a0e823457112b9a9171760a462229bec4d",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-waist-anchors-v1.png",
+        "source_artifact_sha256": "e9ccfde3a783473f88f26b221e4295cb4be1bdfdd06b39027676dad60d907539",
+        "review_status": "current-layer7-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-waist-anchors-v1-request.json",
+          "sha256": "743bf47143d1d24f9cbb3fda6135055cf500fd18afcc7c181a712855644e44ef"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Create one NEW four-panel waist belt and anchor design sheet, clean 2x2 layout with generous space. Entirely freshly drawn Japanese hand-ink + hard CEL-color character-design technical illustration, pure white background, crisp dark weighted contours, matte charcoal webbing with limited flat hard shadows, gold/silver hardware only 2–3 solid tone planes. No photorealistic gradients, grain, chalk/white mottling, tiny scratches or soft 3D product shading. Keep intentional stitching and clean metal edges. Short plain English labels only as specified, no paragraphs or dimension numbers, no invented mechanisms or production ratings.\nImage1 old21 defines the exact belt/anchor/cover design. Image2 clean closed silver hook defines attachment topology only. No body or pants needed in this independent belt sheet.\nPanel1 label \"01 FRONT\": independent black waist belt front view with ONE black low-profile center buckle and TWO FRONT anchor modules, each a black sewn tab holding a silver polygonal ring and a round orange protective cover on the outward base. Three small inset dots on each orange cover as reference. Keep black buckle black, no silver frame. Front two covers only.\nPanel2 label \"02 BACK\": independent back of SAME belt. TWO black sewn anchor tabs each holding a silver polygonal ring, no orange covers, no central release buckle. Rear belt plain between the two tabs. Same width/body thickness as front, no separate new ring mechanism.\nPanel3 label \"03 FRONT ANCHOR\": TRUE exploded detail of ONE front anchor. Draw the sewn black base tab with its silver ring STILL attached to belt. Draw ONE detached orange round cover offset beside it, with a short dashed alignment line. Mother base has a visible black circular backing/recess, not a second orange cover. The orange cover is only a protective outer cover, not the thing holding the silver hook. Show a separate small assembled example if useful, distinctly framed and labeled \"CLOSED\" so it is not duplicated inside exploded group.\nPanel4 label \"04 REAR LINK\": enlarged intact REAR load path: one black shoulder-webbing end folded around the silver upper bar of ONE compact swivel snap hook; hook closes onto ONE silver belt-anchor ring held by a sewn BLACK rear tab on the belt. One hook+one receiving ring, not a chain. Rear anchor has no orange disk. All interfaces visibly connected, no floating ring. Indicate only visible construction and stitch patches; no invented internal cross section, screws or load-rating arrows.\nPreserve exact component counts and directions across panels; independent/front/rear descriptions not mirrored accidentally. Minimal numbered labels only, no small paragraphs, no dimensions.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/21-carrier-details.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/single-closed-silver-hook.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-4cc2d529-dcad-4988-899a-9eec5c1c0f42.png",
+          "sha256": "e9ccfde3a783473f88f26b221e4295cb4be1bdfdd06b39027676dad60d907539"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/21-carrier-details.png",
+            "sha256": "4c8da3a3967374f7d7fc4aba910562a0e823457112b9a9171760a462229bec4d",
+            "dimensions": [
+              2400,
+              2350
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/single-closed-silver-hook.png",
+            "sha256": "03c02eadd72a04ce0634b7164e4656d3aa2c07cf68e40301e324219c008574fd",
+            "dimensions": [
+              330,
+              720
+            ]
+          }
+        ],
+        "description": "承载带层 · 腰带与固定点；完整新绘，按当前夹克与基模身份衔接。",
+        "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
+          "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-waist-anchors-v1-independent-review.json",
+          "sha256": "7c5e018ace08b0a17484d8c936a31932c0dd396e0ceea087abb967b09bb766ad"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/selected-final-six.json",
+          "sha256": "0893f44db0399a29773a40a14554e9eee4e8800b15379e33668c5d9dcff8eda4"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/actual-generation.json",
+          "sha256": "865f5a2fcf140e1b911add783321fe47e8478814a3c0f5974867ae76de302894"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-waist-anchors-v1-node.json",
+          "sha256": "3a7c54ee9fe723c251edcd4deccbe87909bd4f2fd349ea57a6ea50354a12306c"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-layer7-waist-anchors-v1.json",
+          "sha256": "722eb9a8ef4be3d85efb3ca7cd70251b7e4b293cf3866a08ef09d7429f10ceb5"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-layer7-waist-anchors-v1.png",
+        "mime_type": "image/png",
+        "width": 1267,
+        "height": 1241,
+        "bytes": 1372572,
+        "sha256": "e9ccfde3a783473f88f26b221e4295cb4be1bdfdd06b39027676dad60d907539",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-layer7-waist-anchors-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1267,
+        "height": 1241,
+        "bytes": 788226,
+        "sha256": "b3aab5f6c99a9590e7240872668b936f9524de9436658bb9fa11389040208ce0",
         "alpha": false
       }
     },
@@ -9293,8 +9935,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 173863254,
-      "sha256": "4e3c3520c172e6235285ed638ebbf8bf9aea268d9b5ba0727f3249b09b30e659"
+      "bytes": 180292957,
+      "sha256": "649665935de35533f3973fbad5c000e9101f58bae96b6e4334fbd35041ffdf62"
     }
   ]
 }

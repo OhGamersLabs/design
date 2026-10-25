@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "role": "waist-anchors",
+  "publish_slug": "harness-v2-layer7-waist-anchors-v1",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-waist-anchors-v1.png",
+    "sha256": "e9ccfde3a783473f88f26b221e4295cb4be1bdfdd06b39027676dad60d907539"
+  },
+  "native_output": {
+    "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-4cc2d529-dcad-4988-899a-9eec5c1c0f42.png",
+    "sha256": "e9ccfde3a783473f88f26b221e4295cb4be1bdfdd06b39027676dad60d907539"
+  },
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-waist-anchors-v1-request.json",
+    "sha256": "743bf47143d1d24f9cbb3fda6135055cf500fd18afcc7c181a712855644e44ef"
+  },
+  "request_pointer": "/arguments",
+  "actual_tool_parameters": {
+    "prompt": "Create one NEW four-panel waist belt and anchor design sheet, clean 2x2 layout with generous space. Entirely freshly drawn Japanese hand-ink + hard CEL-color character-design technical illustration, pure white background, crisp dark weighted contours, matte charcoal webbing with limited flat hard shadows, gold/silver hardware only 2–3 solid tone planes. No photorealistic gradients, grain, chalk/white mottling, tiny scratches or soft 3D product shading. Keep intentional stitching and clean metal edges. Short plain English labels only as specified, no paragraphs or dimension numbers, no invented mechanisms or production ratings.\nImage1 old21 defines the exact belt/anchor/cover design. Image2 clean closed silver hook defines attachment topology only. No body or pants needed in this independent belt sheet.\nPanel1 label \"01 FRONT\": independent black waist belt front view with ONE black low-profile center buckle and TWO FRONT anchor modules, each a black sewn tab holding a silver polygonal ring and a round orange protective cover on the outward base. Three small inset dots on each orange cover as reference. Keep black buckle black, no silver frame. Front two covers only.\nPanel2 label \"02 BACK\": independent back of SAME belt. TWO black sewn anchor tabs each holding a silver polygonal ring, no orange covers, no central release buckle. Rear belt plain between the two tabs. Same width/body thickness as front, no separate new ring mechanism.\nPanel3 label \"03 FRONT ANCHOR\": TRUE exploded detail of ONE front anchor. Draw the sewn black base tab with its silver ring STILL attached to belt. Draw ONE detached orange round cover offset beside it, with a short dashed alignment line. Mother base has a visible black circular backing/recess, not a second orange cover. The orange cover is only a protective outer cover, not the thing holding the silver hook. Show a separate small assembled example if useful, distinctly framed and labeled \"CLOSED\" so it is not duplicated inside exploded group.\nPanel4 label \"04 REAR LINK\": enlarged intact REAR load path: one black shoulder-webbing end folded around the silver upper bar of ONE compact swivel snap hook; hook closes onto ONE silver belt-anchor ring held by a sewn BLACK rear tab on the belt. One hook+one receiving ring, not a chain. Rear anchor has no orange disk. All interfaces visibly connected, no floating ring. Indicate only visible construction and stitch patches; no invented internal cross section, screws or load-rating arrows.\nPreserve exact component counts and directions across panels; independent/front/rear descriptions not mirrored accidentally. Minimal numbered labels only, no small paragraphs, no dimensions.",
+    "referenced_image_paths": [
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/21-carrier-details.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/single-closed-silver-hook.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-waist-anchors-v1-tool-output.json",
+    "sha256": "8b0336d262a6a1fc3f95afc7d222779d8612352acf384f9548af7d301b688340"
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/21-carrier-details.png",
+      "sha256": "4c8da3a3967374f7d7fc4aba910562a0e823457112b9a9171760a462229bec4d",
+      "dimensions": [
+        2400,
+        2350
+      ]
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/single-closed-silver-hook.png",
+      "sha256": "03c02eadd72a04ce0634b7164e4656d3aa2c07cf68e40301e324219c008574fd",
+      "dimensions": [
+        330,
+        720
+      ]
+    }
+  ],
+  "generation_node": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-waist-anchors-v1-node.json",
+    "sha256": "3a7c54ee9fe723c251edcd4deccbe87909bd4f2fd349ea57a6ea50354a12306c"
+  },
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-waist-anchors-v1-independent-review.json",
+    "sha256": "7c5e018ace08b0a17484d8c936a31932c0dd396e0ceea087abb967b09bb766ad"
+  },
+  "selected_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/selected-final-six.json",
+    "sha256": "0893f44db0399a29773a40a14554e9eee4e8800b15379e33668c5d9dcff8eda4"
+  },
+  "cross_view_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
+    "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/actual-generation.json",
+    "sha256": "865f5a2fcf140e1b911add783321fe47e8478814a3c0f5974867ae76de302894"
+  },
+  "method": "builtin imagegen; complete fresh drawing; byte-exact native; lossless WebP only"
+}

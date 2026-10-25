@@ -25,7 +25,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外侧承载带及之后的衣层尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
+基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带层已补齐当前累计三视和三张结构细节板；头部装备与武器衣层仍待同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 本轮按同视角基模完整重绘鞋靴、手部、腿部、夹克四层的 12 张人物及袜装背面，核对头部发色、深色轮廓与赛璐璐分面；既定尺寸规范和结构细节板保持。各新图测量绑定自身坐标，遮挡与数值不确定项仍单列。
 
@@ -342,9 +342,25 @@ aside: true
 
 </details>
 
-## 承载带与固定点
+## 承载带与固定点 {#harness-assets}
+
+- [v2 · 承载带层 · 正面 PNG](/media/bunny/3.1.0/harness-v2-layer7-cel-front-v1.png)
+- [v2 · 承载带层 · 右侧面 PNG](/media/bunny/3.1.0/harness-v2-layer7-cel-side-v1.png)
+- [v2 · 承载带层 · 背面 PNG](/media/bunny/3.1.0/harness-v2-layer7-cel-back-v1.png)
+- [v2 · 承载带层 · 独立三视与部件 PNG](/media/bunny/3.1.0/harness-v2-layer7-components-v1.png)
+- [v2 · 承载带层 · 扣件细节 PNG](/media/bunny/3.1.0/harness-v2-layer7-buckle-details-v1.png)
+- [v2 · 承载带层 · 腰带与固定点 PNG](/media/bunny/3.1.0/harness-v2-layer7-waist-anchors-v1.png)
+
+三张人物在当前夹克层上加入承载带，三张板对应独立部件、扣件和腰部固定点。连接说明见[承载带页](/characters/bunny/harness)，不是裁剪纸样或生产尺寸。
+
+<details>
+<summary>原18—21 · 此前承载带资料</summary>
 
 <ul><li><a href="/media/bunny/3.1.0/18-carrier-wearing.png">承载带定位（隐去外套）</a></li><li><a href="/media/bunny/3.1.0/19-carrier-components.png">承载带独立部件</a></li><li><a href="/media/bunny/3.1.0/20-carrier-details.png">承载带扣件细节</a></li><li><a href="/media/bunny/3.1.0/21-carrier-details.png">腰带与固定点</a></li></ul>
+
+原件保留作带路与部件沿革参考，不能代替当前人物与衣层。
+
+</details>
 
 ## 头部装备
 
