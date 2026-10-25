@@ -3890,5 +3890,368 @@
       "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-hands-layer-20261025/root-acceptance-final.json",
       "sha256": "d45231de63b752d31ffb83a02a93a43aa235f85a03e5a75e9adacd0cadf21001"
     }
+  },
+  "bunny/thigh-v2-fresh-cel-front-v1.png": {
+    "page": "/characters/bunny/thigh-gear",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-fresh-cel-front-v3.png",
+    "source_artifact_sha256": "5a97f3a505da9bf9f7ea16c18f0bdbfe32c32d618330dd2f7bc06fa58eab9bee",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "腿部层正面完整人物：角色右大腿两道独立黑带承载上方任务终端与下方长翻盖维护袋。",
+    "scope": "仅新增第五层右腿任务终端与维护袋三视及两张部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，无本地画面修补，网页仅作无损转换。",
+    "review_status": "current-thigh-two-independent-bands-reference",
+    "review_scope": "Root与独立审查看过5张完整图及33处原尺寸局部，接受可见二维款式、左右归属和穿着关系。终端黑壳浅灰屏、袋长翻盖与中扣、后侧黑扣背对应；未确认随机白云斑、周期碎纹或新增大面积柔涂。微小界面可简化，不声明逐像素同色、隐藏连接、制造尺寸或活动范围已验证。",
+    "candidate_revision": 3,
+    "delivery_series_revision": 1,
+    "generation_node": "front-v3",
+    "reference_chain": [
+      {
+        "order": 1,
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-front-v1.png",
+        "sha256": "c3c347e3cfaf5ca32d737608695706f5512d732ff2b66a4dc90fa379a5656180",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "generation_node": null
+      },
+      {
+        "order": 2,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-construction-v6.png",
+        "sha256": "89519e6460e70b4527ac808ca376f4447affa1dfa2ead6274498cd955c79fe90",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "generation_node": "pouch-v6"
+      },
+      {
+        "order": 3,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-terminal-lineart-v3.png",
+        "sha256": "7bf1f60454b6ee21a230517180303032ac91b82d0c03c456129d21abaad41d3a",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "generation_node": "terminal-lineart-v3"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/actual-generation-proof-final.json",
+      "sha256": "865daa69be84e2440076cd8d1f2a8607edecbc90286ccec583108909ea31e6c1"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/front-v3-request.json",
+      "sha256": "f5a2933470903b8304c3ffe2631e649ad2c93dd2bc0633ea1f16aae1de9e01c4"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Create one COMPLETE NEW FRONT full-body drawing of adult Bunny from blank canvas, in Japanese anime ink and hard cel colors. No source pixels pasted or locally retouched.\nCRITICAL LOWER POUCH SHAPE: its entire visible front is one almost FULL-HEIGHT rounded rectangular flap with a central silver snap. The flap perimeter lies very close to the bag's outer perimeter on all sides, including BOTTOM. There is NO transverse internal line across the middle or lower-middle of the bag, NO half-height cap, NO broad exposed body strip beneath the flap. Only a NARROW rim remains below the flap, similar to the narrow rim at its side. Place the silver circle in the MIDDLE of the full-height front face, not near its lower lip. Match image2 panel01 faithfully.\n\nREFERENCE JOBS: image1 is the accepted current character and exclusively controls identity, adult body proportions, face, hair, ears, pose, complete prior clothing/hand/footwear layers, framing and drawing style. Image2 is the accepted pouch board; its panel01 controls the nearly full-height flap just described, its band/buckle controls external design. Image3 controls ONLY task terminal geometry. Do not infer old proportions or new clothes from equipment boards.\n\nPreserve image1's head size, blue eyes, silver-white hair, small close-set ears, chest/waist/hip/long-leg proportions and relaxed front pose. Keep white high-neck sleeveless crop top with oval chest opening, red shorts, character LEFT long orange sock screen RIGHT and RIGHT short white sock screen LEFT, red-white boots with laces/gray plaques/yellow blocks/black outer modules/orange toe rings. Keep plain BLACK right full glove without orange line or artificial nail outlines, its red cuff; left fingerless glove with orange hems and dorsal window, orange wrist device.\n\nOnly add RIGHT upper-thigh gear, image LEFT. One upper black textile band and one lower black textile band independently encircle bare thigh. Both below shorts and well above knee. Upper unit is a small black wide-low task terminal at the front-outer thigh: pale-gray navigation screen with tiny black arrow/four bars and orange corner, silver round button to screen right, one entire orange vertical release rectangle in its black housing at the outer (screen-left) side. Lower unit is the black POUCH with NEARLY FULL-HEIGHT FRONT FLAP from image2, one centered silver snap, and its own whole-orange release bar at outer side. The orange bars have a thin white inset accent; never only an orange thin stripe on black. Upper and lower units separated by visible skin. No third band, no long vertical rigid carrier, no suspender. Size the terminal to roughly two-thirds thigh width plus its buckle, pouch slightly narrower; don't enlarge thighs or move hands.\n\nPouch front must read as a single uninterrupted rounded black face, edged by two very close peripheral contour/seam lines and one central silver dot. A horizontal flap dividing line far from the outer bottom edge is forbidden because it changes the design.\nFine varied ink, stable flat solid colors, few crisp closed cel shadows. New black surfaces have flat charcoal front planes and harder dark side/contact patches, no product airbrush, weave, clouds or white flecks. Cool white hair beside ears, normal original skin/hands. Single full person, all hair and soles within white margins. Plain white background, no text/panels/guides. Native portrait1024x1536.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-front-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-construction-v6.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-terminal-lineart-v3.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a17089-6154-70f0-82ee-0d5eddf30a44/exec-d7e57c08-a868-4b2f-92a2-8e1bc8ef9298.png",
+      "sha256": "5a97f3a505da9bf9f7ea16c18f0bdbfe32c32d618330dd2f7bc06fa58eab9bee"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/selected-final.json",
+      "sha256": "ab8dadfbfbd38d1d192dd6bee2f3123119d73f3b3b5965882d0aa60f226ec141"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-review-20261025/visual-review.json",
+      "sha256": "8cbdd7db6110f056938f06ad91e468b5d3c930de6cc4c6304d15c0df24b76d4a"
+    },
+    "baseline_sha256": "c3c347e3cfaf5ca32d737608695706f5512d732ff2b66a4dc90fa379a5656180",
+    "baseline_role": "First actual reference in the saved request. Original ordered references remain unchanged, including lineart or superseded candidates; only selected final native outputs are published.",
+    "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-front-v1.png"
+  },
+  "bunny/thigh-v2-fresh-cel-side-v1.png": {
+    "page": "/characters/bunny/thigh-gear",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-fresh-cel-side-v6.png",
+    "source_artifact_sha256": "f8c6c4e9a4db852ee16e665d29886073c0c3ca37b865579eb0c75ebe176c0948",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "腿部层右侧完整人物：袋高与长翻盖匹配，终端保留黑壳与浅灰屏，近侧手自然遮挡部分设备。",
+    "scope": "仅新增第五层右腿任务终端与维护袋三视及两张部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，无本地画面修补，网页仅作无损转换。",
+    "review_status": "current-thigh-two-independent-bands-reference",
+    "review_scope": "Root与独立审查看过5张完整图及33处原尺寸局部，接受可见二维款式、左右归属和穿着关系。终端黑壳浅灰屏、袋长翻盖与中扣、后侧黑扣背对应；未确认随机白云斑、周期碎纹或新增大面积柔涂。微小界面可简化，不声明逐像素同色、隐藏连接、制造尺寸或活动范围已验证。",
+    "candidate_revision": 6,
+    "delivery_series_revision": 1,
+    "generation_node": "side-v6",
+    "reference_chain": [
+      {
+        "order": 1,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-side-lineart-v4.png",
+        "sha256": "f96f0a720fed44f50ab63574c87cd984ceae0f92736c0895f7a036e9acd9f48e",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "generation_node": "side-lineart-v4"
+      },
+      {
+        "order": 2,
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-side-v1.png",
+        "sha256": "7d81ad6e8c08c16dcb59b115131001ba1db1961620714d2dc2aa0d4a39ee8b89",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "generation_node": null
+      },
+      {
+        "order": 3,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-terminal-construction-v7.png",
+        "sha256": "d7ece50dcf120b0036224092bbe89483aee524b257713eb035765e3b1ea643c3",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "generation_node": "terminal-v7"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/actual-generation-proof-final.json",
+      "sha256": "865daa69be84e2440076cd8d1f2a8607edecbc90286ccec583108909ea31e6c1"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/side-v6-request.json",
+      "sha256": "0f209e73fed7e63a22af9b43569fc2d4e5877df7970888a67a753d9c679901ab"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Create one COMPLETE NEW colored RIGHT-SIDE full-body drawing of adult Bunny from approved lineart. Entire image newly drawn, no local edits, pasted pixels or resampling.\nPRIMARY COLOR REQUIREMENT: the part of the UPPER TERMINAL SCREEN that is visible between the orange release and the foreground glove MUST BE PALE LIGHT GRAY. It is a clearly outlined small screen area, distinct from the BLACK case/frame and BLACK glove. Preserve the small black navigation-arrow fragment on that pale-gray field. The screen's remaining area stays naturally hidden by the opaque glove. Do NOT paint the exposed screen black, and do not move hand/device to expose more of it.\n\nIMAGE1 approved complete LINEART solely controls all geometry and exact character/device size/position. IMAGE2 accepted current colored RIGHT-SIDE controls body identity and ALL existing skin/hair/eye/top/shorts/hand/cuff/sock/boot colors and anime hard shading. IMAGE3 accepted terminal board supplies only the upper terminal's palette: BLACK frame/body and PALE GRAY display with black markings, silver round button where visible, orange corner only if visible, whole orange release face with slender white accent. Do not transfer board geometry into hidden parts.\n\nMaintain the lineart's lower pouch compact outline, roughly y824–895 on this 1536px illustration (drawing-scale guide only, no measurement text). Its front is ONE nearly full-height rounded rectangular BLACK flap, near-perimeter sewing line and one small SILVER snap at center. Do not add a horizontal short-flap divider, dark horizontal lower strip or taller bag. Match exact lineart outer boundary and internal lines. Both bands black, two independent units; whole orange release faces in black housing. Dark cel patches only at side/underlap, no wide soft light gradients.\n\nExact existing character color mapping from image2: cool silver-WHITE hair with pale lavender sharp shadows, BLUE eye, pale peach skin, WHITE top, RED shorts, PLAIN BLACK right full glove (no orange stripe/nails), RED mechanical cuff, WHITE short sock, unchanged red-white-black boot with gray/yellow/orange details. Preserve the visible fine VERTICAL rib marks on the short sock's folded upper band from image2 where readable, but do not make them dark thick stripes. Keep the small attached ear and white hair strands beside it. Preserve all anatomy and pose from lineart, including hand hiding terminal; no altered limb or extra view.\n\nJapanese hand-inked variable contours and limited closed HARD-EDGED cel shadows. No photo lighting, cloud stains, speckle, cloth weave or glossy plastic. Complete person hair to sole, current profile facing screen RIGHT, same framing/white margins, pure white background, no captions/panels. Native1024x1536.\nSAME-PASS SMALL PALETTE CHECKS: each orange release's skinny inset vertical slot/accent is PALE WHITE, not orange-on-orange or black. On the right wrist cuff, retain image2's existing small RED raised side piece with only its narrow gray edge detail; do not fill that whole little piece bright silver-white. Keep its actual outline/position unchanged, do not invent hinge or latch internals.\n",
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-side-lineart-v4.png",
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-side-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-terminal-construction-v7.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a17089-6154-70f0-82ee-0d5eddf30a44/exec-05432ea2-3a32-4042-8914-834e4f12d53b.png",
+      "sha256": "f8c6c4e9a4db852ee16e665d29886073c0c3ca37b865579eb0c75ebe176c0948"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/selected-final.json",
+      "sha256": "ab8dadfbfbd38d1d192dd6bee2f3123119d73f3b3b5965882d0aa60f226ec141"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-review-20261025/visual-review.json",
+      "sha256": "8cbdd7db6110f056938f06ad91e468b5d3c930de6cc4c6304d15c0df24b76d4a"
+    },
+    "baseline_sha256": "f96f0a720fed44f50ab63574c87cd984ceae0f92736c0895f7a036e9acd9f48e",
+    "baseline_role": "First actual reference in the saved request. Original ordered references remain unchanged, including lineart or superseded candidates; only selected final native outputs are published.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-side-lineart-v4.png"
+  },
+  "bunny/thigh-v2-fresh-cel-back-v1.png": {
+    "page": "/characters/bunny/thigh-gear",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-fresh-cel-back-v2.png",
+    "source_artifact_sha256": "d97ecb42b2519c81a6584039fdfa2671560eb3711fac08cafaf081e0e6d75766",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "腿部层背面完整人物：右腿黑色扣背与薄橙侧缘，后视不复制终端屏幕和袋盖正面。",
+    "scope": "仅新增第五层右腿任务终端与维护袋三视及两张部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，无本地画面修补，网页仅作无损转换。",
+    "review_status": "current-thigh-two-independent-bands-reference",
+    "review_scope": "Root与独立审查看过5张完整图及33处原尺寸局部，接受可见二维款式、左右归属和穿着关系。终端黑壳浅灰屏、袋长翻盖与中扣、后侧黑扣背对应；未确认随机白云斑、周期碎纹或新增大面积柔涂。微小界面可简化，不声明逐像素同色、隐藏连接、制造尺寸或活动范围已验证。",
+    "candidate_revision": 2,
+    "delivery_series_revision": 1,
+    "generation_node": "back-v2",
+    "reference_chain": [
+      {
+        "order": 1,
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-back-v1.png",
+        "sha256": "32f43eabb1c1ecff24d60ca5de196ad625149ffb0037df496981081f67b31c27",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "generation_node": null
+      },
+      {
+        "order": 2,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-fresh-cel-back-v1.png",
+        "sha256": "40432fdae0161e5476f75851d0b24c0a941aa3fed6a9e8cb8324dc5a5a2befe9",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "generation_node": "back-v1"
+      },
+      {
+        "order": 3,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-construction-v6.png",
+        "sha256": "89519e6460e70b4527ac808ca376f4447affa1dfa2ead6274498cd955c79fe90",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "generation_node": "pouch-v6"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/actual-generation-proof-final.json",
+      "sha256": "865daa69be84e2440076cd8d1f2a8607edecbc90286ccec583108909ea31e6c1"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/back-v2-request.json",
+      "sha256": "96dc377a5df546a015a8a29c4e39accd5b84b8b3a3bd6077de1647e8ffafdf70"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Create one COMPLETE NEW full-body BACK drawing of adult Bunny. Draw the whole image anew, not a local paint patch, collage, pasted part or pixel edit.\nREFERENCE1 is the accepted prior hand-layer BACK and exclusively controls adult body, back anatomy, hair, pose, clothing, hands, socks and shoes. REFERENCE2 is a candidate BACK with the new right-thigh two-band placement; it controls ONLY band heights and module side-wall positions, because its orange buckle faces are WRONG. REFERENCE3 is the accepted pouch board; panel02 REAR/THREAD explicitly shows the correct BACK OF THE RELEASE HOUSING.\n\nREQUIRED CORRECTION: both upper and lower right-thigh release units, at the screen-right outer thigh contour, are viewed from BEHIND. Their broad visible faces must be plain matte BLACK BACK HOUSINGS. There must be NO full orange vertical front button pointing at camera, and NO white skinny front slot or highlight line on an orange face. At most one hairline-thin orange SIDE EDGE can appear at the far outer silhouette, like a tiny orange rim, not an interior strip on the facing face. Their orange front buttons face anatomically forward, away from the back camera. Do not invent rotating mounts to expose them. Keep one buckle per band, same positions and scale as reference2.\n\nNew gear: two continuous black bands cross the BACK of character RIGHT thigh, SCREEN RIGHT. Upper small black terminal and lower pouch live on FRONT-OUTER thigh and only their narrow side walls protrude at the lateral outline. NO gray display, silver front terminal button, pouch flap or front snap is visible toward the rear. Keep the two band heights, gap below red shorts, gap between them, and generous bare thigh down to knee from reference2. No third band, vertical carrier or hanging strap.\n\nEverything else remains reference1: slim adult v2 torso/waist/hips/long legs; silver-white back hair; white top with center-back seam, red shorts with two back pockets; character LEFT long orange sock screen LEFT and RIGHT short white sock screen RIGHT; unchanged red-white boots with their rear seams/sole shape and correct outer modules. Plain black RIGHT full-glove palm at screen right with red cuff; LEFT fingerless glove palm at screen left, orange finger hems and silver strap buckle. No dorsal cutout on left palm. Keep wrist and finger directions and relaxed stance. No front chest or abdominal markings on back.\n\nHand-inked Japanese anime lines, stable flat local fills and limited hard cel shadows; black band and back housings matte charcoal with crisp darker edge/contact patches. Preserve source identity and clean skin/red/white materials, no clouds, speckle, woven texture or airbrush. Single full person hair-to-soles with white margins, same framing and white background. No labels, panels or measurement guides. Native1024x1536.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-back-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-fresh-cel-back-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-construction-v6.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a17089-6154-70f0-82ee-0d5eddf30a44/exec-dd7b44ad-d50a-49c5-8323-bb22010a9237.png",
+      "sha256": "d97ecb42b2519c81a6584039fdfa2671560eb3711fac08cafaf081e0e6d75766"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/selected-final.json",
+      "sha256": "ab8dadfbfbd38d1d192dd6bee2f3123119d73f3b3b5965882d0aa60f226ec141"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-review-20261025/visual-review.json",
+      "sha256": "8cbdd7db6110f056938f06ad91e468b5d3c930de6cc4c6304d15c0df24b76d4a"
+    },
+    "baseline_sha256": "32f43eabb1c1ecff24d60ca5de196ad625149ffb0037df496981081f67b31c27",
+    "baseline_role": "First actual reference in the saved request. Original ordered references remain unchanged, including lineart or superseded candidates; only selected final native outputs are published.",
+    "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-back-v1.png"
+  },
+  "bunny/thigh-v2-layer5-terminal-straps-construction-v1.png": {
+    "page": "/characters/bunny/thigh-gear",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-terminal-construction-v7.png",
+    "source_artifact_sha256": "d7ece50dcf120b0036224092bbe89483aee524b257713eb035765e3b1ea643c3",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "任务终端与腿带部件板：完整黑色壳体、浅灰导航屏与银圆按钮，橙色快拆随独立腿带总成分离。",
+    "scope": "仅新增第五层右腿任务终端与维护袋三视及两张部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，无本地画面修补，网页仅作无损转换。",
+    "review_status": "current-thigh-two-independent-bands-reference",
+    "review_scope": "Root与独立审查看过5张完整图及33处原尺寸局部，接受可见二维款式、左右归属和穿着关系。终端黑壳浅灰屏、袋长翻盖与中扣、后侧黑扣背对应；未确认随机白云斑、周期碎纹或新增大面积柔涂。微小界面可简化，不声明逐像素同色、隐藏连接、制造尺寸或活动范围已验证。",
+    "candidate_revision": 7,
+    "delivery_series_revision": 1,
+    "generation_node": "terminal-v7",
+    "reference_chain": [
+      {
+        "order": 1,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-terminal-lineart-v3.png",
+        "sha256": "7bf1f60454b6ee21a230517180303032ac91b82d0c03c456129d21abaad41d3a",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "generation_node": "terminal-lineart-v3"
+      },
+      {
+        "order": 2,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-fresh-cel-front-v3.png",
+        "sha256": "5a97f3a505da9bf9f7ea16c18f0bdbfe32c32d618330dd2f7bc06fa58eab9bee",
+        "dimensions": [
+          1024,
+          1536
+        ],
+        "generation_node": "front-v3"
+      },
+      {
+        "order": 3,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-construction-v6.png",
+        "sha256": "89519e6460e70b4527ac808ca376f4447affa1dfa2ead6274498cd955c79fe90",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "generation_node": "pouch-v6"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/actual-generation-proof-final.json",
+      "sha256": "865daa69be84e2440076cd8d1f2a8607edecbc90286ccec583108909ea31e6c1"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/terminal-v7-request.json",
+      "sha256": "88b3cd62b6c1e605d36416fab42648336cceba8f458b9a572df12200a35604cc"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Draw a COMPLETE NEW hand-drawn Japanese anime animation-prop sheet matching the navigation device in the accepted character. It is an ordinary non-weapon task/navigation screen carried on a textile band. Entire fresh drawing by image generation; no local pixel fills or pasted pieces.\nREFERENCE DUTIES: IMAGE1 is approved lineart, the sole authority for four-panel geometry, orientation and external separated entities. IMAGE2 is the accepted Bunny FRONT wearing this exact terminal on her RIGHT upper thigh, screen LEFT: use ONLY that tiny terminal's black/gray/orange/silver colors and simple anime cel rendering. Do NOT put the woman on the board. IMAGE3 supplies ONLY the matching textile band, black buckle housing and whole orange release-button palette of the same gear set. Do not import the pouch, its snap, contents or flap.\n\nKeep every contour and component placement from image1: 01 FRONT, 02 SIDE, 03 REAR/THREAD, 04 EXTERNAL PARTS. The terminal is a sealed rounded rectangle with its rear cover and TWO FIXED REAR LOOPS retained. The separated unit in panel04 is exactly that complete case with its empty loops, no buckle or band left on it. The other unit is one independent flexible band with one release housing, one adjuster and one keeper. Do not show any internal electronics. Rear cover stays closed.\n\nColor exactly like terminal on image2:\n- case, its sides/back/cover, both fixed rear loops, black band, release HOUSING, adjuster and keeper: matte CHARCOAL BLACK.\n- the screen: flat PALE GRAY with black navigation arrow, four bars and small round indicators, plus a small ORANGE corner at lower right.\n- front round physical button: SILVER GRAY with one hard shadow segment and restrained small crisp highlight, not a radial glow.\n- tall rounded rectangular FRONT release-button face: ENTIRELY ORANGE, with one slender WHITE inset vertical accent. Its surrounding housing stays BLACK.\nPanel02 SIDE: the orange release button is at the far screen LEFT. The separate protrusion at far screen RIGHT is the terminal's REAR STRAP LOOP, so it must be BLACK, never orange. Panel03 REAR may show only the original orange side sliver behind band, not a new front orange face. Panel04 detached case is entirely black plus silver cover screws; all orange release material belongs exclusively to the separate band.\n\nRendering: fine confident varied hand ink like image2. Broad black faces are uninterrupted flat local color, with sharply closed near-black shapes only for side planes, underside and contact recesses. Use the same graphic simplicity as the terminal actually worn in image2. No product-lighting sweeps, airbrush, soft highlights across broad faces, grain, cloth weave, clouds or stains. Do not overrender tiny hardware or add gloss. Preserve original panel headings, orange numbers and fine pale separators, pure white background. Landscape native1536x1024. Real external assembly design only, no manufacturing specifications.",
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-terminal-lineart-v3.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-fresh-cel-front-v3.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-construction-v6.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a17089-6154-70f0-82ee-0d5eddf30a44/exec-1251ffca-79e3-4dc7-a924-64b9bcef036b.png",
+      "sha256": "d7ece50dcf120b0036224092bbe89483aee524b257713eb035765e3b1ea643c3"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/selected-final.json",
+      "sha256": "ab8dadfbfbd38d1d192dd6bee2f3123119d73f3b3b5965882d0aa60f226ec141"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-review-20261025/visual-review.json",
+      "sha256": "8cbdd7db6110f056938f06ad91e468b5d3c930de6cc4c6304d15c0df24b76d4a"
+    },
+    "baseline_sha256": "7bf1f60454b6ee21a230517180303032ac91b82d0c03c456129d21abaad41d3a",
+    "baseline_role": "First actual reference in the saved request. Original ordered references remain unchanged, including lineart or superseded candidates; only selected final native outputs are published.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-terminal-lineart-v3.png"
+  },
+  "bunny/thigh-v2-layer5-pouch-contents-construction-v1.png": {
+    "page": "/characters/bunny/thigh-gear",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-construction-v6.png",
+    "source_artifact_sha256": "89519e6460e70b4527ac808ca376f4447affa1dfa2ead6274498cd955c79fe90",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "维护盒袋部件板：近全高长翻盖与中央银色按扣、连续袋体与后带环、独立腿带及电池线缆清洁布。",
+    "scope": "仅新增第五层右腿任务终端与维护袋三视及两张部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，无本地画面修补，网页仅作无损转换。",
+    "review_status": "current-thigh-two-independent-bands-reference",
+    "review_scope": "Root与独立审查看过5张完整图及33处原尺寸局部，接受可见二维款式、左右归属和穿着关系。终端黑壳浅灰屏、袋长翻盖与中扣、后侧黑扣背对应；未确认随机白云斑、周期碎纹或新增大面积柔涂。微小界面可简化，不声明逐像素同色、隐藏连接、制造尺寸或活动范围已验证。",
+    "candidate_revision": 6,
+    "delivery_series_revision": 1,
+    "generation_node": "pouch-v6",
+    "reference_chain": [
+      {
+        "order": 1,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-lineart-v3.png",
+        "sha256": "427d451c6d60070605f35610635fc77e6db46b233669d441f7de5acb9daeb64b",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "generation_node": "pouch-lineart-v3"
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/actual-generation-proof-final.json",
+      "sha256": "865daa69be84e2440076cd8d1f2a8607edecbc90286ccec583108909ea31e6c1"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/pouch-v6-request.json",
+      "sha256": "3a3dd87d3eb44c9eb55144472dafd55378a8d08f48d8e919b103d8ac98726d7e"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Create a COMPLETE NEW hand-inked ANIMATION FLAT-COLOR PROP SHEET from the supplied approved line drawing. The four-panel line drawing is the exact geometric design, but redraw the entire page. Use COLOR-KEY PAINTING: think of outlined paper shapes filled with flat ink, not illuminated physical objects. No lighting simulation at all. Do not render a product photo.\nEvery large front plane is ONE FLAT charcoal-black area (#252525). Draw only the independent side planes, edge folds, under-lips and contact recesses in a SECOND FLAT near-black (#111111). These second-value shapes have clearly CLOSED, HARD boundaries. No gradient is permitted across any continuous face. A broad face stays a single unmodulated color from corner to corner. No lighter center, no vignette, no soft washes, no bevel glow, no material texture. Ordinary outlined seams stay. A few discrete hard shadow shapes are enough; no need to shade all surfaces.\nThe black contour remains hand-inked with varied weight. Leave pure white background. Orange panel numbers, black concise headings, thin pale-gray rules. Landscape 1536x1024. EXACTLY retain the approved external components, empty rear loops, front/back orientation, and removal diagram. Do not add new details.\n\nThis is a black cloth maintenance pouch with one textile band and three maintenance items. Broad pouch front, back, flap outer face and band front must be entirely single-value flat black. Use the darker value only on bag side gussets, narrow lip undercuts, inner cavity and one closed edge-fold shadow; leave broad faces completely flat.\nPAINT REGIONS precisely: entire bag, integral flap, attached rear loops, band, adjuster, keeper and buckle outer housing BLACK. In panels01,03 and04 the tall rounded rectangle at buckle FRONT contains a skinny long slot. Fill the WHOLE tall rounded rectangle ORANGE, and its skinny interior long slot WHITE. Do not fill the whole button black with an orange slot. Tiny tabs can be orange. In panel02 REAR, the large plain back housing stays completely BLACK, with at most a very tiny orange side sliver; no orange face.\nSingle front snap SILVER: a flat pale-gray circle and one hard dark-gray lower crescent; no concentric glossy halo. Panel03 flap inner socket silver; panel04 outer rear flap no snap.\nOne capped battery BLACK with a CYAN narrow stripe; cable BLACK, two connector tips dull SILVER; folded cloth uniformly LIGHT GRAY with only a hard dark-gray folded edge. No shiny cable gradients. No weave.\nPanel04 empty bag with TWO EMPTY sewn rear loops and integral open flap, no attached band stubs/buckle. Separate band with one release, adjuster, keeper. Exactly one capped battery, one cable, one cloth below. Panel03 has only the same three packed objects. Color only defined regions, no geometry changes.",
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-lineart-v3.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a17089-6154-70f0-82ee-0d5eddf30a44/exec-0b4284ff-5a19-4637-a719-9d8a944d330c.png",
+      "sha256": "89519e6460e70b4527ac808ca376f4447affa1dfa2ead6274498cd955c79fe90"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/selected-final.json",
+      "sha256": "ab8dadfbfbd38d1d192dd6bee2f3123119d73f3b3b5965882d0aa60f226ec141"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-review-20261025/visual-review.json",
+      "sha256": "8cbdd7db6110f056938f06ad91e468b5d3c930de6cc4c6304d15c0df24b76d4a"
+    },
+    "baseline_sha256": "427d451c6d60070605f35610635fc77e6db46b233669d441f7de5acb9daeb64b",
+    "baseline_role": "First actual reference in the saved request. Original ordered references remain unchanged, including lineart or superseded candidates; only selected final native outputs are published.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-lineart-v3.png"
   }
 }

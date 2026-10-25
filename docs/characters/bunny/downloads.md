@@ -25,7 +25,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基模、首层衣装、袜装和鞋靴各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。本次新增手部层正、侧、背三张完整人物及手套、腕部设备两张部件板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；腿部装备、外套及之后的衣层尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
+基模、首层衣装、袜装、鞋靴和手部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。本次新增腿部层正、侧、背三张完整人物及任务终端与腿带、维护盒袋与内容物两张部件板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外套及之后的衣层尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -242,9 +242,28 @@ aside: true
 
 </details>
 
-## 腿部装备
+## 腿部装备 {#thigh-assets}
 
-<ul><li><a href="/media/bunny/3.1.0/17-thigh-cumulative-threeview.png">腿部装备累计衣层</a></li><li><a href="/media/bunny/3.1.0/14-thigh-wearing.png">腿部装备穿戴</a></li><li><a href="/media/bunny/3.1.0/15-task-terminal.png">任务终端</a></li><li><a href="/media/bunny/3.1.0/16-maintenance-pouch.png">维护盒袋与内容物</a></li></ul>
+- [v2 · 腿部装备层 · 正面原始 PNG](/media/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png)
+- [v2 · 腿部装备层 · 右侧面原始 PNG](/media/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png)
+- [v2 · 腿部装备层 · 背面原始 PNG](/media/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png)
+- [v2 · 任务终端与腿带 · 原始 PNG](/media/bunny/3.1.0/thigh-v2-layer5-terminal-straps-construction-v1.png)
+- [v2 · 维护盒袋与内容物 · 原始 PNG](/media/bunny/3.1.0/thigh-v2-layer5-pouch-contents-construction-v1.png)
+
+当前右大腿两条独立腿带承载上方终端、下方长翻盖维护袋。部件板说明可见部件和外部接合关系，不是生产纸样。
+
+<details>
+<summary>腿部完整重绘前 · 旧累计衣层、穿戴、部件与动作资料</summary>
+
+- [原17 · 旧腿部装备累计衣层 PNG](/media/bunny/3.1.0/17-thigh-cumulative-threeview.png)
+- [原14 · 旧腿部装备局部穿戴 PNG](/media/bunny/3.1.0/14-thigh-wearing.png)
+- [原15 · 旧任务终端 PNG](/media/bunny/3.1.0/15-task-terminal.png)
+- [原16 · 旧维护盒袋与内容物 PNG](/media/bunny/3.1.0/16-maintenance-pouch.png)
+- [原35 · 鞋带与腿带历史动作补图 PNG](/media/bunny/3.1.0/35-lacing-thigh-motion.png)
+
+旧原件与网址保持。原35本轮未重绘，未同步当前身体比例或手部设计；未采用的本轮候选不进入原图包。
+
+</details>
 
 ## 外套
 

@@ -9,7 +9,7 @@ aside: true
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)与[手部装备](/characters/bunny/hands)五组三视共十五张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。本次新增手部层正、侧、背三张完整人物及手套、腕部设备两张部件板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；腿部装备、外套及之后的衣层尚未同步。旧鞋、旧手部资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)与[腿部装备](/characters/bunny/thigh-gear)六组三视共十八张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。本次新增腿部层正、侧、背三张完整人物及任务终端与腿带、维护盒袋与内容物两张部件板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外套及之后的衣层尚未同步。旧鞋、旧手部、旧腿部资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
 
 ## 本轮补充
 

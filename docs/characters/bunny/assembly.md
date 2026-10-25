@@ -13,7 +13,7 @@ aside: true
 
 ## 由内到外
 
-<ol><li><a href="/characters/bunny/innerwear">贴身衣层</a>：穿着三视 → 白色上衣 → 红色短裤。</li><li><a href="/characters/bunny/hosiery">袜装</a>：穿着三视 → 针织细节。</li><li><a href="/characters/bunny/shoes">鞋靴</a>：穿着三视 → 独立结构。</li><li><a href="/characters/bunny/hands">手部装备</a>：穿着三视 → 手套独立视图 → 腕部设备开合与部件。</li><li><a href="/characters/bunny/thigh-gear">腿部盒袋与任务终端</a>：累计全身 → 局部穿戴 → 终端 → 维护盒袋。</li><li><a href="/characters/bunny/jacket">橙色外套</a>：穿着与覆盖关系 → 独立衣片 → 局部细节。</li><li><a href="/characters/bunny/harness">承载带与固定点</a>：外套外侧位置 → 隐去外套的连接定位 → 带路、扣件与腰带。</li><li><a href="/characters/bunny/headgear">头部装备</a>：累计全身 → 头部局部 → 护目镜、耳机与兔耳配饰。</li><li><a href="/characters/bunny/assembled">武器水平收纳</a>：完整累计三视 → <a href="/characters/bunny/saw">收纳图解与比例口径</a>。</li></ol>
+<ol><li><a href="/characters/bunny/innerwear">贴身衣层</a>：穿着三视 → 白色上衣 → 红色短裤。</li><li><a href="/characters/bunny/hosiery">袜装</a>：穿着三视 → 针织细节。</li><li><a href="/characters/bunny/shoes">鞋靴</a>：穿着三视 → 独立结构。</li><li><a href="/characters/bunny/hands">手部装备</a>：穿着三视 → 手套独立视图 → 腕部设备开合与部件。</li><li><a href="/characters/bunny/thigh-gear">腿部盒袋与任务终端</a>：穿着三视 → 任务终端与腿带 → 维护盒袋与内容物。</li><li><a href="/characters/bunny/jacket">橙色外套</a>：穿着与覆盖关系 → 独立衣片 → 局部细节。</li><li><a href="/characters/bunny/harness">承载带与固定点</a>：外套外侧位置 → 隐去外套的连接定位 → 带路、扣件与腰带。</li><li><a href="/characters/bunny/headgear">头部装备</a>：累计全身 → 头部局部 → 护目镜、耳机与兔耳配饰。</li><li><a href="/characters/bunny/assembled">武器水平收纳</a>：完整累计三视 → <a href="/characters/bunny/saw">收纳图解与比例口径</a>。</li></ol>
 
 ## 外套与承载带的图示边界
 
