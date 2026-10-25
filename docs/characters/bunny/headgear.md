@@ -5,7 +5,7 @@ aside: true
 ---
 # 头部装备
 
-本页保留此前装备资料，尚未同步当前头部、夹克与承载带；当前已同步的最高衣层见[承载带三视](/characters/bunny/harness#harness-wearing)。
+本页保留此前装备资料，尚未同步当前头部、夹克与承载带；当前累计穿戴见[内穿承载带三视](/characters/bunny/harness#harness-wearing)。
 
 护目镜、耳机、兔耳配饰为独立部件。露出嘴部；眼镜镜腿与耳机弧形头梁各自独立，不能合并成面罩。
 

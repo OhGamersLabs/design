@@ -5,7 +5,7 @@ aside: true
 ---
 # 承载带与固定点
 
-本层在[当前橙色夹克](/characters/bunny/jacket)外加入肩带、胸下带和腰带，保留已有头部、衣裤、手部与腿部装备。腰带位于原红裤裤腰区域，穿过原有红色裤袢。正、右侧、背面三张累计穿戴图与三张结构细节板均为完整新绘，分别提供放大与原始 PNG。头部装备与武器仍为待同步的既有资料。
+承载系统穿在白色内搭外、橙色夹克内，腰带仍位于原红裤裤腰区域并穿过红色裤袢。新绘正、右侧、背面三张累计穿戴图和一张层次关系板说明覆盖位置，保留当前头部、衣裤与其他装备。承载带本体未改，独立结构、扣件与腰部锚点三张板沿用原件。头部装备与武器仍待同步。
 
 两条肩带在前肩各有一枚金色调节扣；胸下黑带在正面使用银色扣，背部带路为 H 形。前后各两枚银色转环挂扣连接腰带四处挂环与黑色锚袢，只有前侧两处带橙色护盖。腰带正中使用黑色快扣。
 
@@ -15,15 +15,30 @@ aside: true
 
 ### 正面
 
-<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-layer7-cel-front-v1.webp" original="/media/bunny/3.1.0/harness-v2-layer7-cel-front-v1.png" alt="完整新绘 · 承载带层 · 正面" caption="v2 · 承载带层 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-inner-cel-front-v1.webp" original="/media/bunny/3.1.0/harness-v2-inner-cel-front-v1.png" alt="完整新绘 · 内穿承载带 · 正面" caption="v2 · 内穿承载带 · 正面" />
 
 ### 右侧面
 
-<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-layer7-cel-side-v1.webp" original="/media/bunny/3.1.0/harness-v2-layer7-cel-side-v1.png" alt="完整新绘 · 承载带层 · 右侧面" caption="v2 · 承载带层 · 右侧面" />
+<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-inner-cel-side-v1.webp" original="/media/bunny/3.1.0/harness-v2-inner-cel-side-v1.png" alt="完整新绘 · 内穿承载带 · 右侧面" caption="v2 · 内穿承载带 · 右侧面" />
 
 ### 背面
 
-<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-layer7-cel-back-v1.webp" original="/media/bunny/3.1.0/harness-v2-layer7-cel-back-v1.png" alt="完整新绘 · 承载带层 · 背面" caption="v2 · 承载带层 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-inner-cel-back-v1.webp" original="/media/bunny/3.1.0/harness-v2-inner-cel-back-v1.png" alt="完整新绘 · 内穿承载带 · 背面" caption="v2 · 内穿承载带 · 背面" />
+
+## 内穿层次与覆盖关系 {#harness-layering}
+
+上身的覆盖顺序为白色内搭 → 承载系统 → 橙色夹克。夹克正常遮挡其内侧的肩带和背带，开襟处按实际可见部分显示；腰带及固定点仍按裤腰位置连接。
+
+<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-inner-layering-v1.webp" original="/media/bunny/3.1.0/harness-v2-inner-layering-v1.png" alt="内穿承载带 · 层次与覆盖关系" caption="内穿承载带 · 层次与覆盖关系" />
+
+| 图中标记 | 中文说明 |
+| --- | --- |
+| 01 INNER FRONT | 脱下夹克的正面：白衣外承载带，金色前肩调节扣与胸下银扣可见。 |
+| 02 INNER BACK | 脱下夹克的背面：白衣外的H形带路，后锚为黑袢。 |
+| 03 JACKET ON FRONT | 穿好夹克的正面：翻领和肩部覆盖承载带，只在开襟内显露内侧胸环与带段。 |
+| 04 JACKET ON BACK | 穿好夹克的背面：橙色背片完全遮住H形带路，短后摆下仅露两条末端及后挂扣。 |
+
+以下三张硬件板保留承载系统本体结构；穿在衣服内外的位置以上方新穿戴三视与层次关系板为准。
 
 ## 独立三视与部件 {#harness-components}
 
@@ -62,6 +77,21 @@ aside: true
 | 04 REAR LINK | 肩带下端—单银色旋转挂扣—单银环—缝制黑锚袢—腰带的连续连接。 |
 
 结构板说明带路、零件及连接位置；图面投影不是实际裁片或生产尺寸。人物被承载带遮挡的衣物边缘不补成可见结构，既定衣裤尺寸继续参照[服装规范](/characters/bunny/dimensions#garment-dimensions)。
+
+## 此前外穿方案
+
+<details>
+<summary>承载带位于夹克外侧的上一版三视</summary>
+
+上一版外穿三视保留原件与网址，供回溯比较；当前采用白衣外、夹克内的穿戴关系。
+
+<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-layer7-cel-front-v1.webp" original="/media/bunny/3.1.0/harness-v2-layer7-cel-front-v1.png" alt="历史外穿 · 完整新绘 · 承载带层 · 正面" caption="历史外穿 · v2 · 承载带层 · 正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-layer7-cel-side-v1.webp" original="/media/bunny/3.1.0/harness-v2-layer7-cel-side-v1.png" alt="历史外穿 · 完整新绘 · 承载带层 · 右侧面" caption="历史外穿 · v2 · 承载带层 · 右侧面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/harness-v2-layer7-cel-back-v1.webp" original="/media/bunny/3.1.0/harness-v2-layer7-cel-back-v1.png" alt="历史外穿 · 完整新绘 · 承载带层 · 背面" caption="历史外穿 · v2 · 承载带层 · 背面" />
+
+</details>
 
 ## 此前承载带资料
 

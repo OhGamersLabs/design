@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "role": "side",
+  "publish_slug": "harness-v2-inner-cel-side-v1",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v2.png",
+    "sha256": "75c5f995de52f182be438782b2521b0b2252df6c2d5d82240a9df0162f889faa"
+  },
+  "native_output": {
+    "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-197dbaf0-ecb6-4be6-9215-d147f8caa1e0.png",
+    "sha256": "75c5f995de52f182be438782b2521b0b2252df6c2d5d82240a9df0162f889faa"
+  },
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v2-request.json",
+    "sha256": "9d6f230592aaf11da28b453adf0e48888d39f96f2bd2e33e96899da12c80161d"
+  },
+  "request_pointer": "/arguments",
+  "actual_tool_parameters": {
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v1.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/base-side-head.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/black-waist-clasp-native.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Freshly draw a NEW complete SINGLE RIGHT-SIDE adult Bunny facing SCREEN RIGHT, head to soles, portraitwhite1024x1536, clean Japanese anime ink + HARD CEL color. This is an entire new drawing, not a patch or paste.\nREF1 provides accepted full-body pose/proportion, all clothes/gear, harness INSIDE orange jacket and outside white shirt, and correct occlusion. Keep all geometry as ref1. Its only requested correction is the waist buckle MATERIAL.\nREF2 is sole base head identity/line/hair/skin/blue-eye authority. Preserve cool-gray contiguous silver-white hair shadows, dark ink and calm peach skin; no added shredded white strands or soft cloudy texture.\nREF3 shows the CORRECT BLACK WAIST QUICK BUCKLE. At the front waistband on SCREEN RIGHT, the belt's central low-profile buckle is ALL MATTE BLACK/CHARCOAL with only dark-gray hard planes. The current ref1 wrongly gives it a bright silver perimeter; REMOVE THIS SILVER RIM in the new drawing. No white/silver outline, no metal side frame, no chrome edge on WAIST clasp. It must read as black plastic, clearly distinct from the UNDERBUST CHEST CLASP which remains SILVER. Do not blacken the silver chest clasp or hook/ring.\nMaintain belt through original red pants loops, original waistband height, orange front anchor cover and single silver hook-to-ring. Keep jacket shoulder/back/side/sleeve cloth fully opaque and plain, with harness hidden underneath. Only original open front edge reveals a slim inner strap/chestband against white shirt. Do not add gold adjuster onto shoulder, exterior black strap, rear H, or far-side pocket logo on near right sleeve. Same high-low hem, white shirt length, gearUI/ribs/socks/shoes. No labels or extra figure."
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v2-tool-output.json",
+    "sha256": "ba171dc3581f8466f6670e3fd9d99a176f301c201fa9f50ceda0599e7249afbf"
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v1.png",
+      "sha256": "049db6916b8f3fcc06f8776fa7364d9c4a9d5e14204eddfa81b80b16b9cb6f75",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/base-side-head.png",
+      "sha256": "e671e4c071292f726dceab2474813899d5be601a304ff61912f2fee3d2afea7a",
+      "dimensions": [
+        350,
+        340
+      ]
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/black-waist-clasp-native.png",
+      "sha256": "abcff8cc66e1a50b68964da4c0699404e184d87c4bdb513b9bfa7c793ea6703f",
+      "dimensions": [
+        90,
+        65
+      ]
+    }
+  ],
+  "generation_node": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v2-node.json",
+    "sha256": "a34f40d285f6e5016e3900a4a6221189d2f7ef4f561cf461fb97713c54055e1d"
+  },
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-side-v2-independent-review.json",
+    "sha256": "a3a65c17ca313028d0051be09efb85665fdb61771f3538e5b1b976d1fc8df5b9"
+  },
+  "selected_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/selected-final-four.json",
+    "sha256": "3abe6041be772cbc9d7a15d651674036b7d45f1f0a2f5e24d9d2674533d11e66"
+  },
+  "cross_view_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-final-independent-review.json",
+    "sha256": "45fa48c7d3361428ee132341dae1e0343cc0e9c47f0653808a857a2b910dc6eb"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/actual-generation.json",
+    "sha256": "6cb6058c8e077d4d2eff2cff77c830142cfe100577df8b07035d0de829c0338e"
+  },
+  "method": "builtin imagegen; complete fresh drawing; byte-exact native; lossless WebP only"
+}

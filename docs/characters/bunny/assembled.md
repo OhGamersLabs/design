@@ -5,7 +5,7 @@ aside: true
 ---
 # 当前累计穿戴
 
-本页保留此前装备资料，尚未同步当前头部、夹克与承载带；当前已同步的最高衣层见[承载带三视](/characters/bunny/harness#harness-wearing)。
+本页保留此前装备资料，尚未同步当前头部、夹克与承载带；当前累计穿戴见[内穿承载带三视](/characters/bunny/harness#harness-wearing)。
 
 <span id="已确认累计穿戴"></span>
 

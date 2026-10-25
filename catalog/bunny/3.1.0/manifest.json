@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 135,
+  "asset_count": 139,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -4025,6 +4025,445 @@
       }
     },
     {
+      "id": "harness-v2-inner-cel-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-inner-cel-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/media/bunny/3.1.0/harness-v2-layer7-cel-back-v1.png",
+        "baseline_sha256": "40e9b7d8e40856dbec63c5424c03e9eaac546c48d0cadb1ddd1ee278d2657dba",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-back-v2.png",
+        "source_artifact_sha256": "0f5061eaed24fe7a8782706b35ad3621fa5688249bc99f10c7ba7b6fbee67a1b",
+        "review_status": "current-inner-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-back-v2-request.json",
+          "sha256": "3e72cf23e9fc0f712bd51c358ec31605ef5df6cd47f6a5713de182e708394375"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Draw ONE SINGLE complete BACK-VIEW adult Bunny, one centered full-body figure from head to soles in white portrait composition1024x1536. Absolutely one figure, no front view, no comparison panels, no duplicate body. Freshly draw the ENTIRE character in Japanese hand-ink + hard cel shading; do not crop a multi-person sheet or patch old art.\nREF1 is the accepted SINGLE back figure: preserve its exact body/pose, clothing, orange jacket full opaque back/center seam/short rear hem, exposed narrow white inner-shirt strip, pants waist/loops/hip/crotch, all left/right gear, long legs, socks, shoe-back views. In BACK VIEW character LEFT is SCREEN LEFT: orange thigh-high sock, left sleeve functional pocket with small official white connected OG, fingerless left glove/orange wrist. Screen right white knee sock, black full glove/red wrist and thigh straps. Keep everything.\nREF2 same-view BASE head is sole head identity/material authority, same scale as ref1: cool-gray continuous silver-white hair masses, dark ink contours, no fragmented white highlights or bright blue lines.\nREF3 is ONLY accepted lower harness hook and waist belt configuration; preserve its 2 compact silver hooks/2 black rear anchor tabs and black belt threaded through original RED pants loops. No orange covers at back, no central buckle.\nNEW LAYER ORDER: white shirt, then harness, then ORANGE JACKET OVER IT. All shoulder straps, upper back bridge and underbust rear ring are INSIDE jacket and FULLY HIDDEN. Orange shoulders and orange back must remain exactly plain cloth with center seam like REF1, no black H/vertical strips/outline/x-ray. No front lapels visible from rear.\nONLY add TWO short BLACK strap ends emerging from UNDER the short back hem, passing OVER the existing white inner-shirt strip and then the lower back to TWO silver hooks; each hook meets one ring on one sewn BLACK belt anchor. Keep existing white strip visible between/around those two tails. Belt sits on existing pants waistband; do not raise pants or jacket hem, widen waist, lengthen hooks, or pull garment down to reveal harness.\nMaintain small OG shape/margin and visible black fine-rib collar/cuffs. Clean cel flat colors with sparse hard shadows, no white specks/mosaic/cloudy cloth or oily soft gradients. No text, no title, no other view or figure.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/base-back-head.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/accepted-back-waist.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-3c754f1c-610d-44f7-8337-c373cacefc5e.png",
+          "sha256": "0f5061eaed24fe7a8782706b35ad3621fa5688249bc99f10c7ba7b6fbee67a1b"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+            "sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/base-back-head.png",
+            "sha256": "a67f7c93a1410002f428ded99b9c2499b79b4672724806572501333191845dd9",
+            "dimensions": [
+              350,
+              340
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/accepted-back-waist.png",
+            "sha256": "29c52c0d7b675d8cfab996cb0606b4f2a7f72e74796d9ffedadac9af817214a6",
+            "dimensions": [
+              270,
+              155
+            ]
+          }
+        ],
+        "description": "承载系统 · 内穿累计背面；完整新绘，位于白色内搭外、橙色夹克内。",
+        "scope": "承载系统改为白衣外、橙色夹克内；腰带保持原裤腰位置，硬件本体与既有尺寸规范不变。层次图说明覆盖关系，头部装备与武器尚未同步。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-final-independent-review.json",
+          "sha256": "45fa48c7d3361428ee132341dae1e0343cc0e9c47f0653808a857a2b910dc6eb"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-back-v2-independent-review.json",
+          "sha256": "d9c1d0dda19dbdb90c080bddc5bd1527ee03c45718ad38b1df903eb2f09844e3"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/selected-final-four.json",
+          "sha256": "3abe6041be772cbc9d7a15d651674036b7d45f1f0a2f5e24d9d2674533d11e66"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/actual-generation.json",
+          "sha256": "6cb6058c8e077d4d2eff2cff77c830142cfe100577df8b07035d0de829c0338e"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-back-v2-node.json",
+          "sha256": "331feec5a3c41a971ea9f551c89fef7a3f7715a6f2c4b99ebf29f1719071b34e"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-inner-cel-back-v1.json",
+          "sha256": "fdeeaf5982c803288d8f4535698c8c43bf9717f18921f93e16a63b3d8c0763eb"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-inner-cel-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1560013,
+        "sha256": "0f5061eaed24fe7a8782706b35ad3621fa5688249bc99f10c7ba7b6fbee67a1b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-inner-cel-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 931666,
+        "sha256": "385889b9eb148ec66213d78189dfb4eb3753efb85c6ac6b6c2db6f2ff6b4a7e4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "harness-v2-inner-cel-front-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-inner-cel-front-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/media/bunny/3.1.0/harness-v2-layer7-cel-front-v1.png",
+        "baseline_sha256": "ca4813c48df0463dfcb6923073173a77560bf614d50f3c195a92677b7b9f9ddb",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-front-v1.png",
+        "source_artifact_sha256": "50e3737dcbd07d18b6ea1e7b5caf119f58a25c16a96594ecfee6a915467823b5",
+        "review_status": "current-inner-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-front-v1-request.json",
+          "sha256": "a359f95a8dd1bc30d807e31afbbfbcda21be05e68676d3052b0faa3b0a849c00"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Create a NEW complete full-body drawing of adult Bunny from head to shoe soles, white portrait composition about 1024x1536. Every pixel of the final image is freshly drawn Japanese anime ink + clean hard cel color, not a patched or pasted edit.\nREFERENCE 1 current jacket figure is the authority for pose, head/body proportions, slim waist/long legs, chest/hips, white shirt, red shorts, high-low orange jacket, every glove/device/sock/shoe and all their positions. Preserve this full-body layout and garment dimensions. \nREFERENCE 2 is the current same-view BASE HEAD, sole authority for facial identity/hair/eyes/line color: continuous cool-gray silver-white hair shadow groups, deep ink, blue eyes and restrained peach skin; no extra fractured white strands, cyan eyes, cloudy/oily skin or texture.\nREFERENCE 3 is the harness alone, STRUCTURE ONLY. Its hardware and continuous strap topology stay unchanged; wear this harness OUTSIDE the WHITE TOP but INSIDE the ORANGE JACKET. This changes layer order, not harness design. ORANGE jacket fabric and RED lapels are opaque and IN FRONT of all covered harness portions. Do not make them transparent, open holes, lift them, shorten hems or relocate hardware to display hidden parts. \nREFERENCE 4 is accepted lower hardware and BELT placement only: black belt goes through original red pants belt loops, covering original pants button naturally; no floating bare-belly belt. Same two front orange anchor covers, two rear black sewn anchors, four total silver hooks/rings split 2 front/2 back. Front waist clasp BLACK, chest clasp SILVER. Each visible strap end joins exactly one compact swivel hook then one waist ring; not chain links or extra fittings.\nKeep normal open black fine-rib collar, cuffs with fine ribs, small official white connected OG on left sleeve pocket with generous unchanged margin, all screens/UI and handedness unchanged. No helmet/weapon. Matte charcoal straps, sparse hard black shadows; 2-3 hard tones for metal, no chrome airbrush. Clean clothing interior colors and edge context; no random white flecks or mottling. No labels.\nFRONT ORTHOGRAPHIC VIEW. Jacket covers both shoulder straps at the shoulders; NO black band or gold adjuster on orange shoulders, orange front panels, or red lapel faces. Gold shoulder adjusters are underneath and may be entirely invisible; do not move them to the chest.\nInside the existing central jacket opening, slim inner portions of the two vertical straps may be seen on the WHITE shirt near opening edges. The RED lapels overlap and hide their outer portions. A SINGLE underbust black ring crosses only the exposed WHITE shirt with ONE silver clasp centered, at the same underbust height as the standalone harness; its left/right ends disappear behind the opaque lapels. NO high crossband at upper chest and no backside hardware through torso.\nBelow the unchanged jacket front tips, two short black tails emerge from underneath the garment and connect through two silver hooks to two orange front belt anchors. Do not redraw tails over the orange jacket hem surface. Keep exposed waist, original white shirt length and front-long jacket tips. Belt at the pants waistband; center black clasp hides silver pants button.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/base-front-head.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-layer7-components-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/accepted-front-waist.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-d686e3d3-f663-440e-8c73-a46682b6723f.png",
+          "sha256": "50e3737dcbd07d18b6ea1e7b5caf119f58a25c16a96594ecfee6a915467823b5"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+            "sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/base-front-head.png",
+            "sha256": "0b0621ff0a82158224cb0e0e1b0a4e53fd5e357cb1ef71644ec8166d69fab4a2",
+            "dimensions": [
+              350,
+              340
+            ]
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-layer7-components-v1.png",
+            "sha256": "db7b5cd3ec8f86b7a789bbd1a3ecbc47620e7e5388bb9ac03ac6c8d156c82ad8",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/accepted-front-waist.png",
+            "sha256": "80552d85c64e86a8c38d4191061eae760536248d4df8d6f060922aababb947f0",
+            "dimensions": [
+              260,
+              160
+            ]
+          }
+        ],
+        "description": "承载系统 · 内穿累计正面；完整新绘，位于白色内搭外、橙色夹克内。",
+        "scope": "承载系统改为白衣外、橙色夹克内；腰带保持原裤腰位置，硬件本体与既有尺寸规范不变。层次图说明覆盖关系，头部装备与武器尚未同步。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-final-independent-review.json",
+          "sha256": "45fa48c7d3361428ee132341dae1e0343cc0e9c47f0653808a857a2b910dc6eb"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-front-v1-independent-review.json",
+          "sha256": "2b046ceae592aefdb99ef4e6228c093dc9a9b8195df6a6ced85c971c16596336"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/selected-final-four.json",
+          "sha256": "3abe6041be772cbc9d7a15d651674036b7d45f1f0a2f5e24d9d2674533d11e66"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/actual-generation.json",
+          "sha256": "6cb6058c8e077d4d2eff2cff77c830142cfe100577df8b07035d0de829c0338e"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-front-v1-node.json",
+          "sha256": "7409c8b7f31f3e1ffcfdb46170b1c366d720763c0b336d82ef742fbbebdc932e"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-inner-cel-front-v1.json",
+          "sha256": "f9db57794edd4a3e36ae1bc7d983567247653eebb047c1070b0a0c17e139c139"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-inner-cel-front-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1236353,
+        "sha256": "50e3737dcbd07d18b6ea1e7b5caf119f58a25c16a96594ecfee6a915467823b5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-inner-cel-front-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 729706,
+        "sha256": "324383b52cec3fa627be87efb95bef1ca43f85f0f612725bf2d18993512502e1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "harness-v2-inner-cel-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-inner-cel-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/media/bunny/3.1.0/harness-v2-layer7-cel-side-v1.png",
+        "baseline_sha256": "0e333abcf75e3dc3a40196f261d79e5408dbcc869e750d18b2417c16c6cf226f",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v2.png",
+        "source_artifact_sha256": "75c5f995de52f182be438782b2521b0b2252df6c2d5d82240a9df0162f889faa",
+        "review_status": "current-inner-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v2-request.json",
+          "sha256": "9d6f230592aaf11da28b453adf0e48888d39f96f2bd2e33e96899da12c80161d"
+        },
+        "actual_tool_parameters": {
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/base-side-head.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/black-waist-clasp-native.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Freshly draw a NEW complete SINGLE RIGHT-SIDE adult Bunny facing SCREEN RIGHT, head to soles, portraitwhite1024x1536, clean Japanese anime ink + HARD CEL color. This is an entire new drawing, not a patch or paste.\nREF1 provides accepted full-body pose/proportion, all clothes/gear, harness INSIDE orange jacket and outside white shirt, and correct occlusion. Keep all geometry as ref1. Its only requested correction is the waist buckle MATERIAL.\nREF2 is sole base head identity/line/hair/skin/blue-eye authority. Preserve cool-gray contiguous silver-white hair shadows, dark ink and calm peach skin; no added shredded white strands or soft cloudy texture.\nREF3 shows the CORRECT BLACK WAIST QUICK BUCKLE. At the front waistband on SCREEN RIGHT, the belt's central low-profile buckle is ALL MATTE BLACK/CHARCOAL with only dark-gray hard planes. The current ref1 wrongly gives it a bright silver perimeter; REMOVE THIS SILVER RIM in the new drawing. No white/silver outline, no metal side frame, no chrome edge on WAIST clasp. It must read as black plastic, clearly distinct from the UNDERBUST CHEST CLASP which remains SILVER. Do not blacken the silver chest clasp or hook/ring.\nMaintain belt through original red pants loops, original waistband height, orange front anchor cover and single silver hook-to-ring. Keep jacket shoulder/back/side/sleeve cloth fully opaque and plain, with harness hidden underneath. Only original open front edge reveals a slim inner strap/chestband against white shirt. Do not add gold adjuster onto shoulder, exterior black strap, rear H, or far-side pocket logo on near right sleeve. Same high-low hem, white shirt length, gearUI/ribs/socks/shoes. No labels or extra figure."
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-197dbaf0-ecb6-4be6-9215-d147f8caa1e0.png",
+          "sha256": "75c5f995de52f182be438782b2521b0b2252df6c2d5d82240a9df0162f889faa"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v1.png",
+            "sha256": "049db6916b8f3fcc06f8776fa7364d9c4a9d5e14204eddfa81b80b16b9cb6f75",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/base-side-head.png",
+            "sha256": "e671e4c071292f726dceab2474813899d5be601a304ff61912f2fee3d2afea7a",
+            "dimensions": [
+              350,
+              340
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/reference-inputs/black-waist-clasp-native.png",
+            "sha256": "abcff8cc66e1a50b68964da4c0699404e184d87c4bdb513b9bfa7c793ea6703f",
+            "dimensions": [
+              90,
+              65
+            ]
+          }
+        ],
+        "description": "承载系统 · 内穿累计右侧面；完整新绘，位于白色内搭外、橙色夹克内。",
+        "scope": "承载系统改为白衣外、橙色夹克内；腰带保持原裤腰位置，硬件本体与既有尺寸规范不变。层次图说明覆盖关系，头部装备与武器尚未同步。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-final-independent-review.json",
+          "sha256": "45fa48c7d3361428ee132341dae1e0343cc0e9c47f0653808a857a2b910dc6eb"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-side-v2-independent-review.json",
+          "sha256": "a3a65c17ca313028d0051be09efb85665fdb61771f3538e5b1b976d1fc8df5b9"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/selected-final-four.json",
+          "sha256": "3abe6041be772cbc9d7a15d651674036b7d45f1f0a2f5e24d9d2674533d11e66"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/actual-generation.json",
+          "sha256": "6cb6058c8e077d4d2eff2cff77c830142cfe100577df8b07035d0de829c0338e"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-side-v2-node.json",
+          "sha256": "a34f40d285f6e5016e3900a4a6221189d2f7ef4f561cf461fb97713c54055e1d"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-inner-cel-side-v1.json",
+          "sha256": "94e5f09a0ca704131f040b11c0fd6aee9ccf804ce189ef14fe3eb16af89b7fb1"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-inner-cel-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1588641,
+        "sha256": "75c5f995de52f182be438782b2521b0b2252df6c2d5d82240a9df0162f889faa",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-inner-cel-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 876862,
+        "sha256": "de062143709b3d911548360c189ff25cdbdd3b7d5caaa62e8fa3bc2e0f259207",
+        "alpha": false
+      }
+    },
+    {
+      "id": "harness-v2-inner-layering-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "harness-v2-inner-layering-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/harness",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-front-v1.png",
+        "baseline_sha256": "50e3737dcbd07d18b6ea1e7b5caf119f58a25c16a96594ecfee6a915467823b5",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-layering-v1.png",
+        "source_artifact_sha256": "5c19a19a6ad20f64243e80b6cb111a62830968ec8000965fca8b679fccfa4e89",
+        "review_status": "current-inner-harness-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-layering-v1-request.json",
+          "sha256": "be0152ec01a9c6ebd848f39f52a86a4a10bc6d5a7eb136b1217fa5578fcb25c9"
+        },
+        "actual_tool_parameters": {
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-front-v1.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-layer7-components-v1.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Create one NEW anime technical CLOTHING LAYERING board, clean white landscape canvas, 2 by 2 panels. Crisp hand ink and hard cel blocks matching supplied garments. Torso illustrations only from base of neck to upper thighs, NO heads or legs. No photoreal/3D/soft chrome/noise. Four neat similarly scaled panels with minimal dark English headings exactly:\n\"01 INNER FRONT\" top left, \"02 INNER BACK\" top right,\n\"03 JACKET ON FRONT\" bottom left, \"04 JACKET ON BACK\" bottom right.\nThis board explains the SAME harness worn OUTSIDE white sleeveless shirt and INSIDE orange jacket. The top row explicitly has the jacket REMOVED; bottom row has jacket WORN ON, fully opaque. Do not show transparent hidden lines on bottom row.\nREF1 is accepted JACKET-ON FRONT and primary exact layering/clothes/waist-hardware authority: copy its clothing logic, not its head; REF2 is opaque current JACKET BACK garment geometry; REF3 is harness-only topology; REF4 and REF5 define exact white shirt and red shorts FRONT/BACK when jacket removed. Keep white shirt's normal high neck, oval front chest keyhole, front underbust shape and original short hem. Back white shirt has plain back with center seam, NO keyhole/chest contour/navel.\nTOP LEFT 01: jacket absent, show WHITE shirt with the SAME two black shoulder straps OVER it, 2 gold FRONT shoulder adjusters, ONE underbust ring with ONE central silver chest clasp. Two lower strap ends cross exposed waist and each one compact silver hook connects to one ring at orange front anchor cover. Black waist belt passes through red shorts loops with BLACK center clasp hiding pants button. No upper-front bridge: rear bridge cannot be seen through body.\nTOP RIGHT 02: jacket absent, white-back-shirt with two black vertical straps and upper stabilizer bridge plus lower underbust rear ring form an H, no X. Two lower ends/2 silver hooks connect to two black sewn rear belt anchors. No front gold adjusters, orange covers or center buckle on this back view.\nBOTTOM LEFT 03: same torso and harness but jacket is ON TOP, matching REF1. Orange shoulders/front cloth and RED lapels overlap all underlying straps. Gold shoulder adjusters hidden. Only inner strap edges and silver-clasp underbust ring appear on WHITE shirt inside the normal open front. Ring ends disappear behind red lapels; NEVER cross orange fabric or lapel faces. Two lower tails emerge below unchanged front-long tips and hook to orange anchor bases. Small official white OG remains on LEFT sleeve pocket (screen RIGHT). Do not shorten white shirt/jacket, widen opening or add chest straps to show parts.\nBOTTOM RIGHT 04: fully opaque ORANGE jacket back matching REF2 including short back hem, center seam, sleeve folds and left sleeve OG (screen LEFT). ALL black shoulder straps/H/underbust rear ring FULLY HIDDEN under jacket; absolutely no black H marks, ghost lines or transparency on orange back. ONLY two short tails emerge UNDER rear hem across existing narrow visible white shirt strip, then hooks→black rear anchors. Preserve rear hem and narrow white strip without pulling coat up.\nGold, silver, black hardware each unchanged across panels; 4 total hooks and anchors per real garment, 2 per shown front/back, not additional clips. Black waistband stays inside existing RED pants loops in each panel, no bare-waist floating belt. Clear graphic division between removed-jacket top row and opaque-worn bottom row. Use readable minimal headings only, no dimensions, long text, arbitrary numbers or invented parts."
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-936c207c-7f94-4673-8368-345174d239d9.png",
+          "sha256": "5c19a19a6ad20f64243e80b6cb111a62830968ec8000965fca8b679fccfa4e89"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-front-v1.png",
+            "sha256": "50e3737dcbd07d18b6ea1e7b5caf119f58a25c16a96594ecfee6a915467823b5",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+            "sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-layer7-components-v1.png",
+            "sha256": "db7b5cd3ec8f86b7a789bbd1a3ecbc47620e7e5388bb9ac03ac6c8d156c82ad8",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.png",
+            "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.png",
+            "sha256": "b357631a7a2f2a15d02d3b6c4f6a5f0feef8bc94b4957b77cc357357b1670253",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "description": "承载系统 · 内穿层次与覆盖关系；完整新绘，位于白色内搭外、橙色夹克内。",
+        "scope": "承载系统改为白衣外、橙色夹克内；腰带保持原裤腰位置，硬件本体与既有尺寸规范不变。层次图说明覆盖关系，头部装备与武器尚未同步。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-final-independent-review.json",
+          "sha256": "45fa48c7d3361428ee132341dae1e0343cc0e9c47f0653808a857a2b910dc6eb"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/review/harness-inner-layering-v1-independent-review.json",
+          "sha256": "cbabb20773dd02a38d1342d4cf724fcd38d706a1e0630026de0d3d3d8623bdc4"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/selected-final-four.json",
+          "sha256": "3abe6041be772cbc9d7a15d651674036b7d45f1f0a2f5e24d9d2674533d11e66"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/actual-generation.json",
+          "sha256": "6cb6058c8e077d4d2eff2cff77c830142cfe100577df8b07035d0de829c0338e"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-innerwear-20261025/harness-inner-layering-v1-node.json",
+          "sha256": "4e99f310aa561d882d6003e8196ed92c1b32192cc5ff8ab939ea08db9b49d529"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-inner-layering-v1.json",
+          "sha256": "aacb74332174cdc2ac333ce616cf9b6a6c810bb8d9cc800b7f96b49ba57685ca"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/harness-v2-inner-layering-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1556497,
+        "sha256": "5c19a19a6ad20f64243e80b6cb111a62830968ec8000965fca8b679fccfa4e89",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/harness-v2-inner-layering-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1042332,
+        "sha256": "bf5b904fba409aad79df0a796c7f780aeff94ef8875fbdc6b7a87391157f11b7",
+        "alpha": false
+      }
+    },
+    {
       "id": "harness-v2-layer7-buckle-details-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -4073,7 +4512,7 @@
           }
         ],
         "description": "承载带层 · 扣件细节；完整新绘，按当前夹克与基模身份衔接。",
-        "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
+        "scope": "承载系统本体结构沿用，硬件与连接拓扑未改；当前穿戴关系为白色内搭外、橙色夹克内，以新版三视与层次板为准。原始生成和审查来源保持。",
         "visual_review_record": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
           "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
@@ -4130,7 +4569,7 @@
         "baseline_sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-back-v2.png",
         "source_artifact_sha256": "40e9b7d8e40856dbec63c5424c03e9eaac546c48d0cadb1ddd1ee278d2657dba",
-        "review_status": "current-layer7-harness-reference",
+        "review_status": "historical-external-harness-wearing-reference",
         "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
         "generation_request": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-back-v2-request.json",
@@ -4193,7 +4632,7 @@
             ]
           }
         ],
-        "description": "承载带层 · 累计穿戴背面；完整新绘，按当前夹克与基模身份衔接。",
+        "description": "此前承载带位于夹克外侧的穿戴三视；保留原件与原始来源供回溯，当前采用白色内搭外、橙色夹克内的关系。",
         "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
         "visual_review_record": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
@@ -4218,7 +4657,8 @@
         "repository_generation_record": {
           "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-layer7-cel-back-v1.json",
           "sha256": "e8f2c37a69d31f246700e2d69ab4ac9233f31c197b9663b8aa0986430ee42cf7"
-        }
+        },
+        "superseded_by": "/characters/bunny/harness#harness-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/harness-v2-layer7-cel-back-v1.png",
@@ -4251,7 +4691,7 @@
         "baseline_sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-front-v2.png",
         "source_artifact_sha256": "ca4813c48df0463dfcb6923073173a77560bf614d50f3c195a92677b7b9f9ddb",
-        "review_status": "current-layer7-harness-reference",
+        "review_status": "historical-external-harness-wearing-reference",
         "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
         "generation_request": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-front-v2-request.json",
@@ -4314,7 +4754,7 @@
             ]
           }
         ],
-        "description": "承载带层 · 累计穿戴正面；完整新绘，按当前夹克与基模身份衔接。",
+        "description": "此前承载带位于夹克外侧的穿戴三视；保留原件与原始来源供回溯，当前采用白色内搭外、橙色夹克内的关系。",
         "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
         "visual_review_record": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
@@ -4339,7 +4779,8 @@
         "repository_generation_record": {
           "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-layer7-cel-front-v1.json",
           "sha256": "58ef4a1eb0d6ce70112f633d45de7a9184346c45cb255fa34fc412bee401b113"
-        }
+        },
+        "superseded_by": "/characters/bunny/harness#harness-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/harness-v2-layer7-cel-front-v1.png",
@@ -4372,7 +4813,7 @@
         "baseline_sha256": "a84fa973b6e3f20dee8f2124d812c01d521c1d13921af06ca6b35dfea12647c6",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-side-v2.png",
         "source_artifact_sha256": "0e333abcf75e3dc3a40196f261d79e5408dbcc869e750d18b2417c16c6cf226f",
-        "review_status": "current-layer7-harness-reference",
+        "review_status": "historical-external-harness-wearing-reference",
         "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
         "generation_request": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-side-v2-request.json",
@@ -4417,7 +4858,7 @@
             ]
           }
         ],
-        "description": "承载带层 · 累计穿戴右侧面；完整新绘，按当前夹克与基模身份衔接。",
+        "description": "此前承载带位于夹克外侧的穿戴三视；保留原件与原始来源供回溯，当前采用白色内搭外、橙色夹克内的关系。",
         "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
         "visual_review_record": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
@@ -4442,7 +4883,8 @@
         "repository_generation_record": {
           "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-layer7-cel-side-v1.json",
           "sha256": "b53e6bd30f86c44f779e0be0baaceb043b8d39c4b72f86168fb27f76226fb9b6"
-        }
+        },
+        "superseded_by": "/characters/bunny/harness#harness-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/harness-v2-layer7-cel-side-v1.png",
@@ -4512,7 +4954,7 @@
           }
         ],
         "description": "承载带层 · 独立三视与部件；完整新绘，按当前夹克与基模身份衔接。",
-        "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
+        "scope": "承载系统本体结构沿用，硬件与连接拓扑未改；当前穿戴关系为白色内搭外、橙色夹克内，以新版三视与层次板为准。原始生成和审查来源保持。",
         "visual_review_record": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
           "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
@@ -4606,7 +5048,7 @@
           }
         ],
         "description": "承载带层 · 腰带与固定点；完整新绘，按当前夹克与基模身份衔接。",
-        "scope": "当前夹克外增加承载带与腰带；既有尺寸规范不变，头部装备与武器尚未同步。结构板说明部件与连接，不是生产纸样。",
+        "scope": "承载系统本体结构沿用，硬件与连接拓扑未改；当前穿戴关系为白色内搭外、橙色夹克内，以新版三视与层次板为准。原始生成和审查来源保持。",
         "visual_review_record": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
           "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
@@ -9935,8 +10377,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 180292957,
-      "sha256": "649665935de35533f3973fbad5c000e9101f58bae96b6e4334fbd35041ffdf62"
+      "bytes": 185334335,
+      "sha256": "fe66a00adcba0903f021ea325b974093522f943ba692c24f3c9a6d4b5f9c9365"
     }
   ]
 }

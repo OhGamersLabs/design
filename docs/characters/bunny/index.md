@@ -9,7 +9,7 @@ aside: true
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)、[橙色外套](/characters/bunny/jacket)与[承载带层](/characters/bunny/harness)八组三视共二十四张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带层已补齐当前累计三视与三张结构细节板；头部装备与武器衣层仍待同步。旧鞋、旧手部、旧腿部、旧外套资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)、[橙色外套](/characters/bunny/jacket)与[承载带层](/characters/bunny/harness)八组三视共二十四张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，提供累计三视与层次关系板，三张硬件板保持；头部装备与武器衣层仍待同步。旧鞋、旧手部、旧腿部、旧外套资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
 
 ## 本轮补充
 
@@ -26,7 +26,7 @@ aside: true
 
 ## 设计规范
 
-当前制作以[完整新绘 v2 基模](/characters/bunny/body-base)及其[图面比例](/characters/bunny/dimensions)为依据，身份继续对照[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。身体与衣层已按由内到外顺序同步至承载带层；实际厘米身高尚未设定，头部装备与武器保留既有资料，后续继续核对。今后人物三视的完整新绘要求见[手绘语言标准](/characters/bunny/visual-language#完整三视的绘制方式)。
+当前制作以[完整新绘 v2 基模](/characters/bunny/body-base)及其[图面比例](/characters/bunny/dimensions)为依据，身份继续对照[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。当前已完成夹克内穿承载系统的累计关系；实际厘米身高尚未设定，头部装备与武器保留既有资料，后续继续核对。今后人物三视的完整新绘要求见[手绘语言标准](/characters/bunny/visual-language#完整三视的绘制方式)。
 
 下方 00 图是 **2026-10-18 的旧基准沿革**，保留原图与原字。图内“最新已确认基模”“当前锁定的制作依据”均指当时版本，不作为当前 v2 制作依据。
 
@@ -34,7 +34,7 @@ aside: true
 
 <ul><li><a href="/characters/bunny/body-base">从身体基准开始</a></li><li><a href="/characters/bunny/dimensions">图面尺寸与比例</a></li><li><a href="/characters/bunny/assembly">衣层与部件阅读顺序</a></li></ul>
 
-贴身衣层 → 袜装 → 鞋靴 → 手部装备 → 腿部装备 → 外套 → 外侧承载带 → 头部装备 → 武器水平收纳。
+贴身衣层 → 袜装 → 鞋靴 → 手部装备 → 腿部装备 → 承载系统（白衣外） → 橙色夹克 → 头部装备 → 武器水平收纳。
 
 <span id="成品"></span>
 
@@ -42,7 +42,7 @@ aside: true
 
 ## 当前累计穿戴
 
-当前已同步的最高衣层为[承载带层三视](/characters/bunny/harness#harness-wearing)。以下武器背腰水平收纳三视为此前完整装备参考，尚未同步当前头部、夹克与承载带，不代替本轮累计结果。
+当前累计穿戴见[内穿承载带三视](/characters/bunny/harness#harness-wearing)。以下武器背腰水平收纳三视为此前完整装备参考，尚未同步当前头部、夹克与承载带，不代替本轮累计结果。
 
 <ReleaseImage src="/characters/bunny/3.1.0/31-neutral-stored-threeview.webp" original="/media/bunny/3.1.0/31-neutral-stored-threeview.png" alt="武器收纳累计三视图（尚未同步的既有参考）" caption="武器收纳累计三视图（尚未同步的既有参考）" />
 
