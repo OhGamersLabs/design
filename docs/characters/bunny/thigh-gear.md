@@ -6,7 +6,7 @@ aside: true
 # 腿部盒袋与任务终端
 
 ::: info 第五层 · 右腿任务终端与维护盒袋
-当前腿部层沿用[手部装备层](/characters/bunny/hands)的完整穿着，在角色右大腿加入两道独立腿带、上方任务终端与下方维护盒袋。正、侧、背三张完整人物及两张部件板均为整张新绘，保留原生 PNG、放大入口与下载。下一层[橙色外套](/characters/bunny/jacket)现有完整穿着三视与独立结构、局部细节两张板，[承载带与固定点](/characters/bunny/harness)说明白衣外、夹克内的累计穿戴及部件连接；头部装备与武器仍待同步。
+当前腿部层沿用[手部装备层](/characters/bunny/hands)的完整穿着，在角色右大腿加入两道独立腿带、上方任务终端与下方维护盒袋。正、侧、背三张完整人物及两张部件板均为整张新绘，保留原生 PNG、放大入口与下载。下一层[橙色外套](/characters/bunny/jacket)现有完整穿着三视与独立结构、局部细节两张板，[承载带与固定点](/characters/bunny/harness)说明白衣外、夹克内的累计穿戴及部件连接；[头部装备层](/characters/bunny/headgear#headgear-wearing)已有累计三视与部件图；武器仍待同步。
 :::
 
 ## 腿部装备穿着三视 {#thigh-wearing}

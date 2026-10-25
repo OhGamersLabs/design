@@ -6,7 +6,7 @@ aside: true
 # 手部装备
 
 ::: info 第四层 · 手部装备
-当前手部层沿用[白色上衣、红色短裤](/characters/bunny/innerwear)、[非对称袜装](/characters/bunny/hosiery)与[红白鞋靴](/characters/bunny/shoes)，加入左右不同的手套与腕部设备。正、侧、背三张完整人物及两张部件板均为整张新绘，保留原生 PNG、放大入口与下载。下一层[腿部装备](/characters/bunny/thigh-gear)现有完整穿着三视及两张部件板，[外套层](/characters/bunny/jacket)现有穿着三视与两张部件板，[承载带与固定点](/characters/bunny/harness)说明白衣外、夹克内的累计穿戴及部件连接；头部装备与武器仍待同步。
+当前手部层沿用[白色上衣、红色短裤](/characters/bunny/innerwear)、[非对称袜装](/characters/bunny/hosiery)与[红白鞋靴](/characters/bunny/shoes)，加入左右不同的手套与腕部设备。正、侧、背三张完整人物及两张部件板均为整张新绘，保留原生 PNG、放大入口与下载。下一层[腿部装备](/characters/bunny/thigh-gear)现有完整穿着三视及两张部件板，[外套层](/characters/bunny/jacket)现有穿着三视与两张部件板，[承载带与固定点](/characters/bunny/harness)说明白衣外、夹克内的累计穿戴及部件连接；[头部装备层](/characters/bunny/headgear#headgear-wearing)已有累计三视与部件图；武器仍待同步。
 :::
 
 ## 手部装备穿着三视 {#hands-wearing}

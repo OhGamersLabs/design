@@ -17,7 +17,7 @@ aside: true
 
 发色以银白主面为主，少量冷灰蓝硬边阴影说明发束重叠。发旋、刘海、脸侧外翻束与后颈长度保持同一套分组，不用密集碎线或大面积蓝紫渐变塑造头发。
 
-[16格表情](/characters/bunny/expressions)保留此前已复核的身份与耳发稿。[首层衣装](/characters/bunny/innerwear)和[袜装](/characters/bunny/hosiery)本次各完整重绘正面与背面；[基模](/characters/bunny/body-base)及对应[图面尺寸](/characters/bunny/dimensions)保持原稿。头部装备仍保留既有资料。
+[16格表情](/characters/bunny/expressions)保留此前已复核的身份与耳发稿。[首层衣装](/characters/bunny/innerwear)和[袜装](/characters/bunny/hosiery)本次各完整重绘正面与背面；[基模](/characters/bunny/body-base)及对应[图面尺寸](/characters/bunny/dimensions)保持原稿。当前头部装备见[累计穿戴与独立部件](/characters/bunny/headgear#headgear-wearing)。
 
 ## 历史身份资料
 

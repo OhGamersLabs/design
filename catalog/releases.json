@@ -645,6 +645,56 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-only-cel-back-v1.png",
+      "sha256": "ca44f883430cdb7927c2101a184e4f28b0df62c2a0e0a8e99bdfbbe68122b867",
+      "size": 1466161,
+      "contentType": "image/png",
+      "downloadName": "goggles-v2-only-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-only-cel-front-v2.png",
+      "sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
+      "size": 1261744,
+      "contentType": "image/png",
+      "downloadName": "goggles-v2-only-cel-front-v2.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/goggles-v2-only-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-only-cel-side-v1.png",
+      "sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e",
+      "size": 1542500,
+      "contentType": "image/png",
+      "downloadName": "goggles-v2-only-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/goggles-v2-only-components-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-only-components-v1.png",
+      "sha256": "ef599633e9e102d34e0e46203faad88d6f5be20b6a10abad84b49da76a179328",
+      "size": 1299551,
+      "contentType": "image/png",
+      "downloadName": "goggles-v2-only-components-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/goggles-v2-only-wearing-closeup-v2.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-only-wearing-closeup-v2.png",
+      "sha256": "1ba99c90d2741ff70cc5e400d3af6882d5e481449a8a91812365db123200392a",
+      "size": 2006171,
+      "contentType": "image/png",
+      "downloadName": "goggles-v2-only-wearing-closeup-v2.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/hands-v2-base-aligned-cel-back-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/hands-v2-base-aligned-cel-back-v1.png",
       "sha256": "1ec76928e8b2ea1c944b4a18767e6ae94af37328076efe78f0303058555210cf",
@@ -1397,8 +1447,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "fe66a00adcba0903f021ea325b974093522f943ba692c24f3c9a6d4b5f9c9365",
-      "size": 185334335,
+      "sha256": "0285712bb08a2d8bddd7a889f0ddc2ac6f734e0d85216ea71cba40e90733f9e4",
+      "size": 191835160,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

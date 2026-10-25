@@ -181,27 +181,42 @@
   "bunny/29-head-equipment-cumulative.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/29-head-equipment-cumulative.png",
     "page": "https://design.ohgamers.org/characters/bunny/headgear",
-    "baseline_sha256": "c104845bf9796e95759572e22e80ed8c52856e7fb820836f65b8a9395b2d6e1e"
+    "baseline_sha256": "c104845bf9796e95759572e22e80ed8c52856e7fb820836f65b8a9395b2d6e1e",
+    "review_status": "historical-headgear-reference",
+    "description": "此前25—29头部装备资料；原件与来源保持供回溯，当前制作以新版头装累计三视和装备板为准。",
+    "superseded_by": "/characters/bunny/headgear#headgear-wearing"
   },
   "bunny/25-head-equipment-wearing.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/25-head-equipment-wearing.png",
     "page": "https://design.ohgamers.org/characters/bunny/headgear",
-    "baseline_sha256": "0d9e9d729d29c633640484e6f366a0aab150232fafb1bd062195cc0cf14a2e12"
+    "baseline_sha256": "0d9e9d729d29c633640484e6f366a0aab150232fafb1bd062195cc0cf14a2e12",
+    "review_status": "historical-headgear-reference",
+    "description": "此前25—29头部装备资料；原件与来源保持供回溯，当前制作以新版头装累计三视和装备板为准。",
+    "superseded_by": "/characters/bunny/headgear#headgear-wearing"
   },
   "bunny/26-goggles-components.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/26-goggles-components.png",
     "page": "https://design.ohgamers.org/characters/bunny/headgear",
-    "baseline_sha256": "7661d2db6f1a480009c99e75a729703bf05e306a29b8ecc9e76dbc5a0901df41"
+    "baseline_sha256": "7661d2db6f1a480009c99e75a729703bf05e306a29b8ecc9e76dbc5a0901df41",
+    "review_status": "historical-headgear-reference",
+    "description": "此前25—29头部装备资料；原件与来源保持供回溯，当前制作以新版头装累计三视和装备板为准。",
+    "superseded_by": "/characters/bunny/headgear#headgear-wearing"
   },
   "bunny/27-headphones-components.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/27-headphones-components.png",
     "page": "https://design.ohgamers.org/characters/bunny/headgear",
-    "baseline_sha256": "9c007e2548265c195f5b910a846d22d29c7efe8939b66c22d3b00ee35ed501e4"
+    "baseline_sha256": "9c007e2548265c195f5b910a846d22d29c7efe8939b66c22d3b00ee35ed501e4",
+    "review_status": "historical-headgear-reference",
+    "description": "此前25—29头部装备资料；原件与来源保持供回溯，当前制作以新版头装累计三视和装备板为准。",
+    "superseded_by": "/characters/bunny/headgear#headgear-wearing"
   },
   "bunny/28-ear-accessories-components.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/28-ear-accessories-components.png",
     "page": "https://design.ohgamers.org/characters/bunny/headgear",
-    "baseline_sha256": "86621662d9fd83e4cee1cba39754dfcea9fac2dfa5101ea04ea56e4ba19c69d1"
+    "baseline_sha256": "86621662d9fd83e4cee1cba39754dfcea9fac2dfa5101ea04ea56e4ba19c69d1",
+    "review_status": "historical-headgear-reference",
+    "description": "此前25—29头部装备资料；原件与来源保持供回溯，当前制作以新版头装累计三视和装备板为准。",
+    "superseded_by": "/characters/bunny/headgear#headgear-wearing"
   },
   "bunny/30-compact-weapon-exterior-parts.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/30-compact-weapon-exterior-parts.png",
@@ -6883,6 +6898,405 @@
     "repository_generation_record": {
       "path": "catalog/bunny/3.1.0/generation-sources/harness-v2-inner-layering-v1.json",
       "sha256": "aacb74332174cdc2ac333ce616cf9b6a6c810bb8d9cc800b7f96b49ba57685ca"
+    }
+  },
+  "bunny/goggles-v2-only-cel-front-v2.png": {
+    "page": "/characters/bunny/headgear",
+    "based_on": "/media/bunny/3.1.0/harness-v2-inner-cel-front-v1.png",
+    "baseline_sha256": "50e3737dcbd07d18b6ea1e7b5caf119f58a25c16a96594ecfee6a915467823b5",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-front-v3.png",
+    "source_artifact_sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
+    "review_status": "current-goggles-only-reference",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-front-v3-request.json",
+      "sha256": "44ec549bcfbf70aededd8744e6cae7bc006b5ced7154c957fbd8dc3a42d0e41f"
+    },
+    "actual_tool_parameters": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/references/current-front-neckdown-native-crop.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v3-native/front-raised.png"
+      ],
+      "prompt": "Draw a completely NEW SINGLE full-body FRONT Bunny character on white, Japanese hand-drawn dark lineart + clean CEL colours. Entire person from hair crown to both shoe soles, no panels/text/labels. This is a fresh whole figure, NOT a pasted composite.\nEXACTLY TWO RESPONSIBILITIES:\nREFERENCE1 is a RECTANGULAR ORIGINAL-PIXEL CROP of the ACCEPTED clothed BODY, with no head in this crop. Original source canvas was1024x1536; crop rectangle is[0,275,1024,1536], so the visible crop is1024x1261 and its top corresponds to original y275. Preserve all original body/garment/equipment shape, proportions and pose. In the NEW FULL FIGURE reconstruct the head and appropriate top margin above this body; do not treat the cropped body's height as the entire person and do not compress the legs.\nREFERENCE2 is the ONLY COMPLETE HEAD + CORRECTLY CENTERED GOGGLES authority. Copy its human face/hair/blue eyes/natural ears AND the already-correct relationship between goggle nose relief and face center as one coherent HEAD design. Do not independently reposition the goggles according to a different head, hair part, or generic skull. There is no second head authority. Its hair part is visibly OFFSET from its nose/chin axis; keep this offset while goggles align with the FACE, not cowlick.\nPreserve head/body proportion: reference1 original human head occupied hair-crown near y25 to chin near y250 (about225px high) on its1024x1536 layout, with neck joining current collar near y278. Fit ref2 HEAD design at that same proportional size ABOVE the neck-down crop, restoring the complete person's original head/body ratio. Do not enlarge the closeup into a giant head, do not shrink the body/lengthen waist/shorten legs. Head and face stay straight-on, no roll, no shifting facial features.\nCRITICAL mirror relation carried from ref2: goggle central NASAL RELIEF and midpoint of the TWO ORANGE connectors are vertically over the pupil midpoint → nose → philtrum → chin. Corresponding rim/connector points are level relative to the eye baseline and equidistant from that FACE axis. Do NOT use the off-center hair part or outer hair silhouette to center the frame. At original layout the real face axis is around x515, not x505; goggle center must follow the real face. Preserve compact raised goggles: same softly rounded thin white rim/one smoke lens/charcoal inner gasket/two small orange side connectors/one slender black ELASTIC strap wrapping side and back. No rigid arm/hinge, no crown beam/headband, no rabbit ears/roots, no headset/ear pads/pods/microphone. Entire ordinary goggles sits on forehead above eyebrows, both blue eyes completely visible, nose/mouth free. A slight fore-to-aft resting pitch is fine; no left-right roll or side shift.\nRetain REF1 clothing absolutely: normal black fine-rib collar/cuffs, white collar/chest opening/hem, orange cropped jacket long front tips/short back, red lapel facings, small connected WHITE OG at character LEFT sleeve pocket with margin. INTERNAL harness stays outside white top but under jacket: single black chest band/SILVER chest clasp visible only in the open front, no shoulder webbing on orange cloth. Two tail hooks to front orange waist anchors. Black belt through original red shorts loops, BLACK waist clasp, no extra pants button; same shorts waist/crotch/pockets/rolled hem. Character right = viewerLEFT: red wrist and full black glove, two right-thigh units, short white sock. Character left = viewerRIGHT: orange wrist screen with readable cyan UI, fingerless black glove, orange long sock. Same detailed red/white/black boots and screen symbols, do not erase/reinvent them.\nMaterial/style consistent with clean ref2: silver-white hair with coherent cool-gray shapes/dark ink, no flesh-coloured locks/floating ears/blue-gray noisy shine. Peach skin with hard controlled shade. Orange fabric flat areas + bounded hard shadows; fine rib only actual knit cuffs/collar/sock cuff, not cloudy streaks on white sock shaft. No white-speck artifacts, muddied grain, haze or waxy skin. No extra accessories, no weapon, no labels. New complete tool-generated illustration only."
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-0e1f8c34-804a-4b8b-931e-ce92a70cf959.png",
+      "sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/references/current-front-neckdown-native-crop.png",
+        "sha256": "725a93ceab0c44fae063091f9c82cff92869e7ab40e44d53921bfaa6b9a9f0b0",
+        "dimensions": [
+          1024,
+          1261
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v3-native/front-raised.png",
+        "sha256": "27e364ee1ec9446f8d28236e8100f580a85cd17fc5abdc8b2206bbe09e425aee",
+        "dimensions": [
+          560,
+          480
+        ]
+      }
+    ],
+    "description": "头部装备 · 累计正面；完整新绘，当前头装只保留护目镜。",
+    "scope": "在当前内穿承载系统人物上加入柔圆护目镜，默认抬至额头，一条细黑镜带绕后脑；耳机、兔耳和独立头箍取消。既有衣层与尺寸资料不变，武器仍未同步。",
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "individual_visual_review": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/selected-five-v2.json",
+      "sha256": "af5f6791f9a8f2b1ef596a3056e1ccb6e678c9b24ec06920778e12d505cac402"
+    },
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/actual-generation-v2.json",
+      "sha256": "b4bea68be144dad080c1a585b1000643ad32b8a60524bdff2d77aa6d27236534"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-front-v3-node.json",
+      "sha256": "e5da4ea18fb6b988181e230e30fefb84b28c41ba84de541664b912b740309123"
+    },
+    "repository_generation_record": {
+      "path": "catalog/bunny/3.1.0/generation-sources/goggles-v2-only-cel-front-v2.json",
+      "sha256": "ef6db6ec9554adeca78bfb9741cf47bb7854cc19b881dffd8add9a1edf627867"
+    }
+  },
+  "bunny/goggles-v2-only-cel-side-v1.png": {
+    "page": "/characters/bunny/headgear",
+    "based_on": "/media/bunny/3.1.0/harness-v2-inner-cel-side-v1.png",
+    "baseline_sha256": "75c5f995de52f182be438782b2521b0b2252df6c2d5d82240a9df0162f889faa",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-side-v1.png",
+    "source_artifact_sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e",
+    "review_status": "current-goggles-only-reference",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-side-v1-request.json",
+      "sha256": "6fe8b4daf88d4bb32ba5e7b4f0398586c5b9b33e627cb4eee1a75c990e97ef4f"
+    },
+    "actual_tool_parameters": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-inner-cel-side-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/reference-inputs/base-side-head.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/side-raised.png"
+      ],
+      "prompt": "Draw ONE completely new full-body Japanese anime character reference illustration, clean dark hand-drawn ink and hard CEL colours, white background. A single complete Bunny from hair crown to shoe soles, no panels, no text, all limbs and both shoe soles fully inside frame. Reconstruct the whole drawing; no patches or pasted head. Use portrait layout like reference1; preserve relative head/body/leg scale. Uniform overall layout scaling is allowed, no shortening legs or lengthening waist.\nREF1 is the CURRENT ACCEPTED same-view full character: authority for body proportions, exact pose, full cumulative clothing, garment lengths, equipment, hands and feet. Preserve it as the complete layout. REF2 is the BASE same-view head: sole identity/hair/skin/line/material authority. REF3 is the APPROVED same-view GOGGLE wearing study: only new ordinary goggles geometry/position/strap route; never let the study head change the human head size.\nOnly addition is ordinary rounded narrow goggles RAISED ON FOREHEAD so eyes remain fully visible in front/profile. One continuous smoky lens in soft rounded thin WHITE frame, charcoal inner gasket, TWO small ORANGE side connectors total, ONE narrow BLACK elastic strap directly attached to them and encircling side/back of head. Entire goggles pushed to forehead, NOT pivoted up by arms. Top/crown hair remains free. No headband/crownbeam, no rigid arms/pivots, no rabbit ears/clips, no headphones/pads/pods/mic, no mask. Nose/mouth visible. Strap may be partly hidden by natural hair; coherent route matches ref3.\nPRESERVE ALL ACCEPTED CLOTHING: white top exact collar/chest opening and hem height; orange cropped high-low jacket front tips longer/back shorter, same exposed white edge and bare waist; normal BLACK fine-rib collar/cuffs, red lapel facings; left upper sleeve pocket same small WHITE official connected OG mark and generous margin, not a new letter shape. Keep slim waist/body and mature current proportions, don't inflate chest/hips or alter head.\nINTERNAL HARNESS is outside white top but UNDER orange jacket: no black shoulder/H straps drawn across orange shoulders/back/sleeves. Front has the single black chest band with SILVER buckle in open jacket/over white shirt. Back has only TWO tails emerging below rear hem, each single silver hook to black rear waist anchor. Waist belt remains on original RED SHORTS waist through loops, with BLACK front waist clasp and TWO ORANGE front anchor covers; do not turn waist clasp silver or add visible pants button. Red shorts waistband/crotch/pockets/rolled hems unchanged. All prior hand/wrist/leg/socks/shoe components remain exactly ref1 including screens/buttons, materials, sides and attachment.\nClean silver-white hair with coherent cool-gray shadow groups and dark outlines matching ref2; natural modest attached human ears, no flesh-coloured side-locks or detached ear slivers. Blue iris where visible. No new white speck/mottled cloud/grimy grain/soft streak patterns. Orange fabric flat regions plus limited hard shadows, fine rib ONLY knitted collars/cuffs/sock cuffs; white sock shaft restrained clean flat tone. Metal/plastic use limited hard highlights, no noisy weathering. No weapon/extra accessories.\nSTRICT RIGHT SIDE PROFILE facing SCREEN RIGHT, matching ref1. Near side is character RIGHT: full-finger black glove, red wrist device, right thigh modules and white sock. Left sleeve OG naturally not visible; don't move it onto near sleeve. Goggle strap goes from orange forehead-end connector backward over side hair above human ear and around head. Exactly one body/head; no turnaround layout."
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-31fc8298-7ce3-4730-aca4-96244047758b.png",
+      "sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-inner-cel-side-v1.png",
+        "sha256": "75c5f995de52f182be438782b2521b0b2252df6c2d5d82240a9df0162f889faa",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/reference-inputs/base-side-head.png",
+        "sha256": "e671e4c071292f726dceab2474813899d5be601a304ff61912f2fee3d2afea7a",
+        "dimensions": [
+          350,
+          340
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/side-raised.png",
+        "sha256": "74b7958719f4e6914acab6b9e8b0f9255d665c02eced910b02f9847ebc956a67",
+        "dimensions": [
+          525,
+          475
+        ]
+      }
+    ],
+    "description": "头部装备 · 累计右侧面；完整新绘，当前头装只保留护目镜。",
+    "scope": "在当前内穿承载系统人物上加入柔圆护目镜，默认抬至额头，一条细黑镜带绕后脑；耳机、兔耳和独立头箍取消。既有衣层与尺寸资料不变，武器仍未同步。",
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "individual_visual_review": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/selected-five-v2.json",
+      "sha256": "af5f6791f9a8f2b1ef596a3056e1ccb6e678c9b24ec06920778e12d505cac402"
+    },
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/actual-generation-v2.json",
+      "sha256": "b4bea68be144dad080c1a585b1000643ad32b8a60524bdff2d77aa6d27236534"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-side-v1-node.json",
+      "sha256": "6f33e16a623a4f51c354e806a042918b720c49586538a55f0c3347ba5d0e2ba9"
+    },
+    "repository_generation_record": {
+      "path": "catalog/bunny/3.1.0/generation-sources/goggles-v2-only-cel-side-v1.json",
+      "sha256": "015a3a6f35378eed4acfbe1d2b508956aba2c85bb865992b9045860606045e54"
+    }
+  },
+  "bunny/goggles-v2-only-cel-back-v1.png": {
+    "page": "/characters/bunny/headgear",
+    "based_on": "/media/bunny/3.1.0/harness-v2-inner-cel-back-v1.png",
+    "baseline_sha256": "0f5061eaed24fe7a8782706b35ad3621fa5688249bc99f10c7ba7b6fbee67a1b",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-back-v1.png",
+    "source_artifact_sha256": "ca44f883430cdb7927c2101a184e4f28b0df62c2a0e0a8e99bdfbbe68122b867",
+    "review_status": "current-goggles-only-reference",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-back-v1-request.json",
+      "sha256": "3ebf93cb263ba7d18f06ebdf2097127f7d3175c254165ca2deb86105ea9b918b"
+    },
+    "actual_tool_parameters": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-inner-cel-back-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/reference-inputs/base-back-head.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/back-raised.png"
+      ],
+      "prompt": "Draw ONE completely new full-body Japanese anime character reference illustration, clean dark hand-drawn ink and hard CEL colours, white background. A single complete Bunny from hair crown to shoe soles, no panels, no text, all limbs and both shoe soles fully inside frame. Reconstruct the whole drawing; no patches or pasted head. Use portrait layout like reference1; preserve relative head/body/leg scale. Uniform overall layout scaling is allowed, no shortening legs or lengthening waist.\nREF1 is the CURRENT ACCEPTED same-view full character: authority for body proportions, exact pose, full cumulative clothing, garment lengths, equipment, hands and feet. Preserve it as the complete layout. REF2 is the BASE same-view head: sole identity/hair/skin/line/material authority. REF3 is the APPROVED same-view GOGGLE wearing study: only new ordinary goggles geometry/position/strap route; never let the study head change the human head size.\nOnly addition is ordinary rounded narrow goggles RAISED ON FOREHEAD so eyes remain fully visible in front/profile. One continuous smoky lens in soft rounded thin WHITE frame, charcoal inner gasket, TWO small ORANGE side connectors total, ONE narrow BLACK elastic strap directly attached to them and encircling side/back of head. Entire goggles pushed to forehead, NOT pivoted up by arms. Top/crown hair remains free. No headband/crownbeam, no rigid arms/pivots, no rabbit ears/clips, no headphones/pads/pods/mic, no mask. Nose/mouth visible. Strap may be partly hidden by natural hair; coherent route matches ref3.\nPRESERVE ALL ACCEPTED CLOTHING: white top exact collar/chest opening and hem height; orange cropped high-low jacket front tips longer/back shorter, same exposed white edge and bare waist; normal BLACK fine-rib collar/cuffs, red lapel facings; left upper sleeve pocket same small WHITE official connected OG mark and generous margin, not a new letter shape. Keep slim waist/body and mature current proportions, don't inflate chest/hips or alter head.\nINTERNAL HARNESS is outside white top but UNDER orange jacket: no black shoulder/H straps drawn across orange shoulders/back/sleeves. Front has the single black chest band with SILVER buckle in open jacket/over white shirt. Back has only TWO tails emerging below rear hem, each single silver hook to black rear waist anchor. Waist belt remains on original RED SHORTS waist through loops, with BLACK front waist clasp and TWO ORANGE front anchor covers; do not turn waist clasp silver or add visible pants button. Red shorts waistband/crotch/pockets/rolled hems unchanged. All prior hand/wrist/leg/socks/shoe components remain exactly ref1 including screens/buttons, materials, sides and attachment.\nClean silver-white hair with coherent cool-gray shadow groups and dark outlines matching ref2; natural modest attached human ears, no flesh-coloured side-locks or detached ear slivers. Blue iris where visible. No new white speck/mottled cloud/grimy grain/soft streak patterns. Orange fabric flat regions plus limited hard shadows, fine rib ONLY knitted collars/cuffs/sock cuffs; white sock shaft restrained clean flat tone. Metal/plastic use limited hard highlights, no noisy weathering. No weapon/extra accessories.\nSTRICT BACK view. Viewer LEFT is character LEFT: orange wrist/fingerless glove, orange sock and sleeve OG. Viewer RIGHT is character RIGHT: red wrist/full-finger glove, white sock and thigh equipment straps. Show only one black elastic strap across occipital hair for raised goggles; tiny lateral orange connectors can be partly visible at far side contours, but no lens/white front visor pasted on back. Orange back panel uninterrupted by H or shoulder straps; keep original short hem and two emerging tails."
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-b40c311c-46c3-42e1-95f2-4a4b188d4ea4.png",
+      "sha256": "ca44f883430cdb7927c2101a184e4f28b0df62c2a0e0a8e99bdfbbe68122b867"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-inner-cel-back-v1.png",
+        "sha256": "0f5061eaed24fe7a8782706b35ad3621fa5688249bc99f10c7ba7b6fbee67a1b",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/reference-inputs/base-back-head.png",
+        "sha256": "a67f7c93a1410002f428ded99b9c2499b79b4672724806572501333191845dd9",
+        "dimensions": [
+          350,
+          340
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/back-raised.png",
+        "sha256": "22a6fd90ff9f3f56fd105bcabc80919ea2f88b1d668ec583657c635b6d9f45cb",
+        "dimensions": [
+          560,
+          490
+        ]
+      }
+    ],
+    "description": "头部装备 · 累计背面；完整新绘，当前头装只保留护目镜。",
+    "scope": "在当前内穿承载系统人物上加入柔圆护目镜，默认抬至额头，一条细黑镜带绕后脑；耳机、兔耳和独立头箍取消。既有衣层与尺寸资料不变，武器仍未同步。",
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "individual_visual_review": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/selected-five-v2.json",
+      "sha256": "af5f6791f9a8f2b1ef596a3056e1ccb6e678c9b24ec06920778e12d505cac402"
+    },
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/actual-generation-v2.json",
+      "sha256": "b4bea68be144dad080c1a585b1000643ad32b8a60524bdff2d77aa6d27236534"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-back-v1-node.json",
+      "sha256": "da938218ee89e126d0035922b10dd1da17ba7170389c0d3661a6da5fb8ffb1f4"
+    },
+    "repository_generation_record": {
+      "path": "catalog/bunny/3.1.0/generation-sources/goggles-v2-only-cel-back-v1.json",
+      "sha256": "d92271a32626e0e9b93e1bef9eb66b18046444da211da2fe64a193b584dd10a4"
+    }
+  },
+  "bunny/goggles-v2-only-wearing-closeup-v2.png": {
+    "page": "/characters/bunny/headgear",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/reference-inputs/base-front-head.png",
+    "baseline_sha256": "0b0621ff0a82158224cb0e0e1b0a4e53fd5e357cb1ef71644ec8166d69fab4a2",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v3.png",
+    "source_artifact_sha256": "1ba99c90d2741ff70cc5e400d3af6882d5e481449a8a91812365db123200392a",
+    "review_status": "current-goggles-only-reference",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v3-request.json",
+      "sha256": "ba31b02a3cc05568f1a3d8e19adc1a98bc4c5c0b1b3d20fc2073c0c92eb6cf19"
+    },
+    "actual_tool_parameters": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/reference-inputs/base-front-head.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-components-v1-native/assembled-front.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/side-raised.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/back-raised.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/concepts/references/current-collar.png"
+      ],
+      "prompt": "Completely NEW finished four-panel Bunny HEAD GOGGLE WEARING reference board, clean Japanese hand-drawn dark ink + hard CEL colour, white background. 2x2 four busts, same human head size: FRONT RAISED / STRICT RIGHT SIDE RAISED (face screen RIGHT) / BACK RAISED / FRONT LOWERED. Full hair within frame and short labels only. Re-draw the entire board fresh.\nREFERENCES AND RESPONSIBILITIES:\n1 current BASE front head is sole front identity, face/eyes/nose/chin/hair and skin/style authority.\n2 object-only assembled goggles is the WHITE rounded narrow frame / SINGLE continuous smoke lens / charcoal gasket /2 small orange connector shape authority. No human wearing offset is supplied.\n3 previous RIGHT SIDE raised head is accepted side identity/pose and especially the SLENDER black elastic strap width and narrow forehead-goggle height authority.\n4 previous BACK raised head is accepted rear hair/identity and especially the THIN black strap width/path authority.\n5 current collar only: normal black collar, white top, orange/red shoulders.\nPreserve these accepted light proportions. DO NOT make a bulkier, taller visor or wider head strap in order to align the front. No new device design.\n\nCRITICAL FRONT ALIGNMENT: both front head poses are straight-on with level eye baseline and the same unaltered face as ref1. Imagine a facial axis through pupil midpoint, glabella/nose tip/philtrum/chin. The center of the FRAME'S nasal relief, the middle of its upper rim and the midpoint between its TWO orange side connectors must all lie on this exact FACE axis. Corresponding left/right rim points and both orange connectors are equally high relative to the eyes and equally distant from the axis. Keep actual lens/frame contour symmetric and level. The hairstyle part/cowlick/fringe is OFFSET and is NOT the facial axis! Never center on the hair part. Never shift/tilt/reshape eyes or face to accommodate an off-center goggle.\nFRAME HEIGHT: maintain the light, NARROW original goggles, approximately 3.3–3.5 units wide for1 unit total outer height in the frontal wearing drawing, not a tall mask. Same broad softly rounded lobes/low nose relief/white rim and two small orange side connectors as ref2; do not sharpen corners. Reduce vertical bulk rather than narrowing the whole frame. Keep fit across brow, not oversized beyond temples.\nSTRAP WIDTH: one THIN BLACK ELASTIC strip, matching references3/4. At a similar head size its exposed rear strip is about20–23 drawing pixels thick, not33–40; this is an illustration proportion cue, not a physical measurement or label. At all four views maintain the same slender strap visual weight. Do not exaggerate the woven rib texture or soften it into noisy grain. Circumferential strap connects DIRECTLY frame-side small orange connectors to around side and back of skull. No rigid arms/pivots, no headband/crown arch, no bunny ears/clips, no headphone cups/pads/pods/microphone, no rear buckle. Hair on crown completely free. Topology remains exactly one frame/lens/gasket, one strap and two small side connectors.\n\nDAILY raised: physically slide the entire goggles+strap UP onto forehead above eyebrows. Both blue eyes completely visible. Side must match ref3's direct connector→soft band→posterior path, with natural attached human ear below. Rear must match ref4's one SLENDER band across occipital hair, no lens on rear and no extra strap. Side's normal fore-high/posterior-low wrapping angle is allowed.\nACTION lowered: same goggles moved to the eyes, centered on the same face axis; not hinging off a forehead mount, no spare hardware stays on forehead. Smoke lens allows subdued eyes behind it like selected design; nose tip, mouth, chin free. Keep same narrow frame/strap proportions. Silver hair may naturally overlap some frame/band, without shifting the actual frame or carving holes in it.\nHair silver-white with broad continuous cool-gray hard shadow groups and dark clean outline; blue irises, natural narrow attached human ears and peach skin. No flesh-coloured hair, floating ears, face changes, cloudy hair noise/white specks/soft blur/waxy skin. Current normal black collar/white inner top/orange jacket shoulders/red lapel corners. Harness under jacket. No OG neck ring/new logo/long text/dimensions/manufacturing claims. Invisible axes and ratio cues are instruction only, never draw them."
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-a6d5a4de-f1e0-40f1-a2c1-75d28b17fe1c.png",
+      "sha256": "1ba99c90d2741ff70cc5e400d3af6882d5e481449a8a91812365db123200392a"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/reference-inputs/base-front-head.png",
+        "sha256": "0b0621ff0a82158224cb0e0e1b0a4e53fd5e357cb1ef71644ec8166d69fab4a2",
+        "dimensions": [
+          350,
+          340
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-components-v1-native/assembled-front.png",
+        "sha256": "1d53a4b513470d0b9d62dacecb3de37ededc67cda81d6e998794feb4cc56600b",
+        "dimensions": [
+          620,
+          260
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/side-raised.png",
+        "sha256": "74b7958719f4e6914acab6b9e8b0f9255d665c02eced910b02f9847ebc956a67",
+        "dimensions": [
+          525,
+          475
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/back-raised.png",
+        "sha256": "22a6fd90ff9f3f56fd105bcabc80919ea2f88b1d668ec583657c635b6d9f45cb",
+        "dimensions": [
+          560,
+          490
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/concepts/references/current-collar.png",
+        "sha256": "3dfe7da7fcdc1f841d2751505f09df5a5c7b5c5a3d274abdcc96e58650c29295",
+        "dimensions": [
+          315,
+          195
+        ]
+      }
+    ],
+    "description": "头部装备 · 头部穿戴近景；完整新绘，当前头装只保留护目镜。",
+    "scope": "在当前内穿承载系统人物上加入柔圆护目镜，默认抬至额头，一条细黑镜带绕后脑；耳机、兔耳和独立头箍取消。既有衣层与尺寸资料不变，武器仍未同步。",
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "individual_visual_review": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/selected-five-v2.json",
+      "sha256": "af5f6791f9a8f2b1ef596a3056e1ccb6e678c9b24ec06920778e12d505cac402"
+    },
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/actual-generation-v2.json",
+      "sha256": "b4bea68be144dad080c1a585b1000643ad32b8a60524bdff2d77aa6d27236534"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v3-node.json",
+      "sha256": "800fe090f70968f8d3fa5411606a12a0a4510d558c52bff094ca1a8f9dd58c17"
+    },
+    "repository_generation_record": {
+      "path": "catalog/bunny/3.1.0/generation-sources/goggles-v2-only-wearing-closeup-v2.json",
+      "sha256": "a81edead469a3223a34264025bdd0fa59b654f85351274f67150ba05fbac50b4"
+    }
+  },
+  "bunny/goggles-v2-only-components-v1.png": {
+    "page": "/characters/bunny/headgear",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/references/approved-frame.png",
+    "baseline_sha256": "46319108d1ae9c03962daf42a4eec90d8da62d48b4a28e6b750534f66daecc9e",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-components-v1.png",
+    "source_artifact_sha256": "ef599633e9e102d34e0e46203faad88d6f5be20b6a10abad84b49da76a179328",
+    "review_status": "current-goggles-only-reference",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-components-v1-request.json",
+      "sha256": "c3746f0e00108ed206976a775757532bbcc9adde21d3a317d26766b2ca42e072"
+    },
+    "actual_tool_parameters": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/references/approved-frame.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/references/approved-side-strap.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/references/approved-back-strap.png"
+      ],
+      "prompt": "Create a new clean JAPANESE ANIME CEL-COLOUR PRODUCT BREAKDOWN board of ONE PAIR OF SIMPLE ROUNDED STRAP GOGGLES, white landscape background. Objects ONLY, NO human head/body, no hair in final drawing. References are actual wearing crops only for the selected frame outline, colours, TWO small orange side connection/adjustment clips, and ONE circumferential elastic strap. Ignore the character/hair visible in references.\nA gentle rounded narrow WHITE frame, ONE continuous smoky dark lens with a low rounded nose relief, slim CHARCOAL soft gasket behind frame, ONE slender BLACK ELASTIC strap connecting directly to the left/right frame ends through TWO small orange connector/adjuster parts. No hard temple arms, hinges, top headband, rabbit ears/clips, earphones/pads, rear buckle, microphone, screws or imaginary mechanisms. White-black-orange clean hard-edged cel planes, dark linework, no glossy 3D/airbrush/grain.\nLAYOUT MUST CLEARLY SEPARATE assembled reference from exploded components, with generous white margins. TOP small zone titled ASSEMBLED: 3 views of the complete same goggles (front, right profile, rear three-quarter showing the single strap loop). These are repeat VIEWS, not additional pieces. Frame proportions/nose contour/2 orange side parts match all views, and each front/side joining is structurally continuous. Side strap attaches DIRECTLY, not through a long arm.\nBOTTOM main zone titled COMPONENTS: exactly SIX independent physical pieces only, arrayed with small labels 01–06:\n01 one single continuous smoky lens, removed intact (not two eye lenses);\n02 one thin white FRAME ONLY, hollow/empty inside where lens was removed;\n03 one charcoal soft face GASKET ring, hollow/empty inside, no lens or white frame left inside;\n04 ONE black flexible elastic strap as a single long curved strip with two terminal ends, no duplicate loop elsewhere in this components zone, no rear buckle;\n05 one small LEFT orange connector/adjuster with dark backing;\n06 its matching RIGHT orange connector/adjuster with dark backing.\nThe dark backings belong to 05/06, do not scatter them as extra pieces. The strap is REMOVED from all other disassembled parts; no second strap remains connected to a partially assembled body. No attached orange clips also remain on bare frame when the same clips are laid out as05/06. Thus the six separated parts add up exactly to the assembled object. You may add very restrained thin exploded alignment guides, but no intricate mechanisms and no leftover ghosts in empty frame/gasket openings.\nOnly short ASSEMBLED / COMPONENTS and 01–06 labels, no dimensions/manufacturing claims/long explanations/new logo. Fully new board; no local image manipulation."
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-b3f11528-dc6a-4e8e-9eda-8cbfdefd0305.png",
+      "sha256": "ef599633e9e102d34e0e46203faad88d6f5be20b6a10abad84b49da76a179328"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/references/approved-frame.png",
+        "sha256": "46319108d1ae9c03962daf42a4eec90d8da62d48b4a28e6b750534f66daecc9e",
+        "dimensions": [
+          340,
+          135
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/references/approved-side-strap.png",
+        "sha256": "23491d08767308f5b3159ddaa98155d0222caf3d241a86c88ace52bff216e74c",
+        "dimensions": [
+          395,
+          155
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/references/approved-back-strap.png",
+        "sha256": "05a2f8d7b1b0d90bdc1b287d64d72a8e27ffe25e56323acf3861caf77e5d6156",
+        "dimensions": [
+          375,
+          75
+        ]
+      }
+    ],
+    "description": "头部装备 · 护目镜独立结构；完整新绘，当前头装只保留护目镜。",
+    "scope": "在当前内穿承载系统人物上加入柔圆护目镜，默认抬至额头，一条细黑镜带绕后脑；耳机、兔耳和独立头箍取消。既有衣层与尺寸资料不变，武器仍未同步。",
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "individual_visual_review": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+      "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/selected-five-v2.json",
+      "sha256": "af5f6791f9a8f2b1ef596a3056e1ccb6e678c9b24ec06920778e12d505cac402"
+    },
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/actual-generation-v2.json",
+      "sha256": "b4bea68be144dad080c1a585b1000643ad32b8a60524bdff2d77aa6d27236534"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-components-v1-node.json",
+      "sha256": "bf97dfeaf4fe9fd6457b349c79db004b2159a7fb80232f0ab63d3116cb0d8de0"
+    },
+    "repository_generation_record": {
+      "path": "catalog/bunny/3.1.0/generation-sources/goggles-v2-only-components-v1.json",
+      "sha256": "ea7bfc3874457da519527fe6f4584d1d6170b9fb74e2115a52379eb8bffd1541"
     }
   }
 }

@@ -20,12 +20,18 @@ aside: true
 - [原v2局部修订 · 画风对照 PNG](/media/bunny/3.1.0/body-v2-local-refined-v1.png)
 - [v2比例底子 · 对照参考 PNG](/media/bunny/3.1.0/body-v2-proportion-reference.png)
 - [v2 · 中性头部样板 PNG](/media/bunny/3.1.0/head-v2-cel-reference-v3.png)
-- [当前穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)
 - [v2 · 16 格表情 PNG](/media/bunny/3.1.0/expressions-v2-cel-v2.png)
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，新绘累计三视与层次关系板，三张硬件板保持；头部装备与武器衣层仍待同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
+<details>
+<summary>此前动作补图 · 含已取消的耳机、兔耳与领口 OG</summary>
+
+- [历史穿戴动作补图 PNG](/media/bunny/3.1.0/outfit-pose-current.png)
+
+</details>
+
+基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，新绘累计三视与层次关系板，三张硬件板保持；头部装备层补齐仅护目镜的累计三视、四格近景与拆解板；武器衣层仍待同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 本轮按同视角基模完整重绘鞋靴、手部、腿部、夹克四层的 12 张人物及袜装背面，核对头部发色、深色轮廓与赛璐璐分面；既定尺寸规范和结构细节板保持。各新图测量绑定自身坐标，遮挡与数值不确定项仍单列。
 
@@ -372,9 +378,22 @@ aside: true
 
 </details>
 
-## 头部装备
+## 头部装备 {#headgear-assets}
+
+- [v2 · 护目镜累计正面 PNG](/media/bunny/3.1.0/goggles-v2-only-cel-front-v2.png)
+- [v2 · 护目镜累计右侧面 PNG](/media/bunny/3.1.0/goggles-v2-only-cel-side-v1.png)
+- [v2 · 护目镜累计背面 PNG](/media/bunny/3.1.0/goggles-v2-only-cel-back-v1.png)
+- [v2 · 护目镜四格穿戴近景 PNG](/media/bunny/3.1.0/goggles-v2-only-wearing-closeup-v2.png)
+- [v2 · 护目镜独立结构与拆解 PNG](/media/bunny/3.1.0/goggles-v2-only-components-v1.png)
+
+当前只保留护目镜，默认抬至额头；耳机、兔耳配饰和独立头箍已取消。近景说明额头与眼前两个佩戴位置，独立板说明部件关系，见[头部装备页](/characters/bunny/headgear)。
+
+<details>
+<summary>原25—29 · 已取消耳机和兔耳的旧头装方案</summary>
 
 <ul><li><a href="/media/bunny/3.1.0/29-head-equipment-cumulative.png">头部装备累计衣层</a></li><li><a href="/media/bunny/3.1.0/25-head-equipment-wearing.png">头部装备穿戴</a></li><li><a href="/media/bunny/3.1.0/26-goggles-components.png">护目镜独立结构</a></li><li><a href="/media/bunny/3.1.0/27-headphones-components.png">耳机独立结构</a></li><li><a href="/media/bunny/3.1.0/28-ear-accessories-components.png">兔耳配饰结构</a></li></ul>
+
+</details>
 
 旧版武器资料不列为当前设计图，回溯时请见<a href="/characters/bunny/weapon-history">历史参考</a>。
 

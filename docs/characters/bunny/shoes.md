@@ -6,7 +6,7 @@ aside: true
 # 鞋靴
 
 ::: info 鞋靴层 · 红白鞋靴
-当前鞋靴层沿用[白色上衣、红色短裤](/characters/bunny/innerwear)与[非对称袜装](/characters/bunny/hosiery)，加入红白鞋靴。正、侧、背三张完整人物与独立结构板均为整张新绘，分别保留原生 PNG、放大入口与下载。下一层[手部装备](/characters/bunny/hands)现有完整穿着三视及两张部件板；[腿部装备](/characters/bunny/thigh-gear)也有穿着三视及两张部件板，[外套层](/characters/bunny/jacket)现有穿着三视与两张部件板，[承载带与固定点](/characters/bunny/harness)说明白衣外、夹克内的累计穿戴及部件连接；头部装备与武器仍待同步。
+当前鞋靴层沿用[白色上衣、红色短裤](/characters/bunny/innerwear)与[非对称袜装](/characters/bunny/hosiery)，加入红白鞋靴。正、侧、背三张完整人物与独立结构板均为整张新绘，分别保留原生 PNG、放大入口与下载。下一层[手部装备](/characters/bunny/hands)现有完整穿着三视及两张部件板；[腿部装备](/characters/bunny/thigh-gear)也有穿着三视及两张部件板，[外套层](/characters/bunny/jacket)现有穿着三视与两张部件板，[承载带与固定点](/characters/bunny/harness)说明白衣外、夹克内的累计穿戴及部件连接；[头部装备层](/characters/bunny/headgear#headgear-wearing)已有累计三视与部件图；武器仍待同步。
 :::
 
 ## 鞋靴穿着三视 {#footwear-wearing}

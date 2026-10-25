@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "role": "side",
+  "publish_slug": "goggles-v2-only-cel-side-v1",
+  "publication_mapping": {
+    "actual_tool_candidate": "goggles-side-v1",
+    "published_slug": "goggles-v2-only-cel-side-v1",
+    "selection_suggested_slug": "goggles-v2-only-cel-side-v1",
+    "note": "Unchanged original selected source and URL."
+  },
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-side-v1.png",
+    "sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e"
+  },
+  "native_output": {
+    "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-31fc8298-7ce3-4730-aca4-96244047758b.png",
+    "sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e"
+  },
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-side-v1-request.json",
+    "sha256": "6fe8b4daf88d4bb32ba5e7b4f0398586c5b9b33e627cb4eee1a75c990e97ef4f"
+  },
+  "request_pointer": "/arguments",
+  "actual_tool_parameters": {
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-inner-cel-side-v1.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/reference-inputs/base-side-head.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/side-raised.png"
+    ],
+    "prompt": "Draw ONE completely new full-body Japanese anime character reference illustration, clean dark hand-drawn ink and hard CEL colours, white background. A single complete Bunny from hair crown to shoe soles, no panels, no text, all limbs and both shoe soles fully inside frame. Reconstruct the whole drawing; no patches or pasted head. Use portrait layout like reference1; preserve relative head/body/leg scale. Uniform overall layout scaling is allowed, no shortening legs or lengthening waist.\nREF1 is the CURRENT ACCEPTED same-view full character: authority for body proportions, exact pose, full cumulative clothing, garment lengths, equipment, hands and feet. Preserve it as the complete layout. REF2 is the BASE same-view head: sole identity/hair/skin/line/material authority. REF3 is the APPROVED same-view GOGGLE wearing study: only new ordinary goggles geometry/position/strap route; never let the study head change the human head size.\nOnly addition is ordinary rounded narrow goggles RAISED ON FOREHEAD so eyes remain fully visible in front/profile. One continuous smoky lens in soft rounded thin WHITE frame, charcoal inner gasket, TWO small ORANGE side connectors total, ONE narrow BLACK elastic strap directly attached to them and encircling side/back of head. Entire goggles pushed to forehead, NOT pivoted up by arms. Top/crown hair remains free. No headband/crownbeam, no rigid arms/pivots, no rabbit ears/clips, no headphones/pads/pods/mic, no mask. Nose/mouth visible. Strap may be partly hidden by natural hair; coherent route matches ref3.\nPRESERVE ALL ACCEPTED CLOTHING: white top exact collar/chest opening and hem height; orange cropped high-low jacket front tips longer/back shorter, same exposed white edge and bare waist; normal BLACK fine-rib collar/cuffs, red lapel facings; left upper sleeve pocket same small WHITE official connected OG mark and generous margin, not a new letter shape. Keep slim waist/body and mature current proportions, don't inflate chest/hips or alter head.\nINTERNAL HARNESS is outside white top but UNDER orange jacket: no black shoulder/H straps drawn across orange shoulders/back/sleeves. Front has the single black chest band with SILVER buckle in open jacket/over white shirt. Back has only TWO tails emerging below rear hem, each single silver hook to black rear waist anchor. Waist belt remains on original RED SHORTS waist through loops, with BLACK front waist clasp and TWO ORANGE front anchor covers; do not turn waist clasp silver or add visible pants button. Red shorts waistband/crotch/pockets/rolled hems unchanged. All prior hand/wrist/leg/socks/shoe components remain exactly ref1 including screens/buttons, materials, sides and attachment.\nClean silver-white hair with coherent cool-gray shadow groups and dark outlines matching ref2; natural modest attached human ears, no flesh-coloured side-locks or detached ear slivers. Blue iris where visible. No new white speck/mottled cloud/grimy grain/soft streak patterns. Orange fabric flat regions plus limited hard shadows, fine rib ONLY knitted collars/cuffs/sock cuffs; white sock shaft restrained clean flat tone. Metal/plastic use limited hard highlights, no noisy weathering. No weapon/extra accessories.\nSTRICT RIGHT SIDE PROFILE facing SCREEN RIGHT, matching ref1. Near side is character RIGHT: full-finger black glove, red wrist device, right thigh modules and white sock. Left sleeve OG naturally not visible; don't move it onto near sleeve. Goggle strap goes from orange forehead-end connector backward over side hair above human ear and around head. Exactly one body/head; no turnaround layout."
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-side-v1-tool-output.json",
+    "sha256": "5ae0c9aa11737dc204ed7b1104ef9b7e4fe67aebf7eb46c9e6af8e9fe48506b5"
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/harness-v2-inner-cel-side-v1.png",
+      "sha256": "75c5f995de52f182be438782b2521b0b2252df6c2d5d82240a9df0162f889faa",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/reference-inputs/base-side-head.png",
+      "sha256": "e671e4c071292f726dceab2474813899d5be601a304ff61912f2fee3d2afea7a",
+      "dimensions": [
+        350,
+        340
+      ]
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-closeup-v1-native/side-raised.png",
+      "sha256": "74b7958719f4e6914acab6b9e8b0f9255d665c02eced910b02f9847ebc956a67",
+      "dimensions": [
+        525,
+        475
+      ]
+    }
+  ],
+  "generation_node": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/goggles-side-v1-node.json",
+    "sha256": "6f33e16a623a4f51c354e806a042918b720c49586538a55f0c3347ba5d0e2ba9"
+  },
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+    "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+  },
+  "visual_review_pointer": "/images/2",
+  "selected_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/selected-five-v2.json",
+    "sha256": "af5f6791f9a8f2b1ef596a3056e1ccb6e678c9b24ec06920778e12d505cac402"
+  },
+  "cross_view_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/review/tilt-audit/goggles-corrected-five-independent-review.json",
+    "sha256": "051368a3b0f10f947c4f00145cdcb51b7eac7f68bae3dbfc5ac954c3d1fcb53f"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-headgear-layer-20261025/goggles-only/actual-generation-v2.json",
+    "sha256": "b4bea68be144dad080c1a585b1000643ad32b8a60524bdff2d77aa6d27236534"
+  },
+  "drawing_limitations": [],
+  "method": "builtin imagegen; complete fresh drawing; byte-exact native; lossless WebP only"
+}

@@ -1,15 +1,15 @@
 ---
-title: "当前累计穿戴"
+title: "武器累计穿戴（待同步）"
 releaseReady: false
 aside: true
 ---
-# 当前累计穿戴
+# 武器累计穿戴（待同步）
 
-本页保留此前装备资料，尚未同步当前头部、夹克与承载带；当前累计穿戴见[内穿承载带三视](/characters/bunny/harness#harness-wearing)。
+本页保留此前武器装备资料，尚未同步当前头部、夹克、内穿承载系统与头装；当前累计穿戴见[头部装备三视](/characters/bunny/headgear#headgear-wearing)。
 
 <span id="已确认累计穿戴"></span>
 
-下方保留包含武器收纳的既有累计三视及此前头部装备参考，用于回溯穿戴、收纳位置与遮挡；不代替已同步至承载带层的当前制作图。
+下方保留包含武器收纳的既有累计三视及此前头部装备参考，用于回溯穿戴、收纳位置与遮挡；不代替当前头部装备层的制作图。
 
 ## 武器收纳累计三视
 
@@ -19,8 +19,13 @@ aside: true
 
 <a href="/characters/bunny/saw">武器收纳图解与比例口径</a>
 
-## 头部装备累计衣层
+## 此前头部装备累计衣层
+
+<details>
+<summary>原29 · 已取消耳机和兔耳的旧累计造型</summary>
 
 以下为此前加入武器前的头部装备参考，尚未同步本轮累计结果。
 
 <ReleaseImage src="/characters/bunny/3.1.0/29-head-equipment-cumulative.webp" original="/media/bunny/3.1.0/29-head-equipment-cumulative.png" alt="头部装备累计衣层（加入武器前）" caption="头部装备累计衣层（加入武器前）" />
+
+</details>

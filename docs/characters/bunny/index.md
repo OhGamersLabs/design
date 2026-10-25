@@ -5,11 +5,11 @@ aside: true
 ---
 # Bunny · 轻巧轮廓与分层装备
 
-白发、兔耳、橙红衣装与露嘴护目镜共同形成角色识别。
+白发、柔圆护目镜与橙红衣装共同形成当前角色识别；耳机与兔耳配饰已取消。
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)、[橙色外套](/characters/bunny/jacket)与[承载带层](/characters/bunny/harness)八组三视共二十四张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，提供累计三视与层次关系板，三张硬件板保持；头部装备与武器衣层仍待同步。旧鞋、旧手部、旧腿部、旧外套资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)、[橙色外套](/characters/bunny/jacket)、[承载带层](/characters/bunny/harness)与[头部装备层](/characters/bunny/headgear)九组三视共二十七张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，提供累计三视与层次关系板，三张硬件板保持；头部装备层补齐仅护目镜的累计三视、四格近景与拆解板；武器衣层仍待同步。旧鞋、旧手部、旧腿部、旧外套资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
 
 ## 本轮补充
 
@@ -26,7 +26,7 @@ aside: true
 
 ## 设计规范
 
-当前制作以[完整新绘 v2 基模](/characters/bunny/body-base)及其[图面比例](/characters/bunny/dimensions)为依据，身份继续对照[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。当前已完成夹克内穿承载系统的累计关系；实际厘米身高尚未设定，头部装备与武器保留既有资料，后续继续核对。今后人物三视的完整新绘要求见[手绘语言标准](/characters/bunny/visual-language#完整三视的绘制方式)。
+当前制作以[完整新绘 v2 基模](/characters/bunny/body-base)及其[图面比例](/characters/bunny/dimensions)为依据，身份继续对照[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。当前累计已加入护目镜，夹克内穿承载关系保持；实际厘米身高尚未设定，武器保留既有资料，后续继续核对。今后人物三视的完整新绘要求见[手绘语言标准](/characters/bunny/visual-language#完整三视的绘制方式)。
 
 下方 00 图是 **2026-10-18 的旧基准沿革**，保留原图与原字。图内“最新已确认基模”“当前锁定的制作依据”均指当时版本，不作为当前 v2 制作依据。
 
@@ -42,17 +42,31 @@ aside: true
 
 ## 当前累计穿戴
 
-当前累计穿戴见[内穿承载带三视](/characters/bunny/harness#harness-wearing)。以下武器背腰水平收纳三视为此前完整装备参考，尚未同步当前头部、夹克与承载带，不代替本轮累计结果。
+当前累计穿戴见[头部装备三视](/characters/bunny/headgear#headgear-wearing)。
+
+<details>
+<summary>此前武器收纳累计图 · 尚未同步</summary>
+
+以下武器背腰水平收纳三视保留此前完整装备，尚未同步当前头部、夹克、内穿承载系统与护目镜，不代替当前累计结果。
 
 <ReleaseImage src="/characters/bunny/3.1.0/31-neutral-stored-threeview.webp" original="/media/bunny/3.1.0/31-neutral-stored-threeview.png" alt="武器收纳累计三视图（尚未同步的既有参考）" caption="武器收纳累计三视图（尚未同步的既有参考）" />
 
 <ul><li><a href="/characters/bunny/assembled">累计穿戴核对</a></li><li><a href="/characters/bunny/saw">武器设计状态</a></li></ul>
 
-## 当前穿戴动作补图 {#outfit-pose}
+</details>
 
-<ReleaseImage src="/characters/bunny/3.1.0/outfit-pose-current.webp" original="/media/bunny/3.1.0/outfit-pose-current.png" alt="Bunny 当前穿戴动作补图：左手叉腰，右手自然下垂，无武器" caption="当前穿戴动作补图 · 左手叉腰 / 右手自然下垂" />
+## 此前穿戴动作补图 {#outfit-pose}
+
+<details>
+<summary>旧动作造型 · 含已取消的耳机、兔耳与领口 OG</summary>
+
+此图保留此前设计供回溯，不代表当前只护目镜的头装或内穿承载关系。
+
+<ReleaseImage src="/characters/bunny/3.1.0/outfit-pose-current.webp" original="/media/bunny/3.1.0/outfit-pose-current.png" alt="Bunny 历史穿戴动作补图：左手叉腰，右手自然下垂，无武器" caption="历史穿戴动作补图 · 左手叉腰 / 右手自然下垂" />
 
 该图补充叉腰时左手半指手套与橙色终端、右手全指手套与红护环，以及外套袖量、承载带和左右袜靴的外观关系。它是一张无武器姿势表现，不代替原稿持锯角色卡、武器实握或收纳座取出动作，也不等于连续运动验证。
+
+</details>
 
 ## 原稿同姿势角色卡
 
