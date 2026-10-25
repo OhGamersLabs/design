@@ -15,17 +15,32 @@ aside: true
 
 三张完整人物各为 1024×1536。鞋底厚度属于鞋层外形，人物比例仍参照[当前基模与图面尺寸](/characters/bunny/dimensions)；本页不提供隐藏踝位置、内部足床的精确尺寸或三维装配结论。
 
-本次完整重绘右侧面与独立结构板，灰色圆锚改为双色硬边，正面与背面保持原稿。
+独立结构板沿用已确认的双色硬边圆锚设计。
+
+本轮三张人物以同视角基模核对发色、深色轮廓与赛璐璐分面，均从空白画布完整绘制。衣层按既定款式和[尺寸规范](/characters/bunny/dimensions#garment-dimensions)核对，结构与细节板沿用；原始 PNG 保留生图工具直接输出。
 
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png" alt="完整新绘 · 红白鞋靴层 · 正面" caption="v2 · 鞋靴层 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.webp" original="/media/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.png" alt="基模对齐重绘 · 完整新绘 · 红白鞋靴层 · 正面" caption="基模对齐重绘 · v2 · 鞋靴层 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.png" alt="完整重绘 · 红白鞋靴层 · 右侧面，灰色圆锚双色硬边" caption="v2 · 鞋靴层 · 右侧面 · 金属硬边色块修订" />
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-side-v1.webp" original="/media/bunny/3.1.0/footwear-v2-base-aligned-cel-side-v1.png" alt="基模对齐重绘 · 完整重绘 · 红白鞋靴层 · 右侧面，灰色圆锚双色硬边" caption="基模对齐重绘 · v2 · 鞋靴层 · 右侧面 · 金属硬边色块修订" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png" alt="完整新绘 · 红白鞋靴层 · 背面" caption="v2 · 鞋靴层 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.webp" original="/media/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.png" alt="基模对齐重绘 · 完整新绘 · 红白鞋靴层 · 背面" caption="基模对齐重绘 · v2 · 鞋靴层 · 背面" />
 
 </div>
+
+<details>
+<summary>基模对齐重绘前 · 人物历史原图</summary>
+
+此前完整人物保留作沿革对照；当前人物见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png" alt="完整新绘 · 红白鞋靴层 · 正面" caption="基模对齐重绘前 · v2 · 鞋靴层 · 正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.png" alt="完整重绘 · 红白鞋靴层 · 右侧面，灰色圆锚双色硬边" caption="基模对齐重绘前 · v2 · 鞋靴层 · 右侧面 · 金属硬边色块修订" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png" alt="完整新绘 · 红白鞋靴层 · 背面" caption="基模对齐重绘前 · v2 · 鞋靴层 · 背面" />
+
+</details>
 
 [下载当前鞋靴三视与结构资料 PNG](/characters/bunny/downloads#footwear-assets)
 

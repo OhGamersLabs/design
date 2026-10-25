@@ -6,7 +6,7 @@ aside: true
 # 袜装
 
 ::: info 袜装层 · 橙色长袜与白色短袜
-当前穿着稿以[完整新绘的第一层白色上衣与红色短裤](/characters/bunny/innerwear#layer1-wearing)为设计参考，分别展示从空白画布完整新绘的正、侧、背三视。本页正面、背面和结构与细节板沿用此前完整重绘稿，侧面沿用此前新绘稿。[鞋靴层](/characters/bunny/shoes)现有完整穿着三视及独立结构板，[手部层](/characters/bunny/hands)现有穿着三视及两张部件板，[腿部层](/characters/bunny/thigh-gear)现有穿着三视及两张部件板，[外套层](/characters/bunny/jacket)现有穿着三视与两张部件板，外侧承载带及之后的衣层尚未同步；当前基模和图面尺寸仍作为设计依据。
+当前穿着稿以[完整新绘的第一层白色上衣与红色短裤](/characters/bunny/innerwear#layer1-wearing)为设计参考，分别展示从空白画布完整新绘的正、侧、背三视。本页背面本轮完整重绘，正面、侧面与结构细节板沿用此前新绘稿。[鞋靴层](/characters/bunny/shoes)现有完整穿着三视及独立结构板，[手部层](/characters/bunny/hands)现有穿着三视及两张部件板，[腿部层](/characters/bunny/thigh-gear)现有穿着三视及两张部件板，[外套层](/characters/bunny/jacket)现有穿着三视与两张部件板，外侧承载带及之后的衣层尚未同步；当前基模和图面尺寸仍作为设计依据。
 :::
 
 角色左腿为橙色长袜，右腿为白色短袜。袜口贴合身体并产生轻微压痕，织物与腿部轮廓连续。
@@ -19,7 +19,7 @@ aside: true
 
 当前背面核对了高腰红裤的遮挡：基模两处短记号按固定的腰窝／骶区提示处理，衣物覆盖后不再外露，也不移到裤腰边缘；可见后中沟保持简洁自然。
 
-本轮从空白画布完整重绘正面与背面，保留既定耳发、衣物覆盖与形体设计，重新核对平涂色面和硬边阴影。侧面沿用此前完整新绘稿。袜装结构与细节板同步重绘。
+本轮背面以同视角基模核对发色、线条与赛璐璐分面，完整重绘人物；既定袜装与衣物覆盖关系保持，正面、侧面和结构细节板沿用。
 
 <div class="bunny-body-views">
 
@@ -27,9 +27,18 @@ aside: true
 
 <ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png" alt="完整新绘 · 橙色长袜与白色短袜 · 侧面" caption="v2 · 完整新绘 · 侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png" alt="完整新绘 · 橙色长袜与白色短袜 · 背面" caption="v2 · 完整新绘 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-base-aligned-cel-back-v1.webp" original="/media/bunny/3.1.0/hosiery-v2-base-aligned-cel-back-v1.png" alt="基模对齐重绘 · 完整新绘 · 橙色长袜与白色短袜 · 背面" caption="基模对齐重绘 · v2 · 完整新绘 · 背面" />
 
 </div>
+
+<details>
+<summary>基模对齐重绘前 · 人物历史原图</summary>
+
+此前完整人物保留作沿革对照；当前人物见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.webp" original="/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png" alt="完整新绘 · 橙色长袜与白色短袜 · 背面" caption="基模对齐重绘前 · v2 · 完整新绘 · 背面" />
+
+</details>
 
 [下载当前袜装三视与结构资料 PNG](/characters/bunny/downloads#hosiery-assets)
 

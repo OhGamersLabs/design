@@ -17,15 +17,30 @@ aside: true
 
 三张完整人物各为 1024×1536，人物比例仍参照[当前基模与图面尺寸](/characters/bunny/dimensions)。
 
+本轮三张人物以同视角基模核对发色、深色轮廓与赛璐璐分面，均从空白画布完整绘制。衣层按既定款式和[尺寸规范](/characters/bunny/dimensions#garment-dimensions)核对，结构与细节板沿用；原始 PNG 保留生图工具直接输出。
+
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png" alt="完整新绘 · 腿部装备层 · 正面，右大腿两条独立带承载上方任务终端与下方长翻盖维护袋" caption="v2 · 腿部装备层 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.webp" original="/media/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.png" alt="基模对齐重绘 · 完整新绘 · 腿部装备层 · 正面，右大腿两条独立带承载上方任务终端与下方长翻盖维护袋" caption="基模对齐重绘 · v2 · 腿部装备层 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png" alt="完整新绘 · 腿部装备层 · 右侧面，上终端下维护袋位于右大腿前外侧" caption="v2 · 腿部装备层 · 右侧面" />
+<ReleaseImage src="/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.webp" original="/media/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.png" alt="基模对齐重绘 · 完整新绘 · 腿部装备层 · 右侧面，上终端下维护袋位于右大腿前外侧" caption="基模对齐重绘 · v2 · 腿部装备层 · 右侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png" alt="完整新绘 · 腿部装备层 · 背面，右腿黑色带扣背与装置薄侧缘" caption="v2 · 腿部装备层 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.webp" original="/media/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.png" alt="基模对齐重绘 · 完整新绘 · 腿部装备层 · 背面，右腿黑色带扣背与装置薄侧缘" caption="基模对齐重绘 · v2 · 腿部装备层 · 背面" />
 
 </div>
+
+<details>
+<summary>基模对齐重绘前 · 人物历史原图</summary>
+
+此前完整人物保留作沿革对照；当前人物见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png" alt="完整新绘 · 腿部装备层 · 正面，右大腿两条独立带承载上方任务终端与下方长翻盖维护袋" caption="基模对齐重绘前 · v2 · 腿部装备层 · 正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png" alt="完整新绘 · 腿部装备层 · 右侧面，上终端下维护袋位于右大腿前外侧" caption="基模对齐重绘前 · v2 · 腿部装备层 · 右侧面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png" alt="完整新绘 · 腿部装备层 · 背面，右腿黑色带扣背与装置薄侧缘" caption="基模对齐重绘前 · v2 · 腿部装备层 · 背面" />
+
+</details>
 
 [下载当前腿部三视与两张部件板 PNG](/characters/bunny/downloads#thigh-assets)
 

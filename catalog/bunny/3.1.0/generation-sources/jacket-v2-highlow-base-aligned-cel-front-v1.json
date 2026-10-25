@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "role": "jacket-front",
+  "publish_slug": "jacket-v2-highlow-base-aligned-cel-front-v1",
+  "source_head": "6f0bfd4af1f6bbf03cc945c6cd615744880787c2",
+  "status": "visual-accepted-awaiting-current-set-and-measurement-binding",
+  "source": {
+    "kind": "revised-reference",
+    "page": "/characters/bunny/jacket",
+    "based_on": "/media/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.png",
+    "baseline_sha256": "0b5bd5db6e9a8069ff6d458a777708904c2f4d78688b81508ac15bf13fa50171",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-front-reset-v12.png",
+    "source_artifact_sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+    "review_status": "accepted-visual-with-measurement-binding-pending",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-front-reset-v12-request.json",
+      "sha256": "106426733923e7a2918dbb606e7665716ce2316f596fc7c7df9de9685106e3d8"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Draw a completely NEW whole full-body front illustration of this same adult woman, Japanese hand-drawn linework and clean hard cel colors, white portrait 1024x1536. Entire figure freshly drawn, no pasted head or local retouch.\n\nImage 1 is the full-figure geometry and clothing/layout authority, with ONE design correction: her LEFT UPPER ARM orange flap pocket (viewer right) is oversized. REDUCE THE ENTIRE POCKET ASSEMBLY INCLUDING FLAP, BODY, SEAM AND WHITE LOGO to about 82% of Image 1 size. Keep its top attachment at the same upper-arm level, so its lower edge rises. Desired body cross-section width about 48–50 pixels instead of 60; overall top-of-flap to bottom about 86–91 instead of 103 at this same full-figure scale. This is not merely shrinking the logo: the orange pocket silhouette must shrink too. Preserve its rectangular perspective, clean flap and same orientation. Leave the sleeve itself the same size. Image 3 shows the correct SMALL original pocket relative to its sleeve: restore this unobtrusive scale. Logo remains roughly 60–65% of pocket interior width with ample orange margins.\n\nEVERYTHING ELSE of image1 is already correct: preserve head/body relative proportions, long legs, waist and hips, exact outfit lengths, orange front-long/back-short pointed hem, bare waist, red shorts rise and cuff, all gear placement. Preserve white shirt center hem near490–494 and orange front tips511–515 as layout hints, without changing figure scale or compressing torso. The high-low front corners cover the white shirt side hem; shirt has a narrow lower band, no thick extra band. Keep clearly readable fine DIAGONAL RIBKNIT in BOTH black collar halves and fine vertical cuff ribs. No new decorative marks.\n\nImage 2 is the sole HEAD identity, hair color and painting authority: blue irises, attached natural ears, dark navy ink, silver-white hair with continuous large cool gray shadow planes, peach skin with restrained hard shadows. Keep image1 head SIZE and POSITION, but this clean baseline head style. Do not add fragmented white strands, electric-blue contours, cyan eyes, oily glow, cloudy texture or short scratchy marks.\nImage 3 is correct pocket geometry/scale ONLY; ignore its rest-of-jacket hem.\nImage 4 is official OG topology ONLY: connected rounded lower stroke, OPEN G right mouth with clear inward horizontal bar, and separate upper arc. Render flat white on orange pocket BODY, never change to two C rings or infinity. Keep correct logo from image1, just scale it together with the pocket.\n\nPreserve image1 device interfaces: small cyan/green information inside character LEFT orange wrist screen, recognizable black arrow and bar indicator inside upper RIGHT thigh terminal, no blank black screen. Keep asymmetric right full black glove/red wrist and left orange fingerless glove/orange wrist, two right-thigh straps/device/pouch, orange left long sock and white right short sock, exact red-white-black shoes and external ankle machinery. White sock shaft is restrained flat white plus sparse hard cel shadows; fine pale rib only on folded top. No white flecks, mosaic, clouds, grain, airbrush, waxy highlights or soft longitudinal streaking. No text, rulers or watermark.",
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-front-reset-v11.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/audit/native-heads/body-base-front.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/front-v13-native-evidence/front-v13/left-pocket-logo.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-1bf31ef5-e54d-4d90-b083-a9f2fa9117c2.png",
+      "sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-front-reset-v11.png",
+        "sha256": "27845bf22769d58d3d4ed310e966156dc375bb221e816801c63c9aee18567e2e",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/audit/native-heads/body-base-front.png",
+        "sha256": "0b0621ff0a82158224cb0e0e1b0a4e53fd5e357cb1ef71644ec8166d69fab4a2",
+        "dimensions": [
+          350,
+          340
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/front-v13-native-evidence/front-v13/left-pocket-logo.png",
+        "sha256": "7cfd003bb824eb462c04d7112161bbb46dd52e4fcacbf025d2afb2e0e9e242e3",
+        "dimensions": [
+          110,
+          180
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png",
+        "sha256": "d3f56411068d5f75005ede867ca18560371359a5d190a9d9ba5a5696c47be05a",
+        "dimensions": [
+          1080,
+          599
+        ]
+      }
+    ],
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/review/jacket-front-reset-v12-independent-review.json",
+      "sha256": "edf00cd060fe4477f04bafc9794b685574053834b6a2637ef5826d13678679f3"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-front-reset-v12-node.json",
+      "sha256": "48c01af50f052377cc0c086fcaca2d8fef6ba5829ff667ec5d9a51a6ad52876c"
+    }
+  },
+  "original": {
+    "path": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+    "sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+    "width": 1024,
+    "height": 1536
+  },
+  "web": {
+    "path": "/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.webp",
+    "sha256": "6dda61bd8ceb915bbf3a34df1d4fc72bbff8bdafa17b9ea3fb56ba4dfcbe4686",
+    "encoding": "lossless decoded RGBA equal to native"
+  },
+  "scope": "Complete new imagegen output; immutable per-image generation and visual review record. This record does not establish a current-page or numerical measurement acceptance."
+}

@@ -23,15 +23,30 @@ aside: true
 
 正面中角色左侧位于画面右侧，背面相反；右侧视图中近侧为无口袋的右袖，远侧左袋可自然被遮挡。此前右手纯黑全指手套、左手半指橙边与采集设备、右大腿双带和盒袋保持对应关系。
 
+本轮三张人物以同视角基模核对发色、深色轮廓与赛璐璐分面，均从空白画布完整绘制。衣层按既定款式和[尺寸规范](/characters/bunny/dimensions#garment-dimensions)核对，结构与细节板沿用；原始 PNG 保留生图工具直接输出。
+
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.png" alt="完整新绘 · 外套层 · 正面，橙色短外套与红前贴边，普通前开口领，纯白OG连环品牌图形位于左袖功能袋袋身正面中央" caption="v2 · 外套层 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png" alt="基模对齐重绘 · 完整新绘 · 外套层 · 正面，橙色短外套与红前贴边，普通前开口领，纯白OG连环品牌图形位于左袖功能袋袋身正面中央" caption="基模对齐重绘 · v2 · 外套层 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.png" alt="完整新绘 · 外套层 · 右侧面，宽袖与黑袖口位于既有腕部设备上方，近侧右袖无袋" caption="v2 · 外套层 · 右侧面" />
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.png" alt="基模对齐重绘 · 完整新绘 · 外套层 · 右侧面，宽袖与黑袖口位于既有腕部设备上方，近侧右袖无袋" caption="基模对齐重绘 · v2 · 外套层 · 右侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png" alt="完整新绘 · 外套层 · 背面，普通后领与背中缝，纯白OG连环品牌图形位于左袖功能袋袋身正面中央，无眼徽或承载带" caption="v2 · 外套层 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png" alt="基模对齐重绘 · 完整新绘 · 外套层 · 背面，普通后领与背中缝，纯白OG连环品牌图形位于左袖功能袋袋身正面中央，无眼徽或承载带" caption="基模对齐重绘 · v2 · 外套层 · 背面" />
 
 </div>
+
+<details>
+<summary>基模对齐重绘前 · 人物历史原图</summary>
+
+此前完整人物保留作沿革对照；当前人物见上方。
+
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.png" alt="完整新绘 · 外套层 · 正面，橙色短外套与红前贴边，普通前开口领，纯白OG连环品牌图形位于左袖功能袋袋身正面中央" caption="基模对齐重绘前 · v2 · 外套层 · 正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.png" alt="完整新绘 · 外套层 · 右侧面，宽袖与黑袖口位于既有腕部设备上方，近侧右袖无袋" caption="基模对齐重绘前 · v2 · 外套层 · 右侧面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png" alt="完整新绘 · 外套层 · 背面，普通后领与背中缝，纯白OG连环品牌图形位于左袖功能袋袋身正面中央，无眼徽或承载带" caption="基模对齐重绘前 · v2 · 外套层 · 背面" />
+
+</details>
 
 人物比例仍参照[当前基模与图面尺寸](/characters/bunny/dimensions)。[下载当前外套三视与两张部件板 PNG](/characters/bunny/downloads#jacket-assets)。
 

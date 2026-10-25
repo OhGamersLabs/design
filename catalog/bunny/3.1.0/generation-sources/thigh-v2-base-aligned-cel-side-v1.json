@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "role": "thigh-gear-side",
+  "publish_slug": "thigh-v2-base-aligned-cel-side-v1",
+  "source_head": "6f0bfd4af1f6bbf03cc945c6cd615744880787c2",
+  "status": "visual-accepted-awaiting-current-set-and-measurement-binding",
+  "source": {
+    "kind": "revised-reference",
+    "page": "/characters/bunny/thigh-gear",
+    "based_on": "/media/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png",
+    "baseline_sha256": "f8c6c4e9a4db852ee16e665d29886073c0c3ca37b865579eb0c75ebe176c0948",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-side-reset-v1.png",
+    "source_artifact_sha256": "af9a6cef44d1870bcee0496e37c291ff75b84a229e80d1c5a83dda4711acd97e",
+    "review_status": "accepted-visual-with-measurement-binding-pending",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-side-reset-v1-request.json",
+      "sha256": "10d214098a6faef50ae306368c3fce1d30f66d7bd6336102461797442f60bda5"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Freshly draw one NEW COMPLETE full-body strict RIGHT SIDE PROFILE facing imageRIGHT; the character-RIGHT arm/leg is near us adult woman, from fullhair to shoesoles, white portrait1024x1536. Entire figure freshly hand-drawn Japanese lineart+HARD CEL color, no headpasting/collage/retouch/filter.\nImage1 is SAME-VIEW complete CURRENT BODY BASE: sole HEAD/identity/bodyproportions/painting authority. Keep exact same right-profile face, blue eye, attached close ear, neck and silver-white hair clumps, broad coolgray/lavender lower hairshadow groups, restrained dark navy ink and peach nape shadows. Do not exaggerate warm red nape/ear shading or add whitefeather highlights/extra short hairlines. Preserve legitimate whitehair planes/hardshadows and slight intentional baseline transitions. No cloudypatches/mosaic/whiteflecks or waxygloss.\nImage2 is SAME-SIZE original-frame CURRENT CLOTHED BODY with head intentionally omitted on whitecanvas. It supplies only current clothing/gear/bodyposition. Blanktop is reference omission, do not shrink/recenter the croppedbody. Use matching complete frames to preserve bodyratio/pose and clothe the Image1 person exactly as2. No legshortening, waistlengthening, hipwidening or new anatomy.\nWhite sleeveless highneck crop top, same collarheight/chest projection/hem and redshorts shape/rise/rolledhem. Do not flatten chest or butt, pinch waist or shorten legs. Keep true side perspective, no shifted frontfeatures/backpockets onto visiblefront.\nNear arm is CHARACTER-RIGHT with FULL plainBLACK glove and RED wristunit, no orange handstripe. Farther left orangefingerless glove/orangewrist only visible where perspectiveallows, not pasted onto nearhand. Preserve glove and device shape/handorientation. RIGHT near thigh has exactly TWO separateblackstraps. Outer upper terminal andlower flappouch belong to same nearthigh, partlycovered by near hand ascurrent. Keep visiblewidth/overlap/spacing and no addedthirdstrap. NO jacket.\nNear RIGHT leg has shortwhite sock and redwhiteblack rightshoe with outeranklehardware; farther LEFT orange thigh-high only visible where not occluded. Preserve the exact overlaps and shoe geometry of current side. White shaft stable flatwhite with sparsehardshadow, fine blue ribs onlyfoldedband.\nEvery visible part/side/overlap remains physically coherent. Back anatomy stays back, no navel orfrontcleavage. Clean localcolor planes, restrained dark lines and CLOSED HARD shadows; intentional knit/seam detail retained. No painterlygradients/oily3D/gloss, cloudy texture or whitehair filament fragmentation. No text/rulers/watermark.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-side-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/thigh-gear-side-current-body-native-frame.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-c509f15b-2795-4034-87d4-522acd3992f1.png",
+      "sha256": "af9a6cef44d1870bcee0496e37c291ff75b84a229e80d1c5a83dda4711acd97e"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-side-v1.png",
+        "sha256": "c4ca73b3f865a6c2018e8db398dcd4ebc92cfe134389dfd63a9b9af33698e83b",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/thigh-gear-side-current-body-native-frame.png",
+        "sha256": "ce33beadcb486fec3062d6eeddf3086d91d09f4d2a1f0437e0dc85b4dbcefb5d",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      }
+    ],
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/review/thigh-side-reset-v1-independent-review.json",
+      "sha256": "92cae58334f0fa699c400201c0b55b8897cccd0203354dad3f3efca104e78964"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-side-reset-v1-node.json",
+      "sha256": "eae28bcf0b3491d8a9613eac8f7eac73a0b9c9b6bce38fced1eed55caacdbcb5"
+    }
+  },
+  "original": {
+    "path": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.png",
+    "sha256": "af9a6cef44d1870bcee0496e37c291ff75b84a229e80d1c5a83dda4711acd97e",
+    "width": 1024,
+    "height": 1536
+  },
+  "web": {
+    "path": "/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.webp",
+    "sha256": "4d6ef3e29baea850b9e4634ec146f8eb2b93a7b9b1e505db7ded3b82cf2ae3c4",
+    "encoding": "lossless decoded RGBA equal to native"
+  },
+  "scope": "Complete new imagegen output; immutable per-image generation and visual review record. This record does not establish a current-page or numerical measurement acceptance."
+}

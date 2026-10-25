@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "role": "shoes-front",
+  "publish_slug": "footwear-v2-base-aligned-cel-front-v1",
+  "source_head": "6f0bfd4af1f6bbf03cc945c6cd615744880787c2",
+  "status": "visual-accepted-awaiting-current-set-and-measurement-binding",
+  "source": {
+    "kind": "revised-reference",
+    "page": "/characters/bunny/shoes",
+    "based_on": "/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png",
+    "baseline_sha256": "b2fe9dfc6229eb706f430e9a5f36459c0e4e2917c2755a4a6529837de1c8c8ba",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-front-reset-v3.png",
+    "source_artifact_sha256": "a88daac16fa7b359ab3e139c99af90545152e787ba25dbfe7ec6c7557b64b2bd",
+    "review_status": "accepted-visual-with-measurement-binding-pending",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-front-reset-v3-request.json",
+      "sha256": "e322a21ff1ed617c22db3f931572f806a90ab7a2c54e578c81913d12cd634881"
+    },
+    "actual_tool_parameters": {
+      "prompt": "New COMPLETE FULL-BODY FRONT drawing of this adult woman, full hair through shoe soles, clean Japanese hand-drawn ink and hard CEL color on white portrait canvas1024x1536. Fresh whole drawing, not retouch/headpaste/collage.\n\nTWO REFERENCES, BOTH SAME ORIGINAL FRAME. Image1 complete CURRENT BODY BASE determines head/identity, body proportions, clean line/shadow/skin/eye style. Image2 complete CURRENT CLOTHED BODY with head intentionally omitted is ONLY clothing/equipment/pose layout. Its white top gap is reference omission, not a canvas to shrink/recenter or enlarge. Keep the common framing and proportions. Draw complete head from1 and entire clothed figure from2 coherently, with clean stylefrom1.\n\nKeep the EXACT BASE head: calm BLUE irises, dark restrained navy outlines, original silver-white clumps and LARGE cool gray/lavender shadow planes, especially behind ears/lowerhair. No extra short lines, featherlike white shards, thin shiny streaks, cyan eyes, brightblue outerink, waxy peach skin or pale cloudiness. Preserve actual intentional white hair planes/eye highlights and subtle original transitions. Ears attached/close, no skincolored hair.\n\nPreserve Image2 actual WHITE TOP and RED SHORTS size/bodyposition. Same highneck collar, ovalopening and narrowwhite lowerband. Do not shorten/lengthen top or relocate shorts. HPS→middlehem approx0.91headunit, frontcollar approx0.107headunit; use same-image clothinggeometry, not arbitrary pixels if uniformlyreframing. Keep original long legs/waist/chest/hips. Only shoes-layer clothing: whitecrop top/redshorts, leftorange thighhighsock, rightwhiteshortsock, redwhiteblack shoes. Arms/hands bare; NO gloves/wristdevices, NO thighgear/jacket. Preserve orange foldribtop/hardkneeshadow and bothsock lengths. Same sneakerlaces/tongue slots/yellowsquares/blackstudtoes/OUTSIDEanklehardware. Do not compress legs to force barefootheight; solethickness retained. White sockshaft clean stablewhite with sparse HARD edge shadows, no soft vertical white/gray streaks; fine paleblue rib only onfoldedband. Wholeimage flatlocalcolor with few closed hardCEL shadows, no whiteflecks, cloud/mosaic/grain, blurry painterly wash or oily3Dgloss. Preserve intended seams/ribs. No text/rulers/watermark.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-front-v2.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/shoes-front-current-body-native-frame.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-0e13f454-eb3a-4f4b-a13b-fc5e3b2708d7.png",
+      "sha256": "a88daac16fa7b359ab3e139c99af90545152e787ba25dbfe7ec6c7557b64b2bd"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-front-v2.png",
+        "sha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/shoes-front-current-body-native-frame.png",
+        "sha256": "8f7fbb5dda5371a5591c2dd16b07b34bc3f567dd8ae8b32c5a889b290cb86818",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      }
+    ],
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/review/shoes-front-reset-v3-independent-review.json",
+      "sha256": "8671b0726eeb67b0cca8fd8898db1079e730b691baea394fc4160d7d23cd08a9"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-front-reset-v3-node.json",
+      "sha256": "8d124092466fd176300cd51457408158c9c778423cfeaf5cb96986e987e4ff4b"
+    }
+  },
+  "original": {
+    "path": "/media/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.png",
+    "sha256": "a88daac16fa7b359ab3e139c99af90545152e787ba25dbfe7ec6c7557b64b2bd",
+    "width": 1024,
+    "height": 1536
+  },
+  "web": {
+    "path": "/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.webp",
+    "sha256": "0dc1126571714aaa3c2405f7e212f91de132a29c1c6ffe9df31c9583c7c18e3f",
+    "encoding": "lossless decoded RGBA equal to native"
+  },
+  "scope": "Complete new imagegen output; immutable per-image generation and visual review record. This record does not establish a current-page or numerical measurement acceptance."
+}

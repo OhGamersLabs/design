@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "role": "thigh-gear-front",
+  "publish_slug": "thigh-v2-base-aligned-cel-front-v1",
+  "source_head": "6f0bfd4af1f6bbf03cc945c6cd615744880787c2",
+  "status": "visual-accepted-awaiting-current-set-and-measurement-binding",
+  "source": {
+    "kind": "revised-reference",
+    "page": "/characters/bunny/thigh-gear",
+    "based_on": "/media/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png",
+    "baseline_sha256": "5a97f3a505da9bf9f7ea16c18f0bdbfe32c32d618330dd2f7bc06fa58eab9bee",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-front-reset-v2.png",
+    "source_artifact_sha256": "35aceb5aad49eb739586b16493d8a7c81f6faca7f71a536b6ea6aaf25edc68c5",
+    "review_status": "accepted-visual-with-measurement-binding-pending",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-front-reset-v2-request.json",
+      "sha256": "efdd4cd6799e6e019866843250299cf7cf8c943a356b519bcc7dc9502c602cb5"
+    },
+    "actual_tool_parameters": {
+      "prompt": "New COMPLETE FULL-BODY FRONT drawing of this adult woman, full hair through shoe soles, clean Japanese hand-drawn ink and hard CEL color on white portrait canvas1024x1536. Fresh whole drawing, not retouch/headpaste/collage.\n\nTWO REFERENCES, BOTH SAME ORIGINAL FRAME. Image1 clean BASE HEAD on ORIGINAL fullcanvas, lowerbody deliberatelyblank, solely determines head/identity/headscale and cleanstyle. Do not enlarge/recenter it. Image2 sole clothedbody geometry includes exactly correct shortswaist/rise. Image2 complete CURRENT CLOTHED BODY with head intentionally omitted is ONLY clothing/equipment/pose layout. Its white top gap is reference omission, not a canvas to shrink/recenter or enlarge. Keep the common framing and proportions. Draw complete head from1 and entire clothed figure from2 coherently, with clean stylefrom1.\n\nKeep the EXACT BASE head: calm BLUE irises, dark restrained navy outlines, original silver-white clumps and LARGE cool gray/lavender shadow planes, especially behind ears/lowerhair. No extra short lines, featherlike white shards, thin shiny streaks, cyan eyes, brightblue outerink, waxy peach skin or pale cloudiness. Preserve actual intentional white hair planes/eye highlights and subtle original transitions. Ears attached/close, no skincolored hair.\n\nPreserve Image2 actual WHITE TOP and RED SHORTS size/bodyposition. Same highneck collar, ovalopening and narrowwhite lowerband. Do not shorten/lengthen top or relocate shorts. CRITICAL: retain Image2 RED SHORTS WAIST at its original position, centerupperedge around601 with centerwhitecrotchgap738: rise137px(about.60head). Do NOT lower waistband to616 while crotchstays738. Preserve correct high-waist front rise, as actually shown inImage2. White top/legs/gear stay, no short-rise lowpants. HPS→middlehem approx0.91headunit, frontcollar approx0.107headunit; use same-image clothinggeometry, not arbitrary pixels if uniformlyreframing. Keep original long legs/waist/chest/hips. Current thigh-gear-front layer: exact whitecrop/redshorts/socks/shoes PLUS CHARACTER-RIGHT FULL plainBLACK glove and RED wristunit; CHARACTER-LEFT orange-edged FINGERLESS glove and ORANGE wrist terminal. Keep their true side, palm/back orientations, finger count, exactscreens/hardware. Add only the current right-thigh TWO separateblackstraps, upper gray-screenterminal andlower flap-pouch withsilver snap; imageLEFT. Preserve spacing/device shape, no thirdstrap. No orange stripe onrightfull glove. Keep all existing shoes/socks/outeranklehardware asreference. No extra additions. White sockshaft clean stablewhite with sparse HARD edge shadows, no soft vertical white/gray streaks; fine paleblue rib only onfoldedband. Wholeimage flatlocalcolor with few closed hardCEL shadows, no whiteflecks, cloud/mosaic/grain, blurry painterly wash or oily3Dgloss. Preserve intended seams/ribs. No text/rulers/watermark.",
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/body-base-front-native-frame-guide.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/thigh-gear-front-native-frame-guide.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-f4b4a433-c8f0-419e-b75f-6a666eeed7fe.png",
+      "sha256": "35aceb5aad49eb739586b16493d8a7c81f6faca7f71a536b6ea6aaf25edc68c5"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/body-base-front-native-frame-guide.png",
+        "sha256": "8b29f5a5422236d0444b514a7d57a6110bbb03fcde240abe5edcdd2c11b194a3",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/thigh-gear-front-native-frame-guide.png",
+        "sha256": "3765d74c5454254f6b26a10e009a302e5ae7b2dc6691e9efa3cb6df2ee617957",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      }
+    ],
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/review/thigh-front-reset-v2-independent-review.json",
+      "sha256": "202f5352ff96a96954707dd21791d19ca88e66746b2a95b0befa34888d532446"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-front-reset-v2-node.json",
+      "sha256": "add508279e29d08c27dbc8138a1699df87556ec1be372d86fc857b32f8cbb652"
+    }
+  },
+  "original": {
+    "path": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.png",
+    "sha256": "35aceb5aad49eb739586b16493d8a7c81f6faca7f71a536b6ea6aaf25edc68c5",
+    "width": 1024,
+    "height": 1536
+  },
+  "web": {
+    "path": "/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.webp",
+    "sha256": "7835b2eca9c3f10c1b2e7d09d865e60c7b796eeeb2818cc411afd3c2bf8bf2aa",
+    "encoding": "lossless decoded RGBA equal to native"
+  },
+  "scope": "Complete new imagegen output; immutable per-image generation and visual review record. This record does not establish a current-page or numerical measurement acceptance."
+}

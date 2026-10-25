@@ -10,9 +10,9 @@
     "coordinates": "原PNG左上(0,0)，x右y下；端点主描线中心附近。",
     "registration": "同视角可见身体/发型标记，最小二乘uniform scale+translation；不旋转、不拉伸。头部和腰部/膝轮廓分布；标记本身有形变，残差和语义容差均保留。",
     "uncertainty": "端点容差是手工估读/语义范围，非统计CI；设计target容差不等于测量误差。未见点为null；同图有两个可见边才直接读层间差。",
-    "styleAuthority": "白衣和红短裤取当前innerwear三视为每视角投影规范依据；夹克新高低摆是canonical新设计提案，未宣称现图合格。",
+    "styleAuthority": "白衣和红裤沿用首层三视投影基准，夹克沿用已批准的前长后短设计；本轮读数不反过来改写目标。",
     "notObserved": "不由二维投影推胸围/腰围/臀围/杯码/厘米；HPS是可见领根与肩布交点，不是肩关节或真实裁片弧长。",
-    "revisionNotes": "原自然腰测量端点容差修正为10px；裤脚外角回到实际深色主描线；高低摆D范围由root认可±0.03h0。所有source图像不改。"
+    "revisionNotes": "本轮13张完整人物重新绘制并使用各自可见取点；旧原件和坐标作历史保留。尺寸目标、自然腰参照位置和h0不变。"
   },
   "metrics": {
     "topLength": {
@@ -1888,7 +1888,7 @@
     "hosiery-back": {
       "view": "back",
       "layer": "hosiery",
-      "label": "袜装层 · 背面",
+      "label": "重绘前 · 袜装层 · 背面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png",
         "sha256": "fd2c3efe531d0858d220a06c71f975ccf9cfff425efc1590d3cd4e028fa55c8f",
@@ -2018,7 +2018,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "provisional_full_view_estimates",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -2026,7 +2026,7 @@
     "shoes-front": {
       "view": "front",
       "layer": "shoes",
-      "label": "鞋靴层 · 正面",
+      "label": "重绘前 · 鞋靴层 · 正面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png",
         "sha256": "b2fe9dfc6229eb706f430e9a5f36459c0e4e2917c2755a4a6529837de1c8c8ba",
@@ -2177,7 +2177,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "provisional_full_view_estimates",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -2185,7 +2185,7 @@
     "shoes-side": {
       "view": "side",
       "layer": "shoes",
-      "label": "鞋靴层 · 侧面",
+      "label": "重绘前 · 鞋靴层 · 侧面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.png",
         "sha256": "af449ef66c3bc528054f2a681abd43e74920f24f4b9428fe6bd6c846a560b0ee",
@@ -2271,7 +2271,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "no_reliable_torso_measurements",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -2279,7 +2279,7 @@
     "shoes-back": {
       "view": "back",
       "layer": "shoes",
-      "label": "鞋靴层 · 背面",
+      "label": "重绘前 · 鞋靴层 · 背面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png",
         "sha256": "463eb209a7e582789fb5725f88c5b4381d6884f31e6645cef8ba73a56208f4a0",
@@ -2409,7 +2409,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "provisional_full_view_estimates",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -2417,7 +2417,7 @@
     "hands-front": {
       "view": "front",
       "layer": "hands",
-      "label": "手部层 · 正面",
+      "label": "重绘前 · 手部层 · 正面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-front-v1.png",
         "sha256": "c3c347e3cfaf5ca32d737608695706f5512d732ff2b66a4dc90fa379a5656180",
@@ -2568,7 +2568,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "provisional_full_view_estimates",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -2576,7 +2576,7 @@
     "hands-side": {
       "view": "side",
       "layer": "hands",
-      "label": "手部层 · 侧面",
+      "label": "重绘前 · 手部层 · 侧面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-side-v1.png",
         "sha256": "7d81ad6e8c08c16dcb59b115131001ba1db1961620714d2dc2aa0d4a39ee8b89",
@@ -2662,7 +2662,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "no_reliable_torso_measurements",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -2670,7 +2670,7 @@
     "hands-back": {
       "view": "back",
       "layer": "hands",
-      "label": "手部层 · 背面",
+      "label": "重绘前 · 手部层 · 背面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-fresh-cel-back-v1.png",
         "sha256": "32f43eabb1c1ecff24d60ca5de196ad625149ffb0037df496981081f67b31c27",
@@ -2800,7 +2800,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "provisional_full_view_estimates",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -2808,7 +2808,7 @@
     "thigh-gear-front": {
       "view": "front",
       "layer": "thigh-gear",
-      "label": "腿部层 · 正面",
+      "label": "重绘前 · 腿部层 · 正面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png",
         "sha256": "5a97f3a505da9bf9f7ea16c18f0bdbfe32c32d618330dd2f7bc06fa58eab9bee",
@@ -2959,7 +2959,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "provisional_full_view_estimates",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -2967,7 +2967,7 @@
     "thigh-gear-side": {
       "view": "side",
       "layer": "thigh-gear",
-      "label": "腿部层 · 侧面",
+      "label": "重绘前 · 腿部层 · 侧面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png",
         "sha256": "f8c6c4e9a4db852ee16e665d29886073c0c3ca37b865579eb0c75ebe176c0948",
@@ -3053,7 +3053,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "no_reliable_torso_measurements",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -3061,7 +3061,7 @@
     "thigh-gear-back": {
       "view": "back",
       "layer": "thigh-gear",
-      "label": "腿部层 · 背面",
+      "label": "重绘前 · 腿部层 · 背面",
       "source": {
         "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png",
         "sha256": "d97ecb42b2519c81a6584039fdfa2671560eb3711fac08cafaf081e0e6d75766",
@@ -3191,7 +3191,7 @@
         }
       ],
       "auditStatus": "limited_not_quantitatively_accepted",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "provisional_full_view_estimates",
       "inspectionLevel": "actual_full_only",
       "auditNotes": "仅完整图视觉比较；前背少量原像素投影估读为筛查点，未逐点native独立复核；侧后缘遮挡/仅头部锚，不假称18图均完成定量验收。"
@@ -3766,7 +3766,7 @@
     "jacket-highlow-front": {
       "view": "front",
       "layer": "jacket-highlow",
-      "label": "前长后短夹克 · 正面",
+      "label": "重绘前 · 前长后短夹克 · 正面",
       "source": {
         "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-front-v4.png",
         "sha256": "0b5bd5db6e9a8069ff6d458a777708904c2f4d78688b81508ac15bf13fa50171",
@@ -3775,8 +3775,7 @@
       },
       "resources": {
         "original": "/media/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.png",
-        "web": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.webp",
-        "ruler": "/characters/bunny/3.1.0/garment-measurements-jacket-highlow-front.svg"
+        "web": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.webp"
       },
       "registration": {
         "bodyView": "front",
@@ -4075,7 +4074,7 @@
         }
       ],
       "auditStatus": "visual_design_accepted_numeric_intervals_preserved",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "core_native_read_points",
       "inspectionLevel": "actual_full_and_native",
       "publish_slug": "jacket-v2-highlow-cel-front-v1",
@@ -4117,7 +4116,7 @@
     "jacket-highlow-side": {
       "view": "side",
       "layer": "jacket-highlow",
-      "label": "前长后短夹克 · 右侧面",
+      "label": "重绘前 · 前长后短夹克 · 右侧面",
       "source": {
         "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-side-v2.png",
         "sha256": "0e8e41bdf3ec0cfa6bdd9ebbfe36da378143c5030ec5dcaa575323de1cb1a47c",
@@ -4126,8 +4125,7 @@
       },
       "resources": {
         "original": "/media/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.png",
-        "web": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.webp",
-        "ruler": "/characters/bunny/3.1.0/garment-measurements-jacket-highlow-side.svg"
+        "web": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.webp"
       },
       "registration": {
         "bodyView": "side",
@@ -4250,7 +4248,7 @@
         }
       ],
       "auditStatus": "visual_design_accepted_numeric_intervals_preserved",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "core_native_read_points",
       "inspectionLevel": "actual_full_and_native",
       "publish_slug": "jacket-v2-highlow-cel-side-v1",
@@ -4277,7 +4275,7 @@
     "jacket-highlow-back": {
       "view": "back",
       "layer": "jacket-highlow",
-      "label": "前长后短夹克 · 背面",
+      "label": "重绘前 · 前长后短夹克 · 背面",
       "source": {
         "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-back-v2.png",
         "sha256": "bb829e8a0e5035ae61d1be6426aa272204df3338076eace1833c58e1756a3fe2",
@@ -4286,8 +4284,7 @@
       },
       "resources": {
         "original": "/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png",
-        "web": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.webp",
-        "ruler": "/characters/bunny/3.1.0/garment-measurements-jacket-highlow-back.svg"
+        "web": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.webp"
       },
       "registration": {
         "bodyView": "back",
@@ -4443,12 +4440,2076 @@
         }
       ],
       "auditStatus": "visual_design_accepted_numeric_intervals_preserved",
-      "status": "current",
+      "status": "historical",
       "quantitativeCoverage": "core_native_read_points",
       "inspectionLevel": "actual_full_and_native",
       "publish_slug": "jacket-v2-highlow-cel-back-v1",
       "referenceDerivedMetrics": [],
       "auditNotes": "后中D原图约−17px；±3px两端与注册误差另传播，边界重叠为uncertain，不假称精确范围通过。"
+    },
+    "shoes-base-aligned-front": {
+      "view": "front",
+      "layer": "shoes",
+      "label": "鞋靴层 · 正面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-front-reset-v3.png",
+        "sha256": "a88daac16fa7b359ab3e139c99af90545152e787ba25dbfe7ec6c7557b64b2bd",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.png",
+        "web": "/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.webp"
+      },
+      "registration": {
+        "bodyView": "front",
+        "bodySourceSha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+        "anchors": [
+          {
+            "id": "crown",
+            "source": [
+              525,
+              25
+            ],
+            "reference": [
+              525,
+              25
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "可见发冠主描线极值；发型轮廓可小幅漂移，不是颅顶"
+          },
+          {
+            "id": "chin",
+            "source": [
+              515,
+              250
+            ],
+            "reference": [
+              515,
+              250
+            ],
+            "region": "head",
+            "sourceTolerancePx": 3,
+            "referenceTolerancePx": 3,
+            "definition": "可见下颏轮廓最低转折"
+          },
+          {
+            "id": "waistLeft",
+            "source": [
+              436,
+              530
+            ],
+            "reference": [
+              436,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台左主轮廓，中部高度有约10px语义区间"
+          },
+          {
+            "id": "waistRight",
+            "source": [
+              587,
+              530
+            ],
+            "reference": [
+              588,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台右主轮廓，中部高度有约10px语义区间"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.000373248677914,
+          "translateX": 0.05749699436580613,
+          "translateY": -0.12457174625382095,
+          "residuals": [
+            {
+              "id": "crown",
+              "dx": 0.25345255027070834,
+              "dy": -0.1152405293059715,
+              "distance": 0.27842157752847824
+            },
+            {
+              "id": "chin",
+              "dx": 0.24972006349150888,
+              "dy": -0.031259576775312325,
+              "distance": 0.25166897156855644
+            },
+            {
+              "id": "waistLeft",
+              "dx": 0.22023341793629925,
+              "dy": 0.07325005304051047,
+              "distance": 0.2320955162133518
+            },
+            {
+              "id": "waistRight",
+              "dx": -0.723406031698687,
+              "dy": 0.07325005304051047,
+              "distance": 0.7271051209890351
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              493
+            ],
+            [
+              512,
+              530
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            10
+          ],
+          "notes": "中摆可见；自然腰平台是估读参考位置，非体表骨点，无硬目标验收。"
+        },
+        {
+          "metricId": "shortsWaistDrop",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              530
+            ],
+            [
+              512,
+              601
+            ]
+          ],
+          "tolerancePx": [
+            10,
+            3
+          ],
+          "notes": "裤腰主上缘取读；自然腰位置为参考。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "partial_native_reference_positions_only",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "footwear-v2-base-aligned-cel-front-v1",
+      "previousSourceId": "shoes-front",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-front-reset-v3-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
+    },
+    "shoes-base-aligned-side": {
+      "view": "side",
+      "layer": "shoes",
+      "label": "鞋靴层 · 右侧面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-side-reset-v1.png",
+        "sha256": "8e6199c107bbd86adbfce6ae129c2e56244e244a153e7cf65bf23b3155355cb7",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/footwear-v2-base-aligned-cel-side-v1.png",
+        "web": "/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-side-v1.webp"
+      },
+      "registration": {
+        "bodyView": "side",
+        "bodySourceSha256": "c4ca73b3f865a6c2018e8db398dcd4ebc92cfe134389dfd63a9b9af33698e83b",
+        "anchors": [
+          {
+            "id": "crown",
+            "source": [
+              506,
+              25
+            ],
+            "reference": [
+              506,
+              24
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "可见发冠主描线极值；发型轮廓可小幅漂移，不是颅顶"
+          },
+          {
+            "id": "chin",
+            "source": [
+              576,
+              242
+            ],
+            "reference": [
+              576,
+              242
+            ],
+            "region": "head",
+            "sourceTolerancePx": 3,
+            "referenceTolerancePx": 3,
+            "definition": "可见下颏轮廓最低转折"
+          }
+        ],
+        "coverage": "head-only",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0041739598761277,
+          "translateX": -2.2581122929850608,
+          "translateY": -1.0572236434630327,
+          "residuals": [
+            {
+              "id": "crown",
+              "dx": -0.14608859566448018,
+              "dy": 0.047125353440158335,
+              "distance": 0.15350138996139356
+            },
+            {
+              "id": "chin",
+              "dx": 0.14608859566442334,
+              "dy": -0.04712535344012281,
+              "distance": 0.15350138996132856
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "自然腰后缘被近侧手臂/夹克袖挡；不猜腰高。"
+        },
+        {
+          "metricId": "shortsRise",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "近侧手臂遮住裆点，不能当作前后裆弧长。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "no_reliable_torso_measurements",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "footwear-v2-base-aligned-cel-side-v1",
+      "previousSourceId": "shoes-side",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-side-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
+    },
+    "shoes-base-aligned-back": {
+      "view": "back",
+      "layer": "shoes",
+      "label": "鞋靴层 · 背面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-back-reset-v1.png",
+        "sha256": "94ef3bc4265b81cb8688716eb669d5ddb755ea2232fea7631abd58d91aeb8019",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.png",
+        "web": "/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.webp"
+      },
+      "registration": {
+        "bodyView": "back",
+        "bodySourceSha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "anchors": [
+          {
+            "id": "posteriorHairPart",
+            "source": [
+              511,
+              48
+            ],
+            "reference": [
+              511,
+              48
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "后脑中央发束分缝汇合点；不是隐藏下颏"
+          },
+          {
+            "id": "waistLeft",
+            "source": [
+              441,
+              524
+            ],
+            "reference": [
+              439,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台左主轮廓，中部高度有约10px语义区间"
+          },
+          {
+            "id": "waistRight",
+            "source": [
+              580,
+              524
+            ],
+            "reference": [
+              584,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台右主轮廓，中部高度有约10px语义区间"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0144399689712817,
+          "translateX": -6.707344154667965,
+          "translateY": -1.2754019975082542,
+          "residuals": [
+            {
+              "id": "posteriorHairPart",
+              "dx": 0.6714799896570298,
+              "dy": -0.5822834868867304,
+              "distance": 0.888785370947775
+            },
+            {
+              "id": "waistLeft",
+              "dx": 1.660682161667296,
+              "dy": 0.29114174344340427,
+              "distance": 1.686009714341892
+            },
+            {
+              "id": "waistRight",
+              "dx": -2.33216215132461,
+              "dy": 0.29114174344340427,
+              "distance": 2.350264626557252
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              477
+            ],
+            [
+              512,
+              524
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            10
+          ],
+          "notes": "中摆可见；自然腰平台是估读参考位置，非体表骨点，无硬目标验收。"
+        },
+        {
+          "metricId": "shortsWaistDrop",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              524
+            ],
+            [
+              512,
+              576
+            ]
+          ],
+          "tolerancePx": [
+            10,
+            3
+          ],
+          "notes": "裤腰主上缘取读；自然腰位置为参考。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "partial_native_reference_positions_only",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "footwear-v2-base-aligned-cel-back-v1",
+      "previousSourceId": "shoes-back",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-back-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
+    },
+    "hands-base-aligned-front": {
+      "view": "front",
+      "layer": "hands",
+      "label": "手部装备层 · 正面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/hands-front-reset-v1.png",
+        "sha256": "12693c4f6ed77cbff3275b57ec7df6d5500a7fa37575909f81cce20ba93bd82d",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/hands-v2-base-aligned-cel-front-v1.png",
+        "web": "/characters/bunny/3.1.0/hands-v2-base-aligned-cel-front-v1.webp"
+      },
+      "registration": {
+        "bodyView": "front",
+        "bodySourceSha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+        "anchors": [
+          {
+            "id": "crown",
+            "source": [
+              526,
+              25
+            ],
+            "reference": [
+              525,
+              25
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "可见发冠主描线极值；发型轮廓可小幅漂移，不是颅顶"
+          },
+          {
+            "id": "chin",
+            "source": [
+              515,
+              250
+            ],
+            "reference": [
+              515,
+              250
+            ],
+            "region": "head",
+            "sourceTolerancePx": 3,
+            "referenceTolerancePx": 3,
+            "definition": "可见下颏轮廓最低转折"
+          },
+          {
+            "id": "waistLeft",
+            "source": [
+              435,
+              528
+            ],
+            "reference": [
+              436,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台左主轮廓，中部高度有约10px语义区间"
+          },
+          {
+            "id": "waistRight",
+            "source": [
+              587,
+              528
+            ],
+            "reference": [
+              588,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台右主轮廓，中部高度有约10px语义区间"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0040170338064067,
+          "translateX": -1.821785185654221,
+          "translateY": -0.33666799908183975,
+          "residuals": [
+            {
+              "id": "crown",
+              "dx": 1.2911745965157024,
+              "dy": -0.23624215392167258,
+              "distance": 1.3126089265188767
+            },
+            {
+              "id": "chin",
+              "dx": 0.2469872246452951,
+              "dy": 0.6675904525198462,
+              "distance": 0.7118143728765516
+            },
+            {
+              "id": "waistLeft",
+              "dx": -1.0743754798672853,
+              "dy": -0.2156741492990477,
+              "distance": 1.0958092947296658
+            },
+            {
+              "id": "waistRight",
+              "dx": -0.46378634129348484,
+              "dy": -0.2156741492990477,
+              "distance": 0.5114812890480597
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              490
+            ],
+            [
+              512,
+              528
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            10
+          ],
+          "notes": "中摆可见；自然腰平台是估读参考位置，非体表骨点，无硬目标验收。"
+        },
+        {
+          "metricId": "shortsWaistDrop",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              528
+            ],
+            [
+              512,
+              600
+            ]
+          ],
+          "tolerancePx": [
+            10,
+            3
+          ],
+          "notes": "裤腰主上缘取读；自然腰位置为参考。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "partial_native_reference_positions_only",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "hands-v2-base-aligned-cel-front-v1",
+      "previousSourceId": "hands-front",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/hands-front-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
+    },
+    "hands-base-aligned-side": {
+      "view": "side",
+      "layer": "hands",
+      "label": "手部装备层 · 右侧面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/hands-side-reset-v1.png",
+        "sha256": "a76c2fdbd571875997a338ea815f004db00edf900a8d6d40ed27229907b62b9d",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/hands-v2-base-aligned-cel-side-v1.png",
+        "web": "/characters/bunny/3.1.0/hands-v2-base-aligned-cel-side-v1.webp"
+      },
+      "registration": {
+        "bodyView": "side",
+        "bodySourceSha256": "c4ca73b3f865a6c2018e8db398dcd4ebc92cfe134389dfd63a9b9af33698e83b",
+        "anchors": [
+          {
+            "id": "crown",
+            "source": [
+              506,
+              24
+            ],
+            "reference": [
+              506,
+              24
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "可见发冠主描线极值；发型轮廓可小幅漂移，不是颅顶"
+          },
+          {
+            "id": "chin",
+            "source": [
+              576,
+              242
+            ],
+            "reference": [
+              576,
+              242
+            ],
+            "region": "head",
+            "sourceTolerancePx": 3,
+            "referenceTolerancePx": 3,
+            "definition": "可见下颏轮廓最低转折"
+          }
+        ],
+        "coverage": "head-only",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0,
+          "translateX": 0.0,
+          "translateY": 0.0,
+          "residuals": [
+            {
+              "id": "crown",
+              "dx": 0.0,
+              "dy": 0.0,
+              "distance": 0.0
+            },
+            {
+              "id": "chin",
+              "dx": 0.0,
+              "dy": 0.0,
+              "distance": 0.0
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "自然腰后缘被近侧手臂/夹克袖挡；不猜腰高。"
+        },
+        {
+          "metricId": "shortsRise",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "近侧手臂遮住裆点，不能当作前后裆弧长。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "no_reliable_torso_measurements",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "hands-v2-base-aligned-cel-side-v1",
+      "previousSourceId": "hands-side",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/hands-side-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
+    },
+    "hands-base-aligned-back": {
+      "view": "back",
+      "layer": "hands",
+      "label": "手部装备层 · 背面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/hands-back-reset-v1.png",
+        "sha256": "1ec76928e8b2ea1c944b4a18767e6ae94af37328076efe78f0303058555210cf",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/hands-v2-base-aligned-cel-back-v1.png",
+        "web": "/characters/bunny/3.1.0/hands-v2-base-aligned-cel-back-v1.webp"
+      },
+      "registration": {
+        "bodyView": "back",
+        "bodySourceSha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "anchors": [
+          {
+            "id": "posteriorHairPart",
+            "source": [
+              511,
+              48
+            ],
+            "reference": [
+              511,
+              48
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "后脑中央发束分缝汇合点；不是隐藏下颏"
+          },
+          {
+            "id": "waistLeft",
+            "source": [
+              442,
+              523
+            ],
+            "reference": [
+              439,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台左主轮廓，中部高度有约10px语义区间"
+          },
+          {
+            "id": "waistRight",
+            "source": [
+              580,
+              523
+            ],
+            "reference": [
+              584,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台右主轮廓，中部高度有约10px语义区间"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0168793870983877,
+          "translateX": -8.292033473942809,
+          "translateY": -1.4886831618787255,
+          "residuals": [
+            {
+              "id": "posteriorHairPart",
+              "dx": 0.3333333333333144,
+              "dy": -0.6784725811561145,
+              "distance": 0.7559339617266437
+            },
+            {
+              "id": "waistLeft",
+              "dx": 2.1686556235445096,
+              "dy": 0.33923629057801463,
+              "distance": 2.1950281261014304
+            },
+            {
+              "id": "waistRight",
+              "dx": -2.5019889568779945,
+              "dy": 0.33923629057801463,
+              "distance": 2.524882175703367
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              477
+            ],
+            [
+              512,
+              523
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            10
+          ],
+          "notes": "中摆可见；自然腰平台是估读参考位置，非体表骨点，无硬目标验收。"
+        },
+        {
+          "metricId": "shortsWaistDrop",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              523
+            ],
+            [
+              512,
+              576
+            ]
+          ],
+          "tolerancePx": [
+            10,
+            3
+          ],
+          "notes": "裤腰主上缘取读；自然腰位置为参考。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "partial_native_reference_positions_only",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "hands-v2-base-aligned-cel-back-v1",
+      "previousSourceId": "hands-back",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/hands-back-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
+    },
+    "thigh-gear-base-aligned-front": {
+      "view": "front",
+      "layer": "thigh-gear",
+      "label": "腿部装备层 · 正面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-front-reset-v2.png",
+        "sha256": "35aceb5aad49eb739586b16493d8a7c81f6faca7f71a536b6ea6aaf25edc68c5",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.png",
+        "web": "/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.webp"
+      },
+      "registration": {
+        "bodyView": "front",
+        "bodySourceSha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+        "anchors": [
+          {
+            "id": "crown",
+            "source": [
+              525,
+              25
+            ],
+            "reference": [
+              525,
+              25
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "可见发冠主描线极值；发型轮廓可小幅漂移，不是颅顶"
+          },
+          {
+            "id": "chin",
+            "source": [
+              515,
+              250
+            ],
+            "reference": [
+              515,
+              250
+            ],
+            "region": "head",
+            "sourceTolerancePx": 3,
+            "referenceTolerancePx": 3,
+            "definition": "可见下颏轮廓最低转折"
+          },
+          {
+            "id": "waistLeft",
+            "source": [
+              436,
+              527
+            ],
+            "reference": [
+              436,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台左主轮廓，中部高度有约10px语义区间"
+          },
+          {
+            "id": "waistRight",
+            "source": [
+              586,
+              527
+            ],
+            "reference": [
+              588,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台右主轮廓，中部高度有约10px语义区间"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0069504985967637,
+          "translateX": -3.0829820266317256,
+          "translateY": -0.8093031587747532,
+          "residuals": [
+            {
+              "id": "crown",
+              "dx": 0.5660297366691793,
+              "dy": -0.6355406938556598,
+              "distance": 0.851059126230554
+            },
+            {
+              "id": "chin",
+              "dx": 0.4965247507016102,
+              "dy": 0.9283214904161525,
+              "distance": 1.0527666491809868
+            },
+            {
+              "id": "waistLeft",
+              "dx": -0.05256463844278869,
+              "dy": -0.14639039828034583,
+              "distance": 0.15554160190540464
+            },
+            {
+              "id": "waistRight",
+              "dx": -1.0099898489281713,
+              "dy": -0.14639039828034583,
+              "distance": 1.0205437980050776
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              491
+            ],
+            [
+              512,
+              527
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            10
+          ],
+          "notes": "中摆可见；自然腰平台是估读参考位置，非体表骨点，无硬目标验收。"
+        },
+        {
+          "metricId": "shortsWaistDrop",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              527
+            ],
+            [
+              512,
+              599
+            ]
+          ],
+          "tolerancePx": [
+            10,
+            3
+          ],
+          "notes": "裤腰主上缘取读；自然腰位置为参考。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "partial_native_reference_positions_only",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "thigh-v2-base-aligned-cel-front-v1",
+      "previousSourceId": "thigh-gear-front",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-front-reset-v2-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
+    },
+    "thigh-gear-base-aligned-side": {
+      "view": "side",
+      "layer": "thigh-gear",
+      "label": "腿部装备层 · 右侧面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-side-reset-v1.png",
+        "sha256": "af9a6cef44d1870bcee0496e37c291ff75b84a229e80d1c5a83dda4711acd97e",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.png",
+        "web": "/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.webp"
+      },
+      "registration": {
+        "bodyView": "side",
+        "bodySourceSha256": "c4ca73b3f865a6c2018e8db398dcd4ebc92cfe134389dfd63a9b9af33698e83b",
+        "anchors": [
+          {
+            "id": "crown",
+            "source": [
+              506,
+              24
+            ],
+            "reference": [
+              506,
+              24
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "可见发冠主描线极值；发型轮廓可小幅漂移，不是颅顶"
+          },
+          {
+            "id": "chin",
+            "source": [
+              576,
+              242
+            ],
+            "reference": [
+              576,
+              242
+            ],
+            "region": "head",
+            "sourceTolerancePx": 3,
+            "referenceTolerancePx": 3,
+            "definition": "可见下颏轮廓最低转折"
+          }
+        ],
+        "coverage": "head-only",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0,
+          "translateX": 0.0,
+          "translateY": 0.0,
+          "residuals": [
+            {
+              "id": "crown",
+              "dx": 0.0,
+              "dy": 0.0,
+              "distance": 0.0
+            },
+            {
+              "id": "chin",
+              "dx": 0.0,
+              "dy": 0.0,
+              "distance": 0.0
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "自然腰后缘被近侧手臂/夹克袖挡；不猜腰高。"
+        },
+        {
+          "metricId": "shortsRise",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "近侧手臂遮住裆点，不能当作前后裆弧长。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "no_reliable_torso_measurements",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "thigh-v2-base-aligned-cel-side-v1",
+      "previousSourceId": "thigh-gear-side",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-side-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
+    },
+    "thigh-gear-base-aligned-back": {
+      "view": "back",
+      "layer": "thigh-gear",
+      "label": "腿部装备层 · 背面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-back-reset-v1.png",
+        "sha256": "48cb6925661f92da9d80e7ca884e2b007cc164e37a1f053aefd4c1dc1b2c884b",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.png",
+        "web": "/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.webp"
+      },
+      "registration": {
+        "bodyView": "back",
+        "bodySourceSha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "anchors": [
+          {
+            "id": "posteriorHairPart",
+            "source": [
+              511,
+              48
+            ],
+            "reference": [
+              511,
+              48
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "后脑中央发束分缝汇合点；不是隐藏下颏"
+          },
+          {
+            "id": "waistLeft",
+            "source": [
+              442,
+              523
+            ],
+            "reference": [
+              439,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台左主轮廓，中部高度有约10px语义区间"
+          },
+          {
+            "id": "waistRight",
+            "source": [
+              580,
+              523
+            ],
+            "reference": [
+              584,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台右主轮廓，中部高度有约10px语义区间"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0168793870983877,
+          "translateX": -8.292033473942809,
+          "translateY": -1.4886831618787255,
+          "residuals": [
+            {
+              "id": "posteriorHairPart",
+              "dx": 0.3333333333333144,
+              "dy": -0.6784725811561145,
+              "distance": 0.7559339617266437
+            },
+            {
+              "id": "waistLeft",
+              "dx": 2.1686556235445096,
+              "dy": 0.33923629057801463,
+              "distance": 2.1950281261014304
+            },
+            {
+              "id": "waistRight",
+              "dx": -2.5019889568779945,
+              "dy": 0.33923629057801463,
+              "distance": 2.524882175703367
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              477
+            ],
+            [
+              512,
+              523
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            10
+          ],
+          "notes": "中摆可见；自然腰平台是估读参考位置，非体表骨点，无硬目标验收。"
+        },
+        {
+          "metricId": "shortsWaistDrop",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              523
+            ],
+            [
+              512,
+              576
+            ]
+          ],
+          "tolerancePx": [
+            10,
+            3
+          ],
+          "notes": "裤腰主上缘取读；自然腰位置为参考。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "partial_native_reference_positions_only",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "thigh-v2-base-aligned-cel-back-v1",
+      "previousSourceId": "thigh-gear-back",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-back-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
+    },
+    "jacket-highlow-base-aligned-front": {
+      "view": "front",
+      "layer": "jacket-highlow",
+      "label": "前长后短夹克 · 正面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-front-reset-v12.png",
+        "sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+        "web": "/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.webp",
+        "ruler": "/characters/bunny/3.1.0/garment-measurements-jacket-highlow-base-aligned-front.svg"
+      },
+      "registration": {
+        "bodyView": "front",
+        "bodySourceSha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+        "anchors": [
+          {
+            "id": "crown",
+            "source": [
+              525,
+              25
+            ],
+            "reference": [
+              525,
+              25
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "可见发冠主描线极值；发型轮廓可小幅漂移，不是颅顶"
+          },
+          {
+            "id": "chin",
+            "source": [
+              515,
+              250
+            ],
+            "reference": [
+              515,
+              250
+            ],
+            "region": "head",
+            "sourceTolerancePx": 3,
+            "referenceTolerancePx": 3,
+            "definition": "可见下颏轮廓最低转折"
+          },
+          {
+            "id": "waistLeft",
+            "source": [
+              439,
+              523
+            ],
+            "reference": [
+              436,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台左主轮廓，中部高度有约10px语义区间"
+          },
+          {
+            "id": "waistRight",
+            "source": [
+              581,
+              523
+            ],
+            "reference": [
+              588,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台右主轮廓，中部高度有约10px语义区间"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "新图实际可见腰窄平台约520–526，取523；不复制旧jacket529。头+露腰分布，腰形有细小差异，保留残差。",
+        "fitEvidence": {
+          "scale": 1.0184002856293417,
+          "translateX": -8.476147099111017,
+          "translateY": -2.5766943290901168,
+          "residuals": [
+            {
+              "id": "crown",
+              "dx": 1.1840028562934322,
+              "dy": -2.1166871883565754,
+              "distance": 2.4253303727665374
+            },
+            {
+              "id": "chin",
+              "dx": 1.0,
+              "dy": 2.0233770782453178,
+              "distance": 2.257001285061344
+            },
+            {
+              "id": "waistLeft",
+              "dx": 2.601578292170018,
+              "dy": 0.04665505505568035,
+              "distance": 2.6019965996235497
+            },
+            {
+              "id": "waistRight",
+              "dx": -4.785581148463507,
+              "dy": 0.04665505505568035,
+              "distance": 4.785808565194762
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "jacketFrontTipLeft",
+          "visibility": "visible",
+          "points": [
+            [
+              441,
+              295
+            ],
+            [
+              444,
+              510
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        },
+        {
+          "metricId": "jacketFrontTipRight",
+          "visibility": "visible",
+          "points": [
+            [
+              582,
+              295
+            ],
+            [
+              577,
+              511
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        },
+        {
+          "metricId": "jacketLength",
+          "visibility": "visible",
+          "points": [
+            [
+              441,
+              295
+            ],
+            [
+              444,
+              510
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        },
+        {
+          "metricId": "jacketWhiteOffset",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "同x白衣边被外套覆盖；仅另列基准注册推算。"
+        },
+        {
+          "metricId": "jacketRightOffset",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "同x白衣边被外套覆盖；仅另列基准注册推算。"
+        },
+        {
+          "metricId": "jacketWaistClearance",
+          "visibility": "visible",
+          "points": [
+            [
+              444,
+              510
+            ],
+            [
+              444,
+              588
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        },
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              487
+            ],
+            [
+              512,
+              523
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            10
+          ]
+        },
+        {
+          "metricId": "shortsWaistDrop",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              523
+            ],
+            [
+              512,
+              598
+            ]
+          ],
+          "tolerancePx": [
+            10,
+            3
+          ]
+        },
+        {
+          "metricId": "jacketCuffHeight",
+          "visibility": "visible",
+          "points": [
+            [
+              710,
+              621
+            ],
+            [
+              710,
+              658
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        },
+        {
+          "metricId": "jacketPocketHeight",
+          "visibility": "visible",
+          "points": [
+            [
+              686,
+              365
+            ],
+            [
+              668,
+              454
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        },
+        {
+          "metricId": "jacketPocketWidth",
+          "visibility": "visible",
+          "points": [
+            [
+              658,
+              420
+            ],
+            [
+              706,
+              420
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        },
+        {
+          "metricId": "jacketPocketPosition",
+          "visibility": "visible",
+          "points": [
+            [
+              582,
+              295
+            ],
+            [
+              686,
+              365
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "core_native_read_points",
+      "inspectionLevel": "actual_full_and_native",
+      "publish_slug": "jacket-v2-highlow-base-aligned-cel-front-v1",
+      "referenceDerivedMetrics": [
+        {
+          "metricId": "jacketWhiteOffset",
+          "current": {
+            "metricId": "jacketFrontTipLeft",
+            "endpoint": 1
+          },
+          "reference": {
+            "sourceId": "innerwear-front",
+            "metricId": "topMatchedLeftHem",
+            "endpoint": 1,
+            "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f"
+          },
+          "observedCoverage": "covered",
+          "notes": "基准推算非同图实测。双注册后检查已有同x白摆点的横向残差，不因希望pass而放宽取点容差；超界则另读reference-only点。"
+        },
+        {
+          "metricId": "jacketRightOffset",
+          "current": {
+            "metricId": "jacketFrontTipRight",
+            "endpoint": 1
+          },
+          "reference": {
+            "sourceId": "innerwear-front",
+            "metricId": "topMatchedRightHem",
+            "endpoint": 1,
+            "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f"
+          },
+          "observedCoverage": "covered",
+          "notes": "基准推算非同图实测。双注册后检查已有同x白摆点的横向残差，不因希望pass而放宽取点容差；超界则另读reference-only点。"
+        }
+      ],
+      "previousSourceId": "jacket-highlow-front",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-front-reset-v12-node.json",
+      "auditNotes": "v12整件袋件恢复小尺寸；已重新取读前尖、腰线、袋和袖口。白衣侧边遮挡，D仅基准推算；数值误差独立保留。"
+    },
+    "jacket-highlow-base-aligned-side": {
+      "view": "side",
+      "layer": "jacket-highlow",
+      "label": "前长后短夹克 · 右侧面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-side-reset-v1.png",
+        "sha256": "a84fa973b6e3f20dee8f2124d812c01d521c1d13921af06ca6b35dfea12647c6",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.png",
+        "web": "/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.webp",
+        "ruler": "/characters/bunny/3.1.0/garment-measurements-jacket-highlow-base-aligned-side.svg"
+      },
+      "registration": {
+        "bodyView": "side",
+        "bodySourceSha256": "c4ca73b3f865a6c2018e8db398dcd4ebc92cfe134389dfd63a9b9af33698e83b",
+        "anchors": [
+          {
+            "id": "crown",
+            "source": [
+              506,
+              24
+            ],
+            "reference": [
+              506,
+              24
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "可见发冠主描线极值；发型轮廓可小幅漂移，不是颅顶"
+          },
+          {
+            "id": "chin",
+            "source": [
+              576,
+              242
+            ],
+            "reference": [
+              576,
+              242
+            ],
+            "region": "head",
+            "sourceTolerancePx": 3,
+            "referenceTolerancePx": 3,
+            "definition": "可见下颏轮廓最低转折"
+          },
+          {
+            "id": "kneeContour",
+            "source": [
+              542,
+              1040
+            ],
+            "reference": [
+              542,
+              1040
+            ],
+            "region": "leg",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "裸露右腿膝前轮廓由突弧转向小腿的可见转折区中心；不是膝关节"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0,
+          "translateX": 0.0,
+          "translateY": 0.0,
+          "residuals": [
+            {
+              "id": "crown",
+              "dx": 0.0,
+              "dy": 0.0,
+              "distance": 0.0
+            },
+            {
+              "id": "chin",
+              "dx": 0.0,
+              "dy": 0.0,
+              "distance": 0.0
+            },
+            {
+              "id": "kneeContour",
+              "dx": 0.0,
+              "dy": 0.0,
+              "distance": 0.0
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "jacketLength",
+          "visibility": "visible",
+          "points": [
+            [
+              459,
+              280
+            ],
+            [
+              592,
+              491
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        },
+        {
+          "metricId": "jacketWhiteOffset",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "同x白衣下缘被橙前片覆盖，observed=null。"
+        },
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "侧腰后缘被手臂遮挡。"
+        },
+        {
+          "metricId": "shortsRise",
+          "visibility": "occluded",
+          "points": null,
+          "tolerancePx": null,
+          "notes": "裆点被臂/装备挡。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "core_native_read_points",
+      "inspectionLevel": "actual_full_and_native",
+      "publish_slug": "jacket-v2-highlow-base-aligned-cel-side-v1",
+      "referenceDerivedMetrics": [
+        {
+          "metricId": "jacketWhiteOffset",
+          "current": {
+            "metricId": "jacketLength",
+            "endpoint": 1
+          },
+          "reference": {
+            "sourceId": "innerwear-side",
+            "metricId": "topMatchedSideHem",
+            "endpoint": 1,
+            "sha256": "32a74e480e63e7626bc948492cdffd94323925379f72c71abf0df58abb22055e"
+          },
+          "observedCoverage": "covered",
+          "notes": "基准推算非同图实测；SITE需核双注册后的x站位及误差，超出真实容差则null。"
+        }
+      ],
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "previousSourceId": "jacket-highlow-side",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-side-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted."
+    },
+    "jacket-highlow-base-aligned-back": {
+      "view": "back",
+      "layer": "jacket-highlow",
+      "label": "前长后短夹克 · 背面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-back-reset-v1.png",
+        "sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+        "web": "/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.webp",
+        "ruler": "/characters/bunny/3.1.0/garment-measurements-jacket-highlow-base-aligned-back.svg"
+      },
+      "registration": {
+        "bodyView": "back",
+        "bodySourceSha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "anchors": [
+          {
+            "id": "posteriorHairPart",
+            "source": [
+              511,
+              48
+            ],
+            "reference": [
+              511,
+              48
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "后脑中央发束分缝汇合点；不是隐藏下颏"
+          },
+          {
+            "id": "waistLeft",
+            "source": [
+              442,
+              523
+            ],
+            "reference": [
+              439,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台左主轮廓，中部高度有约10px语义区间"
+          },
+          {
+            "id": "waistRight",
+            "source": [
+              579,
+              523
+            ],
+            "reference": [
+              584,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台右主轮廓，中部高度有约10px语义区间"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.017298562381624,
+          "translateX": -8.167132522882696,
+          "translateY": -1.6415424151655884,
+          "residuals": [
+            {
+              "id": "posteriorHairPart",
+              "dx": 0.6724328541271802,
+              "dy": -0.8112114208476413,
+              "distance": 1.0536744813381762
+            },
+            {
+              "id": "waistLeft",
+              "dx": 2.4788320497950735,
+              "dy": 0.4056057104237425,
+              "distance": 2.5117970306972643
+            },
+            {
+              "id": "waistRight",
+              "dx": -3.1512649039223106,
+              "dy": 0.4056057104237425,
+              "distance": 3.1772608465501913
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "jacketLength",
+          "visibility": "visible",
+          "points": [
+            [
+              454,
+              280
+            ],
+            [
+              512,
+              466
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ]
+        },
+        {
+          "metricId": "jacketWhiteOffset",
+          "visibility": "visible",
+          "points": [
+            [
+              512,
+              485
+            ],
+            [
+              512,
+              466
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            3
+          ],
+          "notes": "同x后中可见两边；raw D=-19px，端点各±3px，数值不确定性独立传播。"
+        },
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              485
+            ],
+            [
+              512,
+              523
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            10
+          ],
+          "notes": "中摆可见；自然腰平台是估读参考位置，非体表骨点，无硬目标验收。"
+        },
+        {
+          "metricId": "shortsWaistDrop",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              523
+            ],
+            [
+              512,
+              575
+            ]
+          ],
+          "tolerancePx": [
+            10,
+            3
+          ],
+          "notes": "裤腰主上缘取读；自然腰位置为参考。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "core_native_read_points",
+      "inspectionLevel": "actual_full_and_native",
+      "publish_slug": "jacket-v2-highlow-base-aligned-cel-back-v1",
+      "referenceDerivedMetrics": [],
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "previousSourceId": "jacket-highlow-back",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-back-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted."
+    },
+    "hosiery-base-aligned-back": {
+      "view": "back",
+      "layer": "hosiery",
+      "label": "袜装层 · 背面 · 基模对齐重绘",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/hosiery-back-reset-v1.png",
+        "sha256": "a4667822740a0d6582d4fe4a488d5d52eeef5284f8b843f1c6df8e94fc657cf0",
+        "width": 1024,
+        "height": 1536
+      },
+      "resources": {
+        "original": "/media/bunny/3.1.0/hosiery-v2-base-aligned-cel-back-v1.png",
+        "web": "/characters/bunny/3.1.0/hosiery-v2-base-aligned-cel-back-v1.webp"
+      },
+      "registration": {
+        "bodyView": "back",
+        "bodySourceSha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "anchors": [
+          {
+            "id": "posteriorHairPart",
+            "source": [
+              511,
+              48
+            ],
+            "reference": [
+              511,
+              48
+            ],
+            "region": "head",
+            "sourceTolerancePx": 5,
+            "referenceTolerancePx": 5,
+            "definition": "后脑中央发束分缝汇合点；不是隐藏下颏"
+          },
+          {
+            "id": "waistLeft",
+            "source": [
+              441,
+              526
+            ],
+            "reference": [
+              439,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台左主轮廓，中部高度有约10px语义区间"
+          },
+          {
+            "id": "waistRight",
+            "source": [
+              581,
+              526
+            ],
+            "reference": [
+              584,
+              530
+            ],
+            "region": "torso",
+            "sourceTolerancePx": 10,
+            "referenceTolerancePx": 10,
+            "definition": "露肤腰部最窄平台右主轮廓，中部高度有约10px语义区间"
+          }
+        ],
+        "coverage": "distributed",
+        "reason": "仅实际露肤/发型点；前背头部+腰，核心侧头部+裸膝。服装遮挡不补假骨点。后续层侧面仅头部初读，尺寸尺度仍limited。",
+        "fitEvidence": {
+          "scale": 1.0100212185012172,
+          "translateX": -4.787509320788615,
+          "translateY": -1.0077801171129863,
+          "residuals": [
+            {
+              "id": "posteriorHairPart",
+              "dx": 0.3333333333333144,
+              "dy": -0.5267616290545618,
+              "distance": 0.6233690118664179
+            },
+            {
+              "id": "waistLeft",
+              "dx": 1.6318480382481653,
+              "dy": 0.26338081452718143,
+              "distance": 1.6529662650506172
+            },
+            {
+              "id": "waistRight",
+              "dx": -1.965181371581366,
+              "dy": 0.26338081452718143,
+              "distance": 1.9827524496697566
+            }
+          ],
+          "method": "least-squares uniform scale+translation only; no rotation"
+        }
+      },
+      "measurements": [
+        {
+          "metricId": "topHemAboveWaist",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              477
+            ],
+            [
+              512,
+              526
+            ]
+          ],
+          "tolerancePx": [
+            3,
+            10
+          ],
+          "notes": "中摆可见；自然腰平台是估读参考位置，非体表骨点，无硬目标验收。"
+        },
+        {
+          "metricId": "shortsWaistDrop",
+          "visibility": "estimated",
+          "points": [
+            [
+              512,
+              526
+            ],
+            [
+              512,
+              576
+            ]
+          ],
+          "tolerancePx": [
+            10,
+            3
+          ],
+          "notes": "裤腰主上缘取读；自然腰位置为参考。"
+        }
+      ],
+      "auditStatus": "visual_accepted_source_coordinates_recorded_numeric_uncertainty_retained",
+      "status": "current",
+      "quantitativeCoverage": "partial_native_reference_positions_only",
+      "inspectionLevel": "actual_full_and_native",
+      "auditNotes": "本轮完整人物原生重绘；量测只覆盖原先已登记的项目，所有点重新取读。图面独立通过不等于每项尺寸区间确定通过。",
+      "publish_slug": "hosiery-v2-base-aligned-cel-back-v1",
+      "previousSourceId": "hosiery-back",
+      "sourceNode": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/hosiery-back-reset-v1-node.json",
+      "measurementBasis": "Source-local native observations, separately registered. Not a claim that all garment dimensions are quantitatively accepted.",
+      "referenceDerivedMetrics": []
     }
   },
   "designNotes": [
@@ -4459,74 +6520,99 @@
     "袖口停在腕部附近，不越过手套指部；左袖袋保持既定轮廓，不借标志或测量放大袋形。投影尺寸不是成衣袖长或生产纸样。"
   ],
   "evidence": {
-    "sourcesManifest": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/art-audit/sources.json",
-    "nativeCropManifest": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/art-audit/native-crop-provenance.json",
-    "actualFullInspected": [
-      "innerwear-front",
-      "innerwear-side",
-      "innerwear-back",
-      "hosiery-front",
-      "hosiery-side",
-      "hosiery-back",
-      "shoes-front",
-      "shoes-side",
-      "shoes-back",
-      "hands-front",
-      "hands-side",
-      "hands-back",
-      "thigh-gear-front",
-      "thigh-gear-side",
-      "thigh-gear-back",
-      "jacket-front",
-      "jacket-side",
-      "jacket-back",
-      "body-base-front",
-      "body-base-side",
-      "body-base-back"
-    ],
-    "actualNativeInspected": [
-      "innerwear-front-upper",
-      "innerwear-side-upper",
-      "innerwear-back-upper",
-      "innerwear-front-shorts",
-      "innerwear-side-shorts",
-      "innerwear-back-shorts",
-      "body-base-side-head",
-      "innerwear-side-head",
-      "body-base-back-head",
-      "innerwear-back-head",
-      "jacket-back-head",
-      "jacket-front-upper",
-      "jacket-back-upper",
-      "body-base-side-knee",
-      "innerwear-side-knee",
-      "jacket-side-knee"
-    ],
-    "limitations": [
-      "尚未把后续12图每个细点独立native复核，不以完整图观察替代细点证据。",
-      "后续侧面注册暂head-only，需补native膝区后才能使用躯干尺度。",
-      "夹克袖口、袋形本轮保留此前款式，但本尺寸稿未逐个测点，不以0或空数组代表测过。"
-    ],
-    "siteIntegration": {
-      "artAuditDraft": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/art-audit/garment-measurements-draft.json",
-        "sha256": "0760a19faa8ee3c06a9f9f86828a78f4df500c541387d48890434945be1212e2"
+    "priorRevision": {
+      "sourcesManifest": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/art-audit/sources.json",
+      "nativeCropManifest": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/art-audit/native-crop-provenance.json",
+      "actualFullInspected": [
+        "innerwear-front",
+        "innerwear-side",
+        "innerwear-back",
+        "hosiery-front",
+        "hosiery-side",
+        "hosiery-back",
+        "shoes-front",
+        "shoes-side",
+        "shoes-back",
+        "hands-front",
+        "hands-side",
+        "hands-back",
+        "thigh-gear-front",
+        "thigh-gear-side",
+        "thigh-gear-back",
+        "jacket-front",
+        "jacket-side",
+        "jacket-back",
+        "body-base-front",
+        "body-base-side",
+        "body-base-back"
+      ],
+      "actualNativeInspected": [
+        "innerwear-front-upper",
+        "innerwear-side-upper",
+        "innerwear-back-upper",
+        "innerwear-front-shorts",
+        "innerwear-side-shorts",
+        "innerwear-back-shorts",
+        "body-base-side-head",
+        "innerwear-side-head",
+        "body-base-back-head",
+        "innerwear-back-head",
+        "jacket-back-head",
+        "jacket-front-upper",
+        "jacket-back-upper",
+        "body-base-side-knee",
+        "innerwear-side-knee",
+        "jacket-side-knee"
+      ],
+      "limitations": [
+        "尚未把后续12图每个细点独立native复核，不以完整图观察替代细点证据。",
+        "后续侧面注册暂head-only，需补native膝区后才能使用躯干尺度。",
+        "夹克袖口、袋形本轮保留此前款式，但本尺寸稿未逐个测点，不以0或空数组代表测过。"
+      ],
+      "siteIntegration": {
+        "artAuditDraft": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/art-audit/garment-measurements-draft.json",
+          "sha256": "0760a19faa8ee3c06a9f9f86828a78f4df500c541387d48890434945be1212e2"
+        },
+        "acceptedDesignBasis": "白衣与红裤批准项使用第一层图面基准；新夹克高低摆使用本轮选定设计。未批准提案仍为proposed，不按已有图平均值放宽。",
+        "corrections": [
+          "原图路由由真实manifest映射到/media；源SHA/坐标不变。",
+          "自然腰端点±10px统一用于topHemAboveWaist和shortsWaistDrop；衣边端点误差独立保留。",
+          "高低摆D设计范围由±0.015修订为±0.03h0；前端裤腰净空仍≥0.30h0。"
+        ]
       },
-      "acceptedDesignBasis": "白衣与红裤批准项使用第一层图面基准；新夹克高低摆使用本轮选定设计。未批准提案仍为proposed，不按已有图平均值放宽。",
-      "corrections": [
-        "原图路由由真实manifest映射到/media；源SHA/坐标不变。",
-        "自然腰端点±10px统一用于topHemAboveWaist和shortsWaistDrop；衣边端点误差独立保留。",
-        "高低摆D设计范围由±0.015修订为±0.03h0；前端裤腰净空仍≥0.30h0。"
-      ]
+      "sourceAuditUpdatedSha256": "9ff5c73a4a287646c76fbfbec851a5507e160716f8a3ab54aad831efa794465e",
+      "finalSourceAudit": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/art-audit/garment-measurements-final.json",
+        "sha256": "2c3b6cd51072c089e1bccbcb4dd529e9d12d658a6c6f7168c1884db618f963a0"
+      }
     },
-    "sourceAuditUpdatedSha256": "9ff5c73a4a287646c76fbfbec851a5507e160716f8a3ab54aad831efa794465e",
-    "finalSourceAudit": {
-      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/art-audit/garment-measurements-final.json",
-      "sha256": "2c3b6cd51072c089e1bccbcb4dd529e9d12d658a6c6f7168c1884db618f963a0"
+    "currentRevision": {
+      "selectedArt": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/selected-final-13.json",
+        "sha256": "afee7ff9fdaf5b5be02964435f11da451c347b3c8a35b5d3c5a08d98fbea456a"
+      },
+      "generationGraph": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/actual-generation-final-13.json",
+        "sha256": "57b0ea543fc9a386e5f3d2063d911270a8e47ed9db5e8b539c2afbafcfa6eb38"
+      },
+      "visualReview": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/review/head-cel-reset-final-independent-review.json",
+        "sha256": "90d9cd95779d78e85a6d293771de7eea164ff7e012b54275793ed7eea1353a88"
+      },
+      "newMeasurementInput": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/new-measurements-final-13.json",
+        "sha256": "dc4f9ea3031c9256b729965d1e256a0e470bda8e8b977f29f05d2d03ca469533"
+      },
+      "independentMeasurementReview": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/review/final-measurement-binding-review.json",
+        "sha256": "8cd63707ded2d5e3f15c04c967d4da59408ea8420ec4799a3070cb62a23d32e4"
+      },
+      "scope": "13新人物视觉检查；新夹克3图核心测量，另外10张新图仅实际部分观测。未改的袜前/侧与首层原记录保持。"
     }
   },
   "bodyMeasurementsSha256": "aa544a3f54d380c41a4ef6841b8e57edb765e46df75575fbf3c5de8ac4962efc",
-  "defaultSourceId": "jacket-highlow-front",
+  "defaultSourceId": "jacket-highlow-base-aligned-front",
   "summaryMetricIds": [
     "topLength",
     "shortsWaistWidth",
@@ -4574,19 +6660,19 @@
       "innerwear-front",
       "innerwear-side",
       "innerwear-back",
-      "jacket-highlow-front",
-      "jacket-highlow-side",
-      "jacket-highlow-back"
+      "jacket-highlow-base-aligned-front",
+      "jacket-highlow-base-aligned-side",
+      "jacket-highlow-base-aligned-back"
     ],
     "historicalCoreMeasuredSources": [
       "jacket-front",
       "jacket-side",
-      "jacket-back"
+      "jacket-back",
+      "jacket-highlow-front",
+      "jacket-highlow-side",
+      "jacket-highlow-back"
     ],
-    "screenedOnlySources": [
-      "hosiery-front",
-      "hosiery-side",
-      "hosiery-back",
+    "historicalPartialSources": [
       "shoes-front",
       "shoes-side",
       "shoes-back",
@@ -4595,14 +6681,43 @@
       "hands-back",
       "thigh-gear-front",
       "thigh-gear-side",
-      "thigh-gear-back"
+      "thigh-gear-back",
+      "hosiery-back"
     ],
-    "statement": "6当前核心图有native取点；3旧夹克核心保历史读数；后续12层图是完整图视觉筛查，8张前背有少量待独立native确认估读，4张侧面不作躯干尺度定量验收。21source清单不是21图全部定量通过。",
+    "currentPartialSources": [
+      "hosiery-front",
+      "hosiery-side",
+      "shoes-base-aligned-front",
+      "shoes-base-aligned-side",
+      "shoes-base-aligned-back",
+      "hands-base-aligned-front",
+      "hands-base-aligned-side",
+      "hands-base-aligned-back",
+      "thigh-gear-base-aligned-front",
+      "thigh-gear-base-aligned-side",
+      "thigh-gear-base-aligned-back",
+      "hosiery-base-aligned-back"
+    ],
+    "currentGarmentFigures": 18,
+    "historicalSourceRows": 16,
+    "currentMainFiguresIncludingBody": 21,
+    "redrawnFiguresThisRevision": 13,
+    "statement": "当前标尺为首层3图与新夹克3图；其他12张当前衣层图仅保留实际部分观测或遮挡状态。本轮13张完整人物有独立全图与原尺寸视觉检查，不等于所有服装尺寸逐项通过。历史16行仅作沿革；34行来源不是34张当前图。",
     "driftNotes": [
-      "前层白衣中摆raw y494，后续front约491–494，差异小且要连注册误差看，不能只rawY宣称缩短。",
-      "背面白衣中摆第一层约484，若干后续层约477–479；提示衣长漂移候选，未逐点native全部确证。",
-      "旧夹克前/后露白与侧遮挡关系不一致；新设计明确前端覆盖、后中窄露、侧斜切，替代旧环周同量露白设想。",
-      "本轮没有重绘既有所有内层；尺寸目标和差异记录给后续整图生成提供固定依据。"
+      "既定白衣、红裤和前长后短夹克目标保持；新图读数、基准推算及其误差独立列出。",
+      "后中露白以本轮可见两边重新取点，区间跨界保留不确定；侧面与前面隐藏白摆不伪造实测。",
+      "旧图、旧坐标与旧标尺保留；重绘前完整测量JSON可下载。"
     ]
+  },
+  "displayNotes": {
+    "derived": {
+      "jacket-highlow-base-aligned-front": {
+        "jacketWhiteOffset": "按第一层同视角、相同横向位置的白衣下摆估算，误差包含两图取点与对齐误差。",
+        "jacketRightOffset": "按第一层同视角、相同横向位置的白衣下摆估算，误差包含两图取点与对齐误差。"
+      },
+      "jacket-highlow-base-aligned-side": {
+        "jacketWhiteOffset": "按第一层同视角、相同横向位置的白衣下摆估算，误差包含两图取点与对齐误差。"
+      }
+    }
   }
 }

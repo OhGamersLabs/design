@@ -27,6 +27,8 @@ aside: true
 
 基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外侧承载带及之后的衣层尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
+本轮按同视角基模完整重绘鞋靴、手部、腿部、夹克四层的 12 张人物及袜装背面，核对头部发色、深色轮廓与赛璐璐分面；既定尺寸规范和结构细节板保持。各新图测量绑定自身坐标，遮挡与数值不确定项仍单列。
+
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
 ## 当前基模尺寸资料 {#body-measurements}
@@ -47,11 +49,37 @@ aside: true
 - [首层白衣红裤 · 侧面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-innerwear-side.svg)
 - [首层白衣红裤 · 背面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-innerwear-back.svg)
 
-- [前长后短夹克 · 正面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-front.svg)
+- [前长后短夹克 · 正面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-base-aligned-front.svg)
 
-- [前长后短夹克 · 右侧面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-side.svg)
+- [前长后短夹克 · 右侧面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-base-aligned-side.svg)
 
-- [前长后短夹克 · 背面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-back.svg)
+- [前长后短夹克 · 背面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-base-aligned-back.svg)
+
+## 基模对齐重绘前 · 人物与标尺
+
+<details>
+<summary>13 张人物历史原图与此前服装测量</summary>
+
+- [鞋靴层 · 正面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png)
+- [鞋靴层 · 右侧面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.png)
+- [鞋靴层 · 背面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png)
+- [v2 · 手部装备层 · 正面原始 PNG](/media/bunny/3.1.0/hands-v2-fresh-cel-front-v1.png)
+- [v2 · 手部装备层 · 右侧面原始 PNG](/media/bunny/3.1.0/hands-v2-fresh-cel-side-v1.png)
+- [v2 · 手部装备层 · 背面原始 PNG](/media/bunny/3.1.0/hands-v2-fresh-cel-back-v1.png)
+- [v2 · 腿部装备层 · 正面原始 PNG](/media/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png)
+- [v2 · 腿部装备层 · 右侧面原始 PNG](/media/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png)
+- [v2 · 腿部装备层 · 背面原始 PNG](/media/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png)
+- [v2 · 外套层 · 正面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.png)
+- [v2 · 外套层 · 右侧面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.png)
+- [v2 · 外套层 · 背面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png)
+- [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png)
+
+- [此前服装测量完整快照 JSON](/catalog/bunny/3.1.0/garment-measurements-before-base-aligned-v1.json)
+- [此前夹克正面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-front.svg)
+- [此前夹克右侧面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-side.svg)
+- [此前夹克背面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-back.svg)
+
+</details>
 
 ## 平涂与色块重绘前 · 历史原件 {#before-clean-cel-assets}
 
@@ -171,7 +199,7 @@ aside: true
 
 - [袜装层 · 正面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.png)
 - [袜装层 · 侧面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.png)
-- [袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.png)
+- [基模对齐重绘 · 袜装层 · 背面 PNG](/media/bunny/3.1.0/hosiery-v2-base-aligned-cel-back-v1.png)
 - [袜装 · 结构与针织细节 PNG](/media/bunny/3.1.0/hosiery-v2-layer2-construction-v2.png)
 
 结构说明见[袜装页](/characters/bunny/hosiery#hosiery-construction)。
@@ -204,9 +232,9 @@ aside: true
 
 ## 鞋靴 {#footwear-assets}
 
-- [鞋靴层 · 正面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.png)
-- [鞋靴层 · 右侧面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.png)
-- [鞋靴层 · 背面 PNG](/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png)
+- [基模对齐重绘 · 鞋靴层 · 正面 PNG](/media/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.png)
+- [基模对齐重绘 · 鞋靴层 · 右侧面 PNG](/media/bunny/3.1.0/footwear-v2-base-aligned-cel-side-v1.png)
+- [基模对齐重绘 · 鞋靴层 · 背面 PNG](/media/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.png)
 - [鞋靴 · 独立结构与鞋带收纳 PNG](/media/bunny/3.1.0/footwear-v2-layer3-construction-v2.png)
 
 穿着三视各为 1024×1536，独立结构板为 1536×1024，均保留工具原始 PNG。结构说明见[鞋靴页](/characters/bunny/shoes#footwear-construction)；结构板说明可见部件与接合位置，不是裁剪纸样或投产规格。
@@ -236,9 +264,9 @@ aside: true
 
 ## 手部装备 {#hands-assets}
 
-- [v2 · 手部装备层 · 正面原始 PNG](/media/bunny/3.1.0/hands-v2-fresh-cel-front-v1.png)
-- [v2 · 手部装备层 · 右侧面原始 PNG](/media/bunny/3.1.0/hands-v2-fresh-cel-side-v1.png)
-- [v2 · 手部装备层 · 背面原始 PNG](/media/bunny/3.1.0/hands-v2-fresh-cel-back-v1.png)
+- [基模对齐重绘 · v2 · 手部装备层 · 正面原始 PNG](/media/bunny/3.1.0/hands-v2-base-aligned-cel-front-v1.png)
+- [基模对齐重绘 · v2 · 手部装备层 · 右侧面原始 PNG](/media/bunny/3.1.0/hands-v2-base-aligned-cel-side-v1.png)
+- [基模对齐重绘 · v2 · 手部装备层 · 背面原始 PNG](/media/bunny/3.1.0/hands-v2-base-aligned-cel-back-v1.png)
 - [v2 · 手套独立视图 · 原始 PNG](/media/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.png)
 - [v2 · 腕部设备开合与部件 · 原始 PNG](/media/bunny/3.1.0/hands-v2-layer4-wrist-construction-v1.png)
 
@@ -259,9 +287,9 @@ aside: true
 
 ## 腿部装备 {#thigh-assets}
 
-- [v2 · 腿部装备层 · 正面原始 PNG](/media/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png)
-- [v2 · 腿部装备层 · 右侧面原始 PNG](/media/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png)
-- [v2 · 腿部装备层 · 背面原始 PNG](/media/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png)
+- [基模对齐重绘 · v2 · 腿部装备层 · 正面原始 PNG](/media/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.png)
+- [基模对齐重绘 · v2 · 腿部装备层 · 右侧面原始 PNG](/media/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.png)
+- [基模对齐重绘 · v2 · 腿部装备层 · 背面原始 PNG](/media/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.png)
 - [v2 · 任务终端与腿带 · 原始 PNG](/media/bunny/3.1.0/thigh-v2-layer5-terminal-straps-construction-v1.png)
 - [v2 · 维护盒袋与内容物 · 原始 PNG](/media/bunny/3.1.0/thigh-v2-layer5-pouch-contents-construction-v1.png)
 
@@ -282,9 +310,9 @@ aside: true
 
 ## 前长后短夹克 {#jacket-assets}
 
-- [v2 · 外套层 · 正面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.png)
-- [v2 · 外套层 · 右侧面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.png)
-- [v2 · 外套层 · 背面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png)
+- [基模对齐重绘 · v2 · 外套层 · 正面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png)
+- [基模对齐重绘 · v2 · 外套层 · 右侧面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.png)
+- [基模对齐重绘 · v2 · 外套层 · 背面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png)
 - [v2 · 外套独立三视与外部分解 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-construction-v1.png)
 - [v2 · 外套局部细节 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-details-v1.png)
 

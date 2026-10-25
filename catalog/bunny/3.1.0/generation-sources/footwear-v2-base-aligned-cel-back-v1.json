@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "role": "shoes-back",
+  "publish_slug": "footwear-v2-base-aligned-cel-back-v1",
+  "source_head": "6f0bfd4af1f6bbf03cc945c6cd615744880787c2",
+  "status": "visual-accepted-awaiting-current-set-and-measurement-binding",
+  "source": {
+    "kind": "revised-reference",
+    "page": "/characters/bunny/shoes",
+    "based_on": "/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png",
+    "baseline_sha256": "463eb209a7e582789fb5725f88c5b4381d6884f31e6645cef8ba73a56208f4a0",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-back-reset-v1.png",
+    "source_artifact_sha256": "94ef3bc4265b81cb8688716eb669d5ddb755ea2232fea7631abd58d91aeb8019",
+    "review_status": "accepted-visual-with-measurement-binding-pending",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-back-reset-v1-request.json",
+      "sha256": "334096197a10ed1aed35e5dd3900ddb24d586e0fea37e47f1f3d3f7ead228ebf"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Freshly draw one NEW COMPLETE full-body straight BACK, both shoulder blades facing viewer adult woman, from fullhair to shoesoles, white portrait1024x1536. Entire figure freshly hand-drawn Japanese lineart+HARD CEL color, no headpasting/collage/retouch/filter.\nImage1 is SAME-VIEW complete CURRENT BODY BASE: sole HEAD/identity/bodyproportions/painting authority. Keep exact same rear hair silhouette, broad lower/nape COOL GRAY/lavender CEL shadow masses, clean dark navy outer contour. Keep the broad gray planes whole instead of splitting into extra white shards or short shiny lines. Quiet peach nape skin, no exaggerated orange/red shadows. Preserve legitimate whitehair planes/hardshadows and slight intentional baseline transitions. No cloudypatches/mosaic/whiteflecks or waxygloss.\nImage2 is SAME-SIZE original-frame CURRENT CLOTHED BODY with head intentionally omitted on whitecanvas. It supplies only current clothing/gear/bodyposition. Blanktop is reference omission, do not shrink/recenter the croppedbody. Use matching complete frames to preserve bodyratio/pose and clothe the Image1 person exactly as2. No legshortening, waistlengthening, hipwidening or new anatomy.\nWhite sleeveless high-neck crop top and red rolled-cuff shorts retain exactly current geometry/size/bodylocation. White shirt HPS-to-middlehem approximately0.91headunit, with narrow lowerband; no shortened shirt or thicker band. Back has only plain center seam and restrained garment edge shadows, no front chest opening/clavicle/bust marks. Redshorts proper round rear hip shape, two back patch pockets and rear yoke/centerseam, original waist/rise/rolledcuffs.\nOnly socks and shoes, arms/hands BARE, NO wristdevices/gloves/thighstraps/pouches/jacket.\nLeft leg orange thigh-high sock(imageLEFT in back), right leg short WHITE sock(imageRIGHT in back), same foldedtop/lengths. Orange hardknee shadows, white shaft flatwhite with few hardedge shadows and no soft longitudinal streaks. Fine paleblue ribs only at whitefoldedband. Same redwhiteblack sneakers with existing heel/sole/OUTSIDE anklehardware; do not mirror or duplicate outerhardware to innersides.\nEvery visible part/side/overlap remains physically coherent. Back anatomy stays back, no navel orfrontcleavage. Clean localcolor planes, restrained dark lines and CLOSED HARD shadows; intentional knit/seam detail retained. No painterlygradients/oily3D/gloss, cloudy texture or whitehair filament fragmentation. No text/rulers/watermark.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-back-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/shoes-back-current-body-native-frame.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-6ce5f3fb-a75b-4047-8b59-a8dfec397386.png",
+      "sha256": "94ef3bc4265b81cb8688716eb669d5ddb755ea2232fea7631abd58d91aeb8019"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-back-v1.png",
+        "sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/shoes-back-current-body-native-frame.png",
+        "sha256": "a7000cb834011720d9985e2bc9beea0533d7af2bf019c426acfc7ab06d55e9dd",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      }
+    ],
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/review/shoes-back-reset-v1-independent-review.json",
+      "sha256": "3816e71e7767505bd07ccc55a8ab714a520bae2c9b76c13ce95c6d09e4738322"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/shoes-back-reset-v1-node.json",
+      "sha256": "7b6dd32bf7e3854f584f6ee3a300d801cd95706e7714d1d79f0896fb598b0501"
+    }
+  },
+  "original": {
+    "path": "/media/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.png",
+    "sha256": "94ef3bc4265b81cb8688716eb669d5ddb755ea2232fea7631abd58d91aeb8019",
+    "width": 1024,
+    "height": 1536
+  },
+  "web": {
+    "path": "/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.webp",
+    "sha256": "22fca0e9d20016b3b19c4d7e6fa7af7881603b988ef140900449c316531f3391",
+    "encoding": "lossless decoded RGBA equal to native"
+  },
+  "scope": "Complete new imagegen output; immutable per-image generation and visual review record. This record does not establish a current-page or numerical measurement acceptance."
+}

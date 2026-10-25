@@ -555,6 +555,36 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-base-aligned-cel-back-v1.png",
+      "sha256": "94ef3bc4265b81cb8688716eb669d5ddb755ea2232fea7631abd58d91aeb8019",
+      "size": 1522666,
+      "contentType": "image/png",
+      "downloadName": "footwear-v2-base-aligned-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-base-aligned-cel-front-v1.png",
+      "sha256": "a88daac16fa7b359ab3e139c99af90545152e787ba25dbfe7ec6c7557b64b2bd",
+      "size": 1248276,
+      "contentType": "image/png",
+      "downloadName": "footwear-v2-base-aligned-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/footwear-v2-base-aligned-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-base-aligned-cel-side-v1.png",
+      "sha256": "8e6199c107bbd86adbfce6ae129c2e56244e244a153e7cf65bf23b3155355cb7",
+      "size": 1500244,
+      "contentType": "image/png",
+      "downloadName": "footwear-v2-base-aligned-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/footwear-v2-fresh-cel-back-v1.png",
       "sha256": "463eb209a7e582789fb5725f88c5b4381d6884f31e6645cef8ba73a56208f4a0",
@@ -611,6 +641,36 @@
       "size": 1576720,
       "contentType": "image/png",
       "downloadName": "footwear-v2-layer3-construction-v2.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hands-v2-base-aligned-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hands-v2-base-aligned-cel-back-v1.png",
+      "sha256": "1ec76928e8b2ea1c944b4a18767e6ae94af37328076efe78f0303058555210cf",
+      "size": 1556174,
+      "contentType": "image/png",
+      "downloadName": "hands-v2-base-aligned-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hands-v2-base-aligned-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hands-v2-base-aligned-cel-front-v1.png",
+      "sha256": "12693c4f6ed77cbff3275b57ec7df6d5500a7fa37575909f81cce20ba93bd82d",
+      "size": 1615924,
+      "contentType": "image/png",
+      "downloadName": "hands-v2-base-aligned-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hands-v2-base-aligned-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hands-v2-base-aligned-cel-side-v1.png",
+      "sha256": "a76c2fdbd571875997a338ea815f004db00edf900a8d6d40ed27229907b62b9d",
+      "size": 1575713,
+      "contentType": "image/png",
+      "downloadName": "hands-v2-base-aligned-cel-side-v1.png"
     },
     {
       "character": "bunny",
@@ -691,6 +751,16 @@
       "size": 1580903,
       "contentType": "image/png",
       "downloadName": "head-v2-cel-reference-v3.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/hosiery-v2-base-aligned-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/hosiery-v2-base-aligned-cel-back-v1.png",
+      "sha256": "a4667822740a0d6582d4fe4a488d5d52eeef5284f8b843f1c6df8e94fc657cf0",
+      "size": 1509857,
+      "contentType": "image/png",
+      "downloadName": "hosiery-v2-base-aligned-cel-back-v1.png"
     },
     {
       "character": "bunny",
@@ -995,6 +1065,36 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+      "sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+      "size": 1598045,
+      "contentType": "image/png",
+      "downloadName": "jacket-v2-highlow-base-aligned-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+      "sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+      "size": 1220204,
+      "contentType": "image/png",
+      "downloadName": "jacket-v2-highlow-base-aligned-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.png",
+      "sha256": "a84fa973b6e3f20dee8f2124d812c01d521c1d13921af06ca6b35dfea12647c6",
+      "size": 1515254,
+      "contentType": "image/png",
+      "downloadName": "jacket-v2-highlow-base-aligned-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/jacket-v2-highlow-cel-back-v1.png",
       "sha256": "bb829e8a0e5035ae61d1be6426aa272204df3338076eace1833c58e1756a3fe2",
@@ -1105,6 +1205,36 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/thigh-v2-base-aligned-cel-back-v1.png",
+      "sha256": "48cb6925661f92da9d80e7ca884e2b007cc164e37a1f053aefd4c1dc1b2c884b",
+      "size": 1556940,
+      "contentType": "image/png",
+      "downloadName": "thigh-v2-base-aligned-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/thigh-v2-base-aligned-cel-front-v1.png",
+      "sha256": "35aceb5aad49eb739586b16493d8a7c81f6faca7f71a536b6ea6aaf25edc68c5",
+      "size": 1645047,
+      "contentType": "image/png",
+      "downloadName": "thigh-v2-base-aligned-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/thigh-v2-base-aligned-cel-side-v1.png",
+      "sha256": "af9a6cef44d1870bcee0496e37c291ff75b84a229e80d1c5a83dda4711acd97e",
+      "size": 1528220,
+      "contentType": "image/png",
+      "downloadName": "thigh-v2-base-aligned-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/thigh-v2-fresh-cel-back-v1.png",
       "sha256": "d97ecb42b2519c81a6584039fdfa2671560eb3711fac08cafaf081e0e6d75766",
@@ -1167,8 +1297,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "7a6c125cac90cc00d3366fb6fab4c79346e2de0999f355e823b4679061f28df1",
-      "size": 157754016,
+      "sha256": "4e3c3520c172e6235285ed638ebbf8bf9aea268d9b5ba0727f3249b09b30e659",
+      "size": 173863254,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

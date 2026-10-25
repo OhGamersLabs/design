@@ -42,6 +42,7 @@ const comparison = computed(() => models.value.flatMap((model) => {
 const ratio = (value) => value === null ? '—' : `${formatNumber(value, 3)} h₀`
 const interval = (value) => value ? `${formatNumber(value[0], 3)}–${formatNumber(value[1], 3)} h₀` : '—'
 const points = (value) => value?.map((p) => `(${p[0]}, ${p[1]})`).join(' → ') ?? '—'
+const derivedNote = (sourceId, row) => props.data.displayNotes?.derived?.[sourceId]?.[row.id] ?? row.notes
 const coverage = (id) => ({ core_native_read_points: '原尺寸取点', provisional_full_view_estimates: '完整图筛查估读', no_reliable_torso_measurements: '遮挡或标定有限' }[props.data.sources[id]?.quantitativeCoverage] ?? '图面记录')
 </script>
 
@@ -101,7 +102,7 @@ const coverage = (id) => ({ core_native_read_points: '原尺寸取点', provisio
           <dl>
             <template v-for="row in current.derived" :key="row.id">
               <dt>{{ row.label }}：{{ ratio(row.normalized) }} · {{ row.indicationLabel }}</dt>
-              <dd>含误差区间 {{ interval(row.interval) }}。<span v-if="row.observedCoverage === 'covered'">图面可见前襟已盖住白衣边缘。</span><span v-else-if="row.observedCoverage === 'visible'">图面可见白衣露边。</span><small>同标定平面横向站位差 {{ formatNumber(row.stationDeltaPx, 2) }} px；两端取点容差合计 {{ formatNumber(row.stationTolerancePx, 2) }} px。未匹配时不计算下摆差。</small><small>参考：<a :href="withBase(row.referenceOriginal)" target="_blank" rel="noopener noreferrer">{{ row.referenceSourceLabel }} ↗</a> · {{ row.notes }}</small></dd>
+              <dd>含误差区间 {{ interval(row.interval) }}。<span v-if="row.observedCoverage === 'covered'">图面可见前襟已盖住白衣边缘。</span><span v-else-if="row.observedCoverage === 'visible'">图面可见白衣露边。</span><small>同标定平面横向站位差 {{ formatNumber(row.stationDeltaPx, 2) }} px；两端取点容差合计 {{ formatNumber(row.stationTolerancePx, 2) }} px。未匹配时不计算下摆差。</small><small>参考：<a :href="withBase(row.referenceOriginal)" target="_blank" rel="noopener noreferrer">{{ row.referenceSourceLabel }} ↗</a> · {{ derivedNote(current.id, row) }}</small></dd>
             </template>
           </dl>
         </div>
