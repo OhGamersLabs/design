@@ -1,23 +1,45 @@
 ---
-title: "武器累计穿戴（待同步）"
+title: "双手棍累计穿戴"
 releaseReady: false
 aside: true
 ---
-# 武器累计穿戴（待同步）
+# 双手棍累计穿戴
 
-本页保留此前武器装备资料，尚未同步当前头部、夹克、内穿承载系统与头装；当前累计穿戴见[头部装备三视](/characters/bunny/headgear#headgear-wearing)。
+在[当前护目镜衣层](/characters/bunny/headgear#headgear-wearing)上核对双手棍的手持随行。上身覆盖顺序保持白色内搭 → 承载系统 → 橙色夹克。
 
 <span id="已确认累计穿戴"></span>
 
-下方保留包含武器收纳的既有累计三视及此前头部装备参考，用于回溯穿戴、收纳位置与遮挡；不代替当前头部装备层的制作图。
+## 双手棍单手随行三视 {#weapon-wearing}
+
+### 正面
+
+<ReleaseImage src="/characters/bunny/3.1.0/staff-v2-walking-front-v1.webp" original="/media/bunny/3.1.0/staff-v2-walking-front-v1.png" alt="双手棍 · 右手自然扶直棍 · 正面" caption="双手棍 · 自然扶棍 · 正面" />
+
+### 右侧面
+
+<ReleaseImage src="/characters/bunny/3.1.0/staff-v2-walking-side-v1.webp" original="/media/bunny/3.1.0/staff-v2-walking-side-v1.png" alt="双手棍 · 右手自然扶直棍 · 右侧面" caption="双手棍 · 自然扶棍 · 右侧面" />
+
+### 背面
+
+<ReleaseImage src="/characters/bunny/3.1.0/staff-v2-walking-back-v1.webp" original="/media/bunny/3.1.0/staff-v2-walking-back-v1.png" alt="双手棍 · 右手自然扶直棍 · 背面" caption="双手棍 · 自然扶棍 · 背面" />
+
+右手在体侧扶住整棍，左手自然放松；正、右侧、背面分别展示棍身、手套与身体的遮挡关系。随行姿势与双手持有示意分开展示。
+
+整棍外观、静态双手持有与比例口径见[双手棍页](/characters/bunny/weapon)。
+
+<details>
+<summary>此前锯收纳累计图 · 历史参考</summary>
 
 ## 武器收纳累计三视
 
-<ReleaseImage src="/characters/bunny/3.1.0/31-neutral-stored-threeview.webp" original="/media/bunny/3.1.0/31-neutral-stored-threeview.png" alt="武器收纳累计三视图（尚未同步的既有参考）" caption="武器收纳累计三视图（尚未同步的既有参考）" />
+<ReleaseImage src="/characters/bunny/3.1.0/31-neutral-stored-threeview.webp" original="/media/bunny/3.1.0/31-neutral-stored-threeview.png" alt="此前锯收纳累计三视图（历史参考）" caption="此前锯收纳累计三视图（历史参考）" />
 
 双手自然下垂，武器沿背腰水平收纳。正面主要由身体遮挡，侧面核对厚度与袖子边缘，背面核对整体轮廓和固定位置。三视图应完整对照，不裁去背面。
 
 <a href="/characters/bunny/saw">武器收纳图解与比例口径</a>
+
+
+</details>
 
 ## 此前头部装备累计衣层
 

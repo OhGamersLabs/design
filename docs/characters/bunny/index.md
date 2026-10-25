@@ -9,7 +9,7 @@ aside: true
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)、[橙色外套](/characters/bunny/jacket)、[承载带层](/characters/bunny/harness)与[头部装备层](/characters/bunny/headgear)九组三视共二十七张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，提供累计三视与层次关系板，三张硬件板保持；头部装备层补齐仅护目镜的累计三视、四格近景与拆解板；武器衣层仍待同步。旧鞋、旧手部、旧腿部、旧外套资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)、[橙色外套](/characters/bunny/jacket)、[承载带层](/characters/bunny/harness)、[头部装备层](/characters/bunny/headgear)与[双手棍手持随行层](/characters/bunny/assembled)共 30 张完整三视人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，提供累计三视与层次关系板，三张硬件板保持；头部装备层补齐仅护目镜的累计三视、四格近景与拆解板；双手棍的握持与手持随行资料见[当前武器页](/characters/bunny/weapon)。旧鞋、旧手部、旧腿部、旧外套资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
 
 ## 本轮补充
 
@@ -18,7 +18,7 @@ aside: true
 - [红护环开合结构](/characters/bunny/hands#cuff-opening)：铰链、锁扣与手套腕口关系。
 - [当前鞋带结与尾端收纳结构](/characters/bunny/shoes#footwear-construction)、[既有坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
 
-这些补图作为现有分层三视的延伸。武器实握、固定座/取出过程与原稿持锯角色卡仍待补齐，现有收纳图继续用于结构参考。
+这些补图作为现有分层三视的延伸。双手棍已有静态双手持有示意，手持随行说明见[武器页](/characters/bunny/weapon)；原稿同姿势角色卡与连续动作仍待补齐。
 
 ## 原始手稿
 
@@ -26,7 +26,7 @@ aside: true
 
 ## 设计规范
 
-当前制作以[完整新绘 v2 基模](/characters/bunny/body-base)及其[图面比例](/characters/bunny/dimensions)为依据，身份继续对照[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。当前累计已加入护目镜，夹克内穿承载关系保持；实际厘米身高尚未设定，武器保留既有资料，后续继续核对。今后人物三视的完整新绘要求见[手绘语言标准](/characters/bunny/visual-language#完整三视的绘制方式)。
+当前制作以[完整新绘 v2 基模](/characters/bunny/body-base)及其[图面比例](/characters/bunny/dimensions)为依据，身份继续对照[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。当前累计加入双手棍，护目镜与夹克内穿承载关系保持；实际厘米身高尚未设定，图面比例不作为制造尺寸。今后人物三视的完整新绘要求见[手绘语言标准](/characters/bunny/visual-language#完整三视的绘制方式)。
 
 下方 00 图是 **2026-10-18 的旧基准沿革**，保留原图与原字。图内“最新已确认基模”“当前锁定的制作依据”均指当时版本，不作为当前 v2 制作依据。
 
@@ -34,7 +34,7 @@ aside: true
 
 <ul><li><a href="/characters/bunny/body-base">从身体基准开始</a></li><li><a href="/characters/bunny/dimensions">图面尺寸与比例</a></li><li><a href="/characters/bunny/assembly">衣层与部件阅读顺序</a></li></ul>
 
-贴身衣层 → 袜装 → 鞋靴 → 手部装备 → 腿部装备 → 承载系统（白衣外） → 橙色夹克 → 头部装备 → 武器水平收纳。
+贴身衣层 → 袜装 → 鞋靴 → 手部装备 → 腿部装备 → 承载系统（白衣外） → 橙色夹克 → 头部装备 → 双手棍手持随行。
 
 <span id="成品"></span>
 
@@ -42,10 +42,10 @@ aside: true
 
 ## 当前累计穿戴
 
-当前累计穿戴见[头部装备三视](/characters/bunny/headgear#headgear-wearing)。
+当前累计穿戴见[双手棍手持随行三视](/characters/bunny/assembled#weapon-wearing)。
 
 <details>
-<summary>此前武器收纳累计图 · 尚未同步</summary>
+<summary>此前锯收纳累计图 · 历史参考</summary>
 
 以下武器背腰水平收纳三视保留此前完整装备，尚未同步当前头部、夹克、内穿承载系统与护目镜，不代替当前累计结果。
 

@@ -98,8 +98,8 @@ export const bunnySections = [
         "link": "/characters/bunny/assembled"
       },
       {
-        "text": "武器与收纳",
-        "link": "/characters/bunny/saw"
+        "text": "双手棍与手持随行",
+        "link": "/characters/bunny/weapon"
       }
     ]
   },

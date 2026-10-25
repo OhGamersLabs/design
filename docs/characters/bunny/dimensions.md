@@ -104,4 +104,4 @@ H 为基模图的冠顶参考线到赤脚地面线：1900 px。不是含兔耳�
 
 <span id="武器外形比例"></span><span id="武器外形尺寸基准"></span>
 
-旧版武器尺寸已移至<a href="/characters/bunny/weapon-history">历史参考</a>，不作为当前标准。当前进展见<a href="/characters/bunny/saw">武器设计状态</a>。
+旧版武器尺寸已移至<a href="/characters/bunny/weapon-history">历史参考</a>，不作为当前标准。当前双手棍外观与图面比例说明见<a href="/characters/bunny/weapon#staff-proportion">双手棍设计页</a>。

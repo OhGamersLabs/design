@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 144,
+  "asset_count": 149,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -966,7 +966,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/30-compact-weapon-exterior-parts.png",
         "page": "https://design.ohgamers.org/characters/bunny/saw",
-        "baseline_sha256": "f75b4465eca5c7e96af21328a7cba224e0206bc3ad58f62537e7ed59505fda88"
+        "baseline_sha256": "f75b4465eca5c7e96af21328a7cba224e0206bc3ad58f62537e7ed59505fda88",
+        "review_status": "historical-weapon-reference",
+        "description": "此前武器外观与收纳资料；原件、网址和来源保留作沿革参考，不代替当前新绘武器层。",
+        "superseded_by": "/characters/bunny/assembled#weapon-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/30-compact-weapon-exterior-parts.png",
@@ -996,7 +999,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/31-neutral-stored-design-guide.png",
         "page": "https://design.ohgamers.org/characters/bunny/saw",
-        "baseline_sha256": "8969d0fdbea8c389fb218dbd547b29019b8e408818b79ccbb920526b57f5abbd"
+        "baseline_sha256": "8969d0fdbea8c389fb218dbd547b29019b8e408818b79ccbb920526b57f5abbd",
+        "review_status": "historical-weapon-reference",
+        "description": "此前武器外观与收纳资料；原件、网址和来源保留作沿革参考，不代替当前新绘武器层。",
+        "superseded_by": "/characters/bunny/assembled#weapon-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/31-neutral-stored-design-guide.png",
@@ -1026,7 +1032,10 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/31-neutral-stored-threeview.png",
         "page": "https://design.ohgamers.org/characters/bunny/",
-        "baseline_sha256": "08e51c7ae203b7187e8711bf627325a4a3165e822b71977cc4bd0e71c6c13364"
+        "baseline_sha256": "08e51c7ae203b7187e8711bf627325a4a3165e822b71977cc4bd0e71c6c13364",
+        "review_status": "historical-weapon-reference",
+        "description": "此前武器外观与收纳资料；原件、网址和来源保留作沿革参考，不代替当前新绘武器层。",
+        "superseded_by": "/characters/bunny/assembled#weapon-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/31-neutral-stored-threeview.png",
@@ -10033,6 +10042,496 @@
       }
     },
     {
+      "id": "staff-v2-held-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "staff-v2-held-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/weapon",
+        "based_on": "/media/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+        "baseline_sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-held-v2.png",
+        "source_artifact_sha256": "11f02da020dc7a434a289b3e1485302c69b56b7a93a50a7eff6f3c7f61465e43",
+        "review_status": "current-staff-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-held-v2-request.json",
+          "sha256": "5d0f4549b21450d5f0ba0faa60d9ba15ad57eb942293799c0d8b99fc6ece8842"
+        },
+        "actual_tool_parameters": {
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/native/current-front-right-glove.png"
+          ],
+          "transparent_background": false,
+          "prompt": "Freshly draw a complete full-body Bunny calmly holding her two-handed staff at rest on white. Use reference1 for her exact current character, centered forehead goggles, slim long-legged body and cumulative clothes; reference2 for the staff; reference3 specifically for the closed FULL-FINGER BLACK RIGHT GLOVE. Entire head, shoes and both staff ends visible, no text.\nShe faces forward, holding one straight staff diagonally from lower viewer-left to upper viewer-right, clear of her face, about five and a half of her own head-heights long. Relaxed shoulders and bent elbows, hands separated on the continuous black middle shaft. Anatomical RIGHT hand, the LOWER hand at viewer-left, has the RED wrist device and a completely closed black glove: every curled finger and thumb, including every fingertip and nail, remains black fabric. NO bare skin on this right hand. Preserve a natural wrapped grip with separate finger shapes; do not make a mitten. Anatomical LEFT hand, the UPPER hand at viewer-right, has the ORANGE screen and the existing fingerless glove, with natural visible fingertips. These two different glove types must not be copied into each other.\nKeep her silver-white hair, visible blue eyes, white top with its EXISTING oval chest opening, orange cropped jacket with red lapels and longer front tips, simplified white linked OG sleeve mark, red shorts, inner harness only visible in the jacket opening, silver chest clasp and waist links, black waist clasp, original leg devices, asymmetric socks and boots. Do not change the white top design. Preserve garment lengths and existing body proportions. Staff remains the exact slim charcoal rod with two matching blunt silver caps, narrow red end collars/black identity insets and a flat red center mark. Fingers wrap the shaft without changing rod width or bending it.\nCrisp Japanese hand-drawn outlines, flat clean colors and controlled hard-edged cel shadows. Clean silver-white hair with no skin-colored strands, no cloudy fabric or white speckle textures. A neutral static equipment pose, no action. Draw the whole image anew."
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-4851fd22-542a-443a-a41e-6b49d376c94a.png",
+          "sha256": "11f02da020dc7a434a289b3e1485302c69b56b7a93a50a7eff6f3c7f61465e43"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+            "sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+            "sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/native/current-front-right-glove.png",
+            "sha256": "03cfecebfde0719917b2eb427a54e7cbd7656f1885045b19bd3ce4dad7c6cc40",
+            "dimensions": [
+              105,
+              200
+            ]
+          }
+        ],
+        "reference_basis": "actual ordered input images",
+        "description": "双手棍 · 静态双手持有示意",
+        "scope": "本轮采用约等身双手棍：整棍外观、静态双手持有、右手体侧自然扶棍正右侧背三视。既有身体与服装尺寸基准保持；独立实体分件未产出。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-final-five-independent-review.json",
+          "sha256": "dfb8335ad95c67da331be7a6e5cd0b7ead077d920a23a6a1d30c2f3e988cf865"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-held-v2-independent-review.json",
+          "sha256": "6b25d483064aa9c057840f67a7f28b17e5cc6dc5dfb7f5eaf8afbec7a9ba061b"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/selected-five.json",
+          "sha256": "6f2a8ed8292142c18efae952868f0d8fad2b85a127b7e4d32a57f5335b434779"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/actual-generation.json",
+          "sha256": "41a5781b5bd89490226b95c6c61ecd41e7ca2c736cb478cd1d0ce2d07be48ee7"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-held-v2-node.json",
+          "sha256": "7046801c26eba0f41c077031a955b128bc14940fc0df18867b9a9972cde9f5b0"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-held-v1.json",
+          "sha256": "2b36220583bc638c03958a74dc0a61de0ab71e283bcdf640ebd0dc20f057a1f3"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/staff-v2-held-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1312663,
+        "sha256": "11f02da020dc7a434a289b3e1485302c69b56b7a93a50a7eff6f3c7f61465e43",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/staff-v2-held-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 778878,
+        "sha256": "82e4edfcaa5c79f272dc31bfbb891e6eb1fc89f192eaaec02160ecd372562b6c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "staff-v2-single-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "staff-v2-single-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/weapon",
+        "based_on": null,
+        "baseline_sha256": null,
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+        "source_artifact_sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f",
+        "review_status": "current-staff-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1-request.json",
+          "sha256": "60a20e953bde44192bcabdb73dd8fe2b436722d7d302d9a7508e553bc18c5cd1"
+        },
+        "actual_tool_parameters": {
+          "transparent_background": false,
+          "prompt": "A single elegant two-handed staff designed for Bunny, a Japanese anime game character. Show the entire straight staff alone, upright on a plain white background with generous margins. A long slim matte charcoal shaft with a wide uninterrupted central hand-grip area allowing varied hand spacing. Matching compact silver end caps at both ends, softly rounded faceted profiles, only slightly wider than the shaft. A restrained red identification collar near each silver end, outside the main grip area, and a small flat red center mark. Red, charcoal and silver palette, clean light technical styling, balanced readable silhouette. The ends are blunt and smooth, not blades, spikes or hammer heads. Crisp hand-drawn dark linework, flat cel colors and clear hard-edged shadow planes. A static exterior illustration, no people, action or text."
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-9f1f7272-5109-45a1-85b3-7556f07bdb01.png",
+          "sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f"
+        },
+        "reference_chain": [],
+        "reference_basis": "text-only generation; no reference images supplied",
+        "description": "双手棍 · 单件外观",
+        "scope": "本轮采用约等身双手棍：整棍外观、静态双手持有、右手体侧自然扶棍正右侧背三视。既有身体与服装尺寸基准保持；独立实体分件未产出。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-final-five-independent-review.json",
+          "sha256": "dfb8335ad95c67da331be7a6e5cd0b7ead077d920a23a6a1d30c2f3e988cf865"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-single-v1-independent-review.json",
+          "sha256": "4efacfff01bea8999076e6a48aac1d5135a866a9dea02188b57435e06cdaffcb"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/selected-five.json",
+          "sha256": "6f2a8ed8292142c18efae952868f0d8fad2b85a127b7e4d32a57f5335b434779"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/actual-generation.json",
+          "sha256": "41a5781b5bd89490226b95c6c61ecd41e7ca2c736cb478cd1d0ce2d07be48ee7"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1-node.json",
+          "sha256": "e13ca6236d915462286da63dcbdd95a415046bc23257b5c0654ad723978ee5f2"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-single-v1.json",
+          "sha256": "fde7c09057cb646ecc2ce3159621f9a602b4b7d2c64322ad82ebec4a7fa63083"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/staff-v2-single-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 919936,
+        "sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/staff-v2-single-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 442280,
+        "sha256": "8fcf21621094c891009384ef453105e191c34a0603153a6d109913d8a39d7766",
+        "alpha": false
+      }
+    },
+    {
+      "id": "staff-v2-walking-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "staff-v2-walking-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled",
+        "based_on": "/media/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+        "baseline_sha256": "ca44f883430cdb7927c2101a184e4f28b0df62c2a0e0a8e99bdfbbe68122b867",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-back-v1.png",
+        "source_artifact_sha256": "799de6bb032bdbbd43d9cbae370d175d00d8e742f5376694d7b25adf486510f4",
+        "review_status": "current-staff-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-back-v1-request.json",
+          "sha256": "e065ad444213361938cb3554f04a7325bc6b949dee352c4558fcb559160727d5"
+        },
+        "actual_tool_parameters": {
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1.png"
+          ],
+          "transparent_background": false,
+          "prompt": "A fresh single full-body BACK view of Bunny standing calmly, holding one long staff upright at her RIGHT side, which is viewer RIGHT in this rear view. Reference1 controls this rear-facing person's identity, proportions and entire outfit; reference2 controls the staff; reference3 controls the same natural one-hand standing pose and staff-to-person scale, not the front face.\nHer RIGHT hand in the FULL BLACK glove with RED wrist device wraps the vertical staff at relaxed hip height, elbow lightly bent. All right fingertips remain black glove. The left fingerless hand with orange wrist device hangs relaxed. Rod is outside the right silhouette of body and legs; it never crosses or enters torso, hair or feet. Show the rear of the full right glove naturally. Preserve current short rear jacket hem and white edge, original two silver tail hooks/black anchors, left sleeve small white OG, red back pockets/waistband, socks/leg gear/boots. No exterior H straps, no support strip or carrying frame. Keep the staff from reference2: one straight continuous charcoal shaft, matching silver blunt caps, TWO red end collars and exactly ONE flat narrow red midpoint mark. Same approximately standing-person-height length as reference3. The lower cap is at boot-sole ground level, upper cap slightly above the hair, both complete with white margins. No carrier or new harness; all original clothes/equipment from reference1 remain unchanged. Silver-white cold-gray hair, current forehead goggles with thin elastic, crisp dark Japanese anime hand-drawn lines, clean flat hard-edged cel shading, restrained silver reflections. No labels, action, panels, or additional objects."
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-d89e2d09-475f-48a5-ac20-a8b8317e0b0c.png",
+          "sha256": "799de6bb032bdbbd43d9cbae370d175d00d8e742f5376694d7b25adf486510f4"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+            "sha256": "ca44f883430cdb7927c2101a184e4f28b0df62c2a0e0a8e99bdfbbe68122b867",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+            "sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1.png",
+            "sha256": "d1513d9862b84337e228735dc02213d8e74f766e425460a68f8f484adb64348a",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "reference_basis": "actual ordered input images",
+        "description": "双手棍 · 右手自然扶直棍 · 背面",
+        "scope": "本轮采用约等身双手棍：整棍外观、静态双手持有、右手体侧自然扶棍正右侧背三视。既有身体与服装尺寸基准保持；独立实体分件未产出。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-final-five-independent-review.json",
+          "sha256": "dfb8335ad95c67da331be7a6e5cd0b7ead077d920a23a6a1d30c2f3e988cf865"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-walking-back-v1-independent-review.json",
+          "sha256": "a8c662953e890ae2dafa4baf74a8c23ba78d8df856c0afe8b70440b96d4ea118"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/selected-five.json",
+          "sha256": "6f2a8ed8292142c18efae952868f0d8fad2b85a127b7e4d32a57f5335b434779"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/actual-generation.json",
+          "sha256": "41a5781b5bd89490226b95c6c61ecd41e7ca2c736cb478cd1d0ce2d07be48ee7"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-back-v1-node.json",
+          "sha256": "132a92a68e7f45380b6658db8fb56ad3b3ba5a7480eb4bb23dacaa8938619503"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-walking-back-v1.json",
+          "sha256": "d4e25abc985d3ad2087509f14537ea858789155e13de7694bb151b41d2b71b28"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/staff-v2-walking-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1507816,
+        "sha256": "799de6bb032bdbbd43d9cbae370d175d00d8e742f5376694d7b25adf486510f4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/staff-v2-walking-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 937252,
+        "sha256": "8f81bfaa20f76e8a27d3f93bc35d18e128aa5a852fdb01790d991f9cf6a69cc7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "staff-v2-walking-front-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "staff-v2-walking-front-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled",
+        "based_on": "/media/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+        "baseline_sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1.png",
+        "source_artifact_sha256": "d1513d9862b84337e228735dc02213d8e74f766e425460a68f8f484adb64348a",
+        "review_status": "current-staff-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1-request.json",
+          "sha256": "295852b229f1994fead8fe7b8b59b1c46d1ae0099655418f263e3e12793d3e4c"
+        },
+        "actual_tool_parameters": {
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-held-v2.png"
+          ],
+          "transparent_background": false,
+          "prompt": "A completely fresh full-body FRONT view of Bunny standing calmly with one long staff upright beside her RIGHT side (viewer LEFT). Plain white background. Reference1 controls her unchanged face, body and complete current outfit. Reference2 is the exact staff. Reference3 shows its accepted length relative to her standing height, not this new pose.\nHer RIGHT hand, in a FULL BLACK glove with RED wrist device, hangs naturally near the hip and lightly wraps around the vertical staff. Every right fingertip stays covered by the black glove. Left fingerless hand with orange wrist screen hangs relaxed, unchanged. Staff shaft remains outside her body and legs, face unobstructed. Its lower blunt cap reaches the same ground level as the boot soles; upper cap rises a little above her hair. Give complete figure and complete staff generous white margins. One straight rigid charcoal shaft, matching blunt silver end caps, a red collar near EACH end, and ONLY ONE flat narrow red midpoint mark. Broad continuous black grip, no extra red bands or joints.\nNo carrier, back frame, new shoulder straps or holster. Keep current internal harness and silver hooks, jacket high-low shape and small white sleeve OG, forehead goggles, white top's existing oval cutout, shorts, leg devices, socks and boots. Do not change figure proportions or clothing lengths. Silver-white cold-gray hair, blue eyes, crisp dark Japanese anime hand-drawn linework, flat cel color blocks with clean hard shadows. Single neutral standing character, no action, text or panels."
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-4bda90b7-f990-48f0-9cb3-e63c0108f764.png",
+          "sha256": "d1513d9862b84337e228735dc02213d8e74f766e425460a68f8f484adb64348a"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+            "sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+            "sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-held-v2.png",
+            "sha256": "11f02da020dc7a434a289b3e1485302c69b56b7a93a50a7eff6f3c7f61465e43",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "reference_basis": "actual ordered input images",
+        "description": "双手棍 · 右手自然扶直棍 · 正面",
+        "scope": "本轮采用约等身双手棍：整棍外观、静态双手持有、右手体侧自然扶棍正右侧背三视。既有身体与服装尺寸基准保持；独立实体分件未产出。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-final-five-independent-review.json",
+          "sha256": "dfb8335ad95c67da331be7a6e5cd0b7ead077d920a23a6a1d30c2f3e988cf865"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-walking-front-v1-independent-review.json",
+          "sha256": "a8ad486b4de7cacd22bf35c0fa6d93d7d39a44117a848f831cb60996d4743100"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/selected-five.json",
+          "sha256": "6f2a8ed8292142c18efae952868f0d8fad2b85a127b7e4d32a57f5335b434779"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/actual-generation.json",
+          "sha256": "41a5781b5bd89490226b95c6c61ecd41e7ca2c736cb478cd1d0ce2d07be48ee7"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1-node.json",
+          "sha256": "77b92a7041a50cbc559ba52c149e820e81c922f137e60d319c3df81e73bf88b0"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-walking-front-v1.json",
+          "sha256": "32582b7a73f6f25540b62c3b8baa8d17c491cf3c81c68c7c18919dbfdcfcfad9"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/staff-v2-walking-front-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1622240,
+        "sha256": "d1513d9862b84337e228735dc02213d8e74f766e425460a68f8f484adb64348a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/staff-v2-walking-front-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 938926,
+        "sha256": "a27c24ec7412992174ff6f1dc9ef10699a6a393a52ec86f7e18869276650347a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "staff-v2-walking-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "staff-v2-walking-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled",
+        "based_on": "/media/bunny/3.1.0/goggles-v2-only-cel-side-v1.png",
+        "baseline_sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-side-v1.png",
+        "source_artifact_sha256": "fdaeac91b733967ba9660f8f8f2845249b5b8e9c8fdc33f7664cfcc124920c0e",
+        "review_status": "current-staff-reference",
+        "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-side-v1-request.json",
+          "sha256": "cb8b78454536c113a95567f053e5bdea510ce6a9cde5852297b93e84a2bf18e5"
+        },
+        "actual_tool_parameters": {
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-side-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1.png"
+          ],
+          "transparent_background": false,
+          "prompt": "A fresh single full-body STRICT RIGHT-SIDE profile of Bunny, face pointing screen RIGHT, standing calmly holding her long staff upright in her near RIGHT hand. Reference1 controls the actual side-view identity, body and all clothing; reference2 controls the staff; reference3 only controls the same natural one-hand carry pose and staff-to-person scale.\nThe near RIGHT hand wears the FULL BLACK glove and RED wrist device, elbow gently bent, lightly gripping the vertical shaft near hip height. Keep every right fingertip covered. Place the staff a little forward of her near hip, screen-right of the body, with real lateral clearance: upper rod remains clear of her face and hair, lower rod does not pierce the thigh or foot. Correct natural near-hand occlusion around the rod. The far left hand has fingerless glove/orange wrist and may be naturally hidden. Preserve the original side outfit, high-low jacket hem and tiny inner-layer visibility, hidden internal harness, waist belt/hooks, leg equipment, socks/boots; the near right sleeve has NO left-sleeve OG logo. No back frame or new straps. Keep the staff from reference2: one straight continuous charcoal shaft, matching silver blunt caps, TWO red end collars and exactly ONE flat narrow red midpoint mark. Same approximately standing-person-height length as reference3. The lower cap is at boot-sole ground level, upper cap slightly above the hair, both complete with white margins. No carrier or new harness; all original clothes/equipment from reference1 remain unchanged. Silver-white cold-gray hair, current forehead goggles with thin elastic, crisp dark Japanese anime hand-drawn lines, clean flat hard-edged cel shading, restrained silver reflections. No labels, action, panels, or additional objects."
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-34f3ca6b-4d3a-45c7-87c6-6411474f6d98.png",
+          "sha256": "fdaeac91b733967ba9660f8f8f2845249b5b8e9c8fdc33f7664cfcc124920c0e"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-side-v1.png",
+            "sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+            "sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1.png",
+            "sha256": "d1513d9862b84337e228735dc02213d8e74f766e425460a68f8f484adb64348a",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "reference_basis": "actual ordered input images",
+        "description": "双手棍 · 右手自然扶直棍 · 右侧面",
+        "scope": "本轮采用约等身双手棍：整棍外观、静态双手持有、右手体侧自然扶棍正右侧背三视。既有身体与服装尺寸基准保持；独立实体分件未产出。",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-final-five-independent-review.json",
+          "sha256": "dfb8335ad95c67da331be7a6e5cd0b7ead077d920a23a6a1d30c2f3e988cf865"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-walking-side-v1-independent-review.json",
+          "sha256": "a08d59536bf21173d83beaef325409098d516396761b24306c31e9c7d0bf063b"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/selected-five.json",
+          "sha256": "6f2a8ed8292142c18efae952868f0d8fad2b85a127b7e4d32a57f5335b434779"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/actual-generation.json",
+          "sha256": "41a5781b5bd89490226b95c6c61ecd41e7ca2c736cb478cd1d0ce2d07be48ee7"
+        },
+        "generation_node": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-side-v1-node.json",
+          "sha256": "97bb617bdc441e7f53cb7430ee9be7b1a4174ced40471e9ea93b2c08a9ed76e0"
+        },
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-walking-side-v1.json",
+          "sha256": "1bfa7c7039e27a04113d1057e6dee83b59af524f9fa1730a2d15ca069e4c454a"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/staff-v2-walking-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1600042,
+        "sha256": "fdaeac91b733967ba9660f8f8f2845249b5b8e9c8fdc33f7664cfcc124920c0e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/staff-v2-walking-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 908536,
+        "sha256": "4fa5a1a03818b7f7b2cb2bf50e6fc38182016549685a7b65e11b1dfe6592eb20",
+        "alpha": false
+      }
+    },
+    {
       "id": "thigh-v2-base-aligned-cel-back-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -10916,8 +11415,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 191835160,
-      "sha256": "0285712bb08a2d8bddd7a889f0ddc2ac6f734e0d85216ea71cba40e90733f9e4"
+      "bytes": 197594690,
+      "sha256": "e02d47b8128579058c37f74a1cbad34509a73a11fbae5c4342f9bc3522da8088"
     }
   ]
 }

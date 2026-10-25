@@ -13,7 +13,7 @@ aside: true
 
 ## 资料阅读顺序
 
-<ol><li><a href="/characters/bunny/innerwear">贴身衣层</a>：穿着三视 → 白色上衣 → 红色短裤。</li><li><a href="/characters/bunny/hosiery">袜装</a>：穿着三视 → 针织细节。</li><li><a href="/characters/bunny/shoes">鞋靴</a>：穿着三视 → 独立结构。</li><li><a href="/characters/bunny/hands">手部装备</a>：穿着三视 → 手套独立视图 → 腕部设备开合与部件。</li><li><a href="/characters/bunny/thigh-gear">腿部盒袋与任务终端</a>：穿着三视 → 任务终端与腿带 → 维护盒袋与内容物。</li><li><a href="/characters/bunny/jacket">橙色外套</a>：穿着三视 → 独立三视与外部分解 → 局部细节。</li><li><a href="/characters/bunny/harness">承载带与固定点</a>：内穿累计三视 → 层次与覆盖关系 → 独立部件、扣件与腰部固定点。</li><li><a href="/characters/bunny/headgear">头部装备</a>：累计全身 → 四格头部近景 → 护目镜独立拆解。</li><li><a href="/characters/bunny/assembled">武器水平收纳</a>：完整累计三视 → <a href="/characters/bunny/saw">收纳图解与比例口径</a>。</li></ol>
+<ol><li><a href="/characters/bunny/innerwear">贴身衣层</a>：穿着三视 → 白色上衣 → 红色短裤。</li><li><a href="/characters/bunny/hosiery">袜装</a>：穿着三视 → 针织细节。</li><li><a href="/characters/bunny/shoes">鞋靴</a>：穿着三视 → 独立结构。</li><li><a href="/characters/bunny/hands">手部装备</a>：穿着三视 → 手套独立视图 → 腕部设备开合与部件。</li><li><a href="/characters/bunny/thigh-gear">腿部盒袋与任务终端</a>：穿着三视 → 任务终端与腿带 → 维护盒袋与内容物。</li><li><a href="/characters/bunny/jacket">橙色外套</a>：穿着三视 → 独立三视与外部分解 → 局部细节。</li><li><a href="/characters/bunny/harness">承载带与固定点</a>：内穿累计三视 → 层次与覆盖关系 → 独立部件、扣件与腰部固定点。</li><li><a href="/characters/bunny/headgear">头部装备</a>：累计全身 → 四格头部近景 → 护目镜独立拆解。</li><li><a href="/characters/bunny/assembled">双手棍手持随行</a>：完整累计三视 → <a href="/characters/bunny/weapon">整棍外观、双手握持与手持随行说明</a>。</li></ol>
 
 ## 外套与承载带的图示边界
 
@@ -21,4 +21,4 @@ aside: true
 
 ## 当前累计结果
 
-当前累计穿戴见<a href="/characters/bunny/headgear#headgear-wearing">头部装备层</a>，包括内穿承载系统与新头装；<a href="/characters/bunny/assembled">武器累计穿戴</a>仍为尚未同步的既有参考。<a href="/characters/bunny/saw">武器收纳与设计状态</a>保留收纳图解与比例口径。
+当前累计穿戴见<a href="/characters/bunny/assembled#weapon-wearing">双手棍手持随行三视</a>，保留护目镜头装与内穿承载关系。<a href="/characters/bunny/weapon">双手棍页</a>分别说明整棍外观、静态双手持有与手持随行。旧锯资料转入<a href="/characters/bunny/saw">历史参考</a>。

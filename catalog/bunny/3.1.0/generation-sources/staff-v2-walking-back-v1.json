@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "role": "back",
+  "publish_slug": "staff-v2-walking-back-v1",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-back-v1.png",
+    "sha256": "799de6bb032bdbbd43d9cbae370d175d00d8e742f5376694d7b25adf486510f4"
+  },
+  "native_output": {
+    "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-d89e2d09-475f-48a5-ac20-a8b8317e0b0c.png",
+    "sha256": "799de6bb032bdbbd43d9cbae370d175d00d8e742f5376694d7b25adf486510f4"
+  },
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-back-v1-request.json",
+    "sha256": "e065ad444213361938cb3554f04a7325bc6b949dee352c4558fcb559160727d5"
+  },
+  "request_pointer": "/arguments",
+  "actual_tool_parameters": {
+    "referenced_image_paths": [
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1.png"
+    ],
+    "transparent_background": false,
+    "prompt": "A fresh single full-body BACK view of Bunny standing calmly, holding one long staff upright at her RIGHT side, which is viewer RIGHT in this rear view. Reference1 controls this rear-facing person's identity, proportions and entire outfit; reference2 controls the staff; reference3 controls the same natural one-hand standing pose and staff-to-person scale, not the front face.\nHer RIGHT hand in the FULL BLACK glove with RED wrist device wraps the vertical staff at relaxed hip height, elbow lightly bent. All right fingertips remain black glove. The left fingerless hand with orange wrist device hangs relaxed. Rod is outside the right silhouette of body and legs; it never crosses or enters torso, hair or feet. Show the rear of the full right glove naturally. Preserve current short rear jacket hem and white edge, original two silver tail hooks/black anchors, left sleeve small white OG, red back pockets/waistband, socks/leg gear/boots. No exterior H straps, no support strip or carrying frame. Keep the staff from reference2: one straight continuous charcoal shaft, matching silver blunt caps, TWO red end collars and exactly ONE flat narrow red midpoint mark. Same approximately standing-person-height length as reference3. The lower cap is at boot-sole ground level, upper cap slightly above the hair, both complete with white margins. No carrier or new harness; all original clothes/equipment from reference1 remain unchanged. Silver-white cold-gray hair, current forehead goggles with thin elastic, crisp dark Japanese anime hand-drawn lines, clean flat hard-edged cel shading, restrained silver reflections. No labels, action, panels, or additional objects."
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-back-v1-tool-output.json",
+    "sha256": "66fbdc86616611dbfd6b2a7b75e2f6b5525f7630d3afc4af6aff35ff458a7f4a"
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+      "sha256": "ca44f883430cdb7927c2101a184e4f28b0df62c2a0e0a8e99bdfbbe68122b867",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
+      "sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1.png",
+      "sha256": "d1513d9862b84337e228735dc02213d8e74f766e425460a68f8f484adb64348a",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "generation_node": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-back-v1-node.json",
+    "sha256": "132a92a68e7f45380b6658db8fb56ad3b3ba5a7480eb4bb23dacaa8938619503"
+  },
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-final-five-independent-review.json",
+    "sha256": "dfb8335ad95c67da331be7a6e5cd0b7ead077d920a23a6a1d30c2f3e988cf865"
+  },
+  "visual_review_pointer": "/final_source_selection/4",
+  "selected_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/selected-five.json",
+    "sha256": "6f2a8ed8292142c18efae952868f0d8fad2b85a127b7e4d32a57f5335b434779"
+  },
+  "cross_view_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/review/staff-final-five-independent-review.json",
+    "sha256": "dfb8335ad95c67da331be7a6e5cd0b7ead077d920a23a6a1d30c2f3e988cf865"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/actual-generation.json",
+    "sha256": "41a5781b5bd89490226b95c6c61ecd41e7ca2c736cb478cd1d0ce2d07be48ee7"
+  },
+  "method": "builtin imagegen; complete fresh drawing; byte-exact native; lossless WebP only"
+}

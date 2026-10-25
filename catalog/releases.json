@@ -1355,6 +1355,56 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/staff-v2-held-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/staff-v2-held-v1.png",
+      "sha256": "11f02da020dc7a434a289b3e1485302c69b56b7a93a50a7eff6f3c7f61465e43",
+      "size": 1312663,
+      "contentType": "image/png",
+      "downloadName": "staff-v2-held-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/staff-v2-single-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/staff-v2-single-v1.png",
+      "sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f",
+      "size": 919936,
+      "contentType": "image/png",
+      "downloadName": "staff-v2-single-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/staff-v2-walking-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/staff-v2-walking-back-v1.png",
+      "sha256": "799de6bb032bdbbd43d9cbae370d175d00d8e742f5376694d7b25adf486510f4",
+      "size": 1507816,
+      "contentType": "image/png",
+      "downloadName": "staff-v2-walking-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/staff-v2-walking-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/staff-v2-walking-front-v1.png",
+      "sha256": "d1513d9862b84337e228735dc02213d8e74f766e425460a68f8f484adb64348a",
+      "size": 1622240,
+      "contentType": "image/png",
+      "downloadName": "staff-v2-walking-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/staff-v2-walking-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/staff-v2-walking-side-v1.png",
+      "sha256": "fdaeac91b733967ba9660f8f8f2845249b5b8e9c8fdc33f7664cfcc124920c0e",
+      "size": 1600042,
+      "contentType": "image/png",
+      "downloadName": "staff-v2-walking-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/thigh-v2-base-aligned-cel-back-v1.png",
       "sha256": "48cb6925661f92da9d80e7ca884e2b007cc164e37a1f053aefd4c1dc1b2c884b",
@@ -1447,8 +1497,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "0285712bb08a2d8bddd7a889f0ddc2ac6f734e0d85216ea71cba40e90733f9e4",
-      "size": 191835160,
+      "sha256": "e02d47b8128579058c37f74a1cbad34509a73a11fbae5c4342f9bc3522da8088",
+      "size": 197594690,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },
