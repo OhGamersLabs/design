@@ -5,13 +5,17 @@ aside: true
 ---
 # 橙色外套
 
+衣长、前后摆差与露腰空间统一按[服装尺寸规范](/characters/bunny/dimensions#garment-dimensions)核对，白色内搭保持固定衣长。
+
 ::: info 第六层 · 橙色短外套
-当前外套层沿用[腿部装备层](/characters/bunny/thigh-gear)的完整穿着，加入短款开襟橙色外套。正、侧、背三张完整人物及独立结构、局部细节两张板均为整张新绘，保留原生 PNG、放大入口与下载。本层不含后续承载带；承载带、头部装备与武器衣层尚未同步。
+当前外套层沿用[腿部装备层](/characters/bunny/thigh-gear)的完整穿着，加入前长后短的开襟橙色夹克。正、侧、背三张完整人物及独立结构、局部细节两张板均为整张新绘，保留原生 PNG、放大入口与下载。本层不含后续承载带；承载带、头部装备与武器衣层尚未同步。
 :::
 
 <span id="外套穿着三视"></span>
 
-## 外套穿着三视 {#jacket-wearing}
+## 前长后短夹克三视 {#jacket-wearing}
+
+前襟端略盖过白色内搭，后中衣摆更短、露出窄白边，侧摆从长前端连续斜切到短后端。白衣尺寸保持，前端与红裤腰之间保留露腰空间；中央敞口中可见的白衣不算下摆露边。[固定衣长与逐图测量](/characters/bunny/dimensions#garment-dimensions)分别列出设计值、可见读数和遮挡时的基准推算。
 
 短款衣身接近白色上衣下缘，红色前贴边与窄黑包边沿开襟向下，橙色下摆保持独立。宽松长袖收进短黑色罗纹袖口，袖口位于既有腕部设备上方；衣料增加袖量，不改变身体与手臂姿态。
 
@@ -21,36 +25,53 @@ aside: true
 
 <div class="bunny-body-views">
 
-<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.png" alt="完整新绘 · 外套层 · 正面，橙色短外套与红前贴边，普通前开口领，纯白OG连环品牌图形位于左袖功能袋袋身正面中央" caption="v2 · 外套层 · 正面" />
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.png" alt="完整新绘 · 外套层 · 正面，橙色短外套与红前贴边，普通前开口领，纯白OG连环品牌图形位于左袖功能袋袋身正面中央" caption="v2 · 外套层 · 正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.png" alt="完整新绘 · 外套层 · 右侧面，宽袖与黑袖口位于既有腕部设备上方，近侧右袖无袋" caption="v2 · 外套层 · 右侧面" />
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.png" alt="完整新绘 · 外套层 · 右侧面，宽袖与黑袖口位于既有腕部设备上方，近侧右袖无袋" caption="v2 · 外套层 · 右侧面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png" alt="完整新绘 · 外套层 · 背面，普通后领与背中缝，纯白OG连环品牌图形位于左袖功能袋袋身正面中央，无眼徽或承载带" caption="v2 · 外套层 · 背面" />
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png" alt="完整新绘 · 外套层 · 背面，普通后领与背中缝，纯白OG连环品牌图形位于左袖功能袋袋身正面中央，无眼徽或承载带" caption="v2 · 外套层 · 背面" />
 
 </div>
 
 人物比例仍参照[当前基模与图面尺寸](/characters/bunny/dimensions)。[下载当前外套三视与两张部件板 PNG](/characters/bunny/downloads#jacket-assets)。
 
-## 外套独立三视与外部分解 {#jacket-construction}
+## 夹克独立三视与外部分解 {#jacket-construction}
 
-<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-layer6-construction-v1.webp" original="/media/bunny/3.1.0/jacket-v2-layer6-construction-v1.png" alt="外套独立正侧背三视及六组外部衣片示意：短衣身、左右袖、前开口黑罗纹领与左右黑袖口，左袖功能袋袋身正面中央为正式OG连环品牌图形" caption="v2 · 外套独立三视与外部分解" />
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-construction-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-construction-v1.png" alt="外套独立正侧背三视及六组外部衣片示意：短衣身、左右袖、前开口黑罗纹领与左右黑袖口，左袖功能袋袋身正面中央为正式OG连环品牌图形" caption="v2 · 外套独立三视与外部分解" />
 
-独立三视说明穿好后的衣形；分解示意分别展示衣身、左右袖、前开口领与左右袖口六组外部部件。红前贴边和黑包边留在衣身，左功能袋留在左袖，纯白 OG 连环品牌图形位于袋身正面中央；领口不带 OG 圆牌。衣身的领口与袖窿、袖端与袖口按对应接合位置阅读，不额外复制领片、袖段或袖口。
+独立三视说明前长后短的衣形；分解示意分别展示衣身、左右袖、前开口领与左右袖口六组外部部件。红前贴边和黑包边留在衣身，左功能袋留在左袖，纯白 OG 连环品牌图形位于袋身正面中央；领口不带 OG 圆牌。衣身的领口与袖窿、袖端与袖口按对应接合位置阅读，不额外复制领片、袖段或袖口。
 
 这些是缝合关系的可见设计示意，不表示衣片是穿戴时可拆卸的模块，也不是生产纸样。
 
-## 外套局部细节 {#jacket-details}
+## 夹克局部细节 {#jacket-details}
 
-<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-layer6-details-v1.webp" original="/media/bunny/3.1.0/jacket-v2-layer6-details-v1.png" alt="外套四组局部细节：普通前开口领正背、带正式OG连环品牌图形的左袖袋开合、黑袖口接缝与翻转、红前贴边和橙色下摆" caption="v2 · 外套局部细节" />
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-highlow-details-v1.webp" original="/media/bunny/3.1.0/jacket-v2-highlow-details-v1.png" alt="外套四组局部细节：普通前开口领正背、带正式OG连环品牌图形的左袖袋开合、黑袖口接缝与翻转、红前贴边和橙色下摆" caption="v2 · 外套局部细节" />
 
 四组细节分别对照普通前开口领正背、左袋闭合与开启、袖口外侧与接缝翻转、红前贴边与下摆。左袋翻盖保留上方缝合连接，打开后露出袋口。纯白 OG 连环品牌图形位于袋身正面中央，袋盖开合时标志随袋身保持原位。不同状态用于说明同一部件，不计为新增部件。
 
 两张板仅说明可见外部结构。隐藏固定方式、完整内衬、制造尺寸与真实活动范围尚未验证。
 
 <details>
+<summary>前长后短修订前 · 上一版短外套五图</summary>
+
+以下是前后衣摆调整前的版本。原件、正式 OG 标志与当时的审核记录保留，用于比较款式变化；当前衣长与露白关系以上方新款和尺寸规范为准。
+
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.webp" original="/media/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.png" alt="历史参考 · 完整新绘 · 外套层 · 正面，橙色短外套与红前贴边，普通前开口领，纯白OG连环品牌图形位于左袖功能袋袋身正面中央" caption="历史参考 · v2 · 外套层 · 正面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.webp" original="/media/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.png" alt="历史参考 · 完整新绘 · 外套层 · 右侧面，宽袖与黑袖口位于既有腕部设备上方，近侧右袖无袋" caption="历史参考 · v2 · 外套层 · 右侧面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.webp" original="/media/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png" alt="历史参考 · 完整新绘 · 外套层 · 背面，普通后领与背中缝，纯白OG连环品牌图形位于左袖功能袋袋身正面中央，无眼徽或承载带" caption="历史参考 · v2 · 外套层 · 背面" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-layer6-construction-v1.webp" original="/media/bunny/3.1.0/jacket-v2-layer6-construction-v1.png" alt="历史参考 · 外套独立正侧背三视及六组外部衣片示意：短衣身、左右袖、前开口黑罗纹领与左右黑袖口，左袖功能袋袋身正面中央为正式OG连环品牌图形" caption="历史参考 · v2 · 外套独立三视与外部分解" />
+
+<ReleaseImage src="/characters/bunny/3.1.0/jacket-v2-layer6-details-v1.webp" original="/media/bunny/3.1.0/jacket-v2-layer6-details-v1.png" alt="历史参考 · 外套四组局部细节：普通前开口领正背、带正式OG连环品牌图形的左袖袋开合、黑袖口接缝与翻转、红前贴边和橙色下摆" caption="历史参考 · v2 · 外套局部细节" />
+
+</details>
+
+<details>
 <summary>外套完整重绘前 · 旧穿着、独立结构与细节</summary>
 
-原22已包含后续外侧承载带，三张旧图中的眼徽与领前 OG 圆牌属于此前方向。旧原件和网址保留作沿革参考，不作当前外套、身体比例或手部款式依据；当前外套层以上方五张新图为准。
+原22已包含后续外侧承载带，三张旧图中的眼徽与领前 OG 圆牌属于此前方向。旧原件和网址保留作沿革参考，不作当前外套、身体比例或手部款式依据；当前前长后短款以上方五张新图为准。
 
 <ReleaseImage src="/characters/bunny/3.1.0/22-jacket-wearing.webp" original="/media/bunny/3.1.0/22-jacket-wearing.png" alt="历史参考 · 原22旧外套与外侧承载关系，含已取消眼徽" caption="原22 · 旧外套与外侧承载关系" />
 

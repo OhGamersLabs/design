@@ -8,6 +8,8 @@ const props = defineProps<{
   original?: string
   caption?: string
   detail?: string
+  width?: number
+  height?: number
 }>()
 
 const dialog = ref<HTMLDialogElement>()
@@ -62,7 +64,7 @@ onBeforeUnmount(() => {
       :aria-label="`放大查看：${alt}`"
       @click="openDialog"
     >
-      <img :src="imageUrl" :alt="alt" loading="lazy" decoding="async" />
+      <img :src="imageUrl" :alt="alt" :width="width" :height="height" loading="lazy" decoding="async" />
       <span class="release-image__hint" aria-hidden="true">点击放大 <span>↗</span></span>
     </button>
     <p v-else class="release-image__unavailable">图片暂不可用</p>
@@ -119,7 +121,7 @@ onBeforeUnmount(() => {
 <style scoped>
 .release-image { margin: 32px 0; }
 .release-image__trigger { position: relative; display: block; width: 100%; padding: 12px; overflow: hidden; cursor: zoom-in; border: 1px solid var(--vp-c-divider); border-radius: 12px; background: var(--vp-c-bg-soft); }
-.release-image__trigger img { display: block; width: 100%; max-height: 760px; margin: 0 auto; object-fit: contain; border-radius: 6px; }
+.release-image__trigger img { display: block; width: 100%; height: auto; max-height: 760px; margin: 0 auto; object-fit: contain; border-radius: 6px; }
 .release-image__hint { position: absolute; right: 24px; bottom: 24px; display: inline-flex; align-items: center; gap: 8px; padding: 5px 10px; border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg); color: var(--vp-c-text-2); font-size: 12px; font-weight: 500; }
 .release-image__hint span { font-size: 16px; }
 .release-image__caption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; margin-top: 10px; color: var(--vp-c-text-2); font-size: 13px; line-height: 1.7; }

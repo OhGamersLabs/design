@@ -8,6 +8,8 @@ const props = defineProps({ data: { type: Object, required: true } })
 const selected = ref('front')
 const views = computed(() => Object.keys(props.data.views).map((id) => measurementModel(props.data, id)))
 const current = computed(() => measurementModel(props.data, selected.value))
+// Reserve the existing SVG's full canvas before its lazy image loads.
+const rulerHeight = computed(() => current.value.source.height + 245 + Math.ceil(current.value.rows.filter((row) => typeof row.px === 'number').length / 3) * 35)
 </script>
 
 <template>
@@ -22,7 +24,7 @@ const current = computed(() => measurementModel(props.data, selected.value))
     </div>
     <div class="body-measurements__layout">
       <div class="body-measurements__figure">
-        <ReleaseImage :src="current.resources.ruler" :original="current.resources.ruler" :alt="`${current.label}图面尺寸标尺`" :caption="`${current.label}标尺 · 可放大或查看原始尺寸`" />
+        <ReleaseImage :src="current.resources.ruler" :original="current.resources.ruler" :width="current.source.width" :height="rulerHeight" :alt="`${current.label}图面尺寸标尺`" :caption="`${current.label}标尺 · 可放大或查看原始尺寸`" />
         <div class="body-measurements__downloads">
           <a :href="withBase(current.resources.ruler)" download>下载{{ current.label }}标尺 SVG</a>
           <a :href="withBase(current.resources.original)" target="_blank" rel="noopener noreferrer">查看原始人物 PNG ↗</a>

@@ -25,7 +25,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。本次新增外套层正、侧、背三张完整人物及独立三视与外部分解、局部细节两张板，采用普通前开口领，纯白 OG 连环品牌图形位于左袖功能袋袋身正面中央，领前不再使用 OG 圆牌。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外侧承载带及之后的衣层尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
+基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外侧承载带及之后的衣层尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -37,6 +37,21 @@ aside: true
 - [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-side-v1.svg) · [侧面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-side-v1.png)
 - [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-back-v1.svg) · [背面原尺寸 PNG](/media/bunny/3.1.0/body-v2-fresh-cel-back-v1.png)
 - [测量坐标与定义 JSON](/catalog/bunny/3.1.0/body-measurements.json) · [尺寸表与适用范围](/characters/bunny/dimensions)
+
+## 服装尺寸规范 {#garment-dimensions}
+
+[查看固定尺寸与逐图偏差](/characters/bunny/dimensions#garment-dimensions)。JSON 分开保存设计目标、原图观测和基准推算；标尺 SVG 内嵌原网页图，离线可打开，叠线不修改人物像素。
+
+- [白衣、红裤与夹克尺寸 JSON](/catalog/bunny/3.1.0/garment-measurements.json)
+- [首层白衣红裤 · 正面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-innerwear-front.svg)
+- [首层白衣红裤 · 侧面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-innerwear-side.svg)
+- [首层白衣红裤 · 背面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-innerwear-back.svg)
+
+- [前长后短夹克 · 正面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-front.svg)
+
+- [前长后短夹克 · 右侧面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-side.svg)
+
+- [前长后短夹克 · 背面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-back.svg)
 
 ## 平涂与色块重绘前 · 历史原件 {#before-clean-cel-assets}
 
@@ -265,15 +280,28 @@ aside: true
 
 </details>
 
-## 外套 {#jacket-assets}
+## 前长后短夹克 {#jacket-assets}
 
-- [v2 · 外套层 · 正面原始 PNG](/media/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.png)
-- [v2 · 外套层 · 右侧面原始 PNG](/media/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.png)
-- [v2 · 外套层 · 背面原始 PNG](/media/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png)
-- [v2 · 外套独立三视与外部分解 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-layer6-construction-v1.png)
-- [v2 · 外套局部细节 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-layer6-details-v1.png)
+- [v2 · 外套层 · 正面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.png)
+- [v2 · 外套层 · 右侧面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.png)
+- [v2 · 外套层 · 背面原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png)
+- [v2 · 外套独立三视与外部分解 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-construction-v1.png)
+- [v2 · 外套局部细节 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-details-v1.png)
 
-当前外套层采用普通前开口领，领前不带 OG 圆牌；左上臂保留功能翻盖袋，纯白 OG 连环品牌图形位于袋身正面中央，右袖不复制。本层不含后续承载带。两张板说明外部缝合与可见细节，不是生产纸样。
+当前夹克前襟略盖白衣、后中露窄白边，衣长与露边见[服装尺寸规范](/characters/bunny/dimensions#garment-dimensions)。采用普通前开口领，领前不带 OG 圆牌；左上臂保留功能翻盖袋，纯白 OG 连环品牌图形位于袋身正面中央，右袖不复制。本层不含后续承载带。两张板说明外部缝合与可见细节，不是生产纸样。
+
+<details>
+<summary>前长后短修订前 · 上一版短外套五图</summary>
+
+- [历史 · v2 · 外套层 · 正面原始 PNG](/media/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.png)
+- [历史 · v2 · 外套层 · 右侧面原始 PNG](/media/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.png)
+- [历史 · v2 · 外套层 · 背面原始 PNG](/media/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png)
+- [历史 · v2 · 外套独立三视与外部分解 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-layer6-construction-v1.png)
+- [历史 · v2 · 外套局部细节 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-layer6-details-v1.png)
+
+这些原件保留用于回溯，衣长不作为当前款式标准。
+
+</details>
 
 <details>
 <summary>外套完整重绘前 · 旧穿着、独立结构与细节</summary>

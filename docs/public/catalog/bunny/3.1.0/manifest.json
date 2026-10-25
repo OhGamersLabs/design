@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 111,
+  "asset_count": 116,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -6092,7 +6092,7 @@
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
         "description": "第六层外套背面完整人物：普通后领、背中缝与短下摆，单个左袖袋保持原袋形与小幅正式 OG 标志，不添加后续承载带。",
         "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
-        "review_status": "current-jacket-official-og-pocket-body-reference",
+        "review_status": "historical-before-highlow-jacket",
         "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
         "candidate_revision": 8,
         "delivery_series_revision": 1,
@@ -6154,7 +6154,9 @@
         },
         "baseline_sha256": "d97ecb42b2519c81a6584039fdfa2671560eb3711fac08cafaf081e0e6d75766",
         "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
-        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png"
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png",
+        "historical": true,
+        "superseded_by": "bunny/jacket-v2-highlow-cel-back-v1.png"
       },
       "original": {
         "path": "/media/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png",
@@ -6188,7 +6190,7 @@
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
         "description": "第六层外套正面完整人物：普通前开口黑罗纹短领、红前贴边、单个左袖功能翻盖袋；正式 OG 连环品牌图形作为小幅纯白印花位于袋身，四周保留橙色留白。",
         "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
-        "review_status": "current-jacket-official-og-pocket-body-reference",
+        "review_status": "historical-before-highlow-jacket",
         "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
         "candidate_revision": 13,
         "delivery_series_revision": 1,
@@ -6268,7 +6270,9 @@
         },
         "baseline_sha256": "5a97f3a505da9bf9f7ea16c18f0bdbfe32c32d618330dd2f7bc06fa58eab9bee",
         "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
-        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png"
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png",
+        "historical": true,
+        "superseded_by": "bunny/jacket-v2-highlow-cel-front-v1.png"
       },
       "original": {
         "path": "/media/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.png",
@@ -6302,7 +6306,7 @@
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
         "description": "第六层外套右侧完整人物：近侧右袖保持纯橙、黑罗纹袖口位于既有腕部设备上方；远侧左袋和品牌标志自然被遮挡。",
         "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
-        "review_status": "current-jacket-official-og-pocket-body-reference",
+        "review_status": "historical-before-highlow-jacket",
         "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
         "candidate_revision": 2,
         "delivery_series_revision": 1,
@@ -6355,7 +6359,9 @@
         },
         "baseline_sha256": "f8c6c4e9a4db852ee16e665d29886073c0c3ca37b865579eb0c75ebe176c0948",
         "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
-        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png"
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png",
+        "historical": true,
+        "superseded_by": "bunny/jacket-v2-highlow-cel-side-v1.png"
       },
       "original": {
         "path": "/media/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.png",
@@ -6377,6 +6383,543 @@
       }
     },
     {
+      "id": "jacket-v2-highlow-cel-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "jacket-v2-highlow-cel-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/jacket",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-back-v2.png",
+        "source_artifact_sha256": "bb829e8a0e5035ae61d1be6426aa272204df3338076eace1833c58e1756a3fe2",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "前长后短橙色夹克背面完整人物：短后中摆上方为橙色衣身，下方露窄白衣边；普通后领、背中缝及左袖小幅正式白色OG标志保持。",
+        "scope": "前长后短夹克整张新绘；其他已发布原件保持。网页仅无损转换，测量叠线另作数据可视化。",
+        "review_status": "current-jacket-highlow-reference",
+        "review_scope": {
+          "acceptedCriteria": [
+            "Front tips extend slightly below fixed white top; back is shorter and exposes narrow white top band; side slope respects sleeve occlusion.",
+            "Current identity and cumulative clothing/equipment retained in visible areas.",
+            "Normal open fine rib collar, black fine rib cuffs, orange exterior/red facings.",
+            "Official connected white OG with clear whitespace on left functional pocket body; no duplicate on visible right sleeve.",
+            "Three worn views and two boards correspond in component count and left/right topology.",
+            "Cel line/color treatment and material interiors/edge context inspected; no confirmed white-blotch or mosaic/muddy-texture blocker."
+          ],
+          "quantitativeLimits": [
+            "Art acceptance does not assert every measurement is within target. Observed values, target ranges, reading uncertainty and registration uncertainty remain separate.",
+            "Back direct white offset about -17 to -18px; +/-3px endpoints can overlap target boundary: numerical uncertain is retained.",
+            "Front and side longer front edges obscure white hem at corresponding station; observed D must remain null when hidden. Registered same-view estimates must carry propagated error and not be substituted as visible points.",
+            "Details rear curve is slightly different from worn/construction illustrations; normalized comparison did not establish a blocker. These are character-design illustrations, not exact cutting patterns."
+          ]
+        },
+        "candidate_revision": 2,
+        "delivery_series_revision": 1,
+        "generation_node": "highlow-back-v2",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png",
+            "sha256": "6888398b35fe40204a1479cdae1e6c56c20cc43acd1803768dd4a8c41c02b879",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/actual-generation-graph-highlow-final.json",
+          "sha256": "f07069af4c9b1b4600ac2639d67274a1522826a6f7cfe3fb5f6f9c6ee5be98c7"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-back-v2-request.json",
+          "sha256": "393cd758c7a228ef8509f5a8201cc98ccc4a36f90e2cda06da5236682082cf94"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Draw a completely NEW whole adult character BACK illustration in the same composition and design as this reference, clean Japanese hand ink plus HARD CEL shading. Make ONE SMALL garment geometry adjustment: lift the entire orange jacket rear hem only about8 pixels, creating a narrow approximately12–16px WHITE SHIRT strip below it. Keep the rear lower edge ALMOST HORIZONTAL, a very shallow natural curve with center/side height difference no more than about4–5px. DO NOT turn it into a deep arched bolero hem. The current orange center lower edge in this reference is aroundy478; desired edge aroundy470. The underlying white shirt ends aroundy484–487 and MUST STAY there. The new rear orange edge should be just slightly above its current position, not raised toward the shoulder blades. This high back is paired with longer front corners on other views, but no front corners are visible from this direct back view.\n\nEverything else stays the same design: same adult slim body/long legs/waist/hip, back-facing silver-white hair and proper back anatomy, fixed red shorts waistband/rise/cuff, stockings, shoes, gloves and all wrist/thigh devices in their current correct rear orientation. Preserve ordinary black rear collar with clearly visible fine rib-knit ink lines, long loose orange sleeves and fine-rib short black cuffs. Single left upper-arm functional pocket on imageLEFT, same original narrow bag and small plain flap; the SMALL official connected white mark remains centered on the POCKET BODY with broad orange margins, about60–65% usable bag width. Never enlarge pocket or logo. No new symbols, seams, hardware, white markings, navel or front anatomy on back.\n\nFresh COMPLETE illustration rather than retouching/pasting; head and soles fully visible on white background. Clean flat local colors and sharply closed CEL shadow shapes, no cloudy shading, white spots, mosaic/grain, soft gradients, extra fabric patterns or3D gloss. Keep fine collar/cuff and sock-band ribs, clean flat white sock body. No labels. Main outcome: the rear hem remains almost straight and is ONLY slightly higher, exposing a restrained narrow white band; no large white bib, no exaggerated center-back arch, no change to inner clothing length.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-723e223f-8f2d-4d30-9de4-52acb48639f9.png",
+          "sha256": "bb829e8a0e5035ae61d1be6426aa272204df3338076eace1833c58e1756a3fe2"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/selected-outputs-highlow-final.json",
+          "sha256": "fb43cc258c7bad99061ec797b4beeedbb0768609ab498bc1c540e7c3da31655b"
+        },
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/review/highlow-final-independent-review.json",
+          "sha256": "0ac9324c0461b682b37705a43ca1a3b2b3385e836d4ac468ec2b37f8d78ffa22"
+        },
+        "baseline_sha256": "6888398b35fe40204a1479cdae1e6c56c20cc43acd1803768dd4a8c41c02b879",
+        "baseline_role": "First actual saved generation reference; selected delivery is the complete native output.",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1343689,
+        "sha256": "bb829e8a0e5035ae61d1be6426aa272204df3338076eace1833c58e1756a3fe2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 845298,
+        "sha256": "8554a6ad160cc1a0eaa294f9cc26f5fa690ad6ac043d55e207f6e674abe232af",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-v2-highlow-cel-front-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "jacket-v2-highlow-cel-front-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/jacket",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-front-v4.png",
+        "source_artifact_sha256": "0b5bd5db6e9a8069ff6d458a777708904c2f4d78688b81508ac15bf13fa50171",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "前长后短橙色夹克正面完整人物：两前襟盖过固定白衣侧端，中央敞口仍见白衣，前端与裤腰保留露腰距离；普通前开口领、小幅正式白色OG标志位于左袖功能袋袋身。",
+        "scope": "前长后短夹克整张新绘；其他已发布原件保持。网页仅无损转换，测量叠线另作数据可视化。",
+        "review_status": "current-jacket-highlow-reference",
+        "review_scope": {
+          "acceptedCriteria": [
+            "Front tips extend slightly below fixed white top; back is shorter and exposes narrow white top band; side slope respects sleeve occlusion.",
+            "Current identity and cumulative clothing/equipment retained in visible areas.",
+            "Normal open fine rib collar, black fine rib cuffs, orange exterior/red facings.",
+            "Official connected white OG with clear whitespace on left functional pocket body; no duplicate on visible right sleeve.",
+            "Three worn views and two boards correspond in component count and left/right topology.",
+            "Cel line/color treatment and material interiors/edge context inspected; no confirmed white-blotch or mosaic/muddy-texture blocker."
+          ],
+          "quantitativeLimits": [
+            "Art acceptance does not assert every measurement is within target. Observed values, target ranges, reading uncertainty and registration uncertainty remain separate.",
+            "Back direct white offset about -17 to -18px; +/-3px endpoints can overlap target boundary: numerical uncertain is retained.",
+            "Front and side longer front edges obscure white hem at corresponding station; observed D must remain null when hidden. Registered same-view estimates must carry propagated error and not be substituted as visible points.",
+            "Details rear curve is slightly different from worn/construction illustrations; normalized comparison did not establish a blocker. These are character-design illustrations, not exact cutting patterns."
+          ]
+        },
+        "candidate_revision": 4,
+        "delivery_series_revision": 1,
+        "generation_node": "highlow-front-v4",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-front-v3.png",
+            "sha256": "d36547dc8a9ee92fc8fec7950f829e1cfdf2af394018b7523dca28a320261b23",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/fine-collar.png",
+            "sha256": "b1fa48b2a2e94d0541b2b28d50f7042af10d00d8a8993ed75b6f9ba285d06467",
+            "dimensions": [
+              168,
+              94
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/flat-white-sock.png",
+            "sha256": "1393f1f8ada7f98b429e22b58a40fbc3244d07c56112588d4649f0be0b070568",
+            "dimensions": [
+              106,
+              175
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/actual-generation-graph-highlow-final.json",
+          "sha256": "f07069af4c9b1b4600ac2639d67274a1522826a6f7cfe3fb5f6f9c6ee5be98c7"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-front-v4-request.json",
+          "sha256": "909fd0a470e30b9df65e2b628b143d585743e3dea6ab507e1e3133cd907d0076"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Draw a completely NEW full-body FRONT illustration of this adult anime character, exact current geometry and framing of Image1, but correct two specific material regressions using Images2 and3. This is a fresh whole-character hand drawing, NOT patched or pasted reference parts.\n\nREFERENCE RESPONSIBILITIES:\n1 Image1 supplies ONLY current adult identity, body/pose, all garment and equipment geometry, the successful new angled front-long/back-short jacket hem, and the small official left-pocket logo shape/placement. KEEP the successful front tips exactly at their current y511–512 and keep the wide bare-waist gap. DO NOT inherit Image1's plain black collar material or its soft striped white sock material.\n2 Image2 is an actual native crop of the previously accepted fine-rib BLACK COLLAR. It is the sole collar MATERIAL authority: reproduce its very clearly VISIBLE, densely spaced thin parallel DIAGONAL RIB-KNIT INK LINES across BOTH black collar halves. The lines follow the curve of the collar and remain visible at normal inspection, like this crop. The collar is not plain rubber, a flat solid band, smooth leather, or a broad striped pattern. Its open U shape stays exactly Image1. Existing cuffs already have clear fine ribs; keep them.\n3 Image3 is the current clean RIGHT WHITE SOCK. It is the sole sock MATERIAL authority: the small top folded band has fine close pale blue vertical rib lines. BELOW the band, the sock body is a clean mostly FLAT WHITE shape with only a few sharp-edged pale-blue CEL shadow planes along its sides. No long fuzzy white/gray vertical stripes, brushed highlights, soft gradients, draped streaks or newly patterned material. Keep Image1's sock geometry and length, just draw the correct clean cel material.\n\nCRITICAL NEW HEM MUST NOT CHANGE: orange jacket has two shallow angular front corners just below the white shirt, with bottom edges rising toward the side/back. The front tips stay aroundy511–512 at this1024x1536 frame, symmetrical, not deeper like long coat tails and not shorter/flush. White cropped top and red shorts stay their existing lengths and positions. Bare waist remains exposed. Do not hide the correction by moving the shirt or waistband. Preserve ordinary open U black collar, orange loose long sleeves, red front facings with narrow black binding, single left upper-arm functional pocket with plain flap and small official connected WHITE symbol surrounded by broad orange margin. No added marking, seam, pocket or hardware.\n\nPreserve silver-white hair/blue eyes/close ears, slim adult long-leg proportions, white high-neck crop top with oval chest opening, red rolled-cuff shorts, right full black glove/red wrist device, left fingerless orange-edged glove/orange wrist device, two right-thigh bands with terminal and flap pouch, left orange thigh-high sock, existing shoes and outer ankle hardware.\n\nStyle across ENTIRE image: crisp Japanese hand-drawn ink, clear flat local colors and few closed hard CEL shadow shapes. No white blotches, cloudy or mosaic stains, grain/noise, painterly surface, soft airbrush gradients, gloss or3D rendering. Reference2's real knit lines and reference3's real band ribs are deliberate construction and MUST remain; they are not dirt. Entire head-to-soles figure visible on white, no text. Final checks: front hem same Image1, collar has the small fine DIAGONAL rib lines of Image2, sock body has clean flat white+hard cel shadows of Image3.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-front-v3.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/fine-collar.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/flat-white-sock.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-45cf491c-8d75-482f-8f2c-6257494c646d.png",
+          "sha256": "0b5bd5db6e9a8069ff6d458a777708904c2f4d78688b81508ac15bf13fa50171"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/selected-outputs-highlow-final.json",
+          "sha256": "fb43cc258c7bad99061ec797b4beeedbb0768609ab498bc1c540e7c3da31655b"
+        },
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/review/highlow-final-independent-review.json",
+          "sha256": "0ac9324c0461b682b37705a43ca1a3b2b3385e836d4ac468ec2b37f8d78ffa22"
+        },
+        "baseline_sha256": "d36547dc8a9ee92fc8fec7950f829e1cfdf2af394018b7523dca28a320261b23",
+        "baseline_role": "First actual saved generation reference; selected delivery is the complete native output.",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-front-v3.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1612180,
+        "sha256": "0b5bd5db6e9a8069ff6d458a777708904c2f4d78688b81508ac15bf13fa50171",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 964506,
+        "sha256": "08b1f3c9068be52691871776ddea6bfe8f97ba19d95f52c441bc9c675d0d2ef0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-v2-highlow-cel-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "jacket-v2-highlow-cel-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/jacket",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-side-v2.png",
+        "source_artifact_sha256": "0e8e41bdf3ec0cfa6bdd9ebbfe36da378143c5030ec5dcaa575323de1cb1a47c",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "前长后短橙色夹克右侧完整人物：侧摆由较长前端连续斜切至短后摆；袖布遮挡处按可见关系阅读，近侧右袖无袋无标志。",
+        "scope": "前长后短夹克整张新绘；其他已发布原件保持。网页仅无损转换，测量叠线另作数据可视化。",
+        "review_status": "current-jacket-highlow-reference",
+        "review_scope": {
+          "acceptedCriteria": [
+            "Front tips extend slightly below fixed white top; back is shorter and exposes narrow white top band; side slope respects sleeve occlusion.",
+            "Current identity and cumulative clothing/equipment retained in visible areas.",
+            "Normal open fine rib collar, black fine rib cuffs, orange exterior/red facings.",
+            "Official connected white OG with clear whitespace on left functional pocket body; no duplicate on visible right sleeve.",
+            "Three worn views and two boards correspond in component count and left/right topology.",
+            "Cel line/color treatment and material interiors/edge context inspected; no confirmed white-blotch or mosaic/muddy-texture blocker."
+          ],
+          "quantitativeLimits": [
+            "Art acceptance does not assert every measurement is within target. Observed values, target ranges, reading uncertainty and registration uncertainty remain separate.",
+            "Back direct white offset about -17 to -18px; +/-3px endpoints can overlap target boundary: numerical uncertain is retained.",
+            "Front and side longer front edges obscure white hem at corresponding station; observed D must remain null when hidden. Registered same-view estimates must carry propagated error and not be substituted as visible points.",
+            "Details rear curve is slightly different from worn/construction illustrations; normalized comparison did not establish a blocker. These are character-design illustrations, not exact cutting patterns."
+          ]
+        },
+        "candidate_revision": 2,
+        "delivery_series_revision": 1,
+        "generation_node": "highlow-side-v2",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-side-v1.png",
+            "sha256": "426da5304920f02825bbbee30fd710cad799b78948a05aa0b6df4cdaa51c9772",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.png",
+            "sha256": "e8fd7e882eacaff17ec114c65c456203aa7bef942624e5b27206dced446c1cee",
+            "dimensions": [
+              1024,
+              1536
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/actual-generation-graph-highlow-final.json",
+          "sha256": "f07069af4c9b1b4600ac2639d67274a1522826a6f7cfe3fb5f6f9c6ee5be98c7"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-side-v2-request.json",
+          "sha256": "2625a162b49574ce8d348d85e367bc7bb978144a4654bc2aca23450138838b6b"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Draw a completely NEW full-body RIGHT SIDE PROFILE Japanese anime character, facing imageRIGHT. Use Image1 for the current successful character/body/gear and the FRONT-LONG BACK-SHORT jacket concept, but its visible FRONT jacket corner is TOO LONG. Image2 shows the former shorter jacket corner. Draw the new front tip between those two references, slightly closer to Image2: Image1 front point is aroundy511, Image2 aroundy483, desired aroundy493–495. Thus shorten Image1's visible front tip UPWARDS about16–18px, while keeping the high rear and one continuous diagonal lower edge descending gently toward front. Do not return to the old level-crop design; keep a small angular front corner that covers the fixed white shirt front edge only by roughly12–15px. The rear is visibly higher, front lower, a short diagonal cut rather than a long triangle/tail. Near orange sleeve naturally occludes the middle side hem; do not draw through the sleeve or rearrange the arm.\n\nImage1 is otherwise exact current adult identity, slim long-leg body/waist/hip/chest silhouette, pose, silver-white hair/blue eye/close ear, all white top/red shorts and gear. The WHITE shirt front hem aroundy478 and red shorts waistband MUST NOT MOVE; only orange/red-bound front jacket corner becomes shorter. Maintain bare waist gap. Same orange loose long sleeve, narrow black binding/red facing, normal black open U collar with CLEAR fine rib lines, fine black rib cuff above current wrist device. This is the characterRIGHT near sleeve: NO pocket/logo on it; far left logo pocket stays hidden. Preserve full black glove/red wrist device, two separate thigh bands with terminal and flap pouch, white sock and current side shoes/hardware. Correct side view without front/rear parts transplanted.\n\nImage2 is only the short-hem lower bound and clean materials, not a request to remove the new high-low design. Clean Japanese weighted hand ink, stable flat local colors and a few closed HARD CEL shadows; fine black collar/cuff ribs and pale blue sock topband ribs visible. White sock body flat with hard edge shadow, not soft streaks. No white blotches, cloudiness, noise/mosaic, soft gradients, gloss or extra designs. New WHOLE character, never patched pieces, full head/shoe soles visible, no text.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-side-v1.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-760022b4-e8a0-4455-8956-30779df71b49.png",
+          "sha256": "0e8e41bdf3ec0cfa6bdd9ebbfe36da378143c5030ec5dcaa575323de1cb1a47c"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/selected-outputs-highlow-final.json",
+          "sha256": "fb43cc258c7bad99061ec797b4beeedbb0768609ab498bc1c540e7c3da31655b"
+        },
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/review/highlow-final-independent-review.json",
+          "sha256": "0ac9324c0461b682b37705a43ca1a3b2b3385e836d4ac468ec2b37f8d78ffa22"
+        },
+        "baseline_sha256": "426da5304920f02825bbbee30fd710cad799b78948a05aa0b6df4cdaa51c9772",
+        "baseline_role": "First actual saved generation reference; selected delivery is the complete native output.",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-side-v1.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1549796,
+        "sha256": "0e8e41bdf3ec0cfa6bdd9ebbfe36da378143c5030ec5dcaa575323de1cb1a47c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 829480,
+        "sha256": "abe6b6be9488a35ba7d1bfeb3bbb345e9f47d76fea7e178fba523d723bda2e96",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-v2-highlow-construction-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "jacket-v2-highlow-construction-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/jacket",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-construction-v1.png",
+        "source_artifact_sha256": "38fb58e5d74939030ada8236fa7e8e7ed4b711ecb590d59f1100ad70b5e8db6e",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "前长后短夹克独立三视及外部部件分解，展示衣身、左右袖、前开口罗纹领与两袖口的关系。",
+        "scope": "前长后短夹克整张新绘；其他已发布原件保持。网页仅无损转换，测量叠线另作数据可视化。",
+        "review_status": "current-jacket-highlow-reference",
+        "review_scope": {
+          "acceptedCriteria": [
+            "Front tips extend slightly below fixed white top; back is shorter and exposes narrow white top band; side slope respects sleeve occlusion.",
+            "Current identity and cumulative clothing/equipment retained in visible areas.",
+            "Normal open fine rib collar, black fine rib cuffs, orange exterior/red facings.",
+            "Official connected white OG with clear whitespace on left functional pocket body; no duplicate on visible right sleeve.",
+            "Three worn views and two boards correspond in component count and left/right topology.",
+            "Cel line/color treatment and material interiors/edge context inspected; no confirmed white-blotch or mosaic/muddy-texture blocker."
+          ],
+          "quantitativeLimits": [
+            "Art acceptance does not assert every measurement is within target. Observed values, target ranges, reading uncertainty and registration uncertainty remain separate.",
+            "Back direct white offset about -17 to -18px; +/-3px endpoints can overlap target boundary: numerical uncertain is retained.",
+            "Front and side longer front edges obscure white hem at corresponding station; observed D must remain null when hidden. Registered same-view estimates must carry propagated error and not be substituted as visible points.",
+            "Details rear curve is slightly different from worn/construction illustrations; normalized comparison did not establish a blocker. These are character-design illustrations, not exact cutting patterns."
+          ]
+        },
+        "candidate_revision": 1,
+        "delivery_series_revision": 1,
+        "generation_node": "highlow-construction-v1",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/highlow-front-geometry.png",
+            "sha256": "937afbb535fbf7664ebc9385eac58dfadd5af1edb8a8cebf004d7596f5c372ab",
+            "dimensions": [
+              535,
+              430
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/highlow-side-geometry.png",
+            "sha256": "5e2d91968682790164298b7458c7021b03efcef35eca1b0f8049bef23159c29f",
+            "dimensions": [
+              250,
+              430
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/highlow-back-geometry.png",
+            "sha256": "3d05d73268883198403d2ba000c9c5fb316b13b3f140fa18f2eab3c81f80512b",
+            "dimensions": [
+              535,
+              430
+            ]
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-layer6-construction-v1.png",
+            "sha256": "4454e14a698ffca56f6b0668eb2702711ce4464c356cec0d1c4e4e6e6a2058e3",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png",
+            "sha256": "d3f56411068d5f75005ede867ca18560371359a5d190a9d9ba5a5696c47be05a",
+            "dimensions": [
+              1080,
+              599
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/actual-generation-graph-highlow-final.json",
+          "sha256": "f07069af4c9b1b4600ac2639d67274a1522826a6f7cfe3fb5f6f9c6ee5be98c7"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-construction-v1-request.json",
+          "sha256": "73be8910a790949670b76c3f72708e371e41a8904b18e645911a859c62ffeab1"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Create a completely NEW Japanese anime garment construction sheet, landscape white background, crisp hand-drawn ink and flat CEL color/hard shadow shapes. This is a garment-only design drawing, NOT cut-and-paste, not a sewing pattern and no human body/mannequin/underwear or equipment.\n\nREFERENCE DUTIES: Images1/2/3 are the exact NEW FRONT-LONG BACK-SHORT orange jacket seen from front/right side/back. Extract ONLY its jacket fabric, collar, sleeves, cuffs and left sleeve pocket; do NOT include the human, white inner top, shorts, hands or gadgets. Image4 supplies only the SHEET LAYOUT and six-piece visible assembly logic; its OLD LEVEL HEM IS SUPERSEDED and must NOT be copied. Image5 exact official connected logo silhouette, small white print.\n\nTOP ROW: independent assembled jacket FRONT, RIGHT SIDE, BACK views at a consistent garment scale and collar height, with same long sleeves/cuff lengths. FRONT has two clean shallow pointed lower front corners lower than the short rear hem, red front facings with narrow black bound edges, lower panel edges rising toward sides. RIGHT SIDE shows a clear continuous DIAGONAL HEM from higher rear to lower front; natural sleeve covers some edge but the garment body taper must read, no near-right-arm pocket. BACK lower edge is SHORTER/HIGHER than front tips and nearly horizontal with only a shallow natural curve and center back seam, not a dramatic arch. Do not make the three body hem lengths equal or flatten the new high-low design. No coat tails or extra panels. Normal OPEN U black fine-rib collar with separated front tips and connected rear, not a closed throat ring; same matte orange long loose sleeves and short fine black rib cuffs. One narrow functional pocket only on the LEFT sleeve, small plain flap, small official WHITE connected symbol centered on visible bag face below flap, about60–65% of net stitched width with broad orange margins. Front shows it on imageRIGHT; back on imageLEFT; right-side near sleeve plain, far mark may be hidden.\n\nBOTTOM ROW: exactly SIX exterior assembly groups, all freshly drawn matching the three assembled views: one sleeveless BODY shell with red front facings already attached (new front-low/back-high continuous lower cut); one RIGHT SLEEVE, one LEFT SLEEVE with its integrated pocket; one OPEN U COLLAR; one RIGHT CUFF; one LEFT CUFF. Collar fully detached above open body neckline. Each sleeve detached from body, with a genuinely open orange sleeve end; black cuff drawn separately below and linked by simple dashed assembly guide. Do NOT leave a second black cuff attached to a sleeve while also showing a detached cuff. Do not add pockets or split body into invented small parts. Pocket and flap remain attached to left sleeve, not duplicate floating parts. Show how the shallow pointed front hem rises into the shorter back, with continuous bound facing and normal stitched turned hem; keep assembly correspondences clear.\n\nOnly short labels: FRONT, RIGHT SIDE, BACK, COLLAR, BODY, RIGHT SLEEVE, LEFT SLEEVE, RIGHT CUFF, LEFT CUFF. No numerical measurements, dimensions or random notes. Fine CLOSE parallel rib lines must be visible across black collar and cuffs. Official logo topology matches Image5: continuous left loop joins lower right curve, separate short upper-right cap and correct openings; not typed OG, not closed circles. Keep its generous orange border at every occurrence and same bag shape/scale. Stable orange/red/black/white palette, crisp weighted ink, few hard cel shadows. No cloudy mottling, white blotches, mosaic/grain, gradients, product-render gloss or soft painterly shading. Whole new landscape board, clean readable layout, no cropped parts.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/highlow-front-geometry.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/highlow-side-geometry.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/highlow-back-geometry.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-layer6-construction-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-e8ddf25c-d436-4c65-b509-f895ac8244af.png",
+          "sha256": "38fb58e5d74939030ada8236fa7e8e7ed4b711ecb590d59f1100ad70b5e8db6e"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/selected-outputs-highlow-final.json",
+          "sha256": "fb43cc258c7bad99061ec797b4beeedbb0768609ab498bc1c540e7c3da31655b"
+        },
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/review/highlow-final-independent-review.json",
+          "sha256": "0ac9324c0461b682b37705a43ca1a3b2b3385e836d4ac468ec2b37f8d78ffa22"
+        },
+        "baseline_sha256": "937afbb535fbf7664ebc9385eac58dfadd5af1edb8a8cebf004d7596f5c372ab",
+        "baseline_role": "First actual saved generation reference; selected delivery is the complete native output.",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/highlow-front-geometry.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/jacket-v2-highlow-construction-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1383599,
+        "sha256": "38fb58e5d74939030ada8236fa7e8e7ed4b711ecb590d59f1100ad70b5e8db6e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/jacket-v2-highlow-construction-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 888790,
+        "sha256": "766e1892e971e61d6c9e3a90cdc040a9c81a820569c6a9ccd2f4b1b777195719",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-v2-highlow-details-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "jacket-v2-highlow-details-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/jacket",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-details-v2.png",
+        "source_artifact_sha256": "2c83e1df94e08b2c4201d88cec1a1380c57f960668f1fce543f9670596574f9f",
+        "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+        "description": "前长后短夹克局部板：普通前开口领、左袖袋开合与正式OG标志、黑罗纹袖口、长前襟和短后摆细节。",
+        "scope": "前长后短夹克整张新绘；其他已发布原件保持。网页仅无损转换，测量叠线另作数据可视化。",
+        "review_status": "current-jacket-highlow-reference",
+        "review_scope": {
+          "acceptedCriteria": [
+            "Front tips extend slightly below fixed white top; back is shorter and exposes narrow white top band; side slope respects sleeve occlusion.",
+            "Current identity and cumulative clothing/equipment retained in visible areas.",
+            "Normal open fine rib collar, black fine rib cuffs, orange exterior/red facings.",
+            "Official connected white OG with clear whitespace on left functional pocket body; no duplicate on visible right sleeve.",
+            "Three worn views and two boards correspond in component count and left/right topology.",
+            "Cel line/color treatment and material interiors/edge context inspected; no confirmed white-blotch or mosaic/muddy-texture blocker."
+          ],
+          "quantitativeLimits": [
+            "Art acceptance does not assert every measurement is within target. Observed values, target ranges, reading uncertainty and registration uncertainty remain separate.",
+            "Back direct white offset about -17 to -18px; +/-3px endpoints can overlap target boundary: numerical uncertain is retained.",
+            "Front and side longer front edges obscure white hem at corresponding station; observed D must remain null when hidden. Registered same-view estimates must carry propagated error and not be substituted as visible points.",
+            "Details rear curve is slightly different from worn/construction illustrations; normalized comparison did not establish a blocker. These are character-design illustrations, not exact cutting patterns."
+          ]
+        },
+        "candidate_revision": 2,
+        "delivery_series_revision": 1,
+        "generation_node": "highlow-details-v2",
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-details-v1.png",
+            "sha256": "b6f53f2887fdde92c7e36284547c6400c528c8b7a21c846fca486ad8277f4200",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/highlow-back-geometry.png",
+            "sha256": "3d05d73268883198403d2ba000c9c5fb316b13b3f140fa18f2eab3c81f80512b",
+            "dimensions": [
+              535,
+              430
+            ]
+          }
+        ],
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/actual-generation-graph-highlow-final.json",
+          "sha256": "f07069af4c9b1b4600ac2639d67274a1522826a6f7cfe3fb5f6f9c6ee5be98c7"
+        },
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-details-v2-request.json",
+          "sha256": "1ed57caf08361a1d9798f57da4c0c922ba9496d758c13394c44af758dae1a3d3"
+        },
+        "actual_tool_parameters": {
+          "prompt": "Draw an ENTIRELY NEW complete four-panel landscape Japanese anime cel-shaded jacket details board based on Image1, preserving its successful current high-low orange/red/black garment design, but fix the anatomical side-label error. This is a fresh whole board drawing, never locally patched or pasted text.\n\nCRITICAL CORRECTION: the lower-right miniature side jacket in Image1 faces imageLEFT and shows the single logo pocket on the NEAR arm. Therefore it is the CHARACTER-LEFT side. Keep that correct LEFT-side garment view and change its short label to exactly 'LEFT SIDE'. Do NOT call it RIGHT SIDE. The separate current full-body right-side turnaround has a plain near sleeve; this left-side detail deliberately explains the pocket-side hem. One pocket only on the left arm, no right-arm pocket. The left-side illustration must still show the continuous hem descending toward the FRONT (imageLEFT) and rising toward REAR (imageRIGHT), with a short pointed front corner, not a long coat tail.\n\nImage2 is the current approved BACK jacket crop: only use it to preserve the modest shorter rear body, almost horizontal gently curved rear hem, center seam and fine rib collar. No dramatic center-back arch. Do not draw person, white shirt, shorts, hands or equipment.\n\nKeep four panels with readable short headings: '01 COLLAR', '02 LEFT POCKET', '03 CUFF', '04 HIGH-LOW HEM'. Panel01 paired FRONT/BACK garment collar/body; ordinary open U black fine-rib collar and red front facings with black binding. Front two corners lower than the shorter rear; all visible lower hems follow current high-low design. Panel02 same closed/open left upper-arm pocket, plain flap, small WHITE official connected logo fixed on the BAG BODY below flap, unchanged when opened, generous orange margins (about60–65% net stitched width). No font replacement or mark on flap. Panel03 same exterior cuff and turned-back seam view with clearly visible fine parallel ribs and one actual cuff per sleeve. Panel04 same large bound front hem corner and left-side mini view with correct 'LEFT SIDE' label; continuous logical orange turned hem/red facing/black binding, front lower and rear higher.\n\nPreserve thin intentional seam/knit lines and exact official symbol topology from Image1. Flat local colors and a few sharply closed HARD CEL shadow shapes, crisp Japanese hand ink. No white blotches, cloudy/mosaic/grain texture, gradients, soft stripes, realistic product shading or gloss. No numeric dimensions. All four new illustrations fully fit the clean white landscape sheet; do not add extra items.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-details-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/reference-inputs/highlow-back-geometry.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-cd11c5c7-9bd9-49bd-a3c1-c1cc980019e8.png",
+          "sha256": "2c83e1df94e08b2c4201d88cec1a1380c57f960668f1fce543f9670596574f9f"
+        },
+        "selected_manifest": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/selected-outputs-highlow-final.json",
+          "sha256": "fb43cc258c7bad99061ec797b4beeedbb0768609ab498bc1c540e7c3da31655b"
+        },
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-garment-dimensions-20261025/review/highlow-final-independent-review.json",
+          "sha256": "0ac9324c0461b682b37705a43ca1a3b2b3385e836d4ac468ec2b37f8d78ffa22"
+        },
+        "baseline_sha256": "b6f53f2887fdde92c7e36284547c6400c528c8b7a21c846fca486ad8277f4200",
+        "baseline_role": "First actual saved generation reference; selected delivery is the complete native output.",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-highlow-20261025/highlow-details-v1.png"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/jacket-v2-highlow-details-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1606022,
+        "sha256": "2c83e1df94e08b2c4201d88cec1a1380c57f960668f1fce543f9670596574f9f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/jacket-v2-highlow-details-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1082306,
+        "sha256": "fd6dabfcfd15245f3cc9122b63949d4f8f10588a41b65d53e05335acb417c5f9",
+        "alpha": false
+      }
+    },
+    {
       "id": "jacket-v2-layer6-construction-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -6389,7 +6932,7 @@
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
         "description": "外套独立正侧背与六组外部缝合关系：衣身、左右袖、前开口领及左右袖口；左袋留在左袖，红前贴边留在衣身。",
         "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
-        "review_status": "current-jacket-official-og-pocket-body-reference",
+        "review_status": "historical-before-highlow-jacket",
         "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
         "candidate_revision": 7,
         "delivery_series_revision": 1,
@@ -6460,7 +7003,9 @@
         },
         "baseline_sha256": "602387513e2a4da47851dbb757a0711d13e5c2367e86619cd5bd895527513496",
         "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
-        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png"
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png",
+        "historical": true,
+        "superseded_by": "bunny/jacket-v2-highlow-construction-v1.png"
       },
       "original": {
         "path": "/media/bunny/3.1.0/jacket-v2-layer6-construction-v1.png",
@@ -6494,7 +7039,7 @@
         "method": "builtin-imagegen-complete-fresh-drawing-native-output",
         "description": "外套四组局部：普通领口正背、左袖袋开合、黑罗纹袖口与红前贴边下摆；正式小幅 OG 图形随袋身保持位置。",
         "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
-        "review_status": "current-jacket-official-og-pocket-body-reference",
+        "review_status": "historical-before-highlow-jacket",
         "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
         "candidate_revision": 7,
         "delivery_series_revision": 1,
@@ -6565,7 +7110,9 @@
         },
         "baseline_sha256": "602387513e2a4da47851dbb757a0711d13e5c2367e86619cd5bd895527513496",
         "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
-        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png"
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png",
+        "historical": true,
+        "superseded_by": "bunny/jacket-v2-highlow-details-v1.png"
       },
       "original": {
         "path": "/media/bunny/3.1.0/jacket-v2-layer6-details-v1.png",
@@ -7428,8 +7975,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 151309399,
-      "sha256": "f8519f4f8375f152982b829b3b24dd7289d58363f584ca734efe033401b491bb"
+      "bytes": 157754016,
+      "sha256": "7a6c125cac90cc00d3366fb6fab4c79346e2de0999f355e823b4679061f28df1"
     }
   ]
 }

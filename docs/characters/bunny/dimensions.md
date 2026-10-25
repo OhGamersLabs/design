@@ -6,12 +6,14 @@ aside: true
 <script setup>
 import BodyMeasurements from '../../.vitepress/theme/components/BodyMeasurements.vue'
 import measurements from '../../../catalog/bunny/3.1.0/body-measurements.json'
+import GarmentMeasurements from '../../.vitepress/theme/components/GarmentMeasurements.vue'
+import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
 </script>
 <span id="人物与武器统一尺寸"></span>
 
 # v2 · 图面尺寸与比例
 
-本页记录[当前完整新绘的基础文胸三视](/characters/bunny/body-base)的图面读数，便于核对头身比、肩腰胯关系及躯干与腿长。三视分别记录各自原图的可见轮廓。耳发修订后的正面坐标、侧背原图与已核读数保持；当前三视作为衣层设计基准，[首层白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装层](/characters/bunny/hosiery)、[鞋靴层](/characters/bunny/shoes)、[手部层](/characters/bunny/hands)、[腿部层](/characters/bunny/thigh-gear)和[外套层](/characters/bunny/jacket)均有穿着三视与匹配结构资料，外侧承载带及之后的衣层尚未同步。本页仍记录基模，未改为衣物成品尺寸或穿鞋后总高。
+本页先记录[当前完整新绘的基础文胸三视](/characters/bunny/body-base)的身体比例，再列出[白衣、红裤与夹克的尺寸规范](#garment-dimensions)。原有身体取点与数值保持，服装另用固定设计单位比对各张图，避免换一层衣服就改动衣长或裤腰位置。当前资料仍是二维投影，不作为衣物成品尺寸或穿鞋后身体总高。
 
 ::: info 图面比例与实际设定
 **H** 是可见发冠最高点至赤脚地面的图面高度；**h** 是可见发冠至下颏的头高，包含发量，不另估被头发遮住的颅顶。头身比为 H ÷ h。
@@ -26,6 +28,14 @@ import measurements from '../../../catalog/bunny/3.1.0/body-measurements.json'
 <BodyMeasurements :data="measurements" />
 
 [查看三张完整原图与等高对照](/characters/bunny/body-base) · [下载三视标尺与测量数据](/characters/bunny/downloads#body-measurements)
+
+## 服装尺寸规范与逐图核对 {#garment-dimensions}
+
+白色内搭与红色短裤以第一层衣形固定尺寸。夹克采用**前长后短**：前襟略盖白衣，后中露出窄白边，侧摆连续斜切。先看设计值，再用下方标尺核对各图的实际偏差。
+
+<GarmentMeasurements :data="garments" />
+
+[下载服装规范 JSON 与标尺 SVG](/characters/bunny/downloads#garment-dimensions) · [白衣红裤原图](/characters/bunny/innerwear) · [夹克设计](/characters/bunny/jacket)
 
 ## 耳部与发色修订前 · 图面尺寸 {#before-ear-hair-measurements}
 
