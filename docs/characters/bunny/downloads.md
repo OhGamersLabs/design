@@ -25,7 +25,7 @@ aside: true
 - [Bunny 设计 PNG 原图包](/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip)
 - [图像尺寸与 SHA-256 清单](/catalog/bunny/3.1.0/manifest.json)
 
-基模、首层衣装、袜装、鞋靴和手部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。本次新增腿部层正、侧、背三张完整人物及任务终端与腿带、维护盒袋与内容物两张部件板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外套及之后的衣层尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
+基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。本次新增外套层正、侧、背三张完整人物及独立三视与外部分解、局部细节两张板，采用普通前开口领，纯白 OG 连环品牌图形位于左袖功能袋袋身正面中央，领前不再使用 OG 圆牌。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外侧承载带及之后的衣层尚未同步。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 原图包还包括当前修订与明确标记的历史参考；不包含未完成的武器实握或角色卡。新版 PDF 尚未制作。
 
@@ -265,9 +265,26 @@ aside: true
 
 </details>
 
-## 外套
+## 外套 {#jacket-assets}
 
-<ul><li><a href="/media/bunny/3.1.0/22-jacket-wearing.png">外套穿着三视</a></li><li><a href="/media/bunny/3.1.0/23-jacket-components.png">外套独立结构</a></li><li><a href="/media/bunny/3.1.0/24-jacket-details.png">外套局部细节</a></li></ul>
+- [v2 · 外套层 · 正面原始 PNG](/media/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.png)
+- [v2 · 外套层 · 右侧面原始 PNG](/media/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.png)
+- [v2 · 外套层 · 背面原始 PNG](/media/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png)
+- [v2 · 外套独立三视与外部分解 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-layer6-construction-v1.png)
+- [v2 · 外套局部细节 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-layer6-details-v1.png)
+
+当前外套层采用普通前开口领，领前不带 OG 圆牌；左上臂保留功能翻盖袋，纯白 OG 连环品牌图形位于袋身正面中央，右袖不复制。本层不含后续承载带。两张板说明外部缝合与可见细节，不是生产纸样。
+
+<details>
+<summary>外套完整重绘前 · 旧穿着、独立结构与细节</summary>
+
+- [原22 · 旧外套与外侧承载关系 PNG](/media/bunny/3.1.0/22-jacket-wearing.png)
+- [原23 · 旧外套独立结构 PNG](/media/bunny/3.1.0/23-jacket-components.png)
+- [原24 · 旧外套局部细节 PNG](/media/bunny/3.1.0/24-jacket-details.png)
+
+三张旧图保留原件与网址，眼徽与领前 OG 圆牌是此前方向；原22含后续承载带，不属于当前外套层。未采用的本轮候选不进入原图包。
+
+</details>
 
 ## 承载带与固定点
 

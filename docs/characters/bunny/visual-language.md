@@ -9,7 +9,7 @@ aside: true
 
 ## 本轮身体三视图的画风标准
 
-采用**日系二次元手绘线稿与赛璐璐上色**。基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物，图面比例按对应基模原图记录。本次新增腿部层穿着三视及终端腿带、维护盒袋两张部件板，延续平涂固有色与硬边阴影。基模三视及图面尺寸、16格表情和此前衣层资料保持；外套及之后的衣层尚未同步。身份参照[中性头部](/characters/bunny/face)和[16格表情](/characters/bunny/expressions)。
+采用**日系二次元手绘线稿与赛璐璐上色**。基模、首层衣装、袜装、鞋靴、手部、腿部装备与外套各有三张完整新绘人物，图面比例按对应基模原图记录。本次新增外套层穿着三视及独立结构、局部细节两张板，延续平涂固有色与硬边阴影。基模三视及图面尺寸、16格表情和此前衣层资料保持；外侧承载带及之后的衣层尚未同步。身份参照[中性头部](/characters/bunny/face)和[16格表情](/characters/bunny/expressions)。
 
 - **线稿清楚分层**：外轮廓完整，内部五官、衣物边缘和转折线更轻；线条保留自然粗细与收尖，不以模糊色边替代结构线。
 - **固有色平涂**：皮肤、银白头发、蓝眼和黑色基础内衣保留各自清楚的主色面，不用连续明暗渐变填满形体。
@@ -41,9 +41,16 @@ aside: true
 
 金属扣件可以有克制的边缘亮面；针织和布面不沿整条外轮廓加塑料式高光。深色镜片与金属边缘的画法分别参照<a href="/characters/bunny/headgear#护目镜独立结构">护目镜独立结构</a>和<a href="/characters/bunny/harness#承载带扣件细节">承载带扣件细节</a>，不能把高反射效果复制到所有材料。
 
-以下外套与旧袜装图保留作历史结构及材质例证；当前袜装资料见[袜装页](/characters/bunny/hosiery)，其余例证未逐张重绘。
+当前外套的领口、左袖功能袋、袖口与前贴边见[新版外套细节](/characters/bunny/jacket#jacket-details)，普通前开口领不带 OG 圆牌，纯白 OG 连环品牌图形位于左袖功能袋袋身正面中央。当前袜装资料见[袜装页](/characters/bunny/hosiery)；下方旧图仅保留作沿革参考。
 
-<ReleaseImage src="/characters/bunny/3.1.0/24-jacket-details.webp" original="/media/bunny/3.1.0/24-jacket-details.png" alt="既有外套局部：衣片边缘、翻盖遮挡与布面阴影示例" caption="既有结构例证：外套局部的结构线与阴影" />
+<details>
+<summary>原24 · 旧外套局部细节（历史参考）</summary>
+
+原图中的眼徽及领前 OG 圆牌不属于当前外套；此处保留旧原件与网址。
+
+<ReleaseImage src="/characters/bunny/3.1.0/24-jacket-details.webp" original="/media/bunny/3.1.0/24-jacket-details.png" alt="历史参考 · 原24旧外套局部，含已取消眼徽及底片" caption="原24 · 旧外套局部细节" />
+
+</details>
 
 ## 材质区分
 

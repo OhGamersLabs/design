@@ -4253,5 +4253,387 @@
     "baseline_sha256": "427d451c6d60070605f35610635fc77e6db46b233669d441f7de5acb9daeb64b",
     "baseline_role": "First actual reference in the saved request. Original ordered references remain unchanged, including lineart or superseded candidates; only selected final native outputs are published.",
     "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-thigh-layer-20261025/thigh-v2-pouch-lineart-v3.png"
+  },
+  "bunny/jacket-v2-fresh-cel-front-v1.png": {
+    "page": "/characters/bunny/jacket",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png",
+    "source_artifact_sha256": "602387513e2a4da47851dbb757a0711d13e5c2367e86619cd5bd895527513496",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "第六层外套正面完整人物：普通前开口黑罗纹短领、红前贴边、单个左袖功能翻盖袋；正式 OG 连环品牌图形作为小幅纯白印花位于袋身，四周保留橙色留白。",
+    "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
+    "review_status": "current-jacket-official-og-pocket-body-reference",
+    "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
+    "candidate_revision": 13,
+    "delivery_series_revision": 1,
+    "generation_node": "jacket-front-v13",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png",
+        "sha256": "5a97f3a505da9bf9f7ea16c18f0bdbfe32c32d618330dd2f7bc06fa58eab9bee",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-jacket-v5-reference/clean-jacket-v5/collar-body-right-sleeve.png",
+        "sha256": "ecf3245c0c9ad973ea6259092bb7c3e06c4bcebade4f8d296196947debc2cbfd",
+        "dimensions": [
+          395,
+          425
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/front-v11-blank-native-evidence/front-v11-blank/left-pocket-logo.png",
+        "sha256": "3fe51542f7b367040c8b3b5208b1daad7e34de96d12413680c9c063413c58c74",
+        "dimensions": [
+          110,
+          180
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-pocket-logo-layout-v1.png",
+        "sha256": "f9def2f434cfa1601a5a8914c80b6375bd4b0ef98452946306e378abdd5a09b3",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png",
+        "sha256": "d3f56411068d5f75005ede867ca18560371359a5d190a9d9ba5a5696c47be05a",
+        "dimensions": [
+          1080,
+          599
+        ]
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-generation-graph-20261025-final.json",
+      "sha256": "6f870a627cc7b0bf3050ec3e77e2c2e37066632f48323c2744c27e236d37b8b9"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-requests-final/jacket-front-v13.json",
+      "sha256": "58e5b13986f6c4097bdbc2ef1437030efcbdcd6a3e692dc5a95448c23cf6e9c1"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Draw one entirely NEW complete full-body FRONT Japanese anime character design on clean white portrait background, head to shoe soles fully visible. Begin from the current character in IMAGE1 and add the selected orange jacket. This is a fresh whole-character drawing, never paste or combine pieces of reference images.\n\nFIVE CLEARLY SEPARATE REFERENCE DUTIES:\n1. IMAGE1 is the sole authority for adult character identity, full body pose and slim long-leg proportions, face/silver-white hair/close ears/blue eyes, all current white top/red shorts/socks/shoes/gloves/wrist devices/thigh devices. Preserve this current baseline.\n2. IMAGE2 is a clean crop showing ONLY the approved jacket's normal OPEN black collar, orange cropped body/red front facings, plain character-right sleeve, and black cuff. It has NO sleeve mark. Use its exact garment shape/color and FINE RIB KNIT line structure; do not copy its white torso/body over image1.\n3. IMAGE3 is the correct single LEFT upper-arm pocket, deliberately UNPRINTED. It supplies only the original narrow bag outline and short plain flap proportion. Put exactly one such real functional pocket on character-left outer upper arm (image RIGHT), at the established small upper-arm scale. Do not turn it into a huge patch or widen it.\n4. IMAGE4 is the approved LOGO-TO-POCKET LAYOUT sample ONLY: the white symbol occupies about58% of net bag width between side stitching, with conspicuous broad orange margins. Its broad demonstration pocket shape and soft tone are NOT garment shape/material references.\n5. IMAGE5 is the exact official SYMBOL silhouette. Render it solid white on the pocket face, without its gray gradient.\n\nSMALL PRINT PLACEMENT: Inside the real narrow pocket from image3, below its closed plain flap, put one discreet, small WHITE official symbol centered horizontally and vertically in the visible bag face. It fills only the central slightly-more-than-half of the usable width, about55–60% of the distance between side stitching lines, never a large logo filling the panel. The key appearance is a LARGE uninterrupted ORANGE border on all four sides of the small print, matching image4's generous logo-to-net-pocket spacing. Do not count sleeve outside the bag as margin. Do not enlarge the pocket to create that space, and do not compress or stretch the symbol. Keep its approx1.8:1 shape before natural sleeve foreshortening. Only one print: flap, sleeve below, opposite sleeve and collar stay unmarked. No extra backing rectangle, emblem patch, border or second pocket.\n\nOfficial symbol topology from image5: rounded continuous left loop open at lower-right with rounded terminal; left loop right side flows into the lower right G-like curve, right curve has rounded inward horizontal stroke, and upper right arc is a separate rounded cap with visible gap. Preserve those connections/openings even when small. Not ordinary font 'OG', not infinity or a closed double circle.\n\nJACKET: lower-chest cropped matte orange open body, two RED front facings with narrow BLACK bound edges; open center reveals the existing white cropped top. Normal short BLACK rib U collar is open across front neck with separated tips, rear connected; white inner high collar naturally visible. No throat bridge or disk. Loose long orange sleeves gathered into short black rib cuffs ending above existing wrist gear. Plain character-right sleeve, one pocket only on left. No harness, torso belt, headgear, weapon, zipper or invented full red lining.\n\nMATERIAL PRIORITY: preserve the fine closely spaced PARALLEL RIB-KNIT INK LINES visible in image2 on BOTH black collar and BOTH black cuffs. These are intended structure, NOT noise; do not simplify them into plain rubber, leather or wide blocks. Also retain the clear fine pale-blue vertical rib lines on image1's WHITE SOCK TOP BAND. Avoid broad blurry pale strokes there. Everything uses clear Japanese weighted hand ink, stable flat local colors and a few closed HARD CEL shadow shapes. Keep real seams, ribs and fabric folds. No white spots, cloudy mottling, mosaic/grain, soft product shading or glossy3D material.\n\nKeep image1 anatomy, existing oval white-top chest opening, red shorts, plain full black right glove/red wrist cuff, orange-edged fingerless left glove/orange wrist device, two separate right-thigh bands with gray-screen terminal and compact full-height flap pouch/silver snap. Character-left orange thigh-high/right white short-calf sock, same red-white-black shoes and outside ankle hardware; natural pose/occlusion. Do not add front parts on back-facing equipment. Complete coherent new illustration, no labels. Final check: unchanged current character, properly open collar and fine rib knit, narrow original pocket carrying a small official white symbol surrounded by abundant orange space.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-jacket-v5-reference/clean-jacket-v5/collar-body-right-sleeve.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/front-v11-blank-native-evidence/front-v11-blank/left-pocket-logo.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-pocket-logo-layout-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a17151-7d31-70f0-b1a0-0efedbd29800/exec-8b575e51-4214-4fb3-8178-ac17448fd2ef.png",
+      "sha256": "602387513e2a4da47851dbb757a0711d13e5c2367e86619cd5bd895527513496"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/selected-outputs-20261025-final.json",
+      "sha256": "af9b0e81c1d9c883c7d262bc34b6031ae07f14c6f875a10607c3cd602f19c03f"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-review-20261025/final-independent-review.json",
+      "sha256": "14f2edec7a5a3aa3a6696089aa50eebecb3096d1953e54c38af53fddb9aec567"
+    },
+    "baseline_sha256": "5a97f3a505da9bf9f7ea16c18f0bdbfe32c32d618330dd2f7bc06fa58eab9bee",
+    "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
+    "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.png"
+  },
+  "bunny/jacket-v2-fresh-cel-side-v1.png": {
+    "page": "/characters/bunny/jacket",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-side-v2.png",
+    "source_artifact_sha256": "e8fd7e882eacaff17ec114c65c456203aa7bef942624e5b27206dced446c1cee",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "第六层外套右侧完整人物：近侧右袖保持纯橙、黑罗纹袖口位于既有腕部设备上方；远侧左袋和品牌标志自然被遮挡。",
+    "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
+    "review_status": "current-jacket-official-og-pocket-body-reference",
+    "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
+    "candidate_revision": 2,
+    "delivery_series_revision": 1,
+    "generation_node": "jacket-side-v2",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png",
+        "sha256": "f8c6c4e9a4db852ee16e665d29886073c0c3ca37b865579eb0c75ebe176c0948",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v5.png",
+        "sha256": "3cf7b764845a0b54abbd3bfbaaf24a906e2ced54c395ba8242c74dd8b53c09a6",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-generation-graph-20261025-final.json",
+      "sha256": "6f870a627cc7b0bf3050ec3e77e2c2e37066632f48323c2744c27e236d37b8b9"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-requests-final/jacket-side-v2.json",
+      "sha256": "6b246ce5b2befb496bd141055d149407909d82feb9c314e158d977c020301457"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Entirely new complete full-body CHARACTER RIGHT-SIDE view facing image RIGHT, portrait 1024x1536, clean white. One adult anime woman, complete hair and shoes. Image1 is the sole same-view body/pose/cumulative-layer authority; image2 is the approved NEW jacket design and palette only. Never borrow image2's frontal anatomy or move limbs.\nThe current same-view thigh-layer reference controls adult identity, head/ear/hair/blue-eye design, slim chest-waist-hip and long-leg proportions, arm/hand pose and every existing garment/equipment placement. Keep white cropped top, red shorts, character-left orange long sock and character-right white short sock, current red/white/black shoes, plain black right full glove/red wrist cuff, left orange-edged fingerless glove/orange wrist device, and two independent right-thigh bands with upper gray-screen terminal/lower compact full-height-flap pouch. Allow honest occlusion; do not move anatomy or gear to make it visible. The only new layer is the orange cropped jacket. No harness, straps over torso, waist belt, headgear or weapons.\nCURRENT JACKET DESIGN: cropped matte-orange open front body, red front facings with thin black binding, loose long sleeves with black rib cuffs above unchanged wrist gear. Ordinary short BLACK RIB COLLAR is one U-shaped band continuous at back and clearly OPEN at front, two tips joined naturally to jacket front edges. Original white inner collar stays in place and may show at the front. No front neck bridge, closed ring, disk or collar logo. Character LEFT sleeve has ONE functional upper-arm flap pocket and simple white 'OG' PRINTED DIRECTLY ON CONTINUOUS ORANGE CLOTH BELOW the pocket. No rectangle frame, applique/backing, second pocket or hanging extension. Character RIGHT sleeve has neither pocket nor lettering. No eye motif anywhere. Red is only known front facing, not a complete red lining; no new zipper or closure.\nSIDE VISIBILITY: near RIGHT sleeve plain orange with no pocket and no OG. The far LEFT sleeve and its print may be fully hidden; no additional arm/sleeve invented to show them. Collar near visible side is ordinary low rib fabric; front tip stops at front jacket edge and never crosses neck, any visible old white inner collar remains white. Short jacket body at same lower-chest hem level as accepted front, not a longer jacket. Red front facing only along visible front edge. Back panel orange. Keep current arm/hand over thigh terminal in image1 exactly; visible screen sliver remains LIGHT GRAY distinct from black case. Lower compact pouch remains image1 height/position and nearly full-height flap with centered silver button; no short flap or growth. Wrist red cuff color and small visible edges stay. Existing bands' orange release faces and pale inset accents follow image1 where actually visible. No torso belts/straps/harness.\nJapanese hand-drawn anime design illustration matching the current accepted color work, variable-weight clear ink lines and continuous local colors with a few closed crisp hard cel shadows. Orange cloth must read matte flat orange with darker hard fold shapes; black fabric matte charcoal with limited hard shade. No broad airbrushed light gradient or product-render/PBR shading, no grain, cloud stain, white noise specks or periodic tiny texture. Keep sensible folds, seams and rib-knit lines. All pixels are newly drawn by the tool; never collage or paste patches.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v5.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a17089-6154-70f0-82ee-0d5eddf30a44/exec-a347d9ad-f0e1-43fa-90f9-6abfcbdb20b5.png",
+      "sha256": "e8fd7e882eacaff17ec114c65c456203aa7bef942624e5b27206dced446c1cee"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/selected-outputs-20261025-final.json",
+      "sha256": "af9b0e81c1d9c883c7d262bc34b6031ae07f14c6f875a10607c3cd602f19c03f"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-review-20261025/final-independent-review.json",
+      "sha256": "14f2edec7a5a3aa3a6696089aa50eebecb3096d1953e54c38af53fddb9aec567"
+    },
+    "baseline_sha256": "f8c6c4e9a4db852ee16e665d29886073c0c3ca37b865579eb0c75ebe176c0948",
+    "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
+    "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.png"
+  },
+  "bunny/jacket-v2-fresh-cel-back-v1.png": {
+    "page": "/characters/bunny/jacket",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-back-v8.png",
+    "source_artifact_sha256": "6888398b35fe40204a1479cdae1e6c56c20cc43acd1803768dd4a8c41c02b879",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "第六层外套背面完整人物：普通后领、背中缝与短下摆，单个左袖袋保持原袋形与小幅正式 OG 标志，不添加后续承载带。",
+    "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
+    "review_status": "current-jacket-official-og-pocket-body-reference",
+    "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
+    "candidate_revision": 8,
+    "delivery_series_revision": 1,
+    "generation_node": "jacket-back-v8",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png",
+        "sha256": "d97ecb42b2519c81a6584039fdfa2671560eb3711fac08cafaf081e0e6d75766",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/construction-v7-native-evidence/construction-v7/assembled-back.png",
+        "sha256": "bb1fe5855b5fec95a20cd5282c58d72012709e8bcebeb76abe3641ce2611ed85",
+        "dimensions": [
+          590,
+          460
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png",
+        "sha256": "d3f56411068d5f75005ede867ca18560371359a5d190a9d9ba5a5696c47be05a",
+        "dimensions": [
+          1080,
+          599
+        ]
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-generation-graph-20261025-final.json",
+      "sha256": "6f870a627cc7b0bf3050ec3e77e2c2e37066632f48323c2744c27e236d37b8b9"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-requests-final/jacket-back-v8.json",
+      "sha256": "96a02691264e42c99e870b6c0b72b4dcca182997f7f346545c70dcfa9ab99f2d"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Create one completely NEW whole-body BACK character design illustration on a white portrait canvas, full hair to footwear in frame. This is a whole coherent drawing, not pasting a garment onto the character.\nONLY THREE REFERENCE DUTIES: IMAGE1 is the exact current accepted rear person, slim adult body/long-leg proportions, pose, identity and every earlier clothing/equipment piece. IMAGE2 is the complete APPROVED BACK VIEW OF THE JACKET, and is the SOLE jacket shape, pocket shape, small-symbol-to-pocket scale and material authority. It is already the CORRECT BACK VIEW: match that rear garment as a whole at the scale worn over image1. IMAGE3 is the actual official brand shape only, rendered white rather than gray.\nDress image1 in image2's orange cropped jacket. Transfer image2's relative garment shapes and proportions faithfully: rear connected short black finely ribbed collar; orange back panel with thin vertical center seam from collar to hem; plain short rear hem; loose gathered long sleeves with short fine black ribbed cuffs above current wrist gear. No throat clasp, disk, harness, belts, weapon, zipper or new full lining. A narrow sliver of current white innerwear may naturally remain below orange rear hem.\nCRITICAL POCKET AND SMALL PRINT: Copy the pocket itself AND the small mark's RELATIVE SIZE from image2, not from any prior character image. One modest narrow functional pocket on character LEFT upper arm (image LEFT), short plain flap, original ordinary-height bag. Don't make this bag longer or larger. Solid white official connected emblem centered on visible stationary BAG FACE below its plain flap. Copy image2's ample orange margin surrounding the discreet white print: approximately60% of inner bag width between stitched sides, never above70%. Keep broad clear orange strips on BOTH sides plus above/below. The logo must be small rather than enlarge the pocket to justify its size. Respect sleeve perspective. Right sleeve remains plain without pocket/mark; sleeve below left pocket plain. No extra badge/backing.\nOfficial emblem: left loop opens at lower-right with round cap; its right side curves continuously into right lower G-like loop and rounded inward bar; separate upper-right round-ended arc above with open gap. Maintain actual image3 silhouette approx1.8:1 before perspective, no typeset OG, closed circles or infinity. White flat print only.\nKeep image1's body proportions and rear anatomy, hair groups and current clothing intact apart from real jacket occlusion. Hands palms face viewer: left fingerless black glove orange edge/exposed fingertips and actual wrist-device rear; right black full-finger glove red cuff. Two right thigh bands show real rear black buckle shells/module sidewalls, no screen or front flap on back. Red shorts and buttock shape retained; left orange thigh-high/right white calf sock with fine pale-blue narrow cuff ribs; same shoe backs and outside ankle hardware. Don't shift equipment around to show it.\nJapanese anime hand drawn weighted outlines, flat stable local colors and few precise CLOSED HARD CEL shadows. Black collar/cuffs retain narrow fine rib lines from image2. Orange is clean matte flat color, no white/cloud patches, mosaic, scratch noise or broad soft shading. Preserve intentional folds/stitches/ribs. Final full new image; no labels or extra objects. Before finishing, compare pocket/logo proportion directly with image2, and maintain its modest pocket and small print.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/construction-v7-native-evidence/construction-v7/assembled-back.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-35f6e97a-2f7e-4bca-8e3d-737f5e6dc332.png",
+      "sha256": "6888398b35fe40204a1479cdae1e6c56c20cc43acd1803768dd4a8c41c02b879"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/selected-outputs-20261025-final.json",
+      "sha256": "af9b0e81c1d9c883c7d262bc34b6031ae07f14c6f875a10607c3cd602f19c03f"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-review-20261025/final-independent-review.json",
+      "sha256": "14f2edec7a5a3aa3a6696089aa50eebecb3096d1953e54c38af53fddb9aec567"
+    },
+    "baseline_sha256": "d97ecb42b2519c81a6584039fdfa2671560eb3711fac08cafaf081e0e6d75766",
+    "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
+    "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png"
+  },
+  "bunny/jacket-v2-layer6-construction-v1.png": {
+    "page": "/characters/bunny/jacket",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-construction-v7.png",
+    "source_artifact_sha256": "4454e14a698ffca56f6b0668eb2702711ce4464c356cec0d1c4e4e6e6a2058e3",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "外套独立正侧背与六组外部缝合关系：衣身、左右袖、前开口领及左右袖口；左袋留在左袖，红前贴边留在衣身。",
+    "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
+    "review_status": "current-jacket-official-og-pocket-body-reference",
+    "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
+    "candidate_revision": 7,
+    "delivery_series_revision": 1,
+    "generation_node": "jacket-construction-v7",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png",
+        "sha256": "602387513e2a4da47851dbb757a0711d13e5c2367e86619cd5bd895527513496",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-final-reference-crops/construction-body-collar.png",
+        "sha256": "448af915c1032ea628ba6f75d8ba5293bd2967206100bdda25dd19e47a2c4ed9",
+        "dimensions": [
+          410,
+          420
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-final-reference-crops/construction-plain-sleeve-cuff.png",
+        "sha256": "769c7eb79fadf47d184500518057f901687a0cae2b3c478e34152da42aa3a1ad",
+        "dimensions": [
+          335,
+          470
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png",
+        "sha256": "d3f56411068d5f75005ede867ca18560371359a5d190a9d9ba5a5696c47be05a",
+        "dimensions": [
+          1080,
+          599
+        ]
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-generation-graph-20261025-final.json",
+      "sha256": "6f870a627cc7b0bf3050ec3e77e2c2e37066632f48323c2744c27e236d37b8b9"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-requests-final/jacket-construction-v7.json",
+      "sha256": "701b4d2ec3b9ac037c0c62030f470ba7c96b63a78205d4b1c9abd59fa26fa3bc"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Draw an entirely NEW complete landscape 1536x1024 jacket design construction sheet on white. This sheet contains only clothing, no character.\nREFERENCES: IMAGE1=approved current complete front jacket worn, authority for finished design/colors and SMALL official left-pocket symbol. IMAGE2=clean unmarked lower-body/collar part crop, authority for real body openings and separate U collar; IMAGE3=plain right sleeve + detached cuff shape, authority for bare-ended sleeve and empty cuff; IMAGE4=exact official logo shape. Crops explain structure, never paste them.\nLAYOUT: Upper row three similarly sized assembled jacket views labeled FRONT, RIGHT SIDE, BACK. A horizontal separator. Lower row a substantial exploded SEAM ASSEMBLY diagram with six groups and clear dashed gray join guides, footer 'Visible seam assembly / not a cutting pattern'. No numeric measurements or production claim.\nJACKET: lower-chest cropped orange open body, red front facings bounded narrowly in black, normal short BLACK fine-rib U collar open at front with two separated tips, rear connected. Back has thin vertical center seam neck-to-hem. Broad gathered orange long sleeves and short black fine-rib cuffs. One real narrow functional flap pocket on character-left upper outer arm, no right pocket. No extra bridge/disk, zipper/closure, full red lining or added patch. Orange visible THROUGH open front is the rear body panel, not a new front closure.\nTOP: FRONT left-sleeve pocket on image RIGHT, BACK left-sleeve pocket on image LEFT; RIGHT SIDE shows plain near-right sleeve, don't force far-left pocket visible. All three consistent ordinary jacket.\nBOTTOM exactly SIX groups: central collarless sleeveless BODY with red front facings/narrow black edges but EMPTY neck/armholes; a separate RIGHT SLEEVE at image-left with bare orange wrist edge and no cuff/pocket; a separate LEFT SLEEVE at image-right with one pocket, bare orange wrist edge and no cuff; one separate open-U black COLLAR above body; two independent black CUFF rings below sleeves. Each sewing component once in this exploded diagram. Neither detached cuff contains an orange sleeve remnant: openings reveal black interior/white background. Do not leave removed collar/sleeves on mother body or cuffs on detached sleeves. Guides connect sleeve to correct armhole, collar to neck, cuff to sleeve wrist. Labels BODY, RIGHT SLEEVE, LEFT SLEEVE, COLLAR, RIGHT CUFF, LEFT CUFF.\nWHITE MARK: Use the actual official connected rounded emblem from the isolated reference, never ordinary typeset OG. Its left loop has a lower-right opening with rounded end, the right side of that loop continues into the lower G-like curve and rounded inward horizontal bar; the upper right arc is separate with an open gap. Render SOLID WHITE, not gray gradients. Preserve its 1.8:1 silhouette before natural foreshortening. On the one functional character-LEFT upper-arm pocket, center a SMALL emblem on the BAG FRONT FACE below its plain flap, at the restrained scale seen in the accepted front reference: about60% of usable width between stitched sides, ample orange space all around. Never enlarge the pocket. No white mark on flap, lower sleeve, collar, right sleeve or other panels. No badge backing. Natural viewpoint can hide part of the mark; never twist sleeve to show it.\nExactly THREE white symbols: assembled FRONT pocket, assembled BACK pocket, detached LEFT SLEEVE pocket, all centered on bag body with generous orange clearance below plain flap. Preserve same restrained mark-to-bag ratio from image1, not a giant wordmark.\nSTYLE: Entirely fresh coherent Japanese anime HAND-INK drawing with stable FLAT local colors and few closed HARD-EDGE CEL shadow shapes. Fine closely spaced structural RIB-KNIT lines on black collar and cuffs are intended details and must stay. No smooth rubber cuffs, broad soft shading, cloud mottling, white speckle, grain/mosaic, extra scratch lines or 3D render. Final must be a whole new tool image, not pasted references.",
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-final-reference-crops/construction-body-collar.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-final-reference-crops/construction-plain-sleeve-cuff.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-31527037-7729-4ce2-83cb-a2aed03feef5.png",
+      "sha256": "4454e14a698ffca56f6b0668eb2702711ce4464c356cec0d1c4e4e6e6a2058e3"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/selected-outputs-20261025-final.json",
+      "sha256": "af9b0e81c1d9c883c7d262bc34b6031ae07f14c6f875a10607c3cd602f19c03f"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-review-20261025/final-independent-review.json",
+      "sha256": "14f2edec7a5a3aa3a6696089aa50eebecb3096d1953e54c38af53fddb9aec567"
+    },
+    "baseline_sha256": "602387513e2a4da47851dbb757a0711d13e5c2367e86619cd5bd895527513496",
+    "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png"
+  },
+  "bunny/jacket-v2-layer6-details-v1.png": {
+    "page": "/characters/bunny/jacket",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-details-v7.png",
+    "source_artifact_sha256": "5aa0326acaa1b96a0a57d30bbab384a3aa7e38c296b60af587739ef4a9ff50c3",
+    "method": "builtin-imagegen-complete-fresh-drawing-native-output",
+    "description": "外套四组局部：普通领口正背、左袖袋开合、黑罗纹袖口与红前贴边下摆；正式小幅 OG 图形随袋身保持位置。",
+    "scope": "新增第六层橙色短外套三视及两张对应部件板；既有基模、图面尺寸、头部、16格表情与此前衣层原件保持。整张工具生图，网页仅无损转换。",
+    "review_status": "current-jacket-official-og-pocket-body-reference",
+    "review_scope": "独立视觉复核实际覆盖5张完整图与37处原像素局部，Root另看完整图及关键局部。正式标志形状、袋身位置、橙布留白、普通前开口领与细罗纹、六组部件及跨图对应已接受。未确认白斑、无依据云斑或周期碎纹；正常接缝、硬阴影与针织纹保留。图面比例是带像素和透视误差的参考，不声明精确制造尺寸、隐藏连接或真实活动范围已验证。",
+    "candidate_revision": 7,
+    "delivery_series_revision": 1,
+    "generation_node": "jacket-details-v7",
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png",
+        "sha256": "602387513e2a4da47851dbb757a0711d13e5c2367e86619cd5bd895527513496",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-final-reference-crops/details-collar-cuff.png",
+        "sha256": "a97196375276ab52c6a69dc03362fcff6b577ed22ef7d7cdf1626d058f8c8f8b",
+        "dimensions": [
+          857,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-final-reference-crops/details-facing.png",
+        "sha256": "2acf6152933ea6235eccb75e5a5bacefd6afa25ff2cce6f8f0c58ed19d5be267",
+        "dimensions": [
+          671,
+          499
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png",
+        "sha256": "d3f56411068d5f75005ede867ca18560371359a5d190a9d9ba5a5696c47be05a",
+        "dimensions": [
+          1080,
+          599
+        ]
+      }
+    ],
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-generation-graph-20261025-final.json",
+      "sha256": "6f870a627cc7b0bf3050ec3e77e2c2e37066632f48323c2744c27e236d37b8b9"
+    },
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/actual-requests-final/jacket-details-v7.json",
+      "sha256": "89c8be5ec9e38229060f8b53a8925d4a4fa02df42d81ae07f6e3aa0feea0cb7f"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Draw one entirely NEW complete landscape 1536x1024 four-panel jacket detail board on white with clean rectangular panel borders.\nREFERENCES: IMAGE1=approved complete current front, jacket design/colors and restrained official-symbol scale on its narrow left-arm pocket; IMAGE2=clean collar/cuff reference crop with no mark, for fine rib-knit, back center seam and cuff connection; IMAGE3=front facing/hem crop for red facings and black binding, not full lining; IMAGE4=official logo silhouette. Redraw whole board, not local symbol replacement/pasted pieces.\nFour groups, exact labels: '01 COLLAR', '02 LEFT POCKET / PRINT', '03 CUFF', '04 FACING / HEM'.\n01 COLLAR: side-by-side close front and rear upper-body garment views. Normal U-open front short black fine-rib collar with separated tips, rear connected. No throat bridge/disk. Back view includes thin CENTER VERTICAL SEAM starting at rear collar join and continuing down visible orange back to hem/crop. Red front facings with narrow black edges, orange rear panel through open front; not all-red lining.\n02 LEFT POCKET / PRINT: side-by-side CLOSED and OPEN states of SAME original narrow functional pocket from image1. Preserve the original tall bag with short flap; don't use a wider bag to gain whitespace. In closed state flap is plain and covers upper mouth; in OPEN state plain flap lifts but remains attached at top, pocket mouth underneath, body stays fixed. A SMALL official white symbol remains centered on the stationary BAG FRONT FACE in both states, same proportional size; no logo on flap or sleeve below, no badge backing.\n03 CUFF: exterior sleeve gathered into short BLACK fine-rib cuff and a turned-interior close view showing ordinary seam allowance. Sleeve/cuff sewn connection, no extra rings or closures. Orange fabric belongs to sleeve in this attached detail; black cuff interior stays black, clear hollow opening. Preserve fine parallel rib lines instead of smooth broad shading.\n04 FACING / HEM: red front facing with narrow black edge binding joining short orange hem. Expose actual seam/stitch relationship, no zipper/closure hardware or full red lining.\nWHITE MARK: Use the actual official connected rounded emblem from the isolated reference, never ordinary typeset OG. Its left loop has a lower-right opening with rounded end, the right side of that loop continues into the lower G-like curve and rounded inward horizontal bar; the upper right arc is separate with an open gap. Render SOLID WHITE, not gray gradients. Preserve its 1.8:1 silhouette before natural foreshortening. On the one functional character-LEFT upper-arm pocket, center a SMALL emblem on the BAG FRONT FACE below its plain flap, at the restrained scale seen in the accepted front reference: about60% of usable width between stitched sides, ample orange space all around. Never enlarge the pocket. No white mark on flap, lower sleeve, collar, right sleeve or other panels. No badge backing. Natural viewpoint can hide part of the mark; never twist sleeve to show it.\nExactly TWO symbols on this board, only closed/open pocket bag faces. Both have the SAME discreet roughly60% net-width scale and ample orange margins, preserving official proportions and openings. No mark crowded against stitching or flap.\nSTYLE: Entirely fresh coherent Japanese anime HAND-INK drawing with stable FLAT local colors and few closed HARD-EDGE CEL shadow shapes. Fine closely spaced structural RIB-KNIT lines on black collar and cuffs are intended details and must stay. No smooth rubber cuffs, broad soft shading, cloud mottling, white speckle, grain/mosaic, extra scratch lines or 3D render. Final must be a whole new tool image, not pasted references.",
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-final-reference-crops/details-collar-cuff.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/clean-final-reference-crops/details-facing.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/reference-inputs/official-og/资源 3.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-ad665335-3071-41a8-b853-f3e5cfed01ba.png",
+      "sha256": "5aa0326acaa1b96a0a57d30bbab384a3aa7e38c296b60af587739ef4a9ff50c3"
+    },
+    "selected_manifest": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/selected-outputs-20261025-final.json",
+      "sha256": "af9b0e81c1d9c883c7d262bc34b6031ae07f14c6f875a10607c3cd602f19c03f"
+    },
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-review-20261025/final-independent-review.json",
+      "sha256": "14f2edec7a5a3aa3a6696089aa50eebecb3096d1953e54c38af53fddb9aec567"
+    },
+    "baseline_sha256": "602387513e2a4da47851dbb757a0711d13e5c2367e86619cd5bd895527513496",
+    "baseline_role": "First actual reference in the saved request. Authentic ordered references may include earlier candidates or diagnostic reference crops; only the accepted whole native outputs enter delivery.",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-jacket-layer-20261025/jacket-v2-fresh-cel-front-v13.png"
   }
 }

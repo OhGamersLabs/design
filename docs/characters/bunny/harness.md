@@ -7,11 +7,18 @@ aside: true
 
 肩带与腰带位于外套外侧。金色调节扣只在前肩，胸下带正面使用银色扣；背部黑色锚袢与银色挂扣连接腰带。橙色护盖位于前腰锚点，不复制到背面。
 
-先用包含外套的穿着图核对最终覆盖关系，再看隐去外套的结构定位图。后者只为说明连接点，不表示穿戴时移除外套。
+本页保留此前承载带设计，尚未同步[当前外套层](/characters/bunny/jacket)。旧22用于回溯外套外侧的承载位置，旧18隐去外套以露出带路，不能视为当前身体与衣层的累计结果；当前外套层不含承载带。
 
 ## 外套外侧的承载位置
 
-<ReleaseImage src="/characters/bunny/3.1.0/22-jacket-wearing.webp" original="/media/bunny/3.1.0/22-jacket-wearing.png" alt="外套外侧的承载位置" caption="外套外侧的承载位置" />
+<details>
+<summary>原22 · 旧外套与外侧承载关系（历史参考）</summary>
+
+旧图含此前左袖眼徽与领前 OG 圆牌，尚未同步当前外套普通前开口领、左袖功能袋袋身正面中央纯白 OG 连环品牌图形的修订；原件与网址保留。
+
+<ReleaseImage src="/characters/bunny/3.1.0/22-jacket-wearing.webp" original="/media/bunny/3.1.0/22-jacket-wearing.png" alt="历史参考 · 原22旧外套外侧承载位置，含已取消眼徽" caption="原22 · 旧外套与外侧承载关系" />
+
+</details>
 
 <span id="承载带穿戴"></span>
 

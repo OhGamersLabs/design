@@ -965,6 +965,56 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/jacket-v2-fresh-cel-back-v1.png",
+      "sha256": "6888398b35fe40204a1479cdae1e6c56c20cc43acd1803768dd4a8c41c02b879",
+      "size": 1564544,
+      "contentType": "image/png",
+      "downloadName": "jacket-v2-fresh-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/jacket-v2-fresh-cel-front-v1.png",
+      "sha256": "602387513e2a4da47851dbb757a0711d13e5c2367e86619cd5bd895527513496",
+      "size": 1668268,
+      "contentType": "image/png",
+      "downloadName": "jacket-v2-fresh-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/jacket-v2-fresh-cel-side-v1.png",
+      "sha256": "e8fd7e882eacaff17ec114c65c456203aa7bef942624e5b27206dced446c1cee",
+      "size": 1597613,
+      "contentType": "image/png",
+      "downloadName": "jacket-v2-fresh-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/jacket-v2-layer6-construction-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/jacket-v2-layer6-construction-v1.png",
+      "sha256": "4454e14a698ffca56f6b0668eb2702711ce4464c356cec0d1c4e4e6e6a2058e3",
+      "size": 1376700,
+      "contentType": "image/png",
+      "downloadName": "jacket-v2-layer6-construction-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/jacket-v2-layer6-details-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/jacket-v2-layer6-details-v1.png",
+      "sha256": "5aa0326acaa1b96a0a57d30bbab384a3aa7e38c296b60af587739ef4a9ff50c3",
+      "size": 1555546,
+      "contentType": "image/png",
+      "downloadName": "jacket-v2-layer6-details-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/outfit-pose-current.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/outfit-pose-current.png",
       "sha256": "c896bd1ed2448503a4ec0997b3475ba2e232230bc059d43b6ad2ea93f6ed710f",
@@ -1067,8 +1117,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "8a21eb4ddd25b28d77961a9cec5e89303f2741c1f0216377d8c6f43e07127ead",
-      "size": 144674882,
+      "sha256": "f8519f4f8375f152982b829b3b24dd7289d58363f584ca734efe033401b491bb",
+      "size": 151309399,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

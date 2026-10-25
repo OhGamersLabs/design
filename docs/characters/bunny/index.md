@@ -9,7 +9,7 @@ aside: true
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)与[腿部装备](/characters/bunny/thigh-gear)六组三视共十八张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。本次新增腿部层正、侧、背三张完整人物及任务终端与腿带、维护盒袋与内容物两张部件板。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外套及之后的衣层尚未同步。旧鞋、旧手部、旧腿部资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)与[橙色外套](/characters/bunny/jacket)七组三视共二十一张完整人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。本次新增外套层正、侧、背三张完整人物及独立三视与外部分解、局部细节两张板，采用普通前开口领，纯白 OG 连环品牌图形位于左袖功能袋袋身正面中央，领前不再使用 OG 圆牌。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；外侧承载带及之后的衣层尚未同步。旧鞋、旧手部、旧腿部、旧外套资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
 
 ## 本轮补充
 
