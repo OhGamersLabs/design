@@ -8,7 +8,7 @@ aside: true
 白色上衣与红色短裤的固定图面尺寸见[服装尺寸规范](/characters/bunny/dimensions#garment-dimensions)：衣长、裤腰截宽、裆部投影与裤脚分别标定，后续衣层沿用同一标准。
 
 ::: info 第一层衣层 · 白色上衣与红色短裤
-本轮以[当前 v2 完整新绘基模](/characters/bunny/body-base)和[图面尺寸](/characters/bunny/dimensions)为依据，从空白画布分别绘制三张完整穿着稿。白色上衣与红色短裤的两张既有结构板继续保留作结构参考，本轮没有重绘结构板。本页处理白色上衣与红色短裤，[袜装层](/characters/bunny/hosiery)、[鞋靴层](/characters/bunny/shoes)、[手部层](/characters/bunny/hands)、[腿部层](/characters/bunny/thigh-gear)和[外套层](/characters/bunny/jacket)另有穿着三视与匹配结构资料，外侧承载带及之后的衣层尚未同步。旧03、04、05折叠保留，供回溯款式来源。
+本轮以[当前 v2 完整新绘基模](/characters/bunny/body-base)和[图面尺寸](/characters/bunny/dimensions)为依据，从空白画布分别绘制三张完整穿着稿。白色上衣与红色短裤的两张既有结构板继续保留作结构参考，本轮没有重绘结构板。本页处理白色上衣与红色短裤，[袜装层](/characters/bunny/hosiery)、[鞋靴层](/characters/bunny/shoes)、[手部层](/characters/bunny/hands)、[腿部层](/characters/bunny/thigh-gear)和[外套层](/characters/bunny/jacket)另有穿着三视与匹配结构资料，吊带系统已取消，后续[裤腰皮带](/characters/bunny/harness)与[头装累计人物](/characters/bunny/headgear#headgear-wearing)已采用无吊带方案。旧03、04、05折叠保留，供回溯款式来源。
 :::
 
 ## 第一层穿着三视 {#layer1-wearing}

@@ -18,7 +18,7 @@ import braComparison from './body-bra-comparison.json'
 
 三张 1024×1536 PNG 分别放大与下载。本轮正面按新[中性头部样板](/characters/bunny/face)完整重绘，修正耳部连接与耳旁发束的颜色归属；侧背保持已确认稿。[16格表情](/characters/bunny/expressions)同步复核耳发与画风。[图面尺寸与比例](/characters/bunny/dimensions#current-body-measurements)中的正面取点已按对应新原图重新读取，侧背记录保持；实际厘米身高尚未设定，不换算围度或杯码。
 
-[第一层白色上衣与红色短裤](/characters/bunny/innerwear)及[袜装层](/characters/bunny/hosiery)各提供三张完整新绘穿着稿，既有结构资料保持；[鞋靴层](/characters/bunny/shoes)现有完整穿着三视及独立结构板，[手部层](/characters/bunny/hands)现有穿着三视及手套、腕部设备两张部件板，[腿部层](/characters/bunny/thigh-gear)现有穿着三视及终端、维护袋部件资料，[外套层](/characters/bunny/jacket)现有穿着三视及独立结构、局部细节两张板，外侧承载带及之后的衣层尚未同步。
+[第一层白色上衣与红色短裤](/characters/bunny/innerwear)及[袜装层](/characters/bunny/hosiery)各提供三张完整新绘穿着稿，既有结构资料保持；[鞋靴层](/characters/bunny/shoes)现有完整穿着三视及独立结构板，[手部层](/characters/bunny/hands)现有穿着三视及手套、腕部设备两张部件板，[腿部层](/characters/bunny/thigh-gear)现有穿着三视及终端、维护袋部件资料，[外套层](/characters/bunny/jacket)现有穿着三视及独立结构、局部细节两张板，吊带系统已取消，后续[裤腰皮带](/characters/bunny/harness)与[头装累计人物](/characters/bunny/headgear#headgear-wearing)已采用无吊带方案。
 :::
 
 ## 三张完整人物工作稿

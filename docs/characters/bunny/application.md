@@ -9,28 +9,28 @@ aside: true
 
 ## 身份与比例
 
-<ul><li>以<a href="/characters/bunny/face">面部与身份</a>的银白发、蓝色眼睛、发束和五官位置为准；<a href="/characters/bunny/expressions">当前身份表情集</a>提供已按现行脸型、瞳色与发束校准的情绪变化；历史表情折叠保留供回溯。</li><li>正侧背结构图使用一致站位与比例。人物尺寸的 H 是可见发冠到赤脚地面，不含头部装备与鞋底；双匕首单把总长目标为当前正面基准 H0 的 0.22，主对已有板内读数，尚未完成与人物的对位。详见<a href="/characters/bunny/dimensions">人物统一尺寸</a>与<a href="/characters/bunny/dimensions#assassin-daggers-dimensions">双匕首设计目标</a>。</li><li>动作、透视与原稿同姿势表现可以改变屏幕上的投影长度，不能据此改动人物基准或把所有视角强行拉伸成同宽。</li></ul>
+<ul><li>以<a href="/characters/bunny/face">面部与身份</a>的银白发、蓝色眼睛、发束和五官位置为准；<a href="/characters/bunny/expressions">当前身份表情集</a>提供已按现行脸型、瞳色与发束校准的情绪变化；历史表情折叠保留供回溯。</li><li>正侧背结构图使用一致站位与比例。人物尺寸的 H 是可见发冠到赤脚地面，不含头部装备与鞋底；双匕首单把总长目标为当前正面基准 H0 的 0.22，两把各具完整造型，尚未完成与人物的对位。详见<a href="/characters/bunny/dimensions">人物统一尺寸</a>与<a href="/characters/bunny/dimensions#assassin-daggers-dimensions">双匕首设计目标</a>。</li><li>动作、透视与原稿同姿势表现可以改变屏幕上的投影长度，不能据此改动人物基准或把所有视角强行拉伸成同宽。</li></ul>
 
 ## 左右侧装备
 
 所有左右都以角色自身为准，不随画面朝向交换。
 
-<ul><li>角色左腿为橙色长袜，右腿为白色短袜；右大腿配置任务终端与维护盒袋。见<a href="/characters/bunny/hosiery">袜装</a>与<a href="/characters/bunny/thigh-gear">腿部装备</a>。</li><li>角色右手为全指手套与红色腕环，左手为露指手套与橙色腕部设备。见<a href="/characters/bunny/hands">手部装备</a>。</li><li>正背切换或镜像检查时，以部件实际归属侧复核，不直接沿用画面左、右位置。</li></ul>
+<ul><li>角色左腿为橙色长袜，右腿为白色短袜；右大腿配置任务终端与维护盒袋。见<a href="/characters/bunny/hosiery">袜装</a>与<a href="/characters/bunny/thigh-gear">腿部装备</a>。</li><li>角色右手为全指手套与红色腕环，左手为露指手套与橙色腕部设备。见<a href="/characters/bunny/hands">手部装备</a>。</li><li>角色右侧固定墨黑獠牙匕首与深色宽刃鞘，左侧固定骨白匕首与浅色曲鞘。正背切换或镜像检查时，以部件实际归属侧复核，不直接沿用画面左、右位置。</li></ul>
 
 ## 衣层与遮挡
 
-<ul><li>按<a href="/characters/bunny/assembly">衣层与部件阅读顺序</a>核对贴身衣、袜靴、局部装备、外套、内穿承载系统和护目镜。承载带本体图隐去外套，只用于看清带路，不代表实际少穿一层。</li><li>承载带位于白色内搭外、橙色夹克内；固定点、扣件和后腰收纳件应保持连接关系，不能为了展示单件而任意移位。</li><li>护目镜保持露嘴轮廓；当前腿部不添加旧稿护膝。完整衣装见<a href="/characters/bunny/headgear#headgear-wearing">当前护目镜衣层</a>；双匕首单件外观与腰后侧护套概念已完成，完整武器累计三视尚未同步。</li></ul>
+<ul><li>按<a href="/characters/bunny/assembly">衣层与部件阅读顺序</a>核对贴身衣、袜靴、局部装备、外套、裤腰皮带和护目镜。肩带、背部 H 带、胸下带和上衣至腰带连接均已取消。</li><li>黑色皮带穿过红裤裤袢，短护套直接固定在后外腰；挂点应避开后裤袋口与右腿设备。</li><li>护目镜保持露嘴轮廓；当前腿部不添加旧稿护膝。完整衣装见<a href="/characters/bunny/headgear#headgear-wearing">当前护目镜衣层</a>；异构双匕首单件与腰挂方案已有独立概念图，完整武器累计三视尚未同步。</li></ul>
 
 ## 武器与姿势用途
 
-<ul><li>当前武器方向为刺客双匕首，以同款前掠短刃和贴身腰侧短护套组织外观；单件外观与腰后侧护套概念已完成。后续人物图需核对左右手套、腰带与右腿装备的避让，旧大剑和双手棍资料保留为历史。</li><li>中性三视用于结构与覆盖核对，不等于原稿同姿势角色卡。手持或动作表现需要对应的握持、透视与衣物变形，不能把收纳图直接当作已完成的动作参考。</li><li><a href="/characters/bunny/weapon-history">旧版武器尺寸</a>仅作历史回溯，不用于校准当前双匕首。</li></ul>
+<ul><li>当前武器方向为刺客双匕首，以墨黑宽角獠牙与骨白前掠两种整体造型成对，分别由后外腰皮带挂载。后续人物图需核对左右手套、腰带与右腿装备的避让，旧大剑和双手棍资料保留为历史。</li><li>中性三视用于结构与覆盖核对，不等于原稿同姿势角色卡。手持或动作表现需要对应的握持、透视与衣物变形，不能把收纳图直接当作已完成的动作参考。</li><li><a href="/characters/bunny/weapon-history">旧版武器尺寸</a>仅作历史回溯，不用于校准当前双匕首。</li></ul>
 
 ## 此前穿戴动作补图 {#outfit-pose}
 
 <details>
 <summary>旧动作造型 · 含已取消的耳机、兔耳与外穿承载关系</summary>
 
-以下原图保留为历史，不作为当前武器或内穿承载造型。
+以下原图保留为历史，不作为当前武器或无吊带造型。
 
 <ReleaseImage src="/characters/bunny/3.1.0/outfit-pose-current.webp" original="/media/bunny/3.1.0/outfit-pose-current.png" alt="Bunny 历史穿戴动作补图：左手叉腰，右手自然下垂，无武器" caption="历史穿戴动作补图 · 左手叉腰 / 右手自然下垂" />
 

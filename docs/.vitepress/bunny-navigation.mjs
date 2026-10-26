@@ -77,7 +77,7 @@ export const bunnySections = [
         "link": "/characters/bunny/jacket"
       },
       {
-        "text": "承载带与固定点",
+        "text": "裤腰皮带与挂点",
         "link": "/characters/bunny/harness"
       },
       {

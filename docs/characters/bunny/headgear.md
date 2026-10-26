@@ -7,9 +7,28 @@ aside: true
 
 当前头装只保留护目镜，取消耳机、兔耳配饰和独立头箍。护目镜采用柔圆白框、烟灰镜片、小橙侧扣与一条绕后脑的细黑弹性镜带。默认抬至额头佩戴，露出眼睛、鼻子和嘴部。
 
-本层在[内穿承载系统](/characters/bunny/harness#harness-wearing)的累计人物上加入护目镜，白色内搭 → 承载系统 → 橙色夹克的覆盖顺序保持。正、右侧、背面三张完整人物、四格头部近景及护目镜拆解均为完整新绘；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已提供单件外观与腰后侧护套概念，完整武器累计三视尚未同步；原有大剑、双手棍资料保留为历史。
+本层在[裤腰皮带层](/characters/bunny/harness#belt-wearing)加入护目镜；白色内搭与橙色夹克之间不再穿吊带。四格头部近景与护目镜独立结构保持原件，完整人物三视已采用无吊带方案。武器另见[异色双匕首](/characters/bunny/weapon#assassin-daggers-concept)，不把局部携行概念当作完整武器累计三视。
 
 ## 累计穿戴三视 {#headgear-wearing}
+
+### 正面
+
+<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.webp" original="/media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png" alt="护目镜与裤腰皮带 · 无吊带 · 正面" caption="护目镜与裤腰皮带 · 无吊带 · 正面" />
+
+### 右侧面
+
+<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.webp" original="/media/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.png" alt="护目镜与裤腰皮带 · 无吊带 · 右侧面" caption="护目镜与裤腰皮带 · 无吊带 · 右侧面" />
+
+### 背面
+
+<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.webp" original="/media/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png" alt="护目镜与裤腰皮带 · 无吊带 · 背面" caption="护目镜与裤腰皮带 · 无吊带 · 背面" />
+
+<details>
+<summary>此前含吊带的护目镜累计三视 · 历史方案</summary>
+
+以下人物保留当时的胸下带、垂直连接和金属钩，已不作为当前腰部装备依据。
+
+## 此前护目镜累计人物 {#headgear-before-belt-wearing}
 
 ### 正面
 
@@ -22,6 +41,9 @@ aside: true
 ### 背面
 
 <ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-only-cel-back-v1.webp" original="/media/bunny/3.1.0/goggles-v2-only-cel-back-v1.png" alt="完整新绘 · 仅护目镜 · 额头佩戴 · 背面" caption="v2 · 仅护目镜 · 背面" />
+
+
+</details>
 
 ## 头部穿戴近景 {#headgear-closeup}
 

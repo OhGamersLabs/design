@@ -1,9 +1,48 @@
 ---
-title: "承载带与固定点"
+title: "裤腰皮带与挂点"
 releaseReady: false
 aside: true
 ---
-# 承载带与固定点
+# 裤腰皮带与挂点
+
+当前只保留穿过红裤裤袢的一圈黑色皮带。上身由白色内搭与橙色夹克自然叠穿；肩带、背部 H 带、胸下横带以及从上衣连到腰带的垂直带段、金属钩全部取消。原前侧橙色吊带锚点也不再保留。
+
+双匕首的两只短护套分别直接固定在后外腰皮带，角色右侧配墨黑匕首，左侧配骨白匕首。腰挂位置避开后裤袋口，并与右腿终端和维护袋分开，详见[双匕首携行方案](/characters/bunny/weapon#dagger-carry)。
+
+## 腰带累计穿戴三视 {#harness-wearing}
+
+<span id="belt-wearing"></span>
+<span id="承载带穿戴"></span>
+
+### 正面
+
+<ReleaseImage src="/characters/bunny/3.1.0/belt-v2-only-cel-front-v1.webp" original="/media/bunny/3.1.0/belt-v2-only-cel-front-v1.png" alt="裤腰皮带 · 无吊带 · 正面" caption="裤腰皮带 · 无吊带 · 正面" />
+
+### 右侧面
+
+<ReleaseImage src="/characters/bunny/3.1.0/belt-v2-only-cel-side-v1.webp" original="/media/bunny/3.1.0/belt-v2-only-cel-side-v1.png" alt="裤腰皮带 · 无吊带 · 右侧面" caption="裤腰皮带 · 无吊带 · 右侧面" />
+
+### 背面
+
+<ReleaseImage src="/characters/bunny/3.1.0/belt-v2-only-cel-back-v1.webp" original="/media/bunny/3.1.0/belt-v2-only-cel-back-v1.png" alt="裤腰皮带 · 无吊带 · 背面" caption="裤腰皮带 · 无吊带 · 背面" />
+
+## 皮带与直接挂点 {#belt-components}
+
+<ReleaseImage src="/characters/bunny/3.1.0/belt-v2-only-components-v1.webp" original="/media/bunny/3.1.0/belt-v2-only-components-v1.png" alt="裤腰皮带 · 部件与直接挂点" caption="裤腰皮带 · 部件与挂点示意" />
+
+| 图中标记 | 中文说明 |
+| --- | --- |
+| BELT | 一圈黑色皮带与收尾环。 |
+| BUCKLE | 腰前黑色扣件。 |
+| LOOPS | 皮带穿过红裤裤袢，后袋口保持可见。 |
+| DIRECT MOUNT | 直接装在皮带上的空槽挂夹；右侧是另一视角，不是增加一个部件。 |
+
+皮带与挂点说明外观和连接位置，不能据此推断制造尺寸或动态间隙。身体、白衣、红裤和夹克的既定尺寸继续参照[身体与服装规范](/characters/bunny/dimensions)。
+
+<details>
+<summary>此前吊带承载系统 · 已取消</summary>
+
+以下保留曾采用的内穿、外穿与硬件资料。文字和图面说明的是当时方案；当前不再使用肩带、H 形背带、胸下带或上衣至腰带的吊挂连接。
 
 承载系统穿在白色内搭外、橙色夹克内，腰带仍位于原红裤裤腰区域并穿过红色裤袢。新绘正、右侧、背面三张累计穿戴图和一张层次关系板说明覆盖位置，保留当前头部、衣裤与其他装备。承载带本体未改，独立结构、扣件与腰部锚点三张板沿用原件。[头部装备层](/characters/bunny/headgear#headgear-wearing)已有累计三视与部件图；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已提供单件外观与腰后侧护套概念，完整武器累计三视尚未同步；原有大剑、双手棍资料保留为历史。
 
@@ -11,9 +50,9 @@ aside: true
 
 [双匕首腰后侧护套](/characters/bunny/weapon#dagger-carry)另示新增挂夹与短护套的局部关系；下方原承载带三视和硬件原件保持，未把新接口补画进旧图。
 
-## 累计穿戴三视 {#harness-wearing}
+## 此前吊带累计三视 {#harness-before-belt-wearing}
 
-<span id="承载带穿戴"></span>
+
 
 ### 正面
 
@@ -111,5 +150,7 @@ aside: true
 <ReleaseImage src="/characters/bunny/3.1.0/20-carrier-details.webp" original="/media/bunny/3.1.0/20-carrier-details.png" alt="承载带扣件细节" caption="承载带扣件细节" />
 
 <ReleaseImage src="/characters/bunny/3.1.0/21-carrier-details.webp" original="/media/bunny/3.1.0/21-carrier-details.png" alt="腰带与固定点" caption="腰带与固定点" />
+
+</details>
 
 </details>

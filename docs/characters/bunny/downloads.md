@@ -31,7 +31,7 @@ aside: true
 
 </details>
 
-基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，新绘累计三视与层次关系板，三张硬件板保持；头部装备层补齐仅护目镜的累计三视、四格近景与拆解板；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已提供单件外观与腰后侧护套概念，完整武器累计三视尚未同步；原有大剑、双手棍资料保留为历史。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
+基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；吊带系统已取消，腰带与头装累计三视已完整重绘；护目镜四格近景与拆解板保留；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已有异构双刀与直接挂腰带的护套，完整武器累计三视尚未完成；原有大剑、双手棍资料保留为历史。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 本轮按同视角基模完整重绘鞋靴、手部、腿部、夹克四层的 12 张人物及袜装背面，核对头部发色、深色轮廓与赛璐璐分面；既定尺寸规范和结构细节板保持。各新图测量绑定自身坐标，遮挡与数值不确定项仍单列。
 
@@ -322,7 +322,7 @@ aside: true
 - [v2 · 外套独立三视与外部分解 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-construction-v1.png)
 - [v2 · 外套局部细节 · 原始 PNG](/media/bunny/3.1.0/jacket-v2-highlow-details-v1.png)
 
-当前夹克前襟略盖白衣、后中露窄白边，衣长与露边见[服装尺寸规范](/characters/bunny/dimensions#garment-dimensions)。采用普通前开口领，领前不带 OG 圆牌；左上臂保留功能翻盖袋，纯白 OG 连环品牌图形位于袋身正面中央，右袖不复制。本页夹克款式图不含承载带，完整内穿关系另见承载带页。两张板说明外部缝合与可见细节，不是生产纸样。
+当前夹克前襟略盖白衣、后中露窄白边，衣长与露边见[服装尺寸规范](/characters/bunny/dimensions#garment-dimensions)。采用普通前开口领，领前不带 OG 圆牌；左上臂保留功能翻盖袋，纯白 OG 连环品牌图形位于袋身正面中央，右袖不复制。本页夹克款式图不含腰带，裤腰皮带与挂点另见腰带页。两张板说明外部缝合与可见细节，不是生产纸样。
 
 <details>
 <summary>前长后短修订前 · 上一版短外套五图</summary>
@@ -348,7 +348,17 @@ aside: true
 
 </details>
 
-## 承载带与固定点 {#harness-assets}
+## 裤腰皮带与挂点 {#harness-assets}
+
+- [裤腰皮带 · 正面原始 PNG](/media/bunny/3.1.0/belt-v2-only-cel-front-v1.png)
+- [裤腰皮带 · 右侧面原始 PNG](/media/bunny/3.1.0/belt-v2-only-cel-side-v1.png)
+- [裤腰皮带 · 背面原始 PNG](/media/bunny/3.1.0/belt-v2-only-cel-back-v1.png)
+- [裤腰皮带 · 部件与挂点原始 PNG](/media/bunny/3.1.0/belt-v2-only-components-v1.png)
+
+<details>
+<summary>此前内穿／外穿吊带及硬件 · 已取消</summary>
+
+## 此前吊带与固定点原件
 
 - [v2 · 内穿承载带 · 正面 PNG](/media/bunny/3.1.0/harness-v2-inner-cel-front-v1.png)
 - [v2 · 内穿承载带 · 右侧面 PNG](/media/bunny/3.1.0/harness-v2-inner-cel-side-v1.png)
@@ -378,15 +388,28 @@ aside: true
 
 </details>
 
+
+</details>
+
 ## 头部装备 {#headgear-assets}
 
-- [v2 · 护目镜累计正面 PNG](/media/bunny/3.1.0/goggles-v2-only-cel-front-v2.png)
-- [v2 · 护目镜累计右侧面 PNG](/media/bunny/3.1.0/goggles-v2-only-cel-side-v1.png)
-- [v2 · 护目镜累计背面 PNG](/media/bunny/3.1.0/goggles-v2-only-cel-back-v1.png)
+- [护目镜与裤腰皮带 · 正面原始 PNG](/media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png)
+- [护目镜与裤腰皮带 · 右侧面原始 PNG](/media/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.png)
+- [护目镜与裤腰皮带 · 背面原始 PNG](/media/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png)
+
 - [v2 · 护目镜四格穿戴近景 PNG](/media/bunny/3.1.0/goggles-v2-only-wearing-closeup-v2.png)
 - [v2 · 护目镜独立结构与拆解 PNG](/media/bunny/3.1.0/goggles-v2-only-components-v1.png)
 
 当前只保留护目镜，默认抬至额头；耳机、兔耳配饰和独立头箍已取消。近景说明额头与眼前两个佩戴位置，独立板说明部件关系，见[头部装备页](/characters/bunny/headgear)。
+
+<details>
+<summary>此前含吊带的护目镜累计人物</summary>
+
+- [v2 · 护目镜累计正面 PNG](/media/bunny/3.1.0/goggles-v2-only-cel-front-v2.png)
+- [v2 · 护目镜累计右侧面 PNG](/media/bunny/3.1.0/goggles-v2-only-cel-side-v1.png)
+- [v2 · 护目镜累计背面 PNG](/media/bunny/3.1.0/goggles-v2-only-cel-back-v1.png)
+
+</details>
 
 <details>
 <summary>原25—29 · 已取消耳机和兔耳的旧头装方案</summary>
@@ -399,10 +422,26 @@ aside: true
 
 ## 刺客双匕首 · 原图下载 {#assassin-dagger-assets}
 
+- [异构双匕首 · 单件外观原始 PNG](/media/bunny/3.1.0/assassin-daggers-twin-concept-v1.png)
+
+- [异构双匕首 · 后外腰护套携行原始 PNG](/media/bunny/3.1.0/assassin-daggers-twin-belt-carry-v1.png)
+
+当前提供单件外观与腰后侧携行概念，完整武器累计三视、实际握持与动态间隙尚未完成。
+
+[查看当前方案与参考](/characters/bunny/weapon#assassin-daggers-concept) · [名义尺度](/characters/bunny/dimensions#assassin-daggers-dimensions)。第三方参考照片只保留官方外链。
+
+<details>
+<summary>此前同款双刀与吊带携行 · 历史原件</summary>
+
+## 此前同款双匕首原件
+
 - [同款双匕首与EDGE侧面结构示意 · 原始PNG](/media/bunny/3.1.0/assassin-daggers-concept-v1.png)
 - [腰后侧携行与独立短护套示意 · 原始PNG](/media/bunny/3.1.0/assassin-daggers-waist-sheaths-v1.png)
 
 [查看外观概念与参考](/characters/bunny/weapon#assassin-daggers-concept) · [名义尺寸与图面读数](/characters/bunny/dimensions#assassin-daggers-dimensions)。两张均保留完整生图原件。EDGE与放大的护套单件各有独立显示比例；携行图为局部外观方案，尚无新的完整人物三视或动态验证。第三方参考照片只保留官方外链。
+
+
+</details>
 
 <details>
 <summary>此前黑曜石感大剑 · 历史原件</summary>

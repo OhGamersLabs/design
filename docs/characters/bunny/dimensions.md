@@ -37,7 +37,24 @@ import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
 
 [下载服装规范 JSON 与标尺 SVG](/characters/bunny/downloads#garment-dimensions) · [白衣红裤原图](/characters/bunny/innerwear) · [夹克设计](/characters/bunny/jacket)
 
-## 刺客双匕首 · 名义尺寸与图面读数 {#assassin-daggers-dimensions}
+## 刺客双匕首 · 名义尺度 {#assassin-daggers-dimensions}
+
+**H0=1475 px**，对应当前正面基模的可见发冠至赤脚地面（y=25→1500）；同图头高 **h0=225 px**。像素只用于绑定这张基准，厘米身高尚未设定。
+
+| 项目 | 当前设计定义 | 适用范围 |
+| --- | --- | --- |
+| 角色右侧匕首 | 墨黑宽角獠牙刃，名义总长 0.22H0 | 刃、护手、柄与尾分别按右侧整件设计 |
+| 角色左侧匕首 | 骨白前掠弧刃，名义总长 0.22H0 | 刃、护手、柄与尾分别按左侧整件设计 |
+| 护套位置 | 各自匹配刀形，直接固定后外腰皮带 | 角色右黑、左骨白；不连接上衣 |
+
+两把在单件板内以相近的整长展示，柄刃分区分别设计。0.22H0 是后续人物绘制的名义尺度；当前单件板没有人物，尚未验证身高对位。实际可握长度、厚度与动态间隙另行核对。
+
+[查看双匕首方案](/characters/bunny/weapon#assassin-daggers-concept)。身体与服装规范保持；以下均为历史武器记录。
+
+<details>
+<summary>此前同款双匕首 · 历史图面读数</summary>
+
+## 刺客双匕首 · 名义尺寸与图面读数 {#identical-daggers-historical-measurements}
 
 **H0=1475 px**，对应当前正面基模的可见发冠至赤脚地面（y=25→1500）；同图头高 **h0=225 px**。像素只用于绑定这张基准，厘米身高尚未设定。
 
@@ -55,6 +72,9 @@ import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
 首轮刀刃0.13H0、柄部总段0.09H0属于未校核的分段试设，不作为当前图面观测或达标结论；实际可握长度、刃宽与厚度尚未定量验证。
 
 [查看双匕首原图与参考](/characters/bunny/weapon#assassin-daggers-concept)。身体和服装尺寸保持，以下旧武器数值只作历史回溯。
+
+
+</details>
 
 <details>
 <summary>此前黑曜石感大剑 · 历史尺寸，不用于双匕首</summary>

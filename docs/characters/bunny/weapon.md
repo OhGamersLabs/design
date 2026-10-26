@@ -5,7 +5,49 @@ aside: true
 ---
 # 刺客双匕首
 
-## 同款前掠短刃 · 外观概念 {#assassin-daggers-concept}
+## 墨黑与骨白 · 整体异构的成对短刃 {#assassin-daggers-concept}
+
+Bunny 以刺客定位使用两把各具完整造型的短匕首：角色右侧为墨黑宽角獠牙刃，左侧为骨白前掠弧刃。两把的刃形、护手、握柄与柄尾分别设计，通过少量红橙点和共同的手绘赛璐璐画风保持成对关系。
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-twin-concept-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-twin-concept-v1.png" alt="异构双匕首 · 右墨黑宽角獠牙与左骨白曲刃" caption="整体异构双匕首 · 独立外观概念" />
+
+墨黑刀以宽角刃肩、凹收腰与偏置尖端形成獠牙轮廓，配不对称护手、硬分段柄和带橙色细槽的黑色异形柄尾。骨白刀保留前掠弧刃，配弧形护手、带浅色嵌条的流线黑柄，以及点有橙色小标的白色水滴柄尾。
+
+两把名义总长均为 **0.22H0**，H0 沿用当前基模发冠至赤脚地面高度。这个数值是后续人物绘制的尺度目标，详见[双匕首尺寸口径](/characters/bunny/dimensions#assassin-daggers-dimensions)。
+
+## 腰后侧直接挂载 {#dagger-carry}
+
+两只短鞘分别匹配各自刀形，直接固定在一圈黑色裤腰皮带上：角色右后外腰为深色宽刃鞘，左后外腰为浅色曲鞘。上身不再有肩带、H 形背带、胸下带或连到腰带的垂直带段与金属钩。
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-twin-belt-carry-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-twin-belt-carry-v1.png" alt="异构双匕首 · 后外腰皮带直挂与封端护套" caption="后外腰携行概念 · 角色右墨黑、左骨白" />
+
+两只不透明厚壳护套包住刃部，顶部保留独立鞘口，底端封闭圆钝；护手位于鞘口上方，仍属于匕首本体。深色宽鞘对应墨黑獠牙刃，浅色曲鞘对应骨白弧刃。板右侧另示深色入鞘状态和浅色空鞘口，采用独立放大比例。
+
+人物局部保持后裤袋口、左右手套与右腿两件设备可辨。右鞘靠近上方终端，当前只说明可见挂载关系；尚无双匕首完整累计三视。
+
+护套需避开后裤袋口、右腿终端显示面与维护袋；动态间隙、抽取路径和实际握持另行核对，不以局部携行概念替代工程验证。
+
+[裤腰皮带与挂点](/characters/bunny/harness#belt-components) · [右腿装备](/characters/bunny/thigh-gear#thigh-wearing) · [当前原图下载](/characters/bunny/downloads#assassin-dagger-assets)
+
+## 参考与提炼 {#dagger-references}
+
+以下观察来自官方授权模型的可见造型；“用于 Bunny 的提炼”是本设计的选择，不是原作官方设定。照片仅作外链研究，不作为 Bunny 原创素材或下载包内容。
+
+| 官方来源 | 可见造型观察 | 用于 Bunny 的提炼 |
+| --- | --- | --- |
+| [《香格里拉·开拓异境》桑乐 · 魂ウェブ](https://tamashiiweb.com/item/14790/) | 红色近直短刃与青绿反曲短刃形成鲜明差别；另一套黑白宽弧短刃通过共享柄部、根部折线形成同族关系。 | 用黑白对比和不同刃形建立成对识别，Bunny 的两把匕首各有完整造型。 |
+| [《地城邂逅 IV》贝尔 · Good Smile](https://www.goodsmile.info/ja/product/14380/POP%2BUP%2BPARADE%2B%E3%83%99%E3%83%AB%2B%E3%82%AF%E3%83%A9%E3%83%8D%E3%83%AB.html) | 青白曲刃从外扩根部收腰，另一把黑色短直刃配小护手；两者都保持紧凑的柄刃关系。 | 控制护手与柄尾的体量，同时让两把武器的刃、护手和柄尾各具差别。 |
+| [《我独自升级》水篠旬 · SEGA](https://segaplaza.jp/prize/D122440/) | 该图可见一把黑色主体、红色刃缘与偏置尖端的短刃。 | 提炼集中、清楚的色块与尖端方向；配色回到 Bunny 的黑红与小橙点。 |
+
+[查看尺寸目标](/characters/bunny/dimensions#assassin-daggers-dimensions) · [原图下载状态](/characters/bunny/downloads#assassin-dagger-assets)
+
+
+<details>
+<summary>此前同款双匕首与吊带携行 · 历史方案</summary>
+
+以下为当时同款双份与吊带连接方案，旧图和读数原样保留。它们不定义当前异形双刀或新的皮带挂点。
+
+## 同款前掠短刃 · 外观概念 {#assassin-daggers-identical-history}
 
 Bunny 的职业定位改为刺客，武器改用两把同款短匕首。前掠尖端、紧凑外弧与浅收腰构成一眼可辨的成对轮廓；短护手和收敛的柄尾让外形保持轻巧。暗灰刃体、银灰刃面与局部红色凹面配合红领、黑柄和橙色尾标，呼应当前橙红衣装，画法继续采用日系手绘线稿与赛璐璐色块。
 
@@ -17,7 +59,7 @@ Bunny 的职业定位改为刺客，武器改用两把同款短匕首。前掠�
 
 单把总长名义定义为 **0.22H0**。H0 沿用当前基模发冠至赤脚地面的高度；此板没有人物，尚未验证与身高基准的对位，详见[双匕首尺寸口径](/characters/bunny/dimensions#assassin-daggers-dimensions)。
 
-## 腰后侧携行与短护套 {#dagger-carry}
+## 腰后侧携行与短护套 {#dagger-carry-before-belt-only}
 
 <ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-waist-sheaths-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-waist-sheaths-v1.png" alt="刺客双匕首 · 腰后侧双护套携行与独立护套示意" caption="腰后侧携行概念 · 右侧单件为放大示意" />
 
@@ -29,17 +71,8 @@ Bunny 的职业定位改为刺客，武器改用两把同款短匕首。前掠�
 
 [腰带与固定点](/characters/bunny/harness#harness-waist-anchors) · [右腿装备](/characters/bunny/thigh-gear#thigh-wearing) · [下载两张原件](/characters/bunny/downloads#assassin-dagger-assets)
 
-## 参考与提炼 {#dagger-references}
 
-以下观察来自官方授权模型的可见造型；“用于 Bunny 的提炼”是本设计的选择，不是原作官方设定。照片仅作外链研究，不作为 Bunny 原创素材或下载包内容。
-
-| 官方来源 | 可见造型观察 | 用于 Bunny 的提炼 |
-| --- | --- | --- |
-| [《香格里拉·开拓异境》桑乐 · 魂ウェブ](https://tamashiiweb.com/item/14790/) | 红色近直短刃与青绿反曲短刃形成鲜明差别；另一套黑白宽弧短刃通过共享柄部、根部折线形成同族关系。 | 用前掠外弧和统一柄部建立成对识别，Bunny 采用同款双份。 |
-| [《地城邂逅 IV》贝尔 · Good Smile](https://www.goodsmile.info/ja/product/14380/POP%2BUP%2BPARADE%2B%E3%83%99%E3%83%AB%2B%E3%82%AF%E3%83%A9%E3%83%8D%E3%83%AB.html) | 青白曲刃从外扩根部收腰，另一把黑色短直刃配小护手；两者都保持紧凑的柄刃关系。 | 简化护手与柄尾，以刃部轮廓承担主要识别。 |
-| [《我独自升级》水篠旬 · SEGA](https://segaplaza.jp/prize/D122440/) | 该图可见一把黑色主体、红色刃缘与偏置尖端的短刃。 | 提炼集中、清楚的色块与尖端方向；配色回到 Bunny 的黑红与小橙点。 |
-
-[查看尺寸目标](/characters/bunny/dimensions#assassin-daggers-dimensions) · [原图下载状态](/characters/bunny/downloads#assassin-dagger-assets)
+</details>
 
 <details>
 <summary>此前黑曜石感大剑 · 已停止使用的方案</summary>

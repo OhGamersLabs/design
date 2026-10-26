@@ -5,7 +5,7 @@ aside: true
 ---
 # 武器累计资料
 
-当前武器方向为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已提供单件外观与腰后侧护套概念，累计三视尚未同步。已完成的当前衣层见[护目镜累计三视](/characters/bunny/headgear#headgear-wearing)，覆盖顺序保持白色内搭 → 承载系统 → 橙色夹克。
+当前武器方向为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已有异构双刀与直接腰挂护套，累计三视尚未完成。无吊带衣层见[护目镜累计三视](/characters/bunny/headgear#headgear-wearing)，上身为白色内搭 → 橙色夹克，腰部只保留一圈黑皮带。
 
 以下双手棍图保留为前方案资料，不用于表示双匕首的尺寸或持有方式。
 

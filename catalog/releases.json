@@ -365,12 +365,72 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-twin-belt-carry-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-twin-belt-carry-v1.png",
+      "sha256": "8063579cf9f9bce234e40101f5fd6dc291f8077e8d1b7c74ce19ebefefff3899",
+      "size": 1604583,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-twin-belt-carry-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-twin-concept-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-twin-concept-v1.png",
+      "sha256": "25642b922d3eaf190e6479b7b3a211d66a4254ebad7638ca3935988d57c13a45",
+      "size": 1082072,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-twin-concept-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/assassin-daggers-waist-sheaths-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-waist-sheaths-v1.png",
       "sha256": "4f12bd48f5f5360d5d014520a8aaf2001aa3621095cbefe80df4e2ff19c55ed0",
       "size": 1640390,
       "contentType": "image/png",
       "downloadName": "assassin-daggers-waist-sheaths-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/belt-v2-only-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/belt-v2-only-cel-back-v1.png",
+      "sha256": "a74c999fe7fe933defbba8b2ad56d291eaa9700cc6174cc9a0f600ef8e9352d5",
+      "size": 1168791,
+      "contentType": "image/png",
+      "downloadName": "belt-v2-only-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/belt-v2-only-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/belt-v2-only-cel-front-v1.png",
+      "sha256": "e6f307ad2c6097c39381b5bc1ddc1b104c9cd8cb56c6df0a93881e31614cffa6",
+      "size": 1634488,
+      "contentType": "image/png",
+      "downloadName": "belt-v2-only-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/belt-v2-only-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/belt-v2-only-cel-side-v1.png",
+      "sha256": "a1b334ec6cbc96ecbb9785243c11a21d888b5139da6194c58a1b1d353c7c9d81",
+      "size": 1496786,
+      "contentType": "image/png",
+      "downloadName": "belt-v2-only-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/belt-v2-only-components-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/belt-v2-only-components-v1.png",
+      "sha256": "c63dd8f24d732e12e6a8e0059601e0607e2fcec393ec83d8e60d22422aac171b",
+      "size": 1325501,
+      "contentType": "image/png",
+      "downloadName": "belt-v2-only-components-v1.png"
     },
     {
       "character": "bunny",
@@ -661,6 +721,36 @@
       "size": 1576720,
       "contentType": "image/png",
       "downloadName": "footwear-v2-layer3-construction-v2.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-belt-only-cel-back-v1.png",
+      "sha256": "51015b8332971082138ee50d5c214d9cbb35fa8e024ac5918b19e117a9f715e0",
+      "size": 1611441,
+      "contentType": "image/png",
+      "downloadName": "goggles-v2-belt-only-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
+      "sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
+      "size": 1412316,
+      "contentType": "image/png",
+      "downloadName": "goggles-v2-belt-only-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-belt-only-cel-side-v1.png",
+      "sha256": "7ff6e681c139c965f52d7757a0703c192caa8878fcf5f84ae97225f82d745390",
+      "size": 1138279,
+      "contentType": "image/png",
+      "downloadName": "goggles-v2-belt-only-cel-side-v1.png"
     },
     {
       "character": "bunny",
@@ -1547,8 +1637,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "2c340080b6a6d7ceacedf8e010c2e70ac6d0f46c40213d59f24c9718be54822a",
-      "size": 203350995,
+      "sha256": "a4815f6856c582b1106ebcc946fc3e40fb0c75d15303d207ca60eebd8db58407",
+      "size": 213686081,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },
