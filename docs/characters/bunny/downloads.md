@@ -400,13 +400,20 @@ aside: true
 ## 双手棍 {#staff-assets}
 
 - [双手棍整棍外观 PNG](/media/bunny/3.1.0/staff-v2-single-v1.png)
-- [静态双手持有 PNG](/media/bunny/3.1.0/staff-v2-held-v1.png)
+- [腰前横向双手持棍 PNG](/media/bunny/3.1.0/staff-v2-held-v2.png)
 
 - [自然扶棍 · 正面 PNG](/media/bunny/3.1.0/staff-v2-walking-front-v1.png)
 - [自然扶棍 · 右侧面 PNG](/media/bunny/3.1.0/staff-v2-walking-side-v1.png)
 - [自然扶棍 · 背面 PNG](/media/bunny/3.1.0/staff-v2-walking-back-v1.png)
 
 整棍外观、双手握持与手持随行说明见[双手棍页](/characters/bunny/weapon)。
+
+<details>
+<summary>此前握持稿 · 棍轴线存在偏折</summary>
+
+[此前握持稿 PNG](/media/bunny/3.1.0/staff-v2-held-v1.png)
+
+</details>
 
 <details>
 <summary>此前锯外观与水平收纳 · 历史参考</summary>
