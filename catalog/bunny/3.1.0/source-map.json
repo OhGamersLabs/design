@@ -7869,7 +7869,7 @@
     "baseline_sha256": "7d17ef88dd2152116e9256c807bf3e910e9251b6769c9101f211afa9af96db99",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-thicker-20261026/obsidian-thicker-v1-native.png",
     "source_artifact_sha256": "33764ab9681881230859e447c82a999e8d1e3684c04bbf22842e69b63779fd34",
-    "review_status": "current-thicker-concept-board",
+    "review_status": "historical-thicker-sword-concept",
     "description": "黑曜石感大剑 · 加厚正侧与断口细节概念板",
     "scope": "单件正面、侧面与断口细节已通过概念审查；人物握持、背负与新累计三视尚未绘制，未作工程验证。",
     "method": "built-in image_gen.imagegen; complete board redraw; actual tool PNG copied byte-exact; WebP lossless only",
@@ -7931,6 +7931,200 @@
     "repository_generation_record": {
       "path": "catalog/bunny/3.1.0/generation-sources/obsidian-sword-thicker-concept-v1.json",
       "sha256": "6389df8cc020243cb3db79e1b6d87ad9571a0d785d286f4b073f54122d223fe1"
+    },
+    "superseded_by": "/characters/bunny/weapon#assassin-daggers-concept"
+  },
+  "bunny/assassin-daggers-concept-v1.png": {
+    "page": "/characters/bunny/weapon#assassin-daggers-concept",
+    "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+    "baseline_sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-v2-native.png",
+    "source_artifact_sha256": "13026cc2c00bec65a630f16a4b388ee92b8f1639618acb8e8926211a92a3a00e",
+    "review_status": "current-assassin-daggers-exterior-concept",
+    "description": "刺客双匕首 · 同款前掠短刃外观概念",
+    "scope": "同款双匕首主对与共用EDGE侧面结构示意；EDGE非严格同尺度正投影，不作为厚度尺寸源。名义L=0.22H0，未与人体合绘对位，配套腰侧示意另列。",
+    "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-request-v2.json",
+      "sha256": "0ed1e639f3052ecffb93054bb29d73d1ece0b127c080f5dec2718ff8770cc841"
+    },
+    "request_pointer": "/request",
+    "actual_tool_parameters": {
+      "prompt": "Create an ORIGINAL fantasy game prop design for Bunny's matched TWIN DAGGERS, with clear Japanese anime hand-drawn linework and clean cel color, on a white landscape sheet. Show two identical complete FRONT views side by side at exactly the same scale, points up and both sweeping toward the viewer's right. Beside them, show one complete strict orthographic EDGE view of this same design, aligned tip-to-pommel at the same scale. These are a pair plus their shared side view, not three alternative designs. Small labels only: PAIR and EDGE. No character, hands, sheath, scene, measurements or attack pose.\n\nReference 1 is Bunny's own outfit palette and 2D drawing style; reference 2 is single-gloved-hand size context. References 3-5 are research only: learn paired visual coherence, shallow recurve silhouette, and clear dark-face/edge separation. Invent a new silhouette and detailing. Do not reproduce those characters, photographed weapons, trademark patterns, giant tail hooks, gold ornament or toy rendering.\n\nOriginal silhouette: a compact forward-swept short blade with a modestly offset tip, a controlled convex belly toward the front third and a shallow inward waist near the root. The spine has one clean angular plane transition into the forward sweep. It must have a strong directional silhouette, not a symmetric leaf or centered spear point. The outline is smooth and simple, no teeth, chipped rock, large holes or deep hook. Blade and straight single-hand grip form one coherent rigid object; no kink at the guard. Very short dark trapezoid guard, distinct narrow collar, black wrapped oval grip, low faceted pommel cap. No ring handle or mechanism.\n\nBoth daggers are the exact same model and dimensions. Compact visual scale about .22 of Bunny's hair-crown-to-barefoot height. Blade about 60 percent of complete length; grip, guard and pommel about 40 percent, with a clear usable wrapped single-hand grip about one-third of full length. Blade maximum breadth about one-sixth of full length. In the EDGE view rotate the object ninety degrees: only a slim tapered blade thickness is visible, while the oval grip keeps its believable diameter. Do not squeeze a copy of the broad face into the side view.\n\nCharcoal blade face with two broad structured dark planes and a restrained cool-gray hard bevel. One small sweeping glossy-black facet near the root, no rock-slab texture. A narrow muted oxblood-red inset follows a short section of the spine-side plane, not a glowing outline. Black grip with a narrow dark-red root band; one tiny orange rectangular identity mark on the low pommel. Keep both copies visually consistent. No gem, hanging ornament, extra color stripe or random symbols. Bold economical silhouette, light and agile appearance, crisp clean linework and hard cel boundaries. No soft photoreal shading, cloudy patches, white speckles, veins, particles or noisy distressed texture. All three complete views inside generous white margins.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/item_0000014790_jpg8rEUQ_04.jpg",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/bell-figure-front.jpg",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/jinwoo-sega-large-01.webp"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "kind": "tool-response-data-url",
+      "record": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-tool-response-v2.json",
+        "sha256": "50b2b108f638246cfa353110a6d9086adbb95f5e8d386a6cff4a53062ea392e8"
+      },
+      "pointer": "/image_url",
+      "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-eb65d089-c3db-42bb-b219-af41af8528e1.png",
+      "sha256": "13026cc2c00bec65a630f16a4b388ee92b8f1639618acb8e8926211a92a3a00e"
+    },
+    "tool_output_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-tool-response-v2.json",
+      "sha256": "50b2b108f638246cfa353110a6d9086adbb95f5e8d386a6cff4a53062ea392e8"
+    },
+    "reference_basis": "Actual two Bunny authority images and three official licensed figure research images as ordered in request. Third-party images are references only, not delivered original assets.",
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/review/daggers-v2-qa.json",
+      "sha256": "5e13ea8855f34881f85709409f29590994fc5a7f97b5ee0fe3ae1676113f9a68"
+    },
+    "individual_visual_review": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/review/daggers-v2-qa.json",
+      "sha256": "5e13ea8855f34881f85709409f29590994fc5a7f97b5ee0fe3ae1676113f9a68"
+    },
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-handoff-v2.json",
+      "sha256": "61bf00ce39716cbc56b1a8c855ebbef77cf8502427e710ff8d3580892d15800b"
+    },
+    "nominal_design": {
+      "total_length_over_H0": 0.22,
+      "H0_definition": "Current body crown to barefoot floor, 1475 px on canonical front; no physical centimeters set",
+      "figure_alignment_verified": false
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+        "sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
+        "order": 1,
+        "role": "Current Bunny palette and anime cel style only, not a character to render",
+        "actually_viewed": true
+      },
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.png",
+        "sha256": "341e045496fa25466297645ba9444a6c583e18bbd238de74ca664a24e37d2adb",
+        "order": 2,
+        "role": "Current gloves and single-hand proportion context only, not hand illustration",
+        "actually_viewed": true
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/item_0000014790_jpg8rEUQ_04.jpg",
+        "sha256": "e351612d8b51de7b6f70ffefcc3d3d82e2f2ee90b4778cb2cbfe53237ecd2f4e",
+        "order": 3,
+        "role": "Official licensed Sunraku figure: paired visual coherence only; no black-white copy, tail hook or original ornament",
+        "actually_viewed": true
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/bell-figure-front.jpg",
+        "sha256": "9f0f91052e1db208e3d07a4e61e71640494912fe13358627eb052606edd9cda0",
+        "order": 4,
+        "role": "Official licensed Bell figure: shallow root-waist/belly rhythm only; do not copy the exaggerated cyan silhouette or material",
+        "actually_viewed": true
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/jinwoo-sega-large-01.webp",
+        "sha256": "d848a8afdb0bbf9fc9cff8f729c2e60a5a9a62578a84e379b7c4fb651b2fba0a",
+        "order": 5,
+        "role": "Official SEGA Sung Jinwoo figure: dark face versus clear edge planes only; no serrations, gold ornament, original red pattern or character",
+        "actually_viewed": true
+      }
+    ],
+    "repository_generation_record": {
+      "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-concept-v1.json",
+      "sha256": "a346a939761c05453f231db5aadef8ac97f1634b54b81f893e385ef314c6bcf5"
+    }
+  },
+  "bunny/assassin-daggers-waist-sheaths-v1.png": {
+    "page": "/characters/bunny/weapon#dagger-carry",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-v2-native.png",
+    "baseline_sha256": "707761e0e040fc23e29e3a249624abe763b084d4d9d855bcec413c5795246546",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-v3-native.png",
+    "source_artifact_sha256": "4f12bd48f5f5360d5d014520a8aaf2001aa3621095cbefe80df4e2ff19c55ed0",
+    "review_status": "current-assassin-daggers-waist-carry-concept",
+    "description": "刺客双匕首 · 腰后侧携行与短护套概念",
+    "scope": "腰后侧双护套佩挂与放大的空/入鞘单件示意；人物局部尺为近似估计，不是全身H0实测或动态避让验证。既有腰锚、后袋、右腿设备与原27衣层人物原图保持。",
+    "method": "built-in image_gen.imagegen complete-image redraw; byte-exact PNG copy and lossless WebP only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-request-v3.json",
+      "sha256": "bf2397bbc26666e720158d5d8373d0d034a0510eb8ecf062c4081da7110347ca"
+    },
+    "request_pointer": "/request",
+    "actual_tool_parameters": {
+      "prompt": "Use the image tool to revise the complete FIRST reference sheet. Keep its current character, framing, rear-waist clips, two exposed grips, right-side SHEATH detail panel and clean anime line art. Make one clear size correction to BOTH WAIST-MOUNTED SHEATHS in the LEFT panel.\n\nThe mounted sheath bodies are still too short. Keep both pommel tops at their current height (about y190 in this 1536x1024 composition), and keep the grips, guards and waist attachment points in place. Extend each dark sheath BODY along its existing shallow outward/downward direction. Its tip must visibly reach the height of the orange stocking's upper opening and the lower portion of the right thigh's UPPER device, around y715-730 in this same layout, instead of ending at the shorts hem around y638. Complete pommel-to-sheath-tip length should now read about545-560 pixels in this layout. These image landmarks guide this edit only; do not print numbers.\n\nKeep the SHEATH TIPS at the REAR-OUTER hips/thighs: the left sheath stays just outside the orange sock side; the right sheath passes OUTSIDE AND BEHIND the upper right thigh device, with a clearly visible white/skin gap from the device and from the relaxed right hand. Do not move, shrink, obscure or redesign the two thigh devices or leg bands. Maintain both rear pocket openings fully clear. Adjust the shells' slight outward tilt locally if needed, without moving the waist clips or changing the body.\n\nThe sheath encloses the accepted compact forward-swept dagger from reference2, preserving the charcoal faceted shell, subtle oxblood long side panel and small guard. Exactly ONE red grip collar per dagger remains between black wrap and guard. No red ring below the guard. The tiny orange mark remains on each dark pommel. No new hardware, extra hanging straps or second support frame.\n\nReferences3-4 only lock current clothes, hands, rear hooks, pockets and right thigh device placement. Preserve the right full-black glove with red cuff and left fingerless glove with orange wrist device. The character and existing equipment stay at their current size. Preserve the right isolated empty and filled sheath images at their current displayed size; those are enlarged design details, not same-scale views of the left panel.\n\nRe-render the entire sheet coherently as one clean finished concept illustration. Broad hard cel colors and fine hand-drawn outlines, no muddy texture, white speckles, cloud patina, gradients added to clothes, photographic finish or extra labels. Do not merely lengthen a thin needle from the tip: continue the full sheath's tapered faceted body smoothly down to the specified visible height.",
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-v2-native.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-v2-native.png",
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-side-v1.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "kind": "tool-response-data-url",
+      "record": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-tool-response-v3.json",
+        "sha256": "2e31c134a544bde5530415f631e72b10c2d8c864a4bebba50dae938d9cba54fd"
+      },
+      "pointer": "/image_url",
+      "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-92cd4c0f-6e45-4ca1-bff5-f503fb7beb2a.png",
+      "sha256": "4f12bd48f5f5360d5d014520a8aaf2001aa3621095cbefe80df4e2ff19c55ed0"
+    },
+    "tool_output_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-tool-response-v3.json",
+      "sha256": "2e31c134a544bde5530415f631e72b10c2d8c864a4bebba50dae938d9cba54fd"
+    },
+    "reference_basis": "Actual sheaths-v2 supplies layout/cloth/mounts only, not its rejected mounted length. Accepted daggers-v2 main pair is appearance authority; current back/right-side outfit references constrain existing equipment. EDGE sizes are not transferred.",
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/review/sheaths-v3-qa.json",
+      "sha256": "1423e7989e282dedce90fd96b5ad47e7832841146183504bdeec5bd0ab08940e"
+    },
+    "individual_visual_review": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/review/sheaths-v3-qa.json",
+      "sha256": "1423e7989e282dedce90fd96b5ad47e7832841146183504bdeec5bd0ab08940e"
+    },
+    "nominal_design": {
+      "total_length_over_H0": 0.22,
+      "H0_definition": "Current body crown to barefoot floor, 1475 px on canonical front",
+      "figure_alignment_verified": false,
+      "local_scale_estimate_only": true
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-v2-native.png",
+        "sha256": "707761e0e040fc23e29e3a249624abe763b084d4d9d855bcec413c5795246546",
+        "order": 1,
+        "role": "V2 clean layout/clothing/one red collar and mounts; mounted shell length is not accepted and must reach stated visual landmarks",
+        "actually_viewed": true
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-v2-native.png",
+        "sha256": "13026cc2c00bec65a630f16a4b388ee92b8f1639618acb8e8926211a92a3a00e",
+        "order": 2,
+        "role": "Accepted dagger main-view appearance authority; approximate carrying relation, not copied EDGE dimensions",
+        "actually_viewed": true
+      },
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+        "sha256": "ca44f883430cdb7927c2101a184e4f28b0df62c2a0e0a8e99bdfbbe68122b867",
+        "order": 3,
+        "role": "Current back clothing and anatomical side/equipment anchor authority",
+        "actually_viewed": true
+      },
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-side-v1.png",
+        "sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e",
+        "order": 4,
+        "role": "Current right thigh terminal/pouch placement and clearance authority",
+        "actually_viewed": true
+      }
+    ],
+    "repository_generation_record": {
+      "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-waist-sheaths-v1.json",
+      "sha256": "8d39c9d16815a2918e8ea8c5eff3fde84befe773764ad41fc320bf72e4f3b6ff"
+    },
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-handoff-v3.json",
+      "sha256": "0791c47e1718f152fc7e9e0533c97d14a1d96d5a4f76e1a9dcc5a143248e69f0"
     }
   }
 }

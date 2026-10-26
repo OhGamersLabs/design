@@ -355,6 +355,26 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-concept-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-concept-v1.png",
+      "sha256": "13026cc2c00bec65a630f16a4b388ee92b8f1639618acb8e8926211a92a3a00e",
+      "size": 1470186,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-concept-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-waist-sheaths-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-waist-sheaths-v1.png",
+      "sha256": "4f12bd48f5f5360d5d014520a8aaf2001aa3621095cbefe80df4e2ff19c55ed0",
+      "size": 1640390,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-waist-sheaths-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/body-v2-basic-bra-back-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/body-v2-basic-bra-back-v1.png",
       "sha256": "3c2c08818b5db012d39a1d482874b9194a3027786533cdada5429bd2406d1664",
@@ -1527,8 +1547,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "a9cb9db730a85b872a5abcd34ecf09d305943e0cb6aa38bc3d6da774d5c1ab4a",
-      "size": 200738018,
+      "sha256": "2c340080b6a6d7ceacedf8e010c2e70ac6d0f46c40213d59f24c9718be54822a",
+      "size": 203350995,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

@@ -9,7 +9,7 @@ aside: true
 
 ## 身体工作稿
 
-[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)、[橙色外套](/characters/bunny/jacket)、[承载带层](/characters/bunny/harness)、[头部装备层](/characters/bunny/headgear)共 27 张完整三视人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，提供累计三视与层次关系板，三张硬件板保持；头部装备层补齐仅护目镜的累计三视、四格近景与拆解板；武器的新方向为[黑曜石感大剑单件概念](/characters/bunny/weapon#obsidian-sword-concept)，人物握持与背负尚未同步；此前双手棍资料保留为历史。旧鞋、旧手部、旧腿部、旧外套资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
+[查看 v2 · 身体三视基准](/characters/bunny/body-base)：当前基模、[白色上衣与红色短裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)、[橙色外套](/characters/bunny/jacket)、[承载带层](/characters/bunny/harness)、[头部装备层](/characters/bunny/headgear)共 27 张完整三视人物分别展示、放大与下载。[图面尺寸](/characters/bunny/dimensions)按对应基模原图量读。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，提供累计三视与层次关系板，三张硬件板保持；头部装备层补齐仅护目镜的累计三视、四格近景与拆解板；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已提供单件外观与腰后侧护套概念，完整武器累计三视尚未同步；原有大剑、双手棍资料保留为历史。旧鞋、旧手部、旧腿部、旧外套资料与旧尺寸记录保留作沿革参考，原35鞋带与腿带动作补图本轮未重绘。
 
 ## 本轮补充
 
@@ -18,7 +18,7 @@ aside: true
 - [红护环开合结构](/characters/bunny/hands#cuff-opening)：铰链、锁扣与手套腕口关系。
 - [当前鞋带结与尾端收纳结构](/characters/bunny/shoes#footwear-construction)、[既有坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
 
-这些补图作为现有分层三视的延伸。黑曜石感大剑目前为[单件概念方案](/characters/bunny/weapon#obsidian-sword-concept)，人物握持与背负尚未同步；原稿同姿势角色卡与连续动作仍待补齐。
+这些补图作为现有分层三视的延伸。当前[双匕首方向与参考](/characters/bunny/weapon#assassin-daggers-concept)已整理，单件外观与腰后侧护套概念已完成，完整武器累计三视尚未同步；原稿同姿势角色卡与连续动作仍待补齐。
 
 ## 原始手稿
 
@@ -34,7 +34,7 @@ aside: true
 
 <ul><li><a href="/characters/bunny/body-base">从身体基准开始</a></li><li><a href="/characters/bunny/dimensions">图面尺寸与比例</a></li><li><a href="/characters/bunny/assembly">衣层与部件阅读顺序</a></li></ul>
 
-贴身衣层 → 袜装 → 鞋靴 → 手部装备 → 腿部装备 → 承载系统（白衣外） → 橙色夹克 → 头部装备。武器另见[大剑单件概念](/characters/bunny/weapon#obsidian-sword-concept)。
+贴身衣层 → 袜装 → 鞋靴 → 手部装备 → 腿部装备 → 承载系统（白衣外） → 橙色夹克 → 头部装备。武器另见[双匕首设计方向](/characters/bunny/weapon#assassin-daggers-concept)。
 
 <span id="成品"></span>
 
@@ -42,7 +42,7 @@ aside: true
 
 ## 当前累计穿戴
 
-当前累计穿戴见[护目镜三视](/characters/bunny/headgear#headgear-wearing)。[双手棍随行三视](/characters/bunny/assembled#weapon-wearing)作为前方案历史保留；大剑尚无累计人物图。
+当前累计穿戴见[护目镜三视](/characters/bunny/headgear#headgear-wearing)。[双手棍随行三视](/characters/bunny/assembled#weapon-wearing)作为前方案历史保留；双匕首尚未形成新的累计人物三视。
 
 <details>
 <summary>此前锯收纳累计图 · 历史参考</summary>

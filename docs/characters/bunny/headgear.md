@@ -7,7 +7,7 @@ aside: true
 
 当前头装只保留护目镜，取消耳机、兔耳配饰和独立头箍。护目镜采用柔圆白框、烟灰镜片、小橙侧扣与一条绕后脑的细黑弹性镜带。默认抬至额头佩戴，露出眼睛、鼻子和嘴部。
 
-本层在[内穿承载系统](/characters/bunny/harness#harness-wearing)的累计人物上加入护目镜，白色内搭 → 承载系统 → 橙色夹克的覆盖顺序保持。正、右侧、背面三张完整人物、四格头部近景及护目镜拆解均为完整新绘；武器的新方向为[黑曜石感大剑单件概念](/characters/bunny/weapon#obsidian-sword-concept)，人物握持与背负尚未同步；此前双手棍资料保留为历史。
+本层在[内穿承载系统](/characters/bunny/harness#harness-wearing)的累计人物上加入护目镜，白色内搭 → 承载系统 → 橙色夹克的覆盖顺序保持。正、右侧、背面三张完整人物、四格头部近景及护目镜拆解均为完整新绘；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已提供单件外观与腰后侧护套概念，完整武器累计三视尚未同步；原有大剑、双手棍资料保留为历史。
 
 ## 累计穿戴三视 {#headgear-wearing}
 

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "role": "matched-assassin-daggers-exterior-concept",
+  "publish_slug": "assassin-daggers-concept-v1",
+  "actual_tool_candidate": "daggers-v2-native",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-v2-native.png",
+    "sha256": "13026cc2c00bec65a630f16a4b388ee92b8f1639618acb8e8926211a92a3a00e"
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-request-v2.json",
+    "sha256": "0ed1e639f3052ecffb93054bb29d73d1ece0b127c080f5dec2718ff8770cc841"
+  },
+  "request_pointer": "/request",
+  "actual_tool_parameters": {
+    "prompt": "Create an ORIGINAL fantasy game prop design for Bunny's matched TWIN DAGGERS, with clear Japanese anime hand-drawn linework and clean cel color, on a white landscape sheet. Show two identical complete FRONT views side by side at exactly the same scale, points up and both sweeping toward the viewer's right. Beside them, show one complete strict orthographic EDGE view of this same design, aligned tip-to-pommel at the same scale. These are a pair plus their shared side view, not three alternative designs. Small labels only: PAIR and EDGE. No character, hands, sheath, scene, measurements or attack pose.\n\nReference 1 is Bunny's own outfit palette and 2D drawing style; reference 2 is single-gloved-hand size context. References 3-5 are research only: learn paired visual coherence, shallow recurve silhouette, and clear dark-face/edge separation. Invent a new silhouette and detailing. Do not reproduce those characters, photographed weapons, trademark patterns, giant tail hooks, gold ornament or toy rendering.\n\nOriginal silhouette: a compact forward-swept short blade with a modestly offset tip, a controlled convex belly toward the front third and a shallow inward waist near the root. The spine has one clean angular plane transition into the forward sweep. It must have a strong directional silhouette, not a symmetric leaf or centered spear point. The outline is smooth and simple, no teeth, chipped rock, large holes or deep hook. Blade and straight single-hand grip form one coherent rigid object; no kink at the guard. Very short dark trapezoid guard, distinct narrow collar, black wrapped oval grip, low faceted pommel cap. No ring handle or mechanism.\n\nBoth daggers are the exact same model and dimensions. Compact visual scale about .22 of Bunny's hair-crown-to-barefoot height. Blade about 60 percent of complete length; grip, guard and pommel about 40 percent, with a clear usable wrapped single-hand grip about one-third of full length. Blade maximum breadth about one-sixth of full length. In the EDGE view rotate the object ninety degrees: only a slim tapered blade thickness is visible, while the oval grip keeps its believable diameter. Do not squeeze a copy of the broad face into the side view.\n\nCharcoal blade face with two broad structured dark planes and a restrained cool-gray hard bevel. One small sweeping glossy-black facet near the root, no rock-slab texture. A narrow muted oxblood-red inset follows a short section of the spine-side plane, not a glowing outline. Black grip with a narrow dark-red root band; one tiny orange rectangular identity mark on the low pommel. Keep both copies visually consistent. No gem, hanging ornament, extra color stripe or random symbols. Bold economical silhouette, light and agile appearance, crisp clean linework and hard cel boundaries. No soft photoreal shading, cloudy patches, white speckles, veins, particles or noisy distressed texture. All three complete views inside generous white margins.",
+    "referenced_image_paths": [
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/item_0000014790_jpg8rEUQ_04.jpg",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/bell-figure-front.jpg",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/jinwoo-sega-large-01.webp"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-tool-response-v2.json",
+    "sha256": "50b2b108f638246cfa353110a6d9086adbb95f5e8d386a6cff4a53062ea392e8"
+  },
+  "native_output": {
+    "kind": "tool-response-data-url",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-tool-response-v2.json",
+      "sha256": "50b2b108f638246cfa353110a6d9086adbb95f5e8d386a6cff4a53062ea392e8"
+    },
+    "pointer": "/image_url",
+    "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-eb65d089-c3db-42bb-b219-af41af8528e1.png",
+    "sha256": "13026cc2c00bec65a630f16a4b388ee92b8f1639618acb8e8926211a92a3a00e"
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-front-v2.png",
+      "sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
+      "order": 1,
+      "role": "Current Bunny palette and anime cel style only, not a character to render",
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.png",
+      "sha256": "341e045496fa25466297645ba9444a6c583e18bbd238de74ca664a24e37d2adb",
+      "order": 2,
+      "role": "Current gloves and single-hand proportion context only, not hand illustration",
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/item_0000014790_jpg8rEUQ_04.jpg",
+      "sha256": "e351612d8b51de7b6f70ffefcc3d3d82e2f2ee90b4778cb2cbfe53237ecd2f4e",
+      "order": 3,
+      "role": "Official licensed Sunraku figure: paired visual coherence only; no black-white copy, tail hook or original ornament",
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/bell-figure-front.jpg",
+      "sha256": "9f0f91052e1db208e3d07a4e61e71640494912fe13358627eb052606edd9cda0",
+      "order": 4,
+      "role": "Official licensed Bell figure: shallow root-waist/belly rhythm only; do not copy the exaggerated cyan silhouette or material",
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/research/jinwoo-sega-large-01.webp",
+      "sha256": "d848a8afdb0bbf9fc9cff8f729c2e60a5a9a62578a84e379b7c4fb651b2fba0a",
+      "order": 5,
+      "role": "Official SEGA Sung Jinwoo figure: dark face versus clear edge planes only; no serrations, gold ornament, original red pattern or character",
+      "actually_viewed": true
+    }
+  ],
+  "reference_basis": "Actual two Bunny authority images and three official licensed figure research images as ordered in request. Third-party images are references only, not delivered original assets.",
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/review/daggers-v2-qa.json",
+    "sha256": "5e13ea8855f34881f85709409f29590994fc5a7f97b5ee0fe3ae1676113f9a68"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/review/daggers-v2-qa.json",
+    "sha256": "5e13ea8855f34881f85709409f29590994fc5a7f97b5ee0fe3ae1676113f9a68"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-handoff-v2.json",
+    "sha256": "61bf00ce39716cbc56b1a8c855ebbef77cf8502427e710ff8d3580892d15800b"
+  },
+  "review_status": "accepted-exterior-concept-with-edge-view-limit",
+  "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+  "nominal_design": {
+    "total_length_over_H0": 0.22,
+    "H0_definition": "Current body crown to barefoot floor, 1475 px on canonical front; no physical centimeters set",
+    "figure_alignment_verified": false
+  },
+  "rough_visible_measurements": {
+    "method": "manual native point reads, direct image-plane tip-to-pommel distances; not projected body dimensions or physical specification",
+    "endpoint_uncertainty_px": 3,
+    "main_left": {
+      "tip": [
+        674,
+        96
+      ],
+      "pommel": [
+        164,
+        932
+      ],
+      "distance_px_rounded": 979
+    },
+    "main_right": {
+      "tip": [
+        1134,
+        96
+      ],
+      "pommel": [
+        624,
+        932
+      ],
+      "distance_px_rounded": 979
+    },
+    "edge": {
+      "tip": [
+        1363,
+        92
+      ],
+      "pommel": [
+        1363,
+        955
+      ],
+      "distance_px_rounded": 863
+    },
+    "grip_observation": "黑缠绕段主视约215px，EDGE约210px；这里只为识别并非统一缩放，不作为功能握长规格。"
+  },
+  "limitations": [
+    "名义L约.22H0是后续角色尺度目标，本板无人不能独立核实。",
+    "EDGE只用于厚度与零件层次说明，不从该图冻结精确厚度/轴向尺寸。",
+    "未验证实际手部握持、刀鞘避让、装卸动作或工程可制造性。",
+    "主对作为后续原创匕首形状权威；正式配套不得继承旧大剑背架或尺寸。"
+  ]
+}

@@ -5,7 +5,7 @@ aside: true
 ---
 # 此前锯外观与收纳（历史参考）
 
-当前武器方向为[黑曜石感大剑单件概念](/characters/bunny/weapon#obsidian-sword-concept)。以下保留旧锯原件与原有锚点，仅作沿革参考。
+当前武器方向为[刺客双匕首设计方向](/characters/bunny/weapon#assassin-daggers-concept)。以下保留旧锯原件与原有锚点，仅作沿革参考。
 
 <details>
 <summary>旧锯外观、水平收纳与当时比例口径</summary>

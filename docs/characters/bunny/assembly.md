@@ -13,7 +13,7 @@ aside: true
 
 ## 资料阅读顺序
 
-<ol><li><a href="/characters/bunny/innerwear">贴身衣层</a>：穿着三视 → 白色上衣 → 红色短裤。</li><li><a href="/characters/bunny/hosiery">袜装</a>：穿着三视 → 针织细节。</li><li><a href="/characters/bunny/shoes">鞋靴</a>：穿着三视 → 独立结构。</li><li><a href="/characters/bunny/hands">手部装备</a>：穿着三视 → 手套独立视图 → 腕部设备开合与部件。</li><li><a href="/characters/bunny/thigh-gear">腿部盒袋与任务终端</a>：穿着三视 → 任务终端与腿带 → 维护盒袋与内容物。</li><li><a href="/characters/bunny/jacket">橙色外套</a>：穿着三视 → 独立三视与外部分解 → 局部细节。</li><li><a href="/characters/bunny/harness">承载带与固定点</a>：内穿累计三视 → 层次与覆盖关系 → 独立部件、扣件与腰部固定点。</li><li><a href="/characters/bunny/headgear">头部装备</a>：累计全身 → 四格头部近景 → 护目镜独立拆解。</li><li><a href="/characters/bunny/weapon#obsidian-sword-concept">黑曜石感大剑</a>：单件加厚正侧与断口细节 → 设计尺寸；人物握持与背负尚未同步。<a href="/characters/bunny/assembled">此前武器累计图</a>作为历史资料保留。</li></ol>
+<ol><li><a href="/characters/bunny/innerwear">贴身衣层</a>：穿着三视 → 白色上衣 → 红色短裤。</li><li><a href="/characters/bunny/hosiery">袜装</a>：穿着三视 → 针织细节。</li><li><a href="/characters/bunny/shoes">鞋靴</a>：穿着三视 → 独立结构。</li><li><a href="/characters/bunny/hands">手部装备</a>：穿着三视 → 手套独立视图 → 腕部设备开合与部件。</li><li><a href="/characters/bunny/thigh-gear">腿部盒袋与任务终端</a>：穿着三视 → 任务终端与腿带 → 维护盒袋与内容物。</li><li><a href="/characters/bunny/jacket">橙色外套</a>：穿着三视 → 独立三视与外部分解 → 局部细节。</li><li><a href="/characters/bunny/harness">承载带与固定点</a>：内穿累计三视 → 层次与覆盖关系 → 独立部件、扣件与腰部固定点。</li><li><a href="/characters/bunny/headgear">头部装备</a>：累计全身 → 四格头部近景 → 护目镜独立拆解。</li><li><a href="/characters/bunny/weapon#assassin-daggers-concept">刺客双匕首</a>：单件外观与参考 → 名义尺寸及板内读数 → 腰后侧短护套概念；累计三视尚未完成。<a href="/characters/bunny/assembled">此前武器累计图</a>作为历史资料保留。</li></ol>
 
 ## 外套与承载带的图示边界
 
@@ -21,4 +21,4 @@ aside: true
 
 ## 当前累计结果
 
-当前累计穿戴见<a href="/characters/bunny/headgear#headgear-wearing">护目镜三视</a>，保留内穿承载关系。<a href="/characters/bunny/weapon#obsidian-sword-concept">大剑页</a>展示单件概念；<a href="/characters/bunny/assembled#weapon-wearing">双手棍三视</a>属于前方案资料。旧锯资料转入<a href="/characters/bunny/saw">历史参考</a>。
+当前累计穿戴见<a href="/characters/bunny/headgear#headgear-wearing">护目镜三视</a>，保留内穿承载关系。<a href="/characters/bunny/weapon#assassin-daggers-concept">双匕首页</a>展示单件外观、参考和腰后侧护套概念；<a href="/characters/bunny/assembled#weapon-wearing">双手棍三视</a>属于前方案资料。旧锯资料转入<a href="/characters/bunny/saw">历史参考</a>。

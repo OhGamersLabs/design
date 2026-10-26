@@ -8,7 +8,7 @@ aside: true
 衣长、前后摆差与露腰空间统一按[服装尺寸规范](/characters/bunny/dimensions#garment-dimensions)核对，白色内搭保持固定衣长。
 
 ::: info 第六层 · 橙色短外套
-当前外套层沿用[腿部装备层](/characters/bunny/thigh-gear)的完整穿着，加入前长后短的开襟橙色夹克。正、侧、背三张完整人物及独立结构、局部细节两张板均为整张新绘，保留原生 PNG、放大入口与下载。本页单独展示夹克款式，图中不含承载带；[承载带与固定点](/characters/bunny/harness)另展示白衣外、夹克内的累计穿戴与层次关系。[头部装备层](/characters/bunny/headgear#headgear-wearing)已有累计三视与部件图；武器的新方向为[黑曜石感大剑单件概念](/characters/bunny/weapon#obsidian-sword-concept)，人物握持与背负尚未同步；此前双手棍资料保留为历史。
+当前外套层沿用[腿部装备层](/characters/bunny/thigh-gear)的完整穿着，加入前长后短的开襟橙色夹克。正、侧、背三张完整人物及独立结构、局部细节两张板均为整张新绘，保留原生 PNG、放大入口与下载。本页单独展示夹克款式，图中不含承载带；[承载带与固定点](/characters/bunny/harness)另展示白衣外、夹克内的累计穿戴与层次关系。[头部装备层](/characters/bunny/headgear#headgear-wearing)已有累计三视与部件图；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已提供单件外观与腰后侧护套概念，完整武器累计三视尚未同步；原有大剑、双手棍资料保留为历史。
 :::
 
 <span id="外套穿着三视"></span>

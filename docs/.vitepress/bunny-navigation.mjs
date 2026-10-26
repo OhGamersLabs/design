@@ -98,7 +98,7 @@ export const bunnySections = [
         "link": "/characters/bunny/assembled"
       },
       {
-        "text": "黑曜石感大剑 · 单件概念",
+        "text": "刺客双匕首 · 武器设计",
         "link": "/characters/bunny/weapon"
       }
     ]
