@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 163,
+  "asset_count": 172,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -1111,6 +1111,110 @@
       }
     },
     {
+      "id": "assassin-daggers-armed-expressions-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-armed-expressions-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled#armed-expressions",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v3.png",
+        "baseline_sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-v1-native.png",
+        "source_artifact_sha256": "f0f29973fb79a3c2a94fbf5b3a40848927b08fb77f26891dae70a63b59c0c77b",
+        "review_status": "current-three-expression-pose-supplement",
+        "description": "双匕首姿态表情 · 专注、自信轻笑、放松",
+        "scope": "三格完整新绘表情补充；既有中性头部和16格身份表情保持，不绑定已拒持握姿态。",
+        "method": "built-in image_gen.imagegen complete-sheet generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-request-v1.json",
+          "sha256": "5b89d987670e66613914acfabe45eefa86ee444b3dcf9a690e673ce6324fda75"
+        },
+        "request_pointer": "/request",
+        "actual_tool_parameters": {
+          "prompt": "Draw a NEW three-cell expression design sheet for the same adult anime character Bunny. White landscape canvas, three equally large clean head-and-shoulder portraits in one horizontal row, each complete hair silhouette and collar visible with whitespace. Consistent frontal camera, same head size, facial structure, silver-white layered bob, side-attached human ears, blue irises, and current forehead goggles in all three portraits. Reference 1 locks identity and hair/ear construction; reference 2 supplies established subtle expression language only; reference 3 supplies the CURRENT forehead goggles, orange jacket black/red lapel and white high collar. Do not copy the old black tank top from reference 2. Clear Japanese hand-drawn outlines, hard cel color fields, purposeful angular hair shadows, no 3D shine or painterly cloud texture.\n\nLeft portrait FOCUS: focused alert, inner brows drawn slightly inward, blue eyes looking straight together, calm closed mouth, attention without angry grimace. Center portrait CONFIDENT: restrained confidence, a small asymmetric closed-mouth smile and gently assured eyebrows, both eyes open and aligned, no wink or exaggerated smirk. Right portrait RELAXED: after putting away equipment, brow tension released, tiny soft closed-mouth smile, both eyes open and still attentive, natural upright head. These are clearly different emotional states of exactly the same face, not three new character designs.\n\nKeep forehead goggles fully above eyes, with silver frame, dark lenses and small orange side tabs. No rabbit ears, headphones, weapons, hands, props or extra faces. Skin/hair boundaries and ears remain coherent. No white speckles, milky patches, random blue outline glow, oily shading, blurred texture or over-rendered skin. Optional small labels below portraits exactly FOCUS / CONFIDENT / RELAXED; no other text. This supplements the existing sixteen-expression sheet rather than replacing the identity reference.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v3.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/expressions-v2-cel-v2.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-33e1c7fa-abfa-4bc4-ad0f-07dba7eba65c.png",
+          "sha256": "f0f29973fb79a3c2a94fbf5b3a40848927b08fb77f26891dae70a63b59c0c77b",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-v1-tool-response.json",
+            "sha256": "d7f23deb19f151bcf16211f658ba7965012812841079668664a39c80a8a1a00e"
+          },
+          "record_note": "Actual response metadata explicitly retains the native PNG path in place of the large data URL. The original PNG is byte-exact; no synthesized node."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-v1-tool-response.json",
+          "sha256": "d7f23deb19f151bcf16211f658ba7965012812841079668664a39c80a8a1a00e"
+        },
+        "reference_basis": "See actual request ordered_tool_references. Current head + 16 expressions + belt-only goggles front. No failed held front used.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/root-acceptance-held-expressions-v1.json",
+          "sha256": "66b11e729f976ddf818f00945afa9b4160e7844111232c807a77e26b25fc14e2"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/root-acceptance-held-expressions-v1.json",
+          "sha256": "66b11e729f976ddf818f00945afa9b4160e7844111232c807a77e26b25fc14e2"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-handoff-v1.json",
+          "sha256": "131ce77296127ca0f2f5aeb21d2c33122665218c0bdfac86ab7db889d1856780"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v3.png",
+            "sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768",
+            "role": "Current face identity, silver-white hair groups, ear attachment and blue eyes.",
+            "order": 1,
+            "actually_viewed": true
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/expressions-v2-cel-v2.png",
+            "sha256": "a6dd535e5acbe9dfab82b232ebb094a5c62b2766b5d1cc1fdb49789233437e74",
+            "role": "Expression language only; new three cells supplement this sheet. Do not copy old black top.",
+            "order": 2,
+            "actually_viewed": true
+          },
+          {
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
+            "sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
+            "role": "Current forehead goggles and orange jacket/white collar, clean cel rendering.",
+            "order": 3,
+            "actually_viewed": true
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-armed-expressions-v1.json",
+          "sha256": "969f6c213e572057f3be71d64f23e50ab9d6117b1fb860d65fe075fcbef0c7c6"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-armed-expressions-v1.png",
+        "mime_type": "image/png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 2031268,
+        "sha256": "f0f29973fb79a3c2a94fbf5b3a40848927b08fb77f26891dae70a63b59c0c77b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-armed-expressions-v1.webp",
+        "mime_type": "image/webp",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1350892,
+        "sha256": "5a74a6370692ae4809d0e68f5b710b35fa0f91b08e6b7f9956fced4e07882c45",
+        "alpha": false
+      }
+    },
+    {
       "id": "assassin-daggers-concept-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -1237,6 +1341,405 @@
       }
     },
     {
+      "id": "assassin-daggers-held-cel-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-held-cel-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled#dagger-held-views",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v1-native.png",
+        "baseline_sha256": "bcfc154a4d3c6fb098f9c4983e65b80f99acd4a662b8d64d4c4e7c4255f3875c",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-native.png",
+        "source_artifact_sha256": "041a210c1f2da9193c5f63bd6d47d2cee4fb71b74fba5765cb79f858da8b5bd0",
+        "review_status": "current-dagger-held-back-view",
+        "description": "异构双匕首 · 同姿态持握背面",
+        "scope": "持握背面，腰后空短托不残留刀身或金属护手；动态投影不作精确尺寸或三维绑定验证。真正侧视另待准入。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-request.json",
+          "sha256": "cbc419ef187bd83a2833ffb76e549685529d8ec95f653661528a7848cf96ddf1"
+        },
+        "request_pointer": "/request",
+        "actual_tool_parameters": {
+          "prompt": "Create a complete fresh color drawing preserving image 1's full BACK-view pose, body proportions, camera, clothing, both hands and both held fictional daggers. White background, clean Japanese hand-drawn anime linework and crisp cel color. Do not restage this already established back-view pose.\n\nMake only these visible corrections while redrawing the whole image:\n1. At the rear belt, REMOVE BOTH curved metal knife guards accidentally copied onto the empty mounts. Each mount is ONLY a compact BLACK LEATHER short open cradle: visibly hollow top opening, short front wall and side walls, a short opened retaining strap with its stud, and a closed belt-through loop at the back. No winged metal crossguard, blade, red collar, grip or pommel remains on either waist mount. The actual metal guards stay attached to the two daggers in her hands. Both rear supports are empty because both knives have been drawn. Use image 4 only for the leather cradle/belt-loop/strap relationship; ignore all knife components in that reference. Do not enlarge these into long sheaths or add side-waist boxes.\n2. Restore the small actual white stylized OG emblem on the visible LEFT sleeve pocket, matching image 2's real graphic rather than typeset letters.\n\nImage 1 is the back-view pose/layout and material reference, with the two listed defects not authoritative. Image 2 is current back identity and clothing; do not copy its standing pose. Image 3 is the exact dagger master: preserve dark broad angular blade/segmented grip/angular pommel on character RIGHT (screen RIGHT), ivory swept blade/curved guard/flowing grip/ivory teardrop pommel on LEFT (screen LEFT). Image 4 supplies only the empty leather mount parts described above.\n\nKeep the raised right hand black full-finger including thumb, with red cuff; lower left hand fingerless with orange screen terminal. Both still genuinely close around the grips, guards outside hands. Same hair and rear goggle strap, no rear face, orange jacket's short back hem and white underlayer, bare lower back, red shorts/back pockets/pure belt, right thigh two modules/white sock, left orange stocking, red boots. Preserve clean head/hair, clothing and skin color shapes. No upper straps, chains, extra weapons, text or inset. Projected blade lengths may differ with camera angle; do not redesign their shapes or use projected ratios as a reason to restage them.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v1-native.png",
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-bca00df8-4fb2-414d-a9ab-5c1a15d3490f.png",
+          "sha256": "041a210c1f2da9193c5f63bd6d47d2cee4fb71b74fba5765cb79f858da8b5bd0",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-tool-response.json",
+            "sha256": "c86e454484fef14f6e0588a7b52f9538d6d474248b29789608bce0abded5673f"
+          },
+          "record_note": "The exact tool-native path appears in the actual output_hint and final handoff; complete unchanged PNG is retained. The metadata omits base64 explicitly."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-tool-response.json",
+          "sha256": "c86e454484fef14f6e0588a7b52f9538d6d474248b29789608bce0abded5673f"
+        },
+        "reference_basis": "back-v1 is rejected for metal guards at empty mounts and missing sleeve emblem; reused only for pose/camera/clothes in actual v2 request. side-v1/v2 unaccepted for view geometry.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-root-acceptance.json",
+          "sha256": "04a54fdb2b2640b6aed73b40dbd4f51feccdcc370dd20a2495e86eebcc0284b6"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-root-acceptance.json",
+          "sha256": "04a54fdb2b2640b6aed73b40dbd4f51feccdcc370dd20a2495e86eebcc0284b6"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-qa.json",
+          "sha256": "037fcee0d60913f41aa707c3b3ae044e191dbfe05a8576fec808fbd2f83a2e3d"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-handoff.json",
+          "sha256": "3006c4f02071e769fd4d7fd923ffc2e2e35d89daa681ce95011b195cdaa869f0"
+        },
+        "reference_chain": [
+          {
+            "index": 1,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v1-native.png",
+            "sha256": "bcfc154a4d3c6fb098f9c4983e65b80f99acd4a662b8d64d4c4e7c4255f3875c",
+            "role": "Back V1 candidate: already accepted camera/pose/clothing only; metal guards at empty mounts and absent sleeve emblem rejected"
+          },
+          {
+            "index": 2,
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png",
+            "sha256": "51015b8332971082138ee50d5c214d9cbb35fa8e024ac5918b19e117a9f715e0",
+            "role": "Current back: identity/clothing/actual emblem only"
+          },
+          {
+            "index": 3,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+            "role": "Accepted master-v4: exact held daggers, not waist contents"
+          },
+          {
+            "index": 4,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-native.png",
+            "sha256": "9845129227fd8fa7d15bd34e15586569b6a31fe4dd17de2e53db711e7e445228",
+            "role": "Accepted structure-v3: leather cradles/straps/belt ears only; no knife parts left at empty mounts"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-held-cel-back-v1.json",
+          "sha256": "410f5b9d5831ea8dd7c8ad04da81e8646dc46998bf8dff3ece9a9dba7b5dfe25"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-held-cel-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1299089,
+        "sha256": "041a210c1f2da9193c5f63bd6d47d2cee4fb71b74fba5765cb79f858da8b5bd0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-held-cel-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 723882,
+        "sha256": "0ae3f993192a4a28c4a0058c7c2245b9e26c5377ce82bafd66e548a8a72aeb21",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-held-cel-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-held-cel-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled#dagger-held-views",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v4-color-native.png",
+        "baseline_sha256": "5e33893fc66eff182dc608e88c1cd3b45430711ee6b4e691fbd490ebe6a0ca24",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-native.png",
+        "source_artifact_sha256": "8a69ae3b2acb6a235325fe7c69728b19632c3f6b2d17a10a81be833671cc445c",
+        "review_status": "current-dagger-held-right-side-view",
+        "description": "异构双匕首 · 同姿态持握右侧面",
+        "scope": "与主视、背面组成同一体势的手绘概念三视；动作投影不作物体真长、精确身高或工程正投影证明。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-request.json",
+          "sha256": "c3e9c26d177fd7a0c057ea46c239a45c015ca211cae67252edacb8a27cf9d544"
+        },
+        "request_pointer": "/request",
+        "actual_tool_parameters": {
+          "prompt": "Redraw this complete anime character image, preserving its accepted right-side camera, full-body pose, body proportions, face, clothing, both fictional dagger shapes and orientations, hands and equipment.\n\nMake ONE correction: on the raised RIGHT hand holding the DARK dagger, the small peach-colored thumb beside the blade guard must be completely covered by BLACK glove fabric, continuous with the black glove on all other fingers. No exposed skin or fingernail anywhere on this right hand. Preserve the thumb's gripping shape and position. The RIGHT wrist cuff stays RED. The lowered LEFT hand stays fingerless with skin fingertips, and its wrist terminal stays ORANGE.\n\nKeep everything else visually unchanged in the complete fresh tool drawing, including the side-view limb overlap, no extra equipment, clean anime linework and cel colors. Uniformly scale the ENTIRE scene about 5% smaller inside the same white page, centered with clear margins on all sides and especially above the knife tip; do not shorten the dagger or deform any part. No text, no new panels.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v4-color-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-3ce78841-d381-49a2-a8a6-eacbe1bf18ae.png",
+          "sha256": "8a69ae3b2acb6a235325fe7c69728b19632c3f6b2d17a10a81be833671cc445c",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-tool-response.json",
+            "sha256": "f770096091b862034ae1485b3633f2341a357284d6df45ff8ccb3b895e1a1e86"
+          },
+          "record_note": "The exact tool-native path is present in the real output_hint and handoff; metadata explicitly omits the data URL while unchanged native PNG remains available."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-tool-response.json",
+          "sha256": "f770096091b862034ae1485b3633f2341a357284d6df45ff8ccb3b895e1a1e86"
+        },
+        "reference_basis": "The sole actual V5 input is V4 color for established side camera/pose/color, with its skin-colored right thumb explicitly rejected. The source chain and exact request are preserved; no additional current/master input is fabricated.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-root-acceptance.json",
+          "sha256": "c0c98e8b07f021893e45cfdcff4b80678f132bf952da394b918584d7ebba7bff"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-root-acceptance.json",
+          "sha256": "c0c98e8b07f021893e45cfdcff4b80678f132bf952da394b918584d7ebba7bff"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-qa.json",
+          "sha256": "65690db801d07f4d536c3882a8e6cf3f1a04725dfb00764c31a1b2634232f4a4"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-handoff.json",
+          "sha256": "a2aac75dd9a9ddcd89b64fb665c2d240dc9ecd6b0fe2a04cb8d6f044f9638f80"
+        },
+        "reference_chain": [
+          {
+            "index": 1,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v4-color-native.png",
+            "sha256": "5e33893fc66eff182dc608e88c1cd3b45430711ee6b4e691fbd490ebe6a0ca24",
+            "role": "V4 candidate is full-view camera/pose/colors target, not accepted right-thumb coverage; that sole defect is corrected by tool full redraw"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-held-cel-side-v1.json",
+          "sha256": "5b27b4b771c1a4064c9551b6133bef8bf4631db034ccfe8aed8cacd03b37575a"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-held-cel-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1706366,
+        "sha256": "8a69ae3b2acb6a235325fe7c69728b19632c3f6b2d17a10a81be833671cc445c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-held-cel-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 940978,
+        "sha256": "2102bf41a5c037ddc57a5b638ab0ceaa189bbb4ad4426b37f817c79c23cc61c1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-held-main-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-held-main-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled#dagger-held-views",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
+        "baseline_sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v11-color-native.png",
+        "source_artifact_sha256": "7ab366f6cb6ee3e8c29e1118fdd5b01281292a2a144524630ccc67169f2e2f5c",
+        "review_status": "current-dagger-held-main-view",
+        "description": "异构双匕首 · 双手持握动态主视",
+        "scope": "单张完整持握主视，侧背另待同姿态稿；名义刀长以母版定义，动作投影不作精确尺寸证明。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-request-v11-color.json",
+          "sha256": "5210af16d26974fae09c0244858c7caecf100260bf7f273c9744e8f3bb49a294"
+        },
+        "request_pointer": "/request",
+        "actual_tool_parameters": {
+          "prompt": "Create one complete full-color Japanese anime character illustration of Bunny holding her two fictional fantasy daggers, on a spacious white landscape page. Clean expressive hand-drawn linework and crisp cel-color shapes, matching the accepted character artwork. Calm focused character pose, no opponent or injury.\n\nREFERENCE ROLES:\n1. Current accepted COLOR Bunny: exact identity, face, silver-white hair, blue eyes, ears, forehead goggles, outfit colors and details, the real stylized OG sleeve emblem, glove and wrist equipment. Do NOT copy this standing pose.\n2. V10 line drawing: use its whole-body pose and roomy page layout. Keep the high right arm / low left arm, shoulder-hip direction, feet, body proportions and scale on the page. This drawing is NOT an identity/color authority or weapon design authority.\n3. Accepted dagger master: use these exact two different fictional weapons, including their blade silhouettes, guards, grips and pommels. Right hand = dark angular broad dagger; left hand = long ivory swept dagger. Retain the large fantasy-blade appearance and normal one-hand grips. Their projected lengths may differ with angle; do not force a flat diagram ratio into this pose.\n\nMake the two specific corrections to reference 2 while redrawing the whole artwork:\n- Ivory blade: restore reference 3's flowing forward-swept outer contour. Remove the extra projecting shoulder/step near the tip that the line drawing invented. Preserve the separate curved guard and ivory teardrop pommel.\n- Character's LEFT sleeve pocket: faithfully redraw the actual white stylized OG insignia from reference 1, including its logo shapes; not ordinary typeset CG letters.\n\nPreserve correct hand contact: fingers and opposing thumbs enclose the grips, guards outside fists, no skin touching blade edges. RIGHT hand is entirely black full-finger glove INCLUDING thumb, with its solid RED wrist cuff. LEFT hand is black fingerless glove with exposed fingertips and an ORANGE rectangular screen wrist terminal. Preserve both different dagger hilts and only the two held daggers.\n\nUse the accepted silver-white layered hair and blue eyes, calm focused closed-mouth face, only forehead goggles. Orange high-low jacket with dark trim/red inner lapels, white top and white hem, exposed waist, red shorts, one black pants belt, RIGHT thigh upper terminal and lower pouch on two straps, LEFT long orange stocking and RIGHT short white sock, and original red/black/white shoes. Keep body/limb lengths and volume. No shoulder harness, upper straps, chains, sheaths, side-waist clips or extra handles; rear-waist attachments can remain hidden by the body.\n\nKeep the entire figure, boots and both knife tips within generous white margins. Matte cel skin/clothes with deliberate hard shadows; no plastic shine, random white speckles, cloudy patches, oil-painted texture or soft airbrush modeling. Weapon facet highlights follow the accepted master. No text, diagram labels or extra panels.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v10-line-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-03c3bb41-8db9-432b-9378-b73bd1614317.png",
+          "sha256": "7ab366f6cb6ee3e8c29e1118fdd5b01281292a2a144524630ccc67169f2e2f5c",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v11-color-tool-response.json",
+            "sha256": "d47e1a9620ec76924a841cb062a22b85dce9ae8e8eb2451c282feb27ac040402"
+          },
+          "record_note": "Complete unchanged native PNG preserved separately; base64 omitted from metadata"
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v11-color-tool-response.json",
+          "sha256": "d47e1a9620ec76924a841cb062a22b85dce9ae8e8eb2451c282feb27ac040402"
+        },
+        "reference_basis": "Exact actual request includes V10 pose/layout only, current color identity/clothes, master-v4 weapon authority. The prior mistaken shoulder/letter reading was subsequently withdrawn in QA; request is preserved verbatim.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v11-color-root-acceptance.json",
+          "sha256": "c5620afc08d7d37721cf006e5b65c2b57fc5f96a1e5da021103b370302e0396a"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v11-color-root-acceptance.json",
+          "sha256": "c5620afc08d7d37721cf006e5b65c2b57fc5f96a1e5da021103b370302e0396a"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v11-color-qa.json",
+          "sha256": "1ae67373dc6947fa3c8aaf5d0f0d63d353995deb096aad0201a0cc500fe481ed"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v11-color-handoff.json",
+          "sha256": "da6284dc0873031b3f28d1a63596a9dd80765f3285bfa33a6b077c028132a880"
+        },
+        "reference_chain": [
+          {
+            "index": 1,
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
+            "sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
+            "role": "Accepted current color Bunny: identity, color/clothing/emblem/gloves/wrists only"
+          },
+          {
+            "index": 2,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v10-line-native.png",
+            "sha256": "992eccf85eed446a72257a7b103683b157f85d1d68852331813ab6074c8aa2a7",
+            "role": "V10 line candidate: pose/layout/body geometry only, not accepted weapon geometry or final identity/style"
+          },
+          {
+            "index": 3,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+            "role": "Accepted masterV4: exact two fictional dagger appearance and nominal geometry"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-held-main-v1.json",
+          "sha256": "a25c4e5f57e71d90f1f839a83367175c38b5c7ace9e5c4b179a23b32e90007b0"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-held-main-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1723370,
+        "sha256": "7ab366f6cb6ee3e8c29e1118fdd5b01281292a2a144524630ccc67169f2e2f5c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-held-main-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 967118,
+        "sha256": "eb6e0d84134f96232adb6d0c36b7dfee730af0f8f0bbafd3eaab9d8d13c2c0d6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-scale-master-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-scale-master-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/weapon#assassin-daggers-concept",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v3-front-native.png",
+        "baseline_sha256": "4063c1fcf391c2106c540c6058cf736300efc33c5358eb5964c2ec563036c25c",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+        "source_artifact_sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+        "review_status": "current-revised-dagger-front-master",
+        "description": "放大尺寸双匕首 · 右墨黑与左骨白正面母版",
+        "scope": "同画布并列正面外观母版；整长设定黑.36H0/白.42H0，细分由本源观测形成v2修订，未测侧厚/侧深不作通过。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-request.json",
+          "sha256": "6f6130ae7fd1f79d6f9e01b264d693efd1fdfc9f19c07d55ffcf40e191cbccfd"
+        },
+        "request_pointer": "/",
+        "actual_tool_parameters": {
+          "prompt": "Redraw this complete sheet of two non-operational fictional anime character daggers, FRONT views only. Keep their current whole outlines' tip and pommel endpoint positions, common bottom baseline, and the successful 6:7 DARK:IVORY total-length relationship. Keep the two established designs and clean cel style. No action, character, internal construction or manufacturing details.\nCorrect ONLY the proportion problem: both handle assemblies in this sheet are still far too long and thick. Make both hilt assemblies about ONE THIRD shorter and the grips about HALF their current width. Place the guard/blade-root junction much lower on each complete object. The broad blade must occupy about68% of the DARK total length and73% of IVORY total length. Thus the two guards should sit at almost the SAME low height, roughly three quarters down the overall sheet. Keep the full tips and pommel ends fixed; extend the blades down to those lower guards rather than shrinking whole objects.\nBoth single-hand visible grips should be nearly equal in length, roughly one sixth of the longer ivory dagger's total length. Make pommels very compact: dark polygon pommel only about two fifths of its grip length; ivory teardrop pommel only one third of its grip length. Compact guard/collar above grip, no oversized root blocks. Grips are narrow—about one third of the dark blade width, and a little more than one third of the ivory blade width. The ivory blade's broadest section can be modestly wider than in the attachment, retaining its swept curved silhouette.\nPreserve DARK angular broad charcoal fang blade/concave waist/gray edge and restrained red accent; compact asymmetric angular black guard with bent end, ONE red collar, slim angular black grip, short black polygon pommel with orange rectangular inset. Preserve IVORY swept ivory curved blade/gray edge, compact crescent ivory-and-black guard, ONE red collar, slim curved black grip with ivory inlay, short ivory teardrop pommel/orange oval. Exterior parts remain clearly distinct. Clean hand-drawn Japanese anime lines and cel planes, no dirty texture, cloudy white stains, random speckle or photo rendering. White background, tiny DARK / IVORY labels only; no edge views or dimension writing.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v3-front-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-8cbf9c81-d9f0-4a1e-9863-703e8aaf206e.png",
+          "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-output.json",
+            "sha256": "21fdf05c9dfc82606ac7ecc85c268222968bab17a447e80fbbdeba249468a619"
+          },
+          "record_note": "Actual output metadata retains the returned tool-native PNG path; the complete unchanged image payload is preserved in that native file."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-output.json",
+          "sha256": "21fdf05c9dfc82606ac7ecc85c268222968bab17a447e80fbbdeba249468a619"
+        },
+        "reference_basis": "The sole actual input is v3 for exterior identity and relative overall lengths. Its bulky long hilts were explicitly rejected and corrected by the saved request. No extra input or accepted status is fabricated.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-acceptance.json",
+          "sha256": "327521e3cfeece12b76dd2a7603c7f7b6ece1cd23f93c691eed46d1644848a2b"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-acceptance.json",
+          "sha256": "327521e3cfeece12b76dd2a7603c7f7b6ece1cd23f93c691eed46d1644848a2b"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-acceptance.json",
+          "sha256": "327521e3cfeece12b76dd2a7603c7f7b6ece1cd23f93c691eed46d1644848a2b"
+        },
+        "measurement_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-observed.json",
+          "sha256": "a3917018be1c61eb31320b6352ec15f51d565bf7744c3bd69aaec0a9070ed51d"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v3-front-native.png",
+            "sha256": "4063c1fcf391c2106c540c6058cf736300efc33c5358eb5964c2ec563036c25c",
+            "actual_viewed": true,
+            "role": "Bunny exterior identity and successful relative whole lengths only; long bulky hilts explicitly rejected"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-scale-master-v1.json",
+          "sha256": "4efabb2d40b085f124d552f3f5defaa95bbb05d216dfdf7839180828b7bca355"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-scale-master-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1059494,
+        "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-scale-master-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 504626,
+        "sha256": "1772494e336f0fee08d04e34f102c2df4ac541f57def457b0774bd64dd12c6ed",
+        "alpha": false
+      }
+    },
+    {
       "id": "assassin-daggers-twin-belt-carry-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -1248,7 +1751,7 @@
         "baseline_sha256": "e96ed5c05fdbf2e307dcb735b4bd38366755f753f1438d324aca6e28d466ca15",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/twin-belt-carry-v3-native.png",
         "source_artifact_sha256": "8063579cf9f9bce234e40101f5fd6dc291f8077e8d1b7c74ce19ebefefff3899",
-        "review_status": "current-heterogeneous-direct-belt-carry-concept",
+        "review_status": "historical-smaller-dagger-scale",
         "description": "异构双匕首 · 后外腰直挂护套",
         "scope": "角色右墨黑、左骨白；护手与鞘口分离，刃部由不透明封端护套包覆，短夹直接固定裤腰皮带。人物局部和独立细节比例不同，动态间隙与抽取路径未验证。",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
@@ -1324,7 +1827,8 @@
         "repository_generation_record": {
           "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-twin-belt-carry-v1.json",
           "sha256": "42d5f7026f44ffad845c4b3375a24a915e9d2b83929f1607008a2327e9a689ed"
-        }
+        },
+        "superseded_by": "/characters/bunny/weapon#assassin-daggers-concept"
       },
       "original": {
         "path": "/media/bunny/3.1.0/assassin-daggers-twin-belt-carry-v1.png",
@@ -1357,7 +1861,7 @@
         "baseline_sha256": "ad6c253eed965ba6e95523c2fdc021554252a8222ba66bd4f7dfab82783350a3",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/twin-daggers-v2-native.png",
         "source_artifact_sha256": "25642b922d3eaf190e6479b7b3a211d66a4254ebad7638ca3935988d57c13a45",
-        "review_status": "current-heterogeneous-assassin-daggers-concept",
+        "review_status": "historical-smaller-dagger-scale",
         "description": "异构双匕首 · 右墨黑宽角獠牙与左骨白曲刃",
         "scope": "两把刃、护手、握柄、柄尾各具造型；角色右墨黑、左骨白，名义总长各0.22H0。仅单件外观概念，未作人物对位或工程验证。",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
@@ -1434,7 +1938,8 @@
         "repository_generation_record": {
           "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-twin-concept-v1.json",
           "sha256": "08a0d5c072bf844313a221af6253f0b081d4c856003f2c707ce4b6ae298fca5c"
-        }
+        },
+        "superseded_by": "/characters/bunny/weapon#assassin-daggers-concept"
       },
       "original": {
         "path": "/media/bunny/3.1.0/assassin-daggers-twin-concept-v1.png",
@@ -1452,6 +1957,419 @@
         "height": 1024,
         "bytes": 512938,
         "sha256": "c87d035d23eeae17e23765565b52f51e2c139a48fa6a0e0345ca3802c9636ef9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-waist-carry-cel-back-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-waist-carry-cel-back-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled#dagger-waist-carry-views",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v2-native.png",
+        "baseline_sha256": "7fef39fa1196a1107f9d31d98fc0d83768c134660e92d3f1b83345c0507a711b",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
+        "source_artifact_sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658",
+        "review_status": "current-dagger-waist-cross-carry-back",
+        "description": "双匕首后腰交叉携行 · 背面完整人物",
+        "scope": "黑角色右、白角色左，白外黑内；母版尺寸不变，图面约.352/.429H0代理值另列，非精确正投影或动态验证。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-request.json",
+          "sha256": "c5dbbacd1b727fd056676773262267b0e1b0b2d59a786a2666d88fdd86e0f57f"
+        },
+        "request_pointer": "/",
+        "actual_tool_parameters": {
+          "prompt": "Create one ENTIRELY NEW complete full-body rear-view illustration of Bunny based on input1. Retain its roomy square composition, exact body proportions, clothing, outboard relaxed arms, clean cel style, two small rear-waist mounts, and the complete DARK weapon. Make ONE design correction: lengthen ONLY the IVORY curved BLADE beyond its current tip into the empty space down-right. Keep its existing hilt, grip, collar, pommel, guard, blade root and attachment position unchanged. Do not scale both weapons, do not grow the handles, do not resize the person.\n\nInput2 is the accepted original twin-dagger master, controlling their distinct shapes and part proportions. The DARK broad angular fang stays the same size as input1. IVORY remains the longer swept blade with its distinct crescent guard and curved single-hand grip. Its complete length must be clearly about seven-sixths the DARK length. In input1 the DARK length is already close to its .36 character-height goal, but IVORY is only about .382 instead of .42. Increase the ivory blade reach about10 percent of its current COMPLETE weapon length, keeping all the hilt parts the same. On the approximate1254-square layout of input1, the ivory tip currently at(817,651) can extend naturally to about(851,679). These are composition aids, not text to draw. Keep the ivory's sweeping curve and coherent broad-to-tip taper; do not add an unrelated needle extension or seam. The same single piece must flow naturally from the retained root to the farther tip.\n\nKeep the low waist X: DARK hilt on screen RIGHT/character RIGHT, blade toward screen LEFT, nearer the wearer. IVORY hilt screen LEFT/character LEFT, blade toward screen RIGHT, outer layer. Clean overlap separates the two objects. Blades are behind the wearer and may pass behind an arm in depth, but never through a hand or leg. The right-side empty space is available; don't shorten the tip to stop beside the hand. Preserve the thin short root cover BELOW each guard with guard seated on its rim, a separate collar wrap ABOVE the guard and the closed ear carrying the trouser belt. No long sheaths or new mechanisms.\n\nKeep the head, ears, raised goggles, white hair, orange high-low jacket, white hem, red shorts, center red belt loop and empty hands unchanged. Screen RIGHT full black closed-finger glove/red wrist, right thigh terminal and pouch, short white sock. Screen LEFT fingerless orange-edged glove/orange terminal, long orange stocking, OG on the left sleeve pocket. No shoulder harness, H-straps, chains or added leg bands.\n\nOne coherent fresh whole drawing, clean Japanese2D hand-drawn lines and cel-color planes. No labels/insets, no photocollage, no 3D rendering, no random white specks/stains/noisy metal. Leave full white margins around all tips and footwear. Fictional character costume illustration only.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v2-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-4cb91994-41d0-4c8d-9613-ac48c6958983.png",
+          "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-output.json",
+            "sha256": "e86c5279f8a07c0d90a45d7bacedd419babacbe134908731d254519e4ad6f4a0"
+          },
+          "record_note": "Actual output metadata records native_tool and the unchanged PNG copy/hash."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-output.json",
+          "sha256": "e86c5279f8a07c0d90a45d7bacedd419babacbe134908731d254519e4ad6f4a0"
+        },
+        "reference_basis": "V2 is a limited whole identity/composition/dark weapon/hilt/mount reference; its ivory length was explicitly unaccepted. Master-v4 supplies authoritative dagger designs.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-root-acceptance.json",
+          "sha256": "04a7bb24dc295f81d10211ddf6a4a811bb59932dd438f4c7f89ded2c27682aa1"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-root-acceptance.json",
+          "sha256": "04a7bb24dc295f81d10211ddf6a4a811bb59932dd438f4c7f89ded2c27682aa1"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-self-review.json",
+          "sha256": "0af7e28eddf2884d83669409fb124cd49bf6391686adde04a02a2b8d0a3c55ee"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-handoff.json",
+          "sha256": "0faf6e0c23072543848d5ec72c07ff61aed914a674a38e4030d2b92a293b7dd9"
+        },
+        "measurement_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-dimension-observation.json",
+          "sha256": "3bc9336a93a5a62bf7f15e113394b66415ebb311e6c5d93e0784ba2b56c42c54"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v2-native.png",
+            "sha256": "7fef39fa1196a1107f9d31d98fc0d83768c134660e92d3f1b83345c0507a711b",
+            "role": "V2 whole identity/composition/DARK/hilts/mounts; ivory blade length explicitly needs correction"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+            "role": "Accepted master for distinct weapon designs and proportions"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-waist-carry-cel-back-v1.json",
+          "sha256": "250d133ecc286e7818a802cf97d053f09a9ee4e46ffce971cc566077337d638c"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png",
+        "mime_type": "image/png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1650413,
+        "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1035324,
+        "sha256": "ab7bd74c0cbf26114ec5b5d0be5f292f7b60ec70702b5f6ed84fa4943050ef8d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-waist-carry-cel-front-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-waist-carry-cel-front-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled#dagger-waist-carry-views",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v3-native.png",
+        "baseline_sha256": "1c15c1bcb2766bc7a1e32ccc0be2830b2fab974483c6c52be16c9c8590091768",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-native.png",
+        "source_artifact_sha256": "ddd8ed368f7efbd479669141139c75b9b81ae3030082d264e95b75b0dbadb1cd",
+        "review_status": "current-dagger-waist-cross-carry-front",
+        "description": "双匕首后腰交叉携行 · 正面完整人物",
+        "scope": "后腰柄部在正面被袖与身体遮挡；完整刀长、H0及侧厚未测，保留空值，不搬用背面取点。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-request.json",
+          "sha256": "5789eaaaabfe30763cf62c02dead7e192fa42870575d69c26662cca9139d75a5"
+        },
+        "request_pointer": "/",
+        "actual_tool_parameters": {
+          "prompt": "Create one entirely NEW complete front-view Bunny illustration. Input1 controls the person/face/clothing/empty-hand stance; its UPPER HILTS HAVE BEEN MOVED INWARD JUST TO DISPLAY THEM, which is incorrect. Input2 is the accepted rear layout and controls where those same weapons really are.\n\nThe fix is TRUE OCCLUSION, not a new holster design. Keep both hilts and their small mounts at the FARTHER OUTBOARD REAR-WAIST positions defined in input2. From the FRONT they sit BEHIND the voluminous orange sleeves and body. Allow BOTH UPPER HILTS to be MOSTLY OR ENTIRELY HIDDEN behind the sleeves. Do not show a complete handle in the narrow white gaps between sleeve and bare waist. Those white gaps should remain empty/background, not filled with relocated hilts. This is intentional: the hands/arms are in FRONT of the weapons. Never pull the rear mounts toward the front/side belt to expose them. Keep the front belt buckle and red shorts fully unobstructed.\n\nImagine the input2 back layout viewed from the opposite side on the same1254-square page. As loose visual guides only, ivory pommel belongs around screen(779,368), behind the left orange sleeve, not the visible inner gap around(725,399). Dark pommel belongs around(500,374), also largely behind the opposite sleeve. Do NOT draw these coordinates or force the pommels to be visible. Their connection runs unseen behind the body to the opposite lower tip. Both complete weapons keep the accepted back size: dark .36 bodyheight, ivory .42, with compact one-hand hilts. No scaling down to fit the gaps.\n\nLOWER exposed tip positions stay consistent with the low rear X: IVORY longer tip on screen LEFT, near its current position around(400,690), DARK shorter tip on screen RIGHT, slightly farther out and higher than input1, roughly(820,630). They are the outer ends of blades crossing behind the shorts, not two side-hanging knives. Keep clean body occlusion of the central blades. The white blade can pass behind the right equipment/hand plane but never through them; black tip stays behind the left hand, not in its palm. Do not add sheath/mount structures on the front belt. No extra knife, hilt or decorative dangling pommel.\n\nKeep the whole person and same relaxed pose intact: silver-white hair, blue eyes, human ears, raised goggles, highlow orange jacket/white cropped highneck top/red shorts, natural body proportions. ScreenLEFT is characterRIGHT: fullblack closedfinger glove/red wrist/two thigh equipment modules/short white sock. ScreenRIGHT is characterLEFT: fingerless glove/orange wrist/long orange sock/OG sleeve pocket. No upper harness/chains/extra thigh bands. Original boots and white margins. Fresh coherent Japanese anime handdrawn lines and clean cel planes, no white speckles/stains/noisy facets. One complete square fullbody image, no inset/labels/local pasted patch. Fictional costume illustration.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v3-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-ed0ea9fb-0a1d-48ac-893c-0f884b6534e0.png",
+          "sha256": "ddd8ed368f7efbd479669141139c75b9b81ae3030082d264e95b75b0dbadb1cd",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-output.json",
+            "sha256": "e2609156bff245a69cfb5962ded5742b98918b23de5426d287fc5db972b33ccd"
+          },
+          "record_note": "Actual output metadata preserves native_tool and source hash; the native PNG is byte-exact."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-output.json",
+          "sha256": "e2609156bff245a69cfb5962ded5742b98918b23de5426d287fc5db972b33ccd"
+        },
+        "reference_basis": "Actual ordered references and their limited roles are preserved verbatim. Hidden rear-waist hilts remain occluded rather than moved into the visible side gap.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-root-acceptance.json",
+          "sha256": "1c3d7f91bcbb9d91462b050d365300de865ae1a3c9c4ed7bf5a7c6e3689716b1"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-root-acceptance.json",
+          "sha256": "1c3d7f91bcbb9d91462b050d365300de865ae1a3c9c4ed7bf5a7c6e3689716b1"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-self-review.json",
+          "sha256": "30186979956323a38c67c3182a428dd69eea29daf9f2c50283c0d2d005448d11"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-handoff.json",
+          "sha256": "bb907b949b651990d2f392c878db07840135a6ddc361f778532417eeea51a00e"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v3-native.png",
+            "sha256": "1c15c1bcb2766bc7a1e32ccc0be2830b2fab974483c6c52be16c9c8590091768",
+            "role": "Person/clothes only; inward relocated upper hilts excluded"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
+            "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658",
+            "role": "Accepted rear physical placement/size"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+            "role": "Distinct master weapon forms"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-waist-carry-cel-front-v1.json",
+          "sha256": "0182394924844062f70c026dec987041ee23845a4540489907709f167caa9ba5"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v1.png",
+        "mime_type": "image/png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1692404,
+        "sha256": "ddd8ed368f7efbd479669141139c75b9b81ae3030082d264e95b75b0dbadb1cd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 971990,
+        "sha256": "653e45105cb9ea557269eaba75de9003df0839d8375b788b7769c2078f95a326",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-waist-carry-cel-side-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-waist-carry-cel-side-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled#dagger-waist-carry-views",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v1-native.png",
+        "baseline_sha256": "2da71207ed88bacce46d4febf82ff5da0289810bce1d359c8ef4562ac2fcbb77",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-native.png",
+        "source_artifact_sha256": "5f85ae5e863837a7f48ddccac1e7aac7910455e948bd5a64d9583a897b13d279",
+        "review_status": "current-dagger-waist-cross-carry-right-side",
+        "description": "双匕首后腰交叉携行 · 右侧完整人物",
+        "scope": "侧视用于核对腰后固定件、刀体和臀腿装备的遮挡层次；无独立H0、刀长或侧厚实测，原尺寸不变。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-request.json",
+          "sha256": "0a1daed86082ebae4588813eb90e29a5f87ef7a4a78a29eaa0cf0f7c65405fee"
+        },
+        "request_pointer": "/",
+        "actual_tool_parameters": {
+          "prompt": "Entirely redraw one complete STRICT RIGHT-SIDE profile of Bunny facing screen RIGHT, same character proportions/clothing/relaxed empty-hand posture as input1. Input1's rear weapon silhouettes contain a mistake: a DUPLICATE IVORY TEARDROP POMMEL WITH ORANGE INSET appears at the very bottom. Remove that impossible duplicate. Only TWO complete daggers exist, each with one hilt at the UPPER rear belt and one blade tip below. No dangling ornament or third hilt. Input2 is the accepted back carrying geometry; input3 the dagger master.\n\nMaintain the same physical LOW rear-waist shallow X as input2. Near DARK dagger hilt at character RIGHT rear belt; farther IVORY dagger hilt at character LEFT rear belt. Both handles end at comparable height above the rear belt as in the back drawing; both blade tips point to opposite hips and down. At this true90-degree profile camera their sideways span is severely foreshortened. Show narrow edge/oblique silhouettes tucked BEHIND the buttocks, with depth between them. Do not display two complete broad front-facing blades hanging vertically side by side. The farther ivory hilt may be mostly hidden behind near weapon/body; do NOT invent visibility at a lower height. The bottom silhouettes are blade TIPS only—no orange-inset pommel, no handle loop there. The actual dark .36 and ivory .42 body-height lengths remain unchanged even when projection is shorter.\n\nConnection read: rear trouser belt passes through a closed ear behind the near short root cover. The dark guard rests on that thin short cover rim below it, separate collar wrap above guard. These are compact exterior costume parts. Knife/mount layers stay behind the red seat with readable exterior separation. Existing right upper thigh terminal and lower pouch stay toward the FRONT-OUTER thigh, ahead of the blades; no blade through pants, leg, equipment, or right hand. There is no full sheath, giant case, additional shoulder/chest/H harness, chain or new thigh band.\n\nPreserve input1's correct fullblack CLOSED-FINGER glove/red wrist, short white sock, both right thigh devices, orange jacket and white hem, red shorts and belt, single front buckle, silver-white grouped hair/human ear/blue eye/raised goggles. No OG patch on right sleeve. Same complete roomy square framing, natural profile face. Clean Japanese2D handdrawn lines/cel planes, no noisy metal/cloudy stains/white specks. Full body and all equipment inside white margin, no inset/text/local pasted repair. Fictional character illustration only.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v1-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-21ceb53b-628f-47f0-b994-75243479acde.png",
+          "sha256": "5f85ae5e863837a7f48ddccac1e7aac7910455e948bd5a64d9583a897b13d279",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-output.json",
+            "sha256": "819e5f7e1bff68d59654675ed70ac9e4978f323aa6346d4debb59fde41097f91"
+          },
+          "record_note": "Actual output metadata preserves native_tool and source hash; the native PNG is byte-exact."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-output.json",
+          "sha256": "819e5f7e1bff68d59654675ed70ac9e4978f323aa6346d4debb59fde41097f91"
+        },
+        "reference_basis": "Failed side-v1 supplies wearer only, not its incorrect weapon arrangement. Accepted back supplies visible placement and master-v4 supplies weapon identity. Physical arrangement in the original reference role means visible configuration, not engineering validation.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-root-acceptance.json",
+          "sha256": "cca444ce12614efaa015946158adac51662bae894c33aa24e65801ddc7708689"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-root-acceptance.json",
+          "sha256": "cca444ce12614efaa015946158adac51662bae894c33aa24e65801ddc7708689"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-self-review.json",
+          "sha256": "69819fb24fcbe9314f7a6237fc89fecc0fa23e2c3b6a94421c7477d1144fc04b"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-handoff.json",
+          "sha256": "fcbd2e531a7573cceed1eb8acdb66c36ec92558894c5fb460d319d1440bd0d19"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v1-native.png",
+            "sha256": "2da71207ed88bacce46d4febf82ff5da0289810bce1d359c8ef4562ac2fcbb77",
+            "role": "Failedv1 used for wearer only; actual weapon error explicitly excluded"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
+            "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658",
+            "role": "Acceptedback physical arrangement"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+            "role": "Master design"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-waist-carry-cel-side-v1.json",
+          "sha256": "ed49039da7125c07b30fd844ffec46f096b8d1b3c8132db92e367190bb6b9c45"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1.png",
+        "mime_type": "image/png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1598129,
+        "sha256": "5f85ae5e863837a7f48ddccac1e7aac7910455e948bd5a64d9583a897b13d279",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 902322,
+        "sha256": "62ffe10c88304dd58da6af58a90fc77570fb56a5411a203bdc8c89d90e145440",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-waist-mount-structure-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-waist-mount-structure-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/weapon#dagger-waist-mount-structure",
+        "based_on": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png",
+        "baseline_sha256": "51015b8332971082138ee50d5c214d9cbb35fa8e024ac5918b19e117a9f715e0",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-native.png",
+        "source_artifact_sha256": "9845129227fd8fa7d15bd34e15586569b6a31fe4dd17de2e53db711e7e445228",
+        "review_status": "current-exterior-waist-mount-study",
+        "description": "后腰交叉固定 · 刀根短托、回绕束带与穿腰带带耳外观研究",
+        "scope": "只说明可见连接层次，非完整人物、武器本体分件或尺寸/承载验证。母版与既定身体服装尺寸不变。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-request.json",
+          "sha256": "6ecc4e5498885bc5ffc2fcd0b0a59ba93fb5d6d77cd6a1b45bef07f09ed8d8ed"
+        },
+        "request_pointer": "/",
+        "actual_tool_parameters": {
+          "prompt": "Create a completely new 2D Japanese anime costume appearance study on white: one close REAR WAIST view with a small matching three-quarter close-up of the DARK dagger's root attachment. Only show the lower orange jacket hem, white undershirt edge, waist, black trouser belt and upper red shorts. NO hands, arms or face. The two whole daggers may extend widely beyond the cropped hips; keep all tips and pommels inside the composition. Clean weighted hand-drawn lines, solid local colors, restrained crisp cel shading. This is a fictional character costume concept, not an engineering drawing. No labels or numbers.\n\nREFERENCE ROLES:\nImage 1: clean unarmed Bunny clothing only.\nImage 2: exact DARK / IVORY dagger identities and entire shapes; preserve their distinct guards and small hilts.\nImage 3: a previous LOCAL study showing the upper collar strap and closed belt ear. Retain ONLY that enclosing upper strap and belt-through layering. Its lower support was missing and must be newly designed as specified below. It is not a reference for the person's sides, steep blade angles, or size.\n\nThe crucial new visible part is a very SHORT, THIN charcoal leather THROAT directly BELOW EACH GUARD, wrapping only the first short section of blade root. It has a visible front wall over that short blade root and two returning side walls, with a definite top rim. The guard visibly RESTS ON TOP OF THIS RIM. Below the short throat, the bare blade emerges and its whole long body remains exposed. This small root cover is distinct from both the metal guard above and the belt backing behind. It is not merely a flat pad behind the blade, not a strap across the sharp edge, and not a full-length scabbard. Show a small open side/overlap seam so the wide blade is not required to travel through a tiny closed tube. Keep it visually compact, only near the root.\n\nABOVE the guard, retain a separate short dark leather cuff around the non-blade red collar, with some red visible. The cuff's front crossing, returning side edge and small dull fastening tab are readable. It returns to the same backing as the short throat. The backing has a closed leather belt ear through which the existing black horizontal trouser belt passes. In the small three-quarter inset, show the whole continuous appearance chain: belt through ear → backing → short lower throat with guard seated ON its rim, plus upper collar cuff. No hidden mechanisms, load diagrams or construction steps. Both blades have their own corresponding compact assembly, not one central holder.\n\nStraight rear view LATERALITY: DARK black angular hilt on screen RIGHT / character RIGHT, blade points shallowly down to screen LEFT. IVORY curved white hilt on screen LEFT / character LEFT, blade points shallowly down to screen RIGHT. Keep a wide SHALLOW X centered around the waistband and upper seat, roughly 25 degrees from horizontal, not a steep X down the legs. White blade passes clearly OUTSIDE the dark one at the crossing with distinct occlusion; neither passes through the body. Both tips extend beyond opposing hip outlines.\nWeapons remain large: DARK full length .36 of crown-to-barefoot body height, IVORY .42, ratio6:7. Use reference2's proportions: dark blade roughly two-thirds full length, ivory blade roughly72%; compact one-hand hilts, white clearly longer. Do not shrink blades into the pelvis outline. The inset enlarges the SAME dark attachment, not a new design.\n\nThe only wearable base is a black trouser belt through red loops, natural red shorts, orange cropped rear jacket/white hem. Rear center red trouser loop, no rear buckle. No long sheaths, shoulder straps, chest straps, added thigh straps, chains, giant boxes or disk mounts. No photographic or 3D materials, white specks, cloudy smudges or patina. Focus all detail on two visibly seated guards, short lower root covers, upper cuffs and real belt-through loops.",
+          "referenced_image_paths": [
+            "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/native-root-cradle-board-v2/root-inset.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-314b9400-ae5a-42b4-9a57-3341890c0b43.png",
+          "sha256": "9845129227fd8fa7d15bd34e15586569b6a31fe4dd17de2e53db711e7e445228",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-output.json",
+            "sha256": "08f030cb816c46ec19f730c1d13ac2915c5f16cef455286fcee031636f275e21"
+          },
+          "record_note": "Actual tool output metadata records native_path and output_hint; unchanged returned pixels remain in the native PNG."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-output.json",
+          "sha256": "08f030cb816c46ec19f730c1d13ac2915c5f16cef455286fcee031636f275e21"
+        },
+        "reference_basis": "Actual ordered inputs are clean unarmed body back, accepted dagger master-v4, and a limited v2 local inset. No third-party photograph was passed in this request. The v2 full layout was not accepted.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-root-acceptance.json",
+          "sha256": "4d70e2a4cf69b0dcc71340afec305cb9e944d3daee30a55c96573a838be09cf1"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-root-acceptance.json",
+          "sha256": "4d70e2a4cf69b0dcc71340afec305cb9e944d3daee30a55c96573a838be09cf1"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-self-review.json",
+          "sha256": "ca429209f19a2ae95c85c458fc6cf5ac817e8093adec04899abd6175836462a9"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-root-acceptance.json",
+          "sha256": "4d70e2a4cf69b0dcc71340afec305cb9e944d3daee30a55c96573a838be09cf1"
+        },
+        "research_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/research/visible-mounting-reference-review.json",
+          "sha256": "f1311821d33f9c1cc603d31007856461e02494dbed139d7c07b702034dec91a8"
+        },
+        "reference_chain": [
+          {
+            "index": 1,
+            "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png",
+            "sha256": "51015b8332971082138ee50d5c214d9cbb35fa8e024ac5918b19e117a9f715e0",
+            "role": "Current clean unarmed Bunny back: clothing and trouser-belt only."
+          },
+          {
+            "index": 2,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+            "role": "Accepted dagger master-v4: dark/ivory exterior identities; this mounting board does not replace master geometry or dimensions."
+          },
+          {
+            "index": 3,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/native-root-cradle-board-v2/root-inset.png",
+            "sha256": "7440f3ac10b87d8dedd30ce552232025a0c3d0dfd6f1d3765e52bb60d2876f3f",
+            "role": "Previous v2 local root inset: upper collar wrap and closed belt-ear layering only; missing lower support, incorrect full-view sides/angle/size explicitly excluded by actual prompt."
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-waist-mount-structure-v1.json",
+          "sha256": "d52b211d0397169df381c1d2662b3396116d1690df6d9bd64eed36606135967c"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1653971,
+        "sha256": "9845129227fd8fa7d15bd34e15586569b6a31fe4dd17de2e53db711e7e445228",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1079868,
+        "sha256": "aff4da4f3709f49167294b011dd34974d5a8d0c83b3a932f043dee2fce55b8f1",
         "alpha": false
       }
     },
@@ -12910,8 +13828,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 213686081,
-      "sha256": "a4815f6856c582b1106ebcc946fc3e40fb0c75d15303d207ca60eebd8db58407"
+      "bytes": 225883563,
+      "sha256": "b7e9ad9dbe8046fa9f0ba9b245be267dfbffca4b793109c4cf3b6afc15e10bc0"
     }
   ]
 }

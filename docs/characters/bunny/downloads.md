@@ -31,7 +31,7 @@ aside: true
 
 </details>
 
-基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；吊带系统已取消，腰带与头装累计三视已完整重绘；护目镜四格近景与拆解板保留；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已有异构双刀与直接挂腰带的护套，完整武器累计三视尚未完成；原有大剑、双手棍资料保留为历史。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
+基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；吊带系统已取消，腰带与头装累计三视已完整重绘；护目镜四格近景与拆解板保留；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已有放大尺寸母版，携带方向改为后腰交叉，已有局部固定外观研究与持握概念三视，完整携行已有正面、右侧与背面三视；原有大剑、双手棍资料保留为历史。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 本轮按同视角基模完整重绘鞋靴、手部、腿部、夹克四层的 12 张人物及袜装背面，核对头部发色、深色轮廓与赛璐璐分面；既定尺寸规范和结构细节板保持。各新图测量绑定自身坐标，遮挡与数值不确定项仍单列。
 
@@ -422,6 +422,27 @@ aside: true
 
 ## 刺客双匕首 · 原图下载 {#assassin-dagger-assets}
 
+[双匕首尺寸 JSON](/catalog/bunny/3.1.0/dagger-dimensions.json)分别记录新设计目标、母版图面观测与后续图面核对。右黑整长 0.36H0、左骨白 0.42H0；此前小尺度试设已撤销。
+
+- [尺寸母版 · 并列正面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-scale-master-v1.png)
+- [后腰固定 · 局部外观结构研究 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png)
+- [持握 · 动态主视 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-main-v1.png)
+- [持握 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-cel-side-v1.png)
+- [持握 · 背面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-cel-back-v1.png)
+- [后腰交叉携行 · 正面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v1.png)
+- [后腰交叉携行 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1.png)
+- [后腰交叉携行 · 背面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png)
+- [专注 / 自信轻笑 / 放松 · 表情补充 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-armed-expressions-v1.png)
+
+[查看武器设计](/characters/bunny/weapon#assassin-daggers-concept) · [持握与后腰交叉携行](/characters/bunny/assembled)。第三方参考照片只保留官方外链，不放入原图包。
+
+<details>
+<summary>此前小尺度异构双刀 · 历史原件</summary>
+
+两张原件完整保留；0.22H0 试设已撤销，不作为新尺寸验收依据。
+
+## 此前小尺度异构双刀原件
+
 - [异构双匕首 · 单件外观原始 PNG](/media/bunny/3.1.0/assassin-daggers-twin-concept-v1.png)
 
 - [异构双匕首 · 后外腰护套携行原始 PNG](/media/bunny/3.1.0/assassin-daggers-twin-belt-carry-v1.png)
@@ -429,6 +450,9 @@ aside: true
 当前提供单件外观与腰后侧携行概念，完整武器累计三视、实际握持与动态间隙尚未完成。
 
 [查看当前方案与参考](/characters/bunny/weapon#assassin-daggers-concept) · [名义尺度](/characters/bunny/dimensions#assassin-daggers-dimensions)。第三方参考照片只保留官方外链。
+
+
+</details>
 
 <details>
 <summary>此前同款双刀与吊带携行 · 历史原件</summary>

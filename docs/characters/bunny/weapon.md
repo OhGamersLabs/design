@@ -5,7 +5,55 @@ aside: true
 ---
 # 刺客双匕首
 
-## 墨黑与骨白 · 整体异构的成对短刃 {#assassin-daggers-concept}
+## 墨黑与骨白 · 整体异构双匕首 {#assassin-daggers-concept}
+
+Bunny 以刺客定位使用两把各具完整造型的匕首：角色右侧是墨黑宽角獠牙刃，左侧是骨白前掠弧刃。刃形、护手、握柄与柄尾分别设计，通过少量红橙点和共同的手绘赛璐璐画风保持成对关系。
+
+统一整长为**右黑 0.36H0、左骨白 0.42H0**，H0 取当前身体基准发冠至赤脚地面。刀刃延长，握柄保持单独约束；各段长、正面宽度和测量定义见[双匕首尺寸规范](/characters/bunny/dimensions#assassin-daggers-dimensions)。
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-scale-master-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-scale-master-v1.png" alt="放大尺寸双匕首正面母版：右墨黑獠牙、左骨白曲刃" caption="双匕首尺寸母版 · 并列正面外观" />
+
+本母版固定两把的正面轮廓和细分比例：骨白刀更长，握柄长度接近；刀身、护手与柄尾分别保留异构特征。当前板不含窄侧视，厚度尚未测定。
+
+## 外观分区与分件状态 {#dagger-components}
+
+两把各自按刀身、护手、红领、握柄和柄尾分区，各段比例见[尺寸表](/characters/bunny/dimensions#assassin-daggers-dimensions)。**外观分件图待补**；当前正面母版展示完整单件，不作为拆解图。
+
+## 后腰交叉携行 {#dagger-carry}
+
+两刀在后腰交叉，角色右侧墨黑、左侧骨白；交叉处骨白在外、墨黑在内。刀身大部分露出，不使用包住整刃的大护套，也不增加肩带。
+
+### 刀根短托、回绕束带与穿腰带带耳 {#dagger-waist-mount-structure}
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png" alt="后腰交叉固定外观研究：护手下短托、柄根回绕束带与穿腰带带耳" caption="后腰固定 · 局部外观结构研究" />
+
+薄黑短托包住护手下方的一小段刀根，护手坐在托口上；上方束带回绕柄根，连接到同一承片；闭合带耳让现有裤腰皮带穿过。主图与放大局部说明这三层可见连接。
+
+这张板用于固定外观研究，不是武器本体分件图或尺寸基准。双刀轮廓与比例仍以[正面母版](#assassin-daggers-concept)和[尺寸表](/characters/bunny/dimensions#assassin-daggers-dimensions)为准；持握已有[同姿态概念三视](/characters/bunny/assembled#dagger-held-views)，携行已有[正、右侧、背面三视](/characters/bunny/assembled#dagger-waist-carry-views)；物理承载、抽取动作及动态间隙尚未验证。
+
+连接层次参考 [Taki 授权雕像 · First 4 Figures](https://first4figures.com/collections/soulcalibur-ii-1/products/taki-regular)可见的束环与承片，以及 [Ayane 授权模型 · 海洋堂](https://kaiyodo.co.jp/items/revoltech/nr067/)的包抱束环。这些来源采用有鞘系统，Bunny 的短托与后腰交叉组合是独立外观设计。低位交叉布局另参考 [tsukidal 的非官方 FFXIV 模组](https://www.xivmodarchive.com/modid/93419)，不沿用其中心穿插。
+
+[固定结构原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png) · [携行人物三视](/characters/bunny/assembled#dagger-waist-carry-views) · [裤腰皮带](/characters/bunny/harness#belt-wearing)
+
+## 参考与提炼 {#dagger-references}
+
+以下观察来自官方授权模型的可见造型；“用于 Bunny 的提炼”是本设计的选择，不是原作官方设定。照片仅作外链研究，不作为 Bunny 原创素材或下载包内容。
+
+| 官方来源 | 可见造型观察 | 用于 Bunny 的提炼 |
+| --- | --- | --- |
+| [《香格里拉·开拓异境》桑乐 · 魂ウェブ](https://tamashiiweb.com/item/14790/) | 红色近直短刃与青绿反曲短刃形成鲜明差别；另一套黑白宽弧短刃通过共享柄部、根部折线形成同族关系。 | 用黑白对比和不同刃形建立成对识别，Bunny 的两把匕首各有完整造型。 |
+| [《地城邂逅 IV》贝尔 · Good Smile](https://www.goodsmile.info/ja/product/14380/POP%2BUP%2BPARADE%2B%E3%83%99%E3%83%AB%2B%E3%82%AF%E3%83%A9%E3%83%8D%E3%83%AB.html) | 青白曲刃从外扩根部收腰，另一把黑色短直刃配小护手；两者都保持紧凑的柄刃关系。 | 控制护手与柄尾的体量，同时让两把武器的刃、护手和柄尾各具差别。 |
+| [《我独自升级》水篠旬 · SEGA](https://segaplaza.jp/prize/D122440/) | 该图可见一把黑色主体、红色刃缘与偏置尖端的短刃。 | 提炼集中、清楚的色块与尖端方向；配色回到 Bunny 的黑红与小橙点。 |
+
+[查看尺寸目标](/characters/bunny/dimensions#assassin-daggers-dimensions) · [原图下载](/characters/bunny/downloads#assassin-dagger-assets)
+
+
+<details>
+<summary>此前小尺度异构双匕首与护套携行 · 已取消方案</summary>
+
+以下保留旧外观与局部挂载图。两刀均为 0.22H0 的试设及大护套均已撤销，原图不作为本轮尺寸或挂载方式的依据。
+
+## 墨黑与骨白 · 整体异构的成对短刃 {#twin-daggers-small-history}
 
 Bunny 以刺客定位使用两把各具完整造型的短匕首：角色右侧为墨黑宽角獠牙刃，左侧为骨白前掠弧刃。两把的刃形、护手、握柄与柄尾分别设计，通过少量红橙点和共同的手绘赛璐璐画风保持成对关系。
 
@@ -15,7 +63,7 @@ Bunny 以刺客定位使用两把各具完整造型的短匕首：角色右侧�
 
 两把名义总长均为 **0.22H0**，H0 沿用当前基模发冠至赤脚地面高度。这个数值是后续人物绘制的尺度目标，详见[双匕首尺寸口径](/characters/bunny/dimensions#assassin-daggers-dimensions)。
 
-## 腰后侧直接挂载 {#dagger-carry}
+## 腰后侧直接挂载 {#dagger-carry-small-history}
 
 两只短鞘分别匹配各自刀形，直接固定在一圈黑色裤腰皮带上：角色右后外腰为深色宽刃鞘，左后外腰为浅色曲鞘。上身不再有肩带、H 形背带、胸下带或连到腰带的垂直带段与金属钩。
 
@@ -29,18 +77,8 @@ Bunny 以刺客定位使用两把各具完整造型的短匕首：角色右侧�
 
 [裤腰皮带与挂点](/characters/bunny/harness#belt-components) · [右腿装备](/characters/bunny/thigh-gear#thigh-wearing) · [当前原图下载](/characters/bunny/downloads#assassin-dagger-assets)
 
-## 参考与提炼 {#dagger-references}
 
-以下观察来自官方授权模型的可见造型；“用于 Bunny 的提炼”是本设计的选择，不是原作官方设定。照片仅作外链研究，不作为 Bunny 原创素材或下载包内容。
-
-| 官方来源 | 可见造型观察 | 用于 Bunny 的提炼 |
-| --- | --- | --- |
-| [《香格里拉·开拓异境》桑乐 · 魂ウェブ](https://tamashiiweb.com/item/14790/) | 红色近直短刃与青绿反曲短刃形成鲜明差别；另一套黑白宽弧短刃通过共享柄部、根部折线形成同族关系。 | 用黑白对比和不同刃形建立成对识别，Bunny 的两把匕首各有完整造型。 |
-| [《地城邂逅 IV》贝尔 · Good Smile](https://www.goodsmile.info/ja/product/14380/POP%2BUP%2BPARADE%2B%E3%83%99%E3%83%AB%2B%E3%82%AF%E3%83%A9%E3%83%8D%E3%83%AB.html) | 青白曲刃从外扩根部收腰，另一把黑色短直刃配小护手；两者都保持紧凑的柄刃关系。 | 控制护手与柄尾的体量，同时让两把武器的刃、护手和柄尾各具差别。 |
-| [《我独自升级》水篠旬 · SEGA](https://segaplaza.jp/prize/D122440/) | 该图可见一把黑色主体、红色刃缘与偏置尖端的短刃。 | 提炼集中、清楚的色块与尖端方向；配色回到 Bunny 的黑红与小橙点。 |
-
-[查看尺寸目标](/characters/bunny/dimensions#assassin-daggers-dimensions) · [原图下载状态](/characters/bunny/downloads#assassin-dagger-assets)
-
+</details>
 
 <details>
 <summary>此前同款双匕首与吊带携行 · 历史方案</summary>

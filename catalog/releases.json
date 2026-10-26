@@ -355,12 +355,62 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-armed-expressions-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-armed-expressions-v1.png",
+      "sha256": "f0f29973fb79a3c2a94fbf5b3a40848927b08fb77f26891dae70a63b59c0c77b",
+      "size": 2031268,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-armed-expressions-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/assassin-daggers-concept-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-concept-v1.png",
       "sha256": "13026cc2c00bec65a630f16a4b388ee92b8f1639618acb8e8926211a92a3a00e",
       "size": 1470186,
       "contentType": "image/png",
       "downloadName": "assassin-daggers-concept-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-held-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-held-cel-back-v1.png",
+      "sha256": "041a210c1f2da9193c5f63bd6d47d2cee4fb71b74fba5765cb79f858da8b5bd0",
+      "size": 1299089,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-held-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-held-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-held-cel-side-v1.png",
+      "sha256": "8a69ae3b2acb6a235325fe7c69728b19632c3f6b2d17a10a81be833671cc445c",
+      "size": 1706366,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-held-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-held-main-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-held-main-v1.png",
+      "sha256": "7ab366f6cb6ee3e8c29e1118fdd5b01281292a2a144524630ccc67169f2e2f5c",
+      "size": 1723370,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-held-main-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-scale-master-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-scale-master-v1.png",
+      "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+      "size": 1059494,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-scale-master-v1.png"
     },
     {
       "character": "bunny",
@@ -381,6 +431,46 @@
       "size": 1082072,
       "contentType": "image/png",
       "downloadName": "assassin-daggers-twin-concept-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png",
+      "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658",
+      "size": 1650413,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-waist-carry-cel-back-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-waist-carry-cel-front-v1.png",
+      "sha256": "ddd8ed368f7efbd479669141139c75b9b81ae3030082d264e95b75b0dbadb1cd",
+      "size": 1692404,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-waist-carry-cel-front-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-waist-carry-cel-side-v1.png",
+      "sha256": "5f85ae5e863837a7f48ddccac1e7aac7910455e948bd5a64d9583a897b13d279",
+      "size": 1598129,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-waist-carry-cel-side-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-waist-mount-structure-v1.png",
+      "sha256": "9845129227fd8fa7d15bd34e15586569b6a31fe4dd17de2e53db711e7e445228",
+      "size": 1653971,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-waist-mount-structure-v1.png"
     },
     {
       "character": "bunny",
@@ -1637,8 +1727,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "a4815f6856c582b1106ebcc946fc3e40fb0c75d15303d207ca60eebd8db58407",
-      "size": 213686081,
+      "sha256": "b7e9ad9dbe8046fa9f0ba9b245be267dfbffca4b793109c4cf3b6afc15e10bc0",
+      "size": 225883563,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

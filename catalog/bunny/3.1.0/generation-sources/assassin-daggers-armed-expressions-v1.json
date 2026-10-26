@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "role": "daggers-pose-expressions-three",
+  "publish_slug": "assassin-daggers-armed-expressions-v1",
+  "actual_tool_candidate": "held-expressions-v1",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-v1-native.png",
+    "sha256": "f0f29973fb79a3c2a94fbf5b3a40848927b08fb77f26891dae70a63b59c0c77b"
+  },
+  "dimensions": [
+    2172,
+    724
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-request-v1.json",
+    "sha256": "5b89d987670e66613914acfabe45eefa86ee444b3dcf9a690e673ce6324fda75"
+  },
+  "request_pointer": "/request",
+  "actual_tool_parameters": {
+    "prompt": "Draw a NEW three-cell expression design sheet for the same adult anime character Bunny. White landscape canvas, three equally large clean head-and-shoulder portraits in one horizontal row, each complete hair silhouette and collar visible with whitespace. Consistent frontal camera, same head size, facial structure, silver-white layered bob, side-attached human ears, blue irises, and current forehead goggles in all three portraits. Reference 1 locks identity and hair/ear construction; reference 2 supplies established subtle expression language only; reference 3 supplies the CURRENT forehead goggles, orange jacket black/red lapel and white high collar. Do not copy the old black tank top from reference 2. Clear Japanese hand-drawn outlines, hard cel color fields, purposeful angular hair shadows, no 3D shine or painterly cloud texture.\n\nLeft portrait FOCUS: focused alert, inner brows drawn slightly inward, blue eyes looking straight together, calm closed mouth, attention without angry grimace. Center portrait CONFIDENT: restrained confidence, a small asymmetric closed-mouth smile and gently assured eyebrows, both eyes open and aligned, no wink or exaggerated smirk. Right portrait RELAXED: after putting away equipment, brow tension released, tiny soft closed-mouth smile, both eyes open and still attentive, natural upright head. These are clearly different emotional states of exactly the same face, not three new character designs.\n\nKeep forehead goggles fully above eyes, with silver frame, dark lenses and small orange side tabs. No rabbit ears, headphones, weapons, hands, props or extra faces. Skin/hair boundaries and ears remain coherent. No white speckles, milky patches, random blue outline glow, oily shading, blurred texture or over-rendered skin. Optional small labels below portraits exactly FOCUS / CONFIDENT / RELAXED; no other text. This supplements the existing sixteen-expression sheet rather than replacing the identity reference.",
+    "referenced_image_paths": [
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v3.png",
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/expressions-v2-cel-v2.png",
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-v1-tool-response.json",
+    "sha256": "d7f23deb19f151bcf16211f658ba7965012812841079668664a39c80a8a1a00e"
+  },
+  "native_output": {
+    "kind": "native-tool-file",
+    "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-33e1c7fa-abfa-4bc4-ad0f-07dba7eba65c.png",
+    "sha256": "f0f29973fb79a3c2a94fbf5b3a40848927b08fb77f26891dae70a63b59c0c77b",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-v1-tool-response.json",
+      "sha256": "d7f23deb19f151bcf16211f658ba7965012812841079668664a39c80a8a1a00e"
+    },
+    "record_note": "Actual response metadata explicitly retains the native PNG path in place of the large data URL. The original PNG is byte-exact; no synthesized node."
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v3.png",
+      "sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768",
+      "role": "Current face identity, silver-white hair groups, ear attachment and blue eyes.",
+      "order": 1,
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/expressions-v2-cel-v2.png",
+      "sha256": "a6dd535e5acbe9dfab82b232ebb094a5c62b2766b5d1cc1fdb49789233437e74",
+      "role": "Expression language only; new three cells supplement this sheet. Do not copy old black top.",
+      "order": 2,
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
+      "sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
+      "role": "Current forehead goggles and orange jacket/white collar, clean cel rendering.",
+      "order": 3,
+      "actually_viewed": true
+    }
+  ],
+  "reference_basis": "See actual request ordered_tool_references. Current head + 16 expressions + belt-only goggles front. No failed held front used.",
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/root-acceptance-held-expressions-v1.json",
+    "sha256": "66b11e729f976ddf818f00945afa9b4160e7844111232c807a77e26b25fc14e2"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/root-acceptance-held-expressions-v1.json",
+    "sha256": "66b11e729f976ddf818f00945afa9b4160e7844111232c807a77e26b25fc14e2"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-expressions-handoff-v1.json",
+    "sha256": "131ce77296127ca0f2f5aeb21d2c33122665218c0bdfac86ab7db889d1856780"
+  },
+  "review_status": "accepted-three-expression-supplement",
+  "method": "built-in image_gen.imagegen complete-sheet generation; byte-exact PNG copy and lossless WebP only",
+  "limitations": [
+    "Supplemental expression sheet, not replacement identity mother sheet.",
+    "No motion, rig or per-pixel perfection claim."
+  ]
+}

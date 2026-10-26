@@ -6,7 +6,7 @@ aside: true
 # 腿部盒袋与任务终端
 
 ::: info 第五层 · 右腿任务终端与维护盒袋
-当前腿部层沿用[手部装备层](/characters/bunny/hands)的完整穿着，在角色右大腿加入两道独立腿带、上方任务终端与下方维护盒袋。正、侧、背三张完整人物及两张部件板均为整张新绘，保留原生 PNG、放大入口与下载。下一层[橙色外套](/characters/bunny/jacket)现有完整穿着三视与独立结构、局部细节两张板，[裤腰皮带与挂点](/characters/bunny/harness)采用无吊带方案，已提供完整人物与部件图；[头部装备层](/characters/bunny/headgear#headgear-wearing)已有累计三视与部件图；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已有异构双刀与直接挂腰带的配套护套，完整武器累计三视尚未同步；原有大剑、双手棍资料保留为历史。
+当前腿部层沿用[手部装备层](/characters/bunny/hands)的完整穿着，在角色右大腿加入两道独立腿带、上方任务终端与下方维护盒袋。正、侧、背三张完整人物及两张部件板均为整张新绘，保留原生 PNG、放大入口与下载。下一层[橙色外套](/characters/bunny/jacket)现有完整穿着三视与独立结构、局部细节两张板，[裤腰皮带与挂点](/characters/bunny/harness)采用无吊带方案，已提供完整人物与部件图；[头部装备层](/characters/bunny/headgear#headgear-wearing)已有累计三视与部件图；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已有放大尺寸母版，人物姿态分为[持握与后腰交叉携行](/characters/bunny/assembled)两组；原有大剑、双手棍资料保留为历史。
 :::
 
 ## 腿部装备穿着三视 {#thigh-wearing}

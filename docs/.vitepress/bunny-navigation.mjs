@@ -94,7 +94,7 @@ export const bunnySections = [
     "description": "累计与武器",
     "items": [
       {
-        "text": "武器累计历史",
+        "text": "双匕首 · 持握与携行",
         "link": "/characters/bunny/assembled"
       },
       {

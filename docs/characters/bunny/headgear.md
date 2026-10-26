@@ -7,7 +7,7 @@ aside: true
 
 当前头装只保留护目镜，取消耳机、兔耳配饰和独立头箍。护目镜采用柔圆白框、烟灰镜片、小橙侧扣与一条绕后脑的细黑弹性镜带。默认抬至额头佩戴，露出眼睛、鼻子和嘴部。
 
-本层在[裤腰皮带层](/characters/bunny/harness#belt-wearing)加入护目镜；白色内搭与橙色夹克之间不再穿吊带。四格头部近景与护目镜独立结构保持原件，完整人物三视已采用无吊带方案。武器另见[异色双匕首](/characters/bunny/weapon#assassin-daggers-concept)，不把局部携行概念当作完整武器累计三视。
+本层在[裤腰皮带层](/characters/bunny/harness#belt-wearing)加入护目镜；白色内搭与橙色夹克之间不再穿吊带。四格头部近景与护目镜独立结构保持原件，完整人物三视已采用无吊带方案。武器另见[异构双匕首与固定尺寸](/characters/bunny/weapon#assassin-daggers-concept)，人物姿态分为[持握与后腰交叉携行](/characters/bunny/assembled)两组。
 
 ## 累计穿戴三视 {#headgear-wearing}
 

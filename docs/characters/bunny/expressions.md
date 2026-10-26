@@ -14,6 +14,8 @@ releaseReady: false
 
 按行从左至右：中性 / 微笑 / 大笑 / 惊讶；生气 / 怒喊 / 鼓腮不满 / 怀疑；疲倦 / 含泪难过 / 大哭 / 担忧；眨眼俏皮 / 会心笑 / 兴奋 / 安心。
 
+本轮武器姿势另有[专注、自信轻笑与放松三格补充](/characters/bunny/assembled#armed-expressions)，与上方 16 格身份表情分开展示。
+
 ## 历史表情参考
 
 <details>
