@@ -399,9 +399,18 @@ aside: true
 
 ## 黑曜石感大剑 · 单件概念 {#obsidian-sword-assets}
 
-- [单件概念 · 正面原始 PNG](/media/bunny/3.1.0/obsidian-sword-concept-front-v1.png)
+- [加厚正面、侧面与断口细节 · 整板原始 PNG](/media/bunny/3.1.0/obsidian-sword-thicker-concept-v1.png)
 
-[查看概念方案](/characters/bunny/weapon#obsidian-sword-concept) · [设计尺寸与图面读数](/characters/bunny/dimensions#obsidian-sword-dimensions)。人物握持、背负与新累计三视尚未同步。 侧视尚未通过，本轮只提供正面原件。
+正面、侧面与断口细节位于同一张完整原件中。[查看概念方案](/characters/bunny/weapon#obsidian-sword-concept) · [设计尺寸与图面读数](/characters/bunny/dimensions#obsidian-sword-dimensions)。人物握持、背负与新累计三视尚未绘制。
+
+<details>
+<summary>此前纯黑正面概念 · 历史原件</summary>
+
+- [此前单件概念 · 正面原始 PNG](/media/bunny/3.1.0/obsidian-sword-concept-front-v1.png)
+
+当时侧视未通过；旧正面原件与记录继续保留。
+
+</details>
 
 <details>
 <summary>此前双手棍 · 前方案原件</summary>

@@ -1325,6 +1325,16 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/obsidian-sword-thicker-concept-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/obsidian-sword-thicker-concept-v1.png",
+      "sha256": "33764ab9681881230859e447c82a999e8d1e3684c04bbf22842e69b63779fd34",
+      "size": 1585431,
+      "contentType": "image/png",
+      "downloadName": "obsidian-sword-thicker-concept-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/outfit-pose-current.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/outfit-pose-current.png",
       "sha256": "c896bd1ed2448503a4ec0997b3475ba2e232230bc059d43b6ad2ea93f6ed710f",
@@ -1517,8 +1527,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "f46f7876f0cdd96fdd4b20e1acfc0ff172c522690261dcca77ce7a5ff36c7a3c",
-      "size": 199461919,
+      "sha256": "a9cb9db730a85b872a5abcd34ecf09d305943e0cb6aa38bc3d6da774d5c1ab4a",
+      "size": 200738018,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

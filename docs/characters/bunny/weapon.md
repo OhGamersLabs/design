@@ -7,19 +7,28 @@ aside: true
 
 ## 厚重岩板型 · 单件概念方案 {#obsidian-sword-concept}
 
-当前武器方向改为宽厚的黑曜石感大剑。大块炭黑剑身、轮廓边缘的断口与灰蓝硬边分面形成岩板感；长黑握柄和根部窄暗红环沿用 Bunny 的深色装备与红色点缀。
+当前采用宽厚的黑曜石感大剑：宽大的黑色岩板剑身保留贝壳状断口、弧面反光与深浅分面，侧面明显加厚；长柄的红黑交叉缠绕和金属柄尾呼应 Bunny 的装备配色。
 
-本页为**单件概念方案，人物握持、背负与新累计三视尚未同步**。本轮只交付已通过审查的正面，保留完整生图原件。
+本页为**单件概念方案，人物握持、背负与新累计三视尚未绘制**。下方整板包含正面、侧面和断口细节，三者来自同一张完整生图原件。
 
-### 正面
+### 加厚正侧与断口细节
+
+<ReleaseImage src="/characters/bunny/3.1.0/obsidian-sword-thicker-concept-v1.webp" original="/media/bunny/3.1.0/obsidian-sword-thicker-concept-v1.png" alt="黑曜石感大剑 · 加厚正侧与断口细节概念板" caption="黑曜石感大剑 · 加厚正侧与断口细节概念板" />
+
+当前图面厚宽比约 **0.38**。按总长统一到同尺度后，侧面厚度较所选材质参考稿增加约九成，正面最大宽度约增加 4.3%；宽厚都取垂直于长轴的同一截面，不采用整幅轮廓的外包尺寸。
+
+总长规定为 **0.85H0**，H0 使用当前正面身体基准的发冠至赤脚地面高度。各部位按这张新图的实际读数统一，详见[大剑尺寸与图面读数](/characters/bunny/dimensions#obsidian-sword-dimensions)。概念尚未与人物合绘对位，厘米尺寸未设定；柄部可见缠绕段只描述外观分区。
+
+[下载整板原始 PNG](/characters/bunny/downloads#obsidian-sword-assets) · [此前武器累计资料](/characters/bunny/assembled)
+
+<details>
+<summary>此前纯黑正面概念 · 历史方案</summary>
+
+此前正面方案保留原件与当时的尺寸记录；它的平涂材质及 0.028H0 侧厚试设已被当前加厚方案取代。当时侧视未通过，未形成完整正侧套图。
 
 <ReleaseImage src="/characters/bunny/3.1.0/obsidian-sword-concept-front-v1.webp" original="/media/bunny/3.1.0/obsidian-sword-concept-front-v1.png" alt="黑曜石感大剑 · 单件概念正面" caption="黑曜石感大剑 · 单件概念正面" />
 
-**侧视尚未通过，厚度 0.028H0 为待校核目标**；当前没有侧面原件可供下载。
-
-总长规定为 **0.85H0**，H0 使用当前正面身体基准的发冠至赤脚地面高度。其余部位按选定正面图的实际轮廓比例统一；宽度取垂直于长轴的同一截面最大正面宽度；厚度也按对应侧面截面量取。详见[大剑尺寸与图面读数](/characters/bunny/dimensions#obsidian-sword-dimensions)。这套比例尚未与人物合绘对位，厘米尺寸未设定。
-
-[下载正面原始 PNG](/characters/bunny/downloads#obsidian-sword-assets) · [此前武器累计资料](/characters/bunny/assembled)
+</details>
 
 <details>
 <summary>此前双手棍 · 前方案完整资料</summary>
