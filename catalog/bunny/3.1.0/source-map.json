@@ -7314,7 +7314,7 @@
     "baseline_sha256": null,
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1.png",
     "source_artifact_sha256": "5ba5315aa7d5001ee36d63eb97545ee5bdf430fde50631de959474cb4a92e62f",
-    "review_status": "current-staff-reference",
+    "review_status": "historical-staff-direction",
     "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
     "generation_request": {
       "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-single-v1-request.json",
@@ -7355,7 +7355,9 @@
     "repository_generation_record": {
       "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-single-v1.json",
       "sha256": "fde7c09057cb646ecc2ce3159621f9a602b4b7d2c64322ad82ebec4a7fa63083"
-    }
+    },
+    "superseded_by": "/characters/bunny/weapon#obsidian-sword-concept",
+    "history_note": "此前双手棍方向；原图、原始请求与当时审查记录保留。当前大剑仅有单件正面概念，未完成新的累计人物。"
   },
   "bunny/staff-v2-held-v1.png": {
     "page": "/characters/bunny/weapon",
@@ -7443,7 +7445,7 @@
     "baseline_sha256": "3ad578b7555f979870a350e966f2fb22b853c39d27211bf001ad33a2f9b9ef38",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1.png",
     "source_artifact_sha256": "d1513d9862b84337e228735dc02213d8e74f766e425460a68f8f484adb64348a",
-    "review_status": "current-staff-reference",
+    "review_status": "historical-staff-direction",
     "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
     "generation_request": {
       "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-front-v1-request.json",
@@ -7514,7 +7516,9 @@
     "repository_generation_record": {
       "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-walking-front-v1.json",
       "sha256": "32582b7a73f6f25540b62c3b8baa8d17c491cf3c81c68c7c18919dbfdcfcfad9"
-    }
+    },
+    "superseded_by": "/characters/bunny/weapon#obsidian-sword-concept",
+    "history_note": "此前双手棍方向；原图、原始请求与当时审查记录保留。当前大剑仅有单件正面概念，未完成新的累计人物。"
   },
   "bunny/staff-v2-walking-side-v1.png": {
     "page": "/characters/bunny/assembled",
@@ -7522,7 +7526,7 @@
     "baseline_sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-side-v1.png",
     "source_artifact_sha256": "fdaeac91b733967ba9660f8f8f2845249b5b8e9c8fdc33f7664cfcc124920c0e",
-    "review_status": "current-staff-reference",
+    "review_status": "historical-staff-direction",
     "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
     "generation_request": {
       "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-side-v1-request.json",
@@ -7593,7 +7597,9 @@
     "repository_generation_record": {
       "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-walking-side-v1.json",
       "sha256": "1bfa7c7039e27a04113d1057e6dee83b59af524f9fa1730a2d15ca069e4c454a"
-    }
+    },
+    "superseded_by": "/characters/bunny/weapon#obsidian-sword-concept",
+    "history_note": "此前双手棍方向；原图、原始请求与当时审查记录保留。当前大剑仅有单件正面概念，未完成新的累计人物。"
   },
   "bunny/staff-v2-walking-back-v1.png": {
     "page": "/characters/bunny/assembled",
@@ -7601,7 +7607,7 @@
     "baseline_sha256": "ca44f883430cdb7927c2101a184e4f28b0df62c2a0e0a8e99bdfbbe68122b867",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-back-v1.png",
     "source_artifact_sha256": "799de6bb032bdbbd43d9cbae370d175d00d8e742f5376694d7b25adf486510f4",
-    "review_status": "current-staff-reference",
+    "review_status": "historical-staff-direction",
     "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
     "generation_request": {
       "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-layer-20261026/staff-walking-back-v1-request.json",
@@ -7672,7 +7678,9 @@
     "repository_generation_record": {
       "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-walking-back-v1.json",
       "sha256": "d4e25abc985d3ad2087509f14537ea858789155e13de7694bb151b41d2b71b28"
-    }
+    },
+    "superseded_by": "/characters/bunny/weapon#obsidian-sword-concept",
+    "history_note": "此前双手棍方向；原图、原始请求与当时审查记录保留。当前大剑仅有单件正面概念，未完成新的累计人物。"
   },
   "bunny/staff-v2-held-v2.png": {
     "page": "/characters/bunny/weapon",
@@ -7680,7 +7688,7 @@
     "baseline_sha256": "2d388a3d3779f2088ce175e8cc9040b073a2edfa5c8f6ed647a7e59857665c2d",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-axis-fix-20261026/staff-held-horizontal-alt-v2.png",
     "source_artifact_sha256": "561bacb2bdbb80df03023bd65d1e308e9da5db0e43ed5cf492cb6f8bebc10965",
-    "review_status": "current-staff-reference",
+    "review_status": "historical-staff-direction",
     "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
     "generation_request": {
       "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-staff-axis-fix-20261026/staff-held-horizontal-alt-v2-request.json",
@@ -7784,6 +7792,73 @@
     "repository_generation_record": {
       "path": "catalog/bunny/3.1.0/generation-sources/staff-v2-held-v2.json",
       "sha256": "b525c793bdacdb06769fe01f23f9e39e755641c1c85d2966fbebab260d392adf"
+    },
+    "superseded_by": "/characters/bunny/weapon#obsidian-sword-concept",
+    "history_note": "此前双手棍方向；原图、原始请求与当时审查记录保留。当前大剑仅有单件正面概念，未完成新的累计人物。"
+  },
+  "bunny/obsidian-sword-concept-front-v1.png": {
+    "page": "/characters/bunny/weapon#obsidian-sword-concept",
+    "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/obsidian-sword-concept-v9-lineart-native.png",
+    "baseline_sha256": "126f46e20e8790c93ca2906d17e7c49943d959b136e4d14ee5d922fb7533e987",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/obsidian-sword-concept-v10-retry1-front-native.png",
+    "source_artifact_sha256": "58f89625164441847d940626012a33f91765c47186cd85b9c79d2e9cf36a8487",
+    "review_status": "current-concept-front-only",
+    "description": "厚重岩板型黑曜石感大剑 · 单件概念正面",
+    "scope": "仅正面概念通过；侧视尚未通过，厚度0.028H0为待校核目标。人物握持、背负与新累计三视尚未同步。",
+    "method": "built-in image_gen.imagegen; complete canvas redraw; actual tool PNG copied byte-exact; WebP lossless only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/request-v10-retry1.json",
+      "sha256": "5d581dda961e736146b74c8e7a7c907e90648884bdfead56fb6c6c3841da5c69"
+    },
+    "request_pointer": "/request",
+    "actual_tool_parameters": {
+      "prompt": "Use this complete ink drawing as the GEOMETRY AUTHORITY for Bunny's fantasy obsidian greatsword. Redraw and color the ENTIRE single-front sword on the same square white page. Preserve its exact full silhouette, blade width and length, both chip shapes and locations, all collar/grip/pommel proportions, framing and scale. Do not redesign, shorten, lengthen, stretch or narrow any part. No extra view or text yet.\n\nMake it a Japanese TV-animation prop cel: clean hand-inked black contours and ONLY THREE DISCRETE FLAT CHARCOAL FILLS. Main obsidian slab is a single uniform charcoal black #15191D. Use cool dark #0B0E12 for the few hard shadow shapes and the black grip. Use muted cool-gray #424B55 only in small existing curved shell-fracture surfaces and their curved rims. Every filled region has completely uniform color and a crisp boundary. Keep the large blade interior visually quiet and flat. There is NO continuous lighting gradient.\n\nThe curved gray shapes stay confined to the existing LOCAL conchoidal fracture linework at the broken edges. Do not draw any gray or white lines across the blade. No veins, cracks, scratches, random texture, tiny facets, fragmented highlights or rendered lighting. Hardware is simple subdued dark gray. Add one NARROW DARK-RED ring #681E25 at the grip root as the only color accent. The long grip stays predominantly black. Preserve the drawing's broad rock-slab identity. White background.",
+      "referenced_image_paths": [
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/obsidian-sword-concept-v9-lineart-native.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "kind": "tool-response-data-url",
+      "record": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/tool-response-v10-retry1.json",
+        "sha256": "bf53f43fb9366e11df3e058d81535b11b9427691a725c3c9cc75173ed7bfd652"
+      },
+      "pointer": "/image_url",
+      "sha256": "58f89625164441847d940626012a33f91765c47186cd85b9c79d2e9cf36a8487"
+    },
+    "tool_output_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/tool-response-v10-retry1.json",
+      "sha256": "bf53f43fb9366e11df3e058d81535b11b9427691a725c3c9cc75173ed7bfd652"
+    },
+    "reference_chain": [
+      {
+        "order": 1,
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/obsidian-sword-concept-v9-lineart-native.png",
+        "sha256": "126f46e20e8790c93ca2906d17e7c49943d959b136e4d14ee5d922fb7533e987",
+        "role": "Accepted revised concept geometry authority; preserve the complete outline/relative dimensions while tool redraws and applies flat fills."
+      }
+    ],
+    "reference_basis": "actual V9 line-art input as revised geometry authority; not an old numeric-target pass",
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/review-v10-retry1-front.json",
+      "sha256": "7a34e55d24ec96750693a006f9a738d25c6a7d0bf03e3570935f128a8185d9e1"
+    },
+    "individual_visual_review": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/review-v10-retry1-front.json",
+      "sha256": "7a34e55d24ec96750693a006f9a738d25c6a7d0bf03e3570935f128a8185d9e1"
+    },
+    "geometry_revision": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/spec-revision-v9-geometry-freeze.json",
+      "sha256": "57e56eb8d8dbd644168276ee2a2ffa6f4841b41981261a8f321bdd0c378177a2"
+    },
+    "repository_generation_record": {
+      "path": "catalog/bunny/3.1.0/generation-sources/obsidian-sword-concept-front-v1.json",
+      "sha256": "1b49e0b09c50e9ccfafcd5bbeb3c9e24a89190dd02fb750eded60ac29c8241a6"
+    },
+    "generation_provenance": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/front-delivery-handoff.json",
+      "sha256": "417bad76f4c93adb75b41dd43c3a2ce37e8f562075bb41ab58fd234beef7f2ec"
     }
   }
 }

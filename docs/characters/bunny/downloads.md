@@ -31,11 +31,11 @@ aside: true
 
 </details>
 
-基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，新绘累计三视与层次关系板，三张硬件板保持；头部装备层补齐仅护目镜的累计三视、四格近景与拆解板；双手棍的握持与手持随行资料见[当前武器页](/characters/bunny/weapon)。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
+基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；承载带采用白衣外、夹克内的穿戴关系，新绘累计三视与层次关系板，三张硬件板保持；头部装备层补齐仅护目镜的累计三视、四格近景与拆解板；武器的新方向为[黑曜石感大剑单件概念](/characters/bunny/weapon#obsidian-sword-concept)，人物握持与背负尚未同步；此前双手棍资料保留为历史。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 本轮按同视角基模完整重绘鞋靴、手部、腿部、夹克四层的 12 张人物及袜装背面，核对头部发色、深色轮廓与赛璐璐分面；既定尺寸规范和结构细节板保持。各新图测量绑定自身坐标，遮挡与数值不确定项仍单列。
 
-原图包还包括当前修订与明确标记的历史参考；双手棍静态持有图不等于连续动作或角色卡。新版 PDF 尚未制作。
+原图包还包括当前修订与明确标记的历史参考；其中双手棍静态持有图属于前方案资料。新版 PDF 尚未制作。
 
 ## 当前基模尺寸资料 {#body-measurements}
 
@@ -397,6 +397,15 @@ aside: true
 
 旧版武器资料不列为当前设计图，回溯时请见<a href="/characters/bunny/weapon-history">历史参考</a>。
 
+## 黑曜石感大剑 · 单件概念 {#obsidian-sword-assets}
+
+- [单件概念 · 正面原始 PNG](/media/bunny/3.1.0/obsidian-sword-concept-front-v1.png)
+
+[查看概念方案](/characters/bunny/weapon#obsidian-sword-concept) · [设计尺寸与图面读数](/characters/bunny/dimensions#obsidian-sword-dimensions)。人物握持、背负与新累计三视尚未同步。 侧视尚未通过，本轮只提供正面原件。
+
+<details>
+<summary>此前双手棍 · 前方案原件</summary>
+
 ## 双手棍 {#staff-assets}
 
 - [双手棍整棍外观 PNG](/media/bunny/3.1.0/staff-v2-single-v1.png)
@@ -406,12 +415,14 @@ aside: true
 - [自然扶棍 · 右侧面 PNG](/media/bunny/3.1.0/staff-v2-walking-side-v1.png)
 - [自然扶棍 · 背面 PNG](/media/bunny/3.1.0/staff-v2-walking-back-v1.png)
 
-整棍外观、双手握持与手持随行说明见[双手棍页](/characters/bunny/weapon)。
+整棍外观、双手握持与手持随行说明见[双手棍历史资料](/characters/bunny/weapon#staff-exterior)。
 
 <details>
 <summary>此前握持稿 · 棍轴线存在偏折</summary>
 
 [此前握持稿 PNG](/media/bunny/3.1.0/staff-v2-held-v1.png)
+
+</details>
 
 </details>
 

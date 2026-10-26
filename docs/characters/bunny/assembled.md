@@ -1,13 +1,18 @@
 ---
-title: "双手棍累计穿戴"
+title: "武器累计资料 · 前方案历史"
 releaseReady: false
 aside: true
 ---
-# 双手棍累计穿戴
+# 武器累计资料
 
-在[当前护目镜衣层](/characters/bunny/headgear#headgear-wearing)上核对双手棍的手持随行。上身覆盖顺序保持白色内搭 → 承载系统 → 橙色夹克。
+当前新方向为[黑曜石感大剑单件概念](/characters/bunny/weapon#obsidian-sword-concept)，人物握持、背负与累计三视尚未同步。已完成的当前衣层见[护目镜累计三视](/characters/bunny/headgear#headgear-wearing)，覆盖顺序保持白色内搭 → 承载系统 → 橙色夹克。
+
+以下双手棍图保留为前方案资料，不用于表示大剑的尺寸或持有方式。
 
 <span id="已确认累计穿戴"></span>
+
+<details>
+<summary>此前双手棍单手随行三视 · 前方案历史</summary>
 
 ## 双手棍单手随行三视 {#weapon-wearing}
 
@@ -25,7 +30,9 @@ aside: true
 
 右手在体侧扶住整棍，左手自然放松；正、右侧、背面分别展示棍身、手套与身体的遮挡关系。随行姿势与双手持有示意分开展示。
 
-整棍外观、静态双手持有与比例口径见[双手棍页](/characters/bunny/weapon)。
+整棍外观、静态双手持有与当时比例口径见[双手棍历史资料](/characters/bunny/weapon#staff-exterior)。
+
+</details>
 
 <details>
 <summary>此前锯收纳累计图 · 历史参考</summary>

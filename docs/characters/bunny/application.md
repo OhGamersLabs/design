@@ -9,7 +9,7 @@ aside: true
 
 ## 身份与比例
 
-<ul><li>以<a href="/characters/bunny/face">面部与身份</a>的银白发、蓝色眼睛、发束和五官位置为准；<a href="/characters/bunny/expressions">当前身份表情集</a>提供已按现行脸型、瞳色与发束校准的情绪变化；历史表情折叠保留供回溯。</li><li>正侧背结构图使用一致站位与比例。人物尺寸的 H 是冠顶到赤脚地面，不含兔耳与鞋底；双手棍持有图的可见人物高度按发顶至鞋底观察，与赤脚基准分开使用。详见<a href="/characters/bunny/dimensions">人物统一尺寸</a>与<a href="/characters/bunny/weapon#staff-proportion">武器比例说明</a>。</li><li>动作、透视与原稿同姿势表现可以改变屏幕上的投影长度，不能据此改动人物基准或把所有视角强行拉伸成同宽。</li></ul>
+<ul><li>以<a href="/characters/bunny/face">面部与身份</a>的银白发、蓝色眼睛、发束和五官位置为准；<a href="/characters/bunny/expressions">当前身份表情集</a>提供已按现行脸型、瞳色与发束校准的情绪变化；历史表情折叠保留供回溯。</li><li>正侧背结构图使用一致站位与比例。人物尺寸的 H 是可见发冠到赤脚地面，不含头部装备与鞋底；大剑总长按当前正面基准 H0 的 0.85 设定，单件概念尚未与人物合绘对位。详见<a href="/characters/bunny/dimensions">人物统一尺寸</a>与<a href="/characters/bunny/dimensions#obsidian-sword-dimensions">大剑概念尺寸</a>。</li><li>动作、透视与原稿同姿势表现可以改变屏幕上的投影长度，不能据此改动人物基准或把所有视角强行拉伸成同宽。</li></ul>
 
 ## 左右侧装备
 
@@ -19,18 +19,18 @@ aside: true
 
 ## 衣层与遮挡
 
-<ul><li>按<a href="/characters/bunny/assembly">衣层与部件阅读顺序</a>核对贴身衣、袜靴、局部装备、外套、内穿承载系统和护目镜。承载带本体图隐去外套，只用于看清带路，不代表实际少穿一层。</li><li>承载带位于白色内搭外、橙色夹克内；固定点、扣件和后腰收纳件应保持连接关系，不能为了展示单件而任意移位。</li><li>护目镜保持露嘴轮廓；当前腿部不添加旧稿护膝。完整衣装与武器收纳关系见<a href="/characters/bunny/assembled">当前累计穿戴</a>。</li></ul>
+<ul><li>按<a href="/characters/bunny/assembly">衣层与部件阅读顺序</a>核对贴身衣、袜靴、局部装备、外套、内穿承载系统和护目镜。承载带本体图隐去外套，只用于看清带路，不代表实际少穿一层。</li><li>承载带位于白色内搭外、橙色夹克内；固定点、扣件和后腰收纳件应保持连接关系，不能为了展示单件而任意移位。</li><li>护目镜保持露嘴轮廓；当前腿部不添加旧稿护膝。完整衣装见<a href="/characters/bunny/headgear#headgear-wearing">当前护目镜衣层</a>；大剑握持与背负尚待绘制。</li></ul>
 
 ## 武器与姿势用途
 
-<ul><li>当前武器为双手棍。静态双手持有与手持随行三视分别核对握持和覆盖关系；被身体、手臂或衣物遮住的部分不为展示而强行露出。</li><li>中性三视用于结构与覆盖核对，不等于原稿同姿势角色卡。手持或动作表现需要对应的握持、透视与衣物变形，不能把收纳图直接当作已完成的动作参考。</li><li><a href="/characters/bunny/weapon-history">旧版武器尺寸</a>仅作历史回溯，不用于校准当前双手棍。</li></ul>
+<ul><li>当前武器方向为黑曜石感大剑，现有单件正面概念，侧视尚未通过。后续人物图仍需分别核对握持、背负、左右装备与覆盖关系；此前双手棍人物图保留为历史。</li><li>中性三视用于结构与覆盖核对，不等于原稿同姿势角色卡。手持或动作表现需要对应的握持、透视与衣物变形，不能把收纳图直接当作已完成的动作参考。</li><li><a href="/characters/bunny/weapon-history">旧版武器尺寸</a>仅作历史回溯，不用于校准当前大剑。</li></ul>
 
 ## 此前穿戴动作补图 {#outfit-pose}
 
 <details>
 <summary>旧动作造型 · 含已取消的耳机、兔耳与外穿承载关系</summary>
 
-以下原图保留为历史，不作为当前双手棍或内穿承载造型。
+以下原图保留为历史，不作为当前武器或内穿承载造型。
 
 <ReleaseImage src="/characters/bunny/3.1.0/outfit-pose-current.webp" original="/media/bunny/3.1.0/outfit-pose-current.png" alt="Bunny 历史穿戴动作补图：左手叉腰，右手自然下垂，无武器" caption="历史穿戴动作补图 · 左手叉腰 / 右手自然下垂" />
 

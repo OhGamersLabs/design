@@ -94,11 +94,11 @@ export const bunnySections = [
     "description": "累计与武器",
     "items": [
       {
-        "text": "当前累计穿戴",
+        "text": "武器累计历史",
         "link": "/characters/bunny/assembled"
       },
       {
-        "text": "双手棍与手持随行",
+        "text": "黑曜石感大剑 · 单件概念",
         "link": "/characters/bunny/weapon"
       }
     ]

@@ -13,7 +13,7 @@ import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
 
 # v2 · 图面尺寸与比例
 
-本页先记录[当前完整新绘的基础文胸三视](/characters/bunny/body-base)的身体比例，再列出[白衣、红裤与夹克的尺寸规范](#garment-dimensions)。原有身体取点与数值保持，服装另用固定设计单位比对各张图，避免换一层衣服就改动衣长或裤腰位置。当前资料仍是二维投影，不作为衣物成品尺寸或穿鞋后身体总高。
+本页先记录[当前完整新绘的基础文胸三视](/characters/bunny/body-base)的身体比例，再列出[白衣、红裤与夹克的尺寸规范](#garment-dimensions)和[黑曜石感大剑的概念尺寸](#obsidian-sword-dimensions)。原有身体取点与数值保持，服装另用固定设计单位比对各张图，避免换一层衣服就改动衣长或裤腰位置。当前资料仍是二维投影，不作为衣物成品尺寸或穿鞋后身体总高。
 
 ::: info 图面比例与实际设定
 **H** 是可见发冠最高点至赤脚地面的图面高度；**h** 是可见发冠至下颏的头高，包含发量，不另估被头发遮住的颅顶。头身比为 H ÷ h。
@@ -36,6 +36,25 @@ import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
 <GarmentMeasurements :data="garments" />
 
 [下载服装规范 JSON 与标尺 SVG](/characters/bunny/downloads#garment-dimensions) · [白衣红裤原图](/characters/bunny/innerwear) · [夹克设计](/characters/bunny/jacket)
+
+## 黑曜石感大剑 · 设计尺寸 {#obsidian-sword-dimensions}
+
+**H0** 固定取当前正面身体基准的可见发冠至赤脚地面：1475 px（y=25→1500）；同图头高 h0=225 px。这里的像素只标识基准，实际厘米身高尚未设定。
+
+先规定大剑总长 **L=0.85H0**，再按选定正面概念的部位比例统一尺寸。下表将设计比例和原图读数分开列出；单件图没有人物，尚未完成与身体的实际对位。
+
+| 部位 | 当前设计比例 | 正面原图读数与定义 |
+| --- | --- | --- |
+| 整剑总长 L | 0.850H0 | 1211 px；最远剑尖至柄尾外端，x=22→1233 |
+| 剑身长度 | 0.620H0（0.7291L） | 883 px；最远剑尖至根座前缘（靠剑尖一侧），x=22→905 |
+| 护手、握柄与柄尾总段 | 0.230H0（0.2709L） | 328 px；x=905→1233 |
+| 可握柄段 | 0.185H0（0.2172L） | 263 px；x=938→1201 |
+| 剑身最大正面宽度 | 0.172H0（0.2023L） | 245 px；垂直于长轴的同一截面最大正面宽度 |
+| 剑身最大侧面厚度 | 0.028H0（待校核目标） | 侧视尚未通过，暂无厚度实测 |
+
+正面各部位比例由读数除以总长后乘 0.85，显示值经四舍五入；剑身段与柄部总段合计为 L。每个端点估读约 ±2 px，两端距离的保守取点范围约 ±4 px。读边误差不等于新设计允许偏差，也不代表制造精度。
+
+[查看正面概念原件](/characters/bunny/weapon#obsidian-sword-concept)。这些是原创外观设计比例，宽厚按垂直于长轴的同一截面定义，尚无握持、背负、内部结构或承载验证。
 
 ## 耳部与发色修订前 · 图面尺寸 {#before-ear-hair-measurements}
 
@@ -104,4 +123,4 @@ H 为基模图的冠顶参考线到赤脚地面线：1900 px。不是含兔耳�
 
 <span id="武器外形比例"></span><span id="武器外形尺寸基准"></span>
 
-旧版武器尺寸已移至<a href="/characters/bunny/weapon-history">历史参考</a>，不作为当前标准。当前双手棍外观与图面比例说明见<a href="/characters/bunny/weapon#staff-proportion">双手棍设计页</a>。
+旧版武器尺寸已移至<a href="/characters/bunny/weapon-history">历史参考</a>，不作为当前标准。当前大剑概念见<a href="/characters/bunny/weapon#obsidian-sword-concept">武器设计页</a>与<a href="#obsidian-sword-dimensions">本页设计尺寸</a>。

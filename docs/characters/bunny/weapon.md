@@ -1,9 +1,32 @@
 ---
-title: "双手棍"
+title: "黑曜石感大剑 · 单件概念"
 releaseReady: false
 aside: true
 ---
-# 双手棍
+# 黑曜石感大剑
+
+## 厚重岩板型 · 单件概念方案 {#obsidian-sword-concept}
+
+当前武器方向改为宽厚的黑曜石感大剑。大块炭黑剑身、轮廓边缘的断口与灰蓝硬边分面形成岩板感；长黑握柄和根部窄暗红环沿用 Bunny 的深色装备与红色点缀。
+
+本页为**单件概念方案，人物握持、背负与新累计三视尚未同步**。本轮只交付已通过审查的正面，保留完整生图原件。
+
+### 正面
+
+<ReleaseImage src="/characters/bunny/3.1.0/obsidian-sword-concept-front-v1.webp" original="/media/bunny/3.1.0/obsidian-sword-concept-front-v1.png" alt="黑曜石感大剑 · 单件概念正面" caption="黑曜石感大剑 · 单件概念正面" />
+
+**侧视尚未通过，厚度 0.028H0 为待校核目标**；当前没有侧面原件可供下载。
+
+总长规定为 **0.85H0**，H0 使用当前正面身体基准的发冠至赤脚地面高度。其余部位按选定正面图的实际轮廓比例统一；宽度取垂直于长轴的同一截面最大正面宽度；厚度也按对应侧面截面量取。详见[大剑尺寸与图面读数](/characters/bunny/dimensions#obsidian-sword-dimensions)。这套比例尚未与人物合绘对位，厘米尺寸未设定。
+
+[下载正面原始 PNG](/characters/bunny/downloads#obsidian-sword-assets) · [此前武器累计资料](/characters/bunny/assembled)
+
+<details>
+<summary>此前双手棍 · 前方案完整资料</summary>
+
+以下保留当时的外观、姿势和图面口径，原图与锚点可继续访问；它们不代表当前大剑的尺寸或穿戴结果。
+
+## 双手棍 · 前方案 {#双手棍}
 
 双手棍采用约等身的长棍轮廓，以连续哑黑握区为主体，两端配银灰钝帽和红色识别环。黑、银灰与红色呼应 Bunny 的手部装备、鞋靴和红裤，让武器沿用角色现有配色。人物保持仅护目镜的头装，以及白衣外、夹克内的承载关系。
 
@@ -43,3 +66,6 @@ aside: true
 [此前锯外观与收纳](/characters/bunny/saw)和[旧锯尺寸图](/characters/bunny/weapon-history)保留原件与网址，供回溯设计变化。
 
 独立实体分件图尚未产出；本页资料用于说明整棍外观、静态握持与手持随行关系。
+
+
+</details>
