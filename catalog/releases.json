@@ -375,6 +375,16 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-dark-exterior-components-v1.png",
+      "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999",
+      "size": 1208940,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-dark-exterior-components-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/assassin-daggers-held-cel-back-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-held-cel-back-v1.png",
       "sha256": "041a210c1f2da9193c5f63bd6d47d2cee4fb71b74fba5765cb79f858da8b5bd0",
@@ -401,6 +411,16 @@
       "size": 1723370,
       "contentType": "image/png",
       "downloadName": "assassin-daggers-held-main-v1.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/assassin-daggers-ivory-exterior-components-v1.png",
+      "sha256": "9786be7ae65f288135199f4154bc07e5c30a469904a9d5ef1c2dacc4052ddafc",
+      "size": 1119435,
+      "contentType": "image/png",
+      "downloadName": "assassin-daggers-ivory-exterior-components-v1.png"
     },
     {
       "character": "bunny",
@@ -1727,8 +1747,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "b7e9ad9dbe8046fa9f0ba9b245be267dfbffca4b793109c4cf3b6afc15e10bc0",
-      "size": 225883563,
+      "sha256": "fbe85835badf2e8d50ecaa094c2448c01a9759e732afe466be286e5553d2fee2",
+      "size": 227680918,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

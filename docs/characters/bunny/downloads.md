@@ -425,6 +425,8 @@ aside: true
 [双匕首尺寸 JSON](/catalog/bunny/3.1.0/dagger-dimensions.json)分别记录新设计目标、母版图面观测与后续图面核对。右黑整长 0.36H0、左骨白 0.42H0；此前小尺度试设已撤销。
 
 - [尺寸母版 · 并列正面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-scale-master-v1.png)
+- [墨黑匕首 · 独立外观分件 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.png)
+- [骨白匕首 · 独立外观分件 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.png)
 - [后腰固定 · 局部外观结构研究 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png)
 - [持握 · 动态主视 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-main-v1.png)
 - [持握 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-cel-side-v1.png)

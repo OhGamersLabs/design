@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 172,
+  "asset_count": 174,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -1341,6 +1341,102 @@
       }
     },
     {
+      "id": "assassin-daggers-dark-exterior-components-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-dark-exterior-components-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/weapon#dagger-components",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-native.png",
+        "baseline_sha256": "2eb2a4c5b2a9d69e2092e3dac00744356d56772663b2154f7b1ef78f5dfc9f4b",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-native.png",
+        "source_artifact_sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999",
+        "review_status": "current-dark-independent-exterior-components",
+        "description": "墨黑匕首 · 五件独立外观分件",
+        "scope": "刀身、护手、红领、握柄和柄尾各一件独立展示；小件可放大，整体和各段尺寸仍取原母版与尺寸规范。线稿只作生成过程来源，不作当前交付图。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-request.json",
+          "sha256": "8af14ddad6f24b8b1659cc2619710bfcfc0c66ddbafe6fc2affe7c346c900a9f"
+        },
+        "request_pointer": "/",
+        "actual_tool_parameters": {
+          "prompt": "Create a complete clean CEL-COLORED version of the supplied five-piece DARK fictional dagger exterior-parts LINE ART.\n\nInput1 is the LOCKED geometry and layout authority. Preserve every exterior silhouette and the five white-separated pieces exactly. In particular the isolated GRIP ends in a narrow simple flat closure, with NO bottom cap/skirt/flange; retain that corrected short outline exactly. The blade has NO attached guard. The standalone guard, red collar, grip and complete pointed pommel each appear once only. Do not reconnect objects or add forms while coloring.\n\nInput2 provides COLORS and broad cel-shading style ONLY, not layout or assembled geometry. Color the matching exterior planes:\n- Blade charcoal near-black central planes, pale gray edge plane, small red recessed-looking accent in the existing left lower root panel.\n- Angular guard black with restrained gray facet planes.\n- Separate collar red with dark-red shaded lower side.\n- Grip black/charcoal alternating exterior facet/wrap planes; no new endcap.\n- Pointed polygonal pommel black/gray, with its rectangular inset ORANGE.\nColor only the existing five silhouettes. Keep all white spaces between components. No ivory object. No added component or internal hardware.\n\nRetain confident handdrawn black outlines and simple continuous color areas with limited crisp cel highlights like the reference. No cloudy stains, white speckles or noisy surface texture. White background, same complete landscape canvas and positions. Heading DARK in dark-blue simple sans lettering. This is a fictional character-art exterior component catalog, with pieces locally enlarged for viewing; it is not a manufacturing or scale drawing. Entire coherent new tool illustration, not pasted local pixels.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-841e1250-97f9-485b-8cc5-2f5be16d5674.png",
+          "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-output.json",
+            "sha256": "0564dbb129552731ea773d3fbbd56dc5bd081a52b55c1119dbfea51d78dcc5e9"
+          },
+          "record_note": "Actual output metadata preserves native_tool and source hash; native PNG remains byte-exact."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-output.json",
+          "sha256": "0564dbb129552731ea773d3fbbd56dc5bd081a52b55c1119dbfea51d78dcc5e9"
+        },
+        "reference_basis": "Actual ordered final inputs: accepted corrected line-v2 controls the five separated exterior shapes and layout; the complete master supplies color and cel style only. Earlier rejected layout/lineart and final geometry stages are preserved with limited roles in production_chain; only final color is published.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-root-acceptance.json",
+          "sha256": "22816784c6408db490c8bd695b3eb486a1e8acef1ddc691b78b414d57bb6748a"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-root-acceptance.json",
+          "sha256": "22816784c6408db490c8bd695b3eb486a1e8acef1ddc691b78b414d57bb6748a"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-self-review.json",
+          "sha256": "291f5131e057ed72c46a180f07444a03eeebdc2c677ce5d9bfbc76efdc8e7bb1"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-handoff.json",
+          "sha256": "46842a9257ca8d25a4c92cc7753203db20171e16066e09224e50f2ad1cbf5cfe"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-native.png",
+            "sha256": "2eb2a4c5b2a9d69e2092e3dac00744356d56772663b2154f7b1ef78f5dfc9f4b",
+            "role": "Corrected linev2 is sole geometry/layout; whole+native grip actually reviewed"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+            "role": "Master color/cel only; no assembled geometry imported"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-dark-exterior-components-v1.json",
+          "sha256": "4606d5eef2eef42c15635e11b98a6b3d8cdba7082f0d3cde79b703126ebcd521"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1208940,
+        "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 623724,
+        "sha256": "82f07c8918b46089118b3044c69c20dee298d9d89d32abd593ca3e8c7d5b1872",
+        "alpha": false
+      }
+    },
+    {
       "id": "assassin-daggers-held-cel-back-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -1645,6 +1741,102 @@
         "height": 1024,
         "bytes": 967118,
         "sha256": "eb6e0d84134f96232adb6d0c36b7dfee730af0f8f0bbafd3eaab9d8d13c2c0d6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-ivory-exterior-components-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-ivory-exterior-components-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/weapon#dagger-components",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v2-native.png",
+        "baseline_sha256": "7873f7d58d4dfd5fdb5c1e08f915adda4b14b4e97668bfd10c28d44011df025c",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v3-native.png",
+        "source_artifact_sha256": "9786be7ae65f288135199f4154bc07e5c30a469904a9d5ef1c2dacc4052ddafc",
+        "review_status": "current-ivory-independent-exterior-components",
+        "description": "骨白匕首 · 五件独立外观分件",
+        "scope": "刀身、护手、红领、握柄和柄尾各自独立展示；小件可放大，整件及分段尺寸仍以母版和尺寸规范为准，不新增尺寸或制造结构。",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v3-request.json",
+          "sha256": "0f8556790c5438ec7938dc294181f4ebaf2f23986355c4e3751f775b4f50dcf8"
+        },
+        "request_pointer": "/",
+        "actual_tool_parameters": {
+          "prompt": "Create a fresh COMPLETE exterior-parts artboard for the one specified fictional anime dagger. Input1 is the current five-piece layout; retain its blade, separate guard, separate red collar and separate pommel. Input2 is the accepted full dagger master, controlling the TRUE exterior grip shape. The only material correction is to the separated GRIP, which input1 has mistakenly given extra flared cap material from adjacent parts.\n\nKeep exactly FIVE detached exterior pieces in the same spaced layout: blade left; guard upper-middle; collar upper-right; grip lower-middle; pommel lower-right. All have white gaps, no assembly drawing or complete joined dagger. The master blade, guard, red collar, grip and pommel remain distinct. No hidden tang, fasteners, rod, hole, internal machinery, manufacture instructions or dimensional annotations. Pure visual component artwork for a fictional character.\n\nThe corrected grip must end at the MASTER'S existing top/bottom color seams. It must contain NO fragments of the guard, red collar, pommel or end cap. Its endpoints may be clean blunt/straight exterior terminations with a slight NATURAL INWARD TAPER, but NEVER protruding external rims, outward mushroom caps, wide cup mouths or extra rings. Do not hide the error by coloring a cap black; eliminate the extra silhouette entirely. Preserve the intended central grip shape and visual decoration.\n\nKeep all remaining shapes/color/materials from input1 unchanged, including the blade's angular shoulders and the independently complete pommel. Displayed pieces may be enlarged for viewing; this is not a common-scale dimension sheet. The accepted full-master nominal sizes are unchanged. White background, same complete canvas, clean Japanese handdrawn/cel color planes, no white specks/noise/patina. Only a clean dark-blue SANS-SERIF heading as specified. Fresh whole-tool drawing, not local cut-and-paste.\nIVORY dagger only. Correct the curved black-and-ivory grip: REMOVE BOTH the outward-flared bottom ring and the wide top cup-shaped lip. At both ends the black grip outline narrows naturally like the master, ending without any extra collar or flange. Carry the single ivory winding stripe continuously to those simple ends. The separate IVORY teardrop pommel lower-right already contains the complete pommel and orange oval; none of its upper rim is attached to the grip. Keep the separate crescent guard and red collar intact. Preserve the blade's deliberately angled inner shoulder near the tip. Heading IVORY.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v2-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-7e3ea3d0-d4a9-40fe-ad12-9c0b9ac70259.png",
+          "sha256": "9786be7ae65f288135199f4154bc07e5c30a469904a9d5ef1c2dacc4052ddafc",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v3-output.json",
+            "sha256": "88321260a983c9cb21d110df0913508a26df486c4def5914eaaaffdc0b21cad8"
+          },
+          "record_note": "Actual output metadata preserves native_tool and source hash; native PNG remains byte-exact."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v3-output.json",
+          "sha256": "88321260a983c9cb21d110df0913508a26df486c4def5914eaaaffdc0b21cad8"
+        },
+        "reference_basis": "Actual ordered inputs: rejected ivory v2 supplies layout and the other four exterior forms only; its extra grip-bottom rings are explicitly rejected. The accepted complete master controls identity, color and existing seams.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v3-root-acceptance.json",
+          "sha256": "79a55f3cc25b43752449d3eeca72464c9ba0c2cf71cf134b601858f5d54a152f"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v3-root-acceptance.json",
+          "sha256": "79a55f3cc25b43752449d3eeca72464c9ba0c2cf71cf134b601858f5d54a152f"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v3-self-review.json",
+          "sha256": "54b2426c478a51301fc2a56f10dbd18b94edac04bb52441662ca90b46c55c76e"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v3-handoff.json",
+          "sha256": "3a750e2f8c849f556ac979cdc268ca553765e70507d1ce4496cf3877d7e03f33"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-ivory-v2-native.png",
+            "sha256": "7873f7d58d4dfd5fdb5c1e08f915adda4b14b4e97668bfd10c28d44011df025c",
+            "role": "V2 layout and other4parts; grip flared caps explicitly rejected"
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+            "role": "Sole canonical shape/color/cel master, controls existing grip seams"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-ivory-exterior-components-v1.json",
+          "sha256": "5c313742b40394308c6213e2576976508e329950083aa8305f59f83295665e48"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1119435,
+        "sha256": "9786be7ae65f288135199f4154bc07e5c30a469904a9d5ef1c2dacc4052ddafc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 562388,
+        "sha256": "4fc4d278ce90e8afe3da4db1c8ddf034c8d5cc42584ce49b1425b1232a92ec0d",
         "alpha": false
       }
     },
@@ -13828,8 +14020,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 225883563,
-      "sha256": "b7e9ad9dbe8046fa9f0ba9b245be267dfbffca4b793109c4cf3b6afc15e10bc0"
+      "bytes": 227680918,
+      "sha256": "fbe85835badf2e8d50ecaa094c2448c01a9759e732afe466be286e5553d2fee2"
     }
   ]
 }

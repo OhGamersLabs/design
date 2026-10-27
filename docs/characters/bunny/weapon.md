@@ -15,9 +15,23 @@ Bunny 以刺客定位使用两把各具完整造型的匕首：角色右侧是�
 
 本母版固定两把的正面轮廓和细分比例：骨白刀更长，握柄长度接近；刀身、护手与柄尾分别保留异构特征。当前板不含窄侧视，厚度尚未测定。
 
-## 外观分区与分件状态 {#dagger-components}
+## 独立外观分件 {#dagger-components}
 
-两把各自按刀身、护手、红领、握柄和柄尾分区，各段比例见[尺寸表](/characters/bunny/dimensions#assassin-daggers-dimensions)。**外观分件图待补**；当前正面母版展示完整单件，不作为拆解图。
+两把各自按刀身、护手、红领、握柄和柄尾分为五个外观件。下图把部件分别展示，小部件可能放大；整件与各段尺寸仍以[正面母版](#assassin-daggers-concept)和[尺寸规范](/characters/bunny/dimensions#assassin-daggers-dimensions)为准。
+
+### 墨黑匕首
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.png" alt="墨黑匕首的五个独立外观件：獠牙刃、非对称护手、红领、分段黑柄与多面柄尾" caption="墨黑匕首 · 独立外观分件" />
+
+宽角獠牙刃以灰色刃面和局部红色凹面划分层次；非对称黑护手、单独红领、硬分段握柄与带橙色细标的多面柄尾分别展示。
+
+### 骨白匕首
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.png" alt="骨白匕首的五个独立外观件：曲刃、月牙护手、红领、嵌条黑柄与水滴柄尾" caption="骨白匕首 · 独立外观分件" />
+
+前掠曲刃保留灰色刃面与根部红色点缀；月牙护手、单独红领、带浅色嵌条的流线黑柄和橙点水滴柄尾各自分开。
+
+两张图说明可见外观，不定义内部装配或制造结构。
 
 ## 后腰交叉携行 {#dagger-carry}
 
