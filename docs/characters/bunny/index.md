@@ -11,7 +11,7 @@ aside: true
 
 [当前基模](/characters/bunny/body-base)、[白衣红裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)与[橙色外套](/characters/bunny/jacket)保留21张完整三视人物。身体、白衣、红裤和前长后短夹克的[图面尺寸](/characters/bunny/dimensions)保持，头部与16格表情继续作为身份依据。
 
-[裤腰皮带层](/characters/bunny/harness#belt-wearing)与[护目镜累计三视](/characters/bunny/headgear#headgear-wearing)已完整重绘为无吊带方案，和其余身体、衣层共27张完整人物。武器采用[异构双匕首](/characters/bunny/weapon#assassin-daggers-concept)，取消大护套，改为后腰交叉携行，已有局部固定外观研究与持握概念三视，完整携行已有正面、右侧与背面三视。此前吊带、同款双刀、双手棍与大剑保留为历史资料。
+[裤腰皮带层](/characters/bunny/harness#belt-wearing)与[护目镜累计三视](/characters/bunny/headgear#headgear-wearing)已完整重绘为无吊带方案，和其余身体、衣层共27张完整人物。武器采用[异构双匕首](/characters/bunny/weapon#assassin-daggers-concept)，取消大护套，改为后腰交叉携行，已有局部固定外观研究与两张供比较的独立双持姿势方案，完整携行已有正面、右侧与背面三视。此前吊带、同款双刀、双手棍与大剑保留为历史资料。
 
 ## 本轮补充
 
@@ -20,7 +20,7 @@ aside: true
 - [红护环开合结构](/characters/bunny/hands#cuff-opening)：铰链、锁扣与手套腕口关系。
 - [当前鞋带结与尾端收纳结构](/characters/bunny/shoes#footwear-construction)、[既有坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
 
-这些补图作为现有分层三视的延伸。当前[双匕首方向与参考](/characters/bunny/weapon#assassin-daggers-concept)已整理，已有放大尺寸母版，人物图分为持握与后腰交叉携行两组；原稿同姿势角色卡与连续动作仍待补齐。
+这些补图作为现有分层三视的延伸。当前[双匕首方向与参考](/characters/bunny/weapon#assassin-daggers-concept)已整理，已有放大尺寸母版，人物图分别展示两张独立双持姿势方案与后腰交叉携行三视；原稿同姿势角色卡与连续动作仍待补齐。
 
 ## 原始手稿
 
@@ -44,7 +44,7 @@ aside: true
 
 ## 当前累计穿戴
 
-无吊带累计人物见[护目镜三视](/characters/bunny/headgear#headgear-wearing)。[双手棍随行三视](/characters/bunny/assembled#weapon-wearing)作为前方案历史保留；双匕首现有[持握概念三视](/characters/bunny/assembled#dagger-held-views)与[后腰交叉携行三视](/characters/bunny/assembled#dagger-waist-carry-views)。
+无吊带累计人物见[护目镜三视](/characters/bunny/headgear#headgear-wearing)。[双手棍随行三视](/characters/bunny/assembled#weapon-wearing)作为前方案历史保留；双匕首现有[两张独立双持姿势方案](/characters/bunny/assembled#dagger-dual-grip-poses)与[后腰交叉携行三视](/characters/bunny/assembled#dagger-waist-carry-views)。
 
 <details>
 <summary>此前锯收纳累计图 · 历史参考</summary>

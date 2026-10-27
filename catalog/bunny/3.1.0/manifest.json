@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 178,
+  "asset_count": 180,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -1437,6 +1437,230 @@
       }
     },
     {
+      "id": "assassin-daggers-dual-grip-pose-a-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-dual-grip-pose-a-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled#dagger-dual-grip-poses",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+        "baseline_sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v5-native.png",
+        "source_artifact_sha256": "6cb17c5f40c2e329b5df12796bd68eea9e0bcd4ba2e7d0a5d688660ee12eb176",
+        "description": "双持姿势方案 A · 低位错步蓄势；右黑正握、左白反握，供比较，尚未选定主姿势。",
+        "scope": "No new H0 registration or weapon-length/thickness observation. Canonical dagger and body/garment measurements unchanged.",
+        "review_status": "accepted-comparison-pose-proposal-a-user-selection-pending",
+        "user_pose_selection": "not-yet-selected",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v5-request.json",
+          "sha256": "e74397eba844365ec5003c2f002a9171972345d2401f4c8d47b8e08f65bd002b"
+        },
+        "request_pointer": "/request",
+        "actual_tool_parameters": {
+          "prompt": "Create a complete freshly drawn full-body Bunny pose illustration on WIDE white paper with generous margins for both full blades and both feet. Scale the WHOLE scene uniformly to fit; never shorten limbs or knives to fit an old canvas.\n\nREFERENCE AUTHORITY:\nImage 1: the exact two assembled fictional daggers, colors and blade/hilt proportions.\nImage 2: the verified RIGHT-hand NORMAL grip connection only. This original-pixel close-up is not pasted into the image; redraw its hand structure naturally at the new pose scale.\nImage 3: Bunny's successful grounded low stance, right leg bent forward/left leg planted behind, shoulder/hip turn, face, clothing, left hand and downward ivory knife. Its RIGHT grip and dark knife orientation are WRONG and must NOT be inherited.\n\nREPLACE the right fist and rotate the whole dark dagger to match the actual connection in image 2. The black-gloved THUMB and INDEX FINGER are together immediately beside the GUARD end of the handle, on the fist's outward/left side. The other fingers follow around the grip, with LITTLE FINGER at the opposite end; ONE dark angular pommel emerges from that little-finger side, toward the fist's right/rear. Show the thumb opposing the curled index/fingers and the hand truly enclosing the ONE grip. Guard stays outside the fist next to thumb/index, NOT beside little finger. Use the clear three-quarter palm anatomy of image 2 rather than retaining the old hand from image 3.\n\nConsequently the DARK BLADE must project from the fist to the LEFT/OUTSIDE of the figure, with enough blank space to show its entire pointed end. Let the blade angle naturally outward and slightly down/up as the correct wrist requires; DO NOT preserve image 3's blade pointing inward/right across the forward leg. The arm stays forward low; correct normal grip is more important than the old knife direction.\n\nKeep the LEFT high rear hand exactly as the successful reverse grip in image 3: exposed finger ends and thumb, orange-rimmed fingerless glove, orange wrist screen; single ivory pommel above thumb/index, one actual grip in fist, red collar/curved guard below little finger, ivory blade descending outside/down. No extra hilt or branching grip.\n\nKeep the canonical dark broad angular fang/shoulder/waist/silver edge/red root wedge, hard guard/faceted grip/dark orange pommel; ivory swept outer curve/inner shoulder/red root wedge/curved guard/contoured grip/ivory teardrop orange pommel from image 1. Nominal dark .36H0 and ivory .42H0 unchanged, perspective not an excuse to redesign. Only one red collar beside each guard; no extra red ring at pommel.\n\nKeep image 3's full character identity, goggles-only silver hair and blue eyes, focused closed mouth, original outfit, left-sleeve-only OG, pure black pants belt and empty rear mounts, right red cuff/full black fingers, right thigh modules/white short sock, left orange long stocking and original boots. Do not change body or feet proportions. Clean Japanese hand-drawn lines and hard cel colors, no added white spots, cloudy texture or plastic highlights. One complete figure, no panels or captions.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/native-pose-b-v4/right-grip.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v4-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-b2f830ff-97af-4163-a387-2c2317706646.png",
+          "sha256": "6cb17c5f40c2e329b5df12796bd68eea9e0bcd4ba2e7d0a5d688660ee12eb176",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v5-tool-response.json",
+            "sha256": "ca24cc9eb47c8e48c013aaf58977397bdc6e1515ae21989ae9c6c6f59cf8491f"
+          },
+          "record_note": "Unchanged builtin output PNG; omitted response data URL is represented by the preserved native tool file."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v5-tool-response.json",
+          "sha256": "ca24cc9eb47c8e48c013aaf58977397bdc6e1515ae21989ae9c6c6f59cf8491f"
+        },
+        "reference_basis": "Exact inputs: accepted canonical master; accepted B4 original-pixel right-hand crop only for forward-grip structure; withdrawn A4 only for stance, identity, clothes and correct left reverse grip. A4 right grip is explicitly rejected. All-image redraw by imagegen, no local pasting.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v5-root-acceptance.json",
+          "sha256": "a44a727b5d1023d308d8f81e346f7eb0dac945668422f1bb9fad90f341e595a2"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v5-root-acceptance.json",
+          "sha256": "a44a727b5d1023d308d8f81e346f7eb0dac945668422f1bb9fad90f341e595a2"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v5-self-review.json",
+          "sha256": "2ca8efae82d4f40e076b8fc5843874d172bafeed1bc75b11c39efeaa74466c7f"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v5-final-handoff.json",
+          "sha256": "8add4dc25cfa2fce037eaaff3a7af2cb87fe9e2c0dff51c61e7b8d1f92828869"
+        },
+        "candidate_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v5-final-handoff.json",
+          "sha256": "8add4dc25cfa2fce037eaaff3a7af2cb87fe9e2c0dff51c61e7b8d1f92828869"
+        },
+        "limitations": [
+          "Directional pose concept A for comparison with B; user has not selected a main pose.",
+          "Nominal dark .36H0 and ivory .42H0 remain solely defined by the accepted weapon master; dynamic screen projection is not an exact length/ratio validation.",
+          "Closed-fist hidden palm contacts are not directly observed; visible finger/guard/pommel topology is the evidence.",
+          "No 3D rig, animation, dynamic clearance or physical load/manufacturing verification."
+        ],
+        "reference_chain": [
+          {
+            "order": 1,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+            "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+            "role": "Canonical assembled two dagger geometry/material and .36/.42H0 nominal sizes"
+          },
+          {
+            "order": 2,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/native-pose-b-v4/right-grip.png",
+            "sha256": "ce01b1f3979e7253f96577216a6bc3edc484f39988dd28312421d4b490df4472",
+            "role": "ROOT-accepted B4 native right normal-grip structure ONLY; not B pose or size"
+          },
+          {
+            "order": 3,
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art/pose-a-v4-native.png",
+            "sha256": "3cd81cc9bae8d9fdad05612a96dd9b96d1d61805df71326597f7d33e46618adb",
+            "role": "A4 body pose, identity, clothing and correct left reverse grip ONLY; right grip and blade direction rejected"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-dual-grip-pose-a-v1.json",
+          "sha256": "83fc932e09e4acf00b7d381863a7785ace0007443249f49ea965d4587624372c"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-dual-grip-pose-a-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1742286,
+        "sha256": "6cb17c5f40c2e329b5df12796bd68eea9e0bcd4ba2e7d0a5d688660ee12eb176",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-dual-grip-pose-a-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1070614,
+        "sha256": "bf0c957749241ee65d7a54c248f9c3a0721faf6e7e5c9d5f1bcfcea3cb9b6be4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-dual-grip-pose-b-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-dual-grip-pose-b-v1",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/assembled#dagger-dual-grip-poses",
+        "based_on": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v2-native.png",
+        "baseline_sha256": "1b8f248156219339b7e3f4248df165283b3efa61773a330e9923a2627a79a089",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-native.png",
+        "source_artifact_sha256": "05354d3e06f546dc4238ffa4bfc6c329bbbe6096c2f00aa0a873d6f6493e607d",
+        "description": "双持姿势方案 B · 侧身回看；右黑正握、左白反握，供比较，尚未选定主姿势。",
+        "scope": "No new H0 registration or weapon-length/thickness observation. Canonical dagger and body/garment measurements unchanged.",
+        "review_status": "accepted-comparison-pose-proposal-b-user-selection-pending",
+        "user_pose_selection": "not-yet-selected",
+        "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-request.json",
+          "sha256": "aba4b2ef5e887cfda8e2661280882c06b4b672a7c0fed468d77b537540bc3130"
+        },
+        "request_pointer": "/",
+        "actual_tool_parameters": {
+          "prompt": "New complete hand-drawn cel-anime illustration of the full character in image 1, with precisely the same pose, clothes, facial expression, hand anatomy and weapon silhouettes. Image 2 explains the DARK dagger's separate external pieces only. Keep one whole character and both whole daggers, plain white background.\n\nCorrect this one visibly incorrect detail in image 1: at the LOW hand (the full black glove with red wrist cuff), the pointed black pommel containing the orange mark must join a completely BLACK grip. The small band between the fingers and that pommel, around image coordinates x327–344 y659–683, is BLACK, matching the grip and pommel. The whole visible handle area on that side of the fist is solid dark material except the orange inset. There is no colored ring at the pommel end.\n\nThe dagger's actual red collar sits at its other end next to the guard, mostly occluded by the thumb and guard. Do not move it toward the pommel to expose it. Preserve the red wedge farther along the blade. The opposite raised ivory dagger and its correct reverse grip must stay unchanged: unique pommel above thumb, unique guard and red collar below little finger. Preserve the continuous orange left sock and white right sock, the current asymmetric wrists, body proportions, equipment and current large daggers. Render the entire image freshly, with clean lines and broad hard-shadow color fields, without noisy white patches. No labels, extra body parts, extra handles or extra weapons.",
+          "referenced_image_paths": [
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v2-native.png",
+            "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-native.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-7614fea7-d58f-4710-92f1-779c8912c71e.png",
+          "sha256": "05354d3e06f546dc4238ffa4bfc6c329bbbe6096c2f00aa0a873d6f6493e607d",
+          "record": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-tool-response.json",
+            "sha256": "024d619644960908bb7a3020d1ffaf641ee1f88c6813afc6e9eb401c97c2af56"
+          },
+          "record_note": "Unchanged builtin output PNG; omitted response data URL is represented by the preserved native tool file."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-tool-response.json",
+          "sha256": "024d619644960908bb7a3020d1ffaf641ee1f88c6813afc6e9eb401c97c2af56"
+        },
+        "reference_basis": "Actual ordered inputs retain their limited roles. B-v2 is the prior pose/layout reference with a rejected dark pommel red ring; accepted dark exterior parts supply the correction. Real v1 to v2 to v4 ancestry is preserved separately.",
+        "visual_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-root-acceptance.json",
+          "sha256": "aa6d7a55f871655630060e3c73ba4213a845001f295fe66a24751f070ee498a7"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-root-acceptance.json",
+          "sha256": "aa6d7a55f871655630060e3c73ba4213a845001f295fe66a24751f070ee498a7"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-self-review.json",
+          "sha256": "954dfa19a3885e0d9edeb216d3e1990de6a67134dc059a967a06b15c03a1e0e7"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-handoff.json",
+          "sha256": "ddcee8c459996448e39bbff8f75eb226a22d44f39967c20349fff72889e7f48a"
+        },
+        "candidate_provenance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-provenance.json",
+          "sha256": "c5431dd7dabe9a70f1020bb070646c34d3057b35682a8b4158e76df4d16ea2c5"
+        },
+        "limitations": [
+          "Non-orthographic pose; no independently registered H0 or thickness measurement.",
+          "Dark guard-end collar occluded; pommel joint black, no misplaced red ring.",
+          "Rear empty cradle construction hidden in this pose.",
+          "Art concept only, not physical grip or dynamics validation.",
+          "One independently designed full-body proposal for comparison; this does not establish a selected main pose or a new three-view set."
+        ],
+        "reference_chain": [
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v2-native.png",
+            "sha256": "1b8f248156219339b7e3f4248df165283b3efa61773a330e9923a2627a79a089",
+            "role": "Earlier B-v2 used only for pose, character, clothing, hand anatomy and silhouettes; misplaced red ring at the dark pommel is explicitly corrected, not accepted as a complete final source."
+          },
+          {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-native.png",
+            "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999",
+            "role": "Accepted dark exterior parts define the black grip-to-pommel junction and collar at the guard end."
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-dual-grip-pose-b-v1.json",
+          "sha256": "55bc3b977fb4f4121741ac7e5113c7190fefe3469bac02a02f9a039e0cc9fbd5"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-dual-grip-pose-b-v1.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1308914,
+        "sha256": "05354d3e06f546dc4238ffa4bfc6c329bbbe6096c2f00aa0a873d6f6493e607d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-dual-grip-pose-b-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 785190,
+        "sha256": "0fff00e34a487d74e7ea33acf8dba539b93519f08ba79bbe4520d746bf67cfb9",
+        "alpha": false
+      }
+    },
+    {
       "id": "assassin-daggers-held-cel-back-v1",
       "character": "bunny",
       "version": "3.1.0",
@@ -1448,8 +1672,8 @@
         "baseline_sha256": "bcfc154a4d3c6fb098f9c4983e65b80f99acd4a662b8d64d4c4e7c4255f3875c",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-native.png",
         "source_artifact_sha256": "041a210c1f2da9193c5f63bd6d47d2cee4fb71b74fba5765cb79f858da8b5bd0",
-        "review_status": "current-dagger-held-back-view",
-        "description": "异构双匕首 · 同姿态持握背面",
+        "review_status": "historical-previous-pose-direction",
+        "description": "此前持握姿态方向 · 异构双匕首 · 同姿态持握背面；保留原图与来源，本轮新方案供比较，尚未选定主姿势。",
         "scope": "持握背面，腰后空短托不残留刀身或金属护手；动态投影不作精确尺寸或三维绑定验证。真正侧视另待准入。",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
         "generation_request": {
@@ -1560,8 +1784,8 @@
         "baseline_sha256": "5e33893fc66eff182dc608e88c1cd3b45430711ee6b4e691fbd490ebe6a0ca24",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-native.png",
         "source_artifact_sha256": "8a69ae3b2acb6a235325fe7c69728b19632c3f6b2d17a10a81be833671cc445c",
-        "review_status": "current-dagger-held-right-side-view",
-        "description": "异构双匕首 · 同姿态持握右侧面",
+        "review_status": "historical-previous-pose-direction",
+        "description": "此前持握姿态方向 · 异构双匕首 · 同姿态持握右侧面；保留原图与来源，本轮新方案供比较，尚未选定主姿势。",
         "scope": "与主视、背面组成同一体势的手绘概念三视；动作投影不作物体真长、精确身高或工程正投影证明。",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
         "generation_request": {
@@ -1651,8 +1875,8 @@
         "baseline_sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-main-v11-color-native.png",
         "source_artifact_sha256": "7ab366f6cb6ee3e8c29e1118fdd5b01281292a2a144524630ccc67169f2e2f5c",
-        "review_status": "current-dagger-held-main-view",
-        "description": "异构双匕首 · 双手持握动态主视",
+        "review_status": "historical-previous-pose-direction",
+        "description": "此前持握姿态方向 · 异构双匕首 · 双手持握动态主视；保留原图与来源，本轮新方案供比较，尚未选定主姿势。",
         "scope": "单张完整持握主视，侧背另待同姿态稿；名义刀长以母版定义，动作投影不作精确尺寸证明。",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
         "generation_request": {
@@ -14690,8 +14914,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 232886856,
-      "sha256": "cd51a4a76282bb68063c030a816d7c214b9786c4f740c16b414fdd8a9029b687"
+      "bytes": 235477683,
+      "sha256": "f8523dfb0c97a1baf1a0480edf9dd9eedcb4846c4eea6bff49ac894a3d1083f2"
     }
   ]
 }

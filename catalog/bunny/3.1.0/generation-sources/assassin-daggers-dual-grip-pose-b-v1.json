@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "role": "paired-dagger-mixed-grip-pose-proposal-b",
+  "publish_slug": "assassin-daggers-dual-grip-pose-b-v1",
+  "actual_tool_candidate": "pose-b-v4",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-native.png",
+    "sha256": "05354d3e06f546dc4238ffa4bfc6c329bbbe6096c2f00aa0a873d6f6493e607d"
+  },
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-request.json",
+    "sha256": "aba4b2ef5e887cfda8e2661280882c06b4b672a7c0fed468d77b537540bc3130"
+  },
+  "request_pointer": "/",
+  "actual_tool_parameters": {
+    "prompt": "New complete hand-drawn cel-anime illustration of the full character in image 1, with precisely the same pose, clothes, facial expression, hand anatomy and weapon silhouettes. Image 2 explains the DARK dagger's separate external pieces only. Keep one whole character and both whole daggers, plain white background.\n\nCorrect this one visibly incorrect detail in image 1: at the LOW hand (the full black glove with red wrist cuff), the pointed black pommel containing the orange mark must join a completely BLACK grip. The small band between the fingers and that pommel, around image coordinates x327–344 y659–683, is BLACK, matching the grip and pommel. The whole visible handle area on that side of the fist is solid dark material except the orange inset. There is no colored ring at the pommel end.\n\nThe dagger's actual red collar sits at its other end next to the guard, mostly occluded by the thumb and guard. Do not move it toward the pommel to expose it. Preserve the red wedge farther along the blade. The opposite raised ivory dagger and its correct reverse grip must stay unchanged: unique pommel above thumb, unique guard and red collar below little finger. Preserve the continuous orange left sock and white right sock, the current asymmetric wrists, body proportions, equipment and current large daggers. Render the entire image freshly, with clean lines and broad hard-shadow color fields, without noisy white patches. No labels, extra body parts, extra handles or extra weapons.",
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v2-native.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-native.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-tool-response.json",
+    "sha256": "024d619644960908bb7a3020d1ffaf641ee1f88c6813afc6e9eb401c97c2af56"
+  },
+  "native_output": {
+    "kind": "native-tool-file",
+    "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-7614fea7-d58f-4710-92f1-779c8912c71e.png",
+    "sha256": "05354d3e06f546dc4238ffa4bfc6c329bbbe6096c2f00aa0a873d6f6493e607d",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-tool-response.json",
+      "sha256": "024d619644960908bb7a3020d1ffaf641ee1f88c6813afc6e9eb401c97c2af56"
+    },
+    "record_note": "Unchanged builtin output PNG; omitted response data URL is represented by the preserved native tool file."
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v2-native.png",
+      "sha256": "1b8f248156219339b7e3f4248df165283b3efa61773a330e9923a2627a79a089",
+      "role": "Earlier B-v2 used only for pose, character, clothing, hand anatomy and silhouettes; misplaced red ring at the dark pommel is explicitly corrected, not accepted as a complete final source."
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-native.png",
+      "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999",
+      "role": "Accepted dark exterior parts define the black grip-to-pommel junction and collar at the guard end."
+    }
+  ],
+  "reference_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-references.json",
+    "sha256": "3e13f87672d6dbcbb4cf6eb2f581acb484b5d91cd7b3b7db408f9c98df22a34d"
+  },
+  "reference_basis": "Actual ordered inputs retain their limited roles. B-v2 is the prior pose/layout reference with a rejected dark pommel red ring; accepted dark exterior parts supply the correction. Real v1 to v2 to v4 ancestry is preserved separately.",
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-root-acceptance.json",
+    "sha256": "aa6d7a55f871655630060e3c73ba4213a845001f295fe66a24751f070ee498a7"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-root-acceptance.json",
+    "sha256": "aa6d7a55f871655630060e3c73ba4213a845001f295fe66a24751f070ee498a7"
+  },
+  "self_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-self-review.json",
+    "sha256": "954dfa19a3885e0d9edeb216d3e1990de6a67134dc059a967a06b15c03a1e0e7"
+  },
+  "native_diagnostics": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/native-pose-b-v4/manifest.json",
+    "sha256": "6b7af1574886a063f61c8b6d7366c91a22d6d2fe8990d30c067f09b8cd94f7a8"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-handoff.json",
+    "sha256": "ddcee8c459996448e39bbff8f75eb226a22d44f39967c20349fff72889e7f48a"
+  },
+  "candidate_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/pose-redesign-20261027/art-b/pose-b-v4-provenance.json",
+    "sha256": "c5431dd7dabe9a70f1020bb070646c34d3057b35682a8b4158e76df4d16ea2c5"
+  },
+  "review_status": "accepted-comparison-pose-proposal-b-user-selection-pending",
+  "user_pose_selection": "not-yet-selected",
+  "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+  "limitations": [
+    "Non-orthographic pose; no independently registered H0 or thickness measurement.",
+    "Dark guard-end collar occluded; pommel joint black, no misplaced red ring.",
+    "Rear empty cradle construction hidden in this pose.",
+    "Art concept only, not physical grip or dynamics validation.",
+    "One independently designed full-body proposal for comparison; this does not establish a selected main pose or a new three-view set."
+  ],
+  "measurement_scope": "No new H0 registration or weapon-length/thickness observation. Canonical dagger and body/garment measurements unchanged."
+}

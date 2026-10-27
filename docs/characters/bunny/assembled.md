@@ -11,7 +11,44 @@ aside: true
 
 <span id="已确认累计穿戴"></span>
 
-## 双匕首持握姿态 {#dagger-held-views}
+## 双持姿势方案 {#dagger-dual-grip-poses}
+
+以下两张是供比较的独立动作方案，尚未选定主姿势，也不是同一动作的三视。两张均采用右手墨黑正握、左手骨白反握；武器母版、后腰收纳和身体服装尺寸保持不变。
+
+### 双持姿势方案 A · 低位错步蓄势 {#dagger-pose-a}
+
+前腿屈膝、后腿支撑，重心压低，配合专注视线形成蓄势感；两手与刀体分开呈现，保留面部轮廓。
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-dual-grip-pose-a-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-dual-grip-pose-a-v1.png" alt="Bunny 双持姿势方案 A：低位错步蓄势，右黑正握、左白反握，表情专注" caption="双持姿势方案 A · 低位错步蓄势" />
+
+[方案 A 原始 PNG](/media/bunny/3.1.0/assassin-daggers-dual-grip-pose-a-v1.png)
+
+### 双持姿势方案 B · 侧身回看 {#dagger-pose-b}
+
+右手墨黑正握压低，左手骨白反握抬高；前脚支撑、后脚点地，身体转向时回看观者，以轻笑形成较从容的动作性格。
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-dual-grip-pose-b-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-dual-grip-pose-b-v1.png" alt="Bunny 双持姿势方案 B：侧身回看，右黑正握低位、左白反握高位" caption="双持姿势方案 B · 侧身回看" />
+
+[方案 B 原始 PNG](/media/bunny/3.1.0/assassin-daggers-dual-grip-pose-b-v1.png)
+
+### 姿态参考与提炼
+
+本轮为 Bunny 采用右手墨黑正握、左手骨白反握；两张方案分别探索落地错步与侧身回看的动作性格。
+
+| 官方参考 | 提炼到 Bunny 的姿态 |
+| --- | --- |
+| [桑乐 · S.H.Figuarts](https://tamashiiweb.com/item/14790/) | 提炼前低后高的手位和肩胯错向，让两把刀与面部之间保持清楚的空间。 |
+| [索尔芬 · figma](https://www.goodsmile.info/en/product/14421/figma%2BThorfinn.html) | 提炼双足落地、屈膝错步的支撑感，以及双手分处不同高度的层次。 |
+| [卡特琳娜 · Riot Unlocked](https://merch.riotgames.com/en-us/product/katarina-unlocked/) | 提炼侧身回看、肩髋转向与从容神态，形成较轻的另一种剪影。 |
+
+参考中的部分手部被遮挡，不能直接证明一正一反握；上述握法由 Bunny 本轮设计确定。参考照片仅链接至官方页面，不收录于 Bunny 原图包。
+
+<details>
+<summary>此前持握三视 · 旧姿态方向</summary>
+
+以下三图保留此前的姿态设计与当时参考，不作为本轮 A/B 方案，也不代表已选定的新主姿势。
+
+## 此前双匕首持握三视 {#dagger-held-views}
 
 动态主视、右侧与背面组成同一体势的手绘概念三视。右手持墨黑、左手持骨白；动作投影不改写母版尺寸，也不作为严格工程正投影或由单张恢复物体真长的依据。
 
@@ -38,6 +75,8 @@ aside: true
 | [托尔芬 · Good Smile](https://www.goodsmile.info/en/product/14421/figma%2BThorfinn.html) | 肘部收拢、屈膝错步，双刃方向分开；提炼低重心与刀刃、前臂之间的空间。 |
 
 这些链接用于姿态研究，参考照片不作为 Bunny 原创素材或下载包内容。
+
+</details>
 
 ## 双匕首后腰交叉携行三视 {#dagger-waist-carry-views}
 
@@ -97,7 +136,7 @@ aside: true
 
 <ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-armed-expressions-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-armed-expressions-v1.png" alt="Bunny 武器姿态表情补充：专注、自信轻笑、放松" caption="姿态表情补充 · 从左至右：专注 / 自信轻笑 / 放松" />
 
-当前已提供持握概念三视和独立三格表情补充；携行三视已按母版刀型修订；三视属于概念近似，不是严格正投影。双刀名义尺度见[尺寸口径](/characters/bunny/dimensions#assassin-daggers-dimensions)；姿势投影不改写身体和服装尺寸，动态抽取、活动间隙与 3D 碰撞尚未验证。
+当前提供两张供比较的双持姿势方案和独立三格表情补充；此前持握三视保留为旧姿态。携行三视已按母版刀型修订，仍属概念近似。双刀名义尺度见[尺寸口径](/characters/bunny/dimensions#assassin-daggers-dimensions)；姿势投影不改写身体和服装尺寸，动态抽取、活动间隙与 3D 碰撞尚未验证。
 
 ## 前方案资料
 

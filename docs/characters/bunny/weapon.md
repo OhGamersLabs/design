@@ -43,7 +43,7 @@ Bunny 以刺客定位使用两把各具完整造型的匕首：角色右侧是�
 
 薄黑短托包住护手下方的一小段刀根，护手坐在托口上；上方束带回绕柄根，连接到同一承片；闭合带耳让现有裤腰皮带穿过。主图与放大局部说明这三层可见连接。
 
-这张板用于固定外观研究，不是武器本体分件图或尺寸基准。双刀轮廓与比例仍以[正面母版](#assassin-daggers-concept)和[尺寸表](/characters/bunny/dimensions#assassin-daggers-dimensions)为准；持握已有[同姿态概念三视](/characters/bunny/assembled#dagger-held-views)，携行修订见[人物视图](/characters/bunny/assembled#dagger-waist-carry-views)；物理承载、抽取动作及动态间隙尚未验证。
+这张板用于固定外观研究，不是武器本体分件图或尺寸基准。双刀轮廓与比例仍以[正面母版](#assassin-daggers-concept)和[尺寸表](/characters/bunny/dimensions#assassin-daggers-dimensions)为准；持握提供[两张独立姿势方案](/characters/bunny/assembled#dagger-dual-grip-poses)供比较，携行修订见[人物视图](/characters/bunny/assembled#dagger-waist-carry-views)；物理承载、抽取动作及动态间隙尚未验证。
 
 连接层次参考 [Taki 授权雕像 · First 4 Figures](https://first4figures.com/collections/soulcalibur-ii-1/products/taki-regular)可见的束环与承片，以及 [Ayane 授权模型 · 海洋堂](https://kaiyodo.co.jp/items/revoltech/nr067/)的包抱束环。这些来源采用有鞘系统，Bunny 的短托与后腰交叉组合是独立外观设计。低位交叉布局另参考 [tsukidal 的非官方 FFXIV 模组](https://www.xivmodarchive.com/modid/93419)，不沿用其中心穿插。
 

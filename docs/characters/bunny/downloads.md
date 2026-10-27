@@ -31,7 +31,7 @@ aside: true
 
 </details>
 
-基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；吊带系统已取消，腰带与头装累计三视已完整重绘；护目镜四格近景与拆解板保留；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已有放大尺寸母版，携带方向改为后腰交叉，已有局部固定外观研究与持握概念三视，完整携行已有正面、右侧与背面三视；原有大剑、双手棍资料保留为历史。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
+基模、首层衣装、袜装、鞋靴、手部与腿部装备各有三张完整新绘人物；此前六张平涂与色块重绘稿继续保留。当前外套层采用前长后短的橙色夹克，提供新绘三视与结构、细节两张板；普通前开口领和左袖袋身小幅纯白 OG 连环标志保持。白色内搭、红裤和夹克另有固定服装尺寸与逐图标尺，前襟覆盖白衣、后中露窄白边。基模三视及图面尺寸、头部、16格表情和此前衣层资料保持；吊带系统已取消，腰带与头装累计三视已完整重绘；护目镜四格近景与拆解板保留；武器方向改为[刺客双匕首](/characters/bunny/weapon#assassin-daggers-concept)，已有放大尺寸母版，携带方向改为后腰交叉，已有局部固定外观研究与两张独立双持姿势方案，完整携行已有正面、右侧与背面三视；原有大剑、双手棍资料保留为历史。所有新稿保留生图工具原始 PNG。原图包同时保留明确标注的历史资料；未采用的本轮候选不进入原图包。
 
 本轮按同视角基模完整重绘鞋靴、手部、腿部、夹克四层的 12 张人物及袜装背面，核对头部发色、深色轮廓与赛璐璐分面；既定尺寸规范和结构细节板保持。各新图测量绑定自身坐标，遮挡与数值不确定项仍单列。
 
@@ -428,15 +428,25 @@ aside: true
 - [墨黑匕首 · 独立外观分件 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.png)
 - [骨白匕首 · 独立外观分件 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.png)
 - [后腰固定 · 局部外观结构研究 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.png)
-- [持握 · 动态主视 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-main-v1.png)
-- [持握 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-cel-side-v1.png)
-- [持握 · 背面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-cel-back-v1.png)
+- [双持姿势方案 A · 低位错步蓄势 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-dual-grip-pose-a-v1.png)
+- [双持姿势方案 B · 侧身回看 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-dual-grip-pose-b-v1.png)
 - [后腰交叉携行 · 正面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.png)
 - [后腰交叉携行 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v2.png)
 - [后腰交叉携行 · 背面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.png)
 - [专注 / 自信轻笑 / 放松 · 表情补充 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-armed-expressions-v1.png)
 
 [查看武器设计](/characters/bunny/weapon#assassin-daggers-concept) · [持握与后腰交叉携行](/characters/bunny/assembled)。第三方参考照片只保留官方外链，不放入原图包。
+
+两张双持图是独立方案，供比较，尚未选定主姿势；不视为同一动作三视。
+
+<details>
+<summary>此前持握三视 · 旧姿态原件</summary>
+
+- [持握 · 动态主视 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-main-v1.png)
+- [持握 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-cel-side-v1.png)
+- [持握 · 背面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-cel-back-v1.png)
+
+</details>
 
 
 <details>

@@ -64,7 +64,7 @@ import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
 
 [下载双匕首尺寸 JSON](/catalog/bunny/3.1.0/dagger-dimensions.json) · [武器设计与分区](/characters/bunny/weapon#assassin-daggers-concept) · [人物持握与后腰交叉携行](/characters/bunny/assembled)
 
-后腰[固定结构研究板](/characters/bunny/weapon#dagger-waist-mount-structure)只说明局部可见连接；[持握概念三视](/characters/bunny/assembled#dagger-held-views)包含姿势投影。两者均不替代本表母版读数，也未新增身体配准或侧厚测量。
+后腰[固定结构研究板](/characters/bunny/weapon#dagger-waist-mount-structure)只说明局部可见连接；[双持姿势方案](/characters/bunny/assembled#dagger-dual-grip-poses)包含姿势投影。两者均不替代本表母版读数，也未新增身体配准或侧厚测量。
 
 尺寸方向参考了[桑乐官方模型照片](https://tamashiiweb.com/item/14790/)中的武器投影与人物比例；0.36H0、0.42H0 是 Bunny 的原创设计选择，不是原作武器的真实尺寸。身体与服装的既定尺寸保持不变。
 
