@@ -70,7 +70,26 @@ import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
 
 ### 携行背面图面核对 {#dagger-figure-observations}
 
-[完整携行背面](/characters/bunny/assembled#dagger-waist-carry-views)使用本图实际取点，与基础背面的发冠、后发缘和膝部折线作统一缩放与平移对齐；鞋底和护目镜不作为身高端点。
+[修订背面原图](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.png)使用本图重新读取的发冠、后发缘和膝部折线，与基础背面作统一缩放与平移对齐；鞋底和护目镜不作为身高端点。
+
+| 本图估读 | 角色右 · 墨黑 | 角色左 · 骨白 |
+| --- | --- | --- |
+| 刀尖至柄尾直线距 | 刀尖被手遮挡，不可测 | 约 618 px |
+| 占本图 H0 估计值 | 不可测 | 约 0.415 |
+| 固定设计整长 | 0.360H0 | 0.420H0 |
+
+本图 H0 代理约 1489 px，对齐残差约 6.1 px；发缘与膝部估读的敏感性范围约 1440–1539 px，不是统计置信区间。白刀读数仅作二维比例核对；墨黑可见部分的端点距不代表完整刀长，也不据此计算整件黑白比。身体、服装与母版尺寸保持不变。
+
+正面与右侧未做独立 H0 配准，完整刀长与侧厚保持未测。三视有手绘位置差异：侧面白刀尖比背面约高 37 px，柄尾高度残差约 27 px；不将这些差异解释为已验证的透视关系，也不以三视替代本页母版尺寸。
+
+<details>
+<summary>此前携行背面估读 · 刀型漂移历史稿</summary>
+
+以下数据仅属于[旧背面原件](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png)。该图因刀型漂移已退出当前展示，原坐标与当时读数完整保留，没有迁移到修订图。
+
+### 携行背面图面核对 {#dagger-figure-observations-history}
+
+[此前携行背面](/characters/bunny/assembled#dagger-waist-carry-history)使用本图实际取点，与基础背面的发冠、后发缘和膝部折线作统一缩放与平移对齐；鞋底和护目镜不作为身高端点。
 
 | 本图估读 | 角色右 · 墨黑 | 角色左 · 骨白 |
 | --- | --- | --- |
@@ -81,6 +100,9 @@ import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
 本图 H0 代理约 1161 px，对齐残差约 10.7 px；发缘形状与腿部姿态造成可见偏差，敏感性范围约 1126–1197 px，不是统计置信区间。上述读数只作本图比例核对，黑白实测比约 0.821，不声称精确 6:7，也不修改身体与服装基准。
 
 携行正面两柄被遮挡，完整刀长不可测；右侧仅核对遮挡层次。正面和右侧没有独立刀长、厚度或 H0 量测，数据中保留空值。
+
+
+</details>
 
 <details>
 <summary>v1 分段与宽厚初提案 · 保留修订历史</summary>

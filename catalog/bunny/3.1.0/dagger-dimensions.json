@@ -932,142 +932,143 @@
     {
       "status": "accepted-artwork-with-source-specific-projected-estimate",
       "source": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
-        "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658",
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-native.png",
+        "sha256": "e2a06d08ccc29e53b12cdafd72a67ad3555e85aeb9b34c44e15f6cb82cfb2529",
         "dimensions": [
-          1254,
-          1254
+          1024,
+          1536
         ]
       },
       "resources": {
-        "original": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png",
-        "web": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.webp",
+        "original": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.png",
+        "web": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.webp",
         "page": "/characters/bunny/assembled#dagger-waist-carry-views"
       },
       "measurementRecord": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-dimension-observation.json",
-        "sha256": "3bc9336a93a5a62bf7f15e113394b66415ebb311e6c5d93e0784ba2b56c42c54"
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-dimension-observation.json",
+        "sha256": "5c1dc1f31bbefc2b77e1413db18f034dafe57be1e620285efb1000db47e0e9fb"
       },
       "artworkAcceptanceRecord": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-root-acceptance.json",
-        "sha256": "04a7bb24dc295f81d10211ddf6a4a811bb59932dd438f4c7f89ded2c27682aa1"
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-root-acceptance.json",
+        "sha256": "72d383946f6377bbf80983a2643a7958c7845ce151b23b1d20a316949fd002ae"
       },
       "observations": {
-        "status": "candidate observations; v3 artistic body-scale range acceptable, root final acceptance pending",
         "source": {
-          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
-          "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658"
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-native.png",
+          "sha256": "e2a06d08ccc29e53b12cdafd72a67ad3555e85aeb9b34c44e15f6cb82cfb2529"
         },
         "registration_source": {
           "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-back-v1.png",
           "sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
-          "raw_back_height_px": 1471,
-          "canonical_H0_px": 1475
+          "canonical_H0": 1475,
+          "raw_back_crown_to_barefoot": 1471
         },
-        "method": "Uniform 2D least-squares scale plus translation only; no image modification. Actual new source landmarks inspected at native resolution.",
+        "method": "Fresh target coordinates read from current whole/native head and knee; source same canonical reference landmarks reused and native reopened. Uniform scale plus translation only, no image modifications. Crown/goggle/boot distinctions maintained.",
         "anchors": [
           {
-            "name": "visible right crown peak, not goggles",
+            "name": "right visible hair crown peak, no goggles",
             "source": [
               531,
               24
             ],
             "target": [
-              628,
-              17
+              535,
+              27
             ],
-            "y_endpoint_tolerance_px": 2
+            "tolerance_px": 3
           },
           {
-            "name": "central lower occipital hair edge, not hidden neck bone",
+            "name": "central lower occipital hair edge, not covered neck bone",
             "source": [
               511,
               262
             ],
             "target": [
-              613,
-              184
+              513,
+              261
             ],
-            "y_endpoint_tolerance_px": 4
+            "tolerance_px": 5
           },
           {
-            "name": "inner posterior right knee colored crease apex, not exact joint",
+            "name": "inner posterior right knee colored crease, not inferred joint center",
             "source": [
               574,
               1026
             ],
             "target": [
-              676,
-              799
+              566,
+              1037
             ],
-            "y_endpoint_tolerance_px": 10
+            "tolerance_px": 12
           }
         ],
         "fit": {
-          "scale": 0.7873094133997995,
+          "scale": 1.0091641513617784,
           "translation_px": [
-            214.90266264864135,
-            -10.983316793512358
+            -5.603089533544562,
+            0.3255444711156201
           ],
           "residual_vectors_px": [
             [
-              -4.963961163934982,
-              9.087890871917168
+              4.736925160440251,
+              2.4545158962016984
             ],
             [
-              -4.217772895938879,
-              -11.291749517235132
+              2.9202081876758257,
+              -3.7265521279015843
             ],
             [
-              9.181734059873634,
-              2.203858645318064
+              -7.65713334811619,
+              1.272036231699758
             ]
           ],
-          "rms_residual_px": 10.672161911150171,
-          "H0_proxy_px": 1161.2813847647044
+          "rms_residual_px": 6.086259994644918,
+          "H0_proxy_px": 1488.517123258623
         },
-        "crown_knee_y_only_H0_proxy_px": 1151.1477045908184,
-        "sensitivity_range_px": [
-          1126.2857630733622,
-          1197.0862658411447
+        "sensitivity_range_H0_px": [
+          1439.847195228595,
+          1538.622935145201
         ],
-        "sensitivity_semantics": "Signed source/target y tolerance corners; sensitivity bounds, not a statistical CI or an artistic waiver. Hair lower edge and slight leg pose mismatch produce 10.7px residual. Boots and goggles are excluded.",
-        "weapon_observations": {
-          "dark": {
-            "pommel": [
-              754,
-              374
-            ],
-            "tip": [
-              434,
-              628
-            ],
-            "straight_chord_px": 408.55354606220226,
-            "nominal_L_over_H0": 0.36,
-            "observed_L_over_H0_proxy": 0.3518127057078266,
-            "central_deviation_percent": -2.274248414492619
-          },
+        "sensitivity_semantics": "Signed source/target y landmark tolerance corners; not a confidence interval. Knee crease and hair shape are approximate visual anchors.",
+        "weapons": {
           "ivory": {
             "pommel": [
-              475,
-              368
+              322,
+              495
             ],
             "tip": [
-              862,
-              681
+              813,
+              870
             ],
-            "straight_chord_px": 497.7328600765676,
-            "nominal_L_over_H0": 0.42,
-            "observed_L_over_H0_proxy": 0.42860659492739295,
-            "central_deviation_percent": 2.0491892684268986
+            "chord_px": 617.8235994197696,
+            "L_over_H0_proxy": 0.415059786525832,
+            "nominal": 0.42,
+            "relative_deviation_percent": -1.1762413033733377,
+            "endpoint_tolerance_px": 4
+          },
+          "dark": {
+            "pommel": [
+              710,
+              488
+            ],
+            "tip": null,
+            "full_length_px": null,
+            "full_L_over_H0": null,
+            "visible_blade_boundary_before_hand": [
+              322,
+              776
+            ],
+            "pommel_to_visible_boundary_chord_px": 483.20596022814124,
+            "visible_chord_over_H0": 0.3246223726135708,
+            "nominal": 0.36,
+            "limit": "Terminal tip obscured by character-left hand. This visible chord is not full weapon length. Do not copy previous back endpoints or infer an exact hidden tip/ratio."
           }
         },
-        "dark_over_ivory_observed_ratio": 0.8208289603369835,
-        "nominal_ratio": 0.8571428571428571,
-        "endpoint_tolerance_px": 4,
-        "artistic_tolerance_semantics": "About5% per-weapon drawing deviation authorized by root; not manufacturing precision and not point uncertainty. Ratio is observed separately, never called exact6:7."
+        "full_dark_ivory_ratio": null,
+        "master_unchanged": true,
+        "physical_dimensions": "not inferred"
       },
-      "meaning": "The frozen observation was recorded before final artwork acceptance and retains that timing text. Acceptance is bound separately. These estimates do not redefine canonical dimensions or claim exact body registration."
+      "meaning": "本记录保留新背面实际取点、配准残差及遮挡空值。白刀弦长仅作二维比例估计；黑刀可见弦长不是完整长度，也不是定义明确的长度下界。名义与母版尺寸不变。"
     }
   ],
   "superseded": [
@@ -1075,6 +1076,248 @@
       "total_H0": 0.22,
       "status": "withdrawn",
       "reason": "用户认为原设定太小；不能作为本轮母版或人物的验收目标。"
+    },
+    {
+      "status": "historical-carry-system-superseded-for-dagger-shape-drift",
+      "reason": "旧固定板与携行体系经母版/独立分件对照发现刀型漂移；以下记录只属于原源，不迁移到新图。",
+      "auditRecord": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/carry-consistency-audit-20261027/audit.json",
+        "sha256": "6c6fc078bbe1a23368884b1ba88bba0c54ca7bb741de5902aa7ec989d7dce6da"
+      },
+      "carryingDesign": {
+        "status": "exterior-study-and-three-view-appearance-accepted",
+        "mode": "rear-waist-crossed-exposed-blades-with-short-root-support",
+        "right": "dark dagger",
+        "left": "ivory dagger",
+        "definition": "后腰交叉；护手下方薄黑短托只包住短段刀根，护手坐于托口，上方束带回绕柄根，闭合带耳穿过现有腰带。刀身大部分露出。角色右黑、左骨白，交叉处骨白在外、墨黑在内。",
+        "newMountMeasurements": null,
+        "dynamicClearanceValidated": false,
+        "note": "局部外观及完整正、右侧、背面已通过图面审查。背面二维估读不改写母版与身体尺寸；正面柄端遮挡，完整刀长不可测，右侧只核对可见深度与遮挡，两者没有独立H0或厚度读数。动态关系尚未验证。",
+        "crossingAngleDegrees": null,
+        "mountPositions": null,
+        "layoutReference": {
+          "author": "tsukidal",
+          "kind": "creator-published FFXIV mod, not official default design",
+          "page": "https://www.xivmodarchive.com/modid/93419",
+          "referenceRecord": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/research/rear-waist-x-reference.json",
+            "sha256": "54cee15fd13324d9126a4e076171eb497401b7bca3a0dfdc2ecf953f27e3dd56"
+          },
+          "use": "Low rear-waist crossed silhouette only; source clipping is not an accepted Bunny attachment or depth relationship."
+        },
+        "fixingStructure": {
+          "kind": "visible-exterior-concept",
+          "source": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-native.png",
+            "sha256": "9845129227fd8fa7d15bd34e15586569b6a31fe4dd17de2e53db711e7e445228"
+          },
+          "acceptanceRecord": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-root-acceptance.json",
+            "sha256": "4d70e2a4cf69b0dcc71340afec305cb9e944d3daee30a55c96573a838be09cf1"
+          },
+          "selfReviewRecord": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-self-review.json",
+            "sha256": "ca429209f19a2ae95c85c458fc6cf5ac817e8093adec04899abd6175836462a9"
+          },
+          "resources": {
+            "original": "/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png",
+            "web": "/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.webp",
+            "page": "/characters/bunny/weapon#dagger-waist-mount-structure"
+          },
+          "parts": [
+            "short dark root support below guard",
+            "separate wrap returning around collar/handle root",
+            "closed belt ear with trouser belt passing through"
+          ],
+          "crossingOrder": "ivory outside dark",
+          "notWeaponComponentsBoard": true,
+          "notDimensionAuthority": true
+        },
+        "acceptedFigureSources": [
+          {
+            "role": "back",
+            "source": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
+              "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658"
+            },
+            "acceptanceRecord": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-root-acceptance.json",
+              "sha256": "04a7bb24dc295f81d10211ddf6a4a811bb59932dd438f4c7f89ded2c27682aa1"
+            }
+          },
+          {
+            "role": "right-side",
+            "source": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-native.png",
+              "sha256": "5f85ae5e863837a7f48ddccac1e7aac7910455e948bd5a64d9583a897b13d279"
+            },
+            "acceptanceRecord": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-root-acceptance.json",
+              "sha256": "cca444ce12614efaa015946158adac51662bae894c33aa24e65801ddc7708689"
+            },
+            "measurementRecord": null,
+            "observationScope": "visible depth/occlusion only; no side H0 or weapon length/thickness measurement"
+          },
+          {
+            "role": "front",
+            "source": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-native.png",
+              "sha256": "ddd8ed368f7efbd479669141139c75b9b81ae3030082d264e95b75b0dbadb1cd"
+            },
+            "acceptanceRecord": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-root-acceptance.json",
+              "sha256": "1c3d7f91bcbb9d91462b050d365300de865ae1a3c9c4ed7bf5a7c6e3689716b1"
+            },
+            "measurementRecord": null,
+            "completeWeaponLength": null,
+            "H0": null,
+            "thickness": null,
+            "observationScope": "Rear-waist hilts are occluded; no complete front weapon length, H0 or thickness measurement."
+          }
+        ]
+      },
+      "candidateObservations": [
+        {
+          "status": "accepted-artwork-with-source-specific-projected-estimate",
+          "source": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
+            "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658",
+            "dimensions": [
+              1254,
+              1254
+            ]
+          },
+          "resources": {
+            "original": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png",
+            "web": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.webp",
+            "page": "/characters/bunny/assembled#dagger-waist-carry-views"
+          },
+          "measurementRecord": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-dimension-observation.json",
+            "sha256": "3bc9336a93a5a62bf7f15e113394b66415ebb311e6c5d93e0784ba2b56c42c54"
+          },
+          "artworkAcceptanceRecord": {
+            "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-root-acceptance.json",
+            "sha256": "04a7bb24dc295f81d10211ddf6a4a811bb59932dd438f4c7f89ded2c27682aa1"
+          },
+          "observations": {
+            "status": "candidate observations; v3 artistic body-scale range acceptable, root final acceptance pending",
+            "source": {
+              "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
+              "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658"
+            },
+            "registration_source": {
+              "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-back-v1.png",
+              "sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+              "raw_back_height_px": 1471,
+              "canonical_H0_px": 1475
+            },
+            "method": "Uniform 2D least-squares scale plus translation only; no image modification. Actual new source landmarks inspected at native resolution.",
+            "anchors": [
+              {
+                "name": "visible right crown peak, not goggles",
+                "source": [
+                  531,
+                  24
+                ],
+                "target": [
+                  628,
+                  17
+                ],
+                "y_endpoint_tolerance_px": 2
+              },
+              {
+                "name": "central lower occipital hair edge, not hidden neck bone",
+                "source": [
+                  511,
+                  262
+                ],
+                "target": [
+                  613,
+                  184
+                ],
+                "y_endpoint_tolerance_px": 4
+              },
+              {
+                "name": "inner posterior right knee colored crease apex, not exact joint",
+                "source": [
+                  574,
+                  1026
+                ],
+                "target": [
+                  676,
+                  799
+                ],
+                "y_endpoint_tolerance_px": 10
+              }
+            ],
+            "fit": {
+              "scale": 0.7873094133997995,
+              "translation_px": [
+                214.90266264864135,
+                -10.983316793512358
+              ],
+              "residual_vectors_px": [
+                [
+                  -4.963961163934982,
+                  9.087890871917168
+                ],
+                [
+                  -4.217772895938879,
+                  -11.291749517235132
+                ],
+                [
+                  9.181734059873634,
+                  2.203858645318064
+                ]
+              ],
+              "rms_residual_px": 10.672161911150171,
+              "H0_proxy_px": 1161.2813847647044
+            },
+            "crown_knee_y_only_H0_proxy_px": 1151.1477045908184,
+            "sensitivity_range_px": [
+              1126.2857630733622,
+              1197.0862658411447
+            ],
+            "sensitivity_semantics": "Signed source/target y tolerance corners; sensitivity bounds, not a statistical CI or an artistic waiver. Hair lower edge and slight leg pose mismatch produce 10.7px residual. Boots and goggles are excluded.",
+            "weapon_observations": {
+              "dark": {
+                "pommel": [
+                  754,
+                  374
+                ],
+                "tip": [
+                  434,
+                  628
+                ],
+                "straight_chord_px": 408.55354606220226,
+                "nominal_L_over_H0": 0.36,
+                "observed_L_over_H0_proxy": 0.3518127057078266,
+                "central_deviation_percent": -2.274248414492619
+              },
+              "ivory": {
+                "pommel": [
+                  475,
+                  368
+                ],
+                "tip": [
+                  862,
+                  681
+                ],
+                "straight_chord_px": 497.7328600765676,
+                "nominal_L_over_H0": 0.42,
+                "observed_L_over_H0_proxy": 0.42860659492739295,
+                "central_deviation_percent": 2.0491892684268986
+              }
+            },
+            "dark_over_ivory_observed_ratio": 0.8208289603369835,
+            "nominal_ratio": 0.8571428571428571,
+            "endpoint_tolerance_px": 4,
+            "artistic_tolerance_semantics": "About5% per-weapon drawing deviation authorized by root; not manufacturing precision and not point uncertainty. Ratio is observed separately, never called exact6:7."
+          },
+          "meaning": "The frozen observation was recorded before final artwork acceptance and retains that timing text. Acceptance is bound separately. These estimates do not redefine canonical dimensions or claim exact body registration."
+        }
+      ]
     }
   ],
   "referenceBasis": {
@@ -1263,14 +1506,14 @@
   ],
   "currentDesignRevision": "v2-native-master-revision",
   "carryingDesign": {
-    "status": "exterior-study-and-three-view-appearance-accepted",
+    "status": "revised-exterior-study-and-three-view-appearance-accepted",
     "mode": "rear-waist-crossed-exposed-blades-with-short-root-support",
     "right": "dark dagger",
     "left": "ivory dagger",
     "definition": "后腰交叉；护手下方薄黑短托只包住短段刀根，护手坐于托口，上方束带回绕柄根，闭合带耳穿过现有腰带。刀身大部分露出。角色右黑、左骨白，交叉处骨白在外、墨黑在内。",
     "newMountMeasurements": null,
     "dynamicClearanceValidated": false,
-    "note": "局部外观及完整正、右侧、背面已通过图面审查。背面二维估读不改写母版与身体尺寸；正面柄端遮挡，完整刀长不可测，右侧只核对可见深度与遮挡，两者没有独立H0或厚度读数。动态关系尚未验证。",
+    "note": "固定研究板与正、右侧、背面均按母版刀型完成修订。三视是手绘概念近似，非严格正投影；侧面白刀尖比背面约高37px，柄尾高度残差约27px，记录为绘制差异。背面骨白端点可估读，墨黑刀尖被手遮挡，完整刀长为空；当前图面估读不改写母版与身体服装尺寸。",
     "crossingAngleDegrees": null,
     "mountPositions": null,
     "layoutReference": {
@@ -1286,20 +1529,20 @@
     "fixingStructure": {
       "kind": "visible-exterior-concept",
       "source": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-native.png",
-        "sha256": "9845129227fd8fa7d15bd34e15586569b6a31fe4dd17de2e53db711e7e445228"
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-native.png",
+        "sha256": "3b410120dec0d90b692c146f5e2ad5c90889bc08722699a527197099043f1fb1"
       },
       "acceptanceRecord": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-root-acceptance.json",
-        "sha256": "4d70e2a4cf69b0dcc71340afec305cb9e944d3daee30a55c96573a838be09cf1"
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-root-acceptance.json",
+        "sha256": "12f4a314e23c8182c37720b13d6053fc147679d2f396a019b144597d7ebc0852"
       },
       "selfReviewRecord": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-self-review.json",
-        "sha256": "ca429209f19a2ae95c85c458fc6cf5ac817e8093adec04899abd6175836462a9"
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-self-review.json",
+        "sha256": "471b56ea4af92e2dd094a9dccc9bc0ac22b1dfb69eb26b64aa859a86d55cc2ad"
       },
       "resources": {
-        "original": "/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png",
-        "web": "/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.webp",
+        "original": "/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.png",
+        "web": "/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.webp",
         "page": "/characters/bunny/weapon#dagger-waist-mount-structure"
       },
       "parts": [
@@ -1315,43 +1558,61 @@
       {
         "role": "back",
         "source": {
-          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
-          "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658"
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-native.png",
+          "sha256": "e2a06d08ccc29e53b12cdafd72a67ad3555e85aeb9b34c44e15f6cb82cfb2529"
         },
         "acceptanceRecord": {
-          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-root-acceptance.json",
-          "sha256": "04a7bb24dc295f81d10211ddf6a4a811bb59932dd438f4c7f89ded2c27682aa1"
-        }
-      },
-      {
-        "role": "right-side",
-        "source": {
-          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-native.png",
-          "sha256": "5f85ae5e863837a7f48ddccac1e7aac7910455e948bd5a64d9583a897b13d279"
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-root-acceptance.json",
+          "sha256": "72d383946f6377bbf80983a2643a7958c7845ce151b23b1d20a316949fd002ae"
         },
-        "acceptanceRecord": {
-          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-side-v2-root-acceptance.json",
-          "sha256": "cca444ce12614efaa015946158adac51662bae894c33aa24e65801ddc7708689"
+        "measurementRecord": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-dimension-observation.json",
+          "sha256": "5c1dc1f31bbefc2b77e1413db18f034dafe57be1e620285efb1000db47e0e9fb"
         },
-        "measurementRecord": null,
-        "observationScope": "visible depth/occlusion only; no side H0 or weapon length/thickness measurement"
+        "completeDarkWeaponLength": null,
+        "observationScope": "Source-specific body proxy and visible ivory chord. Dark tip hidden by left hand; dark full length and full dark/ivory ratio remain null."
       },
       {
         "role": "front",
         "source": {
-          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-native.png",
-          "sha256": "ddd8ed368f7efbd479669141139c75b9b81ae3030082d264e95b75b0dbadb1cd"
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/front-side/carry-front-consistent-v3-native.png",
+          "sha256": "d74fc40cea9b07f1fd13d62eeb4fdee54ef03d27077c9b7e9e8b57daf3fd1129"
         },
         "acceptanceRecord": {
-          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-front-v4-root-acceptance.json",
-          "sha256": "1c3d7f91bcbb9d91462b050d365300de865ae1a3c9c4ed7bf5a7c6e3689716b1"
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/front-side/carry-front-side-v3-root-acceptance.json",
+          "sha256": "c0313d2b4c0fd385649376e547bcae813ee39d5789b9dbc568d67bf99fded915"
         },
         "measurementRecord": null,
         "completeWeaponLength": null,
         "H0": null,
         "thickness": null,
-        "observationScope": "Rear-waist hilts are occluded; no complete front weapon length, H0 or thickness measurement."
+        "observationScope": "Current visual identity and occlusion only; no complete weapon length/H0/thickness measurement. Residual cross-view drawing differences disclosed separately."
+      },
+      {
+        "role": "right-side",
+        "source": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/front-side/carry-side-consistent-v3-native.png",
+          "sha256": "0e6678fb9ed780f1dd59f3d088ea1bdf16596aa4fa3f23f9c5784789fa35b60e"
+        },
+        "acceptanceRecord": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/front-side/carry-front-side-v3-root-acceptance.json",
+          "sha256": "c0313d2b4c0fd385649376e547bcae813ee39d5789b9dbc568d67bf99fded915"
+        },
+        "measurementRecord": null,
+        "completeWeaponLength": null,
+        "H0": null,
+        "thickness": null,
+        "observationScope": "Current visual identity and occlusion only; no complete weapon length/H0/thickness measurement. Residual cross-view drawing differences disclosed separately."
       }
-    ]
+    ],
+    "crossViewDrawingResiduals": {
+      "record": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/front-side/carry-front-side-v3-root-acceptance.json",
+        "sha256": "c0313d2b4c0fd385649376e547bcae813ee39d5789b9dbc568d67bf99fded915"
+      },
+      "sideIvoryTipComparedWithBackPx": -37,
+      "sidePommelHeightResidualMagnitudePx": 27,
+      "meaning": "Approximate image-position differences between current drawings; not new weapon dimensions and not explained away as perspective. Strict orthographic or exact dimension conformity is not claimed."
+    }
   }
 }

@@ -7,7 +7,7 @@ aside: true
 
 本页分别整理异构双匕首的持握、后腰交叉携行与姿态表情。角色右手对应墨黑獠牙匕首，左手对应骨白曲匕首；前视画面的左右与角色左右相反。
 
-人物沿用[无吊带护目镜衣层](/characters/bunny/headgear#headgear-wearing)：白色内搭与橙色夹克自然叠穿，腰部只有一圈黑皮带。新的携行方向是两刀交叉于后腰，刀身大部分露出。已提供[短托、束带与穿腰带带耳的局部外观研究](/characters/bunny/weapon#dagger-waist-mount-structure)，完整携行已有正面、右侧与背面三视；持握状态不在正面增加两侧挂架。单件造型见[武器设计](/characters/bunny/weapon#assassin-daggers-concept)。
+人物沿用[无吊带护目镜衣层](/characters/bunny/headgear#headgear-wearing)：白色内搭与橙色夹克自然叠穿，腰部只有一圈黑皮带。新的携行方向是两刀交叉于后腰，刀身大部分露出。已提供[短托、束带与穿腰带带耳的局部外观研究](/characters/bunny/weapon#dagger-waist-mount-structure)，携行修订提供正面、右侧与背面三视；持握状态不在正面增加两侧挂架。单件造型见[武器设计](/characters/bunny/weapon#assassin-daggers-concept)。
 
 <span id="已确认累计穿戴"></span>
 
@@ -41,7 +41,34 @@ aside: true
 
 ## 双匕首后腰交叉携行三视 {#dagger-waist-carry-views}
 
-两刀在后腰交叉，刀体露出。现已提供正面、右侧与背面三视；名义整长仍以右黑 0.36H0、左白 0.42H0 的尺寸规范为依据。局部固定外观见[结构研究板](/characters/bunny/weapon#dagger-waist-mount-structure)，背面可见白刀在外、黑刀在内的交叉关系，右侧补充固定件与刀体位于臀后的层次。
+携行修订按母版与独立分件保持两刀各自的刀身、护手、握柄和柄尾形制；角色右黑、左骨白，交叉处骨白在外。名义整长仍为右黑 0.36H0、左骨白 0.42H0。局部连接见[固定结构研究板](/characters/bunny/weapon#dagger-waist-mount-structure)。
+
+### 正面
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.webp" original="/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.png" alt="Bunny 后腰交叉携行修订正面：柄与固定件留在后腰，袖和身体自然遮挡" caption="后腰交叉携行 · 修订正面" />
+
+两柄与固定件位于后腰，正面由袖和身体自然遮挡。可见刀端保留各自轮廓，完整刀长在本视角不可测。
+
+### 右侧面
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v2.webp" original="/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v2.png" alt="Bunny 后腰交叉携行修订右侧：墨黑与骨白刀体在臀后分层，腿装保持可见" caption="后腰交叉携行 · 修订右侧面" />
+
+右侧说明固定件、刀体与身体的可见遮挡关系，不从该投影推算真实刀长或厚度。
+
+### 背面
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.webp" original="/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.png" alt="Bunny 后腰交叉携行修订背面：两刀保留母版形制，墨黑刀尖被左手遮挡" caption="后腰交叉携行 · 修订背面" />
+
+本图骨白刀的可见端点距约 0.415H0；墨黑刀尖被左手遮挡，完整刀长不可测。实际取点与对齐局限见[尺寸页](/characters/bunny/dimensions#dagger-figure-observations)，母版名义尺寸保持不变。三视仍存在手绘位置差异：侧面白刀尖比背面约高 37 px，柄尾高度残差约 27 px；这些是绘制差异，不作为透视缩短或精确尺寸一致的证明。
+
+<details>
+<summary>此前携行三视 · 刀型漂移历史稿</summary>
+
+以下三图属于此次修订前的携行体系。背面与固定板的刀体轮廓偏离母版，正面露出端与侧面遮挡也需同步；原图保留供回溯，不作为当前形制依据。
+
+## 此前后腰交叉携行三视 {#dagger-waist-carry-history}
+
+两刀在后腰交叉，刀体露出。现已提供正面、右侧与背面三视；名义整长仍以右黑 0.36H0、左白 0.42H0 的尺寸规范为依据。局部固定外观见[结构研究板](/characters/bunny/weapon#dagger-waist-mount-history)，背面可见白刀在外、黑刀在内的交叉关系，右侧补充固定件与刀体位于臀后的层次。
 
 ### 正面
 
@@ -59,7 +86,10 @@ aside: true
 
 <ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png" alt="Bunny 后腰交叉携行完整背面：右黑左骨白，白刀在外层" caption="后腰交叉携行 · 背面" />
 
-本图按可见身体锚点估算，黑刀约 0.352H0、骨白刀约 0.429H0；读数与对齐局限见[尺寸页](/characters/bunny/dimensions#dagger-figure-observations)。名义尺寸仍由母版定义，不把这张人物图称为精确 6:7。
+本图按可见身体锚点估算，黑刀约 0.352H0、骨白刀约 0.429H0；读数与对齐局限见[尺寸页](/characters/bunny/dimensions#dagger-figure-observations-history)。名义尺寸仍由母版定义，不把这张人物图称为精确 6:7。
+
+
+</details>
 
 ## 姿态表情补充 {#armed-expressions}
 
@@ -67,7 +97,7 @@ aside: true
 
 <ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-armed-expressions-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-armed-expressions-v1.png" alt="Bunny 武器姿态表情补充：专注、自信轻笑、放松" caption="姿态表情补充 · 从左至右：专注 / 自信轻笑 / 放松" />
 
-当前已提供持握概念三视和独立三格表情补充；携行三视也已完成。双刀名义尺度见[尺寸口径](/characters/bunny/dimensions#assassin-daggers-dimensions)；姿势投影不改写身体和服装尺寸，动态抽取、活动间隙与 3D 碰撞尚未验证。
+当前已提供持握概念三视和独立三格表情补充；携行三视已按母版刀型修订；三视属于概念近似，不是严格正投影。双刀名义尺度见[尺寸口径](/characters/bunny/dimensions#assassin-daggers-dimensions)；姿势投影不改写身体和服装尺寸，动态抽取、活动间隙与 3D 碰撞尚未验证。
 
 ## 前方案资料
 

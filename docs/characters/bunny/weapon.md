@@ -39,15 +39,28 @@ Bunny 以刺客定位使用两把各具完整造型的匕首：角色右侧是�
 
 ### 刀根短托、回绕束带与穿腰带带耳 {#dagger-waist-mount-structure}
 
-<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png" alt="后腰交叉固定外观研究：护手下短托、柄根回绕束带与穿腰带带耳" caption="后腰固定 · 局部外观结构研究" />
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.webp" original="/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.png" alt="后腰交叉固定外观研究：护手下短托、柄根回绕束带与穿腰带带耳" caption="后腰固定 · 局部外观结构研究" />
 
 薄黑短托包住护手下方的一小段刀根，护手坐在托口上；上方束带回绕柄根，连接到同一承片；闭合带耳让现有裤腰皮带穿过。主图与放大局部说明这三层可见连接。
 
-这张板用于固定外观研究，不是武器本体分件图或尺寸基准。双刀轮廓与比例仍以[正面母版](#assassin-daggers-concept)和[尺寸表](/characters/bunny/dimensions#assassin-daggers-dimensions)为准；持握已有[同姿态概念三视](/characters/bunny/assembled#dagger-held-views)，携行已有[正、右侧、背面三视](/characters/bunny/assembled#dagger-waist-carry-views)；物理承载、抽取动作及动态间隙尚未验证。
+这张板用于固定外观研究，不是武器本体分件图或尺寸基准。双刀轮廓与比例仍以[正面母版](#assassin-daggers-concept)和[尺寸表](/characters/bunny/dimensions#assassin-daggers-dimensions)为准；持握已有[同姿态概念三视](/characters/bunny/assembled#dagger-held-views)，携行修订见[人物视图](/characters/bunny/assembled#dagger-waist-carry-views)；物理承载、抽取动作及动态间隙尚未验证。
 
 连接层次参考 [Taki 授权雕像 · First 4 Figures](https://first4figures.com/collections/soulcalibur-ii-1/products/taki-regular)可见的束环与承片，以及 [Ayane 授权模型 · 海洋堂](https://kaiyodo.co.jp/items/revoltech/nr067/)的包抱束环。这些来源采用有鞘系统，Bunny 的短托与后腰交叉组合是独立外观设计。低位交叉布局另参考 [tsukidal 的非官方 FFXIV 模组](https://www.xivmodarchive.com/modid/93419)，不沿用其中心穿插。
 
-[固定结构原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png) · [携行人物三视](/characters/bunny/assembled#dagger-waist-carry-views) · [裤腰皮带](/characters/bunny/harness#belt-wearing)
+[固定结构原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.png) · [携行人物三视](/characters/bunny/assembled#dagger-waist-carry-views) · [裤腰皮带](/characters/bunny/harness#belt-wearing)
+
+<details>
+<summary>此前固定研究板 · 刀型漂移历史稿</summary>
+
+### 此前后腰固定外观 {#dagger-waist-mount-history}
+
+此稿的刀体轮廓、墨黑护手与握柄偏离母版，已由上方修订稿替代；原件与当时来源完整保留。
+
+<ReleaseImage src="/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.webp" original="/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png" alt="后腰交叉固定外观研究：护手下短托、柄根回绕束带与穿腰带带耳" caption="后腰固定 · 局部外观结构研究" />
+
+[历史原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png)
+
+</details>
 
 ## 参考与提炼 {#dagger-references}
 

@@ -427,16 +427,29 @@ aside: true
 - [尺寸母版 · 并列正面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-scale-master-v1.png)
 - [墨黑匕首 · 独立外观分件 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.png)
 - [骨白匕首 · 独立外观分件 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.png)
-- [后腰固定 · 局部外观结构研究 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png)
+- [后腰固定 · 局部外观结构研究 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.png)
 - [持握 · 动态主视 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-main-v1.png)
 - [持握 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-cel-side-v1.png)
 - [持握 · 背面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-held-cel-back-v1.png)
-- [后腰交叉携行 · 正面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v1.png)
-- [后腰交叉携行 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1.png)
-- [后腰交叉携行 · 背面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png)
+- [后腰交叉携行 · 正面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.png)
+- [后腰交叉携行 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v2.png)
+- [后腰交叉携行 · 背面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.png)
 - [专注 / 自信轻笑 / 放松 · 表情补充 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-armed-expressions-v1.png)
 
 [查看武器设计](/characters/bunny/weapon#assassin-daggers-concept) · [持握与后腰交叉携行](/characters/bunny/assembled)。第三方参考照片只保留官方外链，不放入原图包。
+
+
+<details>
+<summary>此前固定板与携行三视 · 刀型漂移历史原件</summary>
+
+原稿因武器形制偏离母版而修订，原始文件与来源保留。
+
+- [后腰固定 · 局部外观结构研究 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.png)
+- [后腰交叉携行 · 正面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v1.png)
+- [后腰交叉携行 · 右侧面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1.png)
+- [后腰交叉携行 · 背面 · 原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.png)
+
+</details>
 
 <details>
 <summary>此前小尺度异构双刀 · 历史原件</summary>

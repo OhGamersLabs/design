@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "role": "paired-dagger-consistent-rear-waist-mount-study",
+  "publish_slug": "assassin-daggers-waist-mount-structure-v2",
+  "actual_tool_candidate": "mount-consistent-v3",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-native.png",
+    "sha256": "3b410120dec0d90b692c146f5e2ad5c90889bc08722699a527197099043f1fb1"
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-request.json",
+    "sha256": "c7151959fc8bd03ccba65d340f38a72e5095db0305d177f37efb5ecf2b679e3d"
+  },
+  "request_pointer": "/",
+  "actual_tool_parameters": {
+    "prompt": "Make a NEW full redraw of the same rear-waist mounted-dagger concept board in image1. Preserve its successfully restored dagger identities, pure trouser belt, separate short root cradles, straps above the guards, clothes, rear laterality and white-over-dark shallow X. Image2 shows the accepted carrying-angle profiles and correct relative lengths. Image3 is the original assembled master. No local patch collage: a complete new clean anime illustration.\n\nONE MAIN CORRECTION: image1 accidentally makes both daggers nearly equal in total length. Keep the DARK complete dagger and BOTH HILT GROUPS approximately their current absolute sizes. Extend ONLY the IVORY COMPLETE BLADE segment by about20%, so ivory full tip-to-pommel length is about7/6 of dark at common scale. Keep ivory's entire swept blade profile and width character, its upper inner angular shoulder, broad arc, lower waist and red root wedge proportionally coherent while extending; do not just add a thin tail to its point. Keep the narrow blade root seated at the existing guard/cradle. Do NOT enlarge its grip, guard, collar or teardrop pommel. The ivory tip must clearly reach farther down-right than the dark tip reaches down-left. Leave extra white space on the right/bottom or uniformly reduce the whole composition to fit. Never clip the long tip or shorten it to stay inside the hips.\n\nThe weapons must still be the exact recognized objects in image2 and3: DARK broad angular fang with projecting shoulder, deep waist, stepped silver edge, red root wedge, hard asymmetric polygon guard, separate red collar, a few large grip facets, pointed faceted orange-rectangle pommel. IVORY broad swept curve with unmistakable near-tip inner angled shoulder, gray edge, red blade-root wedge, black/ivory crescent guard, separate red collar, curved striped grip and ivory/orange-oval teardrop pommel. No smoothed shoulders, generic slender swords, added caps or changed hilt patterns. Black hilt at screen right, ivory hilt screen left, complete blades and tips visible. White in front at center, dark behind.\n\nMOUNTING from pommel to tip: compact grip, red collar with short wrap on NON-BLADE hilt side, original guard clearly separate, very short thin leather root cradle below guard, then exposed blade. The upper wrap visibly returns behind to the same closed ear threaded by the existing black belt. Do not move this wrap below the guard onto the blade. The cradle must not replace or swallow the guard or blade shoulder. No long sheath or shoulder/leg straps.\n\nBLACK ROOT COLOR CHECK: in image1 its red blade-root wedge is difficult to distinguish from red shorts under the white crossing blade. Add ONE small detached close-up inset of the SAME black root area, same angular guard/large grip facets/collar/wrap/cradle, viewed from a slightly different rear angle so the genuine red wedge bounded within the blade is visible, as in image2/3. Distinguish that blade red wedge from the separate red collar above the guard. No new mechanism, no different guard, no complete additional weapon. Main figure retains its natural center overlap.\n\nClean hand-drawn Japanese 2D cel style with limited hard planes, no grime, fuzzy white spots, noise or labels. No measurements or arrows. The inset is an exterior visibility clarification only.",
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v2-native.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v2-native.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-output.json",
+    "sha256": "b2d63e3c64979dd8a3b9ed80a27c63c8346af48107dfa1ce8ff499e6b9d8c1d6"
+  },
+  "native_output": {
+    "kind": "native-tool-file",
+    "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-8e08d6de-f6c5-4628-a1da-82ab0e44549f.png",
+    "sha256": "3b410120dec0d90b692c146f5e2ad5c90889bc08722699a527197099043f1fb1",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-output.json",
+      "sha256": "b2d63e3c64979dd8a3b9ed80a27c63c8346af48107dfa1ce8ff499e6b9d8c1d6"
+    },
+    "record_note": "Actual native_tool output preserved; copied PNG is byte-exact."
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v2-native.png",
+      "sha256": "dabedeb19ca6ae636ae637560f2bc7b42733441f16c4ff1b6c47ae7e76972a1f",
+      "role": "shape/mount success, total ratio correction target"
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v2-native.png",
+      "sha256": "656073199cb5ef4e78f7084fb93f184966cd4765a3f6701f32639c37531150fd",
+      "role": "accepted orientation/common ratio; not new master"
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+      "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+      "role": "canonical weapon forms and nominal size"
+    }
+  ],
+  "reference_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-references.json",
+    "sha256": "d38bd0702c1153db42b3dc9ca13cecd577f5d8276b5b73723ad62f49dfe6e722"
+  },
+  "reference_basis": "Actual ordered references retain their limited stated roles. Rejected layout/undersized candidates and rotation intermediates are production references only, not accepted final assets; master-v4 remains the canonical shape and nominal dimension authority.",
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-root-acceptance.json",
+    "sha256": "12f4a314e23c8182c37720b13d6053fc147679d2f396a019b144597d7ebc0852"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-root-acceptance.json",
+    "sha256": "12f4a314e23c8182c37720b13d6053fc147679d2f396a019b144597d7ebc0852"
+  },
+  "self_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-self-review.json",
+    "sha256": "471b56ea4af92e2dd094a9dccc9bc0ac22b1dfb69eb26b64aa859a86d55cc2ad"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-handoff.json",
+    "sha256": "0c93b1e7a778905e4b08a24562fe4d5617c8cf6aff57654e07c220e21da2aea7"
+  },
+  "production_chain": [
+    {
+      "candidate": "rotated-daggers-v1",
+      "role": "Rejected length/hilt proportions; recovered separated profiles",
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v1-request.json",
+          "sha256": "683bdbbf2a344f642f9e713d2002cd5dc49bf4c190257305da3e63081fa15a9b"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v1-references.json",
+          "sha256": "87f04fb411b91f38fb16396d82fe80304214d89c2116ff6a433c2ac439e8e3c6"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v1-output.json",
+          "sha256": "4185abf412f6f021103bb14ab15a7397ddca3a3b084fbc800c54b339e8550371"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v1-self-review.json",
+          "sha256": "a37e63460d1b197b38b24d21727282a34c994f82d6b0ddef8d9f86400e8facad"
+        }
+      },
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v1-native.png",
+        "sha256": "6125b0baf8d75c697980660683d924ad9e134eda864d7b2b49f51b43acfe3493"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-21693c33-ecdc-4445-87bf-c10e77d65cb3.png",
+        "sha256": "6125b0baf8d75c697980660683d924ad9e134eda864d7b2b49f51b43acfe3493"
+      },
+      "include_in_current_package": false
+    },
+    {
+      "candidate": "rotated-daggers-v2",
+      "role": "ROOT accepted carrying-angle intermediate, master unchanged",
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v2-request.json",
+          "sha256": "a70425e43cac9693613c56d1c0f75f8216310ab7654bec02953890b3acf839ea"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v2-references.json",
+          "sha256": "2f2ffd1e941e6bafcc92e20f2b816e22648646437e882445fda987b1dc562687"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v2-output.json",
+          "sha256": "ce5bfac51fc1b1b43eb8743ffd8362719b25371726552717298fed2c6b3a701a"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v2-self-review.json",
+          "sha256": "7530df06211aafcbf25224eea6c6dfaf95e37575b97f56c91bb823acf5207d43"
+        }
+      },
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/rotated-daggers-v2-native.png",
+        "sha256": "656073199cb5ef4e78f7084fb93f184966cd4765a3f6701f32639c37531150fd"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-d63ed9a9-0b20-464e-9283-e5e817ee2e63.png",
+        "sha256": "656073199cb5ef4e78f7084fb93f184966cd4765a3f6701f32639c37531150fd"
+      },
+      "include_in_current_package": false
+    },
+    {
+      "candidate": "mount-consistent-v2",
+      "role": "Recovered identities/mount layers; rejected near equal lengths",
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v2-request.json",
+          "sha256": "94b96747f7042a0785357c4202242c9292d4a4611f9f4aa3ac56465aea659a7a"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v2-references.json",
+          "sha256": "2c9e78fce5fae6e87a172986b0656f7ac5ca5fa948aada10d72a7b5c5587d80d"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v2-output.json",
+          "sha256": "819a1cd3461de4a138fea50d971cd94acea058057f527454589a09872f5dad16"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v2-self-review.json",
+          "sha256": "88af2dfba656bae2bc6a665a5f81047baa5455ad0ccb73a582e886e8aecd4912"
+        }
+      },
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v2-native.png",
+        "sha256": "dabedeb19ca6ae636ae637560f2bc7b42733441f16c4ff1b6c47ae7e76972a1f"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-5817cf39-c66d-4db9-a419-076541f69060.png",
+        "sha256": "dabedeb19ca6ae636ae637560f2bc7b42733441f16c4ff1b6c47ae7e76972a1f"
+      },
+      "include_in_current_package": false
+    },
+    {
+      "candidate": "mount-consistent-v3",
+      "role": "ROOT accepted final structure board",
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-request.json",
+          "sha256": "c7151959fc8bd03ccba65d340f38a72e5095db0305d177f37efb5ecf2b679e3d"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-references.json",
+          "sha256": "d38bd0702c1153db42b3dc9ca13cecd577f5d8276b5b73723ad62f49dfe6e722"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-output.json",
+          "sha256": "b2d63e3c64979dd8a3b9ed80a27c63c8346af48107dfa1ce8ff499e6b9d8c1d6"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-self-review.json",
+          "sha256": "471b56ea4af92e2dd094a9dccc9bc0ac22b1dfb69eb26b64aa859a86d55cc2ad"
+        }
+      },
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-native.png",
+        "sha256": "3b410120dec0d90b692c146f5e2ad5c90889bc08722699a527197099043f1fb1"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-8e08d6de-f6c5-4628-a1da-82ab0e44549f.png",
+        "sha256": "3b410120dec0d90b692c146f5e2ad5c90889bc08722699a527197099043f1fb1"
+      },
+      "include_in_current_package": true
+    }
+  ],
+  "review_status": "current-revised-dagger-waist-mount-study",
+  "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+  "limitations": [
+    "Ratio.8359 is observed approximation, not new6:7 target",
+    "Master .360/.420H0 unchanged",
+    "Exterior appearance only, no engineering validation"
+  ],
+  "measurement_scope": "Board appearance ratio is approximate and does not replace canonical .36/.42H0 or master subdivisions."
+}
