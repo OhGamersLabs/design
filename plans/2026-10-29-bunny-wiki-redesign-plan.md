@@ -51,7 +51,7 @@
 
 ## 文件结构
 
-**Claude 写，Codex 不改**
+**Codex 在 Task 0 单独一轮写，Claude 复核并提交后锁定，此后 Codex 不改**
 - `tools/check-site.py`：命令入口，`python3 tools/check-site.py [--dist PATH] [--rules R1,R3,…] [--pages /path …] [--pending /path …]`。
 - `tools/site_check/__init__.py`、`config.py`（站点的固定期望）、`htmlscan.py`（解析构建出的 HTML）、`rules.py`（各条规则）、`node_helper.mjs`（MiniSearch 查询、emoji 判定）、`cli.py`。
 - `tools/site_check/baseline-anchors.json`：`6cd6593` 构建产物里 31 个页面 `.vp-doc` 内的全部 id，共 229 个。
@@ -187,7 +187,7 @@
 
 ---
 
-### Task 0: 站点检查脚本、基线快照与做坏样例（Claude）
+### Task 0: 站点检查脚本、基线快照与做坏样例（Codex 施工第 0 步，Claude 复核后锁定）
 
 **Files:**
 - Create: `tools/check-site.py`、`tools/site_check/{__init__,config,htmlscan,rules,cli}.py`、`tools/site_check/node_helper.mjs`、`tools/site_check/baseline-anchors.json`、`tools/site_check/frozen-hashes.json`
@@ -314,8 +314,8 @@
 - [ ] **Step 6：在改版前的构建上跑一次，确认它能判出现状的问题。**
   - Run：`npm run build && npm run check:site`
   - Expected：退出码 1，至少报出 R3、R4、R7b、R10、R14、D4 的问题。把各规则的条数记到 `/tmp/bunny_wiki/build/task0-baseline.txt`。
-- [ ] **Step 7：交独立复核。** 派一个 opus 子代理，对照设计文档 §4.10、§5 和本节审读检查脚本，只找漏判和误判。改完再进 Task 1。
-- [ ] **Step 8：提交。**
+- [ ] **Step 7：交独立复核。** Claude 重跑 Step 3–6 的命令，核对 Step 2 的样例清单逐条有测试；再派一个 opus 子代理，对照设计文档 §4.10、§5 和本节审读检查脚本，只找漏判和误判。发现的问题交 Codex 改，改完再复核，通过后再进 Task 1。
+- [ ] **Step 8：提交（Claude）。** 提交后这些文件即为受保护文件，后续每个任务验收时用 `git diff --quiet <本提交> -- tools/check-site.py tools/site_check test/check_site_test.py` 确认未被改动。
   ```bash
   git add tools/check-site.py tools/site_check test/check_site_test.py package.json
   git commit -m "test: add site checker for the Bunny wiki redesign"
