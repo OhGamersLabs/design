@@ -121,6 +121,7 @@
   - 「下载」内页：markdown 里每组写 `## <组名> {#<组 id>}`，下面跟 `<DownloadList set="page" group="<组 id>" />`。根元素不带 `id`，`id` 在标题上。这样左侧参考卡的目录（读 `page.headers`）和本地搜索都能看到组名。资料包 ZIP 链接写在第一组之前的正文里。
   - 组 id 一律以 `dl-` 开头，免得和主页章节锚点 `#weapon`、`#downloads` 撞名。
   - 资产项是 `li[data-download-asset="<资产 id>"]`，文件项是 `li[data-download-file="<地址>"]`。
+  - 资产项的缩略图照效果图 A「点缩略图看大图」，按 K1 经 `AssetImage` 渲染：`li[data-download-asset]` 里是 `figure.release-image[data-asset-id]`，大图层分组名 `downloads`，名称是 `figcaption strong`；文件大小和原图链接放在 figure 外。
   - 主页下载段的六组依次是：场景与线稿、完整人物三视、身体与头部、衣层逐层正面、部件结构、武器。资产项合计 26 个。
   - 「下载」内页的七组依次是：场景与线稿、完整人物三视、身体与头部、衣层穿着三视、部件结构与细节、武器、尺寸数据。
   - 主页六组的 id 依次是：`dl-scene-lineart`、`dl-full-figure`、`dl-body-head`、`dl-layers-front`、`dl-parts`、`dl-weapon`。
