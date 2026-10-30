@@ -631,7 +631,8 @@
       "id": "headgear",
       "title": "头部装备",
       "statuses": [
-        "historical-headgear-reference"
+        "historical-headgear-reference",
+        "historical-before-goggles-centring"
       ],
       "items": [
         {
@@ -658,6 +659,11 @@
           "asset": "29-head-equipment-cumulative",
           "date": "—",
           "replacedBy": "护目镜三视"
+        },
+        {
+          "asset": "goggles-v2-belt-only-cel-front-v1",
+          "date": "—",
+          "replacedBy": "居中的护目镜正面"
         }
       ]
     },

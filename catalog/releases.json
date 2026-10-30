@@ -915,6 +915,16 @@
     {
       "character": "bunny",
       "version": "3.1.0",
+      "path": "/media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v2.png",
+      "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-belt-only-cel-front-v2.png",
+      "sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a",
+      "size": 1660860,
+      "contentType": "image/png",
+      "downloadName": "goggles-v2-belt-only-cel-front-v2.png"
+    },
+    {
+      "character": "bunny",
+      "version": "3.1.0",
       "path": "/media/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.png",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/goggles-v2-belt-only-cel-side-v1.png",
       "sha256": "7ff6e681c139c965f52d7757a0703c192caa8878fcf5f84ae97225f82d745390",
@@ -1837,8 +1847,8 @@
       "version": "3.1.0",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "key": "x_ops/design/characters/bunny/releases/3.1.0/bunny-3.1.0-design-reference.zip",
-      "sha256": "a1f4ebb27c22d9bae964304b6308f3badc8d33c716ba16ab8b3c7b4a28666e37",
-      "size": 240582974,
+      "sha256": "6d16d67a6534a2aca9f461c8198385abcd46ad440d23f201b2d8652daa56f44e",
+      "size": 241998429,
       "contentType": "application/zip",
       "downloadName": "bunny-3.1.0-design-reference.zip"
     },

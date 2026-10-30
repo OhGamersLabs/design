@@ -9,6 +9,7 @@ NEW_ASSETS = {
     'sun05-scene-final-v1': ('current-sun05-scene-final',1774,887,'79393ac4c1f18f8e4b247de8e1161d2c'),
     'structure20-lineart-v1': ('current-structure20-lineart',1774,887,'8f420351671682f86654b8322d3005c9'),
     'sun05-pose-structure-v1': ('current-sun05-pose-structure',1536,1024,'9adf75c9c24988c87c19dbf4c5b4aa34'),
+    'goggles-v2-belt-only-cel-front-v2': ('current-goggles-belt-only-front',1024,1536,'b11ce319b3fa9c413ae6fca594170418'),
 }
 HOME_GROUPS = tuple(zip(('dl-scene-lineart','dl-full-figure','dl-body-head','dl-layers-front','dl-parts','dl-weapon'),('场景与线稿','完整人物三视','身体与头部','衣层逐层正面','部件结构','武器')))
 PAGE_GROUPS = tuple(zip(('dl-scene-lineart','dl-full-figure','dl-body-head','dl-layer-views','dl-parts-details','dl-weapon','dl-measurement-data'),('场景与线稿','完整人物三视','身体与头部','衣层穿着三视','部件结构与细节','武器','尺寸数据')))

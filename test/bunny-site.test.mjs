@@ -23,7 +23,7 @@ test('source package follows the manifest download and requires its entry', () =
 
 test('asset index joins manifests, finalized names and thumbnails', () => {
   const index = buildAssetIndex({ manifests, names, thumbs })
-  assert.equal(Object.keys(index).length, 184)
+  assert.equal(Object.keys(index).length, 185)
   assert.equal(index['sun05-scene-final-v1'].web.width, 1774)
   assert.equal(index['sun05-scene-final-v1'].thumb.width, 480)
   assert.equal(index['bunny-original'].collection, 'origins/1.0.0')

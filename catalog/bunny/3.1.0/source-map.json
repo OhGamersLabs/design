@@ -8465,7 +8465,7 @@
     "baseline_sha256": "e6f307ad2c6097c39381b5bc1ddc1b104c9cd8cb56c6df0a93881e31614cffa6",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/goggles-front-v1-native.png",
     "source_artifact_sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
-    "review_status": "current-goggles-belt-only-front",
+    "review_status": "historical-before-goggles-centring",
     "description": "护目镜与裤腰皮带 · 正面",
     "scope": "完整新绘人物，只有一圈黑色裤腰皮带；无肩带、H带、胸下带、垂直上衣连接或金属钩。身体与衣服既定尺寸不变，不给新图移植旧像素读数。",
     "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
@@ -8530,6 +8530,82 @@
     "repository_generation_record": {
       "path": "catalog/bunny/3.1.0/generation-sources/goggles-v2-belt-only-cel-front-v1.json",
       "sha256": "431f233a895cfda0d8f0124d84f9b786d2608f753800034a370809c8528f9699"
+    },
+    "superseded_by": "/characters/bunny/headgear#headgear-wearing"
+  },
+  "bunny/goggles-v2-belt-only-cel-front-v2.png": {
+    "page": "/characters/bunny/headgear#headgear-wearing",
+    "based_on": "/media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
+    "baseline_sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
+    "source_artifact_path": "/Users/roy/.codex/generated_images/01a18ce3-eb78-7c20-8b46-7167d9713dac/exec-0ed62a30-ebef-4ca3-86fd-ea46376aeea4.png",
+    "source_artifact_sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a",
+    "review_status": "current-goggles-belt-only-front",
+    "description": "护目镜与裤腰皮带 · 正面",
+    "scope": "在已通过的正面图上整图编辑：护目镜整体右移约 7 px，鼻梁缺口对准脸中线；人物其余部分、身体与衣服既定尺寸不变。",
+    "method": "built-in image_gen.imagegen whole-image edit of the approved v1 front; byte-exact PNG copy and lossless WebP only",
+    "generation_request": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-request.json",
+      "sha256": "bfadb32319e9619ab5037708c45380841f7766b5766907d6add7f80a74b6f5f9"
+    },
+    "request_pointer": "/arguments",
+    "actual_tool_parameters": {
+      "prompt": "Edit Image 1. Image 2 is Image 1 with a thin green target outline and a dashed magenta face-midline drawn on it; use it only as a map. Never draw the green outline or the magenta line: the result must contain no green and no magenta anywhere.\n\nThe goggles: a white soft-round frame with a black outline; one smoky dark-grey lens with two pale slanted light streaks; on each side a small upright orange buckle on a dark base; from each buckle a flat black elastic band, about one and a half times as wide as an orange buckle, running down and outwards into her hair. They sit pushed up on top of her fringe and are perfectly level. The middle of the frame's bottom edge has an arch-shaped nose-bridge cut-out.\n\nWhat is wrong: the whole goggles sit a few pixels too far to the image-left of her face midline.\n\nThe change: move the whole goggles - frame, lens, both buckles and both band ends - to the image-right as one rigid piece, so that their outline lands exactly on the thin green target outline of Image 2: the white frame's outer edge on the green line all the way round, each orange buckle inside the green outline at its side, each band end inside its green band shape. The green outline is only a few pixels to the right of where the goggles are now. The move is very small: earlier attempts that moved the goggles by a whole buckle width or more went far past the target and look crooked the other way. Do not go past the green outline. When it is right, the middle of the arch-shaped nose-bridge cut-out is on the magenta line.\n\nKeep the goggles themselves identical: same size, same shape, same design, same height (the top of the frame the same distance below the top of her hair, the same strip of fringe showing between the bottom of the frame and her eyebrows), perfectly level, not tilted. The two bands leave the buckles at the same angle as now and disappear into her hair at mirror-image places on the left and right. Where the goggles move away, continue her white hair (pale blue-lavender shading, navy outlines) with the same hair strands as around it; where they move over, they cover hair as they do now. No gaps, white holes or broken lines.\n\nEverything else stays exactly as in Image 1: her face, eyes and gaze, eyebrows, nose, mouth, ears and the rest of her hair; the orange jacket with its black collar and red lining, and the white OG logo on its sleeve pocket exactly as drawn (same letter shapes, the O running into the G, same orientation); the white top; the black waist belt and buckle; the red shorts; on her right hand (image left) the red wrist cuff and the full-finger black glove; on her left hand (image right) the orange wrist device with its small cyan screen and markings exactly as drawn, and the black fingerless glove with orange edges and the round hole on the back of the hand; on her thigh the terminal with its light screen and black arrow mark, the pouch below it, their white round buttons and orange clips; the white sock; the orange thigh-high stocking; both red shoes; every shadow and the plain white background. Same pose, same proportions, same place on the canvas. Same rendering as Image 1: the same Japanese anime cel colouring and the same crisp ink lines (navy-blue on the hair, dark brown-black everywhere else); add no texture, grain, noise, glow, haze or blur anywhere.",
+      "referenced_image_paths": [
+        "/tmp/bunny_goggles/inputs/L8-front-v1.png",
+        "/tmp/bunny_goggles/inputs/map_target_outline.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "kind": "native-tool-file",
+      "path": "/Users/roy/.codex/generated_images/01a18ce3-eb78-7c20-8b46-7167d9713dac/exec-0ed62a30-ebef-4ca3-86fd-ea46376aeea4.png",
+      "sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a",
+      "record": {
+        "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-output.json",
+        "sha256": "36a732ea389571d8a46bab2aa597f1a921dab31657d27bcd710705ee501683cd"
+      },
+      "record_note": "Output metadata retains the actual returned native path; image payload is stored as the byte-exact original, not fabricated as a data URL."
+    },
+    "tool_output_record": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-output.json",
+      "sha256": "36a732ea389571d8a46bab2aa597f1a921dab31657d27bcd710705ee501683cd"
+    },
+    "reference_basis": "Image 1 is the approved v1 front, byte-identical to /media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png. Image 2 is the same image with a thin target outline and the face midline drawn on it, used only as a position map; the result contains neither mark.",
+    "visual_review_record": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/checks.md",
+      "sha256": "f7fd374edff0d945621ee0dc92fe6542dcc56fe6da7ec2dad0c9ba3bfb1ffff4"
+    },
+    "individual_visual_review": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-selection.json",
+      "sha256": "d6dbc5107a7cab1cb0fc287595e103ba61fbeef1306f84a247d9e67901b7cc0d",
+      "source_sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a"
+    },
+    "self_review_record": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/takes/qa_r2.txt",
+      "sha256": "e8f4d1a4340a91978da3ff4768b4f15b3ec4452282100186b727c20cb35782fd",
+      "pointer": "=== r2A_1.png"
+    },
+    "generation_provenance": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-selection.json",
+      "sha256": "d6dbc5107a7cab1cb0fc287595e103ba61fbeef1306f84a247d9e67901b7cc0d"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/inputs/L8-front-v1.png",
+        "sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
+        "actually_viewed": true,
+        "called_as": "/tmp/bunny_goggles/inputs/L8-front-v1.png"
+      },
+      {
+        "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/inputs/map_target_outline.png",
+        "sha256": "169a921bdd3795eb6d4e6b025b69e8a079c0d4e7be39c455476a7527ebe76e37",
+        "actually_viewed": true,
+        "called_as": "/tmp/bunny_goggles/inputs/map_target_outline.png"
+      }
+    ],
+    "repository_generation_record": {
+      "path": "catalog/bunny/3.1.0/generation-sources/goggles-v2-belt-only-cel-front-v2.json",
+      "sha256": "865adda7e2ec01c8d37f9b52d91cb4967d006a3c857edb99fd12ba5b833c3230"
     }
   },
   "bunny/goggles-v2-belt-only-cel-side-v1.png": {

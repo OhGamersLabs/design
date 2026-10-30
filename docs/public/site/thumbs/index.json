@@ -727,6 +727,14 @@
     "sourcePath": "/characters/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.webp",
     "sourceSha256": "bc74a0661d413145701fcdbeaebc9a6f6a4d92b33f40f5895200edb999cf92e7"
   },
+  "bunny/3.1.0/goggles-v2-belt-only-cel-front-v2": {
+    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-belt-only-cel-front-v2.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "98aa0b51a8e583a82976cb1676b43302bd2c19540753b34b3e64073a5c652005",
+    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-belt-only-cel-front-v2.webp",
+    "sourceSha256": "e012df1d89645b7d2a2d5ebabf65e2b8d6b080c891d936b64cfca70c03ee96e7"
+  },
   "bunny/3.1.0/goggles-v2-belt-only-cel-side-v1": {
     "path": "/site/thumbs/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.webp",
     "width": 480,

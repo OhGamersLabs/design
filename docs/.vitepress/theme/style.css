@@ -233,7 +233,7 @@
 .bunny-changelog__change .release-image__trigger { padding: 0; }
 .bunny-changelog__change .release-image__trigger img { width: 64px; height: 36px; object-fit: cover; }
 .bunny-changelog [data-asset-id="belt-v2-only-cel-front-v1"] img { object-position: 50% 38%; }
-.bunny-changelog [data-asset-id="goggles-v2-belt-only-cel-front-v1"] img { object-position: 50% 0; }
+.bunny-changelog [data-asset-id="goggles-v2-belt-only-cel-front-v2"] img { object-position: 50% 0; }
 .bunny-changelog__change .release-image__caption, .bunny-changelog__change .release-image__hint { display: none; }
 .bunny-page .bunny-changelog__change p { display: inline; margin: 0; font-weight: 600; line-height: inherit; }
 .bunny-changelog__reason { color: var(--bunny-ink-3); }

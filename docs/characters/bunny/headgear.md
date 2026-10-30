@@ -20,7 +20,7 @@ aside: false
 
 <div class="bunny-body-views">
 
-<AssetImage id="goggles-v2-belt-only-cel-front-v1" group="layer-8" caption="正面" />
+<AssetImage id="goggles-v2-belt-only-cel-front-v2" group="layer-8" caption="正面" />
 
 <AssetImage id="goggles-v2-belt-only-cel-side-v1" group="layer-8" caption="角色右侧面" />
 
