@@ -2,41 +2,53 @@
 import { computed, ref } from 'vue'
 import { withBase } from 'vitepress'
 import ReleaseImage from './ReleaseImage.vue'
-import { formatNumber, measurementModel } from './body-measurements.mjs'
+import { formatNumber } from './body-measurements.mjs'
+import { data as siteData } from '../../data/bunny-site.data.mjs'
+import { bodyMeasurementScope, createDisplayTextLookup, selectMeasurementSource } from '../bunny-site.mjs'
 
-const props = defineProps({ data: { type: Object, required: true } })
-const selected = ref('front')
-const views = computed(() => Object.keys(props.data.views).map((id) => measurementModel(props.data, id)))
-const current = computed(() => measurementModel(props.data, selected.value))
+const props = defineProps({
+  data: { type: Object, required: true },
+  scope: { type: String, default: 'current' },
+})
+const display = createDisplayTextLookup(siteData.displayText)
+const scoped = computed(() => bodyMeasurementScope(props.data, siteData.assets, props.scope))
+const selected = ref('')
+const views = computed(() => scoped.value.models)
+const current = computed(() => selectMeasurementSource(views.value, selected.value, scoped.value.defaultSourceId))
+function viewLabel(id) {
+  const label = siteData.displayText['@labels'][`body.${id}`]
+  if (!label) throw new Error(`Missing body view label: ${id}`)
+  return label
+}
 // Reserve the existing SVG's full canvas before its lazy image loads.
 const rulerHeight = computed(() => current.value.source.height + 245 + Math.ceil(current.value.rows.filter((row) => typeof row.px === 'number').length / 3) * 35)
 </script>
 
 <template>
-  <section class="body-measurements" aria-label="当前身体工作稿图面尺寸">
+  <section v-if="views.length" class="body-measurements" :aria-label="scope === 'archive' ? '历史身体图面尺寸' : '身体图面尺寸'">
     <div class="body-measurements__views" role="group" aria-label="选择测量视角">
-      <button v-for="view in views" :key="view.id" type="button" :aria-pressed="selected === view.id" @click="selected = view.id">{{ view.label }}</button>
+      <button v-for="view in views" :key="view.id" type="button" :aria-pressed="current.id === view.id" @click="selected = view.id">{{ viewLabel(view.id) }}</button>
     </div>
     <div class="body-measurements__summary" aria-live="polite">
-      <strong>{{ current.label }}：H = {{ formatNumber(current.H, 1) }} px</strong>
+      <strong>{{ viewLabel(current.id) }}：H = {{ formatNumber(current.H, 1) }} px</strong>
       <span v-if="current.headCount !== null">含发头身比 ≈ {{ formatNumber(current.headCount, 1) }} 头</span>
       <span v-if="current.widthRatio">肩 : 腰 : 胯 ≈ {{ current.widthRatio }}</span>
     </div>
     <div class="body-measurements__layout">
       <div class="body-measurements__figure">
-        <ReleaseImage :src="current.resources.ruler" :original="current.resources.ruler" :width="current.source.width" :height="rulerHeight" :alt="`${current.label}图面尺寸标尺`" :caption="`${current.label}标尺 · 可放大或查看原始尺寸`" />
+        <ReleaseImage :src="current.resources.ruler" :original="current.resources.ruler" :width="current.source.width" :height="rulerHeight" :alt="`${viewLabel(current.id)}图面尺寸标尺`" :caption="`${viewLabel(current.id)}标尺 · 可放大或查看原始尺寸`" />
         <div class="body-measurements__downloads">
-          <a :href="withBase(current.resources.ruler)" download>下载{{ current.label }}标尺 SVG</a>
+          <a :href="withBase(current.resources.ruler)" download>下载{{ viewLabel(current.id) }}标尺 SVG</a>
           <a :href="withBase(current.resources.original)" target="_blank" rel="noopener noreferrer">查看原始人物 PNG ↗</a>
         </div>
       </div>
       <div class="body-measurements__readings">
         <table>
-          <caption>{{ current.label }}图面读数</caption>
+          <caption>{{ viewLabel(current.id) }}图面读数</caption>
           <thead><tr><th scope="col">指标</th><th scope="col">像素</th><th scope="col">占 H</th></tr></thead>
           <tbody>
             <tr v-for="row in current.rows" :key="row.id">
-              <th scope="row"><span class="body-measurements__symbol">{{ row.symbol }}</span>{{ row.label }}</th>
+              <th scope="row"><span class="body-measurements__symbol">{{ display(row.symbol) }}</span>{{ display(row.label) }}</th>
               <td>{{ formatNumber(row.px, 1) }}</td>
               <td>{{ row.ratio === null ? '—' : formatNumber(row.ratio, 3) }}</td>
             </tr>
@@ -44,8 +56,8 @@ const rulerHeight = computed(() => current.value.source.height + 245 + Math.ceil
         </table>
         <dl>
           <template v-for="row in current.rows" :key="row.id">
-            <dt>{{ row.symbol }} · {{ row.label }} <span>{{ row.status }}</span></dt>
-            <dd>{{ row.px === null ? row.reason : row.definition }}<small v-if="row.px !== null">{{ row.coordinates }}<span v-if="row.uncertainty"> · {{ row.uncertainty }}</span><span v-if="row.endpointNotes"> · {{ row.endpointNotes }}</span></small></dd>
+            <dt>{{ display(row.symbol) }} · {{ display(row.label) }} <span>{{ display(row.status) }}</span></dt>
+            <dd>{{ display(row.px === null ? row.reason : row.definition) }}<small v-if="row.px !== null">{{ display(row.coordinates) }}<span v-if="row.uncertainty"> · {{ display(row.uncertainty) }}</span><span v-if="row.endpointNotes"> · {{ display(row.endpointNotes) }}</span></small></dd>
           </template>
         </dl>
       </div>

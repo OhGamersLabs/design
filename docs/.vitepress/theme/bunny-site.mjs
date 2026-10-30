@@ -1,4 +1,6 @@
 import { READING_ORDER } from '../bunny-navigation.mjs'
+import { measurementModel } from './components/body-measurements.mjs'
+import { garmentModel } from './components/garment-measurements.mjs'
 
 /** @typedef {import('./bunny-site-types').AssetRecord} AssetRecord */
 /** @typedef {import('./bunny-site-types').ChangeRecord} ChangeRecord */
@@ -89,4 +91,76 @@ export function readingNeighbors(path) {
 /** @param {number} index @param {number} delta @param {number} count @returns {number} */
 export function stepIndex(index, delta, count) {
   return Math.max(0, Math.min(index + delta, count - 1))
+}
+
+
+/**
+ * One exact display-text lookup shared by measurement files. Labels remain a
+ * separate namespace so a view name cannot accidentally rewrite JSON content.
+ * @param {Record<string, Record<string, string>>} displayText
+ */
+export function createDisplayTextLookup(displayText) {
+  const translations = new Map()
+  for (const [file, entries] of Object.entries(displayText)) {
+    if (file === '@labels') continue
+    for (const [original, displayed] of Object.entries(entries)) {
+      if (translations.has(original) && translations.get(original) !== displayed) {
+        throw new Error(`Conflicting display text: ${original}`)
+      }
+      translations.set(original, displayed)
+    }
+  }
+  return (value) => translations.has(value) ? translations.get(value) : value
+}
+
+/** @param {string} scope */
+function validateMeasurementScope(scope) {
+  if (scope !== 'current' && scope !== 'archive') throw new Error(`Invalid measurement scope: ${scope}`)
+}
+
+/** @param {string} web @returns {string} */
+function measurementAssetId(web) {
+  const basename = web.split('/').at(-1)
+  if (!basename?.endsWith('.webp')) throw new Error(`Invalid measurement web resource: ${web}`)
+  return basename.slice(0, -'.webp'.length)
+}
+
+function scopedMeasurementModels(models, assets, scope) {
+  return models.map((model) => {
+    const assetId = measurementAssetId(model.resources.web)
+    const asset = assetById(assets, assetId)
+    return { model: { ...model, assetId }, current: asset.status?.startsWith('current-') ?? false }
+  }).filter((entry) => entry.current === (scope === 'current')).map(({ model }) => model)
+}
+
+/** Select only views whose web asset belongs to the requested status scope. */
+export function bodyMeasurementScope(data, assets, scope = 'current') {
+  validateMeasurementScope(scope)
+  const models = scopedMeasurementModels(Object.keys(data.views).map((id) => measurementModel(data, id)), assets, scope)
+  return { models, defaultSourceId: models[0]?.id }
+}
+
+/**
+ * Build against the complete data so a derived row retains its exact reference,
+ * then filter sources and the metric selector using the scoped rows.
+ */
+export function garmentMeasurementScope(data, assets, scope = 'current') {
+  validateMeasurementScope(scope)
+  const models = scopedMeasurementModels(Object.keys(data.sources).map((id) => garmentModel(data, id)), assets, scope)
+  const available = new Set(models.flatMap((model) => [...model.rows, ...model.derived].map(({ id }) => id)))
+  const metrics = Object.entries(data.metrics).filter(([id]) => available.has(id)).map(([id, metric]) => ({ id, ...metric }))
+  const hasRulers = models.some((model) => Boolean(model.resources.ruler))
+  const selectable = hasRulers ? models.filter((m) => m.resources.ruler) : models
+  const defaultSourceId = selectMeasurementSource(selectable, '', data.defaultSourceId)?.id
+  return { models, metrics, defaultSourceId, defaultMetricId: metrics[0]?.id, hasRulers }
+}
+
+/** Keep a selection only while it remains in scope; otherwise use the default. */
+export function selectMeasurementSource(models, selectedId, defaultSourceId) {
+  return models.find(({ id }) => id === selectedId) ?? models.find(({ id }) => id === defaultSourceId) ?? models[0]
+}
+
+/** Metric options and their fallback follow the order in the measurement JSON. */
+export function selectMeasurementMetric(metrics, selectedId) {
+  return metrics.find(({ id }) => id === selectedId)?.id ?? metrics[0]?.id
 }

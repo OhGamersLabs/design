@@ -3,7 +3,9 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { parsePackage } from '../docs/.vitepress/data/bunny-data.mjs'
 import {
-  assetById, buildAssetIndex, readingNeighbors, resolveAnchorTarget,
+  assetById, bodyMeasurementScope, buildAssetIndex, createDisplayTextLookup,
+  garmentMeasurementScope, readingNeighbors, resolveAnchorTarget,
+  selectMeasurementMetric, selectMeasurementSource,
   selectLatest, shouldRedirectForHash, stepIndex,
 } from '../docs/.vitepress/theme/bunny-site.mjs'
 
@@ -89,4 +91,117 @@ test('reading neighbors follow layer order and stop at both ends', () => {
   assert.equal(readingNeighbors('/characters/bunny/index.html').prev, null)
   assert.equal(readingNeighbors('/characters/bunny/downloads').next, null)
   assert.deepEqual(readingNeighbors('/missing'), { prev: null, next: null })
+})
+
+
+const assets = buildAssetIndex({ manifests, names, thumbs })
+const bodyMeasurements = json('../catalog/bunny/3.1.0/body-measurements.json')
+const freshCelMeasurements = json('../catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json')
+const sportsMeasurements = json('../catalog/bunny/3.1.0/body-measurements-sports-v1.json')
+const garmentMeasurements = json('../catalog/bunny/3.1.0/garment-measurements.json')
+
+test('body scope follows the web asset status and defaults to its first view', () => {
+  const current = bodyMeasurementScope(bodyMeasurements, assets)
+  assert.deepEqual(current.models.map(({ id }) => id), ['front', 'side', 'back'])
+  assert.equal(current.defaultSourceId, 'front')
+  const empty = bodyMeasurementScope(bodyMeasurements, assets, 'archive')
+  assert.deepEqual(empty.models, [])
+  assert.equal(empty.defaultSourceId, undefined)
+  assert.equal(selectMeasurementSource(empty.models, 'front', empty.defaultSourceId), undefined)
+
+  const freshCurrent = bodyMeasurementScope(freshCelMeasurements, assets, 'current')
+  assert.deepEqual(freshCurrent.models.map(({ id }) => id), ['side', 'back'])
+  assert.equal(freshCurrent.defaultSourceId, 'side')
+  assert.equal(selectMeasurementSource(freshCurrent.models, 'front', freshCurrent.defaultSourceId).id, 'side')
+  assert.equal(selectMeasurementSource(freshCurrent.models, 'back', freshCurrent.defaultSourceId).id, 'back')
+  const freshArchive = bodyMeasurementScope(freshCelMeasurements, assets, 'archive')
+  assert.deepEqual(freshArchive.models.map(({ id }) => id), ['front'])
+  assert.equal(freshArchive.defaultSourceId, 'front')
+})
+
+test('body scope uses the frozen model resource defaults when no resources are supplied', () => {
+  const archive = bodyMeasurementScope(sportsMeasurements, assets, 'archive')
+  assert.deepEqual(archive.models.map(({ assetId }) => assetId), [
+    'body-v2-full-front-v1', 'body-v2-full-side-v1', 'body-v2-full-back-v1',
+  ])
+  assert.deepEqual(bodyMeasurementScope(sportsMeasurements, assets, 'current').models, [])
+})
+
+test('garment scopes preserve model order, available metrics and scoped source defaults', () => {
+  const current = garmentMeasurementScope(garmentMeasurements, assets)
+  const archive = garmentMeasurementScope(garmentMeasurements, assets, 'archive')
+  assert.equal(current.models.length, 18)
+  assert.equal(current.models.filter(({ resources }) => resources.ruler).length, 6)
+  assert.equal(current.hasRulers, true)
+  assert.equal(current.defaultSourceId, garmentMeasurements.defaultSourceId)
+  assert.equal(current.defaultMetricId, 'topLength')
+  assert.equal(archive.models.length, 16)
+  assert.equal(archive.models.filter(({ resources }) => resources.ruler).length, 0)
+  assert.equal(archive.hasRulers, false)
+  assert.equal(archive.defaultSourceId, archive.models[0].id)
+  assert.equal(archive.defaultMetricId, 'topHemAboveWaist')
+  const comparisonRows = archive.models.flatMap((model) => [...model.rows, ...model.derived])
+    .filter(({ id }) => id === archive.defaultMetricId)
+  assert.equal(comparisonRows.length, 16)
+  assert.equal(selectMeasurementMetric(archive.metrics, 'topLength'), 'topHemAboveWaist')
+  assert.equal(selectMeasurementMetric(current.metrics, 'topLength'), 'topLength')
+  assert.equal(selectMeasurementMetric([], 'topLength'), undefined)
+  assert.equal(selectMeasurementSource(current.models, 'missing', current.defaultSourceId).id, current.defaultSourceId)
+  for (const scoped of [current, archive]) {
+    const available = new Set(scoped.models.flatMap((model) => [...model.rows, ...model.derived].map(({ id }) => id)))
+    assert.deepEqual(scoped.metrics.map(({ id }) => id), Object.keys(garmentMeasurements.metrics).filter((id) => available.has(id)))
+  }
+  const changedDefault = { ...garmentMeasurements, defaultSourceId: archive.models[1].id }
+  assert.equal(garmentMeasurementScope(changedDefault, assets, 'archive').defaultSourceId, archive.models[1].id)
+})
+
+test('garment current scope falls back to a ruler source when the preferred source has no ruler', () => {
+  const data = { ...garmentMeasurements, defaultSourceId: 'hosiery-front' }
+  const current = garmentMeasurementScope(data, assets, 'current')
+  assert.equal(current.models.some((model) => model.id === 'hosiery-front' && !model.resources.ruler), true)
+  assert.equal(current.defaultSourceId, 'innerwear-front')
+  assert.ok(current.models.find((model) => model.id === current.defaultSourceId).resources.ruler)
+})
+
+test('garment metric selector includes a metric available only through a derived row', () => {
+  const data = structuredClone(garmentMeasurements)
+  for (const source of Object.values(data.sources)) {
+    source.measurements = source.measurements.filter(({ metricId }) => metricId !== 'jacketRightOffset')
+  }
+  const before = structuredClone(data)
+  const scoped = garmentMeasurementScope(data, assets)
+  assert.equal(scoped.models.some((model) => model.rows.some(({ id }) => id === 'jacketRightOffset')), false)
+  assert.equal(scoped.models.some((model) => model.derived.some(({ id }) => id === 'jacketRightOffset')), true)
+  assert.equal(scoped.metrics.some(({ id }) => id === 'jacketRightOffset'), true)
+  assert.deepEqual(data, before)
+})
+
+test('measurement scopes reject unknown assets and invalid scopes, including empty sources', () => {
+  const unknownBody = structuredClone(bodyMeasurements)
+  unknownBody.views.front.resources.web = '/characters/bunny/3.1.0/unknown-body.webp'
+  assert.throws(() => bodyMeasurementScope(unknownBody, assets, 'archive'), /Unknown asset id: unknown-body/)
+  const unknownGarment = structuredClone(garmentMeasurements)
+  unknownGarment.sources[Object.keys(unknownGarment.sources)[0]].resources.web = '/characters/bunny/3.1.0/unknown-garment.webp'
+  assert.throws(() => garmentMeasurementScope(unknownGarment, assets, 'archive'), /Unknown asset id: unknown-garment/)
+  for (const scope of ['', 'all', null]) {
+    assert.throws(() => bodyMeasurementScope({ views: {} }, assets, scope), /Invalid measurement scope/)
+    assert.throws(() => garmentMeasurementScope({ sources: {} }, assets, scope), /Invalid measurement scope/)
+  }
+})
+
+test('display text matches whole strings globally and ignores view-label entries', () => {
+  const display = createDisplayTextLookup({
+    first: { '旧读数': '图面读数', shared: 'same' },
+    second: { other: 'other display', shared: 'same' },
+    '@labels': { 'body.side': '角色右侧面', shared: 'not the shared display' },
+  })
+  assert.equal(display('旧读数'), '图面读数')
+  assert.equal(display('前缀旧读数'), '前缀旧读数')
+  assert.equal(display('旧读数后缀'), '旧读数后缀')
+  assert.equal(display('other'), 'other display')
+  assert.equal(display('shared'), 'same')
+  assert.equal(display('body.side'), 'body.side')
+  assert.equal(display(undefined), undefined)
+  assert.equal(display(null), null)
+  assert.throws(() => createDisplayTextLookup({ first: { shared: 'one' }, second: { shared: 'two' } }), /Conflicting display text: shared/)
 })

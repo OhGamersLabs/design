@@ -628,8 +628,6 @@ Bunny 的职业定位改为刺客，武器改用两把同款短匕首。前掠�
 
 ##### 历史武器资料
 
-[此前锯外观与收纳](/characters/bunny/archive#archive-saw)和[旧锯尺寸图](/characters/bunny/archive#archive-saw)保留原件与网址，供回溯设计变化。
-
 独立实体分件图尚未产出；本页资料用于说明整棍外观、静态握持与手持随行关系。
 
 ### 黑曜石大剑 {#archive-obsidian-sword}
@@ -749,6 +747,8 @@ Bunny 的职业定位改为刺客，武器改用两把同款短匕首。前掠�
 
 [历史三视测量 JSON](/catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json) · [正面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-front-v1.svg) · [侧面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-side-v1.svg) · [背面标尺 SVG](/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-back-v1.svg)
 
+<BodyMeasurements :data="freshCelV1" scope="archive" />
+
 ### 完整新绘前 · 基础文胸 {#old-basic-bra}
 
 #### 完整新绘前 · 基础文胸尺寸 {#basic-bra-body-measurements}
@@ -758,6 +758,8 @@ Bunny 的职业定位改为刺客，武器改用两把同款短匕首。前掠�
 这些读数对应[完整新绘前的基础文胸三视](/characters/bunny/archive#old-basic-bra)，保留原图、坐标与标尺，不套用到本轮全新人物。
 
 [历史测量记录 JSON](/catalog/bunny/3.1.0/body-measurements-basic-bra-v1.json) · [正面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-front-v1.svg) · [侧面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-side-v1.svg) · [背面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-basic-bra-measurements-back-v1.svg)
+
+<BodyMeasurements :data="basicBraV1" scope="archive" />
 
 #### 完整新绘前后对照 {#basic-bra-comparison}
 
@@ -780,6 +782,8 @@ Bunny 的职业定位改为刺客，武器改用两把同款短匕首。前掠�
 旧读数与标尺对应[此前运动款三视](/characters/bunny/archive#old-sports)，其中衣物胸宽不能用于当前基础文胸。原数据与标尺均保留。
 
 [运动款测量记录 JSON](/catalog/bunny/3.1.0/body-measurements-sports-v1.json) · [正面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-front.svg) · [侧面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-side.svg) · [背面旧标尺 SVG](/characters/bunny/3.1.0/body-v2-measurements-back.svg)
+
+<BodyMeasurements :data="sportsV1" scope="archive" />
 
 ### 原01 {#old-original-01}
 
@@ -815,6 +819,8 @@ H 为基模图的冠顶参考线到赤脚地面线：1900 px。不是含兔耳�
 
 [此前服装测量完整快照 JSON](/catalog/bunny/3.1.0/garment-measurements-before-base-aligned-v1.json) · [此前夹克正面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-front.svg) · [此前夹克右侧面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-side.svg) · [此前夹克背面标尺 SVG](/characters/bunny/3.1.0/garment-measurements-jacket-highlow-back.svg)
 
+<GarmentMeasurements :data="garments" scope="archive" />
+
 ### v2 比例对照 {#old-v2-comparisons}
 
 #### 形体局部修订至当前稿对照 {#v2-style-comparison}
@@ -846,6 +852,12 @@ H 为基模图的冠顶参考线到赤脚地面线：1900 px。不是含兔耳�
 </div>
 
 <script setup>
+import BodyMeasurements from '../../.vitepress/theme/components/BodyMeasurements.vue'
+import GarmentMeasurements from '../../.vitepress/theme/components/GarmentMeasurements.vue'
+import freshCelV1 from '../../../catalog/bunny/3.1.0/body-measurements-fresh-cel-v1.json'
+import basicBraV1 from '../../../catalog/bunny/3.1.0/body-measurements-basic-bra-v1.json'
+import sportsV1 from '../../../catalog/bunny/3.1.0/body-measurements-sports-v1.json'
+import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
 import comparison from './body-comparison.json'
 import styleComparison from './body-style-comparison.json'
 import braComparison from './body-bra-comparison.json'
