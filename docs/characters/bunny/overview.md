@@ -1,9 +1,7 @@
 ---
-title: "历史章节入口"
+layout: BunnyPage
+bunny: stub
+search: false
+sidebar: false
+aside: false
 ---
-
-# 历史章节入口
-
-此旧版章节已由当前设计替代。
-
-[阅读 Bunny · 角色设计](/characters/bunny/)
