@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 180,
+  "asset_count": 185,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -50,7 +50,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/01-body-baseline.png",
         "page": "https://design.ohgamers.org/characters/bunny/body-base",
-        "baseline_sha256": "269961a0cc7fd65b33b87e27946f6966d030348a4f61da204bab4a63be9fdbe3"
+        "baseline_sha256": "269961a0cc7fd65b33b87e27946f6966d030348a4f61da204bab4a63be9fdbe3",
+        "review_status": "historical-body-baseline"
       },
       "original": {
         "path": "/media/bunny/3.1.0/01-body-baseline.png",
@@ -80,7 +81,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/02-identity-style.png",
         "page": "https://design.ohgamers.org/characters/bunny/face",
-        "baseline_sha256": "af914d5a15c9bc54d2338f03295e7cca1c83ddb98f12618ed35cf9bbc6e503f6"
+        "baseline_sha256": "af914d5a15c9bc54d2338f03295e7cca1c83ddb98f12618ed35cf9bbc6e503f6",
+        "review_status": "historical-identity-style"
       },
       "original": {
         "path": "/media/bunny/3.1.0/02-identity-style.png",
@@ -336,7 +338,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/10-hand-wearing.png",
         "page": "https://design.ohgamers.org/characters/bunny/hands",
-        "baseline_sha256": "98ae5a65bfeb74a3dcc99ff6f9085f60ea0bc8a62fdf53317e539ea0b1ac59ca"
+        "baseline_sha256": "98ae5a65bfeb74a3dcc99ff6f9085f60ea0bc8a62fdf53317e539ea0b1ac59ca",
+        "review_status": "historical-hand-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/10-hand-wearing.png",
@@ -366,7 +369,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/11-glove-views.png",
         "page": "https://design.ohgamers.org/characters/bunny/hands",
-        "baseline_sha256": "485f93e85081d486aa85596acc67253f52c4b6ed713957c726af3497e6e036c1"
+        "baseline_sha256": "485f93e85081d486aa85596acc67253f52c4b6ed713957c726af3497e6e036c1",
+        "review_status": "historical-glove-views"
       },
       "original": {
         "path": "/media/bunny/3.1.0/11-glove-views.png",
@@ -396,7 +400,8 @@
         "kind": "revised-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/12-wrist-accessories.png",
         "page": "https://design.ohgamers.org/characters/bunny/hands",
-        "baseline_sha256": "e30c2efa45773c45086ac314bd051f9c0708ef9cfffcbbd5065288a0734e5a32"
+        "baseline_sha256": "e30c2efa45773c45086ac314bd051f9c0708ef9cfffcbbd5065288a0734e5a32",
+        "review_status": "historical-wrist-accessories"
       },
       "original": {
         "path": "/media/bunny/3.1.0/12-wrist-accessories.png",
@@ -426,7 +431,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/13-hands-cumulative-threeview.png",
         "page": "https://design.ohgamers.org/characters/bunny/hands",
-        "baseline_sha256": "b84c28969570be5dd0023567b19f8264c520ed76ba9fb937cc3105b20cdde798"
+        "baseline_sha256": "b84c28969570be5dd0023567b19f8264c520ed76ba9fb937cc3105b20cdde798",
+        "review_status": "historical-hands-cumulative-threeview"
       },
       "original": {
         "path": "/media/bunny/3.1.0/13-hands-cumulative-threeview.png",
@@ -456,7 +462,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/14-thigh-wearing.png",
         "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
-        "baseline_sha256": "ec54023618d4651c051192a9848b8f59f9a3fd14494a685db38feca813fdbc7f"
+        "baseline_sha256": "ec54023618d4651c051192a9848b8f59f9a3fd14494a685db38feca813fdbc7f",
+        "review_status": "historical-thigh-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/14-thigh-wearing.png",
@@ -486,7 +493,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/15-task-terminal.png",
         "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
-        "baseline_sha256": "7502812c3ac7336bab3224a66b5a65da208e6a6ebb649fa04f658ee04e62618b"
+        "baseline_sha256": "7502812c3ac7336bab3224a66b5a65da208e6a6ebb649fa04f658ee04e62618b",
+        "review_status": "historical-task-terminal"
       },
       "original": {
         "path": "/media/bunny/3.1.0/15-task-terminal.png",
@@ -516,7 +524,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/16-maintenance-pouch.png",
         "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
-        "baseline_sha256": "35380d86e00e678de157f607ba2db803cc61c7dc50184172d59931fa178f7a37"
+        "baseline_sha256": "35380d86e00e678de157f607ba2db803cc61c7dc50184172d59931fa178f7a37",
+        "review_status": "historical-maintenance-pouch"
       },
       "original": {
         "path": "/media/bunny/3.1.0/16-maintenance-pouch.png",
@@ -546,7 +555,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/17-thigh-cumulative-threeview.png",
         "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
-        "baseline_sha256": "6ba13cac1d7fc894acf568e23410898dd460f58c834c48a66fe3c263df169df8"
+        "baseline_sha256": "6ba13cac1d7fc894acf568e23410898dd460f58c834c48a66fe3c263df169df8",
+        "review_status": "historical-thigh-cumulative-threeview"
       },
       "original": {
         "path": "/media/bunny/3.1.0/17-thigh-cumulative-threeview.png",
@@ -741,7 +751,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/23-jacket-components.png",
         "page": "https://design.ohgamers.org/characters/bunny/jacket",
-        "baseline_sha256": "696f176054ee58f2689533ed7623201a017bfa185da61d630cf95f6994128829"
+        "baseline_sha256": "696f176054ee58f2689533ed7623201a017bfa185da61d630cf95f6994128829",
+        "review_status": "historical-jacket-components"
       },
       "original": {
         "path": "/media/bunny/3.1.0/23-jacket-components.png",
@@ -771,7 +782,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/24-jacket-details.png",
         "page": "https://design.ohgamers.org/characters/bunny/visual-language",
-        "baseline_sha256": "e902ae0caa771acb9ca9a0ee64cd35750800867d3d022ee0761394ee80b794e9"
+        "baseline_sha256": "e902ae0caa771acb9ca9a0ee64cd35750800867d3d022ee0761394ee80b794e9",
+        "review_status": "historical-jacket-details"
       },
       "original": {
         "path": "/media/bunny/3.1.0/24-jacket-details.png",
@@ -1062,7 +1074,8 @@
       "version": "3.1.0",
       "title": "34-cuff-mechanism",
       "source": {
-        "kind": "local-design-revision"
+        "kind": "local-design-revision",
+        "review_status": "historical-cuff-mechanism"
       },
       "original": {
         "path": "/media/bunny/3.1.0/34-cuff-mechanism.png",
@@ -1089,7 +1102,8 @@
       "version": "3.1.0",
       "title": "35-lacing-thigh-motion",
       "source": {
-        "kind": "local-design-revision"
+        "kind": "local-design-revision",
+        "review_status": "historical-lacing-thigh-motion"
       },
       "original": {
         "path": "/media/bunny/3.1.0/35-lacing-thigh-motion.png",
@@ -1450,7 +1464,7 @@
         "source_artifact_sha256": "6cb17c5f40c2e329b5df12796bd68eea9e0bcd4ba2e7d0a5d688660ee12eb176",
         "description": "双持姿势方案 A · 低位错步蓄势；右黑正握、左白反握，供比较，尚未选定主姿势。",
         "scope": "No new H0 registration or weapon-length/thickness observation. Canonical dagger and body/garment measurements unchanged.",
-        "review_status": "accepted-comparison-pose-proposal-a-user-selection-pending",
+        "review_status": "historical-dual-grip-pose-a-before-sun05",
         "user_pose_selection": "not-yet-selected",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
         "generation_request": {
@@ -1566,7 +1580,7 @@
         "source_artifact_sha256": "05354d3e06f546dc4238ffa4bfc6c329bbbe6096c2f00aa0a873d6f6493e607d",
         "description": "双持姿势方案 B · 侧身回看；右黑正握、左白反握，供比较，尚未选定主姿势。",
         "scope": "No new H0 registration or weapon-length/thickness observation. Canonical dagger and body/garment measurements unchanged.",
-        "review_status": "accepted-comparison-pose-proposal-b-user-selection-pending",
+        "review_status": "historical-dual-grip-pose-b-before-sun05",
         "user_pose_selection": "not-yet-selected",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
         "generation_request": {
@@ -2777,7 +2791,7 @@
         "source_artifact_sha256": "d74fc40cea9b07f1fd13d62eeb4fdee54ef03d27077c9b7e9e8b57daf3fd1129",
         "description": "双匕首后腰交叉携行 · 同刀型修订正面",
         "scope": "Concept multi-view appearance only. No front/side H0 registration or full weapon-length/thickness observation; hidden points remain null. Side white-tip height differs from back by about37px and pommels by about27px: drawing residuals, not perspective-based dimension proof.",
-        "review_status": "current-revised-dagger-waist-carry-front",
+        "review_status": "historical-before-goggles-centring",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
         "generation_request": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/front-side/carry-front-consistent-v3-request.json",
@@ -2863,7 +2877,8 @@
         "repository_generation_record": {
           "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-waist-carry-cel-front-v2.json",
           "sha256": "c28c6c74ab50cd5278e03151b8efffda9b0a3e185b3d749d044adfd0a93c717d"
-        }
+        },
+        "superseded_by": "/characters/bunny/weapon#carry"
       },
       "original": {
         "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.png",
@@ -2881,6 +2896,106 @@
         "height": 1536,
         "bytes": 799350,
         "sha256": "1c77d199cba6ac4f8492da2201e33ccce53941da07694332741510f17577e78b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-waist-carry-cel-front-v3",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-waist-carry-cel-front-v3",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/weapon#carry",
+        "based_on": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.png",
+        "baseline_sha256": "d74fc40cea9b07f1fd13d62eeb4fdee54ef03d27077c9b7e9e8b57daf3fd1129",
+        "source_artifact_path": "/Users/roy/.codex/generated_images/01a18d39-e584-7c83-902a-b6a165f2fba1/exec-29d0736e-2739-4ac2-ac74-439820186e38.png",
+        "source_artifact_sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2",
+        "review_status": "current-revised-dagger-waist-carry-front",
+        "description": "双匕首后腰交叉携行 · 护目镜居中正面",
+        "scope": "在已通过的 v2 正面图上整图编辑：护目镜整体右移约 8 px，护目镜连同两段镜带的整体轮廓对准脸中线；人物其余部分、两把匕首、身体与衣服既定尺寸不变。",
+        "method": "built-in image_gen.imagegen whole-image edit of the approved v2 front; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-request.json",
+          "sha256": "63c85b0ba8b5a434a0097b62ab0f5854ebcc2c2656007d2b1bd04d354b9e3609"
+        },
+        "request_pointer": "/arguments",
+        "actual_tool_parameters": {
+          "prompt": "Edit Image 1. Image 2 is Image 1 with a thin green target outline and a dashed magenta face-midline drawn on it; use it only as a map. Never draw the green outline or the magenta line: the result must contain no green and no magenta anywhere.\n\nThe goggles: a white soft-round frame with a black outline; one smoky dark-grey lens with two pale slanted light streaks; on each side a small upright orange buckle on a dark base; from each buckle a flat black elastic band, about one and a half times as wide as an orange buckle, running down and outwards into her hair. They sit pushed up on top of her fringe and are perfectly level. The middle of the frame's bottom edge has an arch-shaped nose-bridge cut-out.\n\nWhat is wrong: the whole goggles sit a few pixels too far to the image-left of her face midline.\n\nThe change: move the whole goggles - frame, lens, both buckles and both band ends - to the image-right as one rigid piece, so that their outline lands exactly on the thin green target outline of Image 2: the white frame's outer edge on the green line all the way round, each orange buckle inside the green outline at its side, each band end inside its green band shape. Both band ends move with the goggles: the image-left band ends where its green band shape ends, not where it ends now. The green outline is only a few pixels to the right of where the goggles are now. The move is very small: earlier attempts that moved the goggles by a whole buckle width or more went far past the target and look crooked the other way. Do not go past the green outline. When it is right, the middle of the arch-shaped nose-bridge cut-out is on the magenta line.\n\nKeep the goggles themselves identical: same size, same shape, same design, same height (the top of the frame the same distance below the top of her hair, the same strip of fringe showing between the bottom of the frame and her eyebrows), perfectly level, not tilted. The two bands leave the buckles at the same angle as now and disappear into her hair at mirror-image places on the left and right. Where the goggles move away, continue her white hair (pale blue-lavender shading, navy outlines) with the same hair strands as around it; where they move over, they cover hair as they do now. No gaps, white holes or broken lines.\n\nEverything else stays exactly as in Image 1: her face, eyes and gaze, eyebrows, nose, mouth, ears and the rest of her hair; the orange cropped jacket with its black collar and red lining, and the white OG logo on its sleeve pocket exactly as drawn (same letter shapes, the O running into the G, same orientation); the white top with its keyhole cut-out; the black waist belt and buckle; the red shorts; on her right hand (image left) the red wrist cuff and the full-finger black glove; on her left hand (image right) the orange wrist device with its small screen and markings exactly as drawn, and the black fingerless glove with orange edges and the round hole on the back of the hand; on her thigh the terminal with its light screen and black arrow mark, the pouch below it, their white round buttons and orange clips; the two daggers exactly as drawn - on the image left the broad pale steel blade pointing down and outwards from behind her right thigh, on the image right the dark curved blade with its silver edge pointing down past her left hand's fingers - same blade shapes, same angles, same colours, same lengths; the white sock; the orange thigh-high stocking; both red shoes; every shadow and the plain white background. Same pose, same proportions, same place on the canvas. Same rendering as Image 1: the same Japanese anime cel colouring and the same crisp ink lines (navy-blue on the hair, dark brown-black everywhere else); add no texture, grain, noise, glow, haze or blur anywhere.",
+          "referenced_image_paths": [
+            "/tmp/bunny_dagger_goggles/inputs/DGF-v2.png",
+            "/tmp/bunny_dagger_goggles/inputs/map_D3.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a18d39-e584-7c83-902a-b6a165f2fba1/exec-29d0736e-2739-4ac2-ac74-439820186e38.png",
+          "sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2",
+          "record": {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-output.json",
+            "sha256": "14b507edfd6a656dffa98a1aa6abd5672c967c1c7a2bee12bdc3e1557c6dee23"
+          },
+          "record_note": "Output metadata retains the actual returned native path; image payload is stored as the byte-exact original, not fabricated as a data URL."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-output.json",
+          "sha256": "14b507edfd6a656dffa98a1aa6abd5672c967c1c7a2bee12bdc3e1557c6dee23"
+        },
+        "reference_basis": "Image 1 is the approved v2 front, byte-identical to /media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.png. Image 2 is the same image with a thin target outline (the goggles outline moved 3 px to image-right) and the face midline drawn on it, used only as a position map; the result contains neither mark.",
+        "visual_review_record": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/checks.md",
+          "sha256": "d897b5fab7d61955734fbaf809198f3246b80080b38140edc33abe6731056f12"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-selection.json",
+          "sha256": "ba8893ef23f86ebf9aa9eab4d5fce0c45132c8e2334acf4f7af31a4e8a8c0233",
+          "source_sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/takes/qa_r2A.txt",
+          "sha256": "1884e9f08c38fc479a6e41104b0b91eafe26105ea4e40394944c4ed22019244e",
+          "pointer": "=== r2A_1.png"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-selection.json",
+          "sha256": "ba8893ef23f86ebf9aa9eab4d5fce0c45132c8e2334acf4f7af31a4e8a8c0233"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/inputs/DGF-v2.png",
+            "sha256": "d74fc40cea9b07f1fd13d62eeb4fdee54ef03d27077c9b7e9e8b57daf3fd1129",
+            "actually_viewed": true,
+            "called_as": "/tmp/bunny_dagger_goggles/inputs/DGF-v2.png"
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/inputs/map_D3.png",
+            "sha256": "83705b43954c5ffab9efc7eccc7823e504313f01a52e2df024aedb4d50b002be",
+            "actually_viewed": true,
+            "called_as": "/tmp/bunny_dagger_goggles/inputs/map_D3.png"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-waist-carry-cel-front-v3.json",
+          "sha256": "436fa01f9a7214872129198f00bcf3d6487be7f6bd40eec7a2b528ac58683a15"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1675343,
+        "sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 979542,
+        "sha256": "3a8edcdbb3d50164283661d7a97c248c85c7975911c4ed2a2a85c2cad3afcc00",
         "alpha": false
       }
     },
@@ -5071,7 +5186,7 @@
         "kind": "revised-reference",
         "baseline_sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
         "based_on": "/media/bunny/3.1.0/body-v2-proportion-reference.png",
-        "review_status": "local-body-revision",
+        "review_status": "historical-body-local-revision",
         "description": "本轮二维基础体修订稿；修整胸部衣物连接、侧背臀部包转，保留v2腰腿比例与纤细体型。",
         "scope": "未同步穿戴层及尺寸；原01与旧尺寸保留为沿革资料。"
       },
@@ -5103,7 +5218,7 @@
         "kind": "recovered-reference",
         "baseline_sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
         "reference_role": "selected-proportion-foundation",
-        "review_status": "local-reference",
+        "review_status": "historical-body-proportion-reference",
         "description": "用户认可的v2原色纤细比例底子；用于本轮二维基础体局部修订对照。"
       },
       "original": {
@@ -5134,7 +5249,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/dimension-01-character-dimension-standard.png",
         "page": "https://design.ohgamers.org/characters/bunny/body-base",
-        "baseline_sha256": "e9e84fc9905865f2bc20877921e8059ac24aa6271c50c167bf71ad9971be0f13"
+        "baseline_sha256": "e9e84fc9905865f2bc20877921e8059ac24aa6271c50c167bf71ad9971be0f13",
+        "review_status": "historical-character-dimension-standard"
       },
       "original": {
         "path": "/media/bunny/3.1.0/dimension-01-character-dimension-standard.png",
@@ -5164,7 +5280,8 @@
         "kind": "recovered-reference",
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/dimension-02-weapon-dimension-standard.png",
         "page": "https://design.ohgamers.org/characters/bunny/weapon-history",
-        "baseline_sha256": "c8df9152a55a702b45b391654a6eee3cf0aaa8a78ee5ae542ac77303839fe2f6"
+        "baseline_sha256": "c8df9152a55a702b45b391654a6eee3cf0aaa8a78ee5ae542ac77303839fe2f6",
+        "review_status": "historical-saw-dimension-standard"
       },
       "original": {
         "path": "/media/bunny/3.1.0/dimension-02-weapon-dimension-standard.png",
@@ -6231,7 +6348,7 @@
         "baseline_sha256": "e6f307ad2c6097c39381b5bc1ddc1b104c9cd8cb56c6df0a93881e31614cffa6",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/goggles-front-v1-native.png",
         "source_artifact_sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
-        "review_status": "current-goggles-belt-only-front",
+        "review_status": "historical-before-goggles-centring",
         "description": "护目镜与裤腰皮带 · 正面",
         "scope": "完整新绘人物，只有一圈黑色裤腰皮带；无肩带、H带、胸下带、垂直上衣连接或金属钩。身体与衣服既定尺寸不变，不给新图移植旧像素读数。",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
@@ -6296,7 +6413,8 @@
         "repository_generation_record": {
           "path": "catalog/bunny/3.1.0/generation-sources/goggles-v2-belt-only-cel-front-v1.json",
           "sha256": "431f233a895cfda0d8f0124d84f9b786d2608f753800034a370809c8528f9699"
-        }
+        },
+        "superseded_by": "/characters/bunny/headgear#headgear-wearing"
       },
       "original": {
         "path": "/media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
@@ -6314,6 +6432,106 @@
         "height": 1536,
         "bytes": 927032,
         "sha256": "bc74a0661d413145701fcdbeaebc9a6f6a4d92b33f40f5895200edb999cf92e7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-v2-belt-only-cel-front-v2",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "goggles-v2-belt-only-cel-front-v2",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/headgear#headgear-wearing",
+        "based_on": "/media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png",
+        "baseline_sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
+        "source_artifact_path": "/Users/roy/.codex/generated_images/01a18ce3-eb78-7c20-8b46-7167d9713dac/exec-0ed62a30-ebef-4ca3-86fd-ea46376aeea4.png",
+        "source_artifact_sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a",
+        "review_status": "current-goggles-belt-only-front",
+        "description": "护目镜与裤腰皮带 · 正面",
+        "scope": "在已通过的正面图上整图编辑：护目镜整体右移约 7 px，鼻梁缺口对准脸中线；人物其余部分、身体与衣服既定尺寸不变。",
+        "method": "built-in image_gen.imagegen whole-image edit of the approved v1 front; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-request.json",
+          "sha256": "bfadb32319e9619ab5037708c45380841f7766b5766907d6add7f80a74b6f5f9"
+        },
+        "request_pointer": "/arguments",
+        "actual_tool_parameters": {
+          "prompt": "Edit Image 1. Image 2 is Image 1 with a thin green target outline and a dashed magenta face-midline drawn on it; use it only as a map. Never draw the green outline or the magenta line: the result must contain no green and no magenta anywhere.\n\nThe goggles: a white soft-round frame with a black outline; one smoky dark-grey lens with two pale slanted light streaks; on each side a small upright orange buckle on a dark base; from each buckle a flat black elastic band, about one and a half times as wide as an orange buckle, running down and outwards into her hair. They sit pushed up on top of her fringe and are perfectly level. The middle of the frame's bottom edge has an arch-shaped nose-bridge cut-out.\n\nWhat is wrong: the whole goggles sit a few pixels too far to the image-left of her face midline.\n\nThe change: move the whole goggles - frame, lens, both buckles and both band ends - to the image-right as one rigid piece, so that their outline lands exactly on the thin green target outline of Image 2: the white frame's outer edge on the green line all the way round, each orange buckle inside the green outline at its side, each band end inside its green band shape. The green outline is only a few pixels to the right of where the goggles are now. The move is very small: earlier attempts that moved the goggles by a whole buckle width or more went far past the target and look crooked the other way. Do not go past the green outline. When it is right, the middle of the arch-shaped nose-bridge cut-out is on the magenta line.\n\nKeep the goggles themselves identical: same size, same shape, same design, same height (the top of the frame the same distance below the top of her hair, the same strip of fringe showing between the bottom of the frame and her eyebrows), perfectly level, not tilted. The two bands leave the buckles at the same angle as now and disappear into her hair at mirror-image places on the left and right. Where the goggles move away, continue her white hair (pale blue-lavender shading, navy outlines) with the same hair strands as around it; where they move over, they cover hair as they do now. No gaps, white holes or broken lines.\n\nEverything else stays exactly as in Image 1: her face, eyes and gaze, eyebrows, nose, mouth, ears and the rest of her hair; the orange jacket with its black collar and red lining, and the white OG logo on its sleeve pocket exactly as drawn (same letter shapes, the O running into the G, same orientation); the white top; the black waist belt and buckle; the red shorts; on her right hand (image left) the red wrist cuff and the full-finger black glove; on her left hand (image right) the orange wrist device with its small cyan screen and markings exactly as drawn, and the black fingerless glove with orange edges and the round hole on the back of the hand; on her thigh the terminal with its light screen and black arrow mark, the pouch below it, their white round buttons and orange clips; the white sock; the orange thigh-high stocking; both red shoes; every shadow and the plain white background. Same pose, same proportions, same place on the canvas. Same rendering as Image 1: the same Japanese anime cel colouring and the same crisp ink lines (navy-blue on the hair, dark brown-black everywhere else); add no texture, grain, noise, glow, haze or blur anywhere.",
+          "referenced_image_paths": [
+            "/tmp/bunny_goggles/inputs/L8-front-v1.png",
+            "/tmp/bunny_goggles/inputs/map_target_outline.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a18ce3-eb78-7c20-8b46-7167d9713dac/exec-0ed62a30-ebef-4ca3-86fd-ea46376aeea4.png",
+          "sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a",
+          "record": {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-output.json",
+            "sha256": "36a732ea389571d8a46bab2aa597f1a921dab31657d27bcd710705ee501683cd"
+          },
+          "record_note": "Output metadata retains the actual returned native path; image payload is stored as the byte-exact original, not fabricated as a data URL."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-output.json",
+          "sha256": "36a732ea389571d8a46bab2aa597f1a921dab31657d27bcd710705ee501683cd"
+        },
+        "reference_basis": "Image 1 is the approved v1 front, byte-identical to /media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png. Image 2 is the same image with a thin target outline and the face midline drawn on it, used only as a position map; the result contains neither mark.",
+        "visual_review_record": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/checks.md",
+          "sha256": "f7fd374edff0d945621ee0dc92fe6542dcc56fe6da7ec2dad0c9ba3bfb1ffff4"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-selection.json",
+          "sha256": "d6dbc5107a7cab1cb0fc287595e103ba61fbeef1306f84a247d9e67901b7cc0d",
+          "source_sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/takes/qa_r2.txt",
+          "sha256": "e8f4d1a4340a91978da3ff4768b4f15b3ec4452282100186b727c20cb35782fd",
+          "pointer": "=== r2A_1.png"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/release/goggles-front-v2-selection.json",
+          "sha256": "d6dbc5107a7cab1cb0fc287595e103ba61fbeef1306f84a247d9e67901b7cc0d"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/inputs/L8-front-v1.png",
+            "sha256": "1b083b7676f21d9848d37b641780389e753459f5358e5af0c2d17918d7202bb7",
+            "actually_viewed": true,
+            "called_as": "/tmp/bunny_goggles/inputs/L8-front-v1.png"
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-goggles-front-20261030/inputs/map_target_outline.png",
+            "sha256": "169a921bdd3795eb6d4e6b025b69e8a079c0d4e7be39c455476a7527ebe76e37",
+            "actually_viewed": true,
+            "called_as": "/tmp/bunny_goggles/inputs/map_target_outline.png"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/goggles-v2-belt-only-cel-front-v2.json",
+          "sha256": "865adda7e2ec01c8d37f9b52d91cb4967d006a3c857edb99fd12ba5b833c3230"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v2.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1660860,
+        "sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/goggles-v2-belt-only-cel-front-v2.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 996224,
+        "sha256": "e012df1d89645b7d2a2d5ebabf65e2b8d6b080c891d936b64cfca70c03ee96e7",
         "alpha": false
       }
     },
@@ -13140,7 +13358,8 @@
       "version": "3.1.0",
       "title": "outfit-pose-current",
       "source": {
-        "kind": "local-design-revision"
+        "kind": "local-design-revision",
+        "review_status": "historical-outfit-pose"
       },
       "original": {
         "path": "/media/bunny/3.1.0/outfit-pose-current.png",
@@ -13171,7 +13390,8 @@
         "url": "https://design.ohgamers.org/media/bunny/3.0.0/recovered-expressions-2.1.png",
         "page": "https://design.ohgamers.org/characters/bunny/expressions",
         "baseline_sha256": "b08c8ce3ab4ca714762a2210c7ca4b9b9fceaa122d09b378c47dd0216ecc8be8",
-        "historical_design_version": "2.1"
+        "historical_design_version": "2.1",
+        "review_status": "historical-recovered-expressions"
       },
       "original": {
         "path": "/media/bunny/3.1.0/recovered-expressions-2.1.png",
@@ -13294,7 +13514,7 @@
         "based_on": "/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/red-shorts-construction-hip-fit-v3.png",
         "source_artifact_sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
-        "review_status": "local-layer1-hip-fit-construction-reference",
+        "review_status": "current-layer1-hip-fit-construction-reference",
         "method": "builtin imagegen; output copied byte-for-byte",
         "description": "红色短裤 · 臀部布面修订后的成衣三视与部件接合位置示意，1536×1024原尺寸PNG。",
         "scope": "仅修订红色短裤侧、背视的布面体积表达及对应结构示意；基模、图面尺寸、正面穿着、白色上衣结构板保持。其余衣层与装备未同步。 下排为部件与成衣接合位置示意，部分保留已装构件作位置对照，不是完整爆炸图、缝制顺序或裁剪纸样。",
@@ -14027,6 +14247,99 @@
         "height": 1536,
         "bytes": 908536,
         "sha256": "4fa5a1a03818b7f7b2cb2bf50e6fc38182016549685a7b65e11b1dfe6592eb20",
+        "alpha": false
+      }
+    },
+    {
+      "id": "structure20-lineart-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "structure20-lineart-v1",
+      "source": {
+        "kind": "local-design-revision",
+        "review_status": "current-structure20-lineart",
+        "description": "STRUCTURE20 线稿。",
+        "source_artifact_path": "/Users/roy/Developments/x_ops/output/bunny-og-pocket-20261028/STRUCTURE20.png",
+        "source_artifact_md5": "8f420351671682f86654b8322d3005c9"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/structure20-lineart-v1.png",
+        "mime_type": "image/png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1436115,
+        "sha256": "5d57cdcffa8d22e1948059d03cc32cb08e9526de3eed0eaaf9e17a3bbdcc5c5f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/structure20-lineart-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1774,
+        "height": 887,
+        "bytes": 99396,
+        "sha256": "e70a14293fa49442fcfdc8b75325890bd50b98278bb42a3ca4307f296f5a99ad",
+        "alpha": false
+      }
+    },
+    {
+      "id": "sun05-pose-structure-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "sun05-pose-structure-v1",
+      "source": {
+        "kind": "local-design-revision",
+        "review_status": "current-sun05-pose-structure",
+        "description": "SUN-05 人体结构稿，手中为占位杆。",
+        "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-sunraku-structure-20261028/native/SUN-05-structure.png",
+        "source_artifact_md5": "9adf75c9c24988c87c19dbf4c5b4aa34"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/sun05-pose-structure-v1.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1312057,
+        "sha256": "cb02a60b101c3668252059e68204902d0b2fe3b704d82b40c77b28ca55a05755",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/sun05-pose-structure-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 46976,
+        "sha256": "a8008bb770572f7e585470612f59aba747614a81cac64b188f14377a51078bec",
+        "alpha": false
+      }
+    },
+    {
+      "id": "sun05-scene-final-v1",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "sun05-scene-final-v1",
+      "source": {
+        "kind": "local-design-revision",
+        "review_status": "current-sun05-scene-final",
+        "description": "SUN-05 张臂前冲场景图定稿，在巨树枝干上向镜头冲刺。",
+        "source_artifact_path": "/Users/roy/Developments/x_ops/output/bunny-sun05-scene-20261028/SUN05-scene-final.png",
+        "source_artifact_md5": "79393ac4c1f18f8e4b247de8e1161d2c"
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/sun05-scene-final-v1.png",
+        "mime_type": "image/png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2651366,
+        "sha256": "cfb89d59ec0f9ca6b04d7f987a9371d4be0c5d28e2b83095dbd76dffa65d061a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/sun05-scene-final-v1.webp",
+        "mime_type": "image/webp",
+        "width": 1774,
+        "height": 887,
+        "bytes": 381858,
+        "sha256": "ecdcf0420309fee3ed41528b2aa93b1a30245f6346b1bab60e5ab3a06548a746",
         "alpha": false
       }
     },
@@ -14830,7 +15143,7 @@
         "based_on": "/media/bunny/3.1.0/04-white-top-construction.png",
         "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/white-top-construction-v1.png",
         "source_artifact_sha256": "d949df8f7e088623bc4429a15a2a12e71712b2f1cf7291e73bf2707c9e57e890",
-        "review_status": "local-layer1-construction-reference",
+        "review_status": "current-layer1-construction-reference",
         "method": "builtin imagegen; original native output byte-identical copy; no local alteration",
         "description": "白色上衣 · 成衣正侧背与部件接合位置示意，1536×1024原尺寸PNG。",
         "scope": "对应本轮三张穿着稿；下排为部件与成衣接合位置示意，部分保留已装构件作位置对照，不是完整爆炸图、缝制顺序或裁剪纸样。",
@@ -14914,8 +15227,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 235477683,
-      "sha256": "f8523dfb0c97a1baf1a0480edf9dd9eedcb4846c4eea6bff49ac894a3d1083f2"
+      "bytes": 243414421,
+      "sha256": "0804f60740ef44a53c565c3f2990b86acfec33eefc54d3d564522496d9bdced2"
     }
   ]
 }

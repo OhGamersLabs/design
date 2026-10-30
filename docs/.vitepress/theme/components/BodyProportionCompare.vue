@@ -1,9 +1,12 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { withBase } from 'vitepress'
 
+type HeadingLevel = 2 | 3 | 4 | 5 | 6
 type View = { label: string; centerX: number; crownY: number; floorY: number; src?: string; width?: number }
 type Source = { label: string; src: string; width: number; views: View[] }
-const props = defineProps<{ previous: Source; candidate: Source }>()
+const props = withDefaults(defineProps<{ previous: Source; candidate: Source; headingLevel?: HeadingLevel }>(), { headingLevel: 3 })
+const headingTag = computed(() => `h${props.headingLevel}`)
 const frameRatio = 0.4
 const imagePadding = 0.02
 const frameStyle = {
@@ -28,7 +31,7 @@ function imageStyle(source: Source, view: View) {
     <p class="body-comparison__note">以图面冠顶与赤脚地面统一显示高度；等比缩放与平移，不改变原图身体宽窄。对齐点为图面近似位置，不是骨骼测量。</p>
     <div class="body-comparison__views">
       <section v-for="(view, index) in previous.views" :key="view.label" class="body-comparison__view" :aria-label="view.label">
-        <h3>{{ view.label }}</h3>
+        <component :is="headingTag" class="body-comparison__heading">{{ view.label }}</component>
         <div class="body-comparison__pair">
           <figure v-for="source in [props.previous, props.candidate]" :key="source.src">
             <figcaption>{{ source.label }}</figcaption>
@@ -45,7 +48,7 @@ function imageStyle(source: Source, view: View) {
 <style scoped>
 .body-comparison__note { color: var(--vp-c-text-2); font-size: 13px; line-height: 1.7; }
 .body-comparison__views { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
-.body-comparison__view h3 { margin: 16px 0 10px; font-size: 16px; text-align: center; }
+.body-comparison__heading { margin: 16px 0 10px; font-size: 16px; text-align: center; }
 .body-comparison__pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
 .body-comparison figure { min-width: 0; margin: 0; }
 .body-comparison figcaption { min-height: 36px; color: var(--vp-c-text-2); font-size: 12px; text-align: center; line-height: 1.5; }
