@@ -1,66 +1,46 @@
 ---
-title: "头部装备"
-releaseReady: false
-aside: true
+layout: BunnyPage
+bunny: layer
+layer: 8
+title: 护目镜
+sidebar: false
+aside: false
 ---
-# 头部装备
+# 护目镜 {.bunny-sr-only}
 
-当前头装只保留护目镜，取消耳机、兔耳配饰和独立头箍。护目镜采用柔圆白框、烟灰镜片、小橙侧扣与一条绕后脑的细黑弹性镜带。默认抬至额头佩戴，露出眼睛、鼻子和嘴部。
+<span id="头部装备"></span>
 
-本层在[裤腰皮带层](/characters/bunny/harness#belt-wearing)加入护目镜；白色内搭与橙色夹克之间不再穿吊带。四格头部近景与护目镜独立结构保持原件，完整人物三视已采用无吊带方案。武器另见[异构双匕首与固定尺寸](/characters/bunny/weapon#assassin-daggers-concept)，人物姿态分为[持握与后腰交叉携行](/characters/bunny/assembled)两组。
+## 穿着三视 {#wearing}
 
-## 累计穿戴三视 {#headgear-wearing}
+<span id="headgear-wearing"></span>
 
-### 正面
+<span id="正面"></span>
+<span id="右侧面"></span>
+<span id="背面"></span>
 
-<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.webp" original="/media/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.png" alt="护目镜与裤腰皮带 · 无吊带 · 正面" caption="护目镜与裤腰皮带 · 无吊带 · 正面" />
+<div class="bunny-body-views">
 
-### 右侧面
+<AssetImage id="goggles-v2-belt-only-cel-front-v1" group="layer-8" caption="正面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.webp" original="/media/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.png" alt="护目镜与裤腰皮带 · 无吊带 · 右侧面" caption="护目镜与裤腰皮带 · 无吊带 · 右侧面" />
+<AssetImage id="goggles-v2-belt-only-cel-side-v1" group="layer-8" caption="角色右侧面" />
 
-### 背面
+<AssetImage id="goggles-v2-belt-only-cel-back-v1" group="layer-8" caption="背面" />
 
-<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.webp" original="/media/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png" alt="护目镜与裤腰皮带 · 无吊带 · 背面" caption="护目镜与裤腰皮带 · 无吊带 · 背面" />
+</div>
 
-<details>
-<summary>此前含吊带的护目镜累计三视 · 历史方案</summary>
+头部只有护目镜。护目镜采用柔圆白框、烟灰镜片、小橙侧扣与一条绕后脑的细黑弹性镜带。默认抬至额头佩戴，露出眼睛、鼻子和嘴部。
 
-以下人物保留当时的胸下带、垂直连接和金属钩，已不作为当前腰部装备依据。
+穿着三视中，上身为白色内搭与橙色夹克，裤腰只有一条黑色皮带。
 
-## 此前护目镜累计人物 {#headgear-before-belt-wearing}
+人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
 
-### 正面
+[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
-<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-only-cel-front-v2.webp" original="/media/bunny/3.1.0/goggles-v2-only-cel-front-v2.png" alt="完整新绘 · 仅护目镜 · 额头佩戴 · 正面" caption="v2 · 仅护目镜 · 正面" />
+## 分件结构 {#construction}
 
-### 右侧面
+<span id="headgear-goggles"></span>
 
-<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-only-cel-side-v1.webp" original="/media/bunny/3.1.0/goggles-v2-only-cel-side-v1.png" alt="完整新绘 · 仅护目镜 · 额头佩戴 · 右侧面" caption="v2 · 仅护目镜 · 右侧面" />
-
-### 背面
-
-<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-only-cel-back-v1.webp" original="/media/bunny/3.1.0/goggles-v2-only-cel-back-v1.png" alt="完整新绘 · 仅护目镜 · 额头佩戴 · 背面" caption="v2 · 仅护目镜 · 背面" />
-
-
-</details>
-
-## 头部穿戴近景 {#headgear-closeup}
-
-额头佩戴与眼前佩戴是手动调整后的两个位置，不是铰链翻转或机械展开。镜带随护目镜的位置贴合头部，头发与耳部按实际遮挡显示。
-
-<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-only-wearing-closeup-v2.webp" original="/media/bunny/3.1.0/goggles-v2-only-wearing-closeup-v2.png" alt="仅护目镜 · 四格头部穿戴近景" caption="v2 · 护目镜穿戴近景" />
-
-| 图中标记 | 中文说明 |
-| --- | --- |
-| FRONT RAISED | 正面，护目镜抬至额头，双眼露出。 |
-| RIGHT SIDE RAISED | 右侧面，侧扣连接一条绕后脑的镜带。 |
-| BACK RAISED | 背面，后脑只有镜带，部分由头发遮挡。 |
-| FRONT LOWERED | 正面，镜片置于眼前，鼻子与嘴部仍露出。 |
-
-## 护目镜独立结构 {#headgear-goggles}
-
-<ReleaseImage src="/characters/bunny/3.1.0/goggles-v2-only-components-v1.webp" original="/media/bunny/3.1.0/goggles-v2-only-components-v1.png" alt="仅护目镜 · 独立结构与拆解" caption="v2 · 护目镜独立结构与拆解" />
+<AssetImage id="goggles-v2-only-components-v1" group="layer-8" />
 
 | 图中标记 | 中文说明 |
 | --- | --- |
@@ -68,38 +48,24 @@ aside: true
 | 01 | 一片连续烟灰镜片。 |
 | 02 | 白色镜框，拆出状态不含镜片。 |
 | 03 | 深色软垫环，贴合面部的一侧。 |
-| 04 | 一条细黑弹性镜带，两端连接左右侧扣。 |
-| 05、06 | 左右两侧橙色连接／调节件，各含深色底座。 |
+| 04 | 一条细黑弹性镜带，两端连接角色左侧与角色右侧的侧扣。 |
+| 05、06 | 角色左侧与角色右侧的橙色连接／调节件，各含深色底座。 |
 
-下排展示六个部件；没有额外头箍、后脑扣或铰链结构。
+下排展示六个部件；没有额外后脑扣或铰链结构。
 
-结构板说明部件外观、连接与佩戴关系，不作为生产尺寸或新的身体测量基准。人物既有比例继续参照[身体与服装尺寸](/characters/bunny/dimensions)。
+结构板说明部件外观、连接与佩戴关系，不作为生产尺寸或新的身体测量基准。
 
-## 此前头部装备资料
+## 细节 {#details}
 
-<details>
-<summary>原25—29 · 已取消耳机和兔耳的旧头装方案</summary>
+<span id="headgear-closeup"></span>
 
-旧图保留原件与网址作沿革参考，其中的耳机、兔耳配饰和独立头箍已取消；旧护目镜与累计造型也不代替上方当前方案。
+<AssetImage id="goggles-v2-only-wearing-closeup-v2" group="layer-8" />
 
-## 头部装备累计衣层
+额头佩戴与眼前佩戴是手动调整后的两个位置，不是铰链翻转或机械展开。镜带随护目镜的位置贴合头部，头发与耳部按实际遮挡显示。
 
-<ReleaseImage src="/characters/bunny/3.1.0/29-head-equipment-cumulative.webp" original="/media/bunny/3.1.0/29-head-equipment-cumulative.png" alt="头部装备累计衣层" caption="头部装备累计衣层" />
-
-## 头部装备穿戴
-
-<ReleaseImage src="/characters/bunny/3.1.0/25-head-equipment-wearing.webp" original="/media/bunny/3.1.0/25-head-equipment-wearing.png" alt="头部装备穿戴" caption="头部装备穿戴" />
-
-## 护目镜独立结构
-
-<ReleaseImage src="/characters/bunny/3.1.0/26-goggles-components.webp" original="/media/bunny/3.1.0/26-goggles-components.png" alt="护目镜独立结构" caption="护目镜独立结构" />
-
-## 耳机独立结构
-
-<ReleaseImage src="/characters/bunny/3.1.0/27-headphones-components.webp" original="/media/bunny/3.1.0/27-headphones-components.png" alt="耳机独立结构" caption="耳机独立结构" />
-
-## 兔耳配饰结构
-
-<ReleaseImage src="/characters/bunny/3.1.0/28-ear-accessories-components.webp" original="/media/bunny/3.1.0/28-ear-accessories-components.png" alt="兔耳配饰结构" caption="兔耳配饰结构" />
-
-</details>
+| 图中标记 | 中文说明 |
+| --- | --- |
+| FRONT RAISED | 正面，护目镜抬至额头，双眼露出。 |
+| RIGHT SIDE RAISED | 角色右侧面，侧扣连接一条绕后脑的镜带。 |
+| BACK RAISED | 背面，后脑只有镜带，部分由头发遮挡。 |
+| FRONT LOWERED | 正面，镜片置于眼前，鼻子与嘴部仍露出。 |
