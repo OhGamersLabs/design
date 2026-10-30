@@ -31,6 +31,7 @@ const asset = computed(() => {
     :thumb-height="useThumb ? asset.thumb.height : undefined"
     :alt="asset.name"
     :caption="caption ?? asset.name"
+    :lightbox-caption="asset.name"
     :detail="detail"
     :group="group"
     :asset-id="id"

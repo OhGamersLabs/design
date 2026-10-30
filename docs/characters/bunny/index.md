@@ -1,75 +1,152 @@
 ---
-title: "Bunny · 轻巧轮廓与分层装备"
+title: Bunny
+layout: BunnyPage
+bunny: home
+sidebar: false
+aside: false
 releaseReady: false
-aside: true
 ---
-# Bunny · 轻巧轮廓与分层装备
 
-白发、柔圆护目镜与橙红衣装共同形成当前角色识别；耳机与兔耳配饰已取消。
+# Bunny {.bunny-sr-only}
 
-## 身体工作稿
+<CharacterHero />
+<LatestList />
+<ChapterBar />
 
-[当前基模](/characters/bunny/body-base)、[白衣红裤](/characters/bunny/innerwear)、[袜装](/characters/bunny/hosiery)、[鞋靴](/characters/bunny/shoes)、[手部装备](/characters/bunny/hands)、[腿部装备](/characters/bunny/thigh-gear)与[橙色外套](/characters/bunny/jacket)保留21张完整三视人物。身体、白衣、红裤和前长后短夹克的[图面尺寸](/characters/bunny/dimensions)保持，头部与16格表情继续作为身份依据。
+<div class="bunny-section-heading">
 
-[裤腰皮带层](/characters/bunny/harness#belt-wearing)与[护目镜累计三视](/characters/bunny/headgear#headgear-wearing)已完整重绘为无吊带方案，和其余身体、衣层共27张完整人物。武器采用[异构双匕首](/characters/bunny/weapon#assassin-daggers-concept)，取消大护套，改为后腰交叉携行，已有局部固定外观研究与两张供比较的独立双持姿势方案，完整携行已有正面、右侧与背面三视。此前吊带、同款双刀、双手棍与大剑保留为历史资料。
+## 身份与画风 {#identity}
 
-## 本轮补充
+<p>她是谁，长什么样。</p>
+</div>
 
-- [当前基模图面尺寸与比例](/characters/bunny/dimensions)：头身比、肩腰胯宽与躯干腿长分别按三视记录，文胸衣物截面已重新测量，厘米身高尚未设定。
-- [v2中性头部样板](/characters/bunny/face)：完整重绘，核对清楚线稿、平涂与硬边色块；[16格表情](/characters/bunny/expressions)保留已复核稿。
-- [红护环开合结构](/characters/bunny/hands#cuff-opening)：铰链、锁扣与手套腕口关系。
-- [当前鞋带结与尾端收纳结构](/characters/bunny/shoes#footwear-construction)、[既有坐姿与抬腿的双腿带关系](/characters/bunny/thigh-gear#腿带屈髋与抬腿关系)。
+<div class="bunny-identity-grid">
+  <div>
+    <p class="bunny-identity-statement">成年纤细女性，银白短乱发，蓝眼，白色柔圆护目镜推在额上。</p>
+    <dl class="bunny-home-facts">
+      <div><dt>名称</dt><dd>Bunny</dd></div>
+      <div><dt>职业定位</dt><dd>刺客</dd></div>
+    </dl>
+    <p>采用日系二次元手绘线稿与赛璐璐上色。<a href="/characters/bunny/visual-language">画风与配色</a></p>
+    <OriginNote />
+  </div>
+  <AssetImage id="assassin-daggers-waist-carry-cel-front-v2" use-thumb />
+  <AssetImage id="head-v2-cel-reference-v3" detail="正面、角色右侧面、背面" use-thumb />
+</div>
 
-这些补图作为现有分层三视的延伸。当前[双匕首方向与参考](/characters/bunny/weapon#assassin-daggers-concept)已整理，已有放大尺寸母版，人物图分别展示两张独立双持姿势方案与后腰交叉携行三视；原稿同姿势角色卡与连续动作仍待补齐。
+<div class="bunny-section-heading">
 
-## 原始手稿
+## 身体基准 {#body}
 
-<ReleaseImage src="/characters/origins/1.0.0/bunny-original.webp" original="/media/origins/1.0.0/bunny-original.png" alt="Bunny · 原始手稿" caption="Bunny · 原始手稿" />
+<p>衣层逐层穿在这具身体上；尺寸以图面单位 H0 计。</p>
+</div>
 
-## 设计规范
+<div class="bunny-body-grid">
+  <AssetImage id="body-v2-fresh-cel-front-v2" group="body" use-thumb />
+  <AssetImage id="body-v2-fresh-cel-side-v1" group="body" use-thumb />
+  <AssetImage id="body-v2-fresh-cel-back-v1" group="body" use-thumb />
+  <div class="bunny-ruler-box" role="group" aria-label="头身比例示意">
+    <div class="bunny-ruler" aria-hidden="true">
+      <i class="bunny-ruler__top"></i>
+      <i class="bunny-ruler__tick bunny-ruler__tick--1"></i><i class="bunny-ruler__tick bunny-ruler__tick--2"></i><i class="bunny-ruler__tick bunny-ruler__tick--3"></i>
+      <i class="bunny-ruler__tick bunny-ruler__tick--4"></i><i class="bunny-ruler__tick bunny-ruler__tick--5"></i><i class="bunny-ruler__tick bunny-ruler__tick--6"></i>
+      <i class="bunny-ruler__bottom"></i><b class="bunny-ruler__part"></b>
+      <span class="bunny-ruler__label--1">1</span><span class="bunny-ruler__label--2">2</span><span class="bunny-ruler__label--3">3</span>
+      <span class="bunny-ruler__label--4">4</span><span class="bunny-ruler__label--5">5</span><span class="bunny-ruler__label--6">6</span><span class="bunny-ruler__label--part">0.56</span>
+    </div>
+    <dl class="bunny-ruler-facts">
+      <div><dt>头身</dt><dd class="bunny-ruler-facts__number">6.56</dd></div>
+      <div><dt>H0</dt><dd>1475 px<small>可见发冠到赤脚地面</small></dd></div>
+      <div><dt>头高</dt><dd>225 px</dd></div>
+      <div><dt>厘米身高</dt><dd>未设定</dd></div>
+    </dl>
+  </div>
+</div>
 
-当前制作以[完整新绘 v2 基模](/characters/bunny/body-base)及其[图面比例](/characters/bunny/dimensions)为依据，身份继续对照[精修中性头部](/characters/bunny/face)与[16格表情](/characters/bunny/expressions)。上身由白色内搭与橙色夹克自然叠穿；腰带与头装累计人物已采用无吊带方案；实际厘米身高尚未设定，图面比例不作为制造尺寸。今后人物三视的完整新绘要求见[手绘语言标准](/characters/bunny/visual-language#完整三视的绘制方式)。
+<p class="bunny-section-links"><a href="/characters/bunny/body-base">第 0 层：身体</a> · <a href="/characters/bunny/dimensions">图面尺寸</a></p>
 
-下方 00 图是 **2026-10-18 的旧基准沿革**，保留原图与原字。图内“最新已确认基模”“当前锁定的制作依据”均指当时版本，不作为当前 v2 制作依据。
+<div class="bunny-section-heading">
 
-<ReleaseImage src="/characters/bunny/3.1.0/00-origin-positioning.webp" original="/media/bunny/3.1.0/00-origin-positioning.png" alt="2026-10-18 旧基准沿革：原始形象与设计定位" caption="2026-10-18 旧基准沿革 · 保留原始说明" />
+## 衣层由内到外 {#layers}
 
-<ul><li><a href="/characters/bunny/body-base">从身体基准开始</a></li><li><a href="/characters/bunny/dimensions">图面尺寸与比例</a></li><li><a href="/characters/bunny/assembly">衣层与部件阅读顺序</a></li></ul>
+<p>从身体开始逐层穿上，共九张正面图。点开任意一张，可用左右键逐层翻看。</p>
+</div>
 
-贴身衣层 → 袜装 → 鞋靴 → 手部装备 → 腿部装备 → 橙色夹克 → 裤腰皮带 → 头部装备。武器另见[双匕首设计方向](/characters/bunny/weapon#assassin-daggers-concept)。
+<LayerStrip />
 
-<span id="成品"></span>
+<div class="bunny-section-heading">
 
-<span id="当前累计衣层"></span>
+## 表情 {#expressions}
 
-## 当前累计穿戴
+<p>同一张脸的表情变化，按表格排列。</p>
+</div>
 
-无吊带累计人物见[护目镜三视](/characters/bunny/headgear#headgear-wearing)。[双手棍随行三视](/characters/bunny/assembled#weapon-wearing)作为前方案历史保留；双匕首现有[两张独立双持姿势方案](/characters/bunny/assembled#dagger-dual-grip-poses)与[后腰交叉携行三视](/characters/bunny/assembled#dagger-waist-carry-views)。
+<div class="bunny-expression-grid">
+  <AssetImage id="expressions-v2-cel-v2" detail="16 格 · 与头部三视同一身份" />
+  <AssetImage id="head-v2-cel-reference-v3" detail="正面、角色右侧面、背面" use-thumb />
+</div>
 
-<details>
-<summary>此前锯收纳累计图 · 历史参考</summary>
+<p class="bunny-expression-note">按行从画面左至画面右：中性 / 微笑 / 大笑 / 惊讶；生气 / 怒喊 / 鼓腮不满 / 怀疑；疲倦 / 含泪难过 / 大哭 / 担忧；眨眼俏皮 / 会心笑 / 兴奋 / 安心。情绪由眉眼和嘴型表现，蓝色瞳色不随情绪改变。</p>
 
-以下武器背腰水平收纳三视保留此前完整装备，尚未同步当前头部、夹克、裤腰皮带与护目镜，不代替当前累计结果。
+<div class="bunny-section-heading">
 
-<ReleaseImage src="/characters/bunny/3.1.0/31-neutral-stored-threeview.webp" original="/media/bunny/3.1.0/31-neutral-stored-threeview.png" alt="武器收纳累计三视图（尚未同步的既有参考）" caption="武器收纳累计三视图（尚未同步的既有参考）" />
+## 武器与携行 {#weapon}
 
-<ul><li><a href="/characters/bunny/assembled">累计穿戴核对</a></li><li><a href="/characters/bunny/saw">武器设计状态</a></li></ul>
+<p>异构双匕首：两把刃形、颜色和长度都不同。</p>
+</div>
 
-</details>
+<div class="bunny-weapon-grid">
+  <AssetImage id="assassin-daggers-scale-master-v1" detail="墨黑獠牙刃与骨白弯刃" group="weapon" />
+  <div class="bunny-blades" role="group" aria-label="刃长对照">
+    <div class="bunny-blade bunny-blade--height"><div class="bunny-blade__label"><b>H0 人物高度</b><span>1.00 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
+    <div class="bunny-blade bunny-blade--dark"><div class="bunny-blade__label"><b>墨黑獠牙刃</b><span>角色右手，总长 0.36 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
+    <div class="bunny-blade bunny-blade--ivory"><div class="bunny-blade__label"><b>骨白弯刃</b><span>角色左手，总长 0.42 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
+    <dl class="bunny-home-facts">
+      <div><dt>收纳</dt><dd>后腰交叉携行</dd></div>
+      <div><dt>握法</dt><dd>SUN-05 中两手同为正握</dd></div>
+    </dl>
+  </div>
+</div>
 
-## 此前穿戴动作补图 {#outfit-pose}
+<div class="bunny-parts-grid">
+  <AssetImage id="assassin-daggers-dark-exterior-components-v1" group="weapon" use-thumb />
+  <AssetImage id="assassin-daggers-ivory-exterior-components-v1" group="weapon" use-thumb />
+  <AssetImage id="assassin-daggers-waist-mount-structure-v2" group="weapon" use-thumb />
+</div>
 
-<details>
-<summary>旧动作造型 · 含已取消的耳机、兔耳与领口 OG</summary>
+<p class="bunny-section-links"><a href="/characters/bunny/weapon">双匕首</a></p>
 
-此图保留此前设计供回溯，不代表当前只护目镜的头装与无吊带方案。
+<div class="bunny-section-heading">
 
-<ReleaseImage src="/characters/bunny/3.1.0/outfit-pose-current.webp" original="/media/bunny/3.1.0/outfit-pose-current.png" alt="Bunny 历史穿戴动作补图：左手叉腰，右手自然下垂，无武器" caption="历史穿戴动作补图 · 左手叉腰 / 右手自然下垂" />
+## 动作与场景 {#action}
 
-该图补充叉腰时左手半指手套与橙色终端、右手全指手套与红护环，以及外套袖量、承载带和左右袜靴的外观关系。它是一张无武器姿势表现，不代替原稿持锯角色卡、武器实握或收纳座取出动作，也不等于连续运动验证。
+<p>SUN-05 张臂前冲，从线稿到场景定稿。</p>
+</div>
 
-</details>
+<div class="bunny-action-grid">
+  <div>
+    <AssetImage id="sun05-scene-final-v1" caption="场景定稿" detail="2026-10-29" group="action" use-thumb />
+    <dl class="bunny-home-facts">
+      <div><dt>场景</dt><dd>在巨树枝干上向镜头冲刺</dd></div>
+      <div><dt>环境</dt><dd>层叠的蓝绿森林</dd></div>
+      <div><dt>光</dt><dd>画面左上方的日光，树皮上有投影</dd></div>
+    </dl>
+  </div>
+  <div>
+    <AssetImage id="structure20-lineart-v1" detail="2026-10-28 通过" group="action" use-thumb />
+    <dl class="bunny-home-facts">
+      <div><dt>动作</dt><dd>SUN-05 张臂前冲</dd></div>
+      <div><dt>视角</dt><dd>俯视角，头胸领先</dd></div>
+      <div><dt>握法</dt><dd>两手同为正握</dd></div>
+    </dl>
+  </div>
+</div>
 
-## 原稿同姿势角色卡
+<div class="bunny-section-heading">
 
-当前尚无按最新设定绘制的原稿同姿势角色卡。上方中性收纳三视用于结构核对，不替代这一角色表现图；姿势来源见<a href="#原始手稿">原始手稿</a>。
+## 下载 {#downloads}
+
+<p>点缩略图看大图，点“原图”取文件。</p>
+</div>
+
+<DownloadList set="home" />

@@ -43,10 +43,13 @@ function sizeLabel(bytes: number): string {
     </div>
     <template v-if="set === 'home'">
       <p class="bunny-downloads__package"><a :href="withBase(data.package.path)">资料包 ZIP ↗</a></p>
-      <dl class="bunny-downloads__status">
-        <div><dt>状态</dt><dd>{{ data.home.status }}</dd></div>
-        <div><dt>最近更新</dt><dd><time :datetime="data.home.updated">{{ data.home.updated }}</time></dd></div>
-      </dl>
+      <div class="bunny-downloads__status">
+        <dl class="bunny-downloads__facts">
+          <div><dt>状态</dt><dd>{{ data.home.status }}</dd></div>
+          <div><dt>最近更新</dt><dd><time :datetime="data.home.updated">{{ data.home.updated }}</time></dd></div>
+        </dl>
+        <p class="bunny-downloads__links"><a :href="withBase('/characters/bunny/downloads')">下载</a> · <a :href="withBase('/characters/bunny/archive')">历史档案</a></p>
+      </div>
     </template>
   </div>
 </template>

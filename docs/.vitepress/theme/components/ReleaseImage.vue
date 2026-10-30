@@ -27,6 +27,7 @@ const props = defineProps<{
   alt: string
   original?: string
   caption?: string
+  lightboxCaption?: string
   detail?: string
   width?: number
   height?: number
@@ -68,7 +69,7 @@ function readImage(): PreviewImage {
     imageUrl: imageUrl.value,
     originalUrl: originalUrl.value,
     alt: props.alt,
-    caption: props.caption,
+    caption: props.lightboxCaption ?? props.caption,
   }
 }
 

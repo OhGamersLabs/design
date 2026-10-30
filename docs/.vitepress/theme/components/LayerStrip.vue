@@ -14,6 +14,6 @@ import AssetImage from './AssetImage.vue'
         <a :href="withBase(layer.path)">查看设定</a>
       </li>
     </ol>
-    <p class="bunny-layer-strip__note">「角色左 / 角色右」指角色自身，「画面左 / 画面右」指图面方向。</p>
+    <p class="bunny-layer-strip__note">「角色左 / 角色右」指角色自身：正面图里，角色右侧在画面左边；背面图里，在画面右边。</p>
   </div>
 </template>
