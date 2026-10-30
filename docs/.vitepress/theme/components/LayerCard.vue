@@ -14,7 +14,7 @@ const current = computed(() => {
 <template>
   <aside class="bunny-side-card bunny-layer-card" aria-label="衣层资料">
     <div class="bunny-layer-card__heading">
-      <a class="bunny-side-card__home" :href="withBase('/characters/bunny/#layers')">Bunny / 衣层</a>
+      <p class="bunny-side-card__home"><a :href="withBase('/characters/bunny/')">Bunny</a> / <a :href="withBase('/characters/bunny/#layers')">衣层由内到外</a></p>
       <span class="bunny-layer-card__number">{{ current.layer }}</span>
       <p class="bunny-side-card__title">{{ current.name }}</p>
       <p class="bunny-layer-card__position">第 {{ current.layer }} 层，共 0 到 8 层</p>

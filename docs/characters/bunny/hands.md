@@ -10,7 +10,7 @@ aside: false
 
 <span id="手部装备"></span>
 
-## 穿着三视 {#wearing}
+## 穿着三视 <small>穿到第 4 层为止</small> {#wearing}
 
 <span id="hands-wearing"></span>
 
@@ -32,7 +32,7 @@ aside: false
 
 [下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
-## 分件结构 {#construction}
+## 分件结构 <small>拆成单件看</small> {#construction}
 
 ### 手套独立视图 {#gloves-construction}
 

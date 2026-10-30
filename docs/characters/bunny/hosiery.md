@@ -11,7 +11,7 @@ aside: false
 <span id="hosiery-wearing"></span>
 <span id="袜装穿着三视"></span>
 
-## 穿着三视 {#wearing}
+## 穿着三视 <small>穿到第 2 层为止</small> {#wearing}
 
 <div class="bunny-body-views">
 
@@ -33,7 +33,7 @@ aside: false
 
 <span id="hosiery-construction"></span>
 
-## 分件结构 {#construction}
+## 分件结构 <small>拆成单件看</small> {#construction}
 
 <AssetImage id="hosiery-v2-layer2-construction-v2" group="layer-2" />
 

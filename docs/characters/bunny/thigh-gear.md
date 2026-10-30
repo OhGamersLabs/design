@@ -10,7 +10,7 @@ aside: false
 
 <span id="腿部盒袋与任务终端"></span>
 
-## 穿着三视 {#wearing}
+## 穿着三视 <small>穿到第 5 层为止</small> {#wearing}
 
 <span id="thigh-wearing"></span>
 
@@ -32,7 +32,7 @@ aside: false
 
 [下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
-## 分件结构 {#construction}
+## 分件结构 <small>拆成单件看</small> {#construction}
 
 ### 任务终端与腿带 {#terminal-construction}
 

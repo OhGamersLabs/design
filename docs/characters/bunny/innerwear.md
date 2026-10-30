@@ -11,7 +11,7 @@ aside: false
 <span id="贴身衣层"></span>
 <span id="layer1-wearing"></span>
 
-## 穿着三视 {#wearing}
+## 穿着三视 <small>穿到第 1 层为止</small> {#wearing}
 
 <div class="bunny-body-views">
 
@@ -31,7 +31,7 @@ aside: false
 
 [下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
-## 分件结构 {#construction}
+## 分件结构 <small>拆成单件看</small> {#construction}
 
 ### 白色上衣结构 {#白色上衣结构}
 

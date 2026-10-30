@@ -10,7 +10,7 @@ const headings = computed(() => page.value.headers.filter(header => header.level
 <template>
   <aside class="bunny-side-card bunny-reference-card" aria-label="本页目录">
     <div class="bunny-reference-card__heading">
-      <a class="bunny-side-card__home" :href="withBase('/characters/bunny/')">Bunny</a>
+      <p class="bunny-side-card__home"><a :href="withBase('/characters/bunny/')">Bunny</a></p>
       <p class="bunny-reference-card__category">{{ category }}</p>
       <p class="bunny-side-card__title">{{ page.title }}</p>
     </div>

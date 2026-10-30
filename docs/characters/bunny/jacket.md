@@ -10,7 +10,7 @@ aside: false
 
 <span id="橙色外套"></span>
 
-## 穿着三视 {#wearing}
+## 穿着三视 <small>穿到第 6 层为止</small> {#wearing}
 
 <span id="外套穿着三视"></span>
 <span id="jacket-wearing"></span>
@@ -21,7 +21,7 @@ aside: false
 
 <AssetImage id="jacket-v2-highlow-base-aligned-cel-side-v1" group="layer-6" caption="角色右侧面" />
 
-<AssetImage id="jacket-v2-highlow-base-aligned-cel-back-v1" group="layer-6" caption="背面" />
+<AssetImage id="jacket-v2-highlow-base-aligned-cel-back-v1" group="layer-6" caption="背面" detail="短后摆" />
 
 </div>
 
@@ -41,7 +41,7 @@ aside: false
 
 [下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
-## 分件结构 {#construction}
+## 分件结构 <small>拆成单件看</small> {#construction}
 
 <span id="jacket-construction"></span>
 
