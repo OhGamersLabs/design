@@ -22,8 +22,8 @@ aside: false
 
 角色左与角色右都以角色自身为准，不随画面朝向交换。
 
-- 角色左腿为橙色过膝袜，角色右腿为白色短袜；角色右大腿配置任务终端与维护包。见<a href="/characters/bunny/hosiery">袜装</a>与<a href="/characters/bunny/thigh-gear">腿部装备</a>。
-- 角色右手为黑色全指手套与红色腕护环，角色左手为黑色半指手套与橙色腕部设备。见<a href="/characters/bunny/hands">手部装备</a>。
+- 角色左腿为橙色过膝袜，角色右腿为白色短袜；角色右大腿配置任务终端与维护包。见<a href="/characters/bunny/hosiery">袜装</a>与<a href="/characters/bunny/thigh-gear">腿带</a>。
+- 角色右手为黑色全指手套与红色腕护环，角色左手为黑色半指手套与橙色腕部设备。见<a href="/characters/bunny/hands">手部</a>。
 - 双匕首在后腰交叉携行，角色右侧为墨黑匕首，角色左侧为骨白匕首；刀身大部分外露，由刀根短托和柄根束带固定在裤腰皮带上。正背切换或镜像检查时，以部件实际归属侧复核，不直接沿用画面左、画面右的位置。
 
 ## 衣层与遮挡

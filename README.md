@@ -38,7 +38,9 @@ python3 tools/local-preview.py --port 4173
 
 原图通过 `/media/<角色>/<版本>/<文件名>` 提供。PNG、ZIP 不加入 Git；新克隆仓库必须恢复对应 `.release` 文件后，才能通过 `npm run check:local` 和访问本地原图。清单内的 Bunny 3.1.0 与 origins 1.0.0 原图及资料包 ZIP 已按清单路径上传 R2，供审阅站点 design.ohgamers.org 读取。网页 WebP、正文与清单均纳入代码审查。`ReleaseImage` 保持点击/键盘放大、原始尺寸切换、Esc 关闭、焦点恢复与原图链接。
 
-新增或替换一张修订图时，把真实 PNG 放入当前 `.release`，把对应 WebP 放入 `docs/public/characters`；在 `catalog/bunny/3.1.0/source-map.json` 补上这张图的来源条目（写 `baseline_sha256`，没有基线时写 `"no_baseline": true`），在 `docs/.vitepress/data/bunny/asset-names.json` 补上中文名，更新页面，然后在已有 Pillow 的 Python 环境执行：
+新增或替换一张修订图时，新图的 id 加 `-vN` 后缀（`-v1` 之后是 `-v2`，依此类推），WebP 与 PNG 的文件名都用这个 id。把真实 PNG 放入当前 `.release`，把对应 WebP 放入 `docs/public/characters`；在 `catalog/bunny/3.1.0/source-map.json` 补上这张图的来源条目（写 `baseline_sha256`，替换时填被替换那张 PNG 的 SHA-256，没有基线时写 `"no_baseline": true`），在 `docs/.vitepress/data/bunny/asset-names.json` 补上中文名，更新页面。
+
+替换已有图时，被替换的图不删，它的 WebP、PNG 和清单条目都保留。先在 `source-map.json` 把被替换那张的 `review_status` 改成 `historical-` 加小写英文短语（可同时写 `superseded_by`，指向新图所在页面），并在 `asset-names.json` 给它换一个能与新图区分的名称。再在 `docs/characters`、`docs/.vitepress/data` 和 `docs/.vitepress/theme` 里搜索被替换图的 id，把页面、`layers.json`、`downloads.json`、`changes.json` 等处的引用改成新 id，并检查 `docs/.vitepress/theme/style.css` 里绑定了旧 id 的 `data-asset-id` 规则，一并改到新 id；改完后旧 id 只应留在 `asset-names.json` 和 `archive.json`。现行页只能出现 `current-*` 的图，所以被替换的图要在 `docs/.vitepress/data/bunny/archive.json` 的对应组里加一条（`asset`、`date`、`replacedBy`；`replacedBy` 写一个名词短语，页面会在前面加「已改为」；没有明确日期时 `date` 写 `"—"`），并把它的 `historical-*` 状态加进该组的 `statuses`；组不存在时新建一组，并在 `docs/characters/bunny/archive.md` 加上对应的 `<ArchiveGrid group="组 id" />`。最后把 `test/bunny-site.test.mjs` 里素材索引断言的张数加 1（`npm test` 会核对）。新图还须登记到 `tools/site_check/`，见命令块后的说明。然后在已有 Pillow 的 Python 环境执行：
 
 ```sh
 python3 tools/build-local-catalog.py
@@ -48,7 +50,7 @@ npm run build
 npm run check:site
 ```
 
-`build-local-catalog.py` 仅重建本地草稿清单与 PNG ZIP，不上传或部署；图在 `source-map.json` 里没有来源条目时直接报错。`build-thumbs.py` 按清单重建 `docs/public/site/thumbs/` 下的缩略图与索引，`npm run build` 不会代跑。`check:local` 校验所有网页图、原始媒体和下载包的真实字节、大小与哈希；资料齐全不等于制作验证完成。`check:site` 的 A5 规则按 `tools/site_check/frozen-hashes.json` 冻结了本次重做时的网页图（WebP、SVG）、原始手稿 PNG 与 `catalog/bunny/3.1.0` 测量数据的哈希，并拒绝 3.1.0 中未登记的新 WebP 文件名；换图或加图时须同时更新这份冻结表。
+`build-local-catalog.py` 仅重建本地草稿清单与 PNG ZIP，不上传或部署；图在 `source-map.json` 里没有来源条目时直接报错。`build-thumbs.py` 按清单重建 `docs/public/site/thumbs/` 下的缩略图与索引，`npm run build` 不会代跑。`check:local` 校验所有网页图、原始媒体和下载包的真实字节、大小与哈希；资料齐全不等于制作验证完成。`check:site` 的 A5 规则按 `tools/site_check/frozen-hashes.json` 冻结了本次重做时的网页图（WebP、SVG）、原始手稿 PNG 与 `catalog/bunny/3.1.0` 测量数据的哈希，并拒绝 3.1.0 中未登记的新 WebP 文件名；换图或加图时须同时更新这份冻结表，并在 `tools/site_check/config.py` 的 `NEW_ASSETS` 登记新图。冻结表里为新 WebP 加一行仓库路径与 SHA-256，被替换那张的行保留；`NEW_ASSETS` 的一项依次写新 id、`review_status`、图宽、图高和原图 PNG 的 MD5，`check:site` 的 D1 规则按它核对清单。`tools/site_check/` 是站点检查器本身，除这两处登记外不要改动。
 
 ## 检查与发布边界
 

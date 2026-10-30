@@ -20,7 +20,7 @@ const registeredImages = new Set<RegisteredImage>()
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import { withBase } from 'vitepress'
-import { stepIndex } from '../bunny-site.mjs'
+import { focusAfterStep, stepIndex } from '../bunny-site.mjs'
 
 const props = defineProps<{
   src: string
@@ -41,6 +41,9 @@ const props = defineProps<{
 const dialog = ref<HTMLDialogElement>()
 const triggerButton = ref<HTMLButtonElement>()
 const viewport = ref<HTMLDivElement>()
+const prevButton = ref<HTMLButtonElement>()
+const nextButton = ref<HTMLButtonElement>()
+const closeButton = ref<HTMLButtonElement>()
 const isOpen = ref(false)
 const isDetailView = ref(false)
 const previewImages = ref<PreviewImage[]>([])
@@ -103,8 +106,18 @@ function openDialog() {
   dialog.value.showModal()
 }
 
-function movePreview(delta: number) {
+async function movePreview(delta: number) {
+  const active = document.activeElement
+  const focused = active === prevButton.value ? 'prev' : active === nextButton.value ? 'next' : 'other'
   previewIndex.value = stepIndex(previewIndex.value, delta, previewImages.value.length)
+  await nextTick()
+  const target = focusAfterStep(focused, {
+    prevDisabled: previewIndex.value === 0,
+    nextDisabled: previewIndex.value >= previewImages.value.length - 1,
+  })
+  if (target === 'prev') prevButton.value?.focus()
+  else if (target === 'next') nextButton.value?.focus()
+  else if (target === 'close') closeButton.value?.focus()
 }
 
 async function toggleDetailView() {
@@ -197,6 +210,7 @@ onBeforeUnmount(() => {
             <template v-if="lightboxGroup">
               <button
                 type="button"
+                ref="prevButton"
                 class="release-image__close"
                 data-lightbox-prev
                 aria-label="上一张"
@@ -205,6 +219,7 @@ onBeforeUnmount(() => {
               >上一张</button>
               <button
                 type="button"
+                ref="nextButton"
                 class="release-image__close"
                 data-lightbox-next
                 aria-label="下一张"
@@ -218,7 +233,7 @@ onBeforeUnmount(() => {
               :aria-pressed="isDetailView"
               @click="toggleDetailView"
             >{{ isDetailView ? '适应屏幕' : '原始尺寸' }}</button>
-            <button type="button" class="release-image__close" autofocus @click="closeDialog">
+            <button ref="closeButton" type="button" class="release-image__close" autofocus @click="closeDialog">
               关闭 <span aria-hidden="true">×</span>
             </button>
           </div>

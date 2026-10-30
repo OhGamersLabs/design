@@ -3,8 +3,8 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { parsePackage } from '../docs/.vitepress/data/bunny-data.mjs'
 import {
-  assetById, bodyMeasurementScope, buildAssetIndex, createDisplayTextLookup,
-  garmentMeasurementScope, readingNeighbors, resolveAnchorTarget,
+  activeChapterId, assetById, bodyMeasurementScope, buildAssetIndex, createDisplayTextLookup,
+  focusAfterStep, garmentMeasurementScope, readingLine, readingNeighbors, resolveAnchorTarget,
   selectMeasurementMetric, selectMeasurementSource,
   selectLatest, shouldRedirectForHash, stepIndex,
 } from '../docs/.vitepress/theme/bunny-site.mjs'
@@ -84,6 +84,35 @@ test('lightbox steps clamp, including single and empty groups', () => {
   assert.equal(stepIndex(0, 1, 1), 0)
   assert.equal(stepIndex(0, 1, 0), 0)
 })
+
+test('lightbox focus moves to the other paging button when the focused one is disabled at an end', () => {
+  assert.equal(focusAfterStep('next', { prevDisabled: false, nextDisabled: true }), 'prev')
+  assert.equal(focusAfterStep('prev', { prevDisabled: true, nextDisabled: false }), 'next')
+  assert.equal(focusAfterStep('next', { prevDisabled: true, nextDisabled: true }), 'close')
+  assert.equal(focusAfterStep('next', { prevDisabled: false, nextDisabled: false }), null)
+  assert.equal(focusAfterStep('other', { prevDisabled: true, nextDisabled: true }), null)
+})
+
+test('chapter highlight follows the reading line both ways and settles at the page bottom', () => {
+  const view = { line: 315, viewportHeight: 900, atBottom: false, hashId: '' }
+  const headings = (tops) => ['identity', 'body', 'layers', 'expressions'].map((id, index) => ({ id, top: tops[index] }))
+  assert.equal(activeChapterId(headings([400, 1600, 2800, 4000]), view), '')
+  assert.equal(activeChapterId(headings([-2000, -200, 600, 1800]), view), 'body')
+  assert.equal(activeChapterId(headings([-3000, -1800, 315, 1500]), view), 'layers')
+  assert.equal(activeChapterId(headings([-3000, null, 200, 1500]), view), 'layers')
+  const bottom = { ...view, atBottom: true }
+  assert.equal(activeChapterId(headings([-4000, -2800, 380, 700]), { ...bottom, hashId: 'layers' }), 'layers')
+  assert.equal(activeChapterId(headings([-4000, -2800, 380, 700]), bottom), 'expressions')
+  assert.equal(activeChapterId(headings([-4000, -2800, -900, 700]), { ...bottom, hashId: 'body' }), 'expressions')
+})
+
+test('reading line never sits above the heading landing position on short viewports', () => {
+  assert.equal(readingLine(900, 134), 315)
+  assert.equal(readingLine(340, 134), 135)
+  const headings = [{ id: 'identity', top: -400 }, { id: 'body', top: 134 }, { id: 'layers', top: 900 }]
+  assert.equal(activeChapterId(headings, { line: readingLine(340, 134), viewportHeight: 340, atBottom: false, hashId: 'body' }), 'body')
+})
+
 test('reading neighbors follow layer order and stop at both ends', () => {
   const { prev, next } = readingNeighbors('/characters/bunny/jacket')
   assert.equal(prev.path, '/characters/bunny/thigh-gear')

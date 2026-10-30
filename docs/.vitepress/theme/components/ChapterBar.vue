@@ -1,32 +1,44 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { getScrollOffset } from 'vitepress'
 import { data } from '../../data/bunny-site.data.mjs'
+import { activeChapterId, readingLine } from '../bunny-site.mjs'
 
 const active = ref('')
-let observer: IntersectionObserver | undefined
+let frame = 0
 
-function updateHash() {
-  try { active.value = decodeURIComponent(window.location.hash.slice(1)) }
-  catch { active.value = window.location.hash.slice(1) }
+function readHash() {
+  try { return decodeURIComponent(window.location.hash.slice(1)) }
+  catch { return window.location.hash.slice(1) }
+}
+
+function update() {
+  frame = 0
+  const headings = data.home.chapters.map((chapter) => ({ id: chapter.id, top: document.getElementById(chapter.id)?.getBoundingClientRect().top ?? null }))
+  active.value = activeChapterId(headings, {
+    line: readingLine(window.innerHeight, getScrollOffset()),
+    viewportHeight: window.innerHeight,
+    atBottom: Math.ceil(window.scrollY + window.innerHeight) >= document.documentElement.scrollHeight - 1,
+    hashId: readHash(),
+  })
+}
+
+function schedule() {
+  if (!frame) frame = window.requestAnimationFrame(update)
 }
 
 onMounted(() => {
-  updateHash()
-  window.addEventListener('hashchange', updateHash)
-  if (!('IntersectionObserver' in window)) return
-  observer = new IntersectionObserver(entries => {
-    const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)
-    if (visible[0]) active.value = visible[0].target.id
-  }, { rootMargin: '-15% 0px -65% 0px' })
-  for (const chapter of data.home.chapters) {
-    const section = document.getElementById(chapter.id)
-    if (section) observer.observe(section)
-  }
+  update()
+  window.addEventListener('scroll', schedule, { passive: true })
+  window.addEventListener('resize', schedule)
+  window.addEventListener('hashchange', schedule)
 })
 
 onBeforeUnmount(() => {
-  observer?.disconnect()
-  window.removeEventListener('hashchange', updateHash)
+  if (frame) window.cancelAnimationFrame(frame)
+  window.removeEventListener('scroll', schedule)
+  window.removeEventListener('resize', schedule)
+  window.removeEventListener('hashchange', schedule)
 })
 </script>
 

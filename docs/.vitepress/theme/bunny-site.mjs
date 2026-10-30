@@ -93,6 +93,51 @@ export function stepIndex(index, delta, count) {
   return Math.max(0, Math.min(index + delta, count - 1))
 }
 
+/**
+ * Where focus goes after a lightbox paging step. A focused paging button that becomes disabled at either end would drop
+ * focus out of the dialog, so focus moves to the other paging button, or to the close button when both are disabled.
+ * @param {'prev' | 'next' | 'other'} focused control that had focus before the step
+ * @param {{ prevDisabled: boolean, nextDisabled: boolean }} state paging buttons after the step
+ * @returns {'prev' | 'next' | 'close' | null} control to focus, or null to leave focus where it is
+ */
+export function focusAfterStep(focused, { prevDisabled, nextDisabled }) {
+  if (focused === 'prev' && prevDisabled) return nextDisabled ? 'close' : 'next'
+  if (focused === 'next' && nextDisabled) return prevDisabled ? 'close' : 'prev'
+  return null
+}
+
+/**
+ * The chapter bar's reading line: 35 % down the viewport, but never above the spot where a clicked chapter heading lands, which is
+ * VitePress's scroll offset. Without the floor, a short viewport would leave a just-clicked heading below the line.
+ * @param {number} viewportHeight window.innerHeight
+ * @param {number} scrollOffset VitePress `getScrollOffset()`
+ * @returns {number}
+ */
+export function readingLine(viewportHeight, scrollOffset) {
+  return Math.max(viewportHeight * 0.35, scrollOffset + 1)
+}
+
+/**
+ * The chapter the reader is in: the last heading whose top has passed the reading line. The last short chapters can never
+ * reach the line, so at the bottom of the page the hash target wins when it is on screen, otherwise the last heading on screen.
+ * @param {Array<{ id: string, top: number | null }>} headings chapter headings in page order; `top` is the heading's viewport
+ *   top, null when the page has no such heading
+ * @param {{ line: number, viewportHeight: number, atBottom: boolean, hashId: string }} view
+ * @returns {string} chapter id, or '' while the first heading is still below the line
+ */
+export function activeChapterId(headings, { line, viewportHeight, atBottom, hashId }) {
+  const present = headings.flatMap((heading) => heading.top === null ? [] : [{ id: heading.id, top: heading.top }])
+  if (atBottom) {
+    const target = present.find((heading) => heading.id === hashId)
+    if (target && target.top >= 0 && target.top < viewportHeight) return target.id
+    const last = present[present.length - 1]
+    if (last && last.top < viewportHeight) return last.id
+  }
+  let current = ''
+  for (const heading of present) if (heading.top <= line) current = heading.id
+  return current
+}
+
 
 /**
  * One exact display-text lookup shared by measurement files. Labels remain a

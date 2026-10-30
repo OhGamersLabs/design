@@ -53,7 +53,7 @@ aside: false
 
 阴影主要解释折面和遮挡：翻盖下方、领口内侧、袖口收束与内襟翻折，用边界明确的局部暗面建立前后关系。橙色衣身保持大块干净色面，不铺满渐变、颗粒或仿摄影反光。
 
-金属扣件可以有克制的边缘亮面；针织和布面不沿整条外轮廓加塑料式高光。深色镜片与金属边缘的画法分别参照<a href="/characters/bunny/headgear#headgear-goggles">护目镜独立结构</a>和<a href="/characters/bunny/hands#cuff-opening">腕部护环结构</a>，不能把高反射效果复制到所有材料。
+金属扣件可以有克制的边缘亮面；针织和布面不沿整条外轮廓加塑料式高光。深色镜片与金属边缘的画法分别参照<a href="/characters/bunny/headgear#headgear-goggles">护目镜分件结构</a>和<a href="/characters/bunny/hands#cuff-opening">腕部护环结构</a>，不能把高反射效果复制到所有材料。
 
 夹克的领口、角色左袖功能袋、袖口与前贴边见[夹克细节](/characters/bunny/jacket#jacket-details)。领口为随前襟断开的普通黑色短罗纹领，纯白 OG 连环品牌图形只位于角色左袖功能袋袋身正面中央。
 
