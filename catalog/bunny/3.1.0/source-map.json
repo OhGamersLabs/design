@@ -22,18 +22,21 @@
   "bunny/02-identity-style.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/02-identity-style.png",
     "page": "https://design.ohgamers.org/characters/bunny/face",
-    "baseline_sha256": "af914d5a15c9bc54d2338f03295e7cca1c83ddb98f12618ed35cf9bbc6e503f6"
+    "baseline_sha256": "af914d5a15c9bc54d2338f03295e7cca1c83ddb98f12618ed35cf9bbc6e503f6",
+    "review_status": "historical-identity-style"
   },
   "bunny/recovered-expressions-2.1.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/recovered-expressions-2.1.png",
     "page": "https://design.ohgamers.org/characters/bunny/expressions",
     "baseline_sha256": "b08c8ce3ab4ca714762a2210c7ca4b9b9fceaa122d09b378c47dd0216ecc8be8",
-    "historical_design_version": "2.1"
+    "historical_design_version": "2.1",
+    "review_status": "historical-recovered-expressions"
   },
   "bunny/24-jacket-details.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/24-jacket-details.png",
     "page": "https://design.ohgamers.org/characters/bunny/visual-language",
-    "baseline_sha256": "e902ae0caa771acb9ca9a0ee64cd35750800867d3d022ee0761394ee80b794e9"
+    "baseline_sha256": "e902ae0caa771acb9ca9a0ee64cd35750800867d3d022ee0761394ee80b794e9",
+    "review_status": "historical-jacket-details"
   },
   "bunny/07-hosiery-knit-details.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/07-hosiery-knit-details.png",
@@ -46,12 +49,14 @@
   "bunny/01-body-baseline.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/01-body-baseline.png",
     "page": "https://design.ohgamers.org/characters/bunny/body-base",
-    "baseline_sha256": "269961a0cc7fd65b33b87e27946f6966d030348a4f61da204bab4a63be9fdbe3"
+    "baseline_sha256": "269961a0cc7fd65b33b87e27946f6966d030348a4f61da204bab4a63be9fdbe3",
+    "review_status": "historical-body-baseline"
   },
   "bunny/dimension-01-character-dimension-standard.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/dimension-01-character-dimension-standard.png",
     "page": "https://design.ohgamers.org/characters/bunny/body-base",
-    "baseline_sha256": "e9e84fc9905865f2bc20877921e8059ac24aa6271c50c167bf71ad9971be0f13"
+    "baseline_sha256": "e9e84fc9905865f2bc20877921e8059ac24aa6271c50c167bf71ad9971be0f13",
+    "review_status": "historical-character-dimension-standard"
   },
   "bunny/03-innerwear-coverage.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/03-innerwear-coverage.png",
@@ -99,42 +104,50 @@
   "bunny/13-hands-cumulative-threeview.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/13-hands-cumulative-threeview.png",
     "page": "https://design.ohgamers.org/characters/bunny/hands",
-    "baseline_sha256": "b84c28969570be5dd0023567b19f8264c520ed76ba9fb937cc3105b20cdde798"
+    "baseline_sha256": "b84c28969570be5dd0023567b19f8264c520ed76ba9fb937cc3105b20cdde798",
+    "review_status": "historical-hands-cumulative-threeview"
   },
   "bunny/10-hand-wearing.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/10-hand-wearing.png",
     "page": "https://design.ohgamers.org/characters/bunny/hands",
-    "baseline_sha256": "98ae5a65bfeb74a3dcc99ff6f9085f60ea0bc8a62fdf53317e539ea0b1ac59ca"
+    "baseline_sha256": "98ae5a65bfeb74a3dcc99ff6f9085f60ea0bc8a62fdf53317e539ea0b1ac59ca",
+    "review_status": "historical-hand-wearing"
   },
   "bunny/11-glove-views.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/11-glove-views.png",
     "page": "https://design.ohgamers.org/characters/bunny/hands",
-    "baseline_sha256": "485f93e85081d486aa85596acc67253f52c4b6ed713957c726af3497e6e036c1"
+    "baseline_sha256": "485f93e85081d486aa85596acc67253f52c4b6ed713957c726af3497e6e036c1",
+    "review_status": "historical-glove-views"
   },
   "bunny/12-wrist-accessories.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/12-wrist-accessories.png",
     "page": "https://design.ohgamers.org/characters/bunny/hands",
-    "baseline_sha256": "e30c2efa45773c45086ac314bd051f9c0708ef9cfffcbbd5065288a0734e5a32"
+    "baseline_sha256": "e30c2efa45773c45086ac314bd051f9c0708ef9cfffcbbd5065288a0734e5a32",
+    "review_status": "historical-wrist-accessories"
   },
   "bunny/17-thigh-cumulative-threeview.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/17-thigh-cumulative-threeview.png",
     "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
-    "baseline_sha256": "6ba13cac1d7fc894acf568e23410898dd460f58c834c48a66fe3c263df169df8"
+    "baseline_sha256": "6ba13cac1d7fc894acf568e23410898dd460f58c834c48a66fe3c263df169df8",
+    "review_status": "historical-thigh-cumulative-threeview"
   },
   "bunny/14-thigh-wearing.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/14-thigh-wearing.png",
     "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
-    "baseline_sha256": "ec54023618d4651c051192a9848b8f59f9a3fd14494a685db38feca813fdbc7f"
+    "baseline_sha256": "ec54023618d4651c051192a9848b8f59f9a3fd14494a685db38feca813fdbc7f",
+    "review_status": "historical-thigh-wearing"
   },
   "bunny/15-task-terminal.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/15-task-terminal.png",
     "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
-    "baseline_sha256": "7502812c3ac7336bab3224a66b5a65da208e6a6ebb649fa04f658ee04e62618b"
+    "baseline_sha256": "7502812c3ac7336bab3224a66b5a65da208e6a6ebb649fa04f658ee04e62618b",
+    "review_status": "historical-task-terminal"
   },
   "bunny/16-maintenance-pouch.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/16-maintenance-pouch.png",
     "page": "https://design.ohgamers.org/characters/bunny/thigh-gear",
-    "baseline_sha256": "35380d86e00e678de157f607ba2db803cc61c7dc50184172d59931fa178f7a37"
+    "baseline_sha256": "35380d86e00e678de157f607ba2db803cc61c7dc50184172d59931fa178f7a37",
+    "review_status": "historical-maintenance-pouch"
   },
   "bunny/22-jacket-wearing.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/22-jacket-wearing.png",
@@ -147,7 +160,8 @@
   "bunny/23-jacket-components.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/23-jacket-components.png",
     "page": "https://design.ohgamers.org/characters/bunny/jacket",
-    "baseline_sha256": "696f176054ee58f2689533ed7623201a017bfa185da61d630cf95f6994128829"
+    "baseline_sha256": "696f176054ee58f2689533ed7623201a017bfa185da61d630cf95f6994128829",
+    "review_status": "historical-jacket-components"
   },
   "bunny/18-carrier-wearing.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/18-carrier-wearing.png",
@@ -240,18 +254,19 @@
   "bunny/dimension-02-weapon-dimension-standard.png": {
     "url": "https://design.ohgamers.org/media/bunny/3.0.0/dimension-02-weapon-dimension-standard.png",
     "page": "https://design.ohgamers.org/characters/bunny/weapon-history",
-    "baseline_sha256": "c8df9152a55a702b45b391654a6eee3cf0aaa8a78ee5ae542ac77303839fe2f6"
+    "baseline_sha256": "c8df9152a55a702b45b391654a6eee3cf0aaa8a78ee5ae542ac77303839fe2f6",
+    "review_status": "historical-saw-dimension-standard"
   },
   "bunny/body-v2-proportion-reference.png": {
     "baseline_sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
     "reference_role": "selected-proportion-foundation",
-    "review_status": "local-reference",
+    "review_status": "historical-body-proportion-reference",
     "description": "用户认可的v2原色纤细比例底子；用于本轮二维基础体局部修订对照。"
   },
   "bunny/body-v2-local-refined-v1.png": {
     "baseline_sha256": "d499a62b468cf715299493849e9e0f42fd44b842eaa36f0203ecd4e534334ca3",
     "based_on": "/media/bunny/3.1.0/body-v2-proportion-reference.png",
-    "review_status": "local-body-revision",
+    "review_status": "historical-body-local-revision",
     "description": "本轮二维基础体修订稿；修整胸部衣物连接、侧背臀部包转，保留v2腰腿比例与纤细体型。",
     "scope": "未同步穿戴层及尺寸；原01与旧尺寸保留为沿革资料。"
   },
@@ -1445,7 +1460,7 @@
     "based_on": "/media/bunny/3.1.0/04-white-top-construction.png",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/white-top-construction-v1.png",
     "source_artifact_sha256": "d949df8f7e088623bc4429a15a2a12e71712b2f1cf7291e73bf2707c9e57e890",
-    "review_status": "local-layer1-construction-reference",
+    "review_status": "current-layer1-construction-reference",
     "method": "builtin imagegen; original native output byte-identical copy; no local alteration",
     "description": "白色上衣 · 成衣正侧背与部件接合位置示意，1536×1024原尺寸PNG。",
     "scope": "对应本轮三张穿着稿；下排为部件与成衣接合位置示意，部分保留已装构件作位置对照，不是完整爆炸图、缝制顺序或裁剪纸样。",
@@ -1791,7 +1806,7 @@
     "based_on": "/media/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.png",
     "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-layer1-20261024/hip-fit-revision-20261024/red-shorts-construction-hip-fit-v3.png",
     "source_artifact_sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
-    "review_status": "local-layer1-hip-fit-construction-reference",
+    "review_status": "current-layer1-hip-fit-construction-reference",
     "method": "builtin imagegen; output copied byte-for-byte",
     "description": "红色短裤 · 臀部布面修订后的成衣三视与部件接合位置示意，1536×1024原尺寸PNG。",
     "scope": "仅修订红色短裤侧、背视的布面体积表达及对应结构示意；基模、图面尺寸、正面穿着、白色上衣结构板保持。其余衣层与装备未同步。 下排为部件与成衣接合位置示意，部分保留已装构件作位置对照，不是完整爆炸图、缝制顺序或裁剪纸样。",
@@ -10231,7 +10246,7 @@
     "source_artifact_sha256": "6cb17c5f40c2e329b5df12796bd68eea9e0bcd4ba2e7d0a5d688660ee12eb176",
     "description": "双持姿势方案 A · 低位错步蓄势；右黑正握、左白反握，供比较，尚未选定主姿势。",
     "scope": "No new H0 registration or weapon-length/thickness observation. Canonical dagger and body/garment measurements unchanged.",
-    "review_status": "accepted-comparison-pose-proposal-a-user-selection-pending",
+    "review_status": "historical-dual-grip-pose-a-before-sun05",
     "user_pose_selection": "not-yet-selected",
     "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
     "generation_request": {
@@ -10322,7 +10337,7 @@
     "source_artifact_sha256": "05354d3e06f546dc4238ffa4bfc6c329bbbe6096c2f00aa0a873d6f6493e607d",
     "description": "双持姿势方案 B · 侧身回看；右黑正握、左白反握，供比较，尚未选定主姿势。",
     "scope": "No new H0 registration or weapon-length/thickness observation. Canonical dagger and body/garment measurements unchanged.",
-    "review_status": "accepted-comparison-pose-proposal-b-user-selection-pending",
+    "review_status": "historical-dual-grip-pose-b-before-sun05",
     "user_pose_selection": "not-yet-selected",
     "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
     "generation_request": {
@@ -10396,5 +10411,38 @@
       "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-dual-grip-pose-b-v1.json",
       "sha256": "55bc3b977fb4f4121741ac7e5113c7190fefe3469bac02a02f9a039e0cc9fbd5"
     }
+  },
+  "bunny/34-cuff-mechanism.png": {
+    "no_baseline": true,
+    "review_status": "historical-cuff-mechanism"
+  },
+  "bunny/35-lacing-thigh-motion.png": {
+    "no_baseline": true,
+    "review_status": "historical-lacing-thigh-motion"
+  },
+  "bunny/outfit-pose-current.png": {
+    "no_baseline": true,
+    "review_status": "historical-outfit-pose"
+  },
+  "bunny/sun05-scene-final-v1.png": {
+    "no_baseline": true,
+    "review_status": "current-sun05-scene-final",
+    "description": "SUN-05 张臂前冲场景图定稿，在巨树枝干上向镜头冲刺。",
+    "source_artifact_path": "/Users/roy/Developments/x_ops/output/bunny-sun05-scene-20261028/SUN05-scene-final.png",
+    "source_artifact_md5": "79393ac4c1f18f8e4b247de8e1161d2c"
+  },
+  "bunny/structure20-lineart-v1.png": {
+    "no_baseline": true,
+    "review_status": "current-structure20-lineart",
+    "description": "STRUCTURE20 线稿。",
+    "source_artifact_path": "/Users/roy/Developments/x_ops/output/bunny-og-pocket-20261028/STRUCTURE20.png",
+    "source_artifact_md5": "8f420351671682f86654b8322d3005c9"
+  },
+  "bunny/sun05-pose-structure-v1.png": {
+    "no_baseline": true,
+    "review_status": "current-sun05-pose-structure",
+    "description": "SUN-05 人体结构稿，手中为占位杆。",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-sunraku-structure-20261028/native/SUN-05-structure.png",
+    "source_artifact_md5": "9adf75c9c24988c87c19dbf4c5b4aa34"
   }
 }
