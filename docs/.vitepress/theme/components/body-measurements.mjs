@@ -16,14 +16,14 @@ export const formatNumber = (value, digits = 2) => number(value) ? Number(value.
 
 function measurementResources(view, id) {
   const resources = view.resources === undefined ? {
-    original: `/media/bunny/3.1.0/body-v2-full-${id}-v1.png`,
-    web: `/characters/bunny/3.1.0/body-v2-full-${id}-v1.webp`,
-    ruler: `/characters/bunny/3.1.0/body-v2-measurements-${id}.svg`,
+    original: `/media/bunny/body-${id}-latest.png`,
+    web: `/characters/bunny/body-${id}-latest.webp`,
+    ruler: `/characters/bunny/body-${id}-ruler-latest.svg`,
   } : view.resources
   const patterns = {
-    original: /^\/media\/bunny\/3\.1\.0\/[a-zA-Z0-9][a-zA-Z0-9._-]*\.png$/,
-    web: /^\/characters\/bunny\/3\.1\.0\/[a-zA-Z0-9][a-zA-Z0-9._-]*\.webp$/,
-    ruler: /^\/characters\/bunny\/3\.1\.0\/[a-zA-Z0-9][a-zA-Z0-9._-]*\.svg$/,
+    original: /^\/media\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.png$/,
+    web: /^\/characters\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.webp$/,
+    ruler: /^\/characters\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.svg$/,
   }
   for (const [name, pattern] of Object.entries(patterns)) {
     if (typeof resources?.[name] !== 'string' || !pattern.test(resources[name])) throw new Error(`Invalid measurement resource: ${id}.${name}`)

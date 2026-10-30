@@ -20,11 +20,11 @@ aside: false
 
 <div class="bunny-body-views">
 
-<AssetImage id="goggles-v2-belt-only-cel-front-v2" group="layer-8" caption="正面" />
+<AssetImage id="goggles-front-latest" group="layer-8" caption="正面" />
 
-<AssetImage id="goggles-v2-belt-only-cel-side-v1" group="layer-8" caption="角色右侧面" />
+<AssetImage id="goggles-side-latest" group="layer-8" caption="角色右侧面" />
 
-<AssetImage id="goggles-v2-belt-only-cel-back-v1" group="layer-8" caption="背面" />
+<AssetImage id="goggles-back-latest" group="layer-8" caption="背面" />
 
 </div>
 
@@ -34,13 +34,12 @@ aside: false
 
 人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
 
-[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
 ## 分件结构 <small>拆成单件看</small> {#construction}
 
 <span id="headgear-goggles"></span>
 
-<AssetImage id="goggles-v2-only-components-v1" group="layer-8" />
+<AssetImage id="goggles-board-latest" group="layer-8" />
 
 | 图中标记 | 中文说明 |
 | --- | --- |
@@ -59,7 +58,7 @@ aside: false
 
 <span id="headgear-closeup"></span>
 
-<AssetImage id="goggles-v2-only-wearing-closeup-v2" group="layer-8" />
+<AssetImage id="goggles-closeup-board-latest" group="layer-8" />
 
 额头佩戴与眼前佩戴是手动调整后的两个位置，不是铰链翻转或机械展开。镜带随护目镜的位置贴合头部，头发与耳部按实际遮挡显示。
 

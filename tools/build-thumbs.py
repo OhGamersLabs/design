@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build or verify thumbnails from the two current release manifests."""
+"""Build or verify stable thumbnails from the current character manifests."""
 from __future__ import annotations
 
 import argparse
@@ -8,6 +8,7 @@ import hashlib
 from io import BytesIO
 import json
 from pathlib import Path, PurePosixPath
+import re
 import sys
 from typing import TypedDict
 
@@ -15,7 +16,6 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
-COLLECTIONS = (('bunny', '3.1.0'), ('origins', '1.0.0'))
 
 
 class Thumbnail(TypedDict):
@@ -74,8 +74,8 @@ def load_assets(root: Path) -> list[Asset]:
     public = root / 'docs/public'
     result: list[Asset] = []
     seen: set[str] = set()
-    for character, version in COLLECTIONS:
-        manifest_path = root / f'catalog/{character}/{version}/manifest.json'
+    for manifest_path in sorted((root / 'catalog').glob('*/manifest.json')):
+        character = manifest_path.parent.name
         manifest = object_value(read_json(manifest_path), str(manifest_path))
         entries = manifest.get('assets')
         if not isinstance(entries, list):
@@ -84,13 +84,13 @@ def load_assets(root: Path) -> list[Asset]:
         for raw in checked_entries:
             asset = object_value(raw, str(manifest_path))
             asset_id = string_value(asset.get('id'), 'asset.id')
-            if '/' in asset_id or '\\' in asset_id or asset_id in ('.', '..'):
+            if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*-latest', asset_id):
                 raise ValueError(f'Invalid asset id: {asset_id}')
-            key = f'{character}/{version}/{asset_id}'
+            key = f'{character}/{asset_id}'
             if key in seen:
                 raise ValueError(f'Duplicate asset: {key}')
             seen.add(key)
-            if asset.get('character') != character or asset.get('version') != version:
+            if asset.get('character') != character:
                 raise ValueError(f'{key}: asset collection does not match its manifest')
             web = object_value(asset.get('web'), f'{key}.web')
             source_path = string_value(web.get('path'), f'{key}.web.path')
@@ -172,6 +172,12 @@ def build(root: Path, check: bool) -> int:
         path.parent.mkdir(parents=True, exist_ok=True)
         if not path.exists() or path.read_bytes() != data:
             path.write_bytes(data)
+    for stale in thumbs.rglob('*.webp'):
+        if stale not in outputs:
+            stale.unlink()
+    for directory in sorted(thumbs.rglob('*'), reverse=True):
+        if directory.is_dir() and not any(directory.iterdir()):
+            directory.rmdir()
     thumbs.mkdir(parents=True, exist_ok=True)
     index_text = json.dumps(index, ensure_ascii=False, indent=2) + '\n'
     if not index_path.exists() or index_path.read_text(encoding='utf-8') != index_text:

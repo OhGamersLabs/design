@@ -1,11 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { createSearchRender } from './search-render.mjs'
-import { parseAnchorMap, parseArchive, parseChanges, parseNames, readJson } from './data/bunny-data.mjs'
+import { parseAnchorMap, readJson } from './data/bunny-data.mjs'
 
 const dataRoot = new URL('./data/bunny/', import.meta.url)
-const archive = parseArchive(readJson(new URL('archive.json', dataRoot), { groups: [] }))
-const names = parseNames(readJson(new URL('asset-names.json', dataRoot), {}))
-const changes = parseChanges(readJson(new URL('changes.json', dataRoot), []))
 const anchorMap = parseAnchorMap(readJson(new URL('anchor-map.json', dataRoot), { stubs: {}, anchors: {} }))
 
 export default defineConfig({
@@ -29,9 +26,7 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'OhGamers / Design',
     nav: [
-      { text: 'Bunny', link: '/characters/bunny/', activeMatch: '^/characters/bunny/(?!downloads|archive)' },
-      { text: '下载', link: '/characters/bunny/downloads' },
-      { text: '历史档案', link: '/characters/bunny/archive' },
+      { text: 'Bunny', link: '/characters/bunny/', activeMatch: '^/characters/bunny/' },
       { text: '通用规范', link: '/standards/', activeMatch: '/standards/' },
     ],
     sidebar: {
@@ -55,7 +50,7 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
-        _render: createSearchRender({ archive, names, changes }),
+        _render: createSearchRender(),
         locales: {
           root: {
             translations: {

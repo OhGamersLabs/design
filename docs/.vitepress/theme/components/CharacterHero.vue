@@ -85,8 +85,8 @@ function onTabKeydown(event: KeyboardEvent, index: number) {
         </ul>
         <p>{{ data.home.chipNote }}</p>
       </div>
-      <dl class="bunny-version">
-        <div><dt>版本</dt><dd>{{ data.home.version }}</dd></div>
+      <dl class="bunny-status">
+
         <div><dt>状态</dt><dd data-hero-status>{{ data.home.status }}</dd></div>
         <div><dt>最近更新</dt><dd><time :datetime="data.home.updated">{{ data.home.updated }}</time></dd></div>
       </dl>

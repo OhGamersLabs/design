@@ -61,7 +61,7 @@ const imageUrl = computed(() => resolveUrl(props.src))
 const thumbnailUrl = computed(() => resolveUrl(props.thumb ?? props.src))
 const originalUrl = computed(() => resolveUrl(props.original || props.src))
 const lightboxGroup = computed(() => (
-  props.assetId === 'bunny-original' || /\/origins\/1\.0\.0\/bunny-original\.(?:webp|png)$/.test(props.src)
+  props.assetId === 'bunny-original-latest' || /\/origins\/bunny-original-latest\.(?:webp|png)$/.test(props.src)
     ? undefined
     : props.group || undefined
 ))

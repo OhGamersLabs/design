@@ -12,7 +12,7 @@ STATIC = ROOT / 'docs/.vitepress/dist'
 def local_media():
     # Rebuilt catalogs can add new review images while this preview stays open.
     catalog = json.loads((ROOT / 'catalog/releases.json').read_text())
-    return {item['path']: ROOT / '.release' / item['character'] / item['version'] / item['key'].rsplit('/', 1)[1]
+    return {item['path']: ROOT / '.release' / item['character'] / item['key'].rsplit('/', 1)[1]
             for item in catalog['assets']}
 
 
@@ -27,7 +27,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
     def serve(self, head):
         url = urllib.parse.urlsplit(self.path)
         if url.path == '/media' or url.path.startswith('/media/'):
-            path = local_media().get(url.path) if not url.query else None
+            path = local_media().get(url.path) if not any(char in self.path for char in '?%\\#') else None
             if path is None or not path.is_file():
                 return self.send_error(404)
         else:

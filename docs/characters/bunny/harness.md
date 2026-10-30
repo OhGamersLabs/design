@@ -22,11 +22,11 @@ aside: false
 
 <div class="bunny-body-views">
 
-<AssetImage id="belt-v2-only-cel-front-v1" group="layer-7" caption="正面" />
+<AssetImage id="belt-front-latest" group="layer-7" caption="正面" />
 
-<AssetImage id="belt-v2-only-cel-side-v1" group="layer-7" caption="角色右侧面" />
+<AssetImage id="belt-side-latest" group="layer-7" caption="角色右侧面" />
 
-<AssetImage id="belt-v2-only-cel-back-v1" group="layer-7" caption="背面" />
+<AssetImage id="belt-back-latest" group="layer-7" caption="背面" />
 
 </div>
 
@@ -34,13 +34,12 @@ aside: false
 
 衣层编号不等于实际穿衣顺序：上身由内到外是白色内搭 → 橙色夹克；皮带只围绕红裤裤腰。
 
-[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
 ## 分件结构 <small>拆成单件看</small> {#construction}
 
 <span id="belt-components"></span>
 
-<AssetImage id="belt-v2-only-components-v1" group="layer-7" />
+<AssetImage id="belt-board-latest" group="layer-7" />
 
 | 图中标记 | 中文说明 |
 | --- | --- |

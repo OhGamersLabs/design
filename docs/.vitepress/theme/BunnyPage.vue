@@ -9,7 +9,7 @@ import RedirectStub from './components/RedirectStub.vue'
 const { frontmatter } = useData()
 const mode = computed(() => {
   const value: unknown = frontmatter.value.bunny
-  if (value === 'home' || value === 'archive' || value === 'layer' || value === 'reference' || value === 'stub') return value
+  if (value === 'home' || value === 'layer' || value === 'reference' || value === 'stub') return value
   throw new Error(`Unknown Bunny page layout: ${String(value)}`)
 })
 const layer = computed(() => {

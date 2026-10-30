@@ -1,0 +1,1229 @@
+{
+  "schema_version": "2.0",
+  "character_id": "bunny",
+  "language": "zh-CN",
+  "title": "Bunny 设计参考",
+  "status": "local-review",
+  "asset_count": 53,
+  "assets": [
+    {
+      "id": "belt-back-latest",
+      "character": "bunny",
+      "title": "belt-back-latest",
+      "original": {
+        "path": "/media/bunny/belt-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1168791,
+        "sha256": "a74c999fe7fe933defbba8b2ad56d291eaa9700cc6174cc9a0f600ef8e9352d5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/belt-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 657664,
+        "sha256": "0e459581bbfe6a465abb7416194f57ebbda37d3fe6bd6af0a44ecf9fae2bf060",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-board-latest",
+      "character": "bunny",
+      "title": "belt-board-latest",
+      "original": {
+        "path": "/media/bunny/belt-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1325501,
+        "sha256": "c63dd8f24d732e12e6a8e0059601e0607e2fcec393ec83d8e60d22422aac171b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/belt-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 758792,
+        "sha256": "385a829f6d75fe8da69d5bf2874351d2edac4e46a4947dbb7243078f1e29270a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-front-latest",
+      "character": "bunny",
+      "title": "belt-front-latest",
+      "original": {
+        "path": "/media/bunny/belt-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1634488,
+        "sha256": "e6f307ad2c6097c39381b5bc1ddc1b104c9cd8cb56c6df0a93881e31614cffa6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/belt-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 970770,
+        "sha256": "6d4341924c357edd93af76333491024b62165850d0997baaa02d36f080028d75",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-side-latest",
+      "character": "bunny",
+      "title": "belt-side-latest",
+      "original": {
+        "path": "/media/bunny/belt-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1496786,
+        "sha256": "a1b334ec6cbc96ecbb9785243c11a21d888b5139da6194c58a1b1d353c7c9d81",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/belt-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 890006,
+        "sha256": "9c6722e3960611fc5ecba58359cf91d894b6ba32d2dd53c50e77f6b7b8763292",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-back-latest",
+      "character": "bunny",
+      "title": "body-back-latest",
+      "original": {
+        "path": "/media/bunny/body-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1553620,
+        "sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/body-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 826412,
+        "sha256": "843a604350c5a8823acc08d61828406ef85edaac83672773477857416f09c8e1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-front-latest",
+      "character": "bunny",
+      "title": "body-front-latest",
+      "original": {
+        "path": "/media/bunny/body-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1499888,
+        "sha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/body-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 849970,
+        "sha256": "664e1d9f89092cc950e6b15ec10ceb3bf348fa9addbfcbb3e365c4d7cd19eb71",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-side-latest",
+      "character": "bunny",
+      "title": "body-side-latest",
+      "original": {
+        "path": "/media/bunny/body-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 955379,
+        "sha256": "c4ca73b3f865a6c2018e8db398dcd4ebc92cfe134389dfd63a9b9af33698e83b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/body-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 475778,
+        "sha256": "f85e22522a0cc2fa25b0c57a5b766881b1941d5453a06644cb10ebf56bb0c54c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-armed-expressions-latest",
+      "character": "bunny",
+      "title": "daggers-armed-expressions-latest",
+      "original": {
+        "path": "/media/bunny/daggers-armed-expressions-latest.png",
+        "mime_type": "image/png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 2031268,
+        "sha256": "f0f29973fb79a3c2a94fbf5b3a40848927b08fb77f26891dae70a63b59c0c77b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-armed-expressions-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1350892,
+        "sha256": "5a74a6370692ae4809d0e68f5b710b35fa0f91b08e6b7f9956fced4e07882c45",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-back-latest",
+      "character": "bunny",
+      "title": "daggers-back-latest",
+      "original": {
+        "path": "/media/bunny/daggers-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1641932,
+        "sha256": "e2a06d08ccc29e53b12cdafd72a67ad3555e85aeb9b34c44e15f6cb82cfb2529",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 983162,
+        "sha256": "d91bf2cb50807a564d87c78becdb1a6003655143b23464012a295f08ddd0b3c1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-dark-board-latest",
+      "character": "bunny",
+      "title": "daggers-dark-board-latest",
+      "original": {
+        "path": "/media/bunny/daggers-dark-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1208940,
+        "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-dark-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 623724,
+        "sha256": "82f07c8918b46089118b3044c69c20dee298d9d89d32abd593ca3e8c7d5b1872",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-front-latest",
+      "character": "bunny",
+      "title": "daggers-front-latest",
+      "original": {
+        "path": "/media/bunny/daggers-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1675343,
+        "sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 979542,
+        "sha256": "3a8edcdbb3d50164283661d7a97c248c85c7975911c4ed2a2a85c2cad3afcc00",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-ivory-board-latest",
+      "character": "bunny",
+      "title": "daggers-ivory-board-latest",
+      "original": {
+        "path": "/media/bunny/daggers-ivory-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1119435,
+        "sha256": "9786be7ae65f288135199f4154bc07e5c30a469904a9d5ef1c2dacc4052ddafc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-ivory-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 562388,
+        "sha256": "4fc4d278ce90e8afe3da4db1c8ddf034c8d5cc42584ce49b1425b1232a92ec0d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-mount-board-latest",
+      "character": "bunny",
+      "title": "daggers-mount-board-latest",
+      "original": {
+        "path": "/media/bunny/daggers-mount-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1623200,
+        "sha256": "3b410120dec0d90b692c146f5e2ad5c90889bc08722699a527197099043f1fb1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-mount-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1073052,
+        "sha256": "0a9372651d2cccd932702be327b851f1f88c6f575fc2f7cef623840b4f125e04",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-scale-board-latest",
+      "character": "bunny",
+      "title": "daggers-scale-board-latest",
+      "original": {
+        "path": "/media/bunny/daggers-scale-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1059494,
+        "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-scale-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 504626,
+        "sha256": "1772494e336f0fee08d04e34f102c2df4ac541f57def457b0774bd64dd12c6ed",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-side-latest",
+      "character": "bunny",
+      "title": "daggers-side-latest",
+      "original": {
+        "path": "/media/bunny/daggers-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1583222,
+        "sha256": "0e6678fb9ed780f1dd59f3d088ea1bdf16596aa4fa3f23f9c5784789fa35b60e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 902188,
+        "sha256": "1e75844aa671d7456bb2bcc0ad902bb94e64271f08eee8e322fe848b57e037ff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "bunny",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/bunny/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2495479,
+        "sha256": "a6dd535e5acbe9dfab82b232ebb094a5c62b2766b5d1cc1fdb49789233437e74",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1686590,
+        "sha256": "863581ed52e9176091bcb4739b5cf5081f33f3917df565d140853db946a01b0c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-back-latest",
+      "character": "bunny",
+      "title": "goggles-back-latest",
+      "original": {
+        "path": "/media/bunny/goggles-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1611441,
+        "sha256": "51015b8332971082138ee50d5c214d9cbb35fa8e024ac5918b19e117a9f715e0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/goggles-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 923986,
+        "sha256": "f88c9d5ee69436af965a3afda5d5941fe169d513ef7b94e2a1202c433df38011",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-board-latest",
+      "character": "bunny",
+      "title": "goggles-board-latest",
+      "original": {
+        "path": "/media/bunny/goggles-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1299551,
+        "sha256": "ef599633e9e102d34e0e46203faad88d6f5be20b6a10abad84b49da76a179328",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/goggles-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 696948,
+        "sha256": "de1703a583ff7a471ba39b49e13f8336bcba186cbe6ddb4a306bfcf7bcdf3bea",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-closeup-board-latest",
+      "character": "bunny",
+      "title": "goggles-closeup-board-latest",
+      "original": {
+        "path": "/media/bunny/goggles-closeup-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1287,
+        "height": 1222,
+        "bytes": 2006171,
+        "sha256": "1ba99c90d2741ff70cc5e400d3af6882d5e481449a8a91812365db123200392a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/goggles-closeup-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1287,
+        "height": 1222,
+        "bytes": 1312260,
+        "sha256": "98a14f1e0e7be400de8c48796f9a8e9b7aa96f4ff8f521a94e517bc84d598a62",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-front-latest",
+      "character": "bunny",
+      "title": "goggles-front-latest",
+      "original": {
+        "path": "/media/bunny/goggles-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1660860,
+        "sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/goggles-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 996224,
+        "sha256": "e012df1d89645b7d2a2d5ebabf65e2b8d6b080c891d936b64cfca70c03ee96e7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-side-latest",
+      "character": "bunny",
+      "title": "goggles-side-latest",
+      "original": {
+        "path": "/media/bunny/goggles-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1138279,
+        "sha256": "7ff6e681c139c965f52d7757a0703c192caa8878fcf5f84ae97225f82d745390",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/goggles-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 680930,
+        "sha256": "53a0fd67a83a4d6e18c11ebd22631b2b5d01ca073cd74cb43ee4515cbeb6ca92",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-back-latest",
+      "character": "bunny",
+      "title": "hands-back-latest",
+      "original": {
+        "path": "/media/bunny/hands-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1556174,
+        "sha256": "1ec76928e8b2ea1c944b4a18767e6ae94af37328076efe78f0303058555210cf",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hands-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 906570,
+        "sha256": "2f8a57ca3590f826e77ad45b9e5e763472b51dd64bc0f02675bb89e1b6cd1f03",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-front-latest",
+      "character": "bunny",
+      "title": "hands-front-latest",
+      "original": {
+        "path": "/media/bunny/hands-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1615924,
+        "sha256": "12693c4f6ed77cbff3275b57ec7df6d5500a7fa37575909f81cce20ba93bd82d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hands-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 942202,
+        "sha256": "d20cc545b3e84e07517c52b68ebcbad8fe7acc45a12109264153211c6b024549",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-gloves-board-latest",
+      "character": "bunny",
+      "title": "hands-gloves-board-latest",
+      "original": {
+        "path": "/media/bunny/hands-gloves-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1317319,
+        "sha256": "341e045496fa25466297645ba9444a6c583e18bbd238de74ca664a24e37d2adb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hands-gloves-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 761266,
+        "sha256": "002ca0e038fe3bb923208ba0a0425ae71f657c71dccafff30ffb81ffc12789cd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-side-latest",
+      "character": "bunny",
+      "title": "hands-side-latest",
+      "original": {
+        "path": "/media/bunny/hands-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1575713,
+        "sha256": "a76c2fdbd571875997a338ea815f004db00edf900a8d6d40ed27229907b62b9d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hands-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 761576,
+        "sha256": "abae3ac43554d7389f8cdf26d00410ed90037618388b27f816f0b9dd93d123c5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-wrist-board-latest",
+      "character": "bunny",
+      "title": "hands-wrist-board-latest",
+      "original": {
+        "path": "/media/bunny/hands-wrist-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1449369,
+        "sha256": "0930561b3021da8795e2f5da2ff539acf5cdd7028b5f00120d16e17d4ced0e57",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hands-wrist-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 889456,
+        "sha256": "ef1246f0f541e4d5b694cbfd7dc6a51eab8188a10e6d79251bd8929198dc2f14",
+        "alpha": false
+      }
+    },
+    {
+      "id": "head-reference-latest",
+      "character": "bunny",
+      "title": "head-reference-latest",
+      "original": {
+        "path": "/media/bunny/head-reference-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1580903,
+        "sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/head-reference-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 981340,
+        "sha256": "5802b882ff4904d4936aa09dc0bbf7e8da68395d6507bb4e05dd0961c70bcdb0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-back-latest",
+      "character": "bunny",
+      "title": "hosiery-back-latest",
+      "original": {
+        "path": "/media/bunny/hosiery-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1509857,
+        "sha256": "a4667822740a0d6582d4fe4a488d5d52eeef5284f8b843f1c6df8e94fc657cf0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hosiery-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 855138,
+        "sha256": "749f53b1d64a842ce7969720f4caee24867910078a41e09b5c79dda476f24188",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-board-latest",
+      "character": "bunny",
+      "title": "hosiery-board-latest",
+      "original": {
+        "path": "/media/bunny/hosiery-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1803173,
+        "sha256": "a7175b82fbd6bb6a76ef20aa74eb2e65f0881d4ad63fbafeed8d4d0314c8c26a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hosiery-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1161994,
+        "sha256": "b234cc2edcc87c3499c2d9ea4e9a7e0b076db928facadc12bb5967a48f63d9c4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-front-latest",
+      "character": "bunny",
+      "title": "hosiery-front-latest",
+      "original": {
+        "path": "/media/bunny/hosiery-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1196193,
+        "sha256": "7165dd529f0b365404b8a07748661540617ffa57b5570a71b7e4dd47f08f9f3f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hosiery-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 690582,
+        "sha256": "f8472e0f028395157d83d30f7bc09d60f674d9dbf8d3b13677e13e8628591761",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-side-latest",
+      "character": "bunny",
+      "title": "hosiery-side-latest",
+      "original": {
+        "path": "/media/bunny/hosiery-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1401543,
+        "sha256": "1bff3ceb095d2fad3755156925c47979b6eab42d3f69a817982b347934fc60cd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hosiery-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 778874,
+        "sha256": "4c0a800d2c7c0feaf2c84cb2eaab6b9274d9ec22852cf90a69faf74084f2660c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-back-latest",
+      "character": "bunny",
+      "title": "innerwear-back-latest",
+      "original": {
+        "path": "/media/bunny/innerwear-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1153738,
+        "sha256": "b357631a7a2f2a15d02d3b6c4f6a5f0feef8bc94b4957b77cc357357b1670253",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/innerwear-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 670794,
+        "sha256": "fb97381825a4a0efe57284bb0af134191a455885f36bd06d9a2bf96fe2d30c2b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-front-latest",
+      "character": "bunny",
+      "title": "innerwear-front-latest",
+      "original": {
+        "path": "/media/bunny/innerwear-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1138015,
+        "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/innerwear-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 644068,
+        "sha256": "66db06109d9fae31a57689fcb8ec19cc145164c78291a01f68b95777778ed0fa",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-shorts-board-latest",
+      "character": "bunny",
+      "title": "innerwear-shorts-board-latest",
+      "original": {
+        "path": "/media/bunny/innerwear-shorts-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1641552,
+        "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/innerwear-shorts-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1064388,
+        "sha256": "d84631237236fcac2832e01b6c80c82d2fcd85ab3a3c1c77a2432a19d1c5af77",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-side-latest",
+      "character": "bunny",
+      "title": "innerwear-side-latest",
+      "original": {
+        "path": "/media/bunny/innerwear-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1471945,
+        "sha256": "32a74e480e63e7626bc948492cdffd94323925379f72c71abf0df58abb22055e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/innerwear-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 773080,
+        "sha256": "7476de6c3d7ffdea964ce4f169ec12a50a87abd9e10083c21d8a59939d0c40f7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-top-board-latest",
+      "character": "bunny",
+      "title": "innerwear-top-board-latest",
+      "original": {
+        "path": "/media/bunny/innerwear-top-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1688937,
+        "sha256": "d949df8f7e088623bc4429a15a2a12e71712b2f1cf7291e73bf2707c9e57e890",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/innerwear-top-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 979558,
+        "sha256": "016c6a89983452c54c3c9459f29811c126c3714e3c118f797e35d8ea94dbc14f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-back-latest",
+      "character": "bunny",
+      "title": "jacket-back-latest",
+      "original": {
+        "path": "/media/bunny/jacket-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1598045,
+        "sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/jacket-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 931384,
+        "sha256": "46b259d810bb66f8596dab601fb618d2b83fc5872280ba6746d108eef7cd49d9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-board-latest",
+      "character": "bunny",
+      "title": "jacket-board-latest",
+      "original": {
+        "path": "/media/bunny/jacket-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1383599,
+        "sha256": "38fb58e5d74939030ada8236fa7e8e7ed4b711ecb590d59f1100ad70b5e8db6e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/jacket-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 888790,
+        "sha256": "766e1892e971e61d6c9e3a90cdc040a9c81a820569c6a9ccd2f4b1b777195719",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-details-board-latest",
+      "character": "bunny",
+      "title": "jacket-details-board-latest",
+      "original": {
+        "path": "/media/bunny/jacket-details-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1606022,
+        "sha256": "2c83e1df94e08b2c4201d88cec1a1380c57f960668f1fce543f9670596574f9f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/jacket-details-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1082306,
+        "sha256": "fd6dabfcfd15245f3cc9122b63949d4f8f10588a41b65d53e05335acb417c5f9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-front-latest",
+      "character": "bunny",
+      "title": "jacket-front-latest",
+      "original": {
+        "path": "/media/bunny/jacket-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1220204,
+        "sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/jacket-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 704464,
+        "sha256": "6dda61bd8ceb915bbf3a34df1d4fc72bbff8bdafa17b9ea3fb56ba4dfcbe4686",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-side-latest",
+      "character": "bunny",
+      "title": "jacket-side-latest",
+      "original": {
+        "path": "/media/bunny/jacket-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1515254,
+        "sha256": "a84fa973b6e3f20dee8f2124d812c01d521c1d13921af06ca6b35dfea12647c6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/jacket-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 812954,
+        "sha256": "b86633a4e8c8ee8fdd30b036b13e70a974282215681607fa696bc2d27f38b8ba",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-back-latest",
+      "character": "bunny",
+      "title": "shoes-back-latest",
+      "original": {
+        "path": "/media/bunny/shoes-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1522666,
+        "sha256": "94ef3bc4265b81cb8688716eb669d5ddb755ea2232fea7631abd58d91aeb8019",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/shoes-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 887432,
+        "sha256": "22fca0e9d20016b3b19c4d7e6fa7af7881603b988ef140900449c316531f3391",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-board-latest",
+      "character": "bunny",
+      "title": "shoes-board-latest",
+      "original": {
+        "path": "/media/bunny/shoes-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1576720,
+        "sha256": "f547cd3d02364f8deba75ea54f6f51192803bcd45cf4c0a85970d6912972b2f7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/shoes-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1021668,
+        "sha256": "e6145abfc9e43b9d88b23f4410b394c7268b3864c116f1b910de0ec7f74958e1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-front-latest",
+      "character": "bunny",
+      "title": "shoes-front-latest",
+      "original": {
+        "path": "/media/bunny/shoes-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1248276,
+        "sha256": "a88daac16fa7b359ab3e139c99af90545152e787ba25dbfe7ec6c7557b64b2bd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/shoes-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 746002,
+        "sha256": "0dc1126571714aaa3c2405f7e212f91de132a29c1c6ffe9df31c9583c7c18e3f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-side-latest",
+      "character": "bunny",
+      "title": "shoes-side-latest",
+      "original": {
+        "path": "/media/bunny/shoes-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1500244,
+        "sha256": "8e6199c107bbd86adbfce6ae129c2e56244e244a153e7cf65bf23b3155355cb7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/shoes-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 787302,
+        "sha256": "a934fd2a97cf3ead34d7e6520c64b56a6692f40fcbcca08f0a059e9d4756c1c4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "structure20-lineart-latest",
+      "character": "bunny",
+      "title": "structure20-lineart-latest",
+      "original": {
+        "path": "/media/bunny/structure20-lineart-latest.png",
+        "mime_type": "image/png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1436115,
+        "sha256": "5d57cdcffa8d22e1948059d03cc32cb08e9526de3eed0eaaf9e17a3bbdcc5c5f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/structure20-lineart-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1774,
+        "height": 887,
+        "bytes": 99396,
+        "sha256": "e70a14293fa49442fcfdc8b75325890bd50b98278bb42a3ca4307f296f5a99ad",
+        "alpha": false
+      }
+    },
+    {
+      "id": "sun05-pose-structure-latest",
+      "character": "bunny",
+      "title": "sun05-pose-structure-latest",
+      "original": {
+        "path": "/media/bunny/sun05-pose-structure-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1312057,
+        "sha256": "cb02a60b101c3668252059e68204902d0b2fe3b704d82b40c77b28ca55a05755",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/sun05-pose-structure-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 46976,
+        "sha256": "a8008bb770572f7e585470612f59aba747614a81cac64b188f14377a51078bec",
+        "alpha": false
+      }
+    },
+    {
+      "id": "sun05-scene-latest",
+      "character": "bunny",
+      "title": "sun05-scene-latest",
+      "original": {
+        "path": "/media/bunny/sun05-scene-latest.png",
+        "mime_type": "image/png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2651366,
+        "sha256": "cfb89d59ec0f9ca6b04d7f987a9371d4be0c5d28e2b83095dbd76dffa65d061a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/sun05-scene-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1774,
+        "height": 887,
+        "bytes": 381858,
+        "sha256": "ecdcf0420309fee3ed41528b2aa93b1a30245f6346b1bab60e5ab3a06548a746",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-back-latest",
+      "character": "bunny",
+      "title": "thigh-gear-back-latest",
+      "original": {
+        "path": "/media/bunny/thigh-gear-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1556940,
+        "sha256": "48cb6925661f92da9d80e7ca884e2b007cc164e37a1f053aefd4c1dc1b2c884b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/thigh-gear-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 897202,
+        "sha256": "013c1f8aa45bb43b6bd01fa070e0074d905e6780ed08380076fcd70229a4d53c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-front-latest",
+      "character": "bunny",
+      "title": "thigh-gear-front-latest",
+      "original": {
+        "path": "/media/bunny/thigh-gear-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1645047,
+        "sha256": "35aceb5aad49eb739586b16493d8a7c81f6faca7f71a536b6ea6aaf25edc68c5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/thigh-gear-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 935934,
+        "sha256": "7835b2eca9c3f10c1b2e7d09d865e60c7b796eeeb2818cc411afd3c2bf8bf2aa",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-pouch-board-latest",
+      "character": "bunny",
+      "title": "thigh-gear-pouch-board-latest",
+      "original": {
+        "path": "/media/bunny/thigh-gear-pouch-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1401787,
+        "sha256": "89519e6460e70b4527ac808ca376f4447affa1dfa2ead6274498cd955c79fe90",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/thigh-gear-pouch-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 784992,
+        "sha256": "9822aeed78e7f87df512dba84c2c316adccb7ef36920dfbc49e1d89e85b712f8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-side-latest",
+      "character": "bunny",
+      "title": "thigh-gear-side-latest",
+      "original": {
+        "path": "/media/bunny/thigh-gear-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1528220,
+        "sha256": "af9a6cef44d1870bcee0496e37c291ff75b84a229e80d1c5a83dda4711acd97e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/thigh-gear-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 828272,
+        "sha256": "4d6ef3e29baea850b9e4634ec146f8eb2b93a7b9b1e505db7ded3b82cf2ae3c4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-terminal-board-latest",
+      "character": "bunny",
+      "title": "thigh-gear-terminal-board-latest",
+      "original": {
+        "path": "/media/bunny/thigh-gear-terminal-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1260111,
+        "sha256": "d7ece50dcf120b0036224092bbe89483aee524b257713eb035765e3b1ea643c3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/thigh-gear-terminal-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 693062,
+        "sha256": "71f61b74511fb95bd4ab62821ecd0afc26bbc715ad63dbbb343b332539f58d1e",
+        "alpha": false
+      }
+    }
+  ]
+}

@@ -15,11 +15,11 @@ aside: false
 
 <div class="bunny-body-views">
 
-<AssetImage id="hosiery-v2-fresh-cel-front-v3" caption="正面" group="layer-2" />
+<AssetImage id="hosiery-front-latest" caption="正面" group="layer-2" />
 
-<AssetImage id="hosiery-v2-fresh-cel-side-v1" caption="角色右侧面" group="layer-2" />
+<AssetImage id="hosiery-side-latest" caption="角色右侧面" group="layer-2" />
 
-<AssetImage id="hosiery-v2-base-aligned-cel-back-v1" caption="背面" group="layer-2" />
+<AssetImage id="hosiery-back-latest" caption="背面" group="layer-2" />
 
 </div>
 
@@ -29,13 +29,12 @@ aside: false
 
 人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
 
-[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
 <span id="hosiery-construction"></span>
 
 ## 分件结构 <small>拆成单件看</small> {#construction}
 
-<AssetImage id="hosiery-v2-layer2-construction-v2" group="layer-2" />
+<AssetImage id="hosiery-board-latest" group="layer-2" />
 
 <span id="袜装针织细节"></span>
 

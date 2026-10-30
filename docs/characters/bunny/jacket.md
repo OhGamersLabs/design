@@ -17,11 +17,11 @@ aside: false
 
 <div class="bunny-body-views">
 
-<AssetImage id="jacket-v2-highlow-base-aligned-cel-front-v1" group="layer-6" caption="正面" />
+<AssetImage id="jacket-front-latest" group="layer-6" caption="正面" />
 
-<AssetImage id="jacket-v2-highlow-base-aligned-cel-side-v1" group="layer-6" caption="角色右侧面" />
+<AssetImage id="jacket-side-latest" group="layer-6" caption="角色右侧面" />
 
-<AssetImage id="jacket-v2-highlow-base-aligned-cel-back-v1" group="layer-6" caption="背面" detail="短后摆" />
+<AssetImage id="jacket-back-latest" group="layer-6" caption="背面" detail="短后摆" />
 
 </div>
 
@@ -39,13 +39,12 @@ aside: false
 
 人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
 
-[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
 ## 分件结构 <small>拆成单件看</small> {#construction}
 
 <span id="jacket-construction"></span>
 
-<AssetImage id="jacket-v2-highlow-construction-v1" group="layer-6" />
+<AssetImage id="jacket-board-latest" group="layer-6" />
 
 独立三视说明前长后短的衣形；分解示意分别展示衣身、角色左袖、角色右袖、前开口领、角色左袖口与角色右袖口六组外部部件。红前贴边和黑包边留在衣身，功能袋留在角色左袖上，纯白 OG 连环品牌图形位于袋身正面中央。衣身的领口与袖窿、袖端与袖口按对应接合位置阅读，不额外复制领片、袖段或袖口。
 
@@ -55,7 +54,7 @@ aside: false
 
 <span id="jacket-details"></span>
 
-<AssetImage id="jacket-v2-highlow-details-v1" group="layer-6" />
+<AssetImage id="jacket-details-board-latest" group="layer-6" />
 
 四组细节分别对照普通前开口领正背、角色左袖袋闭合与开启、袖口外侧与接缝翻转、红前贴边与下摆。角色左袖袋翻盖与上方缝合处相连，打开后露出袋口。纯白 OG 连环品牌图形位于袋身正面中央，袋盖开合时标志随袋身保持原位。不同状态用于说明同一部件，不计为新增部件。
 

@@ -16,11 +16,11 @@ aside: false
 
 <div class="bunny-body-views">
 
-<AssetImage id="thigh-v2-base-aligned-cel-front-v1" group="layer-5" caption="正面" />
+<AssetImage id="thigh-gear-front-latest" group="layer-5" caption="正面" />
 
-<AssetImage id="thigh-v2-base-aligned-cel-side-v1" group="layer-5" caption="角色右侧面" />
+<AssetImage id="thigh-gear-side-latest" group="layer-5" caption="角色右侧面" />
 
-<AssetImage id="thigh-v2-base-aligned-cel-back-v1" group="layer-5" caption="背面" />
+<AssetImage id="thigh-gear-back-latest" group="layer-5" caption="背面" />
 
 </div>
 
@@ -30,19 +30,18 @@ aside: false
 
 三张完整人物各为 1024×1536。人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
 
-[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
 ## 分件结构 <small>拆成单件看</small> {#construction}
 
 ### 任务终端与腿带 {#terminal-construction}
 
-<AssetImage id="thigh-v2-layer5-terminal-straps-construction-v1" detail="1536×1024" group="layer-5" />
+<AssetImage id="thigh-gear-terminal-board-latest" detail="1536×1024" group="layer-5" />
 
 终端保持完整黑色壳体，正面为浅灰导航屏与银色圆按钮，小角和带扣使用橙色。橙色快拆件属于腿带总成，带体分离图显示完整终端及背面带环，展示它们与一套腿带总成的外部对应关系；壳体未拆开，不据此假定内部电子或固定件。全身视图中的微小界面图形可简化，屏幕与壳体的颜色归属仍以部件板为准。
 
 ### 维护包与内容物 {#pouch-construction}
 
-<AssetImage id="thigh-v2-layer5-pouch-contents-construction-v1" detail="1536×1024" group="layer-5" />
+<AssetImage id="thigh-gear-pouch-board-latest" detail="1536×1024" group="layer-5" />
 
 维护包的长翻盖以中央按扣闭合；开盖时翻盖与包体连续，不能把翻盖当作分离的硬壳。独立腿带与包体分别展示，翻盖和后侧带环保持与包体连接。内容物分别展示一块电池、一根线缆和一块清洁布，用于说明收纳外观。
 

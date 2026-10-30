@@ -14,11 +14,11 @@ aside: false
 
 <div class="bunny-body-views">
 
-<AssetImage id="footwear-v2-base-aligned-cel-front-v1" group="layer-3" caption="正面" />
+<AssetImage id="shoes-front-latest" group="layer-3" caption="正面" />
 
-<AssetImage id="footwear-v2-base-aligned-cel-side-v1" group="layer-3" caption="角色右侧面" />
+<AssetImage id="shoes-side-latest" group="layer-3" caption="角色右侧面" />
 
-<AssetImage id="footwear-v2-base-aligned-cel-back-v1" group="layer-3" caption="背面" />
+<AssetImage id="shoes-back-latest" group="layer-3" caption="背面" />
 
 </div>
 
@@ -28,13 +28,12 @@ aside: false
 
 三张完整人物各为 1024×1536。鞋底厚度属于鞋层外形。人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。本页不提供隐藏踝位置、内部足床的精确尺寸或三维装配结论。
 
-[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
 ## 分件结构 <small>拆成单件看</small> {#construction}
 
 <span id="footwear-construction"></span>
 
-<AssetImage id="footwear-v2-layer3-construction-v2" detail="1536×1024" group="layer-3" />
+<AssetImage id="shoes-board-latest" detail="1536×1024" group="layer-3" />
 
 01—04 展示角色右鞋的正面、外侧、内侧和背面，05 为鞋底。外踝圆盘与前端小橙圈属于外侧，内侧没有这两件，外侧与内侧鞋面不能镜像复制。外踝圆盘为黑色，带橙色圆环；灰色圆锚与连接件采用双色硬边。正面与背面只见圆盘侧缘，前端小橙圈不出现在后跟面。
 

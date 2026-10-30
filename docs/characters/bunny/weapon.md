@@ -12,7 +12,7 @@ aside: false
 ## 武器设计 {#design}
 <span id="assassin-daggers-concept"></span>
 
-<AssetImage id="assassin-daggers-scale-master-v1" group="weapon" caption="双匕首尺寸母版 · 并列正面外观" />
+<AssetImage id="daggers-scale-board-latest" group="weapon" caption="双匕首尺寸母版 · 并列正面外观" />
 
 Bunny 以刺客定位使用两把各具完整造型的匕首：角色右侧是墨黑宽角獠牙刃，角色左侧是骨白前掠弧刃。刃形、护手、握柄与柄尾分别设计，通过少量红橙点和共同的手绘赛璐璐画风保持成对关系。
 
@@ -26,13 +26,13 @@ Bunny 以刺客定位使用两把各具完整造型的匕首：角色右侧是�
 
 #### 墨黑匕首
 
-<AssetImage id="assassin-daggers-dark-exterior-components-v1" group="weapon" caption="墨黑匕首 · 独立外观分件" />
+<AssetImage id="daggers-dark-board-latest" group="weapon" caption="墨黑匕首 · 独立外观分件" />
 
 宽角獠牙刃以灰色刃面和局部红色凹面划分层次；非对称黑护手、单独红领、硬分段握柄与带橙色细标的多面柄尾分别展示。
 
 #### 骨白匕首
 
-<AssetImage id="assassin-daggers-ivory-exterior-components-v1" group="weapon" caption="骨白匕首 · 独立外观分件" />
+<AssetImage id="daggers-ivory-board-latest" group="weapon" caption="骨白匕首 · 独立外观分件" />
 
 前掠曲刃采用灰色刃面与根部红色点缀；月牙护手、单独红领、带浅色嵌条的流线黑柄和橙点水滴柄尾各自分开。
 
@@ -49,18 +49,17 @@ Bunny 以刺客定位使用两把各具完整造型的匕首：角色右侧是�
 | [《我独自升级》水篠旬 · SEGA](https://segaplaza.jp/prize/D122440/) | 该图可见一把黑色主体、红色刃缘与偏置尖端的短刃。 | 提炼集中、清楚的色块与尖端方向；配色回到 Bunny 的黑红与小橙点。 |
 
 
-[原图下载](/characters/bunny/downloads#dl-weapon)
 
 ## 持握与后腰交叉携行 {#carry}
 <span id="dagger-carry"></span>
 
 <div class="bunny-body-views">
 
-<AssetImage id="assassin-daggers-waist-carry-cel-front-v3" group="weapon" caption="正面" />
+<AssetImage id="daggers-front-latest" group="weapon" caption="正面" />
 
-<AssetImage id="assassin-daggers-waist-carry-cel-side-v2" group="weapon" caption="角色右侧面" />
+<AssetImage id="daggers-side-latest" group="weapon" caption="角色右侧面" />
 
-<AssetImage id="assassin-daggers-waist-carry-cel-back-v2" group="weapon" caption="背面" />
+<AssetImage id="daggers-back-latest" group="weapon" caption="背面" />
 
 </div>
 
@@ -86,18 +85,18 @@ SUN-05 中两手同为正握。
 
 ### 后腰固定结构 {#dagger-waist-mount-structure}
 
-<AssetImage id="assassin-daggers-waist-mount-structure-v2" group="weapon" caption="后腰固定 · 局部外观结构研究" />
+<AssetImage id="daggers-mount-board-latest" group="weapon" caption="后腰固定 · 局部外观结构研究" />
 
 薄黑短托包住护手下方的一小段刀根，护手坐在托口上；上方束带回绕柄根，连接到同一承片；闭合带耳让裤腰皮带穿过。主图与放大局部说明这三层可见连接。
 
 这张板用于固定外观研究，不是武器本体分件图或尺寸基准。双刀轮廓与比例以[正面母版](#design)和[尺寸表](/characters/bunny/dimensions#weapon-dimensions)为准；人物三视说明携行状态。物理承载、抽取动作、动态间隙与 3D 碰撞未验证。
 
-连接层次参考 [Taki 授权雕像 · First 4 Figures](https://first4figures.com/collections/soulcalibur-ii-1/products/taki-regular)可见的束环与承片，以及 [Ayane 授权模型 · 海洋堂](https://kaiyodo.co.jp/items/revoltech/nr067/)的包抱束环。Bunny 只借鉴其中可见的连接层次，短托与后腰交叉组合是独立外观设计。低位交叉布局另参考 [tsukidal 的非官方 FFXIV 模组](https://www.xivmodarchive.com/modid/93419)，不沿用其中心穿插。
+连接层次参考 [Taki 授权雕像 · First 4 Figures](https://first4figures.com/collections/soulcalibur-ii-1/products/taki-regular)可见的束环与承片，以及 [Ayane 授权模型 · 海洋堂](https://kaiyodo.co.jp/items/revoltech/nr067/)的包抱束环。Bunny 只借鉴其中可见的连接层次，短托与后腰交叉组合是独立外观设计。
 
-[固定结构原始 PNG](/media/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.png) · [裤腰皮带](/characters/bunny/harness#wearing)
+[固定结构原始 PNG](/media/bunny/daggers-mount-board-latest.png) · [裤腰皮带](/characters/bunny/harness#wearing)
 
 ## 持刀表情 {#held-expressions}
 
-<AssetImage id="assassin-daggers-armed-expressions-v1" group="weapon" caption="画面左至画面右：专注 / 自信轻笑 / 放松" />
+<AssetImage id="daggers-armed-expressions-latest" group="weapon" caption="画面左至画面右：专注 / 自信轻笑 / 放松" />
 
 专注、自信轻笑与放松三格持刀表情独立于 16 格身份表情展示，面部身份以[中性头部](/characters/bunny/#identity)和[16 格表情](/characters/bunny/#expressions)为依据。
