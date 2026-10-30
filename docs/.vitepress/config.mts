@@ -1,5 +1,12 @@
 import { defineConfig } from 'vitepress'
-import { bunnySections } from './bunny-navigation.mjs'
+import { createSearchRender } from './search-render.mjs'
+import { parseAnchorMap, parseArchive, parseChanges, parseNames, readJson } from './data/bunny-data.mjs'
+
+const dataRoot = new URL('./data/bunny/', import.meta.url)
+const archive = parseArchive(readJson(new URL('archive.json', dataRoot), { groups: [] }))
+const names = parseNames(readJson(new URL('asset-names.json', dataRoot), {}))
+const changes = parseChanges(readJson(new URL('changes.json', dataRoot), []))
+const anchorMap = parseAnchorMap(readJson(new URL('anchor-map.json', dataRoot), { stubs: {}, anchors: {} }))
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -9,30 +16,25 @@ export default defineConfig({
   appearance: false,
   markdown: { headers: true },
   head: [
-    ['meta', { name: 'theme-color', content: '#fffdfa' }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
+  transformPageData(pageData) {
+    if (pageData.frontmatter.bunny !== 'stub') return
+    const path = `/${pageData.relativePath.replace(/\.md$/, '').replace(/index$/, '')}`
+    const stub = anchorMap.stubs[path]
+    if (!stub) throw new Error(`Missing redirect stub: ${path}`)
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push(['meta', { 'http-equiv': 'refresh', content: `3; url=${stub.target}` }])
+  },
   themeConfig: {
     siteTitle: 'OhGamers / Design',
     nav: [
-      { text: 'Bunny', link: '/characters/bunny/', activeMatch: '/characters/bunny/' },
+      { text: 'Bunny', link: '/characters/bunny/', activeMatch: '^/characters/bunny/(?!downloads|archive)' },
+      { text: '下载', link: '/characters/bunny/downloads' },
+      { text: '历史档案', link: '/characters/bunny/archive' },
       { text: '通用规范', link: '/standards/', activeMatch: '/standards/' },
     ],
     sidebar: {
-      '/characters/': [
-        {
-          text: '角色档案',
-          items: [
-            {
-              text: 'Bunny · 3.1.0 本地修订',
-              items: bunnySections.map((section) => ({
-                text: `${section.number} · ${section.label}`,
-                link: section.link,
-                items: section.items.filter((item) => item.link !== section.link),
-              })),
-            },
-          ],
-        },
-      ],
       '/standards/': [
         {
           text: '通用规范',
@@ -53,6 +55,7 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        _render: createSearchRender({ archive, names, changes }),
         locales: {
           root: {
             translations: {

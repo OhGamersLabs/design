@@ -1,0 +1,106 @@
+[
+  {
+    "date": "2026-10-29",
+    "order": 1,
+    "latest": {
+      "title": "场景图定稿",
+      "asset": "sun05-scene-final-v1",
+      "caption": "2026-10-29 场景图定稿"
+    },
+    "log": {
+      "change": "SUN-05 场景图定稿",
+      "reason": "—",
+      "asset": "sun05-scene-final-v1",
+      "caption": "现行：SUN-05 场景图定稿"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "order": 2,
+    "latest": {
+      "title": "STRUCTURE20 线稿通过",
+      "asset": "structure20-lineart-v1",
+      "caption": "2026-10-28 STRUCTURE20 线稿通过"
+    },
+    "log": {
+      "change": "STRUCTURE20 线稿通过（袖袋与 OG 校正）",
+      "reason": "—",
+      "asset": "structure20-lineart-v1",
+      "caption": "现行：STRUCTURE20 线稿"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "order": 3,
+    "latest": {
+      "title": "SUN-05 冲刺姿势选定",
+      "asset": "sun05-pose-structure-v1",
+      "caption": "SUN-05 人体结构稿，手中为占位杆"
+    },
+    "log": {
+      "change": "选定 SUN-05 张臂前冲为主动作",
+      "reason": "负责人选定",
+      "asset": "sun05-pose-structure-v1",
+      "caption": "现行：SUN-05 人体结构稿，手中为占位杆"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "order": 4,
+    "latest": {
+      "title": "后腰交叉携行三视",
+      "asset": "assassin-daggers-waist-carry-cel-back-v2",
+      "caption": "2026-10-27 后腰交叉携行三视（背面）"
+    },
+    "log": {
+      "change": "双匕首改为后腰交叉携行",
+      "reason": "负责人提出收刀放到腰后、交叉",
+      "asset": "assassin-daggers-waist-mount-structure-v2",
+      "caption": "现行：后腰交叉携行挂载结构"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "order": 5,
+    "latest": null,
+    "log": {
+      "change": "躯干只保留一条裤腰皮带",
+      "reason": "改用匕首后，原来的挂载不再需要",
+      "asset": "belt-v2-only-cel-front-v1",
+      "caption": "现行：第 7 层：一条黑色裤腰皮带"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "order": 6,
+    "latest": null,
+    "log": {
+      "change": "定位为刺客，武器改为异构双匕首",
+      "reason": "刺客用双匕首最合适（负责人）",
+      "asset": "assassin-daggers-scale-master-v1",
+      "caption": "现行：异构双匕首比例总图：墨黑獠牙刃与骨白弯刃"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "order": 7,
+    "latest": null,
+    "log": {
+      "change": "头部只保留护目镜",
+      "reason": "负责人定",
+      "asset": "goggles-v2-belt-only-cel-front-v1",
+      "caption": "现行：第 8 层：白色柔圆护目镜，推在额上"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "order": 8,
+    "latest": null,
+    "log": {
+      "change": "外套改为前长后短、普通领口，角色左袖袋改用 OG 标志",
+      "reason": "负责人定",
+      "asset": "jacket-v2-highlow-details-v1",
+      "caption": "现行：橙色夹克细节：领口、角色左袖袋与 OG 标志、袖口、前长后短下摆"
+    }
+  }
+]
