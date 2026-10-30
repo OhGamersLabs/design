@@ -1,1490 +1,434 @@
 {
-  "bunny/3.1.0/00-origin-positioning": {
-    "path": "/site/thumbs/bunny/3.1.0/00-origin-positioning.webp",
-    "width": 480,
-    "height": 480,
-    "sha256": "0f6135cede0acd1a88aa505a1336945dd1407b80d78f1ec186bd9ab778238acb",
-    "sourcePath": "/characters/bunny/3.1.0/00-origin-positioning.webp",
-    "sourceSha256": "00c0ed42cc1469b34ed192ffa344da066db2edf1a461edac5d2f9ec1f3087e8a"
-  },
-  "bunny/3.1.0/01-body-baseline": {
-    "path": "/site/thumbs/bunny/3.1.0/01-body-baseline.webp",
-    "width": 480,
-    "height": 420,
-    "sha256": "b6e6666c31e65082ea15eb7516143f4e9e029cb6875967314e81d965ba87c4db",
-    "sourcePath": "/characters/bunny/3.1.0/01-body-baseline.webp",
-    "sourceSha256": "38fb97aec1143d0f5fea68ee1f3a1fa2595cb13762118381efe76759bb8e9673"
-  },
-  "bunny/3.1.0/02-identity-style": {
-    "path": "/site/thumbs/bunny/3.1.0/02-identity-style.webp",
-    "width": 480,
-    "height": 440,
-    "sha256": "8f6f9a1e2532e13c32cd0e5b9e7b1f82b7c4caaf25b6e9405f86a00da4bec413",
-    "sourcePath": "/characters/bunny/3.1.0/02-identity-style.webp",
-    "sourceSha256": "ee0f2115ab1ccd47ac02f218c49fd21a78c706ca65f5cb1979b3f372506f483f"
-  },
-  "bunny/3.1.0/03-innerwear-coverage": {
-    "path": "/site/thumbs/bunny/3.1.0/03-innerwear-coverage.webp",
-    "width": 480,
-    "height": 407,
-    "sha256": "6c9440f94765b7eed2c0872a98a5dc6fb84f25f78d74e3e94f8943fc4efda2b8",
-    "sourcePath": "/characters/bunny/3.1.0/03-innerwear-coverage.webp",
-    "sourceSha256": "e9602e2a02623e2797866ce67cb4420662b2fa4959a2ae4eaa5f24d42eac16b9"
-  },
-  "bunny/3.1.0/04-white-top-construction": {
-    "path": "/site/thumbs/bunny/3.1.0/04-white-top-construction.webp",
-    "width": 480,
-    "height": 452,
-    "sha256": "fdff1f4220bfa22f39f4e8144ccdea5a5bbc60f1d9d03a3c39d1479c9b4e4769",
-    "sourcePath": "/characters/bunny/3.1.0/04-white-top-construction.webp",
-    "sourceSha256": "1c2955f70ddd5e230b59decefb8f9525e17a64861e5c59ea5584f753c1d9ced2"
-  },
-  "bunny/3.1.0/05-red-shorts-construction": {
-    "path": "/site/thumbs/bunny/3.1.0/05-red-shorts-construction.webp",
-    "width": 480,
-    "height": 452,
-    "sha256": "fe07db6375de2242fb0ea6b9de8f9da7f76c62c53d64bb4195db0c190a9cb347",
-    "sourcePath": "/characters/bunny/3.1.0/05-red-shorts-construction.webp",
-    "sourceSha256": "29520bc5c4799e7639843f1d4086f8622a861e52d0a129da32e9ef2e3cbadd7e"
-  },
-  "bunny/3.1.0/06-hosiery-wearing": {
-    "path": "/site/thumbs/bunny/3.1.0/06-hosiery-wearing.webp",
-    "width": 480,
-    "height": 407,
-    "sha256": "49cd8d778b7fb04eeb21cf38cd172cfbf7876742ea33ecf709acd5773bd73c4a",
-    "sourcePath": "/characters/bunny/3.1.0/06-hosiery-wearing.webp",
-    "sourceSha256": "13ae01ff8acfae7536de2b6281a76fbb97563efcbe5f23e28bde3dc838c1dfda"
-  },
-  "bunny/3.1.0/07-hosiery-knit-details": {
-    "path": "/site/thumbs/bunny/3.1.0/07-hosiery-knit-details.webp",
-    "width": 480,
-    "height": 407,
-    "sha256": "72a8c182db765fa7a38a0ed14f6b2606539359c721173dd8d105178849322868",
-    "sourcePath": "/characters/bunny/3.1.0/07-hosiery-knit-details.webp",
-    "sourceSha256": "0a7ebbdfb27a2d372bc45eb67431559856dae5c5d1594d95cba98e4302e27985"
-  },
-  "bunny/3.1.0/08-footwear-wearing-r2": {
-    "path": "/site/thumbs/bunny/3.1.0/08-footwear-wearing-r2.webp",
-    "width": 480,
-    "height": 497,
-    "sha256": "57ca05e5ba95ed74b816bcf16bb66966dd2a110a08b9dee8e14d11f7238c35ef",
-    "sourcePath": "/characters/bunny/3.1.0/08-footwear-wearing-r2.webp",
-    "sourceSha256": "d8eac56fbfd9ddfd799d707cb2bb89d48ca123747ce7f431a24a4145a69a5ee0"
-  },
-  "bunny/3.1.0/09-footwear-construction": {
-    "path": "/site/thumbs/bunny/3.1.0/09-footwear-construction.webp",
-    "width": 480,
-    "height": 452,
-    "sha256": "80273540246ada168740d2712d34ad031691b33836a8f2263ec63f71f5ee6761",
-    "sourcePath": "/characters/bunny/3.1.0/09-footwear-construction.webp",
-    "sourceSha256": "ed24f5afdc025c3c8f52aaf032f4a7cd834559021dbea23d90a05992ca25a929"
-  },
-  "bunny/3.1.0/10-hand-wearing": {
-    "path": "/site/thumbs/bunny/3.1.0/10-hand-wearing.webp",
-    "width": 480,
-    "height": 504,
-    "sha256": "2b5e29e61a0289c17a53cd5575f60caaa5dbb89607137f223ce489f58c580bd0",
-    "sourcePath": "/characters/bunny/3.1.0/10-hand-wearing.webp",
-    "sourceSha256": "1103025998b02c92fb3d1aef1cbea4286ac7837157b354c443f58753945a3dfa"
-  },
-  "bunny/3.1.0/11-glove-views": {
-    "path": "/site/thumbs/bunny/3.1.0/11-glove-views.webp",
-    "width": 480,
-    "height": 526,
-    "sha256": "e9a846f73fbc86ea9ca3005e919521233bc5d9ce727f4f52d534be65db8374a6",
-    "sourcePath": "/characters/bunny/3.1.0/11-glove-views.webp",
-    "sourceSha256": "6df997232b65d4476ddb1cf86df3b7485726b82cc6ee026cd6358c15ebdec6c9"
-  },
-  "bunny/3.1.0/12-wrist-accessories": {
-    "path": "/site/thumbs/bunny/3.1.0/12-wrist-accessories.webp",
-    "width": 480,
-    "height": 487,
-    "sha256": "f48fdcb82066b7a39d67c0d05e72ebca8c347d8270125b825ce27a499adff11b",
-    "sourcePath": "/characters/bunny/3.1.0/12-wrist-accessories.webp",
-    "sourceSha256": "c786fb9243b8dfe0767bf3441ce237341239851cc05f707a889cdcec3bf2fbbd"
-  },
-  "bunny/3.1.0/13-hands-cumulative-threeview": {
-    "path": "/site/thumbs/bunny/3.1.0/13-hands-cumulative-threeview.webp",
-    "width": 480,
-    "height": 422,
-    "sha256": "d88bb3a6c9cd472cdecad1a3f870ccaf02ad50377d68b1f0adc335c32e071724",
-    "sourcePath": "/characters/bunny/3.1.0/13-hands-cumulative-threeview.webp",
-    "sourceSha256": "7de44a1ec600ea70b97ec961e35f1f961b4d2b1e3be58a1a72188de0db5c22d1"
-  },
-  "bunny/3.1.0/14-thigh-wearing": {
-    "path": "/site/thumbs/bunny/3.1.0/14-thigh-wearing.webp",
-    "width": 480,
-    "height": 492,
-    "sha256": "6928aa2858226a07b8f01f6cc91d6988949b44888eefe1b55b7b409adcb78d7e",
-    "sourcePath": "/characters/bunny/3.1.0/14-thigh-wearing.webp",
-    "sourceSha256": "759d93844da12431c993875f906e2996d4fe11c74594ca78c15965c2f3cf3d21"
-  },
-  "bunny/3.1.0/15-task-terminal": {
-    "path": "/site/thumbs/bunny/3.1.0/15-task-terminal.webp",
-    "width": 480,
-    "height": 466,
-    "sha256": "8c99ca665040be6b0aa018881513aec20ee035d18dd54529d91d844639bf1ef6",
-    "sourcePath": "/characters/bunny/3.1.0/15-task-terminal.webp",
-    "sourceSha256": "54d2dd9ecb967a4a06031d1e9be09c013510c7763c61891db6467b900b10b530"
-  },
-  "bunny/3.1.0/16-maintenance-pouch": {
-    "path": "/site/thumbs/bunny/3.1.0/16-maintenance-pouch.webp",
-    "width": 480,
-    "height": 466,
-    "sha256": "478ee5a654c63719f41bd95d3e9fc89b117c56fa350e822347e74a3d782b2cc9",
-    "sourcePath": "/characters/bunny/3.1.0/16-maintenance-pouch.webp",
-    "sourceSha256": "cdc7c5c90b067568731ecba81f2287d9f04a49990398d70d184ede7dd35c5485"
-  },
-  "bunny/3.1.0/17-thigh-cumulative-threeview": {
-    "path": "/site/thumbs/bunny/3.1.0/17-thigh-cumulative-threeview.webp",
-    "width": 480,
-    "height": 422,
-    "sha256": "5a08b3c4e3b4bc2e3cf33a182556b751ab7f196c3c029187876d015a6485192c",
-    "sourcePath": "/characters/bunny/3.1.0/17-thigh-cumulative-threeview.webp",
-    "sourceSha256": "cb8600dfac512b2d4c427041f9b707a107176562e609fd94de5a4d829a39fc83"
-  },
-  "bunny/3.1.0/18-carrier-wearing": {
-    "path": "/site/thumbs/bunny/3.1.0/18-carrier-wearing.webp",
-    "width": 480,
-    "height": 420,
-    "sha256": "0eab55276dc903c211390d2b5c4148b661eb5fab353fb015fdbe3c4aaf4b16d9",
-    "sourcePath": "/characters/bunny/3.1.0/18-carrier-wearing.webp",
-    "sourceSha256": "d85574bf7d4edb9e5119a4414d5810f84fe689fef94a2c961b9fd4259f56ff1e"
-  },
-  "bunny/3.1.0/19-carrier-components": {
-    "path": "/site/thumbs/bunny/3.1.0/19-carrier-components.webp",
-    "width": 480,
-    "height": 360,
-    "sha256": "63cde9040e9ef0277923aeb108e76efebef08c650b42aa5efa68497c60abe4fe",
-    "sourcePath": "/characters/bunny/3.1.0/19-carrier-components.webp",
-    "sourceSha256": "81d92da4b6dc339836fedb9a0c6980e356c1f696d3fe0d61698e31d99721b1b4"
-  },
-  "bunny/3.1.0/20-carrier-details": {
-    "path": "/site/thumbs/bunny/3.1.0/20-carrier-details.webp",
-    "width": 480,
-    "height": 470,
-    "sha256": "489b05aa766444cb3f97cda1deb02016f160cab931fa8f2e7542508d67bf7598",
-    "sourcePath": "/characters/bunny/3.1.0/20-carrier-details.webp",
-    "sourceSha256": "515b44b5e6d1d220c1b3f395872aeb24eb0bfae529a9d2d3c15a38387e01edb2"
-  },
-  "bunny/3.1.0/21-carrier-details": {
-    "path": "/site/thumbs/bunny/3.1.0/21-carrier-details.webp",
-    "width": 480,
-    "height": 470,
-    "sha256": "da2b95cc210522723d1747d7da261f187c1c5855e7e9b1f2ce3026db753b3d4c",
-    "sourcePath": "/characters/bunny/3.1.0/21-carrier-details.webp",
-    "sourceSha256": "080683f89f345fdb4ae384946cc88058cfcc14ed6ee1989da90b3fc29a907fea"
-  },
-  "bunny/3.1.0/22-jacket-wearing": {
-    "path": "/site/thumbs/bunny/3.1.0/22-jacket-wearing.webp",
-    "width": 480,
-    "height": 420,
-    "sha256": "20a1eb3df55e1799c995e2dd95e6dd4084fb53b7f3f78b6642960c2214412562",
-    "sourcePath": "/characters/bunny/3.1.0/22-jacket-wearing.webp",
-    "sourceSha256": "991379859c7e9595ab8f6d552221bc98e46268a3a94aab4df6227134173242a8"
-  },
-  "bunny/3.1.0/23-jacket-components": {
-    "path": "/site/thumbs/bunny/3.1.0/23-jacket-components.webp",
-    "width": 480,
-    "height": 360,
-    "sha256": "de2caf0c3c63e9500f46a261dfe42f24bd8993d252fd7397ebd33265a8ab06c5",
-    "sourcePath": "/characters/bunny/3.1.0/23-jacket-components.webp",
-    "sourceSha256": "d82e9f8f407645aabc2979cefa174a8a7a74d5ee419243ec90a2c5ebe173d64d"
-  },
-  "bunny/3.1.0/24-jacket-details": {
-    "path": "/site/thumbs/bunny/3.1.0/24-jacket-details.webp",
-    "width": 480,
-    "height": 470,
-    "sha256": "14fd3f48b413f2d685a1a4b08e75831d18bb7885a0656e8b55343ed9931412cb",
-    "sourcePath": "/characters/bunny/3.1.0/24-jacket-details.webp",
-    "sourceSha256": "f944bac7175b0564d4bba02c95b2113b42c8c9014b6166dfe7b861599ccc6038"
-  },
-  "bunny/3.1.0/25-head-equipment-wearing": {
-    "path": "/site/thumbs/bunny/3.1.0/25-head-equipment-wearing.webp",
-    "width": 480,
-    "height": 340,
-    "sha256": "46c6041cc085c16bb83b6e809d08cc044f2bee845ca4d4069a71df1c6d10d64a",
-    "sourcePath": "/characters/bunny/3.1.0/25-head-equipment-wearing.webp",
-    "sourceSha256": "b9812865f80f728e33d2c66b83c3450ddad08b9b28826d64da5ff1c54d04cff5"
-  },
-  "bunny/3.1.0/26-goggles-components": {
-    "path": "/site/thumbs/bunny/3.1.0/26-goggles-components.webp",
-    "width": 480,
-    "height": 460,
-    "sha256": "08bbb13598039cf5e0f4cc5228f07cc2658125bd4060fa671560ca629697c803",
-    "sourcePath": "/characters/bunny/3.1.0/26-goggles-components.webp",
-    "sourceSha256": "ab8f1aff81b739e77fea58b411f5d2878e1b6900a8344ed6b798e47e682de1cc"
-  },
-  "bunny/3.1.0/27-headphones-components": {
-    "path": "/site/thumbs/bunny/3.1.0/27-headphones-components.webp",
-    "width": 480,
-    "height": 460,
-    "sha256": "1dba449c7464774d754b79a4b2155c58348abf9bf1b0868e31e907ae313a06b7",
-    "sourcePath": "/characters/bunny/3.1.0/27-headphones-components.webp",
-    "sourceSha256": "48f3ada22a44f89d97a0f26ae03eeaad1bf09d2f32d3663e8a38e6937e16d1ce"
-  },
-  "bunny/3.1.0/28-ear-accessories-components": {
-    "path": "/site/thumbs/bunny/3.1.0/28-ear-accessories-components.webp",
-    "width": 480,
-    "height": 460,
-    "sha256": "8fd9b4277c3087d94fe11c916b35c2ef714e8dedd278cc1453d9c578999c871e",
-    "sourcePath": "/characters/bunny/3.1.0/28-ear-accessories-components.webp",
-    "sourceSha256": "ee165efc2f919a368841976f5a2712688e361d252a59826c642fbb5077c48d9e"
-  },
-  "bunny/3.1.0/29-head-equipment-cumulative": {
-    "path": "/site/thumbs/bunny/3.1.0/29-head-equipment-cumulative.webp",
-    "width": 480,
-    "height": 440,
-    "sha256": "5146b5c775560af6d37bc56c5cb54962484cffc1055e0899b94b6b3c8ceffa79",
-    "sourcePath": "/characters/bunny/3.1.0/29-head-equipment-cumulative.webp",
-    "sourceSha256": "482adcc3538c8c737ec9209c47283e4c9c5376d79383831e673521180bdc58e8"
-  },
-  "bunny/3.1.0/30-compact-weapon-exterior-parts": {
-    "path": "/site/thumbs/bunny/3.1.0/30-compact-weapon-exterior-parts.webp",
-    "width": 480,
-    "height": 502,
-    "sha256": "d1d9e5696d541dbc0302baf9acb62b2ef8ddf517e2abd50d5e0541a26e1a2246",
-    "sourcePath": "/characters/bunny/3.1.0/30-compact-weapon-exterior-parts.webp",
-    "sourceSha256": "5e8f59bdfe2e0095dff51f868b477a45fffaf565443ede0b67282c69dcdec0c7"
-  },
-  "bunny/3.1.0/31-neutral-stored-design-guide": {
-    "path": "/site/thumbs/bunny/3.1.0/31-neutral-stored-design-guide.webp",
-    "width": 480,
-    "height": 400,
-    "sha256": "a6caa5e87069f7be00f876559ccd6f4e3e2d598021cc0ee81e2dc5526219bad1",
-    "sourcePath": "/characters/bunny/3.1.0/31-neutral-stored-design-guide.webp",
-    "sourceSha256": "a840bdbed1fdbc0d7e4211dad0360690192b3a1f3f7129b3abe42d676659c5b9"
-  },
-  "bunny/3.1.0/31-neutral-stored-threeview": {
-    "path": "/site/thumbs/bunny/3.1.0/31-neutral-stored-threeview.webp",
-    "width": 480,
-    "height": 299,
-    "sha256": "ea95dbce8c07cbe02c7875d9b3c68d0a5073cf688cb5955e604d2dcafd2aaff5",
-    "sourcePath": "/characters/bunny/3.1.0/31-neutral-stored-threeview.webp",
-    "sourceSha256": "e74a96bb0629ba05080d05318b1b843a3699c85510e1be8e8e235f09f0f6b70a"
-  },
-  "bunny/3.1.0/34-cuff-mechanism": {
-    "path": "/site/thumbs/bunny/3.1.0/34-cuff-mechanism.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "bded09ac91819e58ddf32501806d54358bb2e90208e2c0db9b6be26f403c43a3",
-    "sourcePath": "/characters/bunny/3.1.0/34-cuff-mechanism.webp",
-    "sourceSha256": "d2cca23c0fba26d5a21e447fb4d00e3d187e0d21d6277e18ddfebfdcc959b0a2"
-  },
-  "bunny/3.1.0/35-lacing-thigh-motion": {
-    "path": "/site/thumbs/bunny/3.1.0/35-lacing-thigh-motion.webp",
-    "width": 480,
-    "height": 422,
-    "sha256": "d9ebed33f992800b848f9570ea60bb96251ce7d22597e7824925a1e63ff4fee6",
-    "sourcePath": "/characters/bunny/3.1.0/35-lacing-thigh-motion.webp",
-    "sourceSha256": "3dd419cd294a8b178eafe6f5f32ba251e4c746c720e6c2242e076e35a919a435"
-  },
-  "bunny/3.1.0/assassin-daggers-armed-expressions-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-armed-expressions-v1.webp",
-    "width": 480,
-    "height": 160,
-    "sha256": "8ff001bb8cf280c2194a34649e41fe220e35c3ed4f189cc99b20552cdd8d4487",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-armed-expressions-v1.webp",
-    "sourceSha256": "5a74a6370692ae4809d0e68f5b710b35fa0f91b08e6b7f9956fced4e07882c45"
-  },
-  "bunny/3.1.0/assassin-daggers-concept-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-concept-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "fe3ca696f437ecfd46f1c3f0877e1990587f333ed8da2eca27599668c9f60fa8",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-concept-v1.webp",
-    "sourceSha256": "7fd8abc5731672d577c290e2ab2c2c4acccbeac600057daffaefd8bdcf302135"
-  },
-  "bunny/3.1.0/assassin-daggers-dark-exterior-components-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "b04525e3a076b24c4718f6365dab605c403dd0ae7fd2d30cc111fab3fcf1e054",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-dark-exterior-components-v1.webp",
-    "sourceSha256": "82f07c8918b46089118b3044c69c20dee298d9d89d32abd593ca3e8c7d5b1872"
-  },
-  "bunny/3.1.0/assassin-daggers-dual-grip-pose-a-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-dual-grip-pose-a-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "0f237658aa489ced5237fad903c697a2266de21a1d49b48067a3c7ddcd9fea65",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-dual-grip-pose-a-v1.webp",
-    "sourceSha256": "bf0c957749241ee65d7a54c248f9c3a0721faf6e7e5c9d5f1bcfcea3cb9b6be4"
-  },
-  "bunny/3.1.0/assassin-daggers-dual-grip-pose-b-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-dual-grip-pose-b-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "5a7315745f128f4486b015ea522bfaba1739bccda63532380d59b1dadb4e99ad",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-dual-grip-pose-b-v1.webp",
-    "sourceSha256": "0fff00e34a487d74e7ea33acf8dba539b93519f08ba79bbe4520d746bf67cfb9"
-  },
-  "bunny/3.1.0/assassin-daggers-held-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-held-cel-back-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "13dc6e35ea3c2b97cdb1d2c578b3ce839faa9c89674df658d7d14ad0ba47915e",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-held-cel-back-v1.webp",
-    "sourceSha256": "0ae3f993192a4a28c4a0058c7c2245b9e26c5377ce82bafd66e548a8a72aeb21"
-  },
-  "bunny/3.1.0/assassin-daggers-held-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-held-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "995faa4e1de288ecf5b3ede6109da334dc22f93779b0bcc6108b7b133e31b7bd",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-held-cel-side-v1.webp",
-    "sourceSha256": "2102bf41a5c037ddc57a5b638ab0ceaa189bbb4ad4426b37f817c79c23cc61c1"
-  },
-  "bunny/3.1.0/assassin-daggers-held-main-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-held-main-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "cd1996baf6ed6eb66246ebae3f212808443d233e56594ed613c14b69474badc8",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-held-main-v1.webp",
-    "sourceSha256": "eb6e0d84134f96232adb6d0c36b7dfee730af0f8f0bbafd3eaab9d8d13c2c0d6"
-  },
-  "bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "d6f649c879fe55412ad28b24245a10a99b91150e931f5f4ff6c285ddb966472a",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-ivory-exterior-components-v1.webp",
-    "sourceSha256": "4fc4d278ce90e8afe3da4db1c8ddf034c8d5cc42584ce49b1425b1232a92ec0d"
-  },
-  "bunny/3.1.0/assassin-daggers-scale-master-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-scale-master-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "9248f1bb35bd547281d5a52542118819aaee9626934c5bc6714a11393b814da7",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-scale-master-v1.webp",
-    "sourceSha256": "1772494e336f0fee08d04e34f102c2df4ac541f57def457b0774bd64dd12c6ed"
-  },
-  "bunny/3.1.0/assassin-daggers-twin-belt-carry-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-twin-belt-carry-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "230884aa509eb0c9057a8910a03f3e2628bf48b684259aa37cd4db0179cd1390",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-twin-belt-carry-v1.webp",
-    "sourceSha256": "bba61c6d59d934da58901bb4075b4922efb55a2ae676345cf23ffd3fa037ecc9"
-  },
-  "bunny/3.1.0/assassin-daggers-twin-concept-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-twin-concept-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "bd31d7f56ab77ee65457d43759f8acac58a925fb1cb71eb154cfd48252953cbf",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-twin-concept-v1.webp",
-    "sourceSha256": "c87d035d23eeae17e23765565b52f51e2c139a48fa6a0e0345ca3802c9636ef9"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.webp",
-    "width": 480,
-    "height": 480,
-    "sha256": "2c6a23d37cbeaa2b539b9d7f52d803e67865f997b591871e9e73f0ba6463142f",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v1.webp",
-    "sourceSha256": "ab7bd74c0cbf26114ec5b5d0be5f292f7b60ec70702b5f6ed84fa4943050ef8d"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "783f96858b51389cc059b8d3e7a2e907995214d242266ab73172d8c263855132",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.webp",
-    "sourceSha256": "d91bf2cb50807a564d87c78becdb1a6003655143b23464012a295f08ddd0b3c1"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v1.webp",
-    "width": 480,
-    "height": 480,
-    "sha256": "fb94142297d443236a58de237b317d8392beea5f311f06e4e4d1f01551ce7396",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v1.webp",
-    "sourceSha256": "653e45105cb9ea557269eaba75de9003df0839d8375b788b7769c2078f95a326"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "c02486726c3503458a1610f6b64c2bf965b12a39cb62887d3d7425b8ccecd272",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.webp",
-    "sourceSha256": "1c77d199cba6ac4f8492da2201e33ccce53941da07694332741510f17577e78b"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "53c946a783a880b01342b7be3ca9631486fd0f04c81d723016e59b5b412d74f3",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3.webp",
-    "sourceSha256": "3a8edcdbb3d50164283661d7a97c248c85c7975911c4ed2a2a85c2cad3afcc00"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1.webp",
-    "width": 480,
-    "height": 480,
-    "sha256": "d0397b8fc8b2177b8304473472b9690b74bbb903c06e248c67926671ef747e42",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1.webp",
-    "sourceSha256": "62ffe10c88304dd58da6af58a90fc77570fb56a5411a203bdc8c89d90e145440"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "98527e220e3d2582cbd440a9c8e2c4acd71c1c77456c199b3936153969256444",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v2.webp",
-    "sourceSha256": "1e75844aa671d7456bb2bcc0ad902bb94e64271f08eee8e322fe848b57e037ff"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-mount-structure-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "56f63d2b6848c87f51b7bd7c3ee20ea113c2781ee9a557ef9b118459778f9ff1",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v1.webp",
-    "sourceSha256": "aff4da4f3709f49167294b011dd34974d5a8d0c83b3a932f043dee2fce55b8f1"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-mount-structure-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "405717679493bdd5a49397abf2d2892a108dadde72d8ec7049be3d42e3260373",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-mount-structure-v2.webp",
-    "sourceSha256": "0a9372651d2cccd932702be327b851f1f88c6f575fc2f7cef623840b4f125e04"
-  },
-  "bunny/3.1.0/assassin-daggers-waist-sheaths-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-sheaths-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "75f5b2ddf8b6fa0af82d1cd6f5e597b84eda0fe6b056a322f97bc3572e42ccfe",
-    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-sheaths-v1.webp",
-    "sourceSha256": "b3ad228e0ec237595276d5f8306ab661119d405867a86716c806cd0b4ada7fd3"
-  },
-  "bunny/3.1.0/belt-v2-only-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/belt-v2-only-cel-back-v1.webp",
+  "bunny/belt-back-latest": {
+    "path": "/site/thumbs/bunny/belt-back-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "6591eb5fe692e46b287debc3724e171f0399703558d8b6d71f54cfdeac666bd2",
-    "sourcePath": "/characters/bunny/3.1.0/belt-v2-only-cel-back-v1.webp",
+    "sourcePath": "/characters/bunny/belt-back-latest.webp",
     "sourceSha256": "0e459581bbfe6a465abb7416194f57ebbda37d3fe6bd6af0a44ecf9fae2bf060"
   },
-  "bunny/3.1.0/belt-v2-only-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/belt-v2-only-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "b8007b971d02ebac0babde3943a254fe92308d6a7b356e40ea0ec73b0de57aaa",
-    "sourcePath": "/characters/bunny/3.1.0/belt-v2-only-cel-front-v1.webp",
-    "sourceSha256": "6d4341924c357edd93af76333491024b62165850d0997baaa02d36f080028d75"
-  },
-  "bunny/3.1.0/belt-v2-only-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/belt-v2-only-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "3ce43761a38b711f860f500556bb671d41711a47869dd6df4a445fb569a475d9",
-    "sourcePath": "/characters/bunny/3.1.0/belt-v2-only-cel-side-v1.webp",
-    "sourceSha256": "9c6722e3960611fc5ecba58359cf91d894b6ba32d2dd53c50e77f6b7b8763292"
-  },
-  "bunny/3.1.0/belt-v2-only-components-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/belt-v2-only-components-v1.webp",
+  "bunny/belt-board-latest": {
+    "path": "/site/thumbs/bunny/belt-board-latest.webp",
     "width": 480,
     "height": 320,
     "sha256": "67673312bf2915c34f2bb6f0312fce6228f9235f294486300fc11895f6683ff9",
-    "sourcePath": "/characters/bunny/3.1.0/belt-v2-only-components-v1.webp",
+    "sourcePath": "/characters/bunny/belt-board-latest.webp",
     "sourceSha256": "385a829f6d75fe8da69d5bf2874351d2edac4e46a4947dbb7243078f1e29270a"
   },
-  "bunny/3.1.0/body-v2-basic-bra-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-basic-bra-back-v1.webp",
+  "bunny/belt-front-latest": {
+    "path": "/site/thumbs/bunny/belt-front-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "0870de6a42cbc0228fcffa345c0f02180e059217fcc9838aca2ea2866b381b84",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-basic-bra-back-v1.webp",
-    "sourceSha256": "54328219189df53e7071dceaa2f375df57d8c462dc2e22b3bfcde56ca7e1d28c"
+    "sha256": "b8007b971d02ebac0babde3943a254fe92308d6a7b356e40ea0ec73b0de57aaa",
+    "sourcePath": "/characters/bunny/belt-front-latest.webp",
+    "sourceSha256": "6d4341924c357edd93af76333491024b62165850d0997baaa02d36f080028d75"
   },
-  "bunny/3.1.0/body-v2-basic-bra-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-basic-bra-front-v1.webp",
+  "bunny/belt-side-latest": {
+    "path": "/site/thumbs/bunny/belt-side-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "b67d9df03b71afcdd0f8b9fd325300c06d4be8e38b7817dd8b980cd619330558",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-basic-bra-front-v1.webp",
-    "sourceSha256": "88db615f818f1766db842893601185fd6db0737680ee109c7cf30c6b4cd88bae"
+    "sha256": "3ce43761a38b711f860f500556bb671d41711a47869dd6df4a445fb569a475d9",
+    "sourcePath": "/characters/bunny/belt-side-latest.webp",
+    "sourceSha256": "9c6722e3960611fc5ecba58359cf91d894b6ba32d2dd53c50e77f6b7b8763292"
   },
-  "bunny/3.1.0/body-v2-basic-bra-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-basic-bra-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "e685869cdb9aeb44f3a0fc11b9fb456614d4057202b1064c94c9a52a9a0ad8bd",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-basic-bra-side-v1.webp",
-    "sourceSha256": "ef589f3a492cd0ec70dfd356025c23efb615b473604bff72ec74de7f6f09fe2e"
-  },
-  "bunny/3.1.0/body-v2-cel-refined-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-cel-refined-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "02e06551d55e16eea0c89c81555c374488682f07bfc833978bfdfce3cee2b5d3",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-cel-refined-v1.webp",
-    "sourceSha256": "1220a9fa28562632bf753fc52c2d8727f9a999520395a29af71d11d1b91b7474"
-  },
-  "bunny/3.1.0/body-v2-detail-refined-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-detail-refined-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "c76b01ef32271b3e90f15d18cad8828f8879e8ab71bbced7693bf3c1f13d7f6c",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-detail-refined-v1.webp",
-    "sourceSha256": "0d07b92326c2aa7331bb2964447c180b60fbe8ad0e3ff8cdbcd109621e7874a2"
-  },
-  "bunny/3.1.0/body-v2-fresh-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-fresh-cel-back-v1.webp",
+  "bunny/body-back-latest": {
+    "path": "/site/thumbs/bunny/body-back-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "1f1b7d9066c93f19ee7b1a42d433ae7f23208be8adb99eb2fd38411210767e49",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-fresh-cel-back-v1.webp",
+    "sourcePath": "/characters/bunny/body-back-latest.webp",
     "sourceSha256": "843a604350c5a8823acc08d61828406ef85edaac83672773477857416f09c8e1"
   },
-  "bunny/3.1.0/body-v2-fresh-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-fresh-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "9f111adf957a6a56b67a8a2c8fd879c0f6588c750cee13fe50857772ea5392ca",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-fresh-cel-front-v1.webp",
-    "sourceSha256": "8a6fd32dfbf612b892095192fe4d84c5d28aa532bfcd96875337c4c539b96ce2"
-  },
-  "bunny/3.1.0/body-v2-fresh-cel-front-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-fresh-cel-front-v2.webp",
+  "bunny/body-front-latest": {
+    "path": "/site/thumbs/bunny/body-front-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "8de367c675efac45e9bf1d9a9feb8a5667af0253144fae8ac2b113026e4aa297",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-fresh-cel-front-v2.webp",
+    "sourcePath": "/characters/bunny/body-front-latest.webp",
     "sourceSha256": "664e1d9f89092cc950e6b15ec10ceb3bf348fa9addbfcbb3e365c4d7cd19eb71"
   },
-  "bunny/3.1.0/body-v2-fresh-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-fresh-cel-side-v1.webp",
+  "bunny/body-side-latest": {
+    "path": "/site/thumbs/bunny/body-side-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "58a64fe13779b3997405024cca615e5d6d627ecccf0622695fa8fb031c3d8e4d",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-fresh-cel-side-v1.webp",
+    "sourcePath": "/characters/bunny/body-side-latest.webp",
     "sourceSha256": "f85e22522a0cc2fa25b0c57a5b766881b1941d5453a06644cb10ebf56bb0c54c"
   },
-  "bunny/3.1.0/body-v2-full-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-full-back-v1.webp",
+  "bunny/daggers-armed-expressions-latest": {
+    "path": "/site/thumbs/bunny/daggers-armed-expressions-latest.webp",
+    "width": 480,
+    "height": 160,
+    "sha256": "8ff001bb8cf280c2194a34649e41fe220e35c3ed4f189cc99b20552cdd8d4487",
+    "sourcePath": "/characters/bunny/daggers-armed-expressions-latest.webp",
+    "sourceSha256": "5a74a6370692ae4809d0e68f5b710b35fa0f91b08e6b7f9956fced4e07882c45"
+  },
+  "bunny/daggers-back-latest": {
+    "path": "/site/thumbs/bunny/daggers-back-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "a53fa72e8e439464eb782e149320ad0168c7d6fc8b92fa5d560366a8b9f013a4",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-full-back-v1.webp",
-    "sourceSha256": "7d317181a7b98071db5b0e460256d257fd3eb36579faf13efd34306f612ab1e9"
+    "sha256": "783f96858b51389cc059b8d3e7a2e907995214d242266ab73172d8c263855132",
+    "sourcePath": "/characters/bunny/daggers-back-latest.webp",
+    "sourceSha256": "d91bf2cb50807a564d87c78becdb1a6003655143b23464012a295f08ddd0b3c1"
   },
-  "bunny/3.1.0/body-v2-full-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-full-front-v1.webp",
+  "bunny/daggers-dark-board-latest": {
+    "path": "/site/thumbs/bunny/daggers-dark-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "b04525e3a076b24c4718f6365dab605c403dd0ae7fd2d30cc111fab3fcf1e054",
+    "sourcePath": "/characters/bunny/daggers-dark-board-latest.webp",
+    "sourceSha256": "82f07c8918b46089118b3044c69c20dee298d9d89d32abd593ca3e8c7d5b1872"
+  },
+  "bunny/daggers-front-latest": {
+    "path": "/site/thumbs/bunny/daggers-front-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "4b91a4642d5c7c1ae6df46575a7981130ec83ea76c7b10c90d1eb0ed10fa3266",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-full-front-v1.webp",
-    "sourceSha256": "498d4d20ef116daeae71986681e571b3fb56ea62517ee659009bfaca7d782667"
+    "sha256": "53c946a783a880b01342b7be3ca9631486fd0f04c81d723016e59b5b412d74f3",
+    "sourcePath": "/characters/bunny/daggers-front-latest.webp",
+    "sourceSha256": "3a8edcdbb3d50164283661d7a97c248c85c7975911c4ed2a2a85c2cad3afcc00"
   },
-  "bunny/3.1.0/body-v2-full-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-full-side-v1.webp",
+  "bunny/daggers-ivory-board-latest": {
+    "path": "/site/thumbs/bunny/daggers-ivory-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "d6f649c879fe55412ad28b24245a10a99b91150e931f5f4ff6c285ddb966472a",
+    "sourcePath": "/characters/bunny/daggers-ivory-board-latest.webp",
+    "sourceSha256": "4fc4d278ce90e8afe3da4db1c8ddf034c8d5cc42584ce49b1425b1232a92ec0d"
+  },
+  "bunny/daggers-mount-board-latest": {
+    "path": "/site/thumbs/bunny/daggers-mount-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "405717679493bdd5a49397abf2d2892a108dadde72d8ec7049be3d42e3260373",
+    "sourcePath": "/characters/bunny/daggers-mount-board-latest.webp",
+    "sourceSha256": "0a9372651d2cccd932702be327b851f1f88c6f575fc2f7cef623840b4f125e04"
+  },
+  "bunny/daggers-scale-board-latest": {
+    "path": "/site/thumbs/bunny/daggers-scale-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "9248f1bb35bd547281d5a52542118819aaee9626934c5bc6714a11393b814da7",
+    "sourcePath": "/characters/bunny/daggers-scale-board-latest.webp",
+    "sourceSha256": "1772494e336f0fee08d04e34f102c2df4ac541f57def457b0774bd64dd12c6ed"
+  },
+  "bunny/daggers-side-latest": {
+    "path": "/site/thumbs/bunny/daggers-side-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "00325e03a8d8e2c5ccfd4e67688205026f8d03a78365992f810f3fd6b9e322e7",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-full-side-v1.webp",
-    "sourceSha256": "6a2b9ecb110e7a20c06de243ece48e19fde79c03d000906cf325f8d9462ba685"
+    "sha256": "98527e220e3d2582cbd440a9c8e2c4acd71c1c77456c199b3936153969256444",
+    "sourcePath": "/characters/bunny/daggers-side-latest.webp",
+    "sourceSha256": "1e75844aa671d7456bb2bcc0ad902bb94e64271f08eee8e322fe848b57e037ff"
   },
-  "bunny/3.1.0/body-v2-head-refined-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-head-refined-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "1d8fdf171db8a52433d1eb1f6f678f26cb49e0e993bde5c6e85b3d6237f04711",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-head-refined-v1.webp",
-    "sourceSha256": "ccc228b575a46cd2947c562f04a66a2e1c05ca3029ba77d3d296946c8900e754"
-  },
-  "bunny/3.1.0/body-v2-local-refined-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-local-refined-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "02a70a46e1a1ddaee1f7b383245aa782ea301bbd0ff04d8aebdc77abb39ff2c5",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-local-refined-v1.webp",
-    "sourceSha256": "ae10dea64d46a7be4e19d6ce457a12aa3390ef582146ad03b226c20ce237f137"
-  },
-  "bunny/3.1.0/body-v2-proportion-reference": {
-    "path": "/site/thumbs/bunny/3.1.0/body-v2-proportion-reference.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "6bc2ef2e1e8e0994e2e30e64035e4080f345d3f15622264a8f8fd2557da1edfa",
-    "sourcePath": "/characters/bunny/3.1.0/body-v2-proportion-reference.webp",
-    "sourceSha256": "4f720a94c6922bff0515b2957843d13d39de53d71e532932744d8683b5f86188"
-  },
-  "bunny/3.1.0/dimension-01-character-dimension-standard": {
-    "path": "/site/thumbs/bunny/3.1.0/dimension-01-character-dimension-standard.webp",
-    "width": 480,
-    "height": 332,
-    "sha256": "1412ffcfaf67b9f8ab122247ea618b70067acd6f8d3cc8dbd23a597233987ad5",
-    "sourcePath": "/characters/bunny/3.1.0/dimension-01-character-dimension-standard.webp",
-    "sourceSha256": "ef262179189405f322841b538fa5bf890a874b4974488f5e3e53709d8ffbc3fc"
-  },
-  "bunny/3.1.0/dimension-02-weapon-dimension-standard": {
-    "path": "/site/thumbs/bunny/3.1.0/dimension-02-weapon-dimension-standard.webp",
-    "width": 480,
-    "height": 332,
-    "sha256": "94da087ad0c55ae7c8f92edc4944008920ffe1863838c82f5eb8c087783de1c2",
-    "sourcePath": "/characters/bunny/3.1.0/dimension-02-weapon-dimension-standard.webp",
-    "sourceSha256": "48358c1d547c9aa7cf5ffeb3c7304e8fb3019a1113b6c06e6362cd69380c39f2"
-  },
-  "bunny/3.1.0/expressions-current-identity": {
-    "path": "/site/thumbs/bunny/3.1.0/expressions-current-identity.webp",
-    "width": 480,
-    "height": 480,
-    "sha256": "f021c1829e27c6f9b44d4635f595e5844381226a4947110e37b846feba3b4394",
-    "sourcePath": "/characters/bunny/3.1.0/expressions-current-identity.webp",
-    "sourceSha256": "99f00c46675c60ee82e9bd6c9ec45b36a98a1f18b105e5740ccd5da306a85a21"
-  },
-  "bunny/3.1.0/expressions-v2-cel-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/expressions-v2-cel-v1.webp",
-    "width": 480,
-    "height": 480,
-    "sha256": "cf3e3243e815928cf4e3b12178797198c83ffb6810331cdd4c4f97b64ebbb2d5",
-    "sourcePath": "/characters/bunny/3.1.0/expressions-v2-cel-v1.webp",
-    "sourceSha256": "efecf5bb194428045a6730ee2e2d92af9e7401ecca345181d396ccc934d930f9"
-  },
-  "bunny/3.1.0/expressions-v2-cel-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/expressions-v2-cel-v2.webp",
+  "bunny/expressions-sheet-latest": {
+    "path": "/site/thumbs/bunny/expressions-sheet-latest.webp",
     "width": 480,
     "height": 480,
     "sha256": "9ddb8fb896da8a50bdbd9a4c21d85183694878211130256b817d6fe6185a1143",
-    "sourcePath": "/characters/bunny/3.1.0/expressions-v2-cel-v2.webp",
+    "sourcePath": "/characters/bunny/expressions-sheet-latest.webp",
     "sourceSha256": "863581ed52e9176091bcb4739b5cf5081f33f3917df565d140853db946a01b0c"
   },
-  "bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "056ba9ab7855d5e5a67394916f7c7e3c40e1ae094ae77f1f396786e9a0dfa16f",
-    "sourcePath": "/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-back-v1.webp",
-    "sourceSha256": "22fca0e9d20016b3b19c4d7e6fa7af7881603b988ef140900449c316531f3391"
-  },
-  "bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "f226ce9748ed0077b3afe0e250a488b9d59aa393f1d472eb85df014185487a1b",
-    "sourcePath": "/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-front-v1.webp",
-    "sourceSha256": "0dc1126571714aaa3c2405f7e212f91de132a29c1c6ffe9df31c9583c7c18e3f"
-  },
-  "bunny/3.1.0/footwear-v2-base-aligned-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/footwear-v2-base-aligned-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "20edd9fee8c017e6d39f644909f1397b911d04b9653a057d429b3d94c01d6e06",
-    "sourcePath": "/characters/bunny/3.1.0/footwear-v2-base-aligned-cel-side-v1.webp",
-    "sourceSha256": "a934fd2a97cf3ead34d7e6520c64b56a6692f40fcbcca08f0a059e9d4756c1c4"
-  },
-  "bunny/3.1.0/footwear-v2-fresh-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "d4f00563bbc9984e73e17b36a499974045f216390c75f7a3fdb4c5cd823eaf27",
-    "sourcePath": "/characters/bunny/3.1.0/footwear-v2-fresh-cel-back-v1.webp",
-    "sourceSha256": "7973e1f5da2efd79392bf9883a3c159c9311ebc3cb545331f1266a2b8bd7a010"
-  },
-  "bunny/3.1.0/footwear-v2-fresh-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "a6c25603c0281055f713375083e66aec78c1422a56054ffe071cbd0450657ebf",
-    "sourcePath": "/characters/bunny/3.1.0/footwear-v2-fresh-cel-front-v1.webp",
-    "sourceSha256": "98fc7790e287156c6d87e5f65283a008a3064287de5879c352004c7f26a4f762"
-  },
-  "bunny/3.1.0/footwear-v2-fresh-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "43e1f767b00b20258c322c8fd3453c96ff8e964382e56213eb8225526bc1d34b",
-    "sourcePath": "/characters/bunny/3.1.0/footwear-v2-fresh-cel-side-v1.webp",
-    "sourceSha256": "9f495e0e27fa610a9f99749257bfaf4466c791f16a4eeb472180740c26301413"
-  },
-  "bunny/3.1.0/footwear-v2-fresh-cel-side-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "89b2c055894493edc206b28bc022ea93b57d9f9d78acfb6e4747af8a3df53349",
-    "sourcePath": "/characters/bunny/3.1.0/footwear-v2-fresh-cel-side-v2.webp",
-    "sourceSha256": "236279e3606e180ead810afef7cdb927ba11e1362a9588c4316fccabaaa32240"
-  },
-  "bunny/3.1.0/footwear-v2-layer3-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/footwear-v2-layer3-construction-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "bec10ced7f58c9fd6128faf4859ea09010200533c9cc36f92ece6cff57e64ba9",
-    "sourcePath": "/characters/bunny/3.1.0/footwear-v2-layer3-construction-v1.webp",
-    "sourceSha256": "bcfbc2602c02176161842b31f2b14e7dae8ec95754abdfb1e29e9cdb4a0314aa"
-  },
-  "bunny/3.1.0/footwear-v2-layer3-construction-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/footwear-v2-layer3-construction-v2.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "17142cc42b47cbfdb0e270d0c10a074c9a679db5eeb140d91d248459e6191f62",
-    "sourcePath": "/characters/bunny/3.1.0/footwear-v2-layer3-construction-v2.webp",
-    "sourceSha256": "e6145abfc9e43b9d88b23f4410b394c7268b3864c116f1b910de0ec7f74958e1"
-  },
-  "bunny/3.1.0/goggles-v2-belt-only-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.webp",
+  "bunny/goggles-back-latest": {
+    "path": "/site/thumbs/bunny/goggles-back-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "dc8edbb5191fc71827774fdff0099799a8ed723bbfd38c6dd0a7d327f2dff880",
-    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.webp",
+    "sourcePath": "/characters/bunny/goggles-back-latest.webp",
     "sourceSha256": "f88c9d5ee69436af965a3afda5d5941fe169d513ef7b94e2a1202c433df38011"
   },
-  "bunny/3.1.0/goggles-v2-belt-only-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "82e7d509b2ca7849c13dc2ab41ec9a365ef1aa383c72eafc69b973e24a3c29fa",
-    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-belt-only-cel-front-v1.webp",
-    "sourceSha256": "bc74a0661d413145701fcdbeaebc9a6f6a4d92b33f40f5895200edb999cf92e7"
-  },
-  "bunny/3.1.0/goggles-v2-belt-only-cel-front-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-belt-only-cel-front-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "98aa0b51a8e583a82976cb1676b43302bd2c19540753b34b3e64073a5c652005",
-    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-belt-only-cel-front-v2.webp",
-    "sourceSha256": "e012df1d89645b7d2a2d5ebabf65e2b8d6b080c891d936b64cfca70c03ee96e7"
-  },
-  "bunny/3.1.0/goggles-v2-belt-only-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "0603b444d078e0f65811f84b6baeac00626dfa976b23c6c608a00b0b06d0409c",
-    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-belt-only-cel-side-v1.webp",
-    "sourceSha256": "53a0fd67a83a4d6e18c11ebd22631b2b5d01ca073cd74cb43ee4515cbeb6ca92"
-  },
-  "bunny/3.1.0/goggles-v2-only-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-only-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "a0ca31f039f66acc010989584b6053445ea6565a159f468491e9cdc7a11aaada",
-    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-only-cel-back-v1.webp",
-    "sourceSha256": "edb1fbbb1793d76b7523fa7b57e61f0fc77d36f8d23e8bf13d92b4294e14ba5b"
-  },
-  "bunny/3.1.0/goggles-v2-only-cel-front-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-only-cel-front-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "2eb79fca8056fd8ba59b8e303fc7e2a53a886e6e6e12d9007fd9bc6270182f90",
-    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-only-cel-front-v2.webp",
-    "sourceSha256": "fdcf65f024c00ca831e37d427ac0743aaf5c77a21ca915392dfe61665021cd3a"
-  },
-  "bunny/3.1.0/goggles-v2-only-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-only-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "90112c0d7d972bb31675c2f69b3bff9c57a61aef308f824cb421b9797e1ead1e",
-    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-only-cel-side-v1.webp",
-    "sourceSha256": "278331ee8d48764aac4ca75a79dfa04eac1bc62feab1f5d703feb0308947170b"
-  },
-  "bunny/3.1.0/goggles-v2-only-components-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-only-components-v1.webp",
+  "bunny/goggles-board-latest": {
+    "path": "/site/thumbs/bunny/goggles-board-latest.webp",
     "width": 480,
     "height": 320,
     "sha256": "c6504b790ef1a24a18d99d7998c12908dc208ba14486eb9fc6069b3c21109d06",
-    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-only-components-v1.webp",
+    "sourcePath": "/characters/bunny/goggles-board-latest.webp",
     "sourceSha256": "de1703a583ff7a471ba39b49e13f8336bcba186cbe6ddb4a306bfcf7bcdf3bea"
   },
-  "bunny/3.1.0/goggles-v2-only-wearing-closeup-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/goggles-v2-only-wearing-closeup-v2.webp",
+  "bunny/goggles-closeup-board-latest": {
+    "path": "/site/thumbs/bunny/goggles-closeup-board-latest.webp",
     "width": 480,
     "height": 456,
     "sha256": "6be91e463097f749a38605df6bfb1e5c9e641c02d74f8bc236067112dffb9e1d",
-    "sourcePath": "/characters/bunny/3.1.0/goggles-v2-only-wearing-closeup-v2.webp",
+    "sourcePath": "/characters/bunny/goggles-closeup-board-latest.webp",
     "sourceSha256": "98a14f1e0e7be400de8c48796f9a8e9b7aa96f4ff8f521a94e517bc84d598a62"
   },
-  "bunny/3.1.0/hands-v2-base-aligned-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hands-v2-base-aligned-cel-back-v1.webp",
+  "bunny/goggles-front-latest": {
+    "path": "/site/thumbs/bunny/goggles-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "98aa0b51a8e583a82976cb1676b43302bd2c19540753b34b3e64073a5c652005",
+    "sourcePath": "/characters/bunny/goggles-front-latest.webp",
+    "sourceSha256": "e012df1d89645b7d2a2d5ebabf65e2b8d6b080c891d936b64cfca70c03ee96e7"
+  },
+  "bunny/goggles-side-latest": {
+    "path": "/site/thumbs/bunny/goggles-side-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "0603b444d078e0f65811f84b6baeac00626dfa976b23c6c608a00b0b06d0409c",
+    "sourcePath": "/characters/bunny/goggles-side-latest.webp",
+    "sourceSha256": "53a0fd67a83a4d6e18c11ebd22631b2b5d01ca073cd74cb43ee4515cbeb6ca92"
+  },
+  "bunny/hands-back-latest": {
+    "path": "/site/thumbs/bunny/hands-back-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "84760f07a558ccfbf0fb1b3d20cc6c318cf77ccb1fe19f60c67fe7913aa5da65",
-    "sourcePath": "/characters/bunny/3.1.0/hands-v2-base-aligned-cel-back-v1.webp",
+    "sourcePath": "/characters/bunny/hands-back-latest.webp",
     "sourceSha256": "2f8a57ca3590f826e77ad45b9e5e763472b51dd64bc0f02675bb89e1b6cd1f03"
   },
-  "bunny/3.1.0/hands-v2-base-aligned-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hands-v2-base-aligned-cel-front-v1.webp",
+  "bunny/hands-front-latest": {
+    "path": "/site/thumbs/bunny/hands-front-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "c12afc3410ab9726ecbe1008b5f6cd85c0e7e208721ea6b83a0037f6e1172969",
-    "sourcePath": "/characters/bunny/3.1.0/hands-v2-base-aligned-cel-front-v1.webp",
+    "sourcePath": "/characters/bunny/hands-front-latest.webp",
     "sourceSha256": "d20cc545b3e84e07517c52b68ebcbad8fe7acc45a12109264153211c6b024549"
   },
-  "bunny/3.1.0/hands-v2-base-aligned-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hands-v2-base-aligned-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "2e37b2623da38bc65759bde50cd45e1b9b6e854d98a97a2cb69be4b7b0ab4641",
-    "sourcePath": "/characters/bunny/3.1.0/hands-v2-base-aligned-cel-side-v1.webp",
-    "sourceSha256": "abae3ac43554d7389f8cdf26d00410ed90037618388b27f816f0b9dd93d123c5"
-  },
-  "bunny/3.1.0/hands-v2-fresh-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hands-v2-fresh-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "e4c0edc3b552ec84afb74b1d53dd53521d6f5b824a4b440c291472e34eb3f594",
-    "sourcePath": "/characters/bunny/3.1.0/hands-v2-fresh-cel-back-v1.webp",
-    "sourceSha256": "3d750ec35084141ce3aba88737af909df6dbb87c866d1bf0316c04a988e53acf"
-  },
-  "bunny/3.1.0/hands-v2-fresh-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hands-v2-fresh-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "670cf0f772e30193ea4d62f3b0cc2b7005976a4c8c1a06d459acaf5b5a3f5cba",
-    "sourcePath": "/characters/bunny/3.1.0/hands-v2-fresh-cel-front-v1.webp",
-    "sourceSha256": "de57783aa7660a74b600e781e74b38567c67cf2984c67cb3ffe873fc088de88e"
-  },
-  "bunny/3.1.0/hands-v2-fresh-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hands-v2-fresh-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "1de5b44a34f2b82193294824718bce8bc7f0407dc41f23e4127dd1153f6766f0",
-    "sourcePath": "/characters/bunny/3.1.0/hands-v2-fresh-cel-side-v1.webp",
-    "sourceSha256": "a8845dadd8e317296c5a9a32cd539ba58f6f309db0a6b6487ce61f728843e797"
-  },
-  "bunny/3.1.0/hands-v2-layer4-gloves-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.webp",
+  "bunny/hands-gloves-board-latest": {
+    "path": "/site/thumbs/bunny/hands-gloves-board-latest.webp",
     "width": 480,
     "height": 320,
     "sha256": "7ba90c50079df305ed79f6fc62dbcbcd6d26940dc528e09b2e74c8b9704b1ca3",
-    "sourcePath": "/characters/bunny/3.1.0/hands-v2-layer4-gloves-construction-v1.webp",
+    "sourcePath": "/characters/bunny/hands-gloves-board-latest.webp",
     "sourceSha256": "002ca0e038fe3bb923208ba0a0425ae71f657c71dccafff30ffb81ffc12789cd"
   },
-  "bunny/3.1.0/hands-v2-layer4-wrist-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hands-v2-layer4-wrist-construction-v1.webp",
+  "bunny/hands-side-latest": {
+    "path": "/site/thumbs/bunny/hands-side-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "2e37b2623da38bc65759bde50cd45e1b9b6e854d98a97a2cb69be4b7b0ab4641",
+    "sourcePath": "/characters/bunny/hands-side-latest.webp",
+    "sourceSha256": "abae3ac43554d7389f8cdf26d00410ed90037618388b27f816f0b9dd93d123c5"
+  },
+  "bunny/hands-wrist-board-latest": {
+    "path": "/site/thumbs/bunny/hands-wrist-board-latest.webp",
     "width": 480,
     "height": 320,
     "sha256": "85136263a364133b38e74e61b018a51847cdf57318ad8679f17ebd23fc0d77a4",
-    "sourcePath": "/characters/bunny/3.1.0/hands-v2-layer4-wrist-construction-v1.webp",
+    "sourcePath": "/characters/bunny/hands-wrist-board-latest.webp",
     "sourceSha256": "ef1246f0f541e4d5b694cbfd7dc6a51eab8188a10e6d79251bd8929198dc2f14"
   },
-  "bunny/3.1.0/harness-v2-inner-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-inner-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "37e8cd39b375915b6c8e9b2424235dbdcd5bc22cb36151909c307fd6f492ee45",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-inner-cel-back-v1.webp",
-    "sourceSha256": "385889b9eb148ec66213d78189dfb4eb3753efb85c6ac6b6c2db6f2ff6b4a7e4"
-  },
-  "bunny/3.1.0/harness-v2-inner-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-inner-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "0f487d7e273a8417649b8691daf85c82d41b6502f22c6cd99207d6720ab127c5",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-inner-cel-front-v1.webp",
-    "sourceSha256": "324383b52cec3fa627be87efb95bef1ca43f85f0f612725bf2d18993512502e1"
-  },
-  "bunny/3.1.0/harness-v2-inner-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-inner-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "fc32cb4d54606cdf69e1f22d15cb8823f2abe6cfdc3c4a95602db34929d50035",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-inner-cel-side-v1.webp",
-    "sourceSha256": "de062143709b3d911548360c189ff25cdbdd3b7d5caaa62e8fa3bc2e0f259207"
-  },
-  "bunny/3.1.0/harness-v2-inner-layering-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-inner-layering-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "b372e512185a042f418675e41c65d352fd2a0344734502b6f6912c119b28348f",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-inner-layering-v1.webp",
-    "sourceSha256": "bf5b904fba409aad79df0a796c7f780aeff94ef8875fbdc6b7a87391157f11b7"
-  },
-  "bunny/3.1.0/harness-v2-layer7-buckle-details-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-layer7-buckle-details-v1.webp",
-    "width": 480,
-    "height": 468,
-    "sha256": "c6c631acfe52feb045a77f8e8e56e6c164664ea9ab6c17cc7458dd761aab0510",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-layer7-buckle-details-v1.webp",
-    "sourceSha256": "b5501ae369ca4a6b3a1757c51f96442e4411e3ce28cb35c55551d0a19f3ee297"
-  },
-  "bunny/3.1.0/harness-v2-layer7-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-layer7-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "76fb2f690356eacc2c77cbc81a651873886be618d3cba2d7c07c7c07457b3d2d",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-layer7-cel-back-v1.webp",
-    "sourceSha256": "9815665be4c93e3f939c55abba949645763498e6ca93f0165890b6212d1b08af"
-  },
-  "bunny/3.1.0/harness-v2-layer7-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-layer7-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "4c7fb079ee521eefa0c076e6c2e778d9ed84a986d6a7dbb21193ac5825f4b14a",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-layer7-cel-front-v1.webp",
-    "sourceSha256": "3339621208c7caa837dc8f64a02296b6774e72f8a2e37775c9f6697300c0fc72"
-  },
-  "bunny/3.1.0/harness-v2-layer7-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-layer7-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "1903bc67c35fa59b551918a32df3f7b753a72311fb9ade85de0fc2034f5228fe",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-layer7-cel-side-v1.webp",
-    "sourceSha256": "7b46a8d6723ba88967c8ca9fef79afc90f955072c6ebd094a8672e5343d99649"
-  },
-  "bunny/3.1.0/harness-v2-layer7-components-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-layer7-components-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "b12b6a836ada0e38d1c267a36f9a83bb54cb6806de10111d2264bb2d82e478c2",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-layer7-components-v1.webp",
-    "sourceSha256": "b006231832f34e7b7b7aecd18c928237512c5af24d37ac27919cb0b84dd50203"
-  },
-  "bunny/3.1.0/harness-v2-layer7-waist-anchors-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/harness-v2-layer7-waist-anchors-v1.webp",
-    "width": 480,
-    "height": 470,
-    "sha256": "48535cae3403d46067e6c13f2a5bf19cfacd2089d12868cdbe3e729642904070",
-    "sourcePath": "/characters/bunny/3.1.0/harness-v2-layer7-waist-anchors-v1.webp",
-    "sourceSha256": "b3aab5f6c99a9590e7240872668b936f9524de9436658bb9fa11389040208ce0"
-  },
-  "bunny/3.1.0/head-v2-cel-reference-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/head-v2-cel-reference-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "36aa6ca3a2710b910f87b3563e2f4cb1d424c0626fa5514f419bd1ef7396cc05",
-    "sourcePath": "/characters/bunny/3.1.0/head-v2-cel-reference-v1.webp",
-    "sourceSha256": "d8f79bf46068d198a8fc64f817feb23626e3cae3d1299d414b1fda8670a15b69"
-  },
-  "bunny/3.1.0/head-v2-cel-reference-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/head-v2-cel-reference-v2.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "2ff33e3223d53053150a774ff049d4467ecf30dea13ca704890a28c694be9e1a",
-    "sourcePath": "/characters/bunny/3.1.0/head-v2-cel-reference-v2.webp",
-    "sourceSha256": "1e249a47b5cad4e2ed2d7cca8b851a39713d6b6e62b53d103b9a8f5d98c3b67d"
-  },
-  "bunny/3.1.0/head-v2-cel-reference-v3": {
-    "path": "/site/thumbs/bunny/3.1.0/head-v2-cel-reference-v3.webp",
+  "bunny/head-reference-latest": {
+    "path": "/site/thumbs/bunny/head-reference-latest.webp",
     "width": 480,
     "height": 320,
     "sha256": "52a2344868e5f57e1e545d3abb663c20d0688b87b83798b3ceb3dd9c91cc558a",
-    "sourcePath": "/characters/bunny/3.1.0/head-v2-cel-reference-v3.webp",
+    "sourcePath": "/characters/bunny/head-reference-latest.webp",
     "sourceSha256": "5802b882ff4904d4936aa09dc0bbf7e8da68395d6507bb4e05dd0961c70bcdb0"
   },
-  "bunny/3.1.0/hosiery-v2-base-aligned-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-base-aligned-cel-back-v1.webp",
+  "bunny/hosiery-back-latest": {
+    "path": "/site/thumbs/bunny/hosiery-back-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "0a55e6f18b7e98255cc49babf79d7a2f9c0a3a5b463c52c89ca6e805cf2e4468",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-base-aligned-cel-back-v1.webp",
+    "sourcePath": "/characters/bunny/hosiery-back-latest.webp",
     "sourceSha256": "749f53b1d64a842ce7969720f4caee24867910078a41e09b5c79dda476f24188"
   },
-  "bunny/3.1.0/hosiery-v2-fresh-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-fresh-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "16c665d0434b90cbd414553403a0842d6ee550e54fbc736028b9a69ed3934716",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v1.webp",
-    "sourceSha256": "ef9a274486744fa7a42c690cfb49a82e734b779d20da428416326537a0bd5ef4"
-  },
-  "bunny/3.1.0/hosiery-v2-fresh-cel-back-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "0af9b46cfd2f14a00b126f5fc59c0d4b2872dd149a40df8016695fc1d1a3fb89",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v2.webp",
-    "sourceSha256": "6f95937c0afff9495263f1f8e663c426bba435b995daca1099663a4473fdce3a"
-  },
-  "bunny/3.1.0/hosiery-v2-fresh-cel-back-v3": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "408b65473f3cb6c6e481faf259acef81cf93d645d5971f316d0900fa68319cbb",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-back-v3.webp",
-    "sourceSha256": "26e693f2ded5f4d2be84e5050c3c06423182285ebad517dfb2ecc7049c77be84"
-  },
-  "bunny/3.1.0/hosiery-v2-fresh-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "72ea010bedad517f5bb150810fa88335f54c0270781ef6b0d7364c628518c849",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v1.webp",
-    "sourceSha256": "cff0db70b55d524f4476300dab0e046c785049695347914d21676a56308e0ece"
-  },
-  "bunny/3.1.0/hosiery-v2-fresh-cel-front-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "9010e95f0887c121e57f3d1c03bcb3e54bec7f2a0f796331fec899b23c4c955c",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v2.webp",
-    "sourceSha256": "b6504f756d4d5f78d500d63c8ce33dd82f7ece1dabf96c9a4edd8a37594ac10b"
-  },
-  "bunny/3.1.0/hosiery-v2-fresh-cel-front-v3": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "1c905257750acde9fdd2d77774e92781750655b4af621ac6d3ea9a89ab9ff5de",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-front-v3.webp",
-    "sourceSha256": "f8472e0f028395157d83d30f7bc09d60f674d9dbf8d3b13677e13e8628591761"
-  },
-  "bunny/3.1.0/hosiery-v2-fresh-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "507723f2f3b22c0ad058d09b75413cbf515577c2d2222d68650655a2e3f469e3",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-fresh-cel-side-v1.webp",
-    "sourceSha256": "4c0a800d2c7c0feaf2c84cb2eaab6b9274d9ec22852cf90a69faf74084f2660c"
-  },
-  "bunny/3.1.0/hosiery-v2-layer2-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-layer2-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "34f05b6ac1c5af70fdc081b3b68c5227774fd7bb5b37bee4259c5fa2583df9bb",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-layer2-back-v1.webp",
-    "sourceSha256": "3e1f4a321bffa750577641ab7925151d9add9c7ed38d192f719af34b45a8041f"
-  },
-  "bunny/3.1.0/hosiery-v2-layer2-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-layer2-construction-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "d1f7ca7df3e624a51883a044f268f99b5ba0aa9feb2d4459131e7fd466e97a25",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-layer2-construction-v1.webp",
-    "sourceSha256": "c443f0d9ffcd5886229e2ddccd87d7c13dd0d09419616a23ea2fb87061f28c55"
-  },
-  "bunny/3.1.0/hosiery-v2-layer2-construction-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-layer2-construction-v2.webp",
+  "bunny/hosiery-board-latest": {
+    "path": "/site/thumbs/bunny/hosiery-board-latest.webp",
     "width": 480,
     "height": 320,
     "sha256": "be9cf999370ca388e5f0186907a970afd71b8d26a7c131c0695b83a651a8b850",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-layer2-construction-v2.webp",
+    "sourcePath": "/characters/bunny/hosiery-board-latest.webp",
     "sourceSha256": "b234cc2edcc87c3499c2d9ea4e9a7e0b076db928facadc12bb5967a48f63d9c4"
   },
-  "bunny/3.1.0/hosiery-v2-layer2-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-layer2-front-v1.webp",
+  "bunny/hosiery-front-latest": {
+    "path": "/site/thumbs/bunny/hosiery-front-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "5a0a2720a0c23b18d1ee695fe438ffc8e349dc9d4159340db40590b9f0248005",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-layer2-front-v1.webp",
-    "sourceSha256": "d8baea513b142b9e9799aa5964deac34d63f73fc6f0d95c11301faabfe9a1d13"
+    "sha256": "1c905257750acde9fdd2d77774e92781750655b4af621ac6d3ea9a89ab9ff5de",
+    "sourcePath": "/characters/bunny/hosiery-front-latest.webp",
+    "sourceSha256": "f8472e0f028395157d83d30f7bc09d60f674d9dbf8d3b13677e13e8628591761"
   },
-  "bunny/3.1.0/hosiery-v2-layer2-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/hosiery-v2-layer2-side-v1.webp",
+  "bunny/hosiery-side-latest": {
+    "path": "/site/thumbs/bunny/hosiery-side-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "65984ae65b83a83a630718a19525af050b2726d603b862d243677ea652f2909a",
-    "sourcePath": "/characters/bunny/3.1.0/hosiery-v2-layer2-side-v1.webp",
-    "sourceSha256": "e4fdc7f83c94334d5f3bd36f51ee5d1da1ac92add7cdb1624cd61250691e2741"
+    "sha256": "507723f2f3b22c0ad058d09b75413cbf515577c2d2222d68650655a2e3f469e3",
+    "sourcePath": "/characters/bunny/hosiery-side-latest.webp",
+    "sourceSha256": "4c0a800d2c7c0feaf2c84cb2eaab6b9274d9ec22852cf90a69faf74084f2660c"
   },
-  "bunny/3.1.0/innerwear-v2-fresh-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "4f6da4167076b77fc963d69602dd54d8ca4b012ac38f22d695fb86b3b0894a10",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v1.webp",
-    "sourceSha256": "78e83502ed8b7e2ef11b8688dbb9cda237e32887cf58603a71a8dfe4a41355ea"
-  },
-  "bunny/3.1.0/innerwear-v2-fresh-cel-back-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "b9ed4360e6e61ff11188c4c9b5cf7748c019549a6283cab5610bd1df81c664be",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v2.webp",
-    "sourceSha256": "5f041548ad698b60e2df27dd53a97d39d230d6d3f82947bca21aaa7507d8c264"
-  },
-  "bunny/3.1.0/innerwear-v2-fresh-cel-back-v3": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.webp",
+  "bunny/innerwear-back-latest": {
+    "path": "/site/thumbs/bunny/innerwear-back-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "a67cc5ded6102d87cdd727bff267183ad425fc58736dc7a53e6c67846e1c71a0",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-back-v3.webp",
+    "sourcePath": "/characters/bunny/innerwear-back-latest.webp",
     "sourceSha256": "fb97381825a4a0efe57284bb0af134191a455885f36bd06d9a2bf96fe2d30c2b"
   },
-  "bunny/3.1.0/innerwear-v2-fresh-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "d3b12ed6257568e61ca5c9807c2ed0d08a2b3915ad782ce8843d1cfcce3d1742",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-front-v1.webp",
-    "sourceSha256": "abfb416833802c84d0148cc5ccd386e06bdf2d1efb6c76bb3eeae0e12a7b3652"
-  },
-  "bunny/3.1.0/innerwear-v2-fresh-cel-front-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "5cef07dc8909983dcb5690b4ec53b1694ae42f0e863fa9a83e5e3fa491ba5837",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-front-v2.webp",
-    "sourceSha256": "f4d1f2472012bf5eac72e52f5e97791bbea25a7d25d4e81192260e868f25b0ac"
-  },
-  "bunny/3.1.0/innerwear-v2-fresh-cel-front-v3": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.webp",
+  "bunny/innerwear-front-latest": {
+    "path": "/site/thumbs/bunny/innerwear-front-latest.webp",
     "width": 480,
     "height": 720,
     "sha256": "f8213db31447f9a7a62854e8f7182faa54743a1f3c9c9f7de119094fa5357c1e",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-front-v3.webp",
+    "sourcePath": "/characters/bunny/innerwear-front-latest.webp",
     "sourceSha256": "66db06109d9fae31a57689fcb8ec19cc145164c78291a01f68b95777778ed0fa"
   },
-  "bunny/3.1.0/innerwear-v2-fresh-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "5afda19ad19d92941d136cb97abc5edb5cea93460ee21bde9f34c71e3d25970f",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-fresh-cel-side-v1.webp",
-    "sourceSha256": "7476de6c3d7ffdea964ce4f169ec12a50a87abd9e10083c21d8a59939d0c40f7"
-  },
-  "bunny/3.1.0/innerwear-v2-layer1-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-layer1-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "031d3c2160d1a60261d44cb58035fb573afd78859ce95623917c5bb95cfa3a43",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-layer1-back-v1.webp",
-    "sourceSha256": "ed4b3017172c3b2195380b11ee5c2dce0c117c7dafec0f6134f085b3ad6a0e79"
-  },
-  "bunny/3.1.0/innerwear-v2-layer1-back-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-layer1-back-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "005568f3acbd266ba9acd4d5a10a4eb35d28be07552030040332aeced53959a7",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-layer1-back-v2.webp",
-    "sourceSha256": "f4df1fc3ed7864cdb9f16d813421f6f9da341651e405b079ec5b44798a25c972"
-  },
-  "bunny/3.1.0/innerwear-v2-layer1-back-v4": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-layer1-back-v4.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "d4bcf80a80875f17f90103e5beb55106398d001ae9f1819d6ce8d53ce9ea1360",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-layer1-back-v4.webp",
-    "sourceSha256": "996923214b2ba3926a6a21fdd553c334ecf52330972f3ff3fe160ca8537e0a68"
-  },
-  "bunny/3.1.0/innerwear-v2-layer1-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-layer1-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "9fc9187e2cbaceac43586c8685b19f7de7a6225094756183184058e06b5d53c7",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-layer1-front-v1.webp",
-    "sourceSha256": "64fb7e5e2aae89a12e2807a01cfc45d3f8caa5ee52b0b6754b035aa0bcdde814"
-  },
-  "bunny/3.1.0/innerwear-v2-layer1-front-v3": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-layer1-front-v3.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "9913473fda31c25ba1565fab753ec07b1c9d1ccc5dde9158f3fe6d1276dfe637",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-layer1-front-v3.webp",
-    "sourceSha256": "8887296540528c421de20db2e42ed4d871a61109db4a3911cf6a1fe7e6f85b62"
-  },
-  "bunny/3.1.0/innerwear-v2-layer1-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-layer1-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "c4ea3c64d89f339fda1fcbb17f1a173a8f390bc29facded39a7f7a8176c07584",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-layer1-side-v1.webp",
-    "sourceSha256": "977ee4d3c5a4876d3f5097bbc3b6f02ea2db1ff81ea3dab266a49e24622c814d"
-  },
-  "bunny/3.1.0/innerwear-v2-layer1-side-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-layer1-side-v2.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "cb1c4969dea8268b7b1e27459b45592028bbdfeb025195353f6f48c6eedc6b1c",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-layer1-side-v2.webp",
-    "sourceSha256": "00b08dd46c9371ec6487258ebe8fd9e55918620edb1870c9b4d5114c0841c7e1"
-  },
-  "bunny/3.1.0/innerwear-v2-layer1-side-v4": {
-    "path": "/site/thumbs/bunny/3.1.0/innerwear-v2-layer1-side-v4.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "cb5572ac697351d62a1c07512ac495a7fd723663a9c098d3f2b5ba46e123415a",
-    "sourcePath": "/characters/bunny/3.1.0/innerwear-v2-layer1-side-v4.webp",
-    "sourceSha256": "c5fa74b24b0e5d8fb5f5dd342ad73818b6fa1dbbe9886ed0936e004548626230"
-  },
-  "bunny/3.1.0/jacket-v2-fresh-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "b6ee9472b133bd0af4700aff4ef19bca2c86b7f7e8d225c1c4a85fb402060b8b",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-fresh-cel-back-v1.webp",
-    "sourceSha256": "3787ad06c8fa32363cdf4b22727b86a4f75eccd7c4848b069fa838f54cd8ed4a"
-  },
-  "bunny/3.1.0/jacket-v2-fresh-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "a5bda700cc503b1c498682f3ef149f02caf212b8876f40238fec4124abcfdb67",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-fresh-cel-front-v1.webp",
-    "sourceSha256": "eef57c2d79770eb4c5439965150c9b70c126bdbfe6631a1eca055a21043c0ac6"
-  },
-  "bunny/3.1.0/jacket-v2-fresh-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "0430b081f048acb94b3ff40fe87413bf4428883c210489bfbc51152035bb59e2",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-fresh-cel-side-v1.webp",
-    "sourceSha256": "3a05c2086de29ef15fc9c90a01912d28f393f8147560bab5a38f185ef2cfb176"
-  },
-  "bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "fe386559f64be2417522604fe479c35ed27b656a440cf33dbe9e9bf8835d285c",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.webp",
-    "sourceSha256": "46b259d810bb66f8596dab601fb618d2b83fc5872280ba6746d108eef7cd49d9"
-  },
-  "bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "3d64c853628e983f2c4d83b3439413feadcc701e17bbf8350f1cffce1c8c792c",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.webp",
-    "sourceSha256": "6dda61bd8ceb915bbf3a34df1d4fc72bbff8bdafa17b9ea3fb56ba4dfcbe4686"
-  },
-  "bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "36450b0eb7f8853817bf250215ecda543326648d421adfeb5fc487782ba4d293",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-side-v1.webp",
-    "sourceSha256": "b86633a4e8c8ee8fdd30b036b13e70a974282215681607fa696bc2d27f38b8ba"
-  },
-  "bunny/3.1.0/jacket-v2-highlow-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "f9437c38ec32b10282dc7b881e0d66c081ce5cfe0dcb41e038529484f7d94184",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.webp",
-    "sourceSha256": "8554a6ad160cc1a0eaa294f9cc26f5fa690ad6ac043d55e207f6e674abe232af"
-  },
-  "bunny/3.1.0/jacket-v2-highlow-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "5b0710b653c62842e3622247ab59a05debc4bf93fdeb200a638ee5fbe8aa4d6e",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-front-v1.webp",
-    "sourceSha256": "08b1f3c9068be52691871776ddea6bfe8f97ba19d95f52c441bc9c675d0d2ef0"
-  },
-  "bunny/3.1.0/jacket-v2-highlow-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "075cded743f9f919b899fd91512b20b72fb73801cfa743f9247847a4e3354db4",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-highlow-cel-side-v1.webp",
-    "sourceSha256": "abe6b6be9488a35ba7d1bfeb3bbb345e9f47d76fea7e178fba523d723bda2e96"
-  },
-  "bunny/3.1.0/jacket-v2-highlow-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-highlow-construction-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "4c408a3e158c32f5083ccae1971ad7967b10bf889e672bba10111cb7713013a8",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-highlow-construction-v1.webp",
-    "sourceSha256": "766e1892e971e61d6c9e3a90cdc040a9c81a820569c6a9ccd2f4b1b777195719"
-  },
-  "bunny/3.1.0/jacket-v2-highlow-details-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-highlow-details-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "f2fc2cd89cceafb56c62de707079bb8d216fda2982673832122264eb304c2eed",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-highlow-details-v1.webp",
-    "sourceSha256": "fd6dabfcfd15245f3cc9122b63949d4f8f10588a41b65d53e05335acb417c5f9"
-  },
-  "bunny/3.1.0/jacket-v2-layer6-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-layer6-construction-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "6132b42471a34b1f3f63c9c5cd4f66c6bed48c0b146c4122f178f0fceca6e883",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-layer6-construction-v1.webp",
-    "sourceSha256": "1230bc83d3b228b52d5b600f1335b696f4f3de12f1478ffc91cfa618d7aa4065"
-  },
-  "bunny/3.1.0/jacket-v2-layer6-details-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/jacket-v2-layer6-details-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "8731b286836bebc2418345f87e441888a20128438b377ae03f8c4ad5d659b4fd",
-    "sourcePath": "/characters/bunny/3.1.0/jacket-v2-layer6-details-v1.webp",
-    "sourceSha256": "57312a3187e2b17c83621ec0a93a15d33bf998c623181112fd99cbab11f44ad9"
-  },
-  "bunny/3.1.0/obsidian-sword-concept-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/obsidian-sword-concept-front-v1.webp",
-    "width": 480,
-    "height": 480,
-    "sha256": "be0cd96110ececae4d27fdbff6a77e42b4b5d02aa05d4f206af8576759e69aab",
-    "sourcePath": "/characters/bunny/3.1.0/obsidian-sword-concept-front-v1.webp",
-    "sourceSha256": "951ad417c8ff80b1bff3d7caf582bcf6dc67e5716a5c1fb89912877734c9ae15"
-  },
-  "bunny/3.1.0/obsidian-sword-thicker-concept-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/obsidian-sword-thicker-concept-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "45773960bf7128ceb7700f1495a91a634cff6dc63c5c826a70b13b758bb1aef4",
-    "sourcePath": "/characters/bunny/3.1.0/obsidian-sword-thicker-concept-v1.webp",
-    "sourceSha256": "c906d085ac90a6448ff86462f7c15bf93a0ff3c4cdd8d5e5cbffd70c9c13228a"
-  },
-  "bunny/3.1.0/outfit-pose-current": {
-    "path": "/site/thumbs/bunny/3.1.0/outfit-pose-current.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "1fd24145eb91887118ddd2dd8c68460a6278b621cd4ab91b73c3d10e8380914d",
-    "sourcePath": "/characters/bunny/3.1.0/outfit-pose-current.webp",
-    "sourceSha256": "4a0ae01377a7bfd582e6c28a62f18609353842707a87e9776e8f1dbb481bf720"
-  },
-  "bunny/3.1.0/recovered-expressions-2.1": {
-    "path": "/site/thumbs/bunny/3.1.0/recovered-expressions-2.1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "d45f16c16633463b56c36a87ac8b5dadbea467eca281c36385d32082ddf975b9",
-    "sourcePath": "/characters/bunny/3.1.0/recovered-expressions-2.1.webp",
-    "sourceSha256": "9a66410dd5454de282d5095b42fa125d78ac17cb05483d7218d0d290b2202afe"
-  },
-  "bunny/3.1.0/red-shorts-v2-layer1-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "7debef523cdb60990aec45b336ecb54eef7050f65377b2515fa395d54883d789",
-    "sourcePath": "/characters/bunny/3.1.0/red-shorts-v2-layer1-construction-v1.webp",
-    "sourceSha256": "59f8908a756326904365f1b022a66d119c4f8cfa406dd06946268b969ea455dd"
-  },
-  "bunny/3.1.0/red-shorts-v2-layer1-construction-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.webp",
+  "bunny/innerwear-shorts-board-latest": {
+    "path": "/site/thumbs/bunny/innerwear-shorts-board-latest.webp",
     "width": 480,
     "height": 320,
     "sha256": "7302ce5b3f70a53cb4bb88bd6fa67e1e67082aff225eb532fbcfdced5e96c5cd",
-    "sourcePath": "/characters/bunny/3.1.0/red-shorts-v2-layer1-construction-v2.webp",
+    "sourcePath": "/characters/bunny/innerwear-shorts-board-latest.webp",
     "sourceSha256": "d84631237236fcac2832e01b6c80c82d2fcd85ab3a3c1c77a2432a19d1c5af77"
   },
-  "bunny/3.1.0/staff-v2-held-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/staff-v2-held-v1.webp",
+  "bunny/innerwear-side-latest": {
+    "path": "/site/thumbs/bunny/innerwear-side-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "dc5d52fb749e28f1679adb13ad8273a8496f64a57e60ec7bc1f48cefc0173f8d",
-    "sourcePath": "/characters/bunny/3.1.0/staff-v2-held-v1.webp",
-    "sourceSha256": "82e4edfcaa5c79f272dc31bfbb891e6eb1fc89f192eaaec02160ecd372562b6c"
+    "sha256": "5afda19ad19d92941d136cb97abc5edb5cea93460ee21bde9f34c71e3d25970f",
+    "sourcePath": "/characters/bunny/innerwear-side-latest.webp",
+    "sourceSha256": "7476de6c3d7ffdea964ce4f169ec12a50a87abd9e10083c21d8a59939d0c40f7"
   },
-  "bunny/3.1.0/staff-v2-held-v2": {
-    "path": "/site/thumbs/bunny/3.1.0/staff-v2-held-v2.webp",
-    "width": 480,
-    "height": 480,
-    "sha256": "9731fca6003477bdacb91a29d9f74d295b5ee6f3efb46a76165673ab61b982b8",
-    "sourcePath": "/characters/bunny/3.1.0/staff-v2-held-v2.webp",
-    "sourceSha256": "87f4434272e08c7062113986a9af3db79ea5e4e0efb8ddda9626b427d2087455"
-  },
-  "bunny/3.1.0/staff-v2-single-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/staff-v2-single-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "44d4b9e935e3cfa2e53e98031bd2a6a69e73e9cce3cbe47b3663349ea9e71087",
-    "sourcePath": "/characters/bunny/3.1.0/staff-v2-single-v1.webp",
-    "sourceSha256": "8fcf21621094c891009384ef453105e191c34a0603153a6d109913d8a39d7766"
-  },
-  "bunny/3.1.0/staff-v2-walking-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/staff-v2-walking-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "848b04f59450f8f3aca44b317ce6275dccebef71a230fda373170d06ecabb203",
-    "sourcePath": "/characters/bunny/3.1.0/staff-v2-walking-back-v1.webp",
-    "sourceSha256": "8f81bfaa20f76e8a27d3f93bc35d18e128aa5a852fdb01790d991f9cf6a69cc7"
-  },
-  "bunny/3.1.0/staff-v2-walking-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/staff-v2-walking-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "938a4abfc6daf25fc173c048eb2beb8129398d18a75da375cdbc8982ed9658f7",
-    "sourcePath": "/characters/bunny/3.1.0/staff-v2-walking-front-v1.webp",
-    "sourceSha256": "a27c24ec7412992174ff6f1dc9ef10699a6a393a52ec86f7e18869276650347a"
-  },
-  "bunny/3.1.0/staff-v2-walking-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/staff-v2-walking-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "a015cda8c4a40f5e7ebc42b14c7f7a25af09ed810623ff6b9fa552ce032d40c6",
-    "sourcePath": "/characters/bunny/3.1.0/staff-v2-walking-side-v1.webp",
-    "sourceSha256": "4fa5a1a03818b7f7b2cb2bf50e6fc38182016549685a7b65e11b1dfe6592eb20"
-  },
-  "bunny/3.1.0/structure20-lineart-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/structure20-lineart-v1.webp",
-    "width": 480,
-    "height": 240,
-    "sha256": "dfb076e79b9052d4a3c23fed64fcecc440388545073abff355208df0a457fea8",
-    "sourcePath": "/characters/bunny/3.1.0/structure20-lineart-v1.webp",
-    "sourceSha256": "e70a14293fa49442fcfdc8b75325890bd50b98278bb42a3ca4307f296f5a99ad"
-  },
-  "bunny/3.1.0/sun05-pose-structure-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/sun05-pose-structure-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "015ea9f8af745628a3a41eb09247db4eb0e6d0881611f760ace604a428753df0",
-    "sourcePath": "/characters/bunny/3.1.0/sun05-pose-structure-v1.webp",
-    "sourceSha256": "a8008bb770572f7e585470612f59aba747614a81cac64b188f14377a51078bec"
-  },
-  "bunny/3.1.0/sun05-scene-final-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/sun05-scene-final-v1.webp",
-    "width": 480,
-    "height": 240,
-    "sha256": "554597394dd39fe7787c7d3c3b1067ef37f3339deaceddaa00f1c1e081b2da17",
-    "sourcePath": "/characters/bunny/3.1.0/sun05-scene-final-v1.webp",
-    "sourceSha256": "ecdcf0420309fee3ed41528b2aa93b1a30245f6346b1bab60e5ab3a06548a746"
-  },
-  "bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "db28c0f44faf1198e7d7eca6b9493f58bc107f1b13cfbd2aa8e37f4967b35c4a",
-    "sourcePath": "/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.webp",
-    "sourceSha256": "013c1f8aa45bb43b6bd01fa070e0074d905e6780ed08380076fcd70229a4d53c"
-  },
-  "bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "18a1c74088d2377213f14fc95966a74578e566b301f8fbd78a001f46df845fbb",
-    "sourcePath": "/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-front-v1.webp",
-    "sourceSha256": "7835b2eca9c3f10c1b2e7d09d865e60c7b796eeeb2818cc411afd3c2bf8bf2aa"
-  },
-  "bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "51f26034b454b99daab06b6748cbfc7226a089a69f7d4ce3d7fec54e3d5d1621",
-    "sourcePath": "/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-side-v1.webp",
-    "sourceSha256": "4d6ef3e29baea850b9e4634ec146f8eb2b93a7b9b1e505db7ded3b82cf2ae3c4"
-  },
-  "bunny/3.1.0/thigh-v2-fresh-cel-back-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "49dd57c287bc808066e772a50e0681875b78780c72f93aabe65853645f42c161",
-    "sourcePath": "/characters/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.webp",
-    "sourceSha256": "345fec02fea3b37d88f3ca9060b00fc3f50b8a608d15b2e175648a259228311b"
-  },
-  "bunny/3.1.0/thigh-v2-fresh-cel-front-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "d30a58f14ea4cb7f79d242c27c483942cd506c5914965efa814e8f8185e62554",
-    "sourcePath": "/characters/bunny/3.1.0/thigh-v2-fresh-cel-front-v1.webp",
-    "sourceSha256": "b51d583d03678bc56f02f9075f89cb4d55d2406140af318ef0e099833d0ffcc5"
-  },
-  "bunny/3.1.0/thigh-v2-fresh-cel-side-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "be69056b59572c240f03f32c7c30319c745db2a4fe54b1297ece4fcddd670943",
-    "sourcePath": "/characters/bunny/3.1.0/thigh-v2-fresh-cel-side-v1.webp",
-    "sourceSha256": "45638aca95629b72d82dbeba8e02f8dfd847e814da022f0752f716fb59627985"
-  },
-  "bunny/3.1.0/thigh-v2-layer5-pouch-contents-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/thigh-v2-layer5-pouch-contents-construction-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "220b870c48aeda63aa89318f4ae392df09827c37933bd1def87b109d2f8b7253",
-    "sourcePath": "/characters/bunny/3.1.0/thigh-v2-layer5-pouch-contents-construction-v1.webp",
-    "sourceSha256": "9822aeed78e7f87df512dba84c2c316adccb7ef36920dfbc49e1d89e85b712f8"
-  },
-  "bunny/3.1.0/thigh-v2-layer5-terminal-straps-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/thigh-v2-layer5-terminal-straps-construction-v1.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "042ac72530d209ca6aa2906ff35452a75a638124241a9f3de9adf9fc525a006c",
-    "sourcePath": "/characters/bunny/3.1.0/thigh-v2-layer5-terminal-straps-construction-v1.webp",
-    "sourceSha256": "71f61b74511fb95bd4ab62821ecd0afc26bbc715ad63dbbb343b332539f58d1e"
-  },
-  "bunny/3.1.0/white-top-v2-layer1-construction-v1": {
-    "path": "/site/thumbs/bunny/3.1.0/white-top-v2-layer1-construction-v1.webp",
+  "bunny/innerwear-top-board-latest": {
+    "path": "/site/thumbs/bunny/innerwear-top-board-latest.webp",
     "width": 480,
     "height": 320,
     "sha256": "79ac6079db87a9a7822f8115fa166ead4efb4cb3c6742519cc05ccf2e5f166b1",
-    "sourcePath": "/characters/bunny/3.1.0/white-top-v2-layer1-construction-v1.webp",
+    "sourcePath": "/characters/bunny/innerwear-top-board-latest.webp",
     "sourceSha256": "016c6a89983452c54c3c9459f29811c126c3714e3c118f797e35d8ea94dbc14f"
   },
-  "origins/1.0.0/bunny-original": {
-    "path": "/site/thumbs/origins/1.0.0/bunny-original.webp",
+  "bunny/jacket-back-latest": {
+    "path": "/site/thumbs/bunny/jacket-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "fe386559f64be2417522604fe479c35ed27b656a440cf33dbe9e9bf8835d285c",
+    "sourcePath": "/characters/bunny/jacket-back-latest.webp",
+    "sourceSha256": "46b259d810bb66f8596dab601fb618d2b83fc5872280ba6746d108eef7cd49d9"
+  },
+  "bunny/jacket-board-latest": {
+    "path": "/site/thumbs/bunny/jacket-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "4c408a3e158c32f5083ccae1971ad7967b10bf889e672bba10111cb7713013a8",
+    "sourcePath": "/characters/bunny/jacket-board-latest.webp",
+    "sourceSha256": "766e1892e971e61d6c9e3a90cdc040a9c81a820569c6a9ccd2f4b1b777195719"
+  },
+  "bunny/jacket-details-board-latest": {
+    "path": "/site/thumbs/bunny/jacket-details-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "f2fc2cd89cceafb56c62de707079bb8d216fda2982673832122264eb304c2eed",
+    "sourcePath": "/characters/bunny/jacket-details-board-latest.webp",
+    "sourceSha256": "fd6dabfcfd15245f3cc9122b63949d4f8f10588a41b65d53e05335acb417c5f9"
+  },
+  "bunny/jacket-front-latest": {
+    "path": "/site/thumbs/bunny/jacket-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "3d64c853628e983f2c4d83b3439413feadcc701e17bbf8350f1cffce1c8c792c",
+    "sourcePath": "/characters/bunny/jacket-front-latest.webp",
+    "sourceSha256": "6dda61bd8ceb915bbf3a34df1d4fc72bbff8bdafa17b9ea3fb56ba4dfcbe4686"
+  },
+  "bunny/jacket-side-latest": {
+    "path": "/site/thumbs/bunny/jacket-side-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "36450b0eb7f8853817bf250215ecda543326648d421adfeb5fc487782ba4d293",
+    "sourcePath": "/characters/bunny/jacket-side-latest.webp",
+    "sourceSha256": "b86633a4e8c8ee8fdd30b036b13e70a974282215681607fa696bc2d27f38b8ba"
+  },
+  "bunny/shoes-back-latest": {
+    "path": "/site/thumbs/bunny/shoes-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "056ba9ab7855d5e5a67394916f7c7e3c40e1ae094ae77f1f396786e9a0dfa16f",
+    "sourcePath": "/characters/bunny/shoes-back-latest.webp",
+    "sourceSha256": "22fca0e9d20016b3b19c4d7e6fa7af7881603b988ef140900449c316531f3391"
+  },
+  "bunny/shoes-board-latest": {
+    "path": "/site/thumbs/bunny/shoes-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "17142cc42b47cbfdb0e270d0c10a074c9a679db5eeb140d91d248459e6191f62",
+    "sourcePath": "/characters/bunny/shoes-board-latest.webp",
+    "sourceSha256": "e6145abfc9e43b9d88b23f4410b394c7268b3864c116f1b910de0ec7f74958e1"
+  },
+  "bunny/shoes-front-latest": {
+    "path": "/site/thumbs/bunny/shoes-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "f226ce9748ed0077b3afe0e250a488b9d59aa393f1d472eb85df014185487a1b",
+    "sourcePath": "/characters/bunny/shoes-front-latest.webp",
+    "sourceSha256": "0dc1126571714aaa3c2405f7e212f91de132a29c1c6ffe9df31c9583c7c18e3f"
+  },
+  "bunny/shoes-side-latest": {
+    "path": "/site/thumbs/bunny/shoes-side-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "20edd9fee8c017e6d39f644909f1397b911d04b9653a057d429b3d94c01d6e06",
+    "sourcePath": "/characters/bunny/shoes-side-latest.webp",
+    "sourceSha256": "a934fd2a97cf3ead34d7e6520c64b56a6692f40fcbcca08f0a059e9d4756c1c4"
+  },
+  "bunny/structure20-lineart-latest": {
+    "path": "/site/thumbs/bunny/structure20-lineart-latest.webp",
+    "width": 480,
+    "height": 240,
+    "sha256": "dfb076e79b9052d4a3c23fed64fcecc440388545073abff355208df0a457fea8",
+    "sourcePath": "/characters/bunny/structure20-lineart-latest.webp",
+    "sourceSha256": "e70a14293fa49442fcfdc8b75325890bd50b98278bb42a3ca4307f296f5a99ad"
+  },
+  "bunny/sun05-pose-structure-latest": {
+    "path": "/site/thumbs/bunny/sun05-pose-structure-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "015ea9f8af745628a3a41eb09247db4eb0e6d0881611f760ace604a428753df0",
+    "sourcePath": "/characters/bunny/sun05-pose-structure-latest.webp",
+    "sourceSha256": "a8008bb770572f7e585470612f59aba747614a81cac64b188f14377a51078bec"
+  },
+  "bunny/sun05-scene-latest": {
+    "path": "/site/thumbs/bunny/sun05-scene-latest.webp",
+    "width": 480,
+    "height": 240,
+    "sha256": "554597394dd39fe7787c7d3c3b1067ef37f3339deaceddaa00f1c1e081b2da17",
+    "sourcePath": "/characters/bunny/sun05-scene-latest.webp",
+    "sourceSha256": "ecdcf0420309fee3ed41528b2aa93b1a30245f6346b1bab60e5ab3a06548a746"
+  },
+  "bunny/thigh-gear-back-latest": {
+    "path": "/site/thumbs/bunny/thigh-gear-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "db28c0f44faf1198e7d7eca6b9493f58bc107f1b13cfbd2aa8e37f4967b35c4a",
+    "sourcePath": "/characters/bunny/thigh-gear-back-latest.webp",
+    "sourceSha256": "013c1f8aa45bb43b6bd01fa070e0074d905e6780ed08380076fcd70229a4d53c"
+  },
+  "bunny/thigh-gear-front-latest": {
+    "path": "/site/thumbs/bunny/thigh-gear-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "18a1c74088d2377213f14fc95966a74578e566b301f8fbd78a001f46df845fbb",
+    "sourcePath": "/characters/bunny/thigh-gear-front-latest.webp",
+    "sourceSha256": "7835b2eca9c3f10c1b2e7d09d865e60c7b796eeeb2818cc411afd3c2bf8bf2aa"
+  },
+  "bunny/thigh-gear-pouch-board-latest": {
+    "path": "/site/thumbs/bunny/thigh-gear-pouch-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "220b870c48aeda63aa89318f4ae392df09827c37933bd1def87b109d2f8b7253",
+    "sourcePath": "/characters/bunny/thigh-gear-pouch-board-latest.webp",
+    "sourceSha256": "9822aeed78e7f87df512dba84c2c316adccb7ef36920dfbc49e1d89e85b712f8"
+  },
+  "bunny/thigh-gear-side-latest": {
+    "path": "/site/thumbs/bunny/thigh-gear-side-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "51f26034b454b99daab06b6748cbfc7226a089a69f7d4ce3d7fec54e3d5d1621",
+    "sourcePath": "/characters/bunny/thigh-gear-side-latest.webp",
+    "sourceSha256": "4d6ef3e29baea850b9e4634ec146f8eb2b93a7b9b1e505db7ded3b82cf2ae3c4"
+  },
+  "bunny/thigh-gear-terminal-board-latest": {
+    "path": "/site/thumbs/bunny/thigh-gear-terminal-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "042ac72530d209ca6aa2906ff35452a75a638124241a9f3de9adf9fc525a006c",
+    "sourcePath": "/characters/bunny/thigh-gear-terminal-board-latest.webp",
+    "sourceSha256": "71f61b74511fb95bd4ab62821ecd0afc26bbc715ad63dbbb343b332539f58d1e"
+  },
+  "origins/bunny-original-latest": {
+    "path": "/site/thumbs/origins/bunny-original-latest.webp",
     "width": 480,
     "height": 571,
     "sha256": "caa54197816328d6a181d2f3b9ad8c486cf323c91d22e56f0b969de75f7ec21e",
-    "sourcePath": "/characters/origins/1.0.0/bunny-original.webp",
+    "sourcePath": "/characters/origins/bunny-original-latest.webp",
     "sourceSha256": "62693de96576d14bb14afa5f92f3214b7240f17e1a352ec8e296ecc33789450b"
   }
 }

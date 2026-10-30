@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Local-only Cloudflare release operations. Never prints or persists credentials."""
 import argparse
+from contextlib import redirect_stdout
+from datetime import datetime, timezone
 import fnmatch
 import hashlib
 import json
@@ -9,6 +11,7 @@ from pathlib import Path
 import re
 import subprocess
 import sys
+import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -41,6 +44,7 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
 class Client:
     def __init__(self, key, email):
         self.key = key
+        self.email = email
         self.headers = {'X-Auth-Key': key, 'X-Auth-Email': email,
                         'cf-r2-jurisdiction': 'default', 'Accept': 'application/json'}
         self.opener = urllib.request.build_opener(NoRedirect())
@@ -97,114 +101,226 @@ def preflight(client):
                       'intercepting_routes': len(matching_routes), 'bucket_direct_public_access': False}))
 
 
-def release_groups(catalog):
-    """Select only current catalog groups, with one active version per character."""
-    if (not isinstance(catalog, dict) or catalog.get('schemaVersion') != 1 or
-            catalog.get('contentReady') is not True or
+LARGE_OBJECT_BYTES = 50_000_000
+IMAGE_TYPES = {'png': 'image/png', 'jpg': 'image/jpeg', 'jpeg': 'image/jpeg', 'webp': 'image/webp'}
+
+
+def catalog_groups(catalog):
+    """Validate the public v2 allowlist, without imposing production approval."""
+    if (not isinstance(catalog, dict) or set(catalog) != {'schemaVersion', 'contentReady', 'assets'} or
+            type(catalog.get('schemaVersion')) is not int or
+            catalog['schemaVersion'] != 2 or type(catalog.get('contentReady')) is not bool or
             not isinstance(catalog.get('assets'), list) or not catalog['assets']):
-        raise RuntimeError('Production requires approved content and a nonempty release catalog')
-    groups, versions, paths, keys = {}, {}, set(), set()
+        raise RuntimeError('Expected a nonempty schemaVersion 2 image catalog')
+    groups, paths, keys = {}, set(), set()
     for asset in catalog['assets']:
-        if not isinstance(asset, dict):
-            raise RuntimeError('Invalid release asset metadata')
-        character, version = asset.get('character'), asset.get('version')
-        if (not isinstance(character, str) or not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,63}', character) or
-                not isinstance(version, str) or not re.fullmatch(r'[0-9]+\.[0-9]+\.[0-9]+(?:-[a-z0-9-]+)?', version)):
-            raise RuntimeError('Invalid release character or version')
-        if character in versions and versions[character] != version:
-            raise RuntimeError('Each character must have one active version: ' + character)
-        versions[character] = version
-        prefix = f'/media/{character}/{version}/'
-        path, key = asset.get('path'), asset.get('key')
+        if not isinstance(asset, dict) or set(asset) != {'character', 'path', 'key', 'contentType'}:
+            raise RuntimeError('Invalid image catalog asset fields')
+        character = asset['character']
+        if (not isinstance(character, str) or len(character) > 64 or
+                not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', character)):
+            raise RuntimeError('Invalid image catalog character')
+        path, key = asset['path'], asset['key']
+        prefix = f'/media/{character}/'
         filename = path[len(prefix):] if isinstance(path, str) and path.startswith(prefix) else ''
-        if (not re.fullmatch(r'[A-Za-z0-9._-]+', filename) or '..' in filename or
-                key != f'x_ops/design/characters/{character}/releases/{version}/{filename}' or
-                path in paths or key in keys):
-            raise RuntimeError('Invalid or duplicate release path/key')
-        size, sha = asset.get('size'), asset.get('sha256')
-        if (type(size) is not int or not 0 < size <= 9007199254740991 or
-                not isinstance(sha, str) or not re.fullmatch(r'[a-fA-F0-9]{64}', sha) or
-                asset.get('contentType') not in {'image/png', 'image/jpeg', 'image/webp', 'application/pdf', 'application/zip'}):
-            raise RuntimeError('Invalid release asset integrity metadata')
-        groups.setdefault((character, version), []).append(asset)
+        match = re.fullmatch(r'([a-z0-9]+(?:-[a-z0-9]+)*-latest)\.(png|jpg|jpeg|webp)', filename)
+        if (not match or key != f'x_ops/design/characters/{character}/latest/{filename}' or
+                path in paths or key in keys or asset['contentType'] != IMAGE_TYPES[match[2]]):
+            raise RuntimeError('Invalid or duplicate image catalog path/key/type')
+        groups.setdefault(character, []).append(asset)
         paths.add(path)
         keys.add(key)
     return groups
 
 
-def local_release_files(catalog, root=ROOT):
-    """Validate every local file before performing any remote operation."""
-    groups = release_groups(catalog)
-    files = []
-    for assets in groups.values():
-        for asset in assets:
-            filename = asset['key'].rsplit('/', 1)[1]
-            path = Path(root) / '.release' / asset['character'] / asset['version'] / filename
-            body = path.read_bytes()
-            if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256'].lower():
-                raise RuntimeError('Local release integrity mismatch: ' + asset['path'])
-            files.append((asset, path))
-    return groups, files
-
-
-def list_release_objects(client, groups):
-    """Complete pagination separately for every active character/version prefix."""
-    present = {}
-    for character, version in groups:
-        prefix = f'x_ops/design/characters/{character}/releases/{version}/'
-        cursor, cursors = None, set()
-        while True:
-            query = {'prefix': prefix, 'per_page': 1000}
-            if cursor:
-                query['cursor'] = cursor
-            page = client.call(f'/accounts/{ACCOUNT}/r2/buckets/{BUCKET}/objects?' + urllib.parse.urlencode(query))
-            for item in page.get('result') or []:
-                key = item.get('key') if isinstance(item, dict) else None
-                if not isinstance(key, str) or not key.startswith(prefix):
-                    raise RuntimeError('R2 listing returned an object outside the requested release prefix')
-                present[key] = item
-            info = page.get('result_info') or {}
-            if not info.get('is_truncated'):
-                break
-            cursor = info.get('cursor')
-            if not isinstance(cursor, str) or not cursor or cursor in cursors:
-                raise RuntimeError('Incomplete or repeated R2 listing pagination cursor')
-            cursors.add(cursor)
-    return present
-
-
-def upload_release_objects(client, catalog, root=ROOT):
-    """Upload exact current release files through an injected client; never auto-publish old versions."""
-    groups, files = local_release_files(catalog, root)
-    present = list_release_objects(client, groups)
-    for asset, path in files:
-        endpoint = f'/accounts/{ACCOUNT}/r2/buckets/{BUCKET}/objects/' + urllib.parse.quote(asset['key'], safe='/')
-        if asset['key'] in present:
-            body = client.call(endpoint, binary=True)
-            if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256'].lower():
-                raise RuntimeError('Existing release object differs; refuse overwrite: ' + asset['path'])
-            print(json.dumps({'object': asset['path'], 'status': 'existing_identical_skipped'}), flush=True)
+def local_files(catalog, root=ROOT):
+    """Check every original before remote work; retain individual failures for reporting."""
+    groups = catalog_groups(catalog)
+    files, failures = {}, {}
+    for character, assets in groups.items():
+        try:
+            manifest = json.loads((Path(root) / 'catalog' / character / 'manifest.json').read_text())
+            if (not isinstance(manifest, dict) or manifest.get('schema_version') != '2.0' or
+                    manifest.get('character_id') != character or
+                    not isinstance(manifest.get('assets'), list)):
+                raise RuntimeError('Invalid local character manifest: ' + character)
+            originals = {}
+            ids = set()
+            for item in manifest['assets']:
+                if not isinstance(item, dict) or not isinstance(item.get('original'), dict):
+                    raise RuntimeError('Invalid local manifest asset: ' + character)
+                original = item['original']
+                if (item['character'] != character or item['id'] in ids or
+                        original['path'] in originals or
+                        original['path'] != f"/media/{character}/{item['id']}.png"):
+                    raise RuntimeError('Invalid or duplicate local manifest asset: ' + character)
+                originals[original['path']] = original
+                ids.add(item['id'])
+            if set(originals) != {asset['path'] for asset in assets}:
+                raise RuntimeError('Local manifest and public catalog membership differ: ' + character)
+        except (OSError, ValueError, TypeError, KeyError, RuntimeError) as error:
+            reason = str(error) if isinstance(error, RuntimeError) else 'Missing or invalid local manifest: ' + character
+            for asset in assets:
+                failures[asset['path']] = reason
             continue
-        body = path.read_bytes()
-        if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256'].lower():
-            raise RuntimeError('Local release integrity mismatch: ' + asset['path'])
-        # Defense in depth only: this REST header is not an asserted atomic no-overwrite guarantee.
-        # Publishing must be serialized; existing keys are checked above and read back below.
-        result = client.call(endpoint, method='PUT', data=body,
-                             headers={'Content-Type': asset['contentType'], 'If-None-Match': '*'})
-        metadata = result.get('result') or {}
-        if int(metadata.get('size', -1)) != asset['size']:
-            raise RuntimeError('Uploaded size mismatch: ' + asset['path'])
-        body = client.call(endpoint, binary=True)
-        if len(body) != asset['size'] or hashlib.sha256(body).hexdigest() != asset['sha256'].lower():
-            raise RuntimeError('Uploaded hash or size mismatch: ' + asset['path'])
-        print(json.dumps({'object': asset['path'], 'status': 'uploaded_and_verified', 'bytes': len(body)}), flush=True)
+        for asset in assets:
+            try:
+                original = originals[asset['path']]
+                size, sha = original.get('bytes'), original.get('sha256')
+                if (type(size) is not int or size <= 0 or not isinstance(sha, str) or
+                        not re.fullmatch(r'[a-fA-F0-9]{64}', sha) or
+                        original.get('mime_type') != asset['contentType']):
+                    raise RuntimeError('Invalid local original integrity metadata')
+                path = Path(root) / '.release' / character / asset['path'].rsplit('/', 1)[1]
+                body = path.read_bytes()
+                if len(body) != size or hashlib.sha256(body).hexdigest() != sha.lower():
+                    raise RuntimeError('Local original integrity mismatch')
+                files[asset['path']] = (path, body, sha.lower())
+            except (OSError, ValueError, TypeError, RuntimeError) as error:
+                failures[asset['path']] = str(error) if isinstance(error, RuntimeError) else 'Missing or unreadable local original'
+    return groups, files, failures
 
 
-def upload(client):
-    subprocess.run(['npm', 'run', 'check:release'], cwd=ROOT, check=True)
-    catalog = json.loads((ROOT / 'catalog/releases.json').read_text())
-    upload_release_objects(client, catalog)
+def list_objects(client, prefix):
+    """Fetch every page for an explicit prefix and reject invalid pagination."""
+    present, cursor, cursors = {}, None, set()
+    while True:
+        query = {'prefix': prefix, 'per_page': 1000}
+        if cursor:
+            query['cursor'] = cursor
+        page = client.call(f'/accounts/{ACCOUNT}/r2/buckets/{BUCKET}/objects?' + urllib.parse.urlencode(query))
+        for item in page.get('result') or []:
+            key = item.get('key') if isinstance(item, dict) else None
+            if not isinstance(key, str) or not key.startswith(prefix):
+                raise RuntimeError('R2 listing returned an object outside the requested prefix')
+            if key in present:
+                raise RuntimeError('R2 listing returned a duplicate object')
+            present[key] = item
+        info = page.get('result_info') or {}
+        if not info.get('is_truncated'):
+            return present
+        cursor = info.get('cursor')
+        if not isinstance(cursor, str) or not cursor or cursor in cursors:
+            raise RuntimeError('Incomplete or repeated R2 listing pagination cursor')
+        cursors.add(cursor)
+
+
+def list_latest_objects(client, character):
+    return list_objects(client, f'x_ops/design/characters/{character}/latest/')
+
+
+def object_endpoint(key):
+    return f'/accounts/{ACCOUNT}/r2/buckets/{BUCKET}/objects/' + urllib.parse.quote(key, safe='/')
+
+
+def safe_error(error, client):
+    """Only our controlled RuntimeErrors are printable; redact the injected client's key too."""
+    message = str(error) if isinstance(error, RuntimeError) else type(error).__name__
+    key = getattr(client, 'key', None)
+    return message.replace(key, '[REDACTED]') if isinstance(key, str) and key else message
+
+
+def put_bytes(client, key, body, content_type, path=None, large_put=None):
+    """Use Wrangler for objects above the REST threshold, including history copies."""
+    if len(body) <= LARGE_OBJECT_BYTES:
+        client.call(object_endpoint(key), method='PUT', data=body, headers={'Content-Type': content_type})
+        return
+
+    def send(local):
+        if large_put:
+            large_put(local, key, content_type)
+        else:
+            # Keep publish stdout machine-readable; wrangler still redacts its diagnostic output.
+            with redirect_stdout(sys.stderr):
+                wrangler(client.key, client.email, ['r2', 'object', 'put', f'{BUCKET}/{key}',
+                                                 '--file', str(local), '--content-type', content_type, '--remote'])
+
+    # A snapshot prevents the verified local source being changed between validation and upload.
+    with tempfile.TemporaryDirectory(prefix='design-publish-') as temporary:
+        snapshot = Path(temporary) / key.rsplit('/', 1)[1]
+        snapshot.write_bytes(body)
+        send(snapshot)
+
+
+def verify_object(client, key, expected):
+    actual = client.call(object_endpoint(key), binary=True)
+    if len(actual) != len(expected) or hashlib.sha256(actual).digest() != hashlib.sha256(expected).digest():
+        raise RuntimeError('Object readback hash or size mismatch: ' + key)
+
+
+def publish(client, catalog=None, root=ROOT, apply=False, clock=None, large_put=None):
+    """Plan by default; preserve replaced bytes in verified R2 history before applying updates.
+
+    Inject a fake client, clock, and optional large_put in tests. Each asset gets one JSON
+    result, and an aggregate error is raised only after every asset has been reported.
+    Publishing to the same character must be serialized to preserve timestamped history.
+    """
+    if catalog is None:
+        catalog = json.loads((Path(root) / 'catalog/releases.json').read_text())
+    groups, files, failures = local_files(catalog, root)
+    listings = {}
+    for character, assets in groups.items():
+        if not any(asset['path'] in files for asset in assets):
+            continue
+        try:
+            listings[character] = list_latest_objects(client, character)
+        except Exception as error:
+            for asset in assets:
+                failures.setdefault(asset['path'], safe_error(error, client))
+    results = []
+    for asset in catalog['assets']:
+        result = {'object': asset['path'], 'key': asset['key'], 'mode': 'apply' if apply else 'dry-run'}
+        try:
+            if asset['path'] in failures:
+                raise RuntimeError(failures[asset['path']])
+            path, body, sha = files[asset['path']]
+            existing = listings[asset['character']].get(asset['key'])
+            previous = None
+            if existing is not None:
+                etag = existing.get('etag')
+                # Only a plain object MD5 is safe to compare without downloading.
+                if (isinstance(etag, str) and re.fullmatch(r'[a-fA-F0-9]{32}', etag) and
+                        etag.lower() == hashlib.md5(body).hexdigest()):
+                    result.update(status='identical_skipped', operations=[])
+                else:
+                    previous = client.call(object_endpoint(asset['key']), binary=True)
+                    if hashlib.sha256(previous).hexdigest() == sha:
+                        result.update(status='identical_skipped', operations=[])
+            if 'status' not in result:
+                operations = []
+                if existing is not None:
+                    now = clock() if clock else datetime.now(timezone.utc)
+                    if now.tzinfo is None:
+                        raise RuntimeError('History clock must be timezone-aware')
+                    stamp = now.astimezone(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+                    filename = asset['path'].rsplit('/', 1)[1]
+                    stem, extension = filename.rsplit('.', 1)
+                    history = f"x_ops/design/characters/{asset['character']}/history/{stem.removesuffix('-latest')}-{stamp}.{extension}"
+                    operations.extend([{'operation': 'put_history', 'key': history},
+                                       {'operation': 'verify_history', 'key': history}])
+                    result['history'] = history
+                    # A retry or another replacement in the same second must never erase history.
+                    if history in list_objects(client, history):
+                        raise RuntimeError('History timestamp already exists; retry with a new UTC timestamp')
+                    if apply:
+                        put_bytes(client, history, previous, asset['contentType'], large_put=large_put)
+                        verify_object(client, history, previous)
+                operations.extend([{'operation': 'put_latest', 'key': asset['key']},
+                                   {'operation': 'verify_latest', 'key': asset['key']}])
+                result['operations'] = operations
+                if apply:
+                    put_bytes(client, asset['key'], body, asset['contentType'], path, large_put)
+                    verify_object(client, asset['key'], body)
+                result['status'] = ('replaced_and_verified' if existing is not None else 'uploaded_and_verified') if apply else ('replace_planned' if existing is not None else 'upload_planned')
+                result['bytes'] = len(body)
+        except Exception as error:
+            result.update(status='failed', error=safe_error(error, client))
+        print(json.dumps(result, ensure_ascii=False), flush=True)
+        results.append(result)
+    count = sum(result['status'] == 'failed' for result in results)
+    if count:
+        raise RuntimeError(f'Publish failed for {count} of {len(results)} assets; all asset results were reported')
+    return results
 
 
 def wrangler(key, email, args):
@@ -226,17 +342,23 @@ def wrangler(key, email, args):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['preflight', 'upload', 'dry-run', 'deploy', 'status'])
+    parser.add_argument('action', choices=['preflight', 'publish', 'dry-run', 'deploy', 'status'])
     parser.add_argument('--credentials', required=True, help='Local env file; never copied')
     parser.add_argument('--email', required=True)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument('--dry-run', dest='apply', action='store_false', help='Plan publish operations without writes (default)')
+    mode.add_argument('--apply', action='store_true', help='Apply publish operations and verify every uploaded object')
+    parser.set_defaults(apply=False)
     args = parser.parse_args()
+    if args.apply and args.action != 'publish':
+        parser.error('--apply is only valid with publish')
     key = credential(args.credentials)
     client = Client(key, args.email)
     if args.action == 'preflight':
         preflight(client)
-    elif args.action == 'upload':
+    elif args.action == 'publish':
         preflight(client)
-        upload(client)
+        publish(client, apply=args.apply)
     elif args.action == 'dry-run':
         wrangler(key, args.email, ['deploy', '--dry-run', '--outdir', '.wrangler/dry-run'])
     elif args.action == 'deploy':

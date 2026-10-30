@@ -29,38 +29,6 @@ export function number(value) {
 export function parseNames(value) {
   return Object.fromEntries(Object.entries(record(value)).map(([key, name]) => [key, text(name)]))
 }
-/** @param {unknown} value @returns {import('../theme/bunny-site-types').DownloadPackage} */
-export function parsePackage(value) {
-  const entry = list(value).map(record).find((download) => download.id === 'source-images')
-  if (!entry) throw new Error('Missing manifest download: source-images')
-  return { path: text(entry.path), bytes: number(entry.bytes) }
-}
-/** @param {unknown} value @returns {import('../theme/bunny-site-types').ArchiveData} */
-export function parseArchive(value) {
-  return { groups: list(record(value).groups).map((entry) => {
-    const group = record(entry)
-    return {
-      id: text(group.id), title: text(group.title), statuses: list(group.statuses).map(text),
-      items: list(group.items).map((entry) => {
-        const item = record(entry)
-        return { asset: text(item.asset), date: text(item.date), replacedBy: text(item.replacedBy) }
-      }),
-    }
-  }) }
-}
-/** @param {unknown} value @returns {import('../theme/bunny-site-types').ChangeRecord[]} */
-export function parseChanges(value) {
-  return list(value).map((entry) => {
-    const item = record(entry)
-    const log = record(item.log)
-    const latest = item.latest === null ? null : record(item.latest)
-    return {
-      date: text(item.date), order: number(item.order),
-      latest: latest ? { title: text(latest.title), asset: text(latest.asset), caption: text(latest.caption) } : null,
-      log: { change: text(log.change), reason: text(log.reason), asset: text(log.asset), caption: text(log.caption) },
-    }
-  })
-}
 /** @param {unknown} value @returns {import('../theme/bunny-site-types').AnchorMap} */
 export function parseAnchorMap(value) {
   const source = record(value)

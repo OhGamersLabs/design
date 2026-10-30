@@ -5,7 +5,7 @@
       "label": "场景定稿",
       "caption": "SUN-05 张臂前冲，2026-10-29 定稿",
       "assets": [
-        "sun05-scene-final-v1"
+        "sun05-scene-latest"
       ]
     },
     {
@@ -13,9 +13,9 @@
       "label": "完整三视",
       "caption": "正面、角色右侧面、背面，双匕首后腰交叉携行",
       "assets": [
-        "assassin-daggers-waist-carry-cel-front-v3",
-        "assassin-daggers-waist-carry-cel-side-v2",
-        "assassin-daggers-waist-carry-cel-back-v2"
+        "daggers-front-latest",
+        "daggers-side-latest",
+        "daggers-back-latest"
       ]
     },
     {
@@ -23,7 +23,7 @@
       "label": "线稿",
       "caption": "STRUCTURE20，2026-10-28 通过",
       "assets": [
-        "structure20-lineart-v1"
+        "structure20-lineart-latest"
       ]
     }
   ],
@@ -72,7 +72,6 @@
     }
   ],
   "chipNote": "取自定稿图的近似色",
-  "version": "Bunny 3.1.0 本地修订",
   "status": "本地审阅版，不是生产发布",
   "updated": "2026-10-29",
   "chapters": [
@@ -99,10 +98,32 @@
     {
       "id": "action",
       "label": "动作与场景"
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-10-29",
+      "title": "场景图定稿",
+      "asset": "sun05-scene-latest",
+      "caption": "2026-10-29 场景图定稿"
     },
     {
-      "id": "downloads",
-      "label": "下载"
+      "date": "2026-10-28",
+      "title": "STRUCTURE20 线稿通过",
+      "asset": "structure20-lineart-latest",
+      "caption": "2026-10-28 STRUCTURE20 线稿通过"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "SUN-05 冲刺姿势选定",
+      "asset": "sun05-pose-structure-latest",
+      "caption": "SUN-05 人体结构稿，手中为占位杆"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "后腰交叉携行三视",
+      "asset": "daggers-back-latest",
+      "caption": "2026-10-27 后腰交叉携行三视（背面）"
     }
   ]
 }

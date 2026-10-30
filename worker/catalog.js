@@ -1,68 +1,56 @@
 const CHARACTER = /^[a-z0-9][a-z0-9-]{0,63}$/;
-const VERSION = /^[0-9]+\.[0-9]+\.[0-9]+(?:-[a-z0-9-]+)?$/;
-const FILENAME = /^[A-Za-z0-9._-]+$/;
-const SHA256 = /^[a-fA-F0-9]{64}$/;
-const CONTENT_TYPES = new Set([
-  'image/png',
-  'image/jpeg',
-  'image/webp',
-  'application/pdf',
-  'application/zip',
+const FILENAME = /^[a-z0-9][a-z0-9-]*-latest\.(png|jpe?g|webp)$/;
+const CONTENT_TYPES = new Map([
+  ['png', 'image/png'],
+  ['jpg', 'image/jpeg'],
+  ['jpeg', 'image/jpeg'],
+  ['webp', 'image/webp'],
 ]);
+const ASSET_FIELDS = new Set(['character', 'path', 'key', 'contentType']);
 
 function isRecord(value) {
   return value !== null && typeof value === 'object' && !Array.isArray(value);
 }
 
-function isFilename(value) {
-  return typeof value === 'string' && FILENAME.test(value) && !value.includes('..');
+function exactMatch(pattern, value) {
+  return typeof value === 'string' && pattern.exec(value)?.[0] === value;
 }
 
-/** Validate the public release boundary without Node or platform dependencies. */
+/** Validate stable public identities without freezing replaceable R2 metadata. */
 export function validateCatalog(doc, { production = false } = {}) {
-  if (!isRecord(doc) || doc.schemaVersion !== 1 ||
+  if (!isRecord(doc) || doc.schemaVersion !== 2 ||
       typeof doc.contentReady !== 'boolean' || !Array.isArray(doc.assets)) {
-    throw new Error('Invalid release catalog schema.');
+    throw new Error('Invalid image catalog schema.');
   }
   if (production && (!doc.contentReady || doc.assets.length === 0)) {
-    throw new Error('Production requires approved content and a nonempty release catalog.');
+    throw new Error('Production requires approved content and a nonempty image catalog.');
   }
 
   const paths = new Map();
   const keys = new Set();
   for (const source of doc.assets) {
-    if (!isRecord(source) || typeof source.character !== 'string' ||
-        !CHARACTER.test(source.character) || typeof source.version !== 'string' ||
-        !VERSION.test(source.version) || typeof source.path !== 'string' ||
-        typeof source.key !== 'string' || typeof source.sha256 !== 'string' ||
-        !SHA256.test(source.sha256) || !Number.isSafeInteger(source.size) ||
-        source.size <= 0 || !CONTENT_TYPES.has(source.contentType)) {
-      throw new Error('Invalid release asset metadata.');
+    if (!isRecord(source) || Object.keys(source).some((key) => !ASSET_FIELDS.has(key)) ||
+        !exactMatch(CHARACTER, source.character) || typeof source.path !== 'string' ||
+        typeof source.key !== 'string') {
+      throw new Error('Invalid image asset metadata.');
     }
-
-    const prefix = `/media/${source.character}/${source.version}/`;
+    const prefix = `/media/${source.character}/`;
     const filename = source.path.slice(prefix.length);
-    if (!source.path.startsWith(prefix) || !isFilename(filename) ||
-        source.key !== `x_ops/design/characters/${source.character}/releases/${source.version}/${filename}`) {
-      throw new Error('Release asset path and key must match the approved release prefix.');
-    }
-    if (source.downloadName !== undefined && !isFilename(source.downloadName)) {
-      throw new Error('Invalid release download filename.');
+    if (!source.path.startsWith(prefix) || !exactMatch(FILENAME, filename) ||
+        source.key !== `x_ops/design/characters/${source.character}/latest/${filename}` ||
+        CONTENT_TYPES.get(filename.split('.').at(-1)) !== source.contentType) {
+      throw new Error('Image path, key and type must match the approved latest image.');
     }
     if (paths.has(source.path) || keys.has(source.key)) {
-      throw new Error('Duplicate public release path or R2 key.');
+      throw new Error('Duplicate public image path or R2 key.');
     }
 
     // Copy only approved metadata so later source-object changes cannot redirect reads.
     const asset = Object.freeze({
       character: source.character,
-      version: source.version,
       path: source.path,
       key: source.key,
-      sha256: source.sha256,
-      size: source.size,
       contentType: source.contentType,
-      ...(source.downloadName === undefined ? {} : { downloadName: source.downloadName }),
     });
     paths.set(asset.path, asset);
     keys.add(asset.key);

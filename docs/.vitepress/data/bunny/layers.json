@@ -3,9 +3,9 @@
     "layer": 0,
     "name": "身体",
     "path": "/characters/bunny/body-base",
-    "front": "body-v2-fresh-cel-front-v2",
-    "side": "body-v2-fresh-cel-side-v1",
-    "back": "body-v2-fresh-cel-back-v1",
+    "front": "body-front-latest",
+    "side": "body-side-latest",
+    "back": "body-back-latest",
     "summary": "衣层的起点",
     "facts": [
       {
@@ -31,9 +31,9 @@
     "layer": 1,
     "name": "上衣与短裤",
     "path": "/characters/bunny/innerwear",
-    "front": "innerwear-v2-fresh-cel-front-v3",
-    "side": "innerwear-v2-fresh-cel-side-v1",
-    "back": "innerwear-v2-fresh-cel-back-v3",
+    "front": "innerwear-front-latest",
+    "side": "innerwear-side-latest",
+    "back": "innerwear-back-latest",
     "summary": "白色开胸短上衣，红色短裤",
     "facts": [
       {
@@ -55,9 +55,9 @@
     "layer": 2,
     "name": "袜装",
     "path": "/characters/bunny/hosiery",
-    "front": "hosiery-v2-fresh-cel-front-v3",
-    "side": "hosiery-v2-fresh-cel-side-v1",
-    "back": "hosiery-v2-base-aligned-cel-back-v1",
+    "front": "hosiery-front-latest",
+    "side": "hosiery-side-latest",
+    "back": "hosiery-back-latest",
     "summary": "不对称：角色右腿白色短袜，角色左腿橙色过膝袜",
     "facts": [
       {
@@ -79,9 +79,9 @@
     "layer": 3,
     "name": "鞋靴",
     "path": "/characters/bunny/shoes",
-    "front": "footwear-v2-base-aligned-cel-front-v1",
-    "side": "footwear-v2-base-aligned-cel-side-v1",
-    "back": "footwear-v2-base-aligned-cel-back-v1",
+    "front": "shoes-front-latest",
+    "side": "shoes-side-latest",
+    "back": "shoes-back-latest",
     "summary": "红白厚底靴，外踝有圆盘",
     "facts": [
       {
@@ -107,9 +107,9 @@
     "layer": 4,
     "name": "手部",
     "path": "/characters/bunny/hands",
-    "front": "hands-v2-base-aligned-cel-front-v1",
-    "side": "hands-v2-base-aligned-cel-side-v1",
-    "back": "hands-v2-base-aligned-cel-back-v1",
+    "front": "hands-front-latest",
+    "side": "hands-side-latest",
+    "back": "hands-back-latest",
     "summary": "角色右手黑色全指手套、红色腕护环；角色左手黑色半指手套、橙色腕部设备",
     "facts": [
       {
@@ -131,9 +131,9 @@
     "layer": 5,
     "name": "腿带",
     "path": "/characters/bunny/thigh-gear",
-    "front": "thigh-v2-base-aligned-cel-front-v1",
-    "side": "thigh-v2-base-aligned-cel-side-v1",
-    "back": "thigh-v2-base-aligned-cel-back-v1",
+    "front": "thigh-gear-front-latest",
+    "side": "thigh-gear-side-latest",
+    "back": "thigh-gear-back-latest",
     "summary": "两条腿带：上为任务终端，下为维护包",
     "facts": [
       {
@@ -159,9 +159,9 @@
     "layer": 6,
     "name": "橙色夹克",
     "path": "/characters/bunny/jacket",
-    "front": "jacket-v2-highlow-base-aligned-cel-front-v1",
-    "side": "jacket-v2-highlow-base-aligned-cel-side-v1",
-    "back": "jacket-v2-highlow-base-aligned-cel-back-v1",
+    "front": "jacket-front-latest",
+    "side": "jacket-side-latest",
+    "back": "jacket-back-latest",
     "summary": "普通领口，角色左上臂袖袋有白色 OG 标志",
     "facts": [
       {
@@ -187,9 +187,9 @@
     "layer": 7,
     "name": "裤腰皮带",
     "path": "/characters/bunny/harness",
-    "front": "belt-v2-only-cel-front-v1",
-    "side": "belt-v2-only-cel-side-v1",
-    "back": "belt-v2-only-cel-back-v1",
+    "front": "belt-front-latest",
+    "side": "belt-side-latest",
+    "back": "belt-back-latest",
     "summary": "一条黑色裤腰皮带",
     "facts": [
       {
@@ -215,9 +215,9 @@
     "layer": 8,
     "name": "护目镜",
     "path": "/characters/bunny/headgear",
-    "front": "goggles-v2-belt-only-cel-front-v2",
-    "side": "goggles-v2-belt-only-cel-side-v1",
-    "back": "goggles-v2-belt-only-cel-back-v1",
+    "front": "goggles-front-latest",
+    "side": "goggles-side-latest",
+    "back": "goggles-back-latest",
     "summary": "白色柔圆护目镜，推在额上",
     "facts": [
       {

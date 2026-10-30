@@ -30,8 +30,8 @@ releaseReady: false
     <p>采用日系二次元手绘线稿与赛璐璐上色。<a href="/characters/bunny/visual-language">画风与配色</a></p>
     <OriginNote />
   </div>
-  <AssetImage id="assassin-daggers-waist-carry-cel-front-v3" use-thumb />
-  <AssetImage id="head-v2-cel-reference-v3" detail="正面、角色右侧面、背面" use-thumb />
+  <AssetImage id="daggers-front-latest" use-thumb />
+  <AssetImage id="head-reference-latest" detail="正面、角色右侧面、背面" use-thumb />
 </div>
 
 <div class="bunny-section-heading">
@@ -42,9 +42,9 @@ releaseReady: false
 </div>
 
 <div class="bunny-body-grid">
-  <AssetImage id="body-v2-fresh-cel-front-v2" group="body" use-thumb />
-  <AssetImage id="body-v2-fresh-cel-side-v1" group="body" use-thumb />
-  <AssetImage id="body-v2-fresh-cel-back-v1" group="body" use-thumb />
+  <AssetImage id="body-front-latest" group="body" use-thumb />
+  <AssetImage id="body-side-latest" group="body" use-thumb />
+  <AssetImage id="body-back-latest" group="body" use-thumb />
   <div class="bunny-ruler-box" role="group" aria-label="头身比例示意">
     <div class="bunny-ruler" aria-hidden="true">
       <i class="bunny-ruler__top"></i>
@@ -82,8 +82,8 @@ releaseReady: false
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="expressions-v2-cel-v2" detail="16 格 · 与头部三视同一身份" />
-  <AssetImage id="head-v2-cel-reference-v3" detail="正面、角色右侧面、背面" use-thumb />
+  <AssetImage id="expressions-sheet-latest" detail="16 格 · 与头部三视同一身份" />
+  <AssetImage id="head-reference-latest" detail="正面、角色右侧面、背面" use-thumb />
 </div>
 
 <p class="bunny-expression-note">按行从画面左至画面右：中性 / 微笑 / 大笑 / 惊讶；生气 / 怒喊 / 鼓腮不满 / 怀疑；疲倦 / 含泪难过 / 大哭 / 担忧；眨眼俏皮 / 会心笑 / 兴奋 / 安心。情绪由眉眼和嘴型表现，蓝色瞳色不随情绪改变。</p>
@@ -96,7 +96,7 @@ releaseReady: false
 </div>
 
 <div class="bunny-weapon-grid">
-  <AssetImage id="assassin-daggers-scale-master-v1" detail="墨黑獠牙刃与骨白弯刃" group="weapon" />
+  <AssetImage id="daggers-scale-board-latest" detail="墨黑獠牙刃与骨白弯刃" group="weapon" />
   <div class="bunny-blades" role="group" aria-label="刃长对照">
     <div class="bunny-blade bunny-blade--height"><div class="bunny-blade__label"><b>H0 人物高度</b><span>1.00 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
     <div class="bunny-blade bunny-blade--dark"><div class="bunny-blade__label"><b>墨黑獠牙刃</b><span>角色右手，总长 0.36 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
@@ -109,9 +109,9 @@ releaseReady: false
 </div>
 
 <div class="bunny-parts-grid">
-  <AssetImage id="assassin-daggers-dark-exterior-components-v1" group="weapon" use-thumb />
-  <AssetImage id="assassin-daggers-ivory-exterior-components-v1" group="weapon" use-thumb />
-  <AssetImage id="assassin-daggers-waist-mount-structure-v2" group="weapon" use-thumb />
+  <AssetImage id="daggers-dark-board-latest" group="weapon" use-thumb />
+  <AssetImage id="daggers-ivory-board-latest" group="weapon" use-thumb />
+  <AssetImage id="daggers-mount-board-latest" group="weapon" use-thumb />
 </div>
 
 <p class="bunny-section-links"><a href="/characters/bunny/weapon">双匕首</a></p>
@@ -125,7 +125,7 @@ releaseReady: false
 
 <div class="bunny-action-grid">
   <div>
-    <AssetImage id="sun05-scene-final-v1" caption="场景定稿" detail="2026-10-29" group="action" use-thumb />
+    <AssetImage id="sun05-scene-latest" caption="场景定稿" detail="2026-10-29" group="action" use-thumb />
     <dl class="bunny-home-facts">
       <div><dt>场景</dt><dd>在巨树枝干上向镜头冲刺</dd></div>
       <div><dt>环境</dt><dd>层叠的蓝绿森林</dd></div>
@@ -133,7 +133,7 @@ releaseReady: false
     </dl>
   </div>
   <div>
-    <AssetImage id="structure20-lineart-v1" detail="2026-10-28 通过" group="action" use-thumb />
+    <AssetImage id="structure20-lineart-latest" detail="2026-10-28 通过" group="action" use-thumb />
     <dl class="bunny-home-facts">
       <div><dt>动作</dt><dd>SUN-05 张臂前冲</dd></div>
       <div><dt>视角</dt><dd>俯视角，头胸领先</dd></div>
@@ -141,12 +141,3 @@ releaseReady: false
     </dl>
   </div>
 </div>
-
-<div class="bunny-section-heading">
-
-## 下载 {#downloads}
-
-<p>点缩略图看大图，点“原图”取文件。</p>
-</div>
-
-<DownloadList set="home" />

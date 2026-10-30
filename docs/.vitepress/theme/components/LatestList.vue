@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import { computed, useId } from 'vue'
 import { data } from '../../data/bunny-site.data.mjs'
-import { selectLatest } from '../bunny-site.mjs'
 import AssetImage from './AssetImage.vue'
 
-const latest = computed(() => selectLatest(data.changes, 4))
+const latest = computed(() => data.home.highlights)
 const headingId = useId()
 </script>
 

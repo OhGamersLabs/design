@@ -1,17 +1,16 @@
 # OhGamers Design Library
 
-OhGamers 角色设计资料站，使用 VitePress 1.6.4、Vue 3 与版本化图像清单，按主页、内页、历史档案与跳转桩组织角色参考。Bunny 当前版本为 **3.1.0 本地修订**。
+OhGamers 角色设计资料站，使用 VitePress 1.6.4 与 Vue 3，按角色主页、衣层页、参考页与旧 URL 跳转桩组织当前图片。
 
-`catalog/releases.json` 的 `contentReady: false` 与 `docs/characters/bunny/index.md` 的 `releaseReady: false` 表示本地审阅状态，不构成生产发布、工程认证或艺术终稿批准。
+`catalog/releases.json` 的 `contentReady: false` 与角色主页的 `releaseReady: false` 表示审阅状态，不构成生产发布、工程认证或艺术终稿批准。
 
 ## 站点结构
 
-- 主页 `/characters/bunny/`：最新、身份与画风、身体基准、衣层由内到外、表情、武器与携行、动作与场景、下载入口。
-- 内页：衣层页（身体、上衣与短裤、袜装、鞋靴、手部、腿带、橙色夹克、裤腰皮带、护目镜）和参考页（双匕首、图面尺寸、画风与配色、使用检查、下载）。
-- 历史档案 `/characters/bunny/archive`：已取代的设计稿、变更记录、旧尺寸。
-- 跳转桩：旧 URL 保留为不进搜索和导航的页面，按 `docs/.vitepress/data/bunny/anchor-map.json` 跳到新位置；旧锚点在原页找不到时也按这张表跳转。
+- 主页 `/characters/bunny/`：当前精选、身份与画风、身体基准、衣层由内到外、表情、武器与携行、动作与场景。
+- 内页：身体、上衣与短裤、袜装、鞋靴、手部、腿带、橙色夹克、裤腰皮带、护目镜，以及双匕首、图面尺寸、画风与配色、使用检查。
+- 旧 URL 由 `docs/.vitepress/data/bunny/anchor-map.json` 映射到当前内容；跳转桩不进导航和搜索。原档案及下载页跳到角色主页。
 
-页面数据在 `docs/.vitepress/data/bunny/`，包括主页、衣层、下载、档案、名称、锚点映射等 JSON。
+页面数据在 `docs/.vitepress/data/bunny/`。站点只展示当前图片，历史不在站点中展示或提供下载。
 
 ## 本地运行
 
@@ -25,22 +24,23 @@ npm run check:local
 python3 tools/local-preview.py --port 4173
 ```
 
-打开 <http://127.0.0.1:4173/characters/bunny/>。这个预览同时提供构建页面和清单精确映射的原图；`npm run dev` 可用于正文与组件开发，但 VitePress 自带服务器不提供 `.release` 中的媒体。编辑后重新 `npm run build`，刷新预览即可。
+打开 <http://127.0.0.1:4173/characters/bunny/>。这个预览同时提供构建页面和清单精确映射的原图；`npm run dev` 可用于正文与组件开发，但 VitePress 自带服务器不提供 `.release` 中的媒体。编辑后重新构建并刷新预览。
 
 ## 图像与原图
 
-- 当前网页图：`docs/public/characters/bunny/3.1.0/`。
-- 当前 PNG 与原图包：被 Git 忽略的 `.release/bunny/3.1.0/`。
-- 恢复时保留的 3.0.0 原始 PNG：`.release/bunny/3.0.0/`。
-- 原始手稿网页图：`docs/public/characters/origins/1.0.0/`，PNG 在 `.release/origins/1.0.0/`。
-- 旧版 1.0.0 / 1.1.0 清单（`catalog/bunny/`）与 1.1.0 网页图（`docs/public/characters/bunny/1.1.0/`）仍然保留，只作追溯，不是现行版本。
-- 精确大小、SHA-256、图像尺寸与下载入口：`catalog/<角色>/<版本>/manifest.json` 及其 `docs/public/catalog/` 副本。
+每张图使用稳定的 `<slug>`，只包含小写字母、数字和连字符，并以 `-latest` 结束，例如 `body-front-latest`。名称不放衣层编号、迭代号或制作过程词。原图更新时保留同一文件名和 URL。
 
-原图通过 `/media/<角色>/<版本>/<文件名>` 提供。PNG、ZIP 不加入 Git；新克隆仓库必须恢复对应 `.release` 文件后，才能通过 `npm run check:local` 和访问本地原图。清单内的 Bunny 3.1.0 与 origins 1.0.0 原图及资料包 ZIP 已按清单路径上传 R2，供审阅站点 design.ohgamers.org 读取。网页 WebP、正文与清单均纳入代码审查。`ReleaseImage` 保持点击/键盘放大、原始尺寸切换、Esc 关闭、焦点恢复与原图链接。
+- 网页图：`docs/public/characters/<char>/<slug>.webp`。
+- 原始 PNG：`.release/<char>/<slug>.png`，不进 Git；新克隆必须恢复原图后才能运行 `check:local`。
+- 原图 URL：`/media/<char>/<slug>.png`。
+- R2 当前对象：`x_ops/design/characters/<char>/latest/<slug>.png`。
+- 缩略图：`docs/public/site/thumbs/<char>/<slug>.webp`，由工具生成。
+- 逐图尺寸、字节数与 SHA-256：`catalog/<char>/manifest.json` 及其 `docs/public/catalog/<char>/manifest.json` 副本。
+- Worker 精确允许路径：`catalog/releases.json`，schemaVersion 2，只保存角色、URL、R2 key 和 MIME，不固定远端文件大小或哈希。
 
-新增或替换一张修订图时，新图的 id 加 `-vN` 后缀（`-v1` 之后是 `-v2`，依此类推），WebP 与 PNG 的文件名都用这个 id。把真实 PNG 放入当前 `.release`，把对应 WebP 放入 `docs/public/characters`；在 `catalog/bunny/3.1.0/source-map.json` 补上这张图的来源条目（写 `baseline_sha256`，替换时填被替换那张 PNG 的 SHA-256，没有基线时写 `"no_baseline": true`），在 `docs/.vitepress/data/bunny/asset-names.json` 补上中文名，更新页面。
+新增图片时，把对应 WebP 和 PNG 放进上述位置，在 `asset-names.json` 中登记中文名，并在当前页面或页面数据中引用 slug。替换图片时直接替换同名 WebP 和 PNG；不新增旧图入口。`catalog/legacy-ids.json` 仅保存这次迁移的旧 ID 对照，不参与页面渲染。站点不再制作或提供 ZIP 原图包。
 
-替换已有图时，被替换的图不删，它的 WebP、PNG 和清单条目都保留。先在 `source-map.json` 把被替换那张的 `review_status` 改成 `historical-` 加小写英文短语（可同时写 `superseded_by`，指向新图所在页面），并在 `asset-names.json` 给它换一个能与新图区分的名称。再在 `docs/characters`、`docs/.vitepress/data` 和 `docs/.vitepress/theme` 里搜索被替换图的 id，把页面、`layers.json`、`downloads.json`、`changes.json` 等处的引用改成新 id，并检查 `docs/.vitepress/theme/style.css` 里绑定了旧 id 的 `data-asset-id` 规则，一并改到新 id；改完后旧 id 只应留在 `asset-names.json` 和 `archive.json`。现行页只能出现 `current-*` 的图，所以被替换的图要在 `docs/.vitepress/data/bunny/archive.json` 的对应组里加一条（`asset`、`date`、`replacedBy`；`replacedBy` 写一个名词短语，页面会在前面加「已改为」；没有明确日期时 `date` 写 `"—"`），并把它的 `historical-*` 状态加进该组的 `statuses`；组不存在时新建一组，并在 `docs/characters/bunny/archive.md` 加上对应的 `<ArchiveGrid group="组 id" />`。最后把 `test/bunny-site.test.mjs` 里素材索引断言的张数加 1（`npm test` 会核对）。新图还须登记到 `tools/site_check/`，见命令块后的说明。然后在已有 Pillow 的 Python 环境执行：
+完成添加或替换后执行：
 
 ```sh
 python3 tools/build-local-catalog.py
@@ -50,29 +50,43 @@ npm run build
 npm run check:site
 ```
 
-`build-local-catalog.py` 仅重建本地草稿清单与 PNG ZIP，不上传或部署；图在 `source-map.json` 里没有来源条目时直接报错。`build-thumbs.py` 按清单重建 `docs/public/site/thumbs/` 下的缩略图与索引，`npm run build` 不会代跑。`check:local` 校验所有网页图、原始媒体和下载包的真实字节、大小与哈希；资料齐全不等于制作验证完成。`check:site` 的 A5 规则按 `tools/site_check/frozen-hashes.json` 冻结了本次重做时的网页图（WebP、SVG）、原始手稿 PNG 与 `catalog/bunny/3.1.0` 测量数据的哈希，并拒绝 3.1.0 中未登记的新 WebP 文件名；换图或加图时须同时更新这份冻结表，并在 `tools/site_check/config.py` 的 `NEW_ASSETS` 登记新图。冻结表里为新 WebP 加一行仓库路径与 SHA-256，被替换那张的行保留；`NEW_ASSETS` 的一项依次写新 id、`review_status`、图宽、图高和原图 PNG 的 MD5，`check:site` 的 D1 规则按它核对清单。`tools/site_check/` 是站点检查器本身，除这两处登记外不要改动。
+若图片用于尺寸标尺，还须核对该图的测量取点与源哈希，并更新 `catalog/<char>/` 下的对应测量 JSON。构建会据此生成以 `-latest.svg` 结束的标尺；不能把旧坐标直接套给新图。
+
+`build-local-catalog.py` 校验稳定命名和原图存在性，重建本地清单，不需要来源映射、不制作资料包。`build-thumbs.py` 重建当前缩略图并移除废弃缩略图。`check:local` 核对网页图、PNG 与标尺的实际字节、尺寸元数据及 SHA-256。`ReleaseImage` 保持点击/键盘放大、原始尺寸切换、Esc 关闭、焦点恢复与原图链接。
 
 ## 检查与发布边界
 
-`npm test` 运行网关、发布版本、Bunny 站点数据与组件辅助函数、搜索结果渲染、身体与衣物测量数据、站点检查及其他 Python 工具测试。`npm run build` 校验清单结构并构建静态站。`npm run check:local` 专门验证当前本地草稿；`npm run check:release` 继续拒绝未就绪资料，不因本地预览成功而自动放行生产。
+`npm test` 运行 Worker、目录、页面与测量辅助函数、搜索、构建器、站点检查器及发布流程的离线测试。`npm run build` 校验允许路径并构建静态站。先构建，再运行 `npm run check:site`；它检查链接与旧锚点跳转、当前图片覆盖、原图完整性、稳定文件名、图注、方向、配色、外部资源和搜索。A1/A2 检查清单和页面引用，不再冻结某批图片哈希。`python3 tools/check-site.py --rules R1,R2` 可缩小规则范围；`--pages /characters/bunny/weapon` 可缩小页面扫描范围，全局清单检查仍覆盖全仓。
 
-先运行 `npm run build`，再运行 `npm run check:site`。站点检查读取 `docs/.vitepress/dist` 中构建好的站点，检查链接与锚点、旧 URL 与锚点映射、现行页与档案页用图、禁用词、版本号、图注、下载组、配色、外部资源、搜索索引等规则。除构建结果外，它还读取清单、页面数据和 `.release` 原图，新克隆要先恢复 `.release`。`python3 tools/check-site.py --rules R1,R2` 只跑指定规则，`--pages /characters/bunny/weapon` 只限制按页面扫描的规则（A5、D1、D2、R6、R8、R12b 始终检查全仓）；有失败时逐条输出「规则 页面: 原因」并以非零退出。
+授权发布到指定目标后，先检查远端计划，再应用图片替换。下面各条 Cloudflare 命令均需追加 `--credentials <本地凭据文件> --email <账户邮箱>`；不要将实际凭据写入文档或日志：
 
-Cloudflare Worker 仅允许读取清单中的精确 R2 对象路径，不提供任意键读取或列表接口。`tools/cloudflare-local.py` 是生产上传与部署工具：它的 `upload` 与 `deploy` 都先运行 `check:release`，只用于另行授权的生产发布，凭据不写入仓库与日志。审阅版站点已部署到 design.ohgamers.org，清单内原图与资料包已上传 R2；这次审阅部署在仓库外执行：先运行该工具的 `preflight`，再直接 `wrangler deploy`；原图用仓库外脚本按清单路径上传，资料包 ZIP 用 `wrangler r2 object put` 上传。仓库中的 `contentReady` 与 `releaseReady` 都仍为 `false`，`check:release` 仍拒绝，审阅部署不等于生产发布；不得靠把它们改成 `true` 来放行审阅部署。后续发布前仍需核对目标、原图完整性、当前及回滚版本与实际 HTTPS 行为。
+```sh
+python3 tools/cloudflare-local.py preflight
+python3 tools/cloudflare-local.py publish              # 默认 --dry-run，只读远端并输出 JSON Lines 计划
+python3 tools/cloudflare-local.py publish --apply       # 上传原图；此命令会写 R2
+python3 tools/cloudflare-local.py dry-run               # Worker 部署预检
+python3 tools/cloudflare-local.py deploy                # 此命令会部署 Worker/静态站
+```
+
+`publish` 逐图核对本地清单的 SHA-256 与字节数，不要求 `contentReady: true`，因此支持审阅站。缺失对象直接上传；内容相同则跳过。替换已有对象前，先把远端旧字节保存到 `x_ops/design/characters/<char>/history/<去掉-latest的slug>-<UTC YYYYMMDDTHHMMSSZ>.png`，读回验证后再覆盖当前对象，并读回验证新内容。历史只保留在 R2；站点和 Worker 允许路径中没有历史入口。大于 50 MB 的 PUT 使用 `wrangler r2 object put --remote`。每张图独立输出状态，任一失败最终返回非零。同一角色的发布须串行执行；若历史时间戳已存在，工具拒绝覆盖，保留远端当前对象。
+
+`deploy` 保留生产就绪检查：`check:release` 在 `contentReady` / `releaseReady` 为 false 时仍拒绝。审阅部署需在另外授权的发布流程中使用已验证的目标；不要为放行审阅站修改就绪标志。`preflight(client)`、`Client`、`credential` 和 `wrangler` 保持供外部包装器调用的接口。凭据不进入仓库、日志或报告。
+
+Worker 只读清单中的精确 R2 对象路径，仅接受 GET/HEAD，不提供任意键读取或列表接口。原图 ETag、修改时间与长度来自当前 R2 对象，匹配条件请求返回 304。原图、静态角色图与缩略图使用 `public, max-age=60, must-revalidate`，允许同 URL 更新生效。
 
 ## 目录
 
 ```text
 docs/.vitepress/            # 配置、导航与可复用图片组件
-docs/.vitepress/data/bunny/ # 页面数据与锚点映射
-docs/characters/bunny/      # 主页、内页、历史档案与跳转桩
-docs/public/characters/     # 版本化网页 WebP
-docs/public/site/thumbs/    # 缩略图与索引（tools/build-thumbs.py 生成）
-catalog/                    # 版本清单与当前允许路径
-tools/                      # 构建、完整性校验与本地预览
+docs/.vitepress/data/bunny/ # 当前页面数据与旧 URL/锚点映射
+docs/characters/bunny/      # 主页、内页与跳转桩
+docs/public/characters/     # 当前 -latest WebP 与派生标尺
+docs/public/site/thumbs/    # 自动生成的 -latest 缩略图与索引
+catalog/                    # 当前原图清单、测量数据与内部 ID 对照
+tools/                      # 构建、完整性校验、本地预览与发布工具
 tools/site_check/           # 构建后站点检查（check:site）
 worker/                     # 静态站与受清单约束的 R2 入口
-.release/                   # 本地原图与下载包（不进 Git）
+.release/                   # 本地原图（不进 Git）
 ```
 
 软件保留原 [Apache-2.0 LICENSE](./LICENSE)。该许可不自动授予 Bunny 角色、美术、名称、商标及相关 IP 的转载、改编、再分发或商业使用权。

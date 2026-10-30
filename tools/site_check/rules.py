@@ -1,5 +1,4 @@
 """Independent site rules. Each rule consumes the same complete build inventory."""
-from collections import Counter
 from dataclasses import dataclass
 import base64
 import hashlib
@@ -8,6 +7,8 @@ from pathlib import Path
 import re
 import subprocess
 from urllib.parse import unquote, urlsplit
+
+from PIL import Image
 
 from .config import (RULE_IDS, PROCESS_WORDS, CANCELLED_NAMES, EDITORIAL_CLAIMS,
                      DIRECTION_EXCEPTIONS, PURPLES)
@@ -40,7 +41,7 @@ class Context:
         self.cache={}
     def wanted(self,path):return self.selected is None or path in self.selected
     def scanned(self):return [p for path,p in self.pages.items() if self.wanted(path)]
-    def current(self,page):return page.path!=self.cfg.archive and page.path not in self.cfg.stubs
+    def current(self,page):return page.path not in self.cfg.stubs
     def nonstubs(self):return [p for p in self.scanned() if p.path not in self.cfg.stubs]
     def read(self,path):
         path=Path(path)
@@ -51,10 +52,14 @@ class Context:
                 raise DataError(f'cannot read {path}: {exc}') from exc
         return self.cache[path]
     def data(self,name):return self.read(Path(self.cfg.data_dir)/name)
+    def manifest_paths(self):
+        paths=self.cfg.manifests
+        if paths is None:paths=tuple(sorted((self.cfg.root/'catalog').glob('*/manifest.json')))
+        if not paths:raise DataError('no current character manifests')
+        return paths
     def assets(self):
-        return [a for path in self.cfg.manifests for a in self.read(path)['assets']]
+        return [a for path in self.manifest_paths() for a in self.read(path)['assets']]
     def indexed_assets(self):return {a['id']:a for a in self.assets()}
-    def status(self,asset):return asset.get('source',{}).get('review_status','')
     def local_file(self,path):
         path=unquote(urlsplit(path).path)
         if path.startswith('/media/'):return self.cfg.root/'.release'/path[len('/media/'):]
@@ -81,12 +86,12 @@ class Context:
         path=resolved[0]
         for asset in self.assets():
             if path in (asset.get('web',{}).get('path'),asset.get('original',{}).get('path')):return asset
-        match=re.fullmatch(r'/site/thumbs/([^/]+)/([^/]+)/(.+)\.webp',path)
+        match=re.fullmatch(r'/site/thumbs/([^/]+)/(.+-latest)\.webp',path)
         if match:
-            aid=match[3]
+            aid=match[2]
             for asset in self.assets():
                 web=asset.get('web',{}).get('path','')
-                if asset['id']==aid and web.startswith(f'/characters/{match[1]}/{match[2]}/'):return asset
+                if asset['id']==aid and web.startswith(f'/characters/{match[1]}/'):return asset
         if path.lower().endswith('.svg'):
             key=('svg',path)
             if key not in self.cache:
@@ -192,94 +197,25 @@ def r2(c):
     return errors
 
 
-def inactive_archive_image(node):
-    def inactive(n):
-        return n.tag in ('noscript','template') or (n.tag=='dialog' and 'open' not in n.attrs) or 'hidden' in n.attrs
-    return inactive(node) or node.ancestor(inactive) is not None
-
-
-def archive_asset_renderings(c,page):
-    """Collect renderings once, including figure ids and picture alternatives."""
-    renderings={}
-    for node,url in refs(page):
-        if node.tag=='a' or inactive_archive_image(node):continue
-        owner=node
-        if node.tag=='source':
-            picture=node.ancestor(lambda n:n.tag=='picture')
-            if picture is not None:owner=next((n for n in picture.find('img') if not inactive_archive_image(n)),picture)
-            else:
-                fig=figure_for(node)
-                if fig is not None:
-                    owner=next((n for n in fig.find('img') if figure_for(n) is fig and not inactive_archive_image(n)),node)
-        ids=renderings.setdefault(owner,set())
-        asset=c.asset_for_url(url,page.path)
-        if asset:ids.add(asset['id'])
-    for node in page.body.find('img','data-asset-id'):
-        if inactive_archive_image(node):continue
-        renderings.setdefault(node,set()).add(node.attrs['data-asset-id'])
-    # The marker also identifies figures whose image address is not a manifest URL.
-    # A wrapper figure does not borrow the rendering of a nested asset figure.
-    for fig in page.body.find('figure','data-asset-id'):
-        owners=[node for node in renderings if figure_for(node) is fig]
-        for owner in owners:
-            renderings.setdefault(owner,set()).add(fig.attrs['data-asset-id'])
-    return renderings.items()
-
-
 def r3(c):
-    assets=c.indexed_assets(); errors=[]
+    """Current pages must never point to retired routes or versioned media."""
+    errors=[]
     for p in c.nonstubs():
-        seen=set()
-        for node,url in refs(p):
-            asset=c.asset_for_url(url,p.path)
-            if not asset or asset['id']=='bunny-original':continue
-            aid=asset['id'];status=c.status(asset)
-            if c.current(p):
-                if not status.startswith('current-') and aid not in seen:
-                    errors.append(fail('R3',p.path,'non-current asset: '+aid));seen.add(aid)
-            elif node.tag!='a' and status.startswith('current-'):
-                fig=figure_for(node);key=id(fig) if fig else id(node)
-                if key in seen:continue
-                seen.add(key)
-                if node.ancestor(lambda n:'data-changelog' in n.attrs or 'data-archive-measurements' in n.attrs) is None:errors.append(fail('R3',p.path,'current archive image is outside changelog or old measurements: '+aid))
-                if not caption(fig).startswith('现行：'):errors.append(fail('R3',p.path,'current archive image caption needs 现行：: '+aid))
-                item=node.ancestor(lambda n:'data-archive-item' in n.attrs)
-                scope=item or fig
-                if scope and any(n.has_class('archive-stamp') and '历史' in n.text() for n in scope.walk()):errors.append(fail('R3',p.path,'current image carries history stamp: '+aid))
-        if p.path==c.cfg.archive:
-            counts=Counter()
-            renderings=list(archive_asset_renderings(c,p))
-            for node,ids in renderings:
-                if 'data-archive-measurements' in node.attrs or node.ancestor(lambda n:'data-archive-measurements' in n.attrs):continue
-                item=node.ancestor(lambda n:n.tag=='li' and 'data-archive-item' in n.attrs)
-                grid=item.ancestor(lambda n:'data-archive-grid' in n.attrs) if item else None
-                for aid in sorted(ids):
-                    if aid not in assets or not c.status(assets[aid]).startswith('historical-'):continue
-                    counts[aid]+=1
-                    if item is None or grid is None or item.attrs['data-archive-item']!=aid:
-                        errors.append(fail('R3',p.path,'historical image must be inside its archive grid item: '+aid))
-                    if node.ancestor(lambda n:'data-changelog' in n.attrs):
-                        errors.append(fail('R3',p.path,'historical image is inside changelog: '+aid))
-            for item in p.body.find(attr='data-archive-item'):
-                if item.ancestor(lambda n:'data-archive-grid' in n.attrs) is None:continue
-                if item.ancestor(lambda n:'data-archive-measurements' in n.attrs):continue
-                aid=item.attrs['data-archive-item']
-                if item.tag!='li':errors.append(fail('R3',p.path,'archive grid item must be li: '+aid))
-                if aid not in assets or not c.status(assets[aid]).startswith('historical-'):errors.append(fail('R3',p.path,'archive grid item is not historical: '+aid))
-                # An empty item marker cannot establish image coverage.
-                owners=set()
-                for node,ids in renderings:
-                    if node.ancestor(lambda n:'data-archive-item' in n.attrs) is not item:continue
-                    if 'data-archive-measurements' in node.attrs or node.ancestor(lambda n:'data-archive-measurements' in n.attrs):continue
-                    if aid in ids:owners.add(node)
-                    for rendered_id in sorted(ids):
-                        asset=assets.get(rendered_id)
-                        if rendered_id!=aid or asset is None or not c.status(asset).startswith('historical-'):
-                            errors.append(fail('R3',p.path,'archive grid image mismatch: '+rendered_id))
-                if len(owners)!=1:errors.append(fail('R3',p.path,f'archive item needs exactly one matching image: {aid} ({len(owners)})'))
-            for aid,a in assets.items():
-                if c.status(a).startswith('historical-') and counts[aid]!=1:errors.append(fail('R3',p.path,f'historical asset must have exactly one rendering outside measurements: {aid} ({counts[aid]})'))
-    if c.wanted(c.cfg.archive) and c.cfg.archive not in c.pages:errors.append(fail('R3',c.cfg.archive,'archive page missing; historical coverage cannot be checked'))
+        for node in p.body.walk():
+            for attribute in ('href','src','srcset'):
+                raw=node.attrs.get(attribute,'')
+                values=[v.strip().split()[0] for v in raw.split(',') if v.strip()] if attribute=='srcset' else [raw]
+                for url in values:
+                    if not url:continue
+                    resolved=resolve_url(url,p.path)
+                    if resolved is None:continue
+                    path=resolved[0]
+                    retired=path.rstrip('/').rsplit('/',1)[-1] in ('archive','downloads')
+                    versioned=bool(re.match(r'/(?:media|characters)/[a-z0-9-]+/[0-9]+\.[0-9]+\.[0-9]+/',path))
+                    if retired or versioned or path.lower().endswith('.zip'):
+                        errors.append(fail('R3',p.path,'retired page or asset reference: '+url))
+                    elif path.startswith(('/characters/','/media/','/site/thumbs/')) and re.search(r'\.(?:webp|png|jpe?g)$',path,re.I) and c.asset_for_url(url,p.path) is None:
+                        errors.append(fail('R3',p.path,'image missing from current manifests: '+url))
     return errors
 
 
@@ -287,36 +223,10 @@ def r4(c):
     errors=[]
     for p in c.scanned():
         if not c.current(p):continue
-        # Only navigation/link text has the 历史档案 exception, not prose.
-        def visible(n):
-            if n.tag in ('script','style','template','head'):return ''
-            if n.tag=='a' or n.tag=='nav' or n.ancestor(lambda a:a.tag=='nav'):
-                return n.text(alt=True).replace('历史档案','')
-            out=''.join(x if isinstance(x,str) else visible(x) for x in n.children)
-            if n.tag=='img':out+=n.attrs.get('alt','')
-            return out
-        value=clean_text(visible(p.body)).replace('抗锯齿','')
+        value=clean_text(p.visible_text()).replace('抗锯齿','')
         for word in PROCESS_WORDS+CANCELLED_NAMES+EDITORIAL_CLAIMS:
             if word in value:errors.append(fail('R4',p.path,'forbidden wording: '+word))
         if p.body.find('details'):errors.append(fail('R4',p.path,'details element on current page'))
-    return errors
-
-
-def r5(c):
-    errors=[]
-    for p in c.nonstubs():
-        if c.current(p):
-            versions=re.findall(r'[0-9]+\.[0-9]+\.[0-9]+',regex_text(p.body))
-            if len(versions)>1 or any(v!=c.cfg.version for v in versions):errors.append(fail('R5',p.path,'at most one current version is allowed: '+repr(versions)))
-        else:
-            # Header means the article content before its first h2, excluding nav.
-            roots=p.docs or [p.body]; cutoff=min((n.order for root in roots for n in root.find('h2')),default=float('inf'))
-            value=' '.join(regex_text(root,before_order=cutoff) for root in roots)
-            versions=re.findall(r'[0-9]+\.[0-9]+\.[0-9]+',value)
-            if versions!=[c.cfg.version]:errors.append(fail('R5',p.path,'archive header must contain current version exactly once'))
-            nodes=p.body.find(attr='data-changelog')+[cap for item in p.body.find(attr='data-archive-item') for cap in item.find('figcaption')]
-            for n in nodes:
-                if re.search(r'[0-9]+\.[0-9]+\.[0-9]+',regex_text(n)):errors.append(fail('R5',p.path,'version appears in archive record or grid caption'))
     return errors
 
 
@@ -332,10 +242,10 @@ def r6(c):
 def r7(c):
     assets=c.assets();thumbs=c.read(c.cfg.thumbs_file)
     allowed={a[k]['path'] for a in assets for k in ('web','original') if k in a}
-    for path in c.cfg.manifests:allowed.update(d['path'] for d in c.read(path).get('downloads',[]))
     allowed.update(t['path'] for t in thumbs.values())
     if c.cfg.ruler_paths is None:
-        allowed.update('/'+p.removeprefix('docs/public/') for p in c.read(c.cfg.frozen_file) if p.endswith('.svg'))
+        public=c.cfg.root/'docs/public'
+        allowed.update('/'+p.relative_to(public).as_posix() for p in (public/'characters').rglob('*-latest.svg'))
     else:allowed.update(c.cfg.ruler_paths)
     public=c.cfg.root/'docs/public'
     allowed.update('/'+p.relative_to(public).as_posix() for p in (public/'catalog').rglob('*.json'))
@@ -354,7 +264,6 @@ def r7b(c):
         for node,url in refs(p):
             if node.tag=='a' or urlsplit(url).path.lower().endswith('.svg'):continue
             fig=figure_for(node)
-            if p.path==c.cfg.archive and node.ancestor(lambda n:'data-archive-measurements' in n.attrs) and (fig is None or not fig.has_class('release-image')):continue
             asset=c.asset_for_url(url,p.path)
             if not asset:continue
             key=(fig or node,asset['id'])
@@ -372,12 +281,22 @@ def r8(c):
     for key,t in thumbs.items():
         source=t.get('sourcePath');asset=bypath.get(source);seen.add(source)
         if asset is None or t.get('sourceSha256')!=asset['web'].get('sha256'):errors.append(fail('R8',key,'thumbnail source sha256 does not match manifest'))
-        collection=re.fullmatch(r'/characters/([^/]+)/([^/]+)/[^/]+',source or '',re.ASCII)
-        expected=f'{collection[1]}/{collection[2]}/{asset["id"]}' if collection and asset else None
+        collection=re.fullmatch(r'/characters/([^/]+)/[^/]+',source or '',re.ASCII)
+        expected=f'{collection[1]}/{asset["id"]}' if collection and asset else None
         if key!=expected or t.get('path')!='/site/thumbs/'+key+'.webp':
             errors.append(fail('R8',key,'thumbnail key, path and source asset must agree'))
     for path in bypath:
         if path not in seen:errors.append(fail('R8',path,'thumbnail index entry missing'))
+    indexed={item.get('path') for item in thumbs.values()}
+    public=c.cfg.root/'docs/public'
+    for file in sorted((public/'site/thumbs').rglob('*.webp')):
+        path='/'+file.relative_to(public).as_posix()
+        if not file.name.endswith('-latest.webp'):errors.append(fail('R8',path,'thumbnail must end in -latest.webp'))
+        if path not in indexed:errors.append(fail('R8',path,'thumbnail missing from index'))
+    for key,item in thumbs.items():
+        file=public/item.get('path','').lstrip('/')
+        if not file.is_file() or hashlib.sha256(file.read_bytes()).hexdigest()!=item.get('sha256'):
+            errors.append(fail('R8',key,'thumbnail sha256 differs or file missing'))
     return errors
 
 
@@ -402,7 +321,7 @@ def r9(c):
 def r10(c):
     errors=[]
     for p in c.nonstubs():
-        values=[clean_text(p.visible_text())] if c.current(p) else [text(n) for n in p.body.find(attr='data-changelog')]+[text(cap) for item in p.body.find(attr='data-archive-item') for cap in item.find('figcaption')]
+        values=[clean_text(p.visible_text())]
         for value in values:
             covered=bytearray(len(value))
             for fragment in DIRECTION_EXCEPTIONS:
@@ -419,7 +338,7 @@ def r11(c):
     for p in c.nonstubs():
         current=c.current(p)
         if current:
-            nodes=[n for n in p.body.walk() if n.tag in ('figcaption','img','h1','h2','h3','h4','button') or n.attrs.get('role')=='tab' or 'data-download-asset' in n.attrs or 'data-download-file' in n.attrs]
+            nodes=[n for n in p.body.walk() if n.tag in ('figcaption','img','h1','h2','h3','h4','button') or n.attrs.get('role')=='tab']
             for n in nodes:
                 value=clean_text(n.attrs.get('alt','') if n.tag=='img' else n.text())
                 for m in re.finditer('侧面',value):
@@ -437,7 +356,7 @@ def r11(c):
             if own_caps:
                 strong=[n for n in own_caps[0].find('strong') if figure_for(n) is fig]
                 own_caption=(strong[0] if strong else own_caps[0]).text(skip=HIDDEN|{'figure'}).strip()
-            if aid=='sun05-pose-structure-v1' and own_caption!=(fixed if current else '现行：'+fixed):errors.append(fail('R11',p.path,'SUN-05 structure caption differs from required wording'))
+            if aid=='sun05-pose-structure-latest' and own_caption!=fixed:errors.append(fail('R11',p.path,'SUN-05 structure caption differs from required wording'))
             if current and 'front' in aid:
                 value=' '.join(n.text(skip=HIDDEN|{'figure'}) for n in own_caps)+' '.join(n.attrs.get('alt','') for n in own_images)
                 if '后腰' in value or '交叉携行' in value:errors.append(fail('R11',p.path,'front image caption/alt describes rear carry'))
@@ -470,11 +389,11 @@ def r13(c):
     for p in c.nonstubs():
         occurrences={}
         for fig in p.body.find('figure'):
-            if fig.attrs.get('data-asset-id')=='bunny-original':occurrences[id(fig)]=fig
+            if fig.attrs.get('data-asset-id')=='bunny-original-latest':occurrences[id(fig)]=fig
         for node,url in refs(p):
             if node.tag=='a':continue
             resolved=resolve_url(url,p.path)
-            if resolved and re.search(r'/bunny-original\.(?:webp|png)$',resolved[0]):
+            if resolved and re.search(r'/bunny-original-latest\.(?:webp|png)$',resolved[0]):
                 owner=figure_for(node) or node
                 occurrences[id(owner)]=owner
         expected=1 if p.path==c.cfg.home else 0
@@ -604,55 +523,71 @@ def r15(c):
 
 
 def r16(c):
-    if not c.wanted(c.cfg.archive):return []
     files=sorted((c.cfg.dist/'assets/chunks').glob('@localSearchIndexroot.*.js'))
-    if len(files)!=1:return [fail('R16',c.cfg.archive,f'expected one local search index, found {len(files)}')]
-    result=c.node('search',files[0],'双手棍');errors=[]
-    matches=[r for r in result['results'] if any(k.startswith('双手棍') for k in r.get('match',{}))]
-    if not matches:errors.append(fail('R16',c.cfg.archive,'no exact-prefix 双手棍 search result'))
-    for item in matches:
-        path=normalize_path(urlsplit(item['id']).path)
-        titles=item.get('titles',[])+[item.get('title','')]
-        if path!=c.cfg.archive or titles[0]!='历史档案':errors.append(fail('R16',path,'双手棍 result must belong to 历史档案'))
+    if len(files)!=1:return [fail('R16','search',f'expected one local search index, found {len(files)}')]
+    result=c.node('search',files[0],'Bunny');errors=[]
     for document in result['documentIds']:
         path=normalize_path(urlsplit(document).path)
         if path in c.cfg.stubs:errors.append(fail('R16',path,'redirect stub is in local search index'))
+        elif path not in c.pages:errors.append(fail('R16',path,'search document targets a missing page'))
     return errors
 
 
-def a5(c):
-    frozen=c.read(c.cfg.frozen_file);errors=[]
-    for path,expected in frozen.items():
-        file=c.cfg.root/path
-        if not file.is_file() or hashlib.sha256(file.read_bytes()).hexdigest()!=expected:errors.append(fail('A5',path,'frozen sha256 mismatch or file missing'))
-    prefix='docs/public/characters/bunny/3.1.0/'
-    baseline={path for path in frozen if path.startswith(prefix) and path.endswith('.webp')}
-    if baseline:
-        allowed=baseline|{prefix+aid+'.webp' for aid in c.cfg.new_assets}
-        for file in (c.cfg.root/prefix).glob('*.webp'):
-            path=file.relative_to(c.cfg.root).as_posix()
-            if path not in allowed:errors.append(fail('A5',path,'unexpected new WebP asset name'))
-    return errors
-
-
-def d1(c):
-    manifest=c.read(c.cfg.manifests[0]);names=c.data('asset-names.json');assets={a['id']:a for a in manifest['assets']};errors=[]
-    if len(assets)!=len(manifest['assets']):errors.append(fail('D1',c.cfg.manifests[0],'duplicate asset ids'))
-    for aid,a in assets.items():
-        if not re.fullmatch(r'(current|historical)-[a-z0-9_.-]+',c.status(a)):errors.append(fail('D1',aid,'review_status must be current-* or historical-*'))
-    expected=set(assets)|{'bunny-original'}
-    if set(names)!=expected:errors.append(fail('D1','asset-names.json','name keys differ from bunny assets plus bunny-original'))
+def a1(c):
+    """Validate replaceable assets against manifests, never a frozen image table."""
+    errors=[];webs={};identities=set();ids=set()
+    for manifest_path in c.manifest_paths():
+        manifest=c.read(manifest_path)
+        character=Path(manifest_path).parent.name
+        for asset in manifest['assets']:
+            aid=asset['id'];identity=(character,aid)
+            if identity in identities:errors.append(fail('A1',manifest_path,'duplicate asset identity: '+aid))
+            identities.add(identity);ids.add(aid)
+            if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*-latest',aid) or re.search(r'(?:^[0-9]+-|(?:^|-)(?:v[0-9]+|layer[0-9]+|fresh|cel|base-aligned|highlow|only|construction)(?:-|$))',aid):
+                errors.append(fail('A1',manifest_path,'invalid stable latest slug: '+aid))
+            for kind,prefix,suffix in (('web','/characters/','.webp'),('original','/media/','.png')):
+                entry=asset.get(kind,{})
+                expected=f'{prefix}{character}/{aid}{suffix}'
+                if entry.get('path')!=expected:
+                    errors.append(fail('A1',aid,kind+' path must be '+expected));continue
+                if kind=='web':webs[expected]=asset
+                file=c.cfg.root/('docs/public'+expected if kind=='web' else '.release/'+character+'/'+aid+'.png')
+                if not file.is_file():
+                    errors.append(fail('A1',expected,kind+' file missing'));continue
+                data=file.read_bytes()
+                if entry.get('bytes')!=len(data):errors.append(fail('A1',expected,kind+' byte size differs from manifest'))
+                if entry.get('sha256')!=hashlib.sha256(data).hexdigest():errors.append(fail('A1',expected,kind+' sha256 differs from manifest'))
+                try:
+                    with Image.open(file) as image:
+                        if image.size!=(entry.get('width'),entry.get('height')):
+                            errors.append(fail('A1',expected,kind+' native dimensions differ from manifest'))
+                        if image.format!=('WEBP' if kind=='web' else 'PNG'):
+                            errors.append(fail('A1',expected,kind+' image format differs from extension'))
+                except OSError:
+                    errors.append(fail('A1',expected,kind+' image cannot be decoded'))
+    public=c.cfg.root/'docs/public'
+    for file in sorted((public/'characters').rglob('*.webp')):
+        path='/'+file.relative_to(public).as_posix()
+        if not file.name.endswith('-latest.webp'):errors.append(fail('A1',path,'WebP must end in -latest.webp'))
+        if path not in webs:errors.append(fail('A1',path,'WebP missing from current manifests'))
+    names=c.data('asset-names.json')
+    if set(names)!=ids:errors.append(fail('A1','asset-names.json','name keys differ from current manifest assets'))
     for aid,name in names.items():
-        if not isinstance(name,str) or not name.strip():errors.append(fail('D1',aid,'Chinese display name is empty'))
-    for aid,(status,width,height,md5) in c.cfg.new_assets.items():
-        a=assets.get(aid)
-        if a is None:errors.append(fail('D1',aid,'required new asset missing'));continue
-        if c.status(a)!=status:errors.append(fail('D1',aid,'new asset status differs'))
-        for kind in ('original','web'):
-            if (a.get(kind,{}).get('width'),a.get(kind,{}).get('height'))!=(width,height):errors.append(fail('D1',aid,kind+' dimensions differ'))
-        file=c.local_file(a['original']['path'])
-        if not file.is_file() or hashlib.md5(file.read_bytes()).hexdigest()!=md5:errors.append(fail('D1',aid,'new original md5 differs or file missing'))
+        if not isinstance(name,str) or not name.strip():errors.append(fail('A1',aid,'Chinese display name is empty'))
     return errors
+
+
+def a2(c):
+    """A manifest entry is current only when a non-stub page uses its image."""
+    referenced=set()
+    for page in c.pages.values():
+        if not c.current(page):continue
+        for node,url in refs(page):
+            if node.tag=='a':continue
+            asset=c.asset_for_url(url,page.path)
+            if asset:referenced.add(asset['web']['path'])
+    return [fail('A2',asset['web']['path'],'manifest asset is not referenced by a current page')
+            for asset in c.assets() if asset['web']['path'] not in referenced]
 
 
 def d2(c):
@@ -671,32 +606,6 @@ def d2(c):
         originals=set(strings(c.read(path)))
         for source in replacements:
             if source not in originals:errors.append(fail('D2',path,'display-text key is not an original string: '+source))
-    return errors
-
-
-def d3(c):
-    wanted=[path for path in (c.cfg.home,c.cfg.downloads) if c.wanted(path)]
-    if not wanted:return []
-    assets=c.indexed_assets();current={aid for aid,a in assets.items() if c.status(a).startswith('current-')};errors=[]
-    for path in wanted:
-        p=c.pages.get(path)
-        if p is None:errors.append(fail('D3',path,'download page missing'));continue
-        groups=p.body.find(attr='data-download-group');expected=c.cfg.home_groups if path==c.cfg.home else c.cfg.page_groups
-        actual=[]
-        for group in groups:
-            if path==c.cfg.home:heads=group.find('h3');head=heads[0] if heads else None
-            else:heads=[h for h in p.body.find('h2') if h.order<group.order];head=heads[-1] if heads else None
-            actual.append((group.attrs['data-download-group'],heading_text(head) if head else None))
-        if actual!=list(expected):errors.append(fail('D3',path,'download group ids, names or order differ'))
-        items=[n.attrs['data-download-asset'] for group in groups for n in group.find(attr='data-download-asset')]
-        if path==c.cfg.home:
-            if len(items)!=c.cfg.home_download_count:errors.append(fail('D3',path,f'home downloads need {c.cfg.home_download_count} assets, got {len(items)}'))
-            if any(a not in current for a in items):errors.append(fail('D3',path,'home downloads contain a non-current/original asset'))
-        else:
-            if Counter(items)!=Counter({a:1 for a in current}):errors.append(fail('D3',path,'downloads must list each current asset exactly once and no other asset'))
-            measurement=next((n for n in groups if n.attrs['data-download-group']=='dl-measurement-data'),None)
-            ids={n.attrs['id'] for n in measurement.find(attr='id')} if measurement else set()
-            if not set(c.cfg.measurement_anchors)<=ids:errors.append(fail('D3',path,'measurement aliases missing from dimensions group'))
     return errors
 
 
@@ -724,7 +633,7 @@ def expand_rules(rules):
 
 def run_checks(config,*,rules=None,pages=None,pending=None):
     selected=expand_rules(rules);c=Context(config,pages,pending);errors=[]
-    if not c.pages and any(r not in ('R6','A5','D1','D2','R8','R12b') for r in selected):
+    if not c.pages and any(r not in ('R6','A1','D2','R8','R12b') for r in selected):
         return [fail(r,str(config.dist),'build contains no HTML pages') for r in selected]
     for rule in selected:
         try:errors.extend(RULES[rule](c))

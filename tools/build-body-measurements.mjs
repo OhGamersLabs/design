@@ -6,10 +6,10 @@ import { measurementModel, renderMeasurementSvg } from '../docs/.vitepress/theme
 
 const root = resolve(import.meta.dirname, '..')
 const check = process.argv.includes('--check')
-const relative = 'catalog/bunny/3.1.0/body-measurements.json'
+const relative = 'catalog/bunny/body-measurements.json'
 const bytes = await readFile(resolve(root, relative))
 const data = JSON.parse(bytes)
-const manifest = JSON.parse(await readFile(resolve(root, 'catalog/bunny/3.1.0/manifest.json'), 'utf8'))
+const manifest = JSON.parse(await readFile(resolve(root, 'catalog/bunny/manifest.json'), 'utf8'))
 const hash = (value) => createHash('sha256').update(value).digest('hex')
 
 async function output(path, value) {

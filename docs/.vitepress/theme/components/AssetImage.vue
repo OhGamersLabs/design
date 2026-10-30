@@ -13,8 +13,8 @@ const props = withDefaults(defineProps<{
 }>(), { useThumb: false })
 
 const asset = computed(() => {
-  if (props.id === 'bunny-original' && props.group !== undefined) {
-    throw new Error('bunny-original cannot join a lightbox group')
+  if (props.id === 'bunny-original-latest' && props.group !== undefined) {
+    throw new Error('bunny-original-latest cannot join a lightbox group')
   }
   return assetById(data.assets, props.id)
 })

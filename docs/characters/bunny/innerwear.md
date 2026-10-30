@@ -15,11 +15,11 @@ aside: false
 
 <div class="bunny-body-views">
 
-<AssetImage id="innerwear-v2-fresh-cel-front-v3" caption="正面" group="layer-1" />
+<AssetImage id="innerwear-front-latest" caption="正面" group="layer-1" />
 
-<AssetImage id="innerwear-v2-fresh-cel-side-v1" caption="角色右侧面" group="layer-1" />
+<AssetImage id="innerwear-side-latest" caption="角色右侧面" group="layer-1" />
 
-<AssetImage id="innerwear-v2-fresh-cel-back-v3" caption="背面" group="layer-1" />
+<AssetImage id="innerwear-back-latest" caption="背面" group="layer-1" />
 
 </div>
 
@@ -29,13 +29,12 @@ aside: false
 
 人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
 
-[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
 
 ## 分件结构 <small>拆成单件看</small> {#construction}
 
 ### 白色上衣结构 {#白色上衣结构}
 
-<AssetImage id="white-top-v2-layer1-construction-v1" group="layer-1" />
+<AssetImage id="innerwear-top-board-latest" group="layer-1" />
 
 白色上衣的款式结构包括领口、缝线与开口。
 
@@ -50,7 +49,7 @@ aside: false
 
 ### 红色短裤结构 {#红色短裤结构}
 
-<AssetImage id="red-shorts-v2-layer1-construction-v2" group="layer-1" />
+<AssetImage id="innerwear-shorts-board-latest" group="layer-1" />
 
 红色短裤的款式结构包括腰头、开口和口袋。
 

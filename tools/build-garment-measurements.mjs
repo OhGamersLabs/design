@@ -6,12 +6,12 @@ import { garmentModel, renderGarmentSvg } from '../docs/.vitepress/theme/compone
 
 const root = resolve(import.meta.dirname, '..')
 const check = process.argv.includes('--check')
-const relative = 'catalog/bunny/3.1.0/garment-measurements.json'
+const relative = 'catalog/bunny/garment-measurements.json'
 const bytes = await readFile(resolve(root, relative))
 const data = JSON.parse(bytes)
-const bodyBytes = await readFile(resolve(root, 'catalog/bunny/3.1.0/body-measurements.json'))
+const bodyBytes = await readFile(resolve(root, 'catalog/bunny/body-measurements.json'))
 const body = JSON.parse(bodyBytes)
-const manifest = JSON.parse(await readFile(resolve(root, 'catalog/bunny/3.1.0/manifest.json'), 'utf8'))
+const manifest = JSON.parse(await readFile(resolve(root, 'catalog/bunny/manifest.json'), 'utf8'))
 const hash = (value) => createHash('sha256').update(value).digest('hex')
 const h0 = body.views.front.landmarks.chin.y - body.views.front.height.crownY
 if (data.schemaVersion !== 1 || data.bodyMeasurementsSha256 !== hash(bodyBytes) || data.designUnit?.px !== h0 || !(h0 > 0)) throw new Error('Garment design unit does not match the frozen body measurement source')

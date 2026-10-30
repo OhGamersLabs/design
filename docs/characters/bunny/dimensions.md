@@ -25,7 +25,6 @@ aside: false
 
 <BodyMeasurements :data="measurements" />
 
-[查看身体三视原图](/characters/bunny/body-base) · [下载三视标尺与测量数据](/characters/bunny/downloads#body-measurements)
 
 ## 服装尺寸 {#garment-dimensions}
 
@@ -33,7 +32,6 @@ aside: false
 
 <GarmentMeasurements :data="garments" />
 
-[下载服装规范 JSON 与标尺 SVG](/characters/bunny/downloads#garment-dimensions) · [白衣红裤原图](/characters/bunny/innerwear) · [夹克设计](/characters/bunny/jacket)
 
 ## 武器尺寸 {#weapon-dimensions}
 <span id="assassin-daggers-dimensions"></span>
@@ -63,7 +61,7 @@ aside: false
 
 后续母版、拆解与人物图按本表尺寸分别核对，实际源点、误差和遮挡状态记录在数据文件中，不用生成图片上的数字替代测量。
 
-[下载双匕首尺寸 JSON](/catalog/bunny/3.1.0/dagger-dimensions.json) · [人物持握与后腰交叉携行](/characters/bunny/weapon#carry)
+[下载双匕首尺寸 JSON](/catalog/bunny/dagger-dimensions.json) · [人物持握与后腰交叉携行](/characters/bunny/weapon#carry)
 
 后腰固定结构研究板只说明局部可见连接。该板不替代本表母版读数，也未新增身体配准或侧厚测量。
 
@@ -71,7 +69,7 @@ aside: false
 
 ### 携行背面图面核对 {#dagger-figure-observations}
 
-[携行背面原图](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.png)使用本图读取的发冠、后发缘和膝部折线，与身体背面作统一缩放与平移对齐；鞋底和护目镜不作为身高端点。
+[携行背面原图](/media/bunny/daggers-back-latest.png)使用本图读取的发冠、后发缘和膝部折线，与身体背面作统一缩放与平移对齐；鞋底和护目镜不作为身高端点。
 
 | 本图估读 | 角色右 · 墨黑 | 角色左 · 骨白 |
 | --- | --- | --- |
@@ -85,7 +83,7 @@ aside: false
 
 <script setup>
 import BodyMeasurements from '../../.vitepress/theme/components/BodyMeasurements.vue'
-import measurements from '../../../catalog/bunny/3.1.0/body-measurements.json'
+import measurements from '../../../catalog/bunny/body-measurements.json'
 import GarmentMeasurements from '../../.vitepress/theme/components/GarmentMeasurements.vue'
-import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
+import garments from '../../../catalog/bunny/garment-measurements.json'
 </script>

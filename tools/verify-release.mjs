@@ -6,72 +6,57 @@ import { isDeepStrictEqual } from 'node:util'
 import { validateCatalog } from '../worker/catalog.js'
 
 const defaultRoot = resolve(import.meta.dirname, '..')
-const filenamePattern = /^[A-Za-z0-9._-]+$/
-const imageTypes = new Set(['image/png', 'image/jpeg', 'image/webp'])
+const slugPattern = /^[a-z0-9][a-z0-9-]*-latest$/
 const shaPattern = /^[a-fA-F0-9]{64}$/
 const isRecord = (value) => value !== null && typeof value === 'object' && !Array.isArray(value)
-const isFilename = (value) => typeof value === 'string' && filenamePattern.test(value) && !value.includes('..')
+const matches = (pattern, value) => typeof value === 'string' && pattern.exec(value)?.[0] === value
 
-/** Only catalog entries select active releases; retained directories never expand the allowlist. */
+/** Only catalog entries select current character manifests. */
 export function collectReleaseGroups(catalog, { production = true } = {}) {
   const allowed = validateCatalog(catalog, { production })
-  const versions = new Map()
   const groups = new Map()
   for (const asset of allowed.values()) {
-    if (versions.has(asset.character) && versions.get(asset.character) !== asset.version) {
-      throw new Error(`Each character must have one active version: ${asset.character}`)
-    }
-    versions.set(asset.character, asset.version)
-    const id = `${asset.character}/${asset.version}`
-    if (!groups.has(id)) groups.set(id, { character: asset.character, version: asset.version, assets: [] })
-    groups.get(id).assets.push(asset)
+    if (!groups.has(asset.character)) groups.set(asset.character, { character: asset.character, assets: [] })
+    groups.get(asset.character).assets.push(asset)
   }
   return { allowed, groups: [...groups.values()] }
 }
 
-/** Validate metadata independently of disk reads; all R2 references must match the exact approved entry. */
+function validImage(item, path, mime) {
+  return isRecord(item) && item.path === path && item.mime_type === mime &&
+    Number.isSafeInteger(item.bytes) && item.bytes > 0 && matches(shaPattern, item.sha256) &&
+    Number.isSafeInteger(item.width) && item.width > 0 &&
+    Number.isSafeInteger(item.height) && item.height > 0
+}
+
+/** Integrity belongs to the local manifest; replaceable R2 objects keep only stable identities. */
 export function validateReleaseManifest(manifest, group, allowed) {
-  if (!isRecord(manifest) || manifest.character_id !== group.character || manifest.release_version !== group.version ||
-      !Array.isArray(manifest.assets) || !Array.isArray(manifest.downloads) ||
+  if (!isRecord(manifest) || manifest.character_id !== group.character ||
+      'release_version' in manifest || 'downloads' in manifest || !Array.isArray(manifest.assets) ||
       !Number.isSafeInteger(manifest.asset_count) || manifest.asset_count !== manifest.assets.length) {
-    throw new Error(`Invalid release manifest: ${group.character}/${group.version}`)
-  }
-  if (group.character === 'bunny' && ['1.0.0', '1.1.0'].includes(group.version) && manifest.asset_count !== 19) {
-    throw new Error('Expected 19 approved Bunny final images')
+    throw new Error(`Invalid image manifest: ${group.character}`)
   }
   const referenced = new Set()
   const imageIds = new Set()
-  const webPaths = new Set()
-  function validatePublicFile(item) {
-    const entry = isRecord(item) ? allowed.get(item.path) : undefined
-    if (!entry || entry.character !== group.character || entry.version !== group.version ||
-        item.bytes !== entry.size || item.sha256 !== entry.sha256 || item.mime_type !== entry.contentType ||
-        referenced.has(item.path)) {
-      throw new Error(`Release manifest contains an unmatched or duplicate public asset: ${group.character}/${group.version}`)
-    }
-    referenced.add(item.path)
-  }
   for (const asset of manifest.assets) {
-    if (!isRecord(asset) || typeof asset.id !== 'string' || !asset.id || imageIds.has(asset.id) ||
-        asset.character !== group.character || asset.version !== group.version || !isRecord(asset.web)) {
-      throw new Error(`Invalid image metadata in release manifest: ${group.character}/${group.version}`)
+    if (!isRecord(asset) || !matches(slugPattern, asset.id) || imageIds.has(asset.id) ||
+        asset.character !== group.character || 'version' in asset) {
+      throw new Error(`Invalid image metadata in manifest: ${group.character}`)
     }
     imageIds.add(asset.id)
-    validatePublicFile(asset.original)
-    if (!imageTypes.has(asset.original.mime_type)) throw new Error('Original artwork must use an approved image MIME')
-    const prefix = `/characters/${group.character}/${group.version}/`
-    const web = asset.web
-    if (typeof web.path !== 'string' || !web.path.startsWith(prefix) ||
-        !isFilename(web.path.slice(prefix.length)) || webPaths.has(web.path) ||
-        !Number.isSafeInteger(web.bytes) || web.bytes <= 0 || typeof web.sha256 !== 'string' ||
-        !shaPattern.test(web.sha256) || !imageTypes.has(web.mime_type)) {
-      throw new Error(`Invalid web asset in release manifest: ${group.character}/${group.version}`)
+    const originalPath = `/media/${group.character}/${asset.id}.png`
+    const entry = allowed.get(originalPath)
+    if (!entry || entry.character !== group.character || entry.contentType !== 'image/png' ||
+        !validImage(asset.original, originalPath, 'image/png') || referenced.has(originalPath)) {
+      throw new Error(`Manifest contains an unmatched or invalid original: ${group.character}`)
     }
-    webPaths.add(web.path)
+    referenced.add(originalPath)
+    if (!validImage(asset.web, `/characters/${group.character}/${asset.id}.webp`, 'image/webp')) {
+      throw new Error(`Invalid web asset in manifest: ${group.character}`)
+    }
   }
-  for (const download of manifest.downloads) validatePublicFile(download)
   if (referenced.size !== group.assets.length || group.assets.some((asset) => !referenced.has(asset.path))) {
-    throw new Error(`Active allowlist and release manifest differ: ${group.character}/${group.version}`)
+    throw new Error(`Current allowlist and image manifest differ: ${group.character}`)
   }
   return manifest.assets.map((asset) => asset.web)
 }
@@ -84,38 +69,39 @@ function requireReadyFrontmatter(markdown, character) {
   }
 }
 
-/** Verify one active version per character using a supplied checkout root (also useful for isolated fixtures). */
+async function verifyFile(path, asset, label) {
+  const bytes = await readFile(path)
+  if (bytes.length !== asset.bytes || createHash('sha256').update(bytes).digest('hex') !== asset.sha256.toLowerCase()) {
+    throw new Error(`${label} integrity mismatch: ${asset.path}`)
+  }
+}
+
+/** Verify the current manifests using a supplied checkout root (also useful for isolated fixtures). */
 export async function verifyRelease(root = defaultRoot, { production = true, verifyOriginals = false } = {}) {
   const json = async (relative) => JSON.parse(await readFile(resolve(root, relative), 'utf8'))
   const { allowed, groups } = collectReleaseGroups(await json('catalog/releases.json'), { production })
   const releases = []
   for (const group of groups) {
-    const manifestPath = `catalog/${group.character}/${group.version}/manifest.json`
+    const manifestPath = `catalog/${group.character}/manifest.json`
     const manifest = await json(manifestPath)
     const webAssets = validateReleaseManifest(manifest, group, allowed)
     const publicManifest = await json(`docs/public/${manifestPath}`)
     if (!isDeepStrictEqual(manifest, publicManifest)) {
-      throw new Error(`Public manifest differs from release manifest: ${group.character}/${group.version}`)
+      throw new Error(`Public manifest differs from image manifest: ${group.character}`)
     }
     for (const asset of webAssets) {
-      const bytes = await readFile(resolve(root, 'docs/public' + asset.path))
-      if (bytes.length !== asset.bytes || createHash('sha256').update(bytes).digest('hex') !== asset.sha256.toLowerCase()) {
-        throw new Error(`Web asset integrity mismatch: ${asset.path}`)
-      }
+      await verifyFile(resolve(root, 'docs/public' + asset.path), asset, 'Web asset')
     }
     if (production) {
       const overview = await readFile(resolve(root, `docs/characters/${group.character}/index.md`), 'utf8')
       requireReadyFrontmatter(overview, group.character)
     }
     if (verifyOriginals) {
-      for (const asset of group.assets) {
-        const bytes = await readFile(resolve(root, '.release', group.character, group.version, asset.path.split('/').at(-1)))
-        if (bytes.length !== asset.size || createHash('sha256').update(bytes).digest('hex') !== asset.sha256.toLowerCase()) {
-          throw new Error(`Local original integrity mismatch: ${asset.path}`)
-        }
+      for (const asset of manifest.assets) {
+        await verifyFile(resolve(root, '.release', group.character, `${asset.id}.png`), asset.original, 'Local original')
       }
     }
-    releases.push({ character: group.character, version: group.version, webImages: webAssets.length, r2Urls: group.assets.length })
+    releases.push({ character: group.character, webImages: webAssets.length, r2Urls: group.assets.length })
   }
   return { webImages: releases.reduce((sum, release) => sum + release.webImages, 0), r2Urls: allowed.size, releases }
 }
@@ -124,7 +110,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
   try {
     const local = process.argv.includes('--local')
     const result = await verifyRelease(defaultRoot, { production: !local, verifyOriginals: local })
-    console.log(`${local ? 'Local reference verified' : 'Release ready'}: ${result.webImages} verified web images; ${result.r2Urls} exact media URLs; ${result.releases.length} active releases`)
+    console.log(`${local ? 'Local reference verified' : 'Release ready'}: ${result.webImages} verified web images; ${result.r2Urls} exact media URLs; ${result.releases.length} characters`)
   } catch (error) {
     console.error(error.message)
     process.exitCode = 1

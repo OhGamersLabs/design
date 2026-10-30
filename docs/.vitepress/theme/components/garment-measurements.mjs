@@ -77,9 +77,9 @@ export function fitRegistration(registration) {
 function resources(source) {
   const r = source.resources
   const patterns = {
-    original: /^\/media\/bunny\/3\.1\.0\/[A-Za-z0-9][A-Za-z0-9._-]*\.png$/,
-    web: /^\/characters\/bunny\/3\.1\.0\/[A-Za-z0-9][A-Za-z0-9._-]*\.webp$/,
-    ruler: /^\/characters\/bunny\/3\.1\.0\/[A-Za-z0-9][A-Za-z0-9._-]*\.svg$/,
+    original: /^\/media\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.png$/,
+    web: /^\/characters\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.webp$/,
+    ruler: /^\/characters\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.svg$/,
   }
   for (const key of ['original', 'web', ...(r?.ruler === undefined ? [] : ['ruler'])]) {
     if (typeof r?.[key] !== 'string' || !patterns[key].test(r[key]) || r[key].includes('..')) throw new Error(`Invalid garment resource: ${key}`)

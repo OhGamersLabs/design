@@ -7,12 +7,8 @@ import LayerStrip from './components/LayerStrip.vue'
 import CharacterHero from './components/CharacterHero.vue'
 import LatestList from './components/LatestList.vue'
 import ChapterBar from './components/ChapterBar.vue'
-import ArchiveGrid from './components/ArchiveGrid.vue'
-import ChangelogTable from './components/ChangelogTable.vue'
-import DownloadList from './components/DownloadList.vue'
 import BodyMeasurements from './components/BodyMeasurements.vue'
 import GarmentMeasurements from './components/GarmentMeasurements.vue'
-import BodyProportionCompare from './components/BodyProportionCompare.vue'
 import SiteLayout from './SiteLayout.vue'
 import BunnyPage from './BunnyPage.vue'
 import './style.css'
@@ -29,12 +25,8 @@ export default {
     app.component('CharacterHero', CharacterHero)
     app.component('LatestList', LatestList)
     app.component('ChapterBar', ChapterBar)
-    app.component('ArchiveGrid', ArchiveGrid)
-    app.component('ChangelogTable', ChangelogTable)
-    app.component('DownloadList', DownloadList)
     app.component('ReleaseImage', ReleaseImage)
     app.component('BodyMeasurements', BodyMeasurements)
     app.component('GarmentMeasurements', GarmentMeasurements)
-    app.component('BodyProportionCompare', BodyProportionCompare)
   },
 } satisfies Theme

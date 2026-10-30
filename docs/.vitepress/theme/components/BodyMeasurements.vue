@@ -25,7 +25,7 @@ const rulerHeight = computed(() => current.value.source.height + 245 + Math.ceil
 </script>
 
 <template>
-  <section v-if="views.length" class="body-measurements" :aria-label="scope === 'archive' ? '历史身体图面尺寸' : '身体图面尺寸'">
+  <section v-if="views.length" class="body-measurements" aria-label="身体图面尺寸">
     <div class="body-measurements__views" role="group" aria-label="选择测量视角">
       <button v-for="view in views" :key="view.id" type="button" :aria-pressed="current.id === view.id" @click="selected = view.id">{{ viewLabel(view.id) }}</button>
     </div>
@@ -37,7 +37,7 @@ const rulerHeight = computed(() => current.value.source.height + 245 + Math.ceil
     <div class="body-measurements__layout">
       <div class="body-measurements__figure">
         <ReleaseImage :src="current.resources.ruler" :original="current.resources.ruler" :width="current.source.width" :height="rulerHeight" :alt="`${viewLabel(current.id)}图面尺寸标尺`" :caption="`${viewLabel(current.id)}标尺 · 可放大或查看原始尺寸`" />
-        <div class="body-measurements__downloads">
+        <div class="body-measurements__files">
           <a :href="withBase(current.resources.ruler)" download>下载{{ viewLabel(current.id) }}标尺 SVG</a>
           <a :href="withBase(current.resources.original)" target="_blank" rel="noopener noreferrer">查看原始人物 PNG ↗</a>
         </div>
@@ -76,7 +76,7 @@ const rulerHeight = computed(() => current.value.source.height + 245 + Math.ceil
 .body-measurements__figure { width: min(100%, 620px); min-width: 0; margin: 0 auto; }
 .body-measurements__figure :deep(.release-image) { margin: 0; }
 .body-measurements__figure :deep(.release-image__trigger img) { max-height: none; }
-.body-measurements__downloads { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 10px; font-size: 13px; }
+.body-measurements__files { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 10px; font-size: 13px; }
 .body-measurements__readings { min-width: 0; }
 .body-measurements table { display: table; width: 100%; margin: 0; font-size: 13px; }
 .body-measurements caption { margin-bottom: 8px; text-align: left; font-weight: 600; }

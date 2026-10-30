@@ -13,10 +13,10 @@ if (files.length > 1 || files.some((arg) => arg.startsWith('-'))) {
     const file = files[0] || new URL('../catalog/releases.json', import.meta.url);
     const doc = JSON.parse(await readFile(file, 'utf8'));
     const assets = validateCatalog(doc, { production });
-    process.stdout.write(`Release catalog valid: ${assets.size} listed assets${production ? ' (production)' : ''}.\n`);
+    process.stdout.write(`Image catalog valid: ${assets.size} listed assets${production ? ' (production)' : ''}.\n`);
   } catch {
     // JSON parser messages may include input; report only the validation outcome.
-    process.stderr.write('Release catalog is invalid or unavailable.\n');
+    process.stderr.write('Image catalog is invalid or unavailable.\n');
     process.exitCode = 1;
   }
 }

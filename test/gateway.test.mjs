@@ -4,32 +4,33 @@ import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
+import { validateCatalog } from '../worker/catalog.js';
+import { createHandler } from '../worker/handler.js';
 
 const fixture = (overrides = {}) => ({
   character: 'bunny',
-  version: '1.0.0',
-  path: '/media/bunny/1.0.0/final.webp',
-  key: 'x_ops/design/characters/bunny/releases/1.0.0/final.webp',
-  sha256: 'a'.repeat(64),
-  size: 7,
-  contentType: 'image/webp',
+  path: '/media/bunny/body-front-latest.png',
+  key: 'x_ops/design/characters/bunny/latest/body-front-latest.png',
+  contentType: 'image/png',
   ...overrides,
 });
-const catalog = (assets = [fixture()], contentReady = true) => ({ schemaVersion: 1, contentReady, assets });
-const validator = async () => (await import('../worker/catalog.js')).validateCatalog;
-const handler = async (doc = catalog()) => (await import('../worker/handler.js')).createHandler(doc);
-const request = (path, options) => new Request(`https://design.ohgamers.org${path}`, options);
+const catalog = (assets = [fixture()], contentReady = true) => ({ schemaVersion: 2, contentReady, assets });
+const path = fixture().path;
+const key = fixture().key;
+const request = (suffix = path, options) => new Request(`https://design.ohgamers.org${suffix}`, options);
+const uploaded = new Date('2026-10-31T05:06:07.000Z');
+const metadata = { size: 7, httpEtag: '"current-etag"', uploaded };
 
 function bindings({ object, fail = false } = {}) {
   const calls = [];
   const result = object === undefined
-    ? { size: 7, body: new Blob(['content']).stream(), httpMetadata: { contentType: 'text/html' } }
+    ? { ...metadata, body: new Blob(['content']).stream(), httpMetadata: { contentType: 'text/html' } }
     : object;
   return {
     calls,
     env: {
       PUBLIC_RELEASES: {
-        async get(key) { calls.push(['get', key]); if (fail) throw new Error('secret bucket diagnostic'); return result; },
+        async get(key, options) { calls.push(['get', key, options]); if (fail) throw new Error('secret bucket diagnostic'); return result; },
         async head(key) { calls.push(['head', key]); if (fail) throw new Error('secret bucket diagnostic'); return result; },
         async list() { throw new Error('must never list'); },
         async put() { throw new Error('must never write'); },
@@ -40,245 +41,220 @@ function bindings({ object, fail = false } = {}) {
   };
 }
 
-test('valid catalog produces an exact public-path map', async () => {
-  const validateCatalog = await validator();
+test('v2 catalog produces an exact path map without freezing object metadata', () => {
   const map = validateCatalog(catalog());
   assert.equal(map.size, 1);
-  assert.equal(map.get('/media/bunny/1.0.0/final.webp').key, 'x_ops/design/characters/bunny/releases/1.0.0/final.webp');
-  assert.equal(map.has('x_ops/design/characters/bunny/releases/1.0.0/final.webp'), false);
+  assert.deepEqual(map.get(path), fixture());
+  assert.equal(map.has(key), false);
 });
 
-test('production rejects incomplete or empty releases while development permits an empty catalog', async () => {
-  const validateCatalog = await validator();
+test('production approval remains separate from local review', () => {
   assert.equal(validateCatalog(catalog([], false)).size, 0);
-  assert.throws(() => validateCatalog(catalog([], false), { production: true }));
-  assert.throws(() => validateCatalog(catalog([], true), { production: true }));
-  assert.throws(() => validateCatalog(catalog([fixture()], false), { production: true }));
+  for (const doc of [catalog([], false), catalog([], true), catalog([fixture()], false)]) {
+    assert.throws(() => validateCatalog(doc, { production: true }));
+  }
   assert.equal(validateCatalog(catalog(), { production: true }).size, 1);
 });
 
-test('catalog accepts a semantic version with a lowercase prerelease', async () => {
-  const validateCatalog = await validator();
-  assert.equal(validateCatalog(catalog([fixture({
-    version: '1.0.0-rc-1',
-    path: '/media/bunny/1.0.0-rc-1/final.webp',
-    key: 'x_ops/design/characters/bunny/releases/1.0.0-rc-1/final.webp',
-  })])).size, 1);
-});
-
-const invalidDocuments = [
+for (const [label, doc] of [
   ['missing schema', { contentReady: true, assets: [] }],
-  ['unknown schema', { schemaVersion: 2, contentReady: true, assets: [] }],
-  ['nonboolean readiness', { schemaVersion: 1, contentReady: 'true', assets: [] }],
-  ['nonarray assets', { schemaVersion: 1, contentReady: true, assets: {} }],
-  ['null document', null],
-  ['array document', []],
-  ['null asset', catalog([null])],
-];
-for (const [label, doc] of invalidDocuments) {
-  test(`catalog rejects ${label}`, async () => {
-    const validateCatalog = await validator();
-    assert.throws(() => validateCatalog(doc));
-  });
+  ['old schema', { schemaVersion: 1, contentReady: true, assets: [] }],
+  ['nonboolean readiness', { schemaVersion: 2, contentReady: 'true', assets: [] }],
+  ['nonarray assets', { schemaVersion: 2, contentReady: true, assets: {} }],
+  ['null document', null], ['array document', []], ['null asset', catalog([null])],
+]) {
+  test(`catalog rejects ${label}`, () => assert.throws(() => validateCatalog(doc)));
 }
 
-const invalidAssets = [
+for (const [label, patch] of [
   ['uppercase character', { character: 'Bunny' }],
   ['slash character', { character: 'bunny/private' }],
   ['long character', { character: 'b'.repeat(65) }],
-  ['empty version', { version: '' }],
-  ['nonspecific version', { version: 'latest' }],
-  ['unsafe version', { version: '1.0.0/other' }],
-  ['uppercase prerelease', { version: '1.0.0-RC' }],
-  ['path outside media', { path: '/private/final.webp' }],
-  ['different path character', { path: '/media/other/1.0.0/final.webp' }],
-  ['different path version', { path: '/media/bunny/2/final.webp' }],
-  ['nested filename', { path: '/media/bunny/1.0.0/sub/final.webp' }],
-  ['dotdot filename', { path: '/media/bunny/1.0.0/final..webp' }],
-  ['unicode filename', { path: '/media/bunny/1.0.0/终稿.webp' }],
-  ['percent filename', { path: '/media/bunny/1.0.0/final%2ewebp' }],
-  ['query in path', { path: '/media/bunny/1.0.0/final.webp?key=private' }],
-  ['backslash path', { path: '/media/bunny/1.0.0/final\\.webp' }],
-  ['key outside release', { key: 'private/final.webp' }],
-  ['wrong key version', { key: 'x_ops/design/characters/bunny/releases/2/final.webp' }],
-  ['different key filename', { key: 'x_ops/design/characters/bunny/releases/1.0.0/other.webp' }],
-  ['short digest', { sha256: 'a'.repeat(63) }],
-  ['invalid digest', { sha256: 'g'.repeat(64) }],
-  ['zero size', { size: 0 }],
-  ['negative size', { size: -1 }],
-  ['fractional size', { size: 1.5 }],
-  ['unsafe size', { size: Number.MAX_SAFE_INTEGER + 1 }],
-  ['string size', { size: '7' }],
+  ['empty character', { character: '' }],
+  ['old version metadata', { version: '1.0.0' }],
+  ['frozen size metadata', { size: 7 }],
+  ['frozen hash metadata', { sha256: 'a'.repeat(64) }],
+  ['path outside media', { path: '/private/body-front-latest.png' }],
+  ['different path character', { path: '/media/other/body-front-latest.png' }],
+  ['version directory', { path: '/media/bunny/3.1.0/body-front-latest.png' }],
+  ['missing latest', { path: '/media/bunny/body-front.png' }],
+  ['nested filename', { path: '/media/bunny/sub/body-front-latest.png' }],
+  ['dot filename', { path: '/media/bunny/body.front-latest.png' }],
+  ['uppercase filename', { path: '/media/bunny/Body-front-latest.png' }],
+  ['underscore filename', { path: '/media/bunny/body_front-latest.png' }],
+  ['unicode filename', { path: '/media/bunny/终稿-latest.png' }],
+  ['percent filename', { path: '/media/bunny/body%2dfront-latest.png' }],
+  ['query in path', { path: `${path}?key=private` }],
+  ['backslash path', { path: '/media/bunny/body\\front-latest.png' }],
+  ['key outside latest', { key: 'private/body-front-latest.png' }],
+  ['version key', { key: 'x_ops/design/characters/bunny/releases/3.1.0/body-front-latest.png' }],
+  ['different key filename', { key: 'x_ops/design/characters/bunny/latest/other-latest.png' }],
   ['html MIME', { contentType: 'text/html' }],
   ['SVG MIME', { contentType: 'image/svg+xml' }],
-  ['MIME parameters', { contentType: 'image/webp; charset=utf-8' }],
-  ['header-injection download name', { downloadName: 'final.pdf\r\nX-Secret: value' }],
-  ['unsafe download name', { downloadName: '../final.pdf' }],
-  ['line-ending character', {
-    character: 'bunny\n',
-    path: '/media/bunny\n/1.0.0/final.webp',
-    key: 'x_ops/design/characters/bunny\n/releases/1.0.0/final.webp',
-  }],
-  ['line-ending version', {
-    version: '1.0.0\n',
-    path: '/media/bunny/1.0.0\n/final.webp',
-    key: 'x_ops/design/characters/bunny/releases/1.0.0\n/final.webp',
-  }],
-  ['line-ending filename', {
-    path: '/media/bunny/1.0.0/final.webp\n',
-    key: 'x_ops/design/characters/bunny/releases/1.0.0/final.webp\n',
-  }],
-  ['line-ending digest', { sha256: 'a'.repeat(64) + '\n' }],
-  ['line-ending download name', { downloadName: 'final.webp\n' }],
-];
-for (const [label, patch] of invalidAssets) {
-  test(`catalog rejects ${label}`, async () => {
-    const validateCatalog = await validator();
-    assert.throws(() => validateCatalog(catalog([fixture(patch)])));
-  });
+  ['PDF MIME', { contentType: 'application/pdf' }],
+  ['ZIP MIME', { contentType: 'application/zip' }],
+  ['MIME parameters', { contentType: 'image/png; charset=utf-8' }],
+  ['MIME extension mismatch', { contentType: 'image/jpeg' }],
+  ['download filename override', { downloadName: 'other.png' }],
+  ['line-ending character', { character: 'bunny\n', path: '/media/bunny\n/body-front-latest.png', key: 'x_ops/design/characters/bunny\n/latest/body-front-latest.png' }],
+  ['line-ending filename', { path: path + '\n', key: key + '\n' }],
+]) {
+  test(`catalog rejects ${label}`, () => assert.throws(() => validateCatalog(catalog([fixture(patch)]))));
 }
 
-test('catalog rejects duplicate paths and duplicate keys', async () => {
-  const validateCatalog = await validator();
+test('catalog rejects duplicate public identities', () => {
   assert.throws(() => validateCatalog(catalog([fixture(), fixture()])));
-  assert.throws(() => validateCatalog(catalog([fixture(), fixture({ path: '/media/bunny/1.0.0/other.webp' })])));
 });
-
-for (const mime of ['image/png', 'image/jpeg', 'image/webp', 'application/pdf', 'application/zip']) {
-  test(`catalog accepts explicitly approved MIME ${mime}`, async () => {
-    assert.equal((await validator())(catalog([fixture({ contentType: mime })])).size, 1);
+for (const [extension, contentType] of [['png', 'image/png'], ['jpg', 'image/jpeg'], ['jpeg', 'image/jpeg'], ['webp', 'image/webp']]) {
+  test(`catalog accepts stable ${extension} images`, () => {
+    assert.equal(validateCatalog(catalog([fixture({
+      path: `/media/bunny/image-latest.${extension}`,
+      key: `x_ops/design/characters/bunny/latest/image-latest.${extension}`,
+      contentType,
+    })])).size, 1);
   });
 }
 
-test('GET reads only the mapped R2 key and derives safe headers from the release manifest', async () => {
+test('GET forwards conditions and serves current object metadata with a short cache', async () => {
   const { env, calls } = bindings();
-  const response = await (await handler()).fetch(request('/media/bunny/1.0.0/final.webp'), env);
+  const req = request();
+  const response = await createHandler(catalog()).fetch(req, env);
   assert.equal(response.status, 200);
   assert.equal(await response.text(), 'content');
-  assert.deepEqual(calls, [['get', 'x_ops/design/characters/bunny/releases/1.0.0/final.webp']]);
-  assert.equal(response.headers.get('content-type'), 'image/webp');
+  assert.deepEqual(calls, [['get', key, { onlyIf: req.headers }]]);
+  assert.equal(response.headers.get('content-type'), 'image/png');
   assert.equal(response.headers.get('content-length'), '7');
+  assert.equal(response.headers.get('etag'), '"current-etag"');
+  assert.equal(response.headers.get('last-modified'), uploaded.toUTCString());
   assert.equal(response.headers.get('x-content-type-options'), 'nosniff');
-  assert.equal(response.headers.get('cache-control'), 'public, max-age=31536000, immutable');
-  assert.equal(response.headers.get('content-disposition'), 'inline; filename="final.webp"');
+  assert.equal(response.headers.get('cache-control'), 'public, max-age=60, must-revalidate');
+  assert.equal(response.headers.get('content-disposition'), 'inline; filename="body-front-latest.png"');
 });
 
 test('HEAD uses metadata lookup and never returns an object body', async () => {
-  const { env, calls } = bindings();
-  const response = await (await handler()).fetch(request('/media/bunny/1.0.0/final.webp', { method: 'HEAD' }), env);
+  const { env, calls } = bindings({ object: metadata });
+  const response = await createHandler(catalog()).fetch(request(path, { method: 'HEAD' }), env);
   assert.equal(response.status, 200);
   assert.equal(await response.text(), '');
   assert.equal(response.headers.get('content-length'), '7');
-  assert.deepEqual(calls, [['head', 'x_ops/design/characters/bunny/releases/1.0.0/final.webp']]);
-});
-
-const blockedPaths = [
-  '/media', '/media/', '/media/private-object',
-  '/media/bunny/1.0.0/other.webp',
-  '/media/bunny/1.0.0/final.webp?key=private',
-  '/media/bunny/1.0.0/final.webp?',
-  '/media/bunny/1.0.0/%66inal.webp',
-  '/media/bunny/1.0.0/final%2Ewebp',
-  '/media/bunny/1.0.0/%2e%2e/secret',
-  '/media/bunny/1.0.0/final.webp#fragment',
-  '/media/bunny/1.0.0/final\\.webp',
-];
-for (const path of blockedPaths) {
-  test(`unlisted or ambiguous path cannot read R2: ${path}`, async () => {
-    const { env, calls } = bindings();
-    // Raw URL intentionally preserves ambiguous paths that Request may normalize.
-    const response = await (await handler()).fetch({ url: `https://design.ohgamers.org${path}`, method: 'GET' }, env);
-    assert.equal(response.status, 404);
-    assert.deepEqual(calls, []);
-  });
-}
-
-for (const method of ['POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH']) {
-  test(`media rejects ${method} without touching R2`, async () => {
-    const { env, calls } = bindings();
-    const response = await (await handler()).fetch(request('/media/bunny/1.0.0/final.webp', { method }), env);
-    assert.equal(response.status, 405);
-    assert.equal(response.headers.get('allow'), 'GET, HEAD');
-    assert.deepEqual(calls, []);
-  });
-}
-
-test('non-media requests are served by the static binding', async () => {
-  const { env, calls } = bindings();
-  const response = await (await handler()).fetch(request('/characters/bunny/shape'), env);
-  assert.equal(await response.text(), 'static asset');
-  assert.deepEqual(calls, [['static', 'https://design.ohgamers.org/characters/bunny/shape']]);
-});
-
-test('media-like static names do not enter the R2 gateway', async () => {
-  const { env, calls } = bindings();
-  assert.equal((await (await handler()).fetch(request('/media-kit'), env)).status, 200);
-  assert.equal(calls[0][0], 'static');
+  assert.deepEqual(calls, [['head', key]]);
 });
 
 for (const method of ['GET', 'HEAD']) {
+  for (const condition of ['"current-etag"', 'W/"current-etag"', '"old-etag", "current-etag"', '*']) {
+    test(`${method} matching If-None-Match ${condition} returns metadata-only 304`, async () => {
+      const { env } = bindings({ object: metadata });
+      const response = await createHandler(catalog()).fetch(request(path, { method, headers: { 'If-None-Match': condition } }), env);
+      assert.equal(response.status, 304);
+      assert.equal(await response.text(), '');
+      assert.equal(response.headers.get('etag'), metadata.httpEtag);
+      assert.equal(response.headers.get('last-modified'), uploaded.toUTCString());
+      assert.equal(response.headers.get('cache-control'), 'public, max-age=60, must-revalidate');
+    });
+  }
+  test(`${method} serves replaced objects with changed size instead of 503`, async () => {
+    const { env } = bindings({ object: { ...metadata, size: 12, body: 'new contents', httpEtag: '"new-etag"' } });
+    const response = await createHandler(catalog()).fetch(request(path, { method, headers: { 'If-None-Match': '"old-etag"' } }), env);
+    assert.equal(response.status, 200);
+    assert.equal(response.headers.get('content-length'), '12');
+    assert.equal(response.headers.get('etag'), '"new-etag"');
+    assert.equal(await response.text(), method === 'HEAD' ? '' : 'new contents');
+  });
   test(`missing R2 object returns 404 for ${method}`, async () => {
     const { env } = bindings({ object: null });
-    const response = await (await handler()).fetch(request('/media/bunny/1.0.0/final.webp', { method }), env);
+    const response = await createHandler(catalog()).fetch(request(path, { method }), env);
     assert.equal(response.status, 404);
     assert.equal(response.headers.get('cache-control'), 'no-store');
     if (method === 'HEAD') assert.equal(await response.text(), '');
   });
   test(`upstream ${method} error returns 503 without diagnostics`, async () => {
     const { env } = bindings({ fail: true });
-    const response = await (await handler()).fetch(request('/media/bunny/1.0.0/final.webp', { method }), env);
+    const response = await createHandler(catalog()).fetch(request(path, { method }), env);
     assert.equal(response.status, 503);
     assert.equal((await response.text()).includes('secret'), false);
     assert.equal(response.headers.get('cache-control'), 'no-store');
   });
-  test(`wrong R2 object size returns 503 for ${method}`, async () => {
-    const { env } = bindings({ object: { size: 8, body: 'wrong object' } });
-    const response = await (await handler()).fetch(request('/media/bunny/1.0.0/final.webp', { method }), env);
-    assert.equal(response.status, 503);
-    assert.equal((await response.text()).includes('wrong object'), false);
+}
+
+test('metadata-only conditional R2 responses honor modification dates and failed preconditions', async () => {
+  for (const [headers, status] of [
+    [{ 'If-Modified-Since': uploaded.toUTCString() }, 304],
+    [{ 'If-Match': '"old-etag"' }, 412],
+    [{ 'If-Unmodified-Since': 'Wed, 01 Jan 2020 00:00:00 GMT' }, 412],
+  ]) {
+    const { env } = bindings({ object: metadata });
+    const response = await createHandler(catalog()).fetch(request(path, { headers }), env);
+    assert.equal(response.status, status);
+  }
+});
+
+test('If-None-Match takes precedence over If-Modified-Since', async () => {
+  const { env } = bindings();
+  const response = await createHandler(catalog()).fetch(request(path, { headers: { 'If-None-Match': '"old-etag"', 'If-Modified-Since': uploaded.toUTCString() } }), env);
+  assert.equal(response.status, 200);
+});
+
+for (const blocked of [
+  '/media', '/media/', '/media/private-object', '/media/bunny/other-latest.png',
+  '/media/bunny/3.1.0/body-front-latest.png', `${path}?key=private`, `${path}?`,
+  '/media/bunny/%62ody-front-latest.png', '/media/bunny/body-front-latest%2Epng',
+  '/media/bunny/%2e%2e/secret', '/media/bunny/../body-front-latest.png', `${path}#fragment`,
+  '/media/bunny/body\\front-latest.png', '/media\\bunny\\body-front-latest.png',
+]) {
+  test(`unlisted or ambiguous path cannot read R2: ${blocked}`, async () => {
+    const { env, calls } = bindings();
+    const response = await createHandler(catalog()).fetch({ url: `https://design.ohgamers.org${blocked}`, method: 'GET' }, env);
+    assert.equal(response.status, 404);
+    assert.deepEqual(calls, []);
+  });
+}
+for (const method of ['POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH']) {
+  test(`media rejects ${method} without touching R2`, async () => {
+    const { env, calls } = bindings();
+    const response = await createHandler(catalog()).fetch(request(path, { method }), env);
+    assert.equal(response.status, 405);
+    assert.equal(response.headers.get('allow'), 'GET, HEAD');
+    assert.deepEqual(calls, []);
   });
 }
 
-test('PDF displays inline with an explicit safe download filename', async () => {
-  const { env } = bindings();
-  const response = await (await handler(catalog([fixture({ contentType: 'application/pdf', downloadName: 'bunny-whitepaper.pdf' })]))).fetch(request('/media/bunny/1.0.0/final.webp'), env);
-  assert.equal(response.headers.get('content-disposition'), 'inline; filename="bunny-whitepaper.pdf"');
-});
-
-test('ZIP is always an attachment', async () => {
-  const { env } = bindings();
-  const response = await (await handler(catalog([fixture({ contentType: 'application/zip' })]))).fetch(request('/media/bunny/1.0.0/final.webp'), env);
-  assert.equal(response.headers.get('content-disposition'), 'attachment; filename="final.webp"');
+test('non-media and media-like static names use the static binding', async () => {
+  for (const staticPath of ['/characters/bunny/shape', '/media-kit']) {
+    const { env, calls } = bindings();
+    assert.equal(await (await createHandler(catalog()).fetch(request(staticPath), env)).text(), 'static asset');
+    assert.deepEqual(calls, [['static', `https://design.ohgamers.org${staticPath}`]]);
+  }
 });
 
 test('Range requests return a complete 200 response without fabricated range headers', async () => {
   const { env, calls } = bindings();
-  const response = await (await handler()).fetch(request('/media/bunny/1.0.0/final.webp', { headers: { Range: 'bytes=0-2' } }), env);
+  const req = request(path, { headers: { Range: 'bytes=0-2' } });
+  const response = await createHandler(catalog()).fetch(req, env);
   assert.equal(response.status, 200);
   assert.equal(await response.text(), 'content');
   assert.equal(response.headers.get('content-range'), null);
   assert.equal(response.headers.get('accept-ranges'), null);
-  assert.deepEqual(calls, [['get', 'x_ops/design/characters/bunny/releases/1.0.0/final.webp']]);
+  assert.deepEqual(calls, [['get', key, { onlyIf: req.headers }]]);
 });
 
-test('invalid catalog prevents gateway construction', async () => {
-  const createHandler = (await import('../worker/handler.js')).createHandler;
+test('invalid catalog prevents gateway construction', () => {
   assert.throws(() => createHandler(catalog([fixture({ key: 'private/key' })])));
 });
 
-test('mutating the source manifest after construction cannot redirect the R2 read', async () => {
+test('mutating source catalog cannot redirect reads', async () => {
   const doc = catalog();
-  const gateway = await handler(doc);
+  const gateway = createHandler(doc);
   doc.assets[0].key = 'private/secret';
   const { env, calls } = bindings();
-  assert.equal((await gateway.fetch(request('/media/bunny/1.0.0/final.webp'), env)).status, 200);
-  assert.deepEqual(calls, [['get', 'x_ops/design/characters/bunny/releases/1.0.0/final.webp']]);
+  const req = request();
+  assert.equal((await gateway.fetch(req, env)).status, 200);
+  assert.deepEqual(calls, [['get', key, { onlyIf: req.headers }]]);
 });
 
-test('release catalog CLI succeeds for valid JSON and rejects invalid and incomplete production releases', async () => {
+test('catalog CLI succeeds for v2 JSON and rejects invalid or unapproved production inputs', () => {
   const dir = mkdtempSync(join(tmpdir(), 'design-catalog-test-'));
   try {
-    const file = join(dir, 'release.json');
+    const file = join(dir, 'catalog.json');
     writeFileSync(file, JSON.stringify(catalog()));
     const valid = spawnSync(process.execPath, ['tools/release-catalog.mjs', file, '--production'], { encoding: 'utf8' });
     assert.equal(valid.status, 0, valid.stderr);

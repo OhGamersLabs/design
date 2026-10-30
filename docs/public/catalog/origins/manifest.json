@@ -1,0 +1,33 @@
+{
+  "schema_version": "2.0",
+  "character_id": "origins",
+  "language": "zh-CN",
+  "title": "角色原始手稿",
+  "status": "local-review",
+  "asset_count": 1,
+  "assets": [
+    {
+      "id": "bunny-original-latest",
+      "character": "origins",
+      "title": "bunny-original-latest",
+      "original": {
+        "path": "/media/origins/bunny-original-latest.png",
+        "mime_type": "image/png",
+        "width": 1722,
+        "height": 2048,
+        "bytes": 1392486,
+        "sha256": "d1f8982e7c9553957b500b0e3778e20071ae55b81b84bff7a42b8f370a273a20",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/bunny-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1513,
+        "height": 1800,
+        "bytes": 162592,
+        "sha256": "62693de96576d14bb14afa5f92f3214b7240f17e1a352ec8e296ecc33789450b",
+        "alpha": true
+      }
+    }
+  ]
+}

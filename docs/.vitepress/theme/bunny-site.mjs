@@ -3,10 +3,9 @@ import { measurementModel } from './components/body-measurements.mjs'
 import { garmentModel } from './components/garment-measurements.mjs'
 
 /** @typedef {import('./bunny-site-types').AssetRecord} AssetRecord */
-/** @typedef {import('./bunny-site-types').ChangeRecord} ChangeRecord */
 /** @typedef {import('./bunny-site-types').AnchorMap} AnchorMap */
 /** @typedef {{path: string, width: number, height: number, bytes: number}} ImageFile */
-/** @typedef {{character_id: string, release_version: string, assets: Array<{id: string, source?: {review_status?: string}, web: ImageFile, original: ImageFile}>}} Manifest */
+/** @typedef {{character_id: string, assets: Array<{id: string, web: ImageFile, original: ImageFile}>}} Manifest */
 /** @typedef {Record<string, {path: string, width: number, height: number}>} Thumbnails */
 
 /**
@@ -18,8 +17,8 @@ export function buildAssetIndex({ manifests, names, thumbs }) {
   /** @type {Record<string, AssetRecord>} */
   const index = {}
   for (const manifest of manifests) {
-    const collection = `${manifest.character_id}/${manifest.release_version}`
-    if (collection !== 'bunny/3.1.0' && collection !== 'origins/1.0.0') {
+    const collection = manifest.character_id
+    if (collection !== 'bunny' && collection !== 'origins') {
       throw new Error(`Unsupported asset collection: ${collection}`)
     }
     for (const asset of manifest.assets) {
@@ -31,7 +30,7 @@ export function buildAssetIndex({ manifests, names, thumbs }) {
       const thumb = Object.hasOwn(thumbs, thumbKey) ? thumbs[thumbKey] : undefined
       if (!thumb) throw new Error(`Missing asset thumbnail: ${id}`)
       index[id] = {
-        id, collection, status: asset.source?.review_status ?? null, name,
+        id, collection, name,
         web: imageFile(asset.web), original: imageFile(asset.original),
         thumb: { path: thumb.path, width: thumb.width, height: thumb.height },
       }
@@ -52,13 +51,6 @@ function imageFile({ path, width, height, bytes }) {
 export function assetById(index, id) {
   if (!Object.hasOwn(index, id)) throw new Error(`Unknown asset id: ${id}`)
   return index[id]
-}
-
-/** @param {ChangeRecord[]} changes @param {number} count @returns {Array<{date: string, title: string, asset: string, caption: string}>} */
-export function selectLatest(changes, count) {
-  return changes.toSorted((a, b) => b.date.localeCompare(a.date) || a.order - b.order)
-    .flatMap(({ date, latest }) => latest ? [{ date, ...latest }] : [])
-    .slice(0, Math.max(0, count))
 }
 
 /** @param {string} pathname @returns {string} */
@@ -160,7 +152,7 @@ export function createDisplayTextLookup(displayText) {
 
 /** @param {string} scope */
 function validateMeasurementScope(scope) {
-  if (scope !== 'current' && scope !== 'archive') throw new Error(`Invalid measurement scope: ${scope}`)
+  if (scope !== 'current') throw new Error(`Invalid measurement scope: ${scope}`)
 }
 
 /** @param {string} web @returns {string} */
@@ -174,8 +166,8 @@ function scopedMeasurementModels(models, assets, scope) {
   return models.map((model) => {
     const assetId = measurementAssetId(model.resources.web)
     const asset = assetById(assets, assetId)
-    return { model: { ...model, assetId }, current: asset.status?.startsWith('current-') ?? false }
-  }).filter((entry) => entry.current === (scope === 'current')).map(({ model }) => model)
+    return { model: { ...model, assetId } }
+  }).map(({ model }) => model)
 }
 
 /** Select only views whose web asset belongs to the requested status scope. */

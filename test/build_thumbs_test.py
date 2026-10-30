@@ -36,14 +36,15 @@ class BuildThumbsTest(unittest.TestCase):
         self.index_path = self.thumbs / 'index.json'
         self.sources: dict[str, Path] = {}
         fixtures = {
-            ('bunny', '3.1.0'): [('portrait', (1024, 1536), False),
+            'bunny': [('portrait', (1024, 1536), False),
                                 ('wide', (1774, 887), False)],
-            ('origins', '1.0.0'): [('narrow', (120, 180), True)],
+            'origins': [('narrow', (120, 180), True)],
         }
-        for (character, version), images in fixtures.items():
+        for character, images in fixtures.items():
             assets: list[dict[str, object]] = []
             for asset_id, size, alpha in images:
-                key = f'{character}/{version}/{asset_id}'
+                asset_id += "-latest"
+                key = f'{character}/{asset_id}'
                 source_path = f'/characters/{key}.webp'
                 source = self.public / source_path.lstrip('/')
                 source.parent.mkdir(parents=True, exist_ok=True)
@@ -53,14 +54,14 @@ class BuildThumbsTest(unittest.TestCase):
                 image.close()
                 self.sources[key] = source
                 assets.append({
-                    'id': asset_id, 'character': character, 'version': version,
+                    'id': asset_id, 'character': character,
                     'web': {'path': source_path, 'width': size[0], 'height': size[1],
                             'sha256': sha256(source)},
                 })
-            manifest = self.root / f'catalog/{character}/{version}/manifest.json'
+            manifest = self.root / f'catalog/{character}/manifest.json'
             manifest.parent.mkdir(parents=True, exist_ok=True)
             manifest.write_text(json.dumps({
-                'character_id': character, 'release_version': version,
+                'character_id': character,
                 'assets': assets,
             }), encoding='utf-8')
 
@@ -93,12 +94,12 @@ class BuildThumbsTest(unittest.TestCase):
         self.build()
         for asset_id, expected in [('portrait', (480, 720)), ('wide', (480, 240))]:
             with self.subTest(asset_id=asset_id):
-                with Image.open(self.thumbs / f'bunny/3.1.0/{asset_id}.webp') as image:
+                with Image.open(self.thumbs / f'bunny/{asset_id}-latest.webp') as image:
                     self.assertEqual(image.size, expected)
 
     def test_narrow_source_is_not_upscaled_and_keeps_alpha(self) -> None:
         self.build()
-        with Image.open(self.thumbs / 'origins/1.0.0/narrow.webp') as image:
+        with Image.open(self.thumbs / 'origins/narrow-latest.webp') as image:
             self.assertEqual(image.size, (120, 180))
             self.assertIn('A', image.getbands())
             self.assertEqual(image.getchannel('A').getextrema(), (128, 128))
@@ -123,7 +124,7 @@ class BuildThumbsTest(unittest.TestCase):
     def test_check_rejects_stale_index(self) -> None:
         self.build()
         original = self.read_index()
-        key = 'bunny/3.1.0/portrait'
+        key = 'bunny/portrait-latest'
         for field, value in [('width', 479), ('sourceSha256', '0' * 64),
                              ('sourcePath', '/characters/old.webp')]:
             with self.subTest(field=field):
@@ -139,7 +140,7 @@ class BuildThumbsTest(unittest.TestCase):
 
     def test_check_rejects_modified_thumbnail(self) -> None:
         self.build()
-        key = 'bunny/3.1.0/portrait'
+        key = 'bunny/portrait-latest'
         thumbnail = self.thumbs / f'{key}.webp'
         with Image.new('RGB', (480, 720), (220, 100, 20)) as image:
             image.save(thumbnail, 'WEBP', quality=82, method=6)
@@ -152,13 +153,13 @@ class BuildThumbsTest(unittest.TestCase):
 
     def test_check_rejects_missing_thumbnail(self) -> None:
         self.build()
-        (self.thumbs / 'bunny/3.1.0/portrait.webp').unlink()
+        (self.thumbs / 'bunny/portrait-latest.webp').unlink()
         self.check_failure_without_writes()
 
     def test_check_rejects_extra_thumbnail(self) -> None:
         self.build()
-        extra = self.thumbs / 'bunny/3.1.0/extra.webp'
-        extra.write_bytes((self.thumbs / 'bunny/3.1.0/portrait.webp').read_bytes())
+        extra = self.thumbs / 'bunny/extra.webp'
+        extra.write_bytes((self.thumbs / 'bunny/portrait-latest.webp').read_bytes())
         self.check_failure_without_writes()
 
 

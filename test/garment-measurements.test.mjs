@@ -13,7 +13,7 @@ function fixture() {
     metrics: { length: { label: '衣长', symbol: 'L', garment: 'top', definition: '可见两端的垂直投影', axis: 'y' }, gap: { label: '露边', symbol: 'E', garment: 'jacket', definition: '同站位下缘差', axis: 'y', signed: true } },
     targets: { front: { length: { min: 0.85, max: 0.95, unit: 'h0', status: 'accepted' }, gap: { min: -0.05, max: 0.05, unit: 'h0', status: 'accepted' } } },
     sources: { front: { label: '外套正面', view: 'front', layer: 'jacket', source: { width: 1024, height: 1536 },
-      resources: { original: '/media/bunny/3.1.0/front.png', web: '/characters/bunny/3.1.0/front.webp', ruler: '/characters/bunny/3.1.0/front-ruler.svg' },
+      resources: { original: '/media/bunny/front-latest.png', web: '/characters/bunny/front-latest.webp', ruler: '/characters/bunny/front-ruler-latest.svg' },
       registration: { bodyView: 'front', coverage: 'distributed', anchors: [
         { id: 'crown', region: 'head', source: [250, 20], reference: [500, 40], sourceTolerancePx: 1, referenceTolerancePx: 2 },
         { id: 'waist', region: 'torso', source: [250, 300], reference: [500, 600], sourceTolerancePx: 1, referenceTolerancePx: 2 },
@@ -148,7 +148,7 @@ test('self-contained SVG preserves the source image area and does not add marks 
   assert.match(online, new RegExp(`viewBox="0 -100 ${canvas.width} ${canvas.height}" width="${canvas.width}" height="${canvas.height}"`))
   assert.doesNotMatch(online, /NaN|undefined|<script/)
   assert.throws(() => renderGarmentSvg(data, 'front', 'javascript:alert(1)'), /Unsupported/)
-  data.sources.front.resources.web = '/characters/bunny/3.1.0/../outside.webp'
+  data.sources.front.resources.web = '/characters/bunny/../outside.webp'
   assert.throws(() => garmentModel(data, 'front'), /Invalid garment resource/)
 })
 
@@ -165,26 +165,26 @@ test('builder binds artwork and body hashes, embeds exact web bytes and detects 
   const body = Buffer.from(JSON.stringify({ views: { front: { height: { crownY: 0 }, landmarks: { chin: { y: 1 } } } } }))
   const data = { schemaVersion: 1, designUnit: { px: 1 }, bodyMeasurementsSha256: hash(body), metrics: {}, targets: {}, sources: {
     fixture: { label: 'Fixture', view: 'front', layer: 'innerwear', source: { width: 1, height: 1, sha256: hash(png) },
-      resources: { original: '/media/bunny/3.1.0/fixture.png', web: '/characters/bunny/3.1.0/fixture.webp', ruler: '/characters/bunny/3.1.0/fixture.svg' },
+      resources: { original: '/media/bunny/fixture-latest.png', web: '/characters/bunny/fixture-latest.webp', ruler: '/characters/bunny/fixture-latest.svg' },
       registration: { bodyView: 'front', anchors: [] }, measurements: [] },
   } }
   const manifest = { assets: [{ original: { path: data.sources.fixture.resources.original, sha256: hash(png), width: 1, height: 1 }, web: { path: data.sources.fixture.resources.web, sha256: hash(webp) } }] }
   for (const [name, bytes] of [
-    ['catalog/bunny/3.1.0/garment-measurements.json', JSON.stringify(data)], ['catalog/bunny/3.1.0/body-measurements.json', body],
-    ['catalog/bunny/3.1.0/manifest.json', JSON.stringify(manifest)], ['docs/public/characters/bunny/3.1.0/fixture.webp', webp],
+    ['catalog/bunny/garment-measurements.json', JSON.stringify(data)], ['catalog/bunny/body-measurements.json', body],
+    ['catalog/bunny/manifest.json', JSON.stringify(manifest)], ['docs/public/characters/bunny/fixture-latest.webp', webp],
   ]) { await mkdir(dirname(join(root, name)), { recursive: true }); await writeFile(join(root, name), bytes) }
   const run = promisify(execFile)
   await run(process.execPath, ['tools/build-garment-measurements.mjs'], { cwd: root })
-  const svgPath = join(root, 'docs/public/characters/bunny/3.1.0/fixture.svg')
+  const svgPath = join(root, 'docs/public/characters/bunny/fixture-latest.svg')
   const svg = await readFile(svgPath, 'utf8')
   const embedded = Buffer.from(svg.match(/href="data:image\/webp;base64,([^\"]+)"/)[1], 'base64')
   assert.deepEqual(embedded, webp)
   await assert.rejects(run(process.execPath, ['tools/build-garment-measurements.mjs', '--check'], { cwd: root }), /ENOENT/)
-  await mkdir(join(root, '.release/bunny/3.1.0'), { recursive: true }); await writeFile(join(root, '.release/bunny/3.1.0/fixture.png'), png)
+  await mkdir(join(root, '.release/bunny'), { recursive: true }); await writeFile(join(root, '.release/bunny/fixture-latest.png'), png)
   await run(process.execPath, ['tools/build-garment-measurements.mjs', '--check'], { cwd: root })
   await writeFile(svgPath, svg + 'stale')
   await assert.rejects(run(process.execPath, ['tools/build-garment-measurements.mjs', '--check'], { cwd: root }), /Stale garment measurement artifact/)
   await writeFile(svgPath, svg)
-  await writeFile(join(root, 'catalog/bunny/3.1.0/body-measurements.json'), Buffer.from(JSON.stringify({ views: { front: { height: { crownY: 0 }, landmarks: { chin: { y: 2 } } } } })))
+  await writeFile(join(root, 'catalog/bunny/body-measurements.json'), Buffer.from(JSON.stringify({ views: { front: { height: { crownY: 0 }, landmarks: { chin: { y: 2 } } } } })))
   await assert.rejects(run(process.execPath, ['tools/build-garment-measurements.mjs'], { cwd: root }), /frozen body measurement source/)
 })

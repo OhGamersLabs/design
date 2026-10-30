@@ -14,5 +14,4 @@ export const READING_ORDER = [
   { path: '/characters/bunny/dimensions', title: '图面尺寸' },
   { path: '/characters/bunny/visual-language', title: '画风与配色' },
   { path: '/characters/bunny/application', title: '使用检查' },
-  { path: '/characters/bunny/downloads', title: '下载' },
 ]
