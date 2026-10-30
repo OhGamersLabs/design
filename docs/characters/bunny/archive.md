@@ -5,12 +5,14 @@ title: 历史档案
 sidebar: false
 aside: false
 ---
-# 历史档案
-
 <div class="bunny-archive-header">
+<div class="bunny-archive-title">
+
+# 历史档案
 
 这里收存已被取代的设计稿和每次改动的记录。现行设计只看角色主页；本页内容不作为设计依据。
 
+</div>
 <div class="bunny-archive-meta">
 <dl>
 <dt>现行版本</dt><dd>Bunny 3.1.0 本地修订</dd>

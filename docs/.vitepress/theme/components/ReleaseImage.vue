@@ -273,7 +273,8 @@ onBeforeUnmount(() => {
 .release-image__viewport:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: -3px; }
 @media (max-width: 640px) {
   .release-image__trigger { padding: 8px; }
-  .release-image__hint { right: 16px; bottom: 16px; }
+  .release-image__hint { gap: 0; font-size: 0; }
+  .release-image__hint span { font-size: 14px; }
   .release-image__dialog { width: calc(100vw - 16px); max-height: calc(100dvh - 16px); border-radius: 10px; }
   .release-image__panel { max-height: calc(100dvh - 18px); }
   .release-image__toolbar { flex-wrap: wrap; gap: 12px; padding: 12px; }

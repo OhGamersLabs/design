@@ -303,8 +303,9 @@
 .bunny-action-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .bunny-action-grid .bunny-home-facts { margin-top: 14px; }
 .bunny-page .bunny-section-links { margin-bottom: 0; font-size: 14px; }
-.bunny-archive-header { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 36px; align-items: start; margin: 24px 0 42px; }
-.bunny-archive-header > p { max-width: 34em; margin-top: 0; color: var(--bunny-ink-2); }
+.bunny-archive-header { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 24px 40px; align-items: end; margin: 16px 0 42px; }
+.bunny-page .vp-doc .bunny-archive-title h1 { margin: 0 0 10px; font-size: 44px; line-height: 1.15; }
+.bunny-archive-title > p { max-width: 34em; margin: 0; color: var(--bunny-ink-2); }
 .bunny-archive-meta { padding: 16px 20px; border-left: 8px solid var(--bunny-orange); background: var(--bunny-paper); }
 .bunny-archive-meta dl { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 16px; margin: 0; }
 .bunny-archive-meta dt { padding-top: 2px; color: var(--bunny-ink-2); font-size: 12.5px; }
@@ -357,6 +358,7 @@
   .bunny-page .bunny-identity-statement { font-size: 20px; }
   .bunny-ruler { height: 260px; }
   .bunny-archive-header { grid-template-columns: minmax(0, 1fr); }
+  .bunny-page .vp-doc .bunny-archive-title h1 { font-size: 34px; }
   .bunny-page .bunny-archive-rules ul { grid-template-columns: minmax(0, 1fr); }
   .bunny-body-grid { gap: 8px; }
   .bunny-body-views { gap: 8px; }
