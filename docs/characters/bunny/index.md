@@ -30,7 +30,7 @@ releaseReady: false
     <p>采用日系二次元手绘线稿与赛璐璐上色。<a href="/characters/bunny/visual-language">画风与配色</a></p>
     <OriginNote />
   </div>
-  <AssetImage id="assassin-daggers-waist-carry-cel-front-v2" use-thumb />
+  <AssetImage id="assassin-daggers-waist-carry-cel-front-v3" use-thumb />
   <AssetImage id="head-v2-cel-reference-v3" detail="正面、角色右侧面、背面" use-thumb />
 </div>
 

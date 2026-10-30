@@ -56,7 +56,7 @@ Bunny 以刺客定位使用两把各具完整造型的匕首：角色右侧是�
 
 <div class="bunny-body-views">
 
-<AssetImage id="assassin-daggers-waist-carry-cel-front-v2" group="weapon" caption="正面" />
+<AssetImage id="assassin-daggers-waist-carry-cel-front-v3" group="weapon" caption="正面" />
 
 <AssetImage id="assassin-daggers-waist-carry-cel-side-v2" group="weapon" caption="角色右侧面" />
 

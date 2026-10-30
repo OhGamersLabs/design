@@ -7,7 +7,7 @@
   "status": "local-review",
   "source": "https://design.ohgamers.org/characters/bunny/",
   "baseline_version": "3.0.0",
-  "asset_count": 184,
+  "asset_count": 185,
   "assets": [
     {
       "id": "00-origin-positioning",
@@ -2791,7 +2791,7 @@
         "source_artifact_sha256": "d74fc40cea9b07f1fd13d62eeb4fdee54ef03d27077c9b7e9e8b57daf3fd1129",
         "description": "双匕首后腰交叉携行 · 同刀型修订正面",
         "scope": "Concept multi-view appearance only. No front/side H0 registration or full weapon-length/thickness observation; hidden points remain null. Side white-tip height differs from back by about37px and pommels by about27px: drawing residuals, not perspective-based dimension proof.",
-        "review_status": "current-revised-dagger-waist-carry-front",
+        "review_status": "historical-before-goggles-centring",
         "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
         "generation_request": {
           "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/front-side/carry-front-consistent-v3-request.json",
@@ -2877,7 +2877,8 @@
         "repository_generation_record": {
           "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-waist-carry-cel-front-v2.json",
           "sha256": "c28c6c74ab50cd5278e03151b8efffda9b0a3e185b3d749d044adfd0a93c717d"
-        }
+        },
+        "superseded_by": "/characters/bunny/weapon#carry"
       },
       "original": {
         "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.png",
@@ -2895,6 +2896,106 @@
         "height": 1536,
         "bytes": 799350,
         "sha256": "1c77d199cba6ac4f8492da2201e33ccce53941da07694332741510f17577e78b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "assassin-daggers-waist-carry-cel-front-v3",
+      "character": "bunny",
+      "version": "3.1.0",
+      "title": "assassin-daggers-waist-carry-cel-front-v3",
+      "source": {
+        "kind": "revised-reference",
+        "page": "/characters/bunny/weapon#carry",
+        "based_on": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.png",
+        "baseline_sha256": "d74fc40cea9b07f1fd13d62eeb4fdee54ef03d27077c9b7e9e8b57daf3fd1129",
+        "source_artifact_path": "/Users/roy/.codex/generated_images/01a18d39-e584-7c83-902a-b6a165f2fba1/exec-29d0736e-2739-4ac2-ac74-439820186e38.png",
+        "source_artifact_sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2",
+        "review_status": "current-revised-dagger-waist-carry-front",
+        "description": "双匕首后腰交叉携行 · 护目镜居中正面",
+        "scope": "在已通过的 v2 正面图上整图编辑：护目镜整体右移约 8 px，护目镜连同两段镜带的整体轮廓对准脸中线；人物其余部分、两把匕首、身体与衣服既定尺寸不变。",
+        "method": "built-in image_gen.imagegen whole-image edit of the approved v2 front; byte-exact PNG copy and lossless WebP only",
+        "generation_request": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-request.json",
+          "sha256": "63c85b0ba8b5a434a0097b62ab0f5854ebcc2c2656007d2b1bd04d354b9e3609"
+        },
+        "request_pointer": "/arguments",
+        "actual_tool_parameters": {
+          "prompt": "Edit Image 1. Image 2 is Image 1 with a thin green target outline and a dashed magenta face-midline drawn on it; use it only as a map. Never draw the green outline or the magenta line: the result must contain no green and no magenta anywhere.\n\nThe goggles: a white soft-round frame with a black outline; one smoky dark-grey lens with two pale slanted light streaks; on each side a small upright orange buckle on a dark base; from each buckle a flat black elastic band, about one and a half times as wide as an orange buckle, running down and outwards into her hair. They sit pushed up on top of her fringe and are perfectly level. The middle of the frame's bottom edge has an arch-shaped nose-bridge cut-out.\n\nWhat is wrong: the whole goggles sit a few pixels too far to the image-left of her face midline.\n\nThe change: move the whole goggles - frame, lens, both buckles and both band ends - to the image-right as one rigid piece, so that their outline lands exactly on the thin green target outline of Image 2: the white frame's outer edge on the green line all the way round, each orange buckle inside the green outline at its side, each band end inside its green band shape. Both band ends move with the goggles: the image-left band ends where its green band shape ends, not where it ends now. The green outline is only a few pixels to the right of where the goggles are now. The move is very small: earlier attempts that moved the goggles by a whole buckle width or more went far past the target and look crooked the other way. Do not go past the green outline. When it is right, the middle of the arch-shaped nose-bridge cut-out is on the magenta line.\n\nKeep the goggles themselves identical: same size, same shape, same design, same height (the top of the frame the same distance below the top of her hair, the same strip of fringe showing between the bottom of the frame and her eyebrows), perfectly level, not tilted. The two bands leave the buckles at the same angle as now and disappear into her hair at mirror-image places on the left and right. Where the goggles move away, continue her white hair (pale blue-lavender shading, navy outlines) with the same hair strands as around it; where they move over, they cover hair as they do now. No gaps, white holes or broken lines.\n\nEverything else stays exactly as in Image 1: her face, eyes and gaze, eyebrows, nose, mouth, ears and the rest of her hair; the orange cropped jacket with its black collar and red lining, and the white OG logo on its sleeve pocket exactly as drawn (same letter shapes, the O running into the G, same orientation); the white top with its keyhole cut-out; the black waist belt and buckle; the red shorts; on her right hand (image left) the red wrist cuff and the full-finger black glove; on her left hand (image right) the orange wrist device with its small screen and markings exactly as drawn, and the black fingerless glove with orange edges and the round hole on the back of the hand; on her thigh the terminal with its light screen and black arrow mark, the pouch below it, their white round buttons and orange clips; the two daggers exactly as drawn - on the image left the broad pale steel blade pointing down and outwards from behind her right thigh, on the image right the dark curved blade with its silver edge pointing down past her left hand's fingers - same blade shapes, same angles, same colours, same lengths; the white sock; the orange thigh-high stocking; both red shoes; every shadow and the plain white background. Same pose, same proportions, same place on the canvas. Same rendering as Image 1: the same Japanese anime cel colouring and the same crisp ink lines (navy-blue on the hair, dark brown-black everywhere else); add no texture, grain, noise, glow, haze or blur anywhere.",
+          "referenced_image_paths": [
+            "/tmp/bunny_dagger_goggles/inputs/DGF-v2.png",
+            "/tmp/bunny_dagger_goggles/inputs/map_D3.png"
+          ],
+          "transparent_background": false
+        },
+        "native_output": {
+          "kind": "native-tool-file",
+          "path": "/Users/roy/.codex/generated_images/01a18d39-e584-7c83-902a-b6a165f2fba1/exec-29d0736e-2739-4ac2-ac74-439820186e38.png",
+          "sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2",
+          "record": {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-output.json",
+            "sha256": "14b507edfd6a656dffa98a1aa6abd5672c967c1c7a2bee12bdc3e1557c6dee23"
+          },
+          "record_note": "Output metadata retains the actual returned native path; image payload is stored as the byte-exact original, not fabricated as a data URL."
+        },
+        "tool_output_record": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-output.json",
+          "sha256": "14b507edfd6a656dffa98a1aa6abd5672c967c1c7a2bee12bdc3e1557c6dee23"
+        },
+        "reference_basis": "Image 1 is the approved v2 front, byte-identical to /media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.png. Image 2 is the same image with a thin target outline (the goggles outline moved 3 px to image-right) and the face midline drawn on it, used only as a position map; the result contains neither mark.",
+        "visual_review_record": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/checks.md",
+          "sha256": "d897b5fab7d61955734fbaf809198f3246b80080b38140edc33abe6731056f12"
+        },
+        "individual_visual_review": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-selection.json",
+          "sha256": "ba8893ef23f86ebf9aa9eab4d5fce0c45132c8e2334acf4f7af31a4e8a8c0233",
+          "source_sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2"
+        },
+        "self_review_record": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/takes/qa_r2A.txt",
+          "sha256": "1884e9f08c38fc479a6e41104b0b91eafe26105ea4e40394944c4ed22019244e",
+          "pointer": "=== r2A_1.png"
+        },
+        "generation_provenance": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/release/daggers-front-v3-selection.json",
+          "sha256": "ba8893ef23f86ebf9aa9eab4d5fce0c45132c8e2334acf4f7af31a4e8a8c0233"
+        },
+        "reference_chain": [
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/inputs/DGF-v2.png",
+            "sha256": "d74fc40cea9b07f1fd13d62eeb4fdee54ef03d27077c9b7e9e8b57daf3fd1129",
+            "actually_viewed": true,
+            "called_as": "/tmp/bunny_dagger_goggles/inputs/DGF-v2.png"
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-dagger-goggles-20261030/inputs/map_D3.png",
+            "sha256": "83705b43954c5ffab9efc7eccc7823e504313f01a52e2df024aedb4d50b002be",
+            "actually_viewed": true,
+            "called_as": "/tmp/bunny_dagger_goggles/inputs/map_D3.png"
+          }
+        ],
+        "repository_generation_record": {
+          "path": "catalog/bunny/3.1.0/generation-sources/assassin-daggers-waist-carry-cel-front-v3.json",
+          "sha256": "436fa01f9a7214872129198f00bcf3d6487be7f6bd40eec7a2b528ac58683a15"
+        }
+      },
+      "original": {
+        "path": "/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1675343,
+        "sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 979542,
+        "sha256": "3a8edcdbb3d50164283661d7a97c248c85c7975911c4ed2a2a85c2cad3afcc00",
         "alpha": false
       }
     },
@@ -15126,8 +15227,8 @@
       "id": "source-images",
       "path": "/media/bunny/3.1.0/bunny-3.1.0-design-reference.zip",
       "mime_type": "application/zip",
-      "bytes": 241998429,
-      "sha256": "6d16d67a6534a2aca9f461c8198385abcd46ad440d23f201b2d8652daa56f44e"
+      "bytes": 243414421,
+      "sha256": "0804f60740ef44a53c565c3f2990b86acfec33eefc54d3d564522496d9bdced2"
     }
   ]
 }

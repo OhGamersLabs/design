@@ -407,6 +407,14 @@
     "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v2.webp",
     "sourceSha256": "1c77d199cba6ac4f8492da2201e33ccce53941da07694332741510f17577e78b"
   },
+  "bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3": {
+    "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "53c946a783a880b01342b7be3ca9631486fd0f04c81d723016e59b5b412d74f3",
+    "sourcePath": "/characters/bunny/3.1.0/assassin-daggers-waist-carry-cel-front-v3.webp",
+    "sourceSha256": "3a8edcdbb3d50164283661d7a97c248c85c7975911c4ed2a2a85c2cad3afcc00"
+  },
   "bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1": {
     "path": "/site/thumbs/bunny/3.1.0/assassin-daggers-waist-carry-cel-side-v1.webp",
     "width": 480,

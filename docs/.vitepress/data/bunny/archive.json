@@ -674,7 +674,8 @@
         "historical-identical-daggers-with-torso-harness",
         "historical-smaller-dagger-scale",
         "historical-superseded-dagger-shape-drift",
-        "historical-previous-pose-direction"
+        "historical-previous-pose-direction",
+        "historical-before-goggles-centring"
       ],
       "items": [
         {
@@ -731,6 +732,11 @@
           "asset": "assassin-daggers-held-main-v1",
           "date": "—",
           "replacedBy": "SUN-05 同握前冲"
+        },
+        {
+          "asset": "assassin-daggers-waist-carry-cel-front-v2",
+          "date": "—",
+          "replacedBy": "护目镜居中的完整人物正面"
         }
       ]
     },
