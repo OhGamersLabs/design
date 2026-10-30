@@ -1,0 +1,242 @@
+[
+  {
+    "layer": 0,
+    "name": "身体",
+    "path": "/characters/bunny/body-base",
+    "front": "body-v2-fresh-cel-front-v2",
+    "side": "body-v2-fresh-cel-side-v1",
+    "back": "body-v2-fresh-cel-back-v1",
+    "summary": "衣层的起点",
+    "facts": [
+      {
+        "term": "体型",
+        "value": "成年纤细女性"
+      },
+      {
+        "term": "头身",
+        "value": "约 6.56 头身"
+      },
+      {
+        "term": "图面单位",
+        "value": "H0 = 1475 px，头高 225 px"
+      },
+      {
+        "term": "外层",
+        "value": "之上还有第 1 到 8 层"
+      }
+    ],
+    "leftRight": "正面图里，角色右侧在画面左边；背面图里，角色右侧在画面右边。"
+  },
+  {
+    "layer": 1,
+    "name": "上衣与短裤",
+    "path": "/characters/bunny/innerwear",
+    "front": "innerwear-v2-fresh-cel-front-v3",
+    "side": "innerwear-v2-fresh-cel-side-v1",
+    "back": "innerwear-v2-fresh-cel-back-v3",
+    "summary": "白色开胸短上衣，红色短裤",
+    "facts": [
+      {
+        "term": "上衣",
+        "value": "白色开胸短上衣"
+      },
+      {
+        "term": "短裤",
+        "value": "红色短裤"
+      },
+      {
+        "term": "外层",
+        "value": "之上还有第 2 到 8 层"
+      }
+    ],
+    "leftRight": "正面图里，角色右侧在画面左边；背面图里，角色右侧在画面右边。"
+  },
+  {
+    "layer": 2,
+    "name": "袜装",
+    "path": "/characters/bunny/hosiery",
+    "front": "hosiery-v2-fresh-cel-front-v3",
+    "side": "hosiery-v2-fresh-cel-side-v1",
+    "back": "hosiery-v2-base-aligned-cel-back-v1",
+    "summary": "不对称：角色右腿白色短袜，角色左腿橙色过膝袜",
+    "facts": [
+      {
+        "term": "角色右腿",
+        "value": "白色短袜"
+      },
+      {
+        "term": "角色左腿",
+        "value": "橙色过膝袜"
+      },
+      {
+        "term": "外层",
+        "value": "之上还有第 3 到 8 层"
+      }
+    ],
+    "leftRight": "橙色过膝袜在角色左腿。正面图里它在画面右边，背面图里在画面左边。"
+  },
+  {
+    "layer": 3,
+    "name": "鞋靴",
+    "path": "/characters/bunny/shoes",
+    "front": "footwear-v2-base-aligned-cel-front-v1",
+    "side": "footwear-v2-base-aligned-cel-side-v1",
+    "back": "footwear-v2-base-aligned-cel-back-v1",
+    "summary": "红白厚底靴，外踝有圆盘",
+    "facts": [
+      {
+        "term": "形制",
+        "value": "厚底靴"
+      },
+      {
+        "term": "颜色",
+        "value": "红白"
+      },
+      {
+        "term": "外踝",
+        "value": "圆盘"
+      },
+      {
+        "term": "外层",
+        "value": "之上还有第 4 到 8 层"
+      }
+    ],
+    "leftRight": "橙色过膝袜在角色左腿。正面图里它在画面右边，背面图里在画面左边。"
+  },
+  {
+    "layer": 4,
+    "name": "手部",
+    "path": "/characters/bunny/hands",
+    "front": "hands-v2-base-aligned-cel-front-v1",
+    "side": "hands-v2-base-aligned-cel-side-v1",
+    "back": "hands-v2-base-aligned-cel-back-v1",
+    "summary": "角色右手黑色全指手套、红色腕护环；角色左手黑色半指手套、橙色腕部设备",
+    "facts": [
+      {
+        "term": "角色右手",
+        "value": "黑色全指手套配红色腕护环"
+      },
+      {
+        "term": "角色左手",
+        "value": "黑色半指手套配橙色腕部设备"
+      },
+      {
+        "term": "外层",
+        "value": "之上还有第 5 到 8 层"
+      }
+    ],
+    "leftRight": "红色腕护环在角色右手。正面图里它在画面左边，背面图里在画面右边。"
+  },
+  {
+    "layer": 5,
+    "name": "腿带",
+    "path": "/characters/bunny/thigh-gear",
+    "front": "thigh-v2-base-aligned-cel-front-v1",
+    "side": "thigh-v2-base-aligned-cel-side-v1",
+    "back": "thigh-v2-base-aligned-cel-back-v1",
+    "summary": "两条腿带：上为任务终端，下为维护包",
+    "facts": [
+      {
+        "term": "位置",
+        "value": "角色右大腿"
+      },
+      {
+        "term": "上方",
+        "value": "任务终端"
+      },
+      {
+        "term": "下方",
+        "value": "维护包"
+      },
+      {
+        "term": "外层",
+        "value": "之上还有橙色夹克、裤腰皮带、护目镜"
+      }
+    ],
+    "leftRight": "两条腿带在角色右大腿。正面图里它们在画面左边，背面图里在画面右边。"
+  },
+  {
+    "layer": 6,
+    "name": "橙色夹克",
+    "path": "/characters/bunny/jacket",
+    "front": "jacket-v2-highlow-base-aligned-cel-front-v1",
+    "side": "jacket-v2-highlow-base-aligned-cel-side-v1",
+    "back": "jacket-v2-highlow-base-aligned-cel-back-v1",
+    "summary": "普通领口，角色左上臂袖袋有白色 OG 标志",
+    "facts": [
+      {
+        "term": "形制",
+        "value": "前长后短"
+      },
+      {
+        "term": "领口",
+        "value": "普通领口"
+      },
+      {
+        "term": "标志",
+        "value": "角色左上臂袖袋上，白色 OG 标志"
+      },
+      {
+        "term": "外层",
+        "value": "之上还有裤腰皮带、护目镜"
+      }
+    ],
+    "leftRight": "OG 标志在角色左上臂。正面图里它在画面右边，背面图里在画面左边。"
+  },
+  {
+    "layer": 7,
+    "name": "裤腰皮带",
+    "path": "/characters/bunny/harness",
+    "front": "belt-v2-only-cel-front-v1",
+    "side": "belt-v2-only-cel-side-v1",
+    "back": "belt-v2-only-cel-back-v1",
+    "summary": "一条黑色裤腰皮带",
+    "facts": [
+      {
+        "term": "颜色",
+        "value": "黑色"
+      },
+      {
+        "term": "数量",
+        "value": "一条"
+      },
+      {
+        "term": "位置",
+        "value": "裤腰"
+      },
+      {
+        "term": "外层",
+        "value": "之上还有护目镜"
+      }
+    ],
+    "leftRight": "两条腿带在角色右大腿。正面图里它们在画面左边，背面图里在画面右边。"
+  },
+  {
+    "layer": 8,
+    "name": "护目镜",
+    "path": "/characters/bunny/headgear",
+    "front": "goggles-v2-belt-only-cel-front-v2",
+    "side": "goggles-v2-belt-only-cel-side-v1",
+    "back": "goggles-v2-belt-only-cel-back-v1",
+    "summary": "白色柔圆护目镜，推在额上",
+    "facts": [
+      {
+        "term": "外形",
+        "value": "白色柔圆"
+      },
+      {
+        "term": "位置",
+        "value": "推在额上"
+      },
+      {
+        "term": "佩戴",
+        "value": "头部只有护目镜"
+      },
+      {
+        "term": "外层",
+        "value": "最外层"
+      }
+    ],
+    "leftRight": "两条腿带在角色右大腿。正面图里它们在画面左边，背面图里在画面右边。"
+  }
+]

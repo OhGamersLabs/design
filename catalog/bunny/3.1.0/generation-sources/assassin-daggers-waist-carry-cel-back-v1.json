@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "role": "paired-dagger-rear-waist-crossed-carry-back",
+  "publish_slug": "assassin-daggers-waist-carry-cel-back-v1",
+  "actual_tool_candidate": "waist-root-back-v3",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-native.png",
+    "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658"
+  },
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-request.json",
+    "sha256": "c5dbbacd1b727fd056676773262267b0e1b0b2d59a786a2666d88fdd86e0f57f"
+  },
+  "request_pointer": "/",
+  "actual_tool_parameters": {
+    "prompt": "Create one ENTIRELY NEW complete full-body rear-view illustration of Bunny based on input1. Retain its roomy square composition, exact body proportions, clothing, outboard relaxed arms, clean cel style, two small rear-waist mounts, and the complete DARK weapon. Make ONE design correction: lengthen ONLY the IVORY curved BLADE beyond its current tip into the empty space down-right. Keep its existing hilt, grip, collar, pommel, guard, blade root and attachment position unchanged. Do not scale both weapons, do not grow the handles, do not resize the person.\n\nInput2 is the accepted original twin-dagger master, controlling their distinct shapes and part proportions. The DARK broad angular fang stays the same size as input1. IVORY remains the longer swept blade with its distinct crescent guard and curved single-hand grip. Its complete length must be clearly about seven-sixths the DARK length. In input1 the DARK length is already close to its .36 character-height goal, but IVORY is only about .382 instead of .42. Increase the ivory blade reach about10 percent of its current COMPLETE weapon length, keeping all the hilt parts the same. On the approximate1254-square layout of input1, the ivory tip currently at(817,651) can extend naturally to about(851,679). These are composition aids, not text to draw. Keep the ivory's sweeping curve and coherent broad-to-tip taper; do not add an unrelated needle extension or seam. The same single piece must flow naturally from the retained root to the farther tip.\n\nKeep the low waist X: DARK hilt on screen RIGHT/character RIGHT, blade toward screen LEFT, nearer the wearer. IVORY hilt screen LEFT/character LEFT, blade toward screen RIGHT, outer layer. Clean overlap separates the two objects. Blades are behind the wearer and may pass behind an arm in depth, but never through a hand or leg. The right-side empty space is available; don't shorten the tip to stop beside the hand. Preserve the thin short root cover BELOW each guard with guard seated on its rim, a separate collar wrap ABOVE the guard and the closed ear carrying the trouser belt. No long sheaths or new mechanisms.\n\nKeep the head, ears, raised goggles, white hair, orange high-low jacket, white hem, red shorts, center red belt loop and empty hands unchanged. Screen RIGHT full black closed-finger glove/red wrist, right thigh terminal and pouch, short white sock. Screen LEFT fingerless orange-edged glove/orange terminal, long orange stocking, OG on the left sleeve pocket. No shoulder harness, H-straps, chains or added leg bands.\n\nOne coherent fresh whole drawing, clean Japanese2D hand-drawn lines and cel-color planes. No labels/insets, no photocollage, no 3D rendering, no random white specks/stains/noisy metal. Leave full white margins around all tips and footwear. Fictional character costume illustration only.",
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v2-native.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-output.json",
+    "sha256": "e86c5279f8a07c0d90a45d7bacedd419babacbe134908731d254519e4ad6f4a0"
+  },
+  "native_output": {
+    "kind": "native-tool-file",
+    "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-4cb91994-41d0-4c8d-9613-ac48c6958983.png",
+    "sha256": "b903353a811600985c32669af80ea5f1fb00e19ced3298e1575c94d4d8996658",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-output.json",
+      "sha256": "e86c5279f8a07c0d90a45d7bacedd419babacbe134908731d254519e4ad6f4a0"
+    },
+    "record_note": "Actual output metadata records native_tool and the unchanged PNG copy/hash."
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v2-native.png",
+      "sha256": "7fef39fa1196a1107f9d31d98fc0d83768c134660e92d3f1b83345c0507a711b",
+      "role": "V2 whole identity/composition/DARK/hilts/mounts; ivory blade length explicitly needs correction"
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+      "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+      "role": "Accepted master for distinct weapon designs and proportions"
+    }
+  ],
+  "reference_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-references.json",
+    "sha256": "2986ada300eabeb1042ce3cca26a9bcea563192d2f763f9d32b5edfd66e3e57c"
+  },
+  "reference_basis": "V2 is a limited whole identity/composition/dark weapon/hilt/mount reference; its ivory length was explicitly unaccepted. Master-v4 supplies authoritative dagger designs.",
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-root-acceptance.json",
+    "sha256": "04a7bb24dc295f81d10211ddf6a4a811bb59932dd438f4c7f89ded2c27682aa1"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-root-acceptance.json",
+    "sha256": "04a7bb24dc295f81d10211ddf6a4a811bb59932dd438f4c7f89ded2c27682aa1"
+  },
+  "self_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-self-review.json",
+    "sha256": "0af7e28eddf2884d83669409fb124cd49bf6391686adde04a02a2b8d0a3c55ee"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-handoff.json",
+    "sha256": "0faf6e0c23072543848d5ec72c07ff61aed914a674a38e4030d2b92a293b7dd9"
+  },
+  "measurement_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/waist-root-back-v3-dimension-observation.json",
+    "sha256": "3bc9336a93a5a62bf7f15e113394b66415ebb311e6c5d93e0784ba2b56c42c54"
+  },
+  "review_status": "accepted-carry-back-appearance-with-projection-estimates",
+  "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+  "limitations": [
+    "Nominal .36/.42H0 remains the master design; observed .3518/.4286 are source-specific 2D estimates, not exact6:7.",
+    "Three-anchor uniform scale/translation has about10.7px RMS residual; no canonical body data changes or manufacturing precision.",
+    "Front/right-side consistency and dynamic/load/release behavior remain pending."
+  ]
+}

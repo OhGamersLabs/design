@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "role": "belt-only-front",
+  "publish_slug": "belt-v2-only-cel-front-v1",
+  "actual_tool_candidate": "belt-front-v1",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/belt-front-v1-native.png",
+    "sha256": "e6f307ad2c6097c39381b5bc1ddc1b104c9cd8cb56c6df0a93881e31614cffa6"
+  },
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/belt-front-v1-request.json",
+    "sha256": "32accdf537280ef8955609fbed2e8a292ce6ea933bb4e50b8d9fe58df8e603c5"
+  },
+  "request_pointer": "/",
+  "actual_tool_parameters": {
+    "prompt": "Create one completely NEW full-canvas hand-drawn Japanese anime character design illustration of this SAME ADULT WOMAN, complete head-to-shoe-soles, centered on clean white portrait canvas, preferably 1024x1536. One view only, no labels or panels. This is a fresh redraw of the entire figure, not a local erasure, patch, pasted head, collage, filter or stretched old art.\nImage1 is the exact SAME-VIEW CURRENT JACKET OUTFIT and figure proportions authority: preserve pose, body shape, long-legged slim silhouette, head/body ratio, white cropped top, red rolled-cuff shorts with original hip volume, orange front-longer/back-shorter cropped jacket, all footwear and leg/hand equipment. Image2 is the neutral HEAD IDENTITY AND LINE/CEL STYLE only: same silver-white hair clumps, narrow naturally attached ears, blue eyes where visible, dark navy contour, broad coolgray/lavender hair shadows. Do not substitute a new face or change body proportions.\nTHIS LAYER CHANGE: add only a SINGLE matte-black low-profile waist belt threaded through the EXISTING RED SHORTS BELT LOOPS at the trouser waistband. Red loops visibly cross over the black belt. Simple low-profile BLACK RECTANGULAR BUCKLE at FRONT center; a plain black belt at the back. At most two tiny flat black direct-mount slots at rear-outside waist, fixed to the belt itself, no dangling extensions. The jacket and white shirt remain entirely unsupported by this belt. Keep the bare midriff/gap clear. Absolutely no shoulder harness, H straps, chest/underbust strap, vertical torso-to-waist straps, hanging carabiners/hooks/chains, gold shoulder buckles, or links from the jacket hem to the belt. No weapons, no sheaths, no pouch additions.\nKeep character RIGHT full-finger plain black glove and RED wristunit; character LEFT orange-edged fingerless glove and ORANGE wrist terminal. LEFT leg orange thigh-high, RIGHT leg short white sock, RIGHT thigh upper terminal and lower maintenance pouch with separate bands. Maintain accepted pocket positions and shoe outer-ankle hardware; no mirroring. Clean intentional closed cel shadow planes and sparse lineart; no cloudy white patches, random flecks, grain, muddy patina, oily3D rendering or soft painterly relighting. Preserve legitimate white hair, white cloth, seam/knit details and hardware highlights.\nVIEW: Strict FRONT view. Character RIGHT is imageLEFT: black full glove/red wrist and thigh terminal/pouch/short white sock. Character LEFT is imageRIGHT: orange-edged fingerless/orange terminal, orange thigh-high, OG left sleeve pocket emblem. Front black rectangular belt buckle clearly centered, original red belt loops cross over the black strap. Original white top chest opening and long front jacket points stay the same. NO goggles/headgear at this belt layer.",
+    "referenced_image_paths": [
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v3.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/belt-front-v1-output.json",
+    "sha256": "549390d86141e9a3ca7be385a29458cd05146d11a1ddeb6176c59ccb8ef4489f"
+  },
+  "native_output": {
+    "kind": "native-tool-file",
+    "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-3758f2fe-0e4f-4428-a8a0-cbb7308fb4cb.png",
+    "sha256": "e6f307ad2c6097c39381b5bc1ddc1b104c9cd8cb56c6df0a93881e31614cffa6",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/belt-front-v1-output.json",
+      "sha256": "549390d86141e9a3ca7be385a29458cd05146d11a1ddeb6176c59ccb8ef4489f"
+    },
+    "record_note": "Output metadata retains the actual returned native path; image payload is stored as the byte-exact original, not fabricated as a data URL."
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-front-v1.png",
+      "sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/head-v2-cel-reference-v3.png",
+      "sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768",
+      "actually_viewed": true
+    }
+  ],
+  "reference_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/belt-front-v1-references.json",
+    "sha256": "0b718bd8edd30871568353d254b25cbe222d0c39a5ede86e9e2143ae08e6a7a4"
+  },
+  "reference_basis": "Ordered actual references match the request. Current jacket/body/head references preserve identity and clothing; any old torso harness in a reference is explicitly superseded by the prompt.",
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/root-acceptance-seven.json",
+    "sha256": "2baab5a947e4cc545f50c2934e05f09071782f3a28132cad82e8925565b3eef8"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/root-acceptance-seven.json",
+    "sha256": "2baab5a947e4cc545f50c2934e05f09071782f3a28132cad82e8925565b3eef8",
+    "source_sha256": "e6f307ad2c6097c39381b5bc1ddc1b104c9cd8cb56c6df0a93881e31614cffa6"
+  },
+  "self_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/people-six-self-review.json",
+    "sha256": "06a4ce08facbfc4023755be01bd2809aba35c4a51f529ee5f888437d348a8175",
+    "pointer": "/items/0"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-belt-twin-daggers-20261026/people/selected-people-six.json",
+    "sha256": "f1b679f3b7ea650a514dcb81642122b2b902d7a173a696c6112435de253b7a4c"
+  },
+  "review_status": "accepted-belt-only-cumulative-view",
+  "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+  "limitations": [
+    "Visual design reference, not new body or garment coordinate measurements. Existing approved measurement sources remain unchanged.",
+    "No weapon or sheath included in these cumulative views."
+  ]
+}

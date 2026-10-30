@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "role": "paired-dagger-held-dynamic-back-view",
+  "publish_slug": "assassin-daggers-held-cel-back-v1",
+  "actual_tool_candidate": "held-back-v2",
+  "publish_mapping_note": "Actual held-back-v2 is published as assassin-daggers-held-cel-back-v1; no tool-candidate version is disguised.",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-native.png",
+    "sha256": "041a210c1f2da9193c5f63bd6d47d2cee4fb71b74fba5765cb79f858da8b5bd0"
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-request.json",
+    "sha256": "cbc419ef187bd83a2833ffb76e549685529d8ec95f653661528a7848cf96ddf1"
+  },
+  "request_pointer": "/request",
+  "actual_tool_parameters": {
+    "prompt": "Create a complete fresh color drawing preserving image 1's full BACK-view pose, body proportions, camera, clothing, both hands and both held fictional daggers. White background, clean Japanese hand-drawn anime linework and crisp cel color. Do not restage this already established back-view pose.\n\nMake only these visible corrections while redrawing the whole image:\n1. At the rear belt, REMOVE BOTH curved metal knife guards accidentally copied onto the empty mounts. Each mount is ONLY a compact BLACK LEATHER short open cradle: visibly hollow top opening, short front wall and side walls, a short opened retaining strap with its stud, and a closed belt-through loop at the back. No winged metal crossguard, blade, red collar, grip or pommel remains on either waist mount. The actual metal guards stay attached to the two daggers in her hands. Both rear supports are empty because both knives have been drawn. Use image 4 only for the leather cradle/belt-loop/strap relationship; ignore all knife components in that reference. Do not enlarge these into long sheaths or add side-waist boxes.\n2. Restore the small actual white stylized OG emblem on the visible LEFT sleeve pocket, matching image 2's real graphic rather than typeset letters.\n\nImage 1 is the back-view pose/layout and material reference, with the two listed defects not authoritative. Image 2 is current back identity and clothing; do not copy its standing pose. Image 3 is the exact dagger master: preserve dark broad angular blade/segmented grip/angular pommel on character RIGHT (screen RIGHT), ivory swept blade/curved guard/flowing grip/ivory teardrop pommel on LEFT (screen LEFT). Image 4 supplies only the empty leather mount parts described above.\n\nKeep the raised right hand black full-finger including thumb, with red cuff; lower left hand fingerless with orange screen terminal. Both still genuinely close around the grips, guards outside hands. Same hair and rear goggle strap, no rear face, orange jacket's short back hem and white underlayer, bare lower back, red shorts/back pockets/pure belt, right thigh two modules/white sock, left orange stocking, red boots. Preserve clean head/hair, clothing and skin color shapes. No upper straps, chains, extra weapons, text or inset. Projected blade lengths may differ with camera angle; do not redesign their shapes or use projected ratios as a reason to restage them.",
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v1-native.png",
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-native.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-tool-response.json",
+    "sha256": "c86e454484fef14f6e0588a7b52f9538d6d474248b29789608bce0abded5673f"
+  },
+  "native_output": {
+    "kind": "native-tool-file",
+    "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-bca00df8-4fb2-414d-a9ab-5c1a15d3490f.png",
+    "sha256": "041a210c1f2da9193c5f63bd6d47d2cee4fb71b74fba5765cb79f858da8b5bd0",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-tool-response.json",
+      "sha256": "c86e454484fef14f6e0588a7b52f9538d6d474248b29789608bce0abded5673f"
+    },
+    "record_note": "The exact tool-native path appears in the actual output_hint and final handoff; complete unchanged PNG is retained. The metadata omits base64 explicitly."
+  },
+  "reference_inputs": [
+    {
+      "index": 1,
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v1-native.png",
+      "sha256": "bcfc154a4d3c6fb098f9c4983e65b80f99acd4a662b8d64d4c4e7c4255f3875c",
+      "role": "Back V1 candidate: already accepted camera/pose/clothing only; metal guards at empty mounts and absent sleeve emblem rejected"
+    },
+    {
+      "index": 2,
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-belt-only-cel-back-v1.png",
+      "sha256": "51015b8332971082138ee50d5c214d9cbb35fa8e024ac5918b19e117a9f715e0",
+      "role": "Current back: identity/clothing/actual emblem only"
+    },
+    {
+      "index": 3,
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+      "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+      "role": "Accepted master-v4: exact held daggers, not waist contents"
+    },
+    {
+      "index": 4,
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/root-cradle-board-v3-native.png",
+      "sha256": "9845129227fd8fa7d15bd34e15586569b6a31fe4dd17de2e53db711e7e445228",
+      "role": "Accepted structure-v3: leather cradles/straps/belt ears only; no knife parts left at empty mounts"
+    }
+  ],
+  "reference_basis": "back-v1 is rejected for metal guards at empty mounts and missing sleeve emblem; reused only for pose/camera/clothes in actual v2 request. side-v1/v2 unaccepted for view geometry.",
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-root-acceptance.json",
+    "sha256": "04a54fdb2b2640b6aed73b40dbd4f51feccdcc370dd20a2495e86eebcc0284b6"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-root-acceptance.json",
+    "sha256": "04a54fdb2b2640b6aed73b40dbd4f51feccdcc370dd20a2495e86eebcc0284b6"
+  },
+  "self_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-qa.json",
+    "sha256": "037fcee0d60913f41aa707c3b3ae044e191dbfe05a8576fec808fbd2f83a2e3d"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-back-v2-handoff.json",
+    "sha256": "3006c4f02071e769fd4d7fd923ffc2e2e35d89daa681ce95011b195cdaa869f0"
+  },
+  "review_status": "accepted-dynamic-back-view",
+  "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+  "limitations": [
+    "Pose correspondence is a 2D turnaround interpretation, not a validated 3D rig.",
+    "Projected lengths are not nominal object dimension evidence.",
+    "Empty mounts are appearance only; no dynamic clearance or load validation."
+  ]
+}

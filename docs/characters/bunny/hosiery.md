@@ -1,35 +1,51 @@
 ---
-title: "袜装是柔性层，不是外骨骼"
-description: "Bunny 角色设计白皮书 · 袜装是柔性层，不是外骨骼"
-releaseReady: true
-pageClass: bunny-editorial
+layout: BunnyPage
+bunny: layer
+layer: 2
+title: 袜装
+sidebar: false
 aside: false
-section: components
-lead: "长袜、短袜与前臂套各自独立，贴合身体而不锁住关节。"
 ---
+# 袜装 {.bunny-sr-only}
 
+<span id="hosiery-wearing"></span>
+<span id="袜装穿着三视"></span>
 
-# 袜装是柔性层，不是外骨骼
+## 穿着三视 <small>穿到第 2 层为止</small> {#wearing}
 
-## 构成
+<div class="bunny-body-views">
 
-人物左腿穿橙色长袜，右腿穿白色短袜；灰色前臂套为独立部件。各自的上下边缘和长度保持清楚。
+<AssetImage id="hosiery-v2-fresh-cel-front-v3" caption="正面" group="layer-2" />
 
-## 连接
+<AssetImage id="hosiery-v2-fresh-cel-side-v1" caption="角色右侧面" group="layer-2" />
 
-袜口与短裤之间、踝口与鞋之间保留一致的覆盖关系。长袜不通过新增吊带连接短裤。
+<AssetImage id="hosiery-v2-base-aligned-cel-back-v1" caption="背面" group="layer-2" />
 
-## 绘制
+</div>
 
-用少量硬边色块表达贴合形体。膝与胫部仍是织物曲面，不画成突起的刚性装甲。
+角色左腿为橙色过膝袜，角色右腿为白色短袜。袜口贴合身体并产生轻微压痕，织物与腿部轮廓连续。
 
-## 图示对照
+三张穿着图均为 1024×1536 PNG。袜口、袜筒和完整足部以干净线条和平涂硬边阴影呈现。
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/hosiery.webp"
-  alt="袜套"
-  original="/media/bunny/1.1.0/hosiery.png"
-  caption="袜套"
-/>
+人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
 
-[返回目录](/characters/bunny/)
+[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
+
+<span id="hosiery-construction"></span>
+
+## 分件结构 <small>拆成单件看</small> {#construction}
+
+<AssetImage id="hosiery-v2-layer2-construction-v2" group="layer-2" />
+
+<span id="袜装针织细节"></span>
+
+图中四组编号对应以下结构与细节：
+
+| 编号 | 内容 |
+| --- | --- |
+| 1 | 罗纹袜口与袜筒过渡 |
+| 2 | 针织线圈与织物表面 |
+| 3 | 脚跟成形与袜身衔接 |
+| 4 | 普通闭合袜尖与接缝 |
+
+具体针距、实物尺寸和生产纸样未设定。

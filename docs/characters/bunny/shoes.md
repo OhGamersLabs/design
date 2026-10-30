@@ -1,35 +1,45 @@
 ---
-title: "同款镜像鞋，前侧后分工明确"
-description: "Bunny 角色设计白皮书 · 同款镜像鞋，前侧后分工明确"
-releaseReady: true
-pageClass: bunny-editorial
+layout: BunnyPage
+bunny: layer
+layer: 3
+title: 鞋靴
+sidebar: false
 aside: false
-section: components
-lead: "鞋舌、鞋头、踝扣与鞋跟的位置不能因视角而迁移。"
 ---
+# 鞋靴 {.bunny-sr-only}
 
+## 穿着三视 <small>穿到第 3 层为止</small> {#wearing}
 
-# 同款镜像鞋，前侧后分工明确
+<span id="footwear-wearing"></span>
 
-## 正面
+<div class="bunny-body-views">
 
-三槽鞋舌板、白色交叉带、鞋头四铆钉与外角橙圈组成主要识别。
+<AssetImage id="footwear-v2-base-aligned-cel-front-v1" group="layer-3" caption="正面" />
 
-## 左右对应
+<AssetImage id="footwear-v2-base-aligned-cel-side-v1" group="layer-3" caption="角色右侧面" />
 
-左右鞋是同款镜像，鞋底高度一致。前鞋舌不能从背面鞋口长出，侧扣不变成随机装饰。
+<AssetImage id="footwear-v2-base-aligned-cel-back-v1" group="layer-3" caption="背面" />
 
-## 侧面
+</div>
 
-踝扣、白色中底与红色鞋跟分层，外后跟保留金色六角标。外侧标记不移动到正后跟。
+鞋靴层在白色上衣、红色短裤与不对称袜装的基础上加入红白厚底靴。
 
-## 图示对照
+角色右侧面朝画面右侧，远侧橙袜腿及鞋自然遮挡在近侧之后。袜筒连续进入鞋口，白色鞋带结与短尾收在上鞋舌袋内。
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/shoes-saw.webp"
-  alt="鞋与电锯部件图，鞋部位于下半部"
-  original="/media/bunny/1.1.0/shoes-saw.png"
-  caption="鞋与电锯"
-/>
+三张完整人物各为 1024×1536。鞋底厚度属于鞋层外形。人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。本页不提供隐藏踝位置、内部足床的精确尺寸或三维装配结论。
 
-[返回目录](/characters/bunny/)
+[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
+
+## 分件结构 <small>拆成单件看</small> {#construction}
+
+<span id="footwear-construction"></span>
+
+<AssetImage id="footwear-v2-layer3-construction-v2" detail="1536×1024" group="layer-3" />
+
+01—04 展示角色右鞋的正面、外侧、内侧和背面，05 为鞋底。外踝圆盘与前端小橙圈属于外侧，内侧没有这两件，外侧与内侧鞋面不能镜像复制。外踝圆盘为黑色，带橙色圆环；灰色圆锚与连接件采用双色硬边。正面与背面只见圆盘侧缘，前端小橙圈不出现在后跟面。
+
+06 分开鞋帮、白色中底与带红色侧块的黑色外底，虚线表示相互对应的位置。结构板用于说明可见部件与接合位置，不是裁剪纸样、制造步骤或投产规格。
+
+## 细节 {#details}
+
+07 对照上鞋舌袋打开与合拢：白色鞋带结和短尾收在袋中，下方为交叉系带。

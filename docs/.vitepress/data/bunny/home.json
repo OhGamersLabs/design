@@ -1,0 +1,108 @@
+{
+  "tabs": [
+    {
+      "key": "scene",
+      "label": "场景定稿",
+      "caption": "SUN-05 张臂前冲，2026-10-29 定稿",
+      "assets": [
+        "sun05-scene-final-v1"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "完整三视",
+      "caption": "正面、角色右侧面、背面，双匕首后腰交叉携行",
+      "assets": [
+        "assassin-daggers-waist-carry-cel-front-v3",
+        "assassin-daggers-waist-carry-cel-side-v2",
+        "assassin-daggers-waist-carry-cel-back-v2"
+      ]
+    },
+    {
+      "key": "line",
+      "label": "线稿",
+      "caption": "STRUCTURE20，2026-10-28 通过",
+      "assets": [
+        "structure20-lineart-v1"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "term": "外观",
+      "value": "成年纤细女性，银白短乱发，蓝眼；白色柔圆护目镜推在额上",
+      "note": ""
+    },
+    {
+      "term": "体型",
+      "value": "约 6.56 头身",
+      "note": "图面单位 H0 = 1475 px，头高 225 px；厘米身高未设定"
+    },
+    {
+      "term": "武器",
+      "value": "异构双匕首",
+      "note": "收纳在后腰，交叉携行"
+    },
+    {
+      "term": "动作",
+      "value": "SUN-05 张臂前冲",
+      "note": ""
+    }
+  ],
+  "chips": [
+    {
+      "name": "橙",
+      "use": "夹克、角色左腿袜",
+      "swatch": "orange"
+    },
+    {
+      "name": "红",
+      "use": "短裤、靴",
+      "swatch": "red"
+    },
+    {
+      "name": "白",
+      "use": "上衣、护目镜",
+      "swatch": "white"
+    },
+    {
+      "name": "黑",
+      "use": "手套、皮带",
+      "swatch": "black"
+    }
+  ],
+  "chipNote": "取自定稿图的近似色",
+  "version": "Bunny 3.1.0 本地修订",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-10-29",
+  "chapters": [
+    {
+      "id": "identity",
+      "label": "身份与画风"
+    },
+    {
+      "id": "body",
+      "label": "身体基准"
+    },
+    {
+      "id": "layers",
+      "label": "衣层由内到外"
+    },
+    {
+      "id": "expressions",
+      "label": "表情"
+    },
+    {
+      "id": "weapon",
+      "label": "武器与携行"
+    },
+    {
+      "id": "action",
+      "label": "动作与场景"
+    },
+    {
+      "id": "downloads",
+      "label": "下载"
+    }
+  ]
+}

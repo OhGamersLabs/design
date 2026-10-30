@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "role": "paired-dagger-consistent-rear-waist-carry-back",
+  "publish_slug": "assassin-daggers-waist-carry-cel-back-v2",
+  "actual_tool_candidate": "carry-back-v2",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-native.png",
+    "sha256": "e2a06d08ccc29e53b12cdafd72a67ad3555e85aeb9b34c44e15f6cb82cfb2529"
+  },
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-request.json",
+    "sha256": "0f55e3763c3162ed9763907461806b847f2eb8036de30c2684325ceb3a038b18"
+  },
+  "request_pointer": "/",
+  "actual_tool_parameters": {
+    "prompt": "Make a completely NEW full-body back-view drawing correcting the weapon scale in image1. Keep image1's Bunny identity, clean costume, long-leg/slim-waist body proportions, rear view and correct dagger shapes. The entire weapons are currently too small. Increase BOTH COMPLETE DAGGERS UNIFORMLY by about30% relative to the person, including their blades, guards, collars, grips and pommels. Preserve their existing shapes and internal proportions exactly; this is a whole-object scale correction, not blade lengthening, tapering or redesign. Image2 is the accepted weapon/mount identity board. Image3 is the original full weapon geometry and nominal design. All art must be redrawn by the image tool as one coherent illustration.\n\nRelative to Bunny's crown-to-barefoot equivalent standing body height, complete DARK dagger length is .360H0 and complete IVORY .420H0. They should read as roughly2.36 and2.75 canonical head units, not the small .27/.32 objects in image1. Ivory remains about7/6 as long as dark. Both grips grow along with their complete weapons to the intended compact one-hand scale. Do not keep the old tiny hilts while extending points. Do not enlarge the person's hands or make the body wider/shorter to compensate.\n\nKeep mount attachment locations on the same lower rear belt, dark hilt on character-right/page-right, ivory hilt page-left. Mount roots remain fixed at belt region while the enlarged hilts extend outward/up and enlarged blades farther across/down. Root cradles and wraps accommodate the correct guard/root size without changing their layered construction. White crosses in front of dark. Enlarged tips should extend well beyond hip outlines into white space, not end automatically at the inner edges of the hands. A relaxed slightly wider natural A-stance of the ARMS is allowed to leave room; original arm/hand sizes unchanged, relaxed fingers. Tips may pass naturally behind hands with correct occlusion but must not pass through palms or be truncated. Keep shallow X, broad faces near picture plane. If needed uniformly reduce the entire full figure within the canvas so the much larger daggers and both hands retain generous white margins. Do not separately shrink weapons for page fit.\n\nPreserve all seven weapon identity features from image1/2/3: dark broad projecting angular shoulder/deep waist/stepped silver edge, dark root red wedge, compact hard angular guard, separate red collar, a few large grip facets, pointed dark polygon pommel/orange rectangle; ivory broad swept blade with inner near-tip angular shoulder/root red wedge, crescent guard, red collar, curved black grip with ivory stripe, ivory teardrop/orange oval pommel. Same two objects, no generic thin crossed blades. Natural center overlap allowed, but do not erase identities.\n\nKeep upper strap on non-blade collar/grip-root side of each original guard; separate very short root cradle below guard with guard visibly resting on its mouth; closed ear threaded by existing black trouser belt. No long sheath, chest/shoulder straps or additional leg straps.\n\nClothes/body exactly current image1: silver clumped hair and rear goggles band, cropped orange rear jacket/white undershirt edge, red shorts/rear pockets, black belt through red loops, central red rear loop not buckle. Page-left OG sleeve and orange wrist/fingerless glove, page-right red wrist/full black glove, right thigh terminal and maintenance pouch on original two straps; left long orange sock, right short white sock; original red/black/white boots. Whole crown to boot soles visible, no face on back. Fresh clean Japanese 2D hand-drawn/cel illustration; no cloudy white patches, grime, noise, new textures or labels.",
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v1-native.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-native.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-output.json",
+    "sha256": "e6fb9138859e9e83320c24f64651eac2343e1be4ebd471f0a1fa6520fc8672f1"
+  },
+  "native_output": {
+    "kind": "native-tool-file",
+    "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-106e1677-e57a-4459-b011-702af9967817.png",
+    "sha256": "e2a06d08ccc29e53b12cdafd72a67ad3555e85aeb9b34c44e15f6cb82cfb2529",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-output.json",
+      "sha256": "e6fb9138859e9e83320c24f64651eac2343e1be4ebd471f0a1fa6520fc8672f1"
+    },
+    "record_note": "Actual native_tool output preserved; copied PNG is byte-exact."
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v1-native.png",
+      "sha256": "20d01e12f6364fdf48626dd9c04c018f9872aff1f6c7a8cfcff9c4c2f9df1809",
+      "role": "correct person and shapes; whole weapons currently30percent undersized, not size authority"
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-native.png",
+      "sha256": "3b410120dec0d90b692c146f5e2ad5c90889bc08722699a527197099043f1fb1",
+      "role": "accepted identities and exterior mount layers"
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+      "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+      "role": "canonical whole weapon shapes/internal proportions/nominal sizes"
+    }
+  ],
+  "reference_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-references.json",
+    "sha256": "f336d5096fb9f927ef17ec872eeb77723d9661cf756c3a19fbd67045af3ae1d6"
+  },
+  "reference_basis": "Actual ordered references retain their limited stated roles. Rejected layout/undersized candidates and rotation intermediates are production references only, not accepted final assets; master-v4 remains the canonical shape and nominal dimension authority.",
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-root-acceptance.json",
+    "sha256": "72d383946f6377bbf80983a2643a7958c7845ce151b23b1d20a316949fd002ae"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-root-acceptance.json",
+    "sha256": "72d383946f6377bbf80983a2643a7958c7845ce151b23b1d20a316949fd002ae"
+  },
+  "self_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-self-review.json",
+    "sha256": "d3dd8ae8c51bc05538019f77ec55ed1bd05bfff007a7f6b8e42cf9d3db332ad1"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-handoff.json",
+    "sha256": "8f3b4382823f743d2e23ab9a42101f4b29d17a64b5cdc2d209aae66b8ca96b6f"
+  },
+  "production_chain": [
+    {
+      "candidate": "carry-back-v1",
+      "role": "Person/correct dagger shapes only; rejected undersized whole weapons. Exact same request retry1 after connection error produced this source",
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v1-request.json",
+          "sha256": "7a67bcc3cfc9a66a977508daea16429aedb5aa15718f8e97a8167d2a1a18f3e8"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v1-references.json",
+          "sha256": "eb773a20c67904192f0d7ab46dca52d74698b8af6b14335a0c726bd841f22906"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v1-output.json",
+          "sha256": "63f5ab0c37c1c128a0d592e3d32630e61fe6576ed81f6be34d56325b8ac7b08c"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v1-self-review.json",
+          "sha256": "a4366e4979727774095d4f758729b4796918d959b312747c7b0680c59a16f063"
+        }
+      },
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v1-native.png",
+        "sha256": "20d01e12f6364fdf48626dd9c04c018f9872aff1f6c7a8cfcff9c4c2f9df1809"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-f32bc96e-e957-44dd-90e5-458a064eb426.png",
+        "sha256": "20d01e12f6364fdf48626dd9c04c018f9872aff1f6c7a8cfcff9c4c2f9df1809"
+      },
+      "include_in_current_package": false
+    },
+    {
+      "candidate": "carry-back-v2",
+      "role": "Whole-object weapon scale correction; final ROOT accepted back",
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-request.json",
+          "sha256": "0f55e3763c3162ed9763907461806b847f2eb8036de30c2684325ceb3a038b18"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-references.json",
+          "sha256": "f336d5096fb9f927ef17ec872eeb77723d9661cf756c3a19fbd67045af3ae1d6"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-output.json",
+          "sha256": "e6fb9138859e9e83320c24f64651eac2343e1be4ebd471f0a1fa6520fc8672f1"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-self-review.json",
+          "sha256": "d3dd8ae8c51bc05538019f77ec55ed1bd05bfff007a7f6b8e42cf9d3db332ad1"
+        }
+      },
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-native.png",
+        "sha256": "e2a06d08ccc29e53b12cdafd72a67ad3555e85aeb9b34c44e15f6cb82cfb2529"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-106e1677-e57a-4459-b011-702af9967817.png",
+        "sha256": "e2a06d08ccc29e53b12cdafd72a67ad3555e85aeb9b34c44e15f6cb82cfb2529"
+      },
+      "include_in_current_package": true
+    }
+  ],
+  "review_status": "current-revised-dagger-waist-carry-back",
+  "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+  "limitations": [
+    "Master .360/.420H0 unchanged",
+    "Black tip hidden by left hand: fullL=null; black root red is supported by accepted structure detail, not claimed independently visible here",
+    "Appearance/occlusion accepted, not dynamic or manufacturing verification"
+  ],
+  "measurement_scope": "New source-specific registration and ivory chord only; dark full length and full dark/ivory ratio null because the tip is hand-occluded. Visible chord is not a complete-length measurement or a defined lower bound.",
+  "dimension_observation": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v2-dimension-observation.json",
+    "sha256": "5c1dc1f31bbefc2b77e1413db18f034dafe57be1e620285efb1000db47e0e9fb"
+  },
+  "mount_authority": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/mount-consistent-v3-handoff.json",
+    "sha256": "0c93b1e7a778905e4b08a24562fe4d5617c8cf6aff57654e07c220e21da2aea7"
+  },
+  "first_call_error": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/belt-mounted/consistency-repair-20261027/carry-back-v1-error.json",
+    "sha256": "799a8e9c94e9270ca25d6aa204eb7c3cf82c4f82a7295731ee7dd14f2f22d65b"
+  }
+}

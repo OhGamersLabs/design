@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "role": "matched-dagger-waist-carry-and-sheath-concept",
+  "publish_slug": "assassin-daggers-waist-sheaths-v1",
+  "actual_tool_candidate": "sheaths-v3-native",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-v3-native.png",
+    "sha256": "4f12bd48f5f5360d5d014520a8aaf2001aa3621095cbefe80df4e2ff19c55ed0"
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-request-v3.json",
+    "sha256": "bf2397bbc26666e720158d5d8373d0d034a0510eb8ecf062c4081da7110347ca"
+  },
+  "request_pointer": "/request",
+  "actual_tool_parameters": {
+    "prompt": "Use the image tool to revise the complete FIRST reference sheet. Keep its current character, framing, rear-waist clips, two exposed grips, right-side SHEATH detail panel and clean anime line art. Make one clear size correction to BOTH WAIST-MOUNTED SHEATHS in the LEFT panel.\n\nThe mounted sheath bodies are still too short. Keep both pommel tops at their current height (about y190 in this 1536x1024 composition), and keep the grips, guards and waist attachment points in place. Extend each dark sheath BODY along its existing shallow outward/downward direction. Its tip must visibly reach the height of the orange stocking's upper opening and the lower portion of the right thigh's UPPER device, around y715-730 in this same layout, instead of ending at the shorts hem around y638. Complete pommel-to-sheath-tip length should now read about545-560 pixels in this layout. These image landmarks guide this edit only; do not print numbers.\n\nKeep the SHEATH TIPS at the REAR-OUTER hips/thighs: the left sheath stays just outside the orange sock side; the right sheath passes OUTSIDE AND BEHIND the upper right thigh device, with a clearly visible white/skin gap from the device and from the relaxed right hand. Do not move, shrink, obscure or redesign the two thigh devices or leg bands. Maintain both rear pocket openings fully clear. Adjust the shells' slight outward tilt locally if needed, without moving the waist clips or changing the body.\n\nThe sheath encloses the accepted compact forward-swept dagger from reference2, preserving the charcoal faceted shell, subtle oxblood long side panel and small guard. Exactly ONE red grip collar per dagger remains between black wrap and guard. No red ring below the guard. The tiny orange mark remains on each dark pommel. No new hardware, extra hanging straps or second support frame.\n\nReferences3-4 only lock current clothes, hands, rear hooks, pockets and right thigh device placement. Preserve the right full-black glove with red cuff and left fingerless glove with orange wrist device. The character and existing equipment stay at their current size. Preserve the right isolated empty and filled sheath images at their current displayed size; those are enlarged design details, not same-scale views of the left panel.\n\nRe-render the entire sheet coherently as one clean finished concept illustration. Broad hard cel colors and fine hand-drawn outlines, no muddy texture, white speckles, cloud patina, gradients added to clothes, photographic finish or extra labels. Do not merely lengthen a thin needle from the tip: continue the full sheath's tapered faceted body smoothly down to the specified visible height.",
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-v2-native.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-v2-native.png",
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-side-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-tool-response-v3.json",
+    "sha256": "2e31c134a544bde5530415f631e72b10c2d8c864a4bebba50dae938d9cba54fd"
+  },
+  "native_output": {
+    "kind": "tool-response-data-url",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-tool-response-v3.json",
+      "sha256": "2e31c134a544bde5530415f631e72b10c2d8c864a4bebba50dae938d9cba54fd"
+    },
+    "pointer": "/image_url",
+    "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-92cd4c0f-6e45-4ca1-bff5-f503fb7beb2a.png",
+    "sha256": "4f12bd48f5f5360d5d014520a8aaf2001aa3621095cbefe80df4e2ff19c55ed0"
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-v2-native.png",
+      "sha256": "707761e0e040fc23e29e3a249624abe763b084d4d9d855bcec413c5795246546",
+      "order": 1,
+      "role": "V2 clean layout/clothing/one red collar and mounts; mounted shell length is not accepted and must reach stated visual landmarks",
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/daggers-v2-native.png",
+      "sha256": "13026cc2c00bec65a630f16a4b388ee92b8f1639618acb8e8926211a92a3a00e",
+      "order": 2,
+      "role": "Accepted dagger main-view appearance authority; approximate carrying relation, not copied EDGE dimensions",
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-back-v1.png",
+      "sha256": "ca44f883430cdb7927c2101a184e4f28b0df62c2a0e0a8e99bdfbbe68122b867",
+      "order": 3,
+      "role": "Current back clothing and anatomical side/equipment anchor authority",
+      "actually_viewed": true
+    },
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/goggles-v2-only-cel-side-v1.png",
+      "sha256": "1a854e463d1804b4a0b40e2e793e784ddaa71bb4eb75d331bcb645a586f3b19e",
+      "order": 4,
+      "role": "Current right thigh terminal/pouch placement and clearance authority",
+      "actually_viewed": true
+    }
+  ],
+  "reference_basis": "Actual sheaths-v2 supplies layout/cloth/mounts only, not its rejected mounted length. Accepted daggers-v2 main pair is appearance authority; current back/right-side outfit references constrain existing equipment. EDGE sizes are not transferred.",
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/review/sheaths-v3-qa.json",
+    "sha256": "1423e7989e282dedce90fd96b5ad47e7832841146183504bdeec5bd0ab08940e"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/review/sheaths-v3-qa.json",
+    "sha256": "1423e7989e282dedce90fd96b5ad47e7832841146183504bdeec5bd0ab08940e"
+  },
+  "review_status": "accepted-waist-carry-concept-with-local-scale-limits",
+  "method": "built-in image_gen.imagegen complete-image redraw; byte-exact PNG copy and lossless WebP only",
+  "nominal_design": {
+    "total_length_over_H0": 0.22,
+    "H0_definition": "Current body crown to barefoot floor, 1475 px on canonical front",
+    "figure_alignment_verified": false,
+    "local_scale_estimate_only": true
+  },
+  "limitations": [
+    "局部携行外观概念；名义全长.22H0保留为后续完整角色目标，不声称该图直接验证H0。",
+    "右鞘与上终端轮廓很近；实际活动、蹲坐、装卸和抽取路径尚未验证。",
+    "未验证刀鞘内部容纳结构、单手功能握长、载荷或制造尺寸。",
+    "不得用本图替代当前完整人物设定，局部未展示的头部/正面腰扣等不作本次检查通过声明。"
+  ],
+  "rough_visible_measurements": {
+    "method": "manual visible sheathed silhouette tip-to-pommel direct distance plus same local rear-jacket-hem to shorts-hem comparison used in v1/v2",
+    "left_endpoints_xy_approx": [
+      [
+        345,
+        189
+      ],
+      [
+        210,
+        708
+      ]
+    ],
+    "left_distance_px_rounded": 536,
+    "right_endpoints_xy_approx": [
+      [
+        699,
+        189
+      ],
+      [
+        826,
+        719
+      ]
+    ],
+    "right_distance_px_rounded": 545,
+    "endpoint_read_uncertainty_px_approx": 4,
+    "reference_local_vertical_span_px_approx": 300,
+    "candidate_local_vertical_span_px_approx": 520,
+    "local_scale_range_approx": [
+      1.65,
+      1.8
+    ],
+    "comparative_nominal_envelope_px_approx_range": [
+      535,
+      585
+    ],
+    "interpretation": "Only a rough local scale check. This envelope includes sheath tip, so it is not a direct measurement of naked blade length. Full-body H0 is absent and has not been measured. Do not convert these observations into physical dimensions."
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-assassin-daggers-20261026/sheaths-handoff-v3.json",
+    "sha256": "0791c47e1718f152fc7e9e0533c97d14a1d96d5a4f76e1a9dcc5a143248e69f0"
+  }
+}

@@ -1,0 +1,91 @@
+---
+layout: BunnyPage
+bunny: reference
+category: 尺寸
+title: 图面尺寸
+sidebar: false
+aside: false
+---
+# 图面尺寸 {.bunny-sr-only}
+<span id="v2-·-图面尺寸与比例"></span>
+<span id="人物与武器统一尺寸"></span>
+
+## 身体尺寸 {#body-dimensions}
+<span id="current-body-measurements"></span>
+
+资料为二维投影，不作为衣物成品尺寸或穿鞋后身体总高。
+
+::: info 图面比例与实际设定
+**H** 是可见发冠最高点至赤脚地面的图面高度；**h** 是可见发冠至下颏的头高，包含发量，不另估被头发遮住的颅顶。头身比为 H ÷ h。
+
+记录的是原图像素与占 H 的比例，**厘米身高未设定**。肩、腰、胯和胸部宽度是指定水平线上的可见投影，不是骨骼尺寸或胸腰臀围。正面衣物胸宽取基础文胸杯外缘的指定截面，不计外侧腋前肤线，也不是最大裸胸宽或杯码。图面躯干段与腿长的起止点见各项定义。
+:::
+
+选择视角查看同一张原图上的标尺与读数。表中的“—”表示遮挡或无法可靠取点，未用其他视角补值。近似取点的容差只表示线宽与选点范围，不代表统计精度。
+
+<BodyMeasurements :data="measurements" />
+
+[查看身体三视原图](/characters/bunny/body-base) · [下载三视标尺与测量数据](/characters/bunny/downloads#body-measurements)
+
+## 服装尺寸 {#garment-dimensions}
+
+白色内搭与红色短裤以第一层衣形固定尺寸。夹克采用**前长后短**：前襟略盖白衣，后中露出窄白边，侧摆连续斜切。先看设计值，再用下方标尺核对各图的实际偏差。
+
+<GarmentMeasurements :data="garments" />
+
+[下载服装规范 JSON 与标尺 SVG](/characters/bunny/downloads#garment-dimensions) · [白衣红裤原图](/characters/bunny/innerwear) · [夹克设计](/characters/bunny/jacket)
+
+## 武器尺寸 {#weapon-dimensions}
+<span id="assassin-daggers-dimensions"></span>
+
+**H0=1475 px**，对应正面身体图的可见发冠至赤脚地面（y=25→1500）；同图头高 **h0=225 px**。H0 是统一设计单位，不含护目镜和鞋底，厘米身高未设定。
+
+角色右侧墨黑匕首的总长为 **0.36H0**，角色左侧骨白匕首为 **0.42H0**。整长主要落在刀刃，握柄与柄尾分别控制，手部连接不随整长等比缩放。
+
+| 外观尺寸 | 角色右 · 墨黑 | 角色左 · 骨白 |
+| --- | --- | --- |
+| 整件总长（固定设计值） | 0.360H0 | 0.420H0 |
+| 刃部轴向段 | 约 0.239H0 | 约 0.301H0 |
+| 护手中央段 | 约 0.013H0 | 约 0.013H0 |
+| 红领段 | 约 0.007H0 | 约 0.007H0 |
+| 可见握柄段 | 约 0.064H0 | 约 0.065H0 |
+| 柄尾轴向段 | 约 0.037H0 | 约 0.034H0 |
+| 刀身最大正面截宽 | 约 0.075H0 | 约 0.055H0 |
+| 护手横向总宽 | 约 0.070H0 | 约 0.075H0 |
+| 握柄最大正面截宽 | 约 0.027H0 | 约 0.029H0 |
+| 刀身侧厚 / 握柄侧深 | 未测 | 未测 |
+
+细分比例来自[并列正面母版](/characters/bunny/weapon#design)。图面整长约为墨黑 789 px、骨白 916 px，黑白比约 0.861，与设计 6:7 相差约 0.5%。表内细分分别按每把固定总长换算，并记录原图像素与取点；这不是人物身高的重新测量。
+
+总长取刀尖至柄尾端点的直线距，各接缝向同一长轴投影。刀身与握柄宽度取垂直长轴的同一截面，护手横向总宽另计翼形外伸范围。“可见握柄段”描述图面分区，不等同于已验证的功能握长。
+
+端点估读约 ±2 px、接缝约 ±4 px；段长约 ±8 px、截宽约 ±3 px。正面母版没有窄侧视，侧厚与握柄侧深保持未测。外观尺寸以正面母版为准。
+
+后续母版、拆解与人物图按本表尺寸分别核对，实际源点、误差和遮挡状态记录在数据文件中，不用生成图片上的数字替代测量。
+
+[下载双匕首尺寸 JSON](/catalog/bunny/3.1.0/dagger-dimensions.json) · [人物持握与后腰交叉携行](/characters/bunny/weapon#carry)
+
+后腰固定结构研究板只说明局部可见连接。该板不替代本表母版读数，也未新增身体配准或侧厚测量。
+
+尺寸方向参考了[桑乐官方模型照片](https://tamashiiweb.com/item/14790/)中的武器投影与人物比例；0.36H0、0.42H0 是 Bunny 的原创设计选择，不是原作武器的真实尺寸。身体与服装的既定尺寸保持不变。
+
+### 携行背面图面核对 {#dagger-figure-observations}
+
+[携行背面原图](/media/bunny/3.1.0/assassin-daggers-waist-carry-cel-back-v2.png)使用本图读取的发冠、后发缘和膝部折线，与身体背面作统一缩放与平移对齐；鞋底和护目镜不作为身高端点。
+
+| 本图估读 | 角色右 · 墨黑 | 角色左 · 骨白 |
+| --- | --- | --- |
+| 刀尖至柄尾直线距 | 刀尖被手遮挡，不可测 | 约 618 px |
+| 占本图 H0 估计值 | 不可测 | 约 0.415 |
+| 固定设计整长 | 0.360H0 | 0.420H0 |
+
+本图 H0 代理约 1489 px，对齐残差约 6.1 px；发缘与膝部估读的敏感性范围约 1440–1539 px，不是统计置信区间。白刀读数仅作二维比例核对；墨黑可见部分的端点距不代表完整刀长，也不据此计算整件黑白比。身体、服装与母版尺寸保持不变。
+
+正面与角色右侧面未做独立 H0 配准，完整刀长与侧厚保持未测。三视有手绘位置差异：角色右侧面白刀尖比背面约高 37 px，柄尾高度残差约 27 px；不将这些差异解释为已验证的透视关系，也不以三视替代本页母版尺寸。
+
+<script setup>
+import BodyMeasurements from '../../.vitepress/theme/components/BodyMeasurements.vue'
+import measurements from '../../../catalog/bunny/3.1.0/body-measurements.json'
+import GarmentMeasurements from '../../.vitepress/theme/components/GarmentMeasurements.vue'
+import garments from '../../../catalog/bunny/3.1.0/garment-measurements.json'
+</script>

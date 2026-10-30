@@ -3,16 +3,27 @@
   "version": "1.1.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vitepress dev docs --host 127.0.0.1",
-    "build": "node tools/release-catalog.mjs && vitepress build docs",
+    "build": "node tools/release-catalog.mjs && node tools/build-body-measurements.mjs && node tools/build-garment-measurements.mjs && vitepress build docs",
     "preview": "vitepress preview docs --host 127.0.0.1",
     "test": "node --test && python3 -m unittest discover -s test -p '*_test.py'",
+    "check:site": "python3 tools/check-site.py",
     "check:release": "node tools/release-catalog.mjs --production && node tools/verify-release.mjs",
-    "deploy:dry-run": "wrangler deploy --dry-run --outdir .wrangler/dry-run"
+    "deploy:dry-run": "wrangler deploy --dry-run --outdir .wrangler/dry-run",
+    "check:local": "node tools/verify-release.mjs --local && node tools/build-body-measurements.mjs --check && node tools/build-garment-measurements.mjs --check"
   },
-  "dependencies": { "vue": "^3.5.13" },
-  "overrides": { "vite": "6.4.3" },
-  "devDependencies": { "vitepress": "1.6.4", "wrangler": "4.151.1" }
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "overrides": {
+    "vite": "6.4.3"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "wrangler": "4.151.1"
+  }
 }

@@ -1,0 +1,292 @@
+{
+  "/characters/bunny/application": [
+    "应用规范",
+    "身份与比例",
+    "左右侧装备",
+    "衣层与遮挡",
+    "武器与姿势用途",
+    "outfit-pose",
+    "出图核对"
+  ],
+  "/characters/bunny/assembled": [
+    "双匕首-·-持握与后腰交叉携行",
+    "已确认累计穿戴",
+    "dagger-dual-grip-poses",
+    "dagger-pose-a",
+    "dagger-pose-b",
+    "姿态参考与提炼",
+    "dagger-held-views",
+    "动态主视",
+    "右侧面",
+    "背面",
+    "姿态参考与提炼-1",
+    "dagger-waist-carry-views",
+    "正面",
+    "右侧面-1",
+    "背面-1",
+    "dagger-waist-carry-history",
+    "正面-1",
+    "右侧面-2",
+    "背面-2",
+    "armed-expressions",
+    "前方案资料",
+    "weapon-wearing",
+    "正面-2",
+    "右侧面-3",
+    "背面-3",
+    "武器收纳累计三视",
+    "此前头部装备累计衣层"
+  ],
+  "/characters/bunny/assembly": [
+    "衣层与部件阅读顺序",
+    "基准",
+    "资料阅读顺序",
+    "外套与腰带的图示边界",
+    "当前累计结果"
+  ],
+  "/characters/bunny/body-base": [
+    "v2-·-身体三视基准",
+    "gray-proportion-review",
+    "三张完整人物工作稿",
+    "basic-bra-comparison",
+    "v2-style-comparison",
+    "v2-local-comparison",
+    "before-fresh-body",
+    "sports-body-history",
+    "before-full-person-revision",
+    "before-front-band-refinement",
+    "before-head-revision",
+    "original-01-reference",
+    "原01人物尺寸板"
+  ],
+  "/characters/bunny/design-language": [
+    "历史章节入口"
+  ],
+  "/characters/bunny/dimensions": [
+    "人物与武器统一尺寸",
+    "v2-·-图面尺寸与比例",
+    "current-body-measurements",
+    "garment-dimensions",
+    "garment-comparison-metric",
+    "assassin-daggers-dimensions",
+    "dagger-figure-observations",
+    "dagger-figure-observations-history",
+    "small-twin-daggers-dimensions-history",
+    "identical-daggers-historical-measurements",
+    "obsidian-sword-dimensions",
+    "before-ear-hair-measurements",
+    "basic-bra-body-measurements",
+    "sports-body-measurements",
+    "original-01-dimensions",
+    "比例定义",
+    "人物高度定位",
+    "人物宽度",
+    "适用边界",
+    "人物尺寸基准",
+    "武器外形比例",
+    "武器外形尺寸基准"
+  ],
+  "/characters/bunny/downloads": [
+    "设计图与参考下载",
+    "_3-1-0-本地修订",
+    "native-body-views",
+    "body-measurements",
+    "garment-dimensions",
+    "基模对齐重绘前-·-人物与标尺",
+    "before-clean-cel-assets",
+    "before-ear-hair-assets",
+    "before-fresh-body",
+    "sports-body-history",
+    "人物与识别",
+    "layer1-assets",
+    "hosiery-assets",
+    "footwear-assets",
+    "hands-assets",
+    "thigh-assets",
+    "jacket-assets",
+    "harness-assets",
+    "此前吊带与固定点原件",
+    "headgear-assets",
+    "assassin-dagger-assets",
+    "此前小尺度异构双刀原件",
+    "此前同款双匕首原件",
+    "obsidian-sword-assets",
+    "staff-assets",
+    "既有表情参考"
+  ],
+  "/characters/bunny/expressions": [
+    "当前身份表情与变化",
+    "v2-·-16-格表情",
+    "历史表情参考"
+  ],
+  "/characters/bunny/face": [
+    "面部与身份",
+    "v2-·-中性头部样板",
+    "历史身份资料"
+  ],
+  "/characters/bunny/hands": [
+    "手部装备",
+    "hands-wearing",
+    "gloves-construction",
+    "cuff-opening"
+  ],
+  "/characters/bunny/harness": [
+    "裤腰皮带与挂点",
+    "harness-wearing",
+    "belt-wearing",
+    "承载带穿戴",
+    "正面",
+    "右侧面",
+    "背面",
+    "belt-components",
+    "harness-before-belt-wearing",
+    "正面-1",
+    "右侧面-1",
+    "背面-1",
+    "harness-layering",
+    "harness-components",
+    "harness-buckle-details",
+    "harness-waist-anchors",
+    "此前外穿方案",
+    "此前承载带资料"
+  ],
+  "/characters/bunny/head-expressions": [
+    "历史章节入口"
+  ],
+  "/characters/bunny/headgear": [
+    "头部装备",
+    "headgear-wearing",
+    "正面",
+    "右侧面",
+    "背面",
+    "headgear-before-belt-wearing",
+    "正面-1",
+    "右侧面-1",
+    "背面-1",
+    "headgear-closeup",
+    "headgear-goggles",
+    "此前头部装备资料",
+    "头部装备累计衣层",
+    "头部装备穿戴",
+    "护目镜独立结构",
+    "耳机独立结构",
+    "兔耳配饰结构"
+  ],
+  "/characters/bunny/hosiery": [
+    "袜装",
+    "hosiery-wearing",
+    "袜装穿着三视",
+    "hosiery-construction",
+    "袜装针织细节"
+  ],
+  "/characters/bunny/": [
+    "bunny-·-轻巧轮廓与分层装备",
+    "身体工作稿",
+    "本轮补充",
+    "原始手稿",
+    "设计规范",
+    "成品",
+    "当前累计衣层",
+    "当前累计穿戴",
+    "outfit-pose",
+    "原稿同姿势角色卡"
+  ],
+  "/characters/bunny/innerwear": [
+    "贴身衣层",
+    "layer1-wearing",
+    "白色上衣结构",
+    "红色短裤结构",
+    "before-v2-innerwear"
+  ],
+  "/characters/bunny/jacket": [
+    "橙色外套",
+    "外套穿着三视",
+    "jacket-wearing",
+    "jacket-construction",
+    "jacket-details"
+  ],
+  "/characters/bunny/knee-guard": [
+    "历史章节入口"
+  ],
+  "/characters/bunny/legs": [
+    "历史章节入口"
+  ],
+  "/characters/bunny/overview": [
+    "历史章节入口"
+  ],
+  "/characters/bunny/saw": [
+    "此前锯外观与收纳-历史参考",
+    "武器设计状态",
+    "武器外形规范",
+    "武器外形尺寸基准",
+    "武器外观分件",
+    "武器收纳图解",
+    "与当时衣层的关系",
+    "图内比例的适用口径",
+    "历史资料"
+  ],
+  "/characters/bunny/shoes": [
+    "鞋靴",
+    "footwear-wearing",
+    "footwear-construction",
+    "鞋带收尾与收纳"
+  ],
+  "/characters/bunny/systems": [
+    "历史章节入口"
+  ],
+  "/characters/bunny/thigh-gear": [
+    "腿部盒袋与任务终端",
+    "thigh-wearing",
+    "terminal-construction",
+    "pouch-construction",
+    "腿带屈髋与抬腿关系"
+  ],
+  "/characters/bunny/upper-layers": [
+    "历史章节入口"
+  ],
+  "/characters/bunny/usage": [
+    "历史章节入口"
+  ],
+  "/characters/bunny/visual-language": [
+    "配色与-2d-手绘语言",
+    "本轮身体三视图的画风标准",
+    "完整三视的绘制方式",
+    "配色分工",
+    "线条与形体",
+    "阴影与高光",
+    "材质区分",
+    "跨页复核"
+  ],
+  "/characters/bunny/weapon-history": [
+    "旧锯尺寸-历史参考"
+  ],
+  "/characters/bunny/weapon": [
+    "刺客双匕首",
+    "assassin-daggers-concept",
+    "dagger-components",
+    "墨黑匕首",
+    "骨白匕首",
+    "dagger-carry",
+    "dagger-waist-mount-structure",
+    "dagger-waist-mount-history",
+    "dagger-references",
+    "twin-daggers-small-history",
+    "dagger-carry-small-history",
+    "assassin-daggers-identical-history",
+    "dagger-carry-before-belt-only",
+    "obsidian-sword-concept",
+    "加厚正侧与断口细节",
+    "双手棍",
+    "staff-exterior",
+    "staff-held",
+    "staff-proportion",
+    "staff-carrying",
+    "历史武器资料"
+  ],
+  "/": [],
+  "/standards/": [
+    "通用规范",
+    "当前状态",
+    "角色档案"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "role": "jacket-back",
+  "publish_slug": "jacket-v2-highlow-base-aligned-cel-back-v1",
+  "source_head": "6f0bfd4af1f6bbf03cc945c6cd615744880787c2",
+  "status": "visual-accepted-awaiting-current-set-and-measurement-binding",
+  "source": {
+    "kind": "revised-reference",
+    "page": "/characters/bunny/jacket",
+    "based_on": "/media/bunny/3.1.0/jacket-v2-highlow-cel-back-v1.png",
+    "baseline_sha256": "bb829e8a0e5035ae61d1be6426aa272204df3338076eace1833c58e1756a3fe2",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-back-reset-v1.png",
+    "source_artifact_sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+    "review_status": "accepted-visual-with-measurement-binding-pending",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-back-reset-v1-request.json",
+      "sha256": "e1ebd280465c7497596ad66dbfb4fd8edc8f812c6a8d15d7b5a675397024193d"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Freshly draw one NEW COMPLETE full-body straight BACK, both shoulder blades facing viewer adult woman, from fullhair to shoesoles, white portrait1024x1536. Entire figure freshly hand-drawn Japanese lineart+HARD CEL color, no headpasting/collage/retouch/filter.\nImage1 is SAME-VIEW complete CURRENT BODY BASE: sole HEAD/identity/bodyproportions/painting authority. Keep exact same rear hair silhouette, broad lower/nape COOL GRAY/lavender CEL shadow masses, clean dark navy outer contour. Keep the broad gray planes whole instead of splitting into extra white shards or short shiny lines. Quiet peach nape skin, no exaggerated orange/red shadows. Preserve legitimate whitehair planes/hardshadows and slight intentional baseline transitions. No cloudypatches/mosaic/whiteflecks or waxygloss.\nImage2 is SAME-SIZE original-frame CURRENT CLOTHED BODY with head intentionally omitted on whitecanvas. It supplies only current clothing/gear/bodyposition. Blanktop is reference omission, do not shrink/recenter the croppedbody. Use matching complete frames to preserve bodyratio/pose and clothe the Image1 person exactly as2. No legshortening, waistlengthening, hipwidening or new anatomy.\nWhite sleeveless high-neck crop top and red rolled-cuff shorts retain exactly current geometry/size/bodylocation. White shirt HPS-to-middlehem approximately0.91headunit, with narrow lowerband; no shortened shirt or thicker band. Back has only plain center seam and restrained garment edge shadows, no front chest opening/clavicle/bust marks. Redshorts proper round rear hip shape, two back patch pockets and rear yoke/centerseam, original waist/rise/rolledcuffs.\nKeep all gloves/wrist/thigh gear: RIGHT fullblackglove/RED wrist; LEFT orangefingerless/ORANGE wrist; rightthigh2straps with terminal+pouch, only visible outside edges in this back view. Orange cropped HIGHLOW jacket short atback, frontlong. Back middle hem gently shallowcurved with narrow white undershirt reveal (about.06head, within.03-.09head), not deep high arch, no tails. Fine diagonalrib ordinaryblackcollar and fineverticalrib cuffs. Plainright sleeve, ONE functional pocket on LEFT upperarm (imageLEFT in back); small connected officialwhitemark on pocketBODY below plainflap, ampleorange margin and about60–65% usablewidth, preserve exactshape. No rear logo or extra badges.\nLeft leg orange thigh-high sock(imageLEFT in back), right leg short WHITE sock(imageRIGHT in back), same foldedtop/lengths. Orange hardknee shadows, white shaft flatwhite with few hardedge shadows and no soft longitudinal streaks. Fine paleblue ribs only at whitefoldedband. Same redwhiteblack sneakers with existing heel/sole/OUTSIDE anklehardware; do not mirror or duplicate outerhardware to innersides.\nEvery visible part/side/overlap remains physically coherent. Back anatomy stays back, no navel orfrontcleavage. Clean localcolor planes, restrained dark lines and CLOSED HARD shadows; intentional knit/seam detail retained. No painterlygradients/oily3D/gloss, cloudy texture or whitehair filament fragmentation. No text/rulers/watermark.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-back-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/jacket-back-current-body-native-frame.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-a8ef5c19-6f6c-477d-8767-d9df97be2f47.png",
+      "sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-back-v1.png",
+        "sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/jacket-back-current-body-native-frame.png",
+        "sha256": "0ad5b638c658ef5e1b2aba814df8d0d1132cda067f949cd06460ee67bcaceeb5",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      }
+    ],
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/review/jacket-back-reset-v1-independent-review.json",
+      "sha256": "bcd00f0a637fba9bf1c34f9fcd8f2014e11e0c7bbbc76b16640d021d8d82e3f1"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/jacket-back-reset-v1-node.json",
+      "sha256": "c1c773642d12a8c2c16a952fed3a1a92819f233e2333b500f0cc8888290efb62"
+    }
+  },
+  "original": {
+    "path": "/media/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.png",
+    "sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+    "width": 1024,
+    "height": 1536
+  },
+  "web": {
+    "path": "/characters/bunny/3.1.0/jacket-v2-highlow-base-aligned-cel-back-v1.webp",
+    "sha256": "46b259d810bb66f8596dab601fb618d2b83fc5872280ba6746d108eef7cd49d9",
+    "encoding": "lossless decoded RGBA equal to native"
+  },
+  "scope": "Complete new imagegen output; immutable per-image generation and visual review record. This record does not establish a current-page or numerical measurement acceptance."
+}

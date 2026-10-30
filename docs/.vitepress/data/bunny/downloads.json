@@ -1,0 +1,472 @@
+{
+  "home": [
+    {
+      "id": "dl-scene-lineart",
+      "group": "场景与线稿",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "sun05-scene-final-v1",
+          "label": "场景定稿"
+        },
+        {
+          "asset": "structure20-lineart-v1",
+          "label": "STRUCTURE20 线稿"
+        },
+        {
+          "asset": "sun05-pose-structure-v1",
+          "label": "SUN-05 人体结构稿，手中为占位杆"
+        }
+      ]
+    },
+    {
+      "id": "dl-full-figure",
+      "group": "完整人物三视",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "assassin-daggers-waist-carry-cel-front-v3",
+          "label": "正面"
+        },
+        {
+          "asset": "assassin-daggers-waist-carry-cel-side-v2",
+          "label": "角色右侧面"
+        },
+        {
+          "asset": "assassin-daggers-waist-carry-cel-back-v2",
+          "label": "背面"
+        }
+      ]
+    },
+    {
+      "id": "dl-body-head",
+      "group": "身体与头部",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "body-v2-fresh-cel-front-v2",
+          "label": "身体正面"
+        },
+        {
+          "asset": "body-v2-fresh-cel-side-v1",
+          "label": "身体角色右侧面"
+        },
+        {
+          "asset": "body-v2-fresh-cel-back-v1",
+          "label": "身体背面"
+        },
+        {
+          "asset": "head-v2-cel-reference-v3",
+          "label": "头部三视"
+        },
+        {
+          "asset": "expressions-v2-cel-v2",
+          "label": "表情表"
+        }
+      ]
+    },
+    {
+      "id": "dl-layers-front",
+      "group": "衣层逐层正面",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "innerwear-v2-fresh-cel-front-v3",
+          "label": "1 上衣与短裤"
+        },
+        {
+          "asset": "hosiery-v2-fresh-cel-front-v3",
+          "label": "2 袜装"
+        },
+        {
+          "asset": "footwear-v2-base-aligned-cel-front-v1",
+          "label": "3 鞋靴"
+        },
+        {
+          "asset": "hands-v2-base-aligned-cel-front-v1",
+          "label": "4 手部"
+        },
+        {
+          "asset": "thigh-v2-base-aligned-cel-front-v1",
+          "label": "5 腿带"
+        },
+        {
+          "asset": "jacket-v2-highlow-base-aligned-cel-front-v1",
+          "label": "6 橙色夹克"
+        },
+        {
+          "asset": "belt-v2-only-cel-front-v1",
+          "label": "7 裤腰皮带"
+        },
+        {
+          "asset": "goggles-v2-belt-only-cel-front-v2",
+          "label": "8 护目镜"
+        }
+      ]
+    },
+    {
+      "id": "dl-parts",
+      "group": "部件结构",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "hands-v2-layer4-gloves-construction-v1",
+          "label": "手套结构"
+        },
+        {
+          "asset": "jacket-v2-highlow-construction-v1",
+          "label": "夹克分件结构"
+        },
+        {
+          "asset": "jacket-v2-highlow-details-v1",
+          "label": "夹克细节"
+        }
+      ]
+    },
+    {
+      "id": "dl-weapon",
+      "group": "武器",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "assassin-daggers-scale-master-v1",
+          "label": "比例总图"
+        },
+        {
+          "asset": "assassin-daggers-dark-exterior-components-v1",
+          "label": "墨黑獠牙刃部件"
+        },
+        {
+          "asset": "assassin-daggers-ivory-exterior-components-v1",
+          "label": "骨白弯刃部件"
+        },
+        {
+          "asset": "assassin-daggers-waist-mount-structure-v2",
+          "label": "后腰挂载结构"
+        }
+      ]
+    }
+  ],
+  "page": [
+    {
+      "id": "dl-scene-lineart",
+      "group": "场景与线稿",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "sun05-scene-final-v1",
+          "label": "场景定稿"
+        },
+        {
+          "asset": "structure20-lineart-v1",
+          "label": "STRUCTURE20 线稿"
+        },
+        {
+          "asset": "sun05-pose-structure-v1",
+          "label": "SUN-05 人体结构稿，手中为占位杆"
+        }
+      ]
+    },
+    {
+      "id": "dl-full-figure",
+      "group": "完整人物三视",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "assassin-daggers-waist-carry-cel-front-v3",
+          "label": "正面"
+        },
+        {
+          "asset": "assassin-daggers-waist-carry-cel-side-v2",
+          "label": "角色右侧面"
+        },
+        {
+          "asset": "assassin-daggers-waist-carry-cel-back-v2",
+          "label": "背面"
+        }
+      ]
+    },
+    {
+      "id": "dl-body-head",
+      "group": "身体与头部",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "body-v2-fresh-cel-front-v2",
+          "label": "身体正面"
+        },
+        {
+          "asset": "body-v2-fresh-cel-side-v1",
+          "label": "身体角色右侧面"
+        },
+        {
+          "asset": "body-v2-fresh-cel-back-v1",
+          "label": "身体背面"
+        },
+        {
+          "asset": "head-v2-cel-reference-v3",
+          "label": "头部三视"
+        },
+        {
+          "asset": "expressions-v2-cel-v2",
+          "label": "表情表"
+        }
+      ]
+    },
+    {
+      "id": "dl-layer-views",
+      "group": "衣层穿着三视",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "innerwear-v2-fresh-cel-front-v3",
+          "label": "1 上衣与短裤 · 正面"
+        },
+        {
+          "asset": "innerwear-v2-fresh-cel-side-v1",
+          "label": "1 上衣与短裤 · 角色右侧面"
+        },
+        {
+          "asset": "innerwear-v2-fresh-cel-back-v3",
+          "label": "1 上衣与短裤 · 背面"
+        },
+        {
+          "asset": "hosiery-v2-fresh-cel-front-v3",
+          "label": "2 袜装 · 正面"
+        },
+        {
+          "asset": "hosiery-v2-fresh-cel-side-v1",
+          "label": "2 袜装 · 角色右侧面"
+        },
+        {
+          "asset": "hosiery-v2-base-aligned-cel-back-v1",
+          "label": "2 袜装 · 背面"
+        },
+        {
+          "asset": "footwear-v2-base-aligned-cel-front-v1",
+          "label": "3 鞋靴 · 正面"
+        },
+        {
+          "asset": "footwear-v2-base-aligned-cel-side-v1",
+          "label": "3 鞋靴 · 角色右侧面"
+        },
+        {
+          "asset": "footwear-v2-base-aligned-cel-back-v1",
+          "label": "3 鞋靴 · 背面"
+        },
+        {
+          "asset": "hands-v2-base-aligned-cel-front-v1",
+          "label": "4 手部 · 正面"
+        },
+        {
+          "asset": "hands-v2-base-aligned-cel-side-v1",
+          "label": "4 手部 · 角色右侧面"
+        },
+        {
+          "asset": "hands-v2-base-aligned-cel-back-v1",
+          "label": "4 手部 · 背面"
+        },
+        {
+          "asset": "thigh-v2-base-aligned-cel-front-v1",
+          "label": "5 腿带 · 正面"
+        },
+        {
+          "asset": "thigh-v2-base-aligned-cel-side-v1",
+          "label": "5 腿带 · 角色右侧面"
+        },
+        {
+          "asset": "thigh-v2-base-aligned-cel-back-v1",
+          "label": "5 腿带 · 背面"
+        },
+        {
+          "asset": "jacket-v2-highlow-base-aligned-cel-front-v1",
+          "label": "6 橙色夹克 · 正面"
+        },
+        {
+          "asset": "jacket-v2-highlow-base-aligned-cel-side-v1",
+          "label": "6 橙色夹克 · 角色右侧面"
+        },
+        {
+          "asset": "jacket-v2-highlow-base-aligned-cel-back-v1",
+          "label": "6 橙色夹克 · 背面"
+        },
+        {
+          "asset": "belt-v2-only-cel-front-v1",
+          "label": "7 裤腰皮带 · 正面"
+        },
+        {
+          "asset": "belt-v2-only-cel-side-v1",
+          "label": "7 裤腰皮带 · 角色右侧面"
+        },
+        {
+          "asset": "belt-v2-only-cel-back-v1",
+          "label": "7 裤腰皮带 · 背面"
+        },
+        {
+          "asset": "goggles-v2-belt-only-cel-front-v2",
+          "label": "8 护目镜 · 正面"
+        },
+        {
+          "asset": "goggles-v2-belt-only-cel-side-v1",
+          "label": "8 护目镜 · 角色右侧面"
+        },
+        {
+          "asset": "goggles-v2-belt-only-cel-back-v1",
+          "label": "8 护目镜 · 背面"
+        }
+      ]
+    },
+    {
+      "id": "dl-parts-details",
+      "group": "部件结构与细节",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "white-top-v2-layer1-construction-v1",
+          "label": "白色上衣分件结构"
+        },
+        {
+          "asset": "red-shorts-v2-layer1-construction-v2",
+          "label": "红色短裤分件结构"
+        },
+        {
+          "asset": "hosiery-v2-layer2-construction-v2",
+          "label": "袜装结构与针织细节"
+        },
+        {
+          "asset": "footwear-v2-layer3-construction-v2",
+          "label": "鞋靴分件结构与鞋带收纳"
+        },
+        {
+          "asset": "hands-v2-layer4-gloves-construction-v1",
+          "label": "手套结构"
+        },
+        {
+          "asset": "hands-v2-layer4-wrist-construction-v1",
+          "label": "腕护环与腕部设备部件"
+        },
+        {
+          "asset": "thigh-v2-layer5-terminal-straps-construction-v1",
+          "label": "任务终端与腿带部件"
+        },
+        {
+          "asset": "thigh-v2-layer5-pouch-contents-construction-v1",
+          "label": "维护包与内容物"
+        },
+        {
+          "asset": "jacket-v2-highlow-construction-v1",
+          "label": "夹克分件结构"
+        },
+        {
+          "asset": "jacket-v2-highlow-details-v1",
+          "label": "夹克细节"
+        },
+        {
+          "asset": "belt-v2-only-components-v1",
+          "label": "裤腰皮带部件与挂点"
+        },
+        {
+          "asset": "goggles-v2-only-components-v1",
+          "label": "护目镜分件结构"
+        },
+        {
+          "asset": "goggles-v2-only-wearing-closeup-v2",
+          "label": "护目镜佩戴位置近景"
+        }
+      ]
+    },
+    {
+      "id": "dl-weapon",
+      "group": "武器",
+      "anchors": [],
+      "items": [
+        {
+          "asset": "assassin-daggers-scale-master-v1",
+          "label": "比例总图"
+        },
+        {
+          "asset": "assassin-daggers-dark-exterior-components-v1",
+          "label": "墨黑獠牙刃部件"
+        },
+        {
+          "asset": "assassin-daggers-ivory-exterior-components-v1",
+          "label": "骨白弯刃部件"
+        },
+        {
+          "asset": "assassin-daggers-waist-mount-structure-v2",
+          "label": "后腰挂载结构"
+        },
+        {
+          "asset": "assassin-daggers-armed-expressions-v1",
+          "label": "持刀表情三格"
+        }
+      ]
+    },
+    {
+      "id": "dl-measurement-data",
+      "group": "尺寸数据",
+      "anchors": [
+        "body-measurements",
+        "garment-dimensions"
+      ],
+      "items": [
+        {
+          "file": "/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-front-v2.svg",
+          "label": "身体标尺 · 正面 SVG"
+        },
+        {
+          "file": "/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-side-v1.svg",
+          "label": "身体标尺 · 角色右侧面 SVG"
+        },
+        {
+          "file": "/characters/bunny/3.1.0/body-v2-fresh-cel-measurements-back-v1.svg",
+          "label": "身体标尺 · 背面 SVG"
+        },
+        {
+          "file": "/catalog/bunny/3.1.0/body-measurements.json",
+          "label": "身体测量 JSON"
+        },
+        {
+          "file": "/characters/bunny/3.1.0/garment-measurements-innerwear-front.svg",
+          "label": "上衣与短裤标尺 · 正面 SVG"
+        },
+        {
+          "file": "/characters/bunny/3.1.0/garment-measurements-innerwear-side.svg",
+          "label": "上衣与短裤标尺 · 角色右侧面 SVG"
+        },
+        {
+          "file": "/characters/bunny/3.1.0/garment-measurements-innerwear-back.svg",
+          "label": "上衣与短裤标尺 · 背面 SVG"
+        },
+        {
+          "file": "/characters/bunny/3.1.0/garment-measurements-jacket-highlow-base-aligned-front.svg",
+          "label": "橙色夹克标尺 · 正面 SVG"
+        },
+        {
+          "file": "/characters/bunny/3.1.0/garment-measurements-jacket-highlow-base-aligned-side.svg",
+          "label": "橙色夹克标尺 · 角色右侧面 SVG"
+        },
+        {
+          "file": "/characters/bunny/3.1.0/garment-measurements-jacket-highlow-base-aligned-back.svg",
+          "label": "橙色夹克标尺 · 背面 SVG"
+        },
+        {
+          "file": "/catalog/bunny/3.1.0/garment-measurements.json",
+          "label": "服装尺寸 JSON"
+        },
+        {
+          "file": "/catalog/bunny/3.1.0/dagger-dimensions.json",
+          "label": "双匕首尺寸 JSON"
+        },
+        {
+          "file": "/catalog/bunny/3.1.0/manifest.json",
+          "label": "角色图像清单 JSON"
+        },
+        {
+          "file": "/catalog/origins/1.0.0/manifest.json",
+          "label": "原稿清单 JSON"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "role": "dark-dagger-independent-exterior-components",
+  "publish_slug": "assassin-daggers-dark-exterior-components-v1",
+  "actual_tool_candidate": "parts-dark-color-v1",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-native.png",
+    "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999"
+  },
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-request.json",
+    "sha256": "8af14ddad6f24b8b1659cc2619710bfcfc0c66ddbafe6fc2affe7c346c900a9f"
+  },
+  "request_pointer": "/",
+  "actual_tool_parameters": {
+    "prompt": "Create a complete clean CEL-COLORED version of the supplied five-piece DARK fictional dagger exterior-parts LINE ART.\n\nInput1 is the LOCKED geometry and layout authority. Preserve every exterior silhouette and the five white-separated pieces exactly. In particular the isolated GRIP ends in a narrow simple flat closure, with NO bottom cap/skirt/flange; retain that corrected short outline exactly. The blade has NO attached guard. The standalone guard, red collar, grip and complete pointed pommel each appear once only. Do not reconnect objects or add forms while coloring.\n\nInput2 provides COLORS and broad cel-shading style ONLY, not layout or assembled geometry. Color the matching exterior planes:\n- Blade charcoal near-black central planes, pale gray edge plane, small red recessed-looking accent in the existing left lower root panel.\n- Angular guard black with restrained gray facet planes.\n- Separate collar red with dark-red shaded lower side.\n- Grip black/charcoal alternating exterior facet/wrap planes; no new endcap.\n- Pointed polygonal pommel black/gray, with its rectangular inset ORANGE.\nColor only the existing five silhouettes. Keep all white spaces between components. No ivory object. No added component or internal hardware.\n\nRetain confident handdrawn black outlines and simple continuous color areas with limited crisp cel highlights like the reference. No cloudy stains, white speckles or noisy surface texture. White background, same complete landscape canvas and positions. Heading DARK in dark-blue simple sans lettering. This is a fictional character-art exterior component catalog, with pieces locally enlarged for viewing; it is not a manufacturing or scale drawing. Entire coherent new tool illustration, not pasted local pixels.",
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-native.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-output.json",
+    "sha256": "0564dbb129552731ea773d3fbbd56dc5bd081a52b55c1119dbfea51d78dcc5e9"
+  },
+  "native_output": {
+    "kind": "native-tool-file",
+    "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-841e1250-97f9-485b-8cc5-2f5be16d5674.png",
+    "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-output.json",
+      "sha256": "0564dbb129552731ea773d3fbbd56dc5bd081a52b55c1119dbfea51d78dcc5e9"
+    },
+    "record_note": "Actual output metadata preserves native_tool and source hash; native PNG remains byte-exact."
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-native.png",
+      "sha256": "2eb2a4c5b2a9d69e2092e3dac00744356d56772663b2154f7b1ef78f5dfc9f4b",
+      "role": "Corrected linev2 is sole geometry/layout; whole+native grip actually reviewed"
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+      "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+      "role": "Master color/cel only; no assembled geometry imported"
+    }
+  ],
+  "reference_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-references.json",
+    "sha256": "dc6d5e4f8178d98f55ff210e7a74720648c32c59ebbff9c7fcdd48e1dc48c695"
+  },
+  "reference_basis": "Actual ordered final inputs: accepted corrected line-v2 controls the five separated exterior shapes and layout; the complete master supplies color and cel style only. Earlier rejected layout/lineart and final geometry stages are preserved with limited roles in production_chain; only final color is published.",
+  "production_chain": [
+    {
+      "candidate": "parts-dark-v2",
+      "role": "Rejected grip-cap candidate; five-island layout reference only",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-v2-native.png",
+        "sha256": "53f5f4bf573f9653f4a98edbcf186077c0a467e8307c273dd944024aab8b3557"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-17d31a64-dfba-4637-81ba-f0d3c42a0929.png",
+        "sha256": "53f5f4bf573f9653f4a98edbcf186077c0a467e8307c273dd944024aab8b3557"
+      },
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-v2-request.json",
+          "sha256": "d554ba90be9a7c7a5b611ca6bb1252a71805d5f7d03576cf59182d2dd8300262"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-v2-references.json",
+          "sha256": "bfa4cf52becfa2dd43cd500d519164f1c003d8341f3da0b0173a82e4ead931e5"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-v2-output.json",
+          "sha256": "8cc1138fbeeff15f821ef5f20024ce6c78a3c87467d06daba3a53a594a1cdeba"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-v2-self-review.json",
+          "sha256": "21087a586e6e681a3edc3b7d5caa2d38402af16a05f86877c3dc4736a3886f92"
+        }
+      },
+      "include_in_current_package": false
+    },
+    {
+      "candidate": "parts-dark-line-v1",
+      "role": "Five separated objects established; rejected terminal skirt",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v1-native.png",
+        "sha256": "027f7559c4aa2a08585d72417f40e8dfdd84d3c2ac5e648a8c49f8b4eb9f8883"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-db27bac3-8158-4350-ae1b-b1958844ba18.png",
+        "sha256": "027f7559c4aa2a08585d72417f40e8dfdd84d3c2ac5e648a8c49f8b4eb9f8883"
+      },
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v1-request.json",
+          "sha256": "3100a90c51cff12dac3b1a21810379682fde78bcb9cbe36358c0ef5b5af582a3"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v1-references.json",
+          "sha256": "a53017548235a2d9c854ebfc8f9f95f321db4dcfe94c9a6341d7808bf61ecc56"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v1-output.json",
+          "sha256": "b96fd7e2cdc3116134429985913cba8f7e7a1b7fd7efabe61c9788e65cc6f11e"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v1-self-review.json",
+          "sha256": "f1f8b99682491d68be15a0207ba86d3f78154affc8249f7aea0434d4e4a4233a"
+        }
+      },
+      "include_in_current_package": false
+    },
+    {
+      "candidate": "parts-dark-line-v2",
+      "role": "Corrected narrow grip end; ROOT accepted geometry for color",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-native.png",
+        "sha256": "2eb2a4c5b2a9d69e2092e3dac00744356d56772663b2154f7b1ef78f5dfc9f4b"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-99ca2237-0135-4311-b2d9-283f4dda0bce.png",
+        "sha256": "2eb2a4c5b2a9d69e2092e3dac00744356d56772663b2154f7b1ef78f5dfc9f4b"
+      },
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-request.json",
+          "sha256": "0d76aa0d692932efcce051e84de99318bf1f2fcadecb260454fe7cd9d385c061"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-references.json",
+          "sha256": "0ed8a6d3503fbf0f7f815fe81a48798215a36b74d155878b46662f00ddfd24fa"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-output.json",
+          "sha256": "bf33f90e0eb036d21669609b536f0fea0425342b4494406875cd627598100cd9"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-self-review.json",
+          "sha256": "1a857b288664681e00bb5a6a0dc027b35125f64c96fd683d5f2b4b3d00c17972"
+        },
+        "root-acceptance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-line-v2-root-acceptance.json",
+          "sha256": "6186bf0a7b3503336e56a1d54e564f63f80bb1f9de71d3b53f39b2f9f8eef6e0"
+        }
+      },
+      "include_in_current_package": false
+    },
+    {
+      "candidate": "parts-dark-color-v1",
+      "role": "Final ROOT accepted color illustration",
+      "source": {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-native.png",
+        "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999"
+      },
+      "native_tool": {
+        "path": "/Users/roy/.codex/generated_images/01a1763e-0734-7d21-b30e-9bb781b4ac6e/exec-841e1250-97f9-485b-8cc5-2f5be16d5674.png",
+        "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999"
+      },
+      "files": {
+        "request": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-request.json",
+          "sha256": "8af14ddad6f24b8b1659cc2619710bfcfc0c66ddbafe6fc2affe7c346c900a9f"
+        },
+        "references": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-references.json",
+          "sha256": "dc6d5e4f8178d98f55ff210e7a74720648c32c59ebbff9c7fcdd48e1dc48c695"
+        },
+        "output": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-output.json",
+          "sha256": "0564dbb129552731ea773d3fbbd56dc5bd081a52b55c1119dbfea51d78dcc5e9"
+        },
+        "self-review": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-self-review.json",
+          "sha256": "291f5131e057ed72c46a180f07444a03eeebdc2c677ce5d9bfbc76efdc8e7bb1"
+        },
+        "root-acceptance": {
+          "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-root-acceptance.json",
+          "sha256": "22816784c6408db490c8bd695b3eb486a1e8acef1ddc691b78b414d57bb6748a"
+        }
+      },
+      "include_in_current_package": true
+    }
+  ],
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-root-acceptance.json",
+    "sha256": "22816784c6408db490c8bd695b3eb486a1e8acef1ddc691b78b414d57bb6748a"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-root-acceptance.json",
+    "sha256": "22816784c6408db490c8bd695b3eb486a1e8acef1ddc691b78b414d57bb6748a"
+  },
+  "self_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-self-review.json",
+    "sha256": "291f5131e057ed72c46a180f07444a03eeebdc2c677ce5d9bfbc76efdc8e7bb1"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/exterior-parts/parts-dark-color-v1-handoff.json",
+    "sha256": "46842a9257ca8d25a4c92cc7753203db20171e16066e09224e50f2ad1cbf5cfe"
+  },
+  "review_status": "accepted-independent-exterior-components",
+  "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+  "limitations": [
+    "Independently enlarged exterior pieces; not a common-scale dimensional reconstruction",
+    "Master nominal .360H0 and established segment observations unchanged",
+    "Exterior artwork only; no hidden construction or manufacturing validation"
+  ],
+  "dimension_authority": {
+    "source": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/weapon-spec/dagger-master-v4-front-native.png",
+      "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f"
+    },
+    "repository_spec": "catalog/bunny/3.1.0/dagger-dimensions.json",
+    "parts_uniform_scale_claimed": false,
+    "new_dimension_measurements": null
+  }
+}

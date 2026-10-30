@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "role": "paired-dagger-held-dynamic-right-side-view",
+  "publish_slug": "assassin-daggers-held-cel-side-v1",
+  "actual_tool_candidate": "held-side-v5-color",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-native.png",
+    "sha256": "8a69ae3b2acb6a235325fe7c69728b19632c3f6b2d17a10a81be833671cc445c"
+  },
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-request.json",
+    "sha256": "c3e9c26d177fd7a0c057ea46c239a45c015ca211cae67252edacb8a27cf9d544"
+  },
+  "request_pointer": "/request",
+  "actual_tool_parameters": {
+    "prompt": "Redraw this complete anime character image, preserving its accepted right-side camera, full-body pose, body proportions, face, clothing, both fictional dagger shapes and orientations, hands and equipment.\n\nMake ONE correction: on the raised RIGHT hand holding the DARK dagger, the small peach-colored thumb beside the blade guard must be completely covered by BLACK glove fabric, continuous with the black glove on all other fingers. No exposed skin or fingernail anywhere on this right hand. Preserve the thumb's gripping shape and position. The RIGHT wrist cuff stays RED. The lowered LEFT hand stays fingerless with skin fingertips, and its wrist terminal stays ORANGE.\n\nKeep everything else visually unchanged in the complete fresh tool drawing, including the side-view limb overlap, no extra equipment, clean anime linework and cel colors. Uniformly scale the ENTIRE scene about 5% smaller inside the same white page, centered with clear margins on all sides and especially above the knife tip; do not shorten the dagger or deform any part. No text, no new panels.",
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v4-color-native.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-tool-response.json",
+    "sha256": "f770096091b862034ae1485b3633f2341a357284d6df45ff8ccb3b895e1a1e86"
+  },
+  "native_output": {
+    "kind": "native-tool-file",
+    "path": "/Users/roy/.codex/generated_images/01a1767b-eaa9-7d82-8854-8350597120de/exec-3ce78841-d381-49a2-a8a6-eacbe1bf18ae.png",
+    "sha256": "8a69ae3b2acb6a235325fe7c69728b19632c3f6b2d17a10a81be833671cc445c",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-tool-response.json",
+      "sha256": "f770096091b862034ae1485b3633f2341a357284d6df45ff8ccb3b895e1a1e86"
+    },
+    "record_note": "The exact tool-native path is present in the real output_hint and handoff; metadata explicitly omits the data URL while unchanged native PNG remains available."
+  },
+  "reference_inputs": [
+    {
+      "index": 1,
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v4-color-native.png",
+      "sha256": "5e33893fc66eff182dc608e88c1cd3b45430711ee6b4e691fbd490ebe6a0ca24",
+      "role": "V4 candidate is full-view camera/pose/colors target, not accepted right-thumb coverage; that sole defect is corrected by tool full redraw"
+    }
+  ],
+  "reference_basis": "The sole actual V5 input is V4 color for established side camera/pose/color, with its skin-colored right thumb explicitly rejected. The source chain and exact request are preserved; no additional current/master input is fabricated.",
+  "actual_edit_chain": [
+    {
+      "candidate": "held-side-v3-line",
+      "role": "Root accepted camera/pose geometry only; uncolored intermediate."
+    },
+    {
+      "candidate": "held-side-v4-color",
+      "role": "Full tool color based on V3 line/current colors/master. Rejected because right thumb incorrectly skin colored; otherwise pose/colors retained as sole actual V5 input."
+    },
+    {
+      "candidate": "held-side-v5-color",
+      "role": "Final full-tool redraw covering right thumb and uniformly adding scene whitespace; no local pixel edits."
+    }
+  ],
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-root-acceptance.json",
+    "sha256": "c0c98e8b07f021893e45cfdcff4b80678f132bf952da394b918584d7ebba7bff"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-root-acceptance.json",
+    "sha256": "c0c98e8b07f021893e45cfdcff4b80678f132bf952da394b918584d7ebba7bff"
+  },
+  "self_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-qa.json",
+    "sha256": "65690db801d07f4d536c3882a8e6cf3f1a04725dfb00764c31a1b2634232f4a4"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-armed-poses-20261026/held/held-side-v5-color-handoff.json",
+    "sha256": "a2aac75dd9a9ddcd89b64fb665c2d240dc9ecd6b0fe2a04cb8d6f044f9638f80"
+  },
+  "review_status": "accepted-dynamic-right-side-view",
+  "method": "built-in image_gen.imagegen complete-image generation; byte-exact PNG copy and lossless WebP only",
+  "limitations": [
+    "This is a coherent multi-angle action concept, not a validated 3D rig or exact engineering projection.",
+    "Projected dagger lengths and crouched figure height are not true object dimensions or H0 measurements. Master-v4 remains nominal size authority.",
+    "Rear mounts may be naturally hidden; no sheath or extra weapon is added.",
+    "No claims of manufacturing/load/dynamic clearance validation."
+  ]
+}

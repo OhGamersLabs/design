@@ -1,35 +1,49 @@
 ---
-title: "双带把盒袋固定在外侧"
-description: "Bunny 角色设计白皮书 · 双带把盒袋固定在外侧"
-releaseReady: true
-pageClass: bunny-editorial
+layout: BunnyPage
+bunny: layer
+layer: 5
+title: 腿带
+sidebar: false
 aside: false
-section: components
-lead: "物体、背板与绑带应可分辨，正背不换腿。"
 ---
+# 腿带 {.bunny-sr-only}
 
+<span id="腿部盒袋与任务终端"></span>
 
-# 双带把盒袋固定在外侧
+## 穿着三视 <small>穿到第 5 层为止</small> {#wearing}
 
-## 位置
+<span id="thigh-wearing"></span>
 
-双带环绕人物右大腿，盒体与软袋分别绘制。正面图中位于画面左侧。
+<div class="bunny-body-views">
 
-## 固定
+<AssetImage id="thigh-v2-base-aligned-cel-front-v1" group="layer-5" caption="正面" />
 
-两道带限制盒袋的旋转趋势，前、侧、后视图保持连续；扣具不随镜头移动到另一条腿。
+<AssetImage id="thigh-v2-base-aligned-cel-side-v1" group="layer-5" caption="角色右侧面" />
 
-## 动作
+<AssetImage id="thigh-v2-base-aligned-cel-back-v1" group="layer-5" caption="背面" />
 
-屈髋、蹲下和迈步时，检查盒袋与外套下摆的相互空间。图示不等于跑动时完全不滑移。
+</div>
 
-## 图示对照
+腿带层在手部层的基础上，于角色右大腿前外侧加入两条黑色腿带，分别承载上方任务终端和下方维护包，避开腹股沟折线与膝关节。角色右侧面朝画面右侧，手部可自然遮挡终端局部。
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/thigh-gear.webp"
-  alt="腿侧盒袋"
-  original="/media/bunny/1.1.0/thigh-gear.png"
-  caption="腿侧盒袋"
-/>
+维护包使用接近包身全高的长翻盖与中央按扣，翻盖与包身连续。背面主要显示黑色腿带及扣背，只见视角允许的薄橙色侧缘，不把正面屏幕或袋盖复制到背面。
 
-[返回目录](/characters/bunny/)
+三张完整人物各为 1024×1536。人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
+
+[下载穿着三视](/characters/bunny/downloads#dl-layer-views) · [下载部件结构与细节](/characters/bunny/downloads#dl-parts-details)
+
+## 分件结构 <small>拆成单件看</small> {#construction}
+
+### 任务终端与腿带 {#terminal-construction}
+
+<AssetImage id="thigh-v2-layer5-terminal-straps-construction-v1" detail="1536×1024" group="layer-5" />
+
+终端保持完整黑色壳体，正面为浅灰导航屏与银色圆按钮，小角和带扣使用橙色。橙色快拆件属于腿带总成，带体分离图显示完整终端及背面带环，展示它们与一套腿带总成的外部对应关系；壳体未拆开，不据此假定内部电子或固定件。全身视图中的微小界面图形可简化，屏幕与壳体的颜色归属仍以部件板为准。
+
+### 维护包与内容物 {#pouch-construction}
+
+<AssetImage id="thigh-v2-layer5-pouch-contents-construction-v1" detail="1536×1024" group="layer-5" />
+
+维护包的长翻盖以中央按扣闭合；开盖时翻盖与包体连续，不能把翻盖当作分离的硬壳。独立腿带与包体分别展示，翻盖和后侧带环保持与包体连接。内容物分别展示一块电池、一根线缆和一块清洁布，用于说明收纳外观。
+
+两张部件板说明可见外部部件与接合关系，不是生产纸样；隐藏紧固方式、制造公差、容量及实际活动范围未验证。

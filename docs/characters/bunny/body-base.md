@@ -1,35 +1,33 @@
 ---
-title: "先建立稳定的身体基准"
-description: "Bunny 角色设计白皮书 · 先建立稳定的身体基准"
-releaseReady: true
-pageClass: bunny-editorial
+layout: BunnyPage
+bunny: layer
+layer: 0
+title: 身体
+sidebar: false
 aside: false
-section: components
-lead: "中性站姿为衣物和装备提供共同的比例坐标。"
 ---
+# 身体 {.bunny-sr-only}
 
+<span id="v2-·-身体三视基准"></span>
+<span id="gray-proportion-review"></span>
+<span id="三张完整人物工作稿"></span>
 
-# 先建立稳定的身体基准
+## 穿着三视 {#wearing}
 
-## 比例
+<div class="bunny-body-views">
 
-前、侧、背图对应同一套肩、骨盆、膝和脚底位置。体型纤细且有运动感，不因镜头改变身体宽窄。
+<AssetImage id="body-v2-fresh-cel-front-v2" caption="正面" group="layer-0" />
 
-## 参考层
+<AssetImage id="body-v2-fresh-cel-side-v1" caption="角色右侧面" group="layer-0" />
 
-黑色运动基础层用于展示体型，不是最终服装里需要额外叠穿的一层。
+<AssetImage id="body-v2-fresh-cel-back-v1" caption="背面" group="layer-0" />
 
-## 站姿
+</div>
 
-正面拆解头部与躯干稳定，双脚承重均衡；角色卡可以有造型，但不能反向覆盖中性站姿规范。
+身体三视穿基础内衣，采用清楚的手绘线稿、固有色平涂和硬边赛璐璐阴影。
 
-## 图示对照
+三张身体图均为 1024×1536 PNG。
 
-<ReleaseImage
-  src="/characters/bunny/1.1.0/body-base.webp"
-  alt="身体比例"
-  original="/media/bunny/1.1.0/body-base.png"
-  caption="身体比例"
-/>
+人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。厘米身高未设定，不换算围度或杯码。
 
-[返回目录](/characters/bunny/)
+[下载身体三视](/characters/bunny/downloads#dl-body-head)

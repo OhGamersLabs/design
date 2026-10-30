@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "role": "thigh-gear-back",
+  "publish_slug": "thigh-v2-base-aligned-cel-back-v1",
+  "source_head": "6f0bfd4af1f6bbf03cc945c6cd615744880787c2",
+  "status": "visual-accepted-awaiting-current-set-and-measurement-binding",
+  "source": {
+    "kind": "revised-reference",
+    "page": "/characters/bunny/thigh-gear",
+    "based_on": "/media/bunny/3.1.0/thigh-v2-fresh-cel-back-v1.png",
+    "baseline_sha256": "d97ecb42b2519c81a6584039fdfa2671560eb3711fac08cafaf081e0e6d75766",
+    "source_artifact_path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-back-reset-v1.png",
+    "source_artifact_sha256": "48cb6925661f92da9d80e7ca884e2b007cc164e37a1f053aefd4c1dc1b2c884b",
+    "review_status": "accepted-visual-with-measurement-binding-pending",
+    "method": "builtin imagegen; fresh full-canvas drawing; native output copied byte-exact; WebP lossless encoded only",
+    "generation_request": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-back-reset-v1-request.json",
+      "sha256": "c186440c5ffafa214f7dfe9a67e944a884c3aef198bdb1a2be2810ba2a3c8214"
+    },
+    "actual_tool_parameters": {
+      "prompt": "Freshly draw one NEW COMPLETE full-body straight BACK, both shoulder blades facing viewer adult woman, from fullhair to shoesoles, white portrait1024x1536. Entire figure freshly hand-drawn Japanese lineart+HARD CEL color, no headpasting/collage/retouch/filter.\nImage1 is SAME-VIEW complete CURRENT BODY BASE: sole HEAD/identity/bodyproportions/painting authority. Keep exact same rear hair silhouette, broad lower/nape COOL GRAY/lavender CEL shadow masses, clean dark navy outer contour. Keep the broad gray planes whole instead of splitting into extra white shards or short shiny lines. Quiet peach nape skin, no exaggerated orange/red shadows. Preserve legitimate whitehair planes/hardshadows and slight intentional baseline transitions. No cloudypatches/mosaic/whiteflecks or waxygloss.\nImage2 is SAME-SIZE original-frame CURRENT CLOTHED BODY with head intentionally omitted on whitecanvas. It supplies only current clothing/gear/bodyposition. Blanktop is reference omission, do not shrink/recenter the croppedbody. Use matching complete frames to preserve bodyratio/pose and clothe the Image1 person exactly as2. No legshortening, waistlengthening, hipwidening or new anatomy.\nWhite sleeveless high-neck crop top and red rolled-cuff shorts retain exactly current geometry/size/bodylocation. White shirt HPS-to-middlehem approximately0.91headunit, with narrow lowerband; no shortened shirt or thicker band. Back has only plain center seam and restrained garment edge shadows, no front chest opening/clavicle/bust marks. Redshorts proper round rear hip shape, two back patch pockets and rear yoke/centerseam, original waist/rise/rolledcuffs.\nRight fullblackglove/RED wrist and left orange-edged fingerless/ORANGE wrist. Rightthigh TWO separate black straps with outer terminal and lower flap pouch. In back view show only physically visible outer edges/straps, not full frontscreen falsely pasted onto rear. No jacket.\nLeft leg orange thigh-high sock(imageLEFT in back), right leg short WHITE sock(imageRIGHT in back), same foldedtop/lengths. Orange hardknee shadows, white shaft flatwhite with few hardedge shadows and no soft longitudinal streaks. Fine paleblue ribs only at whitefoldedband. Same redwhiteblack sneakers with existing heel/sole/OUTSIDE anklehardware; do not mirror or duplicate outerhardware to innersides.\nEvery visible part/side/overlap remains physically coherent. Back anatomy stays back, no navel orfrontcleavage. Clean localcolor planes, restrained dark lines and CLOSED HARD shadows; intentional knit/seam detail retained. No painterlygradients/oily3D/gloss, cloudy texture or whitehair filament fragmentation. No text/rulers/watermark.",
+      "referenced_image_paths": [
+        "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-back-v1.png",
+        "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/thigh-gear-back-current-body-native-frame.png"
+      ],
+      "transparent_background": false
+    },
+    "native_output": {
+      "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-0838e38e-7a80-4be9-970b-7a75370c20c6.png",
+      "sha256": "48cb6925661f92da9d80e7ca884e2b007cc164e37a1f053aefd4c1dc1b2c884b"
+    },
+    "reference_chain": [
+      {
+        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/body-v2-fresh-cel-back-v1.png",
+        "sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/reference-inputs/thigh-gear-back-current-body-native-frame.png",
+        "sha256": "01305cd31ec839335f322f315e9382114c5bc8660f93b2c8be3be8eabff5c05f",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      }
+    ],
+    "visual_review_record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/review/thigh-back-reset-v1-independent-review.json",
+      "sha256": "8df34c7b8e5328d175fa98f1126cd7a0d1908fd5ba1ab992e298ecc50739d6a2"
+    },
+    "generation_node": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-head-cel-reset-20261025/thigh-back-reset-v1-node.json",
+      "sha256": "3135be2f56ed6fd8fd761cc316f82c79f5abfe74d57e1927250a352da8288af4"
+    }
+  },
+  "original": {
+    "path": "/media/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.png",
+    "sha256": "48cb6925661f92da9d80e7ca884e2b007cc164e37a1f053aefd4c1dc1b2c884b",
+    "width": 1024,
+    "height": 1536
+  },
+  "web": {
+    "path": "/characters/bunny/3.1.0/thigh-v2-base-aligned-cel-back-v1.webp",
+    "sha256": "013c1f8aa45bb43b6bd01fa070e0074d905e6780ed08380076fcd70229a4d53c",
+    "encoding": "lossless decoded RGBA equal to native"
+  },
+  "scope": "Complete new imagegen output; immutable per-image generation and visual review record. This record does not establish a current-page or numerical measurement acceptance."
+}

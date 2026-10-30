@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "role": "components",
+  "publish_slug": "harness-v2-layer7-components-v1",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-components-v1.png",
+    "sha256": "db7b5cd3ec8f86b7a789bbd1a3ecbc47620e7e5388bb9ac03ac6c8d156c82ad8"
+  },
+  "native_output": {
+    "path": "/Users/roy/.codex/generated_images/01a171d8-4be2-77e2-b371-f16ef6647dae/exec-37b3fbb9-6734-4259-80df-21b388ee79fd.png",
+    "sha256": "db7b5cd3ec8f86b7a789bbd1a3ecbc47620e7e5388bb9ac03ac6c8d156c82ad8"
+  },
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-components-v1-request.json",
+    "sha256": "5d17aed907d453c1140f907fbfbe0f6f4bb4f5e963a8191282e03fe0d7604df0"
+  },
+  "request_pointer": "/arguments",
+  "actual_tool_parameters": {
+    "prompt": "Create one NEW landscape harness COMPONENT/EXPLODED design sheet. Entirely freshly drawn Japanese hand-ink + hard CEL-color character-design technical illustration, pure white background, crisp dark weighted contours, matte charcoal webbing with limited flat hard shadows, gold/silver hardware only 2–3 solid tone planes. No photorealistic gradients, grain, chalk/white mottling, tiny scratches or soft 3D product shading. Keep intentional stitching and clean metal edges. Short plain English labels only as specified, no paragraphs or dimension numbers, no invented mechanisms or production ratings.\nImage1 old independent harness sheet is exact COMPONENT TOPOLOGY authority. Image2 current accepted upper-harness native crop is only the clean cel-color drawing quality/black tone reference; do not copy the body, clothes, sheet text or background.\nTOP ROW: three separate assembled UNWORN harness views, labels \"FRONT\", \"RIGHT SIDE\", \"BACK\". Right-side diagram must have FRONT to screen RIGHT (opposite image1 middle example), gold adjuster and front orange cover towards RIGHT. Each entire harness has TWO continuous shoulder straps; exactly TWO front gold rectangular adjusters; ONE full underbust loop with SILVER buckle only front center; ONE upper-back stabilizer. Rear H not X. Four silver swivel snap hooks total, two front+two rear, each to one belt ring. Waist belt: four black sewn anchor tabs/rings, ONLY two FRONT tabs have orange round covers; BLACK low-profile central buckle front only; plain back. An empty front assembly may show the rear bridge through its opening, but separate near/far straps cleanly; no extra real components.\nBOTTOM ROW: a true exploded assembly distinct from the three assembled reference views. Label \"ASSEMBLY\". Exactly SIX separated PHYSICAL entities: one upper webbing harness assembly at left (both shoulder straps, gold adjusters, upper rear bridge and underbust loop with silver chest clasp remain integrated), FOUR separate identical silver swivel hook units in a clear 2x2 cluster at center (each includes its upper strap bar and hook), and ONE complete waist belt subassembly at right (black front buckle and four anchor rings/tabs remain attached, front two orange covers stay on). Simple dashed leaders connect the four bare folded webbing ends to the four detached hooks, then to the four belt anchor rings. Upper mother assembly MUST HAVE NO SILVER HOOKS STILL ATTACHED: the detached four are the only hooks in this exploded group. Waist belt retains its four anchor RINGS, not four additional hook bodies. Distinguish closed snap hook from plain polygonal anchor ring. No duplicate exploded parts, no arbitrary pile, no extra crossed back strap.\nGive the lower exploded zone generous width; keep diagram spacing and all small hardware readable. Upper assembled reference views are separately boxed/ruled off from exploded group so six-entity conservation is unambiguous. No garment/face/head drawing.",
+    "referenced_image_paths": [
+      "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/19-carrier-components.png",
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/back-harness-upper-only.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-components-v1-tool-output.json",
+    "sha256": "f3367213ffef43ca53e1ff8aaba5c45ad85e84d3e89de94b08c6f761fb4fa10e"
+  },
+  "reference_inputs": [
+    {
+      "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/3.1.0/19-carrier-components.png",
+      "sha256": "3a8614c0a4cfed3b64d4703e55c61895913f5ce9afecac35de3a9f155d5be2ff",
+      "dimensions": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/reference-inputs/back-harness-upper-only.png",
+      "sha256": "2017014712f620119447ffe8bce44d6a15a4876faa7901495d02b4cb4a8bf1f1",
+      "dimensions": [
+        240,
+        220
+      ]
+    }
+  ],
+  "generation_node": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/harness-components-v1-node.json",
+    "sha256": "e30dbc3ff4e0a13eac944f89ea3794b3d7865a9ebcfa493bab559db41b64c80f"
+  },
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-components-v1-independent-review.json",
+    "sha256": "2a375f954946ef778a214ebb852d77ea71d1ad793925c7affff665b99236ed8b"
+  },
+  "selected_manifest": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/selected-final-six.json",
+    "sha256": "0893f44db0399a29773a40a14554e9eee4e8800b15379e33668c5d9dcff8eda4"
+  },
+  "cross_view_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/review/harness-final-independent-review.json",
+    "sha256": "6cd29d141d09ef4592a59dbe7aeea7b713cb98cbba79f34d12f157fbe92e9754"
+  },
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-harness-layer-20261025/actual-generation.json",
+    "sha256": "865f5a2fcf140e1b911add783321fe47e8478814a3c0f5974867ae76de302894"
+  },
+  "method": "builtin imagegen; complete fresh drawing; byte-exact native; lossless WebP only"
+}

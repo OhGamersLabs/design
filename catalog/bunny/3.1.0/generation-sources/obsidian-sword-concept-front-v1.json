@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "role": "single-concept-front",
+  "publish_slug": "obsidian-sword-concept-front-v1",
+  "actual_tool_candidate": "v10-retry1-front",
+  "source_artifact": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/obsidian-sword-concept-v10-retry1-front-native.png",
+    "sha256": "58f89625164441847d940626012a33f91765c47186cd85b9c79d2e9cf36a8487"
+  },
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "generation_request": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/request-v10-retry1.json",
+    "sha256": "5d581dda961e736146b74c8e7a7c907e90648884bdfead56fb6c6c3841da5c69"
+  },
+  "request_pointer": "/request",
+  "actual_tool_parameters": {
+    "prompt": "Use this complete ink drawing as the GEOMETRY AUTHORITY for Bunny's fantasy obsidian greatsword. Redraw and color the ENTIRE single-front sword on the same square white page. Preserve its exact full silhouette, blade width and length, both chip shapes and locations, all collar/grip/pommel proportions, framing and scale. Do not redesign, shorten, lengthen, stretch or narrow any part. No extra view or text yet.\n\nMake it a Japanese TV-animation prop cel: clean hand-inked black contours and ONLY THREE DISCRETE FLAT CHARCOAL FILLS. Main obsidian slab is a single uniform charcoal black #15191D. Use cool dark #0B0E12 for the few hard shadow shapes and the black grip. Use muted cool-gray #424B55 only in small existing curved shell-fracture surfaces and their curved rims. Every filled region has completely uniform color and a crisp boundary. Keep the large blade interior visually quiet and flat. There is NO continuous lighting gradient.\n\nThe curved gray shapes stay confined to the existing LOCAL conchoidal fracture linework at the broken edges. Do not draw any gray or white lines across the blade. No veins, cracks, scratches, random texture, tiny facets, fragmented highlights or rendered lighting. Hardware is simple subdued dark gray. Add one NARROW DARK-RED ring #681E25 at the grip root as the only color accent. The long grip stays predominantly black. Preserve the drawing's broad rock-slab identity. White background.",
+    "referenced_image_paths": [
+      "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/obsidian-sword-concept-v9-lineart-native.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_output_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/tool-response-v10-retry1.json",
+    "sha256": "bf53f43fb9366e11df3e058d81535b11b9427691a725c3c9cc75173ed7bfd652"
+  },
+  "native_output": {
+    "kind": "tool-response-data-url",
+    "record": {
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/tool-response-v10-retry1.json",
+      "sha256": "bf53f43fb9366e11df3e058d81535b11b9427691a725c3c9cc75173ed7bfd652"
+    },
+    "pointer": "/image_url",
+    "sha256": "58f89625164441847d940626012a33f91765c47186cd85b9c79d2e9cf36a8487"
+  },
+  "reference_inputs": [
+    {
+      "order": 1,
+      "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/obsidian-sword-concept-v9-lineart-native.png",
+      "sha256": "126f46e20e8790c93ca2906d17e7c49943d959b136e4d14ee5d922fb7533e987",
+      "role": "Accepted revised concept geometry authority; preserve the complete outline/relative dimensions while tool redraws and applies flat fills."
+    }
+  ],
+  "visual_review_record": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/review-v10-retry1-front.json",
+    "sha256": "7a34e55d24ec96750693a006f9a738d25c6a7d0bf03e3570935f128a8185d9e1"
+  },
+  "individual_visual_review": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/review-v10-retry1-front.json",
+    "sha256": "7a34e55d24ec96750693a006f9a738d25c6a7d0bf03e3570935f128a8185d9e1"
+  },
+  "geometry_revision": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/spec-revision-v9-geometry-freeze.json",
+    "sha256": "57e56eb8d8dbd644168276ee2a2ffa6f4841b41981261a8f321bdd0c378177a2"
+  },
+  "review_status": "accepted-concept-front; matching-side-pending",
+  "method": "built-in image_gen.imagegen; complete canvas redraw; actual tool PNG copied byte-exact; WebP lossless only",
+  "limitations": [
+    "单件概念正面；侧面尚待独立审查。",
+    "按总长 0.85H0 赋予设计比例，未作人物合绘对位或制造验证。",
+    "几何依据为已选 V9 线稿，不声称被取代的试设数字已达成。"
+  ],
+  "generation_provenance": {
+    "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-obsidian-sword-concept-20261026/front-delivery-handoff.json",
+    "sha256": "417bad76f4c93adb75b41dd43c3a2ce37e8f562075bb41ab58fd234beef7f2ec"
+  }
+}
