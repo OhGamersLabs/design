@@ -45,7 +45,7 @@ function onTabKeydown(event: KeyboardEvent, index: number) {
             v-for="assetId in tab.assets"
             :id="assetId"
             :key="assetId"
-            :group="tab.key === 'three' ? 'hero-three' : undefined"
+            :group="tab.key === 'three' || tab.key === 'tpose' ? `hero-${tab.key}` : undefined"
           />
         </div>
       </div>

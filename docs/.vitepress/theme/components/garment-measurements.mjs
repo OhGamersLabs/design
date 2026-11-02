@@ -1,4 +1,4 @@
-import { formatNumber } from './body-measurements.mjs'
+import { formatNumber, rulerScale, roundRuler } from './body-measurements.mjs'
 
 const finite = (n) => typeof n === 'number' && Number.isFinite(n)
 const point = (p) => Array.isArray(p) && p.length === 2 && p.every(finite)
@@ -197,7 +197,7 @@ export function referenceDerivedMetric(data, sourceId, item, registration = fitR
 }
 
 export function garmentCanvasSize(model) {
-  return { width: model.source.width, height: model.source.height + 180 + (model.rows.length + model.derived.length) * 29 }
+  return { width: roundRuler(model.source.width), height: roundRuler(model.source.height + (180 + (model.rows.length + model.derived.length) * 29) * rulerScale(model.source)) }
 }
 
 /** Annotation export embeds the original WebP unchanged; it is not a new character artwork. */
@@ -205,22 +205,23 @@ export function renderGarmentSvg(data, id, imageHref) {
   if (!/^(?:\/(?!\/)|data:image\/webp;base64,)/.test(imageHref)) throw new Error('Unsupported garment image source')
   const model = garmentModel(data, id)
   const { width, height } = model.source
+  const s = (value) => roundRuler(value * rulerScale(model.source))
   const colors = { pass: '#24795c', fail: '#c23c36', uncertain: '#9b681e', unrated: '#17699c' }
   const measured = model.rows.filter((r) => r.px !== null)
   const lines = measured.map((r) => {
     const [a, b] = r.points; const color = colors[r.status]
-    const x1 = r.axis === 'y' ? r.guideX : a[0]; const x2 = r.axis === 'y' ? r.guideX : b[0]
+    const x1 = r.axis === 'y' ? s(r.guideX) : a[0]; const x2 = r.axis === 'y' ? s(r.guideX) : b[0]
     const y1 = a[1]; const y2 = b[1]
-    const textX = r.axis === 'y' ? r.guideX - 9 : (x1 + x2) / 2
-    const textY = r.axis === 'y' ? (y1 + y2) / 2 : (y1 + y2) / 2 - 12
+    const textX = r.axis === 'y' ? s(r.guideX - 9) : (x1 + x2) / 2
+    const textY = r.axis === 'y' ? (y1 + y2) / 2 : roundRuler((y1 + y2) / 2 - s(12))
     const rotation = r.axis === 'y' ? ` transform="rotate(-90 ${textX} ${textY})"` : ''
-    return `<g data-measurement="${escape(r.id)}" stroke="${color}" fill="${color}"><line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/><circle cx="${a[0]}" cy="${a[1]}" r="3.5"/><circle cx="${b[0]}" cy="${b[1]}" r="3.5"/>${r.axis === 'y' ? `<path d="M${a[0]},${y1}H${x1} M${b[0]},${y2}H${x2}" stroke-width="1" stroke-dasharray="5 5" fill="none"/>` : ''}<text x="${textX}" y="${textY}" text-anchor="middle"${rotation}>${escape(r.symbol)}</text></g>`
+    return `<g data-measurement="${escape(r.id)}" stroke="${color}" fill="${color}"><line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/><circle cx="${a[0]}" cy="${a[1]}" r="${s(3.5)}"/><circle cx="${b[0]}" cy="${b[1]}" r="${s(3.5)}"/>${r.axis === 'y' ? `<path d="M${a[0]},${y1}H${x1} M${b[0]},${y2}H${x2}" stroke-width="${s(1)}" stroke-dasharray="${s(5)} ${s(5)}" fill="none"/>` : ''}<text x="${textX}" y="${textY}" text-anchor="middle"${rotation}>${escape(r.symbol)}</text></g>`
   }).join('')
   const rowTexts = [
     ...model.rows.map((r) => `${r.symbol} ${r.label} · ${r.normalized === null ? '—' : formatNumber(r.normalized, 3) + ' h₀'} · ${r.statusLabel}`),
     ...model.derived.map((r) => `基准推算（非同图实测）${r.label} · ${r.normalized === null ? '—' : formatNumber(r.normalized, 3) + ' h₀'} · ${r.indicationLabel}`),
   ]
-  const rows = rowTexts.map((text, index) => `<text x="28" y="${height + 36 + index * 29}">${escape(text)}</text>`).join('')
+  const rows = rowTexts.map((text, index) => `<text x="${s(28)}" y="${roundRuler(height + s(36 + index * 29))}">${escape(text)}</text>`).join('')
   const fullHeight = garmentCanvasSize(model).height
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -100 ${width} ${fullHeight}" width="${width}" height="${fullHeight}" role="img" aria-label="${escape(model.label)}服装标尺"><title>${escape(model.label)} · 服装图面标尺</title><desc>原图保持不变，叠加可见取点。h₀为固定设计头单位，不是厘米、围度或裁片纸样。遮挡位置不赋值。</desc><rect x="0" y="-100" width="${width}" height="${fullHeight}" fill="white"/><image href="${escape(imageHref)}" x="0" y="0" width="${width}" height="${height}" preserveAspectRatio="xMidYMid meet"/><g stroke-width="2.5" font-family="system-ui,sans-serif" font-size="22" font-weight="600"><style>text{stroke:white;stroke-width:5px;paint-order:stroke fill;stroke-linejoin:round}</style>${lines}</g><g font-family="system-ui,sans-serif" font-size="22" fill="#273344"><text x="28" y="-60">${escape(model.label)} · 图面尺寸观察</text><text x="28" y="-24">${escape(`h₀ = ${formatNumber(model.unit, 1)} 基准px；${model.registration.label ?? '标定依据有限'}`)}</text>${rows}<text x="28" y="${height + 65 + rowTexts.length * 29}">绿色符合 · 红色超出 · 橙色待复核 · 遮挡不补值</text></g></svg>`
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 ${-s(100)} ${width} ${fullHeight}" width="${width}" height="${fullHeight}" role="img" aria-label="${escape(model.label)}服装标尺"><title>${escape(model.label)} · 服装图面标尺</title><desc>原图保持不变，叠加可见取点。h₀为固定设计头单位，不是厘米、围度或裁片纸样。遮挡位置不赋值。</desc><rect x="0" y="${-s(100)}" width="${width}" height="${fullHeight}" fill="white"/><image href="${escape(imageHref)}" x="0" y="0" width="${width}" height="${height}" preserveAspectRatio="xMidYMid meet"/><g stroke-width="${s(2.5)}" font-family="system-ui,sans-serif" font-size="${s(22)}" font-weight="600"><style>text{stroke:white;stroke-width:${s(5)}px;paint-order:stroke fill;stroke-linejoin:round}</style>${lines}</g><g font-family="system-ui,sans-serif" font-size="${s(22)}" fill="#273344"><text x="${s(28)}" y="${-s(60)}">${escape(model.label)} · 图面尺寸观察</text><text x="${s(28)}" y="${-s(24)}">${escape(`h₀ = ${formatNumber(model.unit, 1)} 基准px；${model.registration.label ?? '标定依据有限'}`)}</text>${rows}<text x="${s(28)}" y="${roundRuler(height + s(65 + rowTexts.length * 29))}">绿色符合 · 红色超出 · 橙色待复核 · 遮挡不补值</text></g></svg>`
 }

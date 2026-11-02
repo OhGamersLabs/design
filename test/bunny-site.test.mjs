@@ -15,7 +15,7 @@ const thumbs = json('../docs/public/site/thumbs/index.json')
 
 test('asset index joins manifests, finalized names and thumbnails', () => {
   const index = buildAssetIndex({ manifests, names, thumbs })
-  assert.equal(Object.keys(index).length, 54)
+  assert.equal(Object.keys(index).length, 94)
   assert.equal(index['sun05-scene-latest'].web.width, 1774)
   assert.equal(index['sun05-scene-latest'].thumb.width, 480)
   assert.equal(index['bunny-original-latest'].collection, 'origins')
@@ -90,7 +90,9 @@ test('reading line never sits above the heading landing position on short viewpo
 test('reading neighbors follow layer order and stop at both ends', () => {
   const { prev, next } = readingNeighbors('/characters/bunny/jacket')
   assert.equal(prev.path, '/characters/bunny/thigh-gear')
-  assert.equal(next.path, '/characters/bunny/harness')
+  assert.equal(next.path, '/characters/bunny/headgear')
+  assert.equal(readingNeighbors('/characters/bunny/headgear').next.path, '/characters/bunny/harness')
+  assert.equal(readingNeighbors('/characters/bunny/harness').next.path, '/characters/bunny/weapon')
   assert.equal(readingNeighbors('/characters/bunny/index.html').prev, null)
   assert.equal(readingNeighbors('/characters/bunny/downloads').next, null)
   assert.deepEqual(readingNeighbors('/missing'), { prev: null, next: null })
@@ -114,12 +116,25 @@ test('garment metric selector includes a metric available only through a derived
   for (const source of Object.values(data.sources)) {
     source.measurements = source.measurements.filter(({ metricId }) => metricId !== 'jacketRightOffset')
   }
+  // Build this selector fixture explicitly; current artwork need not expose any derived rows.
+  data.sources['jacket-highlow-base-aligned-front'].referenceDerivedMetrics = [{
+    metricId: 'jacketRightOffset',
+    current: { metricId: 'jacketFrontTipRight', endpoint: 1 },
+    reference: { sourceId: 'innerwear-front', metricId: 'topMatchedRightHem', endpoint: 1, sha256: data.sources['innerwear-front'].source.sha256 },
+  }]
   const before = structuredClone(data)
   const scoped = garmentMeasurementScope(data, assets)
   assert.equal(scoped.models.some((model) => model.rows.some(({ id }) => id === 'jacketRightOffset')), false)
   assert.equal(scoped.models.some((model) => model.derived.some(({ id }) => id === 'jacketRightOffset')), true)
   assert.equal(scoped.metrics.some(({ id }) => id === 'jacketRightOffset'), true)
+  const derived = scoped.models.find(({ id }) => id === 'jacket-highlow-base-aligned-front').derived[0]
+  assert.equal(derived.stationMatched, true)
+  assert.ok(Number.isFinite(derived.normalized))
+  assert.equal(derived.referenceSourceSha256, data.sources['innerwear-front'].source.sha256)
   assert.deepEqual(data, before)
+  const wrongHash = structuredClone(data)
+  wrongHash.sources['jacket-highlow-base-aligned-front'].referenceDerivedMetrics[0].reference.sha256 = '0'.repeat(64)
+  assert.throws(() => garmentMeasurementScope(wrongHash, assets), /exact same-view source/)
 })
 
 test('measurement scopes reject unknown assets and invalid scopes, including empty sources', () => {
@@ -170,4 +185,42 @@ test('home highlights reference current image identities without change history'
   assert.equal(home.highlights.length, 4)
   for (const entry of home.highlights) assert.ok(assets[entry.asset])
   assert.ok(home.chapters.every(({ id }) => id !== 'downloads'))
+})
+
+
+test('all ten cumulative layers use the approved order and four character-relative T-pose views', () => {
+  const layers = json('../docs/.vitepress/data/bunny/layers.json')
+  const prefixes = ['body', 'innerwear', 'hosiery', 'shoes', 'hands', 'thigh-gear', 'jacket', 'goggles', 'belt', 'daggers']
+  assert.deepEqual(layers.map(({ layer }) => layer), [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+  assert.deepEqual(layers.map(({ name }) => name), ['身体', '上衣与短裤', '袜装', '鞋靴', '手部', '腿带', '橙色夹克', '护目镜', '裤腰皮带', '双匕首'])
+  for (const [i, layer] of layers.entries()) {
+    assert.equal(layer.front, `${prefixes[i]}-front-latest`)
+    assert.equal(layer.side, `${prefixes[i]}-side-latest`)
+    assert.equal(layer.back, `${prefixes[i]}-back-latest`)
+    assert.deepEqual(layer.tpose, Object.fromEntries(['front', 'right', 'back', 'left'].map(view => [view, `${prefixes[i]}-tpose-${view}-latest`])))
+    for (const id of Object.values(layer.tpose)) assert.ok(assets[id], id)
+    const page = readFileSync(new URL(`../docs${layer.path}.md`, import.meta.url), 'utf8')
+    assert.match(page, new RegExp(`layer: ${i}\\n`))
+    assert.ok(page.includes(`<LayerTpose :layer="${i}" />`), layer.path)
+  }
+  assert.equal(layers[7].path, '/characters/bunny/headgear')
+  assert.equal(layers[8].path, '/characters/bunny/harness')
+  assert.equal(layers[9].path, '/characters/bunny/weapon')
+  assert.equal(layers[9].facts.find(({ term }) => term === '外层').value, '最外层')
+  const home = json('../docs/.vitepress/data/bunny/home.json')
+  assert.deepEqual(home.tabs.find(({ key }) => key === 'tpose').assets, Object.values(layers[9].tpose))
+  assert.equal(home.updated, '2026-11-02')
+})
+
+test('downloadable dagger specification matches the approved leather-tab carry source', () => {
+  const source = json('../catalog/bunny/dagger-dimensions.json')
+  assert.deepEqual(json('../docs/public/catalog/bunny/dagger-dimensions.json'), source)
+  const carry = source.carryingDesign.definition
+  const visible = source.carryingDesign.visibleAppearance
+  assert.match(carry, /^设计要求：/)
+  assert.match(visible, /^图面可见：/)
+  for (const term of ['窄口', '28°']) assert.ok(carry.includes(term), term)
+  for (const term of ['不带鞘', '黑色皮挂片', '圆形银按扣', '骨白在外']) assert.ok(visible.includes(term), term)
+  assert.doesNotMatch(carry, /圆形银按扣|红领|骨白在外|柄尾朝|伸向另一侧|贴着后背|拇指/)
+  assert.doesNotMatch(carry + visible, /刀鞘|短托|束带|带耳/)
 })

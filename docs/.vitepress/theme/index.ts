@@ -4,6 +4,7 @@ import ReleaseImage from './components/ReleaseImage.vue'
 import AssetImage from './components/AssetImage.vue'
 import OriginNote from './components/OriginNote.vue'
 import LayerStrip from './components/LayerStrip.vue'
+import LayerTpose from './components/LayerTpose.vue'
 import CharacterHero from './components/CharacterHero.vue'
 import LatestList from './components/LatestList.vue'
 import ChapterBar from './components/ChapterBar.vue'
@@ -22,6 +23,7 @@ export default {
     app.component('AssetImage', AssetImage)
     app.component('OriginNote', OriginNote)
     app.component('LayerStrip', LayerStrip)
+    app.component('LayerTpose', LayerTpose)
     app.component('CharacterHero', CharacterHero)
     app.component('LatestList', LatestList)
     app.component('ChapterBar', ChapterBar)

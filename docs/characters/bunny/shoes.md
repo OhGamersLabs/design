@@ -22,11 +22,13 @@ aside: false
 
 </div>
 
+<LayerTpose :layer="3" />
+
 鞋靴层在白色上衣、红色短裤与不对称袜装的基础上加入红白厚底靴。
 
 角色右侧面朝画面右侧，远侧橙袜腿及鞋自然遮挡在近侧之后。袜筒连续进入鞋口，白色鞋带结与短尾收在上鞋舌袋内。
 
-三张完整人物各为 1024×1536。鞋底厚度属于鞋层外形。人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。本页不提供隐藏踝位置、内部足床的精确尺寸或三维装配结论。
+三张完整人物各为 2352×3520。鞋底厚度属于鞋层外形。人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。本页不提供隐藏踝位置、内部足床的精确尺寸或三维装配结论。
 
 
 ## 分件结构 <small>拆成单件看</small> {#construction}

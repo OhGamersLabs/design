@@ -2,58 +2,122 @@
   "bunny/belt-back-latest": {
     "path": "/site/thumbs/bunny/belt-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "6591eb5fe692e46b287debc3724e171f0399703558d8b6d71f54cfdeac666bd2",
+    "height": 719,
+    "sha256": "07cc50b6194c565e5e81651a259ea75e8f32a9e2dda434b56094ac98bec3b7ea",
     "sourcePath": "/characters/bunny/belt-back-latest.webp",
-    "sourceSha256": "0e459581bbfe6a465abb7416194f57ebbda37d3fe6bd6af0a44ecf9fae2bf060"
+    "sourceSha256": "0710b33a6be57ac6fad2742ac97b6fe1a8f5a776b7d9df4a7bedae292665cc08"
   },
   "bunny/belt-board-latest": {
     "path": "/site/thumbs/bunny/belt-board-latest.webp",
     "width": 480,
-    "height": 320,
-    "sha256": "67673312bf2915c34f2bb6f0312fce6228f9235f294486300fc11895f6683ff9",
+    "height": 321,
+    "sha256": "68346196c6a3e47f966e929b09b54a2ed4e41cc6edc2c460df220808bbcf1991",
     "sourcePath": "/characters/bunny/belt-board-latest.webp",
-    "sourceSha256": "385a829f6d75fe8da69d5bf2874351d2edac4e46a4947dbb7243078f1e29270a"
+    "sourceSha256": "07e3d2d3cf7095fcd6ff01ad19d032e6dd3c6afe1b8dd833f59509bd142eac29"
   },
   "bunny/belt-front-latest": {
     "path": "/site/thumbs/bunny/belt-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "b8007b971d02ebac0babde3943a254fe92308d6a7b356e40ea0ec73b0de57aaa",
+    "height": 719,
+    "sha256": "1660b6707f22dfb2f7d07fcc7a4ea535de39f6061ff475f938955657560c49b1",
     "sourcePath": "/characters/bunny/belt-front-latest.webp",
-    "sourceSha256": "6d4341924c357edd93af76333491024b62165850d0997baaa02d36f080028d75"
+    "sourceSha256": "344508b7505fe05239e8c2281c7186bbba882ff4dec2a90c484171471d184f98"
   },
   "bunny/belt-side-latest": {
     "path": "/site/thumbs/bunny/belt-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "3ce43761a38b711f860f500556bb671d41711a47869dd6df4a445fb569a475d9",
+    "height": 719,
+    "sha256": "7f3d148d2c0c86f69e46f76b0abf4aef4e6d25d2472b4871641e94b428e8ab89",
     "sourcePath": "/characters/bunny/belt-side-latest.webp",
-    "sourceSha256": "9c6722e3960611fc5ecba58359cf91d894b6ba32d2dd53c50e77f6b7b8763292"
+    "sourceSha256": "113c2d34189fdf5f56021d72da79dea6b95c4f21de790df181f1f601d1b7f2a7"
+  },
+  "bunny/belt-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/belt-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0f5c42b1246dec34c32f7d1893c699167a92d7a1aef6729383927b90692a11bf",
+    "sourcePath": "/characters/bunny/belt-tpose-back-latest.webp",
+    "sourceSha256": "df766a86944e517a15eb4576e87b13538a48036d27edf0d8e587b5e820943172"
+  },
+  "bunny/belt-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/belt-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "430dd924ed2a44babd317a153cd71ce7368a204fc7383f218d8f5a8c01141269",
+    "sourcePath": "/characters/bunny/belt-tpose-front-latest.webp",
+    "sourceSha256": "d1fa110d37d25c1bfe20929c17617203666419a1822e9bf7cb555892b6fb583f"
+  },
+  "bunny/belt-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/belt-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "60116acf68c2b8209415cda9b78c648d44449952ca82d12e768af4bfaa8b4649",
+    "sourcePath": "/characters/bunny/belt-tpose-left-latest.webp",
+    "sourceSha256": "81d67b1e3abdc293a757839675b2b5c2d6260e25083ea50dd80e823a6c8dd12e"
+  },
+  "bunny/belt-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/belt-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "35427c9d10b0eb3ca3fded2ff5976eff72f159443441eb63be64c3d97cb13b11",
+    "sourcePath": "/characters/bunny/belt-tpose-right-latest.webp",
+    "sourceSha256": "15bb9357be602637af6c869db3cb870bfe20dd26f7c18666a47621615fdda2a1"
   },
   "bunny/body-back-latest": {
     "path": "/site/thumbs/bunny/body-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "1f1b7d9066c93f19ee7b1a42d433ae7f23208be8adb99eb2fd38411210767e49",
+    "height": 719,
+    "sha256": "49cdce28b4984111ff5ea40b9e777b1489fc97873db4b451f5488f4d0a3b7fdd",
     "sourcePath": "/characters/bunny/body-back-latest.webp",
-    "sourceSha256": "843a604350c5a8823acc08d61828406ef85edaac83672773477857416f09c8e1"
+    "sourceSha256": "c05282f0f4263da162ce895b2436cd34361c10e4653a816604711302f3dd1011"
   },
   "bunny/body-front-latest": {
     "path": "/site/thumbs/bunny/body-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "8de367c675efac45e9bf1d9a9feb8a5667af0253144fae8ac2b113026e4aa297",
+    "height": 719,
+    "sha256": "f9d935de0e7310e7ca119fc17fe84c69e0fb04af8a2ac48c2f6474bcfd4bc4f3",
     "sourcePath": "/characters/bunny/body-front-latest.webp",
-    "sourceSha256": "664e1d9f89092cc950e6b15ec10ceb3bf348fa9addbfcbb3e365c4d7cd19eb71"
+    "sourceSha256": "f2f2c272be02145a75c4f3ef3016614126a3cf62ba4e3890a9f1a1fb4a13dea6"
   },
   "bunny/body-side-latest": {
     "path": "/site/thumbs/bunny/body-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "58a64fe13779b3997405024cca615e5d6d627ecccf0622695fa8fb031c3d8e4d",
+    "height": 719,
+    "sha256": "2cfc52170b2ebc5953f40578e508d62d19f873e0c4d828cc59308e11507f6359",
     "sourcePath": "/characters/bunny/body-side-latest.webp",
-    "sourceSha256": "f85e22522a0cc2fa25b0c57a5b766881b1941d5453a06644cb10ebf56bb0c54c"
+    "sourceSha256": "7988a5c528b634d1c2634c4a5c9f2f400b35cf8940bb7cc1f4e8468e8a5c1eff"
+  },
+  "bunny/body-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/body-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "3cb79b60cbfc12f94967ccd08d4f5527292bc0d25eb9f2a0bed80680b5079cae",
+    "sourcePath": "/characters/bunny/body-tpose-back-latest.webp",
+    "sourceSha256": "d8b3881f3228e855a97a95baf3ad0ee550843088f868681503b18fa2e1e0584e"
+  },
+  "bunny/body-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/body-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "08bf0e1c5ac4d303486a25ae21377685e9a8016a33d69394cb88d4c477c10be6",
+    "sourcePath": "/characters/bunny/body-tpose-front-latest.webp",
+    "sourceSha256": "f161c3e11a940185918b116ca7aabc45e6678dcb7a89d58f2daaca0c62997b7f"
+  },
+  "bunny/body-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/body-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "eb687c2a48a787fe129c0cf0909422fbea3358903c93d0fc7b6b60086f9e77cc",
+    "sourcePath": "/characters/bunny/body-tpose-left-latest.webp",
+    "sourceSha256": "a385b84eb1fe6973c3bc344aa69e8556a75d7818e58fd49ea8472125bb7ba764"
+  },
+  "bunny/body-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/body-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "d1404eb3b2f092f8c2f3c6299f3559623dde124100239124454d3ead262f011c",
+    "sourcePath": "/characters/bunny/body-tpose-right-latest.webp",
+    "sourceSha256": "9a97be22f55c63611c5de60886a75f30ca08003a6bf27ddb60b62df8a210493b"
   },
   "bunny/daggers-armed-expressions-latest": {
     "path": "/site/thumbs/bunny/daggers-armed-expressions-latest.webp",
@@ -66,10 +130,10 @@
   "bunny/daggers-back-latest": {
     "path": "/site/thumbs/bunny/daggers-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "783f96858b51389cc059b8d3e7a2e907995214d242266ab73172d8c263855132",
+    "height": 719,
+    "sha256": "42a545fbe60f17a250806083bf8a93fab916dc0360cba63771a17e58724e7623",
     "sourcePath": "/characters/bunny/daggers-back-latest.webp",
-    "sourceSha256": "d91bf2cb50807a564d87c78becdb1a6003655143b23464012a295f08ddd0b3c1"
+    "sourceSha256": "b2b82f613a0bd150bb6407dad6589434c0e9f345d3e798c2d470ea046ef66aee"
   },
   "bunny/daggers-dark-board-latest": {
     "path": "/site/thumbs/bunny/daggers-dark-board-latest.webp",
@@ -82,10 +146,10 @@
   "bunny/daggers-front-latest": {
     "path": "/site/thumbs/bunny/daggers-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "53c946a783a880b01342b7be3ca9631486fd0f04c81d723016e59b5b412d74f3",
+    "height": 719,
+    "sha256": "dde00deb9f75f0a1e5890e36cd5a14ce3cbd68e05218c280a3fd02f2e3134a18",
     "sourcePath": "/characters/bunny/daggers-front-latest.webp",
-    "sourceSha256": "3a8edcdbb3d50164283661d7a97c248c85c7975911c4ed2a2a85c2cad3afcc00"
+    "sourceSha256": "e3ee165522b099365221405bc074cd5df9bb3b56180f6aa1bf8520cc96bea7cd"
   },
   "bunny/daggers-ivory-board-latest": {
     "path": "/site/thumbs/bunny/daggers-ivory-board-latest.webp",
@@ -98,10 +162,10 @@
   "bunny/daggers-mount-board-latest": {
     "path": "/site/thumbs/bunny/daggers-mount-board-latest.webp",
     "width": 480,
-    "height": 320,
-    "sha256": "405717679493bdd5a49397abf2d2892a108dadde72d8ec7049be3d42e3260373",
+    "height": 321,
+    "sha256": "d1d91137b5a8ac44331a6781f8e109d0f974636ec8123e0ec4250cf8306d31aa",
     "sourcePath": "/characters/bunny/daggers-mount-board-latest.webp",
-    "sourceSha256": "0a9372651d2cccd932702be327b851f1f88c6f575fc2f7cef623840b4f125e04"
+    "sourceSha256": "658d8ba58e2702f7796b52dd5a57c97e4ed04dd9db4c3142ede305d4612f59c1"
   },
   "bunny/daggers-scale-board-latest": {
     "path": "/site/thumbs/bunny/daggers-scale-board-latest.webp",
@@ -114,10 +178,42 @@
   "bunny/daggers-side-latest": {
     "path": "/site/thumbs/bunny/daggers-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "98527e220e3d2582cbd440a9c8e2c4acd71c1c77456c199b3936153969256444",
+    "height": 719,
+    "sha256": "f8bc28555a60ada0092ea19f30b7720c19513d89c2aa98d5ea1a397f758a08aa",
     "sourcePath": "/characters/bunny/daggers-side-latest.webp",
-    "sourceSha256": "1e75844aa671d7456bb2bcc0ad902bb94e64271f08eee8e322fe848b57e037ff"
+    "sourceSha256": "91f81c9edca4512db4e2a1f786e9fc89946faf202c20a2aaaff150ac4882e045"
+  },
+  "bunny/daggers-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/daggers-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "82a88170f97956fc7c4f338a468d7b11905b7954327c4ceded197c5bb9ebf616",
+    "sourcePath": "/characters/bunny/daggers-tpose-back-latest.webp",
+    "sourceSha256": "95014d170b48e5f2f033ce88ef7080cc5df6054ee60fa9a9e3f7109d19924a46"
+  },
+  "bunny/daggers-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/daggers-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "bea546dfe1dce60957ca6f57c883695de00669b8fc4a334edcc8c3c304874cb8",
+    "sourcePath": "/characters/bunny/daggers-tpose-front-latest.webp",
+    "sourceSha256": "62f5b3fd91f84965748d513e77b800e402a60a2b422d191bef9c028745ac9ff2"
+  },
+  "bunny/daggers-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/daggers-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "abe4c886f72aa234b61c69fbe4799b1a080131759111f1b923a157ba3d977f2e",
+    "sourcePath": "/characters/bunny/daggers-tpose-left-latest.webp",
+    "sourceSha256": "933ba7cdec83cfb2c51bf2223b9c1099606de5f5fabe3afdc72fd1d94fca94d8"
+  },
+  "bunny/daggers-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/daggers-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "17f841ae246f5ac9f9e58259ffa56596973b4219321c28675677faad154c22cd",
+    "sourcePath": "/characters/bunny/daggers-tpose-right-latest.webp",
+    "sourceSha256": "1cf56818d8a3e46ddca0f6283b6ba0abe45d6eba2bd0dc1f6f9e160dcfef6cdb"
   },
   "bunny/expressions-sheet-latest": {
     "path": "/site/thumbs/bunny/expressions-sheet-latest.webp",
@@ -130,10 +226,10 @@
   "bunny/goggles-back-latest": {
     "path": "/site/thumbs/bunny/goggles-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "dc8edbb5191fc71827774fdff0099799a8ed723bbfd38c6dd0a7d327f2dff880",
+    "height": 719,
+    "sha256": "0c1e42e4df68fae37ffb66b3b71516ec76af3d22ef10758d7721905d4122a204",
     "sourcePath": "/characters/bunny/goggles-back-latest.webp",
-    "sourceSha256": "f88c9d5ee69436af965a3afda5d5941fe169d513ef7b94e2a1202c433df38011"
+    "sourceSha256": "5459db049e42d466914830405829ced3872381ecd36743967c622c6d26d7fd70"
   },
   "bunny/goggles-board-latest": {
     "path": "/site/thumbs/bunny/goggles-board-latest.webp",
@@ -146,42 +242,74 @@
   "bunny/goggles-closeup-board-latest": {
     "path": "/site/thumbs/bunny/goggles-closeup-board-latest.webp",
     "width": 480,
-    "height": 456,
-    "sha256": "6be91e463097f749a38605df6bfb1e5c9e641c02d74f8bc236067112dffb9e1d",
+    "height": 321,
+    "sha256": "c490152fb395f3c98e88a8bb06ed1cdc6cc3aa50b303aa7bd25f47db3633a45c",
     "sourcePath": "/characters/bunny/goggles-closeup-board-latest.webp",
-    "sourceSha256": "98a14f1e0e7be400de8c48796f9a8e9b7aa96f4ff8f521a94e517bc84d598a62"
+    "sourceSha256": "def5bbdc92b047d526c8e64ddce218d976729b59baee4ef690ad7f2b675d2019"
   },
   "bunny/goggles-front-latest": {
     "path": "/site/thumbs/bunny/goggles-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "98aa0b51a8e583a82976cb1676b43302bd2c19540753b34b3e64073a5c652005",
+    "height": 719,
+    "sha256": "2a3e8039af66301be7a86e923ac821fae1b5ac748c43cb561893c0b2ffb6abe6",
     "sourcePath": "/characters/bunny/goggles-front-latest.webp",
-    "sourceSha256": "e012df1d89645b7d2a2d5ebabf65e2b8d6b080c891d936b64cfca70c03ee96e7"
+    "sourceSha256": "650618391b1a97258f8b51aca6d99ac5313a655a06b425abb9e2355b489983ce"
   },
   "bunny/goggles-side-latest": {
     "path": "/site/thumbs/bunny/goggles-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "0603b444d078e0f65811f84b6baeac00626dfa976b23c6c608a00b0b06d0409c",
+    "height": 719,
+    "sha256": "0ed8cbd14cb5b7b5e018448cb273cfac430c2da1505e9b8f61cb28928bdcf350",
     "sourcePath": "/characters/bunny/goggles-side-latest.webp",
-    "sourceSha256": "53a0fd67a83a4d6e18c11ebd22631b2b5d01ca073cd74cb43ee4515cbeb6ca92"
+    "sourceSha256": "9c994b88502b76813eec6be631fdf29e12d09b0d3fd8f99df4dda5e2e6410752"
+  },
+  "bunny/goggles-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/goggles-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "34e64671b90c3f1038565112b14398bfdb5ceb6372ce0bb5d2c867cb87ce6e9b",
+    "sourcePath": "/characters/bunny/goggles-tpose-back-latest.webp",
+    "sourceSha256": "56df0779917c8a4c8069a90a322cb62ba86f00282c6f69af37f858e4c36e067d"
+  },
+  "bunny/goggles-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/goggles-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8db7b61b4a58eb3fb89c6bdf8a2f1a3ef8b5e77d12284ff00aacc09507046375",
+    "sourcePath": "/characters/bunny/goggles-tpose-front-latest.webp",
+    "sourceSha256": "5ef53ad70f76b56d4629948cf60d4a9fc59f9933bf3af93ac5551352793483cc"
+  },
+  "bunny/goggles-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/goggles-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "969b6dc37a9aa9532175b9f20daf83fc1f6b8f5659cc94ed667a22f093611180",
+    "sourcePath": "/characters/bunny/goggles-tpose-left-latest.webp",
+    "sourceSha256": "1f349dc59933a830068d641a8c8d0ca2aa3d39006d7c50a779318119d60198e1"
+  },
+  "bunny/goggles-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/goggles-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ff50382e17434b5f03d84f630975ed042a8158ba30c2b6b10c00a6ad0110e9d6",
+    "sourcePath": "/characters/bunny/goggles-tpose-right-latest.webp",
+    "sourceSha256": "c19749341d5f70b8ed2d60d403d0193aba563d2e93306ca40355729e66d4c0f3"
   },
   "bunny/hands-back-latest": {
     "path": "/site/thumbs/bunny/hands-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "84760f07a558ccfbf0fb1b3d20cc6c318cf77ccb1fe19f60c67fe7913aa5da65",
+    "height": 719,
+    "sha256": "a150c25d7b65d8cba5d3087aa2f6ea02b0e3ccb446548d9922e77b3d75fdfeb5",
     "sourcePath": "/characters/bunny/hands-back-latest.webp",
-    "sourceSha256": "2f8a57ca3590f826e77ad45b9e5e763472b51dd64bc0f02675bb89e1b6cd1f03"
+    "sourceSha256": "04d9bb71f5472aa8e6d52b82de9fec5f5cc8b4da955143e2d0bacd735ea87023"
   },
   "bunny/hands-front-latest": {
     "path": "/site/thumbs/bunny/hands-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "c12afc3410ab9726ecbe1008b5f6cd85c0e7e208721ea6b83a0037f6e1172969",
+    "height": 719,
+    "sha256": "7c822fc648955a4632f9f9f3887052d62114ad2357c148feee1b59c94b58c8f1",
     "sourcePath": "/characters/bunny/hands-front-latest.webp",
-    "sourceSha256": "d20cc545b3e84e07517c52b68ebcbad8fe7acc45a12109264153211c6b024549"
+    "sourceSha256": "77fbe449b5f8572db806b2c5e8055453e39c25d92c3fb47fd4a67929912b17de"
   },
   "bunny/hands-gloves-board-latest": {
     "path": "/site/thumbs/bunny/hands-gloves-board-latest.webp",
@@ -194,10 +322,42 @@
   "bunny/hands-side-latest": {
     "path": "/site/thumbs/bunny/hands-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "2e37b2623da38bc65759bde50cd45e1b9b6e854d98a97a2cb69be4b7b0ab4641",
+    "height": 719,
+    "sha256": "69513554d8e9b204ce3ce43e6e2ff25e49236b01f6312299af4e59de5d2c16c5",
     "sourcePath": "/characters/bunny/hands-side-latest.webp",
-    "sourceSha256": "abae3ac43554d7389f8cdf26d00410ed90037618388b27f816f0b9dd93d123c5"
+    "sourceSha256": "df07b2e05c11ef35813fd8f44615e7fce5f3ff8ab69d6e3877e95df5b051f6bc"
+  },
+  "bunny/hands-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/hands-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "68273fdc7b423f7f21cd642e32f8459b5761c3bfb4e6113df865a979763a9043",
+    "sourcePath": "/characters/bunny/hands-tpose-back-latest.webp",
+    "sourceSha256": "0dcf1dfe283a221a7c8c53e4bf0eb34cb1b7db489fc470d56a655529cb261a95"
+  },
+  "bunny/hands-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/hands-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "a8693013b423eea968c93a3c5194bc7a7825551c8419b440c3b39f55131693af",
+    "sourcePath": "/characters/bunny/hands-tpose-front-latest.webp",
+    "sourceSha256": "bbcc7d8abb3c51601559d180ff5d38d619ca331789a9e3adab75512fec7df008"
+  },
+  "bunny/hands-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/hands-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "a11ad35db891553b2278d93b4cedf2574cbe848509c00e634342ff0b28772f20",
+    "sourcePath": "/characters/bunny/hands-tpose-left-latest.webp",
+    "sourceSha256": "0cca4e5f185df02b30680217d6f919380cce8976c2026fbb1e79289344383ebc"
+  },
+  "bunny/hands-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/hands-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "34bc1c258220140a375763083a8c0d545d33c2e883de5c0ab3c1e7f9b6431865",
+    "sourcePath": "/characters/bunny/hands-tpose-right-latest.webp",
+    "sourceSha256": "37d2235e7d52c6ad86f383f1ebdafe0ae653258c0f5fce0cfca80baa9a7fa14e"
   },
   "bunny/hands-wrist-board-latest": {
     "path": "/site/thumbs/bunny/hands-wrist-board-latest.webp",
@@ -218,10 +378,10 @@
   "bunny/hosiery-back-latest": {
     "path": "/site/thumbs/bunny/hosiery-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "0a55e6f18b7e98255cc49babf79d7a2f9c0a3a5b463c52c89ca6e805cf2e4468",
+    "height": 719,
+    "sha256": "b83dfa1d5b5f20b66f3e8745ec809de733762691cd7fcc7965b92058ad85cc65",
     "sourcePath": "/characters/bunny/hosiery-back-latest.webp",
-    "sourceSha256": "749f53b1d64a842ce7969720f4caee24867910078a41e09b5c79dda476f24188"
+    "sourceSha256": "3cb3f40bac7763f9fbe5df1d5e209960d54867b4310678e7b6de68194310d144"
   },
   "bunny/hosiery-board-latest": {
     "path": "/site/thumbs/bunny/hosiery-board-latest.webp",
@@ -234,34 +394,66 @@
   "bunny/hosiery-front-latest": {
     "path": "/site/thumbs/bunny/hosiery-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "1c905257750acde9fdd2d77774e92781750655b4af621ac6d3ea9a89ab9ff5de",
+    "height": 719,
+    "sha256": "2650ef0dc72db9220829959d188a74d938bb6207b3c840ea802cfcde58811c7e",
     "sourcePath": "/characters/bunny/hosiery-front-latest.webp",
-    "sourceSha256": "f8472e0f028395157d83d30f7bc09d60f674d9dbf8d3b13677e13e8628591761"
+    "sourceSha256": "3124cd4e1b20411b866c9d465d35893fa69c953194e89eed5c8eb81209c3a688"
   },
   "bunny/hosiery-side-latest": {
     "path": "/site/thumbs/bunny/hosiery-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "507723f2f3b22c0ad058d09b75413cbf515577c2d2222d68650655a2e3f469e3",
+    "height": 719,
+    "sha256": "2b02857ad88cb32acebecb30e292fda6623799cf8713360c92d4bf0433bb7529",
     "sourcePath": "/characters/bunny/hosiery-side-latest.webp",
-    "sourceSha256": "4c0a800d2c7c0feaf2c84cb2eaab6b9274d9ec22852cf90a69faf74084f2660c"
+    "sourceSha256": "46065f4536600b35a1333272d27d9054986b484fe6939ca9ea81746e2dbdb7d9"
+  },
+  "bunny/hosiery-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/hosiery-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b61d29a966ef86dceb40eab91e7cca584d18538ee383cfbc1bbb503545ece88b",
+    "sourcePath": "/characters/bunny/hosiery-tpose-back-latest.webp",
+    "sourceSha256": "2e18671956250a6cd86015be6988d2301ad8bcd1d0e9960cf5ffd427bd54b821"
+  },
+  "bunny/hosiery-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/hosiery-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "3366a2ec87fb2da0ad9028f2dbfc1bd48b9663b628d822129eae623aa68d67d8",
+    "sourcePath": "/characters/bunny/hosiery-tpose-front-latest.webp",
+    "sourceSha256": "f34e17c7bc4f1da0d679f7786455797e5cffe79bc2062a3e19c898e383112a66"
+  },
+  "bunny/hosiery-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/hosiery-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "e96b16bd7570d31aa2762746788a0c852666f930e04d177e9cf72038cb16d0f2",
+    "sourcePath": "/characters/bunny/hosiery-tpose-left-latest.webp",
+    "sourceSha256": "0037dcffe226b9c15e4f21dfe6bd60d9a960dc0dfd06effc9e73384a36f08627"
+  },
+  "bunny/hosiery-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/hosiery-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c7dff8bf1dee3dd92b88a269b770fad02ca7c3551938fe33ac12e70966cd87b2",
+    "sourcePath": "/characters/bunny/hosiery-tpose-right-latest.webp",
+    "sourceSha256": "3e07268c8e4b464ecd899327c94eb8792c4af0d2ecb575df3ba71c7062bd55a0"
   },
   "bunny/innerwear-back-latest": {
     "path": "/site/thumbs/bunny/innerwear-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "a67cc5ded6102d87cdd727bff267183ad425fc58736dc7a53e6c67846e1c71a0",
+    "height": 719,
+    "sha256": "04d7265af06b9cb52edae0b5e9f48052d61b9a4a6272df169c8452bdb41ef760",
     "sourcePath": "/characters/bunny/innerwear-back-latest.webp",
-    "sourceSha256": "fb97381825a4a0efe57284bb0af134191a455885f36bd06d9a2bf96fe2d30c2b"
+    "sourceSha256": "5cda1dea806eb8b2af7eff045b71dfccdf0798102622e3beabced75ccca2f78c"
   },
   "bunny/innerwear-front-latest": {
     "path": "/site/thumbs/bunny/innerwear-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "f8213db31447f9a7a62854e8f7182faa54743a1f3c9c9f7de119094fa5357c1e",
+    "height": 719,
+    "sha256": "96e6a1fe841b21dd7b07c214c37f306d5b3d68c4f1f4384187f3711917014893",
     "sourcePath": "/characters/bunny/innerwear-front-latest.webp",
-    "sourceSha256": "66db06109d9fae31a57689fcb8ec19cc145164c78291a01f68b95777778ed0fa"
+    "sourceSha256": "07f09ac4231963fb51fdb68a710b8f4d9cd76e098b8e5a1fae6efb42fd478e1e"
   },
   "bunny/innerwear-shorts-board-latest": {
     "path": "/site/thumbs/bunny/innerwear-shorts-board-latest.webp",
@@ -274,10 +466,10 @@
   "bunny/innerwear-side-latest": {
     "path": "/site/thumbs/bunny/innerwear-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "5afda19ad19d92941d136cb97abc5edb5cea93460ee21bde9f34c71e3d25970f",
+    "height": 719,
+    "sha256": "17e0b1a6f9a07187e33ba9c87fd32dc5d6ffc02fc508922507ad97e51979f822",
     "sourcePath": "/characters/bunny/innerwear-side-latest.webp",
-    "sourceSha256": "7476de6c3d7ffdea964ce4f169ec12a50a87abd9e10083c21d8a59939d0c40f7"
+    "sourceSha256": "101fa00a74754a1f0c99bc8e24816cf4847ca88d4b9598b2f2f450e90ee7a94d"
   },
   "bunny/innerwear-top-board-latest": {
     "path": "/site/thumbs/bunny/innerwear-top-board-latest.webp",
@@ -287,21 +479,53 @@
     "sourcePath": "/characters/bunny/innerwear-top-board-latest.webp",
     "sourceSha256": "016c6a89983452c54c3c9459f29811c126c3714e3c118f797e35d8ea94dbc14f"
   },
+  "bunny/innerwear-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/innerwear-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "88d0532b80f6fb49881180cad965d8790b70bd0fca2af4836f0bb79824011d88",
+    "sourcePath": "/characters/bunny/innerwear-tpose-back-latest.webp",
+    "sourceSha256": "97ab80a494b559efc6a4cecea4baaaf3df725f12aa697f9e11b28ec10dc05bdc"
+  },
+  "bunny/innerwear-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/innerwear-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8a1a12720a939e2ee8e896ead5a70d5ecd00f70d82da205fa0db2eebfed5c192",
+    "sourcePath": "/characters/bunny/innerwear-tpose-front-latest.webp",
+    "sourceSha256": "c6b3d3f893b9b979b532642f1375ca3de4411941e23b5e3d78f2057503d72206"
+  },
+  "bunny/innerwear-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/innerwear-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "cbcea0814bcda17b3e573ba559bd225af2caef9833574777ef38b4a0da96f55d",
+    "sourcePath": "/characters/bunny/innerwear-tpose-left-latest.webp",
+    "sourceSha256": "ba4a609d86417c076f6c69046d5a4c94a00c38274d54656420f077a22df73cdb"
+  },
+  "bunny/innerwear-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/innerwear-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ef3e506f98440618df585fdcec784b1b98a7c229f13b84bf015d1f3369391ded",
+    "sourcePath": "/characters/bunny/innerwear-tpose-right-latest.webp",
+    "sourceSha256": "48e1d9179b8a79747b87f017eadea9cd3bd9f61c8bfcdaf19d4c1aa7915502aa"
+  },
   "bunny/jacket-back-latest": {
     "path": "/site/thumbs/bunny/jacket-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "fe386559f64be2417522604fe479c35ed27b656a440cf33dbe9e9bf8835d285c",
+    "height": 719,
+    "sha256": "516d454aabdd18a91a3fdbb89fee7df604136c8c920d8dfcef9a0f722690c28a",
     "sourcePath": "/characters/bunny/jacket-back-latest.webp",
-    "sourceSha256": "46b259d810bb66f8596dab601fb618d2b83fc5872280ba6746d108eef7cd49d9"
+    "sourceSha256": "2ef4d3c76f766ed05739d71338d990a2dd37b66d854226e5364908c5db9686db"
   },
   "bunny/jacket-board-latest": {
     "path": "/site/thumbs/bunny/jacket-board-latest.webp",
     "width": 480,
-    "height": 320,
-    "sha256": "4c408a3e158c32f5083ccae1971ad7967b10bf889e672bba10111cb7713013a8",
+    "height": 321,
+    "sha256": "2b990232bc9628e34aae232176aafb76f725ed9f236f5196c16cb8399b6d9b7d",
     "sourcePath": "/characters/bunny/jacket-board-latest.webp",
-    "sourceSha256": "766e1892e971e61d6c9e3a90cdc040a9c81a820569c6a9ccd2f4b1b777195719"
+    "sourceSha256": "4a2e7d08aa85b38643ebef1aa0efce097994e6d4c79f1ba978a769e99c057cdc"
   },
   "bunny/jacket-details-board-latest": {
     "path": "/site/thumbs/bunny/jacket-details-board-latest.webp",
@@ -314,26 +538,58 @@
   "bunny/jacket-front-latest": {
     "path": "/site/thumbs/bunny/jacket-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "3d64c853628e983f2c4d83b3439413feadcc701e17bbf8350f1cffce1c8c792c",
+    "height": 719,
+    "sha256": "c1cf2b836f1e82e9744d3b407d27237d97d8d97050341ecd01d595c7e5d42838",
     "sourcePath": "/characters/bunny/jacket-front-latest.webp",
-    "sourceSha256": "6dda61bd8ceb915bbf3a34df1d4fc72bbff8bdafa17b9ea3fb56ba4dfcbe4686"
+    "sourceSha256": "2bcb74ccd4ac4dcd33ff151dc92f9bfd29a29cb17b1a5f0706220605e4de2aa2"
   },
   "bunny/jacket-side-latest": {
     "path": "/site/thumbs/bunny/jacket-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "36450b0eb7f8853817bf250215ecda543326648d421adfeb5fc487782ba4d293",
+    "height": 719,
+    "sha256": "f54da8af56b5ad8d029039b17248bb84c8da7d57e92095d11911705b5b35e587",
     "sourcePath": "/characters/bunny/jacket-side-latest.webp",
-    "sourceSha256": "b86633a4e8c8ee8fdd30b036b13e70a974282215681607fa696bc2d27f38b8ba"
+    "sourceSha256": "9940e869a693bf43991c25924810f6b5024cff081a75c09cbf0473abb05c1807"
+  },
+  "bunny/jacket-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/jacket-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "efab2abcd8df34813f5d383180f334414b70e183cb2e67849d6e0a2540dcd8c7",
+    "sourcePath": "/characters/bunny/jacket-tpose-back-latest.webp",
+    "sourceSha256": "f2dff6f82774e67bcd3209a1d65f11c618126967fbac81eea4e2b6f16e3a1145"
+  },
+  "bunny/jacket-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/jacket-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "63a696bcd4df1c94a443271bc91caa62f47acddfb4944d7dd32dfa23568c41a2",
+    "sourcePath": "/characters/bunny/jacket-tpose-front-latest.webp",
+    "sourceSha256": "51aeca64170f75ba6c71b8eaa5538a2075427743569d2d42e842e2a460e912c2"
+  },
+  "bunny/jacket-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/jacket-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "197332a26630c5c5cd8049a9f96c85882a1af28c149e0e55c76865bf331462cd",
+    "sourcePath": "/characters/bunny/jacket-tpose-left-latest.webp",
+    "sourceSha256": "a19a4e91a6ba1bdfc5cbd2c37e40652f85c2565f5f6ad8f1c7a1131ce069ea90"
+  },
+  "bunny/jacket-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/jacket-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "afe06b062286bb57e1cf5622f77d9d5c25da800cb5a50e1eaab886316c737120",
+    "sourcePath": "/characters/bunny/jacket-tpose-right-latest.webp",
+    "sourceSha256": "480c95c878dc4c6df7917e43a1626b1c0994499531accf6addda926a9fd35184"
   },
   "bunny/shoes-back-latest": {
     "path": "/site/thumbs/bunny/shoes-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "056ba9ab7855d5e5a67394916f7c7e3c40e1ae094ae77f1f396786e9a0dfa16f",
+    "height": 719,
+    "sha256": "169d8886fa997c30eca470eeb0f79ebdc7de2cdc2b4ec157a89c268890f4f510",
     "sourcePath": "/characters/bunny/shoes-back-latest.webp",
-    "sourceSha256": "22fca0e9d20016b3b19c4d7e6fa7af7881603b988ef140900449c316531f3391"
+    "sourceSha256": "2248dfdb73866cc6d7bbdf2d7bc2299accde1f08254cf017d28292adca2a5c28"
   },
   "bunny/shoes-board-latest": {
     "path": "/site/thumbs/bunny/shoes-board-latest.webp",
@@ -346,18 +602,50 @@
   "bunny/shoes-front-latest": {
     "path": "/site/thumbs/bunny/shoes-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "f226ce9748ed0077b3afe0e250a488b9d59aa393f1d472eb85df014185487a1b",
+    "height": 719,
+    "sha256": "951caecdf235168d3cfd076dd08db9cda3f9d0ea951051b6964a37aa29f3c171",
     "sourcePath": "/characters/bunny/shoes-front-latest.webp",
-    "sourceSha256": "0dc1126571714aaa3c2405f7e212f91de132a29c1c6ffe9df31c9583c7c18e3f"
+    "sourceSha256": "5434f8857409983c3737865cfb7a70cfddc12f91a8b5b20364e73b495207e166"
   },
   "bunny/shoes-side-latest": {
     "path": "/site/thumbs/bunny/shoes-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "20edd9fee8c017e6d39f644909f1397b911d04b9653a057d429b3d94c01d6e06",
+    "height": 719,
+    "sha256": "d0743d20de7faef9139dbfb46b62d54bd6502d1395c5d0d309e4852801b92325",
     "sourcePath": "/characters/bunny/shoes-side-latest.webp",
-    "sourceSha256": "a934fd2a97cf3ead34d7e6520c64b56a6692f40fcbcca08f0a059e9d4756c1c4"
+    "sourceSha256": "bf9d639cd58e68ef6340f6d87aa4e6f40db15adc941c7693c8d56233dfbf09f9"
+  },
+  "bunny/shoes-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/shoes-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "3b10823f3d39f7fd27ea0e636e5bbf826db076a5d8ec05ff710a956fb2ff0a0a",
+    "sourcePath": "/characters/bunny/shoes-tpose-back-latest.webp",
+    "sourceSha256": "3e4dd3909ba5eaf3cc4136fcb7857ebe0bdd57e0b623f6299aa2b6d4fd1ea477"
+  },
+  "bunny/shoes-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/shoes-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8d408eb50b61373d0a955ad0b5c529cb1a158c9a4999ea447f7d3c8cb745d8d1",
+    "sourcePath": "/characters/bunny/shoes-tpose-front-latest.webp",
+    "sourceSha256": "6f01306fa7008a6f50ebdb6b72c47359bd3376f95a5cddeeb1a225db5d47c54d"
+  },
+  "bunny/shoes-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/shoes-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "a860bb62af83a9935fe41d79e0cdbed9b57e9576f3fe2086efa6b02fdb029bf6",
+    "sourcePath": "/characters/bunny/shoes-tpose-left-latest.webp",
+    "sourceSha256": "40449fd280b85fdf55e1087be2c57c70ca5569ff1a30a51bdf93b86bf7cbd718"
+  },
+  "bunny/shoes-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/shoes-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "44f2c3f43c08d3682162a55d117fb1733e90d37715b45cc732b31c63145aca29",
+    "sourcePath": "/characters/bunny/shoes-tpose-right-latest.webp",
+    "sourceSha256": "65a821ef6c1c4e24e1d1c6648e246da7b805fe576dad17605b8279765cbab003"
   },
   "bunny/structure20-lineart-latest": {
     "path": "/site/thumbs/bunny/structure20-lineart-latest.webp",
@@ -386,34 +674,34 @@
   "bunny/thigh-gear-back-latest": {
     "path": "/site/thumbs/bunny/thigh-gear-back-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "db28c0f44faf1198e7d7eca6b9493f58bc107f1b13cfbd2aa8e37f4967b35c4a",
+    "height": 719,
+    "sha256": "ef1f89c7b49f5ae134ed2625ff63922e5d62e942186662c53a73a9dd579080f4",
     "sourcePath": "/characters/bunny/thigh-gear-back-latest.webp",
-    "sourceSha256": "013c1f8aa45bb43b6bd01fa070e0074d905e6780ed08380076fcd70229a4d53c"
+    "sourceSha256": "17d6e008fd4ce721242aa7688f93b2c143c1c09e49f03d1ca4e6a1b7b17ddf3a"
   },
   "bunny/thigh-gear-front-latest": {
     "path": "/site/thumbs/bunny/thigh-gear-front-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "18a1c74088d2377213f14fc95966a74578e566b301f8fbd78a001f46df845fbb",
+    "height": 719,
+    "sha256": "ba307b853978e3459f5c6691c08536863769f22378e7de5a30b45c97cd7b7fc6",
     "sourcePath": "/characters/bunny/thigh-gear-front-latest.webp",
-    "sourceSha256": "7835b2eca9c3f10c1b2e7d09d865e60c7b796eeeb2818cc411afd3c2bf8bf2aa"
+    "sourceSha256": "b6c203bca45b37626e2ca250076385893f895c12f3c6a63b42fbe0caa4dd9cde"
   },
   "bunny/thigh-gear-pouch-board-latest": {
     "path": "/site/thumbs/bunny/thigh-gear-pouch-board-latest.webp",
     "width": 480,
-    "height": 320,
-    "sha256": "220b870c48aeda63aa89318f4ae392df09827c37933bd1def87b109d2f8b7253",
+    "height": 321,
+    "sha256": "af600effbda142689272c8747f8a161c2734d167e43247bc02cade96611be4da",
     "sourcePath": "/characters/bunny/thigh-gear-pouch-board-latest.webp",
-    "sourceSha256": "9822aeed78e7f87df512dba84c2c316adccb7ef36920dfbc49e1d89e85b712f8"
+    "sourceSha256": "f8df8798be03c29fc4206a1e83b42b9d7abd9defeb689d213eac6886e1e93a2c"
   },
   "bunny/thigh-gear-side-latest": {
     "path": "/site/thumbs/bunny/thigh-gear-side-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "51f26034b454b99daab06b6748cbfc7226a089a69f7d4ce3d7fec54e3d5d1621",
+    "height": 719,
+    "sha256": "53fe405e82b3585d914e13586af70d33b7f8ed56badd5ae877e1e14d5fa80cbf",
     "sourcePath": "/characters/bunny/thigh-gear-side-latest.webp",
-    "sourceSha256": "4d6ef3e29baea850b9e4634ec146f8eb2b93a7b9b1e505db7ded3b82cf2ae3c4"
+    "sourceSha256": "a6014808a6048a8c171d29d5811fe02fc72f54d336981ecc06c385d9fb3f08ff"
   },
   "bunny/thigh-gear-terminal-board-latest": {
     "path": "/site/thumbs/bunny/thigh-gear-terminal-board-latest.webp",
@@ -422,6 +710,38 @@
     "sha256": "042ac72530d209ca6aa2906ff35452a75a638124241a9f3de9adf9fc525a006c",
     "sourcePath": "/characters/bunny/thigh-gear-terminal-board-latest.webp",
     "sourceSha256": "71f61b74511fb95bd4ab62821ecd0afc26bbc715ad63dbbb343b332539f58d1e"
+  },
+  "bunny/thigh-gear-tpose-back-latest": {
+    "path": "/site/thumbs/bunny/thigh-gear-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "456afb63d15bdc1cba21639bb47645c95e0a85ac74187c074380de97719a7262",
+    "sourcePath": "/characters/bunny/thigh-gear-tpose-back-latest.webp",
+    "sourceSha256": "2df93fab0a215dc17ab008cf362913e13d54b4618a38c34a7e2ee8cfcd127448"
+  },
+  "bunny/thigh-gear-tpose-front-latest": {
+    "path": "/site/thumbs/bunny/thigh-gear-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "332504873bf769f3840d20c7f67fba083f4bed29054aab8eda9243a8fb135832",
+    "sourcePath": "/characters/bunny/thigh-gear-tpose-front-latest.webp",
+    "sourceSha256": "3d3d06756d2b607c8610efd517e62298130dde1ed74dcb11d938bbee4b763006"
+  },
+  "bunny/thigh-gear-tpose-left-latest": {
+    "path": "/site/thumbs/bunny/thigh-gear-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "31de186dd8d25ab3303dafda5b097b45155383ae57d621df43628ca42137e6a6",
+    "sourcePath": "/characters/bunny/thigh-gear-tpose-left-latest.webp",
+    "sourceSha256": "52d646608222f163021b25a4e7762556554a3fdcddb0c9a62ff56692959360de"
+  },
+  "bunny/thigh-gear-tpose-right-latest": {
+    "path": "/site/thumbs/bunny/thigh-gear-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "cc9920de9f44112cf77f4f04278b2d7674d188431a52609d50a4bbb10976d490",
+    "sourcePath": "/characters/bunny/thigh-gear-tpose-right-latest.webp",
+    "sourceSha256": "85e74839f88394c99812b2bd047385714059a6c6d6500a8e9c916214f7dbc15a"
   },
   "origins/bunny-original-latest": {
     "path": "/site/thumbs/origins/bunny-original-latest.webp",

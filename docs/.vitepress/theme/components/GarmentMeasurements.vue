@@ -4,7 +4,7 @@ import { withBase } from 'vitepress'
 import ReleaseImage from './ReleaseImage.vue'
 import { data as siteData } from '../../data/bunny-site.data.mjs'
 import { createDisplayTextLookup, garmentMeasurementScope, selectMeasurementMetric, selectMeasurementSource } from '../bunny-site.mjs'
-import { formatNumber, formatTarget, garmentCanvasSize } from './garment-measurements.mjs'
+import { formatNumber, garmentCanvasSize } from './garment-measurements.mjs'
 
 const props = defineProps({
   data: { type: Object, required: true },
@@ -25,6 +25,22 @@ function garmentViewLabel(view) {
   if (!label) throw new Error(`Missing garment view label: ${view}`)
   return label
 }
+const negateBound = (value) => Number.isFinite(value) ? -value : null
+function targetNumber(value) {
+  const fixed = value.toFixed(2)
+  return Number(fixed) === 0 ? '0.00' : fixed.replace(/^-/, '−')
+}
+function formatTarget(target) {
+  if (!target) return '仅记录'
+  const hasMin = Number.isFinite(target.min)
+  const hasMax = Number.isFinite(target.max)
+  if (!hasMin && !hasMax) return '仅记录'
+  if (!hasMin) return `≤ ${targetNumber(target.max)} h₀`
+  if (!hasMax) return `≥ ${targetNumber(target.min)} h₀`
+  const separator = target.min < 0 || target.max < 0 ? ' 至 ' : '–'
+  return `${targetNumber(target.min)}${separator}${targetNumber(target.max)} h₀`
+}
+const rowTarget = (row) => row.target ? formatTarget(row.target) : displayText(row.targetText)
 const standards = computed(() => {
   const groups = new Map()
   for (const [view, targets] of Object.entries(props.data.targets)) for (const [id, target] of Object.entries(targets)) {
@@ -32,7 +48,7 @@ const standards = computed(() => {
     const key = JSON.stringify([id, target.min, target.max, target.nominal ?? null])
     const isExposure = id === 'jacketWhiteOffset' && view === 'back'
     const label = id === 'jacketWhiteOffset' ? (isExposure ? '后中露白' : '前襟盖过白衣') : props.data.metrics[id].label
-    const displayed = isExposure ? { ...target, min: -target.max, max: -target.min, nominal: -target.nominal } : target
+    const displayed = isExposure ? { ...target, min: negateBound(target.max), max: negateBound(target.min), nominal: negateBound(target.nominal) } : target
     if (!groups.has(key)) groups.set(key, { key, id, label, metric: props.data.metrics[id], target, displayed, views: [] })
     groups.get(key).views.push(garmentViewLabel(view))
   }
@@ -66,15 +82,15 @@ const coverage = (id) => ({ core_native_read_points: '原尺寸取点', provisio
     </div>
     <div class="garment-measurements__standards">
       <table>
-        <caption>固定设计尺寸</caption>
-        <thead><tr><th>尺寸</th><th>设计值与范围</th><th>适用视角</th></tr></thead>
-        <tbody><tr v-for="row in mainStandards" :key="row.key"><th>{{ displayText(row.label) }}</th><td><strong>{{ row.displayed.nominal === undefined ? formatTarget(row.displayed) : ratio(row.displayed.nominal) }}</strong><small v-if="row.displayed.nominal !== undefined">范围 {{ formatTarget(row.displayed) }}</small></td><td>{{ row.views.join(' / ') }}</td></tr></tbody>
+        <caption>固定设计目标</caption>
+        <thead><tr><th>尺寸</th><th>设计目标范围</th><th>适用视角</th></tr></thead>
+        <tbody><tr v-for="row in mainStandards" :key="row.key"><th>{{ displayText(row.label) }}</th><td><strong>{{ formatTarget(row.displayed) }}</strong><small v-if="Number.isFinite(row.displayed.nominal)">区间中值 {{ ratio(row.displayed.nominal) }}</small></td><td>{{ row.views.join(' / ') }}</td></tr></tbody>
       </table>
       <div v-if="otherStandards.length" class="garment-measurements__other">
         <p class="garment-measurements__lead"><strong>其余衣物投影尺寸</strong></p>
-        <table><thead><tr><th>尺寸</th><th>设计范围</th><th>适用视角</th></tr></thead><tbody><tr v-for="row in otherStandards" :key="row.key"><th>{{ displayText(row.metric.label) }}</th><td>{{ formatTarget(row.target) }}</td><td>{{ row.views.join(' / ') }}</td></tr></tbody></table>
+        <table><thead><tr><th>尺寸</th><th>设计目标范围</th><th>适用视角</th></tr></thead><tbody><tr v-for="row in otherStandards" :key="row.key"><th>{{ displayText(row.metric.label) }}</th><td>{{ formatTarget(row.target) }}</td><td>{{ row.views.join(' / ') }}</td></tr></tbody></table>
       </div>
-      <p class="garment-measurements__note">以上是选定款式的目标。下表记录图面读数与标准的偏差，读数不会反过来修改标准。</p>
+      <p class="garment-measurements__note">以上是选定款式的设计目标。下表记录图面读数与设计目标的偏差，读数不会反过来修改设计目标。</p>
       <p v-if="data.scopeSummary && scoped.hasRulers" class="garment-measurements__note">标尺覆盖白衣红裤和夹克的六张原图。其他衣层用于偏差筛查，估读不代表逐点测量通过。</p>
     </div>
     <template v-if="scoped.hasRulers">
@@ -97,18 +113,18 @@ const coverage = (id) => ({ core_native_read_points: '原尺寸取点', provisio
         </div>
         <div class="garment-measurements__readings">
           <table>
-            <caption>{{ displayText(current.label) }} · 规范与观测分列</caption>
-            <thead><tr><th scope="col">尺寸</th><th scope="col">规范区间</th><th scope="col">原图观测</th><th scope="col">核对</th></tr></thead>
+            <caption>{{ displayText(current.label) }} · 设计目标、参照与观测分列</caption>
+            <thead><tr><th scope="col">尺寸</th><th scope="col">设计目标或参照</th><th scope="col">原图观测</th><th scope="col">核对</th></tr></thead>
             <tbody>
               <tr v-for="row in current.rows" :key="row.id">
                 <th scope="row"><small>{{ displayText(row.symbol) }}</small>{{ displayText(row.label) }}</th>
-                <td>{{ displayText(row.targetText) }}</td>
+                <td>{{ rowTarget(row) }}</td>
                 <td>{{ ratio(row.normalized) }}<small>{{ row.px === null ? displayText(row.reason) : `${formatNumber(row.px, 1)} 原图 px` }}</small></td>
                 <td><span class="garment-measurements__status" :data-status="row.status">{{ row.statusLabel }}</span></td>
               </tr>
             </tbody>
           </table>
-          <p class="garment-measurements__note">判定采用含取点与标定尺度误差的区间。区间跨过规范边界时标为“待复核”；遮挡不从其他视角补值。</p>
+          <p class="garment-measurements__note">判定采用含取点与标定尺度误差的区间。区间跨过设计目标边界时标为“待复核”；遮挡不从其他视角补值。</p>
           <div v-if="current.derived.length" class="garment-measurements__derived">
             <strong>基准推算 · 非同图实测</strong>
             <p>白衣边缘被外套挡住时，下面只使用内层原图的真实边点作参考。它与上表的遮挡状态分别记录。</p>
@@ -147,9 +163,9 @@ const coverage = (id) => ({ core_native_read_points: '原尺寸取点', provisio
       </select>
       <div class="garment-measurements__scroll">
         <table>
-          <caption>每张图使用自己的可见取点与同视角规范</caption>
-          <thead><tr><th>原图</th><th>观测</th><th>含误差区间</th><th>规范区间</th><th>核对</th></tr></thead>
-          <tbody><tr v-for="item in comparison" :key="`${item.model.id}-${item.kind}`"><th><a :href="withBase(item.model.resources.original)" target="_blank" rel="noopener noreferrer">{{ displayText(item.model.label) }} ↗</a><small>{{ item.kind === 'derived' ? '基准推算 · 非同图实测' : coverage(item.model.id) }}</small></th><td>{{ ratio(item.row.normalized) }}</td><td>{{ interval(item.row.interval) }}</td><td>{{ displayText(item.row.targetText) }}</td><td><span class="garment-measurements__status" :data-status="item.row.status">{{ item.row.statusLabel }}</span><small v-if="item.row.reason">{{ displayText(item.row.reason) }}</small></td></tr></tbody>
+          <caption>每张图使用自己的可见取点与同视角设计目标或参照</caption>
+          <thead><tr><th>原图</th><th>观测</th><th>含误差区间</th><th>设计目标或参照</th><th>核对</th></tr></thead>
+          <tbody><tr v-for="item in comparison" :key="`${item.model.id}-${item.kind}`"><th><a :href="withBase(item.model.resources.original)" target="_blank" rel="noopener noreferrer">{{ displayText(item.model.label) }} ↗</a><small>{{ item.kind === 'derived' ? '基准推算 · 非同图实测' : coverage(item.model.id) }}</small></th><td>{{ ratio(item.row.normalized) }}</td><td>{{ interval(item.row.interval) }}</td><td>{{ rowTarget(item.row) }}</td><td><span class="garment-measurements__status" :data-status="item.row.status">{{ item.row.statusLabel }}</span><small v-if="item.row.reason">{{ displayText(item.row.reason) }}</small></td></tr></tbody>
         </table>
       </div>
     </div>

@@ -38,7 +38,7 @@ function parseHome(value) {
     tabs: list(home.tabs).map((entry) => {
       const tab = record(entry)
       const key = text(tab.key)
-      if (key !== 'scene' && key !== 'three' && key !== 'line') throw new Error(`Invalid hero tab: ${key}`)
+      if (key !== 'scene' && key !== 'three' && key !== 'tpose' && key !== 'line') throw new Error(`Invalid hero tab: ${key}`)
       return { key, label: text(tab.label), caption: text(tab.caption), assets: list(tab.assets).map(text) }
     }),
     highlights: list(home.highlights).map((entry) => {
@@ -63,8 +63,10 @@ function parseHome(value) {
 function parseLayers(value) {
   return list(value).map((entry) => {
     const layer = record(entry)
+    const tpose = record(layer.tpose)
     return {
       layer: number(layer.layer), name: text(layer.name), path: text(layer.path), front: text(layer.front), side: text(layer.side), back: text(layer.back),
+      tpose: { front: text(tpose.front), right: text(tpose.right), back: text(tpose.back), left: text(tpose.left) },
       summary: text(layer.summary), facts: parseFacts(layer.facts), leftRight: text(layer.leftRight),
     }
   })
@@ -86,7 +88,7 @@ function load() {
   const ids = [
     ...home.tabs.flatMap((tab) => tab.assets),
     ...home.highlights.map((entry) => entry.asset),
-    ...layers.flatMap((layer) => [layer.front, layer.side, layer.back]),
+    ...layers.flatMap((layer) => [layer.front, layer.side, layer.back, ...Object.values(layer.tpose)]),
   ]
   for (const id of ids) assetById(assets, id)
   return { assets, home, layers, anchorMap, displayText }

@@ -6,7 +6,7 @@ import { tmpdir } from 'node:os'
 import { dirname, join, resolve } from 'node:path'
 import { promisify } from 'node:util'
 import test from 'node:test'
-import { measurementModel, renderMeasurementSvg } from '../docs/.vitepress/theme/components/body-measurements.mjs'
+import { bodyCanvasSize, measurementModel, renderMeasurementSvg } from '../docs/.vitepress/theme/components/body-measurements.mjs'
 
 const fixture = () => ({ views: {
   front: {
@@ -61,6 +61,34 @@ test('on-page and standalone SVG share identical geometry and labels, differing 
   assert.match(offline, /S 300 px/)
   assert.match(offline, /x1="350" y1="300" x2="650" y2="300"/)
   assert.doesNotMatch(offline, /<script|href="https?:/)
+})
+
+test('native 4K landmarks remain exact while annotation typography, gutters and canvas scale together', () => {
+  const data = fixture()
+  const before = renderMeasurementSvg(data, 'front', '/characters/test.webp')
+  assert.match(before, /font-size="27"/)
+  assert.match(before, /stroke-width="3"/)
+  const view = data.views.front
+  view.source = { width: 2352, height: 3520 }
+  // Deliberately independent native readings, not a multiplied low-resolution fixture.
+  view.height = { crownY: 61, floorY: 3437, definition: '原像素独立读数' }
+  view.landmarks = { chin: { y: 537 }, shoulder: { y: 721 }, waist: { y: 1217 }, crotch: { y: 1693 } }
+  view.widths.shoulder = { xLeft: 863, xRight: 1498, y: 721, definition: '原像素指定截线' }
+  const scale = 3520 / 1536
+  const model = measurementModel(data, 'front')
+  const svg = renderMeasurementSvg(data, 'front', '/characters/test.webp')
+  const canvas = bodyCanvasSize(model)
+  assert.equal(model.H, 3376)
+  assert.match(svg, /x1="863" y1="721" x2="1498" y2="721"/)
+  assert.ok(svg.includes(`font-size="61.875"`))
+  assert.ok(svg.includes(`stroke-width="6.875"`))
+  assert.ok(svg.includes(`x1="165" y1="61"`))
+  assert.ok(svg.includes(`viewBox="0 -252.083 2352 ${canvas.height}"`))
+  assert.ok(svg.includes(`width="2352" height="3520" preserveAspectRatio="xMidYMid meet"`))
+  assert.doesNotMatch(svg, /-?\d+\.\d{4,}/)
+  const oldCanvas = bodyCanvasSize(measurementModel(fixture(), 'front'))
+  assert.equal(canvas.height, Number((oldCanvas.height * scale).toFixed(3)))
+  assert.equal(svg.replace('/characters/test.webp', 'data:image/webp;base64,dGVzdA=='), renderMeasurementSvg(data, 'front', 'data:image/webp;base64,dGVzdA=='))
 })
 
 test('a side depth belongs to its specified section and never becomes a front/back width ratio', () => {

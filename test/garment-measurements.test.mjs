@@ -152,6 +152,28 @@ test('self-contained SVG preserves the source image area and does not add marks 
   assert.throws(() => garmentModel(data, 'front'), /Invalid garment resource/)
 })
 
+test('4K garment rulers scale annotation layout and reserved canvas without scaling native endpoints', () => {
+  const data = fixture()
+  const original = garmentCanvasSize(garmentModel(data, 'front'))
+  data.sources.front.source = { width: 2352, height: 3520 }
+  data.sources.front.measurements[0].points = [[961, 708], [976, 1153]]
+  const scale = 3520 / 1536
+  const model = garmentModel(data, 'front')
+  const canvas = garmentCanvasSize(model)
+  const svg = renderGarmentSvg(data, 'front', '/characters/source.webp')
+  assert.equal(model.rows[0].px, 445)
+  assert.match(svg, /cx="961" cy="708"/)
+  assert.match(svg, /cx="976" cy="1153"/)
+  assert.ok(svg.includes(`x1="123.75" y1="708" x2="123.75" y2="1153"`))
+  assert.ok(svg.includes(`font-size="50.417"`))
+  assert.ok(svg.includes(`stroke-width="5.729"`))
+  assert.ok(svg.includes(`viewBox="0 -229.167 2352 ${canvas.height}"`))
+  assert.ok(svg.includes(`width="2352" height="3520" preserveAspectRatio="xMidYMid meet"`))
+  assert.doesNotMatch(svg, /-?\d+\.\d{4,}/)
+  assert.equal(canvas.height, Number((original.height * scale).toFixed(3)))
+  assert.equal(svg.replace('/characters/source.webp', 'data:image/webp;base64,dGVzdA=='), renderGarmentSvg(data, 'front', 'data:image/webp;base64,dGVzdA=='))
+})
+
 test('builder binds artwork and body hashes, embeds exact web bytes and detects stale annotation exports', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'garment-measurement-test-'))
   t.after(() => rm(root, { recursive: true, force: true }))

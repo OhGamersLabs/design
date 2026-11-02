@@ -3,33 +3,33 @@
   "status": "accepted-measurement",
   "createdAt": "2026-10-24",
   "conventions": {
-    "coordinates": "原尺寸 1024×1536，左上原点，x向右、y向下。",
+    "coordinates": "原尺寸 2352×3520，左上原点，x向右、y向下；以下均为最终PNG原生像素。",
     "heightFormula": "H = floorY - crownY",
     "widthFormula": "W = xRight - xLeft",
     "lengthFormula": "L = y(to) - y(from)",
     "normalizedFormula": "value/H；位置=(y-crownY)/H",
     "noInclusivePixelCount": true,
     "headRatio": "可见发冠至下颏包含发量，不估隐藏颅顶；各视角独立。",
-    "edgeConvention": "可见轮廓主描线中心附近，忽略最外微弱抗锯齿；冠顶和足底使用可见主描线极值，留±2 px。",
+    "edgeConvention": "可见轮廓主描线中心附近，忽略最外微弱抗锯齿；发冠和足底使用可见主描线极值。最终图描线厚约3–6 px，端点容差按各部位重新估读。",
     "precision": "取点容差为图面估读，不是统计置信区间。宽度容差指线段总宽度；各水平截面的 y 是明确指定位置。",
     "not3D": "图面投影不推断围度、杯码、隐藏骨点或厘米尺寸。",
-    "toleranceDetail": "width.tolerancePx是指定水平线段总宽度的约略容差；landmark.tolerancePx是该高度取点容差。肩线y约±5 px的语义范围内，宽度可能变化，换线需重读，不能把整个范围的宽度视为常数。",
+    "toleranceDetail": "width.tolerancePx是指定水平线段总宽度的约略容差；landmark.tolerancePx是该高度取点容差。肩线的语义转折范围宽于描线厚度，换线需重新读取，不能把整个范围的宽度视为常数。",
     "independentViews": "三视分别读取自身发冠、足底和可见轮廓，保留图面投影差异，不拉伸对齐或假定完美正投影。"
   },
   "views": {
     "front": {
       "source": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-ear-hair-20261024/fronts/base-front-native-v4.png",
-        "sha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
-        "width": 1024,
-        "height": 1536
+        "path": ".release/bunny/body-front-latest.png",
+        "sha256": "69a04fa0bf7091b1524346d47041e41bf39576ce9648a6d24f7058670af254ab",
+        "width": 2352,
+        "height": 3520
       },
       "status": "accepted-measurement",
       "height": {
-        "crownY": 25,
-        "floorY": 1500,
-        "definition": "本图可见发冠最高主描线至赤脚接地最低主描线；包含发量，不估隐藏颅顶。",
-        "tolerancePx": 2
+        "crownY": 106,
+        "floorY": 3203,
+        "definition": "最终原图可见发冠最高主描线中心至赤脚接地最低主描线中心；包含发量，不估隐藏颅顶。",
+        "tolerancePx": 3
       },
       "landmarks": {
         "skullVertex": {
@@ -37,107 +37,109 @@
           "definition": "头发遮挡解剖颅顶，本页不估颅顶。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "头发遮挡解剖颅顶，本页不估颅顶。"
+          "reason": "头发遮挡解剖颅顶，本页不估颅顶。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "shoulderJoint": {
           "y": null,
           "definition": "肩关节中心不是可见轮廓点，本页不推测骨架中心。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "肩关节中心不是可见轮廓点，本页不推测骨架中心。"
+          "reason": "肩关节中心不是可见轮廓点，本页不推测骨架中心。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "chin": {
-          "y": 250,
+          "y": 576,
           "definition": "下颏最低可见主描线中心。",
           "visibility": "visible",
-          "tolerancePx": 2,
-          "x": 515
+          "tolerancePx": 3,
+          "x": 1181
         },
         "shoulder": {
-          "y": 320,
+          "y": 725,
           "definition": "肩部转向上臂的可见转折区的指定水平截线，不是肩关节中心。",
           "visibility": "visible",
-          "tolerancePx": 5
-        },
-        "chest": {
-          "y": 415,
-          "definition": "为文胸杯外缘投影宽度指定的水平截线；不是最大裸胸宽或乳点高度。",
-          "visibility": "visible",
-          "tolerancePx": 3
-        },
-        "waist": {
-          "y": 530,
-          "definition": "自然腰最窄躯干区的中部；本新图主轮廓最窄平台约 y524–536，不含双臂。",
-          "visibility": "visible",
-          "tolerancePx": 10
-        },
-        "crotch": {
-          "y": 728,
-          "definition": "黑内搭下端之后两腿间白隙的可见起点；不是骨盆关节或臀下折。",
-          "visibility": "visible",
-          "tolerancePx": 3,
-          "x": 510
-        },
-        "knee": {
-          "y": 1055,
-          "definition": "由双膝前方色块与轮廓转折提示的膝参考高度；不是骨关节中心，取点约在可见转折区中部。",
-          "visibility": "estimated",
           "tolerancePx": 15
         },
-        "ankle": {
-          "y": 1405,
-          "definition": "双踝可见骨性起伏区的参考高度，不当作精确关节中心。",
+        "chest": {
+          "y": 960,
+          "definition": "为文胸杯外缘投影宽度指定的水平截线；不是最大裸胸宽或乳点高度。",
+          "visibility": "visible",
+          "tolerancePx": 6
+        },
+        "waist": {
+          "y": 1165,
+          "definition": "最终原图自然腰最窄躯干区中部；不含两侧手臂，指定 y1165。",
+          "visibility": "visible",
+          "tolerancePx": 15
+        },
+        "crotch": {
+          "y": 1578,
+          "definition": "黑内搭下端之后两腿间白隙的可见起点；不是骨盆关节或臀下折。",
+          "visibility": "visible",
+          "tolerancePx": 4,
+          "x": 1173
+        },
+        "knee": {
+          "y": 2280,
+          "definition": "双膝前方阴影转折区约 y2245–2315 的中部参考线；不是骨关节中心。",
           "visibility": "estimated",
-          "tolerancePx": 12
+          "tolerancePx": 35
+        },
+        "ankle": {
+          "y": 2997,
+          "definition": "双踝侧方骨性起伏处约 y2973–3021 的中部参考线；不是精确关节中心。",
+          "visibility": "estimated",
+          "tolerancePx": 24
         }
       },
       "widths": {
         "shoulder": {
-          "xLeft": 378,
-          "xRight": 646,
-          "y": 320,
+          "xLeft": 892,
+          "xRight": 1459,
+          "y": 725,
           "definition": "指定肩参考截线上两侧外轮廓主描线中心之间。",
           "visibility": "visible",
-          "tolerancePx": 4
+          "tolerancePx": 6
         },
         "chest": {
-          "xLeft": 413,
-          "xRight": 611,
-          "y": 415,
-          "definition": "文胸杯外缘在 y415 指定截面的图面宽度；不计外侧腋前肤线，不是最大裸胸宽、胸围或杯码。",
+          "xLeft": 961,
+          "xRight": 1392,
+          "y": 960,
+          "definition": "文胸杯外缘在 y960 指定截面的图面宽度；不计外侧腋前肤线，不是最大裸胸宽、胸围或杯码。",
           "visibility": "visible",
-          "tolerancePx": 3
+          "tolerancePx": 6
         },
         "waist": {
-          "xLeft": 436,
-          "xRight": 588,
-          "y": 530,
+          "xLeft": 1015,
+          "xRight": 1336,
+          "y": 1165,
           "definition": "自然腰最窄区的躯干外轮廓主描线中心之间，不含双臂。",
           "visibility": "visible",
-          "tolerancePx": 3,
+          "tolerancePx": 5,
           "searchRangeY": [
-            515,
-            550
+            1120,
+            1210
           ],
           "minimumPlateauY": [
-            524,
-            536
+            1156,
+            1176
           ]
         },
         "hip": {
-          "xLeft": 378,
-          "xRight": 643,
-          "y": 733,
+          "xLeft": 894,
+          "xRight": 1451,
+          "y": 1590,
           "definition": "胯与腿根较宽平台中部的水平投影，不等于髂骨宽或臀围。",
           "visibility": "visible",
-          "tolerancePx": 3,
+          "tolerancePx": 6,
           "searchRangeY": [
-            700,
-            770
+            1510,
+            1660
           ],
           "maximumPlateauY": [
-            725,
-            735
+            1581,
+            1594
           ]
         }
       },
@@ -186,17 +188,17 @@
     },
     "side": {
       "source": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-side-native-v1.png",
-        "sha256": "c4ca73b3f865a6c2018e8db398dcd4ebc92cfe134389dfd63a9b9af33698e83b",
-        "width": 1024,
-        "height": 1536
+        "path": ".release/bunny/body-side-latest.png",
+        "sha256": "6e32a08c6353e1abeea307fa7400415dc29567c24f3d1746f76162d505eadeac",
+        "width": 2352,
+        "height": 3520
       },
       "status": "accepted-measurement",
       "height": {
-        "crownY": 24,
-        "floorY": 1491,
-        "definition": "本视图可见发冠最高主描线至赤脚接地最低主描线；按此新原图独立读取。",
-        "tolerancePx": 2
+        "crownY": 102,
+        "floorY": 3182,
+        "definition": "最终原图可见发冠最高主描线中心至赤脚接地最低主描线中心；包含发量，不估隐藏颅顶。",
+        "tolerancePx": 3
       },
       "landmarks": {
         "skullVertex": {
@@ -204,56 +206,63 @@
           "definition": "头发遮挡解剖颅顶，不作颅顶估计。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "头发遮挡解剖颅顶，不作颅顶估计。"
+          "reason": "头发遮挡解剖颅顶，不作颅顶估计。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "shoulderJoint": {
           "y": null,
           "definition": "肩关节中心不可见，不推测骨架中心。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "肩关节中心不可见，不推测骨架中心。"
+          "reason": "肩关节中心不可见，不推测骨架中心。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "chin": {
-          "y": 242,
+          "y": 560,
           "definition": "侧面可见下颏最低转折的主描线中心。",
           "visibility": "visible",
-          "tolerancePx": 3,
-          "x": 576
+          "tolerancePx": 4,
+          "x": 1303
         },
         "shoulder": {
           "y": null,
           "definition": "侧肩与上臂为连续轮廓，不读取左右肩宽或推断肩关节中心。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "侧肩与上臂为连续轮廓，不读取左右肩宽或推断肩关节中心。"
+          "reason": "侧肩与上臂为连续轮廓，不读取左右肩宽或推断肩关节中心。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "waist": {
           "y": null,
           "definition": "后腰轮廓被前景手臂遮挡，不能定位真实最窄腰厚截面。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "后腰轮廓被前景手臂遮挡，不能定位真实最窄腰厚截面。"
+          "reason": "后腰轮廓被前景手臂遮挡，不能定位真实最窄腰厚截面。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "crotch": {
           "y": null,
           "definition": "侧面裆下被前景手臂与两腿重叠遮挡。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "侧面裆下被前景手臂与两腿重叠遮挡。"
+          "reason": "侧面裆下被前景手臂与两腿重叠遮挡。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "knee": {
           "y": null,
-          "definition": "本轮不拟侧面膝关节中心；主要纵向长度以正面可见代理点记录。",
+          "definition": "侧面图不能可靠定位膝关节中心；主要纵向长度以正面可见代理点记录。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "本轮不拟侧面膝关节中心；主要纵向长度以正面可见代理点记录。"
+          "reason": "侧面图不能可靠定位膝关节中心；主要纵向长度以正面可见代理点记录。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "ankle": {
           "y": null,
-          "definition": "本轮不拟侧面踝关节中心；主要纵向长度以正面可见代理点记录。",
+          "definition": "侧面图不能可靠定位踝关节中心；主要纵向长度以正面可见代理点记录。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "本轮不拟侧面踝关节中心；主要纵向长度以正面可见代理点记录。"
+          "reason": "侧面图不能可靠定位踝关节中心；主要纵向长度以正面可见代理点记录。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         }
       },
       "widths": {
@@ -264,7 +273,8 @@
           "definition": "侧面不读取左右肩宽。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "侧面不读取左右肩宽。"
+          "reason": "侧面不读取左右肩宽。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "waist": {
           "xLeft": null,
@@ -273,7 +283,8 @@
           "definition": "真实后腰被手臂遮挡，不能把手臂后缘当作腰后缘。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "真实后腰被手臂遮挡，不能把手臂后缘当作腰后缘。"
+          "reason": "真实后腰被手臂遮挡，不能把手臂后缘当作腰后缘。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "hip": {
           "xLeft": null,
@@ -282,7 +293,8 @@
           "definition": "侧面不读取左右胯宽；另记录可见指定水平截面的前后投影深度。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "侧面不读取左右胯宽；另记录可见指定水平截面的前后投影深度。"
+          "reason": "侧面不读取左右胯宽；另记录可见指定水平截面的前后投影深度。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         }
       },
       "lengths": {
@@ -300,7 +312,8 @@
           "definition": "胸前投影可见，但同水平的躯干后缘被手臂遮挡，不赋精确胸深。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "胸前投影可见，但同水平的躯干后缘被手臂遮挡，不赋精确胸深。"
+          "reason": "胸前投影可见，但同水平的躯干后缘被手臂遮挡，不赋精确胸深。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "waist": {
           "xLeft": null,
@@ -309,19 +322,20 @@
           "definition": "腰前缘可见，后腰被前景手臂遮挡，不以手臂后缘代替。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "腰前缘可见，后腰被前景手臂遮挡，不以手臂后缘代替。"
+          "reason": "腰前缘可见，后腰被前景手臂遮挡，不以手臂后缘代替。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "hip": {
-          "xLeft": 420,
-          "xRight": 584,
-          "y": 680,
-          "definition": "侧臀区 y680 指定截面的可见前后外轮廓，含黑内搭投影；左为后缘、右为前缘，不是最大臀深、隐藏骨盆尺寸或臀围。",
+          "xLeft": 986,
+          "xRight": 1329,
+          "y": 1460,
+          "definition": "侧臀区 y1460 指定截面的可见前后外轮廓，含黑内搭投影；左为后缘、右为前缘，不是最大臀深、隐藏骨盆尺寸或臀围。",
           "visibility": "visible",
-          "tolerancePx": 3,
+          "tolerancePx": 6,
           "axis": "depth",
           "searchRangeY": [
-            665,
-            690
+            1440,
+            1490
           ]
         }
       },
@@ -333,17 +347,17 @@
     },
     "back": {
       "source": {
-        "path": "/Users/roy/.codex/visualizations/2026/10/23/01a16879-0ed4-7f53-a6f4-b89316cae859/bunny-fresh-cel-20261024/fresh-base-back-native-v3.png",
-        "sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
-        "width": 1024,
-        "height": 1536
+        "path": ".release/bunny/body-back-latest.png",
+        "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
+        "width": 2352,
+        "height": 3520
       },
       "status": "accepted-measurement",
       "height": {
-        "crownY": 24,
-        "floorY": 1495,
-        "definition": "本视图可见发冠最高主描线至赤脚接地最低主描线；忽略外侧浅抗锯齿，按新背图独立读取。",
-        "tolerancePx": 2
+        "crownY": 102,
+        "floorY": 3191,
+        "definition": "最终原图可见发冠最高主描线中心至赤脚接地最低主描线中心；包含发量，不估隐藏颅顶。",
+        "tolerancePx": 3
       },
       "landmarks": {
         "skullVertex": {
@@ -351,95 +365,100 @@
           "definition": "头发遮挡解剖颅顶，不作颅顶估计。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "头发遮挡解剖颅顶，不作颅顶估计。"
+          "reason": "头发遮挡解剖颅顶，不作颅顶估计。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "shoulderJoint": {
           "y": null,
           "definition": "肩关节中心不可见，不推测骨架中心。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "肩关节中心不可见，不推测骨架中心。"
+          "reason": "肩关节中心不可见，不推测骨架中心。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "chin": {
           "y": null,
           "definition": "背面下颏不可见，不计算背面头身比。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "背面下颏不可见，不计算背面头身比。"
+          "reason": "背面下颏不可见，不计算背面头身比。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "shoulder": {
-          "y": 315,
+          "y": 720,
           "definition": "本图肩外侧圆转折区的指定水平截线；新背图转折高度独立读取，不是肩关节中心。",
           "visibility": "visible",
-          "tolerancePx": 5
+          "tolerancePx": 15
         },
         "waist": {
-          "y": 530,
-          "definition": "本图自然腰最窄区中部；主轮廓最窄平台约 y525–535，不含双臂。",
+          "y": 1165,
+          "definition": "最终原图自然腰最窄躯干区中部；不含两侧手臂，指定 y1165。",
           "visibility": "visible",
-          "tolerancePx": 6
+          "tolerancePx": 15
         },
         "crotch": {
-          "y": 741,
+          "y": 1607,
           "definition": "黑内搭下端之后腿间白隙的可见起点；不当作臀下折或骨盆关节。",
           "visibility": "visible",
-          "tolerancePx": 3,
-          "x": 512
+          "tolerancePx": 5,
+          "x": 1174
         },
         "knee": {
           "y": null,
           "definition": "背面膝部由阴影和轮廓提示，当前只记录可靠的肩、腰和腿间隙高度；分段腿长以正面估读为主。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "背面膝部由阴影和轮廓提示，当前只记录可靠的肩、腰和腿间隙高度；分段腿长以正面估读为主。"
+          "reason": "背面膝部由阴影和轮廓提示，当前只记录可靠的肩、腰和腿间隙高度；分段腿长以正面估读为主。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         },
         "ankle": {
           "y": null,
           "definition": "本视图不另拟踝关节中心；分段腿长以正面可见参考点记录。",
           "visibility": "unavailable",
           "tolerancePx": null,
-          "reason": "本视图不另拟踝关节中心；分段腿长以正面可见参考点记录。"
+          "reason": "本视图不另拟踝关节中心；分段腿长以正面可见参考点记录。",
+          "reviewedOnFinalImage": "2026-11-02；原生裁图复核遮挡/语义，保持不推断隐藏骨点。"
         }
       },
       "widths": {
         "shoulder": {
-          "xLeft": 373,
-          "xRight": 649,
-          "y": 315,
+          "xLeft": 877,
+          "xRight": 1470,
+          "y": 720,
           "definition": "指定肩参考截线上，两侧外轮廓主描线中心之间。",
           "visibility": "visible",
-          "tolerancePx": 4
+          "tolerancePx": 6
         },
         "waist": {
-          "xLeft": 439,
-          "xRight": 584,
-          "y": 530,
+          "xLeft": 1020,
+          "xRight": 1326,
+          "y": 1165,
           "definition": "背面自然腰最窄区的躯干外轮廓主描线中心之间，不含双臂。",
           "visibility": "visible",
-          "tolerancePx": 3,
+          "tolerancePx": 5,
           "searchRangeY": [
-            510,
-            550
+            1120,
+            1210
           ],
           "minimumPlateauY": [
-            525,
-            535
+            1154,
+            1175
           ]
         },
         "hip": {
-          "xLeft": 375,
-          "xRight": 647,
-          "y": 738,
+          "xLeft": 887,
+          "xRight": 1459,
+          "y": 1600,
           "definition": "本图胯与腿根较宽平台中部的水平投影；不等于髂骨宽或臀围。",
           "visibility": "visible",
-          "tolerancePx": 3,
+          "tolerancePx": 6,
           "searchRangeY": [
-            700,
-            770
+            1510,
+            1660
           ],
           "maximumPlateauY": [
-            726,
-            749
+            1577,
+            1624
           ]
         }
       },
@@ -472,49 +491,40 @@
       }
     }
   },
-  "measurementMethod": "本轮正面从耳发修订后的完整新原图重新读取可见主描线，并经原像素标注核对；侧背沿用各自已核原图与读数。不同视角保留自身投影差异，不拉伸统一。",
+  "measurementMethod": "2026-11-02 对最终三张2352×3520 PNG分别读取原生坐标：原生头/躯干/下肢网格裁图确认语义，局部4倍放大确认下颏和腿间白隙；Pillow暗主描线扫描辅助确定冠顶、足底和指定截面端点。容差分别按描线厚度、语义转折区和遮挡重新估读。未缩放或复制旧坐标。各视角保留独立投影。",
   "qaEvidence": [
     {
-      "path": "/tmp/bunny-ear-hair-qa-20261024/ear-projection-review/measurements-662c/new-front-662c-actual-measurements.json",
-      "sha256": "9f8ae48e673c218f0a5692a93f0a15a2f358446381de5a823b02fdd81aa4401e"
+      "view": "front",
+      "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/body-front-native-evidence.png",
+      "sha256": "7621eb0040b46e99ea58be499ab20378c0afc038c320156d31d106a12353cde6",
+      "coordinates": "Crop origin (540,60); annotations use original PNG native coordinates."
     },
     {
-      "path": "/tmp/bunny-fresh-cel-qa-20261024/fresh-side-measurement-draft-review.json",
-      "sha256": "3fd2afcc7ca822abd779e2214c8e22aa54a3316f44b0c8202ab193afbb9b4e84"
+      "view": "side",
+      "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/body-side-native-evidence.png",
+      "sha256": "fc20d8eca5a97804cb78bf326d904aa28bd95ea1c7a8e8569c247e5094ee39f4",
+      "coordinates": "Crop origin (540,60); annotations use original PNG native coordinates."
     },
     {
-      "path": "/tmp/bunny-fresh-cel-qa-20261024/fresh-back-v3-measurement-draft-review.json",
-      "sha256": "f5bfab205bed41db07c9213e65f1a458bcde1a7d49b14673e368f509b3557e77"
+      "view": "back",
+      "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/body-back-native-evidence.png",
+      "sha256": "cec39bc6cf5a60d0a0526bcb4ea4fbcd47222ce3925538f625c864e54d5b87d6",
+      "coordinates": "Crop origin (540,60); annotations use original PNG native coordinates."
     }
   ],
-  "acceptedDraft": {
-    "path": "/tmp/bunny-ear-hair-qa-20261024/ear-projection-review/measurements-662c/new-front-662c-view-object.json",
-    "sha256": "74396c9cf02b568e95f22fee58acc47be9cf55210ceccd34932390731662a92f"
-  },
   "settingEvidence": {
     "heightCm": null,
-    "reason": "当前仅记录图面 px/H，未设定厘米身高；旧定位与尺寸资料不提供厘米身高。",
+    "reason": "本次只记录最终图面px/H，未给定厘米身高。",
     "requiresUserDecisionNow": false,
-    "futureCmNote": "如未来需要厘米尺寸，另行定义真实身高及换算基准。",
-    "sources": [
-      {
-        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/00-origin-positioning.png",
-        "sha256": "7307c3e2e7208eb03b1621d1031c2713067b32661ccc536d6b130a1830367afd",
-        "finding": "实看定位图：成年、娇小的女性角色；未给厘米身高。"
-      },
-      {
-        "path": "/Users/roy/Developments/design-bunny-repair/.release/bunny/dimension-01-character-dimension-standard.png",
-        "sha256": "e9e84fc9905865f2bc20877921e8059ac24aa6271c50c167bf71ad9971be0f13",
-        "finding": "实看旧图：H=1900px，使用规则明确不是已知厘米身高；仅作历史，不沿用旧数。"
-      }
-    ]
+    "futureCmNote": "如需厘米尺寸，需另定真实身高及换算基准。"
   },
   "acceptance": {
-    "artSources": "Root and independent visual QA accepted exact new front662c8c38; sidec4ca73b3 and back995d2fa9 retained unchanged.",
-    "measurementPoints": "Independent QA reread new front662c from actual original pixels and root reviewed the data and marked original-pixel diagnostics. Side/back point records unchanged.",
-    "sideLimits": "y680 depth includes black underwear projection and is not maximum buttock depth; chest and waist depth occluded.",
-    "frontLimits": "Knee y1055 ±15 px and ankle y1405 ±12 px remain approximate reference levels; derived lengths retain endpoint notes.",
-    "backLimits": "Chin is hidden; no back head count or inferred joint centers.",
-    "publication": "Current local work reference; no centimetre or circumference definition; final website/SVG acceptance remains a separate site check."
-  }
+    "artSources": "final4k MANIFEST sources; all three source hashes verified after byte-for-byte replacement.",
+    "measurementPoints": "Native-coordinate reread and marked evidence checked in this phase; this is drawing estimation, not anatomical or physical dimensional certification.",
+    "sideLimits": "At y1460 depth includes black underwear; chest and waist rear body edge remains occluded by the foreground arm.",
+    "frontLimits": "Knee y2280 ±35 px and ankle y2997 ±24 px are approximate visible reference zones, not joint centers.",
+    "backLimits": "Chin is hidden; no back head count. Knee/ankle joint center not identifiable; no inferred skeleton.",
+    "publication": "Local work only. No centimetre or circumference definition; site checks separate."
+  },
+  "updated": "2026-11-02"
 }

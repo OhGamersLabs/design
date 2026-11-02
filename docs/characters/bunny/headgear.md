@@ -1,7 +1,7 @@
 ---
 layout: BunnyPage
 bunny: layer
-layer: 8
+layer: 7
 title: 护目镜
 sidebar: false
 aside: false
@@ -10,7 +10,7 @@ aside: false
 
 <span id="头部装备"></span>
 
-## 穿着三视 <small>穿到第 8 层为止</small> {#wearing}
+## 穿着三视 <small>穿到第 7 层为止</small> {#wearing}
 
 <span id="headgear-wearing"></span>
 
@@ -20,17 +20,19 @@ aside: false
 
 <div class="bunny-body-views">
 
-<AssetImage id="goggles-front-latest" group="layer-8" caption="正面" />
+<AssetImage id="goggles-front-latest" group="layer-7" caption="正面" />
 
-<AssetImage id="goggles-side-latest" group="layer-8" caption="角色右侧面" />
+<AssetImage id="goggles-side-latest" group="layer-7" caption="角色右侧面" />
 
-<AssetImage id="goggles-back-latest" group="layer-8" caption="背面" />
+<AssetImage id="goggles-back-latest" group="layer-7" caption="背面" />
 
 </div>
 
+<LayerTpose :layer="7" />
+
 头部只有护目镜。护目镜采用柔圆白框、烟灰镜片、小橙侧扣与一条绕后脑的细黑弹性镜带。默认抬至额头佩戴，露出眼睛、鼻子和嘴部。
 
-穿着三视中，上身为白色内搭与橙色夹克，裤腰只有一条黑色皮带。
+穿着三视显示身体至护目镜的第 0 到 7 层：白色内搭、橙色夹克和护目镜，不含裤腰皮带。
 
 人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
 
@@ -39,7 +41,7 @@ aside: false
 
 <span id="headgear-goggles"></span>
 
-<AssetImage id="goggles-board-latest" group="layer-8" />
+<AssetImage id="goggles-board-latest" group="layer-7" />
 
 | 图中标记 | 中文说明 |
 | --- | --- |
@@ -58,13 +60,18 @@ aside: false
 
 <span id="headgear-closeup"></span>
 
-<AssetImage id="goggles-closeup-board-latest" group="layer-8" />
+<AssetImage id="goggles-closeup-board-latest" group="layer-7" caption="额头佩戴七格细节板 · 三视、整件、侧扣、俯视与标注" />
 
-额头佩戴与眼前佩戴是手动调整后的两个位置，不是铰链翻转或机械展开。镜带随护目镜的位置贴合头部，头发与耳部按实际遮挡显示。
+护目镜抬在额头上，双眼、鼻子与嘴部露出。细黑镜带从两端橙色侧扣绕向后脑，侧面向后下倾，背面形成浅弧；本板没有眼前佩戴状态。
 
 | 图中标记 | 中文说明 |
 | --- | --- |
-| FRONT RAISED | 正面，护目镜抬至额头，双眼露出。 |
-| RIGHT SIDE RAISED | 角色右侧面，侧扣连接一条绕后脑的镜带。 |
-| BACK RAISED | 背面，后脑只有镜带，部分由头发遮挡。 |
-| FRONT LOWERED | 正面，镜片置于眼前，鼻子与嘴部仍露出。 |
+| 01 FRONT | 正面：白框烟灰镜片置于额头，两端橙色侧扣与黑镜带相接。 |
+| 02 RIGHT SIDE | 角色右侧面：侧扣在耳前上方，镜带从侧扣向后下方延伸。 |
+| 03 BACK | 背面：后脑可见一条浅弧形黑镜带，没有后脑扣。 |
+| 04 GOGGLES ALONE | 护目镜单件：白框、连续烟灰镜片和角色左侧与角色右侧的橙色侧扣的正面外观。 |
+| 05 SIDE CLIP | 侧扣特写：橙色扣面、深色底缘、白框端与黑镜带的连接。 |
+| 06 TOP | 俯视：前方镜框与绕后脑的镜带组成闭合佩戴路径。 |
+| 07 DIMENSIONS | 位置与带宽的板面印字标注：HEAD TOP 0%（发冠 0%）、CLIP CENTRE 38%（侧扣中心 38%）、STRAP AT BACK 58%（后脑镜带位置 58%）、CHIN 100%（下颏 100%）；SLOPE 18 DEG（镜带斜度 18°）、STRAP 5%（镜带宽 5%）。 |
+
+第 07 格的百分比与 18° 均为板面印字标注，未登记为设计目标。引导线与绘图并不完全吻合：CHIN 100% 线落在颈根，待复核；图面镜带约 22–24°，印字 18°，待复核；不能按绘图反推这些百分比。头部转向与发丝遮挡按各格显示，侧扣不是翻转铰链。
