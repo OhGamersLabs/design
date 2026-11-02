@@ -52,12 +52,12 @@ releaseReady: false
       <i class="bunny-ruler__tick bunny-ruler__tick--4"></i><i class="bunny-ruler__tick bunny-ruler__tick--5"></i><i class="bunny-ruler__tick bunny-ruler__tick--6"></i>
       <i class="bunny-ruler__bottom"></i><b class="bunny-ruler__part"></b>
       <span class="bunny-ruler__label--1">1</span><span class="bunny-ruler__label--2">2</span><span class="bunny-ruler__label--3">3</span>
-      <span class="bunny-ruler__label--4">4</span><span class="bunny-ruler__label--5">5</span><span class="bunny-ruler__label--6">6</span><span class="bunny-ruler__label--part">0.56</span>
+      <span class="bunny-ruler__label--4">4</span><span class="bunny-ruler__label--5">5</span><span class="bunny-ruler__label--6">6</span><span class="bunny-ruler__label--part">0.59</span>
     </div>
     <dl class="bunny-ruler-facts">
-      <div><dt>头身</dt><dd class="bunny-ruler-facts__number">6.56</dd></div>
-      <div><dt>H0</dt><dd>1475 px<small>可见发冠到赤脚地面</small></dd></div>
-      <div><dt>头高</dt><dd>225 px</dd></div>
+      <div><dt>头身（图面估读）</dt><dd class="bunny-ruler-facts__number">6.59</dd></div>
+      <div><dt>H0</dt><dd>3097 px<small>可见发冠到赤脚地面</small></dd></div>
+      <div><dt>头高</dt><dd>470 px</dd></div>
       <div><dt>厘米身高</dt><dd>未设定</dd></div>
     </dl>
   </div>
@@ -69,7 +69,7 @@ releaseReady: false
 
 ## 衣层由内到外 {#layers}
 
-<p>从身体开始逐层穿上，共九张正面图。点开任意一张，可用左右键逐层翻看。</p>
+<p>从身体开始逐层穿上，第 0 到 9 层共十张正面图。点开任意一张，可用左右键逐层翻看。</p>
 </div>
 
 <LayerStrip />
@@ -99,10 +99,10 @@ releaseReady: false
   <AssetImage id="daggers-scale-board-latest" detail="墨黑獠牙刃与骨白弯刃" group="weapon" />
   <div class="bunny-blades" role="group" aria-label="刃长对照">
     <div class="bunny-blade bunny-blade--height"><div class="bunny-blade__label"><b>H0 人物高度</b><span>1.00 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
-    <div class="bunny-blade bunny-blade--dark"><div class="bunny-blade__label"><b>墨黑獠牙刃</b><span>角色右手，总长 0.36 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
-    <div class="bunny-blade bunny-blade--ivory"><div class="bunny-blade__label"><b>骨白弯刃</b><span>角色左手，总长 0.42 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
+    <div class="bunny-blade bunny-blade--dark"><div class="bunny-blade__label"><b>墨黑獠牙刃</b><span>角色右手，总长设计目标 0.36 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
+    <div class="bunny-blade bunny-blade--ivory"><div class="bunny-blade__label"><b>骨白弯刃</b><span>角色左手，总长设计目标 0.42 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
     <dl class="bunny-home-facts">
-      <div><dt>收纳</dt><dd>后腰交叉携行</dd></div>
+      <div><dt>收纳</dt><dd>挂在背后裤腰皮带上；柄朝上朝外的设计目标约 28°，骨白在外浅 X 交叉</dd></div>
       <div><dt>握法</dt><dd>SUN-05 中两手同为正握</dd></div>
     </dl>
   </div>
@@ -111,7 +111,7 @@ releaseReady: false
 <div class="bunny-parts-grid">
   <AssetImage id="daggers-dark-board-latest" group="weapon" use-thumb />
   <AssetImage id="daggers-ivory-board-latest" group="weapon" use-thumb />
-  <AssetImage id="daggers-mount-board-latest" group="weapon" use-thumb />
+  <AssetImage id="daggers-mount-board-latest" group="weapon" caption="后腰挂片近景 · 两片黑挂片与握柄按扣带，骨白在外" use-thumb />
 </div>
 
 <p class="bunny-section-links"><a href="/characters/bunny/weapon">双匕首</a></p>
@@ -139,5 +139,9 @@ releaseReady: false
       <div><dt>视角</dt><dd>俯视角，头胸领先</dd></div>
       <div><dt>握法</dt><dd>两手同为正握</dd></div>
     </dl>
+  </div>
+  <div>
+    <AssetImage id="sun05-pose-structure-latest" caption="SUN-05 人体结构稿，手中为占位杆" group="action" use-thumb />
+    <p>肩线、躯干与屈伸腿势用于对照张臂前冲，手中的占位杆只表示握持方向。</p>
   </div>
 </div>

@@ -21,7 +21,7 @@ export interface Fact {
 }
 
 export interface HeroTab {
-  key: 'scene' | 'three' | 'line'
+  key: 'scene' | 'three' | 'tpose' | 'line'
   label: string
   caption: string
   assets: string[]
@@ -45,6 +45,7 @@ export interface LayerRecord {
   front: string
   side: string
   back: string
+  tpose: { front: string; right: string; back: string; left: string }
   summary: string
   facts: Fact[]
   leftRight: string

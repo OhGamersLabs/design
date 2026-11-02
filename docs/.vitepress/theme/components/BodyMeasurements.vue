@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { withBase } from 'vitepress'
 import ReleaseImage from './ReleaseImage.vue'
-import { formatNumber } from './body-measurements.mjs'
+import { bodyCanvasSize, formatNumber } from './body-measurements.mjs'
 import { data as siteData } from '../../data/bunny-site.data.mjs'
 import { bodyMeasurementScope, createDisplayTextLookup, selectMeasurementSource } from '../bunny-site.mjs'
 
@@ -21,7 +21,7 @@ function viewLabel(id) {
   return label
 }
 // Reserve the existing SVG's full canvas before its lazy image loads.
-const rulerHeight = computed(() => current.value.source.height + 245 + Math.ceil(current.value.rows.filter((row) => typeof row.px === 'number').length / 3) * 35)
+const rulerHeight = computed(() => bodyCanvasSize(current.value).height)
 </script>
 
 <template>

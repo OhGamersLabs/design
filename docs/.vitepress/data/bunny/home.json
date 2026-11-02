@@ -11,11 +11,22 @@
     {
       "key": "three",
       "label": "完整三视",
-      "caption": "正面、角色右侧面、背面，双匕首后腰交叉携行",
+      "caption": "正面、角色右侧面、背面，双匕首挂在背后裤腰皮带上",
       "assets": [
         "daggers-front-latest",
         "daggers-side-latest",
         "daggers-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "T 姿",
+      "caption": "T 姿四视，供 3D 建模参考",
+      "assets": [
+        "daggers-tpose-front-latest",
+        "daggers-tpose-right-latest",
+        "daggers-tpose-back-latest",
+        "daggers-tpose-left-latest"
       ]
     },
     {
@@ -35,13 +46,13 @@
     },
     {
       "term": "体型",
-      "value": "约 6.56 头身",
-      "note": "图面单位 H0 = 1475 px，头高 225 px；厘米身高未设定"
+      "value": "约 6.59 头身（图面估读）",
+      "note": "图面单位 H0 = 3097 px，头高 470 px；厘米身高未设定"
     },
     {
       "term": "武器",
       "value": "异构双匕首",
-      "note": "收纳在后腰，交叉携行"
+      "note": "挂在背后裤腰皮带上，柄朝上朝外，设计目标约 28°，浅 X 交叉"
     },
     {
       "term": "动作",
@@ -73,7 +84,7 @@
   ],
   "chipNote": "取自定稿图的近似色",
   "status": "本地审阅版，不是生产发布",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "chapters": [
     {
       "id": "identity",
@@ -102,28 +113,28 @@
   ],
   "highlights": [
     {
+      "date": "2026-11-02",
+      "title": "九层三视与 T 姿四视更新",
+      "asset": "daggers-tpose-back-latest",
+      "caption": "T 姿背面：双臂平举，双匕首挂在裤腰皮带上。"
+    },
+    {
+      "date": "2026-11-02",
+      "title": "裤腰皮带挂片携行三视",
+      "asset": "daggers-back-latest",
+      "caption": "背面：后中裤袢两侧各一片黑色皮挂片，握柄绕黑短带，骨白刀在外、墨黑刀在内。"
+    },
+    {
       "date": "2026-10-29",
       "title": "场景图定稿",
       "asset": "sun05-scene-latest",
-      "caption": "2026-10-29 场景图定稿"
+      "caption": "森林树干上的双匕首冲刺场景。"
     },
     {
       "date": "2026-10-28",
       "title": "STRUCTURE20 线稿通过",
       "asset": "structure20-lineart-latest",
-      "caption": "2026-10-28 STRUCTURE20 线稿通过"
-    },
-    {
-      "date": "2026-10-28",
-      "title": "SUN-05 冲刺姿势选定",
-      "asset": "sun05-pose-structure-latest",
-      "caption": "SUN-05 人体结构稿，手中为占位杆"
-    },
-    {
-      "date": "2026-10-27",
-      "title": "后腰交叉携行三视",
-      "asset": "daggers-back-latest",
-      "caption": "2026-10-27 后腰交叉携行三视（背面）"
+      "caption": "双臂展开、双持匕首的冲刺姿势线稿。"
     }
   ]
 }

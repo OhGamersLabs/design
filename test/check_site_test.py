@@ -125,7 +125,9 @@ class SiteCheckTests(unittest.TestCase):
     def test_r4_process_this_round(self):self.mutate_text('R4','本轮')
     def test_r4_process_keep(self):self.mutate_text('R4','保留')
     def test_r4_details(self):self.good('R4');self.append(self.layer,'<details>说明</details>');self.bad('R4')
-    def test_r4_scabbard_allowed(self):self.append(self.layer,'<p>刀鞘</p>');self.good('R4')
+    def test_r4_scabbard_rejected(self):self.append(self.layer,'<p>刀鞘</p>');self.bad('R4')
+    def test_r4_short_cradle_rejected(self):self.append(self.layer,'<p>短托</p>');self.bad('R4')
+    def test_r4_approved_holder_allowed(self):self.append(self.layer,'<p>两把匕首不带鞘，黑色皮挂片以窄口承住护手，按扣短带绕过握柄。</p>');self.good('R4')
     def test_r4_antialias_exception(self):self.append(self.layer,'<p>抗锯齿</p>');self.good('R4');self.append(self.layer,'<p>锯</p>');self.bad('R4')
     def test_r4_editorial_claim(self):self.mutate_text('R4','一眼就能认出')
     def test_r6_zero_gate(self):self.good('R6');self.write('docs/characters/bunny/index.md','---\ntitle: Bunny\n---');self.bad('R6')
@@ -510,12 +512,12 @@ class SiteCheckTests(unittest.TestCase):
         self.replace(self.layer,'角色<span>左</span>腿','<span>左</span>腿');self.bad('R10')
 
     def test_fix1_text_r11_wrapper_figure_does_not_inherit_front(self):
-        group='<figure>'+self.figure('body-front','正面')+self.figure('body-side','角色右侧面')+self.figure('body-back','背面')+'<figcaption>后腰交叉携行三视</figcaption></figure>'
+        group='<figure>'+self.figure('body-front','正面')+self.figure('body-side','角色右侧面')+self.figure('body-back','背面')+'<figcaption>后腰挂片携行三视</figcaption></figure>'
         self.append(self.layer,group);self.good('R11')
         self.replace(self.layer,self.figure('body-front','正面'),self.figure('body-front','后腰'));self.bad('R11')
 
     def test_fix1_text_r11_front_ignores_nested_figure_caption_and_alt(self):
-        self.append(self.layer,'<figure data-asset-id="body-front"><img alt="正面"><figcaption>正面</figcaption>'+self.figure('body-back','后腰交叉携行')+'</figure>')
+        self.append(self.layer,'<figure data-asset-id="body-front"><img alt="正面"><figcaption>正面</figcaption>'+self.figure('body-back','后腰挂片携行')+'</figure>')
         self.good('R11')
         self.replace(self.layer,'<img alt="正面"><figcaption>正面</figcaption>','<img alt="后腰"><figcaption>正面</figcaption>');self.bad('R11')
 
@@ -525,7 +527,7 @@ class SiteCheckTests(unittest.TestCase):
         self.replace(self.layer,'<figcaption>角色右侧面</figcaption>','<figcaption>侧面</figcaption>');self.bad('R11')
 
     def test_fix1_text_r11_caption_excludes_embedded_figure(self):
-        self.append(self.layer,'<figure data-asset-id="body-front"><img alt="正面"><figcaption>正面示意'+self.figure('body-back','后腰交叉携行')+'</figcaption></figure>')
+        self.append(self.layer,'<figure data-asset-id="body-front"><img alt="正面"><figcaption>正面示意'+self.figure('body-back','后腰挂片携行')+'</figcaption></figure>')
         self.good('R11')
         self.replace(self.layer,'<figcaption>正面示意','<figcaption>后腰示意');self.bad('R11')
 

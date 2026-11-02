@@ -24,8 +24,10 @@ aside: false
 
 </div>
 
+<LayerTpose :layer="0" />
+
 身体三视穿基础内衣，采用清楚的手绘线稿、固有色平涂和硬边赛璐璐阴影。
 
-三张身体图均为 1024×1536 PNG。
+三张身体图均为 2352×3520 PNG。
 
 人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。厘米身高未设定，不换算围度或杯码。

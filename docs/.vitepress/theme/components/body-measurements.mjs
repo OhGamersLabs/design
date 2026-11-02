@@ -12,6 +12,11 @@ const lengthDisplay = {
 const number = (value) => typeof value === 'number' && Number.isFinite(value)
 const escape = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[char]))
 
+// Layout dimensions use the original 1536-high sheet as their design unit.
+// Image landmarks stay in native pixels; only annotation furniture scales.
+export const rulerScale = (source) => source.height / 1536
+export const roundRuler = (value) => Number(value.toFixed(3))
+
 export const formatNumber = (value, digits = 2) => number(value) ? Number(value.toFixed(digits)).toString() : '—'
 
 function measurementResources(view, id) {
@@ -90,25 +95,32 @@ export function measurementModel(data, id) {
   }
 }
 
+export function bodyCanvasSize(model) {
+  const rows = model.rows.filter((row) => number(row.px)).length
+  return { width: roundRuler(model.source.width), height: roundRuler(model.source.height + (245 + Math.ceil(rows / 3) * 35) * rulerScale(model.source)) }
+}
+
 /** The page and downloadable sheet share these exact lines and computed labels. */
 export function renderMeasurementSvg(data, id, imageHref) {
   if (!/^(?:\/(?!\/)|data:image\/webp;base64,)/.test(imageHref)) throw new Error('Unsupported measurement image source')
   const model = measurementModel(data, id)
   const { width, height } = model.source
+  const s = (value) => roundRuler(value * rulerScale(model.source))
   const strokes = model.rows.filter((row) => number(row.px)).map((row) => {
     const color = row.status === '近似取点' ? '#b96519' : '#17699c'
-    const dash = row.status === '近似取点' ? ' stroke-dasharray="10 7"' : ''
+    const dash = row.status === '近似取点' ? ` stroke-dasharray="${s(10)} ${s(7)}"` : ''
     const text = `${row.symbol} ${formatNumber(row.px, 1)} px${row.id === 'hipDepth' ? ` · y${row.y}` : ''}`
     if (row.kind === 'horizontal') {
-      return `<g data-measurement="${escape(row.id)}" stroke="${color}" fill="${color}"><line x1="${row.x1}" y1="${row.y}" x2="${row.x2}" y2="${row.y}"${dash}/><path d="M${row.x1},${row.y - 10}v20 M${row.x2},${row.y - 10}v20"/><circle cx="${row.x1}" cy="${row.y}" r="4"/><circle cx="${row.x2}" cy="${row.y}" r="4"/><text x="${(row.x1 + row.x2) / 2}" y="${row.y - 15}" text-anchor="middle">${escape(text)}</text></g>`
+      return `<g data-measurement="${escape(row.id)}" stroke="${color}" fill="${color}"><line x1="${row.x1}" y1="${row.y}" x2="${row.x2}" y2="${row.y}"${dash}/><path d="M${row.x1},${roundRuler(row.y - s(10))}v${s(20)} M${row.x2},${roundRuler(row.y - s(10))}v${s(20)}"/><circle cx="${row.x1}" cy="${row.y}" r="${s(4)}"/><circle cx="${row.x2}" cy="${row.y}" r="${s(4)}"/><text x="${(row.x1 + row.x2) / 2}" y="${roundRuler(row.y - s(15))}" text-anchor="middle">${escape(text)}</text></g>`
     }
-    return `<g data-measurement="${escape(row.id)}" stroke="${color}" fill="${color}"><line x1="${row.guideX}" y1="${row.y1}" x2="${row.guideX}" y2="${row.y2}"${dash}/><path d="M${row.guideX - 10},${row.y1}h20 M${row.guideX - 10},${row.y2}h20"/><text x="${row.guideX - 13}" y="${(row.y1 + row.y2) / 2}" text-anchor="middle" transform="rotate(-90 ${row.guideX - 13} ${(row.y1 + row.y2) / 2})">${escape(text)}</text></g>`
+    return `<g data-measurement="${escape(row.id)}" stroke="${color}" fill="${color}"><line x1="${s(row.guideX)}" y1="${row.y1}" x2="${s(row.guideX)}" y2="${row.y2}"${dash}/><path d="M${s(row.guideX - 10)},${row.y1}h${s(20)} M${s(row.guideX - 10)},${row.y2}h${s(20)}"/><text x="${s(row.guideX - 13)}" y="${(row.y1 + row.y2) / 2}" text-anchor="middle" transform="rotate(-90 ${s(row.guideX - 13)} ${(row.y1 + row.y2) / 2})">${escape(text)}</text></g>`
   }).join('')
   const visiblePoints = [data.views[id].height.crownY, data.views[id].height.floorY, ...Object.values(data.views[id].landmarks ?? {}).map((point) => point?.y)].filter(number)
-  const guides = [...new Set(visiblePoints)].map((y) => `<line x1="192" y1="${y}" x2="${width - 192}" y2="${y}"/>`).join('')
+  const guides = [...new Set(visiblePoints)].map((y) => `<line x1="${s(192)}" y1="${y}" x2="${roundRuler(width - s(192))}" y2="${y}"/>`).join('')
   const measured = model.rows.filter((row) => number(row.px))
-  const legend = measured.map((row, index) => `<text x="${32 + (index % 3) * 330}" y="${height + 45 + Math.floor(index / 3) * 35}">${escape(row.symbol + ' ' + row.label)}</text>`).join('')
-  const legendEnd = height + 45 + Math.ceil(measured.length / 3) * 35
+  const legend = measured.map((row, index) => `<text x="${s(32 + (index % 3) * 330)}" y="${roundRuler(height + s(45 + Math.floor(index / 3) * 35))}">${escape(row.symbol + ' ' + row.label)}</text>`).join('')
+  const legendEnd = roundRuler(height + s(45 + Math.ceil(measured.length / 3) * 35))
   const summary = [model.headCount === null ? '下颏不可见，不计算头身比' : `含发头身比约 ${formatNumber(model.headCount, 1)} 头`, model.widthRatio ? `肩 : 腰 : 胯约 ${model.widthRatio}` : '只记录本视角可靠可见的尺寸'].join('　·　')
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -110 ${width} ${legendEnd + 200}" width="${width}" height="${legendEnd + 200}" role="img" aria-label="${escape(model.label)}图面尺寸标尺"><title>${escape(model.label)} · 当前 v2 工作稿图面尺寸</title><desc>H 为可见发冠至赤脚地面的图面高度，h 包含发量。线段标号对应尺寸表；不是厘米或围度。</desc><rect x="0" y="-110" width="${width}" height="${legendEnd + 200}" fill="white"/><image href="${escape(imageHref)}" x="0" y="0" width="${width}" height="${height}" preserveAspectRatio="xMidYMid meet"/><g stroke="#17699c" stroke-width="1.5" opacity="0.35" stroke-dasharray="8 8">${guides}</g><g stroke-width="3" font-family="system-ui, sans-serif" font-size="27" font-weight="600"><style>text{stroke:white;stroke-width:6px;paint-order:stroke fill;stroke-linejoin:round}</style>${strokes}</g><g fill="#273344" font-family="system-ui, sans-serif" font-size="24"><text x="32" y="-65">${escape(model.label)} · 图面观测 · 当前工作稿</text><text x="32" y="-24">${escape(summary)}</text>${legend}<text x="32" y="${legendEnd + 15}">H 从可见发冠至赤脚地面；h 包含发量。未设厘米身高，不推围度。</text><text x="32" y="${legendEnd + 52}">蓝色：可见取点　橙色虚线：近似取点　各视角独立记录</text></g></svg>`
+  const fullHeight = bodyCanvasSize(model).height
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 ${-s(110)} ${width} ${fullHeight}" width="${width}" height="${fullHeight}" role="img" aria-label="${escape(model.label)}图面尺寸标尺"><title>${escape(model.label)} · 图面尺寸</title><desc>H 为可见发冠至赤脚地面的图面高度，h 包含发量。线段标号对应尺寸表；不是厘米或围度。</desc><rect x="0" y="${-s(110)}" width="${width}" height="${fullHeight}" fill="white"/><image href="${escape(imageHref)}" x="0" y="0" width="${width}" height="${height}" preserveAspectRatio="xMidYMid meet"/><g stroke="#17699c" stroke-width="${s(1.5)}" opacity="0.35" stroke-dasharray="${s(8)} ${s(8)}">${guides}</g><g stroke-width="${s(3)}" font-family="system-ui, sans-serif" font-size="${s(27)}" font-weight="600"><style>text{stroke:white;stroke-width:${s(6)}px;paint-order:stroke fill;stroke-linejoin:round}</style>${strokes}</g><g fill="#273344" font-family="system-ui, sans-serif" font-size="${s(24)}"><text x="${s(32)}" y="${-s(65)}">${escape(model.label)} · 图面尺寸 · 图面观测</text><text x="${s(32)}" y="${-s(24)}">${escape(summary)}</text>${legend}<text x="${s(32)}" y="${roundRuler(legendEnd + s(15))}">H 从可见发冠至赤脚地面；h 包含发量。未设厘米身高，不推围度。</text><text x="${s(32)}" y="${roundRuler(legendEnd + s(52))}">蓝色：可见取点　橙色虚线：近似取点　各视角独立记录</text></g></svg>`
 }

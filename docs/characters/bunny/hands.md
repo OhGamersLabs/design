@@ -24,11 +24,13 @@ aside: false
 
 </div>
 
+<LayerTpose :layer="4" />
+
 手部层在白色上衣、红色短裤、不对称袜装与红白鞋靴的基础上加入手套和腕部设备。
 
 角色右手戴黑色全指手套与红色机械护环，手背至食指不设橙色装饰线；角色左手戴带橙色指口边的黑色半指手套与橙色数字采集设备。角色右侧面朝画面右侧，近侧为角色右手；远侧手部按视角自然遮挡。
 
-三张完整人物各为 1024×1536。人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
+三张完整人物各为 2352×3520。人物比例参照[身体尺寸](/characters/bunny/dimensions#body-dimensions)。
 
 
 ## 分件结构 <small>拆成单件看</small> {#construction}

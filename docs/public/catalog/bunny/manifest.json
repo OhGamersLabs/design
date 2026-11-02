@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "Bunny 设计参考",
   "status": "local-review",
-  "asset_count": 53,
+  "asset_count": 93,
   "assets": [
     {
       "id": "belt-back-latest",
@@ -13,19 +13,19 @@
       "original": {
         "path": "/media/bunny/belt-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1168791,
-        "sha256": "a74c999fe7fe933defbba8b2ad56d291eaa9700cc6174cc9a0f600ef8e9352d5",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5421198,
+        "sha256": "45608842fd7d868557b684c2d8b767671a09784f303877794dd543f961a0932c",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/belt-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 657664,
-        "sha256": "0e459581bbfe6a465abb7416194f57ebbda37d3fe6bd6af0a44ecf9fae2bf060",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1395784,
+        "sha256": "0710b33a6be57ac6fad2742ac97b6fe1a8f5a776b7d9df4a7bedae292665cc08",
         "alpha": false
       }
     },
@@ -36,19 +36,19 @@
       "original": {
         "path": "/media/bunny/belt-board-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1325501,
-        "sha256": "c63dd8f24d732e12e6a8e0059601e0607e2fcec393ec83d8e60d22422aac171b",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4501961,
+        "sha256": "5d700d2a38e6c79eb6c3ed94724950637ff924b092dbb8882d067cf5391cb19c",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/belt-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 758792,
-        "sha256": "385a829f6d75fe8da69d5bf2874351d2edac4e46a4947dbb7243078f1e29270a",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1227338,
+        "sha256": "07e3d2d3cf7095fcd6ff01ad19d032e6dd3c6afe1b8dd833f59509bd142eac29",
         "alpha": false
       }
     },
@@ -59,19 +59,19 @@
       "original": {
         "path": "/media/bunny/belt-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1634488,
-        "sha256": "e6f307ad2c6097c39381b5bc1ddc1b104c9cd8cb56c6df0a93881e31614cffa6",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5908770,
+        "sha256": "50c95e71a9de3e24335757e4e5f527b50b6c01f02759567e7972ba7204b5fb49",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/belt-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 970770,
-        "sha256": "6d4341924c357edd93af76333491024b62165850d0997baaa02d36f080028d75",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1479232,
+        "sha256": "344508b7505fe05239e8c2281c7186bbba882ff4dec2a90c484171471d184f98",
         "alpha": false
       }
     },
@@ -82,19 +82,111 @@
       "original": {
         "path": "/media/bunny/belt-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1496786,
-        "sha256": "a1b334ec6cbc96ecbb9785243c11a21d888b5139da6194c58a1b1d353c7c9d81",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4078067,
+        "sha256": "7d956b716fe75d5112550cf0db84c5db67ca4a7451c0eaabb8b66b0dc18a0fc8",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/belt-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 890006,
-        "sha256": "9c6722e3960611fc5ecba58359cf91d894b6ba32d2dd53c50e77f6b7b8763292",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1100888,
+        "sha256": "113c2d34189fdf5f56021d72da79dea6b95c4f21de790df181f1f601d1b7f2a7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-tpose-back-latest",
+      "character": "bunny",
+      "title": "belt-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/belt-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5747243,
+        "sha256": "aa94d8a08174d95413acaf90653747a0c5e27e92b3b12d541491d22a0ebf4a13",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/belt-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1956476,
+        "sha256": "df766a86944e517a15eb4576e87b13538a48036d27edf0d8e587b5e820943172",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-tpose-front-latest",
+      "character": "bunny",
+      "title": "belt-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/belt-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4369085,
+        "sha256": "1940df3f6c1244209ac18a3347122aaebd3cc6787e2b91fa4180c6653e8fd835",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/belt-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1618222,
+        "sha256": "d1fa110d37d25c1bfe20929c17617203666419a1822e9bf7cb555892b6fb583f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-tpose-left-latest",
+      "character": "bunny",
+      "title": "belt-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/belt-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5587128,
+        "sha256": "057111c3b10d646f7130a8c1849b508d19bb34e944b56e7026305b471527b14a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/belt-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1809554,
+        "sha256": "81d67b1e3abdc293a757839675b2b5c2d6260e25083ea50dd80e823a6c8dd12e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-tpose-right-latest",
+      "character": "bunny",
+      "title": "belt-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/belt-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6549105,
+        "sha256": "763f0e089237fc871516204115443c3c91d5d7f4e54afa7c4b1fec55a128b705",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/belt-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1972196,
+        "sha256": "15bb9357be602637af6c869db3cb870bfe20dd26f7c18666a47621615fdda2a1",
         "alpha": false
       }
     },
@@ -105,19 +197,19 @@
       "original": {
         "path": "/media/bunny/body-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1553620,
-        "sha256": "995d2fa97b1e077e412ff10a131be88675dc9f7f31012f7dda216f5155d5f680",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 6203517,
+        "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/body-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 826412,
-        "sha256": "843a604350c5a8823acc08d61828406ef85edaac83672773477857416f09c8e1",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1331132,
+        "sha256": "c05282f0f4263da162ce895b2436cd34361c10e4653a816604711302f3dd1011",
         "alpha": false
       }
     },
@@ -128,19 +220,19 @@
       "original": {
         "path": "/media/bunny/body-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1499888,
-        "sha256": "662c8c38f5a03ea3ee2e3f7e83cd6dc5872c15c5d1d89a20278b3586a96ad127",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4935701,
+        "sha256": "69a04fa0bf7091b1524346d47041e41bf39576ce9648a6d24f7058670af254ab",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/body-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 849970,
-        "sha256": "664e1d9f89092cc950e6b15ec10ceb3bf348fa9addbfcbb3e365c4d7cd19eb71",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1252302,
+        "sha256": "f2f2c272be02145a75c4f3ef3016614126a3cf62ba4e3890a9f1a1fb4a13dea6",
         "alpha": false
       }
     },
@@ -151,19 +243,111 @@
       "original": {
         "path": "/media/bunny/body-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 955379,
-        "sha256": "c4ca73b3f865a6c2018e8db398dcd4ebc92cfe134389dfd63a9b9af33698e83b",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3234330,
+        "sha256": "6e32a08c6353e1abeea307fa7400415dc29567c24f3d1746f76162d505eadeac",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/body-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 475778,
-        "sha256": "f85e22522a0cc2fa25b0c57a5b766881b1941d5453a06644cb10ebf56bb0c54c",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 905108,
+        "sha256": "7988a5c528b634d1c2634c4a5c9f2f400b35cf8940bb7cc1f4e8468e8a5c1eff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-back-latest",
+      "character": "bunny",
+      "title": "body-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/body-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3668694,
+        "sha256": "a92410a99d5145cfac4670e9f73720663066e8a3e4e4736860e7f1ac90758b70",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/body-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1356152,
+        "sha256": "d8b3881f3228e855a97a95baf3ad0ee550843088f868681503b18fa2e1e0584e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-front-latest",
+      "character": "bunny",
+      "title": "body-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/body-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3571142,
+        "sha256": "8d7e4758486ff3c2ed0ff94afc70ea07094df694fafcd9373567bd6ceea8d2cf",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/body-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1341160,
+        "sha256": "f161c3e11a940185918b116ca7aabc45e6678dcb7a89d58f2daaca0c62997b7f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-left-latest",
+      "character": "bunny",
+      "title": "body-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/body-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3181151,
+        "sha256": "80088ff93433caa8cdc93782df07f4ab1f8a7f852cdf90e2c864fa0be8bc33c0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/body-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1098672,
+        "sha256": "a385b84eb1fe6973c3bc344aa69e8556a75d7818e58fd49ea8472125bb7ba764",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-right-latest",
+      "character": "bunny",
+      "title": "body-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/body-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6166862,
+        "sha256": "f39c92a514ced9c2145cdb04dd4ca14c846df3d385c3ad63a8416a005271ebda",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/body-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1842458,
+        "sha256": "9a97be22f55c63611c5de60886a75f30ca08003a6bf27ddb60b62df8a210493b",
         "alpha": false
       }
     },
@@ -197,19 +381,19 @@
       "original": {
         "path": "/media/bunny/daggers-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1641932,
-        "sha256": "e2a06d08ccc29e53b12cdafd72a67ad3555e85aeb9b34c44e15f6cb82cfb2529",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3727503,
+        "sha256": "2af89d59bafcfe79b6979ab286aee9b9ae0213570964422949b36a96182cb9ba",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/daggers-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 983162,
-        "sha256": "d91bf2cb50807a564d87c78becdb1a6003655143b23464012a295f08ddd0b3c1",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1014242,
+        "sha256": "b2b82f613a0bd150bb6407dad6589434c0e9f345d3e798c2d470ea046ef66aee",
         "alpha": false
       }
     },
@@ -243,19 +427,19 @@
       "original": {
         "path": "/media/bunny/daggers-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1675343,
-        "sha256": "43184edbb378d48ce0644bf3163c84ecaf21ef0b596fd62f2d3fc093cc2b00b2",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3910643,
+        "sha256": "6e50ddf03472b66b3b7c9b7e5c21ffdf80b87d9431fc7effc8ad8f939a23d968",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/daggers-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 979542,
-        "sha256": "3a8edcdbb3d50164283661d7a97c248c85c7975911c4ed2a2a85c2cad3afcc00",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1082370,
+        "sha256": "e3ee165522b099365221405bc074cd5df9bb3b56180f6aa1bf8520cc96bea7cd",
         "alpha": false
       }
     },
@@ -289,19 +473,19 @@
       "original": {
         "path": "/media/bunny/daggers-mount-board-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1623200,
-        "sha256": "3b410120dec0d90b692c146f5e2ad5c90889bc08722699a527197099043f1fb1",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5628874,
+        "sha256": "598d4b2a2bd7e1b513931dd771eaa62b12d2f4aed89ee8cce8f98a205868c180",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/daggers-mount-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1073052,
-        "sha256": "0a9372651d2cccd932702be327b851f1f88c6f575fc2f7cef623840b4f125e04",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1524930,
+        "sha256": "658d8ba58e2702f7796b52dd5a57c97e4ed04dd9db4c3142ede305d4612f59c1",
         "alpha": false
       }
     },
@@ -335,19 +519,111 @@
       "original": {
         "path": "/media/bunny/daggers-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1583222,
-        "sha256": "0e6678fb9ed780f1dd59f3d088ea1bdf16596aa4fa3f23f9c5784789fa35b60e",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4187443,
+        "sha256": "42980a281bdecb18c7d0bfd93b73c136876ea6ad1836d10cda31179ee8271a24",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/daggers-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 902188,
-        "sha256": "1e75844aa671d7456bb2bcc0ad902bb94e64271f08eee8e322fe848b57e037ff",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1102822,
+        "sha256": "91f81c9edca4512db4e2a1f786e9fc89946faf202c20a2aaaff150ac4882e045",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-tpose-back-latest",
+      "character": "bunny",
+      "title": "daggers-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/daggers-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4757445,
+        "sha256": "ac8aa94bfb5383e4eccbb661b894222fa1c84426742287b315692d9fd007e091",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1776492,
+        "sha256": "95014d170b48e5f2f033ce88ef7080cc5df6054ee60fa9a9e3f7109d19924a46",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-tpose-front-latest",
+      "character": "bunny",
+      "title": "daggers-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/daggers-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5720414,
+        "sha256": "8d5549ed63091a7c33909b393032b245bb8538184141829865bde50f20a57722",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1990278,
+        "sha256": "62f5b3fd91f84965748d513e77b800e402a60a2b422d191bef9c028745ac9ff2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-tpose-left-latest",
+      "character": "bunny",
+      "title": "daggers-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/daggers-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6158593,
+        "sha256": "94bff2169d7685e7aa1d2e006ffd5eabf39cf39a372282b6d6e1bea276bccdf9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1973832,
+        "sha256": "933ba7cdec83cfb2c51bf2223b9c1099606de5f5fabe3afdc72fd1d94fca94d8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-tpose-right-latest",
+      "character": "bunny",
+      "title": "daggers-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/daggers-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6324121,
+        "sha256": "f476e886243f7c0e47b2386ed7fa572c64d9a26140d97774514a1297932190a5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1936450,
+        "sha256": "1cf56818d8a3e46ddca0f6283b6ba0abe45d6eba2bd0dc1f6f9e160dcfef6cdb",
         "alpha": false
       }
     },
@@ -381,19 +657,19 @@
       "original": {
         "path": "/media/bunny/goggles-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1611441,
-        "sha256": "51015b8332971082138ee50d5c214d9cbb35fa8e024ac5918b19e117a9f715e0",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5406059,
+        "sha256": "2587b5776585fc806daf4f6154627a30200d2924925c37f08a53b40fef306848",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/goggles-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 923986,
-        "sha256": "f88c9d5ee69436af965a3afda5d5941fe169d513ef7b94e2a1202c433df38011",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1387092,
+        "sha256": "5459db049e42d466914830405829ced3872381ecd36743967c622c6d26d7fd70",
         "alpha": false
       }
     },
@@ -427,19 +703,19 @@
       "original": {
         "path": "/media/bunny/goggles-closeup-board-latest.png",
         "mime_type": "image/png",
-        "width": 1287,
-        "height": 1222,
-        "bytes": 2006171,
-        "sha256": "1ba99c90d2741ff70cc5e400d3af6882d5e481449a8a91812365db123200392a",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5114698,
+        "sha256": "d75f8e7c01bee3a32a47920f1ffc0c3aca3cb3eb3f39686b3d0e6c4dda255f4c",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/goggles-closeup-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1287,
-        "height": 1222,
-        "bytes": 1312260,
-        "sha256": "98a14f1e0e7be400de8c48796f9a8e9b7aa96f4ff8f521a94e517bc84d598a62",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1427966,
+        "sha256": "def5bbdc92b047d526c8e64ddce218d976729b59baee4ef690ad7f2b675d2019",
         "alpha": false
       }
     },
@@ -450,19 +726,19 @@
       "original": {
         "path": "/media/bunny/goggles-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1660860,
-        "sha256": "262e8d7ced9085ed30ce1fb072a0864db62baa3887fc16b92986160b78c0270a",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4477150,
+        "sha256": "16f6a5439289c6403cba930cd1a4b6f1881757762322e43075783882b8ce5e17",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/goggles-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 996224,
-        "sha256": "e012df1d89645b7d2a2d5ebabf65e2b8d6b080c891d936b64cfca70c03ee96e7",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1266868,
+        "sha256": "650618391b1a97258f8b51aca6d99ac5313a655a06b425abb9e2355b489983ce",
         "alpha": false
       }
     },
@@ -473,19 +749,111 @@
       "original": {
         "path": "/media/bunny/goggles-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1138279,
-        "sha256": "7ff6e681c139c965f52d7757a0703c192caa8878fcf5f84ae97225f82d745390",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4656278,
+        "sha256": "7f328502b333077521d6fddef439737e5744b4c0393a41d995ac4145161f8cb0",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/goggles-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 680930,
-        "sha256": "53a0fd67a83a4d6e18c11ebd22631b2b5d01ca073cd74cb43ee4515cbeb6ca92",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1187010,
+        "sha256": "9c994b88502b76813eec6be631fdf29e12d09b0d3fd8f99df4dda5e2e6410752",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-back-latest",
+      "character": "bunny",
+      "title": "goggles-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/goggles-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5780063,
+        "sha256": "ce285350cc95f9bbf16e301ca9b13f01dfa51d7264a3e1899ce12e181dc789dc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/goggles-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1944082,
+        "sha256": "56df0779917c8a4c8069a90a322cb62ba86f00282c6f69af37f858e4c36e067d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-front-latest",
+      "character": "bunny",
+      "title": "goggles-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/goggles-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4184171,
+        "sha256": "7334b6184e4faf874d64251aa67796892d2bc07a275802d5a56d3e827787da99",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/goggles-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1573964,
+        "sha256": "5ef53ad70f76b56d4629948cf60d4a9fc59f9933bf3af93ac5551352793483cc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-left-latest",
+      "character": "bunny",
+      "title": "goggles-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/goggles-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3550393,
+        "sha256": "7d0b2d04ef8a3df310b741f6e357e9fafa92eb527fe29fb37cd3b1a61b32430b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/goggles-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1313172,
+        "sha256": "1f349dc59933a830068d641a8c8d0ca2aa3d39006d7c50a779318119d60198e1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-right-latest",
+      "character": "bunny",
+      "title": "goggles-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/goggles-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6148541,
+        "sha256": "b57c815441b98cbfd1883fd30d79c84667f4adee5a0cd137ba0ae86267c763ae",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/goggles-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1942412,
+        "sha256": "c19749341d5f70b8ed2d60d403d0193aba563d2e93306ca40355729e66d4c0f3",
         "alpha": false
       }
     },
@@ -496,19 +864,19 @@
       "original": {
         "path": "/media/bunny/hands-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1556174,
-        "sha256": "1ec76928e8b2ea1c944b4a18767e6ae94af37328076efe78f0303058555210cf",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5507581,
+        "sha256": "de5d950d4e4b6014df273c3adfdec2ac3e31e5b89fea4ee8d7e74445a205defc",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/hands-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 906570,
-        "sha256": "2f8a57ca3590f826e77ad45b9e5e763472b51dd64bc0f02675bb89e1b6cd1f03",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1353038,
+        "sha256": "04d9bb71f5472aa8e6d52b82de9fec5f5cc8b4da955143e2d0bacd735ea87023",
         "alpha": false
       }
     },
@@ -519,19 +887,19 @@
       "original": {
         "path": "/media/bunny/hands-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1615924,
-        "sha256": "12693c4f6ed77cbff3275b57ec7df6d5500a7fa37575909f81cce20ba93bd82d",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4031463,
+        "sha256": "0ce81b093b6cbb201f085e0196d1e72add5343b059326936eb6b30eeb599f27b",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/hands-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 942202,
-        "sha256": "d20cc545b3e84e07517c52b68ebcbad8fe7acc45a12109264153211c6b024549",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1157342,
+        "sha256": "77fbe449b5f8572db806b2c5e8055453e39c25d92c3fb47fd4a67929912b17de",
         "alpha": false
       }
     },
@@ -565,19 +933,111 @@
       "original": {
         "path": "/media/bunny/hands-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1575713,
-        "sha256": "a76c2fdbd571875997a338ea815f004db00edf900a8d6d40ed27229907b62b9d",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3560934,
+        "sha256": "65066a053e777cc1bf9e970e9992cf36bb7ba0e2ba39a290cf4add9d3f8a2e45",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/hands-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 761576,
-        "sha256": "abae3ac43554d7389f8cdf26d00410ed90037618388b27f816f0b9dd93d123c5",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1011030,
+        "sha256": "df07b2e05c11ef35813fd8f44615e7fce5f3ff8ab69d6e3877e95df5b051f6bc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-tpose-back-latest",
+      "character": "bunny",
+      "title": "hands-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/hands-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5397476,
+        "sha256": "f3045a18c41beaa77001493f18efa2d9c7d2ddc83df9a3296054f633641135a0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hands-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1845974,
+        "sha256": "0dcf1dfe283a221a7c8c53e4bf0eb34cb1b7db489fc470d56a655529cb261a95",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-tpose-front-latest",
+      "character": "bunny",
+      "title": "hands-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/hands-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5599764,
+        "sha256": "6114c0bbbf37e60714eccc568550c5c77046fa6378c9937f4aeb7a5919dc3508",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hands-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1936498,
+        "sha256": "bbcc7d8abb3c51601559d180ff5d38d619ca331789a9e3adab75512fec7df008",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-tpose-left-latest",
+      "character": "bunny",
+      "title": "hands-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/hands-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5685666,
+        "sha256": "13e366dce24108866c997987d83100a79bcf02cc1a411147c81c1c880eefa55c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hands-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1782370,
+        "sha256": "0cca4e5f185df02b30680217d6f919380cce8976c2026fbb1e79289344383ebc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-tpose-right-latest",
+      "character": "bunny",
+      "title": "hands-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/hands-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5969933,
+        "sha256": "bb475ee07267dd586769aa069797d68e964b1c8f5717f69d3cd7018e65e81eff",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hands-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1867414,
+        "sha256": "37d2235e7d52c6ad86f383f1ebdafe0ae653258c0f5fce0cfca80baa9a7fa14e",
         "alpha": false
       }
     },
@@ -634,19 +1094,19 @@
       "original": {
         "path": "/media/bunny/hosiery-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1509857,
-        "sha256": "a4667822740a0d6582d4fe4a488d5d52eeef5284f8b843f1c6df8e94fc657cf0",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 6307394,
+        "sha256": "3daddf87ba68b170e95e16faafe573da54b848fb597984d045c9f2491316d7fc",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/hosiery-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 855138,
-        "sha256": "749f53b1d64a842ce7969720f4caee24867910078a41e09b5c79dda476f24188",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1398124,
+        "sha256": "3cb3f40bac7763f9fbe5df1d5e209960d54867b4310678e7b6de68194310d144",
         "alpha": false
       }
     },
@@ -680,19 +1140,19 @@
       "original": {
         "path": "/media/bunny/hosiery-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1196193,
-        "sha256": "7165dd529f0b365404b8a07748661540617ffa57b5570a71b7e4dd47f08f9f3f",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 6092835,
+        "sha256": "7a76136acdcade7d466200692c4982479e41f06250107034d5613034632fe532",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/hosiery-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 690582,
-        "sha256": "f8472e0f028395157d83d30f7bc09d60f674d9dbf8d3b13677e13e8628591761",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1407820,
+        "sha256": "3124cd4e1b20411b866c9d465d35893fa69c953194e89eed5c8eb81209c3a688",
         "alpha": false
       }
     },
@@ -703,19 +1163,111 @@
       "original": {
         "path": "/media/bunny/hosiery-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1401543,
-        "sha256": "1bff3ceb095d2fad3755156925c47979b6eab42d3f69a817982b347934fc60cd",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5601352,
+        "sha256": "856d17465073c5b7449b759cda42759ce1f312a91037c8be26d53d1991ece1a4",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/hosiery-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 778874,
-        "sha256": "4c0a800d2c7c0feaf2c84cb2eaab6b9274d9ec22852cf90a69faf74084f2660c",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1262630,
+        "sha256": "46065f4536600b35a1333272d27d9054986b484fe6939ca9ea81746e2dbdb7d9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-tpose-back-latest",
+      "character": "bunny",
+      "title": "hosiery-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/hosiery-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5637661,
+        "sha256": "54ae6c2d840bb25ef2048717ac58a21fdb3cecd4071fea08675ff9332c0b07ea",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hosiery-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1841720,
+        "sha256": "2e18671956250a6cd86015be6988d2301ad8bcd1d0e9960cf5ffd427bd54b821",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-tpose-front-latest",
+      "character": "bunny",
+      "title": "hosiery-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/hosiery-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5938984,
+        "sha256": "39427cd50ba599f34a822a454bf316e227f68a75ec9f5e7e874edec0128545b5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hosiery-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1892462,
+        "sha256": "f34e17c7bc4f1da0d679f7786455797e5cffe79bc2062a3e19c898e383112a66",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-tpose-left-latest",
+      "character": "bunny",
+      "title": "hosiery-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/hosiery-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5454013,
+        "sha256": "9c92e90788de21949b9ad00a54a559980150ed9cd68e1b4e05b844696eab2256",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hosiery-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1806884,
+        "sha256": "0037dcffe226b9c15e4f21dfe6bd60d9a960dc0dfd06effc9e73384a36f08627",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-tpose-right-latest",
+      "character": "bunny",
+      "title": "hosiery-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/hosiery-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6441551,
+        "sha256": "fe67839d706bf2a8e6adec7b30edb71cd860e973c436f013e1bb34694b7d0902",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/hosiery-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1923124,
+        "sha256": "3e07268c8e4b464ecd899327c94eb8792c4af0d2ecb575df3ba71c7062bd55a0",
         "alpha": false
       }
     },
@@ -726,19 +1278,19 @@
       "original": {
         "path": "/media/bunny/innerwear-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1153738,
-        "sha256": "b357631a7a2f2a15d02d3b6c4f6a5f0feef8bc94b4957b77cc357357b1670253",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5930861,
+        "sha256": "e2f0994f41c3862e0af4e59a85014996fdb4553378c0104e6f6673a42ce41431",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/innerwear-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 670794,
-        "sha256": "fb97381825a4a0efe57284bb0af134191a455885f36bd06d9a2bf96fe2d30c2b",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1377320,
+        "sha256": "5cda1dea806eb8b2af7eff045b71dfccdf0798102622e3beabced75ccca2f78c",
         "alpha": false
       }
     },
@@ -749,19 +1301,19 @@
       "original": {
         "path": "/media/bunny/innerwear-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1138015,
-        "sha256": "62631d5772866743af64a8ea2860e4c9993f181371bd68dfae518f22b2df688f",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5255744,
+        "sha256": "668230a54a9b75469c5cd7e698ed4106c09b4bf5fbb2cc4f4ca71dd68c95f97f",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/innerwear-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 644068,
-        "sha256": "66db06109d9fae31a57689fcb8ec19cc145164c78291a01f68b95777778ed0fa",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1329468,
+        "sha256": "07f09ac4231963fb51fdb68a710b8f4d9cd76e098b8e5a1fae6efb42fd478e1e",
         "alpha": false
       }
     },
@@ -795,19 +1347,19 @@
       "original": {
         "path": "/media/bunny/innerwear-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1471945,
-        "sha256": "32a74e480e63e7626bc948492cdffd94323925379f72c71abf0df58abb22055e",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3529730,
+        "sha256": "c6a04d481b22e1904fe00826e2aaa865862eb84b0962c12cc7536f9f530fbc5f",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/innerwear-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 773080,
-        "sha256": "7476de6c3d7ffdea964ce4f169ec12a50a87abd9e10083c21d8a59939d0c40f7",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 986384,
+        "sha256": "101fa00a74754a1f0c99bc8e24816cf4847ca88d4b9598b2f2f450e90ee7a94d",
         "alpha": false
       }
     },
@@ -835,25 +1387,117 @@
       }
     },
     {
+      "id": "innerwear-tpose-back-latest",
+      "character": "bunny",
+      "title": "innerwear-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/innerwear-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3672851,
+        "sha256": "19f1995e88a25250cad7e8f90af292b17be8ad19acb7f7708ea036e9bb2f19a5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/innerwear-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1371716,
+        "sha256": "97ab80a494b559efc6a4cecea4baaaf3df725f12aa697f9e11b28ec10dc05bdc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-tpose-front-latest",
+      "character": "bunny",
+      "title": "innerwear-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/innerwear-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5949375,
+        "sha256": "f36460fa41aa7c06a01da5c203f724bdb19750875536673d20019f6cc43a9d72",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/innerwear-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1906814,
+        "sha256": "c6b3d3f893b9b979b532642f1375ca3de4411941e23b5e3d78f2057503d72206",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-tpose-left-latest",
+      "character": "bunny",
+      "title": "innerwear-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/innerwear-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6026253,
+        "sha256": "7b15138dac06abd5f448de5b46238c13d9aaa7862ff1bd5887e1b3100ba050ed",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/innerwear-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1829676,
+        "sha256": "ba4a609d86417c076f6c69046d5a4c94a00c38274d54656420f077a22df73cdb",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-tpose-right-latest",
+      "character": "bunny",
+      "title": "innerwear-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/innerwear-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4867999,
+        "sha256": "0f638bae3a33b2c9d5713d0dba93d056546b394f959788ba7a64a70d4be73df6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/innerwear-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1550572,
+        "sha256": "48e1d9179b8a79747b87f017eadea9cd3bd9f61c8bfcdaf19d4c1aa7915502aa",
+        "alpha": false
+      }
+    },
+    {
       "id": "jacket-back-latest",
       "character": "bunny",
       "title": "jacket-back-latest",
       "original": {
         "path": "/media/bunny/jacket-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1598045,
-        "sha256": "2ace9986e1b7a7a438c5f1d5eb93981c866de3fdad97fbf99c7c91df36128d0a",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3467877,
+        "sha256": "7cbc7ea9ebb09b705e9ff3e92f98aaa4e1221556b5c26b889d0ce783aa4b50b7",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/jacket-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 931384,
-        "sha256": "46b259d810bb66f8596dab601fb618d2b83fc5872280ba6746d108eef7cd49d9",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 916504,
+        "sha256": "2ef4d3c76f766ed05739d71338d990a2dd37b66d854226e5364908c5db9686db",
         "alpha": false
       }
     },
@@ -864,19 +1508,19 @@
       "original": {
         "path": "/media/bunny/jacket-board-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1383599,
-        "sha256": "38fb58e5d74939030ada8236fa7e8e7ed4b711ecb590d59f1100ad70b5e8db6e",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4632754,
+        "sha256": "80fc0de79ca9752ba7a3286a47f28eb606d412c751a80513fbaaef029c4503dd",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/jacket-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 888790,
-        "sha256": "766e1892e971e61d6c9e3a90cdc040a9c81a820569c6a9ccd2f4b1b777195719",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1355338,
+        "sha256": "4a2e7d08aa85b38643ebef1aa0efce097994e6d4c79f1ba978a769e99c057cdc",
         "alpha": false
       }
     },
@@ -910,19 +1554,19 @@
       "original": {
         "path": "/media/bunny/jacket-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1220204,
-        "sha256": "eb4bfa9eb750f9488b101f0331a8ca3b00fb8a1634dd79ddee73ccc9d36aae6d",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4334528,
+        "sha256": "09a8b3de4a5b5bb4d8b14ec5639197dbbee1b95e8578fc111dc5728e4336ca13",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/jacket-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 704464,
-        "sha256": "6dda61bd8ceb915bbf3a34df1d4fc72bbff8bdafa17b9ea3fb56ba4dfcbe4686",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1239910,
+        "sha256": "2bcb74ccd4ac4dcd33ff151dc92f9bfd29a29cb17b1a5f0706220605e4de2aa2",
         "alpha": false
       }
     },
@@ -933,19 +1577,111 @@
       "original": {
         "path": "/media/bunny/jacket-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1515254,
-        "sha256": "a84fa973b6e3f20dee8f2124d812c01d521c1d13921af06ca6b35dfea12647c6",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4186862,
+        "sha256": "337e08c8865cb84b89238d62d04f4eda8dc9a95124e12e84c6aa079a6e1802bb",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/jacket-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 812954,
-        "sha256": "b86633a4e8c8ee8fdd30b036b13e70a974282215681607fa696bc2d27f38b8ba",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1150568,
+        "sha256": "9940e869a693bf43991c25924810f6b5024cff081a75c09cbf0473abb05c1807",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-back-latest",
+      "character": "bunny",
+      "title": "jacket-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/jacket-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5659964,
+        "sha256": "921e581d50e0ee6a6b4f1f9caf21ff3aec95f850e4337924e47d7f47d5e5e8f6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/jacket-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1915318,
+        "sha256": "f2dff6f82774e67bcd3209a1d65f11c618126967fbac81eea4e2b6f16e3a1145",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-front-latest",
+      "character": "bunny",
+      "title": "jacket-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/jacket-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5990287,
+        "sha256": "74d7e1bdbd08643507f085c51cb3b0f862486a944a35c301d98c94ec9b1e8d0b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/jacket-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1964602,
+        "sha256": "51aeca64170f75ba6c71b8eaa5538a2075427743569d2d42e842e2a460e912c2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-left-latest",
+      "character": "bunny",
+      "title": "jacket-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/jacket-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5091109,
+        "sha256": "b23c4b9239536064561e9300110f9470ed044f5ba1e5086cf1404a8bad325b0b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/jacket-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1756404,
+        "sha256": "a19a4e91a6ba1bdfc5cbd2c37e40652f85c2565f5f6ad8f1c7a1131ce069ea90",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-right-latest",
+      "character": "bunny",
+      "title": "jacket-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/jacket-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6117138,
+        "sha256": "590e92e85359ee555c715eb89ca4fe7d1a12f2c5c6a28f92921167a67768baf3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/jacket-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1899670,
+        "sha256": "480c95c878dc4c6df7917e43a1626b1c0994499531accf6addda926a9fd35184",
         "alpha": false
       }
     },
@@ -956,19 +1692,19 @@
       "original": {
         "path": "/media/bunny/shoes-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1522666,
-        "sha256": "94ef3bc4265b81cb8688716eb669d5ddb755ea2232fea7631abd58d91aeb8019",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5749013,
+        "sha256": "e749d4dfac41bbf3a5a750eb2372d33d6af5d5bb9d09fd7775b2ed075bbfbb65",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/shoes-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 887432,
-        "sha256": "22fca0e9d20016b3b19c4d7e6fa7af7881603b988ef140900449c316531f3391",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1383252,
+        "sha256": "2248dfdb73866cc6d7bbdf2d7bc2299accde1f08254cf017d28292adca2a5c28",
         "alpha": false
       }
     },
@@ -1002,19 +1738,19 @@
       "original": {
         "path": "/media/bunny/shoes-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1248276,
-        "sha256": "a88daac16fa7b359ab3e139c99af90545152e787ba25dbfe7ec6c7557b64b2bd",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4848805,
+        "sha256": "09b790b376dda0248f4dfdbc8382b013aac000a0a1b5793dbbfee60c7e828c43",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/shoes-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 746002,
-        "sha256": "0dc1126571714aaa3c2405f7e212f91de132a29c1c6ffe9df31c9583c7c18e3f",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1308498,
+        "sha256": "5434f8857409983c3737865cfb7a70cfddc12f91a8b5b20364e73b495207e166",
         "alpha": false
       }
     },
@@ -1025,19 +1761,111 @@
       "original": {
         "path": "/media/bunny/shoes-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1500244,
-        "sha256": "8e6199c107bbd86adbfce6ae129c2e56244e244a153e7cf65bf23b3155355cb7",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4406540,
+        "sha256": "375b19038c4da1954fda2140fb7e202dfbe968d62ce751238decf4c596aa8835",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/shoes-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 787302,
-        "sha256": "a934fd2a97cf3ead34d7e6520c64b56a6692f40fcbcca08f0a059e9d4756c1c4",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1134894,
+        "sha256": "bf9d639cd58e68ef6340f6d87aa4e6f40db15adc941c7693c8d56233dfbf09f9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-tpose-back-latest",
+      "character": "bunny",
+      "title": "shoes-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/shoes-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6115590,
+        "sha256": "1056705cd34c431c3cf18995f5424bfde018ad6d2774c9de100e8d35cfca13a3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/shoes-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1923508,
+        "sha256": "3e4dd3909ba5eaf3cc4136fcb7857ebe0bdd57e0b623f6299aa2b6d4fd1ea477",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-tpose-front-latest",
+      "character": "bunny",
+      "title": "shoes-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/shoes-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3957215,
+        "sha256": "bbd27395d9e3e572fee881c0fa105c80da94b3c0f922cc5ce2d23c838cdd1423",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/shoes-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1522358,
+        "sha256": "6f01306fa7008a6f50ebdb6b72c47359bd3376f95a5cddeeb1a225db5d47c54d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-tpose-left-latest",
+      "character": "bunny",
+      "title": "shoes-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/shoes-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5230020,
+        "sha256": "57dcf6d0022e41a877fdf9c735e883fff32173d204fb3010b598226000bef8f5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/shoes-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1755124,
+        "sha256": "40449fd280b85fdf55e1087be2c57c70ca5569ff1a30a51bdf93b86bf7cbd718",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-tpose-right-latest",
+      "character": "bunny",
+      "title": "shoes-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/shoes-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5968787,
+        "sha256": "f941d104be9c2a492dfc25f41181087d33dd12e1b729fa4a896c8b90ee799b6e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/shoes-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1858740,
+        "sha256": "65a821ef6c1c4e24e1d1c6648e246da7b805fe576dad17605b8279765cbab003",
         "alpha": false
       }
     },
@@ -1117,19 +1945,19 @@
       "original": {
         "path": "/media/bunny/thigh-gear-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1556940,
-        "sha256": "48cb6925661f92da9d80e7ca884e2b007cc164e37a1f053aefd4c1dc1b2c884b",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5691814,
+        "sha256": "47840879fc52c8d2fc7b5329be285ee3af93a7b7cc951545d4028a5a2b309981",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/thigh-gear-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 897202,
-        "sha256": "013c1f8aa45bb43b6bd01fa070e0074d905e6780ed08380076fcd70229a4d53c",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1382098,
+        "sha256": "17d6e008fd4ce721242aa7688f93b2c143c1c09e49f03d1ca4e6a1b7b17ddf3a",
         "alpha": false
       }
     },
@@ -1140,19 +1968,19 @@
       "original": {
         "path": "/media/bunny/thigh-gear-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1645047,
-        "sha256": "35aceb5aad49eb739586b16493d8a7c81f6faca7f71a536b6ea6aaf25edc68c5",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4482921,
+        "sha256": "7dff7001cd8102cc34c16866352a816d8344aa1ce16830b0dbc35a46110e0621",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/thigh-gear-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 935934,
-        "sha256": "7835b2eca9c3f10c1b2e7d09d865e60c7b796eeeb2818cc411afd3c2bf8bf2aa",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1221568,
+        "sha256": "b6c203bca45b37626e2ca250076385893f895c12f3c6a63b42fbe0caa4dd9cde",
         "alpha": false
       }
     },
@@ -1163,19 +1991,19 @@
       "original": {
         "path": "/media/bunny/thigh-gear-pouch-board-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1401787,
-        "sha256": "89519e6460e70b4527ac808ca376f4447affa1dfa2ead6274498cd955c79fe90",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4616022,
+        "sha256": "cc7855b3f2c668ae73c696699d02a2a1f6afb1edc3746a32bf3d46e4abeb53bd",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/thigh-gear-pouch-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 784992,
-        "sha256": "9822aeed78e7f87df512dba84c2c316adccb7ef36920dfbc49e1d89e85b712f8",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1228116,
+        "sha256": "f8df8798be03c29fc4206a1e83b42b9d7abd9defeb689d213eac6886e1e93a2c",
         "alpha": false
       }
     },
@@ -1186,19 +2014,19 @@
       "original": {
         "path": "/media/bunny/thigh-gear-side-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1528220,
-        "sha256": "af9a6cef44d1870bcee0496e37c291ff75b84a229e80d1c5a83dda4711acd97e",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4096105,
+        "sha256": "c8f4316cc5e20ebec1ea4227130e6909bb317076c42311efcddb311fb50e656c",
         "alpha": false
       },
       "web": {
         "path": "/characters/bunny/thigh-gear-side-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 828272,
-        "sha256": "4d6ef3e29baea850b9e4634ec146f8eb2b93a7b9b1e505db7ded3b82cf2ae3c4",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1101698,
+        "sha256": "a6014808a6048a8c171d29d5811fe02fc72f54d336981ecc06c385d9fb3f08ff",
         "alpha": false
       }
     },
@@ -1222,6 +2050,98 @@
         "height": 1024,
         "bytes": 693062,
         "sha256": "71f61b74511fb95bd4ab62821ecd0afc26bbc715ad63dbbb343b332539f58d1e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-tpose-back-latest",
+      "character": "bunny",
+      "title": "thigh-gear-tpose-back-latest",
+      "original": {
+        "path": "/media/bunny/thigh-gear-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3867108,
+        "sha256": "ed7f6a9b33cd8c7ffd93ca2d780b55eccd11d7f4bd14c7d9b0f9d907b75d84ae",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/thigh-gear-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1448320,
+        "sha256": "2df93fab0a215dc17ab008cf362913e13d54b4618a38c34a7e2ee8cfcd127448",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-tpose-front-latest",
+      "character": "bunny",
+      "title": "thigh-gear-tpose-front-latest",
+      "original": {
+        "path": "/media/bunny/thigh-gear-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4866467,
+        "sha256": "751d1d23b0852eb45d3e17c469534e4ea480dc59df14c90a95c2d62e28906c36",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/thigh-gear-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1734174,
+        "sha256": "3d3d06756d2b607c8610efd517e62298130dde1ed74dcb11d938bbee4b763006",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-tpose-left-latest",
+      "character": "bunny",
+      "title": "thigh-gear-tpose-left-latest",
+      "original": {
+        "path": "/media/bunny/thigh-gear-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6080638,
+        "sha256": "e275b8dc006ddd908ce131c73b1e55c1013700335fb271e28b2ec6a4bd6ec4a4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/thigh-gear-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1875144,
+        "sha256": "52d646608222f163021b25a4e7762556554a3fdcddb0c9a62ff56692959360de",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-tpose-right-latest",
+      "character": "bunny",
+      "title": "thigh-gear-tpose-right-latest",
+      "original": {
+        "path": "/media/bunny/thigh-gear-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5818094,
+        "sha256": "342735a1feff3a57642d35a04cfe2abb98af333daca6f7b3b39048ec3e37ba93",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/thigh-gear-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1867982,
+        "sha256": "85e74839f88394c99812b2bd047385714059a6c6d6500a8e9c916214f7dbc15a",
         "alpha": false
       }
     }

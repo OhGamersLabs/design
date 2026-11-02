@@ -14,7 +14,7 @@
     },
     "/characters/bunny/assembled": {
       "target": "/characters/bunny/weapon#carry",
-      "title": "双匕首 · 持握与后腰交叉携行"
+      "title": "双匕首 · 持握与裤腰皮带挂片携行"
     },
     "/characters/bunny/saw": {
       "target": "/characters/bunny/",
@@ -98,7 +98,7 @@
     "/characters/bunny/assembly#基准": "/characters/bunny/#body",
     "/characters/bunny/assembly#资料阅读顺序": "/characters/bunny/#layers",
     "/characters/bunny/assembly#外套与腰带的图示边界": "/characters/bunny/#layers",
-    "/characters/bunny/assembly#当前累计结果": "/characters/bunny/headgear#wearing",
+    "/characters/bunny/assembly#当前累计结果": "/characters/bunny/weapon#carry",
     "/characters/bunny/body-base#basic-bra-comparison": "/characters/bunny/",
     "/characters/bunny/body-base#v2-style-comparison": "/characters/bunny/",
     "/characters/bunny/body-base#v2-local-comparison": "/characters/bunny/",
@@ -169,9 +169,9 @@
     "/characters/bunny/#本轮补充": "/characters/bunny/#body",
     "/characters/bunny/#原始手稿": "/characters/bunny/#identity",
     "/characters/bunny/#设计规范": "/characters/bunny/#body",
-    "/characters/bunny/#成品": "/characters/bunny/headgear#wearing",
-    "/characters/bunny/#当前累计衣层": "/characters/bunny/headgear#wearing",
-    "/characters/bunny/#当前累计穿戴": "/characters/bunny/headgear#wearing",
+    "/characters/bunny/#成品": "/characters/bunny/weapon#carry",
+    "/characters/bunny/#当前累计衣层": "/characters/bunny/weapon#carry",
+    "/characters/bunny/#当前累计穿戴": "/characters/bunny/weapon#carry",
     "/characters/bunny/#outfit-pose": "/characters/bunny/",
     "/characters/bunny/#原稿同姿势角色卡": "/characters/bunny/#identity",
     "/characters/bunny/innerwear#before-v2-innerwear": "/characters/bunny/",

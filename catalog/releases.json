@@ -28,6 +28,30 @@
     },
     {
       "character": "bunny",
+      "path": "/media/bunny/belt-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/belt-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/belt-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/belt-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/belt-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/belt-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/belt-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/belt-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
       "path": "/media/bunny/body-back-latest.png",
       "key": "x_ops/design/characters/bunny/latest/body-back-latest.png",
       "contentType": "image/png"
@@ -42,6 +66,30 @@
       "character": "bunny",
       "path": "/media/bunny/body-side-latest.png",
       "key": "x_ops/design/characters/bunny/latest/body-side-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/body-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/body-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/body-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/body-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/body-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/body-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/body-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/body-tpose-right-latest.png",
       "contentType": "image/png"
     },
     {
@@ -94,6 +142,30 @@
     },
     {
       "character": "bunny",
+      "path": "/media/bunny/daggers-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/daggers-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/daggers-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/daggers-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/daggers-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/daggers-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/daggers-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/daggers-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
       "path": "/media/bunny/expressions-sheet-latest.png",
       "key": "x_ops/design/characters/bunny/latest/expressions-sheet-latest.png",
       "contentType": "image/png"
@@ -130,6 +202,30 @@
     },
     {
       "character": "bunny",
+      "path": "/media/bunny/goggles-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/goggles-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/goggles-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/goggles-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/goggles-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/goggles-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/goggles-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/goggles-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
       "path": "/media/bunny/hands-back-latest.png",
       "key": "x_ops/design/characters/bunny/latest/hands-back-latest.png",
       "contentType": "image/png"
@@ -150,6 +246,30 @@
       "character": "bunny",
       "path": "/media/bunny/hands-side-latest.png",
       "key": "x_ops/design/characters/bunny/latest/hands-side-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/hands-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/hands-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/hands-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/hands-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/hands-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/hands-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/hands-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/hands-tpose-right-latest.png",
       "contentType": "image/png"
     },
     {
@@ -190,6 +310,30 @@
     },
     {
       "character": "bunny",
+      "path": "/media/bunny/hosiery-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/hosiery-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/hosiery-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/hosiery-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/hosiery-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/hosiery-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/hosiery-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/hosiery-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
       "path": "/media/bunny/innerwear-back-latest.png",
       "key": "x_ops/design/characters/bunny/latest/innerwear-back-latest.png",
       "contentType": "image/png"
@@ -216,6 +360,30 @@
       "character": "bunny",
       "path": "/media/bunny/innerwear-top-board-latest.png",
       "key": "x_ops/design/characters/bunny/latest/innerwear-top-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/innerwear-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/innerwear-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/innerwear-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/innerwear-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/innerwear-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/innerwear-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/innerwear-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/innerwear-tpose-right-latest.png",
       "contentType": "image/png"
     },
     {
@@ -250,6 +418,30 @@
     },
     {
       "character": "bunny",
+      "path": "/media/bunny/jacket-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/jacket-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/jacket-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/jacket-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/jacket-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/jacket-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/jacket-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/jacket-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
       "path": "/media/bunny/shoes-back-latest.png",
       "key": "x_ops/design/characters/bunny/latest/shoes-back-latest.png",
       "contentType": "image/png"
@@ -270,6 +462,30 @@
       "character": "bunny",
       "path": "/media/bunny/shoes-side-latest.png",
       "key": "x_ops/design/characters/bunny/latest/shoes-side-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/shoes-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/shoes-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/shoes-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/shoes-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/shoes-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/shoes-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/shoes-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/shoes-tpose-right-latest.png",
       "contentType": "image/png"
     },
     {
@@ -318,6 +534,30 @@
       "character": "bunny",
       "path": "/media/bunny/thigh-gear-terminal-board-latest.png",
       "key": "x_ops/design/characters/bunny/latest/thigh-gear-terminal-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/thigh-gear-tpose-back-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/thigh-gear-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/thigh-gear-tpose-front-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/thigh-gear-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/thigh-gear-tpose-left-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/thigh-gear-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/thigh-gear-tpose-right-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/thigh-gear-tpose-right-latest.png",
       "contentType": "image/png"
     },
     {

@@ -14,7 +14,7 @@ const mode = computed(() => {
 })
 const layer = computed(() => {
   const value: unknown = frontmatter.value.layer
-  if (typeof value !== 'number' || !Number.isInteger(value) || value < 0 || value > 8) throw new Error(`Invalid Bunny layer: ${String(value)}`)
+  if (typeof value !== 'number' || !Number.isInteger(value) || value < 0 || value > 9) throw new Error(`Invalid Bunny layer: ${String(value)}`)
   return value
 })
 const category = computed(() => {
