@@ -224,3 +224,35 @@ test('downloadable dagger specification matches the approved leather-tab carry s
   assert.doesNotMatch(carry, /圆形银按扣|红领|骨白在外|柄尾朝|伸向另一侧|贴着后背|拇指/)
   assert.doesNotMatch(carry + visible, /刀鞘|短托|束带|带耳/)
 })
+
+test('dagger totals and every master proportion use the current owner length decision', () => {
+  const source = json('../catalog/bunny/dagger-dimensions.json')
+  assert.equal(source.updated, '2026-11-02')
+  assert.deepEqual(source.designTargets.rootTotalDecision, {
+    path: '/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-length-angle-decision.json',
+    sha256: '4d401d922c4e653824cb28f439e7fb109a00e79f76f46c56bbe7131fc1455d59',
+  })
+  const segmentKeys = { blade_axial: 'blade', guard_center_band: 'guard_center_band', red_collar: 'red_collar', visible_grip: 'visible_grip', pommel_axial: 'pommel' }
+  for (const [name, total] of Object.entries({ dark: 0.2246, ivory: 0.2633 })) {
+    const target = source.designTargets.values[name]
+    const current = source.currentDimensions.values[name]
+    const observed = source.sourceObservations[0].observations.find((item) => item.name === name)
+    assert.equal(target.total_H0, total)
+    assert.equal(current.total_H0, total)
+    assert.equal(target.totalReferencePx, total * source.designUnit.H0Px)
+    assert.equal(current.H0PerSourcePixel, total / current.sourceLengthPx)
+    assert.deepEqual(current.partsAndWidths_H0, target.partsAndWidths_H0)
+    for (const [key, segment] of Object.entries(segmentKeys)) {
+      assert.ok(Math.abs(target.partsAndWidths_H0[key] - observed.segments[segment].fraction_of_L * total) < 1e-12, `${name}: ${key}`)
+    }
+    for (const [key, width] of [['blade_max_front_width', 'blade'], ['grip_max_front_width', 'grip']]) {
+      assert.ok(Math.abs(target.partsAndWidths_H0[key] - observed.widths[width].threshold_sensitivity['210'].fraction_of_L * total) < 1e-12, `${name}: ${key}`)
+    }
+    assert.ok(Math.abs(target.partsAndWidths_H0.guard_transverse_envelope - observed.guard_envelope.fraction_of_L * total) < 1e-12, `${name}: guard envelope`)
+    for (const [key, bounds] of Object.entries(current.conservativeIntervals_H0)) {
+      assert.equal(bounds.length, 2, `${name}: ${key} interval`)
+      assert.ok(bounds[0] < current.partsAndWidths_H0[key] && bounds[1] > current.partsAndWidths_H0[key], `${name}: ${key} bounded`)
+    }
+  }
+  assert.doesNotMatch(source.referenceBasis.meaning, /0\.(?:36|42)\s*H0/)
+})

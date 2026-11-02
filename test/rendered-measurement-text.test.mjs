@@ -19,7 +19,7 @@ const read = (path) => readFileSync(resolve(root, path), 'utf8')
 const json = (path) => JSON.parse(read(path))
 const displayText = json('docs/.vitepress/data/bunny/display-text.json')
 const display = createDisplayTextLookup(displayText)
-const forbidden = /Phase\s*(?!Final(?![a-z]))[A-Z]|阶段\s*[A-Z]|新图|新侧面|新批准|旧图|旧读数|旧测点|重读|复读|不沿用|不继承|更换前|本轮|历史|工作稿/u
+const forbidden = /Phase|阶段\s*[A-Z]|新图|新侧面|新批准|旧图|旧读数|旧测点|重读|复读|不沿用|不继承|更换前|本轮|历史|工作稿|重画|抽卡|take|guide|引导图|迭代|版本|修图|(?:l9[a-z0-9]*-[^\s<>]*|dagger-master[^\s<>]*|root-scale-decision|sunraku04-projection-scale-analysis)\.(?:json|png)/iu
 
 // Unicode format characters (including zero-width spaces/joiners) must not
 // let visually adjacent letters bypass the same assertion.
@@ -77,7 +77,7 @@ function assertRendered(entries, sourceFiles = []) {
   const sources = sourceFiles.flatMap((file) => stringLeaves(json(file)).map(([path, text]) => [`${file}#${path}`, text]))
   for (const [location, text] of entries) {
     if (typeof text !== 'string') continue
-    for (const match of renderedText(text).matchAll(new RegExp(forbidden.source, 'gu'))) {
+    for (const match of renderedText(text).matchAll(new RegExp(forbidden.source, 'giu'))) {
       const origins = sources.filter(([, value]) => value === text).map(([path]) => path)
       const path = origins.length ? origins.join(' | ')
         : sourceFiles.length ? `${sourceFiles[0]}#$ (rendered model field ${location})` : location
@@ -199,7 +199,7 @@ function markdownEntries(md, path, source) {
   function add(text, detail = '', sourceRange = range) {
     if (typeof text !== 'string') return
     // A paragraph can span lines; report the source lines containing the match.
-    const words = [...renderedText(text).matchAll(new RegExp(forbidden.source, 'gu'))].map(([word]) => word)
+    const words = [...renderedText(text).matchAll(new RegExp(forbidden.source, 'giu'))].map(([word]) => word)
     const matchingLines = lines.flatMap((line, index) => index >= offset + sourceRange[0] && index < offset + sourceRange[1]
       && words.some((word) => line.includes(word)) ? [index + 1] : [])
     // A match across a soft break is absent from any one source line. Locate

@@ -2,6 +2,7 @@
 """Build stable image manifests and the exact Worker allowlist, without network access."""
 import argparse
 import hashlib
+from io import BytesIO
 import json
 from pathlib import Path
 import re
@@ -9,6 +10,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 SLUG = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*-latest')
+WEB_LONG_EDGE = 2048
 FORBIDDEN = re.compile(r'(?:^|-)(?:v\d+|layer\d+|fresh|cel|base-aligned|highlow|only|construction)(?:-|$)')
 
 
@@ -19,8 +21,42 @@ def metadata(path, url, mime):
                     alpha='A' in image.getbands())
 
 
-def build(root=ROOT):
+def refresh_web_images(root, selections):
+    """Losslessly rebuild only explicitly selected existing web assets, long edge capped at WEB_LONG_EDGE."""
+    pending = {}
+    for selection in selections:
+        parts = selection.split('/')
+        if (len(parts) != 2 or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', parts[0])
+                or not SLUG.fullmatch(parts[1]) or FORBIDDEN.search(parts[1])):
+            raise ValueError(f'Invalid web asset selection: {selection}')
+        character, slug = parts
+        web = root/'docs/public/characters'/character/(slug+'.webp')
+        original = root/'.release'/character/(slug+'.png')
+        if not original.is_file():
+            raise ValueError(f'Missing original: {selection}')
+        if not web.is_file():
+            raise ValueError(f'Missing existing web asset: {selection}')
+        with Image.open(original) as image:
+            mode = 'RGBA' if 'A' in image.getbands() or 'transparency' in image.info else 'RGB'
+            with image.convert(mode) as pixels:
+                if max(pixels.size) > WEB_LONG_EDGE:
+                    scale = WEB_LONG_EDGE / max(pixels.size)
+                    size = tuple(max(1, round(side * scale)) for side in pixels.size)
+                    pixels = pixels.resize(size, Image.LANCZOS)
+                output = BytesIO()
+                pixels.save(output, 'WEBP', lossless=True, method=6, exact=True)
+                pending[web] = output.getvalue()
+    # Preflight every selection before changing any web asset; originals are read-only.
+    for path, data in pending.items():
+        path.write_bytes(data)
+    if pending:
+        print(f'Web images: {len(pending)} selected lossless conversions')
+
+
+def build(root=ROOT, refresh_web=None):
     root = Path(root)
+    if refresh_web:
+        refresh_web_images(root, refresh_web)
     catalog = dict(schemaVersion=2, contentReady=False, assets=[])
     outputs = {}
     for directory in sorted((root/'docs/public/characters').iterdir()):
@@ -63,8 +99,10 @@ def build(root=ROOT):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=ROOT)
+    parser.add_argument('--refresh-web', nargs='+', metavar='CHARACTER/SLUG',
+                        help='Losslessly rebuild only these existing WebPs from their PNG originals (long edge at most 2048 px)')
     args = parser.parse_args()
-    build(args.root)
+    build(args.root, refresh_web=args.refresh_web)
 
 
 if __name__ == '__main__':
