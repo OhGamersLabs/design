@@ -62,6 +62,57 @@ class CatalogBuilderTest(unittest.TestCase):
         self.assertNotEqual(previous, current['sha256'])
         self.assertEqual(current['width'], 40)
 
+    def test_refresh_web_changes_only_selected_derivative_and_preserves_native_pixels(self):
+        original = self.root/'.release/bunny/body-front-latest.png'
+        selected = self.root/'docs/public/characters/bunny/body-front-latest.webp'
+        untouched = self.root/'docs/public/characters/origins/bunny-original-latest.webp'
+        # Vary colour and alpha so an accidental lossy encode or resize fails.
+        with Image.new('RGBA', (41, 63)) as image:
+            image.putdata([(x * 5 % 256, y * 3 % 256, (x + y) * 7 % 256, 128 + x % 128)
+                           for y in range(63) for x in range(41)])
+            image.save(original)
+        original_bytes = original.read_bytes()
+        selected_before = selected.read_bytes()
+        untouched_before = untouched.read_bytes()
+        builder.build(self.root, refresh_web=['bunny/body-front-latest'])
+        self.assertEqual(original.read_bytes(), original_bytes)
+        self.assertEqual(untouched.read_bytes(), untouched_before)
+        self.assertNotEqual(selected.read_bytes(), selected_before)
+        with Image.open(original) as png, Image.open(selected) as web:
+            self.assertEqual(web.size, png.size)
+            self.assertEqual(web.convert('RGBA').tobytes(), png.convert('RGBA').tobytes())
+        asset = json.loads((self.root/'catalog/bunny/manifest.json').read_text())['assets'][0]
+        self.assertEqual(asset['web']['width'], 41)
+        self.assertEqual(asset['web']['sha256'], hashlib.sha256(selected.read_bytes()).hexdigest())
+
+    def test_refresh_web_caps_long_edge_at_2048_and_keeps_aspect(self):
+        original = self.root/'.release/bunny/body-front-latest.png'
+        selected = self.root/'docs/public/characters/bunny/body-front-latest.webp'
+        with Image.new('RGB', (3000, 20), (200, 40, 40)) as image:
+            image.save(original)
+        builder.build(self.root, refresh_web=['bunny/body-front-latest'])
+        with Image.open(selected) as web:
+            self.assertEqual(web.size, (2048, 14))
+        asset = json.loads((self.root/'catalog/bunny/manifest.json').read_text())['assets'][0]
+        self.assertEqual((asset['web']['width'], asset['web']['height']), (2048, 14))
+
+    def test_refresh_web_rejects_unknown_selection_before_changing_any_files(self):
+        for invalid in ['bunny/unknown-latest', '../bunny/body-front-latest', 'bunny/body-front-latest.png']:
+            with self.subTest(selection=invalid):
+                before = {p.relative_to(self.root): p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+                with self.assertRaises(ValueError):
+                    builder.build(self.root, refresh_web=['bunny/body-front-latest', invalid])
+                after = {p.relative_to(self.root): p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+                self.assertEqual(after, before)
+
+    def test_refresh_web_rejects_missing_original_before_changing_selected_web(self):
+        (self.root/'.release/origins/bunny-original-latest.png').unlink()
+        before = {p.relative_to(self.root): p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+        with self.assertRaisesRegex(ValueError, 'Missing original: origins/bunny-original-latest'):
+            builder.build(self.root, refresh_web=['bunny/body-front-latest', 'origins/bunny-original-latest'])
+        after = {p.relative_to(self.root): p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+        self.assertEqual(after, before)
+
     def test_old_version_directory_and_process_slug_are_rejected(self):
         for name in ['3.1.0/old.webp', 'body-v2-latest.webp', 'body-cel-latest.webp', 'body.webp']:
             with self.subTest(name=name):

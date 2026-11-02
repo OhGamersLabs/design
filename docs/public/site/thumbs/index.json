@@ -131,9 +131,9 @@
     "path": "/site/thumbs/bunny/daggers-back-latest.webp",
     "width": 480,
     "height": 719,
-    "sha256": "42a545fbe60f17a250806083bf8a93fab916dc0360cba63771a17e58724e7623",
+    "sha256": "17e88085501a0e90ae994e8da37d9ad2bf71db456863666f5eedc0f04aecc928",
     "sourcePath": "/characters/bunny/daggers-back-latest.webp",
-    "sourceSha256": "b2b82f613a0bd150bb6407dad6589434c0e9f345d3e798c2d470ea046ef66aee"
+    "sourceSha256": "a4bfc59232dd45712858de0f9b660093014587fd8824af4a6e338619e5a513fc"
   },
   "bunny/daggers-dark-board-latest": {
     "path": "/site/thumbs/bunny/daggers-dark-board-latest.webp",
@@ -147,9 +147,9 @@
     "path": "/site/thumbs/bunny/daggers-front-latest.webp",
     "width": 480,
     "height": 719,
-    "sha256": "dde00deb9f75f0a1e5890e36cd5a14ce3cbd68e05218c280a3fd02f2e3134a18",
+    "sha256": "5dff4e4109d957ae6cc285eb430a7486540f551f589329d688b98a8c14637935",
     "sourcePath": "/characters/bunny/daggers-front-latest.webp",
-    "sourceSha256": "e3ee165522b099365221405bc074cd5df9bb3b56180f6aa1bf8520cc96bea7cd"
+    "sourceSha256": "99fa095376a183152b35ff9297610746715e0517e9230cf1bd00e32723f3c851"
   },
   "bunny/daggers-ivory-board-latest": {
     "path": "/site/thumbs/bunny/daggers-ivory-board-latest.webp",
@@ -163,9 +163,9 @@
     "path": "/site/thumbs/bunny/daggers-mount-board-latest.webp",
     "width": 480,
     "height": 321,
-    "sha256": "d1d91137b5a8ac44331a6781f8e109d0f974636ec8123e0ec4250cf8306d31aa",
+    "sha256": "f7fbdc0565aa6f995c7c6b26a89cf5c7b9584be218ce13536e245451b9f95041",
     "sourcePath": "/characters/bunny/daggers-mount-board-latest.webp",
-    "sourceSha256": "658d8ba58e2702f7796b52dd5a57c97e4ed04dd9db4c3142ede305d4612f59c1"
+    "sourceSha256": "46a82baff5085722a102da59393b9a4be5be7ee4b1e5957b307be294d700e860"
   },
   "bunny/daggers-scale-board-latest": {
     "path": "/site/thumbs/bunny/daggers-scale-board-latest.webp",
@@ -179,41 +179,41 @@
     "path": "/site/thumbs/bunny/daggers-side-latest.webp",
     "width": 480,
     "height": 719,
-    "sha256": "f8bc28555a60ada0092ea19f30b7720c19513d89c2aa98d5ea1a397f758a08aa",
+    "sha256": "bed81aa050fc62bcaa90cb570c675031a584c8351a7c4fdb1349fa349eb6d4fe",
     "sourcePath": "/characters/bunny/daggers-side-latest.webp",
-    "sourceSha256": "91f81c9edca4512db4e2a1f786e9fc89946faf202c20a2aaaff150ac4882e045"
+    "sourceSha256": "b82654f942cb8155be49ca5dfc60e00e965468efd807051dc1f2c77207f7d7de"
   },
   "bunny/daggers-tpose-back-latest": {
     "path": "/site/thumbs/bunny/daggers-tpose-back-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "82a88170f97956fc7c4f338a468d7b11905b7954327c4ceded197c5bb9ebf616",
+    "sha256": "dd0ef1bd81a903ea3f910bed1515b0b812957b2661392e3d5c0df6f555de3e51",
     "sourcePath": "/characters/bunny/daggers-tpose-back-latest.webp",
-    "sourceSha256": "95014d170b48e5f2f033ce88ef7080cc5df6054ee60fa9a9e3f7109d19924a46"
+    "sourceSha256": "1523d393494a14ea8a94f45775cc30f942ab1a1837af901a55f52452ab430c08"
   },
   "bunny/daggers-tpose-front-latest": {
     "path": "/site/thumbs/bunny/daggers-tpose-front-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "bea546dfe1dce60957ca6f57c883695de00669b8fc4a334edcc8c3c304874cb8",
+    "sha256": "b236732b348c98d81d7ebbb95672887b1c840a6eb26c80b33f13c3313f5e4de9",
     "sourcePath": "/characters/bunny/daggers-tpose-front-latest.webp",
-    "sourceSha256": "62f5b3fd91f84965748d513e77b800e402a60a2b422d191bef9c028745ac9ff2"
+    "sourceSha256": "61f946daac9ef6baf9f128979127762bb65828b271ba6f68339b02d455fdc6ad"
   },
   "bunny/daggers-tpose-left-latest": {
     "path": "/site/thumbs/bunny/daggers-tpose-left-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "abe4c886f72aa234b61c69fbe4799b1a080131759111f1b923a157ba3d977f2e",
+    "sha256": "3825d30b93a5bb8976f61edae336a49cb0e726cc56e8b9633c8db65b80b030d7",
     "sourcePath": "/characters/bunny/daggers-tpose-left-latest.webp",
-    "sourceSha256": "933ba7cdec83cfb2c51bf2223b9c1099606de5f5fabe3afdc72fd1d94fca94d8"
+    "sourceSha256": "ee9d7b0dccc7d79876f386bb845ab2cdbc4eb72b28e5bc63fd77b196006f9ad2"
   },
   "bunny/daggers-tpose-right-latest": {
     "path": "/site/thumbs/bunny/daggers-tpose-right-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "17f841ae246f5ac9f9e58259ffa56596973b4219321c28675677faad154c22cd",
+    "sha256": "534e6648160da5e7dbb5ddee324fe621c155e137f84c5f2907528e3e97ca88d2",
     "sourcePath": "/characters/bunny/daggers-tpose-right-latest.webp",
-    "sourceSha256": "1cf56818d8a3e46ddca0f6283b6ba0abe45d6eba2bd0dc1f6f9e160dcfef6cdb"
+    "sourceSha256": "9007b3498cbd4f835afd6a2ebb2625d6f3d91f871f9cbcaf48733cd80c6d37f5"
   },
   "bunny/expressions-sheet-latest": {
     "path": "/site/thumbs/bunny/expressions-sheet-latest.webp",

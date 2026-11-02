@@ -99,10 +99,10 @@ releaseReady: false
   <AssetImage id="daggers-scale-board-latest" detail="墨黑獠牙刃与骨白弯刃" group="weapon" />
   <div class="bunny-blades" role="group" aria-label="刃长对照">
     <div class="bunny-blade bunny-blade--height"><div class="bunny-blade__label"><b>H0 人物高度</b><span>1.00 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
-    <div class="bunny-blade bunny-blade--dark"><div class="bunny-blade__label"><b>墨黑獠牙刃</b><span>角色右手，总长设计目标 0.36 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
-    <div class="bunny-blade bunny-blade--ivory"><div class="bunny-blade__label"><b>骨白弯刃</b><span>角色左手，总长设计目标 0.42 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
+    <div class="bunny-blade bunny-blade--dark"><div class="bunny-blade__label"><b>墨黑獠牙刃</b><span>角色右手，总长设计目标约 0.225 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
+    <div class="bunny-blade bunny-blade--ivory"><div class="bunny-blade__label"><b>骨白弯刃</b><span>角色左手，总长设计目标约 0.263 H0</span></div><div class="bunny-blade__bar"><span></span></div></div>
     <dl class="bunny-home-facts">
-      <div><dt>收纳</dt><dd>挂在背后裤腰皮带上；柄朝上朝外的设计目标约 28°，骨白在外浅 X 交叉</dd></div>
+      <div><dt>收纳</dt><dd>挂在背后裤腰皮带上；刀尖至柄尾连线相对水平的设计目标为 28°，柄尾朝上朝外；握柄方向另读且更陡，骨白在外浅 X 交叉</dd></div>
       <div><dt>握法</dt><dd>SUN-05 中两手同为正握</dd></div>
     </dl>
   </div>

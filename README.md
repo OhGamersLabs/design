@@ -50,6 +50,14 @@ npm run build
 npm run check:site
 ```
 
+原始 PNG 已替换时，可按明确清单无损重建对应网页 WebP（长边超过 2048 px 时等比缩至 2048 px，与其余网页图一致；保留透明度，不改原图及未选中的 WebP）：
+
+```sh
+python3 tools/build-local-catalog.py --refresh-web bunny/daggers-front-latest bunny/daggers-back-latest
+```
+
+此选项只接受已存在的网页图及同名原图，所有选项通过校验后才写入；随后仍须执行缩略图和站点检查。
+
 若图片用于尺寸标尺，还须核对该图的测量取点与源哈希，并更新 `catalog/<char>/` 下的对应测量 JSON。构建会据此生成以 `-latest.svg` 结束的标尺；不能把旧坐标直接套给新图。
 
 `build-local-catalog.py` 校验稳定命名和原图存在性，重建本地清单，不需要来源映射、不制作资料包。`build-thumbs.py` 重建当前缩略图并移除废弃缩略图。`check:local` 核对网页图、PNG 与标尺的实际字节、尺寸元数据及 SHA-256。`ReleaseImage` 保持点击/键盘放大、原始尺寸切换、Esc 关闭、焦点恢复与原图链接。
