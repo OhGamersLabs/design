@@ -1,0 +1,112 @@
+{
+  "tabs": [
+    {
+      "key": "card",
+      "label": "角色卡",
+      "caption": "原稿的跳跃姿势，换上完整造型，2026-11-16 定稿",
+      "assets": [
+        "character-card-latest"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "完整三视",
+      "caption": "正面、角色右侧面、背面，戴毛线帽的完整造型",
+      "assets": [
+        "beanie-front-latest",
+        "beanie-right-latest",
+        "beanie-back-latest"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-11-16",
+      "title": "角色卡定稿",
+      "asset": "character-card-latest",
+      "caption": "原稿的跳跃姿势，换上完整造型。"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "四层穿戴完成",
+      "asset": "beanie-front-latest",
+      "caption": "从身体到毛线帽，每层正面、背面、角色右侧面和角色左侧面四个方向。"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "表情表定稿",
+      "asset": "expressions-sheet-latest",
+      "caption": "4×4 表情，每行一类情绪。"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "拆解图",
+      "asset": "breakdown-sheet-latest",
+      "caption": "第 0 到 3 层一图看完。"
+    }
+  ],
+  "facts": [
+    {
+      "term": "外观",
+      "value": "Q 版柴犬，白色太空服配背包，淡粉米色毛线帽"
+    },
+    {
+      "term": "体型",
+      "value": "约 2 头身",
+      "note": "帽顶到下巴一头，下巴到脚底一头；原稿实测 1.99，绒球和耳朵不计"
+    },
+    {
+      "term": "眼睛",
+      "value": "默认是原稿的闭眼笑",
+      "note": "睁眼是黑豆眼，下沿一道深棕月牙，画面左上方一大点白色高光"
+    },
+    {
+      "term": "尾巴",
+      "value": "粗而蓬松，向角色左侧卷起",
+      "note": "从腰后脊柱长出，穿过太空服后腰的圆孔，奶油色尾尖朝上"
+    }
+  ],
+  "chips": [
+    {
+      "name": "橘黄",
+      "use": "毛色",
+      "color": "#FEC68B"
+    },
+    {
+      "name": "白",
+      "use": "太空服、背包、胸前盒",
+      "swatch": "white"
+    },
+    {
+      "name": "深青蓝",
+      "use": "护膝",
+      "color": "#45859E"
+    },
+    {
+      "name": "淡粉米",
+      "use": "毛线帽",
+      "color": "#F6CCAC"
+    }
+  ],
+  "chipNote": "取自服装圣经的实测色",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-16",
+  "chapters": [
+    {
+      "id": "identity",
+      "label": "身份与画风"
+    },
+    {
+      "id": "layers",
+      "label": "穿戴由内到外"
+    },
+    {
+      "id": "expressions",
+      "label": "面部与表情"
+    },
+    {
+      "id": "breakdown",
+      "label": "拆解与角色卡"
+    }
+  ]
+}

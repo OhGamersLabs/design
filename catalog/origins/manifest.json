@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 1,
+  "asset_count": 2,
   "assets": [
     {
       "id": "bunny-original-latest",
@@ -26,6 +26,29 @@
         "height": 1800,
         "bytes": 162592,
         "sha256": "62693de96576d14bb14afa5f92f3214b7240f17e1a352ec8e296ecc33789450b",
+        "alpha": true
+      }
+    },
+    {
+      "id": "doge-original-latest",
+      "character": "origins",
+      "title": "doge-original-latest",
+      "original": {
+        "path": "/media/origins/doge-original-latest.png",
+        "mime_type": "image/png",
+        "width": 1693,
+        "height": 2048,
+        "bytes": 2747532,
+        "sha256": "01243bf39e42f4274b6299b8ed5a1cf75f3433300782bd22ace84ccba9485cbc",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/doge-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1693,
+        "height": 2048,
+        "bytes": 1862058,
+        "sha256": "6e440b9ba50356db74afd8b36dc1aefe7ac5ac568b18080841ef57dfca2b75c3",
         "alpha": true
       }
     }

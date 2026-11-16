@@ -80,7 +80,7 @@ export function loadCharacters(root = defaultRoot) {
     const ids = [
       ...home.tabs.flatMap((tab) => tab.assets),
       ...home.highlights.map((entry) => entry.asset),
-      ...(layers?.items ?? []).flatMap((layer) => [layer.front, layer.side, layer.back, ...Object.values(layer.tpose)]),
+      ...(layers?.items ?? []).flatMap((layer) => [layer.front, layer.side, layer.back, ...Object.values(layer.tpose ?? {})]),
     ]
     for (const asset of ids) assetById(assets, asset)
     characters[id] = { id, name, role, order, portrait, listed, readingOrder: [{ path: `/characters/${id}/`, title: name }, ...pages], assets, home, layers, anchorMap, displayText }

@@ -743,6 +743,206 @@
     "sourcePath": "/characters/bunny/thigh-gear-tpose-right-latest.webp",
     "sourceSha256": "85e74839f88394c99812b2bd047385714059a6c6d6500a8e9c916214f7dbc15a"
   },
+  "doge/anchor-card-latest": {
+    "path": "/site/thumbs/doge/anchor-card-latest.webp",
+    "width": 480,
+    "height": 580,
+    "sha256": "00157252f2f91a55df59eddefc1f3c06928ca1e15e5841cabc741554e5ea2e0d",
+    "sourcePath": "/characters/doge/anchor-card-latest.webp",
+    "sourceSha256": "cbe418758d85aff0489879f81071e6d757aa2f07776c16d966f71d87628ca31e"
+  },
+  "doge/beanie-back-latest": {
+    "path": "/site/thumbs/doge/beanie-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "05ca4a9ddb8fa2436a850074ffb43c89ba8d3b62a05fb90cf21724017cb8e228",
+    "sourcePath": "/characters/doge/beanie-back-latest.webp",
+    "sourceSha256": "f2db877c546877955aa3d7931cfc91d1752d38503947d7a69f03d6a040e193bb"
+  },
+  "doge/beanie-board-latest": {
+    "path": "/site/thumbs/doge/beanie-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "f0dbcf3b35ed84ed003a86aa4a734e3fd936e16f7a64f5b4ba7a43e89b9ac304",
+    "sourcePath": "/characters/doge/beanie-board-latest.webp",
+    "sourceSha256": "f35835f9d3c66046dbfd455c1a4ed0f5c12e172724ff145d4a7b92e2ac00e739"
+  },
+  "doge/beanie-front-latest": {
+    "path": "/site/thumbs/doge/beanie-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c785701fe74dc494e6a4f7ad4f04ab37e117c55c8b718c66217925e3a3201cf9",
+    "sourcePath": "/characters/doge/beanie-front-latest.webp",
+    "sourceSha256": "a6d8fb3a989ebc1e290cd8089d0cb8f438655f5fb2457cc8fc5b0556b3aec6ba"
+  },
+  "doge/beanie-left-latest": {
+    "path": "/site/thumbs/doge/beanie-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "325e09d7e7c70aa8e799e0be38c9760ad12a63c2e11086bad1f7e365e0e0cf0a",
+    "sourcePath": "/characters/doge/beanie-left-latest.webp",
+    "sourceSha256": "e7b45d5916f4049c58d5c395ebe2f20e270118bf4fee0e064e57a398da26a7be"
+  },
+  "doge/beanie-right-latest": {
+    "path": "/site/thumbs/doge/beanie-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5bcc155cd0207f9bb9e1ade9cc3ae371b15da3349dd00558c4948077d7f52526",
+    "sourcePath": "/characters/doge/beanie-right-latest.webp",
+    "sourceSha256": "09be01ed484fd56da13683a2259c0a4131904a09702234d220cb9d826502bf39"
+  },
+  "doge/body-back-latest": {
+    "path": "/site/thumbs/doge/body-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "d798858f7753dfdd88bf8233af9bf19d7ef32332b238451beb5af0d997264703",
+    "sourcePath": "/characters/doge/body-back-latest.webp",
+    "sourceSha256": "ffc16c3206af906ccb8e68c340112026c197f5b0d038cec2c90a3e4b974e0aad"
+  },
+  "doge/body-front-latest": {
+    "path": "/site/thumbs/doge/body-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b64bf069b30e767e6604e7f484292fbadb71f74afe718ad3ea9fd95d2804f83d",
+    "sourcePath": "/characters/doge/body-front-latest.webp",
+    "sourceSha256": "832fc758186e0a31f7ce536056fbe0942d6cdde3e9ba08653e19f7cad794be36"
+  },
+  "doge/body-left-latest": {
+    "path": "/site/thumbs/doge/body-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b4c1c57196a7c4c3ee1c0e427d210f158dfdc563ea4810d756f2a4887408971f",
+    "sourcePath": "/characters/doge/body-left-latest.webp",
+    "sourceSha256": "ba317669db51e8427e3d2d5503cdaf73fa3a352d2294f0bebacfe41ebb7c63ac"
+  },
+  "doge/body-right-latest": {
+    "path": "/site/thumbs/doge/body-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ee031686224bb737a305eda251d49b9ea7fe7fe4558e04109b7bf73d761f8163",
+    "sourcePath": "/characters/doge/body-right-latest.webp",
+    "sourceSha256": "1edd161d08220d968c9dbe88ff69d5b65f588d4e6908a393ac9d8e882f496978"
+  },
+  "doge/breakdown-sheet-latest": {
+    "path": "/site/thumbs/doge/breakdown-sheet-latest.webp",
+    "width": 480,
+    "height": 391,
+    "sha256": "4de1017713c7e6594533f47292938d80cb9ea9c31c7f4c58930d0b5f61eced6b",
+    "sourcePath": "/characters/doge/breakdown-sheet-latest.webp",
+    "sourceSha256": "ef9d933622b27fd01368ae3c99ef8db5c88c1fb9bfdb758a2470548e6a484a16"
+  },
+  "doge/character-card-latest": {
+    "path": "/site/thumbs/doge/character-card-latest.webp",
+    "width": 480,
+    "height": 579,
+    "sha256": "de1a6a9991f87349a8ca40fbefbb333891d4b6bcfed2c96a5acfb52a6cb9ccd1",
+    "sourcePath": "/characters/doge/character-card-latest.webp",
+    "sourceSha256": "804eee51666851669d80712e6b1ed048ab2cd9523e9f1cf58f9198fdf71c6a59"
+  },
+  "doge/expressions-sheet-latest": {
+    "path": "/site/thumbs/doge/expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "2a9e71bf9084ed760a4b47c0add6e23fa416f81fc67c97bdafaf4d2935d496ac",
+    "sourcePath": "/characters/doge/expressions-sheet-latest.webp",
+    "sourceSha256": "cd5a8f128349b5735698733807efe71a83e35939efa5449352f87c85757dbee4"
+  },
+  "doge/face-sheet-latest": {
+    "path": "/site/thumbs/doge/face-sheet-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "658087245987b4eac6db61f11cd39414f2aa941e120c7fcf1991f020b0c8d266",
+    "sourcePath": "/characters/doge/face-sheet-latest.webp",
+    "sourceSha256": "bb25cedd47c003ca707f6d2c1c2c44f4a6bceb911b3447fd8f85bd6a5057434b"
+  },
+  "doge/pack-back-latest": {
+    "path": "/site/thumbs/doge/pack-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "2163ee6d0aed137f34f6539f24c0ccdbccfdcaf3168ea34e5216cb2f3ef0c098",
+    "sourcePath": "/characters/doge/pack-back-latest.webp",
+    "sourceSha256": "c892dc787c4cb3be740e4451afed5c3c1b3f68af8a01b2b13ad63411092645fd"
+  },
+  "doge/pack-board-latest": {
+    "path": "/site/thumbs/doge/pack-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "5cf9c50c816d0a7f0f665674633cbba9e4ccd40d13077c73a43d0280c97c1eaa",
+    "sourcePath": "/characters/doge/pack-board-latest.webp",
+    "sourceSha256": "257cd033ef5e8353bc3f55c34e0eb291decc296af02b40d414b3562b9b18088d"
+  },
+  "doge/pack-front-latest": {
+    "path": "/site/thumbs/doge/pack-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "de8c46282712179be72bb52416cad3a9ddb0c8bfb5ba752fac5908e2fe0a98ba",
+    "sourcePath": "/characters/doge/pack-front-latest.webp",
+    "sourceSha256": "2bc8e570211df34b77ee2cdf439b84bd021b21e31757ec3d1494cc3f48a7343d"
+  },
+  "doge/pack-left-latest": {
+    "path": "/site/thumbs/doge/pack-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "222384ab1ce071d5845c7faa7e5b3c7c4f5a5a7499ba8e7f39c406e6bb2da9cf",
+    "sourcePath": "/characters/doge/pack-left-latest.webp",
+    "sourceSha256": "64bee48ca9533814c1a9c651d5733ac05e29feb4b56bcb4e1bf54213d55c4add"
+  },
+  "doge/pack-right-latest": {
+    "path": "/site/thumbs/doge/pack-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "25036a7f733522a2adea166cd69a0345aeaf7bdd77d923f06f6cda668fb0f674",
+    "sourcePath": "/characters/doge/pack-right-latest.webp",
+    "sourceSha256": "5b652268567e180e0d8e5b24a116afc0cfb2694c33a7f75175d2f50223823862"
+  },
+  "doge/suit-back-latest": {
+    "path": "/site/thumbs/doge/suit-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "a415e64b6085340f59a2f937c5069326ef1fab0e3d9c94ca3fb614d7051a501f",
+    "sourcePath": "/characters/doge/suit-back-latest.webp",
+    "sourceSha256": "c04502564ca4cf4bdc8c81716e8caf18d739208edda7acd9251e22716894c4ac"
+  },
+  "doge/suit-board-latest": {
+    "path": "/site/thumbs/doge/suit-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "0a193d69602e8daed361df98ace6b8ea113ab7d83c826aacbc2ab7ebf2f38097",
+    "sourcePath": "/characters/doge/suit-board-latest.webp",
+    "sourceSha256": "7654e5f3fe0fc95ce0b7eb0a917c72dc986665c34b70223dfbe4ed140d5ebfdc"
+  },
+  "doge/suit-details-board-latest": {
+    "path": "/site/thumbs/doge/suit-details-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "1766b2d104049fcde322cf7d5555773e5c3ac62a5698f2f3634920efadabfe23",
+    "sourcePath": "/characters/doge/suit-details-board-latest.webp",
+    "sourceSha256": "bc90fff95422ee1b3823a3120924d1fc5b189ebd76c2f342ee4a797f7f744774"
+  },
+  "doge/suit-front-latest": {
+    "path": "/site/thumbs/doge/suit-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b2367fe06115164460555b8f43d3f90acf8b72c0268556f1b3a8272d822802df",
+    "sourcePath": "/characters/doge/suit-front-latest.webp",
+    "sourceSha256": "90b2e80712c9fb412bdc19ad3454ed2534afccd30dbfef3d1ddf821fa06b6324"
+  },
+  "doge/suit-left-latest": {
+    "path": "/site/thumbs/doge/suit-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "18769a823c0e659d9c6011e21fcb911406d68a873abfb41c70be7c6da63be1e5",
+    "sourcePath": "/characters/doge/suit-left-latest.webp",
+    "sourceSha256": "a4f2e71dcea7afa95453bf109755db955fab87cdcc64db71d8a95c81a855f7ba"
+  },
+  "doge/suit-right-latest": {
+    "path": "/site/thumbs/doge/suit-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "eea00352451a5c0836b65bf6966cb069c9e52bf71cb622bf1624ab4a8bb0351f",
+    "sourcePath": "/characters/doge/suit-right-latest.webp",
+    "sourceSha256": "e914f6ccaca7858a32050f8d588c08124b929966ab3036d3de95c191798a9d1a"
+  },
   "origins/bunny-original-latest": {
     "path": "/site/thumbs/origins/bunny-original-latest.webp",
     "width": 480,
@@ -750,5 +950,13 @@
     "sha256": "caa54197816328d6a181d2f3b9ad8c486cf323c91d22e56f0b969de75f7ec21e",
     "sourcePath": "/characters/origins/bunny-original-latest.webp",
     "sourceSha256": "62693de96576d14bb14afa5f92f3214b7240f17e1a352ec8e296ecc33789450b"
+  },
+  "origins/doge-original-latest": {
+    "path": "/site/thumbs/origins/doge-original-latest.webp",
+    "width": 480,
+    "height": 581,
+    "sha256": "f7f2107edf2547a4ef88efc6b123acde46723221acf3e5ab61a1cde047b901fc",
+    "sourcePath": "/characters/origins/doge-original-latest.webp",
+    "sourceSha256": "6e440b9ba50356db74afd8b36dc1aefe7ac5ac568b18080841ef57dfca2b75c3"
   }
 }

@@ -84,7 +84,7 @@ export function parseHome(value) {
     tabs: list(home.tabs).map((entry) => {
       const tab = record(entry)
       const key = text(tab.key)
-      if (key !== 'scene' && key !== 'three' && key !== 'tpose' && key !== 'line') throw new Error(`Invalid hero tab: ${key}`)
+      if (key !== 'scene' && key !== 'three' && key !== 'tpose' && key !== 'line' && key !== 'card') throw new Error(`Invalid hero tab: ${key}`)
       return { key, label: text(tab.label), caption: text(tab.caption), assets: list(tab.assets).map(text) }
     }),
     highlights: list(home.highlights).map((entry) => {
@@ -100,6 +100,11 @@ export function parseHome(value) {
     }),
   }
 }
+/** T-pose views are optional: a character drawn in one stance only (a mech, an animal) has none. @param {unknown} value */
+function parseTpose(value) {
+  const tpose = record(value)
+  return { front: text(tpose.front), right: text(tpose.right), back: text(tpose.back), left: text(tpose.left) }
+}
 /** @param {unknown} value @returns {import('../theme/character-site-types').LayerSet} */
 export function parseLayers(value) {
   const source = record(value)
@@ -109,10 +114,9 @@ export function parseLayers(value) {
     const n = number(layer.layer)
     if (!Number.isInteger(n) || numbers.has(n)) throw new Error(`Invalid or duplicate layer number: ${n}`)
     numbers.add(n)
-    const tpose = record(layer.tpose)
     return {
       layer: n, name: text(layer.name), path: text(layer.path), front: text(layer.front), side: text(layer.side), back: text(layer.back),
-      tpose: { front: text(tpose.front), right: text(tpose.right), back: text(tpose.back), left: text(tpose.left) },
+      ...(layer.tpose === undefined ? {} : { tpose: parseTpose(layer.tpose) }),
       summary: text(layer.summary), facts: parseFacts(layer.facts), leftRight: text(layer.leftRight),
     }
   })
