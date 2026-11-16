@@ -1,0 +1,119 @@
+{
+  "chapter": "layers",
+  "noun": "衣层",
+  "wear": "穿着",
+  "items": [
+    {
+      "layer": 0,
+      "name": "身体",
+      "path": "/characters/doge/body",
+      "front": "body-front-latest",
+      "side": "body-right-latest",
+      "back": "body-back-latest",
+      "summary": "不穿衣服的身体，之后每张图的比例参照",
+      "facts": [
+        {
+          "term": "形体",
+          "value": "Q 版直立，约 2 头身"
+        },
+        {
+          "term": "毛色",
+          "value": "橘黄配奶油色"
+        },
+        {
+          "term": "尾巴",
+          "value": "从腰后脊柱长出"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 1 到 3 层"
+        }
+      ],
+      "leftRight": "尾巴向角色左侧卷起。背面图里它卷向画面左边。"
+    },
+    {
+      "layer": 1,
+      "name": "太空服",
+      "path": "/characters/doge/suit",
+      "front": "suit-front-latest",
+      "side": "suit-right-latest",
+      "back": "suit-back-latest",
+      "summary": "白色连体太空服，带颈环、腕环、靴脚、护膝和腹前两个接口",
+      "facts": [
+        {
+          "term": "形制",
+          "value": "连体，前中缝穿脱"
+        },
+        {
+          "term": "颜色",
+          "value": "白，护膝深青蓝"
+        },
+        {
+          "term": "臂章",
+          "value": "薄荷青，只在角色左上臂"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 2、3 层"
+        }
+      ],
+      "leftRight": "青色臂章在角色左上臂，四叶草在角色右护膝。正面图里臂章在画面右边，四叶草在画面左边。"
+    },
+    {
+      "layer": 2,
+      "name": "背包",
+      "path": "/characters/doge/pack",
+      "front": "pack-front-latest",
+      "side": "pack-right-latest",
+      "back": "pack-back-latest",
+      "summary": "背包、两条背带和胸前盒",
+      "facts": [
+        {
+          "term": "背包",
+          "value": "背面有 OG 标志"
+        },
+        {
+          "term": "背带",
+          "value": "深藏青，从肩上绕到腋下"
+        },
+        {
+          "term": "胸前盒",
+          "value": "红橙灯板占角色右侧三分之二"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 3 层"
+        }
+      ],
+      "leftRight": "胸前盒的红橙灯板在角色右侧，带两颗六角螺栓的竖板在角色左端。正面图里灯板在画面左边。"
+    },
+    {
+      "layer": 3,
+      "name": "毛线帽",
+      "path": "/characters/doge/beanie",
+      "front": "beanie-front-latest",
+      "side": "beanie-right-latest",
+      "back": "beanie-back-latest",
+      "summary": "淡粉米色毛线帽，戴上就是完整造型",
+      "facts": [
+        {
+          "term": "形制",
+          "value": "翻边罗纹针织帽，耳朵从开口伸出"
+        },
+        {
+          "term": "颜色",
+          "value": "淡粉米，比毛色浅"
+        },
+        {
+          "term": "绒球",
+          "value": "奶油色，偏角色左侧"
+        },
+        {
+          "term": "外层",
+          "value": "最外层"
+        }
+      ],
+      "leftRight": "绒球偏向角色左侧。正面图里它在画面右边，背面图里在画面左边。"
+    }
+  ]
+}

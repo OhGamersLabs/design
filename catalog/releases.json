@@ -561,9 +561,165 @@
       "contentType": "image/png"
     },
     {
+      "character": "doge",
+      "path": "/media/doge/anchor-card-latest.png",
+      "key": "x_ops/design/characters/doge/latest/anchor-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/beanie-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/beanie-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/beanie-board-latest.png",
+      "key": "x_ops/design/characters/doge/latest/beanie-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/beanie-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/beanie-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/beanie-left-latest.png",
+      "key": "x_ops/design/characters/doge/latest/beanie-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/beanie-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/beanie-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/body-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/body-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/body-left-latest.png",
+      "key": "x_ops/design/characters/doge/latest/body-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/body-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/doge/latest/breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/character-card-latest.png",
+      "key": "x_ops/design/characters/doge/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/doge/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/face-sheet-latest.png",
+      "key": "x_ops/design/characters/doge/latest/face-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/pack-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/pack-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/pack-board-latest.png",
+      "key": "x_ops/design/characters/doge/latest/pack-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/pack-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/pack-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/pack-left-latest.png",
+      "key": "x_ops/design/characters/doge/latest/pack-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/pack-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/pack-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/suit-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/suit-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/suit-board-latest.png",
+      "key": "x_ops/design/characters/doge/latest/suit-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/suit-details-board-latest.png",
+      "key": "x_ops/design/characters/doge/latest/suit-details-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/suit-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/suit-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/suit-left-latest.png",
+      "key": "x_ops/design/characters/doge/latest/suit-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/suit-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/suit-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "origins",
       "path": "/media/origins/bunny-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/bunny-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "origins",
+      "path": "/media/origins/doge-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/doge-original-latest.png",
       "contentType": "image/png"
     }
   ]

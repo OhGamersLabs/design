@@ -334,9 +334,10 @@ test('asset names and redirect stub titles render no process commentary', async 
   const namesFile = 'docs/.vitepress/data/bunny/asset-names.json'
   const anchorsFile = 'docs/.vitepress/data/bunny/anchor-map.json'
   const names = json(namesFile)
-  // These are the same two collections read by site.data.mjs.
+  // These are the same two collections read by site.data.mjs; the shared origins collection gives Bunny only its own original.
   const manifests = ['bunny', 'origins'].map((id) => json(`catalog/${id}/manifest.json`))
-  const expectedNames = manifests.flatMap((manifest) => manifest.assets.map(({ id }) => id)).sort()
+  const expectedNames = manifests.flatMap((manifest) => manifest.assets.map(({ id }) => id)
+    .filter((id) => manifest.character_id !== 'origins' || id === 'bunny-original-latest')).sort()
   assert.ok(expectedNames.length > 0, 'the manifests must enumerate assets')
   for (const manifest of manifests) assert.equal(manifest.assets.length, manifest.asset_count, `${manifest.character_id} manifest asset count`)
   assert.deepEqual(Object.keys(names).sort(), expectedNames, `${namesFile}: every manifest asset needs a name`)

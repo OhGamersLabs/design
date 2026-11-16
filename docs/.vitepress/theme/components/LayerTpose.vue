@@ -5,10 +5,11 @@ import AssetImage from './AssetImage.vue'
 
 const data = useCharacter()
 const props = defineProps<{ layer: number }>()
-const current = computed(() => {
+const tpose = computed(() => {
   const result = data.value.layers?.items.find(layer => layer.layer === props.layer)
   if (!result) throw new Error(`Unknown character layer: ${props.layer}`)
-  return result
+  if (!result.tpose) throw new Error(`Character layer has no T-pose views: ${props.layer}`)
+  return result.tpose
 })
 const views: Array<{ key: 'front' | 'right' | 'back' | 'left'; caption: string }> = [
   { key: 'front', caption: '正面' },
@@ -23,7 +24,7 @@ const views: Array<{ key: 'front' | 'right' | 'back' | 'left'; caption: string }
     <h2 id="tpose">T 姿四视</h2>
     <p>供 3D 建模（Tripo）参考，与 A 姿三视展示同一设计。</p>
     <div class="bunny-tpose-views">
-      <AssetImage v-for="view in views" :id="current.tpose[view.key]" :key="view.key" :group="`layer-${layer}-tpose`" :caption="view.caption" />
+      <AssetImage v-for="view in views" :id="tpose[view.key]" :key="view.key" :group="`layer-${layer}-tpose`" :caption="view.caption" />
     </div>
   </section>
 </template>

@@ -91,8 +91,8 @@ Worker 只读清单中的精确 R2 对象路径，仅接受 GET/HEAD，不提供
 在 `docs/.vitepress/data/<id>/` 放入：
 
 - `character.json`：必填的 `name`、`role`、`order`、`portrait`、`pages`；`portrait` 是卡片图片 ID，须属于本角色集合、有缩略图，不能用画师原稿。`pages` 按阅读顺序保存非主页的完整路径和标题，主页自动排在第一项。
-- `home.json`：主页图签（`scene`、`three`、`tpose`、`line`）、图片 ID、事实、色片、最新列表、状态和章节。`updated` 会印在资料库首页，须在 `allowedDates` 中。色片只能在 `swatch`（`orange`、`red`、`white`、`black`）和 `color`（六位十六进制颜色）中选择一个字段。
-- `layers.json`（可选）：`chapter` 指向主页章节，`noun` 和 `wear` 提供层级卡片用词，`items` 保存层号、名称、页面路径、三视及 T 姿四视图片 ID、说明和事实。层号须为不重复的整数；没有此文件时不建立层级页。
+- `home.json`：主页图签（`scene`、`three`、`tpose`、`line`、`card`；`card` 放竖幅角色卡，手机上整张显示、不裁切）、图片 ID、事实、色片、最新列表、状态和章节。`updated` 会印在资料库首页，须在 `allowedDates` 中。色片只能在 `swatch`（`orange`、`red`、`white`、`black`）和 `color`（六位十六进制颜色）中选择一个字段。
+- `layers.json`（可选）：`chapter` 指向主页章节，`noun` 和 `wear` 提供层级卡片用词，`items` 保存层号、名称、页面路径、三视及 T 姿四视图片 ID、说明和事实。层号须为不重复的整数；没有此文件时不建立层级页。T 姿四视（`tpose`）可选：只画一种站姿的角色（机甲、动物）省略它，层页用 `AssetImage` 自己排四视，不放 `<LayerTpose>`。
 - `asset-names.json`：图片 ID 到展示名称的映射，须恰好覆盖该角色清单及其画师原稿；不同角色可以使用相同的普通图片 ID。
 - `anchor-map.json`：`stubs` 保存跳转桩的目标与标题，`anchors` 保存完整旧路径及锚点到新目标的映射；没有跳转时两项都写空对象。
 - `display-text.json`：测量数据原文到展示文字的精确映射，以及可选的 `@labels` 视角名称；无需替换时写空对象。

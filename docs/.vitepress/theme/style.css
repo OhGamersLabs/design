@@ -314,7 +314,7 @@
   .bunny-hero__stage { padding: 8px; }
   .bunny-hero__panel { aspect-ratio: 4 / 3; }
   .bunny-hero__panel .release-image__trigger img { object-fit: cover; object-position: 42% 40%; }
-  .bunny-hero__panel--three .release-image__trigger img, .bunny-hero__panel--tpose .release-image__trigger img { object-fit: contain; }
+  .bunny-hero__panel--three .release-image__trigger img, .bunny-hero__panel--tpose .release-image__trigger img, .bunny-hero__panel--card .release-image__trigger img { object-fit: contain; }
   .bunny-hero__tabs button { padding: 10px 8px 8px; font-size: 14px; }
   .bunny-hero .bunny-hero__view-caption { width: 100%; margin-left: 0; padding-top: 0; }
   .bunny-idcard { padding: 20px 18px; }

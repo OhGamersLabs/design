@@ -18,6 +18,13 @@ from site_check.htmlscan import parse_html
 
 
 class FixtureCharacterTest(unittest.TestCase):
+    def listed_roster(self,root):
+        """Listed characters in roster order, re-derived from the files: a data folder plus a home page, by order then id."""
+        listed=[(json.loads((data/'character.json').read_text())['order'],data.name)
+                for data in (root/'docs/.vitepress/data').iterdir()
+                if (data/'character.json').is_file() and (root/'docs/characters'/data.name/'index.md').is_file()]
+        return [cid for _,cid in sorted(listed)]
+
     def clone(self,source,target):
         """APFS copy-on-write where supported, ordinary independent copies otherwise."""
         result=subprocess.run(['cp','-cR',str(source),str(target)],capture_output=True,text=True)
@@ -157,8 +164,11 @@ class FixtureCharacterTest(unittest.TestCase):
             grids=[node for node in roster.body.walk() if node.has_class('character-grid')]
             self.assertEqual(len(grids),1)
             cards=[node for node in grids[0].find('a') if node.has_class('character-card')]
-            self.assertEqual([card.attrs.get('data-character-id') for card in cards],['bunny','fixture'])
-            for card,cid in zip(cards,('bunny','fixture')):
+            roster_ids=self.listed_roster(root)
+            self.assertEqual([cid for cid in ('bunny','fixture','draft') if cid in roster_ids],['bunny','fixture'])
+            menu=[(f'/characters/{cid}/',json.loads((root/f'docs/.vitepress/data/{cid}/character.json').read_text())['name']) for cid in roster_ids]
+            self.assertEqual([card.attrs.get('data-character-id') for card in cards],roster_ids)
+            for card,cid in zip(cards,roster_ids):
                 data=root/f'docs/.vitepress/data/{cid}'
                 character=json.loads((data/'character.json').read_text())
                 updated=json.loads((data/'home.json').read_text())['updated']
@@ -176,7 +186,7 @@ class FixtureCharacterTest(unittest.TestCase):
                 for nav in (n for n in page.root.find('nav') if n.has_class('VPNavBarMenu')):
                     flyouts=[n for n in nav.walk() if n.has_class('VPFlyout') and any(button.text().strip()=='角色' for button in n.find('button'))]
                     self.assertEqual(len(flyouts),1,str(file))
-                    self.assertEqual([(a.attrs['href'],a.text().strip()) for a in flyouts[0].find('a')],[('/characters/bunny/','Bunny'),('/characters/fixture/','Fixture')],str(file))
+                    self.assertEqual([(a.attrs['href'],a.text().strip()) for a in flyouts[0].find('a')],menu,str(file))
             self.assertEqual(list((dist/'characters/draft').rglob('*.html')),[])
             self.assertFalse((dist/'characters/draft.html').exists())
             self.assertFalse((root/'docs/characters/draft').exists())
@@ -189,7 +199,7 @@ class FixtureCharacterTest(unittest.TestCase):
             nav=[node for node in home.root.walk() if node.has_class('VPNavBarMenu')]
             self.assertEqual(len(nav),1)
             links=[a for a in nav[0].find('a') if a.attrs.get('href','').startswith('/characters/')]
-            self.assertEqual([(a.attrs['href'],a.text().strip()) for a in links],[('/characters/bunny/','Bunny'),('/characters/fixture/','Fixture')])
+            self.assertEqual([(a.attrs['href'],a.text().strip()) for a in links],menu)
             chips=[node for node in home.body.walk() if node.has_class('bunny-chips__swatch')]
             custom=[chip for chip in chips if 'style' in chip.attrs]
             self.assertEqual(len(custom),1)

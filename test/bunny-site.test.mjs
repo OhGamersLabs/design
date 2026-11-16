@@ -11,7 +11,9 @@ import {
 const json = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8'))
 const character = json('../docs/.vitepress/data/bunny/character.json')
 const readingOrder = [{ path: '/characters/bunny/', title: character.name }, ...character.pages]
-const manifests = [json('../catalog/bunny/manifest.json'), json('../catalog/origins/manifest.json')]
+// The site gives each character only its own original from the shared origins collection (characters.mjs).
+const origins = json('../catalog/origins/manifest.json')
+const manifests = [json('../catalog/bunny/manifest.json'), { ...origins, assets: origins.assets.filter((asset) => asset.id === 'bunny-original-latest') }]
 const names = json('../docs/.vitepress/data/bunny/asset-names.json')
 const thumbs = json('../docs/public/site/thumbs/index.json')
 

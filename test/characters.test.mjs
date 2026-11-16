@@ -194,6 +194,15 @@ for (const [label, update] of [
   const root = sandbox(t); const dir = addCharacter(root, 'robot', { listed: false }); update(root, dir)
   assert.throws(() => loadCharacters(root), /Path outside|layer number|Unknown asset id/)
 })
+test('a layer may omit its T-pose views, and the T-pose block then refuses to render', async (t) => {
+  const root = sandbox(t); const dir = addCharacter(root, 'robot')
+  mutate(root, dir, 'layers.json', (value) => { delete value.items[0].tpose })
+  const data = loadCharacters(root)
+  assert.equal(Object.hasOwn(data.characters.robot.layers.items[0], 'tpose'), false)
+  assert.deepEqual(Object.keys(data.characters.robot.layers.items[1].tpose), ['front', 'right', 'back', 'left'])
+  await assert.rejects(renderComponent('components/LayerTpose.vue', data, 'characters/robot/part-0.md', { layer: 0 }), /has no T-pose views: 0/)
+  assert.match(await renderComponent('components/LayerTpose.vue', data, 'characters/robot/part-1.md', { layer: 1 }), /data-image-id="body-tpose-front-latest"/)
+})
 test('registry parses every JSON file and requires checker expectations', (t) => {
   const root = sandbox(t); const dir = addCharacter(root, 'robot', { listed: false })
   write(root, `${dir}/extra.json`, '{bad JSON')
@@ -284,6 +293,16 @@ test('hero lightbox groups follow asset count for every allowed tab key', async 
   const html = await renderComponent('components/CharacterHero.vue', loadCharacters(root), 'characters/fixture/index.md')
   assert.equal((html.match(/data-group="hero-line"/g) ?? []).length, 2)
   assert.doesNotMatch(html, /data-group="hero-three"/)
+})
+test('a card hero tab renders its own panel kind, phones show it whole, and unknown kinds are rejected', async (t) => {
+  const root = sandbox(t); const dir = addCharacter(root, 'fixture')
+  mutate(root, dir, 'home.json', (value) => { value.tabs = [{ key: 'card', label: '角色卡', caption: '角色卡', assets: ['scene-latest'] }] })
+  const html = await renderComponent('components/CharacterHero.vue', loadCharacters(root), 'characters/fixture/index.md')
+  assert.match(html, /<div[^>]*class="[^"]*\bbunny-hero__panel--card\b[^"]*"[^>]*data-hero-panel="card"/)
+  const phone = readFileSync(new URL('../docs/.vitepress/theme/style.css', import.meta.url), 'utf8').match(/@media \(max-width: 760px\) \{([\s\S]*?)\n\}/)[1]
+  assert.match(phone, /\.bunny-hero__panel--card \.release-image__trigger img[^{]*\{ object-fit: contain; \}/)
+  mutate(root, dir, 'home.json', (value) => { value.tabs[0].key = 'poster' })
+  assert.throws(() => loadCharacters(root), /Invalid hero tab: poster/)
 })
 test('OriginNote selects the current character original with the existing caption and detail', async (t) => {
   const root = sandbox(t); addCharacter(root, 'robot')
