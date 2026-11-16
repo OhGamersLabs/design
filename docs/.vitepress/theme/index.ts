@@ -11,7 +11,7 @@ import ChapterBar from './components/ChapterBar.vue'
 import BodyMeasurements from './components/BodyMeasurements.vue'
 import GarmentMeasurements from './components/GarmentMeasurements.vue'
 import SiteLayout from './SiteLayout.vue'
-import BunnyPage from './BunnyPage.vue'
+import CharacterPage from './CharacterPage.vue'
 import './style.css'
 
 export default {
@@ -19,7 +19,7 @@ export default {
   Layout: SiteLayout,
   enhanceApp({ app }) {
     if (import.meta.env.SSR) app.config.throwUnhandledErrorInProduction = true
-    app.component('BunnyPage', BunnyPage)
+    app.component('CharacterPage', CharacterPage)
     app.component('AssetImage', AssetImage)
     app.component('OriginNote', OriginNote)
     app.component('LayerStrip', LayerStrip)

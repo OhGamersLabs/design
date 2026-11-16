@@ -1,6 +1,6 @@
 ---
-layout: BunnyPage
-bunny: reference
+layout: CharacterPage
+pageType: reference
 category: 画风
 title: 画风与配色
 sidebar: false

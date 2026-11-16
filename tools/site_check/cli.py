@@ -5,7 +5,7 @@ from .config import SiteConfig
 from .rules import UsageError, expand_rules, run_checks
 
 def main(argv=None,*,config=None):
-    parser=argparse.ArgumentParser(description='Check the built Bunny reference site')
+    parser=argparse.ArgumentParser(description='Check the built character reference site')
     parser.add_argument('--dist',type=Path)
     parser.add_argument('--rules',help='comma-separated rule ids (R12 expands to R12a,R12b)')
     parser.add_argument('--pages',nargs='+',help='only scan these clean URL paths')

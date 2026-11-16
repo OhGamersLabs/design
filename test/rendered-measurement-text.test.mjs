@@ -2,11 +2,11 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
 import { resolve, relative } from 'node:path'
-import { fileURLToPath, pathToFileURL } from 'node:url'
+import { fileURLToPath } from 'node:url'
 import { parse } from '@vue/compiler-dom'
 import { parse as parseSfc, babelParse } from 'vue/compiler-sfc'
 import { createMarkdownRenderer } from 'vitepress'
-import { createDisplayTextLookup } from '../docs/.vitepress/theme/bunny-site.mjs'
+import { createDisplayTextLookup } from '../docs/.vitepress/theme/character-site.mjs'
 import { garmentModel, formatTarget } from '../docs/.vitepress/theme/components/garment-measurements.mjs'
 import { measurementModel } from '../docs/.vitepress/theme/components/body-measurements.mjs'
 
@@ -93,7 +93,7 @@ function fields(object, names, prefix, transform = display) {
 
 test('all 18 garment models display current image readings without process commentary', () => {
   const data = json('catalog/bunny/garment-measurements.json')
-  const models = Object.keys(data.sources).map((id) => garmentModel(data, id))
+  const models = Object.keys(data.sources).map((id) => garmentModel(data, id, 'bunny'))
   assert.equal(models.length, 18)
   const entries = [
     ...fields(data.designUnit, ['definition'], 'designUnit'),
@@ -128,7 +128,7 @@ test('all 18 garment models display current image readings without process comme
 
 test('body models apply display text to every rendered definition and unavailable-point reason', () => {
   const data = json('catalog/bunny/body-measurements.json')
-  const models = Object.keys(data.views).map((id) => measurementModel(data, id))
+  const models = Object.keys(data.views).map((id) => measurementModel(data, id, 'bunny'))
   assert.equal(models.length, 3)
   const entries = []
   for (const model of models) {
@@ -265,7 +265,7 @@ function markdownEntries(md, path, source) {
   // (page metadata), category (ReferenceCard), hero/features (home theme), and
   // prev/next (default-theme footer text). Nested content includes image alt,
   // action text, feature title/details/linkText and textual feature icons.
-  // Excluded top-level controls: layout/bunny/layer select components/data;
+  // Excluded top-level controls: layout/pageType/layer select components/data;
   // sidebar/aside/navbar/outline/footer/editLink/lastUpdated/markdownStyles,
   // search/releaseReady configure behavior; pageClass is a CSS class. The
   // outline label/sidebar entries come from theme config, not frontmatter.
@@ -334,7 +334,7 @@ test('asset names and redirect stub titles render no process commentary', async 
   const namesFile = 'docs/.vitepress/data/bunny/asset-names.json'
   const anchorsFile = 'docs/.vitepress/data/bunny/anchor-map.json'
   const names = json(namesFile)
-  // These are the same two collections read by bunny-site.data.mjs.
+  // These are the same two collections read by site.data.mjs.
   const manifests = ['bunny', 'origins'].map((id) => json(`catalog/${id}/manifest.json`))
   const expectedNames = manifests.flatMap((manifest) => manifest.assets.map(({ id }) => id)).sort()
   assert.ok(expectedNames.length > 0, 'the manifests must enumerate assets')
@@ -343,7 +343,7 @@ test('asset names and redirect stub titles render no process commentary', async 
   for (const [id, value] of Object.entries(names)) assert.ok(typeof value === 'string' && value.trim(), `${namesFile}#${id}: nonempty asset name`)
   const entries = stringLeaves(names).map(([path, text]) => [`${namesFile}#${path}`, text])
   const stubs = json(anchorsFile).stubs
-  const expectedStubs = (await bunnyPages()).filter(({ frontmatter }) => frontmatter.bunny === 'stub').map(({ path }) => path).sort()
+  const expectedStubs = (await bunnyPages()).filter(({ frontmatter }) => frontmatter.pageType === 'stub').map(({ path }) => path).sort()
   assert.ok(expectedStubs.length > 0, 'redirect stub pages must be present')
   assert.deepEqual(Object.keys(stubs).sort(), expectedStubs, `${anchorsFile}: every stub page needs a title`)
   for (const [key, stub] of Object.entries(stubs)) {
@@ -354,10 +354,11 @@ test('asset names and redirect stub titles render no process commentary', async 
 })
 
 test('reading-order navigation titles render no process commentary', async () => {
-  const path = 'docs/.vitepress/bunny-navigation.mjs'
-  const { READING_ORDER } = await import(pathToFileURL(resolve(root, path)).href)
+  const path = 'docs/.vitepress/data/bunny/character.json'
+  const character = json(path)
+  const READING_ORDER = [{ path: '/characters/bunny/', title: character.name }, ...character.pages]
   assert.ok(Array.isArray(READING_ORDER) && READING_ORDER.length > 0)
-  const expected = (await bunnyPages()).filter(({ frontmatter }) => frontmatter.bunny && frontmatter.bunny !== 'stub').map(({ path }) => path).sort()
+  const expected = (await bunnyPages()).filter(({ frontmatter }) => frontmatter.pageType && frontmatter.pageType !== 'stub').map(({ path }) => path).sort()
   assert.deepEqual(READING_ORDER.map(({ path }) => path).sort(), expected, `${path}: every non-stub Bunny page needs a reading-order entry`)
   const lines = read(path).split('\n')
   assertRendered(READING_ORDER.map((entry, index) => {
@@ -372,8 +373,8 @@ test('Bunny SVG text and accessible names contain no process commentary', () => 
   const body = json(bodyFile)
   const garment = json(garmentFile)
   const expected = [
-    ...Object.keys(body.views).map((id) => measurementModel(body, id).resources.ruler),
-    ...Object.keys(garment.sources).map((id) => garmentModel(garment, id).resources.ruler).filter(Boolean),
+    ...Object.keys(body.views).map((id) => measurementModel(body, id, 'bunny').resources.ruler),
+    ...Object.keys(garment.sources).map((id) => garmentModel(garment, id, 'bunny').resources.ruler).filter(Boolean),
   ].map((url) => resolve(root, `docs/public${url}`)).sort()
   assert.equal(new Set(expected).size, expected.length, 'ruler resources must be unique')
   assert.deepEqual(paths.filter((path) => path.endsWith('-ruler-latest.svg')).sort(), expected, 'ruler SVGs must cover every catalog ruler resource')
@@ -401,11 +402,11 @@ test('Bunny SVG text and accessible names contain no process commentary', () => 
 
 test('every layer card and layer overview render no process commentary', () => {
   const path = 'docs/.vitepress/data/bunny/layers.json'
-  const layers = json(path)
+  const layers = json(path).items
   assert.ok(layers.find(({ layer }) => layer === 9))
   const entries = layers.flatMap((layer, i) => [
-    ...fields(layer, ['name', 'summary', 'leftRight'], `${path}#$[${i}]`, (value) => value),
-    ...layer.facts.flatMap((fact, j) => fields(fact, ['term', 'value', 'note'], `${path}#$[${i}].facts[${j}]`, (value) => value)),
+    ...fields(layer, ['name', 'summary', 'leftRight'], `${path}#$["items"][${i}]`, (value) => value),
+    ...layer.facts.flatMap((fact, j) => fields(fact, ['term', 'value', 'note'], `${path}#$["items"][${i}].facts[${j}]`, (value) => value)),
   ])
   assertRendered(entries)
 })

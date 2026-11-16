@@ -1,6 +1,6 @@
 ---
-layout: BunnyPage
-bunny: layer
+layout: CharacterPage
+pageType: layer
 layer: 7
 title: 护目镜
 sidebar: false

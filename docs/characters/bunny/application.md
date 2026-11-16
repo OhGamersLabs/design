@@ -1,6 +1,6 @@
 ---
-layout: BunnyPage
-bunny: reference
+layout: CharacterPage
+pageType: reference
 category: 检查
 title: 使用检查
 sidebar: false

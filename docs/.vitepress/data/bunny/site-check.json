@@ -1,0 +1,81 @@
+{
+  "pages": {
+    "/characters/bunny/": "Bunny",
+    "/characters/bunny/body-base": "身体",
+    "/characters/bunny/innerwear": "上衣与短裤",
+    "/characters/bunny/hosiery": "袜装",
+    "/characters/bunny/shoes": "鞋靴",
+    "/characters/bunny/hands": "手部",
+    "/characters/bunny/thigh-gear": "腿带",
+    "/characters/bunny/jacket": "橙色夹克",
+    "/characters/bunny/headgear": "护目镜",
+    "/characters/bunny/harness": "裤腰皮带",
+    "/characters/bunny/weapon": "双匕首",
+    "/characters/bunny/dimensions": "图面尺寸",
+    "/characters/bunny/visual-language": "画风与配色",
+    "/characters/bunny/application": "使用检查"
+  },
+  "stubs": [
+    "/characters/bunny/face",
+    "/characters/bunny/expressions",
+    "/characters/bunny/assembly",
+    "/characters/bunny/assembled",
+    "/characters/bunny/saw",
+    "/characters/bunny/weapon-history",
+    "/characters/bunny/overview",
+    "/characters/bunny/design-language",
+    "/characters/bunny/head-expressions",
+    "/characters/bunny/upper-layers",
+    "/characters/bunny/legs",
+    "/characters/bunny/knee-guard",
+    "/characters/bunny/systems",
+    "/characters/bunny/usage",
+    "/characters/bunny/archive",
+    "/characters/bunny/downloads"
+  ],
+  "latest": [
+    [
+      "2026-11-02",
+      "九层三视与 T 姿四视更新",
+      "daggers-tpose-back-latest"
+    ],
+    [
+      "2026-11-02",
+      "裤腰皮带挂片携行三视",
+      "daggers-back-latest"
+    ],
+    [
+      "2026-10-29",
+      "场景图定稿",
+      "sun05-scene-latest"
+    ],
+    [
+      "2026-10-28",
+      "STRUCTURE20 线稿通过",
+      "structure20-lineart-latest"
+    ]
+  ],
+  "allowedDates": [
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-11-02"
+  ],
+  "forbiddenWords": [
+    "耳机",
+    "兔耳",
+    "护套",
+    "刀鞘",
+    "短托",
+    "吊带",
+    "锯",
+    "棍",
+    "大剑",
+    "黑曜石"
+  ],
+  "fixedCaptions": {
+    "sun05-pose-structure-latest": "SUN-05 人体结构稿，手中为占位杆"
+  }
+}

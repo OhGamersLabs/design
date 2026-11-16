@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { nextTick, onBeforeUnmount, onMounted, watch } from 'vue'
 import { useRoute, withBase } from 'vitepress'
-import { data } from '../../data/bunny-site.data.mjs'
-import { resolveAnchorTarget, shouldRedirectForHash } from '../bunny-site.mjs'
+import { data } from '../../data/site.data.mjs'
+import { resolveAnchorTarget, shouldRedirectForHash } from '../character-site.mjs'
 
 const route = useRoute()
 

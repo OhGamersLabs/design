@@ -20,7 +20,7 @@ const registeredImages = new Set<RegisteredImage>()
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import { withBase } from 'vitepress'
-import { focusAfterStep, stepIndex } from '../bunny-site.mjs'
+import { focusAfterStep, stepIndex } from '../character-site.mjs'
 
 const props = defineProps<{
   src: string
@@ -61,7 +61,7 @@ const imageUrl = computed(() => resolveUrl(props.src))
 const thumbnailUrl = computed(() => resolveUrl(props.thumb ?? props.src))
 const originalUrl = computed(() => resolveUrl(props.original || props.src))
 const lightboxGroup = computed(() => (
-  props.assetId === 'bunny-original-latest' || /\/origins\/bunny-original-latest\.(?:webp|png)$/.test(props.src)
+  /^\/characters\/origins\//.test(props.src) || /^\/media\/origins\//.test(props.src)
     ? undefined
     : props.group || undefined
 ))

@@ -1,15 +1,16 @@
 <script setup lang="ts">
 import { computed, ref, useId } from 'vue'
-import { data } from '../../data/bunny-site.data.mjs'
-import type { HeroTab } from '../bunny-site-types'
+import { useCharacter } from '../use-character'
+import type { HeroTab } from '../character-site-types'
 import AssetImage from './AssetImage.vue'
 
-const active = ref<HeroTab['key']>('scene')
+const data = useCharacter()
+const active = ref<HeroTab['key'] | undefined>(data.value.home.tabs[0]?.key)
 const instanceId = useId()
-const activeTab = computed(() => data.home.tabs.find(tab => tab.key === active.value))
+const activeTab = computed(() => data.value.home.tabs.find(tab => tab.key === active.value))
 
 function onTabKeydown(event: KeyboardEvent, index: number) {
-  const count = data.home.tabs.length
+  const count = data.value.home.tabs.length
   if (!count) return
   let next = index
   if (event.key === 'ArrowRight') next = (index + 1) % count
@@ -17,7 +18,7 @@ function onTabKeydown(event: KeyboardEvent, index: number) {
   else if (event.key === 'Home') next = 0
   else if (event.key === 'End') next = count - 1
   else return
-  const tab = data.home.tabs[next]
+  const tab = data.value.home.tabs[next]
   if (!tab) return
   event.preventDefault()
   active.value = tab.key
@@ -45,7 +46,7 @@ function onTabKeydown(event: KeyboardEvent, index: number) {
             v-for="assetId in tab.assets"
             :id="assetId"
             :key="assetId"
-            :group="tab.key === 'three' || tab.key === 'tpose' ? `hero-${tab.key}` : undefined"
+            :group="tab.assets.length > 1 ? `hero-${tab.key}` : undefined"
           />
         </div>
       </div>
@@ -68,8 +69,8 @@ function onTabKeydown(event: KeyboardEvent, index: number) {
       </div>
     </div>
     <aside class="bunny-idcard" :aria-labelledby="`${instanceId}-name`">
-      <p :id="`${instanceId}-name`" class="bunny-idcard__name">Bunny</p>
-      <p class="bunny-idcard__role">刺客 <span>职业定位</span></p>
+      <p :id="`${instanceId}-name`" class="bunny-idcard__name">{{ data.name }}</p>
+      <p class="bunny-idcard__role">{{ data.role }} <span>职业定位</span></p>
       <dl class="bunny-facts">
         <div v-for="fact in data.home.facts" :key="fact.term">
           <dt>{{ fact.term }}</dt>
@@ -78,8 +79,8 @@ function onTabKeydown(event: KeyboardEvent, index: number) {
       </dl>
       <div class="bunny-chips">
         <ul aria-label="识别色">
-          <li v-for="chip in data.home.chips" :key="chip.swatch">
-            <span class="bunny-chips__swatch" :class="`bunny-chips__swatch--${chip.swatch}`" aria-hidden="true"></span>
+          <li v-for="chip in data.home.chips" :key="chip.swatch ?? chip.color">
+            <span :class="[chip.swatch ? `bunny-chips__swatch--${chip.swatch}` : undefined, 'bunny-chips__swatch']" v-bind="chip.color ? { style: { backgroundColor: chip.color } } : {}" aria-hidden="true"></span>
             <b>{{ chip.name }}</b>{{ chip.use }}
           </li>
         </ul>

@@ -187,7 +187,7 @@
 .bunny-layer-card__number { display: block; margin-bottom: 10px; font-size: 112px; font-weight: 600; line-height: .8; letter-spacing: -.04em; }
 .bunny-side-card__title { margin: 0; font-size: 34px; font-weight: 600; line-height: 1.2; }
 .bunny-layer-card__position { margin: 6px 0 0; font-size: 13px; }
-.bunny-layer-map { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 3px; margin-top: 18px; }
+.bunny-layer-map { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 3px; margin-top: 18px; }
 .bunny-layer-map a { display: flex; justify-content: center; align-items: center; height: 30px; border: 1px solid var(--bunny-ink); font-size: 13px; text-decoration: none; }
 .bunny-layer-map__worn { background: var(--bunny-rule); }
 .bunny-layer-map a[aria-current] { background: var(--bunny-ink); color: var(--bunny-orange); font-weight: 600; }

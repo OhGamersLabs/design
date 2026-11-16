@@ -1,16 +1,18 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useData, withBase } from 'vitepress'
+import { useCharacter } from '../use-character'
 
 defineProps<{ category: string }>()
 const { page } = useData()
+const data = useCharacter()
 const headings = computed(() => page.value.headers.filter(header => header.level === 2))
 </script>
 
 <template>
   <aside class="bunny-side-card bunny-reference-card" aria-label="本页目录">
     <div class="bunny-reference-card__heading">
-      <p class="bunny-side-card__home"><a :href="withBase('/characters/bunny/')">Bunny</a></p>
+      <p class="bunny-side-card__home"><a :href="withBase(`/characters/${data.id}/`)">{{ data.name }}</a></p>
       <p class="bunny-reference-card__category">{{ category }}</p>
       <p class="bunny-side-card__title">{{ page.title }}</p>
     </div>

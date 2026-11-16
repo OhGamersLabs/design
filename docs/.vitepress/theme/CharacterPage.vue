@@ -1,25 +1,27 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useData } from 'vitepress'
+import { useCharacter } from './use-character'
 import LayerCard from './components/LayerCard.vue'
 import ReferenceCard from './components/ReferenceCard.vue'
 import PagePager from './components/PagePager.vue'
 import RedirectStub from './components/RedirectStub.vue'
 
 const { frontmatter } = useData()
+const data = useCharacter()
 const mode = computed(() => {
-  const value: unknown = frontmatter.value.bunny
+  const value: unknown = frontmatter.value.pageType
   if (value === 'home' || value === 'layer' || value === 'reference' || value === 'stub') return value
-  throw new Error(`Unknown Bunny page layout: ${String(value)}`)
+  throw new Error(`Unknown character page layout: ${String(value)}`)
 })
 const layer = computed(() => {
   const value: unknown = frontmatter.value.layer
-  if (typeof value !== 'number' || !Number.isInteger(value) || value < 0 || value > 9) throw new Error(`Invalid Bunny layer: ${String(value)}`)
+  if (typeof value !== 'number' || !Number.isInteger(value) || !data.value.layers?.items.some(item => item.layer === value)) throw new Error(`Invalid character layer: ${String(value)}`)
   return value
 })
 const category = computed(() => {
   const value: unknown = frontmatter.value.category
-  if (typeof value !== 'string' || !value.trim()) throw new Error('Bunny reference page needs a category')
+  if (typeof value !== 'string' || !value.trim()) throw new Error('Character reference page needs a category')
   return value
 })
 </script>

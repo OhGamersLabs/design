@@ -1,13 +1,15 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
-import { data } from '../../data/bunny-site.data.mjs'
+import { useCharacter } from '../use-character'
 import AssetImage from './AssetImage.vue'
+
+const data = useCharacter()
 </script>
 
 <template>
   <div class="bunny-layer-strip">
     <ol data-layer-strip>
-      <li v-for="layer in data.layers" :key="layer.layer" :data-layer="layer.layer">
+      <li v-for="layer in data.layers?.items" :key="layer.layer" :data-layer="layer.layer">
         <AssetImage :id="layer.front" group="layers" use-thumb />
         <div class="bunny-layer-strip__name"><b>{{ layer.layer }}</b><span>{{ layer.name }}</span></div>
         <p>{{ layer.summary }}</p>

@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { data } from '../../data/bunny-site.data.mjs'
+import { useCharacter } from '../use-character'
 import AssetImage from './AssetImage.vue'
 
+const data = useCharacter()
 const props = defineProps<{ layer: number }>()
 const current = computed(() => {
-  const result = data.layers.find(layer => layer.layer === props.layer)
-  if (!result) throw new Error(`Unknown Bunny layer: ${props.layer}`)
+  const result = data.value.layers?.items.find(layer => layer.layer === props.layer)
+  if (!result) throw new Error(`Unknown character layer: ${props.layer}`)
   return result
 })
 const views: Array<{ key: 'front' | 'right' | 'back' | 'left'; caption: string }> = [

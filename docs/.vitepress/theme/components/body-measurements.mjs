@@ -19,16 +19,17 @@ export const roundRuler = (value) => Number(value.toFixed(3))
 
 export const formatNumber = (value, digits = 2) => number(value) ? Number(value.toFixed(digits)).toString() : '—'
 
-function measurementResources(view, id) {
+function measurementResources(view, id, character) {
+  if (typeof character !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(character)) throw new Error('Invalid measurement character')
   const resources = view.resources === undefined ? {
-    original: `/media/bunny/body-${id}-latest.png`,
-    web: `/characters/bunny/body-${id}-latest.webp`,
-    ruler: `/characters/bunny/body-${id}-ruler-latest.svg`,
+    original: `/media/${character}/body-${id}-latest.png`,
+    web: `/characters/${character}/body-${id}-latest.webp`,
+    ruler: `/characters/${character}/body-${id}-ruler-latest.svg`,
   } : view.resources
   const patterns = {
-    original: /^\/media\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.png$/,
-    web: /^\/characters\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.webp$/,
-    ruler: /^\/characters\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.svg$/,
+    original: new RegExp(`^/media/${character}/[a-z0-9]+(?:-[a-z0-9]+)*-latest\\.png$`),
+    web: new RegExp(`^/characters/${character}/[a-z0-9]+(?:-[a-z0-9]+)*-latest\\.webp$`),
+    ruler: new RegExp(`^/characters/${character}/[a-z0-9]+(?:-[a-z0-9]+)*-latest\\.svg$`),
   }
   for (const [name, pattern] of Object.entries(patterns)) {
     if (typeof resources?.[name] !== 'string' || !pattern.test(resources[name])) throw new Error(`Invalid measurement resource: ${id}.${name}`)
@@ -46,7 +47,7 @@ function isEstimated(item) {
   return /estimat|approx|proxy|参考|估计/.test(item?.visibility ?? '')
 }
 
-export function measurementModel(data, id) {
+export function measurementModel(data, id, character) {
   const view = data.views[id]
   if (!view) throw new Error(`Unknown body view: ${id}`)
   const { crownY, floorY } = view.height
@@ -89,7 +90,7 @@ export function measurementModel(data, id) {
   }
   const widths = ['shoulder', 'waist', 'hip'].map((key) => rows.find((row) => row.id === key)?.px)
   return {
-    id, label: labels[id] ?? id, source: view.source, resources: measurementResources(view, id), H, rows,
+    id, label: labels[id] ?? id, source: view.source, resources: measurementResources(view, id, character), H, rows,
     headCount: number(head) && head > 0 ? H / head : null,
     widthRatio: widths.every((value) => number(value) && value > 0) ? `${formatNumber(widths[0] / widths[1])} : 1 : ${formatNumber(widths[2] / widths[1])}` : null,
   }
@@ -101,9 +102,9 @@ export function bodyCanvasSize(model) {
 }
 
 /** The page and downloadable sheet share these exact lines and computed labels. */
-export function renderMeasurementSvg(data, id, imageHref) {
+export function renderMeasurementSvg(data, id, imageHref, character) {
   if (!/^(?:\/(?!\/)|data:image\/webp;base64,)/.test(imageHref)) throw new Error('Unsupported measurement image source')
-  const model = measurementModel(data, id)
+  const model = measurementModel(data, id, character)
   const { width, height } = model.source
   const s = (value) => roundRuler(value * rulerScale(model.source))
   const strokes = model.rows.filter((row) => number(row.px)).map((row) => {

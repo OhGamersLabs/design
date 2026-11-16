@@ -6,15 +6,17 @@ import {
   focusAfterStep, garmentMeasurementScope, readingLine, readingNeighbors, resolveAnchorTarget,
   selectMeasurementMetric, selectMeasurementSource,
   shouldRedirectForHash, stepIndex,
-} from '../docs/.vitepress/theme/bunny-site.mjs'
+} from '../docs/.vitepress/theme/character-site.mjs'
 
 const json = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8'))
+const character = json('../docs/.vitepress/data/bunny/character.json')
+const readingOrder = [{ path: '/characters/bunny/', title: character.name }, ...character.pages]
 const manifests = [json('../catalog/bunny/manifest.json'), json('../catalog/origins/manifest.json')]
 const names = json('../docs/.vitepress/data/bunny/asset-names.json')
 const thumbs = json('../docs/public/site/thumbs/index.json')
 
 test('asset index joins manifests, finalized names and thumbnails', () => {
-  const index = buildAssetIndex({ manifests, names, thumbs })
+  const index = buildAssetIndex({ character: 'bunny', manifests, names, thumbs })
   assert.equal(Object.keys(index).length, 94)
   assert.equal(index['sun05-scene-latest'].web.width, 1774)
   assert.equal(index['sun05-scene-latest'].thumb.width, 480)
@@ -25,12 +27,12 @@ test('asset index joins manifests, finalized names and thumbnails', () => {
 test('incomplete or unknown names and missing thumbnails fail with the id', () => {
   const missing = { ...names }
   delete missing['sun05-scene-latest']
-  assert.throws(() => buildAssetIndex({ manifests, names: missing, thumbs }), /sun05-scene-latest/)
-  assert.throws(() => buildAssetIndex({ manifests, names: { ...names, unknown: '未知' }, thumbs }), /unknown/)
-  assert.throws(() => buildAssetIndex({ manifests, names: { ...names, 'sun05-scene-latest': ' ' }, thumbs }), /sun05-scene-latest/)
+  assert.throws(() => buildAssetIndex({ character: 'bunny', manifests, names: missing, thumbs }), /sun05-scene-latest/)
+  assert.throws(() => buildAssetIndex({ character: 'bunny', manifests, names: { ...names, unknown: '未知' }, thumbs }), /unknown/)
+  assert.throws(() => buildAssetIndex({ character: 'bunny', manifests, names: { ...names, 'sun05-scene-latest': ' ' }, thumbs }), /sun05-scene-latest/)
   const missingThumb = { ...thumbs }
   delete missingThumb['bunny/sun05-scene-latest']
-  assert.throws(() => buildAssetIndex({ manifests, names, thumbs: missingThumb }), /sun05-scene-latest/)
+  assert.throws(() => buildAssetIndex({ character: 'bunny', manifests, names, thumbs: missingThumb }), /sun05-scene-latest/)
 })
 const anchorMap = {
   stubs: { '/characters/bunny/face': { target: '/characters/bunny/#identity', title: '身份与画风' } },
@@ -88,24 +90,24 @@ test('reading line never sits above the heading landing position on short viewpo
 })
 
 test('reading neighbors follow layer order and stop at both ends', () => {
-  const { prev, next } = readingNeighbors('/characters/bunny/jacket')
+  const { prev, next } = readingNeighbors(readingOrder, '/characters/bunny/jacket')
   assert.equal(prev.path, '/characters/bunny/thigh-gear')
   assert.equal(next.path, '/characters/bunny/headgear')
-  assert.equal(readingNeighbors('/characters/bunny/headgear').next.path, '/characters/bunny/harness')
-  assert.equal(readingNeighbors('/characters/bunny/harness').next.path, '/characters/bunny/weapon')
-  assert.equal(readingNeighbors('/characters/bunny/index.html').prev, null)
-  assert.equal(readingNeighbors('/characters/bunny/downloads').next, null)
-  assert.deepEqual(readingNeighbors('/missing'), { prev: null, next: null })
+  assert.equal(readingNeighbors(readingOrder, '/characters/bunny/headgear').next.path, '/characters/bunny/harness')
+  assert.equal(readingNeighbors(readingOrder, '/characters/bunny/harness').next.path, '/characters/bunny/weapon')
+  assert.equal(readingNeighbors(readingOrder, '/characters/bunny/index.html').prev, null)
+  assert.equal(readingNeighbors(readingOrder, '/characters/bunny/downloads').next, null)
+  assert.deepEqual(readingNeighbors(readingOrder, '/missing'), { prev: null, next: null })
 })
 
 
-const assets = buildAssetIndex({ manifests, names, thumbs })
+const assets = buildAssetIndex({ character: 'bunny', manifests, names, thumbs })
 const bodyMeasurements = json('../catalog/bunny/body-measurements.json')
 const garmentMeasurements = json('../catalog/bunny/garment-measurements.json')
 
 test('garment current scope falls back to a ruler source when the preferred source has no ruler', () => {
   const data = { ...garmentMeasurements, defaultSourceId: 'hosiery-front' }
-  const current = garmentMeasurementScope(data, assets, 'current')
+  const current = garmentMeasurementScope(data, assets, 'bunny', 'current')
   assert.equal(current.models.some((model) => model.id === 'hosiery-front' && !model.resources.ruler), true)
   assert.equal(current.defaultSourceId, 'innerwear-front')
   assert.ok(current.models.find((model) => model.id === current.defaultSourceId).resources.ruler)
@@ -123,7 +125,7 @@ test('garment metric selector includes a metric available only through a derived
     reference: { sourceId: 'innerwear-front', metricId: 'topMatchedRightHem', endpoint: 1, sha256: data.sources['innerwear-front'].source.sha256 },
   }]
   const before = structuredClone(data)
-  const scoped = garmentMeasurementScope(data, assets)
+  const scoped = garmentMeasurementScope(data, assets, 'bunny')
   assert.equal(scoped.models.some((model) => model.rows.some(({ id }) => id === 'jacketRightOffset')), false)
   assert.equal(scoped.models.some((model) => model.derived.some(({ id }) => id === 'jacketRightOffset')), true)
   assert.equal(scoped.metrics.some(({ id }) => id === 'jacketRightOffset'), true)
@@ -134,19 +136,19 @@ test('garment metric selector includes a metric available only through a derived
   assert.deepEqual(data, before)
   const wrongHash = structuredClone(data)
   wrongHash.sources['jacket-highlow-base-aligned-front'].referenceDerivedMetrics[0].reference.sha256 = '0'.repeat(64)
-  assert.throws(() => garmentMeasurementScope(wrongHash, assets), /exact same-view source/)
+  assert.throws(() => garmentMeasurementScope(wrongHash, assets, 'bunny'), /exact same-view source/)
 })
 
 test('measurement scopes reject unknown assets and invalid scopes, including empty sources', () => {
   const unknownBody = structuredClone(bodyMeasurements)
   unknownBody.views.front.resources.web = '/characters/bunny/unknown-body-latest.webp'
-  assert.throws(() => bodyMeasurementScope(unknownBody, assets, 'current'), /Unknown asset id: unknown-body/)
+  assert.throws(() => bodyMeasurementScope(unknownBody, assets, 'bunny', 'current'), /Unknown asset id: unknown-body/)
   const unknownGarment = structuredClone(garmentMeasurements)
   unknownGarment.sources[Object.keys(unknownGarment.sources)[0]].resources.web = '/characters/bunny/unknown-garment-latest.webp'
-  assert.throws(() => garmentMeasurementScope(unknownGarment, assets, 'current'), /Unknown asset id: unknown-garment/)
+  assert.throws(() => garmentMeasurementScope(unknownGarment, assets, 'bunny', 'current'), /Unknown asset id: unknown-garment/)
   for (const scope of ['', 'all', null]) {
-    assert.throws(() => bodyMeasurementScope({ views: {} }, assets, scope), /Invalid measurement scope/)
-    assert.throws(() => garmentMeasurementScope({ sources: {} }, assets, scope), /Invalid measurement scope/)
+    assert.throws(() => bodyMeasurementScope({ views: {} }, assets, 'bunny', scope), /Invalid measurement scope/)
+    assert.throws(() => garmentMeasurementScope({ sources: {} }, assets, 'bunny', scope), /Invalid measurement scope/)
   }
 })
 
@@ -169,15 +171,15 @@ test('display text matches whole strings globally and ignores view-label entries
 
 
 test('only current measurement sources remain and resolve to stable assets', () => {
-  const body = bodyMeasurementScope(bodyMeasurements, assets)
+  const body = bodyMeasurementScope(bodyMeasurements, assets, 'bunny')
   assert.deepEqual(body.models.map(({ id }) => id), ['front', 'side', 'back'])
   assert.equal(body.defaultSourceId, 'front')
-  const garment = garmentMeasurementScope(garmentMeasurements, assets)
+  const garment = garmentMeasurementScope(garmentMeasurements, assets, 'bunny')
   assert.equal(garment.models.length, 18)
   assert.equal(garment.models.filter(({ resources }) => resources.ruler).length, 6)
   for (const model of [...body.models, ...garment.models]) assert.match(model.resources.web, /-latest[.]webp$/)
   assert.equal(garment.defaultSourceId, garmentMeasurements.defaultSourceId)
-  for (const fn of [bodyMeasurementScope, garmentMeasurementScope]) assert.throws(() => fn({}, assets, 'archive'), /Invalid measurement scope/)
+  for (const fn of [bodyMeasurementScope, garmentMeasurementScope]) assert.throws(() => fn({}, assets, 'bunny', 'archive'), /Invalid measurement scope/)
 })
 
 test('home highlights reference current image identities without change history', () => {
@@ -189,7 +191,7 @@ test('home highlights reference current image identities without change history'
 
 
 test('all ten cumulative layers use the approved order and four character-relative T-pose views', () => {
-  const layers = json('../docs/.vitepress/data/bunny/layers.json')
+  const layers = json('../docs/.vitepress/data/bunny/layers.json').items
   const prefixes = ['body', 'innerwear', 'hosiery', 'shoes', 'hands', 'thigh-gear', 'jacket', 'goggles', 'belt', 'daggers']
   assert.deepEqual(layers.map(({ layer }) => layer), [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
   assert.deepEqual(layers.map(({ name }) => name), ['身体', '上衣与短裤', '袜装', '鞋靴', '手部', '腿带', '橙色夹克', '护目镜', '裤腰皮带', '双匕首'])

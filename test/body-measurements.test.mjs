@@ -23,7 +23,7 @@ const fixture = () => ({ views: {
 } })
 
 test('ratios and lengths derive from the same view coordinates without an inclusive-pixel offset', () => {
-  const model = measurementModel(fixture(), 'front')
+  const model = measurementModel(fixture(), 'front', 'bunny')
   assert.equal(model.H, 1400)
   assert.equal(model.headCount, 7)
   assert.equal(model.widthRatio, '1.5 : 1 : 1.8')
@@ -39,13 +39,13 @@ test('occluded landmarks remain unmeasured and are never inferred from another v
   data.views.back.height.floorY = 1400
   data.views.back.landmarks.chin = { y: null, visibility: 'occluded', reason: '背面看不到下颏' }
   data.views.back.widths.waist = { value: null, visibility: 'occluded', reason: '遮挡' }
-  const model = measurementModel(data, 'back')
+  const model = measurementModel(data, 'back', 'bunny')
   assert.equal(model.H, 1380)
   assert.equal(model.headCount, null)
   assert.equal(model.widthRatio, null)
   assert.equal(model.rows.find((row) => row.id === 'head').px, null)
   assert.equal(model.rows.find((row) => row.id === 'waist').status, '不赋值')
-  const svg = renderMeasurementSvg(data, 'back', '/characters/test.webp')
+  const svg = renderMeasurementSvg(data, 'back', '/characters/test.webp', 'bunny')
   assert.doesNotMatch(svg, /data-measurement="(?:head|waist)"/)
   assert.doesNotMatch(svg, /NaN|undefined/)
 })
@@ -54,8 +54,8 @@ test('on-page and standalone SVG share identical geometry and labels, differing 
   const data = fixture()
   const web = '/characters/test.webp'
   const embedded = 'data:image/webp;base64,dGVzdA=='
-  const online = renderMeasurementSvg(data, 'front', web)
-  const offline = renderMeasurementSvg(data, 'front', embedded)
+  const online = renderMeasurementSvg(data, 'front', web, 'bunny')
+  const offline = renderMeasurementSvg(data, 'front', embedded, 'bunny')
   assert.equal(online.replace(web, embedded), offline)
   assert.match(offline, /width="1024" height="1536" preserveAspectRatio="xMidYMid meet"/)
   assert.match(offline, /S 300 px/)
@@ -65,7 +65,7 @@ test('on-page and standalone SVG share identical geometry and labels, differing 
 
 test('native 4K landmarks remain exact while annotation typography, gutters and canvas scale together', () => {
   const data = fixture()
-  const before = renderMeasurementSvg(data, 'front', '/characters/test.webp')
+  const before = renderMeasurementSvg(data, 'front', '/characters/test.webp', 'bunny')
   assert.match(before, /font-size="27"/)
   assert.match(before, /stroke-width="3"/)
   const view = data.views.front
@@ -75,8 +75,8 @@ test('native 4K landmarks remain exact while annotation typography, gutters and 
   view.landmarks = { chin: { y: 537 }, shoulder: { y: 721 }, waist: { y: 1217 }, crotch: { y: 1693 } }
   view.widths.shoulder = { xLeft: 863, xRight: 1498, y: 721, definition: '原像素指定截线' }
   const scale = 3520 / 1536
-  const model = measurementModel(data, 'front')
-  const svg = renderMeasurementSvg(data, 'front', '/characters/test.webp')
+  const model = measurementModel(data, 'front', 'bunny')
+  const svg = renderMeasurementSvg(data, 'front', '/characters/test.webp', 'bunny')
   const canvas = bodyCanvasSize(model)
   assert.equal(model.H, 3376)
   assert.match(svg, /x1="863" y1="721" x2="1498" y2="721"/)
@@ -86,9 +86,9 @@ test('native 4K landmarks remain exact while annotation typography, gutters and 
   assert.ok(svg.includes(`viewBox="0 -252.083 2352 ${canvas.height}"`))
   assert.ok(svg.includes(`width="2352" height="3520" preserveAspectRatio="xMidYMid meet"`))
   assert.doesNotMatch(svg, /-?\d+\.\d{4,}/)
-  const oldCanvas = bodyCanvasSize(measurementModel(fixture(), 'front'))
+  const oldCanvas = bodyCanvasSize(measurementModel(fixture(), 'front', 'bunny'))
   assert.equal(canvas.height, Number((oldCanvas.height * scale).toFixed(3)))
-  assert.equal(svg.replace('/characters/test.webp', 'data:image/webp;base64,dGVzdA=='), renderMeasurementSvg(data, 'front', 'data:image/webp;base64,dGVzdA=='))
+  assert.equal(svg.replace('/characters/test.webp', 'data:image/webp;base64,dGVzdA=='), renderMeasurementSvg(data, 'front', 'data:image/webp;base64,dGVzdA==', 'bunny'))
 })
 
 test('a side depth belongs to its specified section and never becomes a front/back width ratio', () => {
@@ -96,12 +96,12 @@ test('a side depth belongs to its specified section and never becomes a front/ba
   data.views.side = structuredClone(data.views.front)
   data.views.side.widths = { waist: { xLeft: null, xRight: null, y: null, reason: '手臂遮挡' } }
   data.views.side.depths = { hip: { xLeft: 420, xRight: 587, y: 680, definition: '指定截面，含内搭' }, waist: { xLeft: null, xRight: null, y: null, reason: '后腰不可见' } }
-  const model = measurementModel(data, 'side')
+  const model = measurementModel(data, 'side', 'bunny')
   assert.equal(model.widthRatio, null)
   assert.equal(model.rows.find((row) => row.id === 'hipDepth').px, 167)
   assert.equal(model.rows.find((row) => row.id === 'hipDepth').label, '侧臀截面 y680')
   assert.equal(model.rows.find((row) => row.id === 'waistDepth').px, null)
-  const svg = renderMeasurementSvg(data, 'side', '/characters/test.webp')
+  const svg = renderMeasurementSvg(data, 'side', '/characters/test.webp', 'bunny')
   assert.match(svg, /D 167 px · y680/)
   assert.doesNotMatch(svg, /data-measurement="waistDepth"/)
 })
@@ -111,7 +111,7 @@ test('estimated knee and ankle tolerances remain endpoint ranges, not invented l
   data.views.front.landmarks.knee = { y: 1055, visibility: 'estimated', tolerancePx: 12 }
   data.views.front.landmarks.ankle = { y: 1400, visibility: 'estimated', tolerancePx: 10 }
   data.views.front.lengths.kneeToAnkle = { from: 'knee', to: 'ankle', definition: '图面垂直距离' }
-  const row = measurementModel(data, 'front').rows.find((item) => item.id === 'kneeToAnkle')
+  const row = measurementModel(data, 'front', 'bunny').rows.find((item) => item.id === 'kneeToAnkle')
   assert.equal(row.px, 345)
   assert.equal(row.uncertainty, '')
   assert.equal(row.endpointNotes, '膝参考线 y1055，取点约 ±12 px；踝参考线 y1400，取点约 ±10 px')
@@ -119,14 +119,14 @@ test('estimated knee and ankle tolerances remain endpoint ranges, not invented l
 
 test('invalid heights and active image schemes fail instead of producing an uncheckable ruler', () => {
   const data = fixture()
-  assert.throws(() => renderMeasurementSvg(data, 'front', 'javascript:alert(1)'), /Unsupported/)
+  assert.throws(() => renderMeasurementSvg(data, 'front', 'javascript:alert(1)', 'bunny'), /Unsupported/)
   data.views.front.height.floorY = data.views.front.height.crownY
-  assert.throws(() => measurementModel(data, 'front'), /Invalid image height/)
+  assert.throws(() => measurementModel(data, 'front', 'bunny'), /Invalid image height/)
 })
 
 test('explicit per-view resources select the matching artwork and ruler without changing measurements', () => {
   const data = fixture()
-  const original = measurementModel(data, 'front')
+  const original = measurementModel(data, 'front', 'bunny')
   assert.deepEqual(original.resources, {
     original: '/media/bunny/body-front-latest.png',
     web: '/characters/bunny/body-front-latest.webp',
@@ -137,7 +137,7 @@ test('explicit per-view resources select the matching artwork and ruler without 
     web: '/characters/bunny/renamed-front-latest.webp',
     ruler: '/characters/bunny/renamed-front-ruler-latest.svg',
   }
-  const revised = measurementModel(data, 'front')
+  const revised = measurementModel(data, 'front', 'bunny')
   assert.deepEqual(revised.resources, data.views.front.resources)
   assert.deepEqual(revised.rows, original.rows)
   assert.equal(revised.H, original.H)
@@ -158,7 +158,7 @@ test('explicit resources reject missing fields, external URLs and paths outside 
   ]) {
     const data = fixture()
     data.views.front.resources = { ...resources, ...patch }
-    assert.throws(() => measurementModel(data, 'front'), /Invalid measurement resource/)
+    assert.throws(() => measurementModel(data, 'front', 'bunny'), /Invalid measurement resource/)
   }
 })
 

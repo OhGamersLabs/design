@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 import { getScrollOffset } from 'vitepress'
-import { data } from '../../data/bunny-site.data.mjs'
-import { activeChapterId, readingLine } from '../bunny-site.mjs'
+import { useCharacter } from '../use-character'
+import { activeChapterId, readingLine } from '../character-site.mjs'
 
+const data = useCharacter()
 const active = ref('')
 let frame = 0
 
@@ -14,7 +15,7 @@ function readHash() {
 
 function update() {
   frame = 0
-  const headings = data.home.chapters.map((chapter) => ({ id: chapter.id, top: document.getElementById(chapter.id)?.getBoundingClientRect().top ?? null }))
+  const headings = data.value.home.chapters.map((chapter) => ({ id: chapter.id, top: document.getElementById(chapter.id)?.getBoundingClientRect().top ?? null }))
   active.value = activeChapterId(headings, {
     line: readingLine(window.innerHeight, getScrollOffset()),
     viewportHeight: window.innerHeight,

@@ -65,11 +65,21 @@ def build(root=ROOT, refresh_web=None):
         character = directory.name
         if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', character):
             raise ValueError(f'Invalid character: {character}')
+        if character == 'origins':
+            title = '角色原始手稿'
+        else:
+            definition = root/'docs/.vitepress/data'/character/'character.json'
+            if not definition.is_file():
+                raise ValueError(f'Missing character.json: {character}')
+            name = json.loads(definition.read_text(encoding='utf-8'))['name']
+            if not isinstance(name, str) or not name.strip():
+                raise ValueError(f'Invalid character name: {character}')
+            title = f'{name} 设计参考'
         files = sorted(directory.rglob('*.webp'))
         if not files:
             continue
         manifest = dict(schema_version='2.0', character_id=character, language='zh-CN',
-                        title='Bunny 设计参考' if character == 'bunny' else '角色原始手稿',
+                        title=title,
                         status='local-review', asset_count=len(files), assets=[])
         for web in files:
             slug = web.stem

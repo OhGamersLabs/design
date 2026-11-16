@@ -1,28 +1,28 @@
-import { READING_ORDER } from '../bunny-navigation.mjs'
 import { measurementModel } from './components/body-measurements.mjs'
 import { garmentModel } from './components/garment-measurements.mjs'
 
-/** @typedef {import('./bunny-site-types').AssetRecord} AssetRecord */
-/** @typedef {import('./bunny-site-types').AnchorMap} AnchorMap */
+/** @typedef {import('./character-site-types').AssetRecord} AssetRecord */
+/** @typedef {import('./character-site-types').AnchorMap} AnchorMap */
 /** @typedef {{path: string, width: number, height: number, bytes: number}} ImageFile */
 /** @typedef {{character_id: string, assets: Array<{id: string, web: ImageFile, original: ImageFile}>}} Manifest */
 /** @typedef {Record<string, {path: string, width: number, height: number}>} Thumbnails */
 
 /**
  * Join only named, indexed assets; never turn an unknown id into visible text.
- * @param {{manifests: Manifest[], names: Record<string, string>, thumbs: Thumbnails}} input
+ * @param {{character: string, manifests: Manifest[], names: Record<string, string>, thumbs: Thumbnails}} input
  * @returns {Record<string, AssetRecord>}
  */
-export function buildAssetIndex({ manifests, names, thumbs }) {
+export function buildAssetIndex({ character, manifests, names, thumbs }) {
   /** @type {Record<string, AssetRecord>} */
   const index = {}
   for (const manifest of manifests) {
     const collection = manifest.character_id
-    if (collection !== 'bunny' && collection !== 'origins') {
+    if (collection !== character && collection !== 'origins') {
       throw new Error(`Unsupported asset collection: ${collection}`)
     }
     for (const asset of manifest.assets) {
       const { id } = asset
+      if (collection === 'origins' && id !== `${character}-original-latest`) throw new Error(`Foreign original asset: ${id}`)
       if (Object.hasOwn(index, id)) throw new Error(`Duplicate asset id: ${id}`)
       const name = Object.hasOwn(names, id) ? names[id] : undefined
       if (typeof name !== 'string' || !name.trim()) throw new Error(`Missing asset name: ${id}`)
@@ -73,11 +73,11 @@ export function shouldRedirectForHash(hash, hasElement) {
   return hash.replace(/^#/, '').length > 0 && !hasElement
 }
 
-/** @param {string} path @returns {{prev: {path: string, title: string} | null, next: {path: string, title: string} | null}} */
-export function readingNeighbors(path) {
-  const index = READING_ORDER.findIndex((entry) => entry.path === normalizePath(path))
+/** @param {import('./character-site-types').ReadingEntry[]} order @param {string} path @returns {{prev: {path: string, title: string} | null, next: {path: string, title: string} | null}} */
+export function readingNeighbors(order, path) {
+  const index = order.findIndex((entry) => entry.path === normalizePath(path))
   if (index < 0) return { prev: null, next: null }
-  return { prev: READING_ORDER[index - 1] ?? null, next: READING_ORDER[index + 1] ?? null }
+  return { prev: order[index - 1] ?? null, next: order[index + 1] ?? null }
 }
 
 /** @param {number} index @param {number} delta @param {number} count @returns {number} */
@@ -171,9 +171,9 @@ function scopedMeasurementModels(models, assets, scope) {
 }
 
 /** Select only views whose web asset belongs to the requested status scope. */
-export function bodyMeasurementScope(data, assets, scope = 'current') {
+export function bodyMeasurementScope(data, assets, character, scope = 'current') {
   validateMeasurementScope(scope)
-  const models = scopedMeasurementModels(Object.keys(data.views).map((id) => measurementModel(data, id)), assets, scope)
+  const models = scopedMeasurementModels(Object.keys(data.views).map((id) => measurementModel(data, id, character)), assets, scope)
   return { models, defaultSourceId: models[0]?.id }
 }
 
@@ -181,9 +181,9 @@ export function bodyMeasurementScope(data, assets, scope = 'current') {
  * Build against the complete data so a derived row retains its exact reference,
  * then filter sources and the metric selector using the scoped rows.
  */
-export function garmentMeasurementScope(data, assets, scope = 'current') {
+export function garmentMeasurementScope(data, assets, character, scope = 'current') {
   validateMeasurementScope(scope)
-  const models = scopedMeasurementModels(Object.keys(data.sources).map((id) => garmentModel(data, id)), assets, scope)
+  const models = scopedMeasurementModels(Object.keys(data.sources).map((id) => garmentModel(data, id, character)), assets, scope)
   const available = new Set(models.flatMap((model) => [...model.rows, ...model.derived].map(({ id }) => id)))
   const metrics = Object.entries(data.metrics).filter(([id]) => available.has(id)).map(([id, metric]) => ({ id, ...metric }))
   const hasRulers = models.some((model) => Boolean(model.resources.ruler))
@@ -200,4 +200,12 @@ export function selectMeasurementSource(models, selectedId, defaultSourceId) {
 /** Metric options and their fallback follow the order in the measurement JSON. */
 export function selectMeasurementMetric(metrics, selectedId) {
   return metrics.find(({ id }) => id === selectedId)?.id ?? metrics[0]?.id
+}
+
+/** @param {Record<string, import('./character-site-types').CharacterData>} characters @param {string} relativePath @param {string | undefined} [explicitId] @returns {import('./character-site-types').CharacterData} */
+export function characterForPage(characters, relativePath, explicitId = undefined) {
+  const id = explicitId ?? /^characters\/([a-z0-9]+(?:-[a-z0-9]+)*)\//.exec(relativePath)?.[1]
+  if (!id) throw new Error(`Character component outside a character page: ${relativePath}`)
+  if (!Object.hasOwn(characters, id)) throw new Error(`Unknown character: ${id}`)
+  return characters[id]
 }

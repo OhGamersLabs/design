@@ -17,6 +17,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 from site_check import SiteConfig, run_checks
+from site_check.config import CharacterSpec
 from site_check.cli import main
 from site_check.htmlscan import parse_html, clean_text
 
@@ -30,10 +31,13 @@ class SiteCheckTests(unittest.TestCase):
         self.home = '/characters/bunny/'
         self.layer = '/characters/bunny/body-base'
         self.stub = '/characters/bunny/face'
-        self.cfg = SiteConfig(root=self.root, dist=self.dist,
+        self.spec = CharacterSpec(id='bunny',name='Bunny',
             page_titles={self.home: 'Bunny', self.layer: '身体'}, stubs=(self.stub,),
             latest=(('2026-10-29','场景图定稿','scene-latest'),('2026-10-28','线稿通过','line-latest'),('2026-10-28','姿势选定','pose-latest'),('2026-10-27','携行三视','carry-latest')),
-            baseline_file=self.root/'baseline.json', ruler_paths=())
+            allowed_dates=tuple('2026-10-'+str(n) for n in range(25,30)) + ('2026-11-02',),
+            forbidden_words=('耳机','兔耳','护套','刀鞘','短托','吊带','锯','棍','大剑','黑曜石'),
+            fixed_captions={'sun05-pose-structure-latest':'SUN-05 人体结构稿，手中为占位杆'})
+        self.cfg = SiteConfig(root=self.root,dist=self.dist,characters=(self.spec,),baseline_file=self.root/'baseline.json',ruler_paths=())
         self.assets=[]
         for aid in ['scene-latest','line-latest','pose-latest','carry-latest','bunny-original-latest']:
             character='origins' if aid=='bunny-original-latest' else 'bunny'
@@ -62,11 +66,12 @@ class SiteCheckTests(unittest.TestCase):
             thumbs[key]={'path':'/site/thumbs/'+key+'.webp','sourcePath':a['web']['path'],'sourceSha256':a['web']['sha256'],'sha256':hashlib.sha256(b'thumb').hexdigest(),'width':2,'height':1}
             self.write('docs/public/site/thumbs/'+key+'.webp',b'thumb')
         self.json('docs/public/site/thumbs/index.json',thumbs)
-        latest='<ol data-latest>'+''.join(f'<li data-asset-id="{a}"><time datetime="{d}">{d}</time><span data-latest-title>{t}</span>{self.figure(a)}</li>' for d,t,a in self.cfg.latest)+'</ol>'
+        latest='<ol data-latest>'+''.join(f'<li data-asset-id="{a}"><time datetime="{d}">{d}</time><span data-latest-title>{t}</span>{self.figure(a)}</li>' for d,t,a in self.spec.latest)+'</ol>'
         self.page(self.home,'<h1>Bunny</h1><h2 id="identity">身份与画风</h2><div data-hero><span data-hero-status>本地审阅版，不是生产发布</span></div>'+latest+self.figure('bunny-original-latest'))
         self.page(self.layer,'<h1>身体</h1><h2 id="body">身体基准</h2>'+self.figure('scene-latest'))
         self.page(self.stub,'<p data-redirect-stub>本页已迁移，前往：<a href="'+self.home+'#identity">身份与画风</a></p>',head='<meta http-equiv="refresh" content="3; url='+self.home+'#identity">')
         self.write('dist/assets/site.css','body {color:#222}')
+        self.write_spec(self.spec)
 
 
     def image_bytes(self,format,size=(2,1),color=(40,50,60)):
@@ -91,8 +96,8 @@ class SiteCheckTests(unittest.TestCase):
         p.write_text(p.read_text().replace('</body>',html+'</body>'))
     def replace(self,path,old,new):
         p=self.dist/(path.lstrip('/')+('index.html' if path.endswith('/') else '.html'));p.write_text(p.read_text().replace(old,new))
-    def figure(self,aid,caption='图像',group=''):
-        collection='origins' if aid=='bunny-original-latest' else 'bunny'
+    def figure(self,aid,caption='图像',group='',character='bunny'):
+        collection='origins' if aid.endswith('-original-latest') else character
         return f'<figure class="release-image" data-asset-id="{aid}"><button {group}><img src="/characters/{collection}/{aid}.webp" alt="{caption}"></button><figcaption><strong>{caption}</strong></figcaption></figure>'
     def check(self,rule,**kw):return run_checks(self.cfg,rules=[rule],**kw)
     def good(self,rule,**kw):self.assertEqual([],self.check(rule,**kw))
@@ -105,6 +110,139 @@ class SiteCheckTests(unittest.TestCase):
         p=self.dist/'assets/chunks/@localSearchIndexroot.test.js';p.parent.mkdir(parents=True,exist_ok=True)
         subprocess.run(['node',str(script),str(p)],check=True,capture_output=True,text=True)
     def search_docs(self):return [{'id':self.home+'#identity','title':'Bunny','titles':['Bunny'],'text':'角色设计'}]
+
+    def write_spec(self,spec):
+        self.json(spec.data_dir+'/character.json',{'name':spec.name,'role':'角色','order':1,'pages':[{'path':path,'title':title} for path,title in spec.page_titles.items() if path!=spec.home]})
+        self.json(spec.data_dir+'/site-check.json',{'pages':spec.page_titles,'stubs':spec.stubs,'latest':spec.latest,'allowedDates':spec.allowed_dates,'forbiddenWords':spec.forbidden_words,'fixedCaptions':spec.fixed_captions})
+
+    def add_robot(self,listed=True):
+        home='/characters/robot/'
+        spec=CharacterSpec(id='robot',name='Robot',page_titles={home:'Robot',home+'body-base':'身体'},latest=(('2026-11-16','装配图','scene-latest'),),allowed_dates=('2026-11-16',),forbidden_words=('电池',),fixed_captions={'pose-latest':'结构稿'},listed=listed)
+        self.cfg.characters=(*self.cfg.characters,spec)
+        own=[]
+        for aid,collection in [('scene-latest','robot'),('robot-original-latest','origins')]:
+            color=tuple(hashlib.sha256((collection+aid).encode()).digest()[:3])
+            web=self.image_bytes('WEBP',color=color);original=self.image_bytes('PNG',color=color)
+            asset={'id':aid,'web':{'path':f'/characters/{collection}/{aid}.webp','sha256':hashlib.sha256(web).hexdigest(),'bytes':len(web),'width':2,'height':1},'original':{'path':f'/media/{collection}/{aid}.png','sha256':hashlib.sha256(original).hexdigest(),'bytes':len(original),'width':2,'height':1}}
+            self.write('docs/public'+asset['web']['path'],web)
+            self.write('.release/'+collection+'/'+aid+'.png',original)
+            if collection=='robot':own.append(asset)
+            else:
+                manifest=self.read_json('catalog/origins/manifest.json');manifest['assets'].append(asset)
+                self.json('catalog/origins/manifest.json',manifest);self.json('docs/public/catalog/origins/manifest.json',manifest)
+        self.json('catalog/robot/manifest.json',{'character_id':'robot','assets':own})
+        self.json('docs/public/catalog/robot/manifest.json',{'character_id':'robot','assets':own})
+        self.json(spec.data_dir+'/asset-names.json',{'scene-latest':'场景图','robot-original-latest':'原稿'})
+        self.json(spec.data_dir+'/display-text.json',{})
+        self.json(spec.data_dir+'/anchor-map.json',{'anchors':{},'stubs':{}})
+        self.write_spec(spec)
+        if listed:
+            self.write('docs/characters/robot/index.md','---\nreleaseReady: false\n---\n# Robot\n')
+            figure=self.figure('scene-latest',character='robot')
+            latest='<ol data-latest><li data-asset-id="scene-latest"><time datetime="2026-11-16">2026-11-16</time><span data-latest-title>装配图</span>'+figure+'</li></ol>'
+            self.page(home,'<h1>Robot</h1><div data-hero><span data-hero-status>本地审阅版，不是生产发布</span></div>'+latest+self.figure('robot-original-latest',character='robot'))
+            self.page(home+'body-base','<h1>身体</h1>'+figure)
+        return spec
+
+    def test_multichar_r2_merges_every_listed_stub(self):
+        robot=self.add_robot();path=robot.home+'legacy';robot.stubs=(path,)
+        self.json(robot.data_dir+'/anchor-map.json',{'anchors':{},'stubs':{path:{'target':robot.home,'title':'Robot'}}})
+        self.page(path,f'<p data-redirect-stub><a href="{robot.home}">Robot</a></p>',head=f'<meta http-equiv="refresh" content="3; url={robot.home}">')
+        self.good('R2');self.replace(path,'3; url='+robot.home,'3; url='+self.home);self.bad('R2')
+
+    def test_multichar_forbidden_words_are_scoped(self):
+        robot=self.add_robot()
+        self.append(robot.home,'<p>耳机</p>');self.append(self.home,'<p>电池</p>');self.good('R4')
+        self.append(robot.home,'<p>电池</p>');self.bad('R4')
+        self.assertEqual({robot.home},{error.page for error in self.check('R4')})
+
+    def test_multichar_global_words_apply_to_every_character(self):
+        robot=self.add_robot();self.good('R4');self.append(robot.home,'<p>本轮</p>');self.bad('R4')
+
+    def test_multichar_r6_requires_each_listed_gate(self):
+        robot=self.add_robot();self.good('R6');self.write('docs/characters/robot/index.md','---\nreleaseReady: true\n---\n');self.bad('R6')
+        self.assertEqual(['docs/characters/robot/index.md'],[e.page for e in self.check('R6')])
+
+    def test_multichar_r9_checks_each_latest_list(self):
+        robot=self.add_robot();self.good('R9');self.replace(robot.home,'装配图','其他图');self.bad('R9')
+        self.good('R9',pages=[self.home])
+
+    def test_multichar_r13_requires_each_own_original(self):
+        robot=self.add_robot();self.good('R13');self.replace(robot.home,self.figure('robot-original-latest',character='robot'),'');self.bad('R13')
+        self.assertEqual([robot.home],[e.page for e in self.check('R13')])
+
+    def test_multichar_r13_rejects_foreign_original_on_another_home(self):
+        robot=self.add_robot();self.good('R13');self.replace(robot.home,self.figure('robot-original-latest',character='robot'),self.figure('bunny-original-latest'));self.bad('R13')
+
+    def test_multichar_r13_rejects_foreign_original_on_another_inner_page(self):
+        robot=self.add_robot();self.good('R13');self.append(robot.home+'body-base',self.figure('bunny-original-latest'));self.bad('R13')
+
+    def test_multichar_r13_rejects_original_on_stub(self):
+        self.add_robot();self.good('R13');self.append(self.stub,self.figure('robot-original-latest',character='robot'));self.bad('R13')
+
+    def test_multichar_r9_rejects_foreign_image_with_same_asset_id(self):
+        robot=self.add_robot();self.good('R9');self.replace(robot.home,'/characters/robot/scene-latest.webp','/characters/bunny/scene-latest.webp');self.bad('R9')
+
+    def test_multichar_r13_rejects_grouped_robot_original(self):
+        robot=self.add_robot();self.good('R13');self.replace(robot.home,self.figure('robot-original-latest',character='robot'),self.figure('robot-original-latest',group='data-lightbox-group="test"',character='robot'));self.bad('R13')
+
+    def test_multichar_r14_checks_each_listed_hero_status(self):
+        robot=self.add_robot();self.good('R14');self.replace(robot.home,'本地审阅版，不是生产发布','资料');self.bad('R14')
+        self.good('R14',pages=[self.home])
+
+    def test_multichar_r12a_uses_each_character_dates(self):
+        robot=self.add_robot();self.good('R12a');self.append(robot.home,'<p>2026-10-29</p>');self.bad('R12a')
+        self.assertEqual([robot.home],[e.page for e in self.check('R12a')])
+
+    def test_multichar_r12a_global_pages_use_union(self):
+        self.add_robot();self.page('/standards/','<p>2026-10-29 与 2026-11-16</p>');self.good('R12a')
+        self.append('/standards/','<p>2026-11-17</p>');self.bad('R12a')
+
+    def test_multichar_unlisted_skips_page_expectations_and_keeps_a1(self):
+        robot=self.add_robot(listed=False)
+        for rule in ('R6','R9','R13','R14','D4','A1','A2'):self.good(rule)
+        self.json(robot.data_dir+'/asset-names.json',{'scene-latest':'场景图'})
+        self.bad('A1')
+
+    def test_multichar_unlisted_keeps_d2(self):
+        robot=self.add_robot(listed=False);self.good('D2')
+        self.json('catalog/robot/data.json',{'text':'原文'})
+        self.json(robot.data_dir+'/display-text.json',{'catalog/robot/data.json':{'不存在':'新文'}});self.bad('D2')
+
+    def test_multichar_discovery_and_listed_rule(self):
+        self.add_robot(listed=False)
+        cfg=SiteConfig(root=self.root,dist=self.dist,baseline_file=self.root/'baseline.json')
+        self.assertIsNone(cfg.character_error)
+        self.assertEqual([('bunny',True),('robot',False)],[(s.id,s.listed) for s in cfg.characters])
+        self.assertEqual([],run_checks(cfg,rules=['R6','R9','R13','R14','D4','A1']))
+
+    def test_multichar_missing_site_check_is_a_data_error(self):
+        robot=self.add_robot(listed=False);(self.root/robot.data_dir/'site-check.json').unlink()
+        cfg=SiteConfig(root=self.root,dist=self.dist)
+        errors=run_checks(cfg,rules=['A1'])
+        self.assertEqual([('A1','data')],[(e.rule,e.page) for e in errors])
+        self.assertIn('site-check.json',errors[0].message)
+
+    def test_multichar_fixed_captions_are_scoped(self):
+        robot=self.add_robot()
+        self.append(self.layer,self.figure('pose-latest','其他图'))
+        self.append(robot.home,self.figure('pose-latest','结构稿',character='robot'));self.good('R11')
+        self.replace(robot.home,'结构稿','其他图');self.bad('R11')
+
+    def test_multichar_page_titles_are_unioned(self):
+        robot=self.add_robot();self.good('D4');self.replace(robot.home,'<h1>Robot</h1>','<h1>其他角色</h1>');self.bad('D4')
+
+    def test_multichar_search_runs_once_per_listed_name(self):
+        from unittest.mock import patch
+        from site_check.rules import Context
+        self.add_robot();self.search_index(self.search_docs())
+        calls=[]
+        original=Context.node
+        def node(context,mode,*args,**kw):
+            if mode=='search':calls.append(args[-1])
+            return original(context,mode,*args,**kw)
+        with patch.object(Context,'node',node):self.good('R16')
+        self.assertEqual(['Bunny','Robot'],calls)
 
     def test_r1_dead_link(self):self.good('R1');self.append(self.layer,'<a href="/gone">失效</a>');self.bad('R1')
     def test_r1_stub_link(self):self.good('R1');self.append(self.layer,f'<a href="{self.stub}">链接</a>');self.bad('R1')
@@ -955,7 +1093,7 @@ class SiteCheckTests(unittest.TestCase):
     def test_r2_removed_page_redirects_target_current_home(self):
         mapping=self.read_json('docs/.vitepress/data/bunny/anchor-map.json')
         for path in ('/characters/bunny/archive','/characters/bunny/downloads'):
-            self.cfg.stubs=(*self.cfg.stubs,path)
+            self.spec.stubs=(*self.spec.stubs,path)
             mapping['stubs'][path]={'target':self.home}
             self.page(path,f'<p data-redirect-stub><a href="{self.home}">Bunny</a></p>',head=f'<meta http-equiv="refresh" content="3; url={self.home}">')
         self.json('docs/.vitepress/data/bunny/anchor-map.json',mapping)
