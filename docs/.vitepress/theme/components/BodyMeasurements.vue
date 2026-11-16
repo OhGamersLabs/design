@@ -3,20 +3,22 @@ import { computed, ref } from 'vue'
 import { withBase } from 'vitepress'
 import ReleaseImage from './ReleaseImage.vue'
 import { bodyCanvasSize, formatNumber } from './body-measurements.mjs'
-import { data as siteData } from '../../data/bunny-site.data.mjs'
-import { bodyMeasurementScope, createDisplayTextLookup, selectMeasurementSource } from '../bunny-site.mjs'
+import { useCharacter } from '../use-character'
+import { bodyMeasurementScope, createDisplayTextLookup, selectMeasurementSource } from '../character-site.mjs'
 
+const siteData = useCharacter()
 const props = defineProps({
   data: { type: Object, required: true },
   scope: { type: String, default: 'current' },
 })
-const display = createDisplayTextLookup(siteData.displayText)
-const scoped = computed(() => bodyMeasurementScope(props.data, siteData.assets, props.scope))
+const lookup = computed(() => createDisplayTextLookup(siteData.value.displayText))
+const display = (value) => lookup.value(value)
+const scoped = computed(() => bodyMeasurementScope(props.data, siteData.value.assets, siteData.value.id, props.scope))
 const selected = ref('')
 const views = computed(() => scoped.value.models)
 const current = computed(() => selectMeasurementSource(views.value, selected.value, scoped.value.defaultSourceId))
 function viewLabel(id) {
-  const label = siteData.displayText['@labels'][`body.${id}`]
+  const label = siteData.value.displayText['@labels'][`body.${id}`]
   if (!label) throw new Error(`Missing body view label: ${id}`)
   return label
 }

@@ -23,7 +23,7 @@ function fixture() {
 }
 
 test('uniform registration and h0 ratios are invariant to whole-image scale and translation', () => {
-  const first = fixture(); const original = garmentModel(first, 'front')
+  const first = fixture(); const original = garmentModel(first, 'front', 'bunny')
   assert.equal(original.registration.scale, 2)
   assert.deepEqual(original.registration.translation, [0, 0])
   assert.equal(original.rows[0].normalized, 200 / 225)
@@ -31,14 +31,14 @@ test('uniform registration and h0 ratios are invariant to whole-image scale and 
   const transform = (p) => p.map((v) => v * 0.75 + 100)
   src.registration.anchors.forEach((a) => { a.source = transform(a.source); a.sourceTolerancePx *= 0.75 })
   src.measurements.forEach((m) => { m.points = m.points.map(transform); m.tolerancePx = m.tolerancePx.map((v) => v * 0.75) })
-  const changed = garmentModel(second, 'front')
+  const changed = garmentModel(second, 'front', 'bunny')
   assert.ok(Math.abs(changed.rows[0].normalized - original.rows[0].normalized) < 1e-10)
   assert.equal(changed.rows[0].status, 'pass')
 })
 
 test('head-only anchor clusters remain limited despite zero residuals', () => {
   const data = fixture(); data.sources.front.registration.anchors.forEach((a) => { a.region = 'head' })
-  const model = garmentModel(data, 'front')
+  const model = garmentModel(data, 'front', 'bunny')
   assert.equal(model.registration.rms, 0)
   assert.equal(model.registration.status, 'limited')
   assert.equal(model.rows[0].status, 'uncertain')
@@ -46,7 +46,7 @@ test('head-only anchor clusters remain limited despite zero residuals', () => {
 
 test('each anchor uses its own semantic tolerance; a large mismatch cannot be hidden in aggregate RMS', () => {
   const data = fixture(); data.sources.front.registration.anchors[1].reference[0] += 40
-  const model = garmentModel(data, 'front')
+  const model = garmentModel(data, 'front', 'bunny')
   assert.equal(model.registration.status, 'failed')
   assert.ok(model.registration.anchors.some((a) => a.withinTolerance === false))
   assert.equal(model.rows[0].status, 'uncertain')
@@ -59,39 +59,39 @@ test('missing or coincident anchors never create a fabricated scale', () => {
 
 test('an occluded endpoint stays unmeasured and cannot silently carry invented points', () => {
   const data = fixture(); data.sources.front.measurements[0] = { metricId: 'length', visibility: 'occluded', reason: '袖子遮挡下缘' }
-  const row = garmentModel(data, 'front').rows[0]
+  const row = garmentModel(data, 'front', 'bunny').rows[0]
   assert.equal(row.px, null); assert.equal(row.normalized, null); assert.equal(row.status, 'occluded')
-  const svg = renderGarmentSvg(data, 'front', '/characters/source.webp')
+  const svg = renderGarmentSvg(data, 'front', '/characters/source.webp', 'bunny')
   assert.doesNotMatch(svg, /data-measurement="length"/)
   data.sources.front.measurements[0].points = [[200, 200], [200, 300]]
-  assert.throws(() => garmentModel(data, 'front'), /Hidden garment endpoint/)
+  assert.throws(() => garmentModel(data, 'front', 'bunny'), /Hidden garment endpoint/)
 })
 
 test('tolerance and registration scale intervals distinguish pass, clear fail and boundary uncertainty', () => {
   const data = fixture()
-  assert.equal(garmentModel(data, 'front').rows[0].status, 'pass')
+  assert.equal(garmentModel(data, 'front', 'bunny').rows[0].status, 'pass')
   data.targets.front.length = { min: 1.1, max: 1.2, unit: 'h0', status: 'accepted' }
-  assert.equal(garmentModel(data, 'front').rows[0].status, 'fail')
+  assert.equal(garmentModel(data, 'front', 'bunny').rows[0].status, 'fail')
   data.targets.front.length = { min: 0.89, max: 0.95, unit: 'h0', status: 'accepted' }
-  assert.equal(garmentModel(data, 'front').rows[0].status, 'uncertain')
+  assert.equal(garmentModel(data, 'front', 'bunny').rows[0].status, 'uncertain')
   data.targets.front.length.status = 'proposed'
-  assert.equal(garmentModel(data, 'front').rows[0].status, 'unrated')
+  assert.equal(garmentModel(data, 'front', 'bunny').rows[0].status, 'unrated')
 })
 
 test('a minimum clearance has no invented upper limit and still propagates uncertainty at its boundary', () => {
   const data = fixture(); data.targets.front.length = { min: 0.3, max: null, unit: 'h0', status: 'accepted' }
-  let row = garmentModel(data, 'front').rows[0]
+  let row = garmentModel(data, 'front', 'bunny').rows[0]
   assert.equal(row.status, 'pass'); assert.equal(row.targetText, '≥ 0.3 h₀')
   data.targets.front.length.min = 0.89
-  row = garmentModel(data, 'front').rows[0]; assert.equal(row.status, 'uncertain')
+  row = garmentModel(data, 'front', 'bunny').rows[0]; assert.equal(row.status, 'uncertain')
   data.targets.front.length.min = 1.1
-  assert.equal(garmentModel(data, 'front').rows[0].status, 'fail')
+  assert.equal(garmentModel(data, 'front', 'bunny').rows[0].status, 'fail')
 })
 
 test('reference positions report a nominal reading without creating an automatic acceptance interval', () => {
   const data = fixture(); delete data.targets.front.length
   data.referencePositions = { front: { length: { nominal: 0.9, status: 'reference-only' } } }
-  const row = garmentModel(data, 'front').rows[0]
+  const row = garmentModel(data, 'front', 'bunny').rows[0]
   assert.equal(row.target, null); assert.equal(row.status, 'unrated')
   assert.equal(row.statusLabel, '参照读数'); assert.equal(row.targetText, '参照 0.9 h₀')
   assert.ok(row.interval)
@@ -99,7 +99,7 @@ test('reference positions report a nominal reading without creating an automatic
 
 test('signed same-station hem differences preserve sign rather than becoming an absolute garment length', () => {
   const data = fixture(); data.sources.front.measurements[1].points = [[210, 301], [210, 300]]
-  const row = garmentModel(data, 'front').rows[1]
+  const row = garmentModel(data, 'front', 'bunny').rows[1]
   assert.equal(row.px, -1); assert.equal(row.normalized, -2 / 225)
   assert.ok(row.interval[0] < 0)
 })
@@ -112,55 +112,55 @@ test('a covered hem remains occluded while its cross-image reference estimate ke
   data.sources.front.measurements[0].points[1][1] = 310
   data.sources.front.measurements[1] = { metricId: 'gap', visibility: 'occluded', reason: '白衣下缘已覆盖' }
   data.sources.front.referenceDerivedMetrics = [{ metricId: 'gap', current: { metricId: 'length', endpoint: 1 }, reference: { sourceId: 'inner', metricId: 'length', endpoint: 1, sha256: 'a'.repeat(64) }, observedCoverage: 'covered' }]
-  const model = garmentModel(data, 'front')
+  const model = garmentModel(data, 'front', 'bunny')
   assert.equal(model.rows[1].status, 'occluded'); assert.equal(model.rows[1].normalized, null)
   const estimate = model.derived[0]
   assert.equal(estimate.normalized, 20 / 225)
   assert.equal(estimate.status, 'limited'); assert.equal(estimate.evidenceKind, 'reference-derived')
   assert.ok(estimate.interval[0] < estimate.normalized && estimate.interval[1] > estimate.normalized)
   assert.ok((estimate.interval[1] - estimate.interval[0]) * 225 > 8)
-  const svg = renderGarmentSvg(data, 'front', '/characters/source.webp')
+  const svg = renderGarmentSvg(data, 'front', '/characters/source.webp', 'bunny')
   assert.doesNotMatch(svg, /data-measurement="gap"/)
   assert.match(svg, /基准推算（非同图实测）/)
   delete data.targets.front.gap
-  assert.equal(garmentModel(data, 'front').derived[0].indication, 'reference')
+  assert.equal(garmentModel(data, 'front', 'bunny').derived[0].indication, 'reference')
   data.sources.inner.measurements[0].points[1][0] += 30
-  const mismatched = garmentModel(data, 'front').derived[0]
+  const mismatched = garmentModel(data, 'front', 'bunny').derived[0]
   assert.equal(mismatched.stationMatched, false)
   assert.equal(mismatched.normalized, null); assert.equal(mismatched.interval, null)
   assert.equal(mismatched.indicationLabel, '横向站位未匹配')
   data.sources.front.referenceDerivedMetrics[0].reference.sha256 = 'b'.repeat(64)
-  assert.throws(() => garmentModel(data, 'front'), /exact same-view source/)
+  assert.throws(() => garmentModel(data, 'front', 'bunny'), /exact same-view source/)
 })
 
 test('side targets are independent and widths cannot use endpoints at different image heights', () => {
   const data = fixture(); data.sources.front.view = 'side'
-  assert.equal(garmentModel(data, 'front').rows[0].status, 'unrated')
+  assert.equal(garmentModel(data, 'front', 'bunny').rows[0].status, 'unrated')
   data.sources.front.measurements[0].axis = 'x'
-  assert.throws(() => garmentModel(data, 'front'), /exact image section/)
+  assert.throws(() => garmentModel(data, 'front', 'bunny'), /exact image section/)
 })
 
 test('self-contained SVG preserves the source image area and does not add marks for hidden dimensions', () => {
-  const data = fixture(); const online = renderGarmentSvg(data, 'front', '/characters/source.webp'); const href = 'data:image/webp;base64,dGVzdA=='
-  assert.equal(online.replace('/characters/source.webp', href), renderGarmentSvg(data, 'front', href))
+  const data = fixture(); const online = renderGarmentSvg(data, 'front', '/characters/source.webp', 'bunny'); const href = 'data:image/webp;base64,dGVzdA=='
+  assert.equal(online.replace('/characters/source.webp', href), renderGarmentSvg(data, 'front', href, 'bunny'))
   assert.match(online, /x="0" y="0" width="1024" height="1536" preserveAspectRatio="xMidYMid meet"/)
-  const canvas = garmentCanvasSize(garmentModel(data, 'front'))
+  const canvas = garmentCanvasSize(garmentModel(data, 'front', 'bunny'))
   assert.match(online, new RegExp(`viewBox="0 -100 ${canvas.width} ${canvas.height}" width="${canvas.width}" height="${canvas.height}"`))
   assert.doesNotMatch(online, /NaN|undefined|<script/)
-  assert.throws(() => renderGarmentSvg(data, 'front', 'javascript:alert(1)'), /Unsupported/)
+  assert.throws(() => renderGarmentSvg(data, 'front', 'javascript:alert(1)', 'bunny'), /Unsupported/)
   data.sources.front.resources.web = '/characters/bunny/../outside.webp'
-  assert.throws(() => garmentModel(data, 'front'), /Invalid garment resource/)
+  assert.throws(() => garmentModel(data, 'front', 'bunny'), /Invalid garment resource/)
 })
 
 test('4K garment rulers scale annotation layout and reserved canvas without scaling native endpoints', () => {
   const data = fixture()
-  const original = garmentCanvasSize(garmentModel(data, 'front'))
+  const original = garmentCanvasSize(garmentModel(data, 'front', 'bunny'))
   data.sources.front.source = { width: 2352, height: 3520 }
   data.sources.front.measurements[0].points = [[961, 708], [976, 1153]]
   const scale = 3520 / 1536
-  const model = garmentModel(data, 'front')
+  const model = garmentModel(data, 'front', 'bunny')
   const canvas = garmentCanvasSize(model)
-  const svg = renderGarmentSvg(data, 'front', '/characters/source.webp')
+  const svg = renderGarmentSvg(data, 'front', '/characters/source.webp', 'bunny')
   assert.equal(model.rows[0].px, 445)
   assert.match(svg, /cx="961" cy="708"/)
   assert.match(svg, /cx="976" cy="1153"/)
@@ -171,7 +171,7 @@ test('4K garment rulers scale annotation layout and reserved canvas without scal
   assert.ok(svg.includes(`width="2352" height="3520" preserveAspectRatio="xMidYMid meet"`))
   assert.doesNotMatch(svg, /-?\d+\.\d{4,}/)
   assert.equal(canvas.height, Number((original.height * scale).toFixed(3)))
-  assert.equal(svg.replace('/characters/source.webp', 'data:image/webp;base64,dGVzdA=='), renderGarmentSvg(data, 'front', 'data:image/webp;base64,dGVzdA=='))
+  assert.equal(svg.replace('/characters/source.webp', 'data:image/webp;base64,dGVzdA=='), renderGarmentSvg(data, 'front', 'data:image/webp;base64,dGVzdA==', 'bunny'))
 })
 
 test('builder binds artwork and body hashes, embeds exact web bytes and detects stale annotation exports', async (t) => {

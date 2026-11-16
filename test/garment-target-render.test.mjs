@@ -5,8 +5,9 @@ import { parse as parseSfc, compileScript, babelParse } from 'vue/compiler-sfc'
 import { parse as parseHtml } from '@vue/compiler-dom'
 import * as vue from 'vue'
 import * as serverRenderer from 'vue/server-renderer'
-import siteLoader from '../docs/.vitepress/data/bunny-site.data.mjs'
-import * as siteHelpers from '../docs/.vitepress/theme/bunny-site.mjs'
+import { characterContext } from './helpers/character-context.mjs'
+import siteLoader from '../docs/.vitepress/data/site.data.mjs'
+import * as siteHelpers from '../docs/.vitepress/theme/character-site.mjs'
 import * as garmentHelpers from '../docs/.vitepress/theme/components/garment-measurements.mjs'
 
 const filename = new URL('../docs/.vitepress/theme/components/GarmentMeasurements.vue', import.meta.url)
@@ -20,12 +21,13 @@ const compiled = compileScript(descriptor, {
 // Compile the actual SFC, with its complete template and setup. Only the image
 // child and URL base need stand-ins; all data/model/formatting code runs as used
 // by the page, with the real Vue SSR runtime and site loader.
+const context = await characterContext(await siteLoader.load(), 'characters/bunny/dimensions.md')
 const modules = {
   vue, 'vue/server-renderer': serverRenderer,
-  vitepress: { withBase: (value) => value },
+  vitepress: context.vitepress,
   './ReleaseImage.vue': { default: { render: () => null } },
-  '../../data/bunny-site.data.mjs': { data: await siteLoader.load() },
-  '../bunny-site.mjs': siteHelpers,
+  '../use-character': context.composable,
+  '../character-site.mjs': siteHelpers,
   './garment-measurements.mjs': garmentHelpers,
 }
 let executable = compiled

@@ -1,22 +1,25 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { data } from '../../data/bunny-site.data.mjs'
-import { assetById } from '../bunny-site.mjs'
+import { useCharacter } from '../use-character'
+import { assetById } from '../character-site.mjs'
 import ReleaseImage from './ReleaseImage.vue'
 
 const props = withDefaults(defineProps<{
   id: string
+  character?: string
   caption?: string
   detail?: string
   group?: string
   useThumb?: boolean
 }>(), { useThumb: false })
 
+const data = useCharacter(() => props.character)
 const asset = computed(() => {
-  if (props.id === 'bunny-original-latest' && props.group !== undefined) {
-    throw new Error('bunny-original-latest cannot join a lightbox group')
+  const result = assetById(data.value.assets, props.id)
+  if (result.collection === 'origins' && props.group !== undefined) {
+    throw new Error(`${props.id} cannot join a lightbox group`)
   }
-  return assetById(data.assets, props.id)
+  return result
 })
 </script>
 

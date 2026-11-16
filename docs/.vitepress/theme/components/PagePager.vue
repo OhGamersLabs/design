@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useData, withBase } from 'vitepress'
-import { readingNeighbors } from '../bunny-site.mjs'
+import { useCharacter } from '../use-character'
+import { readingNeighbors } from '../character-site.mjs'
 
 const { page } = useData()
-const neighbors = computed(() => readingNeighbors(`/${page.value.relativePath.replace(/\.md$/, '').replace(/(^|\/)index$/, '$1')}`))
+const data = useCharacter()
+const neighbors = computed(() => readingNeighbors(data.value.readingOrder, `/${page.value.relativePath.replace(/\.md$/, '').replace(/(^|\/)index$/, '$1')}`))
 </script>
 
 <template>

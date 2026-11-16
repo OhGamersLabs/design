@@ -1,6 +1,6 @@
 ---
-layout: BunnyPage
-bunny: stub
+layout: CharacterPage
+pageType: stub
 search: false
 sidebar: false
 aside: false

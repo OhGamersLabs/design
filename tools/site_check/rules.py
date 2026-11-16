@@ -10,7 +10,7 @@ from urllib.parse import unquote, urlsplit
 
 from PIL import Image
 
-from .config import (RULE_IDS, PROCESS_WORDS, CANCELLED_NAMES, EDITORIAL_CLAIMS,
+from .config import (RULE_IDS, PROCESS_WORDS, EDITORIAL_CLAIMS,
                      DIRECTION_EXCEPTIONS, PURPLES)
 from .htmlscan import HIDDEN, Node, clean_text, load_pages, normalize_path, resolve_url
 
@@ -27,6 +27,9 @@ class UsageError(ValueError):pass
 class Context:
     def __init__(self,cfg,pages,pending):
         self.cfg=cfg
+        self.characters=cfg.characters
+        self.listed=sorted((spec for spec in self.characters if spec.listed),key=lambda spec:(spec.order,spec.id))
+        self.stubs={path for spec in self.listed for path in spec.stubs}
         self.pages=load_pages(cfg.dist)
         def requested(paths):
             result=set()
@@ -41,8 +44,8 @@ class Context:
         self.cache={}
     def wanted(self,path):return self.selected is None or path in self.selected
     def scanned(self):return [p for path,p in self.pages.items() if self.wanted(path)]
-    def current(self,page):return page.path not in self.cfg.stubs
-    def nonstubs(self):return [p for p in self.scanned() if p.path not in self.cfg.stubs]
+    def current(self,page):return page.path not in self.stubs
+    def nonstubs(self):return [p for p in self.scanned() if p.path not in self.stubs]
     def read(self,path):
         path=Path(path)
         if not path.is_absolute():path=self.cfg.root/path
@@ -51,7 +54,21 @@ class Context:
             except (OSError,UnicodeError,json.JSONDecodeError) as exc:
                 raise DataError(f'cannot read {path}: {exc}') from exc
         return self.cache[path]
-    def data(self,name):return self.read(Path(self.cfg.data_dir)/name)
+    def data(self,spec,name):return self.read(Path(spec.data_dir)/name)
+    def character(self,path):
+        return next((spec for spec in self.characters if path.startswith(spec.home)),None)
+    def mapping(self):
+        result={'anchors':{},'stubs':{}};keys=set()
+        for spec in self.characters:
+            source=self.data(spec,'anchor-map.json')
+            for kind in result:
+                for key,value in source.get(kind,{}).items():
+                    if key in keys:raise DataError('duplicate anchor map key: '+key)
+                    keys.add(key);result[kind][key]=value
+        return result
+    def expected(self,path):
+        spec=self.character(path)
+        return spec is None or spec.listed
     def manifest_paths(self):
         paths=self.cfg.manifests
         if paths is None:paths=tuple(sorted((self.cfg.root/'catalog').glob('*/manifest.json')))
@@ -59,7 +76,9 @@ class Context:
         return paths
     def assets(self):
         return [a for path in self.manifest_paths() for a in self.read(path)['assets']]
-    def indexed_assets(self):return {a['id']:a for a in self.assets()}
+    def character_assets(self,spec):
+        return [asset for path in self.manifest_paths() for asset in self.read(path)['assets']
+                if Path(path).parent.name==spec.id or Path(path).parent.name=='origins' and asset['id']==spec.id+'-original-latest']
     def local_file(self,path):
         path=unquote(urlsplit(path).path)
         if path.startswith('/media/'):return self.cfg.root/'.release'/path[len('/media/'):]
@@ -69,7 +88,7 @@ class Context:
         resolved=resolve_url(url,source)
         if resolved is None:return None
         path,anchor=resolved
-        if not allow_stub and path in self.cfg.stubs:return f'target is redirect stub: {url}'
+        if not allow_stub and path in self.stubs:return f'target is redirect stub: {url}'
         if path.startswith('/media/'):
             releases=self.read(self.cfg.releases_file)
             return None if path in {a['path'] for a in releases['assets']} else f'media path missing from release catalog: {url}'
@@ -164,15 +183,15 @@ def r1(c):
 
 
 def r2(c):
-    baseline=c.read(c.cfg.baseline_file); mapping=c.data('anchor-map.json')
+    baseline=c.read(c.cfg.baseline_file); mapping=c.mapping()
     anchors=mapping.get('anchors',{});stubs=mapping.get('stubs',{})
     known={path+'#'+anchor for path,ids in baseline.items() for anchor in ids}
     errors=[]
     for key in anchors:
         source=key.split('#',1)[0]
-        if c.wanted(source) and key not in known:errors.append(fail('R2',source,'mapping key is outside baseline: '+key))
+        if c.wanted(source) and c.expected(source) and key not in known:errors.append(fail('R2',source,'mapping key is outside baseline: '+key))
     for path,ids in baseline.items():
-        if not c.wanted(path):continue
+        if not c.wanted(path) or not c.expected(path):continue
         page=c.pages.get(path)
         if page is None:errors.append(fail('R2',path,'old URL is missing'))
         for anchor in ids:
@@ -181,7 +200,7 @@ def r2(c):
             if key not in anchors:errors.append(fail('R2',path,'old anchor has no mapping: '+anchor));continue
             problem=c.mapping_problem(anchors[key],path)
             if problem:errors.append(fail('R2',path,problem))
-    for path in c.cfg.stubs:
+    for path in c.stubs:
         if not c.wanted(path):continue
         p=c.pages.get(path); expected=stubs.get(path,{}).get('target')
         if p is None or not expected:errors.append(fail('R2',path,'stub page or mapping is missing'));continue
@@ -224,19 +243,24 @@ def r4(c):
     for p in c.scanned():
         if not c.current(p):continue
         value=clean_text(p.visible_text()).replace('抗锯齿','')
-        for word in PROCESS_WORDS+CANCELLED_NAMES+EDITORIAL_CLAIMS:
+        spec=c.character(p.path)
+        forbidden=spec.forbidden_words if spec else ()
+        for word in PROCESS_WORDS+forbidden+EDITORIAL_CLAIMS:
             if word in value:errors.append(fail('R4',p.path,'forbidden wording: '+word))
         if p.body.find('details'):errors.append(fail('R4',p.path,'details element on current page'))
     return errors
 
 
 def r6(c):
-    file=c.cfg.root/'docs/characters/bunny/index.md'
-    try:source=file.read_text(encoding='utf-8')
-    except OSError as exc:raise DataError(str(exc)) from exc
-    fm=re.match(r'\A(?:\ufeff)?---\s*\n(.*?)\n---(?:\s*\n|$)',source,re.S)
-    count=len(re.findall(r'^releaseReady:\s*false\s*(?:#.*)?$',fm[1],re.M)) if fm else 0
-    return [] if count==1 else [fail('R6',str(file.relative_to(c.cfg.root)),f'frontmatter releaseReady: false occurs {count} times')]
+    errors=[]
+    for spec in c.listed:
+        file=c.cfg.root/'docs/characters'/spec.id/'index.md'
+        try:source=file.read_text(encoding='utf-8')
+        except OSError as exc:raise DataError(str(exc)) from exc
+        fm=re.match(r'\A(?:\ufeff)?---\s*\n(.*?)\n---(?:\s*\n|$)',source,re.S)
+        count=len(re.findall(r'^releaseReady:\s*false\s*(?:#.*)?$',fm[1],re.M)) if fm else 0
+        if count!=1:errors.append(fail('R6',str(file.relative_to(c.cfg.root)),f'frontmatter releaseReady: false occurs {count} times'))
+    return errors
 
 
 def r7(c):
@@ -266,6 +290,8 @@ def r7b(c):
             fig=figure_for(node)
             asset=c.asset_for_url(url,p.path)
             if not asset:continue
+            card=node.ancestor(lambda n:n.tag=='a' and n.has_class('character-card'))
+            if node.tag=='img' and card is not None and card.attrs.get('data-asset-id')==asset['id']:continue
             key=(fig or node,asset['id'])
             if key in seen:continue
             seen.add(key)
@@ -301,19 +327,26 @@ def r8(c):
 
 
 def r9(c):
-    if not c.wanted(c.cfg.home):return []
-    p=c.pages.get(c.cfg.home)
-    if p is None:return [fail('R9',c.cfg.home,'home page missing')]
+    return [error for spec in c.listed for error in latest_for(c,spec)]
+
+
+def latest_for(c,spec):
+    if not c.wanted(spec.home):return []
+    p=c.pages.get(spec.home)
+    if p is None:return [fail('R9',spec.home,'home page missing')]
     latest=p.body.find('ol','data-latest');actual=[];errors=[]
     c.assets()
     if len(latest)==1:
         for item in (n for n in latest[0].children if isinstance(n,Node) and n.tag=='li'):
             dates=item.find('time');titles=item.find(attr='data-latest-title')
-            image_ids={asset['id'] for node,url in refs(type('Part',(),{'body':item})()) if node.tag!='a' and (asset:=c.asset_for_url(url,p.path))}
-            if image_ids!={item.attrs.get('data-asset-id')}:errors.append(fail('R9',p.path,'latest image must match its declared asset id'))
+            images=[asset for node,url in refs(type('Part',(),{'body':item})()) if node.tag!='a' and (asset:=c.asset_for_url(url,p.path))]
+            image_ids={asset['id'] for asset in images}
+            declared=item.attrs.get('data-asset-id')
+            expected_paths={asset['web']['path'] for asset in c.character_assets(spec) if asset['id']==declared}
+            if image_ids!={declared} or {asset['web']['path'] for asset in images}!=expected_paths:errors.append(fail('R9',p.path,'latest image must match its declared asset id'))
             actual.append((dates[0].attrs.get('datetime') if dates else None,titles[0].text().strip() if titles else None,item.attrs.get('data-asset-id')))
             if len(dates)!=1 or dates[0].text().strip()!=dates[0].attrs.get('datetime'):errors.append(fail('R9',p.path,'latest date text and datetime must agree'))
-    if actual!=list(c.cfg.latest):errors.append(fail('R9',p.path,'latest dates, titles, assets or order differ from expected four entries'))
+    if actual!=list(spec.latest):errors.append(fail('R9',p.path,'latest dates, titles, assets or order differ from home.json highlights'))
     if len({x[2] for x in actual})!=len(actual):errors.append(fail('R9',p.path,'latest asset is repeated'))
     return errors
 
@@ -334,8 +367,10 @@ def r10(c):
 
 
 def r11(c):
-    errors=[];fixed='SUN-05 人体结构稿，手中为占位杆'
+    errors=[]
     for p in c.nonstubs():
+        spec=c.character(p.path)
+        fixed=spec.fixed_captions if spec else {}
         current=c.current(p)
         if current:
             nodes=[n for n in p.body.walk() if n.tag in ('figcaption','img','h1','h2','h3','h4','button') or n.attrs.get('role')=='tab']
@@ -356,7 +391,7 @@ def r11(c):
             if own_caps:
                 strong=[n for n in own_caps[0].find('strong') if figure_for(n) is fig]
                 own_caption=(strong[0] if strong else own_caps[0]).text(skip=HIDDEN|{'figure'}).strip()
-            if aid=='sun05-pose-structure-latest' and own_caption!=fixed:errors.append(fail('R11',p.path,'SUN-05 structure caption differs from required wording'))
+            if aid in fixed and own_caption!=fixed[aid]:errors.append(fail('R11',p.path,'fixed caption differs: '+aid))
             if current and 'front' in aid:
                 value=' '.join(n.text(skip=HIDDEN|{'figure'}) for n in own_caps)+' '.join(n.attrs.get('alt','') for n in own_images)
                 if '后腰' in value or '交叉携行' in value:errors.append(fail('R11',p.path,'front image caption/alt describes rear carry'))
@@ -370,7 +405,9 @@ def r12a(c):
         value=regex_text(p.body)
         if re.search(r'#[0-9a-fA-F]{3,8}(?![A-Za-z0-9_])',value):errors.append(fail('R12a',p.path,'visible color value'))
         if re.search(r'[0-9０-９]+(?:\.[0-9０-９]+)?\s*(?:cm|厘米|公分|mm|毫米)',re.sub(r'厘米身高\s*未设定','',value)):errors.append(fail('R12a',p.path,'visible centimeter/millimeter number'))
-        for date in sorted(set(re.findall(r'[0-9]{4}-[0-9]{2}-[0-9]{2}',value))-set(c.cfg.allowed_dates)):errors.append(fail('R12a',p.path,'date is outside allowed set: '+date))
+        spec=c.character(p.path)
+        allowed=set(spec.allowed_dates) if spec else {date for character in c.characters for date in character.allowed_dates}
+        for date in sorted(set(re.findall(r'[0-9]{4}-[0-9]{2}-[0-9]{2}',value))-allowed):errors.append(fail('R12a',p.path,'date is outside allowed set: '+date))
         if c.node('emoji',text=value):errors.append(fail('R12a',p.path,'visible emoji'))
     return errors
 
@@ -386,30 +423,42 @@ def r12b(c):
 
 def r13(c):
     errors=[]
-    for p in c.nonstubs():
+    origins={a['id'] for a in c.assets() if a.get('web',{}).get('path','').startswith('/characters/origins/')}
+    homes={spec.home:spec for spec in c.listed}
+    for p in c.scanned():
         occurrences={}
+        def add(owner,aid):
+            key=id(owner)
+            if key not in occurrences:occurrences[key]=(owner,set())
+            occurrences[key][1].add(aid)
         for fig in p.body.find('figure'):
-            if fig.attrs.get('data-asset-id')=='bunny-original-latest':occurrences[id(fig)]=fig
+            aid=fig.attrs.get('data-asset-id')
+            if aid in origins:add(fig,aid)
         for node,url in refs(p):
             if node.tag=='a':continue
             resolved=resolve_url(url,p.path)
-            if resolved and re.search(r'/bunny-original-latest\.(?:webp|png)$',resolved[0]):
-                owner=figure_for(node) or node
-                occurrences[id(owner)]=owner
-        expected=1 if p.path==c.cfg.home else 0
-        if len(occurrences)!=expected:errors.append(fail('R13',p.path,f'original figure count must be {expected}, got {len(occurrences)}'))
-        for owner in occurrences.values():
+            if resolved and re.match(r'^/(?:characters|media|site/thumbs)/origins/[^/]+\.(?:webp|png)$',resolved[0]):
+                add(figure_for(node) or node,Path(resolved[0]).stem)
+        spec=homes.get(p.path)
+        expected=1 if spec else 0
+        actual=len(occurrences)
+        if spec and actual==1 and any(aids!={spec.id+'-original-latest'} for _,aids in occurrences.values()):actual=0
+        if actual!=expected:errors.append(fail('R13',p.path,f'original figure count must be {expected}, got {actual}'))
+        for owner,_ in occurrences.values():
             if owner.find(attr='data-lightbox-group') or owner.ancestor(lambda n:'data-lightbox-group' in n.attrs):errors.append(fail('R13',p.path,'original must not belong to lightbox group'))
-    if c.wanted(c.cfg.home) and c.cfg.home not in c.pages:errors.append(fail('R13',c.cfg.home,'home page missing'))
+    for home in homes:
+        if c.wanted(home) and home not in c.pages:errors.append(fail('R13',home,'home page missing'))
     return errors
 
 
 def r14(c):
-    if not c.wanted(c.cfg.home):return []
-    p=c.pages.get(c.cfg.home)
-    nodes=[n for hero in p.body.find(attr='data-hero') for n in hero.find(attr='data-hero-status')] if p else []
-    if not any(n.text().strip()=='本地审阅版，不是生产发布' for n in nodes):return [fail('R14',c.cfg.home,'hero status must say 本地审阅版，不是生产发布')]
-    return []
+    errors=[]
+    for spec in c.listed:
+        if not c.wanted(spec.home):continue
+        p=c.pages.get(spec.home)
+        nodes=[n for hero in p.body.find(attr='data-hero') for n in hero.find(attr='data-hero-status')] if p else []
+        if not any(n.text().strip()=='本地审阅版，不是生产发布' for n in nodes):errors.append(fail('R14',spec.home,'hero status must say 本地审阅版，不是生产发布'))
+    return errors
 
 
 REMOTE=r'(?:https?:)?//[^\s\'"`<>),]+'
@@ -525,24 +574,65 @@ def r15(c):
 def r16(c):
     files=sorted((c.cfg.dist/'assets/chunks').glob('@localSearchIndexroot.*.js'))
     if len(files)!=1:return [fail('R16','search',f'expected one local search index, found {len(files)}')]
-    result=c.node('search',files[0],'Bunny');errors=[]
-    for document in result['documentIds']:
+    results=[c.node('search',files[0],spec.name) for spec in c.listed];errors=[]
+    for document in sorted({document for result in results for document in result['documentIds']}):
         path=normalize_path(urlsplit(document).path)
-        if path in c.cfg.stubs:errors.append(fail('R16',path,'redirect stub is in local search index'))
+        if path in c.stubs:errors.append(fail('R16',path,'redirect stub is in local search index'))
         elif path not in c.pages:errors.append(fail('R16',path,'search document targets a missing page'))
+    return errors
+
+
+def r17(c):
+    """The home cards and native flyout share the listed character roster."""
+    errors=[]
+    if c.wanted('/'):
+        home=c.pages.get('/')
+        grids=[node for node in home.body.walk() if node.has_class('character-grid')] if home else []
+        if len(grids)!=1:
+            errors.append(fail('R17','/','expected exactly one character-grid'))
+        else:
+            cards=[node for node in grids[0].find('a') if node.has_class('character-card')]
+            if len(cards)!=len(c.listed):errors.append(fail('R17','/','card count differs from listed characters'))
+            for card,spec in zip(cards,c.listed):
+                if (card.attrs.get('href'),card.attrs.get('data-character-id'),card.attrs.get('data-asset-id'))!=(spec.home,spec.id,spec.portrait):
+                    errors.append(fail('R17','/','card identity, link or order differs: '+spec.id))
+                images=card.find('img')
+                if len(images)!=1 or tuple(images[0].attrs.get(key) for key in ('src','width','height','alt'))!=(spec.portrait_path,str(spec.portrait_width),str(spec.portrait_height),''):
+                    errors.append(fail('R17','/','card thumbnail differs: '+spec.id))
+                for classname,expected in (('character-card__name',spec.name),('character-card__role',spec.role)):
+                    nodes=[node for node in card.walk() if node.has_class(classname)]
+                    if len(nodes)!=1 or nodes[0].text().strip()!=expected:errors.append(fail('R17','/','card '+classname+' differs: '+spec.id))
+                dates=card.find('time')
+                if len(dates)!=1 or dates[0].attrs.get('datetime')!=spec.updated or dates[0].text().strip()!=spec.updated:
+                    errors.append(fail('R17','/','card date differs: '+spec.id))
+    for page in c.scanned():
+        for nav in (node for node in page.body.find('nav') if node.has_class('VPNavBarMenu')):
+            flyouts=[node for node in nav.walk() if node.has_class('VPFlyout') and any(button.text().strip()=='角色' for button in node.find('button'))]
+            if len(flyouts)!=(1 if c.listed else 0):
+                errors.append(fail('R17',page.path,'角色 flyout count differs from listed characters'))
+            elif flyouts:
+                links=[(node.attrs['href'],node.text().strip()) for node in flyouts[0].find('a','href')]
+                if links!=[(spec.home,spec.name) for spec in c.listed]:errors.append(fail('R17',page.path,'角色 menu links or order differ from listed characters'))
+    listed_ids={spec.id for spec in c.listed}
+    for page in c.pages.values():
+        for node in page.root.find('a','href'):
+            resolved=resolve_url(node.attrs['href'],page.path)
+            match=re.match(r'^/characters/([^/]+)/',resolved[0]) if resolved else None
+            if match and match[1] not in listed_ids:
+                errors.append(fail('R17',page.path,'link to unlisted character: '+node.attrs['href']))
     return errors
 
 
 def a1(c):
     """Validate replaceable assets against manifests, never a frozen image table."""
-    errors=[];webs={};identities=set();ids=set()
+    errors=[];webs={};identities=set();ids={}
     for manifest_path in c.manifest_paths():
         manifest=c.read(manifest_path)
         character=Path(manifest_path).parent.name
         for asset in manifest['assets']:
             aid=asset['id'];identity=(character,aid)
             if identity in identities:errors.append(fail('A1',manifest_path,'duplicate asset identity: '+aid))
-            identities.add(identity);ids.add(aid)
+            identities.add(identity);ids.setdefault(character,set()).add(aid)
             if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*-latest',aid) or re.search(r'(?:^[0-9]+-|(?:^|-)(?:v[0-9]+|layer[0-9]+|fresh|cel|base-aligned|highlow|only|construction)(?:-|$))',aid):
                 errors.append(fail('A1',manifest_path,'invalid stable latest slug: '+aid))
             for kind,prefix,suffix in (('web','/characters/','.webp'),('original','/media/','.png')):
@@ -570,10 +660,12 @@ def a1(c):
         path='/'+file.relative_to(public).as_posix()
         if not file.name.endswith('-latest.webp'):errors.append(fail('A1',path,'WebP must end in -latest.webp'))
         if path not in webs:errors.append(fail('A1',path,'WebP missing from current manifests'))
-    names=c.data('asset-names.json')
-    if set(names)!=ids:errors.append(fail('A1','asset-names.json','name keys differ from current manifest assets'))
-    for aid,name in names.items():
-        if not isinstance(name,str) or not name.strip():errors.append(fail('A1',aid,'Chinese display name is empty'))
+    for spec in c.characters:
+        names=c.data(spec,'asset-names.json')
+        expected=ids.get(spec.id,set()) | ({spec.id+'-original-latest'} & ids.get('origins',set()))
+        if set(names)!=expected:errors.append(fail('A1','asset-names.json','name keys differ from current manifest assets'))
+        for aid,name in names.items():
+            if not isinstance(name,str) or not name.strip():errors.append(fail('A1',aid,'Chinese display name is empty'))
     return errors
 
 
@@ -586,12 +678,17 @@ def a2(c):
             if node.tag=='a':continue
             asset=c.asset_for_url(url,page.path)
             if asset:referenced.add(asset['web']['path'])
+    unlisted={asset['web']['path'] for spec in c.characters if not spec.listed for asset in c.character_assets(spec)}
     return [fail('A2',asset['web']['path'],'manifest asset is not referenced by a current page')
-            for asset in c.assets() if asset['web']['path'] not in referenced]
+            for asset in c.assets() if asset['web']['path'] not in referenced and asset['web']['path'] not in unlisted]
 
 
 def d2(c):
-    mapping=c.data('display-text.json');errors=[]
+    return [error for spec in c.characters for error in display_text_for(c,spec)]
+
+
+def display_text_for(c,spec):
+    mapping=c.data(spec,'display-text.json');errors=[]
     def strings(value):
         if isinstance(value,str):yield value
         elif isinstance(value,dict):
@@ -611,7 +708,7 @@ def d2(c):
 
 def d4(c):
     errors=[]
-    for path,expected in c.cfg.page_titles.items():
+    for path,expected in {path:title for spec in c.listed for path,title in spec.page_titles.items()}.items():
         if not c.wanted(path):continue
         p=c.pages.get(path);h1=[n for root in p.docs for n in root.find('h1')] if p else []
         # VitePress adds a decorative heading permalink, which is not the title.
@@ -632,7 +729,9 @@ def expand_rules(rules):
     return out
 
 def run_checks(config,*,rules=None,pages=None,pending=None):
-    selected=expand_rules(rules);c=Context(config,pages,pending);errors=[]
+    selected=expand_rules(rules)
+    if config.character_error:return [fail(rule,'data',config.character_error.replace('\n',' ')) for rule in selected]
+    c=Context(config,pages,pending);errors=[]
     if not c.pages and any(r not in ('R6','A1','D2','R8','R12b') for r in selected):
         return [fail(r,str(config.dist),'build contains no HTML pages') for r in selected]
     for rule in selected:

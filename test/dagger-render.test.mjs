@@ -8,7 +8,8 @@ import { parse, compileScript, babelParse } from 'vue/compiler-sfc'
 import { createMarkdownRenderer } from 'vitepress'
 import { transformWithEsbuild } from 'vite'
 import * as vue from 'vue'
-import siteLoader from '../docs/.vitepress/data/bunny-site.data.mjs'
+import { characterContext } from './helpers/character-context.mjs'
+import siteLoader from '../docs/.vitepress/data/site.data.mjs'
 
 const root = fileURLToPath(new URL('../', import.meta.url))
 const read = (path) => readFileSync(resolve(root, path), 'utf8')
@@ -67,7 +68,8 @@ async function layerCard(data = siteData) {
   const { descriptor, errors } = parse(read(filename), { filename })
   assert.deepEqual(errors, [])
   const compiled = compileScript(descriptor, { id: 'dagger-layer-client', genDefaultAs: '__component', inlineTemplate: true }).content
-  const modules = { vue, vitepress: { withBase: (value) => value }, '../../data/bunny-site.data.mjs': { data } }
+  const context = await characterContext(data, 'characters/bunny/weapon.md')
+  const modules = { vue, vitepress: context.vitepress, '../use-character': context.composable }
   let executable = (await transformWithEsbuild(compiled, filename + '.ts', { loader: 'ts' })).code
   for (const node of babelParse(executable, { sourceType: 'module' }).program.body.toReversed()) {
     if (node.type !== 'ImportDeclaration') continue
@@ -118,7 +120,7 @@ test('dagger pages render current target strings through VitePress and the clien
 
 test('layer 9 fact strings execute the actual client Vue component setup and template', async () => {
   const text = await layerCard()
-  const facts = siteData.layers.find((layer) => layer.layer === 9).facts
+  const facts = siteData.characters.bunny.layers.items.find((layer) => layer.layer === 9).facts
   for (const fact of facts) assert.ok(text.includes(fact.value), `layer fact missing from render: ${fact.term}`)
   assertDesignText(text)
 })
@@ -129,7 +131,7 @@ test('rendered dagger checks reject every prohibited process term and internal e
     const { text } = renderPage('weapon', `\n\n<p>${term}</p>\n`)
     assert.throws(() => assertDesignText(text), { name: 'AssertionError' }, `rendered Markdown must reject ${term}`)
     const mutated = structuredClone(siteData)
-    mutated.layers.find((layer) => layer.layer === 9).facts[0].value = term
+    mutated.characters.bunny.layers.items.find((layer) => layer.layer === 9).facts[0].value = term
     const dynamicText = await layerCard(mutated)
     assert.throws(() => assertDesignText(dynamicText), { name: 'AssertionError' }, `rendered Vue fact must reject ${term}`)
   }

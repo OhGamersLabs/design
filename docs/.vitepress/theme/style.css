@@ -187,7 +187,7 @@
 .bunny-layer-card__number { display: block; margin-bottom: 10px; font-size: 112px; font-weight: 600; line-height: .8; letter-spacing: -.04em; }
 .bunny-side-card__title { margin: 0; font-size: 34px; font-weight: 600; line-height: 1.2; }
 .bunny-layer-card__position { margin: 6px 0 0; font-size: 13px; }
-.bunny-layer-map { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 3px; margin-top: 18px; }
+.bunny-layer-map { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 3px; margin-top: 18px; }
 .bunny-layer-map a { display: flex; justify-content: center; align-items: center; height: 30px; border: 1px solid var(--bunny-ink); font-size: 13px; text-decoration: none; }
 .bunny-layer-map__worn { background: var(--bunny-rule); }
 .bunny-layer-map a[aria-current] { background: var(--bunny-ink); color: var(--bunny-orange); font-weight: 600; }
@@ -349,3 +349,61 @@
   .VPHomeHero .image { margin-bottom: 28px; }
   .document-intro { font-size: 17px; }
 }
+
+/* Character roster */
+.roster-shell {
+  box-sizing: border-box; width: 100%; max-width: var(--bunny-max-width);
+  margin: 0 auto; padding: clamp(40px, 5.4vw, 80px) var(--bunny-pad) 80px;
+  color: var(--bunny-ink);
+}
+.roster-shell *, .roster-shell *::before, .roster-shell *::after { box-sizing: border-box; }
+.roster-heading { margin-bottom: 40px; text-align: left; }
+.roster-label {
+  margin: 0 0 10px; color: var(--bunny-orange); font-size: 18px;
+  font-weight: 650; line-height: 1.6; letter-spacing: .015em;
+}
+.roster-title {
+  margin: 0; font-size: clamp(36px, 4.5vw, 56px); font-weight: 650;
+  line-height: 1.2; letter-spacing: -.045em; overflow-wrap: anywhere;
+}
+.roster-intro {
+  margin: 20px 0 0; color: var(--bunny-ink-2); font-size: 18px; line-height: 1.8;
+}
+.roster-picture { position: relative; min-width: 0; background: var(--bunny-fabric); }
+.roster-picture img {
+  position: absolute; inset: 0; display: block; width: 100%; height: 100%;
+  max-width: 100%; object-fit: contain; object-position: center; mix-blend-mode: multiply;
+}
+.roster-updated { color: var(--bunny-ink-3); font-size: 12px; line-height: 1.7; }
+.roster-updated time { white-space: nowrap; }
+@media (max-width: 639px) {
+  .roster-heading { margin-bottom: 28px; }
+  .roster-intro { margin-top: 16px; font-size: 16px; }
+}
+.character-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 16px; }
+.character-card {
+  display: flex; flex-direction: column; min-width: 0; border: 1px solid var(--bunny-rule);
+  background: var(--bunny-paper); color: var(--bunny-ink); text-decoration: none;
+}
+.character-card .roster-picture { aspect-ratio: 3 / 4; }
+.character-card .roster-picture img { padding: 16px; }
+.character-card__copy { flex: 1; min-width: 0; padding: 16px; }
+.character-card__name {
+  margin: 0; font-size: 20px; font-weight: 600; line-height: 1.4;
+  letter-spacing: -.02em; overflow-wrap: anywhere;
+}
+.character-card__role { margin: 5px 0 0; color: var(--bunny-ink-2); font-size: 13px; line-height: 1.6; }
+.character-card .roster-updated { margin: 12px 0 0; }
+.character-card:is(:hover, :focus-visible) .character-card__name {
+  text-decoration: underline; text-decoration-color: var(--bunny-orange);
+  text-decoration-thickness: 2px; text-underline-offset: 4px;
+}
+@media (min-width: 640px) { .character-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; } }
+@media (min-width: 960px) { .character-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 1200px) { .character-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+@media (max-width: 639px) {
+  .character-card .roster-picture img { padding: 12px; }
+  .character-card__copy { padding: 14px 12px 16px; }
+}
+
+.roster-shell :focus-visible { outline: 3px solid var(--bunny-orange); outline-offset: 3px; }

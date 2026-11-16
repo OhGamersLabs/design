@@ -1,0 +1,73 @@
+{
+  "chapter": "parts",
+  "noun": "部件",
+  "wear": "装配",
+  "items": [
+    {
+      "layer": 0,
+      "name": "部件0",
+      "path": "/characters/fixture/part-0",
+      "front": "body-front-latest",
+      "side": "body-side-latest",
+      "back": "body-back-latest",
+      "tpose": {
+        "front": "body-tpose-front-latest",
+        "right": "body-tpose-right-latest",
+        "back": "body-tpose-back-latest",
+        "left": "body-tpose-left-latest"
+      },
+      "summary": "第 0 层装配说明",
+      "facts": [
+        {
+          "term": "结构",
+          "value": "完整部件"
+        }
+      ],
+      "leftRight": "以角色自身方向为准。"
+    },
+    {
+      "layer": 1,
+      "name": "部件1",
+      "path": "/characters/fixture/part-1",
+      "front": "body-front-latest",
+      "side": "body-side-latest",
+      "back": "body-back-latest",
+      "tpose": {
+        "front": "body-tpose-front-latest",
+        "right": "body-tpose-right-latest",
+        "back": "body-tpose-back-latest",
+        "left": "body-tpose-left-latest"
+      },
+      "summary": "第 1 层装配说明",
+      "facts": [
+        {
+          "term": "结构",
+          "value": "完整部件"
+        }
+      ],
+      "leftRight": "以角色自身方向为准。"
+    },
+    {
+      "layer": 2,
+      "name": "部件2",
+      "path": "/characters/fixture/part-2",
+      "front": "body-front-latest",
+      "side": "body-side-latest",
+      "back": "body-back-latest",
+      "tpose": {
+        "front": "body-tpose-front-latest",
+        "right": "body-tpose-right-latest",
+        "back": "body-tpose-back-latest",
+        "left": "body-tpose-left-latest"
+      },
+      "summary": "第 2 层装配说明",
+      "facts": [
+        {
+          "term": "结构",
+          "value": "完整部件"
+        }
+      ],
+      "leftRight": "以角色自身方向为准。"
+    }
+  ]
+}

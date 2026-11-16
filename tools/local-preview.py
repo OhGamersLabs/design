@@ -60,5 +60,5 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--port', type=int, default=4173)
     args = parser.parse_args()
-    print(f'Local layout preview: http://127.0.0.1:{args.port}/characters/bunny/', flush=True)
+    print(f'Local layout preview: http://127.0.0.1:{args.port}/', flush=True)
     http.server.ThreadingHTTPServer(('127.0.0.1', args.port), Handler).serve_forever()

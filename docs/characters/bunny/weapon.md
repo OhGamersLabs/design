@@ -1,6 +1,6 @@
 ---
-layout: BunnyPage
-bunny: layer
+layout: CharacterPage
+pageType: layer
 layer: 9
 title: 双匕首
 sidebar: false

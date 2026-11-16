@@ -1,9 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { createSearchRender } from './search-render.mjs'
-import { parseAnchorMap, readJson } from './data/bunny-data.mjs'
+import { loadCharacters, siteNav } from './characters.mjs'
 
-const dataRoot = new URL('./data/bunny/', import.meta.url)
-const anchorMap = parseAnchorMap(readJson(new URL('anchor-map.json', dataRoot), { stubs: {}, anchors: {} }))
+const { roster, anchorMap } = loadCharacters()
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -16,7 +15,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
   transformPageData(pageData) {
-    if (pageData.frontmatter.bunny !== 'stub') return
+    if (pageData.frontmatter.pageType !== 'stub') return
     const path = `/${pageData.relativePath.replace(/\.md$/, '').replace(/index$/, '')}`
     const stub = anchorMap.stubs[path]
     if (!stub) throw new Error(`Missing redirect stub: ${path}`)
@@ -25,10 +24,7 @@ export default defineConfig({
   },
   themeConfig: {
     siteTitle: 'OhGamers / Design',
-    nav: [
-      { text: 'Bunny', link: '/characters/bunny/', activeMatch: '^/characters/bunny/' },
-      { text: '通用规范', link: '/standards/', activeMatch: '/standards/' },
-    ],
+    nav: siteNav(roster),
     sidebar: {
       '/standards/': [
         {

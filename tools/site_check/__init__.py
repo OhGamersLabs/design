@@ -1,4 +1,4 @@
-"""Static verification for the Bunny reference site."""
+"""Static verification for the character reference site."""
 from .config import SiteConfig
 from .rules import Failure, run_checks
 

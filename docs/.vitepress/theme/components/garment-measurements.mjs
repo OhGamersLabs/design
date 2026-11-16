@@ -74,12 +74,13 @@ export function fitRegistration(registration) {
     reason: registration.reason ?? (status === 'registered' ? '锚点覆盖不同身体区域，逐点残差在各自取点容差内。' : status === 'failed' ? '至少一个锚点超出其自身语义容差。' : '锚点分布或容差不足，读数只作近似参考。') }
 }
 
-function resources(source) {
+function resources(source, character) {
+  if (typeof character !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(character)) throw new Error('Invalid measurement character')
   const r = source.resources
   const patterns = {
-    original: /^\/media\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.png$/,
-    web: /^\/characters\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.webp$/,
-    ruler: /^\/characters\/bunny\/[a-z0-9]+(?:-[a-z0-9]+)*-latest\.svg$/,
+    original: new RegExp(`^/media/${character}/[a-z0-9]+(?:-[a-z0-9]+)*-latest\\.png$`),
+    web: new RegExp(`^/characters/${character}/[a-z0-9]+(?:-[a-z0-9]+)*-latest\\.webp$`),
+    ruler: new RegExp(`^/characters/${character}/[a-z0-9]+(?:-[a-z0-9]+)*-latest\\.svg$`),
   }
   for (const key of ['original', 'web', ...(r?.ruler === undefined ? [] : ['ruler'])]) {
     if (typeof r?.[key] !== 'string' || !patterns[key].test(r[key]) || r[key].includes('..')) throw new Error(`Invalid garment resource: ${key}`)
@@ -94,7 +95,7 @@ function normalizedInterval(raw, tolerance, scaleRange, unit, signed = false) {
   return [Math.min(...values) / unit, Math.max(...values) / unit]
 }
 
-export function garmentModel(data, id) {
+export function garmentModel(data, id, character) {
   const source = data.sources?.[id]
   if (!source) throw new Error(`Unknown garment source: ${id}`)
   if (!Number.isInteger(source.source?.width) || !Number.isInteger(source.source?.height) || source.source.width < 1 || source.source.height < 1) throw new Error('Invalid garment image dimensions')
@@ -137,8 +138,8 @@ export function garmentModel(data, id) {
     return { ...common, px, normalized, interval, status, statusLabel: statusLabels[status], points: measurement.points, axis, tolerancePx: tolerance,
       guideX: measurement.guideX ?? 54 + (index % 3) * 46 }
   })
-  const derived = (source.referenceDerivedMetrics ?? []).map((item) => referenceDerivedMetric(data, id, item, registration))
-  return { id, label: source.label ?? id, view: source.view, layer: source.layer, source: source.source, resources: resources(source), registration, rows, derived, unit }
+  const derived = (source.referenceDerivedMetrics ?? []).map((item) => referenceDerivedMetric(data, id, item, registration, character))
+  return { id, label: source.label ?? id, view: source.view, layer: source.layer, source: source.source, resources: resources(source, character), registration, rows, derived, unit }
 }
 
 function visibleEndpoint(source, link) {
@@ -162,7 +163,7 @@ function registeredPosition(endpoint, registration) {
 }
 
 /** Cross-image reference estimate is kept separate from observed same-image measurements. */
-export function referenceDerivedMetric(data, sourceId, item, registration = fitRegistration(data.sources[sourceId].registration)) {
+export function referenceDerivedMetric(data, sourceId, item, registration = fitRegistration(data.sources[sourceId].registration), character) {
   const source = data.sources[sourceId]; const reference = data.sources[item.reference?.sourceId]
   const metric = data.metrics[item.metricId]
   if (!source || !reference || !metric || reference.view !== source.view || item.reference.sha256 !== reference.source.sha256) throw new Error('Derived comparison reference must be the exact same-view source')
@@ -192,7 +193,7 @@ export function referenceDerivedMetric(data, sourceId, item, registration = fitR
     indicationLabel: stationDeltaPx !== null && !stationMatched ? '横向站位未匹配' : { inside: '推算区间内', outside: '推算超出区间', overlap: '推算待复核', reference: '推算参照 · 无硬规范', unavailable: '推算依据不足' }[indication],
     currentPoint: currentPoint.point, referencePoint: referencePoint.point,
     referenceSourceId: item.reference.sourceId, referenceSourceLabel: reference.label, referenceSourceSha256: reference.source.sha256,
-    referenceOriginal: resources(reference).original, observedCoverage: item.observedCoverage ?? 'unknown',
+    referenceOriginal: resources(reference, character).original, observedCoverage: item.observedCoverage ?? 'unknown',
     currentRegistration: registration.status, referenceRegistration: referenceRegistration.status, notes: item.notes ?? '' }
 }
 
@@ -201,9 +202,9 @@ export function garmentCanvasSize(model) {
 }
 
 /** Annotation export embeds the original WebP unchanged; it is not a new character artwork. */
-export function renderGarmentSvg(data, id, imageHref) {
+export function renderGarmentSvg(data, id, imageHref, character) {
   if (!/^(?:\/(?!\/)|data:image\/webp;base64,)/.test(imageHref)) throw new Error('Unsupported garment image source')
-  const model = garmentModel(data, id)
+  const model = garmentModel(data, id, character)
   const { width, height } = model.source
   const s = (value) => roundRuler(value * rulerScale(model.source))
   const colors = { pass: '#24795c', fail: '#c23c36', uncertain: '#9b681e', unrated: '#17699c' }

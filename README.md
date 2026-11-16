@@ -6,11 +6,13 @@ OhGamers 角色设计资料站，使用 VitePress 1.6.4 与 Vue 3，按角色主
 
 ## 站点结构
 
-- 主页 `/characters/bunny/`：当前精选、身份与画风、身体基准、衣层由内到外、表情、武器与携行、动作与场景。
-- 内页：身体、上衣与短裤、袜装、鞋靴、手部、腿带、橙色夹克、护目镜、裤腰皮带、双匕首，以及图面尺寸、画风与配色、使用检查。
-- 旧 URL 由 `docs/.vitepress/data/bunny/anchor-map.json` 映射到当前内容；跳转桩不进导航和搜索。原档案及下载页跳到角色主页。
+- 首页 `/` 是角色卡墙，每个已上架角色一张卡（卡片图、名字、职业、最近更新）；顶栏「角色」下拉列出同样的角色，然后是通用规范。
+- 每个角色使用 `/characters/<id>/` 作为主页，页面数据位于 `docs/.vitepress/data/<id>/`。当前 Bunny 主页仍为 `/characters/bunny/`，展示精选、身份与画风、身体基准、衣层、表情、武器与携行、动作与场景。
+- 角色内页分为层级页和参考页；阅读顺序由该角色的 `character.json` 决定。Bunny 的身体到双匕首各页，以及图面尺寸、画风与配色、使用检查沿用原来的顺序。
+- 旧 URL 由各角色的 `anchor-map.json` 映射到当前内容；跳转桩不进导航和搜索。原档案及下载页跳到角色主页。
+- `origins` 是各角色共享的画师原稿集合，不是角色。
 
-页面数据在 `docs/.vitepress/data/bunny/`。站点只展示当前图片，历史不在站点中展示或提供下载。
+`bunny-` CSS 类名前缀是所有角色页面共用的样式。站点只展示当前图片，历史不在站点中展示或提供下载。
 
 ## 本地运行
 
@@ -24,7 +26,7 @@ npm run check:local
 python3 tools/local-preview.py --port 4173
 ```
 
-打开 <http://127.0.0.1:4173/characters/bunny/>。这个预览同时提供构建页面和清单精确映射的原图；`npm run dev` 可用于正文与组件开发，但 VitePress 自带服务器不提供 `.release` 中的媒体。编辑后重新构建并刷新预览。
+打开站点根地址 <http://127.0.0.1:4173/>，再从首页卡片或顶栏「角色」进入角色。这个预览同时提供构建页面和清单精确映射的原图；`npm run dev` 可用于正文与组件开发，但 VitePress 自带服务器不提供 `.release` 中的媒体。编辑后重新构建并刷新预览。
 
 ## 图像与原图
 
@@ -82,19 +84,55 @@ python3 tools/cloudflare-local.py deploy                # 此命令会部署 Wor
 
 Worker 只读清单中的精确 R2 对象路径，仅接受 GET/HEAD，不提供任意键读取或列表接口。原图 ETag、修改时间与长度来自当前 R2 对象，匹配条件请求返回 304。原图、静态角色图与缩略图使用 `public, max-age=60, must-revalidate`，允许同 URL 更新生效。
 
+## 新增角色
+
+选择符合 `[a-z0-9]+(?:-[a-z0-9]+)*` 的 `<id>`，为同一角色在以下位置使用相同目录名；新增角色只需要数据、页面和图片，不需要修改注册表、组件或配置代码。`test/fixtures/fixture-character/` 是可运行的完整示例。
+
+在 `docs/.vitepress/data/<id>/` 放入：
+
+- `character.json`：必填的 `name`、`role`、`order`、`portrait`、`pages`；`portrait` 是卡片图片 ID，须属于本角色集合、有缩略图，不能用画师原稿。`pages` 按阅读顺序保存非主页的完整路径和标题，主页自动排在第一项。
+- `home.json`：主页图签（`scene`、`three`、`tpose`、`line`）、图片 ID、事实、色片、最新列表、状态和章节。`updated` 会印在资料库首页，须在 `allowedDates` 中。色片只能在 `swatch`（`orange`、`red`、`white`、`black`）和 `color`（六位十六进制颜色）中选择一个字段。
+- `layers.json`（可选）：`chapter` 指向主页章节，`noun` 和 `wear` 提供层级卡片用词，`items` 保存层号、名称、页面路径、三视及 T 姿四视图片 ID、说明和事实。层号须为不重复的整数；没有此文件时不建立层级页。
+- `asset-names.json`：图片 ID 到展示名称的映射，须恰好覆盖该角色清单及其画师原稿；不同角色可以使用相同的普通图片 ID。
+- `anchor-map.json`：`stubs` 保存跳转桩的目标与标题，`anchors` 保存完整旧路径及锚点到新目标的映射；没有跳转时两项都写空对象。
+- `display-text.json`：测量数据原文到展示文字的精确映射，以及可选的 `@labels` 视角名称；无需替换时写空对象。
+- `site-check.json`：只含 `allowedDates`、`forbiddenWords` 和 `fixedCaptions`，数据角色也必须提供。检查器从 `character.json` 取页面标题、`anchor-map.json` 取跳转桩、`home.json` 的 `highlights` 取最新列表。
+
+在 `docs/characters/<id>/` 添加 Markdown 页面，使用 `layout: CharacterPage` 和 `pageType: home | layer | reference | stub`。层级页另填数据中存在的 `layer`，参考页填 `category`，跳转桩设置 `search: false` 并写入锚点映射。主页使用 `releaseReady: false`，英雄区状态为 `本地审阅版，不是生产发布`。只有 `docs/characters/<id>/index.md` 存在时才出现首页卡片和「角色」菜单入口，按 `order` 升序、同序按 ID 排列；只有数据的角色也会加载和校验。
+
+把网页 WebP 放在 `docs/public/characters/<id>/`，同名原始 PNG 放在 `.release/<id>/`。画师原稿使用 `docs/public/characters/origins/<id>-original-latest.webp` 与 `.release/origins/<id>-original-latest.png`；`OriginNote` 展示本角色的这张原稿，原稿不加入灯箱组。页面路径和层级路径须在本角色的 `/characters/<id>/` 下，所有引用的图片 ID 都须存在。
+
+准备好原图后运行：
+
+```sh
+python3 tools/build-local-catalog.py
+python3 tools/build-thumbs.py
+npm test
+npm run build
+npm run check:local
+npm run check:site
+```
+
+清单自动生成在 `catalog/<id>/` 与 `docs/public/catalog/<id>/`。如需测量标尺，再提供 `catalog/<id>/body-measurements.json` 和可选的 `garment-measurements.json`（依赖同角色的身体数据）；构建工具会遍历各角色，没有测量文件的角色会跳过。
+
+Fixture 集成测试在独立临时副本生成小图并运行上述流程，对照新增前后的 Bunny 正文。无 `.release/bunny` 的克隆仍可运行 `npm test`：测试用 `build-local-catalog.py --root` 在独立目录生成 Fixture 清单，再将生成记录并入临时站点；Bunny 的已有清单保持原样，仅跳过依赖完整原图的 `check:local` 和 `check:site`，并输出原因。
+
 ## 目录
 
 ```text
-docs/.vitepress/            # 配置、导航与可复用图片组件
-docs/.vitepress/data/bunny/ # 当前页面数据与旧 URL/锚点映射
-docs/characters/bunny/      # 主页、内页与跳转桩
+docs/.vitepress/            # 配置、角色注册表与可复用组件
+docs/.vitepress/data/<id>/  # 每个角色的页面数据与检查期望
+docs/characters/<id>/       # 各角色主页、内页与跳转桩
 docs/public/characters/     # 当前 -latest WebP 与派生标尺
 docs/public/site/thumbs/    # 自动生成的 -latest 缩略图与索引
-catalog/                    # 当前原图清单、测量数据与内部 ID 对照
+catalog/<id>/               # 自动生成的角色清单及可选测量数据
+catalog/origins/            # 共享画师原稿清单
 tools/                      # 构建、完整性校验、本地预览与发布工具
 tools/site_check/           # 构建后站点检查（check:site）
 worker/                     # 静态站与受清单约束的 R2 入口
-.release/                   # 本地原图（不进 Git）
+.release/<id>/              # 角色本地原图（不进 Git）
+.release/origins/           # 各角色的画师原稿（不进 Git）
+test/fixtures/fixture-character/ # 可运行的新增角色示例，不参与真实站点构建
 ```
 
 软件保留原 [Apache-2.0 LICENSE](./LICENSE)。该许可不自动授予 Bunny 角色、美术、名称、商标及相关 IP 的转载、改编、再分发或商业使用权。

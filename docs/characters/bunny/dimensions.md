@@ -1,6 +1,6 @@
 ---
-layout: BunnyPage
-bunny: reference
+layout: CharacterPage
+pageType: reference
 category: 尺寸
 title: 图面尺寸
 sidebar: false

@@ -2,16 +2,18 @@
 import { computed, ref } from 'vue'
 import { withBase } from 'vitepress'
 import ReleaseImage from './ReleaseImage.vue'
-import { data as siteData } from '../../data/bunny-site.data.mjs'
-import { createDisplayTextLookup, garmentMeasurementScope, selectMeasurementMetric, selectMeasurementSource } from '../bunny-site.mjs'
+import { useCharacter } from '../use-character'
+import { createDisplayTextLookup, garmentMeasurementScope, selectMeasurementMetric, selectMeasurementSource } from '../character-site.mjs'
 import { formatNumber, garmentCanvasSize } from './garment-measurements.mjs'
 
+const siteData = useCharacter()
 const props = defineProps({
   data: { type: Object, required: true },
   scope: { type: String, default: 'current' },
 })
-const displayText = createDisplayTextLookup(siteData.displayText)
-const scoped = computed(() => garmentMeasurementScope(props.data, siteData.assets, props.scope))
+const lookup = computed(() => createDisplayTextLookup(siteData.value.displayText))
+const displayText = (value) => lookup.value(value)
+const scoped = computed(() => garmentMeasurementScope(props.data, siteData.value.assets, siteData.value.id, props.scope))
 const models = computed(() => scoped.value.models)
 const primary = computed(() => models.value.filter((model) => model.resources.ruler))
 const selected = ref('')
@@ -21,7 +23,7 @@ const imageSize = computed(() => showRuler.value ? garmentCanvasSize(current.val
 const metricId = ref('')
 const metrics = computed(() => scoped.value.metrics)
 function garmentViewLabel(view) {
-  const label = siteData.displayText['@labels'][`garment.${view}`]
+  const label = siteData.value.displayText['@labels'][`garment.${view}`]
   if (!label) throw new Error(`Missing garment view label: ${view}`)
   return label
 }

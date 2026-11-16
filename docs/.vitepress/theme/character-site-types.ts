@@ -7,7 +7,7 @@ export interface AssetFile {
 
 export interface AssetRecord {
   id: string
-  collection: 'bunny' | 'origins'
+  collection: string
   name: string
   web: AssetFile
   original: AssetFile
@@ -27,11 +27,16 @@ export interface HeroTab {
   assets: string[]
 }
 
+type Swatch = 'orange' | 'red' | 'white' | 'black'
+export type ColorChip = { name: string; use: string } & (
+  { swatch: Swatch; color?: never } | { color: string; swatch?: never }
+)
+
 export interface HomeData {
   tabs: HeroTab[]
   highlights: { date: string; title: string; asset: string; caption: string }[]
   facts: Fact[]
-  chips: { name: string; use: string; swatch: 'orange' | 'red' | 'white' | 'black' }[]
+  chips: ColorChip[]
   chipNote: string
   status: string
   updated: string
@@ -51,15 +56,59 @@ export interface LayerRecord {
   leftRight: string
 }
 
+export interface LayerSet {
+  chapter: string
+  noun: string
+  wear: string
+  items: LayerRecord[]
+}
+
 export interface AnchorMap {
   stubs: Record<string, { target: string; title: string }>
   anchors: Record<string, string>
 }
 
-export interface BunnySiteData {
+export interface ReadingEntry {
+  path: string
+  title: string
+}
+
+export interface CharacterDefinition {
+  id: string
+  name: string
+  role: string
+  order: number
+  portrait: string
+  listed: boolean
+  pages: ReadingEntry[]
+}
+
+export interface CharacterData {
+  id: string
+  name: string
+  role: string
+  order: number
+  portrait: string
+  listed: boolean
+  readingOrder: ReadingEntry[]
   assets: Record<string, AssetRecord>
   home: HomeData
-  layers: LayerRecord[]
+  layers: LayerSet | null
   anchorMap: AnchorMap
   displayText: Record<string, Record<string, string>>
+}
+
+export interface RosterEntry {
+  id: string
+  name: string
+  role: string
+  home: string
+  updated: string
+  portrait: { asset: string; path: string; width: number; height: number }
+}
+
+export interface SiteData {
+  characters: Record<string, CharacterData>
+  roster: RosterEntry[]
+  anchorMap: AnchorMap
 }

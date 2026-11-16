@@ -1,7 +1,7 @@
 ---
 title: Bunny
-layout: BunnyPage
-bunny: home
+layout: CharacterPage
+pageType: home
 sidebar: false
 aside: false
 releaseReady: false

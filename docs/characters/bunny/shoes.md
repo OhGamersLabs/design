@@ -1,6 +1,6 @@
 ---
-layout: BunnyPage
-bunny: layer
+layout: CharacterPage
+pageType: layer
 layer: 3
 title: 鞋靴
 sidebar: false

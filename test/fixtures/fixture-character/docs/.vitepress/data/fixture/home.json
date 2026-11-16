@@ -1,0 +1,85 @@
+{
+  "tabs": [
+    {
+      "key": "line",
+      "label": "线稿",
+      "caption": "角色线稿",
+      "assets": [
+        "line-latest"
+      ]
+    },
+    {
+      "key": "scene",
+      "label": "场景",
+      "caption": "角色场景",
+      "assets": [
+        "scene-latest"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "三视",
+      "caption": "正面与角色右侧面及背面",
+      "assets": [
+        "body-front-latest",
+        "body-side-latest",
+        "body-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "T 姿",
+      "caption": "T 姿四视",
+      "assets": [
+        "body-tpose-front-latest",
+        "body-tpose-right-latest",
+        "body-tpose-back-latest",
+        "body-tpose-left-latest"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-11-16",
+      "title": "装配资料",
+      "asset": "body-front-latest",
+      "caption": "正面"
+    }
+  ],
+  "facts": [
+    {
+      "term": "身形",
+      "value": "修长",
+      "note": "图面设定"
+    }
+  ],
+  "chips": [
+    {
+      "name": "橙色",
+      "use": "识别色",
+      "swatch": "orange"
+    },
+    {
+      "name": "青色",
+      "use": "结构色",
+      "color": "#12ab89"
+    }
+  ],
+  "chipNote": "色彩用于识别结构。",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-16",
+  "chapters": [
+    {
+      "id": "identity",
+      "label": "身份与画风"
+    },
+    {
+      "id": "parts",
+      "label": "部件装配"
+    },
+    {
+      "id": "reference",
+      "label": "参考资料"
+    }
+  ]
+}

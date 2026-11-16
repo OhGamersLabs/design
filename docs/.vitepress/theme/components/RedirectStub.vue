@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed, nextTick, onMounted, watch } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
-import { data } from '../../data/bunny-site.data.mjs'
-import { resolveAnchorTarget } from '../bunny-site.mjs'
+import { data } from '../../data/site.data.mjs'
+import { resolveAnchorTarget } from '../character-site.mjs'
 
 const { page } = useData()
 const route = useRoute()

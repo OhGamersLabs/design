@@ -1,0 +1,24 @@
+{
+  "name": "Fixture",
+  "role": "守卫",
+  "order": 2,
+  "pages": [
+    {
+      "path": "/characters/fixture/part-0",
+      "title": "部件0"
+    },
+    {
+      "path": "/characters/fixture/part-1",
+      "title": "部件1"
+    },
+    {
+      "path": "/characters/fixture/part-2",
+      "title": "部件2"
+    },
+    {
+      "path": "/characters/fixture/reference",
+      "title": "参考"
+    }
+  ],
+  "portrait": "body-front-latest"
+}

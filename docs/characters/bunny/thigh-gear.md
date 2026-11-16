@@ -1,6 +1,6 @@
 ---
-layout: BunnyPage
-bunny: layer
+layout: CharacterPage
+pageType: layer
 layer: 5
 title: 腿带
 sidebar: false
