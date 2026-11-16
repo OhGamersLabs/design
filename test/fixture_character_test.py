@@ -52,7 +52,8 @@ class FixtureCharacterTest(unittest.TestCase):
 
     def allowed_overlay(self,path):
         prefixes=('docs/.vitepress/data/fixture/','docs/characters/fixture/',
-                  'docs/public/characters/fixture/','.release/fixture/')
+                  'docs/public/characters/fixture/','.release/fixture/',
+                  'docs/.vitepress/data/draft/','docs/public/characters/draft/','.release/draft/')
         exact=('docs/public/characters/origins/fixture-original-latest.webp',
                '.release/origins/fixture-original-latest.png')
         return path.startswith(prefixes) or path in exact
@@ -65,17 +66,18 @@ class FixtureCharacterTest(unittest.TestCase):
             self.assertTrue(self.allowed_overlay(relative),relative)
             target=root/relative;target.parent.mkdir(parents=True,exist_ok=True)
             shutil.copy2(source,target);overlaid.append(relative)
-        names=json.loads((root/'docs/.vitepress/data/fixture/asset-names.json').read_text())
-        for aid in names:
-            collection='origins' if aid=='fixture-original-latest' else 'fixture'
-            color=tuple(hashlib.sha256(('fixture:'+aid).encode()).digest()[:3])
-            for base,suffix,format in (('docs/public/characters','.webp','WEBP'),('.release','.png','PNG')):
-                relative=f'{base}/{collection}/{aid}{suffix}'
-                self.assertTrue(self.allowed_overlay(relative),relative)
-                path=root/relative;path.parent.mkdir(parents=True,exist_ok=True)
-                with Image.new('RGB',(24,32),color) as image:
-                    image.save(path,format=format,**({'lossless':True,'exact':True} if format=='WEBP' else {}))
-                overlaid.append(relative)
+        for cid in ('fixture','draft'):
+            names=json.loads((root/f'docs/.vitepress/data/{cid}/asset-names.json').read_text())
+            for aid in names:
+                collection='origins' if aid=='fixture-original-latest' else cid
+                color=tuple(hashlib.sha256((cid+':'+aid).encode()).digest()[:3])
+                for base,suffix,format in (('docs/public/characters','.webp','WEBP'),('.release','.png','PNG')):
+                    relative=f'{base}/{collection}/{aid}{suffix}'
+                    self.assertTrue(self.allowed_overlay(relative),relative)
+                    path=root/relative;path.parent.mkdir(parents=True,exist_ok=True)
+                    with Image.new('RGB',(24,32),color) as image:
+                        image.save(path,format=format,**({'lossless':True,'exact':True} if format=='WEBP' else {}))
+                    overlaid.append(relative)
         self.assertEqual(len(overlaid),len(set(overlaid)))
         return overlaid
 
@@ -86,7 +88,8 @@ class FixtureCharacterTest(unittest.TestCase):
         entries are merged with the checkout's unchanged tracked manifests; no
         missing-original assertion or real-character metadata is bypassed.
         """
-        for directory in ('docs/.vitepress/data/fixture','docs/public/characters/fixture','.release/fixture'):
+        for directory in ('docs/.vitepress/data/fixture','docs/public/characters/fixture','.release/fixture',
+                          'docs/.vitepress/data/draft','docs/public/characters/draft','.release/draft'):
             target=stage/directory;target.parent.mkdir(parents=True,exist_ok=True)
             shutil.copytree(root/directory,target)
         for relative in ('docs/public/characters/origins/fixture-original-latest.webp','.release/origins/fixture-original-latest.png'):
@@ -94,8 +97,9 @@ class FixtureCharacterTest(unittest.TestCase):
             shutil.copy2(root/relative,target)
         self.run_flow(root,'python3','tools/build-local-catalog.py','--root',str(stage))
         for base in ('catalog','docs/public/catalog'):
-            target=root/base/'fixture';target.mkdir(parents=True,exist_ok=True)
-            shutil.copy2(stage/base/'fixture/manifest.json',target/'manifest.json')
+            for cid in ('fixture','draft'):
+                target=root/base/cid;target.mkdir(parents=True,exist_ok=True)
+                shutil.copy2(stage/base/cid/'manifest.json',target/'manifest.json')
             origin=root/base/'origins/manifest.json'
             document=json.loads(origin.read_text())
             document['assets']+=json.loads((stage/base/'origins/manifest.json').read_text())['assets']
@@ -114,9 +118,7 @@ class FixtureCharacterTest(unittest.TestCase):
             html=file.read_text()
             main=re.search(r'<main\b[^>]*\bclass="[^"]*\bbunny-page\b[^"]*"[^>]*>.*?</main>',html,re.S)
             self.assertIsNotNone(main,str(file))
-            value=re.sub(r'data-v-[0-9a-f]{8}','data-v-X',main[0])
-            value=re.sub(r'(/assets/(?:chunks/)?[^"\'\s>()]+?)\.[A-Za-z0-9_-]{8}\.((?:lean\.)?js|css|woff2)',r'\1.H.\2',value)
-            result[file.name]=value
+            result[file.name]=main[0]
         self.assertEqual(len(result),30,'every Bunny character page must be compared')
         return result
 
@@ -126,6 +128,7 @@ class FixtureCharacterTest(unittest.TestCase):
 
     def test_fixture_character_needs_only_data_pages_and_images(self):
         self.assertFalse((ROOT/'docs/characters/fixture').exists(),'fixture must stay outside real docs')
+        self.assertFalse((ROOT/'docs/characters/draft').exists(),'unlisted fixture must have no pages')
         with tempfile.TemporaryDirectory(prefix='design-fixture-character-') as temporary:
             root=Path(temporary)/'repo'
             self.copy_repository(root)
@@ -150,6 +153,35 @@ class FixtureCharacterTest(unittest.TestCase):
             if has_originals:
                 self.run_flow(root,'npm','run','check:local')
                 self.run_flow(root,'npm','run','check:site')
+            roster=self.parsed(root,'index.html')
+            grids=[node for node in roster.body.walk() if node.has_class('character-grid')]
+            self.assertEqual(len(grids),1)
+            cards=[node for node in grids[0].find('a') if node.has_class('character-card')]
+            self.assertEqual([card.attrs.get('data-character-id') for card in cards],['bunny','fixture'])
+            for card,cid in zip(cards,('bunny','fixture')):
+                data=root/f'docs/.vitepress/data/{cid}'
+                character=json.loads((data/'character.json').read_text())
+                updated=json.loads((data/'home.json').read_text())['updated']
+                thumbs=json.loads((root/'docs/public/site/thumbs/index.json').read_text())
+                thumb=thumbs[cid+'/'+character['portrait']]
+                self.assertEqual(card.attrs['href'],f'/characters/{cid}/')
+                self.assertEqual(card.attrs['data-asset-id'],character['portrait'])
+                for classname,key in (('character-card__name','name'),('character-card__role','role')):
+                    self.assertEqual([n.text() for n in card.walk() if n.has_class(classname)],[character[key]])
+                self.assertEqual([(time.attrs['datetime'],time.text()) for time in card.find('time')],[(updated,updated)])
+                self.assertEqual([(img.attrs['src'],img.attrs['width'],img.attrs['height'],img.attrs['alt']) for img in card.find('img')],[(thumb['path'],str(thumb['width']),str(thumb['height']),'')])
+            for file in dist.rglob('*.html'):
+                page=parse_html(file.read_text())
+                self.assertFalse(any('/characters/draft/' in a.attrs['href'] for a in page.root.find('a','href')),str(file))
+                for nav in (n for n in page.root.find('nav') if n.has_class('VPNavBarMenu')):
+                    flyouts=[n for n in nav.walk() if n.has_class('VPFlyout') and any(button.text().strip()=='角色' for button in n.find('button'))]
+                    self.assertEqual(len(flyouts),1,str(file))
+                    self.assertEqual([(a.attrs['href'],a.text().strip()) for a in flyouts[0].find('a')],[('/characters/bunny/','Bunny'),('/characters/fixture/','Fixture')],str(file))
+            self.assertEqual(list((dist/'characters/draft').rglob('*.html')),[])
+            self.assertFalse((dist/'characters/draft.html').exists())
+            self.assertFalse((root/'docs/characters/draft').exists())
+            self.assertEqual(len(json.loads((root/'catalog/draft/manifest.json').read_text())['assets']),1)
+            self.assertFalse((root/'.release/origins/draft-original-latest.png').exists())
             home=self.parsed(root,'characters/fixture/index.html')
             text=home.visible_text()
             for expected in ('Fixture','守卫','修长','装配资料','身份与画风','部件装配','参考资料'):
@@ -188,4 +220,4 @@ class FixtureCharacterTest(unittest.TestCase):
             self.assertEqual([a.attrs['href'] for a in reference_pager[0].find('a')],['/characters/fixture/part-2'])
             stub=self.parsed(root,'characters/fixture/legacy.html')
             self.assertEqual([n.attrs['content'] for n in stub.root.find('meta') if n.attrs.get('http-equiv')=='refresh'],['3; url=/characters/fixture/#parts'])
-            self.assertEqual(self.main_markup(dist),baseline,'Bunny main markup must remain byte-identical after normalising build noise')
+            self.assertEqual(self.main_markup(dist),baseline,'Bunny main markup must remain byte-identical after the overlay')

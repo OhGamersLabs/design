@@ -1,21 +1,4 @@
 {
-  "pages": {
-    "/characters/fixture/": "Fixture",
-    "/characters/fixture/part-0": "部件0",
-    "/characters/fixture/part-1": "部件1",
-    "/characters/fixture/part-2": "部件2",
-    "/characters/fixture/reference": "参考"
-  },
-  "stubs": [
-    "/characters/fixture/legacy"
-  ],
-  "latest": [
-    [
-      "2026-11-16",
-      "装配资料",
-      "body-front-latest"
-    ]
-  ],
   "allowedDates": [
     "2026-11-16"
   ],

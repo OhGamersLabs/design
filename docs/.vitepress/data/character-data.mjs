@@ -134,18 +134,16 @@ export function parseCharacter(value, id, listed) {
     validateCharacterPath(id, path)
     return { path, title: text(page.title) }
   })
-  return { id, name: text(character.name), role: text(character.role), order: number(character.order), listed, pages }
+  const portrait = text(character.portrait)
+  if (portrait === `${id}-original-latest`) throw new Error(`Portrait must belong to character collection: ${id}/${portrait}`)
+  return { id, name: text(character.name), role: text(character.role), order: number(character.order), portrait, listed, pages }
 }
 
 /** Validate checker expectations even for characters without pages. @param {unknown} value @param {string} id */
 export function validateSiteCheck(value, id) {
   const spec = record(value)
-  for (const path of Object.keys(parseNames(spec.pages))) validateCharacterPath(id, path)
-  for (const path of list(spec.stubs).map(text)) validateCharacterPath(id, path)
-  for (const entry of list(spec.latest)) {
-    const row = list(entry)
-    if (row.length !== 3) throw new Error('Expected latest date, title and asset')
-    row.forEach(text)
+  for (const key of Object.keys(spec)) {
+    if (!['allowedDates', 'forbiddenWords', 'fixedCaptions'].includes(key)) throw new Error(`Unknown site-check.json key: ${id}/${key}`)
   }
   list(spec.allowedDates).forEach(text)
   list(spec.forbiddenWords).forEach(text)

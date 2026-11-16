@@ -78,6 +78,7 @@ export interface CharacterDefinition {
   name: string
   role: string
   order: number
+  portrait: string
   listed: boolean
   pages: ReadingEntry[]
 }
@@ -87,6 +88,7 @@ export interface CharacterData {
   name: string
   role: string
   order: number
+  portrait: string
   listed: boolean
   readingOrder: ReadingEntry[]
   assets: Record<string, AssetRecord>
@@ -101,6 +103,8 @@ export interface RosterEntry {
   name: string
   role: string
   home: string
+  updated: string
+  portrait: { asset: string; path: string; width: number; height: number }
 }
 
 export interface SiteData {

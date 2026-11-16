@@ -32,6 +32,7 @@ class SiteCheckTests(unittest.TestCase):
         self.layer = '/characters/bunny/body-base'
         self.stub = '/characters/bunny/face'
         self.spec = CharacterSpec(id='bunny',name='Bunny',
+            order=1,role='刺客',portrait='scene-latest',portrait_path='/site/thumbs/bunny/scene-latest.webp',portrait_width=2,portrait_height=1,updated='2026-11-02',
             page_titles={self.home: 'Bunny', self.layer: '身体'}, stubs=(self.stub,),
             latest=(('2026-10-29','场景图定稿','scene-latest'),('2026-10-28','线稿通过','line-latest'),('2026-10-28','姿势选定','pose-latest'),('2026-10-27','携行三视','carry-latest')),
             allowed_dates=tuple('2026-10-'+str(n) for n in range(25,30)) + ('2026-11-02',),
@@ -50,7 +51,7 @@ class SiteCheckTests(unittest.TestCase):
             else:self.assets.append(asset)
             self.write('docs/public'+asset['web']['path'],data)
             self.write('.release/'+character+'/'+aid+'.png',original)
-        self.manifest={'character':'bunny','assets':self.assets}
+        self.manifest={'character_id':'bunny','assets':self.assets}
         self.save_manifests()
         self.json('catalog/releases.json',{'schemaVersion':2,'contentReady':False,'assets':[{'character':'origins' if a is self.origin else 'bunny','path':a['original']['path']} for a in self.assets+[self.origin]]})
         self.json('docs/public/catalog/bunny/data.json',{})
@@ -112,12 +113,13 @@ class SiteCheckTests(unittest.TestCase):
     def search_docs(self):return [{'id':self.home+'#identity','title':'Bunny','titles':['Bunny'],'text':'角色设计'}]
 
     def write_spec(self,spec):
-        self.json(spec.data_dir+'/character.json',{'name':spec.name,'role':'角色','order':1,'pages':[{'path':path,'title':title} for path,title in spec.page_titles.items() if path!=spec.home]})
-        self.json(spec.data_dir+'/site-check.json',{'pages':spec.page_titles,'stubs':spec.stubs,'latest':spec.latest,'allowedDates':spec.allowed_dates,'forbiddenWords':spec.forbidden_words,'fixedCaptions':spec.fixed_captions})
+        self.json(spec.data_dir+'/character.json',{'name':spec.name,'role':spec.role,'order':spec.order,'portrait':spec.portrait,'pages':[{'path':path,'title':title} for path,title in spec.page_titles.items() if path!=spec.home]})
+        self.json(spec.data_dir+'/home.json',{'updated':spec.updated,'highlights':[{'date':date,'title':title,'asset':asset} for date,title,asset in spec.latest]})
+        self.json(spec.data_dir+'/site-check.json',{'allowedDates':spec.allowed_dates,'forbiddenWords':spec.forbidden_words,'fixedCaptions':spec.fixed_captions})
 
     def add_robot(self,listed=True):
         home='/characters/robot/'
-        spec=CharacterSpec(id='robot',name='Robot',page_titles={home:'Robot',home+'body-base':'身体'},latest=(('2026-11-16','装配图','scene-latest'),),allowed_dates=('2026-11-16',),forbidden_words=('电池',),fixed_captions={'pose-latest':'结构稿'},listed=listed)
+        spec=CharacterSpec(id='robot',name='Robot',order=2,role='守卫',portrait='scene-latest',portrait_path='/site/thumbs/robot/scene-latest.webp',portrait_width=2,portrait_height=1,updated='2026-11-16',page_titles={home:'Robot',home+'body-base':'身体'},latest=(('2026-11-16','装配图','scene-latest'),),allowed_dates=('2026-11-16',),forbidden_words=('电池',),fixed_captions={'pose-latest':'结构稿'},listed=listed)
         self.cfg.characters=(*self.cfg.characters,spec)
         own=[]
         for aid,collection in [('scene-latest','robot'),('robot-original-latest','origins')]:
@@ -132,6 +134,11 @@ class SiteCheckTests(unittest.TestCase):
                 self.json('catalog/origins/manifest.json',manifest);self.json('docs/public/catalog/origins/manifest.json',manifest)
         self.json('catalog/robot/manifest.json',{'character_id':'robot','assets':own})
         self.json('docs/public/catalog/robot/manifest.json',{'character_id':'robot','assets':own})
+        thumbs=self.read_json('docs/public/site/thumbs/index.json')
+        for asset in own:
+            key='robot/'+asset['id']
+            thumbs[key]={'path':'/site/thumbs/'+key+'.webp','width':2,'height':1}
+        self.json('docs/public/site/thumbs/index.json',thumbs)
         self.json(spec.data_dir+'/asset-names.json',{'scene-latest':'场景图','robot-original-latest':'原稿'})
         self.json(spec.data_dir+'/display-text.json',{})
         self.json(spec.data_dir+'/anchor-map.json',{'anchors':{},'stubs':{}})
@@ -222,6 +229,177 @@ class SiteCheckTests(unittest.TestCase):
         errors=run_checks(cfg,rules=['A1'])
         self.assertEqual([('A1','data')],[(e.rule,e.page) for e in errors])
         self.assertIn('site-check.json',errors[0].message)
+
+    def discovered_config(self):
+        return SiteConfig(root=self.root,dist=self.dist,baseline_file=self.root/'baseline.json')
+
+    def test_site_check_rejects_copied_facts_and_other_extra_keys(self):
+        path=self.spec.data_dir+'/site-check.json';source=self.read_json(path)
+        for key in ('pages','stubs','latest','unexpected'):
+            with self.subTest(key=key):
+                self.json(path,{**source,key:[]})
+                cfg=self.discovered_config()
+                self.assertIn('unknown site-check.json keys',cfg.character_error)
+                self.assertIn(key,cfg.character_error)
+                self.assertTrue(run_checks(cfg,rules=['D4']))
+        self.json(path,source)
+        self.assertIsNone(self.discovered_config().character_error)
+
+    def test_discovery_derives_titles_stubs_and_latest_from_their_sources(self):
+        cfg=self.discovered_config();self.assertIsNone(cfg.character_error)
+        spec=cfg.characters[0]
+        self.assertEqual(list(spec.page_titles.items()),[(self.home,'Bunny'),(self.layer,'身体')])
+        self.assertEqual(spec.stubs,(self.stub,))
+        self.assertEqual(spec.latest,self.spec.latest)
+        self.assertEqual((spec.order,spec.role,spec.portrait,spec.portrait_path,spec.portrait_width,spec.portrait_height,spec.updated),(1,'刺客','scene-latest','/site/thumbs/bunny/scene-latest.webp',2,1,'2026-11-02'))
+        self.assertEqual([],run_checks(cfg,rules=['D4','R2','R9']))
+        path=self.spec.data_dir+'/character.json';source=self.read_json(path)
+        source['pages'][0]['title']='错误标题';self.json(path,source)
+        errors=run_checks(self.discovered_config(),rules=['D4'])
+        self.assertEqual([('D4',self.layer,'first .vp-doc h1 must be 错误标题')],[(e.rule,e.page,e.message) for e in errors])
+
+    def test_discovery_uses_anchor_map_stub_keys(self):
+        path=self.spec.data_dir+'/anchor-map.json';source=self.read_json(path)
+        source['stubs'][self.home+'new-stub']={'target':self.home,'title':'Bunny'};self.json(path,source)
+        cfg=self.discovered_config()
+        self.assertEqual(cfg.characters[0].stubs,(self.stub,self.home+'new-stub'))
+        self.assertEqual([self.home+'new-stub'],[e.page for e in run_checks(cfg,rules=['R2'])])
+
+    def test_discovery_uses_home_highlight_content_and_order(self):
+        path=self.spec.data_dir+'/home.json';source=self.read_json(path)
+        source['highlights'].reverse();source['highlights'][0]['title']='改动标题';self.json(path,source)
+        cfg=self.discovered_config()
+        self.assertEqual(cfg.characters[0].latest[0],('2026-10-27','改动标题','carry-latest'))
+        self.assertEqual(['latest dates, titles, assets or order differ from home.json highlights'],[e.message for e in run_checks(cfg,rules=['R9'])])
+
+    def test_discovery_validates_derived_field_types_and_character_paths(self):
+        cases=(
+            ('character.json',lambda d:d.update(pages={})),
+            ('character.json',lambda d:d['pages'].__setitem__(0,'bad')),
+            ('character.json',lambda d:d['pages'][0].update(path='/characters/other/page')),
+            ('character.json',lambda d:d['pages'][0].update(path=42)),
+            ('character.json',lambda d:d['pages'][0].update(title=42)),
+            ('anchor-map.json',lambda d:d.update(stubs=[])),
+            ('anchor-map.json',lambda d:d.update(stubs={'/characters/other/stub':{}})),
+            ('home.json',lambda d:d.update(highlights={})),
+            ('home.json',lambda d:d['highlights'].__setitem__(0,[])),
+            *[('home.json',lambda d,key=key:d['highlights'][0].update({key:42})) for key in ('date','title','asset')],
+            ('home.json',lambda d:d.update(updated=42)),
+        )
+        for file,update in cases:
+            with self.subTest(file=file,update=update):
+                path=self.spec.data_dir+'/'+file;source=self.read_json(path)
+                changed=json.loads(json.dumps(source));update(changed);self.json(path,changed)
+                self.assertIsNotNone(self.discovered_config().character_error)
+                self.json(path,source)
+
+    def test_discovery_requires_own_portrait_and_thumbnail_even_when_unlisted(self):
+        (self.root/'docs/characters/bunny/index.md').unlink()
+        path=self.spec.data_dir+'/character.json';source=self.read_json(path)
+        for portrait in (None,42,'unknown-latest','bunny-original-latest'):
+            with self.subTest(portrait=portrait):
+                changed={**source,'portrait':portrait}
+                if portrait is None:del changed['portrait']
+                self.json(path,changed)
+                self.assertIn('portrait',self.discovered_config().character_error)
+        self.json(path,source)
+        path='docs/public/site/thumbs/index.json';thumbs=self.read_json(path)
+        del thumbs['bunny/scene-latest'];self.json(path,thumbs)
+        self.assertIn('portrait thumbnail',self.discovered_config().character_error)
+
+    def card(self,spec):
+        return (f'<a class="character-card" href="{spec.home}" data-character-id="{spec.id}" data-asset-id="{spec.portrait}">'
+                f'<div class="roster-picture"><img src="{spec.portrait_path}" width="{spec.portrait_width}" height="{spec.portrait_height}" alt=""></div>'
+                f'<div class="character-card__copy"><h2 class="character-card__name">{spec.name}</h2><p class="character-card__role">{spec.role}</p>'
+                f'<p class="roster-updated">最近更新 <time datetime="{spec.updated}">{spec.updated}</time></p></div></a>')
+
+    def menu(self,specs):
+        links=''.join(f'<a href="{spec.home}">{spec.name}</a>' for spec in specs)
+        flyout=f'<div class="VPFlyout"><button><span>角色</span></button><div class="menu"><div class="VPMenu">{links}</div></div></div>' if specs else ''
+        return '<nav class="VPNavBarMenu menu">'+flyout+'<a href="/standards/">通用规范</a></nav>'
+
+    def roster_site(self):
+        robot=self.add_robot()
+        draft=CharacterSpec(id='draft',name='Draft',listed=False,portrait='scene-latest')
+        self.cfg.characters=(draft,robot,self.spec)
+        self.page('/','<div class="character-grid">'+self.card(self.spec)+self.card(robot)+'</div>')
+        for path in ('/',self.home,self.layer,self.stub,robot.home,robot.home+'body-base'):
+            self.append(path,self.menu([self.spec,robot]))
+        self.good('R17')
+        return robot,draft
+
+    def test_r17_correct_roster_and_menu_with_unlisted_data(self):self.roster_site()
+
+    def test_r17_missing_card(self):
+        robot,_=self.roster_site();self.replace('/',self.card(robot),'');self.bad('R17')
+
+    def test_r17_extra_card_for_unlisted_character(self):
+        _,draft=self.roster_site()
+        self.replace('/','<div class="character-grid">','<div class="character-grid">'+self.card(draft));self.bad('R17')
+
+    def test_r17_swapped_cards(self):
+        robot,_=self.roster_site();self.replace('/',self.card(self.spec)+self.card(robot),self.card(robot)+self.card(self.spec));self.bad('R17')
+
+    def test_r17_wrong_card_asset_id(self):
+        self.roster_site();self.replace('/','data-asset-id="scene-latest"','data-asset-id="line-latest"');self.bad('R17')
+
+    def test_r17_wrong_card_image_src(self):
+        self.roster_site();self.replace('/','/site/thumbs/bunny/scene-latest.webp','/site/thumbs/robot/scene-latest.webp');self.bad('R17')
+
+    def test_r17_wrong_card_date(self):
+        self.roster_site();self.replace('/','2026-11-02','2026-10-29');self.bad('R17')
+
+    def test_r17_menu_missing_listed_character(self):
+        robot,_=self.roster_site();self.replace(self.layer,self.menu([self.spec,robot]),self.menu([self.spec]));self.bad('R17')
+
+    def test_r17_menu_lists_unlisted_character(self):
+        robot,draft=self.roster_site();self.replace(self.layer,self.menu([self.spec,robot]),self.menu([self.spec,robot,draft]));self.bad('R17')
+
+    def test_r17_link_to_unlisted_page_resolves_relative_and_encoded_urls(self):
+        self.roster_site()
+        for url in ('../draft/part.html','/characters/%64raft/index.html#x','/characters/unknown/part'):
+            with self.subTest(url=url):
+                self.append(self.layer,f'<a href="{url}">角色页</a>');self.bad('R17',pages=[self.layer])
+                self.replace(self.layer,f'<a href="{url}">角色页</a>','')
+
+    def test_r17_empty_roster_has_grid_and_no_character_flyout(self):
+        self.spec.listed=False
+        self.replace(self.stub,f'<a href="{self.home}#identity">身份与画风</a>','身份与画风')
+        self.page('/','<div class="character-grid"></div>'+self.menu([]))
+        self.good('R17',pages=['/'])
+        self.replace('/',self.menu([]),self.menu([self.spec]));self.bad('R17',pages=['/'])
+
+    def test_r17_card_fields_and_cardinality(self):
+        self.roster_site()
+        cases=(('width="2"','width="3"'),('height="1"','height="2"'),('alt=""','alt="Bunny"'),
+               ('刺客','守卫'),('<h2 class="character-card__name">Bunny</h2>','<h2 class="character-card__name">Other</h2>'),
+               ('<time datetime="2026-11-02">2026-11-02</time>','<time datetime="2026-11-02">2026-10-29</time>'),
+               ('<div class="character-grid">','<div class="character-grid"></div><div class="character-grid">'))
+        for before,after in cases:
+            with self.subTest(before=before):
+                file=self.dist/'index.html';original=file.read_text()
+                self.replace('/',before,after);self.bad('R17',pages=['/']);file.write_text(original)
+
+    def test_r17_selected_pages_skip_home_but_check_their_menu_and_links(self):
+        self.roster_site();self.replace('/','class="character-grid"','class="other"')
+        self.good('R17',pages=[self.layer]);self.bad('R17')
+
+    def test_r17_unlisted_links_are_checked_even_on_unselected_pages(self):
+        self.roster_site();self.append(self.home,'<a href="/characters/draft/part">角色页</a>')
+        self.bad('R17',pages=[self.layer])
+
+    def test_r7b_matching_card_image_is_allowed(self):
+        self.append(self.layer,self.card(self.spec));self.good('R7b')
+
+    def test_r7b_mismatched_card_image_is_rejected(self):
+        self.append(self.layer,self.card(self.spec).replace('data-asset-id="scene-latest"','data-asset-id="line-latest"'));self.bad('R7b')
+
+    def test_r7b_plain_link_image_is_rejected(self):
+        self.append(self.layer,'<a href="/characters/bunny/"><img src="/site/thumbs/bunny/scene-latest.webp"></a>');self.bad('R7b')
+
+    def test_r7b_nearest_card_must_match(self):
+        image='<a class="character-card" data-asset-id="line-latest"><img src="/site/thumbs/bunny/scene-latest.webp"></a>'
+        self.append(self.layer,'<a class="character-card" data-asset-id="scene-latest">'+image+'</a>');self.bad('R7b')
 
     def test_multichar_fixed_captions_are_scoped(self):
         robot=self.add_robot()
@@ -1103,7 +1281,7 @@ class SiteCheckTests(unittest.TestCase):
     def test_new_rules_are_enabled_and_retired_rules_removed(self):
         from site_check.rules import expand_rules
         rules=expand_rules(None)
-        self.assertTrue({'A1','A2','R3'}<=set(rules))
+        self.assertTrue({'A1','A2','R3','R17'}<=set(rules))
         self.assertTrue({'A5','D1','D3','R5'}.isdisjoint(rules))
 
     def test_a1_all_current_files_match(self):self.good('A1')

@@ -54,7 +54,7 @@ export function loadCharacters(root = defaultRoot) {
   /** @type {Record<string, import('./theme/character-site-types').CharacterData>} */
   const characters = {}
   for (const definition of definitions) {
-    const { id, name, role, order, listed, pages } = definition
+    const { id, name, role, order, portrait, listed, pages } = definition
     const dataRoot = resolve(root, 'docs/.vitepress/data', id)
     const files = Object.fromEntries(readdirSync(dataRoot).filter((file) => file.endsWith('.json')).map((file) => [file, readJson(resolve(dataRoot, file))]))
     for (const file of Object.keys(files)) {
@@ -67,9 +67,11 @@ export function loadCharacters(root = defaultRoot) {
     const manifests = [parseManifest(readJson(resolve(root, 'catalog', id, 'manifest.json')))]
     if (origins) manifests.push({ ...origins, assets: origins.assets.filter((asset) => asset.id === `${id}-original-latest`) })
     const assets = buildAssetIndex({ character: id, manifests, names: parseNames(files['asset-names.json']), thumbs })
+    if (assetById(assets, portrait).collection !== id) throw new Error(`Portrait must belong to character collection: ${id}/${portrait}`)
     const home = parseHome(files['home.json'])
     const layers = files['layers.json'] === undefined ? null : parseLayers(files['layers.json'])
     const anchorMap = parseAnchorMap(files['anchor-map.json'])
+    for (const path of Object.keys(anchorMap.stubs)) validateCharacterPath(id, path)
     const displayText = Object.fromEntries(Object.entries(record(files['display-text.json'])).map(([key, value]) => [key, parseNames(value)]))
     if (layers) {
       if (!home.chapters.some((chapter) => chapter.id === layers.chapter)) throw new Error(`Unknown layer chapter: ${id}/${layers.chapter}`)
@@ -81,10 +83,21 @@ export function loadCharacters(root = defaultRoot) {
       ...(layers?.items ?? []).flatMap((layer) => [layer.front, layer.side, layer.back, ...Object.values(layer.tpose)]),
     ]
     for (const asset of ids) assetById(assets, asset)
-    characters[id] = { id, name, role, order, listed, readingOrder: [{ path: `/characters/${id}/`, title: name }, ...pages], assets, home, layers, anchorMap, displayText }
+    characters[id] = { id, name, role, order, portrait, listed, readingOrder: [{ path: `/characters/${id}/`, title: name }, ...pages], assets, home, layers, anchorMap, displayText }
   }
   const roster = Object.values(characters).filter((character) => character.listed)
     .sort((a, b) => a.order - b.order || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
-    .map(({ id, name, role }) => ({ id, name, role, home: `/characters/${id}/` }))
+    .map(({ id, name, role, portrait, assets, home }) => ({ id, name, role, home: `/characters/${id}/`, updated: home.updated, portrait: { asset: portrait, ...assetById(assets, portrait).thumb } }))
   return { characters, roster, anchorMap: mergeAnchorMaps(Object.values(characters).map((character) => character.anchorMap)) }
+}
+
+/** @param {import('./theme/character-site-types').RosterEntry[]} roster @returns {import('vitepress').DefaultTheme.NavItem[]} */
+export function siteNav(roster) {
+  return [
+    ...(roster.length ? [{
+      text: '角色', activeMatch: '^/characters/',
+      items: roster.map(({ id, name, home }) => ({ text: name, link: home, activeMatch: `^/characters/${id}/` })),
+    }] : []),
+    { text: '通用规范', link: '/standards/', activeMatch: '/standards/' },
+  ]
 }

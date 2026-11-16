@@ -28,7 +28,7 @@ class Context:
     def __init__(self,cfg,pages,pending):
         self.cfg=cfg
         self.characters=cfg.characters
-        self.listed=[spec for spec in self.characters if spec.listed]
+        self.listed=sorted((spec for spec in self.characters if spec.listed),key=lambda spec:(spec.order,spec.id))
         self.stubs={path for spec in self.listed for path in spec.stubs}
         self.pages=load_pages(cfg.dist)
         def requested(paths):
@@ -290,6 +290,8 @@ def r7b(c):
             fig=figure_for(node)
             asset=c.asset_for_url(url,p.path)
             if not asset:continue
+            card=node.ancestor(lambda n:n.tag=='a' and n.has_class('character-card'))
+            if node.tag=='img' and card is not None and card.attrs.get('data-asset-id')==asset['id']:continue
             key=(fig or node,asset['id'])
             if key in seen:continue
             seen.add(key)
@@ -344,7 +346,7 @@ def latest_for(c,spec):
             if image_ids!={declared} or {asset['web']['path'] for asset in images}!=expected_paths:errors.append(fail('R9',p.path,'latest image must match its declared asset id'))
             actual.append((dates[0].attrs.get('datetime') if dates else None,titles[0].text().strip() if titles else None,item.attrs.get('data-asset-id')))
             if len(dates)!=1 or dates[0].text().strip()!=dates[0].attrs.get('datetime'):errors.append(fail('R9',p.path,'latest date text and datetime must agree'))
-    if actual!=list(spec.latest):errors.append(fail('R9',p.path,'latest dates, titles, assets or order differ from expected four entries'))
+    if actual!=list(spec.latest):errors.append(fail('R9',p.path,'latest dates, titles, assets or order differ from home.json highlights'))
     if len({x[2] for x in actual})!=len(actual):errors.append(fail('R9',p.path,'latest asset is repeated'))
     return errors
 
@@ -389,7 +391,7 @@ def r11(c):
             if own_caps:
                 strong=[n for n in own_caps[0].find('strong') if figure_for(n) is fig]
                 own_caption=(strong[0] if strong else own_caps[0]).text(skip=HIDDEN|{'figure'}).strip()
-            if aid in fixed and own_caption!=fixed[aid]:errors.append(fail('R11',p.path,'SUN-05 structure caption differs from required wording'))
+            if aid in fixed and own_caption!=fixed[aid]:errors.append(fail('R11',p.path,'fixed caption differs: '+aid))
             if current and 'front' in aid:
                 value=' '.join(n.text(skip=HIDDEN|{'figure'}) for n in own_caps)+' '.join(n.attrs.get('alt','') for n in own_images)
                 if '后腰' in value or '交叉携行' in value:errors.append(fail('R11',p.path,'front image caption/alt describes rear carry'))
@@ -577,6 +579,47 @@ def r16(c):
         path=normalize_path(urlsplit(document).path)
         if path in c.stubs:errors.append(fail('R16',path,'redirect stub is in local search index'))
         elif path not in c.pages:errors.append(fail('R16',path,'search document targets a missing page'))
+    return errors
+
+
+def r17(c):
+    """The home cards and native flyout share the listed character roster."""
+    errors=[]
+    if c.wanted('/'):
+        home=c.pages.get('/')
+        grids=[node for node in home.body.walk() if node.has_class('character-grid')] if home else []
+        if len(grids)!=1:
+            errors.append(fail('R17','/','expected exactly one character-grid'))
+        else:
+            cards=[node for node in grids[0].find('a') if node.has_class('character-card')]
+            if len(cards)!=len(c.listed):errors.append(fail('R17','/','card count differs from listed characters'))
+            for card,spec in zip(cards,c.listed):
+                if (card.attrs.get('href'),card.attrs.get('data-character-id'),card.attrs.get('data-asset-id'))!=(spec.home,spec.id,spec.portrait):
+                    errors.append(fail('R17','/','card identity, link or order differs: '+spec.id))
+                images=card.find('img')
+                if len(images)!=1 or tuple(images[0].attrs.get(key) for key in ('src','width','height','alt'))!=(spec.portrait_path,str(spec.portrait_width),str(spec.portrait_height),''):
+                    errors.append(fail('R17','/','card thumbnail differs: '+spec.id))
+                for classname,expected in (('character-card__name',spec.name),('character-card__role',spec.role)):
+                    nodes=[node for node in card.walk() if node.has_class(classname)]
+                    if len(nodes)!=1 or nodes[0].text().strip()!=expected:errors.append(fail('R17','/','card '+classname+' differs: '+spec.id))
+                dates=card.find('time')
+                if len(dates)!=1 or dates[0].attrs.get('datetime')!=spec.updated or dates[0].text().strip()!=spec.updated:
+                    errors.append(fail('R17','/','card date differs: '+spec.id))
+    for page in c.scanned():
+        for nav in (node for node in page.body.find('nav') if node.has_class('VPNavBarMenu')):
+            flyouts=[node for node in nav.walk() if node.has_class('VPFlyout') and any(button.text().strip()=='角色' for button in node.find('button'))]
+            if len(flyouts)!=(1 if c.listed else 0):
+                errors.append(fail('R17',page.path,'角色 flyout count differs from listed characters'))
+            elif flyouts:
+                links=[(node.attrs['href'],node.text().strip()) for node in flyouts[0].find('a','href')]
+                if links!=[(spec.home,spec.name) for spec in c.listed]:errors.append(fail('R17',page.path,'角色 menu links or order differ from listed characters'))
+    listed_ids={spec.id for spec in c.listed}
+    for page in c.pages.values():
+        for node in page.root.find('a','href'):
+            resolved=resolve_url(node.attrs['href'],page.path)
+            match=re.match(r'^/characters/([^/]+)/',resolved[0]) if resolved else None
+            if match and match[1] not in listed_ids:
+                errors.append(fail('R17',page.path,'link to unlisted character: '+node.attrs['href']))
     return errors
 
 

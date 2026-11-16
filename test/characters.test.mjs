@@ -9,7 +9,7 @@ import { parse, compileScript } from 'vue/compiler-sfc'
 import { transformWithEsbuild } from 'vite'
 import * as vue from 'vue'
 import * as serverRenderer from 'vue/server-renderer'
-import { discoverCharacters, loadCharacters, mergeAnchorMaps } from '../docs/.vitepress/characters.mjs'
+import { discoverCharacters, loadCharacters, mergeAnchorMaps, siteNav } from '../docs/.vitepress/characters.mjs'
 import { parseChip } from '../docs/.vitepress/data/character-data.mjs'
 import loader from '../docs/.vitepress/data/site.data.mjs'
 import { assetById, buildAssetIndex, characterForPage, focusAfterStep, readingNeighbors, stepIndex } from '../docs/.vitepress/theme/character-site.mjs'
@@ -88,9 +88,36 @@ test('roster sorts listed characters by order and then id while loading unlisted
   addCharacter(root, 'alpha', { listed: false, order: -1 })
   const data = loadCharacters(root)
   assert.deepEqual(data.roster.map(({ id }) => id), ['bunny', 'robot', 'zeta'])
-  assert.deepEqual(data.roster[0], { id: 'bunny', name: 'Bunny', role: '守卫', home: '/characters/bunny/' })
+  assert.deepEqual(data.roster[0], { id: 'bunny', name: 'Bunny', role: '守卫', home: '/characters/bunny/', updated: '2026-11-16', portrait: { asset: 'body-front-latest', path: '/site/thumbs/bunny/body-front-latest.webp', width: 24, height: 32 } })
   assert.equal(data.characters.alpha.listed, false)
   assert.equal(Object.keys(data.characters.alpha.assets).length, 10)
+})
+for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one 角色 flyout before standards`, (t) => {
+  const root = sandbox(t)
+  if (count > 0) addCharacter(root, 'bunny')
+  if (count > 1) addCharacter(root, 'robot', { order: 2 })
+  addCharacter(root, 'draft', { listed: false })
+  const standards = { text: '通用规范', link: '/standards/', activeMatch: '/standards/' }
+  const expected = count ? [{ text: '角色', activeMatch: '^/characters/', items: [
+    { text: 'Bunny', link: '/characters/bunny/', activeMatch: '^/characters/bunny/' },
+    ...(count === 2 ? [{ text: 'Robot', link: '/characters/robot/', activeMatch: '^/characters/robot/' }] : []),
+  ] }, standards] : [standards]
+  assert.deepEqual(siteNav(loadCharacters(root).roster), expected)
+})
+for (const portrait of ['missing-latest', 'robot-original-latest']) test(`registry rejects portrait ${portrait} even without pages`, (t) => {
+  const root = sandbox(t); const dir = addCharacter(root, 'robot', { listed: false })
+  mutate(root, dir, 'character.json', (value) => { value.portrait = portrait })
+  assert.throws(() => loadCharacters(root), /Unknown asset id|Portrait must belong to character collection/)
+})
+test('portrait requires its own collection thumbnail', (t) => {
+  const root = sandbox(t); addCharacter(root, 'robot', { listed: false })
+  mutate(root, 'docs/public/site/thumbs', 'index.json', (value) => { delete value['robot/body-front-latest'] })
+  assert.throws(() => loadCharacters(root), /Missing asset thumbnail: body-front-latest/)
+})
+for (const key of ['pages', 'stubs', 'latest', 'unexpected']) test(`site-check rejects extra key ${key} even without pages`, (t) => {
+  const root = sandbox(t); const dir = addCharacter(root, 'robot', { listed: false })
+  mutate(root, dir, 'site-check.json', (value) => { value[key] = [] })
+  assert.throws(() => loadCharacters(root), new RegExp(`Unknown site-check.json key: robot/${key}`))
 })
 test('loader exposes all characters, roster, merged map and wildcard watch paths', () => {
   const data = loader.load()
@@ -125,7 +152,7 @@ test('merged anchor and stub keys are unique across character maps', (t) => {
   addCharacter(root, 'bunny')
   const robot = addCharacter(root, 'robot')
   const key = '/characters/bunny/legacy'
-  mutate(root, robot, 'anchor-map.json', (map) => { map.stubs[key] = { target: '/characters/robot/', title: '角色' } })
+  mutate(root, robot, 'anchor-map.json', (map) => { map.anchors[key] = '/characters/robot/' })
   assert.throws(() => loadCharacters(root), /Duplicate anchor map key/)
   assert.throws(() => mergeAnchorMaps([{ stubs: {}, anchors: { [key]: '/' } }, { stubs: { [key]: { target: '/', title: '角色' } }, anchors: {} }]), /Duplicate anchor map key/)
 })
@@ -141,7 +168,7 @@ test('chips retain palette names and exact six-digit custom colours', () => {
   assert.deepEqual(parseChip({ name: '橙色', use: '识别', swatch: 'orange' }), { name: '橙色', use: '识别', swatch: 'orange' })
   assert.deepEqual(parseChip({ name: '青色', use: '识别', color: '#12ab89' }), { name: '青色', use: '识别', color: '#12ab89' })
 })
-for (const field of ['name', 'role', 'order', 'pages']) test(`character definition requires ${field}`, (t) => {
+for (const field of ['name', 'role', 'order', 'portrait', 'pages']) test(`character definition requires ${field}`, (t) => {
   const root = sandbox(t); const dir = addCharacter(root, 'robot')
   mutate(root, dir, 'character.json', (value) => { delete value[field] })
   assert.throws(() => loadCharacters(root), /Expected/)
@@ -155,6 +182,7 @@ test('optional layers are null, while a supplied layer chapter must exist', (t) 
 })
 for (const [label, update] of [
   ['reading page path', (root, dir) => mutate(root, dir, 'character.json', (value) => { value.pages[0].path = '/characters/other/page' })],
+  ['stub path', (root, dir) => mutate(root, dir, 'anchor-map.json', (value) => { value.stubs['/characters/other/page'] = { target: '/characters/robot/', title: '角色' } })],
   ['layer path', (root, dir) => mutate(root, dir, 'layers.json', (value) => { value.items[0].path = '/characters/other/page' })],
   ['duplicate layer number', (root, dir) => mutate(root, dir, 'layers.json', (value) => { value.items[1].layer = 0 })],
   ['fractional layer number', (root, dir) => mutate(root, dir, 'layers.json', (value) => { value.items[0].layer = 1.5 })],
@@ -196,7 +224,7 @@ async function renderComponent(name, data, path, props = {}, frontmatter = {}) {
   assert.deepEqual(errors, [])
   const compiled = compileScript(descriptor, { id: 'character-regression', genDefaultAs: '__component', inlineTemplate: true, templateOptions: { ssr: true } }).content
   const code = (await transformWithEsbuild(compiled, url.pathname + '.ts', { loader: 'ts' })).code
-  const modules = { vue, 'vue/server-renderer': serverRenderer, vitepress: context.vitepress, '../use-character': context.composable, './use-character': context.composable,
+  const modules = { vue, 'vue/server-renderer': serverRenderer, vitepress: context.vitepress, '../data/site.data.mjs': { data }, '../use-character': context.composable, './use-character': context.composable,
     '../character-site.mjs': { assetById, buildAssetIndex, focusAfterStep, readingNeighbors, stepIndex }, './AssetImage.vue': { default: { props: ['id', 'group'], render() { return vue.h('figure', { 'data-image-id': this.id, 'data-group': this.group }) } } },
     './ReleaseImage.vue': { default: { props: ['src', 'group'], render() { return vue.h('figure', { 'data-source': this.src, 'data-group': this.group }) } } },
     './components/LayerCard.vue': { default: empty }, './components/ReferenceCard.vue': { default: empty }, './components/PagePager.vue': { default: empty }, './components/RedirectStub.vue': { default: empty } }
@@ -205,6 +233,16 @@ async function renderComponent(name, data, path, props = {}, frontmatter = {}) {
   app.config.warnHandler = () => {}
   return serverRenderer.renderToString(app)
 }
+test('CharacterRoster renders the listed data with its thumbnail, date and decorative alt', async (t) => {
+  const root = sandbox(t); addCharacter(root, 'fixture'); addCharacter(root, 'draft', { listed: false })
+  const html = await renderComponent('CharacterRoster.vue', loadCharacters(root), 'index.md')
+  assert.match(html, /class="character-card" href="\/characters\/fixture\/" data-character-id="fixture" data-asset-id="body-front-latest"/)
+  assert.match(html, /src="\/site\/thumbs\/fixture\/body-front-latest.webp" width="24" height="32" alt="" loading="lazy" decoding="async"/)
+  assert.match(html, /class="character-card__name">Fixture<\/h2>/)
+  assert.match(html, /class="character-card__role">守卫<\/p>/)
+  assert.match(html, /最近更新 <time datetime="2026-11-16">2026-11-16<\/time>/)
+  assert.doesNotMatch(html, /draft/)
+})
 test('LayerCard renders a 0..2 map with that character chapter, noun and wear', async (t) => {
   const root = sandbox(t); addCharacter(root, 'fixture')
   const html = await renderComponent('components/LayerCard.vue', loadCharacters(root), 'characters/fixture/part-1.md', { layer: 1 })

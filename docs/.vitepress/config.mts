@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { createSearchRender } from './search-render.mjs'
-import { loadCharacters } from './characters.mjs'
+import { loadCharacters, siteNav } from './characters.mjs'
 
 const { roster, anchorMap } = loadCharacters()
 
@@ -24,10 +24,7 @@ export default defineConfig({
   },
   themeConfig: {
     siteTitle: 'OhGamers / Design',
-    nav: [
-      ...roster.map(({ id, name, home }) => ({ text: name, link: home, activeMatch: `^/characters/${id}/` })),
-      { text: '通用规范', link: '/standards/', activeMatch: '/standards/' },
-    ],
+    nav: siteNav(roster),
     sidebar: {
       '/standards/': [
         {
