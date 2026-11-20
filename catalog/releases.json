@@ -3,6 +3,180 @@
   "contentReady": false,
   "assets": [
     {
+      "character": "angel",
+      "path": "/media/angel/arm-sleeves-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/arm-sleeves-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/arm-sleeves-board-latest.png",
+      "key": "x_ops/design/characters/angel/latest/arm-sleeves-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/arm-sleeves-fit-overlay-latest.png",
+      "key": "x_ops/design/characters/angel/latest/arm-sleeves-fit-overlay-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/arm-sleeves-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/arm-sleeves-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/arm-sleeves-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/arm-sleeves-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/arm-sleeves-tpose-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/arm-sleeves-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/arm-sleeves-tpose-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/arm-sleeves-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/arm-sleeves-tpose-left-latest.png",
+      "key": "x_ops/design/characters/angel/latest/arm-sleeves-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/arm-sleeves-tpose-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/arm-sleeves-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/bodysuit-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/bodysuit-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/bodysuit-board-latest.png",
+      "key": "x_ops/design/characters/angel/latest/bodysuit-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/bodysuit-fit-overlay-latest.png",
+      "key": "x_ops/design/characters/angel/latest/bodysuit-fit-overlay-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/bodysuit-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/bodysuit-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/bodysuit-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/bodysuit-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/bodysuit-tpose-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/bodysuit-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/bodysuit-tpose-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/bodysuit-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/bodysuit-tpose-left-latest.png",
+      "key": "x_ops/design/characters/angel/latest/bodysuit-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/bodysuit-tpose-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/bodysuit-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boot-sole-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boot-sole-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boots-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boots-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boots-board-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boots-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boots-fit-overlay-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boots-fit-overlay-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boots-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boots-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boots-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boots-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boots-tpose-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boots-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boots-tpose-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boots-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boots-tpose-left-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boots-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/boots-tpose-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/boots-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/neckline-gusset-latest.png",
+      "key": "x_ops/design/characters/angel/latest/neckline-gusset-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "bunny",
       "path": "/media/bunny/belt-back-latest.png",
       "key": "x_ops/design/characters/bunny/latest/belt-back-latest.png",
@@ -708,6 +882,12 @@
       "character": "doge",
       "path": "/media/doge/suit-right-latest.png",
       "key": "x_ops/design/characters/doge/latest/suit-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "origins",
+      "path": "/media/origins/angel-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/angel-original-latest.png",
       "contentType": "image/png"
     },
     {

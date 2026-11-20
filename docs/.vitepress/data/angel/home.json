@@ -1,0 +1,89 @@
+{
+  "tabs": [
+    {
+      "key": "three",
+      "label": "站姿三视",
+      "caption": "第三层 · 连体衣、过膝长靴与黑色长臂套",
+      "assets": [
+        "arm-sleeves-front-latest",
+        "arm-sleeves-right-latest",
+        "arm-sleeves-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "平举四视",
+      "caption": "第三层 · 正面、角色右侧面、背面、角色左侧面",
+      "assets": [
+        "arm-sleeves-tpose-front-latest",
+        "arm-sleeves-tpose-right-latest",
+        "arm-sleeves-tpose-back-latest",
+        "arm-sleeves-tpose-left-latest"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-11-20",
+      "title": "第三层 · 黑色长臂套",
+      "asset": "arm-sleeves-board-latest",
+      "caption": "泡袖盖住臂套上口，腕边露出一道暖白织条。"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "第二层 · 过膝长靴",
+      "asset": "boots-board-latest",
+      "caption": "靴口、膝甲与鞋跟的穿戴结构。"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "第一层 · 白黑连体衣",
+      "asset": "bodysuit-board-latest",
+      "caption": "从领口套穿，白色泡袖与黑色腰臀连成一件。"
+    }
+  ],
+  "facts": [
+    {
+      "term": "发色",
+      "value": "浅银紫长发"
+    },
+    {
+      "term": "着装",
+      "value": "白色泡袖连体衣、黑色长靴与臂套"
+    },
+    {
+      "term": "收录范围",
+      "value": "第 1 至第 3 层"
+    }
+  ],
+  "chips": [
+    {
+      "name": "白",
+      "use": "胸背与泡袖",
+      "swatch": "white"
+    },
+    {
+      "name": "黑",
+      "use": "腰臀、长靴和臂套",
+      "swatch": "black"
+    },
+    {
+      "name": "蓝紫",
+      "use": "腰片与靴部细节",
+      "color": "#6547A9"
+    }
+  ],
+  "chipNote": "蓝紫腰片从角色右腰斜向角色左胯。",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-20",
+  "chapters": [
+    {
+      "id": "layers",
+      "label": "衣层顺序"
+    },
+    {
+      "id": "origin",
+      "label": "画师原稿"
+    }
+  ]
+}

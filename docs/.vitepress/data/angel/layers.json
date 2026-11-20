@@ -1,0 +1,85 @@
+{
+  "chapter": "layers",
+  "noun": "衣层",
+  "wear": "穿着",
+  "items": [
+    {
+      "layer": 1,
+      "name": "白黑连体衣",
+      "path": "/characters/angel/bodysuit",
+      "front": "bodysuit-front-latest",
+      "side": "bodysuit-right-latest",
+      "back": "bodysuit-back-latest",
+      "tpose": {
+        "front": "bodysuit-tpose-front-latest",
+        "right": "bodysuit-tpose-right-latest",
+        "back": "bodysuit-tpose-back-latest",
+        "left": "bodysuit-tpose-left-latest"
+      },
+      "summary": "白色胸背与泡袖连接黑色腰臀，构成一件从领口套穿的连体衣。",
+      "facts": [
+        {
+          "term": "领口",
+          "value": "前 V 领、低方后领"
+        },
+        {
+          "term": "裆底",
+          "value": "黑色裆布连续，内侧有裆衬"
+        }
+      ],
+      "leftRight": "紫色腰片在角色右腰高而宽，在角色左胯低而窄。正面图中角色右侧位于画面左边。"
+    },
+    {
+      "layer": 2,
+      "name": "过膝长靴",
+      "path": "/characters/angel/boots",
+      "front": "boots-front-latest",
+      "side": "boots-right-latest",
+      "back": "boots-back-latest",
+      "tpose": {
+        "front": "boots-tpose-front-latest",
+        "right": "boots-tpose-right-latest",
+        "back": "boots-tpose-back-latest",
+        "left": "boots-tpose-left-latest"
+      },
+      "summary": "在连体衣外穿上过膝长靴，靴口从大腿外侧向内侧降低。",
+      "facts": [
+        {
+          "term": "靴筒",
+          "value": "靴口前中带竖片，拉链沿靴筒正后方走线"
+        },
+        {
+          "term": "鞋底",
+          "value": "鞋跟向脚跟下方落地，前掌有三道浅槽"
+        }
+      ],
+      "leftRight": "正面由鞋尖挡住细跟。角色右侧面可见鞋跟相对脚踝的位置。"
+    },
+    {
+      "layer": 3,
+      "name": "黑色长臂套",
+      "path": "/characters/angel/arm-sleeves",
+      "front": "arm-sleeves-front-latest",
+      "side": "arm-sleeves-right-latest",
+      "back": "arm-sleeves-back-latest",
+      "tpose": {
+        "front": "arm-sleeves-tpose-front-latest",
+        "right": "arm-sleeves-tpose-right-latest",
+        "back": "arm-sleeves-tpose-back-latest",
+        "left": "arm-sleeves-tpose-left-latest"
+      },
+      "summary": "在连体衣和长靴的基础上，双臂穿上独立的哑黑长臂套。",
+      "facts": [
+        {
+          "term": "上口",
+          "value": "藏在白色泡袖下，内侧用软止滑带固定"
+        },
+        {
+          "term": "腕口",
+          "value": "暖白织条与窄黑边收口，露出手掌"
+        }
+      ],
+      "leftRight": "两只臂套的纵缝都沿小指侧走，避开肘窝。蓝色标记在角色右臂的白色泡袖上。"
+    }
+  ]
+}

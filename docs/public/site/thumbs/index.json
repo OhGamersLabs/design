@@ -1,4 +1,236 @@
 {
+  "angel/arm-sleeves-back-latest": {
+    "path": "/site/thumbs/angel/arm-sleeves-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "910b77422dd024589b508bc8ca59ef6a5c5f3405b6aca3feea5936d70df6b3ad",
+    "sourcePath": "/characters/angel/arm-sleeves-back-latest.webp",
+    "sourceSha256": "61d8b99cc05a51042701492c5bb39ef63a6709b25052d00b274a9af7d945cb18"
+  },
+  "angel/arm-sleeves-board-latest": {
+    "path": "/site/thumbs/angel/arm-sleeves-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "08c21a913a1da4618d16db00b7a2d23556861c721062ab70c8a7452dca44df84",
+    "sourcePath": "/characters/angel/arm-sleeves-board-latest.webp",
+    "sourceSha256": "9afce92393438ef7824497c43e6ee1f302f10c18a2779bcb3c1a95ef0da689d4"
+  },
+  "angel/arm-sleeves-fit-overlay-latest": {
+    "path": "/site/thumbs/angel/arm-sleeves-fit-overlay-latest.webp",
+    "width": 480,
+    "height": 293,
+    "sha256": "8f1088a368934a0f120d44576afce45663bbcf813a70e7e2c873b541cb91013b",
+    "sourcePath": "/characters/angel/arm-sleeves-fit-overlay-latest.webp",
+    "sourceSha256": "cfff34d01debae7633786f4f332516de9ad397f6a18a44d8ea71b4cf93f7fc4b"
+  },
+  "angel/arm-sleeves-front-latest": {
+    "path": "/site/thumbs/angel/arm-sleeves-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "5381a5e9f7e5e0b7cd5a3b67dd5b68b6f08189a44fe0fd16db1a0d5db2dd5690",
+    "sourcePath": "/characters/angel/arm-sleeves-front-latest.webp",
+    "sourceSha256": "abcc0a86b923a78b4f23a931c6f5d60384533b4c086ad7d1e99075778992d76d"
+  },
+  "angel/arm-sleeves-right-latest": {
+    "path": "/site/thumbs/angel/arm-sleeves-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "87eb8a7aecc6be31b2e8b9816be6091c2818157349080cfea053e43783bdbc42",
+    "sourcePath": "/characters/angel/arm-sleeves-right-latest.webp",
+    "sourceSha256": "7470b8abb2bb456a975966c991a587da4636c9a6654afe10a332e298ffd8da41"
+  },
+  "angel/arm-sleeves-tpose-back-latest": {
+    "path": "/site/thumbs/angel/arm-sleeves-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ddd881d232b6dab553b45cced7b5dc02ddd7497d4631ea44e0bcdfeec612dd1f",
+    "sourcePath": "/characters/angel/arm-sleeves-tpose-back-latest.webp",
+    "sourceSha256": "af096d1ec03d811b29372fe0d532c36b5fc2b1b8348dc376c16004378c8fab35"
+  },
+  "angel/arm-sleeves-tpose-front-latest": {
+    "path": "/site/thumbs/angel/arm-sleeves-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "df633fa2d2a22083824eda9a274a41560b7d2fc91d8106dd007e3e405767cb1a",
+    "sourcePath": "/characters/angel/arm-sleeves-tpose-front-latest.webp",
+    "sourceSha256": "e7f650962e22c8b86cc99765842e20a327f1c67434eb5adaecbb97d0d508210d"
+  },
+  "angel/arm-sleeves-tpose-left-latest": {
+    "path": "/site/thumbs/angel/arm-sleeves-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c92a2fede4723b2da40d2a88f4c0b57654f58c86f69734efe4e00bbe682e2177",
+    "sourcePath": "/characters/angel/arm-sleeves-tpose-left-latest.webp",
+    "sourceSha256": "a0ab7e9c13617b05fe78631fa70bd16bb094be4fabf77a9df8509495a97be746"
+  },
+  "angel/arm-sleeves-tpose-right-latest": {
+    "path": "/site/thumbs/angel/arm-sleeves-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "f9d6ad92d9ef2451928bde17f31893b30a1a50d79a67cc444dfbf584c1cd66ec",
+    "sourcePath": "/characters/angel/arm-sleeves-tpose-right-latest.webp",
+    "sourceSha256": "0afbf70243f87da69a3b4ce6e7cd8bf71403c8a9d4359034264fff63112003b1"
+  },
+  "angel/bodysuit-back-latest": {
+    "path": "/site/thumbs/angel/bodysuit-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "f9c863fca65f6457c499ac98a22254107b3d1dc544814af8469dba5fd6155f8e",
+    "sourcePath": "/characters/angel/bodysuit-back-latest.webp",
+    "sourceSha256": "b327543aed62e63d8048ed11d1c993103b32ad993494cb584d5b5320d7cf281a"
+  },
+  "angel/bodysuit-board-latest": {
+    "path": "/site/thumbs/angel/bodysuit-board-latest.webp",
+    "width": 480,
+    "height": 396,
+    "sha256": "f36ba81c5b04500181b8af69a161679d70305f7ec21e9ade56dfaefda8b40d19",
+    "sourcePath": "/characters/angel/bodysuit-board-latest.webp",
+    "sourceSha256": "7ce0fdb4cca460284209275d1d9ccfa10157ae458473f4b9b273e243baf42a89"
+  },
+  "angel/bodysuit-fit-overlay-latest": {
+    "path": "/site/thumbs/angel/bodysuit-fit-overlay-latest.webp",
+    "width": 480,
+    "height": 264,
+    "sha256": "30346b185fc1050a973bc6cf56a7e7a30bb9536605dc8e26f4ed12b673cdf5ca",
+    "sourcePath": "/characters/angel/bodysuit-fit-overlay-latest.webp",
+    "sourceSha256": "21a81504f1cae66b8cdaad10bffa8866d0e833c63ae2277d87a0be5c9656842d"
+  },
+  "angel/bodysuit-front-latest": {
+    "path": "/site/thumbs/angel/bodysuit-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "4c5c7107afe53a557247f411c43b16c281e49d7711ad074525745ccf8dbb177d",
+    "sourcePath": "/characters/angel/bodysuit-front-latest.webp",
+    "sourceSha256": "45794300d22e5727bb3262f3597e93d8aac0ea5e6a5b8f2b6569d4dbe997e91c"
+  },
+  "angel/bodysuit-right-latest": {
+    "path": "/site/thumbs/angel/bodysuit-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "63d617c0931432577e8c08d0a3b2cde6a588865f0eb1ef16e60661c1c3cac08a",
+    "sourcePath": "/characters/angel/bodysuit-right-latest.webp",
+    "sourceSha256": "816c2fe90ef7933dd98ff5800e33ccfa4d42120b86d811fe4f3959db9479ee44"
+  },
+  "angel/bodysuit-tpose-back-latest": {
+    "path": "/site/thumbs/angel/bodysuit-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8a321b988f54c9e2e04566be3decccd43a9135df5497fa8cda91361ab2a0fd18",
+    "sourcePath": "/characters/angel/bodysuit-tpose-back-latest.webp",
+    "sourceSha256": "0b4ca36ae3ddff738d5e3d935083a0b5f2f662ed5dfa5905d2d542f3023e8bd7"
+  },
+  "angel/bodysuit-tpose-front-latest": {
+    "path": "/site/thumbs/angel/bodysuit-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "3571c9c90e288b76c26c2f379a48c9b221fdd89644320c0aecea065d4628fbcc",
+    "sourcePath": "/characters/angel/bodysuit-tpose-front-latest.webp",
+    "sourceSha256": "f71265b2ea7aaebf51d00978e48e5e6d33d554e869f32c9cf4c85f8f4d7ae278"
+  },
+  "angel/bodysuit-tpose-left-latest": {
+    "path": "/site/thumbs/angel/bodysuit-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "057b9ee5c14c0ea08e45ecbf3a9ba5b9d83a426f8cd4789c88b32c6529297baa",
+    "sourcePath": "/characters/angel/bodysuit-tpose-left-latest.webp",
+    "sourceSha256": "b159cb67c281c7953f925e9e7b742384bcf27c38bd4c5dfafd4341a6c73873c0"
+  },
+  "angel/bodysuit-tpose-right-latest": {
+    "path": "/site/thumbs/angel/bodysuit-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "a572130cbbf7cf58606e4e73a0406382fd9229efe9bf279460388e2f35e9143e",
+    "sourcePath": "/characters/angel/bodysuit-tpose-right-latest.webp",
+    "sourceSha256": "93f7d4ac4b1d899d10088f0c0e91001d6efaa838d749b26cc04cf83ca4da5d97"
+  },
+  "angel/boot-sole-latest": {
+    "path": "/site/thumbs/angel/boot-sole-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "448894c6e15c77312aeded5dee9c01afd19979a9ae29224dcc38f6607679cc57",
+    "sourcePath": "/characters/angel/boot-sole-latest.webp",
+    "sourceSha256": "f020f7ce84caeb3e40c9e72bf84361cffc130b6a9a9ef0b376c6d55c68633067"
+  },
+  "angel/boots-back-latest": {
+    "path": "/site/thumbs/angel/boots-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "f33bf80dd9d14f1a69fd95572f4103034113f6a355d365034acd56db4d20ab30",
+    "sourcePath": "/characters/angel/boots-back-latest.webp",
+    "sourceSha256": "7dce82fd4cb101d4f20e2d8ee87ab9a6901ca989535158906629b48170312bb1"
+  },
+  "angel/boots-board-latest": {
+    "path": "/site/thumbs/angel/boots-board-latest.webp",
+    "width": 480,
+    "height": 383,
+    "sha256": "a99764337904f5481867d8bec74816b3227aa3c56eb88325bb70c1704dca89b7",
+    "sourcePath": "/characters/angel/boots-board-latest.webp",
+    "sourceSha256": "b0d8fd9ca781e1b2c44633f345961bc6509f1d39f3d44986101bd7a0f7d047ae"
+  },
+  "angel/boots-fit-overlay-latest": {
+    "path": "/site/thumbs/angel/boots-fit-overlay-latest.webp",
+    "width": 480,
+    "height": 264,
+    "sha256": "fe2f9b24dd524204c1f2ece0c273c0c256b092ee427a9c0eb8d17a88e5343111",
+    "sourcePath": "/characters/angel/boots-fit-overlay-latest.webp",
+    "sourceSha256": "9dd0d7a00ef048434274e4ddfa2491b0a8c280b3cf4ae39a6911fc663671572c"
+  },
+  "angel/boots-front-latest": {
+    "path": "/site/thumbs/angel/boots-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "c611b2cb87c46b0993d98317b1da8ed79a4a801d43ca554d44962898412168f1",
+    "sourcePath": "/characters/angel/boots-front-latest.webp",
+    "sourceSha256": "bbd30157f1385fa966ed6fd091ab6a2e1f12a71cc953ee4daa28d9708356222b"
+  },
+  "angel/boots-right-latest": {
+    "path": "/site/thumbs/angel/boots-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "34fd6147af38d4ded91fd51e759657ac2945d0970c02f67ab39525677f10922b",
+    "sourcePath": "/characters/angel/boots-right-latest.webp",
+    "sourceSha256": "5c7badc339a522df04420b140e8535d0e9cccacb2ae01863526d19284970daf8"
+  },
+  "angel/boots-tpose-back-latest": {
+    "path": "/site/thumbs/angel/boots-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "85b3fd82ba8ace08b1b651aef9a99f00d556055c3906d43adb89a600533a9f6b",
+    "sourcePath": "/characters/angel/boots-tpose-back-latest.webp",
+    "sourceSha256": "3a2adbf2d4754e5d6c8eb4be1a14a465534960c8ed220a13b440418c578d1a82"
+  },
+  "angel/boots-tpose-front-latest": {
+    "path": "/site/thumbs/angel/boots-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "1ee332b67a40eb1e18f7a8d3834bc5b0aaecbc00777522474f256116540072d5",
+    "sourcePath": "/characters/angel/boots-tpose-front-latest.webp",
+    "sourceSha256": "380aadc4624d18542ef0dcebfe37d24fc1add9ea33aee4abf0b8c21c986cbd17"
+  },
+  "angel/boots-tpose-left-latest": {
+    "path": "/site/thumbs/angel/boots-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "f58698944e86e93e51b3dcb1e01d41a95e3a5cf866d85786aaf0e04a236853a5",
+    "sourcePath": "/characters/angel/boots-tpose-left-latest.webp",
+    "sourceSha256": "9254cec0b0b309c08d3e439373d153d56ea82ad04f6195cec3efed53896d3139"
+  },
+  "angel/boots-tpose-right-latest": {
+    "path": "/site/thumbs/angel/boots-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9310efbb2229f34eeb244c9155862a641972499e7ac9dd10a34bda338b32967f",
+    "sourcePath": "/characters/angel/boots-tpose-right-latest.webp",
+    "sourceSha256": "071321aa103a3b406761f75acdd63a2356c4550c9b78c5acd89d81b59fe1dbde"
+  },
+  "angel/neckline-gusset-latest": {
+    "path": "/site/thumbs/angel/neckline-gusset-latest.webp",
+    "width": 480,
+    "height": 342,
+    "sha256": "74122d2eb42a877d619648d66fe1feccb36362476de6a24731cbdd0a34a063a3",
+    "sourcePath": "/characters/angel/neckline-gusset-latest.webp",
+    "sourceSha256": "757ca441f33f7bfe8618ef0c3c9e565208ba6db7b92828346f7353e249972be3"
+  },
   "bunny/belt-back-latest": {
     "path": "/site/thumbs/bunny/belt-back-latest.webp",
     "width": 480,
@@ -942,6 +1174,14 @@
     "sha256": "eea00352451a5c0836b65bf6966cb069c9e52bf71cb622bf1624ab4a8bb0351f",
     "sourcePath": "/characters/doge/suit-right-latest.webp",
     "sourceSha256": "e914f6ccaca7858a32050f8d588c08124b929966ab3036d3de95c191798a9d1a"
+  },
+  "origins/angel-original-latest": {
+    "path": "/site/thumbs/origins/angel-original-latest.webp",
+    "width": 480,
+    "height": 509,
+    "sha256": "271c2bee70f817f566f687746670d36ec301b32a296acb7cf8d3faa897311fdf",
+    "sourcePath": "/characters/origins/angel-original-latest.webp",
+    "sourceSha256": "bbacaa0b16f01f89f89c2ef835fe6684f301b6f1b77bf4481bf18457105575cd"
   },
   "origins/bunny-original-latest": {
     "path": "/site/thumbs/origins/bunny-original-latest.webp",
