@@ -1,19 +1,14 @@
 ---
 title: 标准青年男素体
-description: OhGamers 标准青年男通用 2D 素体（相对身高 1.08×），含 A 姿三视与 T 姿四视。
-layout: BaseBodyPage
-pageType: tier
-tier: male-standard
+search: false
 sidebar: false
 aside: false
+head:
+  - - meta
+    - http-equiv: refresh
+      content: 0; url=/standards/male-standard
 ---
 
-# 标准青年男素体 {.bunny-sr-only}
+# 标准青年男素体
 
-<BaseBodyTierViews tier="male-standard" />
-
-## 结构与使用要点 {#notes}
-
-- **体态定位**：相对女性标准素体身高 `1.08×`（高出约半个头），赤脚实测 7.42 头身。肩宽约 1.93 头、腰宽约 0.95 头，呈利落修长的精壮青年倒三角体格，适合常规与敏捷型男性角色。
-- **上身与侧视厚度**：采用裸上身设定，以简洁清晰的赛璐璐线条表达锁骨、胸大肌下缘、肋廓与紧致腰腹结构，不做夸张块状堆叠；侧视腰厚约为正面腰宽的 0.78 倍，胸背立体自然。
-- **占位头与下装**：配清爽短碎深炭黑发与中性深灰瞳，耳廓与脖颈完整露出；下身穿无装饰哑光深炭黑平角运动短裤，赤脚站立，便于换装时直接定位腰线与裤型。
+请前往 [标准青年男素体](/standards/male-standard)。

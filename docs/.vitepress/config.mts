@@ -25,14 +25,7 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'OhGamers / Design',
     nav: siteNav(roster),
-    sidebar: {
-      '/standards/': [
-        {
-          text: '通用规范',
-          items: [{ text: '规范索引', link: '/standards/' }],
-        },
-      ],
-    },
+    sidebar: {},
     outline: { label: '本页目录', level: [2, 3] },
     docFooter: { prev: '上一页', next: '下一页' },
     sidebarMenuLabel: '章节导航',

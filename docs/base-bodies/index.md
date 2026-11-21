@@ -1,71 +1,14 @@
 ---
-title: 通用素体
-description: OhGamers 全家族三档通用 2D 素体：女性标准、标准青年男与重壮男 A 姿三视与 T 姿四视。
-layout: BaseBodyPage
-pageType: overview
+title: 通用规范
+search: false
 sidebar: false
 aside: false
-releaseReady: false
+head:
+  - - meta
+    - http-equiv: refresh
+      content: 0; url=/standards/
 ---
 
-# 通用素体 {.bunny-sr-only}
+# 通用规范
 
-<BaseBodyHero />
-
-<div class="bunny-section-heading">
-
-## 三档素体 {#tiers}
-
-<p>按相对身高分为三档，每档提供 A 姿三视与 T 姿四视，共二十一张标准视图。点入对应档位查看完整七视图与实测比例。</p>
-</div>
-
-<BaseBodyTierGrid />
-
-<div class="bunny-section-heading">
-
-## 比例对照 {#proportions}
-
-<p>以各档自身发顶至下巴的头高为单位，厘米身高未设定。三档按 1.00× : 1.08× : 1.17× 共用脚底基线站立时，三者绝对头高相差不超过百分之二。</p>
-</div>
-
-<div class="base-body-table-wrap">
-
-| 比例项 | [女性标准素体](/base-bodies/female-standard) | [标准青年男素体](/base-bodies/male-standard) | [重壮男素体](/base-bodies/male-heavy) |
-| --- | --- | --- | --- |
-| 相对身高倍率 | 1.00×（基准档） | 1.08× | 1.17× |
-| 赤脚头身比 | 6.50 – 6.54 头 | 7.42 头 | 7.87 头 |
-| 正面左右肩宽 | 1.28 – 1.33 头 | 1.93 头 | 2.45 头 |
-| 正面腰宽 | 0.69 头 | 0.95 头 | 1.17 头 |
-| 正面臀宽 | 1.17 头 | 1.40 头 | 1.73 头 |
-| 肩腰比 / 肩臀比 | 1.92 / 1.14 | 2.03 / 1.38 | 2.10 / 1.42 |
-| 上臂宽 / 大腿宽 / 小腿宽 | 0.26 / 0.57 / 0.35 头 | 0.38 / 0.66 / 0.42 头 | 0.49 / 0.86 / 0.53 头 |
-| 侧视腰厚 / 正面腰宽 | 0.72× | 0.78× | 0.77× |
-| 人台着装 | 哑光深炭黑两件式运动打底 | 裸上身 + 哑光深炭黑平角短裤 | 裸上身 + 哑光深炭黑平角短裤 |
-
-</div>
-
-<div class="bunny-section-heading">
-
-## 画风与调用 {#rules}
-
-<p>全家族人型角色统一调用三档素体作为第 0 层基础人台，避免单角色另起骨架与画风漂移。</p>
-</div>
-
-<div class="base-body-rules-grid">
-  <div class="base-body-rule-card">
-    <h3>统一画风与线重</h3>
-    <p>全套采用日系 TV 动画赛璐璐平涂风格：近黑粗实外轮廓配利落细内线，单一硬边阴影，画面左上方主光，纯白底无投影无标尺，三档同框时肤色与线稿观感完全统一。</p>
-  </div>
-  <div class="base-body-rule-card">
-    <h3>通用占位头设计</h3>
-    <p>三档均配深炭黑短发与中性深灰瞳的平静占位头，不带任何头饰、护目镜或装饰，耳廓、下颌线、颈部与斜方肌完整露出，便于创建具体角色时整头替换。</p>
-  </div>
-  <div class="base-body-rule-card">
-    <h3>第 0 层换头与分层换装</h3>
-    <p>新角色制作第 0 层身体时，直接取对应档位同角度七张视图作为母版，仅替换头部与发型（可按设定微调肤色），锁定颈下体型、站姿与画幅；进入衣层后直接覆盖人台打底或平角短裤逐层穿戴。</p>
-  </div>
-  <div class="base-body-rule-card">
-    <h3>T 姿多视建模规范</h3>
-    <p>每档 T 姿四视均为 1024×1024 纯白底正交图，涵盖正面、角色右侧面、背面与角色左侧面。角色左侧面与角色右侧面均省去近侧手臂，完整露出圆润肩帽、胸背起伏与腰臀侧轮廓。</p>
-  </div>
-</div>
+通用素体已整合至 [通用规范](/standards/)。

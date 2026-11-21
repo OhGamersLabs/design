@@ -48,7 +48,7 @@ export function loadBaseBodies(root = defaultRoot) {
     const tier = record(entry)
     const id = text(tier.id)
     const path = text(tier.path)
-    if (!path.startsWith('/base-bodies/')) throw new Error(`Base body path outside /base-bodies/: ${path}`)
+    if (!path.startsWith('/standards/')) throw new Error(`Base body path outside /standards/: ${path}`)
     const portraitId = text(tier.portrait)
     const portraitAsset = assetById(assets, portraitId)
     const aposeSource = record(tier.apose)
@@ -77,7 +77,7 @@ export function loadBaseBodies(root = defaultRoot) {
   })
 
   const readingOrder = [
-    { path: '/base-bodies/', title: '通用素体总览' },
+    { path: '/standards/', title: '素体与规范总览' },
     ...tiers.map((tier) => ({ path: tier.path, title: tier.name })),
   ]
 
