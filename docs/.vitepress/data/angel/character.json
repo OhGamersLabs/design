@@ -2,7 +2,7 @@
   "name": "天使",
   "role": "职业待定",
   "order": 3,
-  "portrait": "choker-front-latest",
+  "portrait": "hip-emblem-front-latest",
   "pages": [
     {
       "path": "/characters/angel/bodysuit",
@@ -19,6 +19,10 @@
     {
       "path": "/characters/angel/choker",
       "title": "独立颈圈"
+    },
+    {
+      "path": "/characters/angel/hip-emblem",
+      "title": "胯章与外侧腿带"
     }
   ]
 }

@@ -226,6 +226,60 @@
     },
     {
       "character": "angel",
+      "path": "/media/angel/hip-emblem-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/hip-emblem-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/hip-emblem-board-latest.png",
+      "key": "x_ops/design/characters/angel/latest/hip-emblem-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/hip-emblem-fit-overlay-latest.png",
+      "key": "x_ops/design/characters/angel/latest/hip-emblem-fit-overlay-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/hip-emblem-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/hip-emblem-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/hip-emblem-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/hip-emblem-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/hip-emblem-tpose-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/hip-emblem-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/hip-emblem-tpose-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/hip-emblem-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/hip-emblem-tpose-left-latest.png",
+      "key": "x_ops/design/characters/angel/latest/hip-emblem-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/hip-emblem-tpose-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/hip-emblem-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
       "path": "/media/angel/neckline-gusset-latest.png",
       "key": "x_ops/design/characters/angel/latest/neckline-gusset-latest.png",
       "contentType": "image/png"

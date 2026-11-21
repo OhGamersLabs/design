@@ -295,6 +295,78 @@
     "sourcePath": "/characters/angel/choker-tpose-right-latest.webp",
     "sourceSha256": "2cda82f4b10929e58f6691f7c4abeb184759bd44b58790739ad810d3277ba052"
   },
+  "angel/hip-emblem-back-latest": {
+    "path": "/site/thumbs/angel/hip-emblem-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "920e4d784b308021f771c480f8c9ed4b7f6f054b7b48e43e6aa61339e1945bfe",
+    "sourcePath": "/characters/angel/hip-emblem-back-latest.webp",
+    "sourceSha256": "a084f57495a42acf5ec23255a463bcbb41af65b8c1e96d31d11ebb0e5d6a82bd"
+  },
+  "angel/hip-emblem-board-latest": {
+    "path": "/site/thumbs/angel/hip-emblem-board-latest.webp",
+    "width": 480,
+    "height": 310,
+    "sha256": "453b3523a427e65f9dcf08f25fa59f41093ac655d7bd9dd992bcf3ca72339b15",
+    "sourcePath": "/characters/angel/hip-emblem-board-latest.webp",
+    "sourceSha256": "df236ae0548075ebc190e5419a6713e642959472f8b45590dbd5f181b4015de2"
+  },
+  "angel/hip-emblem-fit-overlay-latest": {
+    "path": "/site/thumbs/angel/hip-emblem-fit-overlay-latest.webp",
+    "width": 480,
+    "height": 293,
+    "sha256": "e79a730515a9e374ff2c7d470cbc5f0a4448c67af24c52c74b02f4d2748cc2d7",
+    "sourcePath": "/characters/angel/hip-emblem-fit-overlay-latest.webp",
+    "sourceSha256": "b9823ff3d037305b565c959a7e9978b94229ded4183627c96587298f3d55d63c"
+  },
+  "angel/hip-emblem-front-latest": {
+    "path": "/site/thumbs/angel/hip-emblem-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "91a83861885ca5681feee48217cb98e10496be77d3fa057a2b2cdd737a5b19f0",
+    "sourcePath": "/characters/angel/hip-emblem-front-latest.webp",
+    "sourceSha256": "9d282c209301fda5493ce4b599de0154fd28551ba7b666a92a8287f024307548"
+  },
+  "angel/hip-emblem-right-latest": {
+    "path": "/site/thumbs/angel/hip-emblem-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "728d5673ad803989425ad5433d26ac5660104b227a3e19bb63a0dea62aaa8120",
+    "sourcePath": "/characters/angel/hip-emblem-right-latest.webp",
+    "sourceSha256": "491f08078360592a5769e8129cf77310dc6df530870aca36b5acff967053f94e"
+  },
+  "angel/hip-emblem-tpose-back-latest": {
+    "path": "/site/thumbs/angel/hip-emblem-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0ae9606b79035bfa81b4f4252e36692521b8d2f8b4f3486bc0c64e8196ee8b59",
+    "sourcePath": "/characters/angel/hip-emblem-tpose-back-latest.webp",
+    "sourceSha256": "f4813f0c07df05b8ec83505ad7468966e11e48b82e83ab360eb2adcbc2ffe6a3"
+  },
+  "angel/hip-emblem-tpose-front-latest": {
+    "path": "/site/thumbs/angel/hip-emblem-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "687fb16a482239bb9ca6401033196ff2b5c814ca76eec1c3b9b8a3b67ad6b19a",
+    "sourcePath": "/characters/angel/hip-emblem-tpose-front-latest.webp",
+    "sourceSha256": "f69aec3ba2782014c0136d33b28de3c238037beeec1df07086023a3650932574"
+  },
+  "angel/hip-emblem-tpose-left-latest": {
+    "path": "/site/thumbs/angel/hip-emblem-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "97bcec18835a2fc34544fee1553371abacb0872babe3bfd904bcee292d2ac20e",
+    "sourcePath": "/characters/angel/hip-emblem-tpose-left-latest.webp",
+    "sourceSha256": "f961ab0124dde3206f861c574b968e902b350a799be4cd56e35e82c82296d797"
+  },
+  "angel/hip-emblem-tpose-right-latest": {
+    "path": "/site/thumbs/angel/hip-emblem-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b651d24f57fe3ea5ecfeaf2dceb7014c1a16c1f7fef5725a1f6ca80ee81f444b",
+    "sourcePath": "/characters/angel/hip-emblem-tpose-right-latest.webp",
+    "sourceSha256": "99b5a343fdfc7197e59da2c510d693be169c86b2f3539604eb43fa951c3bb038"
+  },
   "angel/neckline-gusset-latest": {
     "path": "/site/thumbs/angel/neckline-gusset-latest.webp",
     "width": 480,

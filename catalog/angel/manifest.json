@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "天使 设计参考",
   "status": "local-review",
-  "asset_count": 38,
+  "asset_count": 47,
   "assets": [
     {
       "id": "arm-sleeves-back-latest",
@@ -854,6 +854,213 @@
         "height": 1248,
         "bytes": 455434,
         "sha256": "2cda82f4b10929e58f6691f7c4abeb184759bd44b58790739ad810d3277ba052",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hip-emblem-back-latest",
+      "character": "angel",
+      "title": "hip-emblem-back-latest",
+      "original": {
+        "path": "/media/angel/hip-emblem-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1220426,
+        "sha256": "0bfcf4e0ab4e375fb748e22698b2cb8e98df0d8a7e362bca28017c619508483a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/hip-emblem-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 708692,
+        "sha256": "a084f57495a42acf5ec23255a463bcbb41af65b8c1e96d31d11ebb0e5d6a82bd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hip-emblem-board-latest",
+      "character": "angel",
+      "title": "hip-emblem-board-latest",
+      "original": {
+        "path": "/media/angel/hip-emblem-board-latest.png",
+        "mime_type": "image/png",
+        "width": 2400,
+        "height": 1552,
+        "bytes": 1014456,
+        "sha256": "553c661e8aae2f99640b39de4557a9cb8a60341b32e6ba88a56998c3d4db7376",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/hip-emblem-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1324,
+        "bytes": 594782,
+        "sha256": "df236ae0548075ebc190e5419a6713e642959472f8b45590dbd5f181b4015de2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hip-emblem-fit-overlay-latest",
+      "character": "angel",
+      "title": "hip-emblem-fit-overlay-latest",
+      "original": {
+        "path": "/media/angel/hip-emblem-fit-overlay-latest.png",
+        "mime_type": "image/png",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 947371,
+        "sha256": "ee2d15e651364d744868679475e068ae2c74c2d5d4a3d10df9aaef71266b6bfa",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/hip-emblem-fit-overlay-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 686616,
+        "sha256": "b9823ff3d037305b565c959a7e9978b94229ded4183627c96587298f3d55d63c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hip-emblem-front-latest",
+      "character": "angel",
+      "title": "hip-emblem-front-latest",
+      "original": {
+        "path": "/media/angel/hip-emblem-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1668552,
+        "sha256": "7d47627dcdee5e3e54bdd00d74ac93ba08c34b13fa499268b01ad51ca1685b26",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/hip-emblem-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 879608,
+        "sha256": "9d282c209301fda5493ce4b599de0154fd28551ba7b666a92a8287f024307548",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hip-emblem-right-latest",
+      "character": "angel",
+      "title": "hip-emblem-right-latest",
+      "original": {
+        "path": "/media/angel/hip-emblem-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1618006,
+        "sha256": "d067ea7f1f9ba3f8769401d9df4d494860a376a20abdd2338305175dcb8319a5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/hip-emblem-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 736512,
+        "sha256": "491f08078360592a5769e8129cf77310dc6df530870aca36b5acff967053f94e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hip-emblem-tpose-back-latest",
+      "character": "angel",
+      "title": "hip-emblem-tpose-back-latest",
+      "original": {
+        "path": "/media/angel/hip-emblem-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1566588,
+        "sha256": "9307f99a0d8dc02a319b7aa30f50fbf0de4f4e5c749702e818e8ca6e56ab45dc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/hip-emblem-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 755658,
+        "sha256": "f4813f0c07df05b8ec83505ad7468966e11e48b82e83ab360eb2adcbc2ffe6a3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hip-emblem-tpose-front-latest",
+      "character": "angel",
+      "title": "hip-emblem-tpose-front-latest",
+      "original": {
+        "path": "/media/angel/hip-emblem-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1140811,
+        "sha256": "4e6b3639453192d65f397314a7d091d4f5565f98edb9126e204e19ec7b1f2b84",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/hip-emblem-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 613894,
+        "sha256": "f69aec3ba2782014c0136d33b28de3c238037beeec1df07086023a3650932574",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hip-emblem-tpose-left-latest",
+      "character": "angel",
+      "title": "hip-emblem-tpose-left-latest",
+      "original": {
+        "path": "/media/angel/hip-emblem-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1052378,
+        "sha256": "642ebb5f9fe3abc774a9282fb88b6cb950d4cf3f88108ad2f4c9b3051cf0230a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/hip-emblem-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 527386,
+        "sha256": "f961ab0124dde3206f861c574b968e902b350a799be4cd56e35e82c82296d797",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hip-emblem-tpose-right-latest",
+      "character": "angel",
+      "title": "hip-emblem-tpose-right-latest",
+      "original": {
+        "path": "/media/angel/hip-emblem-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1023003,
+        "sha256": "c86fa1204f2e3bc6e8a5e46940b5778332172ec5bbfe08c81dfcccdd36afab42",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/hip-emblem-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 498908,
+        "sha256": "99b5a343fdfc7197e59da2c510d693be169c86b2f3539604eb43fa951c3bb038",
         "alpha": false
       }
     },

@@ -106,6 +106,32 @@
         }
       ],
       "leftRight": "正面居中对齐白衣 V 领尖，侧面颈圈主体为素黑，仅前缘微露水滴石边。"
+    },
+    {
+      "layer": 5,
+      "name": "胯章与外侧腿带",
+      "path": "/characters/angel/hip-emblem",
+      "front": "hip-emblem-front-latest",
+      "side": "hip-emblem-right-latest",
+      "back": "hip-emblem-back-latest",
+      "tpose": {
+        "front": "hip-emblem-tpose-front-latest",
+        "right": "hip-emblem-tpose-right-latest",
+        "back": "hip-emblem-tpose-back-latest",
+        "left": "hip-emblem-tpose-left-latest"
+      },
+      "summary": "在角色右胯腿口夹装鸟首装甲徽章，并垂落外侧腿带扣住角色右靴外侧高点，构成贴身完整装。",
+      "facts": [
+        {
+          "term": "徽章",
+          "value": "银灰双翼片配枪灰喙壳与深蓝水滴透镜，内侧翻折背夹固定"
+        },
+        {
+          "term": "腿带",
+          "value": "哑黑直带垂贴大腿外侧，底端暗扣直接勾住角色右靴光滑紫边"
+        }
+      ],
+      "leftRight": "仅角色右侧佩戴鸟首徽章与腿带，角色左侧完全留素；平举背面采用自然垂发保持四视一致。"
     }
   ]
 }
