@@ -80,6 +80,32 @@
         }
       ],
       "leftRight": "两只臂套的纵缝都沿小指侧走，避开肘窝。蓝色标记在角色右臂的白色泡袖上。"
+    },
+    {
+      "layer": 4,
+      "name": "独立颈圈",
+      "path": "/characters/angel/choker",
+      "front": "choker-front-latest",
+      "side": "choker-right-latest",
+      "back": "choker-back-latest",
+      "tpose": {
+        "front": "choker-tpose-front-latest",
+        "right": "choker-tpose-right-latest",
+        "back": "choker-tpose-back-latest",
+        "left": "choker-tpose-left-latest"
+      },
+      "summary": "在连体衣、长靴和长臂套之外，颈部单独佩戴哑黑高颈圈。",
+      "facts": [
+        {
+          "term": "前中",
+          "value": "浅下垂尖片，饰宝蓝小十字与包镶青色水滴石"
+        },
+        {
+          "term": "后颈",
+          "value": "外搭片暗钩扣入直眼，内侧软垫舌隔开皮肤"
+        }
+      ],
+      "leftRight": "正面居中对齐白衣 V 领尖，侧面颈圈主体为素黑，仅前缘微露水滴石边。"
     }
   ]
 }

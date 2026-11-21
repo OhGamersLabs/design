@@ -172,6 +172,60 @@
     },
     {
       "character": "angel",
+      "path": "/media/angel/choker-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/choker-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/choker-board-latest.png",
+      "key": "x_ops/design/characters/angel/latest/choker-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/choker-fit-overlay-latest.png",
+      "key": "x_ops/design/characters/angel/latest/choker-fit-overlay-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/choker-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/choker-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/choker-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/choker-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/choker-tpose-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/choker-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/choker-tpose-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/choker-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/choker-tpose-left-latest.png",
+      "key": "x_ops/design/characters/angel/latest/choker-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/choker-tpose-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/choker-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
       "path": "/media/angel/neckline-gusset-latest.png",
       "key": "x_ops/design/characters/angel/latest/neckline-gusset-latest.png",
       "contentType": "image/png"

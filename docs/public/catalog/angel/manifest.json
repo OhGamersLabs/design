@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "天使 设计参考",
   "status": "local-review",
-  "asset_count": 29,
+  "asset_count": 38,
   "assets": [
     {
       "id": "arm-sleeves-back-latest",
@@ -15,8 +15,8 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1536,
-        "bytes": 1194278,
-        "sha256": "8eed0d82afdee6c82d3bb66723ae5f8fad9f8e02c4a9cc90bca6ae2508814fbf",
+        "bytes": 1210591,
+        "sha256": "cf7d6d11a5f19264c106d730c5b9e3d9176cc8fbb20ee85581f53ce7020283b6",
         "alpha": false
       },
       "web": {
@@ -24,8 +24,8 @@
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1536,
-        "bytes": 699654,
-        "sha256": "61d8b99cc05a51042701492c5bb39ef63a6709b25052d00b274a9af7d945cb18",
+        "bytes": 704050,
+        "sha256": "f0b6cee1bb8ac62db7945924d0022a391fc0ae5b6d95334129cd0fe942b35b57",
         "alpha": false
       }
     },
@@ -61,8 +61,8 @@
         "mime_type": "image/png",
         "width": 1640,
         "height": 1000,
-        "bytes": 819396,
-        "sha256": "7d51d509ff6f19b64fbc07048e30bf9d28f66aad47e721c8ab51cbbcd5a2c23c",
+        "bytes": 894591,
+        "sha256": "c46ae8aa806e27a1f073938ca3c5a730dddf0f4f45bcf6b370fce4a35a2d3bd6",
         "alpha": false
       },
       "web": {
@@ -70,8 +70,8 @@
         "mime_type": "image/webp",
         "width": 1640,
         "height": 1000,
-        "bytes": 633856,
-        "sha256": "cfff34d01debae7633786f4f332516de9ad397f6a18a44d8ea71b4cf93f7fc4b",
+        "bytes": 651330,
+        "sha256": "5454ea10d06cde1a97065f34b8eea69ab5981d3b57e055bd2c47d495b40f4640",
         "alpha": false
       }
     },
@@ -84,18 +84,18 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1536,
-        "bytes": 1528573,
-        "sha256": "0e72b53d378cadaa299e91121ca2952cc3a4f56bea8bbd95107d11ee6a82922d",
-        "alpha": true
+        "bytes": 1222458,
+        "sha256": "325c39e0cddaa29c3cdc752b7949ac279fb30446449f0e8566e039350bfab783",
+        "alpha": false
       },
       "web": {
         "path": "/characters/angel/arm-sleeves-front-latest.webp",
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1536,
-        "bytes": 997054,
-        "sha256": "abcc0a86b923a78b4f23a931c6f5d60384533b4c086ad7d1e99075778992d76d",
-        "alpha": true
+        "bytes": 717526,
+        "sha256": "599b7defc10e388001201718bbac29b015faccbfc5132ddff53d488724447716",
+        "alpha": false
       }
     },
     {
@@ -107,18 +107,18 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1536,
-        "bytes": 1157816,
-        "sha256": "22eb43c077632ec98fec51670632f1000027408b240e10da144f75737ddece00",
-        "alpha": true
+        "bytes": 1086212,
+        "sha256": "8b10dcf214dcabe1a7360151c36f53bc178da5bb447aa5d6603b2285fc33d25e",
+        "alpha": false
       },
       "web": {
         "path": "/characters/angel/arm-sleeves-right-latest.webp",
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1536,
-        "bytes": 727756,
-        "sha256": "7470b8abb2bb456a975966c991a587da4636c9a6654afe10a332e298ffd8da41",
-        "alpha": true
+        "bytes": 581190,
+        "sha256": "8f12f19eb70f76bc9b9b090580ab75104941df503e153b177cddaf404e4da3ba",
+        "alpha": false
       }
     },
     {
@@ -128,19 +128,19 @@
       "original": {
         "path": "/media/angel/arm-sleeves-tpose-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 782399,
-        "sha256": "4f19e6e90438844091d193afd8c540440cd09dafd6fc9c1de6cea23f79cceb6f",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1146937,
+        "sha256": "25dfd2ec6f5627e41fa1bd207de22ac9f95b502ca75e6fa5c3317d0ba5a0bfa8",
         "alpha": false
       },
       "web": {
         "path": "/characters/angel/arm-sleeves-tpose-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 374756,
-        "sha256": "af096d1ec03d811b29372fe0d532c36b5fc2b1b8348dc376c16004378c8fab35",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 614494,
+        "sha256": "b7e2de9d7c37fd89fad4d0f25ca4107120cb551162537b528eab85dedcd88a65",
         "alpha": false
       }
     },
@@ -151,19 +151,19 @@
       "original": {
         "path": "/media/angel/arm-sleeves-tpose-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 796627,
-        "sha256": "7ed1bce795fdc0e5168e9b2515c3fbbf60760a9c337cb5a942d3304240ba8314",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1145123,
+        "sha256": "aebb55eafeeebff108850904dd112c5a4fb9cea6ce52c3f8adb090be9d0bcf47",
         "alpha": false
       },
       "web": {
         "path": "/characters/angel/arm-sleeves-tpose-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 384614,
-        "sha256": "e7f650962e22c8b86cc99765842e20a327f1c67434eb5adaecbb97d0d508210d",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 614860,
+        "sha256": "4e163e8cf6283bef6569444f94a4cafee5f2c2e079ef0d505bcd8f08667f9ba7",
         "alpha": false
       }
     },
@@ -174,19 +174,19 @@
       "original": {
         "path": "/media/angel/arm-sleeves-tpose-left-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 1063186,
-        "sha256": "1f6336021d865d95c57e8d4999efac76f2771d8360d19cf1211d4d5049a7d497",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1027845,
+        "sha256": "7173207562c189480b4cc7a657f598dd76ecddc9ccb0c515e878d67bdd09706d",
         "alpha": false
       },
       "web": {
         "path": "/characters/angel/arm-sleeves-tpose-left-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 460876,
-        "sha256": "a0ab7e9c13617b05fe78631fa70bd16bb094be4fabf77a9df8509495a97be746",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 514006,
+        "sha256": "dc5b3d43e16ec24091d3b84bef6389fa4b056b30ffeb7959192a42cdf12ce2df",
         "alpha": false
       }
     },
@@ -197,20 +197,20 @@
       "original": {
         "path": "/media/angel/arm-sleeves-tpose-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 810909,
-        "sha256": "f258cd214683b239aac2405f6290f920531e59625934ebc821d2e5cddb33c921",
-        "alpha": true
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1037366,
+        "sha256": "515e28e38c84713115030cce72e9d42707c86a420c08ac2f314703f1802e27c8",
+        "alpha": false
       },
       "web": {
         "path": "/characters/angel/arm-sleeves-tpose-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 483042,
-        "sha256": "0afbf70243f87da69a3b4ce6e7cd8bf71403c8a9d4359034264fff63112003b1",
-        "alpha": true
+        "width": 1248,
+        "height": 1248,
+        "bytes": 515934,
+        "sha256": "25fad32ed1773110def9d765796d77aa85d116b4d867cb9ccd58a2831070e556",
+        "alpha": false
       }
     },
     {
@@ -245,8 +245,8 @@
         "mime_type": "image/png",
         "width": 1536,
         "height": 1266,
-        "bytes": 1296839,
-        "sha256": "779d1219303f97e34c44a65e12f7de02f1a973cec7cab699bc1fcd3bfbab1d96",
+        "bytes": 1297794,
+        "sha256": "c05739de276f3ecc3dfce25cf919bcc650c170fbf9ba3654c852aa09238a8a36",
         "alpha": false
       },
       "web": {
@@ -254,8 +254,8 @@
         "mime_type": "image/webp",
         "width": 1536,
         "height": 1266,
-        "bytes": 895280,
-        "sha256": "7ce0fdb4cca460284209275d1d9ccfa10157ae458473f4b9b273e243baf42a89",
+        "bytes": 887922,
+        "sha256": "eb918588bb7000941f75cec8e0caa042c3ed1cb189c705f90ef2a0457bfe1d23",
         "alpha": false
       }
     },
@@ -266,19 +266,19 @@
       "original": {
         "path": "/media/angel/bodysuit-fit-overlay-latest.png",
         "mime_type": "image/png",
-        "width": 1277,
-        "height": 702,
-        "bytes": 643257,
-        "sha256": "9307ee2bfc570af26ef3ecdcf57fde3dd017adc563beecdc1e42d753c7f26c6f",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 895334,
+        "sha256": "e2893afd2df54cf11b60b86f4f1024ddd63ddaf87cc11c688804f5c90226df60",
         "alpha": false
       },
       "web": {
         "path": "/characters/angel/bodysuit-fit-overlay-latest.webp",
         "mime_type": "image/webp",
-        "width": 1277,
-        "height": 702,
-        "bytes": 493846,
-        "sha256": "21a81504f1cae66b8cdaad10bffa8866d0e833c63ae2277d87a0be5c9656842d",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 655302,
+        "sha256": "ef3856e4009e123bafc2c039e457dbdeb24eadac8cdc2a108e8999b9da4169bd",
         "alpha": false
       }
     },
@@ -291,8 +291,8 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1536,
-        "bytes": 1162991,
-        "sha256": "e48dfc94b42d943ba38a63375ebfbdbecbc329ed6421141e23530dbf79912850",
+        "bytes": 1608237,
+        "sha256": "b64a2f3af6278598082eccdc3b388498d124be58401074c28ac5d0d7d1c9b145",
         "alpha": false
       },
       "web": {
@@ -300,8 +300,8 @@
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1536,
-        "bytes": 682202,
-        "sha256": "45794300d22e5727bb3262f3597e93d8aac0ea5e6a5b8f2b6569d4dbe997e91c",
+        "bytes": 790038,
+        "sha256": "090ada671c4371e21dab9ae49dbaa749714e6d3908fd489a8feb24235314c436",
         "alpha": false
       }
     },
@@ -314,8 +314,8 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1536,
-        "bytes": 1038909,
-        "sha256": "2d985a20ef44f02277f8640e2743a5c582b3df71d2da4c5801be10e5548c291f",
+        "bytes": 977950,
+        "sha256": "66400ecd5f8db8b660cc979eb6e4de84d953176d31811f76bb48f2097194701c",
         "alpha": false
       },
       "web": {
@@ -323,8 +323,8 @@
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1536,
-        "bytes": 558510,
-        "sha256": "816c2fe90ef7933dd98ff5800e33ccfa4d42120b86d811fe4f3959db9479ee44",
+        "bytes": 507470,
+        "sha256": "2424706c27e1fedb159714ef608690dfadaa80e387fc8890e03fe15c08d9f145",
         "alpha": false
       }
     },
@@ -358,19 +358,19 @@
       "original": {
         "path": "/media/angel/bodysuit-tpose-front-latest.png",
         "mime_type": "image/png",
-        "width": 1254,
-        "height": 1254,
-        "bytes": 1131884,
-        "sha256": "198cfb6f3160c9853df9101c65e5679900299405f92caae571229775914c0b65",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1520691,
+        "sha256": "863aab961b91b482b1f0b72d509052c3a844a2ab64a003f9d1fa361063b3051d",
         "alpha": false
       },
       "web": {
         "path": "/characters/angel/bodysuit-tpose-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1254,
-        "height": 1254,
-        "bytes": 606402,
-        "sha256": "f71265b2ea7aaebf51d00978e48e5e6d33d554e869f32c9cf4c85f8f4d7ae278",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 761806,
+        "sha256": "b52069f2d73335301f9342df603f6eac470ccba98fb9013aec9451c193ebac75",
         "alpha": false
       }
     },
@@ -496,19 +496,19 @@
       "original": {
         "path": "/media/angel/boots-fit-overlay-latest.png",
         "mime_type": "image/png",
-        "width": 1277,
-        "height": 702,
-        "bytes": 667580,
-        "sha256": "74559e5ca627e56ddd99796ce494fc554632152aa2e63a7606981dee498b474e",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 889002,
+        "sha256": "6325b6b862fb14cd06bad45a04e6a9bbb4901bf12890e576ad39d39c6900e894",
         "alpha": false
       },
       "web": {
         "path": "/characters/angel/boots-fit-overlay-latest.webp",
         "mime_type": "image/webp",
-        "width": 1277,
-        "height": 702,
-        "bytes": 511754,
-        "sha256": "9dd0d7a00ef048434274e4ddfa2491b0a8c280b3cf4ae39a6911fc663671572c",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 649124,
+        "sha256": "7881bc15d02568dfa01853ed287596f11b72dd8738caf0b5da8cca415578219f",
         "alpha": false
       }
     },
@@ -521,8 +521,8 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1536,
-        "bytes": 1232829,
-        "sha256": "9bf06999a9cac89a709df04ce2f38c3931ac2adef9e033d44a700c2992caa3b7",
+        "bytes": 1219313,
+        "sha256": "27363f8a470a175427660f473416e6fc6732bea94b259e82dc21641d928cdd2f",
         "alpha": false
       },
       "web": {
@@ -530,8 +530,8 @@
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1536,
-        "bytes": 735140,
-        "sha256": "bbd30157f1385fa966ed6fd091ab6a2e1f12a71cc953ee4daa28d9708356222b",
+        "bytes": 711530,
+        "sha256": "eefca191bfb6b1a2bd9276d13135fe0348366048dd90ff6fd06714839bf86663",
         "alpha": false
       }
     },
@@ -544,8 +544,8 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1536,
-        "bytes": 1098100,
-        "sha256": "429b9c8592f466eb3621d781e5979c93d8d698811e449d880ff106ae08bd0cec",
+        "bytes": 1069928,
+        "sha256": "c81878250c299a6cdd4a1a12e3cd4b186eb18a1d4df1d0cbbf49d547e0953283",
         "alpha": false
       },
       "web": {
@@ -553,8 +553,8 @@
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1536,
-        "bytes": 603902,
-        "sha256": "5c7badc339a522df04420b140e8535d0e9cccacb2ae01863526d19284970daf8",
+        "bytes": 575680,
+        "sha256": "e6a21106918017154f986f40d74fddb1ca6eff65662216bd8a18dd72c65c4736",
         "alpha": false
       }
     },
@@ -588,19 +588,19 @@
       "original": {
         "path": "/media/angel/boots-tpose-front-latest.png",
         "mime_type": "image/png",
-        "width": 1254,
-        "height": 1254,
-        "bytes": 1196418,
-        "sha256": "26948f5b783c81dea6ea74afdf83279d381679293a134ca8e28c221d115227af",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1560435,
+        "sha256": "540810d5a0857ea5b96b4e041ba278074508c165a63234a8326bac7b71c5398d",
         "alpha": false
       },
       "web": {
         "path": "/characters/angel/boots-tpose-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1254,
-        "height": 1254,
-        "bytes": 668676,
-        "sha256": "380aadc4624d18542ef0dcebfe37d24fc1add9ea33aee4abf0b8c21c986cbd17",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 853934,
+        "sha256": "71fb587c8f9b0924533c0961188986c067d40f5f35faef0dfeca90bb6f539b85",
         "alpha": false
       }
     },
@@ -647,6 +647,213 @@
         "height": 1254,
         "bytes": 539496,
         "sha256": "071321aa103a3b406761f75acdd63a2356c4550c9b78c5acd89d81b59fe1dbde",
+        "alpha": false
+      }
+    },
+    {
+      "id": "choker-back-latest",
+      "character": "angel",
+      "title": "choker-back-latest",
+      "original": {
+        "path": "/media/angel/choker-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1202113,
+        "sha256": "c375ff4887f3418124a342d6a4776744532ee96715b5e486132c589747899179",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/choker-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 695494,
+        "sha256": "597a878e8df4b682b894e2b9bea799e34ca41aa7bf661030db0997c4a998af2d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "choker-board-latest",
+      "character": "angel",
+      "title": "choker-board-latest",
+      "original": {
+        "path": "/media/angel/choker-board-latest.png",
+        "mime_type": "image/png",
+        "width": 2400,
+        "height": 1552,
+        "bytes": 960039,
+        "sha256": "ebf2f7c154ef2aa20e7ee2748e6c5f810331b88de28a2c6e8bad1ef0edff00eb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/choker-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1324,
+        "bytes": 600694,
+        "sha256": "2b2c2c72c15d7160f0152a9e7fd843d687e6c2f1c71836c010b485f4f148a5e4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "choker-fit-overlay-latest",
+      "character": "angel",
+      "title": "choker-fit-overlay-latest",
+      "original": {
+        "path": "/media/angel/choker-fit-overlay-latest.png",
+        "mime_type": "image/png",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 926803,
+        "sha256": "c16540caf451bae1b9acff0159034ea34767210b0fc3c403f6435142492622c4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/choker-fit-overlay-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 669456,
+        "sha256": "375ee48053188498a11ec5483f432e957a625f14fa5be327cb64b7499e838d03",
+        "alpha": false
+      }
+    },
+    {
+      "id": "choker-front-latest",
+      "character": "angel",
+      "title": "choker-front-latest",
+      "original": {
+        "path": "/media/angel/choker-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1696024,
+        "sha256": "72f1f9079fe11a2d2b463179946a4805331e5ad1bce6e6733b41e631bad2b566",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/choker-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 865972,
+        "sha256": "53eab227fa46e97693305ce80723ebf3cb664df8a8ddb495382145d01fe239f5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "choker-right-latest",
+      "character": "angel",
+      "title": "choker-right-latest",
+      "original": {
+        "path": "/media/angel/choker-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1068231,
+        "sha256": "c5f344bf2445ed569bde1632b2a6281dac289696ec572e6efd4b56b60d526355",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/choker-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 573634,
+        "sha256": "79d35c1be8f54ddf28ce729a0a1f89b8ed8349206a9f54e9aa97c83a4f9c8af8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "choker-tpose-back-latest",
+      "character": "angel",
+      "title": "choker-tpose-back-latest",
+      "original": {
+        "path": "/media/angel/choker-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1139377,
+        "sha256": "2a6ce4e12302700e0134f07c0d26c21b9c1541e72413979d99cf0d6e1f3bffc1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/choker-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 610868,
+        "sha256": "d02ba0f0ea942d7d068c5fb3db806a3e27d873ebc5851742f26c07a2d27cb208",
+        "alpha": false
+      }
+    },
+    {
+      "id": "choker-tpose-front-latest",
+      "character": "angel",
+      "title": "choker-tpose-front-latest",
+      "original": {
+        "path": "/media/angel/choker-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1138678,
+        "sha256": "e65822b94c16065b9d8a20b22f9d54ba384b7beee3faa96c0f0982b508501e1e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/choker-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 604050,
+        "sha256": "267b9687355728b9dd7658c0ca86486eac3140b65470784de5efba4da210f733",
+        "alpha": false
+      }
+    },
+    {
+      "id": "choker-tpose-left-latest",
+      "character": "angel",
+      "title": "choker-tpose-left-latest",
+      "original": {
+        "path": "/media/angel/choker-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1042130,
+        "sha256": "8e2e45da7fc334e5f8ca081629c7e17e2dfc9ec8b9eb2c4f522d71b771e71321",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/choker-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 520426,
+        "sha256": "68330a4b07a92cae9b4f415a3fe3ba01b12d6da71f7eae7a7e7c9d3d54ad6af4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "choker-tpose-right-latest",
+      "character": "angel",
+      "title": "choker-tpose-right-latest",
+      "original": {
+        "path": "/media/angel/choker-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1028463,
+        "sha256": "4a0f9d97163863093a533cc3ac73b93fe74cae30640a8b38a8b3d9d6e1137386",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/choker-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 455434,
+        "sha256": "2cda82f4b10929e58f6691f7c4abeb184759bd44b58790739ad810d3277ba052",
         "alpha": false
       }
     },
