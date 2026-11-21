@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
 import { data } from '../data/site.data.mjs'
+import { data as baseBodies } from '../data/base-bodies.data.mjs'
 </script>
 
 <template>
@@ -20,5 +21,46 @@ import { data } from '../data/site.data.mjs'
         </div>
       </a>
     </div>
+
+    <section v-if="baseBodies?.tiers?.length" class="roster-section" aria-labelledby="base-bodies-heading">
+      <div class="roster-section__header">
+        <div>
+          <p class="roster-section__label">公共基础资产</p>
+          <h2 id="base-bodies-heading" class="roster-section__title">通用素体设计</h2>
+          <p class="roster-section__intro">{{ baseBodies.intro }}</p>
+        </div>
+        <a class="roster-section__more" :href="withBase('/base-bodies/')">查看素体总览与比例规范 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="base-body-grid base-body-grid--home">
+        <a
+          v-for="tier in baseBodies.tiers"
+          :key="tier.id"
+          class="base-body-card"
+          :href="withBase(tier.path)"
+          :data-base-body-id="tier.id"
+          :data-asset-id="tier.portrait.asset"
+        >
+          <div class="roster-picture">
+            <img
+              :src="withBase(tier.portrait.path)"
+              :width="tier.portrait.width"
+              :height="tier.portrait.height"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="base-body-card__badge">{{ tier.scale }}</span>
+          </div>
+          <div class="base-body-card__copy">
+            <div class="base-body-card__head">
+              <h3 class="base-body-card__name">{{ tier.name }}</h3>
+              <span class="base-body-card__ratio">{{ tier.headRatio }}</span>
+            </div>
+            <p class="base-body-card__role">{{ tier.role }}</p>
+            <p class="roster-updated">A 姿三视 · T 姿四视 · 最近更新 <time :datetime="baseBodies.updated">{{ baseBodies.updated }}</time></p>
+          </div>
+        </a>
+      </div>
+    </section>
   </div>
 </template>

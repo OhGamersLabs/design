@@ -9,6 +9,7 @@ PROCESS_WORDS = ('本轮','此前','已取消','取消','保留','旧','历史',
 EDITORIAL_CLAIMS = ('最容易画错','一眼就能认出')
 DIRECTION_EXCEPTIONS = ('角色左','角色右','画面左','画面右','左右识别','左右翻看','左右键','左右肩宽')
 PURPLES = ('#6551b9','#7462c4','#7462c412','#5743a8','#4f3c9b','#faf9fd','#f6f5fa','#f2f0f8','#e8e5ef')
+SHARED_COLLECTIONS = frozenset(('origins', 'base-bodies'))
 RULE_IDS = ('R1','R2','R3','R4','R6','R7','R7b','R8','R9','R10','R11','R12a','R12b','R13','R14','R15','R16','R17','A1','A2','D2','D4')
 
 
@@ -77,7 +78,7 @@ def discover_characters(root):
     thumbs=None
     for file in sorted((root/'docs/.vitepress/data').glob('*/character.json')):
         cid=file.parent.name
-        if cid=='origins' or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',cid):raise ValueError('invalid character id: '+cid)
+        if cid in SHARED_COLLECTIONS or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',cid):raise ValueError('invalid character id: '+cid)
         character=read_object(file)
         if not isinstance(character.get('name'),str) or not isinstance(character.get('role'),str) or not isinstance(character.get('order'),(int,float)) or isinstance(character['order'],bool) or not math.isfinite(character['order']) or not isinstance(character.get('pages'),list):
             raise ValueError(f'invalid character.json: {cid}')
@@ -118,11 +119,19 @@ def discover_characters(root):
     return tuple(specs)
 
 
+def discover_shared_dates(root):
+    file=root/'docs/.vitepress/data/base-bodies/base-bodies.json'
+    if not file.is_file():return ()
+    data=read_object(file)
+    return strings(data.get('allowedDates',[]),str(file)+':allowedDates')
+
+
 @dataclass
 class SiteConfig:
     root: Path = field(default_factory=lambda: Path(__file__).resolve().parents[2])
     dist: Path | None = None
     characters: tuple[CharacterSpec, ...] | None = None
+    shared_allowed_dates: tuple[str, ...] | None = None
     baseline_file: Path | None = None
     ruler_paths: tuple | None = None
     manifests: tuple | None = None
@@ -140,3 +149,8 @@ class SiteConfig:
             except (OSError,UnicodeError,KeyError,TypeError,ValueError) as exc:
                 self.characters=()
                 self.character_error=str(exc)
+        if self.shared_allowed_dates is None:
+            try:self.shared_allowed_dates=discover_shared_dates(self.root)
+            except (OSError,UnicodeError,KeyError,TypeError,ValueError) as exc:
+                self.shared_allowed_dates=()
+                if self.character_error is None:self.character_error=str(exc)

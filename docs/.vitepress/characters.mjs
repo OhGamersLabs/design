@@ -16,7 +16,7 @@ export function discoverCharacters(root = defaultRoot) {
     .filter((entry) => entry.isDirectory() && existsSync(resolve(dataRoot, entry.name, 'character.json')))
     .sort((a, b) => a.name < b.name ? -1 : a.name > b.name ? 1 : 0)
     .map(({ name: id }) => {
-      if (id === 'origins' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)) throw new Error(`Invalid character id: ${id}`)
+      if (id === 'origins' || id === 'base-bodies' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)) throw new Error(`Invalid character id: ${id}`)
       return parseCharacter(readJson(resolve(dataRoot, id, 'character.json')), id, existsSync(resolve(root, 'docs/characters', id, 'index.md')))
     })
 }
@@ -98,6 +98,15 @@ export function siteNav(roster) {
       text: '角色', activeMatch: '^/characters/',
       items: roster.map(({ id, name, home }) => ({ text: name, link: home, activeMatch: `^/characters/${id}/` })),
     }] : []),
+    {
+      text: '通用素体', activeMatch: '^/base-bodies/',
+      items: [
+        { text: '素体总览', link: '/base-bodies/', activeMatch: '^/base-bodies/$' },
+        { text: '女性标准素体', link: '/base-bodies/female-standard', activeMatch: '^/base-bodies/female-standard' },
+        { text: '标准青年男素体', link: '/base-bodies/male-standard', activeMatch: '^/base-bodies/male-standard' },
+        { text: '重壮男素体', link: '/base-bodies/male-heavy', activeMatch: '^/base-bodies/male-heavy' },
+      ],
+    },
     { text: '通用规范', link: '/standards/', activeMatch: '/standards/' },
   ]
 }

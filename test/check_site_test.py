@@ -390,6 +390,10 @@ class SiteCheckTests(unittest.TestCase):
 
     def test_r7b_matching_card_image_is_allowed(self):
         self.append(self.layer,self.card(self.spec));self.good('R7b')
+        self.append(self.layer,'<a class="base-body-card" href="/base-bodies/female-standard" data-asset-id="scene-latest"><img src="/site/thumbs/bunny/scene-latest.webp" alt=""></a>')
+        self.good('R7b')
+        self.replace(self.layer,'class="base-body-card" href="/base-bodies/female-standard" data-asset-id="scene-latest"','class="base-body-card" href="/base-bodies/female-standard" data-asset-id="line-latest"')
+        self.bad('R7b')
 
     def test_r7b_mismatched_card_image_is_rejected(self):
         self.append(self.layer,self.card(self.spec).replace('data-asset-id="scene-latest"','data-asset-id="line-latest"'));self.bad('R7b')

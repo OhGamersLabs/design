@@ -51,9 +51,15 @@ class CatalogBuilderTest(unittest.TestCase):
     def test_titles_come_from_character_data_and_origins_stays_shared(self):
         definition=self.root/'docs/.vitepress/data/bunny/character.json'
         value=json.loads(definition.read_text());value['name']='Fixture';definition.write_text(json.dumps(value))
+        for base, suffix in [('docs/public/characters', '.webp'), ('.release', '.png')]:
+            path = self.root/base/'base-bodies'/('female-standard-front-latest'+suffix)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            with Image.new('RGB', (20, 30), 'orange') as image:
+                image.save(path)
         builder.build(self.root)
         self.assertEqual(json.loads((self.root/'catalog/bunny/manifest.json').read_text())['title'],'Fixture 设计参考')
         self.assertEqual(json.loads((self.root/'catalog/origins/manifest.json').read_text())['title'],'角色原始手稿')
+        self.assertEqual(json.loads((self.root/'catalog/base-bodies/manifest.json').read_text())['title'],'通用素体设计')
 
     def test_unknown_character_folder_requires_character_json_even_when_empty(self):
         (self.root/'docs/public/characters/robot').mkdir()

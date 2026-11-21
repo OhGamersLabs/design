@@ -10,8 +10,10 @@ import { transformWithEsbuild } from 'vite'
 import * as vue from 'vue'
 import * as serverRenderer from 'vue/server-renderer'
 import { discoverCharacters, loadCharacters, mergeAnchorMaps, siteNav } from '../docs/.vitepress/characters.mjs'
+import { loadBaseBodies } from '../docs/.vitepress/base-bodies.mjs'
 import { parseChip } from '../docs/.vitepress/data/character-data.mjs'
 import loader from '../docs/.vitepress/data/site.data.mjs'
+import baseBodiesLoader from '../docs/.vitepress/data/base-bodies.data.mjs'
 import { assetById, buildAssetIndex, characterForPage, focusAfterStep, readingNeighbors, stepIndex } from '../docs/.vitepress/theme/character-site.mjs'
 import { measurementModel } from '../docs/.vitepress/theme/components/body-measurements.mjs'
 import { garmentModel } from '../docs/.vitepress/theme/components/garment-measurements.mjs'
@@ -75,7 +77,7 @@ test('discovery uses character.json and the home file alone determines listing',
   write(root, 'docs/characters/robot/index.md', '# Robot')
   assert.equal(discoverCharacters(root)[1].listed, true)
 })
-for (const id of ['Bad', 'two--words', 'origins']) test(`discovery rejects invalid or shared collection id ${id}`, (t) => {
+for (const id of ['Bad', 'two--words', 'origins', 'base-bodies']) test(`discovery rejects invalid or shared collection id ${id}`, (t) => {
   const root = sandbox(t)
   write(root, `docs/.vitepress/data/${id}/character.json`, { name: id, role: '角色', order: 1, pages: [] })
   assert.throws(() => discoverCharacters(root), /Invalid character id/)
@@ -92,16 +94,25 @@ test('roster sorts listed characters by order and then id while loading unlisted
   assert.equal(data.characters.alpha.listed, false)
   assert.equal(Object.keys(data.characters.alpha.assets).length, 10)
 })
-for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one 角色 flyout before standards`, (t) => {
+for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one 角色 flyout before base bodies and standards`, (t) => {
   const root = sandbox(t)
   if (count > 0) addCharacter(root, 'bunny')
   if (count > 1) addCharacter(root, 'robot', { order: 2 })
   addCharacter(root, 'draft', { listed: false })
+  const baseBodiesNav = {
+    text: '通用素体', activeMatch: '^/base-bodies/',
+    items: [
+      { text: '素体总览', link: '/base-bodies/', activeMatch: '^/base-bodies/$' },
+      { text: '女性标准素体', link: '/base-bodies/female-standard', activeMatch: '^/base-bodies/female-standard' },
+      { text: '标准青年男素体', link: '/base-bodies/male-standard', activeMatch: '^/base-bodies/male-standard' },
+      { text: '重壮男素体', link: '/base-bodies/male-heavy', activeMatch: '^/base-bodies/male-heavy' },
+    ],
+  }
   const standards = { text: '通用规范', link: '/standards/', activeMatch: '/standards/' }
   const expected = count ? [{ text: '角色', activeMatch: '^/characters/', items: [
     { text: 'Bunny', link: '/characters/bunny/', activeMatch: '^/characters/bunny/' },
     ...(count === 2 ? [{ text: 'Robot', link: '/characters/robot/', activeMatch: '^/characters/robot/' }] : []),
-  ] }, standards] : [standards]
+  ] }, baseBodiesNav, standards] : [baseBodiesNav, standards]
   assert.deepEqual(siteNav(loadCharacters(root).roster), expected)
 })
 for (const portrait of ['missing-latest', 'robot-original-latest']) test(`registry rejects portrait ${portrait} even without pages`, (t) => {
@@ -233,7 +244,8 @@ async function renderComponent(name, data, path, props = {}, frontmatter = {}) {
   assert.deepEqual(errors, [])
   const compiled = compileScript(descriptor, { id: 'character-regression', genDefaultAs: '__component', inlineTemplate: true, templateOptions: { ssr: true } }).content
   const code = (await transformWithEsbuild(compiled, url.pathname + '.ts', { loader: 'ts' })).code
-  const modules = { vue, 'vue/server-renderer': serverRenderer, vitepress: context.vitepress, '../data/site.data.mjs': { data }, '../use-character': context.composable, './use-character': context.composable,
+  const baseBodies = baseBodiesLoader.load()
+  const modules = { vue, 'vue/server-renderer': serverRenderer, vitepress: context.vitepress, '../data/site.data.mjs': { data }, '../data/base-bodies.data.mjs': { data: baseBodies }, '../../data/base-bodies.data.mjs': { data: baseBodies }, '../use-character': context.composable, './use-character': context.composable,
     '../character-site.mjs': { assetById, buildAssetIndex, focusAfterStep, readingNeighbors, stepIndex }, './AssetImage.vue': { default: { props: ['id', 'group'], render() { return vue.h('figure', { 'data-image-id': this.id, 'data-group': this.group }) } } },
     './ReleaseImage.vue': { default: { props: ['src', 'group'], render() { return vue.h('figure', { 'data-source': this.src, 'data-group': this.group }) } } },
     './components/LayerCard.vue': { default: empty }, './components/ReferenceCard.vue': { default: empty }, './components/PagePager.vue': { default: empty }, './components/RedirectStub.vue': { default: empty } }
@@ -242,7 +254,7 @@ async function renderComponent(name, data, path, props = {}, frontmatter = {}) {
   app.config.warnHandler = () => {}
   return serverRenderer.renderToString(app)
 }
-test('CharacterRoster renders the listed data with its thumbnail, date and decorative alt', async (t) => {
+test('CharacterRoster renders the listed data with its thumbnail, date and decorative alt alongside base bodies section', async (t) => {
   const root = sandbox(t); addCharacter(root, 'fixture'); addCharacter(root, 'draft', { listed: false })
   const html = await renderComponent('CharacterRoster.vue', loadCharacters(root), 'index.md')
   assert.match(html, /class="character-card" href="\/characters\/fixture\/" data-character-id="fixture" data-asset-id="body-front-latest"/)
@@ -250,7 +262,17 @@ test('CharacterRoster renders the listed data with its thumbnail, date and decor
   assert.match(html, /class="character-card__name">Fixture<\/h2>/)
   assert.match(html, /class="character-card__role">守卫<\/p>/)
   assert.match(html, /最近更新 <time datetime="2026-11-16">2026-11-16<\/time>/)
+  assert.match(html, /class="base-body-card" href="\/base-bodies\/female-standard" data-base-body-id="female-standard" data-asset-id="female-standard-front-latest"/)
+  assert.match(html, /class="base-body-card" href="\/base-bodies\/male-standard" data-base-body-id="male-standard" data-asset-id="male-standard-front-latest"/)
+  assert.match(html, /class="base-body-card" href="\/base-bodies\/male-heavy" data-base-body-id="male-heavy" data-asset-id="male-heavy-front-latest"/)
   assert.doesNotMatch(html, /draft/)
+})
+test('base bodies registry loads all three tiers and twenty-two stable assets', () => {
+  const baseBodies = loadBaseBodies()
+  assert.deepEqual(baseBodies.tiers.map(({ id }) => id), ['female-standard', 'male-standard', 'male-heavy'])
+  assert.equal(Object.keys(baseBodies.assets).length, 22)
+  assert.equal(baseBodies.assets['family-scale-latest'].original.path, '/media/base-bodies/family-scale-latest.png')
+  assert.equal(baseBodies.readingOrder.length, 4)
 })
 test('LayerCard renders a 0..2 map with that character chapter, noun and wear', async (t) => {
   const root = sandbox(t); addCharacter(root, 'fixture')
