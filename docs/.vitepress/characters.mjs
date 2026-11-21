@@ -99,14 +99,13 @@ export function siteNav(roster) {
       items: roster.map(({ id, name, home }) => ({ text: name, link: home, activeMatch: `^/characters/${id}/` })),
     }] : []),
     {
-      text: '通用素体', activeMatch: '^/base-bodies/',
+      text: '通用规范', activeMatch: '^/standards/',
       items: [
-        { text: '素体总览', link: '/base-bodies/', activeMatch: '^/base-bodies/$' },
-        { text: '女性标准素体', link: '/base-bodies/female-standard', activeMatch: '^/base-bodies/female-standard' },
-        { text: '标准青年男素体', link: '/base-bodies/male-standard', activeMatch: '^/base-bodies/male-standard' },
-        { text: '重壮男素体', link: '/base-bodies/male-heavy', activeMatch: '^/base-bodies/male-heavy' },
+        { text: '素体与规范总览', link: '/standards/', activeMatch: '^/standards/$' },
+        { text: '女性标准素体', link: '/standards/female-standard', activeMatch: '^/standards/female-standard' },
+        { text: '标准青年男素体', link: '/standards/male-standard', activeMatch: '^/standards/male-standard' },
+        { text: '重壮男素体', link: '/standards/male-heavy', activeMatch: '^/standards/male-heavy' },
       ],
     },
-    { text: '通用规范', link: '/standards/', activeMatch: '/standards/' },
   ]
 }

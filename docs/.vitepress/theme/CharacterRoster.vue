@@ -29,7 +29,7 @@ import { data as baseBodies } from '../data/base-bodies.data.mjs'
           <h2 id="base-bodies-heading" class="roster-section__title">通用素体设计</h2>
           <p class="roster-section__intro">{{ baseBodies.intro }}</p>
         </div>
-        <a class="roster-section__more" :href="withBase('/base-bodies/')">查看素体总览与比例规范 <span aria-hidden="true">↗</span></a>
+        <a class="roster-section__more" :href="withBase('/standards/')">查看素体总览与通用规范 <span aria-hidden="true">↗</span></a>
       </div>
       <div class="base-body-grid base-body-grid--home">
         <a

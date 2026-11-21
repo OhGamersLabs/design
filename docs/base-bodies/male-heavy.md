@@ -1,19 +1,14 @@
 ---
 title: 重壮男素体
-description: OhGamers 重壮男通用 2D 素体（相对身高 1.17×），含 A 姿三视与 T 姿四视。
-layout: BaseBodyPage
-pageType: tier
-tier: male-heavy
+search: false
 sidebar: false
 aside: false
+head:
+  - - meta
+    - http-equiv: refresh
+      content: 0; url=/standards/male-heavy
 ---
 
-# 重壮男素体 {.bunny-sr-only}
+# 重壮男素体
 
-<BaseBodyTierViews tier="male-heavy" />
-
-## 结构与使用要点 {#notes}
-
-- **体态定位**：相对女性标准素体身高 `1.17×`（高出约一个头），赤脚实测 7.87 头身。肩宽达 2.45 头，宽厚斜方肌、桶状胸背与粗壮四肢构成高挑强壮的英雄骨架，优先供重装与力量型男性角色调用。
-- **上身与侧视厚度**：裸上身呈现扎实的胸大肌、背阔肌与核心厚度，A 姿及 T 姿侧视胸厚约 1.38 – 1.45 头、腰厚约为正面腰宽的 0.77 – 0.80 倍，能够自然承托外层护甲、胸挂与重型背具。
-- **占位头与下装**：配干练战术短裁深炭黑发与中性深炭灰瞳，下颌硬朗方正，粗壮颈部与斜方肌完全露出；下身穿无装饰哑光深炭黑平角运动短裤，赤脚站立。
+请前往 [重壮男素体](/standards/male-heavy)。

@@ -94,25 +94,24 @@ test('roster sorts listed characters by order and then id while loading unlisted
   assert.equal(data.characters.alpha.listed, false)
   assert.equal(Object.keys(data.characters.alpha.assets).length, 10)
 })
-for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one 角色 flyout before base bodies and standards`, (t) => {
+for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one 角色 flyout before standards`, (t) => {
   const root = sandbox(t)
   if (count > 0) addCharacter(root, 'bunny')
   if (count > 1) addCharacter(root, 'robot', { order: 2 })
   addCharacter(root, 'draft', { listed: false })
-  const baseBodiesNav = {
-    text: '通用素体', activeMatch: '^/base-bodies/',
+  const standards = {
+    text: '通用规范', activeMatch: '^/standards/',
     items: [
-      { text: '素体总览', link: '/base-bodies/', activeMatch: '^/base-bodies/$' },
-      { text: '女性标准素体', link: '/base-bodies/female-standard', activeMatch: '^/base-bodies/female-standard' },
-      { text: '标准青年男素体', link: '/base-bodies/male-standard', activeMatch: '^/base-bodies/male-standard' },
-      { text: '重壮男素体', link: '/base-bodies/male-heavy', activeMatch: '^/base-bodies/male-heavy' },
+      { text: '素体与规范总览', link: '/standards/', activeMatch: '^/standards/$' },
+      { text: '女性标准素体', link: '/standards/female-standard', activeMatch: '^/standards/female-standard' },
+      { text: '标准青年男素体', link: '/standards/male-standard', activeMatch: '^/standards/male-standard' },
+      { text: '重壮男素体', link: '/standards/male-heavy', activeMatch: '^/standards/male-heavy' },
     ],
   }
-  const standards = { text: '通用规范', link: '/standards/', activeMatch: '/standards/' }
   const expected = count ? [{ text: '角色', activeMatch: '^/characters/', items: [
     { text: 'Bunny', link: '/characters/bunny/', activeMatch: '^/characters/bunny/' },
     ...(count === 2 ? [{ text: 'Robot', link: '/characters/robot/', activeMatch: '^/characters/robot/' }] : []),
-  ] }, baseBodiesNav, standards] : [baseBodiesNav, standards]
+  ] }, standards] : [standards]
   assert.deepEqual(siteNav(loadCharacters(root).roster), expected)
 })
 for (const portrait of ['missing-latest', 'robot-original-latest']) test(`registry rejects portrait ${portrait} even without pages`, (t) => {
@@ -262,9 +261,9 @@ test('CharacterRoster renders the listed data with its thumbnail, date and decor
   assert.match(html, /class="character-card__name">Fixture<\/h2>/)
   assert.match(html, /class="character-card__role">守卫<\/p>/)
   assert.match(html, /最近更新 <time datetime="2026-11-16">2026-11-16<\/time>/)
-  assert.match(html, /class="base-body-card" href="\/base-bodies\/female-standard" data-base-body-id="female-standard" data-asset-id="female-standard-front-latest"/)
-  assert.match(html, /class="base-body-card" href="\/base-bodies\/male-standard" data-base-body-id="male-standard" data-asset-id="male-standard-front-latest"/)
-  assert.match(html, /class="base-body-card" href="\/base-bodies\/male-heavy" data-base-body-id="male-heavy" data-asset-id="male-heavy-front-latest"/)
+  assert.match(html, /class="base-body-card" href="\/standards\/female-standard" data-base-body-id="female-standard" data-asset-id="female-standard-front-latest"/)
+  assert.match(html, /class="base-body-card" href="\/standards\/male-standard" data-base-body-id="male-standard" data-asset-id="male-standard-front-latest"/)
+  assert.match(html, /class="base-body-card" href="\/standards\/male-heavy" data-base-body-id="male-heavy" data-asset-id="male-heavy-front-latest"/)
   assert.doesNotMatch(html, /draft/)
 })
 test('base bodies registry loads all three tiers and twenty-two stable assets', () => {
