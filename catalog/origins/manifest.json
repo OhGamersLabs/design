@@ -4,8 +4,31 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 2,
+  "asset_count": 3,
   "assets": [
+    {
+      "id": "angel-original-latest",
+      "character": "origins",
+      "title": "angel-original-latest",
+      "original": {
+        "path": "/media/origins/angel-original-latest.png",
+        "mime_type": "image/png",
+        "width": 4810,
+        "height": 5102,
+        "bytes": 10369148,
+        "sha256": "346675028a97051c95aecb006d5e75549d198833d049511a62432053518df4df",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/angel-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1931,
+        "height": 2048,
+        "bytes": 1458306,
+        "sha256": "bbacaa0b16f01f89f89c2ef835fe6684f301b6f1b77bf4481bf18457105575cd",
+        "alpha": true
+      }
+    },
     {
       "id": "bunny-original-latest",
       "character": "origins",

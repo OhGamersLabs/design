@@ -1,0 +1,137 @@
+{
+  "chapter": "layers",
+  "noun": "衣层",
+  "wear": "穿着",
+  "items": [
+    {
+      "layer": 1,
+      "name": "白黑连体衣",
+      "path": "/characters/angel/bodysuit",
+      "front": "bodysuit-front-latest",
+      "side": "bodysuit-right-latest",
+      "back": "bodysuit-back-latest",
+      "tpose": {
+        "front": "bodysuit-tpose-front-latest",
+        "right": "bodysuit-tpose-right-latest",
+        "back": "bodysuit-tpose-back-latest",
+        "left": "bodysuit-tpose-left-latest"
+      },
+      "summary": "白色胸背与泡袖连接黑色腰臀，构成一件从领口套穿的连体衣。",
+      "facts": [
+        {
+          "term": "领口",
+          "value": "前 V 领、低方后领"
+        },
+        {
+          "term": "裆底",
+          "value": "黑色裆布连续，内侧有裆衬"
+        }
+      ],
+      "leftRight": "紫色腰片在角色右腰高而宽，在角色左胯低而窄。正面图中角色右侧位于画面左边。"
+    },
+    {
+      "layer": 2,
+      "name": "过膝长靴",
+      "path": "/characters/angel/boots",
+      "front": "boots-front-latest",
+      "side": "boots-right-latest",
+      "back": "boots-back-latest",
+      "tpose": {
+        "front": "boots-tpose-front-latest",
+        "right": "boots-tpose-right-latest",
+        "back": "boots-tpose-back-latest",
+        "left": "boots-tpose-left-latest"
+      },
+      "summary": "在连体衣外穿上过膝长靴，靴口从大腿外侧向内侧降低。",
+      "facts": [
+        {
+          "term": "靴筒",
+          "value": "靴口前中带竖片，拉链沿靴筒正后方走线"
+        },
+        {
+          "term": "鞋底",
+          "value": "鞋跟向脚跟下方落地，前掌有三道浅槽"
+        }
+      ],
+      "leftRight": "正面由鞋尖挡住细跟。角色右侧面可见鞋跟相对脚踝的位置。"
+    },
+    {
+      "layer": 3,
+      "name": "黑色长臂套",
+      "path": "/characters/angel/arm-sleeves",
+      "front": "arm-sleeves-front-latest",
+      "side": "arm-sleeves-right-latest",
+      "back": "arm-sleeves-back-latest",
+      "tpose": {
+        "front": "arm-sleeves-tpose-front-latest",
+        "right": "arm-sleeves-tpose-right-latest",
+        "back": "arm-sleeves-tpose-back-latest",
+        "left": "arm-sleeves-tpose-left-latest"
+      },
+      "summary": "在连体衣和长靴的基础上，双臂穿上独立的哑黑长臂套。",
+      "facts": [
+        {
+          "term": "上口",
+          "value": "藏在白色泡袖下，内侧用软止滑带固定"
+        },
+        {
+          "term": "腕口",
+          "value": "暖白织条与窄黑边收口，露出手掌"
+        }
+      ],
+      "leftRight": "两只臂套的纵缝都沿小指侧走，避开肘窝。蓝色标记在角色右臂的白色泡袖上。"
+    },
+    {
+      "layer": 4,
+      "name": "独立颈圈",
+      "path": "/characters/angel/choker",
+      "front": "choker-front-latest",
+      "side": "choker-right-latest",
+      "back": "choker-back-latest",
+      "tpose": {
+        "front": "choker-tpose-front-latest",
+        "right": "choker-tpose-right-latest",
+        "back": "choker-tpose-back-latest",
+        "left": "choker-tpose-left-latest"
+      },
+      "summary": "在连体衣、长靴和长臂套之外，颈部单独佩戴哑黑高颈圈。",
+      "facts": [
+        {
+          "term": "前中",
+          "value": "浅下垂尖片，饰宝蓝小十字与包镶青色水滴石"
+        },
+        {
+          "term": "后颈",
+          "value": "外搭片暗钩扣入直眼，内侧软垫舌隔开皮肤"
+        }
+      ],
+      "leftRight": "正面居中对齐白衣 V 领尖，侧面颈圈主体为素黑，仅前缘微露水滴石边。"
+    },
+    {
+      "layer": 5,
+      "name": "胯章与外侧腿带",
+      "path": "/characters/angel/hip-emblem",
+      "front": "hip-emblem-front-latest",
+      "side": "hip-emblem-right-latest",
+      "back": "hip-emblem-back-latest",
+      "tpose": {
+        "front": "hip-emblem-tpose-front-latest",
+        "right": "hip-emblem-tpose-right-latest",
+        "back": "hip-emblem-tpose-back-latest",
+        "left": "hip-emblem-tpose-left-latest"
+      },
+      "summary": "在角色右胯腿口夹装鸟首装甲徽章，并垂落外侧腿带扣住角色右靴外侧高点，构成贴身完整装。",
+      "facts": [
+        {
+          "term": "徽章",
+          "value": "银灰双翼片配枪灰喙壳与深蓝水滴透镜，内侧翻折背夹固定"
+        },
+        {
+          "term": "腿带",
+          "value": "哑黑直带垂贴大腿外侧，底端暗扣直接勾住角色右靴光滑紫边"
+        }
+      ],
+      "leftRight": "仅角色右侧佩戴鸟首徽章与腿带，角色左侧完全留素；平举背面采用自然垂发保持四视一致。"
+    }
+  ]
+}
