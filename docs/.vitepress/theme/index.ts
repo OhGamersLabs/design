@@ -13,6 +13,11 @@ import GarmentMeasurements from './components/GarmentMeasurements.vue'
 import SiteLayout from './SiteLayout.vue'
 import CharacterPage from './CharacterPage.vue'
 import CharacterRoster from './CharacterRoster.vue'
+import BaseBodyPage from './BaseBodyPage.vue'
+import BaseBodyHero from './components/BaseBodyHero.vue'
+import BaseBodyImage from './components/BaseBodyImage.vue'
+import BaseBodyTierGrid from './components/BaseBodyTierGrid.vue'
+import BaseBodyTierViews from './components/BaseBodyTierViews.vue'
 import './style.css'
 
 export default {
@@ -22,6 +27,11 @@ export default {
     if (import.meta.env.SSR) app.config.throwUnhandledErrorInProduction = true
     app.component('CharacterPage', CharacterPage)
     app.component('CharacterRoster', CharacterRoster)
+    app.component('BaseBodyPage', BaseBodyPage)
+    app.component('BaseBodyHero', BaseBodyHero)
+    app.component('BaseBodyImage', BaseBodyImage)
+    app.component('BaseBodyTierGrid', BaseBodyTierGrid)
+    app.component('BaseBodyTierViews', BaseBodyTierViews)
     app.component('AssetImage', AssetImage)
     app.component('OriginNote', OriginNote)
     app.component('LayerStrip', LayerStrip)

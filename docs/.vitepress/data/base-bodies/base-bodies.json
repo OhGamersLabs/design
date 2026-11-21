@@ -1,0 +1,290 @@
+{
+  "title": "通用素体",
+  "subtitle": "公共基础资产 · 三档二十一视",
+  "intro": "跨角色共用的 2D 比例人台，按三档身高分级，每档含 A 姿三视与 T 姿四视。",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-21",
+  "allowedDates": [
+    "2026-11-21"
+  ],
+  "overview": {
+    "tabs": [
+      {
+        "key": "scale",
+        "label": "等比总览",
+        "caption": "全家族三档同地平线等比对照（1.00× : 1.08× : 1.17×）",
+        "assets": [
+          "family-scale-latest"
+        ]
+      },
+      {
+        "key": "three",
+        "label": "三档正面",
+        "caption": "女性标准、标准青年男、重壮男 A 姿正面并列对照",
+        "assets": [
+          "female-standard-front-latest",
+          "male-standard-front-latest",
+          "male-heavy-front-latest"
+        ]
+      },
+      {
+        "key": "tpose",
+        "label": "三档 T 姿",
+        "caption": "三档 T 姿正面平举并列对照，供 3D 建模参考",
+        "assets": [
+          "female-standard-tpose-front-latest",
+          "male-standard-tpose-front-latest",
+          "male-heavy-tpose-front-latest"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "term": "定位",
+        "value": "人型角色第 0 层共用基础人台",
+        "note": "跨角色复用体型、站姿与画风，新角色仅替换头部与着装"
+      },
+      {
+        "term": "身高分级",
+        "value": "1.00× / 1.08× / 1.17×",
+        "note": "同脚底基线对齐，三档绝对头高保持一致；厘米身高未设定"
+      },
+      {
+        "term": "视图配置",
+        "value": "每档 A 姿三视 + T 姿四视",
+        "note": "A 姿 1024×1536，T 姿 1024×1024，全套 21 张标准图与 1 张等比总览"
+      },
+      {
+        "term": "画风基准",
+        "value": "日系 TV 动画赛璐璐平涂",
+        "note": "近黑粗外轮廓与细内线、单层硬边阴影、纯白底、赤脚、深炭黑短发占位头"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "tiers",
+        "label": "三档素体"
+      },
+      {
+        "id": "proportions",
+        "label": "比例对照"
+      },
+      {
+        "id": "rules",
+        "label": "画风与调用"
+      }
+    ]
+  },
+  "tiers": [
+    {
+      "id": "female-standard",
+      "code": "女 · 1.00×",
+      "name": "女性标准素体",
+      "shortName": "女性标准",
+      "role": "女性角色通用基准人台",
+      "scale": "1.00×",
+      "headRatio": "约 6.5 头身",
+      "path": "/base-bodies/female-standard",
+      "portrait": "female-standard-front-latest",
+      "summary": "标准纤细女性骨架，穿哑光深炭黑两件式运动打底，配齐耳深炭黑短发与中性深灰瞳占位头。",
+      "calloutTitle": "下游调用要点",
+      "callout": "创建女性角色第 0 层时，以对应角度视图为母版，仅替换头部与发型，锁定颈部以下体型、站姿与画幅占比。",
+      "apose": {
+        "front": "female-standard-front-latest",
+        "side": "female-standard-side-latest",
+        "back": "female-standard-back-latest"
+      },
+      "tpose": {
+        "front": "female-standard-tpose-front-latest",
+        "right": "female-standard-tpose-right-latest",
+        "back": "female-standard-tpose-back-latest",
+        "left": "female-standard-tpose-left-latest"
+      },
+      "facts": [
+        {
+          "term": "相对身高",
+          "value": "1.00×（基准档）",
+          "note": "厘米身高未设定"
+        },
+        {
+          "term": "赤脚头身",
+          "value": "约 6.5 头身",
+          "note": "发顶至脚底，与 Bunny 身体比例一致"
+        },
+        {
+          "term": "占位头",
+          "value": "贴耳齐颌深炭黑短发",
+          "note": "中性深灰瞳，平静闭口，完整露出双耳、下颌与锁骨肩线"
+        },
+        {
+          "term": "人台着装",
+          "value": "哑光深炭黑两件式运动打底",
+          "note": "赤脚站立，换装时替换为角色内衣与服装"
+        },
+        {
+          "term": "视图规格",
+          "value": "A 姿三视 · T 姿四视",
+          "note": "A 姿 1024×1536；T 姿 1024×1024，角色左侧面与角色右侧面省去近侧手臂"
+        }
+      ],
+      "metrics": [
+        { "label": "相对身高倍率", "value": "1.00×" },
+        { "label": "赤脚头身比", "value": "6.50 – 6.54 头" },
+        { "label": "正面肩宽（左右肩宽）", "value": "1.28 – 1.33 头" },
+        { "label": "正面腰宽", "value": "0.69 头" },
+        { "label": "正面臀宽", "value": "1.17 头" },
+        { "label": "肩腰比 / 肩臀比", "value": "1.92 / 1.14" },
+        { "label": "上臂宽 / 大腿宽 / 小腿宽", "value": "0.26 / 0.57 / 0.35 头" },
+        { "label": "侧视腰厚 / 正面腰宽", "value": "0.72×" }
+      ]
+    },
+    {
+      "id": "male-standard",
+      "code": "男 · 1.08×",
+      "name": "标准青年男素体",
+      "shortName": "标准青年男",
+      "role": "常规与敏捷型男性角色人台",
+      "scale": "1.08×",
+      "headRatio": "约 7.4 头身",
+      "path": "/base-bodies/male-standard",
+      "portrait": "male-standard-front-latest",
+      "summary": "精壮修长青年男性骨架，裸上身配哑光深炭黑平角运动短裤，配清爽微露额头短碎深炭黑发占位头。",
+      "calloutTitle": "下游调用要点",
+      "callout": "适用于 Gold Hunter 及常规修长男性角色。裸上身清晰标出锁骨、胸肌与腰腹结构，换装时直接覆盖平角短裤。",
+      "apose": {
+        "front": "male-standard-front-latest",
+        "side": "male-standard-side-latest",
+        "back": "male-standard-back-latest"
+      },
+      "tpose": {
+        "front": "male-standard-tpose-front-latest",
+        "right": "male-standard-tpose-right-latest",
+        "back": "male-standard-tpose-back-latest",
+        "left": "male-standard-tpose-left-latest"
+      },
+      "facts": [
+        {
+          "term": "相对身高",
+          "value": "1.08×（高于基准档约半头）",
+          "note": "同地平线对齐时绝对头高与女性标准档一致"
+        },
+        {
+          "term": "赤脚头身",
+          "value": "约 7.4 头身（实测 7.42 头）",
+          "note": "修长倒三角体态，四肢精干利落"
+        },
+        {
+          "term": "占位头",
+          "value": "清爽短碎深炭黑发",
+          "note": "中性深灰瞳，修长下颌线，耳廓与颈部完整露出"
+        },
+        {
+          "term": "人台着装",
+          "value": "裸上身 + 哑光深炭黑平角短裤",
+          "note": "无装饰平口短裤，赤脚站立，便于胸背与腰胯穿衣定位"
+        },
+        {
+          "term": "视图规格",
+          "value": "A 姿三视 · T 姿四视",
+          "note": "A 姿 1024×1536；T 姿 1024×1024，角色左侧面与角色右侧面省去近侧手臂"
+        }
+      ],
+      "metrics": [
+        { "label": "相对身高倍率", "value": "1.08×" },
+        { "label": "赤脚头身比", "value": "7.42 头" },
+        { "label": "正面肩宽（左右肩宽）", "value": "1.93 头" },
+        { "label": "正面腰宽", "value": "0.95 头" },
+        { "label": "正面臀宽", "value": "1.40 头" },
+        { "label": "肩腰比 / 肩臀比", "value": "2.03 / 1.38" },
+        { "label": "上臂宽 / 大腿宽 / 小腿宽", "value": "0.38 / 0.66 / 0.42 头" },
+        { "label": "侧视腰厚 / 正面腰宽", "value": "0.78×" }
+      ]
+    },
+    {
+      "id": "male-heavy",
+      "code": "重男 · 1.17×",
+      "name": "重壮男素体",
+      "shortName": "重壮男",
+      "role": "高大重装与力量型男性角色人台",
+      "scale": "1.17×",
+      "headRatio": "约 7.9 头身",
+      "path": "/base-bodies/male-heavy",
+      "portrait": "male-heavy-front-latest",
+      "summary": "高挑宽厚重壮英雄骨架，桶状厚胸背与粗壮四肢，裸上身配哑光深炭黑平角运动短裤，配利落战术短发占位头。",
+      "calloutTitle": "下游调用要点",
+      "callout": "优先用于重装士兵 Gunman 及重甲/力量型男性角色，厚实肩胸与斜方肌可直接承托重型装甲与大件背具。",
+      "apose": {
+        "front": "male-heavy-front-latest",
+        "side": "male-heavy-side-latest",
+        "back": "male-heavy-back-latest"
+      },
+      "tpose": {
+        "front": "male-heavy-tpose-front-latest",
+        "right": "male-heavy-tpose-right-latest",
+        "back": "male-heavy-tpose-back-latest",
+        "left": "male-heavy-tpose-left-latest"
+      },
+      "facts": [
+        {
+          "term": "相对身高",
+          "value": "1.17×（高于基准档约一头）",
+          "note": "同地平线对齐时绝对头高与其余两档一致"
+        },
+        {
+          "term": "赤脚头身",
+          "value": "约 7.9 头身（实测 7.87 头）",
+          "note": "重装英雄比例，肩宽胸厚，核心强壮"
+        },
+        {
+          "term": "占位头",
+          "value": "干练短裁深炭黑发",
+          "note": "中性深炭灰瞳，方正硬朗下颌，粗壮颈部与斜方肌完整露出"
+        },
+        {
+          "term": "人台着装",
+          "value": "裸上身 + 哑光深炭黑平角短裤",
+          "note": "无装饰平口短裤，赤脚站立，清晰呈现桶状胸背厚度"
+        },
+        {
+          "term": "视图规格",
+          "value": "A 姿三视 · T 姿四视",
+          "note": "A 姿 1024×1536；T 姿 1024×1024，角色左侧面与角色右侧面省去近侧手臂"
+        }
+      ],
+      "metrics": [
+        { "label": "相对身高倍率", "value": "1.17×" },
+        { "label": "赤脚头身比", "value": "7.87 头" },
+        { "label": "正面肩宽（左右肩宽）", "value": "2.45 头" },
+        { "label": "正面腰宽", "value": "1.17 头" },
+        { "label": "正面臀宽", "value": "1.73 头" },
+        { "label": "肩腰比 / 肩臀比", "value": "2.10 / 1.42" },
+        { "label": "上臂宽 / 大腿宽 / 小腿宽", "value": "0.49 / 0.86 / 0.53 头" },
+        { "label": "侧视腰厚 / 正面腰宽", "value": "0.77×" }
+      ]
+    }
+  ],
+  "assetNames": {
+    "family-scale-latest": "全家族三档通用素体同地平线等比对照图",
+    "female-standard-front-latest": "女性标准素体 · A 姿正面",
+    "female-standard-side-latest": "女性标准素体 · A 姿角色右侧面",
+    "female-standard-back-latest": "女性标准素体 · A 姿背面",
+    "female-standard-tpose-front-latest": "女性标准素体 · T 姿正面",
+    "female-standard-tpose-right-latest": "女性标准素体 · T 姿角色右侧面",
+    "female-standard-tpose-back-latest": "女性标准素体 · T 姿背面",
+    "female-standard-tpose-left-latest": "女性标准素体 · T 姿角色左侧面",
+    "male-standard-front-latest": "标准青年男素体 · A 姿正面",
+    "male-standard-side-latest": "标准青年男素体 · A 姿角色右侧面",
+    "male-standard-back-latest": "标准青年男素体 · A 姿背面",
+    "male-standard-tpose-front-latest": "标准青年男素体 · T 姿正面",
+    "male-standard-tpose-right-latest": "标准青年男素体 · T 姿角色右侧面",
+    "male-standard-tpose-back-latest": "标准青年男素体 · T 姿背面",
+    "male-standard-tpose-left-latest": "标准青年男素体 · T 姿角色左侧面",
+    "male-heavy-front-latest": "重壮男素体 · A 姿正面",
+    "male-heavy-side-latest": "重壮男素体 · A 姿角色右侧面",
+    "male-heavy-back-latest": "重壮男素体 · A 姿背面",
+    "male-heavy-tpose-front-latest": "重壮男素体 · T 姿正面",
+    "male-heavy-tpose-right-latest": "重壮男素体 · T 姿角色右侧面",
+    "male-heavy-tpose-back-latest": "重壮男素体 · T 姿背面",
+    "male-heavy-tpose-left-latest": "重壮男素体 · T 姿角色左侧面"
+  }
+}

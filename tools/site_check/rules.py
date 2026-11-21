@@ -290,7 +290,7 @@ def r7b(c):
             fig=figure_for(node)
             asset=c.asset_for_url(url,p.path)
             if not asset:continue
-            card=node.ancestor(lambda n:n.tag=='a' and n.has_class('character-card'))
+            card=node.ancestor(lambda n:n.tag=='a' and (n.has_class('character-card') or n.has_class('base-body-card')))
             if node.tag=='img' and card is not None and card.attrs.get('data-asset-id')==asset['id']:continue
             key=(fig or node,asset['id'])
             if key in seen:continue
@@ -406,7 +406,7 @@ def r12a(c):
         if re.search(r'#[0-9a-fA-F]{3,8}(?![A-Za-z0-9_])',value):errors.append(fail('R12a',p.path,'visible color value'))
         if re.search(r'[0-9０-９]+(?:\.[0-9０-９]+)?\s*(?:cm|厘米|公分|mm|毫米)',re.sub(r'厘米身高\s*未设定','',value)):errors.append(fail('R12a',p.path,'visible centimeter/millimeter number'))
         spec=c.character(p.path)
-        allowed=set(spec.allowed_dates) if spec else {date for character in c.characters for date in character.allowed_dates}
+        allowed=set(spec.allowed_dates) if spec else ({date for character in c.characters for date in character.allowed_dates} | set(c.cfg.shared_allowed_dates or ()))
         for date in sorted(set(re.findall(r'[0-9]{4}-[0-9]{2}-[0-9]{2}',value))-allowed):errors.append(fail('R12a',p.path,'date is outside allowed set: '+date))
         if c.node('emoji',text=value):errors.append(fail('R12a',p.path,'visible emoji'))
     return errors
@@ -666,6 +666,14 @@ def a1(c):
         if set(names)!=expected:errors.append(fail('A1','asset-names.json','name keys differ from current manifest assets'))
         for aid,name in names.items():
             if not isinstance(name,str) or not name.strip():errors.append(fail('A1',aid,'Chinese display name is empty'))
+    if 'base-bodies' in ids:
+        bb_file=c.cfg.root/'docs/.vitepress/data/base-bodies/base-bodies.json'
+        bb_names=c.read(bb_file).get('assetNames',{})
+        if not isinstance(bb_names,dict) or set(bb_names)!=ids['base-bodies']:
+            errors.append(fail('A1','base-bodies.json','base-bodies assetNames differ from manifest assets'))
+        else:
+            for aid,name in bb_names.items():
+                if not isinstance(name,str) or not name.strip():errors.append(fail('A1',aid,'Chinese display name is empty'))
     return errors
 
 

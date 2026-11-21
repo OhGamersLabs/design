@@ -1,0 +1,516 @@
+{
+  "schema_version": "2.0",
+  "character_id": "base-bodies",
+  "language": "zh-CN",
+  "title": "通用素体设计",
+  "status": "local-review",
+  "asset_count": 22,
+  "assets": [
+    {
+      "id": "family-scale-latest",
+      "character": "base-bodies",
+      "title": "family-scale-latest",
+      "original": {
+        "path": "/media/base-bodies/family-scale-latest.png",
+        "mime_type": "image/png",
+        "width": 2400,
+        "height": 1200,
+        "bytes": 548925,
+        "sha256": "7f89f5f64d516c2e9e2606a644763457d54c61bc37f9bab17c4fc34eca0a15e9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/family-scale-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1024,
+        "bytes": 344852,
+        "sha256": "87130b5decb69ac110d778c06172ef29a6627d9b7c4769a635c89d602809a3b0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-standard-back-latest",
+      "character": "base-bodies",
+      "title": "female-standard-back-latest",
+      "original": {
+        "path": "/media/base-bodies/female-standard-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 908048,
+        "sha256": "47959dfe00f7b06f04c0830c03c25948dac55d8380883377e0bda9e91bbc2439",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-standard-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 628088,
+        "sha256": "7a01535ca45d8fd94b12c1ef95c49602af9ab14712d094c7581ae3e9e7e6ed4b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-standard-front-latest",
+      "character": "base-bodies",
+      "title": "female-standard-front-latest",
+      "original": {
+        "path": "/media/base-bodies/female-standard-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1240469,
+        "sha256": "3457d07ba585efdb691d55d041539c9723e606a7a30d9bfdf57859579692506e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-standard-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 886850,
+        "sha256": "1549720fbadacab0512dc745873a3b29c78a208a5aa7bcf77c639effa1eea8b1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-standard-side-latest",
+      "character": "base-bodies",
+      "title": "female-standard-side-latest",
+      "original": {
+        "path": "/media/base-bodies/female-standard-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1178691,
+        "sha256": "13cb15568878e7168f0381d8f2dbdb08693baaa5fc109904c4350bffee8ec2cc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-standard-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 856370,
+        "sha256": "3862f303c80283e6c39cb24bbc513ab620c9fd53e45e7776ac9b3c50bd9fe0f3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-standard-tpose-back-latest",
+      "character": "base-bodies",
+      "title": "female-standard-tpose-back-latest",
+      "original": {
+        "path": "/media/base-bodies/female-standard-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 777087,
+        "sha256": "2e7f7618a28b394f0022716d9340b8e429a658ac85ef981e0eec79df4607a18b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-standard-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 504462,
+        "sha256": "fedfe6670e74f1382a68d784f38cc75b90625c641e441931d4cdb3bdbdc6c5f1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-standard-tpose-front-latest",
+      "character": "base-bodies",
+      "title": "female-standard-tpose-front-latest",
+      "original": {
+        "path": "/media/base-bodies/female-standard-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 542358,
+        "sha256": "472260985b18ccabfafcef97d4430ab4b438292c56a2236c05a96bdeacc26a38",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-standard-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 333414,
+        "sha256": "36ac3977bd9acc5ea37d008dcfc75cf8ebb3eec0074ad006f245a0bf16c208cd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-standard-tpose-left-latest",
+      "character": "base-bodies",
+      "title": "female-standard-tpose-left-latest",
+      "original": {
+        "path": "/media/base-bodies/female-standard-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 374578,
+        "sha256": "67248bc3cfea554b1d70518aae1ad89d919fc1b424137acc62c7a2da095f4d87",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-standard-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 250328,
+        "sha256": "2088e91889325beefe5c6b7c3c7ce02f6a6b691311ac1b19699ec549a6f0581b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-standard-tpose-right-latest",
+      "character": "base-bodies",
+      "title": "female-standard-tpose-right-latest",
+      "original": {
+        "path": "/media/base-bodies/female-standard-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 420525,
+        "sha256": "cd132bd80287535487d683d230d5e88197f85971d9e02551d51909fb6600076f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-standard-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 283744,
+        "sha256": "818b839d7e3d7912e536354e564d2939f2b084765420d8a87ae7ab233ef2502c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-heavy-back-latest",
+      "character": "base-bodies",
+      "title": "male-heavy-back-latest",
+      "original": {
+        "path": "/media/base-bodies/male-heavy-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1023169,
+        "sha256": "4fd593943c7491e1718f1f2dfe852fe636c87b77001fc1600a06668f59b8f447",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-heavy-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 712622,
+        "sha256": "33044766e87fa5899864e45273d6231e4e5b074bdc0205e8a09a7ea263b32581",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-heavy-front-latest",
+      "character": "base-bodies",
+      "title": "male-heavy-front-latest",
+      "original": {
+        "path": "/media/base-bodies/male-heavy-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1238463,
+        "sha256": "a636744f6965b2d4bab33b7d98d8a502f3eff38176441ff69b840a78fd09b788",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-heavy-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 887600,
+        "sha256": "c08027a0d7c2ed91f994c7824a55c9c63de4ba00699abf5315a26c867f4df3b7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-heavy-side-latest",
+      "character": "base-bodies",
+      "title": "male-heavy-side-latest",
+      "original": {
+        "path": "/media/base-bodies/male-heavy-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 965202,
+        "sha256": "10ed0edcf480a37210c8f8ba85532b0fb9ca843867d06cb2cb43d954024d4075",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-heavy-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 679834,
+        "sha256": "59ae878d8aeb4c1f9c10c2b9f2212f3eec59c336df4170541b52e5f48b55537c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-heavy-tpose-back-latest",
+      "character": "base-bodies",
+      "title": "male-heavy-tpose-back-latest",
+      "original": {
+        "path": "/media/base-bodies/male-heavy-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 665208,
+        "sha256": "159370c937279a75147f6340d56a83e41c3ab22fba22dd8b44424d3cfb95f5c4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-heavy-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 454516,
+        "sha256": "7ac26598732e19b994d8aba3a96d79f6be84dd0dc1c5e49db9903e5cebd443f3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-heavy-tpose-front-latest",
+      "character": "base-bodies",
+      "title": "male-heavy-tpose-front-latest",
+      "original": {
+        "path": "/media/base-bodies/male-heavy-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 660117,
+        "sha256": "1a91020b3ddc72dbeff9e725d11583f517fefd575910278cef5b1c0f10e11cf0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-heavy-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 449432,
+        "sha256": "c63cf67d4b07e91d0698f889c0126e22038286dae679c8f9b94c67225ba8445a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-heavy-tpose-left-latest",
+      "character": "base-bodies",
+      "title": "male-heavy-tpose-left-latest",
+      "original": {
+        "path": "/media/base-bodies/male-heavy-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 572883,
+        "sha256": "75a9d4841f653ab9f6a1fdd4bd7ddd364230c435ea5d3ab4840cf70a3010cc8d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-heavy-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 378010,
+        "sha256": "a5fa33d2fd91cf1509e7545da4a30b27a14d18647826ba972d28b491a6a10ba0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-heavy-tpose-right-latest",
+      "character": "base-bodies",
+      "title": "male-heavy-tpose-right-latest",
+      "original": {
+        "path": "/media/base-bodies/male-heavy-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 436728,
+        "sha256": "ee3129386fff56ea9d55c94d39841e47c796909662e0d726a6a10f086dc418e0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-heavy-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 264068,
+        "sha256": "8daf35fdceeaef1f02e4e9781195bcb51685e619cd32b907215efd1ae78d0a2d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-standard-back-latest",
+      "character": "base-bodies",
+      "title": "male-standard-back-latest",
+      "original": {
+        "path": "/media/base-bodies/male-standard-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1213402,
+        "sha256": "f0a2157aa0eda03a1c626db484164769939bd8e4cc74e257d0aa83bebfb68e74",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-standard-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 871248,
+        "sha256": "0539cf2a8c9d8fcb57db081127c115d7f210d229fa791b9860cf73e9cd124e33",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-standard-front-latest",
+      "character": "base-bodies",
+      "title": "male-standard-front-latest",
+      "original": {
+        "path": "/media/base-bodies/male-standard-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1033749,
+        "sha256": "df8ef12b5323701398de8940542b5737d2b22f9c9cbe71a533e73dee9f0998a7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-standard-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 728934,
+        "sha256": "25a8dd2a7abdf1b932ef345ccd044f9e15e7682ad97d36a05625557368d871ef",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-standard-side-latest",
+      "character": "base-bodies",
+      "title": "male-standard-side-latest",
+      "original": {
+        "path": "/media/base-bodies/male-standard-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 813978,
+        "sha256": "60e97edf8e1a645c93aa0f6a01b4bad8215f1d7bdaffa78adbb260279c6b476d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-standard-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 551812,
+        "sha256": "f10fd646c8d50d6641a577a81f3881288f161dda384a185ee95a736b6ab86754",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-standard-tpose-back-latest",
+      "character": "base-bodies",
+      "title": "male-standard-tpose-back-latest",
+      "original": {
+        "path": "/media/base-bodies/male-standard-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 690754,
+        "sha256": "9c9aab4648384135b2fa435f9569582f17db2db1152dac08354ce8aa92573cd1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-standard-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 472534,
+        "sha256": "55b05b787acdece94edcc885b34f62ffd63d469f8bca0fbdf84fd12982606c3a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-standard-tpose-front-latest",
+      "character": "base-bodies",
+      "title": "male-standard-tpose-front-latest",
+      "original": {
+        "path": "/media/base-bodies/male-standard-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 592253,
+        "sha256": "1d98922c78e1fe21f2bbe076c972ba78e45841bdbb691291a6c84452fc6b1f0a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-standard-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 397510,
+        "sha256": "331d41017ddc29ae0f13c820bcaba49daea1568d913554147fcb10620e89d43f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-standard-tpose-left-latest",
+      "character": "base-bodies",
+      "title": "male-standard-tpose-left-latest",
+      "original": {
+        "path": "/media/base-bodies/male-standard-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 526600,
+        "sha256": "ae22d51d117de3bbdde6f329fe1d877953e5fbe43124cd54540091c7eeba00a3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-standard-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 346732,
+        "sha256": "fb580dfedff02add3d6637804f1da0c5af8a0f333c8b253e8cae10c04ede671f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-standard-tpose-right-latest",
+      "character": "base-bodies",
+      "title": "male-standard-tpose-right-latest",
+      "original": {
+        "path": "/media/base-bodies/male-standard-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 549042,
+        "sha256": "60b2b214587c6693a96d49336ddd704fb46a8d1e6231b82194759bc3529fcdf5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/male-standard-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 360726,
+        "sha256": "566a22940c5cb8510919d3a72c12aeaff7be509b9c7143f732b300611dc4f308",
+        "alpha": false
+      }
+    }
+  ]
+}

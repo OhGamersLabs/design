@@ -285,6 +285,138 @@
       "contentType": "image/png"
     },
     {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/family-scale-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/family-scale-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-standard-back-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-standard-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-standard-front-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-standard-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-standard-side-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-standard-side-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-standard-tpose-back-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-standard-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-standard-tpose-front-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-standard-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-standard-tpose-left-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-standard-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-standard-tpose-right-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-standard-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-heavy-back-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-heavy-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-heavy-front-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-heavy-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-heavy-side-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-heavy-side-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-heavy-tpose-back-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-heavy-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-heavy-tpose-front-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-heavy-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-heavy-tpose-left-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-heavy-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-heavy-tpose-right-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-heavy-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-standard-back-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-standard-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-standard-front-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-standard-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-standard-side-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-standard-side-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-standard-tpose-back-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-standard-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-standard-tpose-front-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-standard-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-standard-tpose-left-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-standard-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/male-standard-tpose-right-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/male-standard-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "bunny",
       "path": "/media/bunny/belt-back-latest.png",
       "key": "x_ops/design/characters/bunny/latest/belt-back-latest.png",

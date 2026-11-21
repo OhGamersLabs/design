@@ -375,6 +375,182 @@
     "sourcePath": "/characters/angel/neckline-gusset-latest.webp",
     "sourceSha256": "757ca441f33f7bfe8618ef0c3c9e565208ba6db7b92828346f7353e249972be3"
   },
+  "base-bodies/family-scale-latest": {
+    "path": "/site/thumbs/base-bodies/family-scale-latest.webp",
+    "width": 480,
+    "height": 240,
+    "sha256": "d3e145b207025c50ce17fe85c4d989d1503c74130feb79e988e8a5b9333af43a",
+    "sourcePath": "/characters/base-bodies/family-scale-latest.webp",
+    "sourceSha256": "87130b5decb69ac110d778c06172ef29a6627d9b7c4769a635c89d602809a3b0"
+  },
+  "base-bodies/female-standard-back-latest": {
+    "path": "/site/thumbs/base-bodies/female-standard-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "1580515a2ea60646351dff0cc47972311e9e5f5b29a8d84b52ae83fd458b0adf",
+    "sourcePath": "/characters/base-bodies/female-standard-back-latest.webp",
+    "sourceSha256": "7a01535ca45d8fd94b12c1ef95c49602af9ab14712d094c7581ae3e9e7e6ed4b"
+  },
+  "base-bodies/female-standard-front-latest": {
+    "path": "/site/thumbs/base-bodies/female-standard-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "7679c0464244381a8f8217d92b10bbd27096b893f0a0415d41843edea0cd4810",
+    "sourcePath": "/characters/base-bodies/female-standard-front-latest.webp",
+    "sourceSha256": "1549720fbadacab0512dc745873a3b29c78a208a5aa7bcf77c639effa1eea8b1"
+  },
+  "base-bodies/female-standard-side-latest": {
+    "path": "/site/thumbs/base-bodies/female-standard-side-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "98ccecb4a66a87017bd84a61560d29d294683805c113e1103271b128b2a9ea53",
+    "sourcePath": "/characters/base-bodies/female-standard-side-latest.webp",
+    "sourceSha256": "3862f303c80283e6c39cb24bbc513ab620c9fd53e45e7776ac9b3c50bd9fe0f3"
+  },
+  "base-bodies/female-standard-tpose-back-latest": {
+    "path": "/site/thumbs/base-bodies/female-standard-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "dc86b0849d4053866fe84a7b6ae1b376c39444d4cc6f49ef20e9211975418f7f",
+    "sourcePath": "/characters/base-bodies/female-standard-tpose-back-latest.webp",
+    "sourceSha256": "fedfe6670e74f1382a68d784f38cc75b90625c641e441931d4cdb3bdbdc6c5f1"
+  },
+  "base-bodies/female-standard-tpose-front-latest": {
+    "path": "/site/thumbs/base-bodies/female-standard-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ba6ef384bc965e3c788e70e177fa1987c28dd27925a488ec6c1847b447df89ac",
+    "sourcePath": "/characters/base-bodies/female-standard-tpose-front-latest.webp",
+    "sourceSha256": "36ac3977bd9acc5ea37d008dcfc75cf8ebb3eec0074ad006f245a0bf16c208cd"
+  },
+  "base-bodies/female-standard-tpose-left-latest": {
+    "path": "/site/thumbs/base-bodies/female-standard-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0c2e78732c8d95ba45edb7cd43c3fb59b8f07c04b9189ff55eb296aaff55122a",
+    "sourcePath": "/characters/base-bodies/female-standard-tpose-left-latest.webp",
+    "sourceSha256": "2088e91889325beefe5c6b7c3c7ce02f6a6b691311ac1b19699ec549a6f0581b"
+  },
+  "base-bodies/female-standard-tpose-right-latest": {
+    "path": "/site/thumbs/base-bodies/female-standard-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0f2f5ace7a02eabaa363b1876420341a34929161980290faacdf9dbcf4c3db40",
+    "sourcePath": "/characters/base-bodies/female-standard-tpose-right-latest.webp",
+    "sourceSha256": "818b839d7e3d7912e536354e564d2939f2b084765420d8a87ae7ab233ef2502c"
+  },
+  "base-bodies/male-heavy-back-latest": {
+    "path": "/site/thumbs/base-bodies/male-heavy-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "ae25bc4e988f5850ddf5c3551a4d095c9b16dbe914f6ef37c38586166c297332",
+    "sourcePath": "/characters/base-bodies/male-heavy-back-latest.webp",
+    "sourceSha256": "33044766e87fa5899864e45273d6231e4e5b074bdc0205e8a09a7ea263b32581"
+  },
+  "base-bodies/male-heavy-front-latest": {
+    "path": "/site/thumbs/base-bodies/male-heavy-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "15b7400bd3c5613707977a88b5b1c6d0e8737c279de6b7934211dfebdd64d03b",
+    "sourcePath": "/characters/base-bodies/male-heavy-front-latest.webp",
+    "sourceSha256": "c08027a0d7c2ed91f994c7824a55c9c63de4ba00699abf5315a26c867f4df3b7"
+  },
+  "base-bodies/male-heavy-side-latest": {
+    "path": "/site/thumbs/base-bodies/male-heavy-side-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "1167b225252b6adf2f0f88fa9f050f499392175c306fbc08417b5600c78dbd0b",
+    "sourcePath": "/characters/base-bodies/male-heavy-side-latest.webp",
+    "sourceSha256": "59ae878d8aeb4c1f9c10c2b9f2212f3eec59c336df4170541b52e5f48b55537c"
+  },
+  "base-bodies/male-heavy-tpose-back-latest": {
+    "path": "/site/thumbs/base-bodies/male-heavy-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9a86ccc04f4a7a7eb320ac6f42cabfdf6f68664c550f1c2ebf360cbb48942f92",
+    "sourcePath": "/characters/base-bodies/male-heavy-tpose-back-latest.webp",
+    "sourceSha256": "7ac26598732e19b994d8aba3a96d79f6be84dd0dc1c5e49db9903e5cebd443f3"
+  },
+  "base-bodies/male-heavy-tpose-front-latest": {
+    "path": "/site/thumbs/base-bodies/male-heavy-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "74bedaa62a841be700a5d6b190b2e47bd7ddea3f0a50eb9a71373a35f7d36197",
+    "sourcePath": "/characters/base-bodies/male-heavy-tpose-front-latest.webp",
+    "sourceSha256": "c63cf67d4b07e91d0698f889c0126e22038286dae679c8f9b94c67225ba8445a"
+  },
+  "base-bodies/male-heavy-tpose-left-latest": {
+    "path": "/site/thumbs/base-bodies/male-heavy-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8bb8228c2768409c4464c2f90796720b374ecdb05121ca4e7f97446159b82453",
+    "sourcePath": "/characters/base-bodies/male-heavy-tpose-left-latest.webp",
+    "sourceSha256": "a5fa33d2fd91cf1509e7545da4a30b27a14d18647826ba972d28b491a6a10ba0"
+  },
+  "base-bodies/male-heavy-tpose-right-latest": {
+    "path": "/site/thumbs/base-bodies/male-heavy-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "503eba566e7032758d2ea985139ff09e37e23bdc0283e47fd0522df727a02d1c",
+    "sourcePath": "/characters/base-bodies/male-heavy-tpose-right-latest.webp",
+    "sourceSha256": "8daf35fdceeaef1f02e4e9781195bcb51685e619cd32b907215efd1ae78d0a2d"
+  },
+  "base-bodies/male-standard-back-latest": {
+    "path": "/site/thumbs/base-bodies/male-standard-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "02c90d438c14be378c32463b1570ebcac4d65e0286f71e3ecc30956db05ae145",
+    "sourcePath": "/characters/base-bodies/male-standard-back-latest.webp",
+    "sourceSha256": "0539cf2a8c9d8fcb57db081127c115d7f210d229fa791b9860cf73e9cd124e33"
+  },
+  "base-bodies/male-standard-front-latest": {
+    "path": "/site/thumbs/base-bodies/male-standard-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "fcf0dba7c395406f2d416cbaa8919f60d2fb568ce75309533a43385213ec62d5",
+    "sourcePath": "/characters/base-bodies/male-standard-front-latest.webp",
+    "sourceSha256": "25a8dd2a7abdf1b932ef345ccd044f9e15e7682ad97d36a05625557368d871ef"
+  },
+  "base-bodies/male-standard-side-latest": {
+    "path": "/site/thumbs/base-bodies/male-standard-side-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "9952f76bf6f6e80cd51beb985a9e188ff5a8db6224c063578d5b534bad63f64a",
+    "sourcePath": "/characters/base-bodies/male-standard-side-latest.webp",
+    "sourceSha256": "f10fd646c8d50d6641a577a81f3881288f161dda384a185ee95a736b6ab86754"
+  },
+  "base-bodies/male-standard-tpose-back-latest": {
+    "path": "/site/thumbs/base-bodies/male-standard-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "827eba385a8f1ffea95a2963db8fdb440619e968530984a624bf07575285950f",
+    "sourcePath": "/characters/base-bodies/male-standard-tpose-back-latest.webp",
+    "sourceSha256": "55b05b787acdece94edcc885b34f62ffd63d469f8bca0fbdf84fd12982606c3a"
+  },
+  "base-bodies/male-standard-tpose-front-latest": {
+    "path": "/site/thumbs/base-bodies/male-standard-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "049d0f4db481b17351a5eac6ae7df7794c459c10690a9593cfb92727cd9c9b78",
+    "sourcePath": "/characters/base-bodies/male-standard-tpose-front-latest.webp",
+    "sourceSha256": "331d41017ddc29ae0f13c820bcaba49daea1568d913554147fcb10620e89d43f"
+  },
+  "base-bodies/male-standard-tpose-left-latest": {
+    "path": "/site/thumbs/base-bodies/male-standard-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ad9f9c9c9aad20dd5a03d4b4381df15ce70c300d65ffc8cea5126269196edca5",
+    "sourcePath": "/characters/base-bodies/male-standard-tpose-left-latest.webp",
+    "sourceSha256": "fb580dfedff02add3d6637804f1da0c5af8a0f333c8b253e8cae10c04ede671f"
+  },
+  "base-bodies/male-standard-tpose-right-latest": {
+    "path": "/site/thumbs/base-bodies/male-standard-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "60fc32a8e56802dbd12734befba136e12c0fb2844470e949ae64f61f9efa5ac0",
+    "sourcePath": "/characters/base-bodies/male-standard-tpose-right-latest.webp",
+    "sourceSha256": "566a22940c5cb8510919d3a72c12aeaff7be509b9c7143f732b300611dc4f308"
+  },
   "bunny/belt-back-latest": {
     "path": "/site/thumbs/bunny/belt-back-latest.webp",
     "width": 480,

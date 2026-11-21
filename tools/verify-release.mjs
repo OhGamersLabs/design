@@ -8,6 +8,7 @@ import { validateCatalog } from '../worker/catalog.js'
 const defaultRoot = resolve(import.meta.dirname, '..')
 const slugPattern = /^[a-z0-9][a-z0-9-]*-latest$/
 const shaPattern = /^[a-fA-F0-9]{64}$/
+const sharedCollectionOverview = { origins: null, 'base-bodies': 'docs/base-bodies/index.md' }
 const isRecord = (value) => value !== null && typeof value === 'object' && !Array.isArray(value)
 const matches = (pattern, value) => typeof value === 'string' && pattern.exec(value)?.[0] === value
 
@@ -93,8 +94,13 @@ export async function verifyRelease(root = defaultRoot, { production = true, ver
       await verifyFile(resolve(root, 'docs/public' + asset.path), asset, 'Web asset')
     }
     if (production) {
-      const overview = await readFile(resolve(root, `docs/characters/${group.character}/index.md`), 'utf8')
-      requireReadyFrontmatter(overview, group.character)
+      const overviewPath = Object.hasOwn(sharedCollectionOverview, group.character)
+        ? sharedCollectionOverview[group.character]
+        : `docs/characters/${group.character}/index.md`
+      if (overviewPath) {
+        const overview = await readFile(resolve(root, overviewPath), 'utf8')
+        requireReadyFrontmatter(overview, group.character)
+      }
     }
     if (verifyOriginals) {
       for (const asset of manifest.assets) {

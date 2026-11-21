@@ -12,6 +12,10 @@ ROOT = Path(__file__).resolve().parents[1]
 SLUG = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*-latest')
 WEB_LONG_EDGE = 2048
 FORBIDDEN = re.compile(r'(?:^|-)(?:v\d+|layer\d+|fresh|cel|base-aligned|highlow|only|construction)(?:-|$)')
+SHARED_COLLECTIONS = {
+    'origins': '角色原始手稿',
+    'base-bodies': '通用素体设计',
+}
 
 
 def metadata(path, url, mime):
@@ -65,8 +69,8 @@ def build(root=ROOT, refresh_web=None):
         character = directory.name
         if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', character):
             raise ValueError(f'Invalid character: {character}')
-        if character == 'origins':
-            title = '角色原始手稿'
+        if character in SHARED_COLLECTIONS:
+            title = SHARED_COLLECTIONS[character]
         else:
             definition = root/'docs/.vitepress/data'/character/'character.json'
             if not definition.is_file():
