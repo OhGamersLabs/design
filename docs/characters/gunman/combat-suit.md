@@ -31,4 +31,4 @@ aside: false
 - **战术工装长裤**：哑光炭黑锥形长裤在大腿内侧设板岩灰耐磨拼片与束口脚踝；严格仅在角色左小腿外侧膝下至靴口嵌有一条亮青色竖向装饰细条纹（正面图位于画面右边，背面图位于画面左边），角色右腿外侧为素面纯炭黑。
 - **高帮战术运动靴**：双侧镜像对称的厚底战术运动靴，电光蓝靴身搭配橄榄棕 TPU 支撑架、明黄包边饰线、无字符银白圆头靴舌、扁平白色交叉鞋带与厚实黑橡胶防滑齿大底。
 
-<AssetImage id="combat-suit-board-latest" group="layer-1-structure" detail="1536×1024 灰模分件与穿戴结构" />
+<AssetImage id="combat-suit-board-latest" group="layer-1-structure" detail="3520×2352 灰模分件与穿戴结构" />

@@ -13,19 +13,19 @@
       "original": {
         "path": "/media/gunman/anchor-card-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 1048326,
-        "sha256": "671802bc45bacee9db7064149b02cbd28465b243e05405bc596d892a7b0cc4e8",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5440700,
+        "sha256": "b78c61b40913746cc7e6a49e79e498ccced928e6083c51ef941970332ee29488",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/anchor-card-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 715326,
-        "sha256": "84bfd868d8179324459409b3a8d4bb619ba6f5fe7bee876a01d584d10e832c4f",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2218334,
+        "sha256": "c0d148536fb2ca1f6d3aa5bee000a57c0cbf4890260f51ca9ef513749b85cb6c",
         "alpha": false
       }
     },
@@ -36,19 +36,19 @@
       "original": {
         "path": "/media/gunman/armor-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1164805,
-        "sha256": "c8f9b21b6bf43bf32ca1488ba8750b67ba2a25bfc87a52428da5bb5a1fccefb0",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4002545,
+        "sha256": "3617e00e8d1615c064346bb4a3a9db96c48372b3f7e26aca7f47831818bba20a",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/armor-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 801736,
-        "sha256": "0907f28bfcd4fe10f2bed0873cff75a84050b32b53ea8dbf5a86a23e24708e55",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1268884,
+        "sha256": "af3708d239028e0d528cad2424aa49ca6327dfd464c1e6863b0d5742204f685f",
         "alpha": false
       }
     },
@@ -59,19 +59,19 @@
       "original": {
         "path": "/media/gunman/armor-board-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1487030,
-        "sha256": "e50a1360f404002de40d5bba5e01cf2724c80f0350800310ee8d974cea5b9bf4",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5268335,
+        "sha256": "b9086000c7d6531074270c1b92d14392a2c5e29fca6cbaeb81c3d431c487d259",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/armor-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1049462,
-        "sha256": "32be8df71b638853967a3deeaf1459640de37c8c62730efb29fe8e02b1eae998",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1621642,
+        "sha256": "d4adda65f67c75f5aafb75e335fad623375b603737f2474bd5d94783177a4c35",
         "alpha": false
       }
     },
@@ -82,19 +82,19 @@
       "original": {
         "path": "/media/gunman/armor-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1232837,
-        "sha256": "965ec0d7241d708e9113d56ce3582b76611f4e8d6f8769568d90932be52c0bd1",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4264802,
+        "sha256": "a6bd6081ebb84d80f0e853895aeeae3f704552f9f0c64d72daa1127cf9a7f242",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/armor-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 849118,
-        "sha256": "129e17ccd8ee61c822d89f439cefd1c6eb7976fd03af4b3be96c6c6482e39ca9",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1352842,
+        "sha256": "f681e173ad5498edec66cd8d9ab6f14e9e140797f9631062047aaedef6ea01db",
         "alpha": false
       }
     },
@@ -105,19 +105,19 @@
       "original": {
         "path": "/media/gunman/armor-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 994720,
-        "sha256": "1f656412282a2bd3e2edb3c6c6a5bbe33639cd8801d682e7af0fb2fb5b6fab50",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3389580,
+        "sha256": "7c96242ecaf1ef1ce52a1b604bac28c95455fbce6f0076822483e2b8aab8a14f",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/armor-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 673630,
-        "sha256": "aebf84c152f67a86c5b30d3964f058cbc4191968ad43072500726ff480578a0b",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1108872,
+        "sha256": "6e18779e8222c03754ba886a59e15a3ada3decf9a1cc01b53a997750d2df717d",
         "alpha": false
       }
     },
@@ -128,19 +128,19 @@
       "original": {
         "path": "/media/gunman/armor-tpose-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 739397,
-        "sha256": "721ed860a5ec39b161bf6c8e45ebf4c624b20bccfdebef5daf7bdb6421a0b4d2",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3711290,
+        "sha256": "755a6021f3bf30df6154f49e0792f4575997a9345f111da8ea4467b726329842",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/armor-tpose-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 494674,
-        "sha256": "6f5011a54eb67f238e025d9953bfb314e1feafab4691545500fdb4b8cafbb700",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1644504,
+        "sha256": "d9bb6f1a6d96a34284683f28961fa630e889d222a7728fcd4aff113f479fc476",
         "alpha": false
       }
     },
@@ -151,19 +151,19 @@
       "original": {
         "path": "/media/gunman/armor-tpose-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 750465,
-        "sha256": "aae2af23157db4f6ee3ca781e895e9c345c181749dff9708cd064a29e4fef7ab",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3843805,
+        "sha256": "8ba69125835923ac66a4cd872e66576eac257085c4ebf3d423f0221f58a84366",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/armor-tpose-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 497298,
-        "sha256": "5ecccd196f0c6b8178b06b038fbed8b31998b3eef9ab033819df6a83c635e2d7",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1699624,
+        "sha256": "2746f8e1acd2bafed24e95a86c11767fddce67eda60aa1207c3cc66793004c2c",
         "alpha": false
       }
     },
@@ -174,19 +174,19 @@
       "original": {
         "path": "/media/gunman/armor-tpose-left-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 550007,
-        "sha256": "a18fd6c1500f6ec60860aafecc644962704e8ce8338021577c36eecb4bd6aec0",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3079298,
+        "sha256": "9194a54e035fa7fe560b8e9e6c70a5538c805f8592ecd72add564d165c8682eb",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/armor-tpose-left-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 353636,
-        "sha256": "c41def88b64a647a7ce3b978deaa7fe9576211fe50e680f5b79d6b58b348a0db",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1394336,
+        "sha256": "4f0555fc17c27c593c46fe67df72edc1cf36cceb88d8756347f4251b6b14b71b",
         "alpha": false
       }
     },
@@ -197,19 +197,19 @@
       "original": {
         "path": "/media/gunman/armor-tpose-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 624302,
-        "sha256": "96e1f2fdf205bb625346b9a7e3e3730ab5bb65e3d73055f1d4404eb3833d3432",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3107399,
+        "sha256": "d7cbd7e972d3761d497a2056c791875df0b47c9a901da72152cad023e389bbb8",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/armor-tpose-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 403994,
-        "sha256": "24e1f90ecda7465e2298cfc5d436fec7f881dc818e4822314e6c19555822e710",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1402226,
+        "sha256": "4828fd22d60e3faa8055c4edf2469aa201526927dadc33e7a98e1de3082e489b",
         "alpha": false
       }
     },
@@ -220,19 +220,19 @@
       "original": {
         "path": "/media/gunman/body-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1023544,
-        "sha256": "70e3a320b97b21e28223ced21d78c4dd730f3adc6a0c49851b0dc23d26689f04",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3376366,
+        "sha256": "1d103d58330dffb9f351368653bce97932da163209d1decc698e992de26b1dc2",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/body-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 711032,
-        "sha256": "7294d49a9610dbbf8c9d428d4363f62eef925bd4d43edc9dcfb2921f24d55ddf",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1148810,
+        "sha256": "e7ad6856b9230635a40fd9a2e5cfb602c63dc28de554d9f64432c9268fe1a0b6",
         "alpha": false
       }
     },
@@ -243,19 +243,19 @@
       "original": {
         "path": "/media/gunman/body-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1010297,
-        "sha256": "c82497c6da44be07475621e4752e24e9962fd5561518e574ed97d76fc9826076",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3406421,
+        "sha256": "97caafdeb4cf9b9ee4b8328998ec169af44c56de9418e189c5920abbd3ee37dd",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/body-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 697102,
-        "sha256": "6164d5e5abbb74726eb9ab27e2d4f7c45d2623324f6ac97ab0ac9cc2d84c24b8",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1165960,
+        "sha256": "20edd1c4665510de1582760af2dfc8aa00c0e14dba7aa4532b3dcfd8266207c6",
         "alpha": false
       }
     },
@@ -266,19 +266,19 @@
       "original": {
         "path": "/media/gunman/body-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 850464,
-        "sha256": "bdcf91366606ec33fa05f694bee050c8eaad25be3cd87f9b08bfe3f6e4651323",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2985720,
+        "sha256": "98d22608bc9e8a74080b46854d2a1dc10e82811340351ab9e60b0a3ff704eb88",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/body-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 577126,
-        "sha256": "fbe7d20eecc3653d8af85c7b6f4b857abe59b04a71b274cb8d198eb48d3b5705",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1039618,
+        "sha256": "1604be5aaffec9ed29445e8aa639811d51da01ad4e75f1632a9c6c3bbafdfa8e",
         "alpha": false
       }
     },
@@ -289,19 +289,19 @@
       "original": {
         "path": "/media/gunman/body-tpose-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 655735,
-        "sha256": "81a37f8f615993685b7b0bfcd60b92157ba773b598bf37cf37aa842caa11fd43",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3022735,
+        "sha256": "0a6f6890c5352cfedd17e4327465e98b3866ebd3080ddec1c6368479129fcf06",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/body-tpose-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 411670,
-        "sha256": "6487fd2fa2108516e482776e70f1359327d8a102ed486db164ef4757568b2b69",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1409260,
+        "sha256": "6d51e4281f2dfff41e55e687a1c42309496f06f689f5d5330de14c27af715d23",
         "alpha": false
       }
     },
@@ -312,19 +312,19 @@
       "original": {
         "path": "/media/gunman/body-tpose-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 648990,
-        "sha256": "5ccd2637555627b6f9a72d2d753c05359dd4dd73abccff75c83180d68f80c7da",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3030232,
+        "sha256": "b6fa4597aecdfcd1a7f3fe948b9fb8c2fb21c53f74974e77dea4c81e3b849423",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/body-tpose-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 406536,
-        "sha256": "737e7682203e1d1b36d4d6c77389b9bcfcf8262612aeb4c909202c2f35dc04b5",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1407072,
+        "sha256": "6995d7d5a12fe36556780ee39b818f8c2d16ccb8eff23dcccb2bc46ea5287200",
         "alpha": false
       }
     },
@@ -335,19 +335,19 @@
       "original": {
         "path": "/media/gunman/body-tpose-left-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 759021,
-        "sha256": "e162d8216135057b1ec5f26f8af6379e5785550573734b8179ce71745e0fdad4",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2762173,
+        "sha256": "d9c124094be87fda0f6c1ffceccd02d84c9268a2a539081775587e310c1e38ed",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/body-tpose-left-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 451190,
-        "sha256": "cf5a16c9904f294de5439a08a9c75d2f891ac6fcd8ff0ee98614788858589f9c",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1313224,
+        "sha256": "1c24a6c11496b16e60044f7f9c75587a1dd0e0e3d98378a1591fb86e7329b66f",
         "alpha": false
       }
     },
@@ -358,19 +358,19 @@
       "original": {
         "path": "/media/gunman/body-tpose-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 563867,
-        "sha256": "abe3ac492665b255acc52493a8174125f5e8e7c36ad600543aac6abfdae066e7",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2830780,
+        "sha256": "9ae3edd869003c4967ed0479ac165d414ebc77b682d26b8bf8302102d77870fd",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/body-tpose-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 371468,
-        "sha256": "18154f24106e22fc2c8506d1c419ed6c8bb17ec099ea180dfe36c0bab34c1224",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1341318,
+        "sha256": "345db16b2816f8345620e0943f002841683a3c224e4a8a477d3ce42734ddb676",
         "alpha": false
       }
     },
@@ -383,8 +383,8 @@
         "mime_type": "image/png",
         "width": 3840,
         "height": 2296,
-        "bytes": 3587044,
-        "sha256": "1e59e033ba92c734aaa99a1b5d5b117a14871b64e9d90d415c81d278446533aa",
+        "bytes": 3475683,
+        "sha256": "005ef8335251ae27e672559c3c34914440217826af9bfe0de7bb6f31a12fb410",
         "alpha": false
       },
       "web": {
@@ -392,8 +392,8 @@
         "mime_type": "image/webp",
         "width": 2048,
         "height": 1225,
-        "bytes": 1053958,
-        "sha256": "3d1cee653f4d968e11a317f3e8970b57a853e04750a71cb4c2da429fa79e54f5",
+        "bytes": 1011248,
+        "sha256": "c38e000a567296eab8735b4437a8b6b33b6fbcade0d9e7f261631d3d2737f73b",
         "alpha": false
       }
     },
@@ -404,19 +404,19 @@
       "original": {
         "path": "/media/gunman/character-card-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 1030930,
-        "sha256": "c6cf56c291f3b9b2639e86f24b87bac0cf7515c1facb8ce836045046578795b3",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5406117,
+        "sha256": "c7ab1f423eb769b39dd8a2c74b95f5a579bb80b5d57090d70a1e73c755f8e275",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/character-card-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 710428,
-        "sha256": "09a18179142ad5fa9ca9fa9d3c2c030a4e317c4d9db5045e96388be4ebbb74a1",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2237056,
+        "sha256": "efaef94df67cc94c1586440831ceadb629246f14d669d7e7f62517012c0ec34f",
         "alpha": false
       }
     },
@@ -427,19 +427,19 @@
       "original": {
         "path": "/media/gunman/combat-suit-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1079169,
-        "sha256": "7c53dbbe013c224bf31c3bd14e2c5e7d8de7ee49b1d129988d7adff88401f524",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3598600,
+        "sha256": "7c24fa379f3e79e083f97cb1ab249a587886ce9546943e18557d5bfbf84e47c4",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/combat-suit-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 749112,
-        "sha256": "e3f5c5e931486dfaef08596085178e34e30e85d8909e0cf96ebb5412843d6e72",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1178108,
+        "sha256": "b8c791e17c41fd4573f19874e7ea415a606723dbc6cfdf1b5d11e84bb6eaf9b0",
         "alpha": false
       }
     },
@@ -450,19 +450,19 @@
       "original": {
         "path": "/media/gunman/combat-suit-board-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1526026,
-        "sha256": "ab09e7514212648bb93a92d249c6fd826eaad50a4591eaae56a4aece902fe5df",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5446130,
+        "sha256": "882852b523084299b5008524b04476ad1d5a516523c511177a133b2eeb2c25ea",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/combat-suit-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1097448,
-        "sha256": "713536d8b4afc883812078d77720f32fed454caf9a829e636043f59a281924a2",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1715990,
+        "sha256": "2e2b4f03bb5fac12fae0113e56a396b5ab34bb510beb37d794feef43ce906735",
         "alpha": false
       }
     },
@@ -473,19 +473,19 @@
       "original": {
         "path": "/media/gunman/combat-suit-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1112168,
-        "sha256": "bf765510f0969e26d8820c097215b44a5cc18b7a3e8bb4d0ec17e8a5442e493b",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3798632,
+        "sha256": "95fbb8c2e923322dae3025f00524fd46daf705580b22d9bb69d7592145065017",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/combat-suit-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 772142,
-        "sha256": "e1fd2a4856a616d693cff9af5429009b00c3edae67a26a53d19803d42131f288",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1239550,
+        "sha256": "75e9952357f1a2d8dda2f216b9069db9514377b7bce1b492880f89f71732d7ce",
         "alpha": false
       }
     },
@@ -496,19 +496,19 @@
       "original": {
         "path": "/media/gunman/combat-suit-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 953374,
-        "sha256": "e213048b86822eb76e28927a6003ede2642259c9712afd554921b4fd5a4d5ffa",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3199693,
+        "sha256": "8c4e822d9712410406c6d398f44ba69cc5ded431de26490708a7ab7ff34b173e",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/combat-suit-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 658818,
-        "sha256": "ae88671cd18606f3d14b55b5cdb94da7199cc021ae1867664fccec5575c655b0",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1072182,
+        "sha256": "358719bffe3ab1faf00c2ffcc3dd34678e513db32f0d3df86a652b035cf47295",
         "alpha": false
       }
     },
@@ -519,19 +519,19 @@
       "original": {
         "path": "/media/gunman/combat-suit-tpose-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 692160,
-        "sha256": "b50bf4e54e26e572fbb86355e544c033aa98d84db2207251863589571f3e3a5a",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3388086,
+        "sha256": "8d4394362ef26d4c9cfd32e14c8613de806bab78892b5b0a7f6263b066b11157",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/combat-suit-tpose-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 470054,
-        "sha256": "b90751f942209746ac9d8349a58af11501219798b51663bcdfd25cafad587ba1",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1547000,
+        "sha256": "17ba1321de34223f9d314366a5cba80e1fd3c63d41f4d9db50cc3497dac92824",
         "alpha": false
       }
     },
@@ -542,19 +542,19 @@
       "original": {
         "path": "/media/gunman/combat-suit-tpose-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 695217,
-        "sha256": "88ce03287cd156241e441b0e26ac6b1a58aa1c686cde249f73ad05466abf3820",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3531138,
+        "sha256": "68b676cd9a34e62133cab4339160b0a0fdb493b48c37b4da8aed53a9d7f4104e",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/combat-suit-tpose-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 462002,
-        "sha256": "5de206b551ded006bc79c4946d22c8daf2b01e83b71e7062f69d52e21307102a",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1597142,
+        "sha256": "d4ef660b1900513226080542a55c0e8d761ebceedc637337a798b4dfeea92894",
         "alpha": false
       }
     },
@@ -565,19 +565,19 @@
       "original": {
         "path": "/media/gunman/combat-suit-tpose-left-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 562181,
-        "sha256": "ba42b3783a48d6eae0530cd86811d580df6021518991c41a2753eba915ac4a3f",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2961225,
+        "sha256": "41f368aec4a45e6fffa21abb2419f7b1252ffcfdcd88b990df867d35f76b5cc5",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/combat-suit-tpose-left-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 364400,
-        "sha256": "48e6ffcca43749400389a2db9ce9bd32c5fa0a88b2e735f027a3583ab255b3f3",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1358038,
+        "sha256": "c67cc85a891d07d7ef037a6bbcc53efc760ace0bcf174c038b826ef76b5061b9",
         "alpha": false
       }
     },
@@ -588,19 +588,19 @@
       "original": {
         "path": "/media/gunman/combat-suit-tpose-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 584609,
-        "sha256": "06118f0efe11702a1ba095f4e11374a4ed8bcf5bfcdadc91371c3a8dde6a3690",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2989149,
+        "sha256": "3fcde915f7ad9a1a15ffad75a8aeef99b6f046250f7980f3c2a2b5948bdd5d94",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/combat-suit-tpose-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 379462,
-        "sha256": "e9fdd5f2ded12b84b65f18565b79e34276fd90d8f7c60f0e4b8ff51155cce20d",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1373674,
+        "sha256": "1dc7a7d01324c9ae931925e4f3f2691414a72d7d0dd038a3c93aeb26b0f935ab",
         "alpha": false
       }
     },
@@ -611,19 +611,19 @@
       "original": {
         "path": "/media/gunman/expressions-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1982215,
-        "sha256": "237ede2be6e6b56a97dcf92a432b9716de08a31b0a4e5444190a641fc97ca70d",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 7063025,
+        "sha256": "ed1099fc4d062c8bea6eac9b3db432c984d1c1309da2088894369cfa1b80f483",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/expressions-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1424072,
-        "sha256": "c7acf1e75f69fb6b48a337edbcab4250a7e2ac86991f3eac148ae3beab001069",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 2174202,
+        "sha256": "777a34aa216eccc40c957173e54060b3badcb666223e19db119521d5af67b0cf",
         "alpha": false
       }
     },
@@ -634,19 +634,19 @@
       "original": {
         "path": "/media/gunman/face-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1570458,
-        "sha256": "4bbc8d39f34c2b8c7aaa5cbd9981dfc98365f13626b8a14db3a897f210da27bf",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5560838,
+        "sha256": "8027181873583ea6eca8e90a7907325acc380e7608659222bcb2bdeaf83db8f7",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/face-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1117702,
-        "sha256": "325bbe5207b70232137a2db48c0c83119cd0aaab52ec7158b8775b32a62a3db9",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1748992,
+        "sha256": "23e838ac8dd183c5c907c817dd7737fb8479e8ff3526de3b97fdb114b299118e",
         "alpha": false
       }
     },
@@ -657,19 +657,19 @@
       "original": {
         "path": "/media/gunman/rifle-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1232358,
-        "sha256": "23e75752a8e50d09186ad192396418d7ef1e4a6c2765cf671bb53ff0105b426e",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4449595,
+        "sha256": "31684820f5da45514421b6bf48226fb2f0c4cdf3a660e7b73f95a89198679603",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/rifle-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 852172,
-        "sha256": "1bb258f39ad789bb4bcf63c686929161277eae0e92de849a3e973349b089ec73",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1414966,
+        "sha256": "b5048a5b0bec3abfb058007aff31069dcb8582e57d8f58f9086ce467e3296683",
         "alpha": false
       }
     },
@@ -680,19 +680,19 @@
       "original": {
         "path": "/media/gunman/rifle-board-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1475341,
-        "sha256": "5a08debf772cea0fca2e84a28aae810a8690c0ca8d99d616f8f35bf3cc6ee619",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5086506,
+        "sha256": "1f40e8f7e8c1496396935ff657060eb62759aae257a02e6a9211d7956b05ed15",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/rifle-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1091814,
-        "sha256": "073b052b5fec8138214800b3b9ac6c7c7cdca950416f91e3d7f6ec6c84c19731",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1628550,
+        "sha256": "4c8c4964cb35d858b832e41075d6fb09524119f2eb347be6b08edaa776bc63e6",
         "alpha": false
       }
     },
@@ -703,19 +703,19 @@
       "original": {
         "path": "/media/gunman/rifle-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1274758,
-        "sha256": "c0e3a104bdac2d613364e4070c7c51b8b6476ad0992307a3ce611741ce2c01e6",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4596311,
+        "sha256": "72e8f0d233ea0cff203dd7c55c20c2ee996d10f708ac76e6ff89f5cf979055ad",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/rifle-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 870622,
-        "sha256": "24e458cd41d6e1012af44e70e23102eb1d1de34c2ecf6b6972c954bddbe51387",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1433276,
+        "sha256": "75a1f33fab59dcde97fc0d95c502d84271686ce88438677688ea7dab7a7d3b03",
         "alpha": false
       }
     },
@@ -726,19 +726,19 @@
       "original": {
         "path": "/media/gunman/rifle-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1010673,
-        "sha256": "edbdef1ac61d4d86aa083ee6b8df7e1f074191eca82c3058137143c2b3f703c6",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3679854,
+        "sha256": "bc5051064925caacca84a25c17cb7001012cfc231f096a3b96062d0219355b22",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/rifle-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 680456,
-        "sha256": "d5a4af912c31ffd6ae00ed837448df14e397d0f0a590aa6095fc9a36161d4aef",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1194250,
+        "sha256": "e7855248feaccc251cb2de7e9afd0cad33dfbb0694cdbe4de4a8b9baa022c34e",
         "alpha": false
       }
     },
@@ -749,19 +749,19 @@
       "original": {
         "path": "/media/gunman/rifle-tpose-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 791514,
-        "sha256": "2d87f869be334cd3dd55db4ec3f0a3a15eac541d71e74873cd1d8189de1f142f",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3968514,
+        "sha256": "5787a0532c84e7ee2cd9ffba6684d8d2b69c87650b3a0c0a6236f4adf844945c",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/rifle-tpose-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 536710,
-        "sha256": "65995e05abbd5e8670228018c21ff75f06ce6bd1fff1b55f6199c70779bf8249",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1756016,
+        "sha256": "0d1fd361a02647ba6a2aa16b21a07e36757b8c7d318179215e20d2f5115d4409",
         "alpha": false
       }
     },
@@ -772,19 +772,19 @@
       "original": {
         "path": "/media/gunman/rifle-tpose-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 761512,
-        "sha256": "e56d369a8291771105416f9965d57471dcc874f7cc0322900065317359646b1a",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4040995,
+        "sha256": "d54c16541385b4e0a43e77ca18a1e2ec8989d4ff60581ff2e77470a2523fdb31",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/rifle-tpose-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 509366,
-        "sha256": "c2f4c9c012c75e5c39fd659c360f9ad261820e8fd7dab90b7cdaeece054ce2c5",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1776204,
+        "sha256": "8cec819932ed1bb189b7021f1c6dd66eac5bfecd98d603d343bc59954c9ee9a8",
         "alpha": false
       }
     },
@@ -795,19 +795,19 @@
       "original": {
         "path": "/media/gunman/rifle-tpose-left-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 588589,
-        "sha256": "a6ab333bf33ec404694ac2715420040787bf1cd0688a0e22109278645fb7ad01",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3311355,
+        "sha256": "f467afeecc7bc1b45a2278e2ff11cd74d48c0bcc08730bd312c2d1a3e6277b00",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/rifle-tpose-left-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 377194,
-        "sha256": "e37b0698dac3188111829f06785afa343c33717031fe671c5bc7f9f211dd0798",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1492966,
+        "sha256": "43e1aed09465c596997fbaf96009e57e9d988de5155921fbd2a7d80421e12c43",
         "alpha": false
       }
     },
@@ -818,19 +818,19 @@
       "original": {
         "path": "/media/gunman/rifle-tpose-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 610244,
-        "sha256": "d7523040a7e4448c9db0c56964d9dab14cfb6535f5219638ae3c0e7332714947",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3333753,
+        "sha256": "5c93bbf49555e295484121069193d55518a9c1fef6486b9300a516c005ba5df3",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/rifle-tpose-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 393836,
-        "sha256": "d8b8ca79fafcfb5a7ae97c5c1ef25415c12afccec61f873c564264284c41ddfa",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1496026,
+        "sha256": "6c68ab48fc1a673e7cd5fd8a70a7e7989935c6899424dd4b09adf7dbeab50527",
         "alpha": false
       }
     },
@@ -841,19 +841,19 @@
       "original": {
         "path": "/media/gunman/tactical-rig-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1120792,
-        "sha256": "d0c16ec4b5f22b43821b044d24dc765c70cb9862ed98a3309e7c3df18c23fe34",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3772269,
+        "sha256": "2decd558dc1e5ed7755ba9e1801896890b340a08223f198ed6afae5204a1698d",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/tactical-rig-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 773428,
-        "sha256": "cc8172b1587a471e8f6507b89fbe8b7c69476d7196a52c59a5cc2402d1baeb5f",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1222022,
+        "sha256": "1fcb179c281e835277ac5b4012140bd9b963f19143f299e4a2c0dd8c1ae40805",
         "alpha": false
       }
     },
@@ -864,19 +864,19 @@
       "original": {
         "path": "/media/gunman/tactical-rig-board-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1490748,
-        "sha256": "18c84730f833ba57a7fb2ad655da941a21b26b1755968de16ab1e5f0c943b61f",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5401193,
+        "sha256": "bee3d2a8ebbc6740d09f363d344827bb3f341084432abc8366861c67ee081c00",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/tactical-rig-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1050340,
-        "sha256": "7198330d77103300f0c09a3af5971f1110d2cc9d23f36439331315599f116836",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1690024,
+        "sha256": "328d690338364baa8f312fce76a8a75e3613e32201a1b037349d7fa9800bc629",
         "alpha": false
       }
     },
@@ -887,19 +887,19 @@
       "original": {
         "path": "/media/gunman/tactical-rig-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1414821,
-        "sha256": "6e666a3154d5fca74bbf0fe5cbb2430a9d868b21da3be18af6cce2ba9d0312d4",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4083327,
+        "sha256": "51657047ce0372909bd0457137646a0cdf7dba7bf56a69c0410c40c0cc1a8752",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/tactical-rig-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 982732,
-        "sha256": "9588062f9e2fc6004e7a14a66f33e4959b710228b30b2b12dd15a9b242d777bf",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1303256,
+        "sha256": "071495998bc6f3d8c9fdf54671fc436f7fbdb09a288ab4964626eb5393101f98",
         "alpha": false
       }
     },
@@ -910,19 +910,19 @@
       "original": {
         "path": "/media/gunman/tactical-rig-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1294585,
-        "sha256": "6e003b440bf2068adb40b925c867d4321b6b44dc7f54f4acd53dbe18fe93fc5a",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3334530,
+        "sha256": "b47b33737b262ccf2c9bcd72211e580955da3c8bc9f0ec5fd60613e19b9a7b1d",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/tactical-rig-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 852620,
-        "sha256": "daa81db78763ce197979cefaef69a30588eb7d8d86d64b9be32e762ce9dc284a",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1103894,
+        "sha256": "e04b43ba620ed9e30dde414a174cf072940dfd8cf50f626b10f347939acf7ccd",
         "alpha": false
       }
     },
@@ -933,19 +933,19 @@
       "original": {
         "path": "/media/gunman/tactical-rig-tpose-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 729991,
-        "sha256": "e9bdd490ef9646de45b8bfb3cff90e56e4f8142a96ca42585038e3ea65a54aff",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3469051,
+        "sha256": "1355300630d8690482a682828a207d98aba1d9acb8912597fe528cf5ae8a0c42",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/tactical-rig-tpose-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 495290,
-        "sha256": "d2be98a01d3c4a9cdbea582b1d06922942611f1f793d73da6f749e7d7d778767",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1561914,
+        "sha256": "f3e80d105dd883f2ceaf8a4a6367b4f81a0bbcc92d854a6ad22adcbd70f7078c",
         "alpha": false
       }
     },
@@ -956,19 +956,19 @@
       "original": {
         "path": "/media/gunman/tactical-rig-tpose-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 739846,
-        "sha256": "60589261b794898e28a7ad42831ff0df69c7c1b7bb6a968d568e627503038e13",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3705306,
+        "sha256": "f31eda3e53c517d5b4f9a5a3fee8fed335d6c808136cd0ed8fc7091b70bac9aa",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/tactical-rig-tpose-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 493668,
-        "sha256": "c2ddd021480e0bd2aaa29b5aaca359e76ce558cdfb5e34231edd432768b1dce4",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1644878,
+        "sha256": "054856ed009fdb9b8020022178b596535d6b2092debc4eb1e0efdf3654a39ed4",
         "alpha": false
       }
     },
@@ -979,19 +979,19 @@
       "original": {
         "path": "/media/gunman/tactical-rig-tpose-left-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 540580,
-        "sha256": "ba6ee84d9dc6d290d4337f7a8a5b02b7b9becbefec6a8e0faa04daef59af3420",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3004963,
+        "sha256": "5b6064c1c1cf9013f90efc676d9cb0f085806a723a03016bb9f2e54219dd5481",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/tactical-rig-tpose-left-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 352028,
-        "sha256": "1ee60c3464d4c94aae92c42d0288b073efc2facdda87c55b15ccf9c544b6c06c",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1378614,
+        "sha256": "a643704f47690045215c0d7d9f9a5134d4bc96a3e977e5af040b74d4f3f5bcc1",
         "alpha": false
       }
     },
@@ -1002,19 +1002,19 @@
       "original": {
         "path": "/media/gunman/tactical-rig-tpose-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 602026,
-        "sha256": "3c24151aab4e5f52de4417a7cce430e68a378d568299eb76847e5df5c0e5aa1b",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3144190,
+        "sha256": "50a39bfaffe9a3a3ca1711b0a95604fc49107e0ef76778ab0e42e3a26869884e",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/tactical-rig-tpose-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 388714,
-        "sha256": "8a2227edeebead14bec7cb405bfa5e5a9fe8c4b04aa66556b79e3f93e13f382f",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1420756,
+        "sha256": "7c00f2412ddd492422e8cc761bf94a2f5b89b5e2f0f713b04690b152ada625de",
         "alpha": false
       }
     },
@@ -1025,19 +1025,19 @@
       "original": {
         "path": "/media/gunman/visor-mask-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1444669,
-        "sha256": "3eaf2ed18acd73d0c142c6f4ea21987272b77a53886f044cb8c3bcaf14b6e3f7",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4071343,
+        "sha256": "2f12ddaaddab0b4213de263272491f7fd7a7b3c19a18d41ae7eb86d4652e3bd0",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/visor-mask-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 971378,
-        "sha256": "7b94d3d467056347ea1fc0345949f4b9dba1016705666fd0353e5d9385cc82b6",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1298002,
+        "sha256": "689e9b8b08dd98ea79d1708e0783505683c2706d427be64ad6d6417705cbd325",
         "alpha": false
       }
     },
@@ -1048,19 +1048,19 @@
       "original": {
         "path": "/media/gunman/visor-mask-board-latest.png",
         "mime_type": "image/png",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 1364067,
-        "sha256": "9478648e0d398f5e9f5599751d2cab022126c378438324463fa31ca8d11ad810",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4842135,
+        "sha256": "0d7d1b5ceaf2eac30bc04dc01ef22945996d36484a143db3001f457ca7c862ec",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/visor-mask-board-latest.webp",
         "mime_type": "image/webp",
-        "width": 1536,
-        "height": 1024,
-        "bytes": 952768,
-        "sha256": "0257132fe7dd4975bc165437a31af6f7cc4b1fd7b873da3a6fba653ef0f2305c",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1519228,
+        "sha256": "3361aaf47dcf514e5da37f67f015ccf1b4cbd5ee73f70d03752d8e04f83c4edf",
         "alpha": false
       }
     },
@@ -1071,19 +1071,19 @@
       "original": {
         "path": "/media/gunman/visor-mask-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1256147,
-        "sha256": "367b64eb0e87f857af0e729c8cafa092dccf4ae07fdac9baabc2df8aaaa46fe7",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4313263,
+        "sha256": "9300637880652bdea8532833913b473866af14a230db2895d7f90832df5e763a",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/visor-mask-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 857446,
-        "sha256": "48225ac10d3b721bb48bec25de356ce7bb78be2233f44f6d2b0446b4da5e0e86",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1355932,
+        "sha256": "cbe42712867d6ddd46c9beaaa8adc644340ab73c484619ff40a3a52675685c0e",
         "alpha": false
       }
     },
@@ -1094,19 +1094,19 @@
       "original": {
         "path": "/media/gunman/visor-mask-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 998629,
-        "sha256": "4bae827bb1a1506e22e2c22b1f01359c82c67dbb3bbf5fe42b1052efa32fcf0b",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3456886,
+        "sha256": "4a3fd4b533228267c3ef4bf2fda963fbde7829fb473f6551bbbd64c589c26852",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/visor-mask-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 670204,
-        "sha256": "3143faf5fb0d052412b5dfacea102e1348d963ee1c22b5bef630ad73552b1133",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1123960,
+        "sha256": "7d005a2e6a00e0b55f646e1874f6a3d25cadbb08a1f5e3727a65ac0137f8b40e",
         "alpha": false
       }
     },
@@ -1117,19 +1117,19 @@
       "original": {
         "path": "/media/gunman/visor-mask-tpose-back-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 740655,
-        "sha256": "b1490cde996613da350c36ae713a818c113462c59a56754900559496fdfad8b0",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3650797,
+        "sha256": "fadedd0314bc8ad6c7b8805a0be06e7815ddb8c6f876f1dba6cd009bd8fe3420",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/visor-mask-tpose-back-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 499046,
-        "sha256": "485e6b4972a99b413c81621ddd0fcec494f186a007af5f3debb0c9fb5e2e817f",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1625740,
+        "sha256": "b172da608393dcc43e98e05ab0223758336c9b700c668a6cb52f4feea100dcc8",
         "alpha": false
       }
     },
@@ -1140,19 +1140,19 @@
       "original": {
         "path": "/media/gunman/visor-mask-tpose-front-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 799359,
-        "sha256": "c47e9deac8ecea3e7d86e616ec00289017af05558fde6c3b6660f8080882a823",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3866118,
+        "sha256": "5679440c5b1fa14ff56465df7d570eb75f4033627b37042fdb1cb9a13315679e",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/visor-mask-tpose-front-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 506204,
-        "sha256": "60017f12827a4cb0168d32173201340d43a859b16e074f93f9cad5ebad5a0530",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1711402,
+        "sha256": "798b83ffd6ea7738a991437afbb4df3e68baccb37c08b8e3f229f178e479ef20",
         "alpha": false
       }
     },
@@ -1163,19 +1163,19 @@
       "original": {
         "path": "/media/gunman/visor-mask-tpose-left-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 534409,
-        "sha256": "b5f9bf2c0ecb380ba93037863e78a48822c7817184a548fb12e0c520deb3f7d7",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3048864,
+        "sha256": "a66f11660507a1fc3be63aa75b94b91865e1779dd544d870e696d82ce5bf6b98",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/visor-mask-tpose-left-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 343752,
-        "sha256": "edd84936390302a3e47c2569eeb478fbd45f510d30ce0335749ee7e95ab85d15",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1382094,
+        "sha256": "a7dd2744d122a0ac391e73e49b5b3b8a2dc97e80ac6c6a9be466450f1e40170a",
         "alpha": false
       }
     },
@@ -1186,19 +1186,19 @@
       "original": {
         "path": "/media/gunman/visor-mask-tpose-right-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 603024,
-        "sha256": "01eac7a0b351d16f938ea836a3449004544b6486eb4283cf758edc2ef03efb1a",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3136741,
+        "sha256": "366c41698a761ae1376fec2de162c222cf52454cb5f9ce273e33500201bbaf41",
         "alpha": false
       },
       "web": {
         "path": "/characters/gunman/visor-mask-tpose-right-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1024,
-        "bytes": 360544,
-        "sha256": "50a70a73c463751f09fe9a2428d7aea7140cbfc989d70d8ba43d715272740b56",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1420428,
+        "sha256": "4fd02fda856810542642fb571636528b516b5cf85e1ce9dca3c8fa7e66ce83cd",
         "alpha": false
       }
     }
