@@ -35,7 +35,7 @@ const neighbors = computed(() => {
     <aside v-if="mode === 'tier' && currentTier" class="bunny-side-card base-body-tier-card" aria-label="素体档位资料">
       <div class="bunny-layer-card__heading base-body-tier-card__heading">
         <p class="bunny-side-card__home">
-          <a :href="withBase('/standards/')">通用规范</a> / <a :href="withBase('/standards/#tiers')">三档素体</a>
+          <a :href="withBase('/standards/')">通用规范</a> / <a :href="withBase('/standards/#tiers')">四档素体</a>
         </p>
         <span class="base-body-tier-card__scale">{{ currentTier.scale }}</span>
         <p class="bunny-side-card__title">{{ currentTier.name }}</p>

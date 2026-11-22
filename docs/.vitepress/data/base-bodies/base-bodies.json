@@ -1,38 +1,41 @@
 {
   "title": "通用规范",
-  "subtitle": "通用素体与共用标准 · 三档二十一视",
-  "intro": "跨角色共用的 2D 比例人台与制图标准，按三档身高分级，每档含 A 姿三视与 T 姿四视。",
+  "subtitle": "通用素体与共用标准 · 四档二十八视",
+  "intro": "跨角色共用的 2D 比例人台与制图标准，按四档身高分级，每档含 A 姿三视与 T 姿四视。",
   "status": "本地审阅版，不是生产发布",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "allowedDates": [
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-22"
   ],
   "overview": {
     "tabs": [
       {
         "key": "scale",
         "label": "等比总览",
-        "caption": "全家族三档同地平线等比对照（1.00× : 1.08× : 1.17×）",
+        "caption": "全家族四档同地平线等比对照（1.00× : 1.04× : 1.08× : 1.17×）",
         "assets": [
           "family-scale-latest"
         ]
       },
       {
-        "key": "three",
-        "label": "三档正面",
-        "caption": "女性标准、标准青年男、重壮男 A 姿正面并列对照",
+        "key": "four",
+        "label": "四档正面",
+        "caption": "女性标准、女性丰满、标准青年男、重壮男 A 姿正面并列对照",
         "assets": [
           "female-standard-front-latest",
+          "female-curvy-front-latest",
           "male-standard-front-latest",
           "male-heavy-front-latest"
         ]
       },
       {
         "key": "tpose",
-        "label": "三档 T 姿",
-        "caption": "三档 T 姿正面平举并列对照，供 3D 建模参考",
+        "label": "四档 T 姿",
+        "caption": "四档 T 姿正面平举并列对照，供 3D 建模参考",
         "assets": [
           "female-standard-tpose-front-latest",
+          "female-curvy-tpose-front-latest",
           "male-standard-tpose-front-latest",
           "male-heavy-tpose-front-latest"
         ]
@@ -46,13 +49,13 @@
       },
       {
         "term": "身高分级",
-        "value": "1.00× / 1.08× / 1.17×",
-        "note": "同脚底基线对齐，三档绝对头高保持一致；厘米身高未设定"
+        "value": "1.00× / 1.04× / 1.08× / 1.17×",
+        "note": "同脚底基线对齐，四档绝对头高保持一致；厘米身高未设定"
       },
       {
         "term": "视图配置",
         "value": "每档 A 姿三视 + T 姿四视",
-        "note": "A 姿 1024×1536，T 姿 1024×1024，全套 21 张标准图与 1 张等比总览"
+        "note": "A 姿 1024×1536，T 姿 1024×1024，全套 28 张标准图与 1 张等比总览"
       },
       {
         "term": "画风基准",
@@ -63,7 +66,7 @@
     "chapters": [
       {
         "id": "tiers",
-        "label": "三档素体"
+        "label": "四档素体"
       },
       {
         "id": "proportions",
@@ -78,17 +81,17 @@
   "tiers": [
     {
       "id": "female-standard",
-      "code": "女 · 1.00×",
+      "code": "女标准 · 1.00×",
       "name": "女性标准素体",
       "shortName": "女性标准",
-      "role": "女性角色通用基准人台",
+      "role": "女性角色纤细基准人台",
       "scale": "1.00×",
       "headRatio": "约 6.5 头身",
       "path": "/standards/female-standard",
       "portrait": "female-standard-front-latest",
       "summary": "标准纤细女性骨架，穿哑光深炭黑两件式运动打底，配齐耳深炭黑短发与中性深灰瞳占位头。",
       "calloutTitle": "下游调用要点",
-      "callout": "创建女性角色第 0 层时，以对应角度视图为母版，仅替换头部与发型，锁定颈部以下体型、站姿与画幅占比。",
+      "callout": "创建纤细体型女性角色第 0 层时，以对应角度视图为母版，仅替换头部与发型，锁定颈部以下体型、站姿与画幅占比。",
       "apose": {
         "front": "female-standard-front-latest",
         "side": "female-standard-side-latest",
@@ -139,6 +142,68 @@
       ]
     },
     {
+      "id": "female-curvy",
+      "code": "女丰满 · 1.04×",
+      "name": "女性丰满素体",
+      "shortName": "女性丰满",
+      "role": "成熟丰满型女性角色人台",
+      "scale": "1.04×",
+      "headRatio": "约 7.0 头身",
+      "path": "/standards/female-curvy",
+      "portrait": "female-curvy-front-latest",
+      "summary": "略高成熟女性体格，重心自然下移的饱满水滴胸型配收紧圆臀，维持原腰宽与纤细修长直腿。",
+      "calloutTitle": "下游调用要点",
+      "callout": "适用于成熟丰满型女性角色第 0 层，保持自然腰宽、圆润丰胸翘臀与纤细直腿，创建新角色时仅替换头部与着装。",
+      "apose": {
+        "front": "female-curvy-front-latest",
+        "side": "female-curvy-side-latest",
+        "back": "female-curvy-back-latest"
+      },
+      "tpose": {
+        "front": "female-curvy-tpose-front-latest",
+        "right": "female-curvy-tpose-right-latest",
+        "back": "female-curvy-tpose-back-latest",
+        "left": "female-curvy-tpose-left-latest"
+      },
+      "facts": [
+        {
+          "term": "相对身高",
+          "value": "1.04×（略高于女性标准档）",
+          "note": "同地平线对齐时绝对头高与其余三档一致；厘米身高未设定"
+        },
+        {
+          "term": "赤脚头身",
+          "value": "约 7.0 头身（实测 7.02 – 7.10 头）",
+          "note": "自然原腰宽，纤细修长直腿，丰满重心自然下移"
+        },
+        {
+          "term": "占位头",
+          "value": "贴耳齐颌深炭黑短发",
+          "note": "与女性标准素体同款占位头，双耳、下颌与锁骨肩线完整露出"
+        },
+        {
+          "term": "人台着装",
+          "value": "哑光深炭黑两件式运动打底",
+          "note": "赤脚站立，随丰满胸臀自然贴合承托，换装时替换为角色服装"
+        },
+        {
+          "term": "视图规格",
+          "value": "A 姿三视 · T 姿四视",
+          "note": "A 姿 1024×1536；T 姿 1024×1024，角色左侧面与角色右侧面省去近侧手臂"
+        }
+      ],
+      "metrics": [
+        { "label": "相对身高倍率", "value": "1.04×" },
+        { "label": "赤脚头身比", "value": "7.02 – 7.10 头" },
+        { "label": "正面腰宽", "value": "0.76 头（同标准自然腰）" },
+        { "label": "正面臀宽", "value": "1.36 头（温和圆润）" },
+        { "label": "正面中大腿 / 小腿宽", "value": "0.37 / 0.34 头（同标准细腿）" },
+        { "label": "侧视胸厚", "value": "0.94 头（自然水滴重心）" },
+        { "label": "侧视臀厚", "value": "0.86 – 0.89 头（紧致圆翘）" },
+        { "label": "侧视腰厚 / 中大腿厚", "value": "0.56 / 0.45 头" }
+      ]
+    },
+    {
       "id": "male-standard",
       "code": "男 · 1.08×",
       "name": "标准青年男素体",
@@ -166,7 +231,7 @@
         {
           "term": "相对身高",
           "value": "1.08×（高于基准档约半头）",
-          "note": "同地平线对齐时绝对头高与女性标准档一致"
+          "note": "同地平线对齐时绝对头高与其余三档一致"
         },
         {
           "term": "赤脚头身",
@@ -228,7 +293,7 @@
         {
           "term": "相对身高",
           "value": "1.17×（高于基准档约一头）",
-          "note": "同地平线对齐时绝对头高与其余两档一致"
+          "note": "同地平线对齐时绝对头高与其余三档一致"
         },
         {
           "term": "赤脚头身",
@@ -264,7 +329,7 @@
     }
   ],
   "assetNames": {
-    "family-scale-latest": "全家族三档通用素体同地平线等比对照图",
+    "family-scale-latest": "全家族四档通用素体同地平线等比对照图",
     "female-standard-front-latest": "女性标准素体 · A 姿正面",
     "female-standard-side-latest": "女性标准素体 · A 姿角色右侧面",
     "female-standard-back-latest": "女性标准素体 · A 姿背面",
@@ -272,6 +337,13 @@
     "female-standard-tpose-right-latest": "女性标准素体 · T 姿角色右侧面",
     "female-standard-tpose-back-latest": "女性标准素体 · T 姿背面",
     "female-standard-tpose-left-latest": "女性标准素体 · T 姿角色左侧面",
+    "female-curvy-front-latest": "女性丰满素体 · A 姿正面",
+    "female-curvy-side-latest": "女性丰满素体 · A 姿角色右侧面",
+    "female-curvy-back-latest": "女性丰满素体 · A 姿背面",
+    "female-curvy-tpose-front-latest": "女性丰满素体 · T 姿正面",
+    "female-curvy-tpose-right-latest": "女性丰满素体 · T 姿角色右侧面",
+    "female-curvy-tpose-back-latest": "女性丰满素体 · T 姿背面",
+    "female-curvy-tpose-left-latest": "女性丰满素体 · T 姿角色左侧面",
     "male-standard-front-latest": "标准青年男素体 · A 姿正面",
     "male-standard-side-latest": "标准青年男素体 · A 姿角色右侧面",
     "male-standard-back-latest": "标准青年男素体 · A 姿背面",

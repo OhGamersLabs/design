@@ -6,8 +6,8 @@ OhGamers 角色设计资料站，使用 VitePress 1.6.4 与 Vue 3，按角色主
 
 ## 站点结构
 
-- 首页 `/` 上半部分是角色卡墙，每个已上架角色一张卡（卡片图、名字、职业、最近更新），下方独立分区展示三档通用素体；顶栏列出「角色」下拉与「通用规范」下拉。
-- 独立专栏 `/standards/` 收录全家族三档通用 2D 素体与跨角色设计规范（`/standards/`、`/standards/female-standard`、`/standards/male-standard`、`/standards/male-heavy`），对应共享集合 `base-bodies`，不是角色。
+- 首页 `/` 上半部分是角色卡墙，每个已上架角色一张卡（卡片图、名字、职业、最近更新），下方独立分区展示四档通用素体；顶栏列出「角色」下拉与「通用规范」下拉。
+- 独立专栏 `/standards/` 收录全家族四档通用 2D 素体与跨角色设计规范（`/standards/`、`/standards/female-standard`、`/standards/female-curvy`、`/standards/male-standard`、`/standards/male-heavy`），对应共享集合 `base-bodies`，不是角色。
 - 每个角色使用 `/characters/<id>/` 作为主页，页面数据位于 `docs/.vitepress/data/<id>/`。当前 Bunny 主页仍为 `/characters/bunny/`，展示精选、身份与画风、身体基准、衣层、表情、武器与携行、动作与场景。
 - 角色内页分为层级页和参考页；阅读顺序由该角色的 `character.json` 决定。Bunny 的身体到双匕首各页，以及图面尺寸、画风与配色、使用检查沿用原来的顺序。
 - 旧 URL 由各角色的 `anchor-map.json` 映射到当前内容；跳转桩不进导航和搜索。原档案及下载页跳到角色主页。
@@ -124,7 +124,7 @@ Fixture 集成测试在独立临时副本生成小图并运行上述流程，对
 docs/.vitepress/            # 配置、角色注册表与可复用组件
 docs/.vitepress/data/<id>/  # 每个角色的页面数据与检查期望
 docs/.vitepress/data/base-bodies/ # 全家族通用素体结构数据与图名
-docs/standards/             # 通用规范与三档通用素体详情页
+docs/standards/             # 通用规范与四档通用素体详情页
 docs/characters/<id>/       # 各角色主页、内页与跳转桩
 docs/public/characters/     # 当前 -latest WebP 与派生标尺
 docs/public/site/thumbs/    # 自动生成的 -latest 缩略图与索引

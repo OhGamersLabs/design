@@ -10,7 +10,7 @@ const activeTab = computed(() => tabs.find(tab => tab.key === active.value))
 
 function panelClass(key: string) {
   if (key === 'scale') return 'bunny-hero__panel--card'
-  return 'bunny-hero__panel--three'
+  return 'bunny-hero__panel--four'
 }
 
 function onTabKeydown(event: KeyboardEvent, index: number) {
