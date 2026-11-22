@@ -78,4 +78,4 @@ releaseReady: false
 <p>各角色独立的服装层级、配色、武器与场景设定见对应白皮书。</p>
 </div>
 
-<p class="bunny-section-links"><a href="/characters/bunny/">Bunny</a> · <a href="/characters/doge/">WIF Doge</a> · <a href="/characters/angel/">天使</a> · <a href="/characters/crew/">Crew</a> · <a href="/characters/gunman/">Gunman</a> · <a href="/characters/gold-hunter/">Gold Hunter</a> · <a href="/characters/samurai/">Samurai</a> · <a href="/characters/mew/">Mew</a> · <a href="/characters/robot/">Robot</a></p>
+<p class="bunny-section-links"><a href="/characters/bunny/">邦妮·弗林</a> · <a href="/characters/doge/">多吉·库诺</a> · <a href="/characters/angel/">安洁·阿维拉</a> · <a href="/characters/crew/">克露丝·埃雷拉</a> · <a href="/characters/gunman/">冈纳·霍尔姆</a> · <a href="/characters/gold-hunter/">罗伊·达罗</a> · <a href="/characters/samurai/">荒铁·久藏</a> · <a href="/characters/mew/">弥羽·奥塞尔</a> · <a href="/characters/robot/">罗克·卡迈恩</a> · <a href="/characters/wizard/">维琳·西莱克斯</a></p>

@@ -1,5 +1,5 @@
 ---
-title: Gold Hunter
+title: 罗伊·达罗
 layout: CharacterPage
 pageType: home
 sidebar: false
@@ -7,7 +7,7 @@ aside: false
 releaseReady: false
 ---
 
-# Gold Hunter {.bunny-sr-only}
+# 罗伊·达罗 {.bunny-sr-only}
 
 <CharacterHero />
 <LatestList />
@@ -24,7 +24,9 @@ releaseReady: false
   <div>
     <p class="bunny-identity-statement">OhGamers 家族年轻赏金猎人角色，基于 <a href="/standards/male-standard">标准青年男素体</a>，墨黑刺猬短发配角色左额一簇暖灰棕挑染、亮琥珀金眼眸，戴可额前推起与下拉戴眼的双态深红滑雪护目镜，穿无肩带冷灰白燕尾连帽派克外套配对称橄榄卡其工装长裤与镜像青橙高帮机能球鞋。</p>
     <dl class="bunny-home-facts">
-      <div><dt>名称</dt><dd>Gold Hunter</dd></div>
+      <div><dt>正式全名</dt><dd>罗伊·达罗（Roy Darrow）</dd></div>
+      <div><dt>双生搭档</dt><dd>罗娅·达罗（Roya Darrow）</dd></div>
+      <div><dt>所属种族</dt><dd><a href="/world/races#terran">碳基人族 · 星港开拓</a></dd></div>
       <div><dt>职业定位</dt><dd>赏金猎人</dd></div>
       <div><dt>素体基准</dt><dd><a href="/standards/male-standard">标准青年男素体（赤脚约 7.42 头身）</a></dd></div>
     </dl>
@@ -34,6 +36,15 @@ releaseReady: false
   <AssetImage id="goggles-over-eyes-latest" detail="战备下拉戴眼态：透过半透深红护目镜清晰透出亮琥珀双眸" use-thumb />
   <AssetImage id="face-sheet-latest" detail="多角度无遮挡面部与神态设定（正面、3/4 角色左侧面与角色左侧面）" use-thumb />
 </div>
+
+<div class="bunny-section-heading">
+
+## 背景故事 {#story}
+
+<p>达罗兄妹来历、OG 金币契约与星环舰队缘起。</p>
+</div>
+
+<CharacterLore />
 
 <div class="bunny-section-heading">
 

@@ -1,5 +1,5 @@
 ---
-title: Bunny
+title: 邦妮·弗林
 layout: CharacterPage
 pageType: home
 sidebar: false
@@ -7,7 +7,7 @@ aside: false
 releaseReady: false
 ---
 
-# Bunny {.bunny-sr-only}
+# 邦妮·弗林 {#bunny .bunny-sr-only}
 
 <CharacterHero />
 <LatestList />
@@ -24,7 +24,8 @@ releaseReady: false
   <div>
     <p class="bunny-identity-statement">成年纤细女性，银白短乱发，蓝眼，白色切面战术护目镜推在额上。</p>
     <dl class="bunny-home-facts">
-      <div><dt>名称</dt><dd>Bunny</dd></div>
+      <div><dt>正式全名</dt><dd>邦妮·弗林（Bonnie Flynn）</dd></div>
+      <div><dt>所属种族</dt><dd><a href="/world/races#terran">碳基人族 · 星港街头</a></dd></div>
       <div><dt>职业定位</dt><dd>刺客</dd></div>
     </dl>
     <p>采用日系二次元手绘线稿与赛璐璐上色。<a href="/characters/bunny/visual-language">画风与配色</a></p>
@@ -33,6 +34,15 @@ releaseReady: false
   <AssetImage id="daggers-front-latest" use-thumb />
   <AssetImage id="head-reference-latest" detail="正面、角色右侧面、背面" use-thumb />
 </div>
+
+<div class="bunny-section-heading">
+
+## 背景故事 {#story}
+
+<p>角色来历、种族渊源与小队羁绊。</p>
+</div>
+
+<CharacterLore />
 
 <div class="bunny-section-heading">
 

@@ -1,5 +1,5 @@
 ---
-title: Robot
+title: 罗克·卡迈恩
 layout: CharacterPage
 pageType: home
 sidebar: false
@@ -7,7 +7,7 @@ aside: false
 releaseReady: false
 ---
 
-# Robot {.bunny-sr-only}
+# 罗克·卡迈恩 {.bunny-sr-only}
 
 <CharacterHero />
 <LatestList />
@@ -24,7 +24,8 @@ releaseReady: false
   <div>
     <p class="bunny-identity-statement">OhGamers 家族重火力机甲角色，采用外置德天使式可爆甲重装外壳与内藏双粉高机动高达系本体的双层架构：满装态以宽肩导弹舱、无盾双臂重炮、钟形超重下肢与伪装头盔形成全火力压制姿态；紧急近战时通过全身琥珀色爆破快拆栓径向弹出外甲壳体，瞬时露出纤细无损的双粉本体与前臂折叠刃。</p>
     <dl class="bunny-home-facts">
-      <div><dt>名称</dt><dd>Robot</dd></div>
+      <div><dt>正式全名</dt><dd>罗克·卡迈恩（Rook Carmine）</dd></div>
+      <div><dt>所属种族</dt><dd><a href="/world/races#automaton">智械族 · 双核构装</a></dd></div>
       <div><dt>职业定位</dt><dd>重火力机甲</dd></div>
       <div><dt>身高体量</dt><dd>重型全装机甲（高度逾 3.5 米，远超人类成员；全层统一同一中立站姿标尺）</dd></div>
     </dl>
@@ -34,6 +35,15 @@ releaseReady: false
   <AssetImage id="armor-details-3q-left-latest" detail="第 7 层完整涂装终稿 · 面向画面左四分之三立姿" use-thumb />
   <AssetImage id="body-3q-left-latest" detail="第 0 层双粉高机动本体 · 面向画面左四分之三立姿" use-thumb />
 </div>
+
+<div class="bunny-section-heading">
+
+## 背景故事 {#story}
+
+<p>卡迈恩双核构装系来历、爆甲底牌与小队羁绊。</p>
+</div>
+
+<CharacterLore />
 
 <div class="bunny-section-heading">
 

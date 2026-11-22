@@ -11,9 +11,11 @@ import * as vue from 'vue'
 import * as serverRenderer from 'vue/server-renderer'
 import { discoverCharacters, loadCharacters, mergeAnchorMaps, siteNav } from '../docs/.vitepress/characters.mjs'
 import { loadBaseBodies } from '../docs/.vitepress/base-bodies.mjs'
+import { loadWorld } from '../docs/.vitepress/world.mjs'
 import { parseChip } from '../docs/.vitepress/data/character-data.mjs'
 import loader from '../docs/.vitepress/data/site.data.mjs'
 import baseBodiesLoader from '../docs/.vitepress/data/base-bodies.data.mjs'
+import worldLoader from '../docs/.vitepress/data/world.data.mjs'
 import { assetById, buildAssetIndex, characterForPage, focusAfterStep, readingNeighbors, stepIndex } from '../docs/.vitepress/theme/character-site.mjs'
 import { measurementModel } from '../docs/.vitepress/theme/components/body-measurements.mjs'
 import { garmentModel } from '../docs/.vitepress/theme/components/garment-measurements.mjs'
@@ -94,11 +96,18 @@ test('roster sorts listed characters by order and then id while loading unlisted
   assert.equal(data.characters.alpha.listed, false)
   assert.equal(Object.keys(data.characters.alpha.assets).length, 10)
 })
-for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one 角色 flyout before standards`, (t) => {
+for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one 角色 flyout before world and standards`, (t) => {
   const root = sandbox(t)
   if (count > 0) addCharacter(root, 'bunny')
   if (count > 1) addCharacter(root, 'robot', { order: 2 })
   addCharacter(root, 'draft', { listed: false })
+  const world = {
+    text: '世界观', activeMatch: '^/world/',
+    items: [
+      { text: '世界观总览', link: '/world/', activeMatch: '^/world/$' },
+      { text: '五大种族与姓氏谱系', link: '/world/races', activeMatch: '^/world/races' },
+    ],
+  }
   const standards = {
     text: '通用规范', activeMatch: '^/standards/',
     items: [
@@ -112,7 +121,7 @@ for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one �
   const expected = count ? [{ text: '角色', activeMatch: '^/characters/', items: [
     { text: 'Bunny', link: '/characters/bunny/', activeMatch: '^/characters/bunny/' },
     ...(count === 2 ? [{ text: 'Robot', link: '/characters/robot/', activeMatch: '^/characters/robot/' }] : []),
-  ] }, standards] : [standards]
+  ] }, world, standards] : [world, standards]
   assert.deepEqual(siteNav(loadCharacters(root).roster), expected)
 })
 for (const portrait of ['missing-latest', 'robot-original-latest']) test(`registry rejects portrait ${portrait} even without pages`, (t) => {
@@ -245,7 +254,8 @@ async function renderComponent(name, data, path, props = {}, frontmatter = {}) {
   const compiled = compileScript(descriptor, { id: 'character-regression', genDefaultAs: '__component', inlineTemplate: true, templateOptions: { ssr: true } }).content
   const code = (await transformWithEsbuild(compiled, url.pathname + '.ts', { loader: 'ts' })).code
   const baseBodies = baseBodiesLoader.load()
-  const modules = { vue, 'vue/server-renderer': serverRenderer, vitepress: context.vitepress, '../data/site.data.mjs': { data }, '../data/base-bodies.data.mjs': { data: baseBodies }, '../../data/base-bodies.data.mjs': { data: baseBodies }, '../use-character': context.composable, './use-character': context.composable,
+  const world = worldLoader.load()
+  const modules = { vue, 'vue/server-renderer': serverRenderer, vitepress: context.vitepress, '../data/site.data.mjs': { data }, '../data/base-bodies.data.mjs': { data: baseBodies }, '../../data/base-bodies.data.mjs': { data: baseBodies }, '../data/world.data.mjs': { data: world }, '../../data/world.data.mjs': { data: world }, '../use-character': context.composable, './use-character': context.composable,
     '../character-site.mjs': { assetById, buildAssetIndex, focusAfterStep, readingNeighbors, stepIndex }, './AssetImage.vue': { default: { props: ['id', 'group'], render() { return vue.h('figure', { 'data-image-id': this.id, 'data-group': this.group }) } } },
     './ReleaseImage.vue': { default: { props: ['src', 'group'], render() { return vue.h('figure', { 'data-source': this.src, 'data-group': this.group }) } } },
     './components/LayerCard.vue': { default: empty }, './components/ReferenceCard.vue': { default: empty }, './components/PagePager.vue': { default: empty }, './components/RedirectStub.vue': { default: empty } }
@@ -284,9 +294,24 @@ test('LayerCard renders a 0..2 map with that character chapter, noun and wear', 
   assert.match(html, /aria-label="第 0 到 2 层装配"/)
   assert.equal((html.match(/aria-label="第 [012] 层：/g) ?? []).length, 3)
 })
+test('world lore registry loads all five races and covers every listed character', () => {
+  const world = loadWorld()
+  const site = loader.load()
+  assert.deepEqual(world.races.map(({ id }) => id), ['terran', 'avian', 'silica-carbon', 'automaton', 'nano-kin'])
+  const memberIds = world.races.flatMap(({ members }) => members).sort()
+  const rosterIds = site.roster.map(({ id }) => id).sort()
+  assert.deepEqual(memberIds, rosterIds)
+  for (const entry of site.roster) {
+    const lore = world.characters[entry.id]
+    assert.ok(lore, `Missing world lore for ${entry.id}`)
+    assert.equal(lore.name, entry.name)
+    assert.equal(lore.role, entry.role)
+    assert.ok(lore.story.length >= 2)
+  }
+})
 test('Bunny LayerCard retains its exact breadcrumb, noun, range and wear', async () => {
   const html = await renderComponent('components/LayerCard.vue', loader.load(), 'characters/bunny/weapon.md', { layer: 9 })
-  for (const value of ['href="/characters/bunny/">Bunny</a> / <a href="/characters/bunny/#layers">衣层由内到外</a>', 'aria-label="衣层资料"', '第 9 层，共 0 到 9 层', 'aria-label="第 0 到 9 层穿着"']) assert.ok(html.includes(value), value)
+  for (const value of ['href="/characters/bunny/">邦妮·弗林</a> / <a href="/characters/bunny/#layers">衣层由内到外</a>', 'aria-label="衣层资料"', '第 9 层，共 0 到 9 层', 'aria-label="第 0 到 9 层穿着"']) assert.ok(html.includes(value), value)
 })
 test('CharacterPage validates layers against its data, including a number beyond nine', async (t) => {
   const root = sandbox(t); const dir = addCharacter(root, 'fixture')

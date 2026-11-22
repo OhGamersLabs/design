@@ -1,5 +1,5 @@
 ---
-title: Wizard
+title: 维琳·西莱克斯
 layout: CharacterPage
 pageType: home
 sidebar: false
@@ -7,7 +7,7 @@ aside: false
 releaseReady: false
 ---
 
-# Wizard {.bunny-sr-only}
+# 维琳·西莱克斯 {.bunny-sr-only}
 
 <CharacterHero />
 <LatestList />
@@ -24,7 +24,8 @@ releaseReady: false
   <div>
     <p class="bunny-identity-statement">OhGamers 家族冷冽硅碳赛博雷电法师，基于 <a href="/standards/female-standard">标准成年女素体</a>，颈下为全黑曜石、古金与陶瓷白仿生机械躯体；午夜蓝黑长直发夹电光蓝紫挑染，配电光紫水晶瞳、洁净无宝石瓷白额头、双颊单轨机械分模线与全机械仿生耳，双腕以三联发光电青导能环直接激发电流，外披敞怀高立领半袖燕尾奥术风衣。</p>
     <dl class="bunny-home-facts">
-      <div><dt>名称</dt><dd>Wizard</dd></div>
+      <div><dt>正式全名</dt><dd>维琳·西莱克斯（Wylin Silex）</dd></div>
+      <div><dt>所属种族</dt><dd><a href="/world/races#silica-carbon">硅碳混合族 · 精瓷义体</a></dd></div>
       <div><dt>职业定位</dt><dd>雷电法师</dd></div>
       <div><dt>素体基准</dt><dd><a href="/standards/female-standard">标准成年女素体（约 6.50 头身）</a></dd></div>
     </dl>
@@ -34,6 +35,15 @@ releaseReady: false
   <AssetImage id="character-card-latest" detail="失重半空悬浮双掌托雷动态定稿：双腕导能环直出锐利电弧，双脚穿平底装甲法靴顺势绷直悬空" use-thumb />
   <AssetImage id="face-sheet-latest" detail="洁净无宝石瓷白面庞、单轨机械分模线、电光紫水晶瞳与全机械仿生耳（正面与角色右侧面）" use-thumb />
 </div>
+
+<div class="bunny-section-heading">
+
+## 背景故事 {#story}
+
+<p>精瓷穹顶来历、硅碳混合种族渊源与小队羁绊。</p>
+</div>
+
+<CharacterLore />
 
 <div class="bunny-section-heading">
 

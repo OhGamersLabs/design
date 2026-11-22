@@ -1,5 +1,5 @@
 ---
-title: WIF Doge
+title: 多吉·库诺
 layout: CharacterPage
 pageType: home
 sidebar: false
@@ -7,7 +7,7 @@ aside: false
 releaseReady: false
 ---
 
-# WIF Doge {.bunny-sr-only}
+# 多吉·库诺 {.bunny-sr-only}
 
 <CharacterHero />
 <LatestList />
@@ -24,7 +24,8 @@ releaseReady: false
   <div>
     <p class="bunny-identity-statement">OhGamers 家族双形态柴犬角色，统一佩戴一顶暖燕麦立耳翻边罗纹毛线帽作为形态切换锚点：日常为约 2 头身 Q 版柴犬吉祥物，着哑光灰白轻型宇航服、亮橘核心胸盒与双分体微喷悬浮背包；战斗时通过纳米能量模块化重构展开为约 7 头身先锋重坦形态，宽肩厚胸、双上臂全程裸毛不穿盔甲，白橙胸甲、后背紧凑脊甲桥与双前臂六边形青刃盾牌臂铠协同护防。</p>
     <dl class="bunny-home-facts">
-      <div><dt>名称</dt><dd>WIF Doge</dd></div>
+      <div><dt>正式全名</dt><dd>多吉·库诺（Dorji Kuno）</dd></div>
+      <div><dt>所属种族</dt><dd><a href="/world/races#nano-kin">纳米星兽族 · 犬支</a></dd></div>
       <div><dt>职业定位</dt><dd>吉祥物 · 先锋重坦</dd></div>
       <div><dt>比例尺度</dt><dd>日常 Q 版约 2 头身 / 先锋重坦约 7 头身（厘米身高未设定）</dd></div>
     </dl>
@@ -34,6 +35,15 @@ releaseReady: false
   <AssetImage id="vanguard-face-sheet-latest" detail="先锋重坦裸头三视图：正面、90 度角色右侧面与背面" use-thumb />
   <AssetImage id="face-sheet-latest" detail="日常 Q 版裸头三视图：正面、微 3/4 面向画面右与 90 度角色右侧面" use-thumb />
 </div>
+
+<div class="bunny-section-heading">
+
+## 背景故事 {#story}
+
+<p>角色来历、纳构毛线帽渊源与小队羁绊。</p>
+</div>
+
+<CharacterLore />
 
 <div class="bunny-section-heading">
 

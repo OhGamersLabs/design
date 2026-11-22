@@ -1,5 +1,5 @@
 ---
-title: 天使
+title: 安洁·阿维拉
 layout: CharacterPage
 pageType: home
 sidebar: false
@@ -7,11 +7,20 @@ aside: false
 releaseReady: false
 ---
 
-# 天使 {.bunny-sr-only}
+# 安洁·阿维拉 {.bunny-sr-only}
 
 <CharacterHero />
 <LatestList />
 <ChapterBar />
+
+<div class="bunny-section-heading">
+
+## 背景故事 {#story}
+
+<p>天羽族来历、栖羽光轮杖传承与小队羁绊。</p>
+</div>
+
+<CharacterLore />
 
 ## 衣层顺序 {#layers}
 

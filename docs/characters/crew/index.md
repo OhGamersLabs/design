@@ -1,5 +1,5 @@
 ---
-title: Crew
+title: 克露丝·埃雷拉
 layout: CharacterPage
 pageType: home
 sidebar: false
@@ -7,7 +7,7 @@ aside: false
 releaseReady: false
 ---
 
-# Crew {.bunny-sr-only}
+# 克露丝·埃雷拉 {.bunny-sr-only}
 
 <CharacterHero />
 <LatestList />
@@ -24,7 +24,8 @@ releaseReady: false
   <div>
     <p class="bunny-identity-statement">OhGamers 家族工程岗位女性角色，基于 <a href="/standards/female-standard">女性标准素体</a>，栗棕色高丸子头配不对称长刘海、琥珀眼与小麦肤色，穿修身蓝灰短款战术夹克与米白焦棕贴身连体工装，背挂大号拉丝钢两用扳手。</p>
     <dl class="bunny-home-facts">
-      <div><dt>名称</dt><dd>Crew</dd></div>
+      <div><dt>正式全名</dt><dd>克露丝·埃雷拉（Cruz Herrera）</dd></div>
+      <div><dt>所属种族</dt><dd><a href="/world/races#terran">碳基人族 · 星港船坞</a></dd></div>
       <div><dt>职业定位</dt><dd>工程师</dd></div>
       <div><dt>素体基准</dt><dd><a href="/standards/female-standard">女性标准素体（赤脚约 6.5 头身）</a></dd></div>
     </dl>
@@ -34,6 +35,15 @@ releaseReady: false
   <AssetImage id="anchor-card-latest" detail="原稿立绘重绘成统一赛璐璐动画画风" use-thumb />
   <AssetImage id="face-sheet-latest" detail="正面、角色右侧面与背面，不对称斜刘海配高丸子头" use-thumb />
 </div>
+
+<div class="bunny-section-heading">
+
+## 背景故事 {#story}
+
+<p>角色来历、种族渊源与小队羁绊。</p>
+</div>
+
+<CharacterLore />
 
 <div class="bunny-section-heading">
 

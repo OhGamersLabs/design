@@ -6,7 +6,8 @@ OhGamers 角色设计资料站，使用 VitePress 1.6.4 与 Vue 3，按角色主
 
 ## 站点结构
 
-- 首页 `/` 上半部分是角色卡墙，每个已上架角色一张卡（卡片图、名字、职业、最近更新），下方独立分区展示四档通用素体；顶栏列出「角色」下拉与「通用规范」下拉。
+- 首页 `/` 上半部分是十人角色卡墙（卡片图、正式全名、职业、最近更新），中段展示「世界观与五大种族」入口，下方独立分区展示四档通用素体；顶栏列出「角色」「世界观」「通用规范」下拉。
+- 独立专栏 `/world/` 收录星环纪元世界观总览（`/world/`）与五大种族及姓氏谱系详录（`/world/races`），数据单一权威位于 `docs/.vitepress/data/world/world.json`，并同步渲染至每位角色主页的「背景故事」章节。
 - 独立专栏 `/standards/` 收录全家族四档通用 2D 素体与跨角色设计规范（`/standards/`、`/standards/female-standard`、`/standards/female-curvy`、`/standards/male-standard`、`/standards/male-heavy`），对应共享集合 `base-bodies`，不是角色。
 - 每个角色使用 `/characters/<id>/` 作为主页，页面数据位于 `docs/.vitepress/data/<id>/`。当前 Bunny 主页仍为 `/characters/bunny/`，展示精选、身份与画风、身体基准、衣层、表情、武器与携行、动作与场景。
 - 角色内页分为层级页和参考页；阅读顺序由该角色的 `character.json` 决定。Bunny 的身体到双匕首各页，以及图面尺寸、画风与配色、使用检查沿用原来的顺序。

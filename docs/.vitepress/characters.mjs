@@ -99,6 +99,13 @@ export function siteNav(roster) {
       items: roster.map(({ id, name, home }) => ({ text: name, link: home, activeMatch: `^/characters/${id}/` })),
     }] : []),
     {
+      text: '世界观', activeMatch: '^/world/',
+      items: [
+        { text: '世界观总览', link: '/world/', activeMatch: '^/world/$' },
+        { text: '五大种族与姓氏谱系', link: '/world/races', activeMatch: '^/world/races' },
+      ],
+    },
+    {
       text: '通用规范', activeMatch: '^/standards/',
       items: [
         { text: '素体与规范总览', link: '/standards/', activeMatch: '^/standards/$' },

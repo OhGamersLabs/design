@@ -1,5 +1,5 @@
 ---
-title: Gunman
+title: 冈纳·霍尔姆
 layout: CharacterPage
 pageType: home
 sidebar: false
@@ -7,7 +7,7 @@ aside: false
 releaseReady: false
 ---
 
-# Gunman {.bunny-sr-only}
+# 冈纳·霍尔姆 {.bunny-sr-only}
 
 <CharacterHero />
 <LatestList />
@@ -24,8 +24,9 @@ releaseReady: false
   <div>
     <p class="bunny-identity-statement">OhGamers 家族重装步兵岗位男性角色，基于 <a href="/standards/male-heavy">重壮男素体</a>，凌乱银白短发配橄榄翠绿瞳色与暖小麦肤色，戴绿光 V 形护目镜与哑光炭黑尖嘴呼吸面罩，穿银白六角胸甲与双侧对称钢钴蓝臂甲，配重型科幻能量步枪。</p>
     <dl class="bunny-home-facts">
-      <div><dt>名称</dt><dd>Gunman</dd></div>
-      <div><dt>职业定位</dt><dd>士兵</dd></div>
+      <div><dt>正式全名</dt><dd>冈纳·霍尔姆（Gunnar Holm）</dd></div>
+      <div><dt>所属种族</dt><dd><a href="/world/races#terran">碳基人族 · 星际边防</a></dd></div>
+      <div><dt>职业定位</dt><dd>重装步兵</dd></div>
       <div><dt>素体基准</dt><dd><a href="/standards/male-heavy">重壮男素体（赤脚约 7.87 头身）</a></dd></div>
     </dl>
     <p>采用日系二次元手绘线稿与硬边赛璐璐平涂上色，画面左上方主光，与全家族角色保持统一线重和头身比例。</p>
@@ -34,6 +35,15 @@ releaseReady: false
   <AssetImage id="anchor-card-latest" detail="原稿立绘重绘成统一赛璐璐动画画风" use-thumb />
   <AssetImage id="face-sheet-latest" detail="正面、3/4 角色右侧面、角色右侧面与神态设定" use-thumb />
 </div>
+
+<div class="bunny-section-heading">
+
+## 背景故事 {#story}
+
+<p>北境防线过往、武器信念与小队羁绊。</p>
+</div>
+
+<CharacterLore />
 
 <div class="bunny-section-heading">
 

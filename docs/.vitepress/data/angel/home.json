@@ -58,6 +58,11 @@
   ],
   "facts": [
     {
+      "term": "全名与种族",
+      "value": "安洁·阿维拉（Ange Avela）",
+      "note": "天羽族 · 空域翼裔"
+    },
+    {
       "term": "发色",
       "value": "浅银紫长发"
     },
@@ -100,6 +105,10 @@
   "status": "本地审阅版，不是生产发布",
   "updated": "2026-11-22",
   "chapters": [
+    {
+      "id": "story",
+      "label": "背景故事"
+    },
     {
       "id": "layers",
       "label": "衣层顺序"

@@ -1,5 +1,5 @@
 ---
-title: Samurai
+title: 荒铁·久藏
 layout: CharacterPage
 pageType: home
 sidebar: false
@@ -7,7 +7,7 @@ aside: false
 releaseReady: false
 ---
 
-# Samurai {.bunny-sr-only}
+# 荒铁·久藏 {.bunny-sr-only}
 
 <CharacterHero />
 <LatestList />
@@ -24,7 +24,8 @@ releaseReady: false
   <div>
     <p class="bunny-identity-statement">OhGamers 家族赛博浪人武士男性角色，基于 <a href="/standards/male-standard">标准青年男素体</a> 构建全机械外骨骼本体，戴冷浅青灰倒 V 掠食者压眉战盔配十至十二股分段波纹液压机械脏辫与猩红窄目镜，着暖灰褐可动悬臂肩甲、前后战术垂帘与撕裂长披风，背挂全长半开放磁吸脊轨并挥持约身长一点零五倍超长热能正宗野太刀。</p>
     <dl class="bunny-home-facts">
-      <div><dt>名称</dt><dd>Samurai</dd></div>
+      <div><dt>正式全名</dt><dd>荒铁·久藏（Kyuzo Aragane）</dd></div>
+      <div><dt>所属种族</dt><dd><a href="/world/races#automaton">智械族 · 东方锻系</a></dd></div>
       <div><dt>职业定位</dt><dd>武士</dd></div>
       <div><dt>素体基准</dt><dd><a href="/standards/male-standard">标准青年男素体（赤脚约 7.42 头身）</a></dd></div>
     </dl>
@@ -34,6 +35,15 @@ releaseReady: false
   <AssetImage id="masamune-3q-left-latest" detail="3/4 角色左侧面超长热能正宗拔刀威慑立姿（背后留出空置上座与尾轨）" use-thumb />
   <AssetImage id="dreadlock-helm-board-latest" detail="铁血机械脏辫战盔三视图（仅角色右眉嵌浅亮黄微光细条）" use-thumb />
 </div>
+
+<div class="bunny-section-heading">
+
+## 背景故事 {#story}
+
+<p>东方锻系浪人来历、热能正宗刀契与小队羁绊。</p>
+</div>
+
+<CharacterLore />
 
 <div class="bunny-section-heading">
 
