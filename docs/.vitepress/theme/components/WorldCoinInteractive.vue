@@ -22,7 +22,7 @@ const traitExamples = [
     id: 'samurai',
     badge: '久藏 · 智械武士',
     desire: '渴求「不受强权驱使的孤刃」',
-    outcome: '胚币穿透边疆沙暴悬停在荒铁·久藏刀前；久藏以热能正宗刀背接币，母币法则当场斩断军工回收部队的远程格式化信号。',
+    outcome: '胚币穿透边疆沙暴悬停在荒铁·久藏刀前；久藏以热能正宗刀背接币，母币法则当场斩断天秤财团回收部队的远程格式化信号。',
   },
   {
     id: 'wizard',
@@ -42,7 +42,7 @@ const combatPartners = [
   {
     name: '安洁铭纹币',
     role: '治疗师',
-    headsEffect: '光翼护盾增幅 · 全队生命体征直连罗伊目镜',
+    headsEffect: '光翼护盾增幅 · 全队生命体征直连执币人目镜',
     tailsEffect: '结晶飞羽超载群疗 · 瞬时铺开高密度治愈光幕',
   },
   {
@@ -69,7 +69,7 @@ const dropRules = [
   {
     tag: '定案法则 · 燃门析币',
     title: '重燃断联主炽环门 = 炉心析出稀缺新胚币 + 门后新种族并网',
-    desc: '空白胚币无法人工制造。唯有打穿篇章级危机、重新点燃熄灭断联的主星门，炉心才会析出二至三枚新胚币，同时把门后失落星域与新物种首次并入抛币共鸣池。',
+    desc: '空白胚币无法人工制造。唯有每一代达罗传人驾归航号横渡黑域、重新点燃熄灭的主星门，炉心才会析出二至三枚新胚币，同时把门后失落星域与新物种首次并入共鸣池。',
   },
   {
     tag: '辅助途径 · 绝境赌局',
@@ -79,28 +79,28 @@ const dropRules = [
   {
     tag: '辅助途径 · 环金熔铸',
     title: '深潜高危裂隙 = 收集远古星门崩碎环金',
-    desc: '极少数高危裂隙核心伴生远古环金残片，须由总工克露丝配合达罗兄妹双币合鸣，方可在船坞熔铸成完整胚币。',
+    desc: '极少数高危裂隙核心伴生远古环金残片，须由归航号轮机工坊配合双生主币合鸣，方可在船上熔铸成完整胚币。',
   },
 ]
 
 const eraStates = [
   {
-    sectorBadge: '已联网：1 / 3 星域',
+    sectorBadge: '初代本篇 · 已联网：1 / 3 星域',
     dlcBadge: '空白胚币余量：0 枚（买不到造不出）',
     unlockedSlots: 0,
-    summary: '序章状态：达罗祖传十槽匣仅存的 9 枚古胚币全部用尽，召齐内环五大种族初代十人后库存归零；外环星门处于断网黑障，概率波无法抵达。',
+    summary: '初代本篇（罗伊与罗娅）：十槽匣仅存的 9 枚古胚币全部用尽，召齐内环五大种族初代十人后库存归零，终章点燃归航号驶向断联黑域。',
   },
   {
-    sectorBadge: '已联网：2 / 3 星域',
-    dlcBadge: '析出新币：+3 枚北渊契印',
+    sectorBadge: '资料片一 · 已联网：2 / 3 星域',
+    dlcBadge: '二代传人析币：+3 枚外环新契',
     unlockedSlots: 3,
-    summary: '资料片一推进：小队重燃断联的北渊主炽环门，星门炉心析出 3 枚稀缺新胚币，门后未知星系与全新种族正式接入母币共鸣射程。',
+    summary: '资料片一（达罗二代传人）：跨越数十年黑域航程后重燃首座断联主星门，炉心析出 3 枚稀缺新胚币，新一代达罗主角与守门后裔结成新契！',
   },
   {
-    sectorBadge: '已联网：3 / 3 星域（舰队级）',
-    dlcBadge: '析出新币：+6 枚特遣分匣契印',
+    sectorBadge: '资料片二 · 已联网：3 / 3 星域',
+    dlcBadge: '历代累计析币：+6 枚分匣新契',
     unlockedSlots: 6,
-    summary: '资料片二推进：多座远古星门重燃联网，罗伊升级旗舰主脑正式晋升「星环舰队指挥官」——初代十人永驻旗舰核心席，新伙伴编入特遣分匣。',
+    summary: '资料片二（历代达罗舰队）：多座星门跨世代重燃，长生机魂元老坐镇旗舰原初十槽，历代新伙伴编入特遣分匣，集结星环总舰队迎战噬环天灾。',
   },
 ]
 
@@ -145,11 +145,11 @@ function triggerCoinFlip() {
 
 <template>
   <div class="coin-viz-stack">
-    <!-- DIAGRAM 1: CAST VS DISPATCH & 3 LOCKS -->
+    <!-- DIAGRAM 02: CAST VS DISPATCH & 3 LOCKS -->
     <section class="coin-viz-box" aria-label="抛币结契双轨运作交互图解">
       <header class="coin-viz-box__head">
         <div>
-          <span class="coin-viz-box__eyebrow">INTERACTIVE DIAGRAM 01</span>
+          <span class="coin-viz-box__eyebrow">INTERACTIVE DIAGRAM 02</span>
           <h3 class="coin-viz-box__title">一枚金币的两种用法：拆开「开荒招新」与「老队打架」</h3>
         </div>
         <div class="coin-viz-tabs" role="tablist" aria-label="抛币运作模式切换">
@@ -201,7 +201,7 @@ function triggerCoinFlip() {
               <text x="76" y="34" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-ink-2)">胚币</text>
             </svg>
             <h4>双生主币 + 空白胚币</h4>
-            <p>兄妹双币合鸣校准，只向胚币注入破局特质渴求，主动放弃筛选星系与物种形态。</p>
+            <p>双生主币合鸣校准，只向胚币注入破局特质渴求，主动放弃筛选星系与物种形态。</p>
           </div>
 
           <div class="coin-step-card">
@@ -232,7 +232,7 @@ function triggerCoinFlip() {
               <circle cx="60" cy="30" r="6.5" fill="var(--bunny-orange)" />
             </svg>
             <h4>精准锚定「破格异类」</h4>
-            <p>无视体型与出身，硬币专挑已联网星域里拒绝屈从命运剧本的极致特质者落下。</p>
+            <p>无视体型与出身，硬币专挑共鸣射程内拒绝屈从命运剧本的极致特质者落下。</p>
           </div>
 
           <div class="coin-step-card coin-step-card--highlight">
@@ -325,7 +325,7 @@ function triggerCoinFlip() {
                 <span>高风险博弈</span>
               </div>
               <p>{{ currentPartner.tailsEffect }}</p>
-              <small>代价：罗伊承受神经元灼烧负荷，战后该枚硬币进入过热冷却期。</small>
+              <small>代价：执币人承受神经元灼烧负荷，战后该枚硬币进入过热冷却期。</small>
             </div>
           </div>
         </div>
@@ -362,7 +362,7 @@ function triggerCoinFlip() {
               <text x="148" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-orange)">阴币</text>
             </svg>
             <h4>单币可战 · 双币开疆</h4>
-            <p>罗伊与罗娅分执同源双生主币，<b>单人即可独立调遣全部老队友</b>，分兵历险绝不瘫痪；唯有抛空白胚币招新伙伴或开舰队级远距星门时，方需兄妹合鸣。</p>
+            <p>阳币与阴币同源共生，<b>单人即可独立调遣全部老队友</b>，分兵历险绝不瘫痪；唯有抛空白胚币招新伙伴或开舰队级远距星门时，方需双币合鸣。</p>
           </article>
 
           <article class="coin-lock-card">
@@ -384,12 +384,12 @@ function triggerCoinFlip() {
       </div>
     </section>
 
-    <!-- DIAGRAM 2: EXPANSION STAR MAP & COIN VAULT -->
+    <!-- DIAGRAM 03: EXPANSION STAR MAP & COIN VAULT -->
     <section class="coin-viz-box" aria-label="资料片星门扩容与胚币稀缺机制交互图解">
       <header class="coin-viz-box__head">
         <div>
-          <span class="coin-viz-box__eyebrow">INTERACTIVE DIAGRAM 02</span>
-          <h3 class="coin-viz-box__title">资料片怎么加新角色还不通货膨胀：燃门析币与双匣编制</h3>
+          <span class="coin-viz-box__eyebrow">INTERACTIVE DIAGRAM 03</span>
+          <h3 class="coin-viz-box__title">资料片跨世代扩容：燃门析币、达罗传人接力与双匣编制</h3>
         </div>
         <div class="coin-viz-tabs" role="tablist" aria-label="剧情篇章推进切换">
           <button
@@ -400,7 +400,7 @@ function triggerCoinFlip() {
             :class="{ 'is-active': activeEra === 0 }"
             @click="activeEra = 0"
           >
-            序章 · 初代十人
+            本篇 · 初代达罗兄妹
           </button>
           <button
             type="button"
@@ -410,7 +410,7 @@ function triggerCoinFlip() {
             :class="{ 'is-active': activeEra === 1 }"
             @click="activeEra = 1"
           >
-            资料片一 · 重燃北渊门
+            资料片一 · 二代重燃星门
           </button>
           <button
             type="button"
@@ -420,7 +420,7 @@ function triggerCoinFlip() {
             :class="{ 'is-active': activeEra === 2 }"
             @click="activeEra = 2"
           >
-            资料片二 · 舰队指挥官
+            资料片二 · 历代星环舰队
           </button>
         </div>
       </header>
@@ -476,7 +476,7 @@ function triggerCoinFlip() {
                 stroke-width="2.6"
                 :stroke-dasharray="activeEra >= 1 ? undefined : '5 4'"
               />
-              <text x="346" y="46" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--bunny-ink)">北渊主星门</text>
+              <text x="346" y="46" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--bunny-ink)">外环一号星门</text>
               <text
                 x="346"
                 y="64"
@@ -500,7 +500,7 @@ function triggerCoinFlip() {
                 stroke-width="2.6"
                 :stroke-dasharray="activeEra >= 2 ? undefined : '5 4'"
               />
-              <text x="352" y="142" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--bunny-ink)">深海主星门</text>
+              <text x="352" y="142" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--bunny-ink)">深空远端星门</text>
               <text
                 x="352"
                 y="160"
@@ -522,7 +522,7 @@ function triggerCoinFlip() {
           <div class="coin-vault-card">
             <div class="coin-vault-card__head">
               <b>角色右腰原初十槽匣（旗舰元老席）</b>
-              <span>10 / 10 满编常驻</span>
+              <span>10 / 10 跨代传承</span>
             </div>
             <div class="coin-slot-grid coin-slot-grid--ten">
               <a
@@ -540,7 +540,7 @@ function triggerCoinFlip() {
 
           <div class="coin-vault-card">
             <div class="coin-vault-card__head">
-              <b>星环特遣分匣（资料片扩容席）</b>
+              <b>星环特遣分匣（达罗后裔扩容席）</b>
               <span>{{ currentEra.dlcBadge }}</span>
             </div>
             <div class="coin-slot-grid coin-slot-grid--six">

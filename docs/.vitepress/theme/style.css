@@ -1549,6 +1549,112 @@ a.coin-slot:hover {
   line-height: 1.65 !important;
 }
 
+.world-single-viz {
+  --coin-green: #18794e;
+  margin: 8px 0 22px;
+}
+.world-three-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+.world-genesis-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--bunny-rule);
+  background: var(--bunny-fabric);
+  font-size: 13px;
+  color: var(--bunny-ink);
+}
+.world-genesis-strip b {
+  color: var(--bunny-orange);
+}
+.world-genesis-arrow {
+  color: var(--bunny-ink-3);
+  font-weight: 700;
+}
+.world-split-svg {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  margin: 4px 0 12px;
+}
+.world-slow-dash {
+  stroke-dasharray: 4 5;
+  animation: coinDashMove 3.2s linear infinite;
+}
+.world-vs-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 14px;
+  align-items: stretch;
+}
+.world-vs-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 18px;
+  border: 2px solid var(--bunny-rule);
+  background: var(--bunny-paper);
+}
+.world-vs-card--true {
+  border-color: var(--coin-green);
+}
+.world-vs-card--fake {
+  border-color: var(--bunny-red);
+}
+.world-vs-svg {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+}
+.world-vs-copy h4 {
+  margin: 0 0 8px !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: var(--bunny-ink);
+}
+.world-vs-copy ul {
+  margin: 0 !important;
+  padding-left: 18px !important;
+}
+.world-vs-copy li {
+  margin: 3px 0 !important;
+  font-size: 13.5px;
+  line-height: 1.55 !important;
+  color: var(--bunny-ink-2);
+}
+.world-vs-badge {
+  align-self: center;
+  padding: 6px 10px;
+  border: 1px solid var(--bunny-red);
+  background: var(--bunny-fabric);
+  color: var(--bunny-red);
+  font-size: 12px;
+  font-weight: 700;
+}
+.world-rival-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.world-rival-svg {
+  width: 100%;
+  height: 104px;
+  margin: 4px 0 10px;
+}
+.world-zone-hit {
+  cursor: pointer;
+}
+.world-zone-hit:hover {
+  opacity: .92;
+}
+
 @media (max-width: 1100px) {
   .world-roster-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1556,8 +1662,13 @@ a.coin-slot:hover {
   .world-hero,
   .character-lore,
   .coin-combat-grid,
-  .coin-map-grid {
+  .coin-map-grid,
+  .world-vs-grid,
+  .world-three-grid {
     grid-template-columns: minmax(0, 1fr);
+  }
+  .world-vs-badge {
+    justify-self: center;
   }
   .coin-step-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1569,6 +1680,7 @@ a.coin-slot:hover {
   .world-race-grid,
   .world-member-cards,
   .world-axiom-grid,
+  .world-rival-grid,
   .coin-step-grid,
   .coin-locks-grid {
     grid-template-columns: minmax(0, 1fr);
@@ -1576,6 +1688,10 @@ a.coin-slot:hover {
   .coin-slot-grid--ten,
   .coin-slot-grid--six {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .world-vs-card {
+    flex-direction: column;
+    align-items: flex-start;
   }
   .world-hero__main,
   .world-race-detail,

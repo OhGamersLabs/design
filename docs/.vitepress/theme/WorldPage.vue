@@ -4,7 +4,9 @@ import { useData, withBase } from 'vitepress'
 import { data as world } from '../data/world.data.mjs'
 import { data as site } from '../data/site.data.mjs'
 import { readingNeighbors } from './character-site.mjs'
+import WorldOriginFactions from './components/WorldOriginFactions.vue'
 import WorldCoinInteractive from './components/WorldCoinInteractive.vue'
+import WorldArkGenerations from './components/WorldArkGenerations.vue'
 
 const { frontmatter, page } = useData()
 
@@ -54,7 +56,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
             <p class="world-hero__subtitle">{{ world.subtitle }}</p>
             <p class="world-hero__intro">{{ world.intro }}</p>
             <div class="world-hero__actions">
-              <a class="roster-section__more" :href="`#coin-pact`">体验抛币结契交互图解 <span aria-hidden="true">↓</span></a>
+              <a class="roster-section__more" :href="`#stage`">浏览四组可交互设定图解 <span aria-hidden="true">↓</span></a>
               <a class="world-hero__secondary" :href="withBase('/world/races')">浏览五大种族与姓氏谱系</a>
             </div>
           </div>
@@ -78,22 +80,22 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
 
         <div class="vp-doc">
           <div class="bunny-section-heading">
-            <h2 id="stage">世界舞台</h2>
-            <p>炽环跃迁门、白塔星港与双生 OG 主币串起的主线舞台。</p>
+            <h2 id="stage">创世原点与三大宿敌</h2>
+            <p>{{ world.originAndFactions.lead }}</p>
           </div>
-          <div class="world-stage-grid">
-            <article class="base-body-rule-card">
-              <h3>炽环门与白塔星港</h3>
-              <p>巨型环状跃迁门「炽环门」宛如天体尺度的燃烧金币外环，将散落星海的浮空云塔、高轨道精瓷穹顶、荒原锻炉与游牧星舟相连。航网枢纽「白塔星港」在晴空下立起纯白高塔与轨道船坞，成为五大种族通商、修舰与集结的自由舞台。</p>
-            </article>
-            <article class="base-body-rule-card">
-              <h3>裂隙潮汐与抛币结契</h3>
-              <p>星环轨道的周期性扰动「裂隙潮汐」导致多处远古星门断联熄灭。达罗双生兄妹手握同源 OG 主币，耗尽祖传十槽匣仅存的九枚古胚币，跨光年锚定九位破格异类结成初代十人核心团，踏上重燃断联星门、向星环舰队指挥官进发的远征。</p>
+
+          <WorldOriginFactions />
+
+          <div class="world-three-grid">
+            <article v-for="faction in world.originAndFactions.factions" :key="faction.code" class="base-body-rule-card world-pillar-card">
+              <span class="world-pillar-card__code">{{ faction.code }}</span>
+              <h3>{{ faction.title }}</h3>
+              <p>{{ faction.body }}</p>
             </article>
           </div>
 
           <div class="bunny-section-heading">
-            <h2 id="coin-pact">抛币结契与交互图解</h2>
+            <h2 id="coin-pact">抛币结契法则</h2>
             <p>{{ world.coinPact.lead }}</p>
           </div>
 
@@ -104,6 +106,21 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
               <span class="world-pillar-card__code">{{ axiom.code }}</span>
               <h3>{{ axiom.title }}</h3>
               <p>{{ axiom.body }}</p>
+            </article>
+          </div>
+
+          <div class="bunny-section-heading">
+            <h2 id="echoes-ark">归航号与跨代回响</h2>
+            <p>{{ world.echoesAndArk.lead }}</p>
+          </div>
+
+          <WorldArkGenerations />
+
+          <div class="world-three-grid">
+            <article v-for="card in world.echoesAndArk.cards" :key="card.code" class="base-body-rule-card world-pillar-card">
+              <span class="world-pillar-card__code">{{ card.code }}</span>
+              <h3>{{ card.title }}</h3>
+              <p>{{ card.body }}</p>
             </article>
           </div>
 
@@ -121,7 +138,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
 
           <div class="bunny-section-heading">
             <h2 id="races">五大种族总览</h2>
-            <p>每种生命形态都有清晰的生理特征、栖地生态与专属姓氏构词规则。</p>
+            <p>每种生命形态都有清晰的生理特征、寿命尺度、栖地生态与专属姓氏构词规则。</p>
           </div>
           <div class="world-race-grid">
             <article v-for="race in world.races" :key="race.id" class="world-race-card">
@@ -143,7 +160,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
           </div>
 
           <div class="bunny-section-heading">
-            <h2 id="squad">十人小队名录</h2>
+            <h2 id="squad">初代十人名录</h2>
             <p>正式中英文全名、种族归属、职业定位与共鸣特质速览。</p>
           </div>
           <div class="base-body-table-wrap">
@@ -180,7 +197,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
       <template v-else>
         <div class="vp-doc">
           <h1 class="world-detail-title">五大种族与姓氏谱系</h1>
-          <p class="world-detail-lead">炽环星域由五大生命谱系共同构筑。各族在生理构造、栖居生态与能源驾驭上各具边界，其姓氏体系亦直接映照族群文化与来处。</p>
+          <p class="world-detail-lead">炽环星域由五大生命谱系共同构筑。各族在生理构造、寿命跨度、栖居生态与能源驾驭上各具边界，其姓氏体系亦直接映照族群文化与来处。</p>
 
           <section v-for="race in world.races" :key="race.id" class="world-race-detail">
             <h2 :id="race.id">{{ race.name }} <small>{{ race.enName }}</small></h2>

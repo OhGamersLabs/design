@@ -11,6 +11,17 @@ function parseFacts(value) {
   })
 }
 
+function parseSectionCards(raw, listKey) {
+  const obj = record(raw)
+  return {
+    lead: text(obj.lead),
+    items: list(obj[listKey]).map((entry) => {
+      const item = record(entry)
+      return { code: text(item.code), title: text(item.title), body: text(item.body) }
+    }),
+  }
+}
+
 export function loadWorld(root = defaultRoot) {
   const source = record(readJson(resolve(root, 'docs/.vitepress/data/world/world.json')))
   const races = list(source.races).map((entry) => {
@@ -52,14 +63,9 @@ export function loadWorld(root = defaultRoot) {
       ]
     }),
   )
-  const rawPact = record(source.coinPact)
-  const coinPact = {
-    lead: text(rawPact.lead),
-    axioms: list(rawPact.axioms).map((entry) => {
-      const item = record(entry)
-      return { code: text(item.code), title: text(item.title), body: text(item.body) }
-    }),
-  }
+  const originSection = parseSectionCards(source.originAndFactions, 'factions')
+  const pactSection = parseSectionCards(source.coinPact, 'axioms')
+  const echoesSection = parseSectionCards(source.echoesAndArk, 'cards')
   const pillars = list(source.pillars).map((entry) => {
     const item = record(entry)
     return { code: text(item.code), title: text(item.title), body: text(item.body) }
@@ -80,7 +86,9 @@ export function loadWorld(root = defaultRoot) {
     intro: text(source.intro),
     facts: parseFacts(source.facts),
     overviewChapters,
-    coinPact,
+    originAndFactions: { lead: originSection.lead, factions: originSection.items },
+    coinPact: { lead: pactSection.lead, axioms: pactSection.items },
+    echoesAndArk: { lead: echoesSection.lead, cards: echoesSection.items },
     pillars,
     races,
     racesById: Object.fromEntries(races.map((r) => [r.id, r])),
