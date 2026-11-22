@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.0",
+  "character_id": "world",
+  "language": "zh-CN",
+  "title": "星环纪元核心信物设定",
+  "status": "local-review",
+  "asset_count": 3,
+  "assets": [
+    {
+      "id": "libra-cleaner-card-latest",
+      "character": "world",
+      "title": "libra-cleaner-card-latest",
+      "original": {
+        "path": "/media/world/libra-cleaner-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6599274,
+        "sha256": "aba41b6d26dec38878371b4f032581dcbdde2cefde28e4a4f92e3fc8643b244a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/libra-cleaner-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2432700,
+        "sha256": "d257555bc36548efa4fbda78afde2fcdc06319eb1259054ffea311265acef12f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "libra-peacekeeper-card-latest",
+      "character": "world",
+      "title": "libra-peacekeeper-card-latest",
+      "original": {
+        "path": "/media/world/libra-peacekeeper-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6219054,
+        "sha256": "a455ec20675158b516e86603baccddeb8c45dc428df74b6a40bdcd66e154c436",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/libra-peacekeeper-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2132710,
+        "sha256": "239aa13f1c303a423a00451353edd71841af763a9c8a44f4435185e20ac4a767",
+        "alpha": false
+      }
+    },
+    {
+      "id": "lorn-vele-card-latest",
+      "character": "world",
+      "title": "lorn-vele-card-latest",
+      "original": {
+        "path": "/media/world/lorn-vele-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 7033733,
+        "sha256": "f03a1a52a002a70a5bb45a34f40faccd864706d7be479c03edbe6520d2a831f6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/lorn-vele-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2609228,
+        "sha256": "acb549c398bd07d468cbbbe8eab6621929dec65c0f58e6a11a709b2c7a5f8540",
+        "alpha": false
+      }
+    }
+  ]
+}

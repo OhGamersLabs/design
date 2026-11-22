@@ -23,6 +23,48 @@ import { data as world } from '../data/world.data.mjs'
       </a>
     </div>
 
+    <section v-if="world?.storyCast?.standardCards?.length" class="roster-section" aria-labelledby="story-cast-heading">
+      <div class="roster-section__header">
+        <div>
+          <p class="roster-section__label">主线剧情提炼 · 重点全拆解与普通单卡双轨制</p>
+          <h2 id="story-cast-heading" class="roster-section__title">{{ world.storyCast.title }}</h2>
+          <p class="roster-section__intro">{{ world.storyCast.intro }}</p>
+        </div>
+        <a class="roster-section__more" :href="withBase('/world/cast')">查看完整敌方与剧情角色图鉴 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="npc-roster-grid">
+        <a
+          v-for="npc in world.storyCast.standardCards"
+          :key="npc.id"
+          class="npc-roster-card"
+          :href="withBase(`/world/cast#${npc.id}`)"
+          :data-npc-id="npc.id"
+          :data-asset-id="npc.portrait?.asset"
+        >
+          <div v-if="npc.portrait" class="npc-roster-card__picture">
+            <img
+              :src="withBase(npc.portrait.path)"
+              :width="npc.portrait.width"
+              :height="npc.portrait.height"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="npc-roster-card__badge">{{ npc.tier }}</span>
+          </div>
+          <div class="npc-roster-card__copy">
+            <div class="npc-roster-card__head">
+              <h3 class="npc-roster-card__name">{{ npc.name }}</h3>
+              <span class="npc-roster-card__en">{{ npc.enName }}</span>
+            </div>
+            <p class="npc-roster-card__faction">{{ npc.faction }} · {{ npc.raceLabel }}</p>
+            <p class="npc-roster-card__summary">{{ npc.tagline }}</p>
+            <p class="roster-updated">{{ npc.debut }} · 最近更新 <time :datetime="npc.updated">{{ npc.updated }}</time></p>
+          </div>
+        </a>
+      </div>
+    </section>
+
     <section v-if="world?.races?.length" class="roster-section" aria-labelledby="world-heading">
       <div class="roster-section__header">
         <div>

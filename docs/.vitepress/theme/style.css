@@ -1658,6 +1658,187 @@ a.coin-slot:hover {
   margin-top: 8px !important;
 }
 
+/* Story Cast & Standard NPC Cards (Home + /world/cast) */
+.npc-roster-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.npc-roster-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid var(--bunny-rule);
+  border-top: 4px solid var(--bunny-ink);
+  background: var(--bunny-paper);
+  color: var(--bunny-ink);
+  text-decoration: none !important;
+}
+.npc-roster-card:hover {
+  border-top-color: var(--bunny-orange);
+}
+.npc-roster-card__picture {
+  position: relative;
+  min-width: 0;
+  aspect-ratio: 1 / 1;
+  background: #bcbcbd;
+  overflow: hidden;
+}
+.npc-roster-card__picture img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.npc-roster-card__badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 3px 9px;
+  background: var(--bunny-ink);
+  color: var(--bunny-paper);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+.npc-roster-card__copy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 16px 18px 18px;
+}
+.npc-roster-card__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+.npc-roster-card__name {
+  margin: 0 !important;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -.02em;
+  color: var(--bunny-ink);
+}
+.npc-roster-card__en {
+  flex: none;
+  color: var(--bunny-orange);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+.npc-roster-card__faction {
+  margin: 6px 0 0 !important;
+  color: var(--bunny-ink);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.npc-roster-card__summary {
+  margin: 8px 0 0 !important;
+  color: var(--bunny-ink-2);
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+.npc-roster-card .roster-updated {
+  margin: auto 0 0 !important;
+  padding-top: 12px;
+}
+.npc-roster-card:is(:hover, :focus-visible) .npc-roster-card__name {
+  text-decoration: underline;
+  text-decoration-color: var(--bunny-orange);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.world-cast-tiers {
+  margin-bottom: 24px;
+}
+.world-major-cast-box {
+  border-top-color: var(--bunny-orange);
+}
+.world-major-cast-item {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--bunny-rule);
+}
+.world-major-cast-item__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.world-major-cast-item__head h3 {
+  margin: 0 !important;
+  font-size: 21px !important;
+}
+.world-major-cast-item__head h3 span {
+  margin-left: 8px;
+  color: var(--bunny-ink-2);
+  font-size: 13px;
+  font-weight: 500;
+}
+.world-major-cast-item__meta {
+  margin: 4px 0 0 !important;
+  color: var(--bunny-ink-2);
+  font-size: 13.5px;
+}
+.world-cast-tier-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border: 1px solid var(--bunny-ink);
+  background: var(--bunny-fabric);
+  color: var(--bunny-ink);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.world-cast-tier-pill--major {
+  border-color: var(--bunny-orange);
+  background: var(--bunny-orange);
+  color: var(--bunny-ink);
+}
+.world-cast-card__grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+.world-cast-card__media .release-image {
+  margin: 0 !important;
+}
+.world-cast-card__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+@media (max-width: 1020px) {
+  .npc-roster-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .world-cast-card__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 639px) {
+  .npc-roster-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 @media (max-width: 1100px) {
   .world-roster-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -1,7 +1,7 @@
 import { existsSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { buildAssetIndex } from './theme/character-site.mjs'
+import { assetById, buildAssetIndex } from './theme/character-site.mjs'
 import { list, number, parseManifest, parseNames, readJson, record, text } from './data/character-data.mjs'
 
 const defaultRoot = fileURLToPath(new URL('../../', import.meta.url))
@@ -90,7 +90,52 @@ export function loadWorld(root = defaultRoot) {
   const readingOrder = [
     { path: '/world/', title: '世界观总览' },
     { path: '/world/races', title: '五大种族与姓氏谱系' },
+    { path: '/world/cast', title: '剧情角色与敌方图鉴' },
   ]
+  const rawCast = source.storyCast === undefined ? null : record(source.storyCast)
+  const storyCast = rawCast ? {
+    title: text(rawCast.title),
+    subtitle: text(rawCast.subtitle),
+    intro: text(rawCast.intro),
+    tierRules: list(rawCast.tierRules).map((entry) => {
+      const item = record(entry)
+      return { code: text(item.code), title: text(item.title), body: text(item.body) }
+    }),
+    majorCharacters: list(rawCast.majorCharacters).map((entry) => {
+      const item = record(entry)
+      return {
+        id: text(item.id),
+        name: text(item.name),
+        enName: text(item.enName),
+        tier: text(item.tier),
+        faction: text(item.faction),
+        raceLabel: text(item.raceLabel),
+        debut: text(item.debut),
+        bodyScale: text(item.bodyScale),
+        tagline: text(item.tagline),
+        layerSpec: text(item.layerSpec),
+      }
+    }),
+    standardCards: list(rawCast.standardCards).map((entry) => {
+      const item = record(entry)
+      const asset = text(item.asset)
+      return {
+        id: text(item.id),
+        asset,
+        name: text(item.name),
+        enName: text(item.enName),
+        tier: text(item.tier),
+        faction: text(item.faction),
+        raceLabel: text(item.raceLabel),
+        debut: text(item.debut),
+        updated: text(item.updated),
+        tagline: text(item.tagline),
+        signature: text(item.signature),
+        story: text(item.story),
+        portrait: Object.hasOwn(assets, asset) ? { asset, ...assetById(assets, asset).thumb } : null,
+      }
+    }),
+  } : null
   return {
     title: text(source.title),
     subtitle: text(source.subtitle),
@@ -106,6 +151,7 @@ export function loadWorld(root = defaultRoot) {
     races,
     racesById: Object.fromEntries(races.map((r) => [r.id, r])),
     characters,
+    storyCast,
     readingOrder,
     assets,
   }

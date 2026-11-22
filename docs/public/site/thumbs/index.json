@@ -5030,5 +5030,29 @@
     "sha256": "8cdb17bb501f0ace1198c9e57449b0cb0f7fb1d22bba1784ec9a2ee667d04758",
     "sourcePath": "/characters/wizard/face-sheet-latest.webp",
     "sourceSha256": "48624292d619bf00aea6a5a7c6ee9e5c3ac22b3f839f851ef69db6d1a0a35cf3"
+  },
+  "world/libra-cleaner-card-latest": {
+    "path": "/site/thumbs/world/libra-cleaner-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "1a2b34d5c6ded54e0889bbf0d5af2d3050453db3703fa38137e12ea3586286ee",
+    "sourcePath": "/characters/world/libra-cleaner-card-latest.webp",
+    "sourceSha256": "d257555bc36548efa4fbda78afde2fcdc06319eb1259054ffea311265acef12f"
+  },
+  "world/libra-peacekeeper-card-latest": {
+    "path": "/site/thumbs/world/libra-peacekeeper-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "7a4c8c3bef6a0310f8163f30ab81c572f81f036c3320028d56cdab765c097391",
+    "sourcePath": "/characters/world/libra-peacekeeper-card-latest.webp",
+    "sourceSha256": "239aa13f1c303a423a00451353edd71841af763a9c8a44f4435185e20ac4a767"
+  },
+  "world/lorn-vele-card-latest": {
+    "path": "/site/thumbs/world/lorn-vele-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "6b80b8ec425743b8affd53ec6f57be4f826bcbb500e3e979599275f950e9ed4a",
+    "sourcePath": "/characters/world/lorn-vele-card-latest.webp",
+    "sourceSha256": "acb549c398bd07d468cbbbe8eab6621929dec65c0f58e6a11a709b2c7a5f8540"
   }
 }

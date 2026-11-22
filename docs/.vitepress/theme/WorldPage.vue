@@ -9,12 +9,13 @@ import WorldCoreStructure from './components/WorldCoreStructure.vue'
 import WorldMysteryOnboarding from './components/WorldMysteryOnboarding.vue'
 import WorldCoinInteractive from './components/WorldCoinInteractive.vue'
 import WorldArkGenerations from './components/WorldArkGenerations.vue'
+import WorldImage from './components/WorldImage.vue'
 
 const { frontmatter, page } = useData()
 
 const mode = computed(() => {
   const value: unknown = frontmatter.value.pageType
-  if (value === 'overview' || value === 'races') return value
+  if (value === 'overview' || value === 'races' || value === 'cast') return value
   throw new Error(`Unknown world page layout: ${String(value)}`)
 })
 
@@ -29,7 +30,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
 <template>
   <main
     class="bunny-page world-page"
-    :class="mode === 'races' ? 'bunny-page--inner world-page--races' : 'world-page--overview'"
+    :class="mode === 'overview' ? 'world-page--overview' : `bunny-page--inner world-page--${mode}`"
   >
     <aside v-if="mode === 'races'" class="bunny-side-card world-side-card" aria-label="种族谱系导航">
       <div class="bunny-reference-card__heading">
@@ -49,6 +50,26 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
       </p>
     </aside>
 
+    <aside v-else-if="mode === 'cast' && world.storyCast" class="bunny-side-card world-side-card" aria-label="剧情角色导航">
+      <div class="bunny-reference-card__heading">
+        <p class="bunny-side-card__home">
+          <a :href="withBase('/world/')">世界观总览</a> / <span>剧情角色图鉴</span>
+        </p>
+        <p class="bunny-side-card__title">剧情与敌方图鉴</p>
+        <p class="bunny-layer-card__position">重点全拆解档 · 普通单张角色卡档</p>
+      </div>
+      <nav class="bunny-reference-card__contents" aria-label="剧情角色目录">
+        <a href="#tier-rules">资产分级标准</a>
+        <a href="#major-cast">重点角色 · 索伦·韦恩</a>
+        <a v-for="npc in world.storyCast.standardCards" :key="npc.id" :href="`#${npc.id}`">
+          普通角色 · {{ npc.name }}
+        </a>
+      </nav>
+      <p class="bunny-side-card__callout">
+        <b>双轨制资产规范</b>核心反派首领纳入重点角色档，严格配齐标准通用素体与多层着装拆解；财团兵种与单元剧见证者归入普通角色档，交付独立全身角色卡。
+      </p>
+    </aside>
+
     <div class="bunny-page__body">
       <template v-if="mode === 'overview'">
         <section class="world-hero" aria-label="世界观提要">
@@ -60,6 +81,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
             <div class="world-hero__actions">
               <a class="roster-section__more" :href="`#coin-pact`">查看外壳与无字母核蓝图（含七组交互图解） <span aria-hidden="true">↓</span></a>
               <a class="world-hero__secondary" :href="withBase('/world/races')">浏览五大种族与姓氏谱系</a>
+              <a class="world-hero__secondary" :href="withBase('/world/cast')">浏览剧情角色与敌方图鉴</a>
             </div>
           </div>
           <aside class="bunny-idcard world-hero__card" aria-label="世界档案概览">
@@ -198,7 +220,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
         </div>
       </template>
 
-      <template v-else>
+      <template v-else-if="mode === 'races'">
         <div class="vp-doc">
           <h1 class="world-detail-title">五大种族与姓氏谱系</h1>
           <p class="world-detail-lead">炽环星域由五大生命谱系共同构筑。各族在生理构造、寿命跨度、栖居生态与能源驾驭上各具边界，其姓氏体系亦直接映照族群文化与来处。</p>
@@ -236,6 +258,114 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
                   <p class="world-member-card__role">{{ rosterById[memberId]?.role ?? world.characters[memberId]?.role }}</p>
                   <p class="world-member-card__copy">{{ world.characters[memberId]?.tagline }}</p>
                 </a>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <nav class="bunny-pager" aria-label="相邻页面">
+          <a v-if="neighbors.prev" class="bunny-pager__prev" :href="withBase(neighbors.prev.path)">
+            <small>上一页</small><b>{{ neighbors.prev.title }}</b>
+          </a>
+          <a v-if="neighbors.next" class="bunny-pager__next" :href="withBase(neighbors.next.path)">
+            <small>下一页</small><b>{{ neighbors.next.title }}</b>
+          </a>
+        </nav>
+      </template>
+
+      <template v-else-if="mode === 'cast' && world.storyCast">
+        <div class="vp-doc">
+          <h1 class="world-detail-title">{{ world.storyCast.title }}</h1>
+          <p class="world-detail-lead">{{ world.storyCast.intro }}</p>
+
+          <section id="tier-rules" class="world-cast-tiers">
+            <div class="world-race-grid">
+              <article v-for="rule in world.storyCast.tierRules" :key="rule.code" class="base-body-rule-card world-pillar-card">
+                <span class="world-pillar-card__code">{{ rule.code }}</span>
+                <h3>{{ rule.title }}</h3>
+                <p>{{ rule.body }}</p>
+              </article>
+            </div>
+          </section>
+
+          <section id="major-cast" class="world-race-detail world-major-cast-box">
+            <h2>重点角色名录 <small>MAJOR ANTAGONIST · FULL LAYER BREAKDOWN TIER</small></h2>
+            <p class="world-race-detail__tagline">配齐通用素体基准与多层服装、暗藏探测机构及核心信物拆解的主线首领档案</p>
+            <article v-for="boss in world.storyCast.majorCharacters" :key="boss.id" :id="boss.id" class="world-major-cast-item">
+              <div class="world-major-cast-item__head">
+                <div>
+                  <h3>{{ boss.name }} <span>{{ boss.enName }}</span></h3>
+                  <p class="world-major-cast-item__meta">{{ boss.faction }} · {{ boss.raceLabel }} · {{ boss.debut }}</p>
+                </div>
+                <span class="world-cast-tier-pill world-cast-tier-pill--major">{{ boss.tier }}</span>
+              </div>
+              <dl class="world-race-detail__dl">
+                <div>
+                  <dt>人物定位</dt>
+                  <dd>{{ boss.tagline }}</dd>
+                </div>
+                <div>
+                  <dt>素体基准</dt>
+                  <dd><a :href="withBase('/standards/male-standard')">{{ boss.bodyScale }}</a></dd>
+                </div>
+                <div>
+                  <dt>衣层结构</dt>
+                  <dd>{{ boss.layerSpec }}</dd>
+                </div>
+              </dl>
+            </article>
+          </section>
+
+          <div class="bunny-section-heading">
+            <h2 id="standard-cast">普通角色卡档案</h2>
+            <p>自《第 01 话：0.00 的游戏币》提炼的财团清剿兵种、街区受控卫兵与获救见证者，均采用独立全身角色卡建档。</p>
+          </div>
+
+          <section
+            v-for="npc in world.storyCast.standardCards"
+            :key="npc.id"
+            :id="npc.id"
+            class="world-race-detail world-cast-card"
+          >
+            <div class="world-cast-card__grid">
+              <div class="world-cast-card__media">
+                <WorldImage
+                  :id="npc.asset"
+                  :caption="`${npc.name} · 普通角色卡`"
+                  :detail="npc.debut"
+                  group="ep01-standard-cast"
+                />
+              </div>
+              <div class="world-cast-card__body">
+                <div class="world-cast-card__head">
+                  <div>
+                    <h2>{{ npc.name }} <small>{{ npc.enName }}</small></h2>
+                    <p class="world-race-detail__tagline">{{ npc.tagline }}</p>
+                  </div>
+                  <span class="world-cast-tier-pill">{{ npc.tier }}</span>
+                </div>
+                <dl class="world-race-detail__dl">
+                  <div>
+                    <dt>所属阵营</dt>
+                    <dd>{{ npc.faction }}</dd>
+                  </div>
+                  <div>
+                    <dt>谱系编制</dt>
+                    <dd>{{ npc.raceLabel }}</dd>
+                  </div>
+                  <div>
+                    <dt>登场话数</dt>
+                    <dd>{{ npc.debut }}（最近更新 <time :datetime="npc.updated">{{ npc.updated }}</time>）</dd>
+                  </div>
+                  <div>
+                    <dt>外观识别</dt>
+                    <dd>{{ npc.signature }}</dd>
+                  </div>
+                  <div>
+                    <dt>剧情职能</dt>
+                    <dd>{{ npc.story }}</dd>
+                  </div>
+                </dl>
               </div>
             </div>
           </section>

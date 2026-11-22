@@ -290,7 +290,7 @@ def r7b(c):
             fig=figure_for(node)
             asset=c.asset_for_url(url,p.path)
             if not asset:continue
-            card=node.ancestor(lambda n:n.tag=='a' and (n.has_class('character-card') or n.has_class('base-body-card')))
+            card=node.ancestor(lambda n:n.tag=='a' and (n.has_class('character-card') or n.has_class('base-body-card') or n.has_class('npc-roster-card')))
             if node.tag=='img' and card is not None and card.attrs.get('data-asset-id')==asset['id']:continue
             key=(fig or node,asset['id'])
             if key in seen:continue

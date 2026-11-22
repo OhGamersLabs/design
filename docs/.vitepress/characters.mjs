@@ -104,6 +104,7 @@ export function siteNav(roster) {
         { text: '世界观总览', link: '/world/', activeMatch: '^/world/$' },
         { text: '抛币结契交互图解', link: '/world/#coin-pact' },
         { text: '五大种族与姓氏谱系', link: '/world/races', activeMatch: '^/world/races' },
+        { text: '剧情角色与敌方图鉴', link: '/world/cast', activeMatch: '^/world/cast' },
       ],
     },
     {

@@ -3775,6 +3775,24 @@
       "path": "/media/wizard/face-sheet-latest.png",
       "key": "x_ops/design/characters/wizard/latest/face-sheet-latest.png",
       "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/libra-cleaner-card-latest.png",
+      "key": "x_ops/design/characters/world/latest/libra-cleaner-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/libra-peacekeeper-card-latest.png",
+      "key": "x_ops/design/characters/world/latest/libra-peacekeeper-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/lorn-vele-card-latest.png",
+      "key": "x_ops/design/characters/world/latest/lorn-vele-card-latest.png",
+      "contentType": "image/png"
     }
   ]
 }
