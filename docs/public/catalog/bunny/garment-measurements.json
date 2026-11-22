@@ -3021,7 +3021,7 @@
       "label": "腿部装备层 · 正面",
       "source": {
         "path": ".release/bunny/thigh-gear-front-latest.png",
-        "sha256": "7dff7001cd8102cc34c16866352a816d8344aa1ce16830b0dbc35a46110e0621",
+        "sha256": "73c2468d35321cdaaa3df6fce21c13ad717be878da32139dc75b4cdbfa993575",
         "width": 2352,
         "height": 3520
       },
@@ -3036,8 +3036,8 @@
           {
             "id": "crown",
             "source": [
-              1200,
-              98
+              1202,
+              97
             ],
             "reference": [
               1204,
@@ -3051,8 +3051,8 @@
           {
             "id": "chin",
             "source": [
-              1179,
-              576
+              1181,
+              575
             ],
             "reference": [
               1181,
@@ -3066,8 +3066,8 @@
           {
             "id": "waistLeft",
             "source": [
-              1011,
-              1164
+              1012,
+              1161
             ],
             "reference": [
               1015,
@@ -3081,8 +3081,8 @@
           {
             "id": "waistRight",
             "source": [
-              1331,
-              1164
+              1333,
+              1162
             ],
             "reference": [
               1336,
@@ -3099,40 +3099,40 @@
         "fitEvidence": {
           "method": "least-squares uniform scale + translation; final native anchors; no rotation",
           "status": "registered",
-          "scale": 0.9950116700272227,
+          "scale": 0.9962635413819205,
           "scaleRange": [
-            0.9494934511195708,
-            1.0397763001862468
+            0.9510351217245979,
+            1.0415412397436592
           ],
           "translation": [
-            9.637476450370514,
-            6.243741644569354
+            6.416494086569855,
+            7.047673390287059
           ],
-          "rmsPx": 2.4799560478926876,
-          "maxResidualPx": 3.8005772679672347,
+          "rmsPx": 2.6885792350505233,
+          "maxResidualPx": 4.38392472133658,
           "residuals": [
             {
               "id": "crown",
-              "distancePx": 2.272004805752664,
-              "tolerancePx": 13.965081690190559,
+              "distancePx": 2.315969049504356,
+              "tolerancePx": 13.973844789673443,
               "withinTolerance": true
             },
             {
               "id": "chin",
-              "distancePx": 3.8005772679672347,
-              "tolerancePx": 7.980046680108891,
+              "distancePx": 4.38392472133658,
+              "tolerancePx": 7.985054165527682,
               "withinTolerance": true
             },
             {
               "id": "waistLeft",
-              "distancePx": 0.8183917915520234,
-              "tolerancePx": 34.915198390462784,
+              "distancePx": 1.3409312880383304,
+              "tolerancePx": 34.93648020349265,
               "withinTolerance": true
             },
             {
               "id": "waistRight",
-              "distancePx": 2.0795599213020663,
-              "tolerancePx": 34.915198390462784,
+              "distancePx": 1.5916117280075481,
+              "tolerancePx": 34.93648020349265,
               "withinTolerance": true
             }
           ]
@@ -3147,12 +3147,12 @@
           "visibility": "estimated",
           "points": [
             [
-              1175,
-              1062
+              1181,
+              1060
             ],
             [
-              1175,
-              1164
+              1172,
+              1162
             ]
           ],
           "tolerancePx": [
@@ -3166,12 +3166,12 @@
           "visibility": "estimated",
           "points": [
             [
-              1175,
-              1164
+              1172,
+              1162
             ],
             [
-              1175,
-              1317
+              1176,
+              1316
             ]
           ],
           "tolerancePx": [
@@ -3213,7 +3213,7 @@
       "label": "腿部装备层 · 右侧面",
       "source": {
         "path": ".release/bunny/thigh-gear-side-latest.png",
-        "sha256": "c8f4316cc5e20ebec1ea4227130e6909bb317076c42311efcddb311fb50e656c",
+        "sha256": "0e04ffadcd7cf9c70c12a44e41085162b320bb48c881b7b9c59f9b278ee173e2",
         "width": 2352,
         "height": 3520
       },
@@ -3228,8 +3228,8 @@
           {
             "id": "noseTip",
             "source": [
-              1367,
-              441
+              1365,
+              437
             ],
             "reference": [
               1380,
@@ -3243,8 +3243,8 @@
           {
             "id": "chin",
             "source": [
-              1292,
-              553
+              1291,
+              550
             ],
             "reference": [
               1303,
@@ -3261,28 +3261,28 @@
         "fitEvidence": {
           "method": "least-squares uniform scale + translation; final native anchors; no rotation",
           "status": "limited",
-          "scale": 1.0452418955363532,
+          "scale": 1.0431351055083584,
           "scaleRange": [
-            0.9242536025179275,
-            1.1837013615067815
+            0.9224469692089821,
+            1.181057242081015
           ],
           "translation": [
-            -48.14910011558163,
-            -18.485222081567485
+            -43.78342011509994,
+            -13.787174568374894
           ],
-          "rmsPx": 0.8383259910557129,
-          "maxResidualPx": 0.8383259910557915,
+          "rmsPx": 0.11475186809138957,
+          "maxResidualPx": 0.11475186809138957,
           "residuals": [
             {
               "id": "noseTip",
-              "distancePx": 0.8383259910556344,
-              "tolerancePx": 8.180967582145414,
+              "distancePx": 0.11475186809138957,
+              "tolerancePx": 8.172540422033434,
               "withinTolerance": true
             },
             {
               "id": "chin",
-              "distancePx": 0.8383259910557915,
-              "tolerancePx": 9.226209477681767,
+              "distancePx": 0.11475186809138957,
+              "tolerancePx": 9.215675527541793,
               "withinTolerance": true
             }
           ]
@@ -3347,7 +3347,7 @@
       "label": "腿部装备层 · 背面",
       "source": {
         "path": ".release/bunny/thigh-gear-back-latest.png",
-        "sha256": "47840879fc52c8d2fc7b5329be285ee3af93a7b7cc951545d4028a5a2b309981",
+        "sha256": "955a28476e74c2fcca93469e2aa7d26087df1c4225b0780cc4c476bb6c76dae4",
         "width": 2352,
         "height": 3520
       },
@@ -3362,7 +3362,7 @@
           {
             "id": "posteriorHairTip",
             "source": [
-              1174,
+              1175,
               593
             ],
             "reference": [
@@ -3377,8 +3377,8 @@
           {
             "id": "waistLeft",
             "source": [
-              1020,
-              1148
+              1019,
+              1145
             ],
             "reference": [
               1020,
@@ -3392,8 +3392,8 @@
           {
             "id": "waistRight",
             "source": [
-              1322,
-              1148
+              1324,
+              1144
             ],
             "reference": [
               1326,
@@ -3410,34 +3410,34 @@
         "fitEvidence": {
           "method": "least-squares uniform scale + translation; final native anchors; no rotation",
           "status": "registered",
-          "scale": 1.0171343412045044,
+          "scale": 1.020496932613777,
           "scaleRange": [
-            0.9376296057111557,
-            1.102432443008477
+            0.9413220603035335,
+            1.1071365983816404
           ],
           "translation": [
-            -18.748114558345833,
-            -2.833703913271165
+            -23.369402978422613,
+            -3.6907199309683847
           ],
-          "rmsPx": 1.1038819613775745,
-          "maxResidualPx": 1.4061430902873084,
+          "rmsPx": 2.7039584144447177,
+          "maxResidualPx": 3.4900793201177436,
           "residuals": [
             {
               "id": "posteriorHairTip",
-              "distancePx": 1.4061430902873084,
-              "tolerancePx": 12.102806047227027,
+              "distancePx": 2.254477286770094,
+              "tolerancePx": 12.122981595682662,
               "withinTolerance": true
             },
             {
               "id": "waistLeft",
-              "distancePx": 1.281556376184988,
-              "tolerancePx": 35.29128380047658,
+              "distancePx": 3.4900793201177436,
+              "tolerancePx": 35.34844785443421,
               "withinTolerance": true
             },
             {
               "id": "waistRight",
-              "distancePx": 0.1898447214469297,
-              "tolerancePx": 35.29128380047658,
+              "distancePx": 2.1612153580481976,
+              "tolerancePx": 35.34844785443421,
               "withinTolerance": true
             }
           ]
@@ -3453,11 +3453,11 @@
           "points": [
             [
               1175,
-              1057
+              1052
             ],
             [
               1175,
-              1148
+              1147
             ]
           ],
           "tolerancePx": [
@@ -3472,11 +3472,11 @@
           "points": [
             [
               1175,
-              1148
+              1147
             ],
             [
               1175,
-              1218
+              1217
             ]
           ],
           "tolerancePx": [
@@ -3518,7 +3518,7 @@
       "label": "前长后短夹克 · 正面",
       "source": {
         "path": ".release/bunny/jacket-front-latest.png",
-        "sha256": "09a8b3de4a5b5bb4d8b14ec5639197dbbee1b95e8578fc111dc5728e4336ca13",
+        "sha256": "c59c7aacb76b7fb66040fd67f9cc8610e4c5d6607d5f4fdca0082d47aece29b2",
         "width": 2352,
         "height": 3520
       },
@@ -3534,8 +3534,8 @@
           {
             "id": "crown",
             "source": [
-              1194,
-              104
+              1202,
+              61
             ],
             "reference": [
               1204,
@@ -3549,8 +3549,8 @@
           {
             "id": "chin",
             "source": [
-              1174,
-              579
+              1178,
+              551
             ],
             "reference": [
               1181,
@@ -3567,28 +3567,28 @@
         "fitEvidence": {
           "method": "least-squares uniform scale + translation; final native anchors; no rotation",
           "status": "limited",
-          "scale": 0.9897577701581683,
+          "scale": 0.959181638385215,
           "scaleRange": [
-            0.9447835432059364,
-            1.0369095458603566
+            0.9162160506310653,
+            1.00411817826951
           ],
           "translation": [
-            20.626800132728704,
-            2.997721490985498
+            51.073850321594136,
+            47.4904186541242
           ],
-          "rmsPx": 1.603842099160631,
-          "maxResidualPx": 1.6038420991606321,
+          "rmsPx": 0.010191863813165718,
+          "maxResidualPx": 0.010191863813278574,
           "residuals": [
             {
               "id": "crown",
-              "distancePx": 1.6038420991606321,
-              "tolerancePx": 13.92830439110718,
+              "distancePx": 0.010191863813052862,
+              "tolerancePx": 13.714271468696506,
               "withinTolerance": true
             },
             {
               "id": "chin",
-              "distancePx": 1.60384209916063,
-              "tolerancePx": 7.959031080632673,
+              "distancePx": 0.010191863813278574,
+              "tolerancePx": 7.83672655354086,
               "withinTolerance": true
             }
           ]
@@ -3603,12 +3603,12 @@
           "visibility": "visible",
           "points": [
             [
-              1040,
-              657
+              1041,
+              631
             ],
             [
-              1026,
-              1170
+              1024,
+              1152
             ]
           ],
           "tolerancePx": [
@@ -3625,12 +3625,12 @@
           "visibility": "visible",
           "points": [
             [
-              1304,
-              657
+              1309,
+              631
             ],
             [
-              1317,
-              1170
+              1323,
+              1151
             ]
           ],
           "tolerancePx": [
@@ -3647,12 +3647,12 @@
           "visibility": "visible",
           "points": [
             [
-              1040,
-              657
+              1041,
+              631
             ],
             [
-              1026,
-              1170
+              1024,
+              1152
             ]
           ],
           "tolerancePx": [
@@ -3669,12 +3669,12 @@
           "visibility": "visible",
           "points": [
             [
-              1030,
-              1079
+              1027,
+              1058
             ],
             [
-              1026,
-              1170
+              1024,
+              1152
             ]
           ],
           "tolerancePx": [
@@ -3691,12 +3691,12 @@
           "visibility": "visible",
           "points": [
             [
-              1309,
-              1080
+              1317,
+              1060
             ],
             [
-              1317,
-              1170
+              1323,
+              1151
             ]
           ],
           "tolerancePx": [
@@ -3713,12 +3713,12 @@
           "visibility": "visible",
           "points": [
             [
-              1026,
-              1170
+              1024,
+              1152
             ],
             [
-              1026,
-              1290
+              1023,
+              1276
             ]
           ],
           "tolerancePx": [
@@ -3757,12 +3757,12 @@
           "visibility": "visible",
           "points": [
             [
-              1580,
-              1346
+              1589,
+              1334
             ],
             [
-              1580,
-              1397
+              1590,
+              1385
             ]
           ],
           "tolerancePx": [
@@ -3776,12 +3776,12 @@
           "visibility": "visible",
           "points": [
             [
-              1525,
-              807
+              1536,
+              784
             ],
             [
-              1557,
-              987
+              1570,
+              965
             ]
           ],
           "tolerancePx": [
@@ -3795,12 +3795,12 @@
           "visibility": "visible",
           "points": [
             [
-              1536,
-              920
+              1549,
+              900
             ],
             [
-              1568,
-              920
+              1581,
+              900
             ]
           ],
           "tolerancePx": [
@@ -3814,12 +3814,12 @@
           "visibility": "visible",
           "points": [
             [
-              1304,
-              657
+              1309,
+              631
             ],
             [
-              1525,
-              807
+              1536,
+              784
             ]
           ],
           "tolerancePx": [
@@ -3861,7 +3861,7 @@
       "label": "前长后短夹克 · 右侧面",
       "source": {
         "path": ".release/bunny/jacket-side-latest.png",
-        "sha256": "337e08c8865cb84b89238d62d04f4eda8dc9a95124e12e84c6aa079a6e1802bb",
+        "sha256": "86d8db69a2c96ad6978caf9de536d9631fd156ed89c63aeff716ac7361d2f11d",
         "width": 2352,
         "height": 3520
       },
@@ -3877,8 +3877,8 @@
           {
             "id": "noseTip",
             "source": [
-              1364,
-              441
+              1365,
+              442
             ],
             "reference": [
               1380,
@@ -3892,7 +3892,7 @@
           {
             "id": "chin",
             "source": [
-              1294,
+              1297,
               553
             ],
             "reference": [
@@ -3910,28 +3910,28 @@
         "fitEvidence": {
           "method": "least-squares uniform scale + translation; final native anchors; no rotation",
           "status": "limited",
-          "scale": 1.06661316211878,
+          "scale": 1.0819710829153142,
           "scaleRange": [
-            0.9420519654625777,
-            1.2098296484562134
+            0.9549317084085803,
+            1.2288275531686836
           ],
           "translation": [
-            -76.02889245585857,
-            -29.106741573033673
+            -98.60351136028316,
+            -37.28061375036884
           ],
-          "rmsPx": 1.37799724400822,
-          "maxResidualPx": 1.37799724400822,
+          "rmsPx": 2.008865714192214,
+          "maxResidualPx": 2.0088657141922432,
           "residuals": [
             {
               "id": "noseTip",
-              "distancePx": 1.37799724400822,
-              "tolerancePx": 8.26645264847512,
+              "distancePx": 2.0088657141922432,
+              "tolerancePx": 8.327884331661256,
               "withinTolerance": true
             },
             {
               "id": "chin",
-              "distancePx": 1.37799724400822,
-              "tolerancePx": 9.3330658105939,
+              "distancePx": 2.008865714192184,
+              "tolerancePx": 9.40985541457657,
               "withinTolerance": true
             }
           ]
@@ -3946,12 +3946,12 @@
           "visibility": "visible",
           "points": [
             [
-              1101,
+              1097,
               634
             ],
             [
               1310,
-              1160
+              1156
             ]
           ],
           "tolerancePx": [
@@ -3968,12 +3968,12 @@
           "visibility": "visible",
           "points": [
             [
-              1317,
-              1043
+              1318,
+              1041
             ],
             [
               1310,
-              1160
+              1156
             ]
           ],
           "tolerancePx": [
@@ -4040,7 +4040,7 @@
       "label": "前长后短夹克 · 背面",
       "source": {
         "path": ".release/bunny/jacket-back-latest.png",
-        "sha256": "7cbc7ea9ebb09b705e9ff3e92f98aaa4e1221556b5c26b889d0ce783aa4b50b7",
+        "sha256": "ba2409d02fd27e879b6fe5c52ac20d6072892cb59013f5461b1f784c75e23ae5",
         "width": 2352,
         "height": 3520
       },
@@ -4056,8 +4056,8 @@
           {
             "id": "posteriorHairTip",
             "source": [
-              1168,
-              590
+              1171,
+              592
             ],
             "reference": [
               1174,
@@ -4071,8 +4071,8 @@
           {
             "id": "waistLeft",
             "source": [
-              1020,
-              1145
+              1023,
+              1142
             ],
             "reference": [
               1020,
@@ -4086,8 +4086,8 @@
           {
             "id": "waistRight",
             "source": [
-              1317,
-              1145
+              1319,
+              1144
             ],
             "reference": [
               1326,
@@ -4104,34 +4104,34 @@
         "fitEvidence": {
           "method": "least-squares uniform scale + translation; final native anchors; no rotation",
           "status": "registered",
-          "scale": 1.0201880368376883,
+          "scale": 1.0268902511670222,
           "scaleRange": [
-            0.9403940644684999,
-            1.1021182363162798
+            0.9453957833181486,
+            1.1084495062448418
           ],
           "translation": [
-            -18.58635637203247,
-            -2.7138486975142087
+            -29.15515078324961,
+            -8.463380952896614
           ],
-          "rmsPx": 1.527493933655902,
-          "maxResidualPx": 2.045228425932465,
+          "rmsPx": 1.3294038480380093,
+          "maxResidualPx": 1.5497618609797652,
           "residuals": [
             {
               "id": "posteriorHairTip",
-              "distancePx": 1.2876970012382005,
-              "tolerancePx": 12.12112822102613,
+              "distancePx": 0.8606763791404459,
+              "tolerancePx": 12.161341507002133,
               "withinTolerance": true
             },
             {
               "id": "waistLeft",
-              "distancePx": 2.045228425932465,
-              "tolerancePx": 34.32300858940302,
+              "distancePx": 1.5497618609797652,
+              "tolerancePx": 34.430244018672354,
               "withinTolerance": true
             },
             {
               "id": "waistRight",
-              "distancePx": 1.0763783121313346,
-              "tolerancePx": 34.32300858940302,
+              "distancePx": 1.4694958721197635,
+              "tolerancePx": 34.430244018672354,
               "withinTolerance": true
             }
           ]
@@ -4146,12 +4146,12 @@
           "visibility": "visible",
           "points": [
             [
-              1040,
+              1047,
               641
             ],
             [
-              1175,
-              1036
+              1178,
+              1034
             ]
           ],
           "tolerancePx": [
@@ -4165,12 +4165,12 @@
           "visibility": "visible",
           "points": [
             [
-              1175,
-              1068
+              1178,
+              1066
             ],
             [
-              1175,
-              1036
+              1178,
+              1034
             ]
           ],
           "tolerancePx": [
@@ -4184,12 +4184,12 @@
           "visibility": "estimated",
           "points": [
             [
-              1175,
-              1068
+              1178,
+              1066
             ],
             [
-              1175,
-              1145
+              1177,
+              1147
             ]
           ],
           "tolerancePx": [
@@ -4203,12 +4203,12 @@
           "visibility": "estimated",
           "points": [
             [
-              1175,
-              1145
+              1177,
+              1147
             ],
             [
-              1175,
-              1220
+              1177,
+              1219
             ]
           ],
           "tolerancePx": [

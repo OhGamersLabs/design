@@ -22,7 +22,7 @@ releaseReady: false
 
 <div class="bunny-identity-grid">
   <div>
-    <p class="bunny-identity-statement">成年纤细女性，银白短乱发，蓝眼，白色柔圆护目镜推在额上。</p>
+    <p class="bunny-identity-statement">成年纤细女性，银白短乱发，蓝眼，白色切面战术护目镜推在额上。</p>
     <dl class="bunny-home-facts">
       <div><dt>名称</dt><dd>Bunny</dd></div>
       <div><dt>职业定位</dt><dd>刺客</dd></div>
