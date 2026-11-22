@@ -5,7 +5,7 @@
   "items": [
     {
       "layer": 0,
-      "name": "身体",
+      "name": "罗伊 · 身体",
       "path": "/characters/gold-hunter/body",
       "front": "body-front-latest",
       "side": "body-right-latest",
@@ -16,30 +16,30 @@
         "back": "body-tpose-back-latest",
         "left": "body-tpose-left-latest"
       },
-      "summary": "基于标准青年男素体的身体基准，阳光少年面庞、蓬松墨黑刺猬短发、角色左额一簇暖灰棕挑染及哑光深炭黑平角短裤打底。",
+      "summary": "罗伊 1.08× 标准青年男素体基准（赤脚约 7.42 头身），墨黑刺猬短发配角色左额一簇暖灰棕挑染、亮琥珀金眼瞳，穿哑光深炭黑运动平角短裤。",
       "facts": [
         {
-          "term": "形体",
-          "value": "基于标准青年男素体，赤脚约 7.42 头身，厘米身高未设定"
+          "term": "素体基准",
+          "value": "标准青年男素体（1.08×），赤脚约 7.42 头身，厘米身高未设定"
         },
         {
-          "term": "发型",
-          "value": "蓬松墨黑刺猬短发伴头顶双翘发簇，角色左额太阳穴一簇暖灰棕挑染"
+          "term": "头身配色",
+          "value": "暖小麦米肤色，亮琥珀金眼眸，明朗少年微笑"
         },
         {
-          "term": "五官",
-          "value": "亮琥珀金眼瞳配双高光点，裸露双耳，爽朗微扬少年感半笑"
+          "term": "头发标志",
+          "value": "墨黑蓬松刺猬短发，角色左额一簇暖灰棕挑染"
         },
         {
-          "term": "外层",
-          "value": "之上还有第 1 到第 4 层"
+          "term": "所属分支",
+          "value": "罗伊第 0 层，之上叠加第 1 到第 4 层"
         }
       ],
-      "leftRight": "非对称发色左右识别：暖灰棕挑染仅落在角色左额（正面图位于画面右边，角色左侧面明显展开，背面图仅于画面左边耳顶边缘极微探出）；角色右侧面整侧保持纯粹墨黑发丝。"
+      "leftRight": "仅在角色左额至太阳穴带有标志性暖灰棕挑染（正面图位于画面右边，角色左侧面展开完整，背面图于画面左边耳顶微露，角色右侧面为纯黑）。"
     },
     {
       "layer": 1,
-      "name": "内搭与机能球鞋",
+      "name": "罗伊 · 内搭与机能球鞋",
       "path": "/characters/gold-hunter/base-kit",
       "front": "base-kit-front-latest",
       "side": "base-kit-right-latest",
@@ -50,30 +50,30 @@
         "back": "base-kit-tpose-back-latest",
         "left": "base-kit-tpose-left-latest"
       },
-      "summary": "修身哑光炭黑高领正中拉链长袖衫、统一双侧对称的橄榄卡其 3D 大腿工装裤、炭黑小腿束腿套及双脚镜像青橙机能球鞋。",
+      "summary": "哑光炭黑全长正面拉链高领紧身长袖衫、双侧对称 3D 立体袋橄榄卡其工装长裤、小腿防磨黑束袜与双脚完全镜像的电光青橙高帮机能球鞋。",
       "facts": [
         {
-          "term": "内搭上衣",
-          "value": "修身炭黑半高领全开拉链长袖，顶端配哑光灰矩形拉链头，颈下留出清晰喉颈空间"
+          "term": "紧身内搭",
+          "value": "哑光炭黑半高领长袖机能衫，前中通长细拉链与顶部小方拉链头，素面无标"
         },
         {
           "term": "工装长裤",
-          "value": "双腿统一哑光橄榄卡其色，双侧大腿外缘各有一枚浅灰包边 3D 立体折盖袋与炭黑小腿套"
+          "value": "双腿同色橄榄卡其，大腿外侧对称 3D 折盖袋镶浅灰勾边，小腿收束黑袜套"
         },
         {
-          "term": "机能球鞋",
-          "value": "电光青鞋面配亮橙双搭扣捆扎带、陶土橙防撞鞋头及全素无字银白护舌"
+          "term": "镜像球鞋",
+          "value": "电光青主面、亮橙双捆扎带、银白素面鞋舌、陶土橙鞋头与白厚中底"
         },
         {
-          "term": "外层",
-          "value": "之上还有第 2 到第 4 层"
+          "term": "所属分支",
+          "value": "罗伊第 1 层，之上叠加第 2 到第 4 层"
         }
       ],
-      "leftRight": "全身第 1 层完全达成双侧对称：两条裤腿同样为橄榄卡其配色与浅灰包边大腿袋，双脚鞋靴采用同等规格电光青与亮橙配色且鞋舌保持素面。"
+      "leftRight": "本层全身保持严谨的对称基础版型：内搭素黑无标，工装长裤双腿同色同袋，双脚机能高帮球鞋彻底镜像对称。"
     },
     {
       "layer": 2,
-      "name": "护具与腰间金币匣",
+      "name": "罗伊 · 护具与腰间金币匣",
       "path": "/characters/gold-hunter/belt-guards",
       "front": "belt-guards-front-latest",
       "side": "belt-guards-right-latest",
@@ -84,7 +84,7 @@
         "back": "belt-guards-tpose-back-latest",
         "left": "belt-guards-tpose-left-latest"
       },
-      "summary": "彻底无肩带化哑光黑战术腰带（居中银扣、角色右腰黑橙快抽金币匣半露压纹金币、角色左腰竖炭黑工具包）、双腿水平稳固带、六边形银护膝与铜铆钉银甲手套。",
+      "summary": "无肩带哑光黑战术腰带（居中银扣、角色右腰黑橙快抽金币匣半露压纹金币、角色左腰竖炭黑工具包）、双腿水平稳固带、六边形银护膝与铜铆钉银甲手套。",
       "facts": [
         {
           "term": "腰带模块",
@@ -92,22 +92,22 @@
         },
         {
           "term": "不对称腰包",
-          "value": "角色右腰斜挂带橙边开槽快抽金币匣（半露压纹金币），角色左腰挂带橙标竖炭黑盖袋"
+          "value": "角色右腰斜挂带橙边开槽快抽金币匣（半露 OG 压纹金币），角色左腰挂带橙标竖炭黑盖袋"
         },
         {
           "term": "腿膝与手甲",
-          "value": "大腿外袋环绕黑色水平稳固带，双膝配六边形银甲护膝（膝弯背面为双道黑色松紧带），手腕缀单点青铜铆钉"
+          "value": "双侧大腿外袋环绕黑色水平稳固带，双膝配六边形银甲护膝（膝弯背面双道黑带），手腕缀青铜铆钉"
         },
         {
-          "term": "外层",
-          "value": "之上还有第 3、第 4 层"
+          "term": "所属分支",
+          "value": "罗伊第 2 层，之上叠加第 3、第 4 层"
         }
       ],
-      "leftRight": "清晰的腰际非对称识别：黑橙磁吸金币匣与带字压纹金币严格挂在角色右腰（正面图位于画面左边，背面图位于画面右边）；竖立炭黑工具包挂在角色左腰（正面图位于画面右边）。护膝与手套双侧对称。"
+      "leftRight": "清晰的腰际左右识别：黑橙磁吸金币匣与 OG 压纹金币严格挂在角色右腰（正面图位于画面左边，背面图位于画面右边）；竖立炭黑工具包挂在角色左腰（正面图位于画面右边）。"
     },
     {
       "layer": 3,
-      "name": "燕尾连帽派克外套",
+      "name": "罗伊 · 燕尾连帽派克外套",
       "path": "/characters/gold-hunter/parka",
       "front": "parka-front-latest",
       "side": "parka-right-latest",
@@ -130,18 +130,18 @@
         },
         {
           "term": "双臂袖面",
-          "value": "角色右大臂采用纯净无标冷灰白拼板岩灰切块（徽章专属留在金币上），角色左大臂嵌竖向橙边拉链袋"
+          "value": "角色右大臂纯净无标（徽章专属留在金币上），角色左大臂嵌竖向橙边拉链袋"
         },
         {
-          "term": "外层",
-          "value": "之上还有第 4 层"
+          "term": "所属分支",
+          "value": "罗伊第 3 层，之上还有第 4 层"
         }
       ],
-      "leftRight": "双臂外侧左右识别：角色右大臂为素净几何色块拼接而不附带任何袖章（正面图位于画面左边，背面图位于画面右边）；角色左大臂嵌有一只板岩灰底极细橙边竖向拉链袋（正面图位于画面右边，背面图位于画面左边）。"
+      "leftRight": "双臂外侧左右识别：角色右大臂为素净冷灰白拼板岩灰切块而不附带袖章（正面图位于画面左边，背面图位于画面右边）；角色左大臂嵌有一只细橙边竖向拉链袋（正面图位于画面右边，背面图位于画面左边）。"
     },
     {
       "layer": 4,
-      "name": "深红护目镜",
+      "name": "罗伊 · 深红护目镜",
       "path": "/characters/gold-hunter/goggles",
       "front": "goggles-front-latest",
       "side": "goggles-right-latest",
@@ -152,26 +152,196 @@
         "back": "goggles-tpose-back-latest",
         "left": "goggles-tpose-left-latest"
       },
-      "summary": "炭黑斜角框配高饱和半透明绯红滑雪护目镜，平时推起卡于前额露清晰眉眼，战备时可下拉护眼并清晰透出亮琥珀眼眸；实穿头带在太阳穴后即埋入蓬松短发之下。",
+      "summary": "炭黑斜角框配高饱和半透明绯红滑雪护目镜，平时推起卡于前额露清晰眉眼，战备时下拉护眼并清晰透出亮琥珀眼眸；实穿头带藏入蓬松短发之下。",
       "facts": [
         {
           "term": "双态佩戴",
-          "value": "常态三视稳扣前额（额前几撮短发自然垂搭镜框上缘），战备态下拉越过鼻梁遮护双眼"
+          "value": "常态三视稳扣前额（额前发丝自然垂搭镜框上缘），战备态下拉越过鼻梁遮护双眼"
         },
         {
           "term": "半透镜片",
-          "value": "深红曲面护镜带锐利白粉斜向反光切面，下拉戴眼时依然清晰透出琥珀双眸"
+          "value": "深红曲面护镜带锐利白粉斜向反光切面，下拉戴眼时清晰透出琥珀双眸"
         },
         {
           "term": "发下埋带",
-          "value": "灰头模部件表交代绕耳弹性带与后脑枪灰调节扣，角色实穿侧背图中头带藏于厚实发丝下以呵护蓬松发冠轮廓"
+          "value": "灰头模部件表交代绕耳弹性带与后脑枪灰调节扣，实穿侧背图中头带藏于发丝下保住发冠轮廓"
         },
         {
-          "term": "外层",
-          "value": "最外层"
+          "term": "所属分支",
+          "value": "罗伊最外层（完整武装）"
         }
       ],
-      "leftRight": "额前镜框受角色左额暖灰棕挑染簇与角色右额墨黑发丝自然叠压；侧背视图均在太阳穴后将黑色弹性带收隐于耳上刺猬发内部。"
+      "leftRight": "额前镜框受角色左额暖灰棕挑染簇与角色右额墨黑发丝自然叠压；侧背视图均在太阳穴后将黑色弹性带收隐于耳上短发内部。"
+    },
+    {
+      "layer": 5,
+      "name": "罗娅 · 身体",
+      "path": "/characters/gold-hunter/female-body",
+      "front": "female-body-front-latest",
+      "side": "female-body-right-latest",
+      "back": "female-body-back-latest",
+      "tpose": {
+        "front": "female-body-tpose-front-latest",
+        "right": "female-body-tpose-right-latest",
+        "back": "female-body-tpose-back-latest",
+        "left": "female-body-tpose-left-latest"
+      },
+      "summary": "罗娅 1.00× 女性标准素体基准（赤脚约 6.50 头身，真实腰腿比例），齐下巴层次墨黑短发配角色左额一簇暖灰褐挑染、亮琥珀金眼眸，穿哑光黑极简两件式底衣。",
+      "facts": [
+        {
+          "term": "素体基准",
+          "value": "女性标准素体（1.00×），赤脚约 6.50 头身，严格锁定真实腰围与纤细腿型"
+        },
+        {
+          "term": "头身配色",
+          "value": "清透暖米肤色配单层硬边赛璐璐阴影，亮琥珀金眼眸，灵动少女微扬笑意"
+        },
+        {
+          "term": "头发标志",
+          "value": "齐下巴清爽层次墨黑短发（后颈利落无长尾），角色左额一簇暖灰褐挑染"
+        },
+        {
+          "term": "所属分支",
+          "value": "罗娅第 5 层（女主素体），之上叠加第 6 到第 9 层"
+        }
+      ],
+      "leftRight": "与罗伊同源的挑染左右识别：角色左额至太阳穴带有一簇暖灰褐挑染（正面图位于画面右边，角色左侧面展开完整，背面图于画面左边微露，角色右侧面维持纯粹墨黑）。"
+    },
+    {
+      "layer": 6,
+      "name": "罗娅 · 露脐运动内搭与鞋袜",
+      "path": "/characters/gold-hunter/female-base-kit",
+      "front": "female-base-kit-front-latest",
+      "side": "female-base-kit-right-latest",
+      "back": "female-base-kit-back-latest",
+      "tpose": {
+        "front": "female-base-kit-tpose-front-latest",
+        "right": "female-base-kit-tpose-right-latest",
+        "back": "female-base-kit-tpose-back-latest",
+        "left": "female-base-kit-tpose-left-latest"
+      },
+      "summary": "无袖小立领实心无挖空哑光炭黑露脐运动上内衣（清晰立体胸廓与下胸弧影、自然露脐）、对称白边橄榄灰绿工装短裤、哑光炭黑全包脚过膝袜与镜像青橙高帮球鞋。",
+      "facts": [
+        {
+          "term": "露脐运动内衣",
+          "value": "哑光石墨炭黑无袖小立领短款运动上衣，正胸实心零挖空零拉链，呈现自然立体胸廓与露脐腰腹"
+        },
+        {
+          "term": "工装短裤",
+          "value": "修身橄榄灰绿短裤配对称白色滚边翻盖袋与素面裤腰环，露出一截纤细健康大腿肌肤"
+        },
+        {
+          "term": "过膝袜与球鞋",
+          "value": "紧贴女性标准素体腿型的哑光炭黑全包脚过膝高筒袜，配与罗伊同家族镜像青橙高帮球鞋"
+        },
+        {
+          "term": "所属分支",
+          "value": "罗娅第 6 层，之上叠加第 7 到第 9 层"
+        }
+      ],
+      "leftRight": "本层全身维持对称基础剪裁：运动上内衣背面仅走一条居中脊柱暗缝，工装短裤双侧口袋对称，过膝袜紧贴双腿素体轮廓不增粗，双脚高帮机能球鞋严格镜像。"
+    },
+    {
+      "layer": 7,
+      "name": "罗娅 · 腰带护具与单腿绑带",
+      "path": "/characters/gold-hunter/female-belt-guards",
+      "front": "female-belt-guards-front-latest",
+      "side": "female-belt-guards-right-latest",
+      "back": "female-belt-guards-back-latest",
+      "tpose": {
+        "front": "female-belt-guards-tpose-front-latest",
+        "right": "female-belt-guards-tpose-right-latest",
+        "back": "female-belt-guards-tpose-back-latest",
+        "left": "female-belt-guards-tpose-left-latest"
+      },
+      "summary": "无肩带黑银腰带（角色右腰敞口黑橙金币匣稳插 OG 金币、角色左腰闭合黑橙袋）、仅系于角色左大腿裸肤的单条带银扣黑腿带、六边形银护膝与银甲五指战术手套。",
+      "facts": [
+        {
+          "term": "腰带与金币匣",
+          "value": "紧凑黑腰带配居中拉丝银扣贴合肚脐下方，角色右腰斜挂敞口黑橙 OG 币匣，角色左腰挂闭合橙条黑包"
+        },
+        {
+          "term": "单侧大腿绑带",
+          "value": "仅在角色左大腿短裤下缘与过膝袜口之间的裸肤处环绕一条带银扣黑腿带，角色右大腿保持干净裸肤"
+        },
+        {
+          "term": "护膝与手套",
+          "value": "双膝正面扣合六边形切面银护膝（膝弯背面仅见双道平行黑松紧带），配全指黑银甲战术手套"
+        },
+        {
+          "term": "所属分支",
+          "value": "罗娅第 7 层，之上叠加第 8、第 9 层"
+        }
+      ],
+      "leftRight": "双重不对称左右识别：OG 币匣挂在角色右腰（正面图位于画面左边），闭合黑橙包挂在角色左腰（正面图位于画面右边）；黑色银扣大腿绑带严格只系在角色左大腿（正面图位于画面右边，背面图位于画面左边），角色右大腿完全干净无带。"
+    },
+    {
+      "layer": 8,
+      "name": "罗娅 · 燕尾连帽派克外套",
+      "path": "/characters/gold-hunter/female-parka",
+      "front": "female-parka-front-latest",
+      "side": "female-parka-right-latest",
+      "back": "female-parka-back-latest",
+      "tpose": {
+        "front": "female-parka-tpose-front-latest",
+        "right": "female-parka-tpose-right-latest",
+        "back": "female-parka-tpose-back-latest",
+        "left": "female-parka-tpose-left-latest"
+      },
+      "summary": "与罗伊成对剪裁的无肩带冷灰白拼板岩灰燕尾连帽派克外套，大敞前襟清晰露出运动内衣、露脐腰线与银腰扣，角色右大臂素净无章、角色左大臂嵌竖向黑橙拉链袋。",
+      "facts": [
+        {
+          "term": "轻盈敞口廓形",
+          "value": "双肩光洁无任何肩带，前襟舒展敞开，完整展示第 6 层运动内衣、露脐腰腹与第 7 层腰带双包"
+        },
+        {
+          "term": "兜帽与燕尾",
+          "value": "立体连帽自然垂落肩后（内缘嵌电光青饰条），胸肩沿几何裁片走细橙压胶线，后摆居中分叉燕尾"
+        },
+        {
+          "term": "无袖章红线",
+          "value": "角色右大臂 100% 素净无袖章（OG 仅留于金币之上），角色左大臂嵌竖向黑橙拉链袖袋，袖口单扣收束"
+        },
+        {
+          "term": "所属分支",
+          "value": "罗娅第 8 层，之上还有第 9 层"
+        }
+      ],
+      "leftRight": "与罗伊完全一致的袖面左右识别：角色右大臂保持纯净几何拼块零文字零徽章（正面图位于画面左边，背面图位于画面右边）；角色左大臂嵌有一只竖向黑橙拉链袖袋（正面图位于画面右边，背面图位于画面左边）。"
+    },
+    {
+      "layer": 9,
+      "name": "罗娅 · 橙红护目镜",
+      "path": "/characters/gold-hunter/female-goggles",
+      "front": "female-goggles-front-latest",
+      "side": "female-goggles-right-latest",
+      "back": "female-goggles-back-latest",
+      "tpose": {
+        "front": "female-goggles-tpose-front-latest",
+        "right": "female-goggles-tpose-right-latest",
+        "back": "female-goggles-tpose-back-latest",
+        "left": "female-goggles-tpose-left-latest"
+      },
+      "summary": "炭黑斜角框配高饱和半透明橙红滑雪护目镜，采用发下暗藏束带方案（实穿后脑清爽零横带），支持额前推起常态与下拉戴眼半透琥珀眼神战备双态。",
+      "facts": [
+        {
+          "term": "双态佩戴",
+          "value": "常态稳扣前额并由空气刘海轻搭镜框上缘，战备下拉戴眼态清晰透出双眸琥珀金眼神"
+        },
+        {
+          "term": "半透橙红镜片",
+          "value": "高饱和发光橙红曲面护目镜配锐利白粉高光切面，兼顾街头辨识度与角色神态可读性"
+        },
+        {
+          "term": "方案 B 发下埋带",
+          "value": "灰头模部品板完整交代绕耳黑弹性带与后脑居中枪灰调节扣，实穿侧背图将镜脚藏入齐下巴黑短发内侧（背面零横带）"
+        },
+        {
+          "term": "所属分支",
+          "value": "罗娅最外层（完整武装）"
+        }
+      ],
+      "leftRight": "额前镜框受角色左额暖灰褐挑染刘海与角色右额墨黑发丝自然叠压；侧背视图在太阳穴连扣后将镜带隐入齐下巴墨黑短发内部，保持后脑发尾层次干练饱满。"
     }
   ]
 }

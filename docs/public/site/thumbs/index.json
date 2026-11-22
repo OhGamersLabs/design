@@ -2579,9 +2579,17 @@
     "path": "/site/thumbs/gold-hunter/character-card-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "8aae4b92ca6fb1f09f30bcd4e80bd18d192fb45bd3c7d106066bc395bafa983a",
+    "sha256": "2dfad2e64b5201299b89d5bfb61194716fed5cd5f354e968a2af28e12e7633d9",
     "sourcePath": "/characters/gold-hunter/character-card-latest.webp",
-    "sourceSha256": "753bd05c75b3e335e038490e6faddc42f59127a70a7decba06586d21af2c6a7e"
+    "sourceSha256": "8c03694ef98e4fcae74b3549c70ea93ce8f583bb9533aea82916dbb7bb75b520"
+  },
+  "gold-hunter/duo-front-latest": {
+    "path": "/site/thumbs/gold-hunter/duo-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "ea1ecfbf39bccb674bc48dae522ff9930ceb9ca86e09180e723fdca5cce1e384",
+    "sourcePath": "/characters/gold-hunter/duo-front-latest.webp",
+    "sourceSha256": "02ebf0c4e0891aa8017e7d298a147b02998353895a8f1463598cfdba663778e1"
   },
   "gold-hunter/expressions-sheet-latest": {
     "path": "/site/thumbs/gold-hunter/expressions-sheet-latest.webp",
@@ -2598,6 +2606,358 @@
     "sha256": "2aeaec9985431d7f97a21ec36c0b3274af51710858d24d20fef3e4a49896407e",
     "sourcePath": "/characters/gold-hunter/face-sheet-latest.webp",
     "sourceSha256": "73e3a76d8f3029cb262b274e1c93ffd7052905fc4db5052e89fa1700760b619e"
+  },
+  "gold-hunter/female-base-kit-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-base-kit-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "9c3b759f129815d2f962da8c779b1cae1a60bec3bc92f7fdd76c6de04f9ed3fc",
+    "sourcePath": "/characters/gold-hunter/female-base-kit-back-latest.webp",
+    "sourceSha256": "18172704392ec55b04bd75502ee972fab2974f2696764d2171ab4120e3508ab5"
+  },
+  "gold-hunter/female-base-kit-board-latest": {
+    "path": "/site/thumbs/gold-hunter/female-base-kit-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "5bd9d117e0a001e5c49f6c42dcf5950c05bd0d5efb303bfa170db214b37eecc2",
+    "sourcePath": "/characters/gold-hunter/female-base-kit-board-latest.webp",
+    "sourceSha256": "375b962f38cd60acf3db68fd2bea9e4172e29dcf9665683da4c785ddf7e5ba47"
+  },
+  "gold-hunter/female-base-kit-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-base-kit-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "2762a1e3e60a2d33e88209f860d9ffa6a00af44c17b45070bc1f27e3fdfa6525",
+    "sourcePath": "/characters/gold-hunter/female-base-kit-front-latest.webp",
+    "sourceSha256": "bcfe0d85e2c7657b82fcebced8e960f960e7e3222c938924e72aa196656a389f"
+  },
+  "gold-hunter/female-base-kit-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-base-kit-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "e2f2f49773ddcbea4681594ab871b26181cc5ea416b3af14935005e02e40407e",
+    "sourcePath": "/characters/gold-hunter/female-base-kit-right-latest.webp",
+    "sourceSha256": "c0c3461474f5c8b179aab24b0935793cd6131fe7a934b134639837384fedd0a3"
+  },
+  "gold-hunter/female-base-kit-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-base-kit-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9df154d00e1be0fbd3a87d602eb5c060b430123813332b0d80a0e0759cd9dc8a",
+    "sourcePath": "/characters/gold-hunter/female-base-kit-tpose-back-latest.webp",
+    "sourceSha256": "a279bf258071a6fc68fb68a381b7097f2805f37212fa7eb6ecc27e99dc3cf357"
+  },
+  "gold-hunter/female-base-kit-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-base-kit-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "975f0be99fe52fd7a2c4a5494dc330e0b20e7533045895d472318db476319832",
+    "sourcePath": "/characters/gold-hunter/female-base-kit-tpose-front-latest.webp",
+    "sourceSha256": "911dda5e857fc885e29e2fc82d7bb4aa8e53dbbcf3e878bdf548b45c2131f831"
+  },
+  "gold-hunter/female-base-kit-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/female-base-kit-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "92f90d01e1e620c6a8d4aea2ecb5eaea282d5a47af14184a3c76e4622292d380",
+    "sourcePath": "/characters/gold-hunter/female-base-kit-tpose-left-latest.webp",
+    "sourceSha256": "bfb79c8a17a70475b2f9a6b756142e9f94d391f91f958e8e0ffd8e56d411deaf"
+  },
+  "gold-hunter/female-base-kit-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-base-kit-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "871f571f3c40c0c4659d8d9a4cd6d59a281544219fbda683263addf40397053c",
+    "sourcePath": "/characters/gold-hunter/female-base-kit-tpose-right-latest.webp",
+    "sourceSha256": "eb6a594fad9af9ab350e6bf385c88953fb6b4bc8beb8b5a0b173b90a25612f76"
+  },
+  "gold-hunter/female-belt-guards-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-belt-guards-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "6e4618254c5d05b940d83ffd4d4c290e014d313761347538a87ae2ea8dae191b",
+    "sourcePath": "/characters/gold-hunter/female-belt-guards-back-latest.webp",
+    "sourceSha256": "73c797cc77f1620b78bf8abc3648090b5645d2b22a322d35231aebf0da98d3ac"
+  },
+  "gold-hunter/female-belt-guards-board-latest": {
+    "path": "/site/thumbs/gold-hunter/female-belt-guards-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "73f3672ebddabe8bc518970da919b49cc9e82c1992371bfc23a433d92a6a8f42",
+    "sourcePath": "/characters/gold-hunter/female-belt-guards-board-latest.webp",
+    "sourceSha256": "b404a16331b10a8560ea4610d254ddda7257f82d4427b546ae6992d16c615788"
+  },
+  "gold-hunter/female-belt-guards-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-belt-guards-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "b88f2fbfb711339d89dd25d4848842862474de010b9b8c323908eb57f37758a5",
+    "sourcePath": "/characters/gold-hunter/female-belt-guards-front-latest.webp",
+    "sourceSha256": "d601d8735b016a968660f00c0d74c9922a2309e2626022911c438637ba7737dd"
+  },
+  "gold-hunter/female-belt-guards-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-belt-guards-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "b75812d5bdee7a64bb3cbc050af3b2092374deff0a45ee9a0c32bc94a401a072",
+    "sourcePath": "/characters/gold-hunter/female-belt-guards-right-latest.webp",
+    "sourceSha256": "d8d8381743b4d0ff0e9472d08813f7a3ac5b9622ce0c269534ef41edad172aa8"
+  },
+  "gold-hunter/female-belt-guards-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-belt-guards-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "7ba7b4babaceb8fca765a379e4c3f6d3e236db2336017e3f5d6cde8f6cc270b0",
+    "sourcePath": "/characters/gold-hunter/female-belt-guards-tpose-back-latest.webp",
+    "sourceSha256": "85735ba30663b7ab638727d63d45464f2a8bb5f092ee55870299742cde97d776"
+  },
+  "gold-hunter/female-belt-guards-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-belt-guards-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "7a70254b751e1e6ccf601fe21fd5f93162640b51debba44e380913421ee23336",
+    "sourcePath": "/characters/gold-hunter/female-belt-guards-tpose-front-latest.webp",
+    "sourceSha256": "3143bdecdad81f592c2b20c702ff197b63ec2e781622ecd3813b207ad2193aa5"
+  },
+  "gold-hunter/female-belt-guards-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/female-belt-guards-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "634d806151b4234e056a1d657808c247273252748c252902760897e54293fd61",
+    "sourcePath": "/characters/gold-hunter/female-belt-guards-tpose-left-latest.webp",
+    "sourceSha256": "1f3d25b095699298a8d87282b31f49973b417ecad8448fbeb722e1f92102ae22"
+  },
+  "gold-hunter/female-belt-guards-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-belt-guards-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "e3d608ff207080c5e984f8e4d380b473536fe43fa01e46b46e9795b7ce86fa57",
+    "sourcePath": "/characters/gold-hunter/female-belt-guards-tpose-right-latest.webp",
+    "sourceSha256": "8774d1dd7688700fa21e5f198b93c352feb5a224e1505e9fa5d75337203eb5ec"
+  },
+  "gold-hunter/female-body-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-body-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "533d1c0b49846c50b5b0040211c84449186573ddd0cb0a7bb5f5a0018a3ceb9e",
+    "sourcePath": "/characters/gold-hunter/female-body-back-latest.webp",
+    "sourceSha256": "c606e5ecd5179e6a834e9d0d530ed40666a06958d9b61e6af82ab52d4c4829c8"
+  },
+  "gold-hunter/female-body-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-body-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "74f77a717c9f3ec6a9c0090d4131b158302541d99d4be20a780e8ac232371ce7",
+    "sourcePath": "/characters/gold-hunter/female-body-front-latest.webp",
+    "sourceSha256": "02829cbbffd53e6e486c0702633689dff145be2e12b6832a29c4ea9b3c0d3de1"
+  },
+  "gold-hunter/female-body-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-body-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "779400f26dbb9bbf252e72ea8f8b4da7e626c2405e531b953ec3dfababaf7edc",
+    "sourcePath": "/characters/gold-hunter/female-body-right-latest.webp",
+    "sourceSha256": "566dc8edb52952df39cfd0320b5f05277afa141881fe8c9d5684e65c039075f4"
+  },
+  "gold-hunter/female-body-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-body-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "44b7068867cbc001180b27d8a9c10a44ea2db56e9895a1b9763cee8c2fdfd414",
+    "sourcePath": "/characters/gold-hunter/female-body-tpose-back-latest.webp",
+    "sourceSha256": "7c419681c9ea64f01b41760b2372c3177ff5d447011490f8401bed43278033a4"
+  },
+  "gold-hunter/female-body-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-body-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "e5f719248342e41a7d3a773ddfde060a399e8893b786dbf447934fcd38fa2810",
+    "sourcePath": "/characters/gold-hunter/female-body-tpose-front-latest.webp",
+    "sourceSha256": "8617ab7439518f9aebf3a16487d409cea3b74725ace338a79ea9aed04dfa85c7"
+  },
+  "gold-hunter/female-body-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/female-body-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "d73df5ff9eb5e5e60b7169ac3f15c04d6c7bf3551d777d9a74a01fdafb4c8a83",
+    "sourcePath": "/characters/gold-hunter/female-body-tpose-left-latest.webp",
+    "sourceSha256": "dc935669a92213f51ca524e9907339e2d7bc1b89dd7bcc8d7765ebbd9479a164"
+  },
+  "gold-hunter/female-body-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-body-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "cec6d739d4365a78f1289e19db49f9efe4b01fc94c7628853aaa751ac7f84132",
+    "sourcePath": "/characters/gold-hunter/female-body-tpose-right-latest.webp",
+    "sourceSha256": "e2f16527c1f326950f5d7c5be841d8ae9466ac4ab8b385139b0d2f6b86f7d90e"
+  },
+  "gold-hunter/female-breakdown-sheet-latest": {
+    "path": "/site/thumbs/gold-hunter/female-breakdown-sheet-latest.webp",
+    "width": 480,
+    "height": 329,
+    "sha256": "7783f43633b80f4ed758808ed717777efaf551f295a2b66a9951ec5a7a455437",
+    "sourcePath": "/characters/gold-hunter/female-breakdown-sheet-latest.webp",
+    "sourceSha256": "e9b59feb7fea33394462520954e2f9775b1d247dee9e67306e74004c919819d5"
+  },
+  "gold-hunter/female-card-latest": {
+    "path": "/site/thumbs/gold-hunter/female-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "19ff3c402d0fbffab344b62af745438b6c8a174f415c37257a1613d66c0963d6",
+    "sourcePath": "/characters/gold-hunter/female-card-latest.webp",
+    "sourceSha256": "30d93bcd0008a8118716703a3274fdea763423211024425274ec373ae4d34d4f"
+  },
+  "gold-hunter/female-expressions-sheet-latest": {
+    "path": "/site/thumbs/gold-hunter/female-expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "07a28d0c61081fefcd780e7b2347b2e84f48c6708f4f078ab03636040251e383",
+    "sourcePath": "/characters/gold-hunter/female-expressions-sheet-latest.webp",
+    "sourceSha256": "cd95ffef35fc42a68230d856df5b17dafe4616db77eafa4f0c2ef791a9812fdd"
+  },
+  "gold-hunter/female-face-sheet-latest": {
+    "path": "/site/thumbs/gold-hunter/female-face-sheet-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "6c622a449fa06da281a922479fdae0e4657ed6ca7f3b36af1eb9662bd4b17775",
+    "sourcePath": "/characters/gold-hunter/female-face-sheet-latest.webp",
+    "sourceSha256": "751d41b78581e528adc191172c8affc91b59170c469406bcebd7781d9e98bee5"
+  },
+  "gold-hunter/female-goggles-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-goggles-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "45838cf0da816a2ae3ae2748961f17e4fcce8c4b71f8af6967175eb6be20323d",
+    "sourcePath": "/characters/gold-hunter/female-goggles-back-latest.webp",
+    "sourceSha256": "1b173c035e9d621a57ff606c2a87c4c40ceb66bba64b691f57f61cbfca618cc7"
+  },
+  "gold-hunter/female-goggles-board-latest": {
+    "path": "/site/thumbs/gold-hunter/female-goggles-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "431bdbb1861fc1644b5d44b4653ae8bb7b413a4e32e988961b5ecd5bfe0c393e",
+    "sourcePath": "/characters/gold-hunter/female-goggles-board-latest.webp",
+    "sourceSha256": "7772e383c2e36004d5d7cbb2f5788884e172ac740b710120b330438dbbf46dde"
+  },
+  "gold-hunter/female-goggles-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-goggles-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "b5843e34903ba4245bd300ce904f014c8f6985d8c6bd7afabb987cd6b5402b26",
+    "sourcePath": "/characters/gold-hunter/female-goggles-front-latest.webp",
+    "sourceSha256": "1143332b45e080b396c4bc9161ecc20c6eb6fd7cf21b8914fe19b5ca8c5d3984"
+  },
+  "gold-hunter/female-goggles-over-eyes-latest": {
+    "path": "/site/thumbs/gold-hunter/female-goggles-over-eyes-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "f415b8b5ab7fa1fac4268d147ce6f05936c285257e75a902b7ca7bbf03ed5792",
+    "sourcePath": "/characters/gold-hunter/female-goggles-over-eyes-latest.webp",
+    "sourceSha256": "807e2d73b593cacebf5f3c23d01c0d08bc912aea69d530db71c04826b40b8dcf"
+  },
+  "gold-hunter/female-goggles-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-goggles-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "4d025eca1f021a036fc4afe0346e456743a5ec693dd8cd46273a3c929f907d7e",
+    "sourcePath": "/characters/gold-hunter/female-goggles-right-latest.webp",
+    "sourceSha256": "65c1cd59ff655e0c19d837089eec28b8dd25e3ad7e13491b379f0a8a88e0beaa"
+  },
+  "gold-hunter/female-goggles-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-goggles-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "eee48ebcc40d635d7468f0f78606c451ede0e5c6711bb6a26a6048ab5114910a",
+    "sourcePath": "/characters/gold-hunter/female-goggles-tpose-back-latest.webp",
+    "sourceSha256": "9c5621a10e8e14288dc90eecb04bcae25ff9f8d69b2dd11e776405e9e096d6a8"
+  },
+  "gold-hunter/female-goggles-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-goggles-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "da53d17b43835d7feb0ec8b5779af666ef77198defa90740eae56515a8d1aeb3",
+    "sourcePath": "/characters/gold-hunter/female-goggles-tpose-front-latest.webp",
+    "sourceSha256": "b54b0f45a7ab566ad7d34349ede45f5bf3ff9fd69a39caed6a3ee013916b9095"
+  },
+  "gold-hunter/female-goggles-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/female-goggles-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "4bc797b4df033e79ebe1ce26ab3f2cba43ca597fed66575d30e595d0c40f55b9",
+    "sourcePath": "/characters/gold-hunter/female-goggles-tpose-left-latest.webp",
+    "sourceSha256": "798758de7cc7e0557210f32db645e7d3b645b0b06a635f5d2b236358ccf1d356"
+  },
+  "gold-hunter/female-goggles-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-goggles-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c06025a924fde8a517cc765095b1cfc4e7450efbc58a69bf9af4afb53e950b02",
+    "sourcePath": "/characters/gold-hunter/female-goggles-tpose-right-latest.webp",
+    "sourceSha256": "ff0758b2d2f2d9b03a267b28bf374291331ea09b94609c5b5d4f22d97a905086"
+  },
+  "gold-hunter/female-parka-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-parka-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "61ac99e35bbdaea2f3b7e1575eb763a3e69c38eb29536bb85dfc1cc941f0287a",
+    "sourcePath": "/characters/gold-hunter/female-parka-back-latest.webp",
+    "sourceSha256": "af983faa04d0d8930da0b996d18b5c9492f99e4286fa7ba333b80c07ee86453a"
+  },
+  "gold-hunter/female-parka-board-latest": {
+    "path": "/site/thumbs/gold-hunter/female-parka-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "ac591ab43085af6928588aee3628f738e48cdb8f0894f21fda4217549de9b63c",
+    "sourcePath": "/characters/gold-hunter/female-parka-board-latest.webp",
+    "sourceSha256": "e23f88e00a8d23d8becf4034f06c6fdbbe12a95f9da64b92f627769ad683d383"
+  },
+  "gold-hunter/female-parka-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-parka-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "27bc3bf4aa16ebff37f026c79b7efb61c259ad8144e15ccb082ba96e7cc88cfc",
+    "sourcePath": "/characters/gold-hunter/female-parka-front-latest.webp",
+    "sourceSha256": "e69aaa490faf060511a3b4a7fc6c07dcd01e971a749efc43bdef4033db534828"
+  },
+  "gold-hunter/female-parka-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-parka-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "f2cdb6c23d25b77666221e4aa6f5cc89e765c4e8c18cdd47e9c7d126da71fca6",
+    "sourcePath": "/characters/gold-hunter/female-parka-right-latest.webp",
+    "sourceSha256": "e198a74ed512193cf38573e07b22e1d60adea12e42bdb1029c9d39cbc9eb83e8"
+  },
+  "gold-hunter/female-parka-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/female-parka-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "23f4445377aee6844de76c577c34887323dfafca20d6a26464605fdc185af272",
+    "sourcePath": "/characters/gold-hunter/female-parka-tpose-back-latest.webp",
+    "sourceSha256": "d171c1e6e4cda6d385b9bf1f9a23db548796e70143a6439f1f6eae44655c0ba5"
+  },
+  "gold-hunter/female-parka-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/female-parka-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5bf1138df61dafaf1ecc2b0a066f9ef12258140c023d4d9d46261792825f8663",
+    "sourcePath": "/characters/gold-hunter/female-parka-tpose-front-latest.webp",
+    "sourceSha256": "df6ef7b1f47f5591c800e571868ce426e363b440c682f44b2a71b26efa0f274d"
+  },
+  "gold-hunter/female-parka-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/female-parka-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "331c73d44b81778a8694dd17686df638ea6d6cf276e0ca97f64fe2da7530d6a7",
+    "sourcePath": "/characters/gold-hunter/female-parka-tpose-left-latest.webp",
+    "sourceSha256": "29156ee297c3f1a2eb578720376cb4d55d0050f770368b35fdf77663658c54f8"
+  },
+  "gold-hunter/female-parka-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/female-parka-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "7be44b110d784914f9b69b39d001a1adf64014e4747f1d049f32c8735ef5948e",
+    "sourcePath": "/characters/gold-hunter/female-parka-tpose-right-latest.webp",
+    "sourceSha256": "75f0e518972d0e2d947f037ecb86cadb44a7feeefb856be9f09d9af514436e3d"
   },
   "gold-hunter/goggles-back-latest": {
     "path": "/site/thumbs/gold-hunter/goggles-back-latest.webp",
@@ -2670,6 +3030,14 @@
     "sha256": "7d2cd4b8b0f187a09666dd07c2689c00c2bfb9aced7e8736bc72aa162a67ea90",
     "sourcePath": "/characters/gold-hunter/goggles-tpose-right-latest.webp",
     "sourceSha256": "475bc308f46add1acc489fd691768d84b8a214320af74a02c31d5aedfb593149"
+  },
+  "gold-hunter/male-card-latest": {
+    "path": "/site/thumbs/gold-hunter/male-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8aae4b92ca6fb1f09f30bcd4e80bd18d192fb45bd3c7d106066bc395bafa983a",
+    "sourcePath": "/characters/gold-hunter/male-card-latest.webp",
+    "sourceSha256": "753bd05c75b3e335e038490e6faddc42f59127a70a7decba06586d21af2c6a7e"
   },
   "gold-hunter/parka-back-latest": {
     "path": "/site/thumbs/gold-hunter/parka-back-latest.webp",

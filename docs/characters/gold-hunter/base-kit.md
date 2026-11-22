@@ -2,12 +2,12 @@
 layout: CharacterPage
 pageType: layer
 layer: 1
-title: 内搭与机能球鞋
+title: 罗伊 · 内搭与机能球鞋
 sidebar: false
 aside: false
 ---
 
-# 内搭与机能球鞋 {.bunny-sr-only}
+# 罗伊 · 内搭与机能球鞋 {.bunny-sr-only}
 
 ## 站姿三视 {#wearing}
 
