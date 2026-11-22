@@ -3,26 +3,32 @@
     {
       "key": "three",
       "label": "站姿三视",
-      "caption": "第五层 · 连体衣、长靴、臂套、颈圈与角色右胯徽章腿带（贴身完整装）",
+      "caption": "第六层 · 蓬松柔羽耳、角色右侧 V 形发夹与蝴蝶骨光翼（完整形态）",
       "assets": [
-        "hip-emblem-front-latest",
-        "hip-emblem-right-latest",
-        "hip-emblem-back-latest"
+        "angel-wings-front-latest",
+        "angel-wings-right-latest",
+        "angel-wings-back-latest"
       ]
     },
     {
       "key": "tpose",
       "label": "平举四视",
-      "caption": "第五层 · 正面、角色右侧面、背面（自然垂发）、角色左侧面",
+      "caption": "第六层 · 正面、角色右侧面、背面（居中垂发露双蝶骨）、角色左侧面",
       "assets": [
-        "hip-emblem-tpose-front-latest",
-        "hip-emblem-tpose-right-latest",
-        "hip-emblem-tpose-back-latest",
-        "hip-emblem-tpose-left-latest"
+        "angel-wings-tpose-front-latest",
+        "angel-wings-tpose-right-latest",
+        "angel-wings-tpose-back-latest",
+        "angel-wings-tpose-left-latest"
       ]
     }
   ],
   "highlights": [
+    {
+      "date": "2026-11-22",
+      "title": "第六层 · 羽耳与蝴蝶骨光翼",
+      "asset": "angel-wings-board-latest",
+      "caption": "齐冠三色生物柔羽耳搭配角色右侧 V 形哑光金发夹，少女柔美蝶骨原生光翼展开约 1.45 H、收拢至小腿中段。"
+    },
     {
       "date": "2026-11-21",
       "title": "第五层 · 胯章与外侧腿带",
@@ -34,12 +40,6 @@
       "title": "第四层 · 独立颈圈",
       "asset": "choker-board-latest",
       "caption": "哑黑高颈圈配宝蓝十字与青色水滴石，后颈暗钩闭合。"
-    },
-    {
-      "date": "2026-11-21",
-      "title": "第三层 · 黑色长臂套",
-      "asset": "arm-sleeves-board-latest",
-      "caption": "泡袖盖住臂套上口，全七视统一不透明 RGB 与纯黑腿口。"
     }
   ],
   "facts": [
@@ -48,18 +48,22 @@
       "value": "浅银紫长发"
     },
     {
+      "term": "特征",
+      "value": "齐冠三色生物柔羽耳、少女蝴蝶骨原生光翼"
+    },
+    {
       "term": "着装",
-      "value": "白黑连体衣、过膝长靴、长臂套、独立颈圈与胯章腿带"
+      "value": "白黑连体衣、过膝长靴、长臂套、独立颈圈、胯章腿带与蝴蝶骨光翼"
     },
     {
       "term": "收录范围",
-      "value": "第 1 至第 5 层（贴身完整装）"
+      "value": "第 1 至第 6 层（完整羽翼形态）"
     }
   ],
   "chips": [
     {
       "name": "白",
-      "use": "胸背与泡袖",
+      "use": "胸背、泡袖与翼根绒羽",
       "swatch": "white"
     },
     {
@@ -71,11 +75,16 @@
       "name": "蓝紫",
       "use": "腰片、靴部、颈圈与胯章透镜",
       "color": "#6547A9"
+    },
+    {
+      "name": "天青",
+      "use": "柔羽耳与光翼飞羽",
+      "color": "#18A8FF"
     }
   ],
-  "chipNote": "蓝紫腰片从角色右腰斜向角色左胯，腿口为纯黑，角色右胯单侧配银灰鸟首徽章。",
+  "chipNote": "蓝紫腰片从角色右腰斜向角色左胯，腿口为纯黑，角色右胯单侧配银灰鸟首徽章，角色右侧额发配 V 形金发夹。",
   "status": "本地审阅版，不是生产发布",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "chapters": [
     {
       "id": "layers",

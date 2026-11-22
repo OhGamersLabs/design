@@ -132,6 +132,32 @@
         }
       ],
       "leftRight": "仅角色右侧佩戴鸟首徽章与腿带，角色左侧完全留素；平举背面采用自然垂发保持四视一致。"
+    },
+    {
+      "layer": 6,
+      "name": "羽耳与蝴蝶骨光翼",
+      "path": "/characters/angel/angel-wings",
+      "front": "angel-wings-front-latest",
+      "side": "angel-wings-right-latest",
+      "back": "angel-wings-back-latest",
+      "tpose": {
+        "front": "angel-wings-tpose-front-latest",
+        "right": "angel-wings-tpose-right-latest",
+        "back": "angel-wings-tpose-back-latest",
+        "left": "angel-wings-tpose-left-latest"
+      },
+      "summary": "两侧颞部原生生出齐冠三色生物柔羽耳并配银色耳钉，背部蝴蝶骨位置平滑长出少女柔美蝴蝶骨光翼，构成完整的天使羽翼形态。",
+      "facts": [
+        {
+          "term": "柔羽耳",
+          "value": "耳根覆盖淡紫白细绒并衔接靛蓝、钴蓝与天青柔羽，耳尖齐平发冠高度"
+        },
+        {
+          "term": "蝴蝶骨光翼",
+          "value": "由裸背蝶骨平滑移行入白绒羽根与涡轮腕袖，展开总翼展约 1.45 H，收拢自然垂至小腿中段"
+        }
+      ],
+      "leftRight": "仅角色右侧额发佩戴 V 形哑光金发夹与深褐直卡，角色左侧额发完全留素；角色左与角色右双侧生物柔羽耳与背部光翼保持对称。"
     }
   ]
 }
