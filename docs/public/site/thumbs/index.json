@@ -299,9 +299,9 @@
     "path": "/site/thumbs/angel/character-card-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "dd301d5838448b7fd1af7d16f6e57e6f1aefbbb5401c52715a5c701728594a40",
+    "sha256": "6c33036d8fbbfe9e6de1f7a8ec7184f2fb4a0c52475fc8d7a8ccc3fa7bd07689",
     "sourcePath": "/characters/angel/character-card-latest.webp",
-    "sourceSha256": "62c61a8908a355451d16ebb7d95044ff727ebda1e38ec0f01a67d2d7a3f37da0"
+    "sourceSha256": "22c59266f11659fc8070d2a2632b34f43c39a77a5decd11ce1698c013536e869"
   },
   "angel/choker-back-latest": {
     "path": "/site/thumbs/angel/choker-back-latest.webp",
@@ -454,6 +454,78 @@
     "sha256": "74122d2eb42a877d619648d66fe1feccb36362476de6a24731cbdd0a34a063a3",
     "sourcePath": "/characters/angel/neckline-gusset-latest.webp",
     "sourceSha256": "757ca441f33f7bfe8618ef0c3c9e565208ba6db7b92828346f7353e249972be3"
+  },
+  "angel/plume-staff-back-latest": {
+    "path": "/site/thumbs/angel/plume-staff-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "2a890263afe62f081264977ddd2d2cd021fc1dc0eb84b19acd60a56ac1698a42",
+    "sourcePath": "/characters/angel/plume-staff-back-latest.webp",
+    "sourceSha256": "8e0fe7a0766f7b031eafece7b27fc0b8471f15befee6af3a793495b5a8ff317a"
+  },
+  "angel/plume-staff-board-latest": {
+    "path": "/site/thumbs/angel/plume-staff-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "85d9fe90ae52a20dc395ef5b0982e85ed9aa5096914047079b6f558971e7c1ae",
+    "sourcePath": "/characters/angel/plume-staff-board-latest.webp",
+    "sourceSha256": "8e42ae1421bcfd36aec8b26687253b2c059d41ca7e0144fcafade75514730bff"
+  },
+  "angel/plume-staff-fit-overlay-latest": {
+    "path": "/site/thumbs/angel/plume-staff-fit-overlay-latest.webp",
+    "width": 480,
+    "height": 293,
+    "sha256": "f49cf3b672924e9edc4cbc84de0fd1dd925b1b03dd2a48e6dbfa133ca111d85c",
+    "sourcePath": "/characters/angel/plume-staff-fit-overlay-latest.webp",
+    "sourceSha256": "e2c2d12e2f1b90d747ffb3e210388aadfddff96e3a8879d17b20154d82e397a3"
+  },
+  "angel/plume-staff-front-latest": {
+    "path": "/site/thumbs/angel/plume-staff-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "6adf119372683040cdb3831eab756f008a221b58dd79d465a95615036f2abd97",
+    "sourcePath": "/characters/angel/plume-staff-front-latest.webp",
+    "sourceSha256": "54aa5e9aae3e3740a220ad256e6b2ef628d0be74475d2b1b5dd38feefc16f139"
+  },
+  "angel/plume-staff-right-latest": {
+    "path": "/site/thumbs/angel/plume-staff-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "e105c210ac2fdb4803fb6c946867f648cbf61103d27b0c5442f5895694e3a998",
+    "sourcePath": "/characters/angel/plume-staff-right-latest.webp",
+    "sourceSha256": "0a56b31a44a9e263f7fb87a5e0d5a1082cfab577395303aa7f43f3639c2a987d"
+  },
+  "angel/plume-staff-tpose-back-latest": {
+    "path": "/site/thumbs/angel/plume-staff-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "12756b054df43bf691d7ee32cc28d61e00f40e2383dd407f958184589813900d",
+    "sourcePath": "/characters/angel/plume-staff-tpose-back-latest.webp",
+    "sourceSha256": "f72b8a3553c2db58f0c19b2c4064fed76be41e0af3452e5a52152b3744f01907"
+  },
+  "angel/plume-staff-tpose-front-latest": {
+    "path": "/site/thumbs/angel/plume-staff-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9d04be2bb14da5db44cfc80d8b58e1aefc112bfbfd3f435599b5fa8c92389ff9",
+    "sourcePath": "/characters/angel/plume-staff-tpose-front-latest.webp",
+    "sourceSha256": "d28d2d634215c6c3116453300a1e14e1bd08e1325c3961bc76465712aa69bb0d"
+  },
+  "angel/plume-staff-tpose-left-latest": {
+    "path": "/site/thumbs/angel/plume-staff-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0b3dad57e23b3b6993f70467b4d4b59a5a5f57c1ea557df22e145595effff984",
+    "sourcePath": "/characters/angel/plume-staff-tpose-left-latest.webp",
+    "sourceSha256": "3d727528c0c4be0a831d5f326b94cec9c52c5b7c2919aac43bb6796806552aa6"
+  },
+  "angel/plume-staff-tpose-right-latest": {
+    "path": "/site/thumbs/angel/plume-staff-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "2bed8a7177c71562f3b2da39c557e9b72c77682d0989c412eaabe295e44310df",
+    "sourcePath": "/characters/angel/plume-staff-tpose-right-latest.webp",
+    "sourceSha256": "d1351c420c2fc7af01f6e804f6d578a2948a67a0bd8634230fb0c25920837572"
   },
   "base-bodies/family-scale-latest": {
     "path": "/site/thumbs/base-bodies/family-scale-latest.webp",

@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "天使 设计参考",
   "status": "local-review",
-  "asset_count": 57,
+  "asset_count": 66,
   "assets": [
     {
       "id": "angel-wings-back-latest",
@@ -866,8 +866,8 @@
         "mime_type": "image/png",
         "width": 2880,
         "height": 2880,
-        "bytes": 6568297,
-        "sha256": "34d13eaf79718ce9493ccc2304293fbe670eff6149cb116b840b672ea77bca43",
+        "bytes": 6407170,
+        "sha256": "778ce704d7309352a35b572fb596707acb2a19bf09a841c898b4a72dc6c2d447",
         "alpha": false
       },
       "web": {
@@ -875,8 +875,8 @@
         "mime_type": "image/webp",
         "width": 2048,
         "height": 2048,
-        "bytes": 2659382,
-        "sha256": "62c61a8908a355451d16ebb7d95044ff727ebda1e38ec0f01a67d2d7a3f37da0",
+        "bytes": 2807880,
+        "sha256": "22c59266f11659fc8070d2a2632b34f43c39a77a5decd11ce1698c013536e869",
         "alpha": false
       }
     },
@@ -1314,6 +1314,213 @@
         "height": 1094,
         "bytes": 848288,
         "sha256": "757ca441f33f7bfe8618ef0c3c9e565208ba6db7b92828346f7353e249972be3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "plume-staff-back-latest",
+      "character": "angel",
+      "title": "plume-staff-back-latest",
+      "original": {
+        "path": "/media/angel/plume-staff-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1433043,
+        "sha256": "929a392cb6f41ef1c5c41ff7127b79dee0b2426f0be4f985a45881d2af8c27b0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/plume-staff-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 920012,
+        "sha256": "8e0fe7a0766f7b031eafece7b27fc0b8471f15befee6af3a793495b5a8ff317a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "plume-staff-board-latest",
+      "character": "angel",
+      "title": "plume-staff-board-latest",
+      "original": {
+        "path": "/media/angel/plume-staff-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 2158324,
+        "sha256": "48b3da1580e7413b25bb7f197ef03797f62a1064dd4f26138963bba38fbb0a8a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/plume-staff-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 692648,
+        "sha256": "8e42ae1421bcfd36aec8b26687253b2c059d41ca7e0144fcafade75514730bff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "plume-staff-fit-overlay-latest",
+      "character": "angel",
+      "title": "plume-staff-fit-overlay-latest",
+      "original": {
+        "path": "/media/angel/plume-staff-fit-overlay-latest.png",
+        "mime_type": "image/png",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 745139,
+        "sha256": "9acbe04c2edb49b91444c014249143de142a7acc74e147f49957795d99d8f463",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/plume-staff-fit-overlay-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1640,
+        "height": 1000,
+        "bytes": 568150,
+        "sha256": "e2c2d12e2f1b90d747ffb3e210388aadfddff96e3a8879d17b20154d82e397a3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "plume-staff-front-latest",
+      "character": "angel",
+      "title": "plume-staff-front-latest",
+      "original": {
+        "path": "/media/angel/plume-staff-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1795912,
+        "sha256": "8a61d40fd843223e8c23e29e7df4be8a0f0007e340e77966f9c4a6b6a4e0ceef",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/plume-staff-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1089330,
+        "sha256": "54aa5e9aae3e3740a220ad256e6b2ef628d0be74475d2b1b5dd38feefc16f139",
+        "alpha": false
+      }
+    },
+    {
+      "id": "plume-staff-right-latest",
+      "character": "angel",
+      "title": "plume-staff-right-latest",
+      "original": {
+        "path": "/media/angel/plume-staff-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1150493,
+        "sha256": "3d426d8cd42c7ee5cfc5fd37cad6bdf4171db66ca85859531e0ce0dcc763a94a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/plume-staff-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 825550,
+        "sha256": "0a56b31a44a9e263f7fb87a5e0d5a1082cfab577395303aa7f43f3639c2a987d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "plume-staff-tpose-back-latest",
+      "character": "angel",
+      "title": "plume-staff-tpose-back-latest",
+      "original": {
+        "path": "/media/angel/plume-staff-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1385374,
+        "sha256": "9148b43bf283b2590d4ce7a6a860f80090cc13e9b879ce604b0afd5b5a1b0228",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/plume-staff-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 940120,
+        "sha256": "f72b8a3553c2db58f0c19b2c4064fed76be41e0af3452e5a52152b3744f01907",
+        "alpha": false
+      }
+    },
+    {
+      "id": "plume-staff-tpose-front-latest",
+      "character": "angel",
+      "title": "plume-staff-tpose-front-latest",
+      "original": {
+        "path": "/media/angel/plume-staff-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1334542,
+        "sha256": "722d25df7c7897c0728d5fec3b52be87b8102de3158410647227d7850be4261a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/plume-staff-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 820498,
+        "sha256": "d28d2d634215c6c3116453300a1e14e1bd08e1325c3961bc76465712aa69bb0d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "plume-staff-tpose-left-latest",
+      "character": "angel",
+      "title": "plume-staff-tpose-left-latest",
+      "original": {
+        "path": "/media/angel/plume-staff-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1191020,
+        "sha256": "1d13584cbdd4bcad7d49b8e46e3867497ff850173754af7c98c0d934e7c75454",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/plume-staff-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 632198,
+        "sha256": "3d727528c0c4be0a831d5f326b94cec9c52c5b7c2919aac43bb6796806552aa6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "plume-staff-tpose-right-latest",
+      "character": "angel",
+      "title": "plume-staff-tpose-right-latest",
+      "original": {
+        "path": "/media/angel/plume-staff-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 1298813,
+        "sha256": "bbd8b70a31224efc8974f914a6c8ae0fc651cc93367d92cab16a1c7b19489afc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/angel/plume-staff-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1248,
+        "height": 1248,
+        "bytes": 821266,
+        "sha256": "d1351c420c2fc7af01f6e804f6d578a2948a67a0bd8634230fb0c25920837572",
         "alpha": false
       }
     }

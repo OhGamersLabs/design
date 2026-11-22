@@ -2,7 +2,7 @@
   "name": "天使",
   "role": "治疗师",
   "order": 3,
-  "portrait": "angel-wings-front-latest",
+  "portrait": "plume-staff-front-latest",
   "pages": [
     {
       "path": "/characters/angel/bodysuit",
@@ -27,6 +27,10 @@
     {
       "path": "/characters/angel/angel-wings",
       "title": "羽耳与蝴蝶骨光翼"
+    },
+    {
+      "path": "/characters/angel/plume-staff",
+      "title": "栖羽光轮杖"
     }
   ]
 }
