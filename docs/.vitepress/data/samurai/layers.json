@@ -1,0 +1,177 @@
+{
+  "chapter": "layers",
+  "noun": "装层",
+  "wear": "配备",
+  "items": [
+    {
+      "layer": 0,
+      "name": "机械武士本体",
+      "path": "/characters/samurai/body",
+      "front": "body-front-latest",
+      "side": "body-right-latest",
+      "back": "body-back-latest",
+      "tpose": {
+        "front": "body-tpose-front-latest",
+        "right": "body-tpose-right-latest",
+        "back": "body-tpose-back-latest",
+        "left": "body-tpose-left-latest"
+      },
+      "summary": "锚定标准青年男素体的对称全机械内构本体，冷灰白流线分甲配深炭黑外露腰腹液压传动与双肘双踝青蓝发光轴承。",
+      "facts": [
+        {
+          "term": "形体",
+          "value": "基于标准青年男素体，赤脚约 7.42 头身，厘米身高未设定"
+        },
+        {
+          "term": "头盔内构",
+          "value": "深钢蓝机械面罩配低轮廓圆润平滑后颅与猩红窄目镜"
+        },
+        {
+          "term": "对称传动",
+          "value": "哑光炭黑外露脊椎与斜向液压活塞，腹部居中透出青蓝格栅核心灯"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 1 到第 4 层"
+        }
+      ],
+      "leftRight": "第 0 层采用完全镜像对称造型，统一双臂圆环肘甲与双脚踝青蓝圆环轴承，正面、背面与角色右侧面均保持严谨结构对称。"
+    },
+    {
+      "layer": 1,
+      "name": "强化胸甲与战术垂帘",
+      "path": "/characters/samurai/chest-tabard",
+      "front": "chest-tabard-front-latest",
+      "side": "chest-tabard-right-latest",
+      "back": "chest-tabard-back-latest",
+      "tpose": {
+        "front": "chest-tabard-tpose-front-latest",
+        "right": "chest-tabard-tpose-right-latest",
+        "back": "chest-tabard-tpose-back-latest",
+        "left": "chest-tabard-tpose-left-latest"
+      },
+      "summary": "冷灰白多层强化胸甲（角色左胸白色闭合 OG 标）、高立领护颈、角色左胯紧凑战术工具盒与前后重磅暖灰褐战术垂帘。",
+      "facts": [
+        {
+          "term": "胸甲标识",
+          "value": "斜切多面冷白强化胸甲贴合原体轮廓，仅角色左胸斜上方印白色闭合 OG 标识"
+        },
+        {
+          "term": "前后垂帘",
+          "value": "哑光暖灰褐重磅战术织物前后垂帘，底缘嵌深炭灰金属配重压条"
+        },
+        {
+          "term": "角色左胯挂件",
+          "value": "角色左胯腰带仅外挂一只倒角哑光深灰矩形战术工具盒，表面素净无多余绑带"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 2 到第 4 层"
+        }
+      ],
+      "leftRight": "清晰的单侧非对称胯部与胸标识别：白色 OG 胸标与矩形战术工具盒均仅位于角色左侧（正面图位于画面右边）；角色右胯圆鼓保持完全洁净空置，不挂任何副刀或短鞘。"
+    },
+    {
+      "layer": 2,
+      "name": "可动肩甲与长披风",
+      "path": "/characters/samurai/pauldrons-cape",
+      "front": "pauldrons-cape-front-latest",
+      "side": "pauldrons-cape-right-latest",
+      "back": "pauldrons-cape-back-latest",
+      "tpose": {
+        "front": "pauldrons-cape-tpose-front-latest",
+        "right": "pauldrons-cape-tpose-right-latest",
+        "back": "pauldrons-cape-tpose-back-latest",
+        "left": "pauldrons-cape-tpose-left-latest"
+      },
+      "summary": "由独立机械悬臂铰链支承的暖灰褐硬质可动大肩甲，与扣挂于背梁肩轭的撕裂长风衣披风实现硬甲软布完全分界。",
+      "facts": [
+        {
+          "term": "硬质肩甲",
+          "value": "双侧对称斜切六角格散热窗与侧缘微亮青蓝细条，下方机械连杆确保抬臂不干涉"
+        },
+        {
+          "term": "撕裂披风",
+          "value": "深暖灰褐厚实哑光披风自背部横轭双锁扣垂至小腿肚，下摆呈不规则锐利撕裂锯齿"
+        },
+        {
+          "term": "背挂预留",
+          "value": "背部上方肩轭与颈后护领留出后续正宗背挂枢转支臂的清晰接驳位"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 3 到第 4 层"
+        }
+      ],
+      "leftRight": "硬质可动肩甲与肩部悬臂连杆均为双侧镜像对称结构；长披风自然垂落于背部中轴，下摆撕裂齿形错落有致。"
+    },
+    {
+      "layer": 3,
+      "name": "铁血机械脏辫战盔",
+      "path": "/characters/samurai/dreadlock-helm",
+      "front": "dreadlock-helm-front-latest",
+      "side": "dreadlock-helm-right-latest",
+      "back": "dreadlock-helm-back-latest",
+      "tpose": {
+        "front": "dreadlock-helm-tpose-front-latest",
+        "right": "dreadlock-helm-tpose-right-latest",
+        "back": "dreadlock-helm-tpose-back-latest",
+        "left": "dreadlock-helm-tpose-left-latest"
+      },
+      "summary": "以铁血赛博掠食者灵感重构的倒 V 压眉战盔，冷浅青灰棱面护额箍紧十至十二股分段波纹液压机械脏辫，立体包覆不穿模。",
+      "facts": [
+        {
+          "term": "压眉战盔",
+          "value": "冷浅青灰锐利倒 V 眉甲与护颊紧扣 L0 深钢蓝面罩，完整露出面罩下颌、红耳翼与猩红窄目镜"
+        },
+        {
+          "term": "角色右眉高光",
+          "value": "仅角色右眉棱斜切面嵌有一道浅亮黄微光细条，角色左眉棱保持纯素面"
+        },
+        {
+          "term": "机械脏辫",
+          "value": "十至十二股哑光炭黑波纹液压脏辫束，每股配冷浅青灰金属箍环与暗金锁扣环，末端收尖锥头止于上背高度"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 4 层"
+        }
+      ],
+      "leftRight": "面部识别左右识别明确：发光浅亮黄眉棱微光条仅设于角色右眉斜切面（正面图位于画面左边），而猩红主目镜在正面及角色右侧面均保持烈红发光，绝不与眉棱黄条混色；全束机械脏辫自耳后顺高领向后披落，绝不遮挡角色左胸 OG 标识。"
+    },
+    {
+      "layer": 4,
+      "name": "超长热能正宗与磁吸脊轨",
+      "path": "/characters/samurai/masamune",
+      "front": "masamune-front-latest",
+      "side": "masamune-right-latest",
+      "back": "masamune-back-latest",
+      "tpose": {
+        "front": "masamune-tpose-front-latest",
+        "right": "masamune-tpose-right-latest",
+        "back": "masamune-tpose-back-latest",
+        "left": "masamune-tpose-left-latest"
+      },
+      "summary": "约身长一点零五倍超长极细热能正宗野太刀，通过披风外侧全长半开放磁吸脊轨实现「背面裸刃冷银收纳＋正面拔刀橙红热能」物理统一。",
+      "facts": [
+        {
+          "term": "正宗刀体",
+          "value": "极细修长微弯野太刀配赤红菱形绳纹双手长柄与仿古黄铜机械刀镡；出鞘燃平涂橙红热能刃口与冷银切先，收纳熄灭为冷金属银"
+        },
+        {
+          "term": "半开放磁吸脊轨",
+          "value": "肩轭转轴臂将哑黑黄铜磁吸锁座托于披风外侧之上，向下延伸极细哑黑伴浅亮黄充电光条脊轨直达下摆尾端"
+        },
+        {
+          "term": "收纳态与拔刀态",
+          "value": "A 姿与 T 姿全视图双手空手，刀背贴合磁吸在脊轨上、正面露出全长冷银裸刃；3/4 拔刀立姿与角色卡由角色左手斜挥出鞘，背后留出空置上座与尾轨"
+        },
+        {
+          "term": "定型形态",
+          "value": "第 4 层为完整定型形态"
+        }
+      ],
+      "leftRight": "斜跨方向严格锁定：收纳时赤红长柄与仿古黄铜磁吸锁座均位于角色右肩后上方（正面图位于画面左边、背面图位于画面右边），脊轨斜向下摆延伸至角色左腿外侧后方；拔刀时由角色左手持握挥向画面左下前侧，角色右臂自然垂落空手，腰胯仅配备角色左胯战术工具盒。"
+    }
+  ]
+}

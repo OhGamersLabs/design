@@ -2726,5 +2726,381 @@
     "sha256": "146c16d5bd5792ccbbc46fb653fe20e5c42d5b1ca175bbdb9c4926976853d20d",
     "sourcePath": "/characters/origins/gunman-original-latest.webp",
     "sourceSha256": "4d8f207246eeda113e2b28a531cbcfa33fc7831f3dc7eddf4cfcf6e52961d7df"
+  },
+  "origins/samurai-original-latest": {
+    "path": "/site/thumbs/origins/samurai-original-latest.webp",
+    "width": 480,
+    "height": 485,
+    "sha256": "f7ba7657e42d992063f7da81b1ef296242de16567e7d4941dad2ad520abfab60",
+    "sourcePath": "/characters/origins/samurai-original-latest.webp",
+    "sourceSha256": "25e74b33128a21ea036bc6da64ead91f852d8ad926a388d5f1df0dd1b6d7f2b6"
+  },
+  "samurai/body-3q-left-latest": {
+    "path": "/site/thumbs/samurai/body-3q-left-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "70463f7fb963c618720a2c5f6633f9fc50f4fce6ece25cf6734b30fa295154b8",
+    "sourcePath": "/characters/samurai/body-3q-left-latest.webp",
+    "sourceSha256": "ec6a4ea0b44868f98318ebaa0c0f2dbd7b63094930fa2207f508d1f788b09a72"
+  },
+  "samurai/body-back-latest": {
+    "path": "/site/thumbs/samurai/body-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "4c76fd03cfe11fbceec95e95527d41c8bc40a247a447710e69fc121e0150c412",
+    "sourcePath": "/characters/samurai/body-back-latest.webp",
+    "sourceSha256": "5fcf34a7e341850aa439fbf2d2b426c3b6aa0aff91050d0de66436299f2a5194"
+  },
+  "samurai/body-front-latest": {
+    "path": "/site/thumbs/samurai/body-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "eed7f1056524dfa0ef3c89d63c0be738466bd21404e396000541f2e4daba3bc5",
+    "sourcePath": "/characters/samurai/body-front-latest.webp",
+    "sourceSha256": "93701ee5ebff76c3a2780fc31d4c994807cd5dbd877cd52be69c8e74f2d19289"
+  },
+  "samurai/body-right-latest": {
+    "path": "/site/thumbs/samurai/body-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "248e4d6a4135ff9d563d86aae120155623054f3f898bc3eaaef77fba6f4c232e",
+    "sourcePath": "/characters/samurai/body-right-latest.webp",
+    "sourceSha256": "ce42e63be3bccb25c21fdae23fbb6deab39af64e89a0ab3bbcfacc6fec245140"
+  },
+  "samurai/body-tpose-back-latest": {
+    "path": "/site/thumbs/samurai/body-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "746001bb3e7ca02eb8b86c0f2289d7d6a6127723933409f2ccfbedddc753e78a",
+    "sourcePath": "/characters/samurai/body-tpose-back-latest.webp",
+    "sourceSha256": "a34cb32734e8378923bff279bdb125a401d42a14450b2837fbe1ecd93c41a2f0"
+  },
+  "samurai/body-tpose-front-latest": {
+    "path": "/site/thumbs/samurai/body-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "98bf06f1f6fa052480790bb0c39aa96352be86f65327a1e280e3f2f7aa98213e",
+    "sourcePath": "/characters/samurai/body-tpose-front-latest.webp",
+    "sourceSha256": "53333b9954da36b3c7fd34eb09fb1024646826e1561d20816815acdb9fe0482a"
+  },
+  "samurai/body-tpose-left-latest": {
+    "path": "/site/thumbs/samurai/body-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "80a8b8b7aa9f2bbf131b1ac9521b78be737c599a26f47906914ce800b6d2a3b6",
+    "sourcePath": "/characters/samurai/body-tpose-left-latest.webp",
+    "sourceSha256": "b1b21265379e54678957e006990c2dc8fb30803c19d30627ccb874717bf50106"
+  },
+  "samurai/body-tpose-right-latest": {
+    "path": "/site/thumbs/samurai/body-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b90c390832a6547434790d09f0369caf5090228bb59b5a9e5f3bdedd9b11ea21",
+    "sourcePath": "/characters/samurai/body-tpose-right-latest.webp",
+    "sourceSha256": "ce4e74f681e30354670505d5f4356f3dfb0277be8f04be4d8f39d554ffd4f201"
+  },
+  "samurai/breakdown-sheet-latest": {
+    "path": "/site/thumbs/samurai/breakdown-sheet-latest.webp",
+    "width": 480,
+    "height": 273,
+    "sha256": "954a0f0db28b216c20f9c850932da0328012f1732c8bae93ea4e04f70e06f914",
+    "sourcePath": "/characters/samurai/breakdown-sheet-latest.webp",
+    "sourceSha256": "38ea93a3f1651562ac23c2e498a929bf400f1c785af094f56aa651d907bc48c7"
+  },
+  "samurai/character-card-latest": {
+    "path": "/site/thumbs/samurai/character-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b9c2eafd8539c2f5fdd2de017d7cac35c11c525a76722d52eb25fe8eec2e83f4",
+    "sourcePath": "/characters/samurai/character-card-latest.webp",
+    "sourceSha256": "d22f1da135487d90176eccd4d72f766faf7c3ce6c5ad6fe6d5cafc156797d73e"
+  },
+  "samurai/chest-tabard-3q-left-latest": {
+    "path": "/site/thumbs/samurai/chest-tabard-3q-left-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "9c8d20734fd87ff6c582bfe9d8ea50a3109258d963ec31fbd1d6cada7ac04c43",
+    "sourcePath": "/characters/samurai/chest-tabard-3q-left-latest.webp",
+    "sourceSha256": "0cc2b2252b5ffdc8f3947744dd4628a573d2f0ec0e577ca3be4b6b37ca1d03e4"
+  },
+  "samurai/chest-tabard-back-latest": {
+    "path": "/site/thumbs/samurai/chest-tabard-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "43f4c271edae2c89d6122981940f5b41ed63dc0cdf8a1cced638515537005ac9",
+    "sourcePath": "/characters/samurai/chest-tabard-back-latest.webp",
+    "sourceSha256": "0ca752d31a20bb649c8a0fd9651e2682baf28a3021cfd47a2a907fe8e4f189f1"
+  },
+  "samurai/chest-tabard-board-latest": {
+    "path": "/site/thumbs/samurai/chest-tabard-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "e8e7708b47429ce7616e96d7227e780a24f4d19f548a9b4dbaec351b3935fee0",
+    "sourcePath": "/characters/samurai/chest-tabard-board-latest.webp",
+    "sourceSha256": "02e3c83e38674c7e3a1082e9f3bae71b98abbc43ee39338d9f7a4fb89125f76c"
+  },
+  "samurai/chest-tabard-front-latest": {
+    "path": "/site/thumbs/samurai/chest-tabard-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "53470f052b6c0bf0568e6051825ff410fad39417e2a40aa3c59408352b8d74b3",
+    "sourcePath": "/characters/samurai/chest-tabard-front-latest.webp",
+    "sourceSha256": "d4c9eb667a1010eae157ce591f20a17cadb79396d609637e6de547c8ec02ac04"
+  },
+  "samurai/chest-tabard-right-latest": {
+    "path": "/site/thumbs/samurai/chest-tabard-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "ed28a06e58e89ee22a8549b1b7b468408661bc6824d40d630dc99c5cb18c1248",
+    "sourcePath": "/characters/samurai/chest-tabard-right-latest.webp",
+    "sourceSha256": "82e629bf97bef0e74cdca24f333a779fa0d2ca734a7616fbd9b6eab12ae96970"
+  },
+  "samurai/chest-tabard-tpose-back-latest": {
+    "path": "/site/thumbs/samurai/chest-tabard-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "f0bb439002562bf20f79b3103a8c5a78ba505ee30fd69507c308ae465814fa8c",
+    "sourcePath": "/characters/samurai/chest-tabard-tpose-back-latest.webp",
+    "sourceSha256": "07869538c7ee0d6e7d9bc19a512d1bcd8ea14387b90abceb755e8cb49f45dd95"
+  },
+  "samurai/chest-tabard-tpose-front-latest": {
+    "path": "/site/thumbs/samurai/chest-tabard-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "22c5e6351704038642366930074a82089c5ee7ea18f6ebf4eb204f5a33a2e8f2",
+    "sourcePath": "/characters/samurai/chest-tabard-tpose-front-latest.webp",
+    "sourceSha256": "f824425790c48e275d12530a68d78b8aed37c999710c0057d4797818dfa294ca"
+  },
+  "samurai/chest-tabard-tpose-left-latest": {
+    "path": "/site/thumbs/samurai/chest-tabard-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b28d6aa93ce8cdc275e1a0d1d4fe48da47b0f6b4e918be5c954741372337f865",
+    "sourcePath": "/characters/samurai/chest-tabard-tpose-left-latest.webp",
+    "sourceSha256": "7d66ffa112226455b2d8d821c086d2fb3372d41bb22233c536e81985eae0df36"
+  },
+  "samurai/chest-tabard-tpose-right-latest": {
+    "path": "/site/thumbs/samurai/chest-tabard-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "713bcb0c200fac184d882d683a688381e5f549ad85917d83c6b29d060d032470",
+    "sourcePath": "/characters/samurai/chest-tabard-tpose-right-latest.webp",
+    "sourceSha256": "6dcb27a7841fa63becd4068f678db0401105b48b1269bcba44ecb50a883a831a"
+  },
+  "samurai/dreadlock-helm-3q-left-latest": {
+    "path": "/site/thumbs/samurai/dreadlock-helm-3q-left-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "452a67b8353a6165b7b9d2c0663c7ff821535bc008228aa7b77e0b6721dc90ff",
+    "sourcePath": "/characters/samurai/dreadlock-helm-3q-left-latest.webp",
+    "sourceSha256": "5249fdceea59d80714f96fb4a2ea03d0fe2db546ed59787b8203f82593d71e47"
+  },
+  "samurai/dreadlock-helm-back-latest": {
+    "path": "/site/thumbs/samurai/dreadlock-helm-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "61b782ca424c1d298280589eb50d84a06d7967b0e5fae088127cb6c77a3caefc",
+    "sourcePath": "/characters/samurai/dreadlock-helm-back-latest.webp",
+    "sourceSha256": "41434fd3637f1cfdb194d71c95e21dfeb318b4d65b7237915f976aadf5b4c93a"
+  },
+  "samurai/dreadlock-helm-board-latest": {
+    "path": "/site/thumbs/samurai/dreadlock-helm-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "1570af308053d7b7fd4f4ed274d6b3a5e773b066f155a88589277b82cfdcb936",
+    "sourcePath": "/characters/samurai/dreadlock-helm-board-latest.webp",
+    "sourceSha256": "dc41d6749f790751d9e20c83ec1684fc7b3fbb8246e0b0eee4f23ffef9d4dc63"
+  },
+  "samurai/dreadlock-helm-front-latest": {
+    "path": "/site/thumbs/samurai/dreadlock-helm-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "c4aed4181535f2b5a8319ad3c1f063b02592c34a6bec067e57c282164e4c2e8d",
+    "sourcePath": "/characters/samurai/dreadlock-helm-front-latest.webp",
+    "sourceSha256": "71fd49b22c898c6ef3fdce3220e84d8893eb69bf66bc7555d7fac2627826a0a7"
+  },
+  "samurai/dreadlock-helm-right-latest": {
+    "path": "/site/thumbs/samurai/dreadlock-helm-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "d94b6aecf18ca5e4fa0d888c725cbd93706ef45d743dfffb0e044578cd91c6b7",
+    "sourcePath": "/characters/samurai/dreadlock-helm-right-latest.webp",
+    "sourceSha256": "94c5f52596f86f32efbf725ef9fb710959f1cc77a05b25cc9fbebf98ca6d321c"
+  },
+  "samurai/dreadlock-helm-tpose-back-latest": {
+    "path": "/site/thumbs/samurai/dreadlock-helm-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "d1d88c531fe50e3e71ac1126be86af8bb684edd9ddbd253ed79e7fce55dfd601",
+    "sourcePath": "/characters/samurai/dreadlock-helm-tpose-back-latest.webp",
+    "sourceSha256": "7d6a10feadecf9f9203118cd510dd11f46b545894aa3595e1cd8042330697f86"
+  },
+  "samurai/dreadlock-helm-tpose-front-latest": {
+    "path": "/site/thumbs/samurai/dreadlock-helm-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "65246cd1e069a0c10a724515cddbad3e5963d3b659ea6d1770dfb5acd63454cd",
+    "sourcePath": "/characters/samurai/dreadlock-helm-tpose-front-latest.webp",
+    "sourceSha256": "234cbeea0c3678af586abfed7bde20d004653ab39dd14da4419e5c6e060ddb3f"
+  },
+  "samurai/dreadlock-helm-tpose-left-latest": {
+    "path": "/site/thumbs/samurai/dreadlock-helm-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "7eb4d634bd59ea27077cbbbfe7e374322feac2d669b3ba5df1fac40e13328b90",
+    "sourcePath": "/characters/samurai/dreadlock-helm-tpose-left-latest.webp",
+    "sourceSha256": "11ad175876cc10f9fd44f1228e1be1aa73884811dca1488621bebe6179d06623"
+  },
+  "samurai/dreadlock-helm-tpose-right-latest": {
+    "path": "/site/thumbs/samurai/dreadlock-helm-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "990c4224a68ae9982a511762cd7f8ae6a1c74959c1aef8b2d8c0a0cb9f77367b",
+    "sourcePath": "/characters/samurai/dreadlock-helm-tpose-right-latest.webp",
+    "sourceSha256": "ba9a7c1080101aba8610758972458c542365daa6c6ce7bdff53826ac4c410a0b"
+  },
+  "samurai/masamune-3q-left-latest": {
+    "path": "/site/thumbs/samurai/masamune-3q-left-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "92abe49a50b83a4a68e8fe82347e009c6e78809afd60f22d5c2bdf8a8fd7d0b1",
+    "sourcePath": "/characters/samurai/masamune-3q-left-latest.webp",
+    "sourceSha256": "a84d11c693aaf3cdd2512f30d5ecdefd2ee58264a6dc4d453ecbd37082d217c0"
+  },
+  "samurai/masamune-back-latest": {
+    "path": "/site/thumbs/samurai/masamune-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "e830a996df9f19c5995163fac4fbd30fa4843fdaa815fa705b091bac0987c832",
+    "sourcePath": "/characters/samurai/masamune-back-latest.webp",
+    "sourceSha256": "45a5f91c27168e95b4a11f8812073e5f4223bb48b799027002773818089715b9"
+  },
+  "samurai/masamune-board-latest": {
+    "path": "/site/thumbs/samurai/masamune-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "3ad9dabb406df86a20b613b17cb7b63119b17b55e39ec81cb3c4b9553f2f0eed",
+    "sourcePath": "/characters/samurai/masamune-board-latest.webp",
+    "sourceSha256": "ef9d81101a1eb658d6b24b52bdbda6971421eb63fd176576c97e150d1e772c2e"
+  },
+  "samurai/masamune-front-latest": {
+    "path": "/site/thumbs/samurai/masamune-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "6ec26383e8b27b8ffe26b68d73da1412ebcdb7061ad0a11f02257f2aed3f7bae",
+    "sourcePath": "/characters/samurai/masamune-front-latest.webp",
+    "sourceSha256": "f2ad46e41e8df9a0ec0618b9214aef67ff4dc97db77059136d69695a8022d59c"
+  },
+  "samurai/masamune-right-latest": {
+    "path": "/site/thumbs/samurai/masamune-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "246cb01d5285400b9d62188bbd6f0a30f48b0d910819bf0c8e756eb886c954b7",
+    "sourcePath": "/characters/samurai/masamune-right-latest.webp",
+    "sourceSha256": "6aa9effd32760916bc443d17d97fb02c3638f1c824a3e2fdbf2df6bc75ffa8e4"
+  },
+  "samurai/masamune-tpose-back-latest": {
+    "path": "/site/thumbs/samurai/masamune-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9d8a7f34845f1c381de506f8b49fcf41f77e139052af16c99ff208c9dccb963c",
+    "sourcePath": "/characters/samurai/masamune-tpose-back-latest.webp",
+    "sourceSha256": "111b1a185415e192ab787cbd6baa1967f6f441fb25a2a385e505cad5f4559baf"
+  },
+  "samurai/masamune-tpose-front-latest": {
+    "path": "/site/thumbs/samurai/masamune-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "3855d34d81920f965d7f2b85b1c2115ab27558b10acb8fd9a94b80b076bca673",
+    "sourcePath": "/characters/samurai/masamune-tpose-front-latest.webp",
+    "sourceSha256": "d316110ef4ecdec485be4b40563e5503cc416a6c6b065fe99dd48db2e6ed6d81"
+  },
+  "samurai/masamune-tpose-left-latest": {
+    "path": "/site/thumbs/samurai/masamune-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "741919f3e334f3a5aef362a579e5a320717f688f4e7b554651689c5a0e3b0f3e",
+    "sourcePath": "/characters/samurai/masamune-tpose-left-latest.webp",
+    "sourceSha256": "d691c860bd00397c3c0edc13d351746bf3f83bdcc28161dac94f9f4d6831fbce"
+  },
+  "samurai/masamune-tpose-right-latest": {
+    "path": "/site/thumbs/samurai/masamune-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "cd7b30ae40700e3d5547a262763ef8d4da03e0dd41b1be763b9f5cfa6b292e45",
+    "sourcePath": "/characters/samurai/masamune-tpose-right-latest.webp",
+    "sourceSha256": "900dcb6877b8378e702a7a253faca6524982885f93b5d74ecf18a9a3c25f15d5"
+  },
+  "samurai/pauldrons-cape-3q-left-latest": {
+    "path": "/site/thumbs/samurai/pauldrons-cape-3q-left-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "31299ab550529fb214a57fd7a39bff72db7f0770051e2e2135fa6245422651e5",
+    "sourcePath": "/characters/samurai/pauldrons-cape-3q-left-latest.webp",
+    "sourceSha256": "8f78dfd362ec56ecfc57737fc5df075fb3867771f3462cfee4028ad0b0c6d2f9"
+  },
+  "samurai/pauldrons-cape-back-latest": {
+    "path": "/site/thumbs/samurai/pauldrons-cape-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "e02eba9c21cf6a1efe131411306293058cb1270c6830d13b1d55eb13f9cc7462",
+    "sourcePath": "/characters/samurai/pauldrons-cape-back-latest.webp",
+    "sourceSha256": "4936bcd9f2563e080f107e673e91d10b745c0224187dcb97f6faec90ab01920a"
+  },
+  "samurai/pauldrons-cape-board-latest": {
+    "path": "/site/thumbs/samurai/pauldrons-cape-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "bfce88f4d067d3cc8fbbaf50ba060f8f2c723ff82def2fbbaacb4ff5999b8b2c",
+    "sourcePath": "/characters/samurai/pauldrons-cape-board-latest.webp",
+    "sourceSha256": "4da46679c1c4b440aef2a7bcaa268e0172a217b9fff3ba1f399896f4990b0f9f"
+  },
+  "samurai/pauldrons-cape-front-latest": {
+    "path": "/site/thumbs/samurai/pauldrons-cape-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "74cac4899dbffae48770397dadd6c3e7c417e2db9783b9e2d85128c3f8e1c2d5",
+    "sourcePath": "/characters/samurai/pauldrons-cape-front-latest.webp",
+    "sourceSha256": "85442e4ffbe8809f99fc8a46fcbe98effac6d7cdcfee675c15573d1637ec4c24"
+  },
+  "samurai/pauldrons-cape-right-latest": {
+    "path": "/site/thumbs/samurai/pauldrons-cape-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "a1674ba6483626aaff3485e7daabf83fe839af47f2ccc4fa598f89be381ea143",
+    "sourcePath": "/characters/samurai/pauldrons-cape-right-latest.webp",
+    "sourceSha256": "7632db6f784275b11d866b231eeda927095cffeb8bc354d5448d967a604c1619"
+  },
+  "samurai/pauldrons-cape-tpose-back-latest": {
+    "path": "/site/thumbs/samurai/pauldrons-cape-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "317ab19461b7d3cc8495164917127dbeb5b5f43cf825f7dbcdea3f57ff9b3088",
+    "sourcePath": "/characters/samurai/pauldrons-cape-tpose-back-latest.webp",
+    "sourceSha256": "bde77a58094f0e7d9590088e9c1be8d9d674a9dbcd6a5bac8745f340f3944b2d"
+  },
+  "samurai/pauldrons-cape-tpose-front-latest": {
+    "path": "/site/thumbs/samurai/pauldrons-cape-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b8e3152a6c3019c495a84a20973504a90ac9ea15486414d7c50eb18508d0335f",
+    "sourcePath": "/characters/samurai/pauldrons-cape-tpose-front-latest.webp",
+    "sourceSha256": "9f86558ff483032a987bb58e8fa6067115777ddffba6733e931362d7c214bc48"
+  },
+  "samurai/pauldrons-cape-tpose-left-latest": {
+    "path": "/site/thumbs/samurai/pauldrons-cape-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "72a96774939ae56e47f45fd3aa4fed42b1847b94c9ffdd9c57f559cd9c22a7f9",
+    "sourcePath": "/characters/samurai/pauldrons-cape-tpose-left-latest.webp",
+    "sourceSha256": "b23cff68105b587e8202acfacf6a8be6419006d94fa28dd6756846337414d170"
+  },
+  "samurai/pauldrons-cape-tpose-right-latest": {
+    "path": "/site/thumbs/samurai/pauldrons-cape-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "70f4f0650efdd65088a9de050d3e83842835beb5db66cdca0a431d6b0001cc03",
+    "sourcePath": "/characters/samurai/pauldrons-cape-tpose-right-latest.webp",
+    "sourceSha256": "9423284725c716b2eab0c351234c477b78f4fccf110b5d066b346501831e4ab7"
   }
 }

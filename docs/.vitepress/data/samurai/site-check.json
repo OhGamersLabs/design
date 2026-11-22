@@ -1,0 +1,10 @@
+{
+  "allowedDates": [
+    "2026-11-21",
+    "2026-11-22"
+  ],
+  "forbiddenWords": [
+    "村正"
+  ],
+  "fixedCaptions": {}
+}
