@@ -2047,6 +2047,288 @@
       "path": "/media/origins/gunman-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/gunman-original-latest.png",
       "contentType": "image/png"
+    },
+    {
+      "character": "origins",
+      "path": "/media/origins/samurai-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/samurai-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/body-3q-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/body-3q-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/body-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/body-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/body-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/body-tpose-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/body-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/body-tpose-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/body-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/body-tpose-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/body-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/body-tpose-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/body-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/character-card-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/chest-tabard-3q-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/chest-tabard-3q-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/chest-tabard-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/chest-tabard-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/chest-tabard-board-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/chest-tabard-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/chest-tabard-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/chest-tabard-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/chest-tabard-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/chest-tabard-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/chest-tabard-tpose-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/chest-tabard-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/chest-tabard-tpose-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/chest-tabard-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/chest-tabard-tpose-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/chest-tabard-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/chest-tabard-tpose-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/chest-tabard-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/dreadlock-helm-3q-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/dreadlock-helm-3q-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/dreadlock-helm-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/dreadlock-helm-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/dreadlock-helm-board-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/dreadlock-helm-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/dreadlock-helm-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/dreadlock-helm-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/dreadlock-helm-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/dreadlock-helm-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/dreadlock-helm-tpose-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/dreadlock-helm-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/dreadlock-helm-tpose-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/dreadlock-helm-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/dreadlock-helm-tpose-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/dreadlock-helm-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/dreadlock-helm-tpose-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/dreadlock-helm-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/masamune-3q-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/masamune-3q-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/masamune-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/masamune-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/masamune-board-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/masamune-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/masamune-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/masamune-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/masamune-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/masamune-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/masamune-tpose-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/masamune-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/masamune-tpose-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/masamune-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/masamune-tpose-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/masamune-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/masamune-tpose-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/masamune-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/pauldrons-cape-3q-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-3q-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/pauldrons-cape-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/pauldrons-cape-board-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/pauldrons-cape-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/pauldrons-cape-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/pauldrons-cape-tpose-back-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/pauldrons-cape-tpose-front-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/pauldrons-cape-tpose-left-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "samurai",
+      "path": "/media/samurai/pauldrons-cape-tpose-right-latest.png",
+      "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-tpose-right-latest.png",
+      "contentType": "image/png"
     }
   ]
 }

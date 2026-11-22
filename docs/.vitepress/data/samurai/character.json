@@ -1,0 +1,28 @@
+{
+  "name": "Samurai",
+  "role": "武士",
+  "order": 7,
+  "portrait": "masamune-front-latest",
+  "pages": [
+    {
+      "path": "/characters/samurai/body",
+      "title": "机械武士本体"
+    },
+    {
+      "path": "/characters/samurai/chest-tabard",
+      "title": "强化胸甲与战术垂帘"
+    },
+    {
+      "path": "/characters/samurai/pauldrons-cape",
+      "title": "可动肩甲与长披风"
+    },
+    {
+      "path": "/characters/samurai/dreadlock-helm",
+      "title": "铁血机械脏辫战盔"
+    },
+    {
+      "path": "/characters/samurai/masamune",
+      "title": "超长热能正宗与磁吸脊轨"
+    }
+  ]
+}

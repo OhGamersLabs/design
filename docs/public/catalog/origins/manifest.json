@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 6,
+  "asset_count": 7,
   "assets": [
     {
       "id": "angel-original-latest",
@@ -141,6 +141,29 @@
         "height": 2048,
         "bytes": 1457694,
         "sha256": "4d8f207246eeda113e2b28a531cbcfa33fc7831f3dc7eddf4cfcf6e52961d7df",
+        "alpha": true
+      }
+    },
+    {
+      "id": "samurai-original-latest",
+      "character": "origins",
+      "title": "samurai-original-latest",
+      "original": {
+        "path": "/media/origins/samurai-original-latest.png",
+        "mime_type": "image/png",
+        "width": 2028,
+        "height": 2048,
+        "bytes": 2229121,
+        "sha256": "77c2b88724904ef0dd5017fc88dcfe9f68f098a01923d64226d7f2662fd5c4df",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/samurai-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2028,
+        "height": 2048,
+        "bytes": 1154408,
+        "sha256": "25e74b33128a21ea036bc6da64ead91f852d8ad926a388d5f1df0dd1b6d7f2b6",
         "alpha": true
       }
     }
