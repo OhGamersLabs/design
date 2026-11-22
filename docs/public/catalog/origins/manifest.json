@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 4,
+  "asset_count": 5,
   "assets": [
     {
       "id": "angel-original-latest",
@@ -95,6 +95,29 @@
         "height": 2048,
         "bytes": 1862058,
         "sha256": "6e440b9ba50356db74afd8b36dc1aefe7ac5ac568b18080841ef57dfca2b75c3",
+        "alpha": true
+      }
+    },
+    {
+      "id": "gunman-original-latest",
+      "character": "origins",
+      "title": "gunman-original-latest",
+      "original": {
+        "path": "/media/origins/gunman-original-latest.png",
+        "mime_type": "image/png",
+        "width": 4877,
+        "height": 5102,
+        "bytes": 11070548,
+        "sha256": "94958e9199f0a07baa2a2c3b7240d0e19b7da6a88ed90a4f56d648da26d099a7",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/gunman-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1958,
+        "height": 2048,
+        "bytes": 1457694,
+        "sha256": "4d8f207246eeda113e2b28a531cbcfa33fc7831f3dc7eddf4cfcf6e52961d7df",
         "alpha": true
       }
     }

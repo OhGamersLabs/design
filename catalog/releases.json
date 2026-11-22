@@ -1437,6 +1437,318 @@
       "contentType": "image/png"
     },
     {
+      "character": "gunman",
+      "path": "/media/gunman/anchor-card-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/anchor-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/armor-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/armor-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/armor-board-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/armor-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/armor-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/armor-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/armor-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/armor-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/armor-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/armor-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/armor-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/armor-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/armor-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/armor-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/armor-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/armor-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/body-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/body-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/body-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/body-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/body-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/body-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/body-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/body-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/body-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/body-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/body-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/character-card-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/combat-suit-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/combat-suit-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/combat-suit-board-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/combat-suit-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/combat-suit-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/combat-suit-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/combat-suit-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/combat-suit-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/combat-suit-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/combat-suit-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/combat-suit-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/combat-suit-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/combat-suit-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/combat-suit-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/combat-suit-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/combat-suit-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/face-sheet-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/face-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/rifle-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/rifle-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/rifle-board-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/rifle-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/rifle-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/rifle-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/rifle-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/rifle-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/rifle-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/rifle-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/rifle-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/rifle-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/rifle-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/rifle-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/rifle-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/rifle-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/tactical-rig-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/tactical-rig-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/tactical-rig-board-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/tactical-rig-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/tactical-rig-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/tactical-rig-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/tactical-rig-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/tactical-rig-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/tactical-rig-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/tactical-rig-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/tactical-rig-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/tactical-rig-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/tactical-rig-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/tactical-rig-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/tactical-rig-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/tactical-rig-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/visor-mask-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/visor-mask-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/visor-mask-board-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/visor-mask-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/visor-mask-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/visor-mask-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/visor-mask-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/visor-mask-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/visor-mask-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/visor-mask-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/visor-mask-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/visor-mask-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/visor-mask-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/visor-mask-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gunman",
+      "path": "/media/gunman/visor-mask-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gunman/latest/visor-mask-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "origins",
       "path": "/media/origins/angel-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/angel-original-latest.png",
@@ -1458,6 +1770,12 @@
       "character": "origins",
       "path": "/media/origins/doge-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/doge-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "origins",
+      "path": "/media/origins/gunman-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/gunman-original-latest.png",
       "contentType": "image/png"
     }
   ]
