@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 8,
+  "asset_count": 9,
   "assets": [
     {
       "id": "angel-original-latest",
@@ -164,6 +164,29 @@
         "height": 1961,
         "bytes": 1571884,
         "sha256": "6820dc121eb9c6a831d2263a9501ab9a51fcd62b6637e6500a60c1679cfa9eaf",
+        "alpha": true
+      }
+    },
+    {
+      "id": "robot-original-latest",
+      "character": "origins",
+      "title": "robot-original-latest",
+      "original": {
+        "path": "/media/origins/robot-original-latest.png",
+        "mime_type": "image/png",
+        "width": 2048,
+        "height": 1927,
+        "bytes": 3684254,
+        "sha256": "566c4e77c6532a6a7090442f01f602bab83f33b87eddeafa2df4255fba21bd1e",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/robot-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1927,
+        "bytes": 2041060,
+        "sha256": "6b51f8f563c8df4134a9a7651eeeb25acadba3f333220e7881f6a939e1cdca2e",
         "alpha": true
       }
     },

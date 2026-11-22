@@ -1,0 +1,231 @@
+{
+  "chapter": "layers",
+  "noun": "装甲层",
+  "wear": "装戴",
+  "items": [
+    {
+      "layer": 0,
+      "name": "双粉本体",
+      "path": "/characters/robot/body",
+      "front": "body-front-latest",
+      "side": "body-right-latest",
+      "back": "body-back-latest",
+      "summary": "内藏于重甲外壳之下的双粉高机动本体：玫瑰粉上身与深玫红小腿、白色面罩与 V 字天线、琥珀双目、暗灰胸核 OG 与前臂折叠刃。",
+      "facts": [
+        {
+          "term": "双粉分区",
+          "value": "上身与大腿主玫瑰粉，小腿与足部深玫红"
+        },
+        {
+          "term": "头部特征",
+          "value": "白色面罩、紧凑白色 V 字天线与琥珀双目"
+        },
+        {
+          "term": "近战武装",
+          "value": "双前臂外侧各收折一枚平面暗灰近战折刃"
+        },
+        {
+          "term": "装戴顺序",
+          "value": "第 0 层穿戴基准，之上逐层叠加第 1 至第 7 层重甲"
+        }
+      ],
+      "leftRight": "双肩圆接口、双前臂折叠刃与双腿两侧完全对称，胸核正中印有纯白 OG 标识。"
+    },
+    {
+      "layer": 1,
+      "name": "重载承力内架",
+      "path": "/characters/robot/load-frame",
+      "front": "load-frame-front-latest",
+      "side": "load-frame-right-latest",
+      "back": "load-frame-back-latest",
+      "summary": "直接锁接于第 0 层本体的工业级深枪灰承力外架：肩部挂载桥、供能脊梁、抗后坐腰环、侧胯外挂锁座与琥珀色爆破快拆栓。",
+      "facts": [
+        {
+          "term": "承力架构",
+          "value": "肩桥、背脊供能梁与环形抗后坐腰框构成闭环传力"
+        },
+        {
+          "term": "爆甲机构",
+          "value": "各关节关键挂载点配置醒目琥珀色爆破快拆栓"
+        },
+        {
+          "term": "外露范围",
+          "value": "本体头、双臂与双腿完整外露，校验零干涉挂载间隙"
+        },
+        {
+          "term": "装戴顺序",
+          "value": "第 1 层工业骨架，承接第 2 至第 7 层全部重甲模块"
+        }
+      ],
+      "leftRight": "承力肩桥、腰环与双侧胯部锁座呈两侧对称结构，为后续非对称重武装提供均衡底座。"
+    },
+    {
+      "layer": 2,
+      "name": "躯干重甲与排热舱",
+      "path": "/characters/robot/torso-armor",
+      "front": "torso-armor-front-latest",
+      "side": "torso-armor-right-latest",
+      "back": "torso-armor-back-latest",
+      "summary": "厚重包覆头颈的 U 型高领、多折面六边形主胸甲、储能腹筒、重型腰裙，以及衔接本体进风口的双离心风机与下沿三片主动排热百叶。",
+      "facts": [
+        {
+          "term": "高领防护",
+          "value": "厚实 U 型高领三向包覆本体头颈并留出头盔扣座"
+        },
+        {
+          "term": "排热回路",
+          "value": "接本体胸栅进风，经双离心风机由下沿三片百叶排热"
+        },
+        {
+          "term": "状态灯组",
+          "value": "胸腹暗槽内置橙色格栅，角色右端嵌双红竖灯"
+        },
+        {
+          "term": "装戴顺序",
+          "value": "第 2 层核心躯干壳体，之上挂载双肩导弹舱"
+        }
+      ],
+      "leftRight": "躯干甲主体两侧对称，胸腹散热槽角色右端（画面左侧）设双红竖向警示灯，角色左端无红灯。"
+    },
+    {
+      "layer": 3,
+      "name": "双肩集束导弹舱",
+      "path": "/characters/robot/shoulder-pods",
+      "front": "shoulder-pods-front-latest",
+      "side": "shoulder-pods-right-latest",
+      "back": "shoulder-pods-back-latest",
+      "summary": "紧贴 U 型高领的不对称厚重肩甲，舱体偏置架于肩座外侧，液压鸥翼掀盖向两侧外翻展露 4×4 集束微导弹阵（双肩合计 32 枚）。",
+      "facts": [
+        {
+          "term": "角色右肩",
+          "value": "圆厚折面防弹肩甲配纵向白条与下前角红灯"
+        },
+        {
+          "term": "角色左肩",
+          "value": "斜削翼罩造型重肩甲配上部金属灰开关检修盖"
+        },
+        {
+          "term": "齐射火力",
+          "value": "双肩外侧液压上翻掀盖，各露 16 管白体红尖微导弹"
+        },
+        {
+          "term": "装戴顺序",
+          "value": "第 3 层肩部火力模块，下缘齐胸栅露肘承接双臂重炮"
+        }
+      ],
+      "leftRight": "双肩造型严格非对称：角色右肩（画面左侧）为圆厚轮廓带红灯与白纵条，角色左肩（画面右侧）为斜削大斜面翼罩。"
+    },
+    {
+      "layer": 4,
+      "name": "双臂重装武装炮",
+      "path": "/characters/robot/arm-cannons",
+      "front": "arm-cannons-front-latest",
+      "side": "arm-cannons-right-latest",
+      "back": "arm-cannons-back-latest",
+      "summary": "纯重火力无盾双臂重炮架构：角色右臂为前臂共轴圆筒热鼓重炮（八棱袖套直套内握触发），角色左臂为双青缝重型方匣重炮。",
+      "facts": [
+        {
+          "term": "角色右臂炮",
+          "value": "前臂共轴热鼓重炮，深玫背甲四斜向散热缝配蓝灰前罩"
+        },
+        {
+          "term": "角色左臂炮",
+          "value": "重型暗灰方匣重炮，肘下双电光青缝配开瓣青色电容轨"
+        },
+        {
+          "term": "握持逻辑",
+          "value": "本体双拳内置于共轴套筒直握扳机，垂臂自然顺畅"
+        },
+        {
+          "term": "装戴顺序",
+          "value": "第 4 层双臂重武装，双腿完整留空承接第 5 层重腿"
+        }
+      ],
+      "leftRight": "双臂武装严格非对称：角色右臂（画面左侧）为圆筒热鼓长炮，角色左臂（画面右侧）为双青缝厚重方匣短炮，全机无护盾。"
+    },
+    {
+      "layer": 5,
+      "name": "钟形超重下肢与驻锄",
+      "path": "/characters/robot/leg-armor",
+      "front": "leg-armor-front-latest",
+      "side": "leg-armor-right-latest",
+      "back": "leg-armor-back-latest",
+      "summary": "德天使级钟形外扩超重型腿甲：宽厚大腿甲、巨型深枪灰膝甲、无收窄外扩深玫红小腿、6 栅青色散热电容舱与后跟双连杆液压驻锄。",
+      "facts": [
+        {
+          "term": "钟形腿廓",
+          "value": "大腿宽厚、膝甲厚实，深玫小腿向下持续外扩接巨型楔足"
+        },
+        {
+          "term": "散热电容",
+          "value": "双腿外侧设 6 栅闭锁电容舱，齐射时滑开透出电光青阵"
+        },
+        {
+          "term": "反后坐锁地",
+          "value": "足跟双连杆液压活塞将锯齿驻锄压实地面，前趾双爪协同锁止"
+        },
+        {
+          "term": "装戴顺序",
+          "value": "第 5 层下肢重甲，足底基准线严格与第 0 层齐平"
+        }
+      ],
+      "leftRight": "第 5 层素甲阶段双腿结构、膝甲、6 栅电容舱与六边形护踝保持两侧对称，不对称战术涂装于第 7 层落定。"
+    },
+    {
+      "layer": 6,
+      "name": "伪装头盔与肩顶模块",
+      "path": "/characters/robot/helmet-sensors",
+      "front": "helmet-sensors-front-latest",
+      "side": "helmet-sensors-right-latest",
+      "back": "helmet-sensors-back-latest",
+      "summary": "紧嵌于 U 型高领的全包覆兜帽伪装头盔（完整罩住本体 V 天线、角色左侧单耳黑镜头），配角色右肩顶双红镜火控荚与角色左肩顶 4 针供能包。",
+      "facts": [
+        {
+          "term": "伪装头盔",
+          "value": "前掠兜帽内衬避让 V 天线，宽琥珀目镜与本体双目共轴"
+        },
+        {
+          "term": "单耳镜头",
+          "value": "圆筒黑光学镜头严格仅设于角色左侧耳部，角色右侧为素面护颊"
+        },
+        {
+          "term": "双肩顶模块",
+          "value": "角色右双红镜火控荚 + 角色左高出盔顶 4 针能源/通讯包"
+        },
+        {
+          "term": "装戴顺序",
+          "value": "第 6 层全覆盖硬件定型，支持三瓣爆破弹出露本体头"
+        }
+      ],
+      "leftRight": "头部黑镜头严格位于角色左侧耳部（正面图在画面右侧、背面图在画面左侧）；角色右肩顶为双红镜荚，角色左肩顶为带暖橙侧窗的 4 针方箱包。"
+    },
+    {
+      "layer": 7,
+      "name": "装甲细节与涂装终稿",
+      "path": "/characters/robot/armor-details",
+      "front": "armor-details-front-latest",
+      "side": "armor-details-right-latest",
+      "back": "armor-details-back-latest",
+      "summary": "全身装甲机械分件与标识全面重设：正背主胸甲仅印纯白官方 OG 徽标，全甲升级双色检修盖、琥珀快拆三角标与不对称纯白战术识别带。",
+      "facts": [
+        {
+          "term": "唯一品牌标",
+          "value": "正背胸甲居中印纯白官方交错 OG，全机零冗余英文字或数字"
+        },
+        {
+          "term": "双肩涂装",
+          "value": "角色右肩双段纯白纵带；角色左肩双色阶梯盖配斜切双白杠"
+        },
+        {
+          "term": "下肢节奏",
+          "value": "角色左大腿折角白带与深玫底边，角色左前踝双白斜杠"
+        },
+        {
+          "term": "细节收口",
+          "value": "头盔浅灰冠脊条、高领浅灰锁片、角色左包四瓣电源标与双炮精细标线"
+        }
+      ],
+      "leftRight": "角色右侧以肩部双段白纵带与热鼓炮白背线为主；角色左侧以肩部双白杠、四瓣电源标、大腿折角白带与前踝双白斜杠形成连贯斜向视觉韵律。"
+    }
+  ]
+}

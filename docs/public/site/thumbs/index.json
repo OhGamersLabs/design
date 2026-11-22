@@ -3495,6 +3495,14 @@
     "sourcePath": "/characters/origins/mew-original-latest.webp",
     "sourceSha256": "6820dc121eb9c6a831d2263a9501ab9a51fcd62b6637e6500a60c1679cfa9eaf"
   },
+  "origins/robot-original-latest": {
+    "path": "/site/thumbs/origins/robot-original-latest.webp",
+    "width": 480,
+    "height": 452,
+    "sha256": "af30cdb8f53f9a2611c191900397b3434f6eedc878557bfd7113223eb620431f",
+    "sourcePath": "/characters/origins/robot-original-latest.webp",
+    "sourceSha256": "6b51f8f563c8df4134a9a7651eeeb25acadba3f333220e7881f6a939e1cdca2e"
+  },
   "origins/samurai-original-latest": {
     "path": "/site/thumbs/origins/samurai-original-latest.webp",
     "width": 480,
@@ -3502,6 +3510,422 @@
     "sha256": "f7ba7657e42d992063f7da81b1ef296242de16567e7d4941dad2ad520abfab60",
     "sourcePath": "/characters/origins/samurai-original-latest.webp",
     "sourceSha256": "25e74b33128a21ea036bc6da64ead91f852d8ad926a388d5f1df0dd1b6d7f2b6"
+  },
+  "robot/arm-cannons-back-latest": {
+    "path": "/site/thumbs/robot/arm-cannons-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "fec05a382d93b93747f37cdc2b639b9049612c46b627181f4d5330a8fa4a0ffe",
+    "sourcePath": "/characters/robot/arm-cannons-back-latest.webp",
+    "sourceSha256": "b983310b98aa15f25ea64906a5848ed348e34de67471891d98b213f95ec5b7da"
+  },
+  "robot/arm-cannons-board-latest": {
+    "path": "/site/thumbs/robot/arm-cannons-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "ec5d3655f373d3c71c058ffaf963c7bc375cf9e65b55f7f1b53da052485846d4",
+    "sourcePath": "/characters/robot/arm-cannons-board-latest.webp",
+    "sourceSha256": "2ab86fe69e8b6a2c18f8f7a2160fac9980b893cbd49bcc9f630acdfade41e262"
+  },
+  "robot/arm-cannons-cutaway-latest": {
+    "path": "/site/thumbs/robot/arm-cannons-cutaway-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "fb2faedf1fca126b93eddf3aed9a0b97995fc7a697f49ab7151759514e5f0deb",
+    "sourcePath": "/characters/robot/arm-cannons-cutaway-latest.webp",
+    "sourceSha256": "03bda05670dbbd8ad372ec12144e919fd0e77dba7df89b2f14a617404abe5590"
+  },
+  "robot/arm-cannons-front-latest": {
+    "path": "/site/thumbs/robot/arm-cannons-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "cabc4b826ae070e3e403c5dd589cb49ee6598f0188c4f69efb8c51771d014bdb",
+    "sourcePath": "/characters/robot/arm-cannons-front-latest.webp",
+    "sourceSha256": "e556f0b4c476b132ca75d256487fe1240f13b83e3b2cdd9ac7e4379b6e726556"
+  },
+  "robot/arm-cannons-left-latest": {
+    "path": "/site/thumbs/robot/arm-cannons-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "40a0c19522e7609c6deebac55b43a9a8a3febb59ffb3d71eb0e038bd0b7501fb",
+    "sourcePath": "/characters/robot/arm-cannons-left-latest.webp",
+    "sourceSha256": "e76d451ed4bb607ab46d67eca88746e7b1fb7d5032a5ba703735e75886b5fc2c"
+  },
+  "robot/arm-cannons-right-latest": {
+    "path": "/site/thumbs/robot/arm-cannons-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "61b8946021e13b33ea4843307b621c3493b2641bda60d6f9bf8c57c47aa6dc3a",
+    "sourcePath": "/characters/robot/arm-cannons-right-latest.webp",
+    "sourceSha256": "8a57df0866271ac13d2a5791c80abb1fe17e903bce9781f72bb2bf5211b0e3a6"
+  },
+  "robot/armor-details-3q-left-latest": {
+    "path": "/site/thumbs/robot/armor-details-3q-left-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "5f4c16e1a96814dd36c840695bbd53823c23370e65bbce0ce327949a5c2611a7",
+    "sourcePath": "/characters/robot/armor-details-3q-left-latest.webp",
+    "sourceSha256": "7165483a4516875a580475a54482b610b91105abd3222a47eb21668f24679b0c"
+  },
+  "robot/armor-details-back-latest": {
+    "path": "/site/thumbs/robot/armor-details-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "cd07d145e9c03234bb039c653ddc303fbd5c375796fa4c643e2b526483e3fb24",
+    "sourcePath": "/characters/robot/armor-details-back-latest.webp",
+    "sourceSha256": "f5937bc6794b1c78472a4a5db5b092286f1a5c63a5ee9fa4aa49563e2c34caa9"
+  },
+  "robot/armor-details-board-latest": {
+    "path": "/site/thumbs/robot/armor-details-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "18e8afbf5b3e1af3c1c1cd7eb62034d0274c87ad9a2a86a4edfb327913010639",
+    "sourcePath": "/characters/robot/armor-details-board-latest.webp",
+    "sourceSha256": "ad110ad1ee57eba9a95255898b66b919ac3e6d62ca53d963a8576f640516d6d8"
+  },
+  "robot/armor-details-front-latest": {
+    "path": "/site/thumbs/robot/armor-details-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8b7ec4cbddc0ad1495cdcb6038af9022c0f8dd404b7ee5b3e09d4ee25053c50f",
+    "sourcePath": "/characters/robot/armor-details-front-latest.webp",
+    "sourceSha256": "d7f562ac865a1e1358e16e3ae89bf16a5c1680b8a47d06731eb718a9aee03feb"
+  },
+  "robot/armor-details-left-latest": {
+    "path": "/site/thumbs/robot/armor-details-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "73ccc07acc24c2d4c2aa34be7fdccd19698321e662aed133ecfbd74ae2068dd7",
+    "sourcePath": "/characters/robot/armor-details-left-latest.webp",
+    "sourceSha256": "aa91eadf1d38694abee3cec330e9af7720670e9b2a6610ed24991641137a9a05"
+  },
+  "robot/armor-details-right-latest": {
+    "path": "/site/thumbs/robot/armor-details-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "aab9b015558fd2a1465358eab6e8d94ac6ce79a519d75146fed4538b44131879",
+    "sourcePath": "/characters/robot/armor-details-right-latest.webp",
+    "sourceSha256": "eab846ed9d21843efa58a93235e1ec8483bc86cc8ca99405e04439076cede11e"
+  },
+  "robot/body-3q-left-latest": {
+    "path": "/site/thumbs/robot/body-3q-left-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "4f5103140bf0187a670a61b2c87af3320191f58ff5895208bf7c68013021370d",
+    "sourcePath": "/characters/robot/body-3q-left-latest.webp",
+    "sourceSha256": "37d8d3edbf8e84931a847331b6e5a7080a7737fb0b1037702ce749b7e1b35661"
+  },
+  "robot/body-back-latest": {
+    "path": "/site/thumbs/robot/body-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "768d6d4bfd26419a5f2ce07fdc0cb13ca645c0be6056198e3f07addf192d1938",
+    "sourcePath": "/characters/robot/body-back-latest.webp",
+    "sourceSha256": "f5562800cf83590c62d25171d2223f36c761c52f15719b6776d21da6bc7fe5ce"
+  },
+  "robot/body-front-latest": {
+    "path": "/site/thumbs/robot/body-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "f696cbe0f848a962d51e54e0a26bec493a219f9d189e4123879932d8a4685dae",
+    "sourcePath": "/characters/robot/body-front-latest.webp",
+    "sourceSha256": "1d7f1a78e82873e907c1e62cd4fce647ff451b48a8f574a9ca48dcddedb7e3b9"
+  },
+  "robot/body-left-latest": {
+    "path": "/site/thumbs/robot/body-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0b180b539d2593e71c194a1c428f90b6d8cf5a71897ee58f100035dd5664d06b",
+    "sourcePath": "/characters/robot/body-left-latest.webp",
+    "sourceSha256": "8e0404d4fcaa2101ac10ae8e00897955e661add97ea3536c28d3286ae67b6327"
+  },
+  "robot/body-right-latest": {
+    "path": "/site/thumbs/robot/body-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "4847e2bac2cf7551ac68468b46e18964c5d4af3994d3402b748aedb78913d4ce",
+    "sourcePath": "/characters/robot/body-right-latest.webp",
+    "sourceSha256": "e3c08411b8a861fd0109887f6154d09f747be27a56ebb55f4fd829e637eb8b68"
+  },
+  "robot/breakdown-sheet-latest": {
+    "path": "/site/thumbs/robot/breakdown-sheet-latest.webp",
+    "width": 480,
+    "height": 334,
+    "sha256": "2554bcd7e3f885139e41524d52033028c50deca39b9461ed86556e26efe30ca6",
+    "sourcePath": "/characters/robot/breakdown-sheet-latest.webp",
+    "sourceSha256": "8b1dd6aa22c69aba27da0af73fd0885f9d98704020caee7142708d11cc9fc75f"
+  },
+  "robot/character-card-combat-latest": {
+    "path": "/site/thumbs/robot/character-card-combat-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "fcdd9087c82c59e0fbb28c2cd9a6776de21db3749c8061deed28dfe346032ffe",
+    "sourcePath": "/characters/robot/character-card-combat-latest.webp",
+    "sourceSha256": "9577acefca7f6073d821dbc942b66a0e6e5add9e98af38a9a688845a8aa376ca"
+  },
+  "robot/character-card-latest": {
+    "path": "/site/thumbs/robot/character-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9a1646b495573a784fd1ae9b071a4c4d10ba98824c59e229ef09f81719b4e4a0",
+    "sourcePath": "/characters/robot/character-card-latest.webp",
+    "sourceSha256": "f77b374424411c93972eecba7faf06e80d4dcb825877eb48bf734860e24fdb5a"
+  },
+  "robot/head-comparison-latest": {
+    "path": "/site/thumbs/robot/head-comparison-latest.webp",
+    "width": 480,
+    "height": 307,
+    "sha256": "00e2821fd2e85199c9165933f575b1ac86e9c168a2228486729e114853a361fd",
+    "sourcePath": "/characters/robot/head-comparison-latest.webp",
+    "sourceSha256": "80470b3ab1cd8d7b59a637119539f12c424efd3dd343bea2a05dd54c1c6a6d48"
+  },
+  "robot/helmet-purge-latest": {
+    "path": "/site/thumbs/robot/helmet-purge-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "1e2347df370bb82f898a1ffec14ccce65d8ee02201d219aa7552c6879c28da77",
+    "sourcePath": "/characters/robot/helmet-purge-latest.webp",
+    "sourceSha256": "fe17bc1b3ff12b63a4a58a9857240819eec8f9eadf62a8bd8c1a70ba9ad7c229"
+  },
+  "robot/helmet-sensors-back-latest": {
+    "path": "/site/thumbs/robot/helmet-sensors-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "d37116fa40dc54a03f7b477c02ccb156c531a727e5efa30d5803fd2cee0897a2",
+    "sourcePath": "/characters/robot/helmet-sensors-back-latest.webp",
+    "sourceSha256": "c575dc225ccd4a77466102c82ece3e2a91f11ba5b9d66aace46231936bd9e991"
+  },
+  "robot/helmet-sensors-board-latest": {
+    "path": "/site/thumbs/robot/helmet-sensors-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "444a72ecfd42007a2407a1fa3eda0f4d613d3c9f6d863e4375113a055ed6b49b",
+    "sourcePath": "/characters/robot/helmet-sensors-board-latest.webp",
+    "sourceSha256": "1cf49973ce99616ea8af8d2522dd78ee481159c13c035dbe4abbfeb272319ad5"
+  },
+  "robot/helmet-sensors-cutaway-latest": {
+    "path": "/site/thumbs/robot/helmet-sensors-cutaway-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "b996eef6320c96f774da2f7595b4dab15459d99dd368a6205701cf70a9095a62",
+    "sourcePath": "/characters/robot/helmet-sensors-cutaway-latest.webp",
+    "sourceSha256": "0111f82ace88f9bc8ed3fa2e723f08ddb6bb4c5b726da84f95e42f30b3f8f284"
+  },
+  "robot/helmet-sensors-front-latest": {
+    "path": "/site/thumbs/robot/helmet-sensors-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9acb4675b12b39cc01283654ef0f0526b5280af6e25626726d51de10f5657a47",
+    "sourcePath": "/characters/robot/helmet-sensors-front-latest.webp",
+    "sourceSha256": "83b0e3a18fdb28157571f6258b262036998189fe309bb06c0b9f773a198983e0"
+  },
+  "robot/helmet-sensors-left-latest": {
+    "path": "/site/thumbs/robot/helmet-sensors-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b8f91ddc16530065c7708aede9b5eaa26a9027af7b1a1cdb126be0ca9c3da323",
+    "sourcePath": "/characters/robot/helmet-sensors-left-latest.webp",
+    "sourceSha256": "b675121e917d3421517234d80f99063c0adcdca59e368c83baa39f03e435aca1"
+  },
+  "robot/helmet-sensors-right-latest": {
+    "path": "/site/thumbs/robot/helmet-sensors-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ba97cb3bdbcf9c6025bf9161162d3b8fca6e14beae1a213dbb7b9d54249db48a",
+    "sourcePath": "/characters/robot/helmet-sensors-right-latest.webp",
+    "sourceSha256": "48cd6dc0171f15ad7059e8ea949bd3af4e3829d0afdd2e676f171e1d08277af6"
+  },
+  "robot/leg-armor-back-latest": {
+    "path": "/site/thumbs/robot/leg-armor-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "2d28de2b67e19b4e0146e862850c7777c481169dbb0976dd8f66246988895e9c",
+    "sourcePath": "/characters/robot/leg-armor-back-latest.webp",
+    "sourceSha256": "c09bad02c81acb8b3c1b2fe8102023fec4be458361490b965878298a914c08e8"
+  },
+  "robot/leg-armor-board-latest": {
+    "path": "/site/thumbs/robot/leg-armor-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "80adcd2dbe3999cf4abdf5e80e429312da955257162a8e678f68cbe7e1f3cee0",
+    "sourcePath": "/characters/robot/leg-armor-board-latest.webp",
+    "sourceSha256": "cc43b69167f445d52159211086f6b6e22b130e46ab190f6257128b725a2d07c8"
+  },
+  "robot/leg-armor-cutaway-latest": {
+    "path": "/site/thumbs/robot/leg-armor-cutaway-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "c55c18de5ae787bf5e5ca562a6c55bac7411a9b45d52e21857280faa926d8156",
+    "sourcePath": "/characters/robot/leg-armor-cutaway-latest.webp",
+    "sourceSha256": "d8524c6b808212ff7afe48799c0c576c50536533d154438cf59e6ab44848ec47"
+  },
+  "robot/leg-armor-front-latest": {
+    "path": "/site/thumbs/robot/leg-armor-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "f2a4eaf0850a329fd27be98dcb014be27d5a0e3fd06e6eae4fc495b80c5bacdd",
+    "sourcePath": "/characters/robot/leg-armor-front-latest.webp",
+    "sourceSha256": "724c4ed83a7f188c642fb56fd8e21a8cc3a1b2826e45a19593f729d9b0013844"
+  },
+  "robot/leg-armor-left-latest": {
+    "path": "/site/thumbs/robot/leg-armor-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "09198f70ac076fee05e641d589ab37e13145d2def2f664bcd87ceaf545110445",
+    "sourcePath": "/characters/robot/leg-armor-left-latest.webp",
+    "sourceSha256": "74418ceff980c1899eaf8bb93b73b6550776fd9e7ab64992011c3b053811d79f"
+  },
+  "robot/leg-armor-right-latest": {
+    "path": "/site/thumbs/robot/leg-armor-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0d0597a5a6d2c5b870834b8b06f9fea1377156f0168c74af4ec20db25e664d8c",
+    "sourcePath": "/characters/robot/leg-armor-right-latest.webp",
+    "sourceSha256": "a35e4e0e86318c81d00b5c7835006356541db339fa8c00316b4f7e96ef9f6693"
+  },
+  "robot/load-frame-back-latest": {
+    "path": "/site/thumbs/robot/load-frame-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "7355bd59a566ea9fc036e1f85aaea6ef2389783303b8de0edff1d294eea72975",
+    "sourcePath": "/characters/robot/load-frame-back-latest.webp",
+    "sourceSha256": "86ce7718c519d62d213271345d7fee4a3ba802819d4891f6a6b03856a57fe52c"
+  },
+  "robot/load-frame-board-latest": {
+    "path": "/site/thumbs/robot/load-frame-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "f57bede75ba4a44471594ebbfb0293fcf1557f2a43ec339b5d3a50ead210db9e",
+    "sourcePath": "/characters/robot/load-frame-board-latest.webp",
+    "sourceSha256": "9045d20a0c6e601447c65c6b926899c380cf38dda57adb8efd99f2a7d76a1d90"
+  },
+  "robot/load-frame-front-latest": {
+    "path": "/site/thumbs/robot/load-frame-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8f4dfcd82d0201a2333dc22d65403b17be3f99edfcd2aca717a81c285fb53287",
+    "sourcePath": "/characters/robot/load-frame-front-latest.webp",
+    "sourceSha256": "a8cc11375c1973638d8d7e3741aa3ee615148c771ca6d474978a14a49166de20"
+  },
+  "robot/load-frame-left-latest": {
+    "path": "/site/thumbs/robot/load-frame-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "e844e94d476c0a563cf7786ecbccddaf8dc9a420c75a33dbf45ed0b87e6b3a7c",
+    "sourcePath": "/characters/robot/load-frame-left-latest.webp",
+    "sourceSha256": "c9434102bd9cce7a3952aaa9e809b8bcbe59d0523742965b2b96f88c51a4a13d"
+  },
+  "robot/load-frame-right-latest": {
+    "path": "/site/thumbs/robot/load-frame-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "70e7ed01f84368e5415a978443c6b2d2deb2fa0d2a2443eb5e97356f46c4558a",
+    "sourcePath": "/characters/robot/load-frame-right-latest.webp",
+    "sourceSha256": "70d41a6e886b1255b15c0286a5d20d6ae792141eac7b77045957d95f76f1ddf9"
+  },
+  "robot/purge-mid-latest": {
+    "path": "/site/thumbs/robot/purge-mid-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "f8005e9bd4ef2d790d81b11de91697bb9989e0b53f50cf2e54f65d9dfe7eac43",
+    "sourcePath": "/characters/robot/purge-mid-latest.webp",
+    "sourceSha256": "40f7e84768d4de3f4008d7b1bd8fd6743dbb0dfa134601dbd449baa5ed9fac96"
+  },
+  "robot/purge-tristate-latest": {
+    "path": "/site/thumbs/robot/purge-tristate-latest.webp",
+    "width": 480,
+    "height": 292,
+    "sha256": "b1b7b4fa1052a1f602b1c4b7dc836248148863f0300406c21007bc44af0a3a3c",
+    "sourcePath": "/characters/robot/purge-tristate-latest.webp",
+    "sourceSha256": "8e3e75551dca343ff6394d4c7c4547f45f9f84845f5c1a89d57a4541f9c30743"
+  },
+  "robot/shoulder-pods-back-latest": {
+    "path": "/site/thumbs/robot/shoulder-pods-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "3306254b200204a255a6c7840d2f7d01432cf132ae0d4e4e5fd2c86e82597e5b",
+    "sourcePath": "/characters/robot/shoulder-pods-back-latest.webp",
+    "sourceSha256": "03b729508f527bb4807e8e22c8af658b3e8e68f6af9fa6ab5a4d1b02c9cfab69"
+  },
+  "robot/shoulder-pods-board-latest": {
+    "path": "/site/thumbs/robot/shoulder-pods-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "d20e45c77c7844e5c6ef2d8d23690a007ba5358cedc73e2738b806b352e145e0",
+    "sourcePath": "/characters/robot/shoulder-pods-board-latest.webp",
+    "sourceSha256": "6fd38314228b140667d165532e42e936ffb953e80b52a00e609eca6d6d534518"
+  },
+  "robot/shoulder-pods-front-latest": {
+    "path": "/site/thumbs/robot/shoulder-pods-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "846de02eb7221ad675c5bf25c42ac30c3dc6e68d57f11a4bfef6b0fdbe860b04",
+    "sourcePath": "/characters/robot/shoulder-pods-front-latest.webp",
+    "sourceSha256": "40595d75e76ff2fe58c62cebf3c7d450fa610bf7b455eac0748ed3d5a370ce00"
+  },
+  "robot/shoulder-pods-left-latest": {
+    "path": "/site/thumbs/robot/shoulder-pods-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "6e23670c41307b8a6d4af7f1fbeb1e9f4ffd8b134784c94027211507cc971b9b",
+    "sourcePath": "/characters/robot/shoulder-pods-left-latest.webp",
+    "sourceSha256": "43be8bd4007648bb77826ec8bf5d46a5bd88efdbbb50a7227d5e76afbe044def"
+  },
+  "robot/shoulder-pods-right-latest": {
+    "path": "/site/thumbs/robot/shoulder-pods-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "f8039d4804b917355a11ae7aacffc647c234e8b2578745173edd466e9fdce03d",
+    "sourcePath": "/characters/robot/shoulder-pods-right-latest.webp",
+    "sourceSha256": "c4f573cfe8111a03c23f135d1023b8ef69c798841be1893d195ac01b6886b76f"
+  },
+  "robot/torso-armor-back-latest": {
+    "path": "/site/thumbs/robot/torso-armor-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ecd5085467ebe7f0310db499925dda787b9bd7bbb155e9ee0e923649191f93be",
+    "sourcePath": "/characters/robot/torso-armor-back-latest.webp",
+    "sourceSha256": "06623d97957818a5c96fb12fa0818185c37ebeae8a2eff5b3c53858934e8ca34"
+  },
+  "robot/torso-armor-board-latest": {
+    "path": "/site/thumbs/robot/torso-armor-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "9ae31fc425c896bbc42604bb7e8bc1ff9e79ac9b8739d7a9081ffcae19e9df60",
+    "sourcePath": "/characters/robot/torso-armor-board-latest.webp",
+    "sourceSha256": "0cd3608a2543063ee628248ab31621f21658e738b6465a181be9b5a939342de2"
+  },
+  "robot/torso-armor-front-latest": {
+    "path": "/site/thumbs/robot/torso-armor-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "d6d39dcb188653198e308bf1885ac9132994f8e367c8dcd1bb03a45fb1a3f73f",
+    "sourcePath": "/characters/robot/torso-armor-front-latest.webp",
+    "sourceSha256": "294b254ab8c24dcd119fb3a2b7e96bb32a1770b533a6b5c5436bb2513a68e20f"
+  },
+  "robot/torso-armor-left-latest": {
+    "path": "/site/thumbs/robot/torso-armor-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ed07da787f831dd834a4668fee8806f8c11874f848df3dcabfe95a84569c3ced",
+    "sourcePath": "/characters/robot/torso-armor-left-latest.webp",
+    "sourceSha256": "6bf06a05d4cf97fbc53523b325c211b1b71537c195c6b5edca1c8184edeff92a"
+  },
+  "robot/torso-armor-right-latest": {
+    "path": "/site/thumbs/robot/torso-armor-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5b021ed480fe269aa061f7befdfd169917c8f5aff6c8f2a4a59c16807d3f8a04",
+    "sourcePath": "/characters/robot/torso-armor-right-latest.webp",
+    "sourceSha256": "9b2403ef17c6fccebde53b2538c74a6c848eaddf0ef2d45005a21d40494e3cdd"
+  },
+  "robot/torso-cooling-cutaway-latest": {
+    "path": "/site/thumbs/robot/torso-cooling-cutaway-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "1ce6b8b98c278351a16513c1a86b11f051cb67451b5520baf65ad08b362b0ec6",
+    "sourcePath": "/characters/robot/torso-cooling-cutaway-latest.webp",
+    "sourceSha256": "849a28161dd957d4f7021d8dd5bbf8d96a40895ee287227ddb289e285d5f8d56"
   },
   "samurai/body-3q-left-latest": {
     "path": "/site/thumbs/samurai/body-3q-left-latest.webp",

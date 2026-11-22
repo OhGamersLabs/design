@@ -2626,8 +2626,326 @@
     },
     {
       "character": "origins",
+      "path": "/media/origins/robot-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/robot-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "origins",
       "path": "/media/origins/samurai-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/samurai-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/arm-cannons-back-latest.png",
+      "key": "x_ops/design/characters/robot/latest/arm-cannons-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/arm-cannons-board-latest.png",
+      "key": "x_ops/design/characters/robot/latest/arm-cannons-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/arm-cannons-cutaway-latest.png",
+      "key": "x_ops/design/characters/robot/latest/arm-cannons-cutaway-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/arm-cannons-front-latest.png",
+      "key": "x_ops/design/characters/robot/latest/arm-cannons-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/arm-cannons-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/arm-cannons-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/arm-cannons-right-latest.png",
+      "key": "x_ops/design/characters/robot/latest/arm-cannons-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/armor-details-3q-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/armor-details-3q-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/armor-details-back-latest.png",
+      "key": "x_ops/design/characters/robot/latest/armor-details-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/armor-details-board-latest.png",
+      "key": "x_ops/design/characters/robot/latest/armor-details-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/armor-details-front-latest.png",
+      "key": "x_ops/design/characters/robot/latest/armor-details-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/armor-details-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/armor-details-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/armor-details-right-latest.png",
+      "key": "x_ops/design/characters/robot/latest/armor-details-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/body-3q-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/body-3q-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/body-back-latest.png",
+      "key": "x_ops/design/characters/robot/latest/body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/body-front-latest.png",
+      "key": "x_ops/design/characters/robot/latest/body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/body-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/body-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/body-right-latest.png",
+      "key": "x_ops/design/characters/robot/latest/body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/robot/latest/breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/character-card-combat-latest.png",
+      "key": "x_ops/design/characters/robot/latest/character-card-combat-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/character-card-latest.png",
+      "key": "x_ops/design/characters/robot/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/head-comparison-latest.png",
+      "key": "x_ops/design/characters/robot/latest/head-comparison-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/helmet-purge-latest.png",
+      "key": "x_ops/design/characters/robot/latest/helmet-purge-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/helmet-sensors-back-latest.png",
+      "key": "x_ops/design/characters/robot/latest/helmet-sensors-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/helmet-sensors-board-latest.png",
+      "key": "x_ops/design/characters/robot/latest/helmet-sensors-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/helmet-sensors-cutaway-latest.png",
+      "key": "x_ops/design/characters/robot/latest/helmet-sensors-cutaway-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/helmet-sensors-front-latest.png",
+      "key": "x_ops/design/characters/robot/latest/helmet-sensors-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/helmet-sensors-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/helmet-sensors-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/helmet-sensors-right-latest.png",
+      "key": "x_ops/design/characters/robot/latest/helmet-sensors-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/leg-armor-back-latest.png",
+      "key": "x_ops/design/characters/robot/latest/leg-armor-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/leg-armor-board-latest.png",
+      "key": "x_ops/design/characters/robot/latest/leg-armor-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/leg-armor-cutaway-latest.png",
+      "key": "x_ops/design/characters/robot/latest/leg-armor-cutaway-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/leg-armor-front-latest.png",
+      "key": "x_ops/design/characters/robot/latest/leg-armor-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/leg-armor-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/leg-armor-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/leg-armor-right-latest.png",
+      "key": "x_ops/design/characters/robot/latest/leg-armor-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/load-frame-back-latest.png",
+      "key": "x_ops/design/characters/robot/latest/load-frame-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/load-frame-board-latest.png",
+      "key": "x_ops/design/characters/robot/latest/load-frame-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/load-frame-front-latest.png",
+      "key": "x_ops/design/characters/robot/latest/load-frame-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/load-frame-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/load-frame-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/load-frame-right-latest.png",
+      "key": "x_ops/design/characters/robot/latest/load-frame-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/purge-mid-latest.png",
+      "key": "x_ops/design/characters/robot/latest/purge-mid-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/purge-tristate-latest.png",
+      "key": "x_ops/design/characters/robot/latest/purge-tristate-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/shoulder-pods-back-latest.png",
+      "key": "x_ops/design/characters/robot/latest/shoulder-pods-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/shoulder-pods-board-latest.png",
+      "key": "x_ops/design/characters/robot/latest/shoulder-pods-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/shoulder-pods-front-latest.png",
+      "key": "x_ops/design/characters/robot/latest/shoulder-pods-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/shoulder-pods-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/shoulder-pods-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/shoulder-pods-right-latest.png",
+      "key": "x_ops/design/characters/robot/latest/shoulder-pods-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/torso-armor-back-latest.png",
+      "key": "x_ops/design/characters/robot/latest/torso-armor-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/torso-armor-board-latest.png",
+      "key": "x_ops/design/characters/robot/latest/torso-armor-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/torso-armor-front-latest.png",
+      "key": "x_ops/design/characters/robot/latest/torso-armor-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/torso-armor-left-latest.png",
+      "key": "x_ops/design/characters/robot/latest/torso-armor-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/torso-armor-right-latest.png",
+      "key": "x_ops/design/characters/robot/latest/torso-armor-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "robot",
+      "path": "/media/robot/torso-cooling-cutaway-latest.png",
+      "key": "x_ops/design/characters/robot/latest/torso-cooling-cutaway-latest.png",
       "contentType": "image/png"
     },
     {

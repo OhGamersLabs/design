@@ -1,0 +1,11 @@
+{
+  "allowedDates": [
+    "2026-11-22"
+  ],
+  "forbiddenWords": [
+    "OH GAMERS",
+    "ECHO",
+    "臂盾"
+  ],
+  "fixedCaptions": {}
+}
