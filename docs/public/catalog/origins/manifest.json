@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 7,
+  "asset_count": 8,
   "assets": [
     {
       "id": "angel-original-latest",
@@ -141,6 +141,29 @@
         "height": 2048,
         "bytes": 1457694,
         "sha256": "4d8f207246eeda113e2b28a531cbcfa33fc7831f3dc7eddf4cfcf6e52961d7df",
+        "alpha": true
+      }
+    },
+    {
+      "id": "mew-original-latest",
+      "character": "origins",
+      "title": "mew-original-latest",
+      "original": {
+        "path": "/media/origins/mew-original-latest.png",
+        "mime_type": "image/png",
+        "width": 2048,
+        "height": 1961,
+        "bytes": 3038002,
+        "sha256": "933202be8af3ebd27204f152c657994a44dd77c2554366942901c70fd796d151",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/mew-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1961,
+        "bytes": 1571884,
+        "sha256": "6820dc121eb9c6a831d2263a9501ab9a51fcd62b6637e6500a60c1679cfa9eaf",
         "alpha": true
       }
     },

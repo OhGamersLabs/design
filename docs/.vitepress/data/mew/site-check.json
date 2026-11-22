@@ -1,0 +1,11 @@
+{
+  "allowedDates": [
+    "2026-11-22"
+  ],
+  "forbiddenWords": [
+    "紫光",
+    "紫色推进器",
+    "小腿喷口"
+  ],
+  "fixedCaptions": {}
+}

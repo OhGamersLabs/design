@@ -1,0 +1,1206 @@
+{
+  "schema_version": "2.0",
+  "character_id": "mew",
+  "language": "zh-CN",
+  "title": "Mew 设计参考",
+  "status": "local-review",
+  "asset_count": 52,
+  "assets": [
+    {
+      "id": "body-back-latest",
+      "character": "mew",
+      "title": "body-back-latest",
+      "original": {
+        "path": "/media/mew/body-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3228540,
+        "sha256": "9125262b66e3e898d63cc8e835e704c78535f879897f8b03d7854c9b8f1b2e41",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/body-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1457014,
+        "sha256": "ec491ccf7b42fe4b2a9becb171cb54ec19002f65db28c00ffeba815af0024672",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-front-latest",
+      "character": "mew",
+      "title": "body-front-latest",
+      "original": {
+        "path": "/media/mew/body-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3484958,
+        "sha256": "599d93dee70d285c4005ec3f57b2a40a16b7ebed7d4ab0e67aa0afa2b0a87a23",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/body-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1579258,
+        "sha256": "169f71b97d96ce2e87c571a77d2dba848629746d5eb5f6dc1c13085083dd1a6b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-left-latest",
+      "character": "mew",
+      "title": "body-left-latest",
+      "original": {
+        "path": "/media/mew/body-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3175247,
+        "sha256": "ed33d9839b3547b5e87ad5b7f7d2e4b7967e41c79e89cb1abd74f5300249f5d0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/body-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1476420,
+        "sha256": "26ec604b0aeaef6aa6a36a6907043816a23434d5d928376a41594dccc2d59393",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-right-latest",
+      "character": "mew",
+      "title": "body-right-latest",
+      "original": {
+        "path": "/media/mew/body-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3192811,
+        "sha256": "a9f72326282294bba994b2bd85834f81543ef11c7ebba8b4a8bbe871b2abbfc0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/body-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1476096,
+        "sha256": "48a7a091093a434e8c94738af33e5e0ab6d02d9561dd7d91678c313fa4a021a5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "breakdown-sheet-latest",
+      "character": "mew",
+      "title": "breakdown-sheet-latest",
+      "original": {
+        "path": "/media/mew/breakdown-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 3132,
+        "bytes": 4546459,
+        "sha256": "5aa6eea75e36c1c9fe8804f80e663b55f59b38d8fd8e058bb76617fe01c26089",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/breakdown-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1670,
+        "bytes": 1367014,
+        "sha256": "25c805dd2bb9be211f9ecd36bb0b132db0585419f6c70159d07504939a7c769f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-body-back-latest",
+      "character": "mew",
+      "title": "catgirl-body-back-latest",
+      "original": {
+        "path": "/media/mew/catgirl-body-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3043700,
+        "sha256": "d9f23639fbb9bba90882e3c306ec001e8f3e7c4fc8f464bc3d7c5b49a5b5d32d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-body-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1035370,
+        "sha256": "585c1f8fd2f7619f1b5f36db71b6aea770d10d3757fe3dda58512470b6425f5a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-body-front-latest",
+      "character": "mew",
+      "title": "catgirl-body-front-latest",
+      "original": {
+        "path": "/media/mew/catgirl-body-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2978465,
+        "sha256": "7454bd505cd68f95c3af994a16995d69f028de922cd785b1fd5173aa8e2fe324",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-body-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1025118,
+        "sha256": "0d1dd70ce3ec8b48533887ad830df0f9e24fb946902fa4bc5065f226116380ee",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-body-right-latest",
+      "character": "mew",
+      "title": "catgirl-body-right-latest",
+      "original": {
+        "path": "/media/mew/catgirl-body-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2482210,
+        "sha256": "0326f9a76483abd3e3dbde08a12dbb4f7de21390e33b4a68caccb21a32d84dd1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-body-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 837870,
+        "sha256": "b9457750be0079ed8b657bdc4da6239d03295d070fc787b805d1e5a6f3d00460",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-body-tpose-back-latest",
+      "character": "mew",
+      "title": "catgirl-body-tpose-back-latest",
+      "original": {
+        "path": "/media/mew/catgirl-body-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2756785,
+        "sha256": "529143a58c86353c0eaf252065058f7bf00edebb88226f4d691c5150a3917768",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-body-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1299632,
+        "sha256": "a9d2e76bb103f3d3579bde63daa92f9beadc73fb3bf61da7eaf12c56f9730bb5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-body-tpose-front-latest",
+      "character": "mew",
+      "title": "catgirl-body-tpose-front-latest",
+      "original": {
+        "path": "/media/mew/catgirl-body-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2692676,
+        "sha256": "f1bc6e71b1388d88c5100e67fb7e1e6fa483ef4c64adc2b3988119881ba12261",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-body-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1266324,
+        "sha256": "cb0dd6dd9cb0aba62e7e447309828885c96d8ab4e13189270683d7814250b76a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-body-tpose-left-latest",
+      "character": "mew",
+      "title": "catgirl-body-tpose-left-latest",
+      "original": {
+        "path": "/media/mew/catgirl-body-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2346036,
+        "sha256": "91bac62228e0a2432fc1d88d6bc2c50beaae4188af4bec3131611e1afe5855a0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-body-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1093832,
+        "sha256": "882372038e7e8399ff47d3a64c757002a0485c62b921c865063060ec381a85be",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-body-tpose-right-latest",
+      "character": "mew",
+      "title": "catgirl-body-tpose-right-latest",
+      "original": {
+        "path": "/media/mew/catgirl-body-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2357704,
+        "sha256": "7443abb5bc712d960435d0e60d7a67b168d156599bb31f827a66c6fc7c58f311",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-body-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1098234,
+        "sha256": "1b26631f188686ee7710507b5115c3152962b02ef5d7f108281f020cebc26020",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-breakdown-sheet-latest",
+      "character": "mew",
+      "title": "catgirl-breakdown-sheet-latest",
+      "original": {
+        "path": "/media/mew/catgirl-breakdown-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 3132,
+        "bytes": 4998463,
+        "sha256": "69b6d5314b4aa80b618dfac76c4fe739b029b42a8a9c9f26380f900691e4e923",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-breakdown-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1670,
+        "bytes": 1448294,
+        "sha256": "e6b9a8e6dd32caa4454a125ee6556ef49b3352fe1705270b69af42eea0760ba7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-expressions-sheet-latest",
+      "character": "mew",
+      "title": "catgirl-expressions-sheet-latest",
+      "original": {
+        "path": "/media/mew/catgirl-expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 7321707,
+        "sha256": "76fb4ab3a439c67c458dbbd804cca96c0911a2cc8a6b95561d18188cce7d1775",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 2221748,
+        "sha256": "9047b6c20b8e0176bdef03b6d085eac9ba1ad02440a1b61c559e895113302a1e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-face-sheet-latest",
+      "character": "mew",
+      "title": "catgirl-face-sheet-latest",
+      "original": {
+        "path": "/media/mew/catgirl-face-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4255488,
+        "sha256": "3b23c46d16e0ff514abbb524c3e56c32bdb6c34bf88c436aa185bb8470ba2ca6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-face-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1341182,
+        "sha256": "ebecaf17a1b18d16320fcf58cac99f6a546396f393385862c530d669975dc7b4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-limbs-back-latest",
+      "character": "mew",
+      "title": "catgirl-limbs-back-latest",
+      "original": {
+        "path": "/media/mew/catgirl-limbs-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3357376,
+        "sha256": "c79471564cbacc7cdb738ac3ad3c6a3459f461307e96afada4378ff9e1970e59",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-limbs-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1122828,
+        "sha256": "2d31ca4f16d9621c1b14fc59e6bfef041c1c6a361c142b7bde9909573610379c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-limbs-board-latest",
+      "character": "mew",
+      "title": "catgirl-limbs-board-latest",
+      "original": {
+        "path": "/media/mew/catgirl-limbs-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5125539,
+        "sha256": "f52160c664f755c73e47e93b7b6ff4630bd3ec81934e389d7730230e248dc6f4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-limbs-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1567642,
+        "sha256": "8fb4f6c5bf829df73ee964fc3db4695c4f67f6d13d14624e0cdbd0a2db22c9a8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-limbs-front-latest",
+      "character": "mew",
+      "title": "catgirl-limbs-front-latest",
+      "original": {
+        "path": "/media/mew/catgirl-limbs-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3456456,
+        "sha256": "854186d81086f830a965705eb4a2e68aeb64c1be0cedc40c201c9d15ff0cb71f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-limbs-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1155736,
+        "sha256": "426a602ca5a155a36753fb63991214e7be7aedcfc717a8b8459291039135ce58",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-limbs-right-latest",
+      "character": "mew",
+      "title": "catgirl-limbs-right-latest",
+      "original": {
+        "path": "/media/mew/catgirl-limbs-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2767739,
+        "sha256": "dc3752988f4bba841b098c52e87205cc5ae2f404fcdd30678b9c771bb5e9a255",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-limbs-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 924366,
+        "sha256": "dd62d48c437aefc34ae98e908584f7dcaa7a848de86d4962faacd4eb27b9f250",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-limbs-tpose-back-latest",
+      "character": "mew",
+      "title": "catgirl-limbs-tpose-back-latest",
+      "original": {
+        "path": "/media/mew/catgirl-limbs-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2932988,
+        "sha256": "fe584a0df1626e3f40026f9d2a5b0d9370187a7726726d75e52707c92d4fc7de",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-limbs-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1355046,
+        "sha256": "ffdd4e96e0d9c2c96a76976c934f83afb6ce5825a87f19fd6c5ca85cad075233",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-limbs-tpose-front-latest",
+      "character": "mew",
+      "title": "catgirl-limbs-tpose-front-latest",
+      "original": {
+        "path": "/media/mew/catgirl-limbs-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3140273,
+        "sha256": "c48ee011c8725a241c5197a4f3fc367dfd51672103b2e16ca3091c6bec3c8b99",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-limbs-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1458020,
+        "sha256": "64c2d3ba4816a44a614551735f4609ed413207fa3997c4f83c4bd6ca70ffd0e1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-limbs-tpose-left-latest",
+      "character": "mew",
+      "title": "catgirl-limbs-tpose-left-latest",
+      "original": {
+        "path": "/media/mew/catgirl-limbs-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2561195,
+        "sha256": "2a7a1cf23dd51f6fd82617817bf9d92ab3e493c7548df788c1477e772dbb9b5d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-limbs-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1169264,
+        "sha256": "e95eea8b56a2dffe3804e996f15b5c9cea99b570540efe1658aac8f812f8204c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-limbs-tpose-right-latest",
+      "character": "mew",
+      "title": "catgirl-limbs-tpose-right-latest",
+      "original": {
+        "path": "/media/mew/catgirl-limbs-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2579091,
+        "sha256": "5264f3e6d73fe6626b7273cb562d28d51e52ac589a1628409d85971e2c90b92e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-limbs-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1178094,
+        "sha256": "c7e66c28787ab32c7e38581a9ce205a7d5f7f9abed9fecc34def213504c246d1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-pack-back-latest",
+      "character": "mew",
+      "title": "catgirl-pack-back-latest",
+      "original": {
+        "path": "/media/mew/catgirl-pack-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3498616,
+        "sha256": "9920298da9f4845f462d39bef2b485b7d1425bd3d4b50123fdbb608a070837d9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-pack-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1164222,
+        "sha256": "9d574c807e712b376f4c8c3c7ed2cbfdd8107fd764fac4d6018a811e58559185",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-pack-board-latest",
+      "character": "mew",
+      "title": "catgirl-pack-board-latest",
+      "original": {
+        "path": "/media/mew/catgirl-pack-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4605141,
+        "sha256": "94e311f1765c8e8e26b0e7b65aa53ded3e302724139918abe946e8928befdae7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-pack-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1430138,
+        "sha256": "e7a73aa36c77f5038a5c96734099b7d09dce991c96cc8fa14d32fedfebcd2f97",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-pack-front-latest",
+      "character": "mew",
+      "title": "catgirl-pack-front-latest",
+      "original": {
+        "path": "/media/mew/catgirl-pack-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3505597,
+        "sha256": "a931609954a246c654c59215712c93d11addcb30f563ce68179738d7e17836d6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-pack-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1174634,
+        "sha256": "e69e32c4707c6e8a85002bf556b0c530fa677d4214df71ba4f86cd0a040b88be",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-pack-right-latest",
+      "character": "mew",
+      "title": "catgirl-pack-right-latest",
+      "original": {
+        "path": "/media/mew/catgirl-pack-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2928379,
+        "sha256": "0204cc1cfe9e9e973f239e7bb235fdfe7fb7d75d38b5b5636639536c3a2ce677",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-pack-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 971224,
+        "sha256": "dccef27378d7ed35e9ea91e06a3552aaf1d94beeaaf1eb23f7096a5e92d18cbb",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-pack-tpose-back-latest",
+      "character": "mew",
+      "title": "catgirl-pack-tpose-back-latest",
+      "original": {
+        "path": "/media/mew/catgirl-pack-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3179069,
+        "sha256": "fd3ae73684e4831c99228e8a705e8285945d37582eae89391e94796e2f2ae086",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-pack-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1471484,
+        "sha256": "db07f8700a9894b5b5a5eb32ae12de2fd1983d5d5836e63c3b129ef752076489",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-pack-tpose-front-latest",
+      "character": "mew",
+      "title": "catgirl-pack-tpose-front-latest",
+      "original": {
+        "path": "/media/mew/catgirl-pack-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3199506,
+        "sha256": "add581d1cef147f05a791d14489ec20dd9341050a4a69f8630be03c293b69b71",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-pack-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1479716,
+        "sha256": "d12560fab7379da4b4892950ada183609d3f82459340912e04d2582c16110dae",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-pack-tpose-left-latest",
+      "character": "mew",
+      "title": "catgirl-pack-tpose-left-latest",
+      "original": {
+        "path": "/media/mew/catgirl-pack-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2694005,
+        "sha256": "3bd054375911ba73262e6fe579ceb74e9d454af86d32f935b49f5a5461c54157",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-pack-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1245580,
+        "sha256": "d265a57b677b2bd5827c775fecdaf06216a6d87c3db86b1d935a2f5c3ad46db4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-pack-tpose-right-latest",
+      "character": "mew",
+      "title": "catgirl-pack-tpose-right-latest",
+      "original": {
+        "path": "/media/mew/catgirl-pack-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2676645,
+        "sha256": "4646503b41ab00b5350912de87ffd8f69bd565baba207bb11044ae35c93d6002",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-pack-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1225870,
+        "sha256": "2563c3c56594843e6297135118acd8b46e46fe3c21ec08b920f25c3948906cee",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-unitard-back-latest",
+      "character": "mew",
+      "title": "catgirl-unitard-back-latest",
+      "original": {
+        "path": "/media/mew/catgirl-unitard-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2999612,
+        "sha256": "285f7c8bfdcee9b77d90cb2a7d0bffbb9fe99b45c7184e523a7d65e9ce7e7f29",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-unitard-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1031988,
+        "sha256": "456b4bf1a3090ca5e633feb5a3553940e9330fd31983df037958758d22805553",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-unitard-board-latest",
+      "character": "mew",
+      "title": "catgirl-unitard-board-latest",
+      "original": {
+        "path": "/media/mew/catgirl-unitard-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4659161,
+        "sha256": "1c1d038a04bbd1a55b0601d70a536121e35b9d8f671f4fdc8e7b6124e2c5c820",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-unitard-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1451890,
+        "sha256": "fdce182c991837b9ae2054a8a775d03c795ff4fa7f3966c03b23799a3b6501d9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-unitard-front-latest",
+      "character": "mew",
+      "title": "catgirl-unitard-front-latest",
+      "original": {
+        "path": "/media/mew/catgirl-unitard-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3015158,
+        "sha256": "6e9dfb1e3b79a4d36311146f338a04eeab309ea5a166a820252af208714ec0dc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-unitard-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1032752,
+        "sha256": "c5e4888a5b67f1b0817067a150756aed6dbfb49b3d58549eae33452832cccf03",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-unitard-right-latest",
+      "character": "mew",
+      "title": "catgirl-unitard-right-latest",
+      "original": {
+        "path": "/media/mew/catgirl-unitard-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2538785,
+        "sha256": "bb2b29a1b97dd512b252d58c0e1339244f72e924dc6390c5ad6fd4931f51825e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-unitard-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 858634,
+        "sha256": "b5945c82b80e16796dd72bab24694faec7431814479231282324cf85e0e895ae",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-unitard-tpose-back-latest",
+      "character": "mew",
+      "title": "catgirl-unitard-tpose-back-latest",
+      "original": {
+        "path": "/media/mew/catgirl-unitard-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2728598,
+        "sha256": "0ea7f69368da3b8088b8c8c88af5140a3cc9f8457b35a2e61d511cd7554f59ee",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-unitard-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1281738,
+        "sha256": "9f4bb4f6d88002c06630310f44612e0472f8845c63cd59c488d8c49303f874bd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-unitard-tpose-front-latest",
+      "character": "mew",
+      "title": "catgirl-unitard-tpose-front-latest",
+      "original": {
+        "path": "/media/mew/catgirl-unitard-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2709321,
+        "sha256": "36adfaa67fe8a2c054ef199c56c8182d0d292d785508e7118714e929238982c6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-unitard-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1269486,
+        "sha256": "36a7f951aca9025266c0047dec2375acaeab77511d25a8af8495f64b3cb53d16",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-unitard-tpose-left-latest",
+      "character": "mew",
+      "title": "catgirl-unitard-tpose-left-latest",
+      "original": {
+        "path": "/media/mew/catgirl-unitard-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2424294,
+        "sha256": "9cc94f67fffbb29f46a4ba93ec1e807e24569ca54eff0728fc7e843aae3dcef6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-unitard-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1125656,
+        "sha256": "3a86de7a07c491372f6b8d0add7e0026b7b6cf3b9da645b26240ee237cdb00ba",
+        "alpha": false
+      }
+    },
+    {
+      "id": "catgirl-unitard-tpose-right-latest",
+      "character": "mew",
+      "title": "catgirl-unitard-tpose-right-latest",
+      "original": {
+        "path": "/media/mew/catgirl-unitard-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2448932,
+        "sha256": "7691e526221cd58202516b45e6fa64ee6c34879052f669e350b50a7ee3497674",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/catgirl-unitard-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1137622,
+        "sha256": "f5f9009c3cf545ce2d936c837752fda8770922634c06654460bbeb18d8307832",
+        "alpha": false
+      }
+    },
+    {
+      "id": "character-card-latest",
+      "character": "mew",
+      "title": "character-card-latest",
+      "original": {
+        "path": "/media/mew/character-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4499501,
+        "sha256": "37745a07ce76560942feaa02906b78f2a8064fa3d563d0769fef3ce991627f99",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/character-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1419236,
+        "sha256": "3f34f43df6a1ff4bb0aa4cd984ec72aa8edc3cf09ad0ed88cbea5747ba37bbf2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "chibi-card-latest",
+      "character": "mew",
+      "title": "chibi-card-latest",
+      "original": {
+        "path": "/media/mew/chibi-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4682422,
+        "sha256": "1253e380537bf44654131bb7260af93adfd1da7d324b115b43a6436dc3d23461",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/chibi-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2058204,
+        "sha256": "d398ea93de24f664bc0978fda6f7ebd1589f712bb6a99cf29c5b4f72d2b5ec0a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "mew",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/mew/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 6077082,
+        "sha256": "9eb1426bc8a6fea98d47cef3af69b37292864f6a08c8c3410e97928fed5ea5f3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1927274,
+        "sha256": "7a8ed7020e955deb15867d354f89c5ada9b29d8b27d8fef4feac0f7ce9d8a04a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "face-sheet-latest",
+      "character": "mew",
+      "title": "face-sheet-latest",
+      "original": {
+        "path": "/media/mew/face-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 3908855,
+        "sha256": "7bb58c46fbfdc99741a05320b271dd452521e215ffc2f2e051789c14d15d09f2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/face-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1278438,
+        "sha256": "076cad426b8c6245e15d9c508bfb8b68b6637323c8be7147f8ad0502b060331c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "pod-back-latest",
+      "character": "mew",
+      "title": "pod-back-latest",
+      "original": {
+        "path": "/media/mew/pod-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3377767,
+        "sha256": "2d09ab1a49c63c8af53d17aaa46091d4b8c464bfd40f317f62f9f153dab5cbee",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/pod-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1499746,
+        "sha256": "6f442f7b4fd2730b8d933f706d5d7178e6a0c69feaaf04b4e0c4be12ea2f3455",
+        "alpha": false
+      }
+    },
+    {
+      "id": "pod-board-latest",
+      "character": "mew",
+      "title": "pod-board-latest",
+      "original": {
+        "path": "/media/mew/pod-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5795534,
+        "sha256": "b664b366b81cf8d8ba7b9c2f8b06f52d4d400b1e38f0c72d09b6699bae3ce5ea",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/pod-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1776002,
+        "sha256": "ecd84921ead32214a596456f62a5bac7067508f3677c0ec2afaefe45e9018b89",
+        "alpha": false
+      }
+    },
+    {
+      "id": "pod-front-latest",
+      "character": "mew",
+      "title": "pod-front-latest",
+      "original": {
+        "path": "/media/mew/pod-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4011185,
+        "sha256": "d473719bf771a4adc4b9425e2cb0fbf0c2fa350052d10d3134a01f9ee1d9892c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/pod-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1773256,
+        "sha256": "2192a9ce7656ddc0e92d1813ad14fe849422241c5d149ca63e5f84c6da452b13",
+        "alpha": false
+      }
+    },
+    {
+      "id": "pod-left-latest",
+      "character": "mew",
+      "title": "pod-left-latest",
+      "original": {
+        "path": "/media/mew/pod-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3522597,
+        "sha256": "eebdcf440802a56ac07ed8a8a4afb113cfe56f43ee80ae5bc287e5758a6784d3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/pod-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1593832,
+        "sha256": "583bedcd7c5b26aed6bc71f62eb9ed3bfa0f32073de2fe18648d0e61beaaabfc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "pod-right-latest",
+      "character": "mew",
+      "title": "pod-right-latest",
+      "original": {
+        "path": "/media/mew/pod-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3612915,
+        "sha256": "70187c4b4236f79673e4b3e8ef03959e595ee3a3a3ae97c7fabb1302f7b83e48",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/pod-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1632616,
+        "sha256": "f9605e49fe0bf22d88d13bf81e16a5bbe3878c54bb2f7a39408a93620c3027d8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "suit-back-latest",
+      "character": "mew",
+      "title": "suit-back-latest",
+      "original": {
+        "path": "/media/mew/suit-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3368322,
+        "sha256": "68c704462a8d08e2abbf04787d7937c0597eac3e9c26262113a6526ab264b3be",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/suit-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1526074,
+        "sha256": "00ff38b193c61a0b3536582f43d8de9c5fdbe5d6875709e4d19c7f75e0499aac",
+        "alpha": false
+      }
+    },
+    {
+      "id": "suit-front-latest",
+      "character": "mew",
+      "title": "suit-front-latest",
+      "original": {
+        "path": "/media/mew/suit-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3777030,
+        "sha256": "8e875b18b7e30177ccc16371d708c42d5207b4d82a6a8161c95d61bc40f0e3df",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/suit-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1693840,
+        "sha256": "73e4723445e7210a4c986d9ef6aea6d962040913fb771f7dde4115a3b2537327",
+        "alpha": false
+      }
+    },
+    {
+      "id": "suit-left-latest",
+      "character": "mew",
+      "title": "suit-left-latest",
+      "original": {
+        "path": "/media/mew/suit-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3356830,
+        "sha256": "81edfd13ec3968296c4f6be6393c176aec1581bbd3bf333f3c8e76deace7a161",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/suit-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1539958,
+        "sha256": "442d3be37debdc209f88465d558bb83428c392e61f01b0a39c358dc39f309d15",
+        "alpha": false
+      }
+    },
+    {
+      "id": "suit-right-latest",
+      "character": "mew",
+      "title": "suit-right-latest",
+      "original": {
+        "path": "/media/mew/suit-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3401145,
+        "sha256": "5521928be60106d21f58c9c32225592bc64cf856f3e13be8b7a0689557e63a06",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/mew/suit-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1555532,
+        "sha256": "021b3a53080b5f23203d10c6176dbb3ac22ee8cd614ae74c941a5375f89916d4",
+        "alpha": false
+      }
+    }
+  ]
+}

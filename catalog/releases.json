@@ -2271,6 +2271,318 @@
       "contentType": "image/png"
     },
     {
+      "character": "mew",
+      "path": "/media/mew/body-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/body-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/body-left-latest.png",
+      "key": "x_ops/design/characters/mew/latest/body-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/body-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/mew/latest/breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-body-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-body-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-body-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-body-tpose-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-body-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-body-tpose-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-body-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-body-tpose-left-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-body-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-body-tpose-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-body-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-face-sheet-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-face-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-limbs-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-limbs-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-limbs-board-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-limbs-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-limbs-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-limbs-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-limbs-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-limbs-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-limbs-tpose-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-limbs-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-limbs-tpose-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-limbs-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-limbs-tpose-left-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-limbs-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-limbs-tpose-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-limbs-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-pack-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-pack-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-pack-board-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-pack-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-pack-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-pack-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-pack-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-pack-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-pack-tpose-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-pack-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-pack-tpose-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-pack-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-pack-tpose-left-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-pack-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-pack-tpose-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-pack-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-unitard-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-unitard-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-unitard-board-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-unitard-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-unitard-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-unitard-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-unitard-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-unitard-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-unitard-tpose-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-unitard-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-unitard-tpose-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-unitard-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-unitard-tpose-left-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-unitard-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/catgirl-unitard-tpose-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/catgirl-unitard-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/character-card-latest.png",
+      "key": "x_ops/design/characters/mew/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/chibi-card-latest.png",
+      "key": "x_ops/design/characters/mew/latest/chibi-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/mew/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/face-sheet-latest.png",
+      "key": "x_ops/design/characters/mew/latest/face-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/pod-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/pod-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/pod-board-latest.png",
+      "key": "x_ops/design/characters/mew/latest/pod-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/pod-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/pod-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/pod-left-latest.png",
+      "key": "x_ops/design/characters/mew/latest/pod-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/pod-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/pod-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/suit-back-latest.png",
+      "key": "x_ops/design/characters/mew/latest/suit-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/suit-front-latest.png",
+      "key": "x_ops/design/characters/mew/latest/suit-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/suit-left-latest.png",
+      "key": "x_ops/design/characters/mew/latest/suit-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "mew",
+      "path": "/media/mew/suit-right-latest.png",
+      "key": "x_ops/design/characters/mew/latest/suit-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "origins",
       "path": "/media/origins/angel-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/angel-original-latest.png",
@@ -2304,6 +2616,12 @@
       "character": "origins",
       "path": "/media/origins/gunman-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/gunman-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "origins",
+      "path": "/media/origins/mew-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/mew-original-latest.png",
       "contentType": "image/png"
     },
     {
