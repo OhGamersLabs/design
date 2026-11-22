@@ -866,8 +866,8 @@
         "mime_type": "image/png",
         "width": 2880,
         "height": 2880,
-        "bytes": 6407170,
-        "sha256": "778ce704d7309352a35b572fb596707acb2a19bf09a841c898b4a72dc6c2d447",
+        "bytes": 6408343,
+        "sha256": "3402e7109de3fadc24f1aea1f938f521bc3b284a651c16892bba7cc850b54111",
         "alpha": false
       },
       "web": {
@@ -875,8 +875,8 @@
         "mime_type": "image/webp",
         "width": 2048,
         "height": 2048,
-        "bytes": 2807880,
-        "sha256": "22c59266f11659fc8070d2a2632b34f43c39a77a5decd11ce1698c013536e869",
+        "bytes": 2809208,
+        "sha256": "258f7f700f97430a57691475db0c44590ed7905d33eb41a6a7d94a0dd57256fd",
         "alpha": false
       }
     },
