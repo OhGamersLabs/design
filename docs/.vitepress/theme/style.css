@@ -462,8 +462,8 @@
 
 .base-body-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
 }
 .base-body-card {
   display: flex;
@@ -567,9 +567,15 @@
 }
 .base-body-tier-map {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 4px;
   margin-top: 18px;
+}
+.bunny-hero__panel--four {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: minmax(0, 1fr);
+  gap: 6px;
 }
 .base-body-tier-map a {
   display: flex;
@@ -673,6 +679,9 @@
   }
 }
 @media (max-width: 760px) {
+  .bunny-hero__panel--four .release-image__trigger img {
+    object-fit: contain;
+  }
   .roster-section {
     margin-top: 44px;
     padding-top: 22px;

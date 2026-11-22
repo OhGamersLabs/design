@@ -104,6 +104,7 @@ for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one �
     items: [
       { text: '素体与规范总览', link: '/standards/', activeMatch: '^/standards/$' },
       { text: '女性标准素体', link: '/standards/female-standard', activeMatch: '^/standards/female-standard' },
+      { text: '女性丰满素体', link: '/standards/female-curvy', activeMatch: '^/standards/female-curvy' },
       { text: '标准青年男素体', link: '/standards/male-standard', activeMatch: '^/standards/male-standard' },
       { text: '重壮男素体', link: '/standards/male-heavy', activeMatch: '^/standards/male-heavy' },
     ],
@@ -262,16 +263,17 @@ test('CharacterRoster renders the listed data with its thumbnail, date and decor
   assert.match(html, /class="character-card__role">守卫<\/p>/)
   assert.match(html, /最近更新 <time datetime="2026-11-16">2026-11-16<\/time>/)
   assert.match(html, /class="base-body-card" href="\/standards\/female-standard" data-base-body-id="female-standard" data-asset-id="female-standard-front-latest"/)
+  assert.match(html, /class="base-body-card" href="\/standards\/female-curvy" data-base-body-id="female-curvy" data-asset-id="female-curvy-front-latest"/)
   assert.match(html, /class="base-body-card" href="\/standards\/male-standard" data-base-body-id="male-standard" data-asset-id="male-standard-front-latest"/)
   assert.match(html, /class="base-body-card" href="\/standards\/male-heavy" data-base-body-id="male-heavy" data-asset-id="male-heavy-front-latest"/)
   assert.doesNotMatch(html, /draft/)
 })
-test('base bodies registry loads all three tiers and twenty-two stable assets', () => {
+test('base bodies registry loads all four tiers and twenty-nine stable assets', () => {
   const baseBodies = loadBaseBodies()
-  assert.deepEqual(baseBodies.tiers.map(({ id }) => id), ['female-standard', 'male-standard', 'male-heavy'])
-  assert.equal(Object.keys(baseBodies.assets).length, 22)
+  assert.deepEqual(baseBodies.tiers.map(({ id }) => id), ['female-standard', 'female-curvy', 'male-standard', 'male-heavy'])
+  assert.equal(Object.keys(baseBodies.assets).length, 29)
   assert.equal(baseBodies.assets['family-scale-latest'].original.path, '/media/base-bodies/family-scale-latest.png')
-  assert.equal(baseBodies.readingOrder.length, 4)
+  assert.equal(baseBodies.readingOrder.length, 5)
 })
 test('LayerCard renders a 0..2 map with that character chapter, noun and wear', async (t) => {
   const root = sandbox(t); addCharacter(root, 'fixture')

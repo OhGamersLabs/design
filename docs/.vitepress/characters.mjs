@@ -103,6 +103,7 @@ export function siteNav(roster) {
       items: [
         { text: '素体与规范总览', link: '/standards/', activeMatch: '^/standards/$' },
         { text: '女性标准素体', link: '/standards/female-standard', activeMatch: '^/standards/female-standard' },
+        { text: '女性丰满素体', link: '/standards/female-curvy', activeMatch: '^/standards/female-curvy' },
         { text: '标准青年男素体', link: '/standards/male-standard', activeMatch: '^/standards/male-standard' },
         { text: '重壮男素体', link: '/standards/male-heavy', activeMatch: '^/standards/male-heavy' },
       ],

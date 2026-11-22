@@ -352,6 +352,48 @@
     },
     {
       "character": "base-bodies",
+      "path": "/media/base-bodies/female-curvy-back-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-curvy-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-curvy-front-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-curvy-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-curvy-side-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-curvy-side-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-curvy-tpose-back-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-curvy-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-curvy-tpose-front-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-curvy-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-curvy-tpose-left-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-curvy-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
+      "path": "/media/base-bodies/female-curvy-tpose-right-latest.png",
+      "key": "x_ops/design/characters/base-bodies/latest/female-curvy-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "base-bodies",
       "path": "/media/base-bodies/female-standard-back-latest.png",
       "key": "x_ops/design/characters/base-bodies/latest/female-standard-back-latest.png",
       "contentType": "image/png"

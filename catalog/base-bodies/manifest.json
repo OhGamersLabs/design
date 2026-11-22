@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "通用素体设计",
   "status": "local-review",
-  "asset_count": 22,
+  "asset_count": 29,
   "assets": [
     {
       "id": "family-scale-latest",
@@ -15,8 +15,8 @@
         "mime_type": "image/png",
         "width": 2400,
         "height": 1200,
-        "bytes": 548925,
-        "sha256": "7f89f5f64d516c2e9e2606a644763457d54c61bc37f9bab17c4fc34eca0a15e9",
+        "bytes": 679197,
+        "sha256": "9704f3f2901936532023505e686d70f33b7e886c5c0835191b63daaf3a919c76",
         "alpha": false
       },
       "web": {
@@ -24,8 +24,169 @@
         "mime_type": "image/webp",
         "width": 2048,
         "height": 1024,
-        "bytes": 344852,
-        "sha256": "87130b5decb69ac110d778c06172ef29a6627d9b7c4769a635c89d602809a3b0",
+        "bytes": 434970,
+        "sha256": "9ebbf9a59d701fd07d322b5367c00b9f520a1d2d1e3ab40cf2e751400ab157a2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-curvy-back-latest",
+      "character": "base-bodies",
+      "title": "female-curvy-back-latest",
+      "original": {
+        "path": "/media/base-bodies/female-curvy-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 948263,
+        "sha256": "51dd7f43c46b3af36b5595597d9b86d2b869f54c2ec4300dc0e9ac6f569cea5b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-curvy-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 659582,
+        "sha256": "b998b5f8ab6ce00fca499378848fd1a40bbff4df9a2241a4f6334dd8c12dfa2a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-curvy-front-latest",
+      "character": "base-bodies",
+      "title": "female-curvy-front-latest",
+      "original": {
+        "path": "/media/base-bodies/female-curvy-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 966437,
+        "sha256": "77ee9bd42a62180cecfc013af8eb85bebe664cc65ce6349f91a0879894d91295",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-curvy-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 673706,
+        "sha256": "ed0b7bc85fba961ae1d48d07fe3f78ee1b24ae3021a868b3f16737e49f300383",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-curvy-side-latest",
+      "character": "base-bodies",
+      "title": "female-curvy-side-latest",
+      "original": {
+        "path": "/media/base-bodies/female-curvy-side-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1166621,
+        "sha256": "7113c94bca914f3ba57b74ea12b2c52ffc042607d7fad3b6a496347a9526866c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-curvy-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 844042,
+        "sha256": "58ba0835cad514b4876921cea561fce7d1ca33646bd6190224e2cc0b0a0292cb",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-curvy-tpose-back-latest",
+      "character": "base-bodies",
+      "title": "female-curvy-tpose-back-latest",
+      "original": {
+        "path": "/media/base-bodies/female-curvy-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 592763,
+        "sha256": "ecda24a46c25148a9bb5f61d1313b191654c5bf94db132a32f0449dc9369f18f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-curvy-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 398188,
+        "sha256": "44ab17c4cbeb39b4a23bfeb360906e4a84b8fdbff1d9259f81426c9caea16803",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-curvy-tpose-front-latest",
+      "character": "base-bodies",
+      "title": "female-curvy-tpose-front-latest",
+      "original": {
+        "path": "/media/base-bodies/female-curvy-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 571282,
+        "sha256": "c8c8dee3482458d172382fc58c47ef3de9cfd04989d444b5d8595da163c55e57",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-curvy-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 352886,
+        "sha256": "d0f21d8c0afba99a984a97e179ee39422da538ed40f4a6ca8a5be85028cb5721",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-curvy-tpose-left-latest",
+      "character": "base-bodies",
+      "title": "female-curvy-tpose-left-latest",
+      "original": {
+        "path": "/media/base-bodies/female-curvy-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 442797,
+        "sha256": "f9beaac2603be20c7643017b167197bb203f52d9872835706a95efaaf1021b9b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-curvy-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 265130,
+        "sha256": "644b82021b0727a9588fd8ffe6131f9d6f69b264c0616c4106f3b33216261b93",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-curvy-tpose-right-latest",
+      "character": "base-bodies",
+      "title": "female-curvy-tpose-right-latest",
+      "original": {
+        "path": "/media/base-bodies/female-curvy-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 457411,
+        "sha256": "acc9dcc5a58a69a3f4811210f2270207ce1cfda2ce959fcbfef49792c36dc300",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/base-bodies/female-curvy-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 304400,
+        "sha256": "f639ed294075224241024c68ce4e178468bd991d8deaa1c0ce7f61b69d325cb4",
         "alpha": false
       }
     },
