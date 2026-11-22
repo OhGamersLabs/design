@@ -213,7 +213,7 @@ test('all ten cumulative layers use the approved order and four character-relati
   assert.equal(layers[9].facts.find(({ term }) => term === '外层').value, '最外层')
   const home = json('../docs/.vitepress/data/bunny/home.json')
   assert.deepEqual(home.tabs.find(({ key }) => key === 'tpose').assets, Object.values(layers[9].tpose))
-  assert.equal(home.updated, '2026-11-02')
+  assert.equal(home.updated, '2026-11-22')
 })
 
 test('downloadable dagger specification matches the approved leather-tab carry source', () => {

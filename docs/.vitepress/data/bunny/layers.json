@@ -168,26 +168,26 @@
     "front": "thigh-gear-front-latest",
     "side": "thigh-gear-side-latest",
     "back": "thigh-gear-back-latest",
-    "summary": "两条腿带：上为任务终端，下为维护包",
+    "summary": "一体式 L 形腿装：外侧硬壳工具盒与前上方任务终端",
     "facts": [
       {
         "term": "位置",
         "value": "角色右大腿"
       },
       {
-        "term": "上方",
-        "value": "任务终端"
+        "term": "外侧",
+        "value": "竖向硬壳工具盒"
       },
       {
-        "term": "下方",
-        "value": "维护包"
+        "term": "前上方",
+        "value": "一体连接任务终端"
       },
       {
         "term": "外层",
         "value": "之上还有橙色夹克、护目镜、裤腰皮带、双匕首"
       }
     ],
-    "leftRight": "两条腿带在角色右大腿。正面图里它们在画面左边，背面图里在画面右边。",
+    "leftRight": "两条细黑腿带固定一体式 L 形腿装在角色右大腿。正面图里它在画面左边，背面图里主要在画面右边。",
     "tpose": {
       "front": "thigh-gear-tpose-front-latest",
       "right": "thigh-gear-tpose-right-latest",
@@ -236,11 +236,11 @@
     "front": "goggles-front-latest",
     "side": "goggles-side-latest",
     "back": "goggles-back-latest",
-    "summary": "白色柔圆护目镜，推在额上",
+    "summary": "白色切面战术护目镜，半埋式推在额上",
     "facts": [
       {
         "term": "外形",
-        "value": "白色柔圆"
+        "value": "白色切面"
       },
       {
         "term": "位置",
