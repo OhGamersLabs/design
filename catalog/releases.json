@@ -4,6 +4,60 @@
   "assets": [
     {
       "character": "angel",
+      "path": "/media/angel/angel-wings-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/angel-wings-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/angel-wings-board-latest.png",
+      "key": "x_ops/design/characters/angel/latest/angel-wings-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/angel-wings-fit-overlay-latest.png",
+      "key": "x_ops/design/characters/angel/latest/angel-wings-fit-overlay-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/angel-wings-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/angel-wings-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/angel-wings-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/angel-wings-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/angel-wings-tpose-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/angel-wings-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/angel-wings-tpose-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/angel-wings-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/angel-wings-tpose-left-latest.png",
+      "key": "x_ops/design/characters/angel/latest/angel-wings-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/angel-wings-tpose-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/angel-wings-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
       "path": "/media/angel/arm-sleeves-back-latest.png",
       "key": "x_ops/design/characters/angel/latest/arm-sleeves-back-latest.png",
       "contentType": "image/png"

@@ -2,7 +2,7 @@
   "name": "天使",
   "role": "职业待定",
   "order": 3,
-  "portrait": "hip-emblem-front-latest",
+  "portrait": "angel-wings-front-latest",
   "pages": [
     {
       "path": "/characters/angel/bodysuit",
@@ -23,6 +23,10 @@
     {
       "path": "/characters/angel/hip-emblem",
       "title": "胯章与外侧腿带"
+    },
+    {
+      "path": "/characters/angel/angel-wings",
+      "title": "羽耳与蝴蝶骨光翼"
     }
   ]
 }
