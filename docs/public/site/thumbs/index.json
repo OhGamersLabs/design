@@ -3639,6 +3639,14 @@
     "sourcePath": "/characters/origins/samurai-original-latest.webp",
     "sourceSha256": "25e74b33128a21ea036bc6da64ead91f852d8ad926a388d5f1df0dd1b6d7f2b6"
   },
+  "origins/wizard-original-latest": {
+    "path": "/site/thumbs/origins/wizard-original-latest.webp",
+    "width": 480,
+    "height": 637,
+    "sha256": "2a02c5a1bfc02d185c398bd90ea7e128fae88f4c2ab492568f597c3d0dc4a059",
+    "sourcePath": "/characters/origins/wizard-original-latest.webp",
+    "sourceSha256": "5e523b8fb9f2c84259136e3dea80c7b0b922a2f3cd50159b8c4331ed11a66a89"
+  },
   "robot/arm-cannons-back-latest": {
     "path": "/site/thumbs/robot/arm-cannons-back-latest.webp",
     "width": 480,
@@ -4422,5 +4430,221 @@
     "sha256": "70f4f0650efdd65088a9de050d3e83842835beb5db66cdca0a431d6b0001cc03",
     "sourcePath": "/characters/samurai/pauldrons-cape-tpose-right-latest.webp",
     "sourceSha256": "9423284725c716b2eab0c351234c477b78f4fccf110b5d066b346501831e4ab7"
+  },
+  "wizard/arcane-coat-back-latest": {
+    "path": "/site/thumbs/wizard/arcane-coat-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "8d27ceeff0167eab2cb4375b5a03e5b0cad9540d83a46907523e5f9484862e6c",
+    "sourcePath": "/characters/wizard/arcane-coat-back-latest.webp",
+    "sourceSha256": "27d3ac6bb21fa82714432df4f07b8b8e853bda6b486c56bff47138218155b44a"
+  },
+  "wizard/arcane-coat-board-latest": {
+    "path": "/site/thumbs/wizard/arcane-coat-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "2d441a07d74583baae778e3ca792c570f996757b677bcf2bbd750e4b1360eb37",
+    "sourcePath": "/characters/wizard/arcane-coat-board-latest.webp",
+    "sourceSha256": "ea4e443d10c2a0a6f033e3abdac07c814fac120c912d3c84d3cc27a79dcbafc1"
+  },
+  "wizard/arcane-coat-front-latest": {
+    "path": "/site/thumbs/wizard/arcane-coat-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "02f32d4ab04e28dd696d09df33623e7bf4823f1a5212d11d6787633ec10302cc",
+    "sourcePath": "/characters/wizard/arcane-coat-front-latest.webp",
+    "sourceSha256": "e58f92543d09d1475a68ec589a5033e95173b6dd1dedb5bbb3183000ebf1508a"
+  },
+  "wizard/arcane-coat-right-latest": {
+    "path": "/site/thumbs/wizard/arcane-coat-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "239de581be4363505b67dff4711273768ea5b380be745416bb9db810e2a23205",
+    "sourcePath": "/characters/wizard/arcane-coat-right-latest.webp",
+    "sourceSha256": "759288ac0fea3baf0dbf7627ec407c171064f0aeee1764be69dfde5182cbbe39"
+  },
+  "wizard/arcane-coat-tpose-back-latest": {
+    "path": "/site/thumbs/wizard/arcane-coat-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "1b059a67a0b04f7e6745b3352ed070a9a5fc2e0393839f17b8d7c418d0fe27d7",
+    "sourcePath": "/characters/wizard/arcane-coat-tpose-back-latest.webp",
+    "sourceSha256": "34cf3e35d0f38829b52203f02f053b1f205dd1f4cdab1d2fd49733078dd9a4b8"
+  },
+  "wizard/arcane-coat-tpose-front-latest": {
+    "path": "/site/thumbs/wizard/arcane-coat-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "50b5e94ee3472d605d762d146124d9f722e5f2d023968a02946a8bb464f67efb",
+    "sourcePath": "/characters/wizard/arcane-coat-tpose-front-latest.webp",
+    "sourceSha256": "473b3d4997298f9a4110073799f9cd570cef8d020a754065f9818be11f749dcd"
+  },
+  "wizard/arcane-coat-tpose-left-latest": {
+    "path": "/site/thumbs/wizard/arcane-coat-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5c59895c5ed178168b387b58f80536cc1c356e9426e55b1726faa30413371329",
+    "sourcePath": "/characters/wizard/arcane-coat-tpose-left-latest.webp",
+    "sourceSha256": "b47900d60e96e0e4c5e3b3304570186bf51765661a8514ff57a06ee5b0a049c6"
+  },
+  "wizard/arcane-coat-tpose-right-latest": {
+    "path": "/site/thumbs/wizard/arcane-coat-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0b98f150336f35e064a7dfd4a8828e9ebb9a17a9dfb791cbd81f5a6cd1d4bc8c",
+    "sourcePath": "/characters/wizard/arcane-coat-tpose-right-latest.webp",
+    "sourceSha256": "b7bbf3cc3ebfa972c8e89cc98c978661f74ef1df748526828e9d6f6168f57c79"
+  },
+  "wizard/body-back-latest": {
+    "path": "/site/thumbs/wizard/body-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "e053ea9e9dbc0e64287993e1c9ae326ede91f6089159ac5267ddb9eb357e882c",
+    "sourcePath": "/characters/wizard/body-back-latest.webp",
+    "sourceSha256": "25c3d6f530e7d08a38cf2766ee522e9f92bb4a0f2d1f01d53ca0967c9f4db0c5"
+  },
+  "wizard/body-front-latest": {
+    "path": "/site/thumbs/wizard/body-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "42b2f123a535a6f54ed5582f163be45e4aae52075ed727e578e4a42dc56a45f4",
+    "sourcePath": "/characters/wizard/body-front-latest.webp",
+    "sourceSha256": "e75cb089cd5ecce64ba3435ab867459bd11c1ff7c891edd7efe2a9ae333f6df5"
+  },
+  "wizard/body-right-latest": {
+    "path": "/site/thumbs/wizard/body-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "c9f91c1e6b6cbc6410fa73a52c8ca84bf67bcbc61b1a4b57e71654bf515d3d47",
+    "sourcePath": "/characters/wizard/body-right-latest.webp",
+    "sourceSha256": "774e2b49562888b1272bcddfa64cfd97a983dba8c15993ebef33097d19a56efe"
+  },
+  "wizard/body-tpose-back-latest": {
+    "path": "/site/thumbs/wizard/body-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8b0474414a8ae5b6fcbddee22b340f5308569ebda0672fe16c2d95574ce4de35",
+    "sourcePath": "/characters/wizard/body-tpose-back-latest.webp",
+    "sourceSha256": "d546b79ade5c80eb3710c6aab500e1b67cb27cf1424e5b2d3c79d95d1afa4ab3"
+  },
+  "wizard/body-tpose-front-latest": {
+    "path": "/site/thumbs/wizard/body-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "48c748de77dedb50dea309ef440258a6caf72c0ae93a08087d230364b707a20c",
+    "sourcePath": "/characters/wizard/body-tpose-front-latest.webp",
+    "sourceSha256": "a93800c88a299ba2ca85ae046de9bc2156e9a586cd35a17f439522cf40a48699"
+  },
+  "wizard/body-tpose-left-latest": {
+    "path": "/site/thumbs/wizard/body-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "43030a61add0b53fbd37abff8188d919cf738cd951a33019c5daa720b63c770a",
+    "sourcePath": "/characters/wizard/body-tpose-left-latest.webp",
+    "sourceSha256": "a9f2c9c8b4f416e05ef4a30cdeb71a46ba5d7e3493e2e9bc05a9ebea9e6ee26f"
+  },
+  "wizard/body-tpose-right-latest": {
+    "path": "/site/thumbs/wizard/body-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "88ea18c0e7beedd44342ddfbcf659f70d735dbf6cbe8ab95bdc68bd84a2a7f21",
+    "sourcePath": "/characters/wizard/body-tpose-right-latest.webp",
+    "sourceSha256": "fde6ca1b036d78e4cd8697233abb8448f7aa29684242b89683a1c06eea220ae2"
+  },
+  "wizard/breakdown-sheet-latest": {
+    "path": "/site/thumbs/wizard/breakdown-sheet-latest.webp",
+    "width": 480,
+    "height": 387,
+    "sha256": "00f63aed5128651850376865afe755ec4ea45235ec6c4af02c46de6683189e17",
+    "sourcePath": "/characters/wizard/breakdown-sheet-latest.webp",
+    "sourceSha256": "9ce82895181b332e7e50d88e5c61af1de88e0825eede1152bdaea58aff0e5f08"
+  },
+  "wizard/character-card-latest": {
+    "path": "/site/thumbs/wizard/character-card-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "321e0b6780eb1398af884f5634651fed0e10ad58b54a7d8ea7a53c619e11b3d2",
+    "sourcePath": "/characters/wizard/character-card-latest.webp",
+    "sourceSha256": "ee8c10714ffb46e09c65da5edff39741dca71543a411a6c378cf9f7a0fc80de8"
+  },
+  "wizard/combat-rig-back-latest": {
+    "path": "/site/thumbs/wizard/combat-rig-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "71fdc3f3de0e34aae46c3202a21820bc81fc57925db3bdd2536514e04d658631",
+    "sourcePath": "/characters/wizard/combat-rig-back-latest.webp",
+    "sourceSha256": "63c2523cc05010d250695e1c7c6e0222e4ab4c31d896c5da08780c4213fbfb8c"
+  },
+  "wizard/combat-rig-board-latest": {
+    "path": "/site/thumbs/wizard/combat-rig-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "fe7536877d6da2bee38e2cd97db05bdd81acb32cf48340b03d165a831f7d3166",
+    "sourcePath": "/characters/wizard/combat-rig-board-latest.webp",
+    "sourceSha256": "d9cc0497a58ba487e4798f171cca042527430121d5be2213bf09211a6fc7eeda"
+  },
+  "wizard/combat-rig-front-latest": {
+    "path": "/site/thumbs/wizard/combat-rig-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "e66aca322eedc2fd88f9a2ef090074d91501ae35f236ba45a35c02e0a1e06eb4",
+    "sourcePath": "/characters/wizard/combat-rig-front-latest.webp",
+    "sourceSha256": "fa30ebaefc3c7e63243bccba75f6c3e8dfc95eb3c625dcd31ef201f84d0b5d2f"
+  },
+  "wizard/combat-rig-right-latest": {
+    "path": "/site/thumbs/wizard/combat-rig-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "6126a8cfdccd4d699f43c8a7abb9fe34c8b9ab98af5b1998afa6c4584b978fa1",
+    "sourcePath": "/characters/wizard/combat-rig-right-latest.webp",
+    "sourceSha256": "87271a0cdbdb91070485a71d5c7869c34e7a1bb53b378201d826e661be211235"
+  },
+  "wizard/combat-rig-tpose-back-latest": {
+    "path": "/site/thumbs/wizard/combat-rig-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "7a8f33ef7078ad2b9493807f852430bee2715ed694f713421a8ddb75e6366c9a",
+    "sourcePath": "/characters/wizard/combat-rig-tpose-back-latest.webp",
+    "sourceSha256": "e0c7446484bc4125f11fa4a4eeb09a19e1d8abfc82d9f8ea78a28db450172db4"
+  },
+  "wizard/combat-rig-tpose-front-latest": {
+    "path": "/site/thumbs/wizard/combat-rig-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "dbdbcd9548940546bfc4fb568055a0cfb1e138e1a8f9532a611c0784453885c0",
+    "sourcePath": "/characters/wizard/combat-rig-tpose-front-latest.webp",
+    "sourceSha256": "803009879eae113c9e63b2bbe5f54816490dd259edac7f870f67dc3089b80d2d"
+  },
+  "wizard/combat-rig-tpose-left-latest": {
+    "path": "/site/thumbs/wizard/combat-rig-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b864fd30ef4531d841ba0a58b875633e3992ce61618422f5e47bafc5446a7157",
+    "sourcePath": "/characters/wizard/combat-rig-tpose-left-latest.webp",
+    "sourceSha256": "1fd67d8e8c232006642c806f00a7e2efae36b5fb5090b755aea422e5e61d70d8"
+  },
+  "wizard/combat-rig-tpose-right-latest": {
+    "path": "/site/thumbs/wizard/combat-rig-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c64f4dae5b600189960cc6851c87e3676659eb075d36a75793cafad0372db6f9",
+    "sourcePath": "/characters/wizard/combat-rig-tpose-right-latest.webp",
+    "sourceSha256": "3b47d0654a01ab907a3d5803daac8eceeb63111baab57ee11202d7e33090d18a"
+  },
+  "wizard/expressions-sheet-latest": {
+    "path": "/site/thumbs/wizard/expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "88e6fb7cec41cf5c3a139aa681a6380c07329f07dda3f109e3400eac971af5c7",
+    "sourcePath": "/characters/wizard/expressions-sheet-latest.webp",
+    "sourceSha256": "f0ab8490e40915ea4fb632769b8424a69663b2fbe81a8daacdd1e5f27726a1d5"
+  },
+  "wizard/face-sheet-latest": {
+    "path": "/site/thumbs/wizard/face-sheet-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "8cdb17bb501f0ace1198c9e57449b0cb0f7fb1d22bba1784ec9a2ee667d04758",
+    "sourcePath": "/characters/wizard/face-sheet-latest.webp",
+    "sourceSha256": "48624292d619bf00aea6a5a7c6ee9e5c3ac22b3f839f851ef69db6d1a0a35cf3"
   }
 }

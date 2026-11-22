@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 9,
+  "asset_count": 10,
   "assets": [
     {
       "id": "angel-original-latest",
@@ -210,6 +210,29 @@
         "height": 2048,
         "bytes": 1154408,
         "sha256": "25e74b33128a21ea036bc6da64ead91f852d8ad926a388d5f1df0dd1b6d7f2b6",
+        "alpha": true
+      }
+    },
+    {
+      "id": "wizard-original-latest",
+      "character": "origins",
+      "title": "wizard-original-latest",
+      "original": {
+        "path": "/media/origins/wizard-original-latest.png",
+        "mime_type": "image/png",
+        "width": 5236,
+        "height": 6949,
+        "bytes": 18393197,
+        "sha256": "cf78789651d8960dd498a66c6000ac24fb5db6eef7c9028551dd4c97213fcf9b",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/wizard-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1543,
+        "height": 2048,
+        "bytes": 1386136,
+        "sha256": "5e523b8fb9f2c84259136e3dea80c7b0b922a2f3cd50159b8c4331ed11a66a89",
         "alpha": true
       }
     }

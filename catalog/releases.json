@@ -2733,6 +2733,12 @@
       "contentType": "image/png"
     },
     {
+      "character": "origins",
+      "path": "/media/origins/wizard-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/wizard-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "robot",
       "path": "/media/robot/arm-cannons-back-latest.png",
       "key": "x_ops/design/characters/robot/latest/arm-cannons-back-latest.png",
@@ -3318,6 +3324,168 @@
       "character": "samurai",
       "path": "/media/samurai/pauldrons-cape-tpose-right-latest.png",
       "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/arcane-coat-back-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/arcane-coat-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/arcane-coat-board-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/arcane-coat-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/arcane-coat-front-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/arcane-coat-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/arcane-coat-right-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/arcane-coat-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/arcane-coat-tpose-back-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/arcane-coat-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/arcane-coat-tpose-front-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/arcane-coat-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/arcane-coat-tpose-left-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/arcane-coat-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/arcane-coat-tpose-right-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/arcane-coat-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/body-back-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/body-front-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/body-right-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/body-tpose-back-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/body-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/body-tpose-front-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/body-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/body-tpose-left-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/body-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/body-tpose-right-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/body-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/character-card-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/combat-rig-back-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/combat-rig-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/combat-rig-board-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/combat-rig-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/combat-rig-front-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/combat-rig-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/combat-rig-right-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/combat-rig-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/combat-rig-tpose-back-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/combat-rig-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/combat-rig-tpose-front-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/combat-rig-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/combat-rig-tpose-left-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/combat-rig-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/combat-rig-tpose-right-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/combat-rig-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "wizard",
+      "path": "/media/wizard/face-sheet-latest.png",
+      "key": "x_ops/design/characters/wizard/latest/face-sheet-latest.png",
       "contentType": "image/png"
     }
   ]

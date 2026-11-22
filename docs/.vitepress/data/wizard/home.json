@@ -1,0 +1,124 @@
+{
+  "tabs": [
+    {
+      "key": "card",
+      "label": "角色卡",
+      "caption": "失重半空悬浮双掌托聚电青电紫锐利电弧的雷电法师动态定稿，双踝向下绷直悬空配平底装甲法靴，2026-11-22 定稿",
+      "assets": [
+        "character-card-latest"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "完整三视",
+      "caption": "正面、角色右侧面、背面，高立领半袖燕尾奥术风衣配角色右侧翻领闭口古金徽标与平底装甲法靴",
+      "assets": [
+        "arcane-coat-front-latest",
+        "arcane-coat-right-latest",
+        "arcane-coat-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "T 姿",
+      "caption": "T 姿四视，供 3D 建模参考",
+      "assets": [
+        "arcane-coat-tpose-front-latest",
+        "arcane-coat-tpose-right-latest",
+        "arcane-coat-tpose-back-latest",
+        "arcane-coat-tpose-left-latest"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-11-22",
+      "title": "角色卡定稿",
+      "asset": "character-card-latest",
+      "caption": "半空失重悬浮双掌托雷动态定稿，双腕三联电青导能环激发锐利电弧，双脚穿平底装甲法靴顺势向下绷直悬空。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "三层穿戴完成",
+      "asset": "arcane-coat-front-latest",
+      "caption": "从硅碳仿生基础素体、轻装战斗组件到高立领半袖燕尾奥术风衣，每层配备 A 姿三视与 T 姿四视。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "表情表定稿",
+      "asset": "expressions-sheet-latest",
+      "caption": "4×4 表情，微 3/4 角色左侧面朝向画面右边覆盖冷静专注、微笑、怒斥、失落与害羞十六种神态。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "全套拆解图",
+      "asset": "breakdown-sheet-latest",
+      "caption": "第 0 到第 2 层造型拆解、部件板、表情表与 T 姿正交基准一图看完。"
+    }
+  ],
+  "facts": [
+    {
+      "term": "外观",
+      "value": "冷冽赛博雷电法师，午夜蓝黑长直发夹电光蓝紫挑染、电光紫水晶瞳、洁净瓷白脸颊单轨机械分模线与全机械仿生耳",
+      "note": "额头洁净无宝石装饰，双颊仅沿颧骨至下颌缘走一道纤细深灰单轨机械缝，上颧骨短段内嵌极细电青光缝"
+    },
+    {
+      "term": "体型",
+      "value": "基于标准成年女素体，颈下全硅碳仿生机械躯体，约 6.50 头身",
+      "note": "全套骨架与面廓精准锚定通用标准成年女素体比例，厘米身高未设定"
+    },
+    {
+      "term": "标志装备",
+      "value": "双腕对称三联发光电青导能环与高立领半袖燕尾奥术风衣",
+      "note": "极简腕部导能环直接传导电流施法（无手杖、无背包、无悬空背环），风衣仅于角色右侧翻领饰闭口古金大写 OG 徽标"
+    },
+    {
+      "term": "穿戴层级",
+      "value": "第 0 至第 2 层（完整定妆）",
+      "note": "硅碳仿生基础素体、古金束腰前帘与腕部导能环及平底法靴、敞怀高立领半袖燕尾奥术风衣"
+    }
+  ],
+  "chips": [
+    {
+      "name": "深炭灰",
+      "use": "高立领半袖燕尾奥术风衣外层与哑光黑曜石躯干护甲",
+      "color": "#3F414E"
+    },
+    {
+      "name": "板岩蓝紫",
+      "use": "风衣高明度内衬、高立领内面与折返胸领",
+      "color": "#504F77"
+    },
+    {
+      "name": "拉丝古金",
+      "use": "风衣滚边、角色右侧翻领徽标、束腰前帘纹饰与平底靴扣件",
+      "color": "#DAAE74"
+    },
+    {
+      "name": "电光青",
+      "use": "三联腕部导能环、关节伺服发光环与上颧骨极细机械光缝",
+      "color": "#4CD7F9"
+    }
+  ],
+  "chipNote": "高明度板岩蓝紫内衬与连续拉丝古金滚边清晰区隔深炭灰风衣、黑曜石躯体与午夜蓝黑长发，电光紫水晶瞳与陶瓷白四肢点亮冷冽科幻气质。",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-22",
+  "chapters": [
+    {
+      "id": "identity",
+      "label": "身份与画风"
+    },
+    {
+      "id": "layers",
+      "label": "衣层由内到外"
+    },
+    {
+      "id": "expressions",
+      "label": "面部与表情"
+    },
+    {
+      "id": "breakdown",
+      "label": "拆解与角色卡"
+    }
+  ]
+}
