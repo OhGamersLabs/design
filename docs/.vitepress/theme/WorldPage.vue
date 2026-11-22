@@ -5,6 +5,7 @@ import { data as world } from '../data/world.data.mjs'
 import { data as site } from '../data/site.data.mjs'
 import { readingNeighbors } from './character-site.mjs'
 import WorldOriginFactions from './components/WorldOriginFactions.vue'
+import WorldMysteryOnboarding from './components/WorldMysteryOnboarding.vue'
 import WorldCoinInteractive from './components/WorldCoinInteractive.vue'
 import WorldArkGenerations from './components/WorldArkGenerations.vue'
 
@@ -56,7 +57,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
             <p class="world-hero__subtitle">{{ world.subtitle }}</p>
             <p class="world-hero__intro">{{ world.intro }}</p>
             <div class="world-hero__actions">
-              <a class="roster-section__more" :href="`#stage`">浏览四组可交互设定图解 <span aria-hidden="true">↓</span></a>
+              <a class="roster-section__more" :href="`#stage`">浏览六组可交互设定图解 <span aria-hidden="true">↓</span></a>
               <a class="world-hero__secondary" :href="withBase('/world/races')">浏览五大种族与姓氏谱系</a>
             </div>
           </div>
@@ -95,10 +96,11 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
           </div>
 
           <div class="bunny-section-heading">
-            <h2 id="coin-pact">抛币结契法则</h2>
+            <h2 id="coin-pact">单币解谜与抛币铁律</h2>
             <p>{{ world.coinPact.lead }}</p>
           </div>
 
+          <WorldMysteryOnboarding />
           <WorldCoinInteractive />
 
           <div class="world-axiom-grid">

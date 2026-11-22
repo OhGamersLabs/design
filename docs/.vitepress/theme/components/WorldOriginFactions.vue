@@ -28,7 +28,7 @@ const castLinks = [
           :class="{ 'is-active': activeTab === 0 }"
           @click="activeTab = 0"
         >
-          01 零号母门 · 一匣裂三方
+          01 零号母门 · 一物裂三方
         </button>
         <button
           type="button"
@@ -38,7 +38,7 @@ const castLinks = [
           :class="{ 'is-active': activeTab === 1 }"
           @click="activeTab = 1"
         >
-          02 真币对决天秤伪币
+          02 唯一母币对决天秤伪币
         </button>
         <button
           type="button"
@@ -61,10 +61,10 @@ const castLinks = [
         <span class="world-genesis-arrow">→</span>
         <span>02 噬环古械群顺航网啃食炉心</span>
         <span class="world-genesis-arrow">→</span>
-        <span>03 先驱主动熄灭外环星门熔断，留「OG 原初圣匣」封于零号母门</span>
+        <span>03 先驱主动熄灭外环星门熔断，将「唯一 OG 原初母币」封于零号母门</span>
       </div>
 
-      <svg class="world-split-svg" viewBox="0 0 680 148" aria-label="零号母门一匣裂三方因果图">
+      <svg class="world-split-svg" viewBox="0 0 680 148" aria-label="零号母门遗物一分为三因果图">
         <rect x="10" y="46" width="184" height="56" fill="var(--bunny-fabric)" stroke="var(--bunny-orange)" stroke-width="2.5" />
         <text x="102" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bunny-ink)">十年前「零号母门」出土</text>
         <text x="102" y="90" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-orange)">科考队遭背叛 · 圣匣一分为三</text>
@@ -80,17 +80,17 @@ const castLinks = [
 
         <rect x="300" y="55" width="370" height="38" fill="var(--bunny-paper)" stroke="var(--coin-green)" stroke-width="2.4" />
         <text x="485" y="79" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--coin-green)">
-          父母断后令归航号携「双生主币+9胚币」归港 → 达罗兄妹开局
+          父母令归航号携「唯一母币」搁浅边缘暗礁 → 达罗兄妹开局
         </text>
 
         <rect x="300" y="104" width="370" height="38" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="1.8" />
         <text x="485" y="128" text-anchor="middle" font-size="12.5" font-weight="600" fill="var(--bunny-ink)">
-          随行佣兵首领夺「半枚裂币」→ 组建暗环私掠团截胡外环星门
+          随行佣兵首领夺「半枚导能护环」→ 组建暗环私掠团争抢炉心辐射
         </text>
       </svg>
 
       <p class="coin-map-stage__caption">
-        <b>因果闭环：</b>同一场零号母门惨案，同步交代了达罗兄妹真币的由来、天秤财团伪币模具的源头、暗环船长半枚裂币的来历，以及跨越世代重返零号母门的终极悬念。
+        <b>因果闭环：</b>同一场零号母门惨案，同步交代了达罗兄妹唯一纪念币的来历、天秤财团伪币模具的源头、暗环私掠团护环残件的出处，以及跨越世代重返零号母门的终极悬念。
       </p>
     </div>
 
@@ -104,9 +104,9 @@ const castLinks = [
             <text x="36" y="41" text-anchor="middle" font-size="14" font-weight="700" fill="var(--bunny-orange)">OG</text>
           </svg>
           <div class="world-vs-copy">
-            <h4>主角方 · 原初真币（对等盟约）</h4>
+            <h4>主角方 · 唯一原初母币（投射子契印）</h4>
             <ul>
-              <li>对方<b>主动伸手接币</b>方才立契</li>
+              <li>对方<b>主动触碰金光虚影</b>方才立契</li>
               <li>保有真名、氏族姓氏与独立人格</li>
               <li>超载反噬由执币人亲自承担</li>
             </ul>
@@ -156,18 +156,18 @@ const castLinks = [
             <span>各部资料片对位战</span>
           </div>
           <svg class="world-rival-svg" viewBox="0 0 300 96" aria-hidden="true">
-            <rect x="8" y="12" width="108" height="28" fill="var(--bunny-paper)" stroke="var(--coin-green)" stroke-width="2" />
-            <text x="62" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-ink)">归航号（校准燃门）</text>
-            <rect x="8" y="56" width="108" height="28" fill="var(--bunny-paper)" stroke="var(--bunny-red)" stroke-width="2" />
-            <text x="62" y="74" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-red)">暗环团（炸炉夺币）</text>
-            <line x1="118" y1="26" x2="206" y2="42" stroke="var(--coin-green)" stroke-width="2" class="coin-dash-anim" />
-            <line x1="118" y1="70" x2="206" y2="54" stroke="var(--bunny-red)" stroke-width="2" class="coin-dash-anim" />
+            <rect x="8" y="12" width="112" height="28" fill="var(--bunny-paper)" stroke="var(--coin-green)" stroke-width="2" />
+            <text x="64" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-ink)">归航号（燃门醒环）</text>
+            <rect x="8" y="56" width="112" height="28" fill="var(--bunny-paper)" stroke="var(--bunny-red)" stroke-width="2" />
+            <text x="64" y="74" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-red)">暗环团（夺取辐射）</text>
+            <line x1="122" y1="26" x2="206" y2="42" stroke="var(--coin-green)" stroke-width="2" class="coin-dash-anim" />
+            <line x1="122" y1="70" x2="206" y2="54" stroke="var(--bunny-red)" stroke-width="2" class="coin-dash-anim" />
             <circle cx="248" cy="48" r="34" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="2.8" />
             <text x="248" y="45" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-ink)">断联星门</text>
-            <text x="248" y="61" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-orange)">新析胚币</text>
+            <text x="248" y="61" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-orange)">炉心辐射</text>
           </svg>
           <h4>暗环私掠团 · 同赛道恶徒猎犬</h4>
-          <p>首领手握半枚裂币，每逢新星门即将重燃便现身截胡新胚币，展开刺客对刺客、刀客对刀客、指挥官赌指挥官的王牌死斗。</p>
+          <p>首领手握半枚导能护环，每逢断联星门即将重燃便现身疯抢炉心辐射与母币，展开刺客对刺客、刀客对刀客、指挥官赌指挥官的死斗。</p>
         </div>
 
         <div class="coin-step-card">

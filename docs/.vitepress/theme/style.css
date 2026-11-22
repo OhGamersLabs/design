@@ -1654,6 +1654,9 @@ a.coin-slot:hover {
 .world-zone-hit:hover {
   opacity: .92;
 }
+.world-mt-sm {
+  margin-top: 8px !important;
+}
 
 @media (max-width: 1100px) {
   .world-roster-grid {

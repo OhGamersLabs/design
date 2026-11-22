@@ -6,9 +6,9 @@ const selectedZone = ref(0)
 
 const shipZones = [
   {
-    code: '01 六席双币舰桥',
+    code: '01 六席子母双片舰桥',
     summary:
-      '位于舰体中后段上方，设紧凑六席主控台。十年前达罗父母将十槽币匣锁入主控槽自动驾驶归港；内环终章双生主币重新插槽即可唤醒母舰主脑，逐阶扩充同场折跃带宽，并在跨代远征中交到新一代达罗传人手中。',
+      '位于舰体中后段上方，设紧凑六席主控台与半深圆形母币槽。正是这道半深凹槽促使兄妹拧开了陪伴十年的唯一厚金币；阳阴双片合鸣即可逐阶扩充折跃带宽，并在跨代远征中传予新一代达罗指挥官。',
   },
   {
     code: '02 侧舷出击与回收双港',
@@ -18,12 +18,12 @@ const shipZones = [
   {
     code: '03 八席餐舱与封存街廊',
     summary:
-      '上层暖光区包含八席公共交班餐厅、安洁主理的医疗培养舱与日常住舱；舰体深处仍有大片安静封存的街廊舱段——随历代达罗传人点亮新星门、接纳新伙伴而逐段苏醒。',
+      '上层暖光区包含八席公共交班餐厅、安洁主理的医疗培养舱与日常住舱；舰体深处仍有大片安静封存的街廊舱段——随历代达罗传人点亮新星门、唤醒母币深层晶环接纳新伙伴而逐段苏醒。',
   },
   {
-    code: '04 短折面舰艏与六口艉驱',
+    code: '04 暗礁搁浅与终章升空',
     summary:
-      '舰体采用暖灰白外板、蓝灰承力结构与砖红识别色块，舰艏内嵌星门谐振校准仪，艉部排布两列三层共六具大推力主喷口。内环篇静卧三号船坞作秘密老巢，终章破封升空驶向无门深空。',
+      '舰体采用暖灰白外板、蓝灰承力结构与砖红识别色块，舰艏内嵌星门谐振校准仪，艉部排布两列三层共六具大推力主喷口。内环篇隐匿搁浅于边缘零九号暗礁，经克露丝修复后于终章破封升空驶向无门深空。',
   },
 ]
 </script>
@@ -32,7 +32,7 @@ const shipZones = [
   <section class="coin-viz-box world-single-viz" aria-label="归航号母舰与跨代回响交互图解">
     <header class="coin-viz-box__head">
       <div>
-        <span class="coin-viz-box__eyebrow">INTERACTIVE DIAGRAM 04</span>
+        <span class="coin-viz-box__eyebrow">INTERACTIVE DIAGRAM 06</span>
         <h3 class="coin-viz-box__title">群星回响与母舰「归航号」：门外百年代际接力，燃门一瞬重回当下</h3>
       </div>
       <div class="coin-viz-tabs" role="tablist" aria-label="归航号与跨代远征视图切换">
@@ -72,12 +72,10 @@ const shipZones = [
     <!-- TAB 0: GENERATIONAL VOYAGE VS INSTANT GATE -->
     <div v-if="activeTab === 0" class="coin-viz-body">
       <svg class="world-split-svg" viewBox="0 0 680 156" aria-label="跨光年代际航程与星门瞬时连接对照图">
-        <!-- Origin Spireport -->
         <circle cx="64" cy="78" r="42" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="2.8" />
-        <text x="64" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bunny-ink)">白塔星港</text>
-        <text x="64" y="92" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-orange)">初代启航港</text>
+        <text x="64" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bunny-ink)">白塔星域</text>
+        <text x="64" y="92" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-orange)">初代启航地</text>
 
-        <!-- Upper Arc: Generational Slow Voyage -->
         <path
           d="M108,52 Q340,2 572,52"
           fill="none"
@@ -89,19 +87,17 @@ const shipZones = [
         <text x="203" y="27" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-ink)">初代：罗伊与罗娅启航</text>
 
         <rect x="281" y="4" width="118" height="26" fill="var(--bunny-fabric)" stroke="var(--bunny-rule-strong)" />
-        <text x="340" y="21" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-ink)">深空航途：双币传子孙</text>
+        <text x="340" y="21" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-ink)">深空航途：双片传子孙</text>
 
         <rect x="418" y="10" width="118" height="26" fill="var(--bunny-fabric)" stroke="var(--bunny-orange)" />
         <text x="477" y="27" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-orange)">资料片：达罗后裔抵门</text>
 
-        <!-- Lower Beam: Re-ignited Gate -->
         <line x1="110" y1="106" x2="570" y2="106" stroke="var(--coin-green)" stroke-width="3.2" class="coin-dash-anim" />
         <rect x="206" y="92" width="268" height="28" fill="var(--bunny-paper)" stroke="var(--coin-green)" stroke-width="1.8" />
         <text x="340" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--coin-green)">
           星门重燃那一秒 = 数十年跨代距离折叠为一步！
         </text>
 
-        <!-- Distant Gate -->
         <circle cx="616" cy="78" r="42" fill="var(--bunny-paper)" stroke="var(--coin-green)" stroke-width="2.8" />
         <text x="616" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bunny-ink)">遥远星域</text>
         <text x="616" y="92" text-anchor="middle" font-size="12" font-weight="600" fill="var(--coin-green)">守门第三代</text>
@@ -121,21 +117,17 @@ const shipZones = [
         </div>
 
         <svg class="coin-map-svg" viewBox="0 0 480 176" aria-label="归航号母舰四分区可交互示意图">
-          <!-- Outer Hull matching GUIHANG Carrier Study -->
           <polygon
             points="24,66 92,40 392,40 434,52 434,126 392,136 62,138 16,98"
             fill="var(--bunny-paper)"
             stroke="var(--bunny-ink)"
             stroke-width="2.2"
           />
-          <!-- Brick Red Identification Blocks -->
           <polygon points="22,98 62,138 134,137 150,102 74,102" fill="var(--bunny-red)" opacity="0.72" />
           <rect x="344" y="106" width="42" height="29" fill="var(--bunny-red)" opacity="0.72" />
-          <!-- Slate Structural Bands -->
           <polygon points="98,40 126,40 108,137 80,137" fill="var(--bunny-ink-2)" opacity="0.28" />
           <rect x="234" y="40" width="18" height="96" fill="var(--bunny-ink-2)" opacity="0.28" />
 
-          <!-- Zone 3: Bow & Thrusters -->
           <g class="world-zone-hit" @click="selectedZone = 3">
             <polygon
               points="26,68 90,44 90,98 22,96"
@@ -149,7 +141,6 @@ const shipZones = [
             <circle cx="448" cy="116" r="11" fill="var(--bunny-fabric)" :stroke="selectedZone === 3 ? 'var(--bunny-orange)' : 'var(--bunny-ink)'" stroke-width="2.4" />
           </g>
 
-          <!-- Zone 2: Upper Habitation & Mess Hall -->
           <g class="world-zone-hit" @click="selectedZone = 2">
             <rect
               x="132"
@@ -163,7 +154,6 @@ const shipZones = [
             <text x="235" y="61" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-ink)">03 八席餐舱与封存居住街廊</text>
           </g>
 
-          <!-- Zone 1: Dual Hangar Ports (Launch & Recovery) -->
           <g class="world-zone-hit" @click="selectedZone = 1">
             <rect
               x="148"
@@ -190,7 +180,6 @@ const shipZones = [
             <text x="298" y="114" text-anchor="middle" font-size="12" fill="var(--bunny-ink-2)">猫舱与巡隼艇</text>
           </g>
 
-          <!-- Zone 0: Compact 6-Seat Bridge -->
           <g class="world-zone-hit" @click="selectedZone = 0">
             <polygon
               points="308,40 364,22 390,40"
@@ -248,8 +237,8 @@ const shipZones = [
             <b>母题 01</b>
             <span>时空回响</span>
           </div>
-          <h4>祖辈发信 · 孙辈接币</h4>
-          <p>白塔截获一艘在黑域漂流七十载的无人求救信使，发信老船长早已离世；当达罗传人顺着回响抛出新胚币，在对岸废墟伸手接住金币的已是苦守三代人的年轻继承者。</p>
+          <h4>祖辈发信 · 孙辈触印</h4>
+          <p>白塔截获一艘在黑域漂流七十载的无人求救信使，发信老船长早已离世；当达罗传人顺着回响投出母币金影，在对岸废墟伸手触碰立契的已是苦守三代人的年轻继承者。</p>
         </article>
 
         <article class="coin-lock-card">
@@ -258,7 +247,7 @@ const shipZones = [
             <span>寿命差美学</span>
           </div>
           <h4>长生机魂守望达罗数代人</h4>
-          <p>纯碳基的罗伊与罗娅终会随岁月老去，将双生主币交予子孙；而智械族久藏、罗克与硅碳族维琳跨越数个世纪驻守归航号，亲眼见证一代代琥珀金眸的达罗后人接过帅印。</p>
+          <p>纯碳基的罗伊与罗娅终会随岁月老去，将阳阴双片交予子孙；而智械族久藏、罗克与硅碳族维琳跨越数个世纪驻守归航号，亲眼见证一代代琥珀金眸的达罗后人接过帅印。</p>
         </article>
 
         <article class="coin-lock-card">
