@@ -1,0 +1,124 @@
+{
+  "tabs": [
+    {
+      "key": "card",
+      "label": "角色卡",
+      "caption": "原稿的低姿持枪战备站姿，换上完整造型并拉直枪管，2026-11-22 定稿",
+      "assets": [
+        "character-card-latest"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "完整三视",
+      "caption": "正面、角色右侧面、背面，折叠托重型步枪斜挂于背部银白护甲导轨",
+      "assets": [
+        "rifle-front-latest",
+        "rifle-right-latest",
+        "rifle-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "T 姿",
+      "caption": "T 姿四视，供 3D 建模参考",
+      "assets": [
+        "rifle-tpose-front-latest",
+        "rifle-tpose-right-latest",
+        "rifle-tpose-back-latest",
+        "rifle-tpose-left-latest"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-11-22",
+      "title": "角色卡定稿",
+      "asset": "character-card-latest",
+      "caption": "低姿战备双手持握展开态重型能量步枪，统一钢钴蓝对称臂甲、双膝枪灰护膝与笔直枪轴。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "六层穿戴完成",
+      "asset": "rifle-front-latest",
+      "caption": "从重壮男素体到斜挂折叠托步枪与背部导轨，每层配备 A 姿三视与 T 姿四视。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "表情表定稿",
+      "asset": "expressions-sheet-latest",
+      "caption": "4×4 表情，3/4 角色右侧面视角覆盖冷静默认、怒吼喊话、咬牙负伤与微羞微笑等十六种神态。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "全套拆解图",
+      "asset": "breakdown-sheet-latest",
+      "caption": "第 0 到第 5 层一图看完。"
+    }
+  ],
+  "facts": [
+    {
+      "term": "外观",
+      "value": "成年重壮男性步兵，凌乱银白短发与橄榄翠绿瞳色，佩戴绿光 V 形护目镜与哑光炭黑面罩",
+      "note": "双耳外露并绕以细黑弹性面罩带，尖嘴呼吸器仅在角色右鼻侧带微凹进气口，角色左面颊保持纯黑素面"
+    },
+    {
+      "term": "体型",
+      "value": "基于重壮男素体，赤脚约 7.87 头身",
+      "note": "整头替换为 Gunman 设定，颈下骨架与通用重壮男标准完全一致；厘米身高未设定"
+    },
+    {
+      "term": "标志武器",
+      "value": "重型科幻能量步枪",
+      "note": "日常 A 姿与 T 姿三视中折叠骨架枪托斜挂于背部六角导轨，角色卡姿势中双手展开持握"
+    },
+    {
+      "term": "穿戴层级",
+      "value": "第 0 至第 5 层（完整武装）",
+      "note": "战术内搭与战靴、织带弹药盒与护膝手套、银白胸甲与钢蓝臂甲、绿光护目镜与面罩、重型步枪与背部挂载"
+    }
+  ],
+  "chips": [
+    {
+      "name": "钢钴蓝",
+      "use": "对称三层肩甲、上臂箍与两片式前臂甲",
+      "color": "#4A58B0"
+    },
+    {
+      "name": "银白",
+      "use": "分段六角胸甲、背甲与步枪中段机匣",
+      "color": "#D5D0D0"
+    },
+    {
+      "name": "橄榄绿",
+      "use": "V 形护目镜片、步枪枪身与角色右胯弹药盒",
+      "color": "#7BAA48"
+    },
+    {
+      "name": "电光蓝",
+      "use": "高帮战术运动靴、装甲手套与角色右大腿稳固带",
+      "color": "#2931EE"
+    }
+  ],
+  "chipNote": "哑光炭黑战术长裤与卡其长袖托底，衬托高对比银白闭合 OG 胸甲与钢钴蓝对称重甲。",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-22",
+  "chapters": [
+    {
+      "id": "identity",
+      "label": "身份与画风"
+    },
+    {
+      "id": "layers",
+      "label": "衣层由内到外"
+    },
+    {
+      "id": "expressions",
+      "label": "面部与表情"
+    },
+    {
+      "id": "breakdown",
+      "label": "拆解与角色卡"
+    }
+  ]
+}
