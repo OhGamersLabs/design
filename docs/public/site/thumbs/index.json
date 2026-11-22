@@ -295,6 +295,14 @@
     "sourcePath": "/characters/angel/boots-tpose-right-latest.webp",
     "sourceSha256": "391896816171b2dfa8823e47420916cc8fecf4387aeee42454980b2cd4cc9070"
   },
+  "angel/character-card-latest": {
+    "path": "/site/thumbs/angel/character-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "027c44b46c9ea57fcf8e12a230ead4196b6b30000999b4bdec3725776f2811fa",
+    "sourcePath": "/characters/angel/character-card-latest.webp",
+    "sourceSha256": "e7d5b61e5e7bb459f44e525f21fc1d727db0925daddcb95cba2c2c53fabc07c3"
+  },
   "angel/choker-back-latest": {
     "path": "/site/thumbs/angel/choker-back-latest.webp",
     "width": 480,

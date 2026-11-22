@@ -19,6 +19,12 @@ releaseReady: false
 
 <LayerStrip />
 
+## 角色卡定稿 {#card}
+
+原稿 3/4 祈祷立姿 4K 角色定稿，统一齐冠生物柔羽耳、角色右侧 V 形哑光金发夹、完整六层着装与展开态少女蝴蝶骨光翼。
+
+<AssetImage id="character-card-latest" detail="原稿 3/4 祈祷立姿 4K 角色定稿（2880×2880）" use-thumb />
+
 ## 画师原稿 {#origin}
 
 原稿展示角色的完整造型。上方衣层章节展示逐件确认的设计。
