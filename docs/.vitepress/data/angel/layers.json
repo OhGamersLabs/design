@@ -158,6 +158,32 @@
         }
       ],
       "leftRight": "仅角色右侧额发佩戴 V 形哑光金发夹与深褐直卡，角色左侧额发完全留素；角色左与角色右双侧生物柔羽耳与背部光翼保持对称。"
+    },
+    {
+      "layer": 7,
+      "name": "栖羽光轮杖",
+      "path": "/characters/angel/plume-staff",
+      "front": "plume-staff-front-latest",
+      "side": "plume-staff-right-latest",
+      "back": "plume-staff-back-latest",
+      "tpose": {
+        "front": "plume-staff-tpose-front-latest",
+        "right": "plume-staff-tpose-right-latest",
+        "back": "plume-staff-tpose-back-latest",
+        "left": "plume-staff-tpose-left-latest"
+      },
+      "summary": "羽人族治疗师专属武装，在完整六层着装外配置可折叠栖羽光轮杖，收纳为约 0.25 H 紧凑羽蕾短杖磁吸挂载于角色左胯外侧，展开态为约 1.05 H 铅垂羽轴长杖。",
+      "facts": [
+        {
+          "term": "展开全态",
+          "value": "约 1.05 H 刚性铅垂羽轴长杖，顶设鸟首衔环、板岩枪灰青光涡轮、悬浮天青水滴晶核与 3 枚可分离结晶疗愈飞羽"
+        },
+        {
+          "term": "角色左胯收纳",
+          "value": "三节羽轴回缩、鸟首环收拢成约 0.25 H 羽蕾短杖，以内侧哑黑翻折磁吸扣直挂角色左胯黑边"
+        }
+      ],
+      "leftRight": "收纳态严格仅挂载于角色左胯外侧（正面位于画面右、背面位于画面左、角色左侧面完整露出），与角色右胯第 5 层鸟首徽章在角色左与角色右两侧对称平衡，角色右侧面被身形自然遮挡且与背部双翼零干涉。"
     }
   ]
 }

@@ -345,6 +345,60 @@
       "contentType": "image/png"
     },
     {
+      "character": "angel",
+      "path": "/media/angel/plume-staff-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/plume-staff-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/plume-staff-board-latest.png",
+      "key": "x_ops/design/characters/angel/latest/plume-staff-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/plume-staff-fit-overlay-latest.png",
+      "key": "x_ops/design/characters/angel/latest/plume-staff-fit-overlay-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/plume-staff-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/plume-staff-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/plume-staff-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/plume-staff-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/plume-staff-tpose-back-latest.png",
+      "key": "x_ops/design/characters/angel/latest/plume-staff-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/plume-staff-tpose-front-latest.png",
+      "key": "x_ops/design/characters/angel/latest/plume-staff-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/plume-staff-tpose-left-latest.png",
+      "key": "x_ops/design/characters/angel/latest/plume-staff-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
+      "path": "/media/angel/plume-staff-tpose-right-latest.png",
+      "key": "x_ops/design/characters/angel/latest/plume-staff-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "base-bodies",
       "path": "/media/base-bodies/family-scale-latest.png",
       "key": "x_ops/design/characters/base-bodies/latest/family-scale-latest.png",
