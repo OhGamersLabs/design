@@ -1,8 +1,14 @@
+import { defineLoader } from 'vitepress'
+import { fileURLToPath } from 'node:url'
 import { loadWorld } from '../world.mjs'
 
-export default {
-  watch: ['./world/world.json'],
-  load() {
-    return loadWorld()
-  },
-}
+const root = new URL('../../../', import.meta.url)
+
+export default defineLoader({
+  watch: [
+    fileURLToPath(new URL('docs/.vitepress/data/world/world.json', root)),
+    fileURLToPath(new URL('catalog/world/manifest.json', root)),
+    fileURLToPath(new URL('docs/public/site/thumbs/index.json', root)),
+  ],
+  load: () => loadWorld(fileURLToPath(root)),
+})

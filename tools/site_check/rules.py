@@ -674,6 +674,14 @@ def a1(c):
         else:
             for aid,name in bb_names.items():
                 if not isinstance(name,str) or not name.strip():errors.append(fail('A1',aid,'Chinese display name is empty'))
+    if 'world' in ids:
+        w_file=c.cfg.root/'docs/.vitepress/data/world/world.json'
+        w_names=c.read(w_file).get('assetNames',{})
+        if not isinstance(w_names,dict) or set(w_names)!=ids['world']:
+            errors.append(fail('A1','world.json','world assetNames differ from manifest assets'))
+        else:
+            for aid,name in w_names.items():
+                if not isinstance(name,str) or not name.strip():errors.append(fail('A1',aid,'Chinese display name is empty'))
     return errors
 
 

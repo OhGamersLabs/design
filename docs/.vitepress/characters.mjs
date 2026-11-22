@@ -16,7 +16,7 @@ export function discoverCharacters(root = defaultRoot) {
     .filter((entry) => entry.isDirectory() && existsSync(resolve(dataRoot, entry.name, 'character.json')))
     .sort((a, b) => a.name < b.name ? -1 : a.name > b.name ? 1 : 0)
     .map(({ name: id }) => {
-      if (id === 'origins' || id === 'base-bodies' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)) throw new Error(`Invalid character id: ${id}`)
+      if (id === 'origins' || id === 'base-bodies' || id === 'world' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)) throw new Error(`Invalid character id: ${id}`)
       return parseCharacter(readJson(resolve(dataRoot, id, 'character.json')), id, existsSync(resolve(root, 'docs/characters', id, 'index.md')))
     })
 }

@@ -79,7 +79,7 @@ test('discovery uses character.json and the home file alone determines listing',
   write(root, 'docs/characters/robot/index.md', '# Robot')
   assert.equal(discoverCharacters(root)[1].listed, true)
 })
-for (const id of ['Bad', 'two--words', 'origins', 'base-bodies']) test(`discovery rejects invalid or shared collection id ${id}`, (t) => {
+for (const id of ['Bad', 'two--words', 'origins', 'base-bodies', 'world']) test(`discovery rejects invalid or shared collection id ${id}`, (t) => {
   const root = sandbox(t)
   write(root, `docs/.vitepress/data/${id}/character.json`, { name: id, role: '角色', order: 1, pages: [] })
   assert.throws(() => discoverCharacters(root), /Invalid character id/)
@@ -298,6 +298,9 @@ test('LayerCard renders a 0..2 map with that character chapter, noun and wear', 
 test('world lore registry loads all five races and covers every listed character', () => {
   const world = loadWorld()
   const site = loader.load()
+  assert.equal(Object.keys(world.assets).length, 2)
+  assert.equal(world.assets['og-master-coin-board-latest'].original.path, '/media/world/og-master-coin-board-latest.png')
+  assert.equal(world.assets['three-relic-shards-board-latest'].original.path, '/media/world/three-relic-shards-board-latest.png')
   assert.deepEqual(world.races.map(({ id }) => id), ['terran', 'avian', 'silica-carbon', 'automaton', 'nano-kin'])
   const memberIds = world.races.flatMap(({ members }) => members).sort()
   const rosterIds = site.roster.map(({ id }) => id).sort()

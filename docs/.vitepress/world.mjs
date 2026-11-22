@@ -1,6 +1,7 @@
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { list, readJson, record, text } from './data/character-data.mjs'
+import { assetById, buildAssetIndex } from './theme/character-site.mjs'
+import { list, number, parseManifest, parseNames, readJson, record, text } from './data/character-data.mjs'
 
 const defaultRoot = fileURLToPath(new URL('../../', import.meta.url))
 
@@ -24,6 +25,32 @@ function parseSectionCards(raw, listKey) {
 
 export function loadWorld(root = defaultRoot) {
   const source = record(readJson(resolve(root, 'docs/.vitepress/data/world/world.json')))
+  const manifest = parseManifest(readJson(resolve(root, 'catalog/world/manifest.json')))
+  const thumbs = Object.fromEntries(Object.entries(record(readJson(resolve(root, 'docs/public/site/thumbs/index.json')))).map(([key, value]) => {
+    const thumb = record(value)
+    return [key, { path: text(thumb.path), width: number(thumb.width), height: number(thumb.height) }]
+  }))
+  const assetNames = parseNames(source.assetNames)
+  const assets = buildAssetIndex({ character: 'world', manifests: [manifest], names: assetNames, thumbs })
+  const relicSheetsSource = record(source.relicSheets)
+  const relicSheets = {
+    lead: text(relicSheetsSource.lead),
+    items: list(relicSheetsSource.items).map((entry) => {
+      const item = record(entry)
+      const assetId = text(item.asset)
+      assetById(assets, assetId)
+      return {
+        asset: assetId,
+        code: text(item.code),
+        title: text(item.title),
+        caption: text(item.caption),
+        badges: list(item.badges).map((b) => {
+          const badge = record(b)
+          return { pos: text(badge.pos), desc: text(badge.desc) }
+        }),
+      }
+    }),
+  }
   const races = list(source.races).map((entry) => {
     const race = record(entry)
     return {
@@ -86,6 +113,7 @@ export function loadWorld(root = defaultRoot) {
     intro: text(source.intro),
     facts: parseFacts(source.facts),
     overviewChapters,
+    relicSheets,
     originAndFactions: { lead: originSection.lead, factions: originSection.items },
     coinPact: { lead: pactSection.lead, axioms: pactSection.items },
     echoesAndArk: { lead: echoesSection.lead, cards: echoesSection.items },
@@ -94,5 +122,6 @@ export function loadWorld(root = defaultRoot) {
     racesById: Object.fromEntries(races.map((r) => [r.id, r])),
     characters,
     readingOrder,
+    assets,
   }
 }

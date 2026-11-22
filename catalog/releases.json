@@ -3775,6 +3775,18 @@
       "path": "/media/wizard/face-sheet-latest.png",
       "key": "x_ops/design/characters/wizard/latest/face-sheet-latest.png",
       "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/og-master-coin-board-latest.png",
+      "key": "x_ops/design/characters/world/latest/og-master-coin-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/three-relic-shards-board-latest.png",
+      "key": "x_ops/design/characters/world/latest/three-relic-shards-board-latest.png",
+      "contentType": "image/png"
     }
   ]
 }

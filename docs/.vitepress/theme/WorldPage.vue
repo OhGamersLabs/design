@@ -8,6 +8,7 @@ import WorldOriginFactions from './components/WorldOriginFactions.vue'
 import WorldMysteryOnboarding from './components/WorldMysteryOnboarding.vue'
 import WorldCoinInteractive from './components/WorldCoinInteractive.vue'
 import WorldArkGenerations from './components/WorldArkGenerations.vue'
+import WorldImage from './components/WorldImage.vue'
 
 const { frontmatter, page } = useData()
 
@@ -57,7 +58,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
             <p class="world-hero__subtitle">{{ world.subtitle }}</p>
             <p class="world-hero__intro">{{ world.intro }}</p>
             <div class="world-hero__actions">
-              <a class="roster-section__more" :href="`#stage`">浏览六组可交互设定图解 <span aria-hidden="true">↓</span></a>
+              <a class="roster-section__more" :href="`#relic-sheets`">浏览核心信物设定板与交互图解 <span aria-hidden="true">↓</span></a>
               <a class="world-hero__secondary" :href="withBase('/world/races')">浏览五大种族与姓氏谱系</a>
             </div>
           </div>
@@ -80,6 +81,31 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
         </nav>
 
         <div class="vp-doc">
+          <div class="bunny-section-heading">
+            <h2 id="relic-sheets">核心信物设定图鉴</h2>
+            <p>{{ world.relicSheets.lead }}</p>
+          </div>
+
+          <div class="world-relic-list">
+            <article v-for="sheet in world.relicSheets.items" :key="sheet.asset" class="world-relic-card">
+              <div class="world-relic-card__head">
+                <span class="world-pillar-card__code">{{ sheet.code }}</span>
+                <h3>{{ sheet.title }}</h3>
+              </div>
+              <WorldImage
+                :id="sheet.asset"
+                :caption="sheet.caption"
+                group="world-relic-sheets"
+              />
+              <div class="world-relic-badges">
+                <div v-for="badge in sheet.badges" :key="badge.pos" class="world-relic-badge">
+                  <b>{{ badge.pos }}</b>
+                  <span>{{ badge.desc }}</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
           <div class="bunny-section-heading">
             <h2 id="stage">创世原点与三大宿敌</h2>
             <p>{{ world.originAndFactions.lead }}</p>
@@ -251,3 +277,56 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
     </div>
   </main>
 </template>
+
+<style scoped>
+.world-relic-list {
+  display: grid;
+  gap: 24px;
+  margin: 20px 0 36px;
+}
+.world-relic-card {
+  padding: 22px 24px 24px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg);
+}
+.world-relic-card__head h3 {
+  margin: 6px 0 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.world-relic-card :deep(.release-image) {
+  margin: 16px 0 18px;
+}
+.world-relic-badges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px 12px;
+}
+.world-relic-badge {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+}
+.world-relic-badge b {
+  color: var(--vp-c-text-1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.world-relic-badge span {
+  color: var(--vp-c-text-2);
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+@media (max-width: 640px) {
+  .world-relic-card {
+    padding: 16px;
+  }
+}
+</style>

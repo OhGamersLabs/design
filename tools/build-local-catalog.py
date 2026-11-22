@@ -15,6 +15,7 @@ FORBIDDEN = re.compile(r'(?:^|-)(?:v\d+|layer\d+|fresh|cel|base-aligned|highlow|
 SHARED_COLLECTIONS = {
     'origins': '角色原始手稿',
     'base-bodies': '通用素体设计',
+    'world': '星环纪元核心信物设定',
 }
 
 

@@ -8,7 +8,7 @@ import { validateCatalog } from '../worker/catalog.js'
 const defaultRoot = resolve(import.meta.dirname, '..')
 const slugPattern = /^[a-z0-9][a-z0-9-]*-latest$/
 const shaPattern = /^[a-fA-F0-9]{64}$/
-const sharedCollectionOverview = { origins: null, 'base-bodies': 'docs/standards/index.md' }
+const sharedCollectionOverview = { origins: null, 'base-bodies': 'docs/standards/index.md', world: 'docs/world/index.md' }
 const isRecord = (value) => value !== null && typeof value === 'object' && !Array.isArray(value)
 const matches = (pattern, value) => typeof value === 'string' && pattern.exec(value)?.[0] === value
 

@@ -9,7 +9,7 @@ PROCESS_WORDS = ('本轮','此前','已取消','取消','保留','旧','历史',
 EDITORIAL_CLAIMS = ('最容易画错','一眼就能认出')
 DIRECTION_EXCEPTIONS = ('角色左','角色右','画面左','画面右','左右识别','左右翻看','左右键','左右肩宽')
 PURPLES = ('#6551b9','#7462c4','#7462c412','#5743a8','#4f3c9b','#faf9fd','#f6f5fa','#f2f0f8','#e8e5ef')
-SHARED_COLLECTIONS = frozenset(('origins', 'base-bodies'))
+SHARED_COLLECTIONS = frozenset(('origins', 'base-bodies', 'world'))
 RULE_IDS = ('R1','R2','R3','R4','R6','R7','R7b','R8','R9','R10','R11','R12a','R12b','R13','R14','R15','R16','R17','A1','A2','D2','D4')
 
 
