@@ -54,7 +54,7 @@ export function loadCharacters(root = defaultRoot) {
   /** @type {Record<string, import('./theme/character-site-types').CharacterData>} */
   const characters = {}
   for (const definition of definitions) {
-    const { id, name, role, order, portrait, listed, pages } = definition
+    const { id, name, role, order, portrait, listed, group, pages } = definition
     const dataRoot = resolve(root, 'docs/.vitepress/data', id)
     const files = Object.fromEntries(readdirSync(dataRoot).filter((file) => file.endsWith('.json')).map((file) => [file, readJson(resolve(dataRoot, file))]))
     for (const file of Object.keys(files)) {
@@ -83,12 +83,13 @@ export function loadCharacters(root = defaultRoot) {
       ...(layers?.items ?? []).flatMap((layer) => [layer.front, layer.side, layer.back, ...Object.values(layer.tpose ?? {})]),
     ]
     for (const asset of ids) assetById(assets, asset)
-    characters[id] = { id, name, role, order, portrait, listed, readingOrder: [{ path: `/characters/${id}/`, title: name }, ...pages], assets, home, layers, anchorMap, displayText }
+    characters[id] = { id, name, role, order, portrait, listed, ...(group === undefined ? {} : { group }), readingOrder: [{ path: `/characters/${id}/`, title: name }, ...pages], assets, home, layers, anchorMap, displayText }
   }
-  const roster = Object.values(characters).filter((character) => character.listed)
-    .sort((a, b) => a.order - b.order || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
-    .map(({ id, name, role, portrait, assets, home }) => ({ id, name, role, home: `/characters/${id}/`, updated: home.updated, portrait: { asset: portrait, ...assetById(assets, portrait).thumb } }))
-  return { characters, roster, anchorMap: mergeAnchorMaps(Object.values(characters).map((character) => character.anchorMap)) }
+  const toRosterEntry = ({ id, name, role, portrait, assets, home }) => ({ id, name, role, home: `/characters/${id}/`, updated: home.updated, portrait: { asset: portrait, ...assetById(assets, portrait).thumb } })
+  const byOrder = (a, b) => a.order - b.order || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)
+  const roster = Object.values(characters).filter((character) => character.listed && (character.group ?? 'squad') === 'squad').sort(byOrder).map(toRosterEntry)
+  const majorCast = Object.values(characters).filter((character) => character.listed && character.group === 'major-cast').sort(byOrder).map(toRosterEntry)
+  return { characters, roster, majorCast, anchorMap: mergeAnchorMaps(Object.values(characters).map((character) => character.anchorMap)) }
 }
 
 /** @param {import('./theme/character-site-types').RosterEntry[]} roster @returns {import('vitepress').DefaultTheme.NavItem[]} */

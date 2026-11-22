@@ -34,6 +34,35 @@ import { data as world } from '../data/world.data.mjs'
       </div>
       <div class="npc-roster-grid">
         <a
+          v-for="boss in data.majorCast"
+          :key="boss.id"
+          class="npc-roster-card npc-roster-card--major"
+          :href="withBase(boss.home)"
+          :data-npc-id="boss.id"
+          :data-asset-id="boss.portrait.asset"
+        >
+          <div class="npc-roster-card__picture">
+            <img
+              :src="withBase(boss.portrait.path)"
+              :width="boss.portrait.width"
+              :height="boss.portrait.height"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="npc-roster-card__badge npc-roster-card__badge--major">重点角色 · 全衣层拆解</span>
+          </div>
+          <div class="npc-roster-card__copy">
+            <div class="npc-roster-card__head">
+              <h3 class="npc-roster-card__name">{{ boss.name }}</h3>
+              <span class="npc-roster-card__en">{{ world.characters[boss.id]?.enName ?? boss.id }}</span>
+            </div>
+            <p class="npc-roster-card__faction">{{ boss.role }} · {{ world.characters[boss.id]?.raceLabel }}</p>
+            <p class="npc-roster-card__summary">{{ world.characters[boss.id]?.tagline }}</p>
+            <p class="roster-updated">L0–L3 全拆解 · 最近更新 <time :datetime="boss.updated">{{ boss.updated }}</time></p>
+          </div>
+        </a>
+        <a
           v-for="npc in world.storyCast.standardCards"
           :key="npc.id"
           class="npc-roster-card"

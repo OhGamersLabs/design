@@ -1,0 +1,133 @@
+{
+  "tabs": [
+    {
+      "key": "card",
+      "label": "角色卡",
+      "caption": "执冷银六角先驱铸模权杖匣统御内环秩序的最高执印官站姿定稿，2026-11-23 定稿",
+      "assets": [
+        "character-card-latest"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "完整三视",
+      "caption": "正面、角色右侧面、背面，敞怀冷白高领礼装大衣配角色左外胯磁吸携行的冷银六角铸模权杖匣",
+      "assets": [
+        "magistrate-coat-front-latest",
+        "magistrate-coat-right-latest",
+        "magistrate-coat-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "T 姿",
+      "caption": "T 姿四视，供 3D 建模与分镜透视参考",
+      "assets": [
+        "magistrate-coat-tpose-front-latest",
+        "magistrate-coat-tpose-right-latest",
+        "magistrate-coat-tpose-back-latest",
+        "magistrate-coat-tpose-left-latest"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-11-23",
+      "title": "重点角色卡定稿",
+      "asset": "character-card-latest",
+      "caption": "冷白高领天秤执印官礼装大衣、无框银桥矩形眼镜与微启泛红的冷银六角先驱铸模权杖匣。"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "四层穿戴拆解完成",
+      "asset": "magistrate-coat-front-latest",
+      "caption": "从标准青年男素体、角色左袖零点探针黑衬、白瓷六角扣立领马甲至执印官礼装大衣，每层配齐 A 姿三视与 T 姿四视。"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "表情表定稿",
+      "asset": "expressions-sheet-latest",
+      "caption": "4×4 十六格神态，覆盖十年前伪善慈父微笑、镜片反光审视、冰冷命令与目睹零点零零裂壳时的震动。"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "全套拆解图",
+      "asset": "breakdown-sheet-latest",
+      "caption": "第 0 到第 3 层及三块灰模结构板一图全览。"
+    }
+  ],
+  "facts": [
+    {
+      "term": "全名与阵营",
+      "value": "索伦·韦恩（Soren Vane）",
+      "note": "白塔天秤财团最高执印官 · 重点反派首领"
+    },
+    {
+      "term": "外观特征",
+      "value": "五十二岁冷峻贵族骨相，铂银夹深炭灰背梳短发，冰铂金锐利眼瞳，配冷银无框矩形眼镜",
+      "note": "前额两缕银白碎发自然垂落于角色右眉上方，第 0 至第 2 层裸脸展示完整五官，第 3 层加戴无框眼镜"
+    },
+    {
+      "term": "体型基准",
+      "value": "基于标准青年男素体（1.08×），赤脚约 7.4 头身",
+      "note": "颈下修长精干骨架与通用标准青年男素体一致；厘米身高未设定"
+    },
+    {
+      "term": "核心信物",
+      "value": "冷银六角先驱铸模权杖匣 · 角色左前臂零点谐振探针",
+      "note": "铸模权杖匣可批量压制工业黑铁锁印伪币；角色左前臂内衬暗嵌十年前测出 0.00 读数的零点探针滑轨"
+    },
+    {
+      "term": "穿戴层级",
+      "value": "第 0 至第 3 层（完整执印礼装）",
+      "note": "基础素体、暗纹黑衬与零点探针滑轨、六角执印修身马甲与手套、冷白执印官礼装大衣与铸模匣"
+    }
+  ],
+  "chips": [
+    {
+      "name": "天秤冷白",
+      "use": "敞怀高立领执印官长礼装大衣与纯白精瓷六角胸扣",
+      "color": "#EEF0F4"
+    },
+    {
+      "name": "黑曜暗炭",
+      "use": "高立领正装内衬、双排暗扣修身马甲、笔挺西裤与皮手套",
+      "color": "#23262C"
+    },
+    {
+      "name": "铸模冷银",
+      "use": "六角先驱铸模权杖匣、角色左前臂探针滑轨、银桥镜架与礼靴包头",
+      "color": "#B8C0CC"
+    },
+    {
+      "name": "统御暗红",
+      "use": "铸模印腔能量微光与角色左前臂零点探针传感细缝",
+      "color": "#B8292F"
+    }
+  ],
+  "chipNote": "高纯度冷白礼装大衣包裹黑曜内搭与冷银六角几何金属件，仅在铸模印腔与探针细缝透出克制的统御暗红。",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-23",
+  "chapters": [
+    {
+      "id": "identity",
+      "label": "身份与画风"
+    },
+    {
+      "id": "story",
+      "label": "背景故事"
+    },
+    {
+      "id": "layers",
+      "label": "衣层由内到外"
+    },
+    {
+      "id": "expressions",
+      "label": "面部与表情"
+    },
+    {
+      "id": "breakdown",
+      "label": "拆解与角色卡"
+    }
+  ]
+}

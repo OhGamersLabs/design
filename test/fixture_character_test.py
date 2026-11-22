@@ -19,10 +19,13 @@ from site_check.htmlscan import parse_html
 
 class FixtureCharacterTest(unittest.TestCase):
     def listed_roster(self,root):
-        """Listed characters in roster order, re-derived from the files: a data folder plus a home page, by order then id."""
-        listed=[(json.loads((data/'character.json').read_text())['order'],data.name)
-                for data in (root/'docs/.vitepress/data').iterdir()
-                if (data/'character.json').is_file() and (root/'docs/characters'/data.name/'index.md').is_file()]
+        """Listed squad characters in roster order, re-derived from the files: a data folder plus a home page, by order then id."""
+        listed=[]
+        for data in (root/'docs/.vitepress/data').iterdir():
+            if not ((data/'character.json').is_file() and (root/'docs/characters'/data.name/'index.md').is_file()):continue
+            character=json.loads((data/'character.json').read_text())
+            if character.get('group','squad')!='squad':continue
+            listed.append((character['order'],data.name))
         return [cid for _,cid in sorted(listed)]
 
     def clone(self,source,target):

@@ -4023,6 +4023,14 @@
     "sourcePath": "/characters/origins/samurai-original-latest.webp",
     "sourceSha256": "25e74b33128a21ea036bc6da64ead91f852d8ad926a388d5f1df0dd1b6d7f2b6"
   },
+  "origins/soren-vane-original-latest": {
+    "path": "/site/thumbs/origins/soren-vane-original-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "7c7d16729e2cf2770bbe42169500e2739a100f4656cf65cd027e0856c913e697",
+    "sourcePath": "/characters/origins/soren-vane-original-latest.webp",
+    "sourceSha256": "69da3cd87debb90a9eae2dabff704dbdfae9c11fa7a20918196dd422b83c2c67"
+  },
   "origins/wizard-original-latest": {
     "path": "/site/thumbs/origins/wizard-original-latest.webp",
     "width": 480,
@@ -4814,6 +4822,286 @@
     "sha256": "70f4f0650efdd65088a9de050d3e83842835beb5db66cdca0a431d6b0001cc03",
     "sourcePath": "/characters/samurai/pauldrons-cape-tpose-right-latest.webp",
     "sourceSha256": "9423284725c716b2eab0c351234c477b78f4fccf110b5d066b346501831e4ab7"
+  },
+  "soren-vane/body-back-latest": {
+    "path": "/site/thumbs/soren-vane/body-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "061da49299ff7169e74890239275b2111aefb65ace4ac9f20ab719bedf329954",
+    "sourcePath": "/characters/soren-vane/body-back-latest.webp",
+    "sourceSha256": "5eb6637f2c2dfc1875a89511fa375be8d08fc139a323d1dbe58b4228d7a3a994"
+  },
+  "soren-vane/body-front-latest": {
+    "path": "/site/thumbs/soren-vane/body-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "b0fb822a3506277e64ab60584ba21ffb2d2da9af0181e917be13bf1f823fafcb",
+    "sourcePath": "/characters/soren-vane/body-front-latest.webp",
+    "sourceSha256": "f885278846d7d308b14cea160a9ea2b77b4dec46ccb4df0ff66d96a4cd9b6d3c"
+  },
+  "soren-vane/body-right-latest": {
+    "path": "/site/thumbs/soren-vane/body-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "4080491170169e42931b06f3c4232785b364b3379a47f4efaa9d4e5e6afcc13b",
+    "sourcePath": "/characters/soren-vane/body-right-latest.webp",
+    "sourceSha256": "b6738b03edf52e427f58b40e1dff7ce7d38b12f7f47d4de7032ebf8e420847c9"
+  },
+  "soren-vane/body-tpose-back-latest": {
+    "path": "/site/thumbs/soren-vane/body-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5e27f3d1ad29c8c4e28d526cee85b5878d8e1d28d412cf75864d77e963eedfa8",
+    "sourcePath": "/characters/soren-vane/body-tpose-back-latest.webp",
+    "sourceSha256": "256981f8c99370730134e2661bc3740c9b4531e2b351cefbb5c5c4fb04ff08d1"
+  },
+  "soren-vane/body-tpose-front-latest": {
+    "path": "/site/thumbs/soren-vane/body-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "1cdbb2c50dc1ed24210134d28ee97bbc33e77736fd138e183a33b35e40bcf64f",
+    "sourcePath": "/characters/soren-vane/body-tpose-front-latest.webp",
+    "sourceSha256": "40b15a80785a256929ef47d823fa7c15b460c715bc551ac1bb42eb62f700be0b"
+  },
+  "soren-vane/body-tpose-left-latest": {
+    "path": "/site/thumbs/soren-vane/body-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "45eaade3a249b80accad80b30a7a8891787f7d23e5852d940f72a9ad40d1e96c",
+    "sourcePath": "/characters/soren-vane/body-tpose-left-latest.webp",
+    "sourceSha256": "3835c5d4cb61036bd0ed8ea0dd521745757351b85d9930879597f13c1983c346"
+  },
+  "soren-vane/body-tpose-right-latest": {
+    "path": "/site/thumbs/soren-vane/body-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8d7f90fccb21cdee8ea5f276984ad4f1fb6f6b42a832db707d8b25cdf641abe8",
+    "sourcePath": "/characters/soren-vane/body-tpose-right-latest.webp",
+    "sourceSha256": "e5a071c670dc6d73a326e6829d3bf1740c40a741b627d4f8b58f41e90e5256cc"
+  },
+  "soren-vane/breakdown-sheet-latest": {
+    "path": "/site/thumbs/soren-vane/breakdown-sheet-latest.webp",
+    "width": 480,
+    "height": 300,
+    "sha256": "f104d73ee71908d2c51293fbccf9bdae3e239e7c0f27dcc0275d7f30a3f5780b",
+    "sourcePath": "/characters/soren-vane/breakdown-sheet-latest.webp",
+    "sourceSha256": "2a7a722d4062ca06f2b70ecc70fd77c9f7f0c1313a8961acf178387c2b98fa13"
+  },
+  "soren-vane/character-card-latest": {
+    "path": "/site/thumbs/soren-vane/character-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5d5420dc0b41afbec32255ff9d00e0681db83d12260eb4180f9a63e967eded5d",
+    "sourcePath": "/characters/soren-vane/character-card-latest.webp",
+    "sourceSha256": "b7e7e9f3ff5349c37a849b773e0026fd65f64d9bbbe7b3353a183109b312ab54"
+  },
+  "soren-vane/expressions-sheet-latest": {
+    "path": "/site/thumbs/soren-vane/expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "531f667297a6fa6dba819d404d17b541fd7f146cb9a03e2b1f8e24481b8b0cd9",
+    "sourcePath": "/characters/soren-vane/expressions-sheet-latest.webp",
+    "sourceSha256": "ea6feedecbd6cd1bfefd45843dafa99dd5bde268f9b44ea4468abd3208cc8731"
+  },
+  "soren-vane/face-sheet-latest": {
+    "path": "/site/thumbs/soren-vane/face-sheet-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "ebc31d452e7bcf6a2b5989361b48239271b49aac0090d61af75e9edfed8ee7d5",
+    "sourcePath": "/characters/soren-vane/face-sheet-latest.webp",
+    "sourceSha256": "379dd5e84fa7f03f2bfb78911dfc27bbbb86db451812ac5bfcfa05940b44ba31"
+  },
+  "soren-vane/inner-shirt-back-latest": {
+    "path": "/site/thumbs/soren-vane/inner-shirt-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "b43fa3705a60e9fc195db83d62821e3f3bee69a5f243386c95dc48194cd0dfc9",
+    "sourcePath": "/characters/soren-vane/inner-shirt-back-latest.webp",
+    "sourceSha256": "f97616232eb75e959162ff1c5ce7ae0e65d5fb5dfc93140c15688b1723852afc"
+  },
+  "soren-vane/inner-shirt-board-latest": {
+    "path": "/site/thumbs/soren-vane/inner-shirt-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "bdfb0deda5ee112f4eb9163c5ab368e379eb7ddce364aaf1b43cd3f5666cf399",
+    "sourcePath": "/characters/soren-vane/inner-shirt-board-latest.webp",
+    "sourceSha256": "5981e055a70398af5019efd7bc88cf320250f35929d7091ef8ee1390e1799972"
+  },
+  "soren-vane/inner-shirt-front-latest": {
+    "path": "/site/thumbs/soren-vane/inner-shirt-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "d6c9f976a5de152dd050cd590708d1ceaf491584b11b6139af2de610754ee30a",
+    "sourcePath": "/characters/soren-vane/inner-shirt-front-latest.webp",
+    "sourceSha256": "f569db8a8ddc381baa1a911c033125346467f914758926f1876ec376a2cd01e3"
+  },
+  "soren-vane/inner-shirt-right-latest": {
+    "path": "/site/thumbs/soren-vane/inner-shirt-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "14407589dbe242680d7efd1e6916b27c83a6b77cca95640f8d0b0111edd16cc6",
+    "sourcePath": "/characters/soren-vane/inner-shirt-right-latest.webp",
+    "sourceSha256": "2cf43ca2e9744727b99c8b07dc80fe5fb88b504ea162e2b8fcf27a0a44ed6210"
+  },
+  "soren-vane/inner-shirt-tpose-back-latest": {
+    "path": "/site/thumbs/soren-vane/inner-shirt-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8a9297baa83938f7268e32dee854a0f3a5f5ddc1e4d622d213c486200413af38",
+    "sourcePath": "/characters/soren-vane/inner-shirt-tpose-back-latest.webp",
+    "sourceSha256": "372fc163f4fdcfa2255ee54426bf10d6ce1bf73ab16c883f03b31c3a4049bb5d"
+  },
+  "soren-vane/inner-shirt-tpose-front-latest": {
+    "path": "/site/thumbs/soren-vane/inner-shirt-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "e89fcd26579d1bae101a2a22b9270e421361a2d7d6aad30e79dd0e8bf10c654b",
+    "sourcePath": "/characters/soren-vane/inner-shirt-tpose-front-latest.webp",
+    "sourceSha256": "eb355a497152957142644e897ca96591e8928f4806592c0a4878ef1638975084"
+  },
+  "soren-vane/inner-shirt-tpose-left-latest": {
+    "path": "/site/thumbs/soren-vane/inner-shirt-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "3cdbe00f101918672c141c8b50a6fbaf1274e420c8689fb725962f649eef1cf3",
+    "sourcePath": "/characters/soren-vane/inner-shirt-tpose-left-latest.webp",
+    "sourceSha256": "eb97fb191fe1da9f2c3c166dd648cf4da30cab8d5b8247f3f6488fe2cc238b94"
+  },
+  "soren-vane/inner-shirt-tpose-right-latest": {
+    "path": "/site/thumbs/soren-vane/inner-shirt-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "3983c1ca26c3dc17ede43db028ee9e1fbfe46644adfad5b282f9e0b56d467fab",
+    "sourcePath": "/characters/soren-vane/inner-shirt-tpose-right-latest.webp",
+    "sourceSha256": "b9996d75927fb38eb61e76fefed713dc116e4a7b0bc84ba2274e5cf5fd0992b0"
+  },
+  "soren-vane/magistrate-coat-back-latest": {
+    "path": "/site/thumbs/soren-vane/magistrate-coat-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "438e4df10c020a8569744f0f6d12374e1c8b4134ead8a29a0a80cfa36a9cb07d",
+    "sourcePath": "/characters/soren-vane/magistrate-coat-back-latest.webp",
+    "sourceSha256": "e2bf56a3050f075f30b34996ab8ed61917d8319b70583bbdb73777b9b0dcef98"
+  },
+  "soren-vane/magistrate-coat-board-latest": {
+    "path": "/site/thumbs/soren-vane/magistrate-coat-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "98f7b8c8ba4916a72c4b69256c0957d1b492a09e2ab72ebea1eea07bf86f4e35",
+    "sourcePath": "/characters/soren-vane/magistrate-coat-board-latest.webp",
+    "sourceSha256": "c41062cfdaecfe133dc3b6649a886d5db5529c93332125ec1f4372cae17c512c"
+  },
+  "soren-vane/magistrate-coat-front-latest": {
+    "path": "/site/thumbs/soren-vane/magistrate-coat-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "44356befa60350b02ce487b138f34cdba5d58e78163759940054c214ffa380b0",
+    "sourcePath": "/characters/soren-vane/magistrate-coat-front-latest.webp",
+    "sourceSha256": "54c26826acc9696455565c52847c0d524a2c6d9879f269b984f094de03022188"
+  },
+  "soren-vane/magistrate-coat-right-latest": {
+    "path": "/site/thumbs/soren-vane/magistrate-coat-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "f65d37cf76ef8eebe31470803c668f8a5235081c5ca09507a2fea015863fd2f4",
+    "sourcePath": "/characters/soren-vane/magistrate-coat-right-latest.webp",
+    "sourceSha256": "97279d462d43c652be8924237aae34ffa6df45422b133db3891cc3294523c987"
+  },
+  "soren-vane/magistrate-coat-tpose-back-latest": {
+    "path": "/site/thumbs/soren-vane/magistrate-coat-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "3c371a1a1ff4e8ae9976795cb350051eb384b234fbb3e742d8fe5dd81f9bb21a",
+    "sourcePath": "/characters/soren-vane/magistrate-coat-tpose-back-latest.webp",
+    "sourceSha256": "e758259132a125456545c53f6dc142d4a143b1d34fcceb1db5ba20fbe7555cb7"
+  },
+  "soren-vane/magistrate-coat-tpose-front-latest": {
+    "path": "/site/thumbs/soren-vane/magistrate-coat-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "aed2559f412ef4a6d78eae6a935e86c3e68aa42dae6df6c21205f1f31dbdb5e5",
+    "sourcePath": "/characters/soren-vane/magistrate-coat-tpose-front-latest.webp",
+    "sourceSha256": "99c44c1736b9be97d8de1a1ddd9565cfcf839817a5d42e078f230329064a693e"
+  },
+  "soren-vane/magistrate-coat-tpose-left-latest": {
+    "path": "/site/thumbs/soren-vane/magistrate-coat-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "519b13e7f57a47111223c767ddc9c162f236ad6a5b988c2873d34987e700573e",
+    "sourcePath": "/characters/soren-vane/magistrate-coat-tpose-left-latest.webp",
+    "sourceSha256": "780d7fb570a58c499061401f5a5328de1d2bbeb97a85f0bfed0a8ced38eb450f"
+  },
+  "soren-vane/magistrate-coat-tpose-right-latest": {
+    "path": "/site/thumbs/soren-vane/magistrate-coat-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c11a6a80336b174b085d88a4fc3e32b95c633e7080344b43daf6dee1578da0e1",
+    "sourcePath": "/characters/soren-vane/magistrate-coat-tpose-right-latest.webp",
+    "sourceSha256": "3c40ee68bbd376d7435be0f92c00a40594d35dee9cc49282b5b13baca7141171"
+  },
+  "soren-vane/vest-rig-back-latest": {
+    "path": "/site/thumbs/soren-vane/vest-rig-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "63d201708e5e98e7bd20ae628ebe666fdcf62d97a93052101ad3a1477ca28236",
+    "sourcePath": "/characters/soren-vane/vest-rig-back-latest.webp",
+    "sourceSha256": "e04cb56b0e9b2eb55699746270cc1055509faf15f2744a763fb1b2a64c642fb4"
+  },
+  "soren-vane/vest-rig-board-latest": {
+    "path": "/site/thumbs/soren-vane/vest-rig-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "332324a086c1ceeb2f97d4ce851ac8ac68ed733175c7e49a8be8e8caa5e55e5c",
+    "sourcePath": "/characters/soren-vane/vest-rig-board-latest.webp",
+    "sourceSha256": "03da5b73ec75db57d84cb4b8c62aa580622e0f1a6c1f04593d15eb1c7cc28ede"
+  },
+  "soren-vane/vest-rig-front-latest": {
+    "path": "/site/thumbs/soren-vane/vest-rig-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "e10690862c9ad87e97100aaad4504f11b2ef8389dac61153f24ca5faeee2acc2",
+    "sourcePath": "/characters/soren-vane/vest-rig-front-latest.webp",
+    "sourceSha256": "6d242ca616e190c7f66c4f2d69e53b57c737324a6a186445e256e80a860201f8"
+  },
+  "soren-vane/vest-rig-right-latest": {
+    "path": "/site/thumbs/soren-vane/vest-rig-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "29a2843a930cff5e2b18ea1dc58c0e5cc6177ce90ef3cb1960ce0c915f5a7eb8",
+    "sourcePath": "/characters/soren-vane/vest-rig-right-latest.webp",
+    "sourceSha256": "f1fe880b1bebcedb35f8b654a775c634a9861d406d260562b04a2851a4e487a8"
+  },
+  "soren-vane/vest-rig-tpose-back-latest": {
+    "path": "/site/thumbs/soren-vane/vest-rig-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "2473ddf6c6b1a828440c4671c72307cf3993a3fd2ca8bd916d4d28d5d3e3671d",
+    "sourcePath": "/characters/soren-vane/vest-rig-tpose-back-latest.webp",
+    "sourceSha256": "161450231e4047cddaaa98bb5b8504640245a2cacb8fc0230ce397cded9bfdb7"
+  },
+  "soren-vane/vest-rig-tpose-front-latest": {
+    "path": "/site/thumbs/soren-vane/vest-rig-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "4157fdaa42e50dee8356587a2e0f6b8407f54fae5cfeb15f3a6887f329e0f3ab",
+    "sourcePath": "/characters/soren-vane/vest-rig-tpose-front-latest.webp",
+    "sourceSha256": "e0ca081fab65ae7e7d863764e81184adff2612cdcf3af29a012b2d067c55e81c"
+  },
+  "soren-vane/vest-rig-tpose-left-latest": {
+    "path": "/site/thumbs/soren-vane/vest-rig-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "7871aefb68f7d65e49fa1dec236f9b9af15f9c99caa40b4ea7f6aa4d5b1556db",
+    "sourcePath": "/characters/soren-vane/vest-rig-tpose-left-latest.webp",
+    "sourceSha256": "8bb207b2590c7e684006bbd7c684298a5521c405d18cbd37e64b4d2dcc22a72a"
+  },
+  "soren-vane/vest-rig-tpose-right-latest": {
+    "path": "/site/thumbs/soren-vane/vest-rig-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0775d9ab25b9c94afa436e6188bb42fd673d3f3da7fe21e48fecd102907b70f8",
+    "sourcePath": "/characters/soren-vane/vest-rig-tpose-right-latest.webp",
+    "sourceSha256": "95f36b3960626211f7af0b5c4319c7fa3109753305a872ec76628e77325b79b9"
   },
   "wizard/arcane-coat-back-latest": {
     "path": "/site/thumbs/wizard/arcane-coat-back-latest.webp",

@@ -1,0 +1,25 @@
+{
+  "name": "索伦·韦恩",
+  "role": "白塔天秤财团最高执印官",
+  "order": 1,
+  "group": "major-cast",
+  "pages": [
+    {
+      "path": "/characters/soren-vane/body",
+      "title": "身体"
+    },
+    {
+      "path": "/characters/soren-vane/inner-shirt",
+      "title": "暗纹黑衬与零点探针滑轨"
+    },
+    {
+      "path": "/characters/soren-vane/vest-rig",
+      "title": "六角执印修身马甲与手套"
+    },
+    {
+      "path": "/characters/soren-vane/magistrate-coat",
+      "title": "冷白执印官礼装大衣与铸模匣"
+    }
+  ],
+  "portrait": "character-card-latest"
+}

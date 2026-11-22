@@ -96,6 +96,17 @@ test('roster sorts listed characters by order and then id while loading unlisted
   assert.equal(data.characters.alpha.listed, false)
   assert.equal(Object.keys(data.characters.alpha.assets).length, 10)
 })
+test('major-cast group stays separate from main squad roster and rejects unknown group', (t) => {
+  const root = sandbox(t)
+  addCharacter(root, 'bunny', { order: 0 })
+  const bossDir = addCharacter(root, 'soren-vane', { order: 1 })
+  mutate(root, bossDir, 'character.json', (value) => { value.group = 'major-cast' })
+  const data = loadCharacters(root)
+  assert.deepEqual(data.roster.map(({ id }) => id), ['bunny'])
+  assert.deepEqual(data.majorCast.map(({ id }) => id), ['soren-vane'])
+  mutate(root, bossDir, 'character.json', (value) => { value.group = 'invalid' })
+  assert.throws(() => discoverCharacters(root), /Invalid character group/)
+})
 for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one 角色 flyout before world and standards`, (t) => {
   const root = sandbox(t)
   if (count > 0) addCharacter(root, 'bunny')
@@ -143,7 +154,7 @@ for (const key of ['pages', 'stubs', 'latest', 'unexpected']) test(`site-check r
 })
 test('loader exposes all characters, roster, merged map and wildcard watch paths', () => {
   const data = loader.load()
-  assert.deepEqual(Object.keys(data).sort(), ['anchorMap', 'characters', 'roster'])
+  assert.deepEqual(Object.keys(data).sort(), ['anchorMap', 'characters', 'majorCast', 'roster'])
   assert.equal(data.characters.bunny.readingOrder.length, 14)
   assert.equal(data.characters.bunny.layers.items.length, 10)
   assert.deepEqual(data.anchorMap, data.characters.bunny.anchorMap)

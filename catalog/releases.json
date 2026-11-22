@@ -3022,6 +3022,12 @@
     },
     {
       "character": "origins",
+      "path": "/media/origins/soren-vane-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/soren-vane-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "origins",
       "path": "/media/origins/wizard-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/wizard-original-latest.png",
       "contentType": "image/png"
@@ -3612,6 +3618,216 @@
       "character": "samurai",
       "path": "/media/samurai/pauldrons-cape-tpose-right-latest.png",
       "key": "x_ops/design/characters/samurai/latest/pauldrons-cape-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/body-back-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/body-front-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/body-right-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/body-tpose-back-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/body-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/body-tpose-front-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/body-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/body-tpose-left-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/body-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/body-tpose-right-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/body-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/character-card-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/face-sheet-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/face-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/inner-shirt-back-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/inner-shirt-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/inner-shirt-board-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/inner-shirt-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/inner-shirt-front-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/inner-shirt-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/inner-shirt-right-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/inner-shirt-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/inner-shirt-tpose-back-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/inner-shirt-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/inner-shirt-tpose-front-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/inner-shirt-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/inner-shirt-tpose-left-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/inner-shirt-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/inner-shirt-tpose-right-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/inner-shirt-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/magistrate-coat-back-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/magistrate-coat-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/magistrate-coat-board-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/magistrate-coat-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/magistrate-coat-front-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/magistrate-coat-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/magistrate-coat-right-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/magistrate-coat-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/magistrate-coat-tpose-back-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/magistrate-coat-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/magistrate-coat-tpose-front-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/magistrate-coat-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/magistrate-coat-tpose-left-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/magistrate-coat-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/magistrate-coat-tpose-right-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/magistrate-coat-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/vest-rig-back-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/vest-rig-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/vest-rig-board-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/vest-rig-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/vest-rig-front-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/vest-rig-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/vest-rig-right-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/vest-rig-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/vest-rig-tpose-back-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/vest-rig-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/vest-rig-tpose-front-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/vest-rig-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/vest-rig-tpose-left-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/vest-rig-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/vest-rig-tpose-right-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/vest-rig-tpose-right-latest.png",
       "contentType": "image/png"
     },
     {

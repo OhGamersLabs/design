@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 10,
+  "asset_count": 11,
   "assets": [
     {
       "id": "angel-original-latest",
@@ -211,6 +211,29 @@
         "bytes": 1154408,
         "sha256": "25e74b33128a21ea036bc6da64ead91f852d8ad926a388d5f1df0dd1b6d7f2b6",
         "alpha": true
+      }
+    },
+    {
+      "id": "soren-vane-original-latest",
+      "character": "origins",
+      "title": "soren-vane-original-latest",
+      "original": {
+        "path": "/media/origins/soren-vane-original-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 7366473,
+        "sha256": "69fed15e82f656501ae7eabe120b3f428566711f75553864ee14980daaf00311",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/origins/soren-vane-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1902172,
+        "sha256": "69da3cd87debb90a9eae2dabff704dbdfae9c11fa7a20918196dd422b83c2c67",
+        "alpha": false
       }
     },
     {

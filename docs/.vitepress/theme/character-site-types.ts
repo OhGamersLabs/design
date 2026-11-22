@@ -73,6 +73,8 @@ export interface ReadingEntry {
   title: string
 }
 
+export type CharacterGroup = 'squad' | 'major-cast'
+
 export interface CharacterDefinition {
   id: string
   name: string
@@ -80,6 +82,7 @@ export interface CharacterDefinition {
   order: number
   portrait: string
   listed: boolean
+  group?: CharacterGroup
   pages: ReadingEntry[]
 }
 
@@ -90,6 +93,7 @@ export interface CharacterData {
   order: number
   portrait: string
   listed: boolean
+  group?: CharacterGroup
   readingOrder: ReadingEntry[]
   assets: Record<string, AssetRecord>
   home: HomeData
@@ -110,5 +114,6 @@ export interface RosterEntry {
 export interface SiteData {
   characters: Record<string, CharacterData>
   roster: RosterEntry[]
+  majorCast: RosterEntry[]
   anchorMap: AnchorMap
 }

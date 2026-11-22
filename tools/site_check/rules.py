@@ -583,8 +583,9 @@ def r16(c):
 
 
 def r17(c):
-    """The home cards and native flyout share the listed character roster."""
+    """The home cards and native flyout share the listed squad character roster."""
     errors=[]
+    squad=[spec for spec in c.listed if getattr(spec,'group','squad')=='squad']
     if c.wanted('/'):
         home=c.pages.get('/')
         grids=[node for node in home.body.walk() if node.has_class('character-grid')] if home else []
@@ -592,8 +593,8 @@ def r17(c):
             errors.append(fail('R17','/','expected exactly one character-grid'))
         else:
             cards=[node for node in grids[0].find('a') if node.has_class('character-card')]
-            if len(cards)!=len(c.listed):errors.append(fail('R17','/','card count differs from listed characters'))
-            for card,spec in zip(cards,c.listed):
+            if len(cards)!=len(squad):errors.append(fail('R17','/','card count differs from listed characters'))
+            for card,spec in zip(cards,squad):
                 if (card.attrs.get('href'),card.attrs.get('data-character-id'),card.attrs.get('data-asset-id'))!=(spec.home,spec.id,spec.portrait):
                     errors.append(fail('R17','/','card identity, link or order differs: '+spec.id))
                 images=card.find('img')
@@ -608,11 +609,11 @@ def r17(c):
     for page in c.scanned():
         for nav in (node for node in page.body.find('nav') if node.has_class('VPNavBarMenu')):
             flyouts=[node for node in nav.walk() if node.has_class('VPFlyout') and any(button.text().strip()=='角色' for button in node.find('button'))]
-            if len(flyouts)!=(1 if c.listed else 0):
+            if len(flyouts)!=(1 if squad else 0):
                 errors.append(fail('R17',page.path,'角色 flyout count differs from listed characters'))
             elif flyouts:
                 links=[(node.attrs['href'],node.text().strip()) for node in flyouts[0].find('a','href')]
-                if links!=[(spec.home,spec.name) for spec in c.listed]:errors.append(fail('R17',page.path,'角色 menu links or order differ from listed characters'))
+                if links!=[(spec.home,spec.name) for spec in squad]:errors.append(fail('R17',page.path,'角色 menu links or order differ from listed characters'))
     listed_ids={spec.id for spec in c.listed}
     for page in c.pages.values():
         for node in page.root.find('a','href'):

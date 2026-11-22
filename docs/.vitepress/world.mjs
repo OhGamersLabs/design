@@ -105,6 +105,7 @@ export function loadWorld(root = defaultRoot) {
       const item = record(entry)
       return {
         id: text(item.id),
+        home: text(item.home),
         name: text(item.name),
         enName: text(item.enName),
         tier: text(item.tier),

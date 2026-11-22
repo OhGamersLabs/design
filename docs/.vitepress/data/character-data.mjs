@@ -140,7 +140,18 @@ export function parseCharacter(value, id, listed) {
   })
   const portrait = text(character.portrait)
   if (portrait === `${id}-original-latest`) throw new Error(`Portrait must belong to character collection: ${id}/${portrait}`)
-  return { id, name: text(character.name), role: text(character.role), order: number(character.order), portrait, listed, pages }
+  const group = character.group === undefined ? undefined : text(character.group)
+  if (group !== undefined && group !== 'squad' && group !== 'major-cast') throw new Error(`Invalid character group: ${id}/${group}`)
+  return {
+    id,
+    name: text(character.name),
+    role: text(character.role),
+    order: number(character.order),
+    portrait,
+    listed,
+    ...(group === undefined ? {} : { group }),
+    pages,
+  }
 }
 
 /** Validate checker expectations even for characters without pages. @param {unknown} value @param {string} id */

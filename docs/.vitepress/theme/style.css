@@ -1661,8 +1661,8 @@ a.coin-slot:hover {
 /* Story Cast & Standard NPC Cards (Home + /world/cast) */
 .npc-roster-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
 }
 .npc-roster-card {
   display: flex;
@@ -1673,6 +1673,9 @@ a.coin-slot:hover {
   background: var(--bunny-paper);
   color: var(--bunny-ink);
   text-decoration: none !important;
+}
+.npc-roster-card--major {
+  border-top-color: var(--bunny-orange);
 }
 .npc-roster-card:hover {
   border-top-color: var(--bunny-orange);
@@ -1704,6 +1707,10 @@ a.coin-slot:hover {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: .02em;
+}
+.npc-roster-card__badge--major {
+  background: var(--bunny-orange);
+  color: var(--bunny-ink);
 }
 .npc-roster-card__copy {
   flex: 1;

@@ -24,7 +24,7 @@ const neighbors = computed(() => {
   return readingNeighbors(world.readingOrder, currentPath)
 })
 
-const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => [entry.id, entry])))
+const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.majorCast ?? [])].map((entry) => [entry.id, entry])))
 </script>
 
 <template>
@@ -292,27 +292,50 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
             <h2>重点角色名录 <small>MAJOR ANTAGONIST · FULL LAYER BREAKDOWN TIER</small></h2>
             <p class="world-race-detail__tagline">配齐通用素体基准与多层服装、暗藏探测机构及核心信物拆解的主线首领档案</p>
             <article v-for="boss in world.storyCast.majorCharacters" :key="boss.id" :id="boss.id" class="world-major-cast-item">
-              <div class="world-major-cast-item__head">
+              <div class="world-cast-card__grid">
+                <a
+                  v-if="rosterById[boss.id]"
+                  class="npc-roster-card npc-roster-card--major"
+                  :href="withBase(boss.home)"
+                  :data-npc-id="boss.id"
+                  :data-asset-id="rosterById[boss.id].portrait.asset"
+                >
+                  <div class="npc-roster-card__picture">
+                    <img
+                      :src="withBase(rosterById[boss.id].portrait.path)"
+                      :width="rosterById[boss.id].portrait.width"
+                      :height="rosterById[boss.id].portrait.height"
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                    >
+                    <span class="npc-roster-card__badge npc-roster-card__badge--major">{{ boss.tier }}</span>
+                  </div>
+                </a>
                 <div>
-                  <h3>{{ boss.name }} <span>{{ boss.enName }}</span></h3>
-                  <p class="world-major-cast-item__meta">{{ boss.faction }} · {{ boss.raceLabel }} · {{ boss.debut }}</p>
+                  <div class="world-major-cast-item__head">
+                    <div>
+                      <h3><a :href="withBase(boss.home)">{{ boss.name }}</a> <span>{{ boss.enName }}</span></h3>
+                      <p class="world-major-cast-item__meta">{{ boss.faction }} · {{ boss.raceLabel }} · {{ boss.debut }}</p>
+                    </div>
+                    <a class="roster-section__more" :href="withBase(boss.home)">进入全衣层拆解专页（L0–L3） <span aria-hidden="true">↗</span></a>
+                  </div>
+                  <dl class="world-race-detail__dl">
+                    <div>
+                      <dt>人物定位</dt>
+                      <dd>{{ boss.tagline }}</dd>
+                    </div>
+                    <div>
+                      <dt>素体基准</dt>
+                      <dd><a :href="withBase('/standards/male-standard')">{{ boss.bodyScale }}</a></dd>
+                    </div>
+                    <div>
+                      <dt>衣层结构</dt>
+                      <dd>{{ boss.layerSpec }}</dd>
+                    </div>
+                  </dl>
                 </div>
-                <span class="world-cast-tier-pill world-cast-tier-pill--major">{{ boss.tier }}</span>
               </div>
-              <dl class="world-race-detail__dl">
-                <div>
-                  <dt>人物定位</dt>
-                  <dd>{{ boss.tagline }}</dd>
-                </div>
-                <div>
-                  <dt>素体基准</dt>
-                  <dd><a :href="withBase('/standards/male-standard')">{{ boss.bodyScale }}</a></dd>
-                </div>
-                <div>
-                  <dt>衣层结构</dt>
-                  <dd>{{ boss.layerSpec }}</dd>
-                </div>
-              </dl>
             </article>
           </section>
 

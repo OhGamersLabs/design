@@ -1,0 +1,143 @@
+{
+  "chapter": "layers",
+  "noun": "衣层",
+  "wear": "穿着",
+  "items": [
+    {
+      "layer": 0,
+      "name": "身体",
+      "path": "/characters/soren-vane/body",
+      "front": "body-front-latest",
+      "side": "body-right-latest",
+      "back": "body-back-latest",
+      "tpose": {
+        "front": "body-tpose-front-latest",
+        "right": "body-tpose-right-latest",
+        "back": "body-tpose-back-latest",
+        "left": "body-tpose-left-latest"
+      },
+      "summary": "基于标准青年男素体（1.08×）的五十二岁身体基准，冷象牙肤色、铂银夹深炭背梳短发、冰铂金瞳与哑光炭黑平角短裤。",
+      "facts": [
+        {
+          "term": "形体",
+          "value": "基于标准青年男素体（1.08×），赤脚约 7.4 头身，厘米身高未设定"
+        },
+        {
+          "term": "发型",
+          "value": "铂银夹深炭灰背梳短发，偏角色左轻分缝，两缕银白前束自然垂搭角色右眉上方"
+        },
+        {
+          "term": "五官",
+          "value": "深邃冷峻贵族骨相，冰铂金锐利眼瞳，裸脸不戴眼镜以完整交代眉眼结构"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 1 到第 3 层"
+        }
+      ],
+      "leftRight": "发缝微偏角色左侧，两缕纤细银白碎发自然垂落于角色右眉上方（正面图位于画面左边，角色右侧面清晰可见）；颈下修长骨架与肌肉转折严格对齐通用标准青年男素体。"
+    },
+    {
+      "layer": 1,
+      "name": "暗纹黑衬与零点探针滑轨",
+      "path": "/characters/soren-vane/inner-shirt",
+      "front": "inner-shirt-front-latest",
+      "side": "inner-shirt-right-latest",
+      "back": "inner-shirt-back-latest",
+      "tpose": {
+        "front": "inner-shirt-tpose-front-latest",
+        "right": "inner-shirt-tpose-right-latest",
+        "back": "inner-shirt-tpose-back-latest",
+        "left": "inner-shirt-tpose-left-latest"
+      },
+      "summary": "哑光黑曜高立领暗门襟正装长袖黑衬、角色左前臂内嵌冷银零点谐振探针滑轨、笔挺深炭灰西裤与银包头牛津礼靴。",
+      "facts": [
+        {
+          "term": "正装黑衬",
+          "value": "修身哑光黑曜高立领长袖衬衫，暗门襟平整收束入深炭灰中缝西裤腰头"
+        },
+        {
+          "term": "角色左袖探针",
+          "value": "仅角色左前臂外侧齐平内嵌冷银「0.00 零点谐振探针滑轨」，中央走极细暗红传感灯缝"
+        },
+        {
+          "term": "西裤与礼靴",
+          "value": "挺括中缝深炭灰修身西裤，配冷银金属包头与银色后跟饰条的黑色牛津短筒礼靴"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 2、第 3 层"
+        }
+      ],
+      "leftRight": "严格单侧袖口识别：冷银零点谐振探针滑轨仅内嵌于角色左前臂外侧（正面图位于画面右边，背面图位于画面左边）；角色右袖保持素净纯黑并缀单粒细小银色六角袖扣（角色右侧面近臂清晰可见无滑轨）。"
+    },
+    {
+      "layer": 2,
+      "name": "六角执印修身马甲与手套",
+      "path": "/characters/soren-vane/vest-rig",
+      "front": "vest-rig-front-latest",
+      "side": "vest-rig-right-latest",
+      "back": "vest-rig-back-latest",
+      "tpose": {
+        "front": "vest-rig-tpose-front-latest",
+        "right": "vest-rig-tpose-right-latest",
+        "back": "vest-rig-tpose-back-latest",
+        "left": "vest-rig-tpose-left-latest"
+      },
+      "summary": "深板岩拼黑曜双排暗扣高立领修身马甲、锁骨窝纯白精瓷六角执印胸扣、背部交叉绶带及角色左手开窗执印皮手套。",
+      "facts": [
+        {
+          "term": "立领马甲",
+          "value": "无袖深板岩黑双排扣修身立领马甲，领缘与斜向翻领镶细冷银滚边，完整露出双侧黑衬长袖"
+        },
+        {
+          "term": "六角执印扣",
+          "value": "锁骨窝正中嵌纯白精瓷冷银包边六角执印胸扣，腰际束黑皮带与正中拉丝冷银六角腰扣"
+        },
+        {
+          "term": "背带与手套",
+          "value": "马甲后背设交叉黑银执印绶带与六角背扣；黑皮手套仅角色左手背设冷银框矩形视窗"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 3 层"
+        }
+      ],
+      "leftRight": "马甲双排扣门襟自角色右侧搭向角色左侧，纯白精瓷六角胸扣与冷银六角腰扣均严格居中；双手哑光黑皮手套呈左右识别差异：角色右手套为全包覆素面黑皮，角色左手套手背至腕部开设冷银包边矩形视窗以显露下层零点探针滑轨。"
+    },
+    {
+      "layer": 3,
+      "name": "冷白执印官礼装大衣与铸模匣",
+      "path": "/characters/soren-vane/magistrate-coat",
+      "front": "magistrate-coat-front-latest",
+      "side": "magistrate-coat-right-latest",
+      "back": "magistrate-coat-back-latest",
+      "tpose": {
+        "front": "magistrate-coat-tpose-front-latest",
+        "right": "magistrate-coat-tpose-right-latest",
+        "back": "magistrate-coat-tpose-back-latest",
+        "left": "magistrate-coat-tpose-left-latest"
+      },
+      "summary": "冷银无框矩形眼镜、敞怀纯白高立领天秤最高执印官长礼装大衣，以及磁吸挂载于角色左外胯的冷银六角先驱铸模权杖匣。",
+      "facts": [
+        {
+          "term": "无框眼镜",
+          "value": "超细冷银鼻梁与镜腿的无框矩形清透眼镜，贴合鼻梁与双耳上方"
+        },
+        {
+          "term": "冷白礼装大衣",
+          "value": "挺括纯白配珍珠冷灰暗线的高立领敞怀长礼装大衣，黑曜内衬，中后深开叉下摆垂至小腿中段"
+        },
+        {
+          "term": "铸模权杖匣",
+          "value": "冷银与乌钢锻造的六角棱柱先驱铸模权杖匣，日常三视与 T 姿磁吸携行于角色左外胯"
+        },
+        {
+          "term": "外层",
+          "value": "最外层"
+        }
+      ],
+      "leftRight": "严格单侧徽针与信物挂载识别：大衣仅角色左翻领（正面图位于画面右边，T 姿角色左侧面清晰可见）别有一枚冷银双翼六角天秤徽针，角色右翻领保持纯白素净；冷银六角先驱铸模权杖匣同样严格磁吸挂载于角色左外胯衣摆开叉处（正面图位于画面右胯外沿，背面图位于画面左胯外沿）。"
+    }
+  ]
+}

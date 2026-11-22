@@ -33,6 +33,7 @@ class CharacterSpec:
     home: str = ''
     data_dir: str = ''
     listed: bool = True
+    group: str = 'squad'
 
     def __post_init__(self):
         if not self.home:self.home=f'/characters/{self.id}/'
@@ -109,13 +110,15 @@ def discover_characters(root):
         portrait_path=string(thumb['path'],f'{cid}:portrait thumbnail path')
         for dimension in ('width','height'):
             if type(thumb.get(dimension)) is not int or thumb[dimension]<=0:raise ValueError(f'invalid portrait thumbnail {dimension}: {cid}')
+        group=character.get('group','squad')
+        if group not in ('squad','major-cast'):raise ValueError(f'invalid character group: {cid}')
         specs.append(CharacterSpec(id=cid,name=character['name'],page_titles=pages,stubs=stubs,latest=tuple(latest),
             order=character['order'],role=character['role'],portrait=portrait,portrait_path=portrait_path,
             portrait_width=thumb['width'],portrait_height=thumb['height'],updated=updated,
             allowed_dates=strings(source['allowedDates'],str(spec_file)+':allowedDates'),
             forbidden_words=strings(source['forbiddenWords'],str(spec_file)+':forbiddenWords'),
             fixed_captions=names(source['fixedCaptions'],str(spec_file)+':fixedCaptions'),
-            listed=(root/'docs/characters'/cid/'index.md').is_file()))
+            listed=(root/'docs/characters'/cid/'index.md').is_file(),group=group))
     return tuple(specs)
 
 
