@@ -105,6 +105,7 @@ for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one �
     text: '世界观', activeMatch: '^/world/',
     items: [
       { text: '世界观总览', link: '/world/', activeMatch: '^/world/$' },
+      { text: '抛币结契交互图解', link: '/world/#coin-pact' },
       { text: '五大种族与姓氏谱系', link: '/world/races', activeMatch: '^/world/races' },
     ],
   }

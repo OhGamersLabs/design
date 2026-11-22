@@ -42,6 +42,8 @@ export function loadWorld(root = defaultRoot) {
           raceId,
           raceLabel: text(ch.raceLabel),
           role: text(ch.role),
+          pactTrait: text(ch.pactTrait),
+          pactScene: text(ch.pactScene),
           tagline: text(ch.tagline),
           signatureGear: text(ch.signatureGear),
           bonds: text(ch.bonds),
@@ -50,6 +52,14 @@ export function loadWorld(root = defaultRoot) {
       ]
     }),
   )
+  const rawPact = record(source.coinPact)
+  const coinPact = {
+    lead: text(rawPact.lead),
+    axioms: list(rawPact.axioms).map((entry) => {
+      const item = record(entry)
+      return { code: text(item.code), title: text(item.title), body: text(item.body) }
+    }),
+  }
   const pillars = list(source.pillars).map((entry) => {
     const item = record(entry)
     return { code: text(item.code), title: text(item.title), body: text(item.body) }
@@ -70,6 +80,7 @@ export function loadWorld(root = defaultRoot) {
     intro: text(source.intro),
     facts: parseFacts(source.facts),
     overviewChapters,
+    coinPact,
     pillars,
     races,
     racesById: Object.fromEntries(races.map((r) => [r.id, r])),

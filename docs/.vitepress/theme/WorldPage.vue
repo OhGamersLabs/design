@@ -4,6 +4,7 @@ import { useData, withBase } from 'vitepress'
 import { data as world } from '../data/world.data.mjs'
 import { data as site } from '../data/site.data.mjs'
 import { readingNeighbors } from './character-site.mjs'
+import WorldCoinInteractive from './components/WorldCoinInteractive.vue'
 
 const { frontmatter, page } = useData()
 
@@ -53,8 +54,8 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
             <p class="world-hero__subtitle">{{ world.subtitle }}</p>
             <p class="world-hero__intro">{{ world.intro }}</p>
             <div class="world-hero__actions">
-              <a class="roster-section__more" :href="withBase('/world/races')">浏览五大种族与姓氏谱系 <span aria-hidden="true">↗</span></a>
-              <a class="world-hero__secondary" :href="withBase('/')">返回十人角色资料库</a>
+              <a class="roster-section__more" :href="`#coin-pact`">体验抛币结契交互图解 <span aria-hidden="true">↓</span></a>
+              <a class="world-hero__secondary" :href="withBase('/world/races')">浏览五大种族与姓氏谱系</a>
             </div>
           </div>
           <aside class="bunny-idcard world-hero__card" aria-label="世界档案概览">
@@ -78,16 +79,31 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
         <div class="vp-doc">
           <div class="bunny-section-heading">
             <h2 id="stage">世界舞台</h2>
-            <p>炽环跃迁门、白塔星港与一枚 OG 金币串起的主线舞台。</p>
+            <p>炽环跃迁门、白塔星港与双生 OG 主币串起的主线舞台。</p>
           </div>
           <div class="world-stage-grid">
             <article class="base-body-rule-card">
               <h3>炽环门与白塔星港</h3>
-              <p>巨型环状跃迁门「炽环门」将散落星海的浮空云塔、高轨道精瓷穹顶、荒原锻炉与游牧星舟相连。航网枢纽「白塔星港」在晴空下立起纯白高塔与轨道船坞，成为五大种族通商、修舰与集结的自由舞台。</p>
+              <p>巨型环状跃迁门「炽环门」宛如天体尺度的燃烧金币外环，将散落星海的浮空云塔、高轨道精瓷穹顶、荒原锻炉与游牧星舟相连。航网枢纽「白塔星港」在晴空下立起纯白高塔与轨道船坞，成为五大种族通商、修舰与集结的自由舞台。</p>
             </article>
             <article class="base-body-rule-card">
-              <h3>裂隙潮汐与 OG 契约</h3>
-              <p>星环轨道的周期性扰动「裂隙潮汐」会带来能源暴走、失控机群与边境断航。赏金猎人兄妹罗伊·达罗与罗娅·达罗重启白塔船坞的自由委托执照，凭压纹 OG 金币结契，将十位跨种族同伴聚拢成并肩远征的星环小队。</p>
+              <h3>裂隙潮汐与抛币结契</h3>
+              <p>星环轨道的周期性扰动「裂隙潮汐」导致多处远古星门断联熄灭。达罗双生兄妹手握同源 OG 主币，耗尽祖传十槽匣仅存的九枚古胚币，跨光年锚定九位破格异类结成初代十人核心团，踏上重燃断联星门、向星环舰队指挥官进发的远征。</p>
+            </article>
+          </div>
+
+          <div class="bunny-section-heading">
+            <h2 id="coin-pact">抛币结契与交互图解</h2>
+            <p>{{ world.coinPact.lead }}</p>
+          </div>
+
+          <WorldCoinInteractive />
+
+          <div class="world-axiom-grid">
+            <article v-for="axiom in world.coinPact.axioms" :key="axiom.code" class="base-body-rule-card world-pillar-card world-axiom-card">
+              <span class="world-pillar-card__code">{{ axiom.code }}</span>
+              <h3>{{ axiom.title }}</h3>
+              <p>{{ axiom.body }}</p>
             </article>
           </div>
 
@@ -128,7 +144,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
 
           <div class="bunny-section-heading">
             <h2 id="squad">十人小队名录</h2>
-            <p>正式中英文全名、种族归属、职业定位与角色背景一句话速览。</p>
+            <p>正式中英文全名、种族归属、职业定位与共鸣特质速览。</p>
           </div>
           <div class="base-body-table-wrap">
             <table>
@@ -138,7 +154,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
                   <th>英文名</th>
                   <th>种族谱系</th>
                   <th>职业定位</th>
-                  <th>人物速写</th>
+                  <th>共鸣特质与人物速写</th>
                 </tr>
               </thead>
               <tbody>
@@ -150,7 +166,10 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
                     <span v-else>—</span>
                   </td>
                   <td>{{ entry.role }}</td>
-                  <td>{{ world.characters[entry.id]?.tagline ?? '—' }}</td>
+                  <td>
+                    <b v-if="world.characters[entry.id]?.pactTrait" class="world-table-trait">{{ world.characters[entry.id].pactTrait }}</b>
+                    <span>{{ world.characters[entry.id]?.tagline ?? '—' }}</span>
+                  </td>
                 </tr>
               </tbody>
             </table>

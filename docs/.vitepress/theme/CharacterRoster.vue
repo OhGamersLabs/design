@@ -26,11 +26,11 @@ import { data as world } from '../data/world.data.mjs'
     <section v-if="world?.races?.length" class="roster-section" aria-labelledby="world-heading">
       <div class="roster-section__header">
         <div>
-          <p class="roster-section__label">星环纪元 · 设定总纲</p>
-          <h2 id="world-heading" class="roster-section__title">世界观与五大种族</h2>
+          <p class="roster-section__label">星环纪元 · 抛币结契总纲</p>
+          <h2 id="world-heading" class="roster-section__title">世界观、抛币法则与五大种族</h2>
           <p class="roster-section__intro">{{ world.intro }}</p>
         </div>
-        <a class="roster-section__more" :href="withBase('/world/')">浏览世界观与十人名录 <span aria-hidden="true">↗</span></a>
+        <a class="roster-section__more" :href="withBase('/world/#coin-pact')">体验抛币结契交互图解 <span aria-hidden="true">↗</span></a>
       </div>
       <div class="world-roster-grid">
         <a

@@ -35,6 +35,14 @@ const race = computed(() => (lore.value ? world.racesById[lore.value.raceId] ?? 
           <dt>姓氏渊源</dt>
           <dd>{{ race.surnameRule }}</dd>
         </div>
+        <div v-if="lore.pactTrait">
+          <dt>共鸣特质</dt>
+          <dd>{{ lore.pactTrait }}</dd>
+        </div>
+        <div v-if="lore.pactScene">
+          <dt>接币立契</dt>
+          <dd>{{ lore.pactScene }}</dd>
+        </div>
         <div>
           <dt>标志武装</dt>
           <dd>{{ lore.signatureGear }}</dd>
@@ -45,7 +53,7 @@ const race = computed(() => (lore.value ? world.racesById[lore.value.raceId] ?? 
         </div>
       </dl>
       <p class="character-lore__link">
-        <a :href="withBase('/world/')">查看完整世界观与十人名录 <span aria-hidden="true">↗</span></a>
+        <a :href="withBase('/world/#coin-pact')">查看抛币结契交互图解与完整世界观 <span aria-hidden="true">↗</span></a>
       </p>
     </aside>
   </div>
