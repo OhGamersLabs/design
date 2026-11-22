@@ -1,0 +1,124 @@
+{
+  "tabs": [
+    {
+      "key": "card",
+      "label": "角色卡",
+      "caption": "原稿的站立持扳手姿势，换上完整造型，2026-11-22 定稿",
+      "assets": [
+        "character-card-latest"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "完整三视",
+      "caption": "正面、角色右侧面、背面，大扳手斜挂于背部六角背板",
+      "assets": [
+        "back-rig-front-latest",
+        "back-rig-right-latest",
+        "back-rig-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "T 姿",
+      "caption": "T 姿四视，供 3D 建模参考",
+      "assets": [
+        "back-rig-tpose-front-latest",
+        "back-rig-tpose-right-latest",
+        "back-rig-tpose-back-latest",
+        "back-rig-tpose-left-latest"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-11-22",
+      "title": "角色卡定稿",
+      "asset": "character-card-latest",
+      "caption": "原稿的持扳手站姿，统一完整六层服装、外侧鞋旋钮与角色左腿青色登山扣。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "六层穿戴完成",
+      "asset": "back-rig-front-latest",
+      "caption": "从女性标准素体到背部肩带背板与大扳手，每层配备 A 姿三视与 T 姿四视。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "表情表定稿",
+      "asset": "expressions-sheet-latest",
+      "caption": "4×4 表情，3/4 角色右侧视角覆盖平静、专注怒意、委屈哭泣与惊喜情绪。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "全套拆解图",
+      "asset": "breakdown-sheet-latest",
+      "caption": "第 0 到第 5 层一图看完。"
+    }
+  ],
+  "facts": [
+    {
+      "term": "外观",
+      "value": "成年修长女性工程师，小麦肤色，栗棕高丸子头配不对称长刘海、琥珀眼",
+      "note": "发缝在角色右侧，露角色右耳；长斜刘海垂覆角色左颊并遮住角色左耳"
+    },
+    {
+      "term": "体型",
+      "value": "基于女性标准素体，赤脚约 6.5 头身",
+      "note": "整头替换为 Crew 设定，颈下骨架与通用标准完全一致；厘米身高未设定"
+    },
+    {
+      "term": "标志工具",
+      "value": "大号拉丝钢两用扳手",
+      "note": "平时斜挂于背部六角工具背板，角色卡姿势中由角色左手持握，开口钳口带阶梯齿纹"
+    },
+    {
+      "term": "穿戴层级",
+      "value": "第 0 至第 5 层（完整武装）",
+      "note": "贴身连体工装、战术靴手套、腰带枪套与挂环、蓝灰短款战术夹克、肩带背板与大扳手"
+    }
+  ],
+  "chips": [
+    {
+      "name": "蓝灰",
+      "use": "短款战术夹克主面料",
+      "color": "#5064A1"
+    },
+    {
+      "name": "米白",
+      "use": "连体工装下装与 V 形腰框",
+      "color": "#E3D5D5"
+    },
+    {
+      "name": "亮青",
+      "use": "鞋舌、外侧旋钮、手背护甲与挂环",
+      "color": "#0093DA"
+    },
+    {
+      "name": "焦棕",
+      "use": "栗棕发色、腰带腿带与靴领",
+      "color": "#614B4A"
+    }
+  ],
+  "chipNote": "小麦肤色与哑光深炭灰背板、枪灰金属件形成高对比工程识别。",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-22",
+  "chapters": [
+    {
+      "id": "identity",
+      "label": "身份与画风"
+    },
+    {
+      "id": "layers",
+      "label": "衣层由内到外"
+    },
+    {
+      "id": "expressions",
+      "label": "面部与表情"
+    },
+    {
+      "id": "breakdown",
+      "label": "拆解与角色卡"
+    }
+  ]
+}

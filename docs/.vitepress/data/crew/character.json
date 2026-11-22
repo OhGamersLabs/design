@@ -1,0 +1,32 @@
+{
+  "name": "Crew",
+  "role": "工程师",
+  "order": 4,
+  "pages": [
+    {
+      "path": "/characters/crew/body",
+      "title": "身体"
+    },
+    {
+      "path": "/characters/crew/jumpsuit",
+      "title": "贴身连体工装"
+    },
+    {
+      "path": "/characters/crew/boots-gloves",
+      "title": "高帮战术靴与手套"
+    },
+    {
+      "path": "/characters/crew/belt-holster",
+      "title": "腰带、枪套与挂环"
+    },
+    {
+      "path": "/characters/crew/jacket",
+      "title": "蓝灰短款战术夹克"
+    },
+    {
+      "path": "/characters/crew/back-rig",
+      "title": "肩带背板与大扳手"
+    }
+  ],
+  "portrait": "back-rig-front-latest"
+}
