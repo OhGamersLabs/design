@@ -2599,6 +2599,22 @@
     "sourcePath": "/characters/gold-hunter/character-card-latest.webp",
     "sourceSha256": "8c03694ef98e4fcae74b3549c70ea93ce8f583bb9533aea82916dbb7bb75b520"
   },
+  "gold-hunter/child-roy-card-latest": {
+    "path": "/site/thumbs/gold-hunter/child-roy-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0d75243508f56b0bcd6e52346aba2731e86cd3ccb29917d1f87c605e90ce776a",
+    "sourcePath": "/characters/gold-hunter/child-roy-card-latest.webp",
+    "sourceSha256": "fabe4e08930ad81b35212032a81e4e76f3dcf37ae793d9b7fcb59ea65add66ff"
+  },
+  "gold-hunter/child-roya-card-latest": {
+    "path": "/site/thumbs/gold-hunter/child-roya-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9ae4b4d0ed5f768c924df0b45e5a8a1f4eb7b4a833f5636dfab9ee931f585826",
+    "sourcePath": "/characters/gold-hunter/child-roya-card-latest.webp",
+    "sourceSha256": "2975063862a2e9f482ded9a097064bc42e24cfb01e714b55cd4c3e8edc7ce428"
+  },
   "gold-hunter/duo-front-latest": {
     "path": "/site/thumbs/gold-hunter/duo-front-latest.webp",
     "width": 480,

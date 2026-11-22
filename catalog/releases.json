@@ -1954,6 +1954,18 @@
     },
     {
       "character": "gold-hunter",
+      "path": "/media/gold-hunter/child-roy-card-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/child-roy-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/child-roya-card-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/child-roya-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
       "path": "/media/gold-hunter/duo-front-latest.png",
       "key": "x_ops/design/characters/gold-hunter/latest/duo-front-latest.png",
       "contentType": "image/png"

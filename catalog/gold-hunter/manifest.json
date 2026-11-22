@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "罗伊 & 罗娅·达罗 设计参考",
   "status": "local-review",
-  "asset_count": 90,
+  "asset_count": 92,
   "assets": [
     {
       "id": "base-kit-back-latest",
@@ -578,6 +578,52 @@
         "height": 2048,
         "bytes": 3016636,
         "sha256": "8c03694ef98e4fcae74b3549c70ea93ce8f583bb9533aea82916dbb7bb75b520",
+        "alpha": false
+      }
+    },
+    {
+      "id": "child-roy-card-latest",
+      "character": "gold-hunter",
+      "title": "child-roy-card-latest",
+      "original": {
+        "path": "/media/gold-hunter/child-roy-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 7726959,
+        "sha256": "519d78f7c9238d910fa2eafc46ab0a428d46def38dcbd5b60645b82c460fb92c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gold-hunter/child-roy-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2924448,
+        "sha256": "fabe4e08930ad81b35212032a81e4e76f3dcf37ae793d9b7fcb59ea65add66ff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "child-roya-card-latest",
+      "character": "gold-hunter",
+      "title": "child-roya-card-latest",
+      "original": {
+        "path": "/media/gold-hunter/child-roya-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 7394203,
+        "sha256": "534ca7fc3ed9ff1c472d7731efe632583bdb34a1a10295bff7ffcd0acdb92199",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gold-hunter/child-roya-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2786130,
+        "sha256": "2975063862a2e9f482ded9a097064bc42e24cfb01e714b55cd4c3e8edc7ce428",
         "alpha": false
       }
     },
