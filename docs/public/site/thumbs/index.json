@@ -1299,17 +1299,17 @@
     "path": "/site/thumbs/crew/anchor-card-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "1b35865d187011546d67bda9ea408aebc361ff25c953dbcb0d709fd7a18503bc",
+    "sha256": "a98702395faf5e404bc3dd2f413cfa9f137efc53affb4579a4223ae6e3ddb580",
     "sourcePath": "/characters/crew/anchor-card-latest.webp",
-    "sourceSha256": "be835b51e51517d18317a89e068578dc8ae4a4425d749279ee09579e71e221e3"
+    "sourceSha256": "00967ccd750c48ce0f6ef10df95d28dc7cba2136c261498b8ae0d9a77ef01633"
   },
   "crew/back-rig-back-latest": {
     "path": "/site/thumbs/crew/back-rig-back-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "e72316a87d286735af8bbbeb447406680230a3e65fce4f07b64cd12048078e28",
+    "sha256": "65e8e03111a72acc5e941769935dc9d170c1d47f010d9b26247a855dfc876115",
     "sourcePath": "/characters/crew/back-rig-back-latest.webp",
-    "sourceSha256": "71bc73628274d0d18210fe41c98695724667c35251af5562ee37f38ed86a0d7c"
+    "sourceSha256": "c3fdc72d8cf68ceca01c9d63ba95dbd5fc3053fa5fb8e49a7e8d44dd96eace45"
   },
   "crew/back-rig-board-latest": {
     "path": "/site/thumbs/crew/back-rig-board-latest.webp",
@@ -1323,33 +1323,33 @@
     "path": "/site/thumbs/crew/back-rig-front-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "d67dc6cb76cc6f4678866f8587134f22e78a7455515b6b658a1061998898de71",
+    "sha256": "e4b322aa5edd28b75d26c70d74c6c1f89f7a8817a4b7faf519e650abbaa54930",
     "sourcePath": "/characters/crew/back-rig-front-latest.webp",
-    "sourceSha256": "d5605cad643b6fba1630f3a9da2659aaf8c2d8d61b44a7099bf57483a8fab97f"
+    "sourceSha256": "13b79aa22bf72d286c59ab43bfcf07dc3044df961dad0dd8782d63f8c0dd0b9f"
   },
   "crew/back-rig-right-latest": {
     "path": "/site/thumbs/crew/back-rig-right-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "910c090e861ecb977061b79dbdc38d02b1a9f2cf80c0621a1c56c494cf870cdb",
+    "sha256": "c23dd6d58e9a6958178e7cc5b222601353a4a5e9238146c7e5a18cf0c527afcb",
     "sourcePath": "/characters/crew/back-rig-right-latest.webp",
-    "sourceSha256": "a2a704955ac2dd656eeb9e95f6894c89d9c87e187bf3abb10bc2f0126c6889a1"
+    "sourceSha256": "4ca2ef24d87fbd4bc276fa51dd2e6214f583668e7eae0971521678765dad42d0"
   },
   "crew/back-rig-tpose-back-latest": {
     "path": "/site/thumbs/crew/back-rig-tpose-back-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "4dc86a3d68e233e895f80b9f098928f1bb12940b4002c0e472134d6f040a8529",
+    "sha256": "7555353137e8d9a6eedce670dbf29db47b38546245f744390db69b66814961f8",
     "sourcePath": "/characters/crew/back-rig-tpose-back-latest.webp",
-    "sourceSha256": "2a5b9205f43dc0d94bc60317b534d4ff4d414ec1304879d828b4403049fb8c4d"
+    "sourceSha256": "7e34dea521069578131cde721e63845fb46da8f45d60cbfde9d239d2daeb9506"
   },
   "crew/back-rig-tpose-front-latest": {
     "path": "/site/thumbs/crew/back-rig-tpose-front-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "0a3c1cd87559a322df0275570c7d91f1c5875f7977c839fbf462629122fa8e8a",
+    "sha256": "63a815bc171ae33dbc281b45c22414d5124ef8b2e0fa5382e98179a436276597",
     "sourcePath": "/characters/crew/back-rig-tpose-front-latest.webp",
-    "sourceSha256": "24687dfc5ab519e8f4ccc7967602514cc82a703af6e6371a5295d0f058be07ca"
+    "sourceSha256": "cfe50fea289cfd057c74c8ea3efa475373c94b78cf70e7047d10cfdb0b240ee9"
   },
   "crew/back-rig-tpose-left-latest": {
     "path": "/site/thumbs/crew/back-rig-tpose-left-latest.webp",
@@ -1371,9 +1371,9 @@
     "path": "/site/thumbs/crew/belt-holster-back-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "0417823f6e349021a3524179986382f0d721ca8eb3e480309e91d99841df8391",
+    "sha256": "f9737e48747c7d70768aa2aa92acc03757c6e9fa79d4d38bbc101f6cab44eb37",
     "sourcePath": "/characters/crew/belt-holster-back-latest.webp",
-    "sourceSha256": "6ee6efe84f664cd244261f31541ba91faaf926f244a5b3e1268519c27dfcebf7"
+    "sourceSha256": "49dde2d62e55f466fe1fd880a4aaa584df81885518c7de2855e2bd1089b7707f"
   },
   "crew/belt-holster-board-latest": {
     "path": "/site/thumbs/crew/belt-holster-board-latest.webp",
@@ -1387,33 +1387,33 @@
     "path": "/site/thumbs/crew/belt-holster-front-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "026c4dce99fd05fc1f1e0e3cbb68a97f99872d10cd468c7e769beafae446545f",
+    "sha256": "dee9221563e309b56dd5afc869dd9d76e6dc671c100d8887317287f481a67a3b",
     "sourcePath": "/characters/crew/belt-holster-front-latest.webp",
-    "sourceSha256": "e9fa8a769691de1bce6f947f2c24fde3619bfcadd555d20f7cb124783a8029c6"
+    "sourceSha256": "d61ec91f4e1827ecfee201fc74a6a72e76ef6156f449bb19553490dc238c1803"
   },
   "crew/belt-holster-right-latest": {
     "path": "/site/thumbs/crew/belt-holster-right-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "f7d2915ccbcfe3effb0da07ef41fe343d591c9005ff19a4ba4231043f53d369a",
+    "sha256": "d9f573c082da54110716f378c1c83cd8343a154d9bf184f5d186da3400b6bc56",
     "sourcePath": "/characters/crew/belt-holster-right-latest.webp",
-    "sourceSha256": "60ef3b6598149cc535ebd5150f7f256c827b580003da1531ec87a277532d10bd"
+    "sourceSha256": "06914d68771bb7170a38dab95978e621c7774d82c3dba42f5b2b1c58a8afccbe"
   },
   "crew/belt-holster-tpose-back-latest": {
     "path": "/site/thumbs/crew/belt-holster-tpose-back-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "e61ab7faaec5f398e8c27af75407d511508e656578520c39300f4daa1a769b3a",
+    "sha256": "9363a9a3f7ba4fa70aa17d68bfe9c93c93aa52e2f63d0da2d6e78dab17a872dc",
     "sourcePath": "/characters/crew/belt-holster-tpose-back-latest.webp",
-    "sourceSha256": "7441108fc208f9dd4f52da34457e9d3d882f9edceb795ca97b7bf18eaff72291"
+    "sourceSha256": "b69f54c3fabba52d61ae3f6c52a1ed1bc1baea7e7615f0af0ef4a5e3f8927422"
   },
   "crew/belt-holster-tpose-front-latest": {
     "path": "/site/thumbs/crew/belt-holster-tpose-front-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "6992ff165fa5af1fb47467449e3b719770904b9d506dd52aeddf389d57f48f90",
+    "sha256": "83b67b3cf77099a155e813ce8340b1d8e96acbfc89fa02767137bdec40a5e259",
     "sourcePath": "/characters/crew/belt-holster-tpose-front-latest.webp",
-    "sourceSha256": "b75d60c6c71f482ff0f18178fb9a1df7442e45a9f2fe4c07f4ccde2cdd601a01"
+    "sourceSha256": "5cef77afeb7cb83aede64e5ec2c3385b7bcfb360e62e58acf21bf24fe56f8cf3"
   },
   "crew/belt-holster-tpose-left-latest": {
     "path": "/site/thumbs/crew/belt-holster-tpose-left-latest.webp",
@@ -1491,49 +1491,49 @@
     "path": "/site/thumbs/crew/boots-gloves-back-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "c6379bdcea0a66ac1db33699d2f76a9f362b3ea408b3bcb4d8df67bb2a17f6e6",
+    "sha256": "58ad58915ea12522ccb0f276b440407557ae007e7e174088d6f97de1f5f6d084",
     "sourcePath": "/characters/crew/boots-gloves-back-latest.webp",
-    "sourceSha256": "5d8aaf977ba329c1102d25334a1be0d8f394f8c51fdbf6caff02c49e67fcfc63"
+    "sourceSha256": "ffdf98986af75389831bc28754499c110b526241ad85cc523c8ab5d12dd2c527"
   },
   "crew/boots-gloves-board-latest": {
     "path": "/site/thumbs/crew/boots-gloves-board-latest.webp",
     "width": 480,
     "height": 320,
-    "sha256": "b3458581a4905f40a85d8f290eacf113a46fa5ec746b1a94bdef71056085b478",
+    "sha256": "51a306166e1241e7ba337379f7cd7d58323326d3a7078f6b744630b6d5024fdc",
     "sourcePath": "/characters/crew/boots-gloves-board-latest.webp",
-    "sourceSha256": "28f1f3456b02eec9d86df5d7ffbd517010e00437bb95501d925d8ba2dad48036"
+    "sourceSha256": "7ef51058163f4f504af00b14331c30cb35ac7b2a369407718dd9176c7fbe5758"
   },
   "crew/boots-gloves-front-latest": {
     "path": "/site/thumbs/crew/boots-gloves-front-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "35d5d068befaa8e313cef274e321b7f8058d647fc9dcd5434ea70ecaf16f5a1e",
+    "sha256": "aaaf9b07f05c96f222edbc5b130113e62bba2dd32409753c4b3eb635f8c55c54",
     "sourcePath": "/characters/crew/boots-gloves-front-latest.webp",
-    "sourceSha256": "200b73ae9491104e7cdd0f11c8d6cc2bae06de07f5def5d8fb92e167b6ca4997"
+    "sourceSha256": "c5892ce3840e747cd18753461307121d49f1d865df9e113274950a07cf2309a9"
   },
   "crew/boots-gloves-right-latest": {
     "path": "/site/thumbs/crew/boots-gloves-right-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "b05436ac695b220a6fbddfe26d1291471b1d144000aa53c527f2919b5f19bab3",
+    "sha256": "e864682b56f156deac673eef5da97f60806d61d8b009006133f55730312dc869",
     "sourcePath": "/characters/crew/boots-gloves-right-latest.webp",
-    "sourceSha256": "61a3f833b6b8663d651e112038b4599bc6179734eeebeb948ebd4ce98a0fc5b8"
+    "sourceSha256": "71acf38e47a0da27ca7b3e184a17feffdb9d204d1b19f46ac84453e0c542a2c9"
   },
   "crew/boots-gloves-tpose-back-latest": {
     "path": "/site/thumbs/crew/boots-gloves-tpose-back-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "1308218fefd41078ce1b40c3e12636993a779c210792a6223e5093b8f820e294",
+    "sha256": "5a8be7c450877d2ed677d20775eb2eee726fdaf9ba627c8a00fb7aa071eb97bb",
     "sourcePath": "/characters/crew/boots-gloves-tpose-back-latest.webp",
-    "sourceSha256": "6a74debbc1a38448767b110cf75f4fc56395033a0099eb58bac7d4fb220d36c6"
+    "sourceSha256": "b08b3b9fedfa148238ea253d21c75fec0700b40499993b2f30982332763bd930"
   },
   "crew/boots-gloves-tpose-front-latest": {
     "path": "/site/thumbs/crew/boots-gloves-tpose-front-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "b351a0b528efb23a4533a57b1ba352d8133e5165096921492547c05e1dec4e51",
+    "sha256": "47582e14dae3bcb08af627507a4a53b9b8ada20caddfdc75cca06ee9b807aa8e",
     "sourcePath": "/characters/crew/boots-gloves-tpose-front-latest.webp",
-    "sourceSha256": "77f7532ee2df839b4ebfb80fd5b714e1680efe2630ed008f404195a6e9edfed2"
+    "sourceSha256": "12a2868dd2ef29be81589310a80c191de13792d7e239c497db9548d55c10f2d1"
   },
   "crew/boots-gloves-tpose-left-latest": {
     "path": "/site/thumbs/crew/boots-gloves-tpose-left-latest.webp",
@@ -1555,17 +1555,17 @@
     "path": "/site/thumbs/crew/breakdown-sheet-latest.webp",
     "width": 480,
     "height": 287,
-    "sha256": "3fd3ce12841fc4e5a9426d93bc2dd8133ca2bb027c4f7aef237868a003399ec5",
+    "sha256": "3a8569d0742baac709db2fe159420f923c32c0b4e4c2110fec0abd67559d1211",
     "sourcePath": "/characters/crew/breakdown-sheet-latest.webp",
-    "sourceSha256": "f53938a84c9b6faf67e1c59cd38d23aef4287b55ead8c74a7158213b3013f9b5"
+    "sourceSha256": "575cc0d33bec882db653a05140c7c042c515f8d11bdbfb330b963f4cc8afea3a"
   },
   "crew/character-card-latest": {
     "path": "/site/thumbs/crew/character-card-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "e7d44231fb6c2ad4e1f79defa4db6c1cc95e47742b89d904968b1e6caa0dd148",
+    "sha256": "81424f12d7c5e456817b6908275e320bfbab7e9de82608cefdc47b5467d0b20b",
     "sourcePath": "/characters/crew/character-card-latest.webp",
-    "sourceSha256": "49065cfcc8f499d75774d216b8493868da587f98673ac7f4da24504a62811155"
+    "sourceSha256": "37f307bb46ba64a9a4680118222c9c6c45d00eb90373a3bd516a4781a5d0a5a8"
   },
   "crew/expressions-sheet-latest": {
     "path": "/site/thumbs/crew/expressions-sheet-latest.webp",
@@ -1587,9 +1587,9 @@
     "path": "/site/thumbs/crew/jacket-back-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "abc4a2888a6d59f048cd87f25950fc03df57b2ffc706b56133753c0b8a9d7e54",
+    "sha256": "ae8f8dbe60fbee572959d0a05e77c8fdad0b855eebe4a1de59cf8f95ffa5f3ac",
     "sourcePath": "/characters/crew/jacket-back-latest.webp",
-    "sourceSha256": "fcd4377672ac9f4863339bf09d777cd29d9461d30220e1d51b0ea0fee534158f"
+    "sourceSha256": "2949188e6b3cd99bfe3094db5194b3a9e60403430a2020d1901e5722847e5f74"
   },
   "crew/jacket-board-latest": {
     "path": "/site/thumbs/crew/jacket-board-latest.webp",
@@ -1603,33 +1603,33 @@
     "path": "/site/thumbs/crew/jacket-front-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "9ab3b21165b11a45bd666cf183b866bffd863a88f30d73def4ffe872fb1eb0df",
+    "sha256": "3bc53b230eb02496308566aa0e7afceb722a0045cecd285acd4c8ce1dc4641c8",
     "sourcePath": "/characters/crew/jacket-front-latest.webp",
-    "sourceSha256": "428d8225d70c7c1b29b8b9459f1db55b7a213af27b67650fbe40f6433a064c1e"
+    "sourceSha256": "851377765e6980430f5c218aac5c35a046a67ef5a72919623a591fd1e1508168"
   },
   "crew/jacket-right-latest": {
     "path": "/site/thumbs/crew/jacket-right-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "86ccfa40646635903298d7bd1a259136ef1dffed16624d418a236e85ce9d272c",
+    "sha256": "62f5da2a5e1638f261d2304a6d4e18a0cdaa63a1a30660557005acff28ac6199",
     "sourcePath": "/characters/crew/jacket-right-latest.webp",
-    "sourceSha256": "fc668022809eedce025800c43a6495671478be7e95686a2beeb23d9df509eb3f"
+    "sourceSha256": "2986121bbfa2fd4230614f13c6c64d105e38e68ffb10fe3b09029de1f9a945ef"
   },
   "crew/jacket-tpose-back-latest": {
     "path": "/site/thumbs/crew/jacket-tpose-back-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "14f493d32bb52dc04861dfaed27a24a2886a883e80ed77181c29d394d56b1320",
+    "sha256": "994b1fa53da36bda91936b31a5142a2fedd74f36443f6b6a0f6f915df6b959f4",
     "sourcePath": "/characters/crew/jacket-tpose-back-latest.webp",
-    "sourceSha256": "bd16063d89af871412c7fa23a000837711817fcf707fdcdcee28287437575e6b"
+    "sourceSha256": "bb38b68da3e46aa365d201ff6bebcfc5c35daa01ff9b3490836c6f4c8c11fdf8"
   },
   "crew/jacket-tpose-front-latest": {
     "path": "/site/thumbs/crew/jacket-tpose-front-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "f7a1cb28213d96cf3dadd5d60555d9c0760fda9d0704e142ffe6306fc9588776",
+    "sha256": "499dc862ce9815fcbbb7d3ae62bd8298677660fb2ccae91343fd16e80c56c2c2",
     "sourcePath": "/characters/crew/jacket-tpose-front-latest.webp",
-    "sourceSha256": "9ac1aee496b668c7aa5cdb596b7f6726962d0bc5b1c8cd8d5ecb71d5a2a418db"
+    "sourceSha256": "1824b9ea222db73bbca112337e9bcea5437e380c4b63ccb032d22a0b1f251f81"
   },
   "crew/jacket-tpose-left-latest": {
     "path": "/site/thumbs/crew/jacket-tpose-left-latest.webp",
