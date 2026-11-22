@@ -19,7 +19,7 @@ const thumbs = json('../docs/public/site/thumbs/index.json')
 
 test('asset index joins manifests, finalized names and thumbnails', () => {
   const index = buildAssetIndex({ character: 'bunny', manifests, names, thumbs })
-  assert.equal(Object.keys(index).length, 94)
+  assert.equal(Object.keys(index).length, 96)
   assert.equal(index['sun05-scene-latest'].web.width, 1774)
   assert.equal(index['sun05-scene-latest'].thumb.width, 480)
   assert.equal(index['bunny-original-latest'].collection, 'origins')
@@ -231,7 +231,7 @@ test('downloadable dagger specification matches the approved leather-tab carry s
 
 test('dagger totals and every master proportion use the current owner length decision', () => {
   const source = json('../catalog/bunny/dagger-dimensions.json')
-  assert.equal(source.updated, '2026-11-02')
+  assert.equal(source.updated, '2026-11-22')
   assert.deepEqual(source.designTargets.rootTotalDecision, {
     path: '/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-length-angle-decision.json',
     sha256: '4d401d922c4e653824cb28f439e7fb109a00e79f76f46c56bbe7131fc1455d59',
