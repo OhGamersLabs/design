@@ -975,6 +975,318 @@
       "contentType": "image/png"
     },
     {
+      "character": "crew",
+      "path": "/media/crew/anchor-card-latest.png",
+      "key": "x_ops/design/characters/crew/latest/anchor-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/back-rig-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/back-rig-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/back-rig-board-latest.png",
+      "key": "x_ops/design/characters/crew/latest/back-rig-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/back-rig-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/back-rig-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/back-rig-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/back-rig-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/back-rig-tpose-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/back-rig-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/back-rig-tpose-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/back-rig-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/back-rig-tpose-left-latest.png",
+      "key": "x_ops/design/characters/crew/latest/back-rig-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/back-rig-tpose-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/back-rig-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/belt-holster-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/belt-holster-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/belt-holster-board-latest.png",
+      "key": "x_ops/design/characters/crew/latest/belt-holster-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/belt-holster-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/belt-holster-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/belt-holster-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/belt-holster-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/belt-holster-tpose-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/belt-holster-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/belt-holster-tpose-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/belt-holster-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/belt-holster-tpose-left-latest.png",
+      "key": "x_ops/design/characters/crew/latest/belt-holster-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/belt-holster-tpose-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/belt-holster-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/body-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/body-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/body-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/body-tpose-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/body-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/body-tpose-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/body-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/body-tpose-left-latest.png",
+      "key": "x_ops/design/characters/crew/latest/body-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/body-tpose-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/body-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/boots-gloves-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/boots-gloves-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/boots-gloves-board-latest.png",
+      "key": "x_ops/design/characters/crew/latest/boots-gloves-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/boots-gloves-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/boots-gloves-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/boots-gloves-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/boots-gloves-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/boots-gloves-tpose-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/boots-gloves-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/boots-gloves-tpose-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/boots-gloves-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/boots-gloves-tpose-left-latest.png",
+      "key": "x_ops/design/characters/crew/latest/boots-gloves-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/boots-gloves-tpose-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/boots-gloves-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/crew/latest/breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/character-card-latest.png",
+      "key": "x_ops/design/characters/crew/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/crew/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/face-sheet-latest.png",
+      "key": "x_ops/design/characters/crew/latest/face-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jacket-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jacket-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jacket-board-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jacket-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jacket-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jacket-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jacket-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jacket-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jacket-tpose-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jacket-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jacket-tpose-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jacket-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jacket-tpose-left-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jacket-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jacket-tpose-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jacket-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jumpsuit-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jumpsuit-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jumpsuit-board-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jumpsuit-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jumpsuit-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jumpsuit-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jumpsuit-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jumpsuit-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jumpsuit-tpose-back-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jumpsuit-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jumpsuit-tpose-front-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jumpsuit-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jumpsuit-tpose-left-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jumpsuit-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "crew",
+      "path": "/media/crew/jumpsuit-tpose-right-latest.png",
+      "key": "x_ops/design/characters/crew/latest/jumpsuit-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "doge",
       "path": "/media/doge/anchor-card-latest.png",
       "key": "x_ops/design/characters/doge/latest/anchor-card-latest.png",
@@ -1134,6 +1446,12 @@
       "character": "origins",
       "path": "/media/origins/bunny-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/bunny-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "origins",
+      "path": "/media/origins/crew-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/crew-original-latest.png",
       "contentType": "image/png"
     },
     {

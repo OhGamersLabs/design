@@ -1,0 +1,1206 @@
+{
+  "schema_version": "2.0",
+  "character_id": "crew",
+  "language": "zh-CN",
+  "title": "Crew 设计参考",
+  "status": "local-review",
+  "asset_count": 52,
+  "assets": [
+    {
+      "id": "anchor-card-latest",
+      "character": "crew",
+      "title": "anchor-card-latest",
+      "original": {
+        "path": "/media/crew/anchor-card-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1326396,
+        "sha256": "dba92168e145e757b3385146ca8c9a6815e3937f2aa5f1499b66299512e25204",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/anchor-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 936992,
+        "sha256": "be835b51e51517d18317a89e068578dc8ae4a4425d749279ee09579e71e221e3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-back-latest",
+      "character": "crew",
+      "title": "back-rig-back-latest",
+      "original": {
+        "path": "/media/crew/back-rig-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1038033,
+        "sha256": "0053581c2130fec6817498902e7e22f4ac746119729cd3169430376e8f8aa4dc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/back-rig-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 709646,
+        "sha256": "71bc73628274d0d18210fe41c98695724667c35251af5562ee37f38ed86a0d7c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-board-latest",
+      "character": "crew",
+      "title": "back-rig-board-latest",
+      "original": {
+        "path": "/media/crew/back-rig-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1348511,
+        "sha256": "e5e14dcac2aafb625896b8e4cadbb12a7761f1ea56201f681a920b8abe727c61",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/back-rig-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 916454,
+        "sha256": "9f691811ce6864fe2930dcd0a83a5376fa52430f75c529c834b0ec52ff57c672",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-front-latest",
+      "character": "crew",
+      "title": "back-rig-front-latest",
+      "original": {
+        "path": "/media/crew/back-rig-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1101364,
+        "sha256": "c3d344c9c4d1b4b0697771c7a73c175372e7869e4875c021fd735dcf40deb808",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/back-rig-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 766708,
+        "sha256": "d5605cad643b6fba1630f3a9da2659aaf8c2d8d61b44a7099bf57483a8fab97f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-right-latest",
+      "character": "crew",
+      "title": "back-rig-right-latest",
+      "original": {
+        "path": "/media/crew/back-rig-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 887456,
+        "sha256": "e72f950efa038a49991831b8540676d847bc38dbdca337df76322ca667eb190b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/back-rig-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 593786,
+        "sha256": "a2a704955ac2dd656eeb9e95f6894c89d9c87e187bf3abb10bc2f0126c6889a1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-tpose-back-latest",
+      "character": "crew",
+      "title": "back-rig-tpose-back-latest",
+      "original": {
+        "path": "/media/crew/back-rig-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 625660,
+        "sha256": "7b6a6f79d4815220d91d4f2eb9c819735ea5a1aa691fe8bf1bd61577554b1895",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/back-rig-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 420280,
+        "sha256": "2a5b9205f43dc0d94bc60317b534d4ff4d414ec1304879d828b4403049fb8c4d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-tpose-front-latest",
+      "character": "crew",
+      "title": "back-rig-tpose-front-latest",
+      "original": {
+        "path": "/media/crew/back-rig-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 890262,
+        "sha256": "c2d15430ac09c3bad30b80022d385f88439de2c000e2b38f13fda0bcd203c64c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/back-rig-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 642398,
+        "sha256": "24687dfc5ab519e8f4ccc7967602514cc82a703af6e6371a5295d0f058be07ca",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-tpose-left-latest",
+      "character": "crew",
+      "title": "back-rig-tpose-left-latest",
+      "original": {
+        "path": "/media/crew/back-rig-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 505407,
+        "sha256": "0c35a130ef80f4b7e0cbecd406cb78a642bc6c102e1b946ae806620daee101c8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/back-rig-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 329196,
+        "sha256": "94388db0e4a5213c3310476ad8cda6d703697ec1f7b3b845913b93b2c1f34cee",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-tpose-right-latest",
+      "character": "crew",
+      "title": "back-rig-tpose-right-latest",
+      "original": {
+        "path": "/media/crew/back-rig-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 478939,
+        "sha256": "4f11f2605d59b62c686adb05eba99e174aa0417240c016a8db72521490aa26da",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/back-rig-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 324558,
+        "sha256": "acab930bc26518e3074833c56dc47f55332927e99a9053152b54fcfa081f0e77",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-back-latest",
+      "character": "crew",
+      "title": "belt-holster-back-latest",
+      "original": {
+        "path": "/media/crew/belt-holster-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 962984,
+        "sha256": "f10bc273abd388fdcb6655c70609aa3b9601ed40a17a56bb1d4b3eba126252de",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/belt-holster-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 658602,
+        "sha256": "6ee6efe84f664cd244261f31541ba91faaf926f244a5b3e1268519c27dfcebf7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-board-latest",
+      "character": "crew",
+      "title": "belt-holster-board-latest",
+      "original": {
+        "path": "/media/crew/belt-holster-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1419370,
+        "sha256": "06b981a718b71c37f4f697e095a3659bd9db0855f522ee8cccd698f893635e89",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/belt-holster-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 993514,
+        "sha256": "ca6b7930b17f5f8bf9b353fd8dab7f3b4e55586eecb10cf1e58967adf92b345b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-front-latest",
+      "character": "crew",
+      "title": "belt-holster-front-latest",
+      "original": {
+        "path": "/media/crew/belt-holster-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1064289,
+        "sha256": "833e96702c230ca13506f77bfe94acd620e518da98937e9aecd0658484c082f2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/belt-holster-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 739128,
+        "sha256": "e9fa8a769691de1bce6f947f2c24fde3619bfcadd555d20f7cb124783a8029c6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-right-latest",
+      "character": "crew",
+      "title": "belt-holster-right-latest",
+      "original": {
+        "path": "/media/crew/belt-holster-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1007151,
+        "sha256": "4cabe8e7482da26ad9f2fd821c750b5774b53d96885bf93615f50886b9c6dd2f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/belt-holster-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 699164,
+        "sha256": "60ef3b6598149cc535ebd5150f7f256c827b580003da1531ec87a277532d10bd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-tpose-back-latest",
+      "character": "crew",
+      "title": "belt-holster-tpose-back-latest",
+      "original": {
+        "path": "/media/crew/belt-holster-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 634481,
+        "sha256": "0ce9afcc7de60ae800c81b90210aaa1710d55e93f1ef98054179c4b4a82a0c6d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/belt-holster-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 423126,
+        "sha256": "7441108fc208f9dd4f52da34457e9d3d882f9edceb795ca97b7bf18eaff72291",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-tpose-front-latest",
+      "character": "crew",
+      "title": "belt-holster-tpose-front-latest",
+      "original": {
+        "path": "/media/crew/belt-holster-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 615787,
+        "sha256": "7978fc5db1642783ab63b81e8d37f116383d5e9d6e841205809387d4480abae3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/belt-holster-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 410346,
+        "sha256": "b75d60c6c71f482ff0f18178fb9a1df7442e45a9f2fe4c07f4ccde2cdd601a01",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-tpose-left-latest",
+      "character": "crew",
+      "title": "belt-holster-tpose-left-latest",
+      "original": {
+        "path": "/media/crew/belt-holster-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 445971,
+        "sha256": "ae1ff883d95e2c1297e9ab7af2c81f07970b8f7ffc1b3fdae2b8d2f582a6bbfa",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/belt-holster-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 292978,
+        "sha256": "04cf2975a698ea2cb588ecaf7c839b1bbd423bc6fc577f5e0ba0914b08bc44f4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-tpose-right-latest",
+      "character": "crew",
+      "title": "belt-holster-tpose-right-latest",
+      "original": {
+        "path": "/media/crew/belt-holster-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 534039,
+        "sha256": "e142092eb0d6e4341f4836efbc0f4678034364cb5e884e0962a05733d8791e1b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/belt-holster-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 348180,
+        "sha256": "6bd1954fef18fd4e780f0340ef8596f872ecb5321f7c0780bf114495864918c5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-back-latest",
+      "character": "crew",
+      "title": "body-back-latest",
+      "original": {
+        "path": "/media/crew/body-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 918688,
+        "sha256": "ffc21fb8c4cb53f011d62f9d77d79992e0f906183cd62d80219ad17e852063f0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/body-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 632006,
+        "sha256": "b1cc5afee4fbe5a835b04056eaef765e7d565e28366be4c98df4f3590897f75f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-front-latest",
+      "character": "crew",
+      "title": "body-front-latest",
+      "original": {
+        "path": "/media/crew/body-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 919414,
+        "sha256": "dc29e06494f6c24021bc134061922cf989649aa0ebad58bacae5921a24ea2e53",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/body-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 630860,
+        "sha256": "6d89187a268a19eb44f18d21b3bed6cb1ac346adbfd6613c49efc75db3ac3d3a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-right-latest",
+      "character": "crew",
+      "title": "body-right-latest",
+      "original": {
+        "path": "/media/crew/body-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 836636,
+        "sha256": "04d412efecf410ea45172c516ab6ea203db955a2157449e1d388dcf639af4a12",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/body-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 584662,
+        "sha256": "99d8dc05f29a7122fd10c956f549b120a9f22ec59b113cc6bf73e566dc19a5b0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-back-latest",
+      "character": "crew",
+      "title": "body-tpose-back-latest",
+      "original": {
+        "path": "/media/crew/body-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 599661,
+        "sha256": "4fec04de39dab319c2d0d49b6fd56159022b7be29c29374be54cee2b41ca7f22",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/body-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 409602,
+        "sha256": "fca351a5e6a5ccac382f84c95e97380aa6012263ca3488d6711728a50c6823dd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-front-latest",
+      "character": "crew",
+      "title": "body-tpose-front-latest",
+      "original": {
+        "path": "/media/crew/body-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 779426,
+        "sha256": "67bf1cedf52c3f725a5a7f41ed2b03fe150623c888ef7e07fe907062299bf69a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/body-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 570104,
+        "sha256": "6886180f3cc56e97fd46cc6302379080bf47ca7dc34e65b31036ac51c9469962",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-left-latest",
+      "character": "crew",
+      "title": "body-tpose-left-latest",
+      "original": {
+        "path": "/media/crew/body-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 542259,
+        "sha256": "a0f511b7ca86fa7fb129faf479d8e6b9323ec7c821f598e898b0f14348655ae4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/body-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 359362,
+        "sha256": "cd442f4eb1b7ea36375f5a27820b8f9874b50c8ae15e4a365ebd56d149aaa072",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-right-latest",
+      "character": "crew",
+      "title": "body-tpose-right-latest",
+      "original": {
+        "path": "/media/crew/body-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 545639,
+        "sha256": "bf76eacb61d36ff28d71433a966318475031b745733303b269f2b003d63bba83",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/body-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 360408,
+        "sha256": "e9ec4493bc3a0db9596167927b19bc314ddee58532cf757a6aa92f5cfc0c28aa",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-back-latest",
+      "character": "crew",
+      "title": "boots-gloves-back-latest",
+      "original": {
+        "path": "/media/crew/boots-gloves-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 946631,
+        "sha256": "8107dc1f3d64cbc5660a412108c0d34aa609dd85c669b3155abcd1604f6a3a22",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/boots-gloves-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 651592,
+        "sha256": "5d8aaf977ba329c1102d25334a1be0d8f394f8c51fdbf6caff02c49e67fcfc63",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-board-latest",
+      "character": "crew",
+      "title": "boots-gloves-board-latest",
+      "original": {
+        "path": "/media/crew/boots-gloves-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1749189,
+        "sha256": "60b184e606d45605345676a0284080bee6062a0c269025d5ac203c07bbbd9f4e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/boots-gloves-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1274796,
+        "sha256": "28f1f3456b02eec9d86df5d7ffbd517010e00437bb95501d925d8ba2dad48036",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-front-latest",
+      "character": "crew",
+      "title": "boots-gloves-front-latest",
+      "original": {
+        "path": "/media/crew/boots-gloves-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1023045,
+        "sha256": "c7f4da4eb3a62f8288b66a0bc21ff95d5ed742fd29608f8eaf7ce4d496bafb7b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/boots-gloves-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 708010,
+        "sha256": "200b73ae9491104e7cdd0f11c8d6cc2bae06de07f5def5d8fb92e167b6ca4997",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-right-latest",
+      "character": "crew",
+      "title": "boots-gloves-right-latest",
+      "original": {
+        "path": "/media/crew/boots-gloves-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 686540,
+        "sha256": "287d2d0e0e51c5f7179ceea0e86b30d9bffe85725441dd606ce3fb870938a4a9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/boots-gloves-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 459400,
+        "sha256": "61a3f833b6b8663d651e112038b4599bc6179734eeebeb948ebd4ce98a0fc5b8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-tpose-back-latest",
+      "character": "crew",
+      "title": "boots-gloves-tpose-back-latest",
+      "original": {
+        "path": "/media/crew/boots-gloves-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 609273,
+        "sha256": "6c30fa3f5da2d2328659ae41d3a5a0b6acfb761e5af83f5fab0555c6b0ffdf1e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/boots-gloves-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 407060,
+        "sha256": "6a74debbc1a38448767b110cf75f4fc56395033a0099eb58bac7d4fb220d36c6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-tpose-front-latest",
+      "character": "crew",
+      "title": "boots-gloves-tpose-front-latest",
+      "original": {
+        "path": "/media/crew/boots-gloves-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 613437,
+        "sha256": "b588ea38411c503f1185a33f153b437f5d916c4a493e036d4829120b3997e776",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/boots-gloves-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 408634,
+        "sha256": "77f7532ee2df839b4ebfb80fd5b714e1680efe2630ed008f404195a6e9edfed2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-tpose-left-latest",
+      "character": "crew",
+      "title": "boots-gloves-tpose-left-latest",
+      "original": {
+        "path": "/media/crew/boots-gloves-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 519562,
+        "sha256": "fed6a60113762183564cf8fea2ad017b73c468d296803c98a6cd1971920408fc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/boots-gloves-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 337442,
+        "sha256": "b9187c0dee296397b14b6bd6d8c64a9c8376e53a362c6ccb2e77d442b4329d5b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-tpose-right-latest",
+      "character": "crew",
+      "title": "boots-gloves-tpose-right-latest",
+      "original": {
+        "path": "/media/crew/boots-gloves-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 555991,
+        "sha256": "4247990efc0f890a9d3031d6cc6aa545fdf3e7ed006cd957fee23884327aca67",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/boots-gloves-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 362442,
+        "sha256": "72678feedd2808555e4751d42d62709010db1c476a126919992372a846b94617",
+        "alpha": false
+      }
+    },
+    {
+      "id": "breakdown-sheet-latest",
+      "character": "crew",
+      "title": "breakdown-sheet-latest",
+      "original": {
+        "path": "/media/crew/breakdown-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 2296,
+        "bytes": 3349448,
+        "sha256": "8f3a93c29166232965d4e50e70d65c3c41d41dbab761c3b2c6b9e2fac86de893",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/breakdown-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1225,
+        "bytes": 1004618,
+        "sha256": "f53938a84c9b6faf67e1c59cd38d23aef4287b55ead8c74a7158213b3013f9b5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "character-card-latest",
+      "character": "crew",
+      "title": "character-card-latest",
+      "original": {
+        "path": "/media/crew/character-card-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1489124,
+        "sha256": "bfbfb755b32393915d85a10528457cc5f7078b58360a8a914cee0b27e4c84d4a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/character-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1061458,
+        "sha256": "49065cfcc8f499d75774d216b8493868da587f98673ac7f4da24504a62811155",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "crew",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/crew/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1952015,
+        "sha256": "a376638ae3594793f2ac79382ab0b8621f85117b039c434c1857849d786a1ae2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1428552,
+        "sha256": "5fae5ba35bfc7fd3b4d96ddbbb6a844d61657427bc5d5b0caf13d5b79ae9b619",
+        "alpha": false
+      }
+    },
+    {
+      "id": "face-sheet-latest",
+      "character": "crew",
+      "title": "face-sheet-latest",
+      "original": {
+        "path": "/media/crew/face-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1382014,
+        "sha256": "45b5ed0edfd7d3927f7d0173883eb48cd2731c92dec117a7c6fdaaa0ce9da053",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/face-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 969024,
+        "sha256": "04ac1bf4b342bf279cbf188044443da0bd55baa5ef71e4ba4bb1c6d3fbf95eff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-back-latest",
+      "character": "crew",
+      "title": "jacket-back-latest",
+      "original": {
+        "path": "/media/crew/jacket-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 997960,
+        "sha256": "d16cb1a3467fb5c964f8b90a132c05796b3d5827cbd82d8b75041953dd262268",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jacket-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 686312,
+        "sha256": "fcd4377672ac9f4863339bf09d777cd29d9461d30220e1d51b0ea0fee534158f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-board-latest",
+      "character": "crew",
+      "title": "jacket-board-latest",
+      "original": {
+        "path": "/media/crew/jacket-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1599860,
+        "sha256": "81dee69f58f40ee86058916d6f20ddb12c1dd7b8405f3504bb8ee501ccc66eb4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jacket-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1185902,
+        "sha256": "94e2ebadcccbd0e96339eb7e32f37fcca0b5826b553945f94e7c95a2e38a32fd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-front-latest",
+      "character": "crew",
+      "title": "jacket-front-latest",
+      "original": {
+        "path": "/media/crew/jacket-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1214734,
+        "sha256": "1010963bb5edffb492504ddaa494b5fcf56045e5c85e2ae2ebf3e0cc1bbae05f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jacket-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 849852,
+        "sha256": "428d8225d70c7c1b29b8b9459f1db55b7a213af27b67650fbe40f6433a064c1e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-right-latest",
+      "character": "crew",
+      "title": "jacket-right-latest",
+      "original": {
+        "path": "/media/crew/jacket-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 862777,
+        "sha256": "7ea4f0558979c86b05900ffede42bf6ada7b8382e4631b5dc515eaed872ac9fa",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jacket-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 576954,
+        "sha256": "fc668022809eedce025800c43a6495671478be7e95686a2beeb23d9df509eb3f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-back-latest",
+      "character": "crew",
+      "title": "jacket-tpose-back-latest",
+      "original": {
+        "path": "/media/crew/jacket-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 593595,
+        "sha256": "0b64d079641dbb7225e5a0f28020241ec7083b246f1b55ea8019f43851c5fe9f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jacket-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 401518,
+        "sha256": "bd16063d89af871412c7fa23a000837711817fcf707fdcdcee28287437575e6b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-front-latest",
+      "character": "crew",
+      "title": "jacket-tpose-front-latest",
+      "original": {
+        "path": "/media/crew/jacket-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 623460,
+        "sha256": "af709ecb1aac369b5ef2a8d95d9a5233c85cc1379931e151bc579503d1a3471a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jacket-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 396724,
+        "sha256": "9ac1aee496b668c7aa5cdb596b7f6726962d0bc5b1c8cd8d5ecb71d5a2a418db",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-left-latest",
+      "character": "crew",
+      "title": "jacket-tpose-left-latest",
+      "original": {
+        "path": "/media/crew/jacket-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 455543,
+        "sha256": "c7254faf5ef2d7bcdfe14d9b1dc4b8cf249f68b8fced6442ff4f5c9cbe755705",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jacket-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 309540,
+        "sha256": "e3bc26916f8ffe82c44497a49c1b2c9fab3f1784354d2b9f75ccf117215807af",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-right-latest",
+      "character": "crew",
+      "title": "jacket-tpose-right-latest",
+      "original": {
+        "path": "/media/crew/jacket-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 518632,
+        "sha256": "b6e8424ac601b6fc256b188cacbb5e95f71d3e62cd8da64597037c503c02f23f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jacket-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 343454,
+        "sha256": "18714a8867e4ac0f913381a9447f2d263cdf085e63859d20d047360e17d92c86",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-back-latest",
+      "character": "crew",
+      "title": "jumpsuit-back-latest",
+      "original": {
+        "path": "/media/crew/jumpsuit-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 922158,
+        "sha256": "f3e1610e88980be07b94450ceece531c4731a8a287fc1a00724434d74e70cc8a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jumpsuit-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 636432,
+        "sha256": "2d509a4788fb27188630e91df8fe305fd15e965b5c242ac6e14a5e85e4bfb49c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-board-latest",
+      "character": "crew",
+      "title": "jumpsuit-board-latest",
+      "original": {
+        "path": "/media/crew/jumpsuit-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1348140,
+        "sha256": "664109665a4a7330e5ae3343d83f245c871fcb18ece7bc960e823b3e0adbe602",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jumpsuit-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 940952,
+        "sha256": "d77fc5040537d5da8b126b8749042499c8a15f3a49bc02b1898614ef20eb9fbd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-front-latest",
+      "character": "crew",
+      "title": "jumpsuit-front-latest",
+      "original": {
+        "path": "/media/crew/jumpsuit-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 958057,
+        "sha256": "ac6848a0df3b36d12aa96b97911a723ab10b739397523eaf38bb28766dd5afd2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jumpsuit-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 661068,
+        "sha256": "b1700fe48a2aecfe3a55e335f54ed8e1d71b69fc6c56310efc6411fb4514d4f5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-right-latest",
+      "character": "crew",
+      "title": "jumpsuit-right-latest",
+      "original": {
+        "path": "/media/crew/jumpsuit-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 803296,
+        "sha256": "1af8dafcd7e9722ded61d6a1f23cfd36289973d12b547900daa8e889575a599b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jumpsuit-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 540214,
+        "sha256": "ef4fced2f6f8b8d57a8cbe18030e114442925c63b07fb107a24cf52029eb2aa2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-tpose-back-latest",
+      "character": "crew",
+      "title": "jumpsuit-tpose-back-latest",
+      "original": {
+        "path": "/media/crew/jumpsuit-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 573459,
+        "sha256": "88eb52f93a3629972f4809a5d106cba80681d62f79da62b02418a0e63ca39096",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jumpsuit-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 380120,
+        "sha256": "0f2c0dd6a92adee65d88ba1df09009b7f029097148078f084427734c03ec1b24",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-tpose-front-latest",
+      "character": "crew",
+      "title": "jumpsuit-tpose-front-latest",
+      "original": {
+        "path": "/media/crew/jumpsuit-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 597021,
+        "sha256": "f7704a1b60826a0f5abba1a177662115ddf6845171d7fd884fe300cf8d6a58bb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jumpsuit-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 394298,
+        "sha256": "3c1bf18d45987f2befebc491db80a787e89b2446848ddbb2e0b67fd183baa174",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-tpose-left-latest",
+      "character": "crew",
+      "title": "jumpsuit-tpose-left-latest",
+      "original": {
+        "path": "/media/crew/jumpsuit-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 517253,
+        "sha256": "2a27a70a7f47ab8b4d8c44e1763756cb27f99ac47d9bdc8ef2c7c9e47ff3f78b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jumpsuit-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 335492,
+        "sha256": "1428251a03c19c6982128211b6e08a8c9002152745c03b7aabf288a8452ae22b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-tpose-right-latest",
+      "character": "crew",
+      "title": "jumpsuit-tpose-right-latest",
+      "original": {
+        "path": "/media/crew/jumpsuit-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 470209,
+        "sha256": "509ef9f2dac0bcda997269852c33ca4917eba9cab664b0302b987703b2806edb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/crew/jumpsuit-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 308944,
+        "sha256": "a2e46a7fa130f52c151f8ec7821d54ca005f9141a79b57278e70fcc51aa19d8c",
+        "alpha": false
+      }
+    }
+  ]
+}

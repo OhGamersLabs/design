@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 3,
+  "asset_count": 4,
   "assets": [
     {
       "id": "angel-original-latest",
@@ -49,6 +49,29 @@
         "height": 1800,
         "bytes": 162592,
         "sha256": "62693de96576d14bb14afa5f92f3214b7240f17e1a352ec8e296ecc33789450b",
+        "alpha": true
+      }
+    },
+    {
+      "id": "crew-original-latest",
+      "character": "origins",
+      "title": "crew-original-latest",
+      "original": {
+        "path": "/media/origins/crew-original-latest.png",
+        "mime_type": "image/png",
+        "width": 3491,
+        "height": 5102,
+        "bytes": 6530992,
+        "sha256": "d3aafcad4fb62098d1c931e0c1c5428baf83eda8e9e7333c3283740eef7835ba",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/crew-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1401,
+        "height": 2048,
+        "bytes": 844556,
+        "sha256": "3c39a93aa356b5679f547ecc901c9555983c010cbfbac0b0c657e9fe66de1ea1",
         "alpha": true
       }
     },
