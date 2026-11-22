@@ -1,0 +1,227 @@
+{
+  "chapter": "layers",
+  "noun": "衣层",
+  "wear": "穿着",
+  "items": [
+    {
+      "layer": 0,
+      "name": "Q 版身体",
+      "path": "/characters/mew/body",
+      "front": "body-front-latest",
+      "side": "body-right-latest",
+      "back": "body-back-latest",
+      "summary": "日常 Q 版约 2 头身奶牛猫素体基准，倒 U 纯白脸纹、粉三角鼻、三段式深青蓝金瞳与脊柱中线弯向角色右方白尖尾。",
+      "facts": [
+        {
+          "term": "形态比例",
+          "value": "日常 Q 版直立，约 2 头身"
+        },
+        {
+          "term": "毛色分布",
+          "value": "深炭猫毛配纯白口鼻、胸腹、四爪与尾尖"
+        },
+        {
+          "term": "尾根位置",
+          "value": "脊柱正中生出，向角色右侧翘卷且低于颈线"
+        },
+        {
+          "term": "穿戴顺序",
+          "value": "Q 版第 0 层，之上叠加第 1 到第 2 层"
+        }
+      ],
+      "leftRight": "双耳与四肢对称，仅长尾自腰臀正中线长出后固定向角色右侧翘起（正面图朝画面左方弯曲，背面图弯向画面右方，角色右侧面可见完整微翘弧度）。"
+    },
+    {
+      "layer": 1,
+      "name": "Q 版宇航服",
+      "path": "/characters/mew/suit",
+      "front": "suit-front-latest",
+      "side": "suit-right-latest",
+      "back": "suit-back-latest",
+      "summary": "灰白修身宇航服、仅角色右颈侧青灯孔、角色右上臂琥珀臂章，以及角色右手白字 OG / 角色左手双琥珀压青条非对称手套。",
+      "facts": [
+        {
+          "term": "颈圈手性",
+          "value": "炭灰颈圈仅前角色右侧嵌一枚电光青圆灯"
+        },
+        {
+          "term": "臂章徽记",
+          "value": "仅角色右上臂缀暖琥珀色矩形宇航臂章"
+        },
+        {
+          "term": "非对称爪套",
+          "value": "角色右手深青圆爪印白 OG，角色左手印双琥珀压青条"
+        },
+        {
+          "term": "穿戴顺序",
+          "value": "Q 版第 1 层，之上加戴第 2 层头盔与太空舱"
+        }
+      ],
+      "leftRight": "青色颈环指示灯、上臂琥珀矩形章与白字 OG 手套全部落在角色右侧（正面图位于画面左边）；角色左侧面仅显示干净无章衣袖与双琥珀压青条的角色左手套。"
+    },
+    {
+      "layer": 2,
+      "name": "Q 版太空舱与头盔",
+      "path": "/characters/mew/pod",
+      "front": "pod-front-latest",
+      "side": "pod-right-latest",
+      "back": "pod-back-latest",
+      "summary": "开放式冰白茶镜护目盔（配双额头青点、角色右耳橘黄通讯盒与后挂鞭天线电台）及双侧严格对称的奶油白橘框球形太空舱。",
+      "facts": [
+        {
+          "term": "头盔耳仓",
+          "value": "顶开对称双猫耳孔，角色右耳挂双橘双黄通讯盒"
+        },
+        {
+          "term": "后置电台",
+          "value": "盔后居中挂凉灰散热电台并竖起金属鞭状天线"
+        },
+        {
+          "term": "球形载具",
+          "value": "奶油白球壳配亮橘座舱框、双尾翼与板岩灰腹鳍"
+        },
+        {
+          "term": "对称推进器",
+          "value": "腹底双侧严格对称双橘头锥形微推进器"
+        }
+      ],
+      "leftRight": "头盔通讯盒的橘槽与双黄指示圆点严格挂在角色右耳侧（角色右侧面清晰正面呈现）；角色左耳为平面百叶圆耳盖；球形太空舱载具本身严格两侧镜面对称。"
+    },
+    {
+      "layer": 3,
+      "name": "猫娘素体",
+      "path": "/characters/mew/catgirl-body",
+      "front": "catgirl-body-front-latest",
+      "side": "catgirl-body-right-latest",
+      "back": "catgirl-body-back-latest",
+      "tpose": {
+        "front": "catgirl-body-tpose-front-latest",
+        "right": "catgirl-body-tpose-right-latest",
+        "back": "catgirl-body-tpose-back-latest",
+        "left": "catgirl-body-tpose-left-latest"
+      },
+      "summary": "沿用 female_standard 通用女素体的约 6.5 头身猫娘素体基准，单对冠位猫耳与无人类侧耳干净颞线，配前颊白挑染高马尾。",
+      "facts": [
+        {
+          "term": "形态比例",
+          "value": "战斗猫娘直立，约 6.5 头身，厘米身高未设定"
+        },
+        {
+          "term": "头部特征",
+          "value": "单对炭黑粉内冠位猫耳、零人类侧耳、双颊白挑染"
+        },
+        {
+          "term": "尾脊基准",
+          "value": "尾根居中生于骶骨，向角色右侧舒展上扬至肋高"
+        },
+        {
+          "term": "穿戴顺序",
+          "value": "猫娘第 3 层基准，之上叠加第 4 到第 6 层"
+        }
+      ],
+      "leftRight": "刘海微不对称斜分、高马尾居中垂落上背，长尾自背后骶骨正中向角色右侧展开并高高上卷（正面图位于画面左边、背面图弯向画面右边）。"
+    },
+    {
+      "layer": 4,
+      "name": "猫娘紧身战衣与项圈",
+      "path": "/characters/mew/catgirl-unitard",
+      "front": "catgirl-unitard-front-latest",
+      "side": "catgirl-unitard-right-latest",
+      "back": "catgirl-unitard-back-latest",
+      "tpose": {
+        "front": "catgirl-unitard-tpose-front-latest",
+        "right": "catgirl-unitard-tpose-right-latest",
+        "back": "catgirl-unitard-tpose-back-latest",
+        "left": "catgirl-unitard-tpose-left-latest"
+      },
+      "summary": "无袖 U 领深炭藏青几何高机动战衣，配象牙白胸甲橘纹、对称腰侧露肤、双挂翼插座、完整臀部包覆及电光青项圈。",
+      "facts": [
+        {
+          "term": "战衣裁剪",
+          "value": "深炭藏青 U 领无袖紧身衣配象牙白分块与亮橘条"
+        },
+        {
+          "term": "腰臀与尾孔",
+          "value": "双侧适度斜裁露腰，后背拉链止于骶骨尾孔上方"
+        },
+        {
+          "term": "背翼锚槽",
+          "value": "肩胛正中两侧预设一对对称刚性插槽承接翼包"
+        },
+        {
+          "term": "穿戴顺序",
+          "value": "猫娘第 4 层，之上穿第 5、6 层四肢甲与翼包"
+        }
+      ],
+      "leftRight": "连体战衣双侧结构完全对称，贴合臀部曲线并完整包覆；仅项圈前侧偏角色右锁骨位置缀单枚平涂电光青指示方片（正面位于画面偏画面左方颈窝）。"
+    },
+    {
+      "layer": 5,
+      "name": "猫娘护臂手套与疾速长靴",
+      "path": "/characters/mew/catgirl-limbs",
+      "front": "catgirl-limbs-front-latest",
+      "side": "catgirl-limbs-right-latest",
+      "back": "catgirl-limbs-back-latest",
+      "tpose": {
+        "front": "catgirl-limbs-tpose-front-latest",
+        "right": "catgirl-limbs-tpose-right-latest",
+        "back": "catgirl-limbs-tpose-back-latest",
+        "left": "catgirl-limbs-tpose-left-latest"
+      },
+      "summary": "象牙白青缝开腕能量护臂、角色右手白 OG 腕框拳套与角色左手琥珀青条拳套，搭配小腿流畅光滑的高膝象牙橘点疾速战靴。",
+      "facts": [
+        {
+          "term": "能量护臂",
+          "value": "前臂外侧嵌电光青长条指示灯，腕底开放透气"
+        },
+        {
+          "term": "非对称拳套",
+          "value": "角色右手粗白腕框配 O→G 印字；角色左手双琥珀压青条"
+        },
+        {
+          "term": "流畅长靴",
+          "value": "过膝流线护胫甲配踝转轴圆盘与防滑橘尖跑鞋"
+        },
+        {
+          "term": "穿戴顺序",
+          "value": "猫娘第 5 层，之上装配第 6 层背翼包与耳夹"
+        }
+      ],
+      "leftRight": "双前臂护臂与过膝战靴本身对称且小腿全段光滑无附加装置；手部采用严格的左右识别设计——角色右手背印白色 OG 及白色方形腕框，角色左手为素面深炭腕圈与双琥珀横杠压电光青细条。"
+    },
+    {
+      "layer": 6,
+      "name": "猫娘推进翼包与猫耳通讯器",
+      "path": "/characters/mew/catgirl-pack",
+      "front": "catgirl-pack-front-latest",
+      "side": "catgirl-pack-right-latest",
+      "back": "catgirl-pack-back-latest",
+      "tpose": {
+        "front": "catgirl-pack-tpose-front-latest",
+        "right": "catgirl-pack-tpose-right-latest",
+        "back": "catgirl-pack-tpose-back-latest",
+        "left": "catgirl-pack-tpose-left-latest"
+      },
+      "summary": "直插 L1 背槽的双矢量微推安定翼包（关机态深板岩橘圈微喷口与高马尾拨向角色左侧避让）及仅扣于角色右冠猫耳外基部的灰橘黄耳夹。",
+      "facts": [
+        {
+          "term": "角色右猫耳耳夹",
+          "value": "凉灰流线耳夹含双橘槽双黄灯，扣在角色右猫耳外下缘"
+        },
+        {
+          "term": "洁净颞区",
+          "value": "角色右耳夹高悬猫耳基部，双侧太阳穴露素且零人耳"
+        },
+        {
+          "term": "背翼矢量微推",
+          "value": "约 0.75 H 象牙橘尖定风翼，翼根下嵌双橘圈微喷口"
+        },
+        {
+          "term": "高马尾避让",
+          "value": "完整装背面高马尾自然向角色左肩搭垂，清晰露电台与喷口"
+        }
+      ],
+      "leftRight": "通讯耳夹仅夹扣在角色右侧冠位猫耳外侧下缘基部（正面图位于画面左上方猫耳外缘，角色右侧面可完整平视），角色左猫耳维持纯黑猫毛无件；背部安定翼包对称挂载且高马尾偏角色左侧垂落让出完整电台视野。"
+    }
+  ]
+}

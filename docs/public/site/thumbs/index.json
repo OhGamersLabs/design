@@ -3023,6 +3023,422 @@
     "sourcePath": "/characters/gunman/visor-mask-tpose-right-latest.webp",
     "sourceSha256": "4fd02fda856810542642fb571636528b516b5cf85e1ce9dca3c8fa7e66ce83cd"
   },
+  "mew/body-back-latest": {
+    "path": "/site/thumbs/mew/body-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5263d3d78e77a7c5713b5b32ad99d2a734559fc9811f289da21e67cf4f39b5d3",
+    "sourcePath": "/characters/mew/body-back-latest.webp",
+    "sourceSha256": "ec491ccf7b42fe4b2a9becb171cb54ec19002f65db28c00ffeba815af0024672"
+  },
+  "mew/body-front-latest": {
+    "path": "/site/thumbs/mew/body-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "da8df25b7515436463f3d125c14834d6be282c6dff262923202ffca5ca389027",
+    "sourcePath": "/characters/mew/body-front-latest.webp",
+    "sourceSha256": "169f71b97d96ce2e87c571a77d2dba848629746d5eb5f6dc1c13085083dd1a6b"
+  },
+  "mew/body-left-latest": {
+    "path": "/site/thumbs/mew/body-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "444d7befba31c611a43885dc492b2b288da1a65af93520e80fdc047851b47eae",
+    "sourcePath": "/characters/mew/body-left-latest.webp",
+    "sourceSha256": "26ec604b0aeaef6aa6a36a6907043816a23434d5d928376a41594dccc2d59393"
+  },
+  "mew/body-right-latest": {
+    "path": "/site/thumbs/mew/body-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "93dd8d212534bacca26550773e18fd6057209f0587be5e56e654ec9966c42e97",
+    "sourcePath": "/characters/mew/body-right-latest.webp",
+    "sourceSha256": "48a7a091093a434e8c94738af33e5e0ab6d02d9561dd7d91678c313fa4a021a5"
+  },
+  "mew/breakdown-sheet-latest": {
+    "path": "/site/thumbs/mew/breakdown-sheet-latest.webp",
+    "width": 480,
+    "height": 391,
+    "sha256": "13aa9ac86d47019cc8f8097795eec11880d3cb90bc230488b2244ee2dd0efa25",
+    "sourcePath": "/characters/mew/breakdown-sheet-latest.webp",
+    "sourceSha256": "25c805dd2bb9be211f9ecd36bb0b132db0585419f6c70159d07504939a7c769f"
+  },
+  "mew/catgirl-body-back-latest": {
+    "path": "/site/thumbs/mew/catgirl-body-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "aeded5e7fa80ab703a6b872c11fa3d68cf01a1b7a5deb6609a24a06678b2bcd0",
+    "sourcePath": "/characters/mew/catgirl-body-back-latest.webp",
+    "sourceSha256": "585c1f8fd2f7619f1b5f36db71b6aea770d10d3757fe3dda58512470b6425f5a"
+  },
+  "mew/catgirl-body-front-latest": {
+    "path": "/site/thumbs/mew/catgirl-body-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "6f1845aee54ee99627d4e77e5cbc565d6f75086e281f1cc8197a658ff44807a5",
+    "sourcePath": "/characters/mew/catgirl-body-front-latest.webp",
+    "sourceSha256": "0d1dd70ce3ec8b48533887ad830df0f9e24fb946902fa4bc5065f226116380ee"
+  },
+  "mew/catgirl-body-right-latest": {
+    "path": "/site/thumbs/mew/catgirl-body-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "a83aab6b006ddc78379d8c3cf55883d125b7f929a8a219afc19dcf149e96afaf",
+    "sourcePath": "/characters/mew/catgirl-body-right-latest.webp",
+    "sourceSha256": "b9457750be0079ed8b657bdc4da6239d03295d070fc787b805d1e5a6f3d00460"
+  },
+  "mew/catgirl-body-tpose-back-latest": {
+    "path": "/site/thumbs/mew/catgirl-body-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "f8305cd30779f5a92d2efbfdc6492a896d028cbc8de46dbc2f83374da95fb137",
+    "sourcePath": "/characters/mew/catgirl-body-tpose-back-latest.webp",
+    "sourceSha256": "a9d2e76bb103f3d3579bde63daa92f9beadc73fb3bf61da7eaf12c56f9730bb5"
+  },
+  "mew/catgirl-body-tpose-front-latest": {
+    "path": "/site/thumbs/mew/catgirl-body-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "03e925e3401ed5ac9b510b217905abdd3ae0796f364c8f63ad38473fb24b880e",
+    "sourcePath": "/characters/mew/catgirl-body-tpose-front-latest.webp",
+    "sourceSha256": "cb0dd6dd9cb0aba62e7e447309828885c96d8ab4e13189270683d7814250b76a"
+  },
+  "mew/catgirl-body-tpose-left-latest": {
+    "path": "/site/thumbs/mew/catgirl-body-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c143dc1ea43cf431a5d84b03ced58fd222b87fafd7a7ad72dee4bb1f3fa8186a",
+    "sourcePath": "/characters/mew/catgirl-body-tpose-left-latest.webp",
+    "sourceSha256": "882372038e7e8399ff47d3a64c757002a0485c62b921c865063060ec381a85be"
+  },
+  "mew/catgirl-body-tpose-right-latest": {
+    "path": "/site/thumbs/mew/catgirl-body-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b078d469171cb5ffdcefb0d1b2fbe72f569c0aef0484de194f516193c3fc4ca7",
+    "sourcePath": "/characters/mew/catgirl-body-tpose-right-latest.webp",
+    "sourceSha256": "1b26631f188686ee7710507b5115c3152962b02ef5d7f108281f020cebc26020"
+  },
+  "mew/catgirl-breakdown-sheet-latest": {
+    "path": "/site/thumbs/mew/catgirl-breakdown-sheet-latest.webp",
+    "width": 480,
+    "height": 391,
+    "sha256": "e3111b84a4e275ce83ba1f296e39f279959b3ed08bad6e6506b9f882bf627bfc",
+    "sourcePath": "/characters/mew/catgirl-breakdown-sheet-latest.webp",
+    "sourceSha256": "e6b9a8e6dd32caa4454a125ee6556ef49b3352fe1705270b69af42eea0760ba7"
+  },
+  "mew/catgirl-expressions-sheet-latest": {
+    "path": "/site/thumbs/mew/catgirl-expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "0440b6d2a5fba87fb760d8b5d1563d7c706eca2b2e5088863c6ca13272a6a8ae",
+    "sourcePath": "/characters/mew/catgirl-expressions-sheet-latest.webp",
+    "sourceSha256": "9047b6c20b8e0176bdef03b6d085eac9ba1ad02440a1b61c559e895113302a1e"
+  },
+  "mew/catgirl-face-sheet-latest": {
+    "path": "/site/thumbs/mew/catgirl-face-sheet-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "4660a34c247137652b454235df8ac9b84ceaeb1847111a47dd81a16a9bae3cb9",
+    "sourcePath": "/characters/mew/catgirl-face-sheet-latest.webp",
+    "sourceSha256": "ebecaf17a1b18d16320fcf58cac99f6a546396f393385862c530d669975dc7b4"
+  },
+  "mew/catgirl-limbs-back-latest": {
+    "path": "/site/thumbs/mew/catgirl-limbs-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "213a91175982e97de8ce1cc1d6b52b6238ae9c9dd10ed57251f6e26a6aca19b2",
+    "sourcePath": "/characters/mew/catgirl-limbs-back-latest.webp",
+    "sourceSha256": "2d31ca4f16d9621c1b14fc59e6bfef041c1c6a361c142b7bde9909573610379c"
+  },
+  "mew/catgirl-limbs-board-latest": {
+    "path": "/site/thumbs/mew/catgirl-limbs-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "4b624dd8c0cd338f13be05c240f607bc081bf5606a54dbc2e9d6696402538e8f",
+    "sourcePath": "/characters/mew/catgirl-limbs-board-latest.webp",
+    "sourceSha256": "8fb4f6c5bf829df73ee964fc3db4695c4f67f6d13d14624e0cdbd0a2db22c9a8"
+  },
+  "mew/catgirl-limbs-front-latest": {
+    "path": "/site/thumbs/mew/catgirl-limbs-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "9b87260e54a34636e71b9fe2f7a1b81d13301a642494da800ad5a568f697dc24",
+    "sourcePath": "/characters/mew/catgirl-limbs-front-latest.webp",
+    "sourceSha256": "426a602ca5a155a36753fb63991214e7be7aedcfc717a8b8459291039135ce58"
+  },
+  "mew/catgirl-limbs-right-latest": {
+    "path": "/site/thumbs/mew/catgirl-limbs-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "dca321799434c9c5c3fde02c03a7a792f7a2d5d2e199a74b9917fcfad01817fa",
+    "sourcePath": "/characters/mew/catgirl-limbs-right-latest.webp",
+    "sourceSha256": "dd62d48c437aefc34ae98e908584f7dcaa7a848de86d4962faacd4eb27b9f250"
+  },
+  "mew/catgirl-limbs-tpose-back-latest": {
+    "path": "/site/thumbs/mew/catgirl-limbs-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9385db0948d1164bdda74f70aac0c3989f61089af2a642ddee27823631e95ea9",
+    "sourcePath": "/characters/mew/catgirl-limbs-tpose-back-latest.webp",
+    "sourceSha256": "ffdd4e96e0d9c2c96a76976c934f83afb6ce5825a87f19fd6c5ca85cad075233"
+  },
+  "mew/catgirl-limbs-tpose-front-latest": {
+    "path": "/site/thumbs/mew/catgirl-limbs-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5eeffb5eb51ae18e7f13df313b9ab46f3c5439856b3820eff0c616631dbaf3f4",
+    "sourcePath": "/characters/mew/catgirl-limbs-tpose-front-latest.webp",
+    "sourceSha256": "64c2d3ba4816a44a614551735f4609ed413207fa3997c4f83c4bd6ca70ffd0e1"
+  },
+  "mew/catgirl-limbs-tpose-left-latest": {
+    "path": "/site/thumbs/mew/catgirl-limbs-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c05d1d62115628b9ebea37ec035e9d09ff4d6cfc59f9ce3f5e029bf57b3c328d",
+    "sourcePath": "/characters/mew/catgirl-limbs-tpose-left-latest.webp",
+    "sourceSha256": "e95eea8b56a2dffe3804e996f15b5c9cea99b570540efe1658aac8f812f8204c"
+  },
+  "mew/catgirl-limbs-tpose-right-latest": {
+    "path": "/site/thumbs/mew/catgirl-limbs-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "364c0248fcaf0e3da5fbd71a8dac3bbda703aea1ff18a6195bbe11000c341eb8",
+    "sourcePath": "/characters/mew/catgirl-limbs-tpose-right-latest.webp",
+    "sourceSha256": "c7e66c28787ab32c7e38581a9ce205a7d5f7f9abed9fecc34def213504c246d1"
+  },
+  "mew/catgirl-pack-back-latest": {
+    "path": "/site/thumbs/mew/catgirl-pack-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "75efd7fea6e02cd54682cc343c9dd3b24c8cdf8dd6155881eff5eb6d627a7570",
+    "sourcePath": "/characters/mew/catgirl-pack-back-latest.webp",
+    "sourceSha256": "9d574c807e712b376f4c8c3c7ed2cbfdd8107fd764fac4d6018a811e58559185"
+  },
+  "mew/catgirl-pack-board-latest": {
+    "path": "/site/thumbs/mew/catgirl-pack-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "d567f50ce09332fb439f74ec3d34afc213204fbfc52a2682741df673fe3df343",
+    "sourcePath": "/characters/mew/catgirl-pack-board-latest.webp",
+    "sourceSha256": "e7a73aa36c77f5038a5c96734099b7d09dce991c96cc8fa14d32fedfebcd2f97"
+  },
+  "mew/catgirl-pack-front-latest": {
+    "path": "/site/thumbs/mew/catgirl-pack-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "0c05df39fc68af3705e979dc3961ae5f7709707b4353b25d81036cbb900f0032",
+    "sourcePath": "/characters/mew/catgirl-pack-front-latest.webp",
+    "sourceSha256": "e69e32c4707c6e8a85002bf556b0c530fa677d4214df71ba4f86cd0a040b88be"
+  },
+  "mew/catgirl-pack-right-latest": {
+    "path": "/site/thumbs/mew/catgirl-pack-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "1f524d5eb8d53753a8e7c890ef7b8855fe35fb45e5a3a1b582759358b965d7cd",
+    "sourcePath": "/characters/mew/catgirl-pack-right-latest.webp",
+    "sourceSha256": "dccef27378d7ed35e9ea91e06a3552aaf1d94beeaaf1eb23f7096a5e92d18cbb"
+  },
+  "mew/catgirl-pack-tpose-back-latest": {
+    "path": "/site/thumbs/mew/catgirl-pack-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "13bed89722d3b509fa812d50f6457446b9731095a134031622287907a256e6e4",
+    "sourcePath": "/characters/mew/catgirl-pack-tpose-back-latest.webp",
+    "sourceSha256": "db07f8700a9894b5b5a5eb32ae12de2fd1983d5d5836e63c3b129ef752076489"
+  },
+  "mew/catgirl-pack-tpose-front-latest": {
+    "path": "/site/thumbs/mew/catgirl-pack-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "ad3dfd87b2a8d2eb93c152dbddd5efa1223513b9b2bf1318920e8fc06eba9764",
+    "sourcePath": "/characters/mew/catgirl-pack-tpose-front-latest.webp",
+    "sourceSha256": "d12560fab7379da4b4892950ada183609d3f82459340912e04d2582c16110dae"
+  },
+  "mew/catgirl-pack-tpose-left-latest": {
+    "path": "/site/thumbs/mew/catgirl-pack-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "8475d840330431cd079b47b86009c60acc04625399a2e26ef5533a67263d95dc",
+    "sourcePath": "/characters/mew/catgirl-pack-tpose-left-latest.webp",
+    "sourceSha256": "d265a57b677b2bd5827c775fecdaf06216a6d87c3db86b1d935a2f5c3ad46db4"
+  },
+  "mew/catgirl-pack-tpose-right-latest": {
+    "path": "/site/thumbs/mew/catgirl-pack-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "63244c4a398bda861750c5ec90d2e8c8990f851c8d40bd99f88f12fa66f38090",
+    "sourcePath": "/characters/mew/catgirl-pack-tpose-right-latest.webp",
+    "sourceSha256": "2563c3c56594843e6297135118acd8b46e46fe3c21ec08b920f25c3948906cee"
+  },
+  "mew/catgirl-unitard-back-latest": {
+    "path": "/site/thumbs/mew/catgirl-unitard-back-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "14d71d3e9ecf9e8e0cd8d0219520805ed91fa24bd8684289596a254c90785153",
+    "sourcePath": "/characters/mew/catgirl-unitard-back-latest.webp",
+    "sourceSha256": "456b4bf1a3090ca5e633feb5a3553940e9330fd31983df037958758d22805553"
+  },
+  "mew/catgirl-unitard-board-latest": {
+    "path": "/site/thumbs/mew/catgirl-unitard-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "4d83cddf50a970ba8e51b8564cb083fd41106bc7c73873a4f9f9ff8879853ef4",
+    "sourcePath": "/characters/mew/catgirl-unitard-board-latest.webp",
+    "sourceSha256": "fdce182c991837b9ae2054a8a775d03c795ff4fa7f3966c03b23799a3b6501d9"
+  },
+  "mew/catgirl-unitard-front-latest": {
+    "path": "/site/thumbs/mew/catgirl-unitard-front-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "26e1db1701c7b77cbe6c564225abf870c37f7535c9278a1fc1136cc962ed1036",
+    "sourcePath": "/characters/mew/catgirl-unitard-front-latest.webp",
+    "sourceSha256": "c5e4888a5b67f1b0817067a150756aed6dbfb49b3d58549eae33452832cccf03"
+  },
+  "mew/catgirl-unitard-right-latest": {
+    "path": "/site/thumbs/mew/catgirl-unitard-right-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "e928293ae8e011ec90708963bb9a40eae5a83bafb9c89e449f4207223a3ab50e",
+    "sourcePath": "/characters/mew/catgirl-unitard-right-latest.webp",
+    "sourceSha256": "b5945c82b80e16796dd72bab24694faec7431814479231282324cf85e0e895ae"
+  },
+  "mew/catgirl-unitard-tpose-back-latest": {
+    "path": "/site/thumbs/mew/catgirl-unitard-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5b8228f58919e8df24be1e4b62fc1a905e6061acf2704f1cf68d65814eea0caa",
+    "sourcePath": "/characters/mew/catgirl-unitard-tpose-back-latest.webp",
+    "sourceSha256": "9f4bb4f6d88002c06630310f44612e0472f8845c63cd59c488d8c49303f874bd"
+  },
+  "mew/catgirl-unitard-tpose-front-latest": {
+    "path": "/site/thumbs/mew/catgirl-unitard-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "edd3873e4ac14a8274313172941b27d645f5afb2c2045dae7865765121f9d246",
+    "sourcePath": "/characters/mew/catgirl-unitard-tpose-front-latest.webp",
+    "sourceSha256": "36a7f951aca9025266c0047dec2375acaeab77511d25a8af8495f64b3cb53d16"
+  },
+  "mew/catgirl-unitard-tpose-left-latest": {
+    "path": "/site/thumbs/mew/catgirl-unitard-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "00d72caa3439f559778bb407ee793703c01a4faca4163a606c21ae61adeb64e2",
+    "sourcePath": "/characters/mew/catgirl-unitard-tpose-left-latest.webp",
+    "sourceSha256": "3a86de7a07c491372f6b8d0add7e0026b7b6cf3b9da645b26240ee237cdb00ba"
+  },
+  "mew/catgirl-unitard-tpose-right-latest": {
+    "path": "/site/thumbs/mew/catgirl-unitard-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "59c73369f7afdd21127697ebf9ea96398216f7aabb110d0c11eae700a137a0af",
+    "sourcePath": "/characters/mew/catgirl-unitard-tpose-right-latest.webp",
+    "sourceSha256": "f5f9009c3cf545ce2d936c837752fda8770922634c06654460bbeb18d8307832"
+  },
+  "mew/character-card-latest": {
+    "path": "/site/thumbs/mew/character-card-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "6b78ee61c31954489c1e82c0fd4fd2eef80c18c8c801ad2d42b1428f255a6f8b",
+    "sourcePath": "/characters/mew/character-card-latest.webp",
+    "sourceSha256": "3f34f43df6a1ff4bb0aa4cd984ec72aa8edc3cf09ad0ed88cbea5747ba37bbf2"
+  },
+  "mew/chibi-card-latest": {
+    "path": "/site/thumbs/mew/chibi-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "20d303545501657b7861cd225cdedd4bb5c88cc3347eade11782d92c802b29cc",
+    "sourcePath": "/characters/mew/chibi-card-latest.webp",
+    "sourceSha256": "d398ea93de24f664bc0978fda6f7ebd1589f712bb6a99cf29c5b4f72d2b5ec0a"
+  },
+  "mew/expressions-sheet-latest": {
+    "path": "/site/thumbs/mew/expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 719,
+    "sha256": "63ca7dd9b8dd19c70bb71958f991487fb4956d5320eb5813df7a2c68dbd80cff",
+    "sourcePath": "/characters/mew/expressions-sheet-latest.webp",
+    "sourceSha256": "7a8ed7020e955deb15867d354f89c5ada9b29d8b27d8fef4feac0f7ce9d8a04a"
+  },
+  "mew/face-sheet-latest": {
+    "path": "/site/thumbs/mew/face-sheet-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "5183eba5b5a5061ffbe9dea5c9d8b3de157653619902a3391618259acbdb5322",
+    "sourcePath": "/characters/mew/face-sheet-latest.webp",
+    "sourceSha256": "076cad426b8c6245e15d9c508bfb8b68b6637323c8be7147f8ad0502b060331c"
+  },
+  "mew/pod-back-latest": {
+    "path": "/site/thumbs/mew/pod-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "14a2dcc0381fe8a725876ffbdb10fd0e2ba7f8619fa4a1e737d550768aea0116",
+    "sourcePath": "/characters/mew/pod-back-latest.webp",
+    "sourceSha256": "6f442f7b4fd2730b8d933f706d5d7178e6a0c69feaaf04b4e0c4be12ea2f3455"
+  },
+  "mew/pod-board-latest": {
+    "path": "/site/thumbs/mew/pod-board-latest.webp",
+    "width": 480,
+    "height": 321,
+    "sha256": "624642a64dd601f47c28eb95c43fd291ec7734b884688a2d2a2a40029807dd13",
+    "sourcePath": "/characters/mew/pod-board-latest.webp",
+    "sourceSha256": "ecd84921ead32214a596456f62a5bac7067508f3677c0ec2afaefe45e9018b89"
+  },
+  "mew/pod-front-latest": {
+    "path": "/site/thumbs/mew/pod-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "5fd7ab4c5e57d1bd4caec72b074775bb2b02e83b6cd5f9db1f1ab68d6cc308b9",
+    "sourcePath": "/characters/mew/pod-front-latest.webp",
+    "sourceSha256": "2192a9ce7656ddc0e92d1813ad14fe849422241c5d149ca63e5f84c6da452b13"
+  },
+  "mew/pod-left-latest": {
+    "path": "/site/thumbs/mew/pod-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "6c27125fb35f3a2fd0e48307ac848a85fc2ea724c59c477806dbf68bcfde3aaf",
+    "sourcePath": "/characters/mew/pod-left-latest.webp",
+    "sourceSha256": "583bedcd7c5b26aed6bc71f62eb9ed3bfa0f32073de2fe18648d0e61beaaabfc"
+  },
+  "mew/pod-right-latest": {
+    "path": "/site/thumbs/mew/pod-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "057d313e4751c866c83c1c5186442d175f148d6b8374a1d48a694de23bce7c5c",
+    "sourcePath": "/characters/mew/pod-right-latest.webp",
+    "sourceSha256": "f9605e49fe0bf22d88d13bf81e16a5bbe3878c54bb2f7a39408a93620c3027d8"
+  },
+  "mew/suit-back-latest": {
+    "path": "/site/thumbs/mew/suit-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "f9fd64c5e6c1ead855735509f6df6531906efeb948162a6e0d89747fbf3002ae",
+    "sourcePath": "/characters/mew/suit-back-latest.webp",
+    "sourceSha256": "00ff38b193c61a0b3536582f43d8de9c5fdbe5d6875709e4d19c7f75e0499aac"
+  },
+  "mew/suit-front-latest": {
+    "path": "/site/thumbs/mew/suit-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "843714a9804965cfa2a35996d5f1b4d1de5fb86df76e0086ded69ab7bb71aff8",
+    "sourcePath": "/characters/mew/suit-front-latest.webp",
+    "sourceSha256": "73e4723445e7210a4c986d9ef6aea6d962040913fb771f7dde4115a3b2537327"
+  },
+  "mew/suit-left-latest": {
+    "path": "/site/thumbs/mew/suit-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "675af3a5dd00a8d60930e0733bcdf678d612e414c2253a329fc913a41b9abc7d",
+    "sourcePath": "/characters/mew/suit-left-latest.webp",
+    "sourceSha256": "442d3be37debdc209f88465d558bb83428c392e61f01b0a39c358dc39f309d15"
+  },
+  "mew/suit-right-latest": {
+    "path": "/site/thumbs/mew/suit-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b49f30881cade711ef105be72d68e66ec50dec969fa20c0501d55b2c52fa7d15",
+    "sourcePath": "/characters/mew/suit-right-latest.webp",
+    "sourceSha256": "021b3a53080b5f23203d10c6176dbb3ac22ee8cd614ae74c941a5375f89916d4"
+  },
   "origins/angel-original-latest": {
     "path": "/site/thumbs/origins/angel-original-latest.webp",
     "width": 480,
@@ -3070,6 +3486,14 @@
     "sha256": "146c16d5bd5792ccbbc46fb653fe20e5c42d5b1ca175bbdb9c4926976853d20d",
     "sourcePath": "/characters/origins/gunman-original-latest.webp",
     "sourceSha256": "4d8f207246eeda113e2b28a531cbcfa33fc7831f3dc7eddf4cfcf6e52961d7df"
+  },
+  "origins/mew-original-latest": {
+    "path": "/site/thumbs/origins/mew-original-latest.webp",
+    "width": 480,
+    "height": 460,
+    "sha256": "7745b4eefef814906a3b3edfc8d73f627e5ecb150cac06dc2bd484ed3533cebf",
+    "sourcePath": "/characters/origins/mew-original-latest.webp",
+    "sourceSha256": "6820dc121eb9c6a831d2263a9501ab9a51fcd62b6637e6500a60c1679cfa9eaf"
   },
   "origins/samurai-original-latest": {
     "path": "/site/thumbs/origins/samurai-original-latest.webp",

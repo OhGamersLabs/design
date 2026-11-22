@@ -1,0 +1,142 @@
+{
+  "tabs": [
+    {
+      "key": "card",
+      "label": "猫娘角色卡",
+      "caption": "战斗猫娘完整造型动态角色卡：单对冠位猫耳配角色右猫耳外基部耳夹、背部双矢量微推翼包、角色右手白 OG 露指拳套与流畅疾速战靴，2026-11-22 定稿",
+      "assets": [
+        "character-card-latest"
+      ]
+    },
+    {
+      "key": "scene",
+      "label": "Q 版角色卡",
+      "caption": "日常 Q 版太空猫乘舱动态角色卡：奶油白球形太空舱、茶色护目盔配角色右耳通讯盒、奶牛猫宇航服与底部双橘头青灯微推进器，2026-11-22 定稿",
+      "assets": [
+        "chibi-card-latest"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "猫娘三视",
+      "caption": "战斗猫娘完整造型正面、角色右侧面、背面立姿三视图",
+      "assets": [
+        "catgirl-pack-front-latest",
+        "catgirl-pack-right-latest",
+        "catgirl-pack-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "猫娘 T 姿",
+      "caption": "战斗猫娘完整造型 T 姿四视（正面、角色右侧面、背面、角色左侧面），供 3D 建模参考",
+      "assets": [
+        "catgirl-pack-tpose-front-latest",
+        "catgirl-pack-tpose-right-latest",
+        "catgirl-pack-tpose-back-latest",
+        "catgirl-pack-tpose-left-latest"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-11-22",
+      "title": "战斗猫娘角色卡定稿",
+      "asset": "character-card-latest",
+      "caption": "约 6.5 头身疾速刺客猫娘动态立姿定稿，配角色右猫耳外基部耳夹与双矢量微推背翼。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "Q 版太空舱角色卡定稿",
+      "asset": "chibi-card-latest",
+      "caption": "约 2.0 头身日常奶牛猫乘坐奶油白球形太空舱定稿，底置双侧对称双橘头微推进器。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "战斗猫娘分层拆解",
+      "asset": "catgirl-breakdown-sheet-latest",
+      "caption": "猫娘素体、战衣颈圈、护臂战靴与微推翼包耳夹四阶段 4K 拆解总览。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "日常 Q 版载具拆解",
+      "asset": "breakdown-sheet-latest",
+      "caption": "Q 版奶牛猫素体、宇航服、头盔与空载球形太空舱四阶段 4K 拆解总览。"
+    }
+  ],
+  "facts": [
+    {
+      "term": "双态定位",
+      "value": "日常 Q 版太空猫与战斗猫娘双形态",
+      "note": "同源奶牛猫发色、双色挑染、三段式眼瞳与 70/20/10 配色体系贯穿日常乘舱与高机动刺客形态"
+    },
+    {
+      "term": "体型比例",
+      "value": "日常 Q 版约 2 头身 / 战斗猫娘约 6.5 头身",
+      "note": "Q 版圆润短肢配球形太空舱，猫娘形态沿用 female_standard 通用女素体基准，厘米身高未设定"
+    },
+    {
+      "term": "纳米重构体系",
+      "value": "宇航轻装、太空舱与猫娘装甲双向重构",
+      "note": "太空舱双橘头推进器与电台通讯模组在猫娘态重组成背翼双矢量微推喷口与角色右猫耳外基部耳夹"
+    },
+    {
+      "term": "非对称识别",
+      "value": "角色右耳夹与角色右拳白字 OG · 角色左拳双琥珀压青条",
+      "note": "双态均严格锚定角色右耳通讯组件与角色右拳白色 OG 字样、角色左拳双琥珀加青条的非对称左右识别体系"
+    }
+  ],
+  "chips": [
+    {
+      "name": "深炭藏青",
+      "use": "连体战衣、护具衬底与背翼主机",
+      "color": "#25282F"
+    },
+    {
+      "name": "象牙机甲白",
+      "use": "胸甲、护臂、战靴与太空舱外壳",
+      "color": "#F6F4EE"
+    },
+    {
+      "name": "亮橘警示橙",
+      "use": "胸口饰条、喷口镶边与座舱橘框",
+      "color": "#FC782D"
+    },
+    {
+      "name": "电光青",
+      "use": "项圈灯孔、护臂缝灯与喷口微光",
+      "color": "#25EEFA"
+    },
+    {
+      "name": "奶猫白毛",
+      "use": "双颊白挑染、白尾尖与 Q 版口鼻腹爪",
+      "color": "#FEFEFE"
+    },
+    {
+      "name": "炭黑毛发",
+      "use": "高马尾发丝、猫耳背与尾身主体",
+      "color": "#36353C"
+    }
+  ],
+  "chipNote": "取自服装圣经的实测色",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-22",
+  "chapters": [
+    {
+      "id": "identity",
+      "label": "双态身份与画风"
+    },
+    {
+      "id": "layers",
+      "label": "穿戴由内到外"
+    },
+    {
+      "id": "expressions",
+      "label": "面部与表情"
+    },
+    {
+      "id": "breakdown",
+      "label": "拆解与角色卡"
+    }
+  ]
+}
