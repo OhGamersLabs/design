@@ -5030,21 +5030,5 @@
     "sha256": "8cdb17bb501f0ace1198c9e57449b0cb0f7fb1d22bba1784ec9a2ee667d04758",
     "sourcePath": "/characters/wizard/face-sheet-latest.webp",
     "sourceSha256": "48624292d619bf00aea6a5a7c6ee9e5c3ac22b3f839f851ef69db6d1a0a35cf3"
-  },
-  "world/og-master-coin-board-latest": {
-    "path": "/site/thumbs/world/og-master-coin-board-latest.webp",
-    "width": 480,
-    "height": 321,
-    "sha256": "7f915d68d1e292bbb2975ef45a8d453f3207972bd35aa89fd5d8495b62e8c051",
-    "sourcePath": "/characters/world/og-master-coin-board-latest.webp",
-    "sourceSha256": "1ba8abc5302c02d0bd6fa49981f6edde662c120a4944e0934574ddb027d0334f"
-  },
-  "world/three-relic-shards-board-latest": {
-    "path": "/site/thumbs/world/three-relic-shards-board-latest.webp",
-    "width": 480,
-    "height": 321,
-    "sha256": "89106b15c86e12942b2886da33adb4ed57b8245235d492f32aaa43da70adfafe",
-    "sourcePath": "/characters/world/three-relic-shards-board-latest.webp",
-    "sourceSha256": "c3702aa607bce0fb0e81a567092b436887515036a7bb36a80acdef476da4c8af"
   }
 }

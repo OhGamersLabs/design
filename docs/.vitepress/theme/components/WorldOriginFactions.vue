@@ -71,7 +71,7 @@ const castLinks = [
         <span class="world-genesis-arrow">→</span>
         <span>02 噬环古械群顺航网啃食炉心</span>
         <span class="world-genesis-arrow">→</span>
-        <span>03 先驱主动熄灭外环星门熔断，将「唯一 OG 原初母币」封于零号母门</span>
+        <span>03 先驱主动熄灭外环星门熔断，将唯一「炽环母核」封于零号母门圣匣</span>
       </div>
 
       <svg class="world-split-svg" viewBox="0 0 680 148" aria-label="零号母门遗物一分为三因果图">
@@ -90,7 +90,7 @@ const castLinks = [
 
         <rect x="300" y="55" width="370" height="38" fill="var(--bunny-paper)" stroke="var(--coin-green)" stroke-width="2.4" />
         <text x="485" y="79" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--coin-green)">
-          父母将「唯一真母币」伪装成街机铜板塞给幼子 → 达罗兄妹开局
+          父母将「唯一炽环母核」裹入街机铜壳塞给幼子 → 达罗兄妹开局
         </text>
 
         <rect x="300" y="104" width="370" height="38" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="1.8" />
@@ -100,7 +100,7 @@ const castLinks = [
       </svg>
 
       <p class="coin-map-stage__caption">
-        <b>因果闭环：</b>同一场零号母门惨案，同步诞生了达罗兄妹手里的唯一真母币、索伦的工业伪币模具、莫罗胸口的掠夺残环，以及跨越世代重返零号母门的终极悬念。
+        <b>因果闭环：</b>同一场零号母门惨案，同步诞生了达罗兄妹手里的唯一炽环母核、索伦的六角伪币铸模、莫罗胸口的掠夺残环，以及跨越世代重返零号母门的终极悬念。
       </p>
     </div>
 
@@ -115,10 +115,10 @@ const castLinks = [
         <svg class="coin-map-svg" viewBox="0 0 380 162" aria-label="街机游戏币惰性镀层伪装剖面图">
           <circle cx="190" cy="74" r="54" fill="var(--bunny-fabric)" stroke="var(--bunny-ink-2)" stroke-width="5" stroke-dasharray="14 4" />
           <circle cx="190" cy="74" r="36" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="3" />
-          <text x="190" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bunny-orange)">内芯：Orbit Gate</text>
-          <text x="190" y="88" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-ink-2)">外皮：OhGamers 街机币</text>
+          <text x="190" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="var(--bunny-orange)">内胆：无字炽环母核</text>
+          <text x="190" y="88" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-ink-2)">外皮：OG 街机黄铜壳</text>
           <text x="190" y="148" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--coin-green)">
-            原子级惰性黄铜皮隔绝一切辐射 · 十年抛掷磨薄后崩裂露金！
+            凡人黄铜壳隔绝一切辐射 · 首战裂壳后重塑为卡扣式屏蔽暗壳！
           </text>
         </svg>
       </div>
@@ -127,9 +127,9 @@ const castLinks = [
         <div class="coin-vault-card">
           <p class="coin-rule-title">神级灯下黑（顺带揭晓 OhGamers 名字双关由来）</p>
           <p class="coin-rule-desc">
-            <b>01 偷梁换柱：</b>父母当着索伦的面把高能假诱饵扔进零号黑洞，提前给真母币裹上惰性黄铜皮，压成满街可见的廉价「OhGamers 街机游戏代币」塞进孩子衣兜。<br />
+            <b>01 偷梁换柱：</b>父母当着索伦的面把高能假诱饵扔进零号黑洞，提前给无字「炽环母核」裹上惰性黄铜皮，压成满街可见的廉价「OhGamers（OG）街机游戏代币」塞进孩子衣兜。<br />
             <b>02 亲自搜身放行：</b>十年前逃生舱归港，索伦亲自用最精密仪器扫遍年幼的罗伊，读数为零！他捏起这枚磨花的游戏铜板冷笑一眼，<b>亲手丢还给了小罗伊</b>。<br />
-            <b>03 第一集破皮拉警报：</b>兄妹天天抛币赌正反把铜皮磨薄，首战遇伪币共振崩裂露金——中枢塔监控台时隔十年警报爆表，追杀自第一集正式开始！
+            <b>03 裂壳与法拉第护套：</b>兄妹天天抛币赌正反把铜皮磨薄，首战遇伪币共振裂缝泄能拉响索伦警报；随后克露丝将这层惰性 OG 铜皮重塑为可开合屏蔽壳——日常合壳潜伏，拔币滑壳即战！
           </p>
         </div>
       </div>

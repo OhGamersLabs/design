@@ -5,10 +5,10 @@ import { data as world } from '../data/world.data.mjs'
 import { data as site } from '../data/site.data.mjs'
 import { readingNeighbors } from './character-site.mjs'
 import WorldOriginFactions from './components/WorldOriginFactions.vue'
+import WorldCoreStructure from './components/WorldCoreStructure.vue'
 import WorldMysteryOnboarding from './components/WorldMysteryOnboarding.vue'
 import WorldCoinInteractive from './components/WorldCoinInteractive.vue'
 import WorldArkGenerations from './components/WorldArkGenerations.vue'
-import WorldImage from './components/WorldImage.vue'
 
 const { frontmatter, page } = useData()
 
@@ -58,7 +58,7 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
             <p class="world-hero__subtitle">{{ world.subtitle }}</p>
             <p class="world-hero__intro">{{ world.intro }}</p>
             <div class="world-hero__actions">
-              <a class="roster-section__more" :href="`#relic-sheets`">浏览核心信物设定板与交互图解 <span aria-hidden="true">↓</span></a>
+              <a class="roster-section__more" :href="`#coin-pact`">查看外壳与无字母核蓝图（含七组交互图解） <span aria-hidden="true">↓</span></a>
               <a class="world-hero__secondary" :href="withBase('/world/races')">浏览五大种族与姓氏谱系</a>
             </div>
           </div>
@@ -82,31 +82,6 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
 
         <div class="vp-doc">
           <div class="bunny-section-heading">
-            <h2 id="relic-sheets">核心信物设定图鉴</h2>
-            <p>{{ world.relicSheets.lead }}</p>
-          </div>
-
-          <div class="world-relic-list">
-            <article v-for="sheet in world.relicSheets.items" :key="sheet.asset" class="world-relic-card">
-              <div class="world-relic-card__head">
-                <span class="world-pillar-card__code">{{ sheet.code }}</span>
-                <h3>{{ sheet.title }}</h3>
-              </div>
-              <WorldImage
-                :id="sheet.asset"
-                :caption="sheet.caption"
-                group="world-relic-sheets"
-              />
-              <div class="world-relic-badges">
-                <div v-for="badge in sheet.badges" :key="badge.pos" class="world-relic-badge">
-                  <b>{{ badge.pos }}</b>
-                  <span>{{ badge.desc }}</span>
-                </div>
-              </div>
-            </article>
-          </div>
-
-          <div class="bunny-section-heading">
             <h2 id="stage">创世原点与三大宿敌</h2>
             <p>{{ world.originAndFactions.lead }}</p>
           </div>
@@ -122,10 +97,11 @@ const rosterById = computed(() => Object.fromEntries(site.roster.map((entry) => 
           </div>
 
           <div class="bunny-section-heading">
-            <h2 id="coin-pact">单币解谜与抛币铁律</h2>
+            <h2 id="coin-pact">外壳内胆与单核铁律</h2>
             <p>{{ world.coinPact.lead }}</p>
           </div>
 
+          <WorldCoreStructure />
           <WorldMysteryOnboarding />
           <WorldCoinInteractive />
 
