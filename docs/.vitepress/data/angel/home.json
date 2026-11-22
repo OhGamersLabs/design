@@ -1,6 +1,14 @@
 {
   "tabs": [
     {
+      "key": "card",
+      "label": "角色卡",
+      "caption": "原稿祈祷立姿 4K 角色图：齐冠生物柔羽耳、角色右侧 V 形哑光金发夹、完整六层着装与展开蝴蝶骨光翼",
+      "assets": [
+        "character-card-latest"
+      ]
+    },
+    {
       "key": "three",
       "label": "站姿三视",
       "caption": "第六层 · 蓬松柔羽耳、角色右侧 V 形发夹与蝴蝶骨光翼（完整形态）",
@@ -23,6 +31,12 @@
     }
   ],
   "highlights": [
+    {
+      "date": "2026-11-22",
+      "title": "角色卡定稿",
+      "asset": "character-card-latest",
+      "caption": "原稿祈祷立姿 4K 角色图，统一齐冠生物柔羽耳、角色右侧 V 形哑光金发夹、胯章腿带与展开态蝴蝶骨光翼。"
+    },
     {
       "date": "2026-11-22",
       "title": "第六层 · 羽耳与蝴蝶骨光翼",
@@ -89,6 +103,10 @@
     {
       "id": "layers",
       "label": "衣层顺序"
+    },
+    {
+      "id": "card",
+      "label": "角色卡定稿"
     },
     {
       "id": "origin",

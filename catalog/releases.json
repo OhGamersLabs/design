@@ -226,6 +226,12 @@
     },
     {
       "character": "angel",
+      "path": "/media/angel/character-card-latest.png",
+      "key": "x_ops/design/characters/angel/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "angel",
       "path": "/media/angel/choker-back-latest.png",
       "key": "x_ops/design/characters/angel/latest/choker-back-latest.png",
       "contentType": "image/png"
