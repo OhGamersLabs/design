@@ -1,6 +1,14 @@
 {
   "tabs": [
     {
+      "key": "card",
+      "label": "立绘卡",
+      "caption": "角色右手垂持墨黑微链刃，角色左手自背后反手握柄准备拔刀",
+      "assets": [
+        "daggers-standing-card-latest"
+      ]
+    },
+    {
       "key": "scene",
       "label": "场景定稿",
       "caption": "SUN-05 张臂前冲，2026-10-29 定稿",
@@ -122,28 +130,28 @@
   ],
   "highlights": [
     {
-      "date": "2026-11-02",
-      "title": "九层三视与 T 姿四视更新",
-      "asset": "daggers-tpose-back-latest",
-      "caption": "T 姿背面：双臂平举，双匕首挂在裤腰皮带上。"
+      "date": "2026-11-22",
+      "title": "双匕首站姿立绘角色卡",
+      "asset": "daggers-standing-card-latest",
+      "caption": "角色右手垂持墨黑微链刃，角色左手反手握持骨白高频弯刃准备拔刀。"
     },
     {
-      "date": "2026-11-02",
-      "title": "裤腰皮带挂片携行三视",
+      "date": "2026-11-22",
+      "title": "异构工业双匕首比例母版",
+      "asset": "daggers-scale-board-latest",
+      "caption": "墨黑微链刃与骨白高频弯刃并列正面外观、微链驱动机构与紧凑八角直柄特写。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "裤腰皮带挂片携行背面",
       "asset": "daggers-back-latest",
-      "caption": "背面：后中裤袢两侧各一片黑色皮挂片，握柄绕黑短带，骨白刀在外、墨黑刀在内。"
+      "caption": "背面：后中裤袢两侧各一片黑色皮挂片，握柄绕银按扣黑短带，骨白高频弯刃在外、墨黑微链刃在内。"
     },
     {
       "date": "2026-10-29",
       "title": "场景图定稿",
       "asset": "sun05-scene-latest",
       "caption": "森林树干上的双匕首冲刺场景。"
-    },
-    {
-      "date": "2026-10-28",
-      "title": "STRUCTURE20 线稿通过",
-      "asset": "structure20-lineart-latest",
-      "caption": "双臂展开、双持匕首的冲刺姿势线稿。"
     }
   ]
 }

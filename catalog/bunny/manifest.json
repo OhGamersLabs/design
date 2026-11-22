@@ -2,9 +2,9 @@
   "schema_version": "2.0",
   "character_id": "bunny",
   "language": "zh-CN",
-  "title": "Bunny 设计参考",
+  "title": "邦妮·弗林 设计参考",
   "status": "local-review",
-  "asset_count": 93,
+  "asset_count": 95,
   "assets": [
     {
       "id": "belt-back-latest",
@@ -383,8 +383,8 @@
         "mime_type": "image/png",
         "width": 2352,
         "height": 3520,
-        "bytes": 3594926,
-        "sha256": "e558133e9ea2a8a6b502abc7d30e0a1f5bcc4be000ede8692f8fe56baba1ff6d",
+        "bytes": 3620745,
+        "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
         "alpha": false
       },
       "web": {
@@ -392,8 +392,8 @@
         "mime_type": "image/webp",
         "width": 1368,
         "height": 2048,
-        "bytes": 971566,
-        "sha256": "1381aac445a3830388b24c25ec38ab180010efe6bdd39f15a4da0013c6e4f63e",
+        "bytes": 958688,
+        "sha256": "34ff4de37b8455ad0ad80a12d3ad9e36b45fc633ff4efaa7f7eae770ba0b5716",
         "alpha": false
       }
     },
@@ -406,8 +406,8 @@
         "mime_type": "image/png",
         "width": 1536,
         "height": 1024,
-        "bytes": 1208940,
-        "sha256": "1a6dd7eca61673ab640ec488ccebc4d5325a5d5b810600b804353b5574b14999",
+        "bytes": 1142506,
+        "sha256": "4eb7aff958d92bff873ae0b4f672910b5034e7bec46a4c195f1090e94db65cc3",
         "alpha": false
       },
       "web": {
@@ -415,8 +415,31 @@
         "mime_type": "image/webp",
         "width": 1536,
         "height": 1024,
-        "bytes": 623724,
-        "sha256": "82f07c8918b46089118b3044c69c20dee298d9d89d32abd593ca3e8c7d5b1872",
+        "bytes": 573180,
+        "sha256": "f1bd6c7bd6085d17686ca0cd3b7945d650a83ef2fdf4f0d21157e19d64937e65",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-dual-wield-latest",
+      "character": "bunny",
+      "title": "daggers-dual-wield-latest",
+      "original": {
+        "path": "/media/bunny/daggers-dual-wield-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1424123,
+        "sha256": "9b8f441dc0ad6e49dac1291e2c664bf00a97809b03820eedbdb0706085d8a369",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-dual-wield-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 790202,
+        "sha256": "66e028755a1af3e266712cea702694e09de6185222e184135a09c16c65d5d031",
         "alpha": false
       }
     },
@@ -429,8 +452,8 @@
         "mime_type": "image/png",
         "width": 2352,
         "height": 3520,
-        "bytes": 3864790,
-        "sha256": "c4b6b789c54f8aeeffb43975f0c117c442bff58b8b91b779728f24e70a05ca81",
+        "bytes": 3899759,
+        "sha256": "407870ed7490ea97b1e8ad861b044371527b086eb0efb9acda46b83dc88e1938",
         "alpha": false
       },
       "web": {
@@ -438,8 +461,8 @@
         "mime_type": "image/webp",
         "width": 1368,
         "height": 2048,
-        "bytes": 1068322,
-        "sha256": "cd113587f04e4539e26b8ea051c808cc503e3c29d5dd81c218b51c53fa0ba757",
+        "bytes": 1071476,
+        "sha256": "702a3313361f6d73721773bdc84d57503b6b0e7ef04c6446885d613141262ba5",
         "alpha": false
       }
     },
@@ -452,8 +475,8 @@
         "mime_type": "image/png",
         "width": 1536,
         "height": 1024,
-        "bytes": 1119435,
-        "sha256": "9786be7ae65f288135199f4154bc07e5c30a469904a9d5ef1c2dacc4052ddafc",
+        "bytes": 1069766,
+        "sha256": "6d42ba2ee376fdafde45f68ba6bd53b63a60f771be0a60957dc77271ae513624",
         "alpha": false
       },
       "web": {
@@ -461,8 +484,8 @@
         "mime_type": "image/webp",
         "width": 1536,
         "height": 1024,
-        "bytes": 562388,
-        "sha256": "4fc4d278ce90e8afe3da4db1c8ddf034c8d5cc42584ce49b1425b1232a92ec0d",
+        "bytes": 517104,
+        "sha256": "6c4a7608bf6c2df02f56efe54c5343d4abf8c8f0790880f6465150886b161abc",
         "alpha": false
       }
     },
@@ -475,8 +498,8 @@
         "mime_type": "image/png",
         "width": 3520,
         "height": 2352,
-        "bytes": 5673900,
-        "sha256": "fa036b50f04c56957052a8e4b019e60d247812d21b68d4abb88f6a62c36d3984",
+        "bytes": 5899377,
+        "sha256": "40355d3564c311f526ba3acbeffcf98b08b1471c03d79b7c79219d83099c09ab",
         "alpha": false
       },
       "web": {
@@ -484,8 +507,8 @@
         "mime_type": "image/webp",
         "width": 2048,
         "height": 1368,
-        "bytes": 1578524,
-        "sha256": "46a82baff5085722a102da59393b9a4be5be7ee4b1e5957b307be294d700e860",
+        "bytes": 1649010,
+        "sha256": "7809223da98e57786c8a3c01ff9e04ff9faa3cea59320a0bd9a25d2de4cb1a8e",
         "alpha": false
       }
     },
@@ -498,8 +521,8 @@
         "mime_type": "image/png",
         "width": 1536,
         "height": 1024,
-        "bytes": 1059494,
-        "sha256": "107de9d384bf72517e4d8fb764460be1c18203d808c6b81c60f70286e1645d9f",
+        "bytes": 1296571,
+        "sha256": "d48aced552fd745c2574a316507df2c44a5c42282ec2e45e29c77e9cf079e790",
         "alpha": false
       },
       "web": {
@@ -507,8 +530,8 @@
         "mime_type": "image/webp",
         "width": 1536,
         "height": 1024,
-        "bytes": 504626,
-        "sha256": "1772494e336f0fee08d04e34f102c2df4ac541f57def457b0774bd64dd12c6ed",
+        "bytes": 708134,
+        "sha256": "7eaaec7e4a8609452348ba6d94a70ce6cc5a9eb56a2ff1b6b31b8078209c00bb",
         "alpha": false
       }
     },
@@ -521,8 +544,8 @@
         "mime_type": "image/png",
         "width": 2352,
         "height": 3520,
-        "bytes": 3792591,
-        "sha256": "8b4ed81539337790e7eb37a53a387a997d947571ef782fadd607c435729002f3",
+        "bytes": 3809476,
+        "sha256": "0d8ce117be08e28a7c475ce1dd0db793be063210282ac187a02445b176cfcf19",
         "alpha": false
       },
       "web": {
@@ -530,8 +553,31 @@
         "mime_type": "image/webp",
         "width": 1368,
         "height": 2048,
-        "bytes": 1089570,
-        "sha256": "2ed7bd81a8b38492de90de785efc4579cc68d8269264d1b82eb050e036d38a7b",
+        "bytes": 1095908,
+        "sha256": "a31cae3d451c2cc05be7a24744b0b1c720998354b540aa728b115b3f9b0028e3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-standing-card-latest",
+      "character": "bunny",
+      "title": "daggers-standing-card-latest",
+      "original": {
+        "path": "/media/bunny/daggers-standing-card-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1336965,
+        "sha256": "3de9252e0655ad9a21cddb66590e0c9367cb4517912cebc36f9c7f921493a386",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bunny/daggers-standing-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 826318,
+        "sha256": "cbd008f70bf03627550d5dfcb41f060ca35f03e1993760c68aae748589b1dad8",
         "alpha": false
       }
     },
@@ -544,8 +590,8 @@
         "mime_type": "image/png",
         "width": 2880,
         "height": 2880,
-        "bytes": 3419726,
-        "sha256": "8b455b07cacc8eaf4fa2a708fa7a4ae99fc0df26d0ebf07d9c6c4b38d32d4b54",
+        "bytes": 3465675,
+        "sha256": "3969c48b2e3193a6edbe07cc3d498eae3433f8cf269218ccc399fa992363043c",
         "alpha": false
       },
       "web": {
@@ -553,8 +599,8 @@
         "mime_type": "image/webp",
         "width": 2048,
         "height": 2048,
-        "bytes": 1163762,
-        "sha256": "c0c8c232d91c23227b9f1eed21d0de9035b68b2c39ead07259267914ce4aff41",
+        "bytes": 1188980,
+        "sha256": "02491a460d33a8bd947b7d55e4352d4240c1350ab70876b85c2c0ab9e628f55f",
         "alpha": false
       }
     },
@@ -567,8 +613,8 @@
         "mime_type": "image/png",
         "width": 2880,
         "height": 2880,
-        "bytes": 3655595,
-        "sha256": "ed8b14d353ab16b4f5f74536916e0ef81325474f6b8a3928cc1fde727b4c60c4",
+        "bytes": 3605296,
+        "sha256": "32500fb4b160fe4ddd10703cc7dcaad2e52c216459473da4a39b969121c68343",
         "alpha": false
       },
       "web": {
@@ -576,8 +622,8 @@
         "mime_type": "image/webp",
         "width": 2048,
         "height": 2048,
-        "bytes": 1306134,
-        "sha256": "fe163935b99a23c4418b46ae4f3d5d9b1fbe620bca7010dd4d3774665672866b",
+        "bytes": 1246960,
+        "sha256": "87df33dc9dcdaf445b74e63113acd9e6b21ea7df3f4595da110468540575a24d",
         "alpha": false
       }
     },
@@ -590,8 +636,8 @@
         "mime_type": "image/png",
         "width": 2880,
         "height": 2880,
-        "bytes": 3682613,
-        "sha256": "f7e69dd985e0a277e8e4c7172d09f875d35ad38c2eea4b61be40b34505635e64",
+        "bytes": 3669229,
+        "sha256": "7bb51d28da81f47e41cd5cde3eaa1d6729511f542854600183442d640595e2b2",
         "alpha": false
       },
       "web": {
@@ -599,8 +645,8 @@
         "mime_type": "image/webp",
         "width": 2048,
         "height": 2048,
-        "bytes": 1413950,
-        "sha256": "64cae4b71a5f0cadc43ff51ffb8072843860c94885f9fec836c50334449d45ef",
+        "bytes": 1406198,
+        "sha256": "fce179d4441f0b253b7c26d45eb89b9ab3070adf753c7043d4d30f47730df073",
         "alpha": false
       }
     },
@@ -613,8 +659,8 @@
         "mime_type": "image/png",
         "width": 2880,
         "height": 2880,
-        "bytes": 3701681,
-        "sha256": "5b1a846e65fbb6a06ee58b82476f8f18efb4ed9f5db167ef82b58e6bf8af5a39",
+        "bytes": 3678228,
+        "sha256": "b9d876fe5232aae35cfc3232d7050a2ada39cabd9fd89156b4aa24e680fcd67d",
         "alpha": false
       },
       "web": {
@@ -622,8 +668,8 @@
         "mime_type": "image/webp",
         "width": 2048,
         "height": 2048,
-        "bytes": 1421612,
-        "sha256": "527ac4618e5acee125651e4319274444d94476f0510c170e2b8a090c8c9d3d0a",
+        "bytes": 1419060,
+        "sha256": "0d902973fe986b8b4a425bc45030f301fa28f399ea59f482d0891ed7ca1e76c0",
         "alpha": false
       }
     },

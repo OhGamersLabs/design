@@ -682,6 +682,12 @@
     },
     {
       "character": "bunny",
+      "path": "/media/bunny/daggers-dual-wield-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/daggers-dual-wield-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
       "path": "/media/bunny/daggers-front-latest.png",
       "key": "x_ops/design/characters/bunny/latest/daggers-front-latest.png",
       "contentType": "image/png"
@@ -708,6 +714,12 @@
       "character": "bunny",
       "path": "/media/bunny/daggers-side-latest.png",
       "key": "x_ops/design/characters/bunny/latest/daggers-side-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bunny",
+      "path": "/media/bunny/daggers-standing-card-latest.png",
+      "key": "x_ops/design/characters/bunny/latest/daggers-standing-card-latest.png",
       "contentType": "image/png"
     },
     {
