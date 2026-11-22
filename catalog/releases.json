@@ -1348,12 +1348,6 @@
     },
     {
       "character": "doge",
-      "path": "/media/doge/anchor-card-latest.png",
-      "key": "x_ops/design/characters/doge/latest/anchor-card-latest.png",
-      "contentType": "image/png"
-    },
-    {
-      "character": "doge",
       "path": "/media/doge/beanie-back-latest.png",
       "key": "x_ops/design/characters/doge/latest/beanie-back-latest.png",
       "contentType": "image/png"
@@ -1420,6 +1414,12 @@
     },
     {
       "character": "doge",
+      "path": "/media/doge/chibi-card-latest.png",
+      "key": "x_ops/design/characters/doge/latest/chibi-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
       "path": "/media/doge/expressions-sheet-latest.png",
       "key": "x_ops/design/characters/doge/latest/expressions-sheet-latest.png",
       "contentType": "image/png"
@@ -1474,12 +1474,6 @@
     },
     {
       "character": "doge",
-      "path": "/media/doge/suit-details-board-latest.png",
-      "key": "x_ops/design/characters/doge/latest/suit-details-board-latest.png",
-      "contentType": "image/png"
-    },
-    {
-      "character": "doge",
       "path": "/media/doge/suit-front-latest.png",
       "key": "x_ops/design/characters/doge/latest/suit-front-latest.png",
       "contentType": "image/png"
@@ -1494,6 +1488,210 @@
       "character": "doge",
       "path": "/media/doge/suit-right-latest.png",
       "key": "x_ops/design/characters/doge/latest/suit-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-armor-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-armor-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-armor-board-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-armor-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-armor-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-armor-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-armor-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-armor-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-armor-tpose-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-armor-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-armor-tpose-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-armor-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-armor-tpose-left-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-armor-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-armor-tpose-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-armor-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-beanie-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-beanie-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-beanie-board-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-beanie-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-beanie-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-beanie-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-beanie-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-beanie-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-beanie-tpose-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-beanie-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-beanie-tpose-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-beanie-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-beanie-tpose-left-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-beanie-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-beanie-tpose-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-beanie-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-body-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-body-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-body-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-body-tpose-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-body-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-body-tpose-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-body-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-body-tpose-left-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-body-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-body-tpose-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-body-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-face-sheet-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-face-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-suit-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-suit-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-suit-board-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-suit-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-suit-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-suit-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-suit-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-suit-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-suit-tpose-back-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-suit-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-suit-tpose-front-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-suit-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-suit-tpose-left-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-suit-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "doge",
+      "path": "/media/doge/vanguard-suit-tpose-right-latest.png",
+      "key": "x_ops/design/characters/doge/latest/vanguard-suit-tpose-right-latest.png",
       "contentType": "image/png"
     },
     {

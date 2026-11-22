@@ -2,99 +2,129 @@
   "tabs": [
     {
       "key": "card",
-      "label": "角色卡",
-      "caption": "原稿的跳跃姿势，换上完整造型，2026-11-16 定稿",
+      "label": "先锋角色卡",
+      "caption": "先锋重坦完整造型动态角色卡：裸臂裸肩、单铜孔颈环、角色左盾甲印字与暖燕麦毛线帽，2026-11-22 定稿",
       "assets": [
         "character-card-latest"
       ]
     },
     {
-      "key": "three",
-      "label": "完整三视",
-      "caption": "正面、角色右侧面、背面，戴毛线帽的完整造型",
+      "key": "scene",
+      "label": "Q 版角色卡",
+      "caption": "日常 Q 版完整造型跳跃动态角色卡：白炭灰分节宇航服、胸前核心盒、悬浮背包与暖燕麦毛线帽，2026-11-22 定稿",
       "assets": [
-        "beanie-front-latest",
-        "beanie-right-latest",
-        "beanie-back-latest"
+        "chibi-card-latest"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "先锋三视",
+      "caption": "先锋重坦形态正面、角色右侧面、背面，戴暖燕麦罗纹毛线帽的完整站姿",
+      "assets": [
+        "vanguard-beanie-front-latest",
+        "vanguard-beanie-right-latest",
+        "vanguard-beanie-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "先锋 T 姿",
+      "caption": "先锋重坦完整造型 T 姿四视，供 3D 建模参考",
+      "assets": [
+        "vanguard-beanie-tpose-front-latest",
+        "vanguard-beanie-tpose-right-latest",
+        "vanguard-beanie-tpose-back-latest",
+        "vanguard-beanie-tpose-left-latest"
       ]
     }
   ],
   "highlights": [
     {
-      "date": "2026-11-16",
-      "title": "角色卡定稿",
+      "date": "2026-11-22",
+      "title": "先锋角色卡定稿",
       "asset": "character-card-latest",
-      "caption": "原稿的跳跃姿势，换上完整造型。"
+      "caption": "约七头身战神先锋重坦动态立姿定稿，双上臂全程裸毛不穿盔甲。"
     },
     {
-      "date": "2026-11-16",
-      "title": "四层穿戴完成",
-      "asset": "beanie-front-latest",
-      "caption": "从身体到毛线帽，每层正面、背面、角色右侧面和角色左侧面四个方向。"
+      "date": "2026-11-22",
+      "title": "Q 版角色卡定稿",
+      "asset": "chibi-card-latest",
+      "caption": "约二头身日常 Q 版跳跃姿势定稿，呈现招牌闭眼咧嘴吐舌笑。"
     },
     {
-      "date": "2026-11-16",
-      "title": "表情表定稿",
-      "asset": "expressions-sheet-latest",
-      "caption": "4×4 表情，每行一类情绪。"
+      "date": "2026-11-22",
+      "title": "先锋重坦分层拆解",
+      "asset": "vanguard-breakdown-sheet-latest",
+      "caption": "先锋重坦素体、内搭腿甲、胸甲双盾与毛线帽四阶段一图总览。"
     },
     {
-      "date": "2026-11-16",
-      "title": "拆解图",
+      "date": "2026-11-22",
+      "title": "日常 Q 版分层拆解",
       "asset": "breakdown-sheet-latest",
-      "caption": "第 0 到 3 层一图看完。"
+      "caption": "日常 Q 版身体、宇航服、胸盒背包与毛线帽四阶段一图总览。"
     }
   ],
   "facts": [
     {
-      "term": "外观",
-      "value": "Q 版柴犬，白色太空服配背包，淡粉米色毛线帽"
+      "term": "双态定位",
+      "value": "日常 Q 版吉祥物与先锋重坦作战形态",
+      "note": "同顶暖燕麦立耳罗纹毛线帽作双态锚点，通过纳米能量模块化重构切换宇航轻装与先锋重坦"
     },
     {
-      "term": "体型",
-      "value": "约 2 头身",
-      "note": "帽顶到下巴一头，下巴到脚底一头；原稿实测 1.99，绒球和耳朵不计"
+      "term": "体型比例",
+      "value": "日常 Q 版约 2 头身 / 先锋重坦约 7 头身",
+      "note": "Q 版圆润短手短脚，重坦形态高大宽肩阔胸、长腿健硕，厘米身高未设定"
     },
     {
-      "term": "眼睛",
-      "value": "默认是原稿的闭眼笑",
-      "note": "睁眼是黑豆眼，下沿一道深棕月牙，画面左上方一大点白色高光"
+      "term": "颈环铜孔",
+      "value": "仅角色左侧单枚暖铜圆孔",
+      "note": "两种形态均严格落在颈环角色左侧（正面图位于画面右边），角色右侧纯素无孔"
     },
     {
-      "term": "尾巴",
-      "value": "粗而蓬松，向角色左侧卷起",
-      "note": "从腰后脊柱长出，穿过太空服后腰的圆孔，奶油色尾尖朝上"
+      "term": "三重角色左标",
+      "value": "角色左颈铜孔 · 角色左前臂盾与背包角色左侧标 · 角色左前帽标",
+      "note": "三项识别标志全部锚定角色左侧，角色右侧保持干净素面"
     }
   ],
   "chips": [
     {
-      "name": "橘黄",
-      "use": "毛色",
+      "name": "暖橘黄",
+      "use": "柴犬主毛色",
       "color": "#FEC68B"
     },
     {
-      "name": "白",
-      "use": "太空服、背包、胸前盒",
-      "swatch": "white"
+      "name": "哑光科技白",
+      "use": "宇航服、重坦护甲、双盾外壳",
+      "color": "#F5F4F0"
     },
     {
-      "name": "深青蓝",
-      "use": "护膝",
-      "color": "#45859E"
+      "name": "深炭灰",
+      "use": "内搭、工装裤、织带与护甲内衬",
+      "color": "#23262E"
     },
     {
-      "name": "淡粉米",
-      "use": "毛线帽",
-      "color": "#F6CCAC"
+      "name": "OhGamers 亮橘",
+      "use": "胸前核心、脊甲中缝与帽前织标",
+      "color": "#F26A21"
+    },
+    {
+      "name": "电光青",
+      "use": "护盾光刃、微推进喷口与灯条",
+      "color": "#38C6F4"
+    },
+    {
+      "name": "暖燕麦",
+      "use": "双态同款翻边罗纹毛线帽",
+      "color": "#F5DCC9"
     }
   ],
   "chipNote": "取自服装圣经的实测色",
   "status": "本地审阅版，不是生产发布",
-  "updated": "2026-11-16",
+  "updated": "2026-11-22",
   "chapters": [
     {
       "id": "identity",
-      "label": "身份与画风"
+      "label": "双态身份与画风"
     },
     {
       "id": "layers",
