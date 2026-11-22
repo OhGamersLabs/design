@@ -1437,6 +1437,270 @@
       "contentType": "image/png"
     },
     {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/base-kit-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/base-kit-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/base-kit-board-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/base-kit-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/base-kit-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/base-kit-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/base-kit-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/base-kit-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/base-kit-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/base-kit-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/base-kit-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/base-kit-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/base-kit-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/base-kit-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/base-kit-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/base-kit-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/belt-guards-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/belt-guards-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/belt-guards-board-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/belt-guards-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/belt-guards-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/belt-guards-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/belt-guards-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/belt-guards-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/belt-guards-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/belt-guards-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/belt-guards-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/belt-guards-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/belt-guards-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/belt-guards-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/belt-guards-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/belt-guards-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/body-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/body-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/body-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/body-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/body-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/body-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/body-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/body-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/body-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/body-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/body-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/body-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/body-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/body-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/breakdown-sheet-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/breakdown-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/character-card-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/character-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/face-sheet-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/face-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/goggles-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/goggles-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/goggles-board-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/goggles-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/goggles-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/goggles-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/goggles-over-eyes-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/goggles-over-eyes-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/goggles-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/goggles-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/goggles-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/goggles-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/goggles-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/goggles-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/goggles-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/goggles-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/goggles-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/goggles-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/parka-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/parka-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/parka-board-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/parka-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/parka-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/parka-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/parka-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/parka-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/parka-tpose-back-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/parka-tpose-back-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/parka-tpose-front-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/parka-tpose-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/parka-tpose-left-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/parka-tpose-left-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "gold-hunter",
+      "path": "/media/gold-hunter/parka-tpose-right-latest.png",
+      "key": "x_ops/design/characters/gold-hunter/latest/parka-tpose-right-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "gunman",
       "path": "/media/gunman/anchor-card-latest.png",
       "key": "x_ops/design/characters/gunman/latest/anchor-card-latest.png",
@@ -1770,6 +2034,12 @@
       "character": "origins",
       "path": "/media/origins/doge-original-latest.png",
       "key": "x_ops/design/characters/origins/latest/doge-original-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "origins",
+      "path": "/media/origins/gold-hunter-original-latest.png",
+      "key": "x_ops/design/characters/origins/latest/gold-hunter-original-latest.png",
       "contentType": "image/png"
     },
     {

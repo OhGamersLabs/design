@@ -1,0 +1,177 @@
+{
+  "chapter": "layers",
+  "noun": "衣层",
+  "wear": "穿着",
+  "items": [
+    {
+      "layer": 0,
+      "name": "身体",
+      "path": "/characters/gold-hunter/body",
+      "front": "body-front-latest",
+      "side": "body-right-latest",
+      "back": "body-back-latest",
+      "tpose": {
+        "front": "body-tpose-front-latest",
+        "right": "body-tpose-right-latest",
+        "back": "body-tpose-back-latest",
+        "left": "body-tpose-left-latest"
+      },
+      "summary": "基于标准青年男素体的身体基准，阳光少年面庞、蓬松墨黑刺猬短发、角色左额一簇暖灰棕挑染及哑光深炭黑平角短裤打底。",
+      "facts": [
+        {
+          "term": "形体",
+          "value": "基于标准青年男素体，赤脚约 7.42 头身，厘米身高未设定"
+        },
+        {
+          "term": "发型",
+          "value": "蓬松墨黑刺猬短发伴头顶双翘发簇，角色左额太阳穴一簇暖灰棕挑染"
+        },
+        {
+          "term": "五官",
+          "value": "亮琥珀金眼瞳配双高光点，裸露双耳，爽朗微扬少年感半笑"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 1 到第 4 层"
+        }
+      ],
+      "leftRight": "非对称发色左右识别：暖灰棕挑染仅落在角色左额（正面图位于画面右边，角色左侧面明显展开，背面图仅于画面左边耳顶边缘极微探出）；角色右侧面整侧保持纯粹墨黑发丝。"
+    },
+    {
+      "layer": 1,
+      "name": "内搭与机能球鞋",
+      "path": "/characters/gold-hunter/base-kit",
+      "front": "base-kit-front-latest",
+      "side": "base-kit-right-latest",
+      "back": "base-kit-back-latest",
+      "tpose": {
+        "front": "base-kit-tpose-front-latest",
+        "right": "base-kit-tpose-right-latest",
+        "back": "base-kit-tpose-back-latest",
+        "left": "base-kit-tpose-left-latest"
+      },
+      "summary": "修身哑光炭黑高领正中拉链长袖衫、统一双侧对称的橄榄卡其 3D 大腿工装裤、炭黑小腿束腿套及双脚镜像青橙机能球鞋。",
+      "facts": [
+        {
+          "term": "内搭上衣",
+          "value": "修身炭黑半高领全开拉链长袖，顶端配哑光灰矩形拉链头，颈下留出清晰喉颈空间"
+        },
+        {
+          "term": "工装长裤",
+          "value": "双腿统一哑光橄榄卡其色，双侧大腿外缘各有一枚浅灰包边 3D 立体折盖袋与炭黑小腿套"
+        },
+        {
+          "term": "机能球鞋",
+          "value": "电光青鞋面配亮橙双搭扣捆扎带、陶土橙防撞鞋头及全素无字银白护舌"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 2 到第 4 层"
+        }
+      ],
+      "leftRight": "全身第 1 层完全达成双侧对称：两条裤腿同样为橄榄卡其配色与浅灰包边大腿袋，双脚鞋靴采用同等规格电光青与亮橙配色且鞋舌保持素面。"
+    },
+    {
+      "layer": 2,
+      "name": "护具与腰间金币匣",
+      "path": "/characters/gold-hunter/belt-guards",
+      "front": "belt-guards-front-latest",
+      "side": "belt-guards-right-latest",
+      "back": "belt-guards-back-latest",
+      "tpose": {
+        "front": "belt-guards-tpose-front-latest",
+        "right": "belt-guards-tpose-right-latest",
+        "back": "belt-guards-tpose-back-latest",
+        "left": "belt-guards-tpose-left-latest"
+      },
+      "summary": "彻底无肩带化哑光黑战术腰带（居中银扣、角色右腰黑橙快抽金币匣半露压纹金币、角色左腰竖炭黑工具包）、双腿水平稳固带、六边形银护膝与铜铆钉银甲手套。",
+      "facts": [
+        {
+          "term": "腰带模块",
+          "value": "贴腰穿戴全无肩带束缚，正面居中为拉丝银快拆方扣"
+        },
+        {
+          "term": "不对称腰包",
+          "value": "角色右腰斜挂带橙边开槽快抽金币匣（半露压纹金币），角色左腰挂带橙标竖炭黑盖袋"
+        },
+        {
+          "term": "腿膝与手甲",
+          "value": "大腿外袋环绕黑色水平稳固带，双膝配六边形银甲护膝（膝弯背面为双道黑色松紧带），手腕缀单点青铜铆钉"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 3、第 4 层"
+        }
+      ],
+      "leftRight": "清晰的腰际非对称识别：黑橙磁吸金币匣与带字压纹金币严格挂在角色右腰（正面图位于画面左边，背面图位于画面右边）；竖立炭黑工具包挂在角色左腰（正面图位于画面右边）。护膝与手套双侧对称。"
+    },
+    {
+      "layer": 3,
+      "name": "燕尾连帽派克外套",
+      "path": "/characters/gold-hunter/parka",
+      "front": "parka-front-latest",
+      "side": "parka-right-latest",
+      "back": "parka-back-latest",
+      "tpose": {
+        "front": "parka-tpose-front-latest",
+        "right": "parka-tpose-right-latest",
+        "back": "parka-tpose-back-latest",
+        "left": "parka-tpose-left-latest"
+      },
+      "summary": "彻底无肩带剪裁的冷灰白拼板岩灰几何敞口燕尾连帽派克外套，亮青帽口斜饰条、角色右大臂干净无标拼接与角色左大臂细橙边竖拉链袋。",
+      "facts": [
+        {
+          "term": "肩背剪裁",
+          "value": "双肩干净俐落全无肩带，前摆于腰部以上敞开露出拉链衫与银腰扣"
+        },
+        {
+          "term": "兜帽与燕尾",
+          "value": "立体连帽自然垂落于后颈肩胛（帽口内嵌亮青斜条），后下摆做居中倒 V 分叉双尖燕尾"
+        },
+        {
+          "term": "双臂袖面",
+          "value": "角色右大臂采用纯净无标冷灰白拼板岩灰切块（徽章专属留在金币上），角色左大臂嵌竖向橙边拉链袋"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 4 层"
+        }
+      ],
+      "leftRight": "双臂外侧左右识别：角色右大臂为素净几何色块拼接而不附带任何袖章（正面图位于画面左边，背面图位于画面右边）；角色左大臂嵌有一只板岩灰底极细橙边竖向拉链袋（正面图位于画面右边，背面图位于画面左边）。"
+    },
+    {
+      "layer": 4,
+      "name": "深红护目镜",
+      "path": "/characters/gold-hunter/goggles",
+      "front": "goggles-front-latest",
+      "side": "goggles-right-latest",
+      "back": "goggles-back-latest",
+      "tpose": {
+        "front": "goggles-tpose-front-latest",
+        "right": "goggles-tpose-right-latest",
+        "back": "goggles-tpose-back-latest",
+        "left": "goggles-tpose-left-latest"
+      },
+      "summary": "炭黑斜角框配高饱和半透明绯红滑雪护目镜，平时推起卡于前额露清晰眉眼，战备时可下拉护眼并清晰透出亮琥珀眼眸；实穿头带在太阳穴后即埋入蓬松短发之下。",
+      "facts": [
+        {
+          "term": "双态佩戴",
+          "value": "常态三视稳扣前额（额前几撮短发自然垂搭镜框上缘），战备态下拉越过鼻梁遮护双眼"
+        },
+        {
+          "term": "半透镜片",
+          "value": "深红曲面护镜带锐利白粉斜向反光切面，下拉戴眼时依然清晰透出琥珀双眸"
+        },
+        {
+          "term": "发下埋带",
+          "value": "灰头模部件表交代绕耳弹性带与后脑枪灰调节扣，角色实穿侧背图中头带藏于厚实发丝下以呵护蓬松发冠轮廓"
+        },
+        {
+          "term": "外层",
+          "value": "最外层"
+        }
+      ],
+      "leftRight": "额前镜框受角色左额暖灰棕挑染簇与角色右额墨黑发丝自然叠压；侧背视图均在太阳穴后将黑色弹性带收隐于耳上刺猬发内部。"
+    }
+  ]
+}

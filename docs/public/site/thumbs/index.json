@@ -1911,6 +1911,358 @@
     "sourcePath": "/characters/doge/suit-right-latest.webp",
     "sourceSha256": "e914f6ccaca7858a32050f8d588c08124b929966ab3036d3de95c191798a9d1a"
   },
+  "gold-hunter/base-kit-back-latest": {
+    "path": "/site/thumbs/gold-hunter/base-kit-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "5d17fc1a71f18def68d376263e4a04605064626124abbcc0f87b908cd55f2f28",
+    "sourcePath": "/characters/gold-hunter/base-kit-back-latest.webp",
+    "sourceSha256": "b106869c1b0ac1ceacc4cfa945770e7c298664fb5c5215e20e4f0452c247959c"
+  },
+  "gold-hunter/base-kit-board-latest": {
+    "path": "/site/thumbs/gold-hunter/base-kit-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "896abba3e14fdebf6cac541733ab2c684532d89287ab9b17c39eb3ea5549a8db",
+    "sourcePath": "/characters/gold-hunter/base-kit-board-latest.webp",
+    "sourceSha256": "6cc2f684624553fc6b41dbaa0be4058e78d801b89b07e8c1b650a144ff70667e"
+  },
+  "gold-hunter/base-kit-front-latest": {
+    "path": "/site/thumbs/gold-hunter/base-kit-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "6bc46dc2e9e9b83471a61452711b5b48989eadd2adfa9b15cdb325b993fea7fa",
+    "sourcePath": "/characters/gold-hunter/base-kit-front-latest.webp",
+    "sourceSha256": "707e01ad798d5f96a8f15564422b49c57f79ebfc89c07fa2335dd1a88aa088d6"
+  },
+  "gold-hunter/base-kit-right-latest": {
+    "path": "/site/thumbs/gold-hunter/base-kit-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "f67d7fbb9e9c7353170acf95ea99a7fd6b3fe09f58f912978dc138b1140553a3",
+    "sourcePath": "/characters/gold-hunter/base-kit-right-latest.webp",
+    "sourceSha256": "32468aa53fe02efd305e3b775f808c6960c7c30c0f17711fbf0a367cc7441ea7"
+  },
+  "gold-hunter/base-kit-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/base-kit-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "d34f6b0e30fb309ea2e1d7f80f19c8aeaa8c2af64819723bda6e7490dde2ef81",
+    "sourcePath": "/characters/gold-hunter/base-kit-tpose-back-latest.webp",
+    "sourceSha256": "610426a618e31db2b4325eae9e18dbcdb009fffb100cbe349f3d0089e301e30b"
+  },
+  "gold-hunter/base-kit-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/base-kit-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9f4a1deae118338b59c303960336149f6d8b200680828c421ef2b5814b020b44",
+    "sourcePath": "/characters/gold-hunter/base-kit-tpose-front-latest.webp",
+    "sourceSha256": "1a2ec7564984641c14e817d5ab0dbb238514320c0855a8443ce6e23af1ce0569"
+  },
+  "gold-hunter/base-kit-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/base-kit-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "16a204d4caf60afe827032e2c4c2be4fa0d6c5697bd640898975d60ac982182f",
+    "sourcePath": "/characters/gold-hunter/base-kit-tpose-left-latest.webp",
+    "sourceSha256": "081993b2277450cf526d44a039a6181dd4a4f90f46f31682e9f32e8edf532ed5"
+  },
+  "gold-hunter/base-kit-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/base-kit-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "a8ed2dc5c71eeb77555b0f1d798f8a4eff100fb6cb09c5f1617fe9e834754358",
+    "sourcePath": "/characters/gold-hunter/base-kit-tpose-right-latest.webp",
+    "sourceSha256": "94ace55890a1d8fe61cb50a6b07751b66be7462e830fa57ed07af89a70ede154"
+  },
+  "gold-hunter/belt-guards-back-latest": {
+    "path": "/site/thumbs/gold-hunter/belt-guards-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "a12ac115a20ee8c4a9f3639394f38f475b08a90619c6a94f3b17a3564fad2aac",
+    "sourcePath": "/characters/gold-hunter/belt-guards-back-latest.webp",
+    "sourceSha256": "812392e379cb5badb1f08f3894fdd8a0f4d4188e3f6e13cc33250c31c18e4a15"
+  },
+  "gold-hunter/belt-guards-board-latest": {
+    "path": "/site/thumbs/gold-hunter/belt-guards-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "81857c57ddc562ccd40ff4aac84923ceb946994401b3811495edb0b3f32b0c3c",
+    "sourcePath": "/characters/gold-hunter/belt-guards-board-latest.webp",
+    "sourceSha256": "8f537c164ae60aaae213a2a4b318b918a583b811761b9ed7fd147e26de8bd4db"
+  },
+  "gold-hunter/belt-guards-front-latest": {
+    "path": "/site/thumbs/gold-hunter/belt-guards-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "6cdcc1df60a8b883279b49ac33d1f1c31ada14e4c749b0241dbc8a47f3b983f6",
+    "sourcePath": "/characters/gold-hunter/belt-guards-front-latest.webp",
+    "sourceSha256": "796fb83f9e00422f45c047bb2e71801216f5946ca36f885774b9c7f211084520"
+  },
+  "gold-hunter/belt-guards-right-latest": {
+    "path": "/site/thumbs/gold-hunter/belt-guards-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "e8f5608afbd738ab906c1704a7e6ccf5befa28705896a0c909596b9bdb1a3a73",
+    "sourcePath": "/characters/gold-hunter/belt-guards-right-latest.webp",
+    "sourceSha256": "b56ac5a21c2ce8f96625081cc189c3dea048379b999e847059886d8b838f5399"
+  },
+  "gold-hunter/belt-guards-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/belt-guards-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "6b88c56cb4329e175ebf992f42c5fd72c4bbab72d68a18d74d7f6a1d2a03c5d7",
+    "sourcePath": "/characters/gold-hunter/belt-guards-tpose-back-latest.webp",
+    "sourceSha256": "d538139c5d48c5552d1dc4a3f67e3c458d7fce44330b42df282d163d86fe594e"
+  },
+  "gold-hunter/belt-guards-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/belt-guards-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "a01de4b90203e1bfb0a10ff73c0e1f51a9a77a2e47c69bad922862c9df75eec9",
+    "sourcePath": "/characters/gold-hunter/belt-guards-tpose-front-latest.webp",
+    "sourceSha256": "201d0591febf87b698bdb2fd5090c9b477b130bce0ff4783ae511b4f14cf7afb"
+  },
+  "gold-hunter/belt-guards-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/belt-guards-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "61b97303986f55da316ddf0824f0d04f3274f746e143af826b31106b6dbe709f",
+    "sourcePath": "/characters/gold-hunter/belt-guards-tpose-left-latest.webp",
+    "sourceSha256": "356d7ca0006a11b8e2855854035d6450e171ca1ac37262e0caa80c45d28a656f"
+  },
+  "gold-hunter/belt-guards-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/belt-guards-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "186dda67d0d43575acfdaf0a5b98edcb7ce0deb5dd6811d1b73b794fd2e19920",
+    "sourcePath": "/characters/gold-hunter/belt-guards-tpose-right-latest.webp",
+    "sourceSha256": "7614e6783b51d031f73d2d5f4e5eed9cd51f628b38772be2a1aab780e10648de"
+  },
+  "gold-hunter/body-back-latest": {
+    "path": "/site/thumbs/gold-hunter/body-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "28ed52e07fe4831d8a567b434e6089690aa80bce81ecfa7113a4337613e0317f",
+    "sourcePath": "/characters/gold-hunter/body-back-latest.webp",
+    "sourceSha256": "14d4fa191075bac025ed39810a2527d5a2fcd19f7c88404eb4a4e8a873345036"
+  },
+  "gold-hunter/body-front-latest": {
+    "path": "/site/thumbs/gold-hunter/body-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "d61ba83d35ceaa7e28162e59e522eeb218c5ab0f337ac5f3ac72815bc64cdf8a",
+    "sourcePath": "/characters/gold-hunter/body-front-latest.webp",
+    "sourceSha256": "6f5feae3b15de5e0be29f50d03133c905d77e5b303d4e4eb086892ba458da2e0"
+  },
+  "gold-hunter/body-right-latest": {
+    "path": "/site/thumbs/gold-hunter/body-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "7e41f86161c6cbaf74044b1b647f44b82053a30cdb862777c0675095c526f5ce",
+    "sourcePath": "/characters/gold-hunter/body-right-latest.webp",
+    "sourceSha256": "08da69ee0d4fe6374d9bdd99143315fb020e1f788d4d21d346ff828196486c5a"
+  },
+  "gold-hunter/body-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/body-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "07e7d5ae901f60fb21df2341f481615a40df5aae55002a4384cabc243dd9c976",
+    "sourcePath": "/characters/gold-hunter/body-tpose-back-latest.webp",
+    "sourceSha256": "8964f104bc6e13171ff08189e66c024f9a3d2420aa6154893caaceba2abdd46d"
+  },
+  "gold-hunter/body-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/body-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "26175776adf3f91b33be8238f6a666d2413ec6fcb3758edd5603bc1e553e8050",
+    "sourcePath": "/characters/gold-hunter/body-tpose-front-latest.webp",
+    "sourceSha256": "91e8b9feaec665a735fc0524123e21b3a7e446d5db669acce5f2457e46b5fec6"
+  },
+  "gold-hunter/body-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/body-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "62f569835b2d6442d4c7845a88cb9a4664307b222bbbc10ad598dc643e6703c0",
+    "sourcePath": "/characters/gold-hunter/body-tpose-left-latest.webp",
+    "sourceSha256": "90a11f71f935b0297e4dbde2ec1ee38d0328565d6b353129ead61ae61c5a99e5"
+  },
+  "gold-hunter/body-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/body-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "effee774aeb8cce35a45d24feebae09cda437b925c1a74687a3b5668d8e66a9c",
+    "sourcePath": "/characters/gold-hunter/body-tpose-right-latest.webp",
+    "sourceSha256": "fe24adb7fc1f3f56a9417348fdba2b193da44de4452f9d2cb74e3b9d446d4cd7"
+  },
+  "gold-hunter/breakdown-sheet-latest": {
+    "path": "/site/thumbs/gold-hunter/breakdown-sheet-latest.webp",
+    "width": 480,
+    "height": 329,
+    "sha256": "25c21c43654e34756842e6821e1bf027df120f3eaa80be8779f2aa964d08857f",
+    "sourcePath": "/characters/gold-hunter/breakdown-sheet-latest.webp",
+    "sourceSha256": "1d1e5f9aa5819d519d8292a56bbfd5465aa8a7700200d1daa076979c8a611de6"
+  },
+  "gold-hunter/character-card-latest": {
+    "path": "/site/thumbs/gold-hunter/character-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "6e57ab2190d0292569d84e91c521ffc8edbd71d7c5fe9c6decaff1379089ec08",
+    "sourcePath": "/characters/gold-hunter/character-card-latest.webp",
+    "sourceSha256": "8cba196252c7845ae88364df408f8fb89fe901690371d96e6171ad23e5721b23"
+  },
+  "gold-hunter/expressions-sheet-latest": {
+    "path": "/site/thumbs/gold-hunter/expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "4fde0edbb0b956ee1e7badbb6978a2e5238345b4677a5d8ae08a5da24f437885",
+    "sourcePath": "/characters/gold-hunter/expressions-sheet-latest.webp",
+    "sourceSha256": "9afd78714ca0ba9e1a8af899a6765e9beb92dc1fd2e887ca5ee890d7e180fa4b"
+  },
+  "gold-hunter/face-sheet-latest": {
+    "path": "/site/thumbs/gold-hunter/face-sheet-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "d9023512cfcc96b403979d64f95e4af670b91b2b988060c1c410b343c082ba14",
+    "sourcePath": "/characters/gold-hunter/face-sheet-latest.webp",
+    "sourceSha256": "991a43a734eaccc6250e3e828814406f75b8f26cbd4368b5fd21064ef48ecf2c"
+  },
+  "gold-hunter/goggles-back-latest": {
+    "path": "/site/thumbs/gold-hunter/goggles-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "734773d7a277d328b2c2c89424ed621855d76f6227e26bdf8111528c30303463",
+    "sourcePath": "/characters/gold-hunter/goggles-back-latest.webp",
+    "sourceSha256": "e2852dd189a4fa9739c366c076595b0ce0c7c8db2bd2d0a07b2cafe6d1cbfd29"
+  },
+  "gold-hunter/goggles-board-latest": {
+    "path": "/site/thumbs/gold-hunter/goggles-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "886b3bbe8d72e803d65e7505cf7353212a7dc10961bc5abee458cab55dbece14",
+    "sourcePath": "/characters/gold-hunter/goggles-board-latest.webp",
+    "sourceSha256": "d3375d9a17a745f252f23c55481246739e794b57907a652f0349c78a9f0de1bd"
+  },
+  "gold-hunter/goggles-front-latest": {
+    "path": "/site/thumbs/gold-hunter/goggles-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "085b7d9f35973f2376ac7c24f811670effb9f823f3e89254113c949a62576abe",
+    "sourcePath": "/characters/gold-hunter/goggles-front-latest.webp",
+    "sourceSha256": "9164210793cb2e8941475290a84d364ce4ad31e579291c897846f8ba519d4000"
+  },
+  "gold-hunter/goggles-over-eyes-latest": {
+    "path": "/site/thumbs/gold-hunter/goggles-over-eyes-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "d7d2bd74f6a1b0ecd9f32ba2f4cf2cb4087f6e1f4c82ca0a4ee7a65ffb5620b6",
+    "sourcePath": "/characters/gold-hunter/goggles-over-eyes-latest.webp",
+    "sourceSha256": "83d840b1904befad9b9020ae77d2b2a3bf3a059a2a386870def2fb8f58419be2"
+  },
+  "gold-hunter/goggles-right-latest": {
+    "path": "/site/thumbs/gold-hunter/goggles-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "b16f8e38429108abd7dd2fcbafcb25b86c43e1f927d005883de806bf379f504d",
+    "sourcePath": "/characters/gold-hunter/goggles-right-latest.webp",
+    "sourceSha256": "3e83e9011076ac975e3859fbf8e379ab1ada361262c2e5dd4c55b6a2e4afd330"
+  },
+  "gold-hunter/goggles-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/goggles-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "feeebed89db9827dc77144394622a4fa583c19ab9e0dd41597f237326de33311",
+    "sourcePath": "/characters/gold-hunter/goggles-tpose-back-latest.webp",
+    "sourceSha256": "3f118e64445feb9f1c764e2c530c52d5aba11c71bbe5b648dafd65ddfd40b523"
+  },
+  "gold-hunter/goggles-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/goggles-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "130c040802f5563da72988b245a7c60fd35b128645840a721d483e005cde3387",
+    "sourcePath": "/characters/gold-hunter/goggles-tpose-front-latest.webp",
+    "sourceSha256": "6014c9089e1ced291ad535b14627b28d07a7e37fd6863040970535e6c54914ad"
+  },
+  "gold-hunter/goggles-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/goggles-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "a72e19291508c4dd4be3e5dec8e78025d8339e4c951a2ce4bc066ab02ddbdcbe",
+    "sourcePath": "/characters/gold-hunter/goggles-tpose-left-latest.webp",
+    "sourceSha256": "94589a53b3655c8a6cd1b7d87fe5f1781ea66cc9b6ca77b6894b2a1899ff51c3"
+  },
+  "gold-hunter/goggles-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/goggles-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "e4302cc7c7ed90a8e53e2702a22da46e243766c00785d2a86d91f2423c32b27a",
+    "sourcePath": "/characters/gold-hunter/goggles-tpose-right-latest.webp",
+    "sourceSha256": "e78313c0b304bec414fa7e99c48e0f5b5d15f927ae583744664227cd9373c68e"
+  },
+  "gold-hunter/parka-back-latest": {
+    "path": "/site/thumbs/gold-hunter/parka-back-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "43bd1fccbce31dc81bdb6bcb718a569d0f6880422bae0eef29977f09a516a938",
+    "sourcePath": "/characters/gold-hunter/parka-back-latest.webp",
+    "sourceSha256": "818e9e23b17367fa32cd3b331d710c408e48e2cd538537fb11a0ad0dde75ae30"
+  },
+  "gold-hunter/parka-board-latest": {
+    "path": "/site/thumbs/gold-hunter/parka-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "4bf7edf609025be717991aefff45b0ccf90372d6226cdad98b399e3246afd3a3",
+    "sourcePath": "/characters/gold-hunter/parka-board-latest.webp",
+    "sourceSha256": "f3bc31d0f2bdf7a9750c447b454bcae373c3923cb41812d86e04670a9a0d1f2c"
+  },
+  "gold-hunter/parka-front-latest": {
+    "path": "/site/thumbs/gold-hunter/parka-front-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "4d72ad4d1beb8dd776fd91f4f57b6329aa3e21f1e21488793cd6a96e1732d36e",
+    "sourcePath": "/characters/gold-hunter/parka-front-latest.webp",
+    "sourceSha256": "ac4dbf879896cc84c0b21be3cd5bd26d41415821a02c8efb6d044acc96e8d299"
+  },
+  "gold-hunter/parka-right-latest": {
+    "path": "/site/thumbs/gold-hunter/parka-right-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "6992119bd384c4a2fd3fad2d2c839d9393f9dec21d29303a2ceb27b52065fa13",
+    "sourcePath": "/characters/gold-hunter/parka-right-latest.webp",
+    "sourceSha256": "0fe23ee804bee7db33cddefb438f4ef4005e32bff7c9d68cd76786ee630b82eb"
+  },
+  "gold-hunter/parka-tpose-back-latest": {
+    "path": "/site/thumbs/gold-hunter/parka-tpose-back-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c3784f71217ebd0a0934ee64550b307d993cd1873c3a246271d56f0329e20dd3",
+    "sourcePath": "/characters/gold-hunter/parka-tpose-back-latest.webp",
+    "sourceSha256": "a5b51d9de0537a028662c275aef85ed9dfdd1a63ce19f9db0abe545fbc367439"
+  },
+  "gold-hunter/parka-tpose-front-latest": {
+    "path": "/site/thumbs/gold-hunter/parka-tpose-front-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "18cb9fc7f986611d2f4a6e0ee7b8959909a2e1226e7de2bedac340543b0ddbe7",
+    "sourcePath": "/characters/gold-hunter/parka-tpose-front-latest.webp",
+    "sourceSha256": "f62b29f29a3b953b8f0f4b68bfce52ecb6c8d324222e9074ded181d7f64ec723"
+  },
+  "gold-hunter/parka-tpose-left-latest": {
+    "path": "/site/thumbs/gold-hunter/parka-tpose-left-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "9b185602a524c0a0fec15813c00186c9b60261cf15dc362ecd7364fb5d48e04d",
+    "sourcePath": "/characters/gold-hunter/parka-tpose-left-latest.webp",
+    "sourceSha256": "2d5b0471b5580ea0b7e195459bedb7b87ea87983756b28c237290708f2f65ab2"
+  },
+  "gold-hunter/parka-tpose-right-latest": {
+    "path": "/site/thumbs/gold-hunter/parka-tpose-right-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "4308faf865f57508d39334b005f521a0f4f0be38d57e8950f1370444830f2c62",
+    "sourcePath": "/characters/gold-hunter/parka-tpose-right-latest.webp",
+    "sourceSha256": "2c28aafc6d2e67e747640a6ddf5eb74b77bf89b9e7ba959140ea3f9be080e8ed"
+  },
   "gunman/anchor-card-latest": {
     "path": "/site/thumbs/gunman/anchor-card-latest.webp",
     "width": 480,
@@ -2358,6 +2710,14 @@
     "sha256": "f7f2107edf2547a4ef88efc6b123acde46723221acf3e5ab61a1cde047b901fc",
     "sourcePath": "/characters/origins/doge-original-latest.webp",
     "sourceSha256": "6e440b9ba50356db74afd8b36dc1aefe7ac5ac568b18080841ef57dfca2b75c3"
+  },
+  "origins/gold-hunter-original-latest": {
+    "path": "/site/thumbs/origins/gold-hunter-original-latest.webp",
+    "width": 480,
+    "height": 413,
+    "sha256": "5080ae13e0d8bacf11f99c8b0984c765d011d040793975913aa3535c87a0d830",
+    "sourcePath": "/characters/origins/gold-hunter-original-latest.webp",
+    "sourceSha256": "2e57c2639de32a7e7c42c4c43ee15ab1251778348bfbc463a0cc437c52d0f508"
   },
   "origins/gunman-original-latest": {
     "path": "/site/thumbs/origins/gunman-original-latest.webp",

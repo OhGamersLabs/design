@@ -79,4 +79,4 @@ releaseReady: false
 <p>各角色独立的服装层级、配色、武器与场景设定见对应白皮书。</p>
 </div>
 
-<p class="bunny-section-links"><a href="/characters/bunny/">Bunny</a> · <a href="/characters/doge/">WIF Doge</a> · <a href="/characters/angel/">天使</a> · <a href="/characters/crew/">Crew</a> · <a href="/characters/gunman/">Gunman</a></p>
+<p class="bunny-section-links"><a href="/characters/bunny/">Bunny</a> · <a href="/characters/doge/">WIF Doge</a> · <a href="/characters/angel/">天使</a> · <a href="/characters/crew/">Crew</a> · <a href="/characters/gunman/">Gunman</a> · <a href="/characters/gold-hunter/">Gold Hunter</a></p>

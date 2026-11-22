@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "角色原始手稿",
   "status": "local-review",
-  "asset_count": 5,
+  "asset_count": 6,
   "assets": [
     {
       "id": "angel-original-latest",
@@ -95,6 +95,29 @@
         "height": 2048,
         "bytes": 1862058,
         "sha256": "6e440b9ba50356db74afd8b36dc1aefe7ac5ac568b18080841ef57dfca2b75c3",
+        "alpha": true
+      }
+    },
+    {
+      "id": "gold-hunter-original-latest",
+      "character": "origins",
+      "title": "gold-hunter-original-latest",
+      "original": {
+        "path": "/media/origins/gold-hunter-original-latest.png",
+        "mime_type": "image/png",
+        "width": 3294,
+        "height": 2835,
+        "bytes": 4086226,
+        "sha256": "7f0dd6fa8863b782f793d0c03367266abf91abd574a41c8229ff501d9e214fea",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/gold-hunter-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1763,
+        "bytes": 1210442,
+        "sha256": "2e57c2639de32a7e7c42c4c43ee15ab1251778348bfbc463a0cc437c52d0f508",
         "alpha": true
       }
     },
