@@ -2,12 +2,12 @@
 layout: CharacterPage
 pageType: layer
 layer: 2
-title: 护具与腰间金币匣
+title: 罗伊 · 护具与腰间金币匣
 sidebar: false
 aside: false
 ---
 
-# 护具与腰间金币匣 {.bunny-sr-only}
+# 罗伊 · 护具与腰间金币匣 {.bunny-sr-only}
 
 ## 站姿三视 {#wearing}
 

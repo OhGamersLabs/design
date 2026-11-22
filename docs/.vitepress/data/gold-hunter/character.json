@@ -1,28 +1,48 @@
 {
-  "name": "罗伊·达罗",
-  "role": "赏金猎人",
+  "name": "罗伊 & 罗娅·达罗",
+  "role": "赏金猎人 · 双主角",
   "order": 6,
-  "portrait": "goggles-front-latest",
+  "portrait": "duo-front-latest",
   "pages": [
     {
       "path": "/characters/gold-hunter/body",
-      "title": "身体"
+      "title": "罗伊 · 身体"
     },
     {
       "path": "/characters/gold-hunter/base-kit",
-      "title": "内搭与机能球鞋"
+      "title": "罗伊 · 内搭与机能球鞋"
     },
     {
       "path": "/characters/gold-hunter/belt-guards",
-      "title": "护具与腰间金币匣"
+      "title": "罗伊 · 护具与腰间金币匣"
     },
     {
       "path": "/characters/gold-hunter/parka",
-      "title": "燕尾连帽派克外套"
+      "title": "罗伊 · 燕尾连帽派克外套"
     },
     {
       "path": "/characters/gold-hunter/goggles",
-      "title": "深红护目镜"
+      "title": "罗伊 · 深红护目镜"
+    },
+    {
+      "path": "/characters/gold-hunter/female-body",
+      "title": "罗娅 · 身体"
+    },
+    {
+      "path": "/characters/gold-hunter/female-base-kit",
+      "title": "罗娅 · 露脐运动内搭与鞋袜"
+    },
+    {
+      "path": "/characters/gold-hunter/female-belt-guards",
+      "title": "罗娅 · 腰带护具与单腿绑带"
+    },
+    {
+      "path": "/characters/gold-hunter/female-parka",
+      "title": "罗娅 · 燕尾连帽派克外套"
+    },
+    {
+      "path": "/characters/gold-hunter/female-goggles",
+      "title": "罗娅 · 橙红护目镜"
     }
   ]
 }

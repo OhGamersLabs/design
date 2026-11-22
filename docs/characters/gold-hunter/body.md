@@ -2,12 +2,12 @@
 layout: CharacterPage
 pageType: layer
 layer: 0
-title: 身体
+title: 罗伊 · 身体
 sidebar: false
 aside: false
 ---
 
-# 身体 {.bunny-sr-only}
+# 罗伊 · 身体 {.bunny-sr-only}
 
 ## 站姿三视 {#wearing}
 

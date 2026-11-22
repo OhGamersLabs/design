@@ -2,12 +2,12 @@
 layout: CharacterPage
 pageType: layer
 layer: 3
-title: 燕尾连帽派克外套
+title: 罗伊 · 燕尾连帽派克外套
 sidebar: false
 aside: false
 ---
 
-# 燕尾连帽派克外套 {.bunny-sr-only}
+# 罗伊 · 燕尾连帽派克外套 {.bunny-sr-only}
 
 ## 站姿三视 {#wearing}
 

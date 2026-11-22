@@ -2,12 +2,12 @@
 layout: CharacterPage
 pageType: layer
 layer: 4
-title: 深红护目镜
+title: 罗伊 · 深红护目镜
 sidebar: false
 aside: false
 ---
 
-# 深红护目镜 {.bunny-sr-only}
+# 罗伊 · 深红护目镜 {.bunny-sr-only}
 
 ## 站姿三视 {#wearing}
 
