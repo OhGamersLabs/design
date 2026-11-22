@@ -67,7 +67,7 @@ releaseReady: false
 
 <div class="bunny-expression-grid">
   <AssetImage id="breakdown-sheet-latest" detail="第 0 到第 5 层六阶段拆解全览" />
-  <AssetImage id="character-card-latest" detail="双手平端展开态重型步枪的最终角色卡定稿" use-thumb />
+  <AssetImage id="character-card-latest" detail="双手低姿端持重型能量步枪的最终角色卡定稿" use-thumb />
 </div>
 
 <p class="bunny-section-links"><a href="/characters/gunman/body">第 0 层：身体</a> · <a href="/characters/gunman/rifle">第 5 层：重型步枪与背部挂载</a></p>
