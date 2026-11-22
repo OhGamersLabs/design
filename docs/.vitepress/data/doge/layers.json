@@ -5,115 +5,251 @@
   "items": [
     {
       "layer": 0,
-      "name": "身体",
+      "name": "Q 版身体",
       "path": "/characters/doge/body",
       "front": "body-front-latest",
       "side": "body-right-latest",
       "back": "body-back-latest",
-      "summary": "不穿衣服的身体，之后每张图的比例参照",
+      "summary": "日常 Q 版约 2 头身裸体柴犬素体基准，闭眼吐舌笑、肉垫爪与脊柱向角色左盘卷蓬尾。",
       "facts": [
         {
-          "term": "形体",
-          "value": "Q 版直立，约 2 头身"
+          "term": "形态比例",
+          "value": "日常 Q 版直立，约 2 头身"
         },
         {
-          "term": "毛色",
-          "value": "橘黄配奶油色"
+          "term": "毛色特征",
+          "value": "暖橘配奶油额纹、双圆眉点与胸腹"
         },
         {
-          "term": "尾巴",
-          "value": "从腰后脊柱长出"
+          "term": "尾巴走向",
+          "value": "脊柱正中生出，尾尖向角色左侧卷起"
         },
         {
-          "term": "外层",
-          "value": "之上还有第 1 到 3 层"
+          "term": "穿戴顺序",
+          "value": "Q 版第 0 层，之上叠加第 1 到 3 层"
         }
       ],
-      "leftRight": "尾巴向角色左侧卷起。背面图里它卷向画面左边。"
+      "leftRight": "尾巴从脊柱正中长出后固定向角色左侧卷起（正面图位于画面右边耳肩旁微露一角，背面图向画面左边卷起，角色右侧面仅见圆弧尾根）。"
     },
     {
       "layer": 1,
-      "name": "太空服",
+      "name": "Q 版宇航服",
       "path": "/characters/doge/suit",
       "front": "suit-front-latest",
       "side": "suit-right-latest",
       "back": "suit-back-latest",
-      "summary": "白色连体太空服，带颈环、腕环、靴脚、护膝和腹前两个接口",
+      "summary": "哑光灰白分节轻型宇航服、深炭灰关节环与分段尾套、亮橘边护膝，颈环仅角色左侧带铜孔。",
       "facts": [
         {
-          "term": "形制",
-          "value": "连体，前中缝穿脱"
+          "term": "颈环手性",
+          "value": "白炭灰颈环仅角色左侧嵌一枚暖铜圆孔"
         },
         {
-          "term": "颜色",
-          "value": "白，护膝深青蓝"
+          "term": "分节结构",
+          "value": "哑光灰白服身配深炭灰肘膝环带与圆头靴"
         },
         {
-          "term": "臂章",
-          "value": "薄荷青，只在角色左上臂"
+          "term": "尾巴护套",
+          "value": "后腰正中伸出白灰分段尾套承托卷尾"
         },
         {
-          "term": "外层",
-          "value": "之上还有第 2、3 层"
+          "term": "穿戴顺序",
+          "value": "Q 版第 1 层，之上叠加第 2、3 层"
         }
       ],
-      "leftRight": "青色臂章在角色左上臂，四叶草在角色右护膝。正面图里臂章在画面右边，四叶草在画面左边。"
+      "leftRight": "颈环上的铜色圆接口严格只在角色左侧（正面图位于画面右边），角色右侧面颈环完全素净无孔；分段尾套承托向角色左侧卷起的蓬尾。"
     },
     {
       "layer": 2,
-      "name": "背包",
+      "name": "Q 版胸盒与背包",
       "path": "/characters/doge/pack",
       "front": "pack-front-latest",
       "side": "pack-right-latest",
       "back": "pack-back-latest",
-      "summary": "背包、两条背带和胸前盒",
+      "summary": "正胸亮橘核心盒配角色左下方青点、中央竖橘缝双分体悬浮背包及底部双青微喷口，仅背包角色左侧印字。",
       "facts": [
         {
-          "term": "背包",
-          "value": "背面有 OG 标志"
+          "term": "正胸核心盒",
+          "value": "亮橘灯盒下缘嵌电光青指示圆点与肩腰织带"
         },
         {
-          "term": "背带",
-          "value": "深藏青，从肩上绕到腋下"
+          "term": "双分体背包",
+          "value": "背面中央亮橘竖缝均分双侧外壳，背面无字"
         },
         {
-          "term": "胸前盒",
-          "value": "红橙灯板占角色右侧三分之二"
+          "term": "底部喷口",
+          "value": "双枚电光青微推进喷口高挂于尾套上方"
         },
         {
-          "term": "外层",
-          "value": "之上还有第 3 层"
+          "term": "穿戴顺序",
+          "value": "Q 版第 2 层，之上戴第 3 层毛线帽"
         }
       ],
-      "leftRight": "胸前盒的红橙灯板在角色右侧，带两颗六角螺栓的竖板在角色左端。正面图里灯板在画面左边。"
+      "leftRight": "背包的炭灰 OG 印字严格只印在角色左侧面外壳上，背包角色右侧面纯白素面无字；背面正中为竖向亮橘中缝，同样不印字母。"
     },
     {
       "layer": 3,
-      "name": "毛线帽",
+      "name": "Q 版毛线帽",
       "path": "/characters/doge/beanie",
       "front": "beanie-front-latest",
       "side": "beanie-right-latest",
       "back": "beanie-back-latest",
-      "summary": "淡粉米色毛线帽，戴上就是完整造型",
+      "summary": "暖燕麦垂直粗罗纹翻边毛线帽配炭灰滚边立耳槽、奶油绒球与角色左前炭灰 OG 织标。",
       "facts": [
         {
-          "term": "形制",
-          "value": "翻边罗纹针织帽，耳朵从开口伸出"
+          "term": "双态锚点",
+          "value": "与先锋形态物理结构完全一致的同款针织帽"
         },
         {
-          "term": "颜色",
-          "value": "淡粉米，比毛色浅"
+          "term": "立耳开口",
+          "value": "深炭灰包边耳槽让一对柴犬立耳完整伸出"
         },
         {
-          "term": "绒球",
-          "value": "奶油色，偏角色左侧"
+          "term": "织标位置",
+          "value": "白字炭灰 OG 小标仅缝在角色左前翻边"
         },
         {
-          "term": "外层",
-          "value": "最外层"
+          "term": "穿戴顺序",
+          "value": "Q 版第 3 层，完整日常造型"
         }
       ],
-      "leftRight": "绒球偏向角色左侧。正面图里它在画面右边，背面图里在画面左边。"
+      "leftRight": "翻边前缘的炭灰底白字 OG 织标严格只在角色左侧眉上方（正面图位于画面右边），双圆奶油眉点完整露在帽沿之下；角色右侧翻边完全素净。"
+    },
+    {
+      "layer": 4,
+      "name": "先锋重坦素体",
+      "path": "/characters/doge/vanguard-body",
+      "front": "vanguard-body-front-latest",
+      "side": "vanguard-body-right-latest",
+      "back": "vanguard-body-back-latest",
+      "tpose": {
+        "front": "vanguard-body-tpose-front-latest",
+        "right": "vanguard-body-tpose-right-latest",
+        "back": "vanguard-body-tpose-back-latest",
+        "left": "vanguard-body-tpose-left-latest"
+      },
+      "summary": "约 7 头身高大厚重柴犬先锋素体基准，亮琥珀金眼瞳、狭长奶油额纹、短运动平角裤与向角色左盘卷粗蓬柴尾。",
+      "facts": [
+        {
+          "term": "形态比例",
+          "value": "先锋重坦直立，约 7 头身宽肩厚胸，厘米身高未设定"
+        },
+        {
+          "term": "头部与眸色",
+          "value": "亮琥珀金竖感瞳孔配奶油狭长额纹与双圆眉点"
+        },
+        {
+          "term": "尾巴基准",
+          "value": "背面耳壳纯暖橘无白心，尾巴从腰后向角色左侧卷起"
+        },
+        {
+          "term": "穿戴顺序",
+          "value": "重坦第 4 层基准，之上依次着第 5 到 7 层"
+        }
+      ],
+      "leftRight": "裸体素体双耳与四肢肌肉双侧对称，仅尾巴从脊柱正中生出后固定向角色左侧卷起（正面图位于画面右边髋旁微露尾尖，背面图向画面左边大弧度卷起）。"
+    },
+    {
+      "layer": 5,
+      "name": "先锋内搭与腿甲",
+      "path": "/characters/doge/vanguard-suit",
+      "front": "vanguard-suit-front-latest",
+      "side": "vanguard-suit-right-latest",
+      "back": "vanguard-suit-back-latest",
+      "tpose": {
+        "front": "vanguard-suit-tpose-front-latest",
+        "right": "vanguard-suit-tpose-right-latest",
+        "back": "vanguard-suit-tpose-back-latest",
+        "left": "vanguard-suit-tpose-left-latest"
+      },
+      "summary": "裸臂露肩的炭灰无袖圆领内搭、多袋深炭灰工装长裤、后腰拱门穿尾橙白腰带与白橙腿甲重靴。",
+      "facts": [
+        {
+          "term": "裸臂剪裁",
+          "value": "深炭灰紧身无袖圆领衫，双上臂与三角肌全程裸毛"
+        },
+        {
+          "term": "下装与穿尾",
+          "value": "多袋深炭灰工装裤配橙白战带，后腰正中开半圆拱门穿尾"
+        },
+        {
+          "term": "重甲腿靴",
+          "value": "白色折面护膝与胫甲接深炭灰橘点重坦战靴"
+        },
+        {
+          "term": "穿戴顺序",
+          "value": "重坦第 5 层，之上装第 6、7 层"
+        }
+      ],
+      "leftRight": "内搭、多袋工装裤与护膝重靴整体双侧对称；仅尾巴通过后腰橙白拱门穿尾洞后向角色左侧盘卷（背面图于画面左边卷起）。"
+    },
+    {
+      "layer": 6,
+      "name": "先锋胸甲与双盾臂铠",
+      "path": "/characters/doge/vanguard-armor",
+      "front": "vanguard-armor-front-latest",
+      "side": "vanguard-armor-right-latest",
+      "back": "vanguard-armor-back-latest",
+      "tpose": {
+        "front": "vanguard-armor-tpose-front-latest",
+        "right": "vanguard-armor-tpose-right-latest",
+        "back": "vanguard-armor-tpose-back-latest",
+        "left": "vanguard-armor-tpose-left-latest"
+      },
+      "summary": "单铜孔白灰颈环、折面白橙青光胸甲、背部紧凑脊甲桥与双前臂六边形青刃盾牌臂铠（仅角色左盾印字）。",
+      "facts": [
+        {
+          "term": "颈环铜孔",
+          "value": "开环仅角色左侧缀一枚暖铜圆接口，与 Q 版同侧同位"
+        },
+        {
+          "term": "胸甲脊桥",
+          "value": "前胸横嵌电光青条、背挂白橙双青缝紧凑脊甲桥且不掩上背"
+        },
+        {
+          "term": "双前臂盾铠",
+          "value": "双上臂仍全程裸毛，前臂套六边形白橙青刃盾（仅角色左盾印字）"
+        },
+        {
+          "term": "穿戴顺序",
+          "value": "重坦第 6 层，之上戴第 7 层毛线帽"
+        }
+      ],
+      "leftRight": "颈环暖铜圆孔与前臂盾牌外侧的深炭灰 OG 印字均严格只在角色左侧（正面图位于画面右边）：角色右前臂白盾与角色右半颈环均保持纯素无字无孔。"
+    },
+    {
+      "layer": 7,
+      "name": "先锋毛线帽",
+      "path": "/characters/doge/vanguard-beanie",
+      "front": "vanguard-beanie-front-latest",
+      "side": "vanguard-beanie-right-latest",
+      "back": "vanguard-beanie-back-latest",
+      "tpose": {
+        "front": "vanguard-beanie-tpose-front-latest",
+        "right": "vanguard-beanie-tpose-right-latest",
+        "back": "vanguard-beanie-tpose-back-latest",
+        "left": "vanguard-beanie-tpose-left-latest"
+      },
+      "summary": "戴上与 Q 版形态物理一致的暖燕麦罗纹翻边毛线帽，达成先锋重坦完整终态。",
+      "facts": [
+        {
+          "term": "立耳包边",
+          "value": "暖燕麦粗罗纹翻边帽顶设奶油绒球，深炭灰耳槽嵌出一对立耳"
+        },
+        {
+          "term": "前帽织标",
+          "value": "角色左前翻边缝制白色 OG 炭灰织标，完整露出奶油圆眉"
+        },
+        {
+          "term": "三重角色左标",
+          "value": "角色左前帽标、角色左颈铜孔与角色左前臂盾标同落角色左侧"
+        },
+        {
+          "term": "穿戴顺序",
+          "value": "重坦第 7 层，先锋重坦完整造型"
+        }
+      ],
+      "leftRight": "帽沿角色左前 OG 织标、颈环铜色圆接口与前臂外侧盾牌 OG 字样全部集中在角色左侧（正面图位于画面右边），角色右侧三处均洁净素面。"
     }
   ]
 }

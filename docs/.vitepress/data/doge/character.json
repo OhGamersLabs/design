@@ -1,24 +1,40 @@
 {
   "name": "WIF Doge",
-  "role": "吉祥物",
+  "role": "吉祥物 · 先锋重坦",
   "order": 2,
+  "portrait": "vanguard-beanie-front-latest",
   "pages": [
     {
       "path": "/characters/doge/body",
-      "title": "身体"
+      "title": "Q 版身体"
     },
     {
       "path": "/characters/doge/suit",
-      "title": "太空服"
+      "title": "Q 版宇航服"
     },
     {
       "path": "/characters/doge/pack",
-      "title": "背包"
+      "title": "Q 版胸盒与背包"
     },
     {
       "path": "/characters/doge/beanie",
-      "title": "毛线帽"
+      "title": "Q 版毛线帽"
+    },
+    {
+      "path": "/characters/doge/vanguard-body",
+      "title": "先锋重坦素体"
+    },
+    {
+      "path": "/characters/doge/vanguard-suit",
+      "title": "先锋内搭与腿甲"
+    },
+    {
+      "path": "/characters/doge/vanguard-armor",
+      "title": "先锋胸甲与双盾臂铠"
+    },
+    {
+      "path": "/characters/doge/vanguard-beanie",
+      "title": "先锋毛线帽"
     }
-  ],
-  "portrait": "beanie-front-latest"
+  ]
 }
