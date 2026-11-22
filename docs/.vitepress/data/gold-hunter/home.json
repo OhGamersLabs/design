@@ -1,0 +1,124 @@
+{
+  "tabs": [
+    {
+      "key": "card",
+      "label": "角色卡",
+      "caption": "低蹲撑地抛起手心尺度金币的敏捷身手，换装纯白燕尾外套与双脚镜像青橙球鞋，2026-11-22 定稿",
+      "assets": [
+        "character-card-latest"
+      ]
+    },
+    {
+      "key": "three",
+      "label": "完整三视",
+      "caption": "正面、角色右侧面、背面，额前推起深红护目镜并采用头带半埋发间方案",
+      "assets": [
+        "goggles-front-latest",
+        "goggles-right-latest",
+        "goggles-back-latest"
+      ]
+    },
+    {
+      "key": "tpose",
+      "label": "T 姿",
+      "caption": "T 姿四视，供 3D 建模参考",
+      "assets": [
+        "goggles-tpose-front-latest",
+        "goggles-tpose-right-latest",
+        "goggles-tpose-back-latest",
+        "goggles-tpose-left-latest"
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2026-11-22",
+      "title": "角色卡定稿",
+      "asset": "character-card-latest",
+      "caption": "低蹲抛币动态定稿，角色右腰币匣呈开启空槽态对应掌中压纹金币，全套维持无肩带燕尾廓形。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "五层穿戴完成",
+      "asset": "goggles-front-latest",
+      "caption": "从标准青年男素体到半透明深红护目镜双态，每层配备 A 姿三视与 T 姿四视。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "表情表定稿",
+      "asset": "expressions-sheet-latest",
+      "caption": "4×4 表情，3/4 角色左侧面视角覆盖阳光微笑、锐利斜视、吼叫爆发与害羞轻笑十六种神态。"
+    },
+    {
+      "date": "2026-11-22",
+      "title": "全套拆解图",
+      "asset": "breakdown-sheet-latest",
+      "caption": "第 0 到第 4 层一图看完。"
+    }
+  ],
+  "facts": [
+    {
+      "term": "外观",
+      "value": "阳光锐利少年赏金猎人，墨黑刺猬短发配角色左额一簇暖灰棕挑染、亮琥珀金眼眸与半透明深红护目镜",
+      "note": "护目镜支持额前推起与战备下拉戴眼双态，太阳穴连扣之后将头带天然藏入蓬松短发之下"
+    },
+    {
+      "term": "体型",
+      "value": "基于标准青年男素体，赤脚约 7.42 头身",
+      "note": "颈下全套骨架沿用通用标准青年男比例，厘米身高未设定"
+    },
+    {
+      "term": "标志装备",
+      "value": "角色右腰磁吸快抽金币匣与手心尺度压纹金币",
+      "note": "平时金币半露收于角色右腰黑橙币匣内，抛币动态中币匣顶槽开启腾空对应掌中金币，金币面携带专属压纹徽章"
+    },
+    {
+      "term": "穿戴层级",
+      "value": "第 0 至第 4 层（完整武装）",
+      "note": "内搭与机能球鞋、护具与腰间金币匣、无肩带燕尾连帽派克外套、额前推起与下拉戴眼双态深红护目镜"
+    }
+  ],
+  "chips": [
+    {
+      "name": "冷灰白",
+      "use": "无肩带燕尾连帽派克外套主体与单按扣袖口",
+      "color": "#E0D9D9"
+    },
+    {
+      "name": "橄榄卡其",
+      "use": "双侧对称 3D 立体大腿工装长裤",
+      "color": "#6F6B61"
+    },
+    {
+      "name": "电光青",
+      "use": "兜帽内缘斜饰条与双脚镜像高帮机能球鞋主面",
+      "color": "#3CF1F9"
+    },
+    {
+      "name": "绯红",
+      "use": "可推起与可下拉护眼双态半透明滑雪护目镜片",
+      "color": "#C71A07"
+    }
+  ],
+  "chipNote": "哑光炭黑高领拉链衫与双脚亮橙捆扎带托出爽朗撞色，腰间压纹金币与细橙压胶线条形成聚焦点。",
+  "status": "本地审阅版，不是生产发布",
+  "updated": "2026-11-22",
+  "chapters": [
+    {
+      "id": "identity",
+      "label": "身份与画风"
+    },
+    {
+      "id": "layers",
+      "label": "衣层由内到外"
+    },
+    {
+      "id": "expressions",
+      "label": "面部与表情"
+    },
+    {
+      "id": "breakdown",
+      "label": "拆解与角色卡"
+    }
+  ]
+}
