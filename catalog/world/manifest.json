@@ -4,8 +4,31 @@
   "language": "zh-CN",
   "title": "星环纪元核心信物设定",
   "status": "local-review",
-  "asset_count": 16,
+  "asset_count": 20,
   "assets": [
+    {
+      "id": "ensemble-artbook-4x3-latest",
+      "character": "world",
+      "title": "ensemble-artbook-4x3-latest",
+      "original": {
+        "path": "/media/world/ensemble-artbook-4x3-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 2880,
+        "bytes": 19407446,
+        "sha256": "8c7e6b25ecbb75064e1bb9aa161925193b3074f9f3a4f7a0b78ddac8a9d9b3d9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/ensemble-artbook-4x3-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1536,
+        "bytes": 4721496,
+        "sha256": "3ead1993b04e9eb8e41d482a012227dd8b3bdd3851fdd199cec52a3e841083cc",
+        "alpha": false
+      }
+    },
     {
       "id": "ensemble-artbook-latest",
       "character": "world",
@@ -26,6 +49,29 @@
         "height": 1152,
         "bytes": 3693664,
         "sha256": "6be553d08e119b38349f2646265516ba7aa18065a369f37afa604136e5426a80",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ensemble-artbook-x-banner-latest",
+      "character": "world",
+      "title": "ensemble-artbook-x-banner-latest",
+      "original": {
+        "path": "/media/world/ensemble-artbook-x-banner-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 1280,
+        "bytes": 9147067,
+        "sha256": "a138eb15e6bdb65294d1325b146357abd41c84adf6fc9b1d45dd519c875e2516",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/ensemble-artbook-x-banner-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 683,
+        "bytes": 2131666,
+        "sha256": "c3ecf22f111f6bc0f8b7217225585e205ea5ae0fb38b41049737549d1419e841",
         "alpha": false
       }
     },
@@ -283,6 +329,29 @@
       }
     },
     {
+      "id": "ensemble-starport-4x3-latest",
+      "character": "world",
+      "title": "ensemble-starport-4x3-latest",
+      "original": {
+        "path": "/media/world/ensemble-starport-4x3-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 2880,
+        "bytes": 17449884,
+        "sha256": "524d8ba008ead5f0fed5d1e55ff313f53b373da177384dbe9cdf08a9c378f5e0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/ensemble-starport-4x3-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1536,
+        "bytes": 4422268,
+        "sha256": "8d01229da6d319864c90600d90d5ef5f0f9054b4a842f1930c5aea252021093b",
+        "alpha": false
+      }
+    },
+    {
       "id": "ensemble-starport-latest",
       "character": "world",
       "title": "ensemble-starport-latest",
@@ -302,6 +371,29 @@
         "height": 1152,
         "bytes": 3308068,
         "sha256": "042a0bd51dd050010b2413071b4b92e1a6823de0419eaeb93dc29d6c940bb65e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ensemble-starport-x-banner-latest",
+      "character": "world",
+      "title": "ensemble-starport-x-banner-latest",
+      "original": {
+        "path": "/media/world/ensemble-starport-x-banner-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 1280,
+        "bytes": 9444088,
+        "sha256": "3a99678207f9079dd8a8fab2e2388e1950f4ab14d4cf76558cba79593f4cc5c5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/ensemble-starport-x-banner-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 683,
+        "bytes": 2298046,
+        "sha256": "8ca42e0cd210de942f323653f0c846cd851143de7f0ad8b2783f0d3b127c1c46",
         "alpha": false
       }
     },

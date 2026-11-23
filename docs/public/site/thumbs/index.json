@@ -5367,6 +5367,14 @@
     "sourcePath": "/characters/story/ep01-p34-latest.webp",
     "sourceSha256": "dfc6453b93f1e152157a03b2d4d9814e6e32e5523141a652ae5b4fcae6c99fc9"
   },
+  "world/ensemble-artbook-4x3-latest": {
+    "path": "/site/thumbs/world/ensemble-artbook-4x3-latest.webp",
+    "width": 480,
+    "height": 360,
+    "sha256": "460a675dd52d1a4d451b4439c53809d5a55fc1b3fb414ad6785daf92caacd047",
+    "sourcePath": "/characters/world/ensemble-artbook-4x3-latest.webp",
+    "sourceSha256": "3ead1993b04e9eb8e41d482a012227dd8b3bdd3851fdd199cec52a3e841083cc"
+  },
   "world/ensemble-artbook-latest": {
     "path": "/site/thumbs/world/ensemble-artbook-latest.webp",
     "width": 480,
@@ -5374,6 +5382,14 @@
     "sha256": "c14a48d127732c6a9c480f31c72169a050ba2e5d66446747354fca345756355a",
     "sourcePath": "/characters/world/ensemble-artbook-latest.webp",
     "sourceSha256": "6be553d08e119b38349f2646265516ba7aa18065a369f37afa604136e5426a80"
+  },
+  "world/ensemble-artbook-x-banner-latest": {
+    "path": "/site/thumbs/world/ensemble-artbook-x-banner-latest.webp",
+    "width": 480,
+    "height": 160,
+    "sha256": "3ad104517d27c4071d6c6d8d6e7f906e0e82a2e8d45715283cc3e4111e3ca8d9",
+    "sourcePath": "/characters/world/ensemble-artbook-x-banner-latest.webp",
+    "sourceSha256": "c3ecf22f111f6bc0f8b7217225585e205ea5ae0fb38b41049737549d1419e841"
   },
   "world/ensemble-spot-ange-latest": {
     "path": "/site/thumbs/world/ensemble-spot-ange-latest.webp",
@@ -5463,6 +5479,14 @@
     "sourcePath": "/characters/world/ensemble-spot-wylin-latest.webp",
     "sourceSha256": "1eb64d0edd7cb3263a8d5395b48303d270820b6810da549d830e1e977a3d6e04"
   },
+  "world/ensemble-starport-4x3-latest": {
+    "path": "/site/thumbs/world/ensemble-starport-4x3-latest.webp",
+    "width": 480,
+    "height": 360,
+    "sha256": "bf8c7b30096765b8f441052a0d37013eef7ef273db1e500649c5385e6d7a2fe7",
+    "sourcePath": "/characters/world/ensemble-starport-4x3-latest.webp",
+    "sourceSha256": "8d01229da6d319864c90600d90d5ef5f0f9054b4a842f1930c5aea252021093b"
+  },
   "world/ensemble-starport-latest": {
     "path": "/site/thumbs/world/ensemble-starport-latest.webp",
     "width": 480,
@@ -5470,6 +5494,14 @@
     "sha256": "2ce08e2aa298d44da70b8709540b710fc770cc3c740789bf5cb190a49decc7d0",
     "sourcePath": "/characters/world/ensemble-starport-latest.webp",
     "sourceSha256": "042a0bd51dd050010b2413071b4b92e1a6823de0419eaeb93dc29d6c940bb65e"
+  },
+  "world/ensemble-starport-x-banner-latest": {
+    "path": "/site/thumbs/world/ensemble-starport-x-banner-latest.webp",
+    "width": 480,
+    "height": 160,
+    "sha256": "2cf577ad79ab71e8a637afcb03393b5f50fed1da5c00efbc80822f78603552bf",
+    "sourcePath": "/characters/world/ensemble-starport-x-banner-latest.webp",
+    "sourceSha256": "8ca42e0cd210de942f323653f0c846cd851143de7f0ad8b2783f0d3b127c1c46"
   },
   "world/libra-cleaner-card-latest": {
     "path": "/site/thumbs/world/libra-cleaner-card-latest.webp",

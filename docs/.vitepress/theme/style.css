@@ -1984,6 +1984,12 @@ a.coin-slot:hover {
   color: var(--artbook-brass);
   font-weight: 700;
 }
+.ensemble-hero__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
 .ensemble-hero__switcher {
   display: inline-flex;
   gap: 2px;
@@ -2037,6 +2043,34 @@ a.coin-slot:hover {
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
+  transition: aspect-ratio .22s ease;
+}
+.ensemble-canvas-wrap--4x3 {
+  aspect-ratio: 4 / 3;
+}
+.ensemble-canvas-wrap--xbanner {
+  aspect-ratio: 3 / 1;
+}
+.ensemble-format-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+  margin-top: 8px;
+  padding: 7px 14px;
+  border: 1px solid var(--bunny-rule);
+  background: var(--bunny-paper);
+  color: var(--bunny-ink-2);
+  font-size: 12px;
+}
+.ensemble-format-strip a {
+  color: var(--bunny-ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+.ensemble-format-strip a:hover {
+  color: var(--artbook-vermilion);
 }
 .ensemble-hero__canvas,
 .ensemble-hero__canvas .release-image,

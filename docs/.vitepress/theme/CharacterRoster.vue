@@ -8,7 +8,9 @@ import { data as story } from '../data/story.data.mjs'
 import WorldImage from './components/WorldImage.vue'
 
 type KvVariant = 'artbook' | 'starport'
+type KvAspect = '16x9' | '4x3' | 'xbanner'
 const activeKv = ref<KvVariant>('artbook')
+const activeAspect = ref<KvAspect>('16x9')
 const hoveredKey = ref<string | null>(null)
 const pinnedKey = ref<string | null>(null)
 const activeRaceFilter = ref<string>('all')
@@ -344,10 +346,29 @@ const activeSpotKey = computed(() => hoveredKey.value ?? pinnedKey.value)
 const rosterById = computed(() => Object.fromEntries(data.roster.map((item) => [item.id, item])))
 const activePin = computed(() => activeSpotKey.value ? (ensemblePins.find((p) => p.key === activeSpotKey.value) ?? null) : null)
 const activePinCharacter = computed(() => activePin.value ? rosterById.value[activePin.value.characterId] : null)
+const activeCanvasId = computed(() => {
+  const prefix = activeKv.value === 'artbook' ? 'ensemble-artbook' : 'ensemble-starport'
+  if (activeAspect.value === '4x3') return `${prefix}-4x3-latest`
+  if (activeAspect.value === 'xbanner') return `${prefix}-x-banner-latest`
+  return `${prefix}-latest`
+})
+const activeCanvasAsset = computed(() => world?.assets?.[activeCanvasId.value] ?? null)
+
+function pinCoords(pin: HotspotPin) {
+  const pos = activeKv.value === 'artbook' ? pin.artbook : pin.starport
+  if (activeAspect.value === '4x3') {
+    const padTop = activeKv.value === 'artbook' ? 500 : 360
+    return { x: pos.x, y: Number(((padTop + pos.y * 21.6) / 28.8).toFixed(2)) }
+  }
+  if (activeAspect.value === 'xbanner') {
+    return { x: Number(((1320 + pos.x * 38.4) / 64.8).toFixed(2)), y: pos.y }
+  }
+  return pos
+}
+
 const dossierDockRight = computed(() => {
   if (!activePin.value) return false
-  const pos = activeKv.value === 'artbook' ? activePin.value.artbook : activePin.value.starport
-  return pos.x < 50
+  return pinCoords(activePin.value).x < 50
 })
 const ep01 = computed(() => story.episodesById.ep01 ?? story.episodes[0])
 
@@ -384,12 +405,28 @@ function togglePinCharacter(key: string) {
 onBeforeUnmount(() => clearLeaveTimer())
 
 function pinStyle(pin: HotspotPin) {
-  const pos = activeKv.value === 'artbook' ? pin.artbook : pin.starport
+  const pos = pinCoords(pin)
   return { left: `${pos.x}%`, top: `${pos.y}%` }
 }
 
 function spotLayerStyle(pin: HotspotPin) {
   const b = pin.boxPct
+  if (activeAspect.value === '4x3') {
+    return {
+      left: `${b.left}%`,
+      top: `${Number(((500 + b.top * 21.6) / 28.8).toFixed(4))}%`,
+      width: `${b.width}%`,
+      height: `${Number((b.height * 0.75).toFixed(4))}%`,
+    }
+  }
+  if (activeAspect.value === 'xbanner') {
+    return {
+      left: `${Number(((1320 + b.left * 38.4) / 64.8).toFixed(4))}%`,
+      top: `${b.top}%`,
+      width: `${Number(((b.width * 3840) / 6480).toFixed(4))}%`,
+      height: `${b.height}%`,
+    }
+  }
   return {
     left: `${b.left}%`,
     top: `${b.top}%`,
@@ -397,6 +434,18 @@ function spotLayerStyle(pin: HotspotPin) {
     height: `${b.height}%`,
   }
 }
+
+const hitmapViewBox = computed(() => {
+  if (activeAspect.value === '4x3') return '0 0 3840 2880'
+  if (activeAspect.value === 'xbanner') return '0 0 6480 2160'
+  return '0 0 3840 2160'
+})
+
+const hitmapTransform = computed(() => {
+  if (activeAspect.value === '4x3') return 'translate(0, 500)'
+  if (activeAspect.value === 'xbanner') return 'translate(1320, 0)'
+  return undefined
+})
 
 function matchesRaceFilter(characterId: string) {
   if (activeRaceFilter.value === 'all') return true
@@ -416,35 +465,72 @@ function padIndex(index: number) {
         <p class="ensemble-hero__plate">
           <span>PLATE NO. 00</span> — 白塔星港露台 · 十一人集结主视觉（悬停画中任意人物即可点亮赛璐璐涂色并预览档案）
         </p>
-        <div class="ensemble-hero__switcher" role="tablist" aria-label="主视觉画风切换">
-          <button
-            type="button"
-            role="tab"
-            :aria-selected="activeKv === 'artbook'"
-            :class="{ 'is-active': activeKv === 'artbook' }"
-            @click="activeKv = 'artbook'"
-          >画集彩铅原画（悬停点亮涂色）</button>
-          <button
-            type="button"
-            role="tab"
-            :aria-selected="activeKv === 'starport'"
-            :class="{ 'is-active': activeKv === 'starport' }"
-            @click="activeKv = 'starport'"
-          >炽环门赛璐璐全景</button>
+        <div class="ensemble-hero__controls">
+          <div class="ensemble-hero__switcher" role="tablist" aria-label="主视觉画风切换">
+            <button
+              type="button"
+              role="tab"
+              :aria-selected="activeKv === 'artbook'"
+              :class="{ 'is-active': activeKv === 'artbook' }"
+              @click="activeKv = 'artbook'"
+            >画集彩铅原画（悬停点亮涂色）</button>
+            <button
+              type="button"
+              role="tab"
+              :aria-selected="activeKv === 'starport'"
+              :class="{ 'is-active': activeKv === 'starport' }"
+              @click="activeKv = 'starport'"
+            >炽环门赛璐璐全景</button>
+          </div>
+          <div class="ensemble-hero__switcher ensemble-hero__switcher--aspect" role="tablist" aria-label="主视觉画幅切换">
+            <button
+              type="button"
+              role="tab"
+              :aria-selected="activeAspect === '16x9'"
+              :class="{ 'is-active': activeAspect === '16x9' }"
+              @click="activeAspect = '16x9'"
+            >16:9 宽屏</button>
+            <button
+              type="button"
+              role="tab"
+              :aria-selected="activeAspect === '4x3'"
+              :class="{ 'is-active': activeAspect === '4x3' }"
+              @click="activeAspect = '4x3'"
+            >4:3 画幅</button>
+            <button
+              type="button"
+              role="tab"
+              :aria-selected="activeAspect === 'xbanner'"
+              :class="{ 'is-active': activeAspect === 'xbanner' }"
+              @click="activeAspect = 'xbanner'"
+            >X 横幅 3:1</button>
+          </div>
         </div>
       </div>
 
       <div class="ensemble-hero__frame">
         <div class="ensemble-hero__stage" @mouseleave="leaveStageImmediate">
-          <div class="ensemble-canvas-wrap">
-            <div class="ensemble-hero__canvas" :hidden="activeKv !== 'artbook'">
+          <div class="ensemble-canvas-wrap" :class="`ensemble-canvas-wrap--${activeAspect}`">
+            <div class="ensemble-hero__canvas" :hidden="!(activeKv === 'artbook' && activeAspect === '16x9')">
               <WorldImage id="ensemble-artbook-latest" />
             </div>
-            <div v-if="world.assets['ensemble-starport-latest']" class="ensemble-hero__canvas" :hidden="activeKv !== 'starport'">
+            <div v-if="world.assets['ensemble-artbook-4x3-latest']" class="ensemble-hero__canvas" :hidden="!(activeKv === 'artbook' && activeAspect === '4x3')">
+              <WorldImage id="ensemble-artbook-4x3-latest" />
+            </div>
+            <div v-if="world.assets['ensemble-artbook-x-banner-latest']" class="ensemble-hero__canvas" :hidden="!(activeKv === 'artbook' && activeAspect === 'xbanner')">
+              <WorldImage id="ensemble-artbook-x-banner-latest" />
+            </div>
+            <div v-if="world.assets['ensemble-starport-latest']" class="ensemble-hero__canvas" :hidden="!(activeKv === 'starport' && activeAspect === '16x9')">
               <WorldImage id="ensemble-starport-latest" />
             </div>
+            <div v-if="world.assets['ensemble-starport-4x3-latest']" class="ensemble-hero__canvas" :hidden="!(activeKv === 'starport' && activeAspect === '4x3')">
+              <WorldImage id="ensemble-starport-4x3-latest" />
+            </div>
+            <div v-if="world.assets['ensemble-starport-x-banner-latest']" class="ensemble-hero__canvas" :hidden="!(activeKv === 'starport' && activeAspect === 'xbanner')">
+              <WorldImage id="ensemble-starport-x-banner-latest" />
+            </div>
 
-            <!-- 11 Individual Per-Character Cel-Shaded Hover Layers (Artbook Mode) -->
+            <!-- 11 Individual Per-Character Cel-Shaded Hover Layers (Artbook Mode Across All 3 Ratios) -->
             <template v-for="pin in ensemblePins" :key="`spot-${pin.key}`">
               <figure
                 v-if="world.assets[pin.spotAssetId]"
@@ -469,24 +555,26 @@ function padIndex(index: number) {
             <svg
               v-show="activeKv === 'artbook'"
               class="ensemble-hitmap"
-              viewBox="0 0 3840 2160"
+              :viewBox="hitmapViewBox"
               preserveAspectRatio="none"
               aria-hidden="true"
             >
-              <g
-                v-for="pin in ensemblePins"
-                :key="`hit-${pin.key}`"
-                class="ensemble-hitmap__group"
-                :data-spot-key="pin.key"
-                @mouseenter="enterCharacter(pin.key)"
-                @mouseleave="scheduleLeaveCharacter"
-                @click.stop="togglePinCharacter(pin.key)"
-              >
-                <polygon
-                  v-for="(pts, pIdx) in pin.hitPolys"
-                  :key="pIdx"
-                  :points="pts"
-                />
+              <g :transform="hitmapTransform">
+                <g
+                  v-for="pin in ensemblePins"
+                  :key="`hit-${pin.key}`"
+                  class="ensemble-hitmap__group"
+                  :data-spot-key="pin.key"
+                  @mouseenter="enterCharacter(pin.key)"
+                  @mouseleave="scheduleLeaveCharacter"
+                  @click.stop="togglePinCharacter(pin.key)"
+                >
+                  <polygon
+                    v-for="(pts, pIdx) in pin.hitPolys"
+                    :key="pIdx"
+                    :points="pts"
+                  />
+                </g>
               </g>
             </svg>
 
@@ -532,6 +620,19 @@ function padIndex(index: number) {
             </div>
           </aside>
         </div>
+      </div>
+
+      <div v-if="activeCanvasAsset" class="ensemble-format-strip">
+        <span>
+          当前画幅规格：{{
+            activeAspect === '16x9'
+              ? '16:9 宽屏主视觉（3840 × 2160）'
+              : activeAspect === '4x3'
+                ? '4:3 标准画幅（3840 × 2880）'
+                : 'X 个人主页横幅 3:1（3840 × 1280 · 兼容 1500 × 500 标准尺寸）'
+          }}
+        </span>
+        <a :href="withBase(activeCanvasAsset.original.path)" target="_blank" rel="noopener">打开当前画幅无损原图 PNG ↗</a>
       </div>
 
       <div class="ensemble-editorial-lockup">

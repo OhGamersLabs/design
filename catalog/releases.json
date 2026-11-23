@@ -4030,8 +4030,20 @@
     },
     {
       "character": "world",
+      "path": "/media/world/ensemble-artbook-4x3-latest.png",
+      "key": "x_ops/design/characters/world/latest/ensemble-artbook-4x3-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
       "path": "/media/world/ensemble-artbook-latest.png",
       "key": "x_ops/design/characters/world/latest/ensemble-artbook-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/ensemble-artbook-x-banner-latest.png",
+      "key": "x_ops/design/characters/world/latest/ensemble-artbook-x-banner-latest.png",
       "contentType": "image/png"
     },
     {
@@ -4102,8 +4114,20 @@
     },
     {
       "character": "world",
+      "path": "/media/world/ensemble-starport-4x3-latest.png",
+      "key": "x_ops/design/characters/world/latest/ensemble-starport-4x3-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
       "path": "/media/world/ensemble-starport-latest.png",
       "key": "x_ops/design/characters/world/latest/ensemble-starport-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/ensemble-starport-x-banner-latest.png",
+      "key": "x_ops/design/characters/world/latest/ensemble-starport-x-banner-latest.png",
       "contentType": "image/png"
     },
     {
