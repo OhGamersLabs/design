@@ -4410,10 +4410,10 @@
   "origins/soren-vane-original-latest": {
     "path": "/site/thumbs/origins/soren-vane-original-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "7c7d16729e2cf2770bbe42169500e2739a100f4656cf65cd027e0856c913e697",
+    "height": 720,
+    "sha256": "113bb5eaafc6e83d38ac6f5212f21e81d26074e3362595e7094635f658e3b19e",
     "sourcePath": "/characters/origins/soren-vane-original-latest.webp",
-    "sourceSha256": "69da3cd87debb90a9eae2dabff704dbdfae9c11fa7a20918196dd422b83c2c67"
+    "sourceSha256": "6d51d4762c5323e720046afdbf9b53bce01c27fbd321b5e5839c04e174ac2b7c"
   },
   "origins/wylin-original-latest": {
     "path": "/site/thumbs/origins/wylin-original-latest.webp",
@@ -4842,538 +4842,602 @@
   "soren-vane/body-back-latest": {
     "path": "/site/thumbs/soren-vane/body-back-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "061da49299ff7169e74890239275b2111aefb65ace4ac9f20ab719bedf329954",
+    "height": 720,
+    "sha256": "455c1e22eec03069775eb531f5ca84e491bd32f79b7c1b02e3fd46bd91669fdd",
     "sourcePath": "/characters/soren-vane/body-back-latest.webp",
-    "sourceSha256": "5eb6637f2c2dfc1875a89511fa375be8d08fc139a323d1dbe58b4228d7a3a994"
+    "sourceSha256": "b33f34a93f703b8336f4e52ed5b03e3b638ff30ed31850dc00e652cd1fb78ab0"
   },
   "soren-vane/body-front-latest": {
     "path": "/site/thumbs/soren-vane/body-front-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "b0fb822a3506277e64ab60584ba21ffb2d2da9af0181e917be13bf1f823fafcb",
+    "height": 720,
+    "sha256": "e515ee06918353d88612063bfbf414847ed8f34ac2ad7a105220f6694abcb6e5",
     "sourcePath": "/characters/soren-vane/body-front-latest.webp",
-    "sourceSha256": "f885278846d7d308b14cea160a9ea2b77b4dec46ccb4df0ff66d96a4cd9b6d3c"
+    "sourceSha256": "b762b0126421bf08d5d9a09a7fdcc985a45a891e5f27a9f79cd70b81da0650e9"
   },
   "soren-vane/body-right-latest": {
     "path": "/site/thumbs/soren-vane/body-right-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "4080491170169e42931b06f3c4232785b364b3379a47f4efaa9d4e5e6afcc13b",
+    "height": 720,
+    "sha256": "ff2c04134c6ce3e08ccabfd3fd00acc6e44d40e5b468e6d9d966168f8fcc9d82",
     "sourcePath": "/characters/soren-vane/body-right-latest.webp",
-    "sourceSha256": "b6738b03edf52e427f58b40e1dff7ce7d38b12f7f47d4de7032ebf8e420847c9"
+    "sourceSha256": "6c73cd066d7a17c6942fbf423c563385c1eb815c8061b9243688b069e1d857e2"
   },
   "soren-vane/body-tpose-back-latest": {
     "path": "/site/thumbs/soren-vane/body-tpose-back-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "5e27f3d1ad29c8c4e28d526cee85b5878d8e1d28d412cf75864d77e963eedfa8",
+    "sha256": "55c7399770018da3d8b2c55a61c0c62d17fa3f0d83f7ae0e2192132d56657469",
     "sourcePath": "/characters/soren-vane/body-tpose-back-latest.webp",
-    "sourceSha256": "256981f8c99370730134e2661bc3740c9b4531e2b351cefbb5c5c4fb04ff08d1"
+    "sourceSha256": "ce3864b6ee65d18f5a7e63d5b3501ffc84a85358942afba7d962a98858dc5851"
   },
   "soren-vane/body-tpose-front-latest": {
     "path": "/site/thumbs/soren-vane/body-tpose-front-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "1cdbb2c50dc1ed24210134d28ee97bbc33e77736fd138e183a33b35e40bcf64f",
+    "sha256": "7719c296b2af7734dd83b8d8af340295497a3eea123d7c503dd58733b9c2ff49",
     "sourcePath": "/characters/soren-vane/body-tpose-front-latest.webp",
-    "sourceSha256": "40b15a80785a256929ef47d823fa7c15b460c715bc551ac1bb42eb62f700be0b"
+    "sourceSha256": "c0f44cde7b2ac0af9c30d9943d066dca4c06091291f839f71d1958210a303205"
   },
   "soren-vane/body-tpose-left-latest": {
     "path": "/site/thumbs/soren-vane/body-tpose-left-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "45eaade3a249b80accad80b30a7a8891787f7d23e5852d940f72a9ad40d1e96c",
+    "sha256": "293ee386e0b319366cc88068854f8e76d34b4bdace43167979f624338aa127a1",
     "sourcePath": "/characters/soren-vane/body-tpose-left-latest.webp",
-    "sourceSha256": "3835c5d4cb61036bd0ed8ea0dd521745757351b85d9930879597f13c1983c346"
+    "sourceSha256": "ae4fecf69ebcac7f1936797fc0b6e2c9ed2346c10b37d27e49716fb99e10bb77"
   },
   "soren-vane/body-tpose-right-latest": {
     "path": "/site/thumbs/soren-vane/body-tpose-right-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "8d7f90fccb21cdee8ea5f276984ad4f1fb6f6b42a832db707d8b25cdf641abe8",
+    "sha256": "62aad818db3ac9841b4fa1161069c288c06e7e986ebd2438b8a1d4e550619fc3",
     "sourcePath": "/characters/soren-vane/body-tpose-right-latest.webp",
-    "sourceSha256": "e5a071c670dc6d73a326e6829d3bf1740c40a741b627d4f8b58f41e90e5256cc"
+    "sourceSha256": "08be8c849a70a30fb0e19e59d12ab363085a0f368624b17af87b4f8616fe08f0"
   },
   "soren-vane/breakdown-sheet-latest": {
     "path": "/site/thumbs/soren-vane/breakdown-sheet-latest.webp",
     "width": 480,
     "height": 300,
-    "sha256": "f104d73ee71908d2c51293fbccf9bdae3e239e7c0f27dcc0275d7f30a3f5780b",
+    "sha256": "e88d772b2e30cf6c8be702265335ead5e844fb998082bcd750cd6d1521f40a94",
     "sourcePath": "/characters/soren-vane/breakdown-sheet-latest.webp",
-    "sourceSha256": "2a7a722d4062ca06f2b70ecc70fd77c9f7f0c1313a8961acf178387c2b98fa13"
+    "sourceSha256": "d638cd3381d80fad1e094308d539aa3d4510c099564b467a2ba6116321731407"
   },
   "soren-vane/character-card-latest": {
     "path": "/site/thumbs/soren-vane/character-card-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "5d5420dc0b41afbec32255ff9d00e0681db83d12260eb4180f9a63e967eded5d",
+    "sha256": "900e2500282e7a51023bc79453f37919bd24143d3ce38afd6564681a515d9456",
     "sourcePath": "/characters/soren-vane/character-card-latest.webp",
-    "sourceSha256": "b7e7e9f3ff5349c37a849b773e0026fd65f64d9bbbe7b3353a183109b312ab54"
+    "sourceSha256": "82695880e1c386222444c8160face3f3dc59be573bbf14ac55fd53ddc7b5a7a5"
   },
   "soren-vane/expressions-sheet-latest": {
     "path": "/site/thumbs/soren-vane/expressions-sheet-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "531f667297a6fa6dba819d404d17b541fd7f146cb9a03e2b1f8e24481b8b0cd9",
+    "height": 720,
+    "sha256": "22258826eb39631583a998d0280578b687127a9381ab6eea41ceb4864db8a419",
     "sourcePath": "/characters/soren-vane/expressions-sheet-latest.webp",
-    "sourceSha256": "ea6feedecbd6cd1bfefd45843dafa99dd5bde268f9b44ea4468abd3208cc8731"
+    "sourceSha256": "03301dea266e634d1382844eb75c1059fb4ff745eab14fd3cfedfad6dc1c801f"
   },
   "soren-vane/face-sheet-latest": {
     "path": "/site/thumbs/soren-vane/face-sheet-latest.webp",
     "width": 480,
-    "height": 321,
-    "sha256": "ebc31d452e7bcf6a2b5989361b48239271b49aac0090d61af75e9edfed8ee7d5",
+    "height": 320,
+    "sha256": "7449a1ba5da94822e37adbbfbcd74076591bb2ba4f81cf86e3d1e4d559f94dde",
     "sourcePath": "/characters/soren-vane/face-sheet-latest.webp",
-    "sourceSha256": "379dd5e84fa7f03f2bfb78911dfc27bbbb86db451812ac5bfcfa05940b44ba31"
+    "sourceSha256": "672b94744ad823bc0d6fc885f3355c6e6553103361eb2662bef0e995182ffdd8"
   },
   "soren-vane/inner-shirt-back-latest": {
     "path": "/site/thumbs/soren-vane/inner-shirt-back-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "b43fa3705a60e9fc195db83d62821e3f3bee69a5f243386c95dc48194cd0dfc9",
+    "height": 720,
+    "sha256": "8579ce40778da5f9fbdc15de4dfd4aa438249f9841d3758f4f20958e738887f8",
     "sourcePath": "/characters/soren-vane/inner-shirt-back-latest.webp",
-    "sourceSha256": "f97616232eb75e959162ff1c5ce7ae0e65d5fb5dfc93140c15688b1723852afc"
+    "sourceSha256": "a45c317b096ba889b30cfb5be21ef991df6a6e0af55e6c85da8d8be7fa0bd7fe"
   },
   "soren-vane/inner-shirt-board-latest": {
     "path": "/site/thumbs/soren-vane/inner-shirt-board-latest.webp",
     "width": 480,
-    "height": 321,
-    "sha256": "bdfb0deda5ee112f4eb9163c5ab368e379eb7ddce364aaf1b43cd3f5666cf399",
+    "height": 320,
+    "sha256": "ee25504446fee950d50cac9bbfd32a8b820cb3f1a51e66386c7ef23b6788ebc6",
     "sourcePath": "/characters/soren-vane/inner-shirt-board-latest.webp",
-    "sourceSha256": "5981e055a70398af5019efd7bc88cf320250f35929d7091ef8ee1390e1799972"
+    "sourceSha256": "3bb25849d17327442bfb601587a5ae264e1e638c21708ba7aba8e8eff940007d"
   },
   "soren-vane/inner-shirt-front-latest": {
     "path": "/site/thumbs/soren-vane/inner-shirt-front-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "d6c9f976a5de152dd050cd590708d1ceaf491584b11b6139af2de610754ee30a",
+    "height": 720,
+    "sha256": "583c06a1014b880820922093f67f8ade9462e1342b2d8b648d1ede855d5ff37c",
     "sourcePath": "/characters/soren-vane/inner-shirt-front-latest.webp",
-    "sourceSha256": "f569db8a8ddc381baa1a911c033125346467f914758926f1876ec376a2cd01e3"
+    "sourceSha256": "cb3aee07489d892c3a10bbeeb55dac0b9eb521ad199ac807b5e9b2afb88c05d7"
   },
   "soren-vane/inner-shirt-right-latest": {
     "path": "/site/thumbs/soren-vane/inner-shirt-right-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "14407589dbe242680d7efd1e6916b27c83a6b77cca95640f8d0b0111edd16cc6",
+    "height": 720,
+    "sha256": "67034135473fd25ec07ec3612511defe0115fb0c1d7a44a518bec900377b9ae0",
     "sourcePath": "/characters/soren-vane/inner-shirt-right-latest.webp",
-    "sourceSha256": "2cf43ca2e9744727b99c8b07dc80fe5fb88b504ea162e2b8fcf27a0a44ed6210"
+    "sourceSha256": "c4cbce6e407440455cdd4c6c8d28ffd43e5f80b899b01a0ee66125e5b8dd4334"
   },
   "soren-vane/inner-shirt-tpose-back-latest": {
     "path": "/site/thumbs/soren-vane/inner-shirt-tpose-back-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "8a9297baa83938f7268e32dee854a0f3a5f5ddc1e4d622d213c486200413af38",
+    "sha256": "71cbe8aa87f5ea8a24cca18fd5e475c13f5294fa472ca1f91f62e3cf9b294fb1",
     "sourcePath": "/characters/soren-vane/inner-shirt-tpose-back-latest.webp",
-    "sourceSha256": "372fc163f4fdcfa2255ee54426bf10d6ce1bf73ab16c883f03b31c3a4049bb5d"
+    "sourceSha256": "0b1c6f645a50401adb3e0c2ee2a8bad86d01e26dac894c6e8abc097091d69e22"
   },
   "soren-vane/inner-shirt-tpose-front-latest": {
     "path": "/site/thumbs/soren-vane/inner-shirt-tpose-front-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "e89fcd26579d1bae101a2a22b9270e421361a2d7d6aad30e79dd0e8bf10c654b",
+    "sha256": "f9779d74d7141c549b20c963565c34f85279a10dabd71bb83d76e18d111c019c",
     "sourcePath": "/characters/soren-vane/inner-shirt-tpose-front-latest.webp",
-    "sourceSha256": "eb355a497152957142644e897ca96591e8928f4806592c0a4878ef1638975084"
+    "sourceSha256": "a2512145192eb11df453a36f5ff833e07a295d4d3efaba55abc6d0f4de85aed2"
   },
   "soren-vane/inner-shirt-tpose-left-latest": {
     "path": "/site/thumbs/soren-vane/inner-shirt-tpose-left-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "3cdbe00f101918672c141c8b50a6fbaf1274e420c8689fb725962f649eef1cf3",
+    "sha256": "df9b20ad2798fe3c2b46e8cac8f58f3961e68da1ceaaa3f310ae913b45dc741a",
     "sourcePath": "/characters/soren-vane/inner-shirt-tpose-left-latest.webp",
-    "sourceSha256": "eb97fb191fe1da9f2c3c166dd648cf4da30cab8d5b8247f3f6488fe2cc238b94"
+    "sourceSha256": "b9b7a57828c679bd38642587fe9b9af9727f7315bd94ebddbbde8475e409fbf8"
   },
   "soren-vane/inner-shirt-tpose-right-latest": {
     "path": "/site/thumbs/soren-vane/inner-shirt-tpose-right-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "3983c1ca26c3dc17ede43db028ee9e1fbfe46644adfad5b282f9e0b56d467fab",
+    "sha256": "518a6f698c7a6c61be57b616f191d1a4e5929b316a4b64563527d90c6c684dcd",
     "sourcePath": "/characters/soren-vane/inner-shirt-tpose-right-latest.webp",
-    "sourceSha256": "b9996d75927fb38eb61e76fefed713dc116e4a7b0bc84ba2274e5cf5fd0992b0"
+    "sourceSha256": "e3922e6f0ef6a8f298c2da3a37364a3bb94666b5d5670857277e06dd2608ef0c"
   },
   "soren-vane/magistrate-coat-back-latest": {
     "path": "/site/thumbs/soren-vane/magistrate-coat-back-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "438e4df10c020a8569744f0f6d12374e1c8b4134ead8a29a0a80cfa36a9cb07d",
+    "height": 720,
+    "sha256": "50b0f18cfb872a820ca179fa9c40fc549ec23d2131d49b2f15c1917cc0708c2f",
     "sourcePath": "/characters/soren-vane/magistrate-coat-back-latest.webp",
-    "sourceSha256": "e2bf56a3050f075f30b34996ab8ed61917d8319b70583bbdb73777b9b0dcef98"
+    "sourceSha256": "6a5804ead6eebe8ac1ca0fe98ce6f26d8f7fe63d671af6febd4e56970ffdc009"
   },
   "soren-vane/magistrate-coat-board-latest": {
     "path": "/site/thumbs/soren-vane/magistrate-coat-board-latest.webp",
     "width": 480,
-    "height": 321,
-    "sha256": "98f7b8c8ba4916a72c4b69256c0957d1b492a09e2ab72ebea1eea07bf86f4e35",
+    "height": 320,
+    "sha256": "0f08b47fa27f95c7aca2697b3f627e19aca68aa2a47af8c9c404fda86ca4ed14",
     "sourcePath": "/characters/soren-vane/magistrate-coat-board-latest.webp",
-    "sourceSha256": "c41062cfdaecfe133dc3b6649a886d5db5529c93332125ec1f4372cae17c512c"
+    "sourceSha256": "0a20bdc5510c9aae44e6755758e43a9332b9f4e8b5b8271690194e12b020d5db"
   },
   "soren-vane/magistrate-coat-front-latest": {
     "path": "/site/thumbs/soren-vane/magistrate-coat-front-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "44356befa60350b02ce487b138f34cdba5d58e78163759940054c214ffa380b0",
+    "height": 720,
+    "sha256": "61de08e6e028a6ff40e39f7b431b01cd097a6a2339baca3eeca0878e50520bc2",
     "sourcePath": "/characters/soren-vane/magistrate-coat-front-latest.webp",
-    "sourceSha256": "54c26826acc9696455565c52847c0d524a2c6d9879f269b984f094de03022188"
+    "sourceSha256": "7b5db1c12de5216cd60486caed64fa7f821e35f95ac2fccc4eb635b0d73eb00a"
   },
   "soren-vane/magistrate-coat-right-latest": {
     "path": "/site/thumbs/soren-vane/magistrate-coat-right-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "f65d37cf76ef8eebe31470803c668f8a5235081c5ca09507a2fea015863fd2f4",
+    "height": 720,
+    "sha256": "7936122b1c6272a41fcdb5a0e157cde409f6c4e1ed16ff45a9bfe147c8b7c337",
     "sourcePath": "/characters/soren-vane/magistrate-coat-right-latest.webp",
-    "sourceSha256": "97279d462d43c652be8924237aae34ffa6df45422b133db3891cc3294523c987"
+    "sourceSha256": "40cccb3a9bed08b406a8c3ebdc16f4614e8dc34eb848323789497dc8cd06e5fa"
   },
   "soren-vane/magistrate-coat-tpose-back-latest": {
     "path": "/site/thumbs/soren-vane/magistrate-coat-tpose-back-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "3c371a1a1ff4e8ae9976795cb350051eb384b234fbb3e742d8fe5dd81f9bb21a",
+    "sha256": "38e51e481c77d5c5b35c3471c95330c7e9a38da72b4a7db18441009b11c6e8de",
     "sourcePath": "/characters/soren-vane/magistrate-coat-tpose-back-latest.webp",
-    "sourceSha256": "e758259132a125456545c53f6dc142d4a143b1d34fcceb1db5ba20fbe7555cb7"
+    "sourceSha256": "2bba24c410e63c7047069ee2b7fd1008e17742326abd1e4d3a2cb5ff09947122"
   },
   "soren-vane/magistrate-coat-tpose-front-latest": {
     "path": "/site/thumbs/soren-vane/magistrate-coat-tpose-front-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "aed2559f412ef4a6d78eae6a935e86c3e68aa42dae6df6c21205f1f31dbdb5e5",
+    "sha256": "f725bacfcc8047d66a0592ed362eecddba04c29c8de0db0a0f3f37fe182ab104",
     "sourcePath": "/characters/soren-vane/magistrate-coat-tpose-front-latest.webp",
-    "sourceSha256": "99c44c1736b9be97d8de1a1ddd9565cfcf839817a5d42e078f230329064a693e"
+    "sourceSha256": "ebc62e605d29eb0ab0c80ac04727b1a9d4fbab7ed4d99ea7a03f0c22ba7a8078"
   },
   "soren-vane/magistrate-coat-tpose-left-latest": {
     "path": "/site/thumbs/soren-vane/magistrate-coat-tpose-left-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "519b13e7f57a47111223c767ddc9c162f236ad6a5b988c2873d34987e700573e",
+    "sha256": "c3f6f0ca0b95c9ee06e68ee588a47316f5e0c187e767083bfc38e7de9ce3773b",
     "sourcePath": "/characters/soren-vane/magistrate-coat-tpose-left-latest.webp",
-    "sourceSha256": "780d7fb570a58c499061401f5a5328de1d2bbeb97a85f0bfed0a8ced38eb450f"
+    "sourceSha256": "bde7163f200f84e832d8c5d7c4550c5e27ae09ca8c08d756d53a9fbe640ace78"
   },
   "soren-vane/magistrate-coat-tpose-right-latest": {
     "path": "/site/thumbs/soren-vane/magistrate-coat-tpose-right-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "c11a6a80336b174b085d88a4fc3e32b95c633e7080344b43daf6dee1578da0e1",
+    "sha256": "2ca2a6fc194330e74896c461690408966c6064f0975d3909a4eaf8a935b02fc4",
     "sourcePath": "/characters/soren-vane/magistrate-coat-tpose-right-latest.webp",
-    "sourceSha256": "3c40ee68bbd376d7435be0f92c00a40594d35dee9cc49282b5b13baca7141171"
+    "sourceSha256": "78f61fc7c2037bd885c4ca9f52f3a59cd89eb6275b2314adf77dce0291575c2a"
   },
   "soren-vane/vest-rig-back-latest": {
     "path": "/site/thumbs/soren-vane/vest-rig-back-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "63d201708e5e98e7bd20ae628ebe666fdcf62d97a93052101ad3a1477ca28236",
+    "height": 720,
+    "sha256": "cf72e05c7767eebc27130d4c9149b05c79cad76841d84fceedb7ea8bea2839dc",
     "sourcePath": "/characters/soren-vane/vest-rig-back-latest.webp",
-    "sourceSha256": "e04cb56b0e9b2eb55699746270cc1055509faf15f2744a763fb1b2a64c642fb4"
+    "sourceSha256": "70b031355180d1840499dab9b00282260c14497b2519c423949aa5623aec2809"
   },
   "soren-vane/vest-rig-board-latest": {
     "path": "/site/thumbs/soren-vane/vest-rig-board-latest.webp",
     "width": 480,
-    "height": 321,
-    "sha256": "332324a086c1ceeb2f97d4ce851ac8ac68ed733175c7e49a8be8e8caa5e55e5c",
+    "height": 320,
+    "sha256": "3a371891fca073430c333e0d78771ed8327bc047efd0bef8dc19a8d1d1afe184",
     "sourcePath": "/characters/soren-vane/vest-rig-board-latest.webp",
-    "sourceSha256": "03da5b73ec75db57d84cb4b8c62aa580622e0f1a6c1f04593d15eb1c7cc28ede"
+    "sourceSha256": "5e7737999f907b232b7d3462a3c9a3f27df09d642fdd08779cfd4ecf63d7d9ce"
   },
   "soren-vane/vest-rig-front-latest": {
     "path": "/site/thumbs/soren-vane/vest-rig-front-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "e10690862c9ad87e97100aaad4504f11b2ef8389dac61153f24ca5faeee2acc2",
+    "height": 720,
+    "sha256": "94d99f1d80d7b44417590e577787979d4e77e76531031e7fe1600c01b3b18c9d",
     "sourcePath": "/characters/soren-vane/vest-rig-front-latest.webp",
-    "sourceSha256": "6d242ca616e190c7f66c4f2d69e53b57c737324a6a186445e256e80a860201f8"
+    "sourceSha256": "4f13b7e866a1afe6bdf61937df1a01ae6390eb31be9cf48a1fa499deaf7dfed6"
   },
   "soren-vane/vest-rig-right-latest": {
     "path": "/site/thumbs/soren-vane/vest-rig-right-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "29a2843a930cff5e2b18ea1dc58c0e5cc6177ce90ef3cb1960ce0c915f5a7eb8",
+    "height": 720,
+    "sha256": "7ff1df2b9b6d00476bd1dd9ab5c84a9e948a70b4374be1a96f917c6efa9c5afe",
     "sourcePath": "/characters/soren-vane/vest-rig-right-latest.webp",
-    "sourceSha256": "f1fe880b1bebcedb35f8b654a775c634a9861d406d260562b04a2851a4e487a8"
+    "sourceSha256": "df950bd7da43bd7c875819db7e8655ad9381e77e0a8214c9edb0a1561dfd4be1"
   },
   "soren-vane/vest-rig-tpose-back-latest": {
     "path": "/site/thumbs/soren-vane/vest-rig-tpose-back-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "2473ddf6c6b1a828440c4671c72307cf3993a3fd2ca8bd916d4d28d5d3e3671d",
+    "sha256": "21d31e618950d21b7e06dfbfa57f38eec0d2cbf0ba347befba98a7bc9fb77fbd",
     "sourcePath": "/characters/soren-vane/vest-rig-tpose-back-latest.webp",
-    "sourceSha256": "161450231e4047cddaaa98bb5b8504640245a2cacb8fc0230ce397cded9bfdb7"
+    "sourceSha256": "bb0062257aaf4e1c40c36baa014c1ffc1f18d501daaf8bffea8cbe241219e9b9"
   },
   "soren-vane/vest-rig-tpose-front-latest": {
     "path": "/site/thumbs/soren-vane/vest-rig-tpose-front-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "4157fdaa42e50dee8356587a2e0f6b8407f54fae5cfeb15f3a6887f329e0f3ab",
+    "sha256": "0a70b5e83b362cdd7127ef6a4c1f432adc3690f70bf89ff623e1f71a21ace80c",
     "sourcePath": "/characters/soren-vane/vest-rig-tpose-front-latest.webp",
-    "sourceSha256": "e0ca081fab65ae7e7d863764e81184adff2612cdcf3af29a012b2d067c55e81c"
+    "sourceSha256": "6064cdb9a558c59d2b7ecd8673bea16496986fcf46a1498f580ff78234883bb8"
   },
   "soren-vane/vest-rig-tpose-left-latest": {
     "path": "/site/thumbs/soren-vane/vest-rig-tpose-left-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "7871aefb68f7d65e49fa1dec236f9b9af15f9c99caa40b4ea7f6aa4d5b1556db",
+    "sha256": "9a4f4d58fed851dc856b276114918a1484ddfc76c517699f31a566966132940a",
     "sourcePath": "/characters/soren-vane/vest-rig-tpose-left-latest.webp",
-    "sourceSha256": "8bb207b2590c7e684006bbd7c684298a5521c405d18cbd37e64b4d2dcc22a72a"
+    "sourceSha256": "87723a7ddcb45eaf4ac4ce73ed9efcc4264e4f83bc9ae57811451d6165d05540"
   },
   "soren-vane/vest-rig-tpose-right-latest": {
     "path": "/site/thumbs/soren-vane/vest-rig-tpose-right-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "0775d9ab25b9c94afa436e6188bb42fd673d3f3da7fe21e48fecd102907b70f8",
+    "sha256": "3ef3161ae0b5a7632ebeeb5dc3036dc67521d77056c5ca0bc7ef83c0c07892b1",
     "sourcePath": "/characters/soren-vane/vest-rig-tpose-right-latest.webp",
-    "sourceSha256": "95f36b3960626211f7af0b5c4319c7fa3109753305a872ec76628e77325b79b9"
+    "sourceSha256": "bce7e9a6d9b9aa4555401f5348d83a8e01ae3f154aab7d589b96c3b14d00ce3d"
   },
   "soren-vane/young-soren-card-latest": {
     "path": "/site/thumbs/soren-vane/young-soren-card-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "b2d0e1c52fbfa530e83904a10902f4ac6748cc1b30b42ca86b3089ff8bdc0633",
+    "sha256": "c9ed69b260fb442c21a356257fd820f783f0c6cc36f4cae51caea3e80ae47941",
     "sourcePath": "/characters/soren-vane/young-soren-card-latest.webp",
-    "sourceSha256": "452ca9e61a4773d8d5adb923b572f436d851919f803aba8d2da09b1e61a20d17"
+    "sourceSha256": "f8edeb4552d7ae784c11d0cbf3a17fcece919c7265bab60876469c3a422376da"
   },
   "story/ep01-p01-latest": {
     "path": "/site/thumbs/story/ep01-p01-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "17447022b476cff3dea4d3815f0159afc5429406e957dd0e217e144b7ca5424d",
+    "sha256": "c6e90f0413bef0c5e3f075e318c56942d74e7829c3f6d3a77fed6b94b042542c",
     "sourcePath": "/characters/story/ep01-p01-latest.webp",
-    "sourceSha256": "403c2b1e4eef47e518435321f4f73c29eb4d4e7a57285954d2e887b0a94362e3"
+    "sourceSha256": "928f6eb5222ed317ce9c6dbe9bd2c3ab46a750afce8b5b5dadff829ef34969a4"
   },
   "story/ep01-p02-latest": {
     "path": "/site/thumbs/story/ep01-p02-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "f86f8e5c97b0e0618c51debad2687444d55b1ccb16e4d9177665bb1dcaa6d950",
+    "sha256": "9d7548a0803acb42211f0e3655929900bbd425bf9f459c430da90077aa644aa0",
     "sourcePath": "/characters/story/ep01-p02-latest.webp",
-    "sourceSha256": "497e643039fd344d0781eaece153a1fcccaeabddc5707abd4ec5ea5fb00007d1"
+    "sourceSha256": "fa7919862c7eeff36b6a90fca841d494c063df5612c1d7605bf282397aa3339a"
   },
   "story/ep01-p03-latest": {
     "path": "/site/thumbs/story/ep01-p03-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "8645905b07611730c8d63cb181ac24000a9641682d02228702d68060649b8042",
+    "sha256": "6e181ef12fbd1bc1f515a454377bdac4654d5cf16b9783d74662af48865442a4",
     "sourcePath": "/characters/story/ep01-p03-latest.webp",
-    "sourceSha256": "4c302f5df7845bfb7ff402bffa79ae725eac1ac65169f6dcfb597f58f114b2bc"
+    "sourceSha256": "692712595914ea7236a482f855aa8b917c78ea8bace969389a1a23280f544e2a"
   },
   "story/ep01-p04-latest": {
     "path": "/site/thumbs/story/ep01-p04-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "da56e07a2d31dde882ac2e0a1eca5af30110af2fb41bfbade8ae9dd11965f3d2",
+    "sha256": "c4df74a6a5f337bcf62b5cefd1cf48c26e4114f1f3ae8aa43b712d1318e028c0",
     "sourcePath": "/characters/story/ep01-p04-latest.webp",
-    "sourceSha256": "23ff1bbe772517d6a2194a1a567206c7b117b7dffb71ea4354fb60246136a016"
+    "sourceSha256": "d842ac24b3788f7aafab171545cab16eb1036b9ad9dce7b73d5c697d4b9953a9"
   },
   "story/ep01-p05-latest": {
     "path": "/site/thumbs/story/ep01-p05-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "b0e1172ca3408d3f23aa61b17b925597000274f944771f3f0f2b19d2c2478d3d",
+    "sha256": "50b35a982fe2297823e41b71c1960a42c0e3092d7962cc753e6bdfab03a4ce72",
     "sourcePath": "/characters/story/ep01-p05-latest.webp",
-    "sourceSha256": "c607cbd3cf0b109120f2adddd8854f5377e8414da8eccccf4d6f96b351aac39d"
+    "sourceSha256": "21cfba887491214f4a9e88f8d9f241647e9ade8f642837929e7f148f2920694d"
   },
   "story/ep01-p06-latest": {
     "path": "/site/thumbs/story/ep01-p06-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "0d8e6a8afb8637ddf7e44c5bd1709c6737ff0219fc9c7f0f51514c529cd1cc80",
+    "sha256": "88e52b26c3d37fdee2f8cc93398471815968bf89aa7ca23ba696d9348f49ee4f",
     "sourcePath": "/characters/story/ep01-p06-latest.webp",
-    "sourceSha256": "8b25b2dbb0586452483a317525b82a9b1c40153e406325fe0fe4433d4dcd4697"
+    "sourceSha256": "446a844a2ada64fe448ff066e030b4725b8edcd004d9eb54b4326967f7c55bc9"
   },
   "story/ep01-p07-latest": {
     "path": "/site/thumbs/story/ep01-p07-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "4f059ab12069473d79109173b438a74aeb71e2027982b152d561a1bfcb273049",
+    "sha256": "0009a1eba6b8e232394c372d41d0eea6d97eb03fbd13f23ae8a9eb153740d63b",
     "sourcePath": "/characters/story/ep01-p07-latest.webp",
-    "sourceSha256": "460232525f637068026770f8aed43f622e62771b469f31d5f7e9ed74e1cdf71e"
+    "sourceSha256": "20e5aea09c61583f6ab62f12ffa029bfb642352e23c46be31a0aea4bbe73f66f"
   },
   "story/ep01-p08-latest": {
     "path": "/site/thumbs/story/ep01-p08-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "5f01268f962f71f73107d4d594bfbb1f584581152ba258bb8874c9f377821ac6",
+    "sha256": "78f78e53ba6bbfa21394abad3bed86d1569b4eac6aaf37fd362e5f7f6dfec7e0",
     "sourcePath": "/characters/story/ep01-p08-latest.webp",
-    "sourceSha256": "62d6127e84dbfd03c721ce0f2f21ee0b97b805978c01e5360ca3a24af92a1a84"
+    "sourceSha256": "31f917965ac3a2c33f6cba85944d4c4844522c6aeb2c1d69c9637385f4a2a25f"
   },
   "story/ep01-p09-latest": {
     "path": "/site/thumbs/story/ep01-p09-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "aec4b1d901be52fcb32a713c3bf7b48d661f9fc1bb6dee4efe53bfbb8c5d1818",
+    "sha256": "95c5909bf705f2032d462dea86fdd0fc94a67db1e538248a6978626c4da7b6b4",
     "sourcePath": "/characters/story/ep01-p09-latest.webp",
-    "sourceSha256": "ac87d7c07e634f54099cdbc1171bdec2118dfd883de14c6e712583ec0e153051"
+    "sourceSha256": "4cfbc16bed9ea1062630fd357062a1e54b0f6653ccb5b063e5884d8033a1abc6"
   },
   "story/ep01-p10-latest": {
     "path": "/site/thumbs/story/ep01-p10-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "4a08b7483c3adcd9718e558d65919a436d9b85d86b535f8da0400cc31ba80103",
+    "sha256": "6375e7a28a54c4585bc2d70be858f87c6bb94d5f2df547c653cb7fd8f1b24491",
     "sourcePath": "/characters/story/ep01-p10-latest.webp",
-    "sourceSha256": "aec2b65aa618934433f826ef427ad5e780d962b08690c0fa09da9192b8998996"
+    "sourceSha256": "a2cd7a53cf30fe4c76488c2472ee95474430eb22fb9c03a8f025453882e37cd0"
   },
   "story/ep01-p11-latest": {
     "path": "/site/thumbs/story/ep01-p11-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "24dab8f35568d3d5aef280110be727c2a67faf35b3ae0a0b8fc337f522be5805",
+    "sha256": "67b5076c8994885026c7833466cac6e99594c59f53fd4a7c4c7d24015a4571a5",
     "sourcePath": "/characters/story/ep01-p11-latest.webp",
-    "sourceSha256": "649113d804c08ea47c72e15748104c145598b2d7e2d3f542927e021ac18d94b0"
+    "sourceSha256": "023c3c5aecd6a64be6cde4463474db2aa7b7b53e8a25e64b7b3191e6a201f21c"
   },
   "story/ep01-p12-latest": {
     "path": "/site/thumbs/story/ep01-p12-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "d8fb5ee2d18c327166b03a73f9f4ba81bcd5d4c002ccde9c9e12a340888a6eba",
+    "sha256": "ce66a063a7eee89022b748dcc23951a17f8895a9ede2b6864210e0fdb5cde5f3",
     "sourcePath": "/characters/story/ep01-p12-latest.webp",
-    "sourceSha256": "15589e3b8eb1d8d7b6f1ce2a5f96d1d433e84b8bfcf854f1e122130ce3a24fcd"
+    "sourceSha256": "82b20ef28af24b22837761d35fe68113a9b76aa00b01c4e6c1211adcc50a505a"
   },
   "story/ep01-p13-latest": {
     "path": "/site/thumbs/story/ep01-p13-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "2ecc6616fe6b4e02ff7f210b0d881a6a98ea582069ed042f7c2a3b3fb3313578",
+    "sha256": "7e39eb07bffa14f16f540bb2e0927a7382e3c744b27bc64ac0645a0c63ff9879",
     "sourcePath": "/characters/story/ep01-p13-latest.webp",
-    "sourceSha256": "4a733c1d29403a1aaae8a4a99329fbde5deb61df7e44c4cb07bc17daecf7d158"
+    "sourceSha256": "4ff189f87b156ce0fbdfb9a315b87095f0fbdd0885b7b13e6e46f77f1ac3268d"
   },
   "story/ep01-p14-latest": {
     "path": "/site/thumbs/story/ep01-p14-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "28dcd9efd94cc459691bcfabeb487f3ea98cd5483e675163353c2d785e61ab39",
+    "sha256": "0d7dbc5b03ff1937c8b59d850c7eaf48c91288fa3c4bf52efd05366b55733153",
     "sourcePath": "/characters/story/ep01-p14-latest.webp",
-    "sourceSha256": "d4c91c1505a786ac3361cd6e13eee0afe2df946668c53c8d62240d59786a1a76"
+    "sourceSha256": "fc5f465fb65465448f8812249273aa1c1d7134029f7ec1f357936de16a9b854d"
   },
   "story/ep01-p15-latest": {
     "path": "/site/thumbs/story/ep01-p15-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "755a5094992b3977afe9e773dd5e66a942a0b6ba6082cec886d43629f4351c34",
+    "sha256": "bab2560efd23bc121646a97048c1f87ae516414f50c96abc02f928f89733d14c",
     "sourcePath": "/characters/story/ep01-p15-latest.webp",
-    "sourceSha256": "2eb53bff840ecfb98a249ed6e253b12533a08209531002a7e57512cfa717e7a7"
+    "sourceSha256": "10842254cef7e67be7c7a89be3cb790731dab9061089183783c704e3b5f1f1ee"
   },
   "story/ep01-p16-latest": {
     "path": "/site/thumbs/story/ep01-p16-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "0171bc1c7690fef6f3da0196a8b3210915546006563edd55db88f2c8ff7e3ed8",
+    "sha256": "8a82d5a7f0435192096165fa2eea805dc3c3f45e70d243144f6b52e0c98c2e4d",
     "sourcePath": "/characters/story/ep01-p16-latest.webp",
-    "sourceSha256": "7ef59852dde021ad39fa5fb60ebb8fac9b9fcd8e0271ec2100cf3aafb7327fdd"
+    "sourceSha256": "66efe5bf11b30caa2a1122001f9180ca9bc9551c258f519177cc502c7b51da58"
   },
   "story/ep01-p17-latest": {
     "path": "/site/thumbs/story/ep01-p17-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "9ba1c919ae38db4c00dd4fce9e60921fb5902a9e22cf9fc726a01368521fc7aa",
+    "sha256": "c1cc2b1343c4d2de15b7fcdf9caa26c515d03ff3fb0b1a3d96a38445a61efac2",
     "sourcePath": "/characters/story/ep01-p17-latest.webp",
-    "sourceSha256": "fd08b452a3d1c1a01836e378017bc0c4210d30340f4c82abfc27f3f6d5b8641b"
+    "sourceSha256": "f7b9d351a37427403b8a19e3e15f1c48778277a6162761f83ec95bb4a93bb0ae"
   },
   "story/ep01-p18-latest": {
     "path": "/site/thumbs/story/ep01-p18-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "85d03d545363ee57db52edf03b3abfd340c7c4c937661f8be0186a9eee3030ff",
+    "sha256": "0d0c652bcad1e1179506020f87a2456777eabc60a812474a117753b691959a62",
     "sourcePath": "/characters/story/ep01-p18-latest.webp",
-    "sourceSha256": "c72cf98d6d299f00895cb0ead01a207a6e3de6c2a3497c3b396e7d7f11fc9def"
+    "sourceSha256": "41dcf4701536098c8b749f6caed07f2e4a6c299f3a003510ce2b20fa74228f26"
   },
-  "story/ep01-p19-20-latest": {
-    "path": "/site/thumbs/story/ep01-p19-20-latest.webp",
+  "story/ep01-p19-latest": {
+    "path": "/site/thumbs/story/ep01-p19-latest.webp",
     "width": 480,
-    "height": 320,
-    "sha256": "e589864f8a0e337a2872a33c263ceef01d14d5ea36a0dcd9104c3fc3162da6ba",
-    "sourcePath": "/characters/story/ep01-p19-20-latest.webp",
-    "sourceSha256": "6e38c1ab52c9fa651b98fc22e4769c9171ca1a27f8d8185c5d337bae1e87017e"
+    "height": 720,
+    "sha256": "47c297fd47b353933676b65f3a531e41a4ed9464f7f04ac6ae1531b4dbb482b7",
+    "sourcePath": "/characters/story/ep01-p19-latest.webp",
+    "sourceSha256": "9d4b435c641e8a468a15a324aea2b394e8504b38e54e569bb3291368b8ac282c"
+  },
+  "story/ep01-p20-latest": {
+    "path": "/site/thumbs/story/ep01-p20-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "14ffde8be2b386301c3a771affed4ddd6c945e28bc3ebc6279ecd6ae879f7601",
+    "sourcePath": "/characters/story/ep01-p20-latest.webp",
+    "sourceSha256": "83d7b5c23e9a3374bf13bd89f643f22f09262c2a58ecb02db01a2f6b3809ba35"
   },
   "story/ep01-p21-latest": {
     "path": "/site/thumbs/story/ep01-p21-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "e25b1076e1e0507203a6d39633f97429f0477ef1ea65c15f6cde8df385d80cfc",
+    "sha256": "dabb04aeb60f558fc2998b54e95e06688765695380a9a2599e8ecb05876504c8",
     "sourcePath": "/characters/story/ep01-p21-latest.webp",
-    "sourceSha256": "21af75aa05f6ca2a5fe7918554f5c72f35b894d9e7882849d3f3257a1fe53efc"
+    "sourceSha256": "d94e70f9c6ffa2e2f2b2e10df24556051176a8179443aea7e1333a3a9bbd43b9"
   },
   "story/ep01-p22-latest": {
     "path": "/site/thumbs/story/ep01-p22-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "58d8ceb5f760ed0ebebe74656d9b827efce2b5e3205822dbefd98b235ca2b787",
+    "sha256": "bcfaa7af051bdb8e31a2a4c2e8538e73078168083fd876dba29e648e1a1afd5b",
     "sourcePath": "/characters/story/ep01-p22-latest.webp",
-    "sourceSha256": "79057ed4f4c2db17c72e6ca605a03525faafa12fc77d25e4f8c015cc06b14bba"
+    "sourceSha256": "5f5cf1b161dbf27839ad174abdf9e96d4a57123bc387bc49fb6c828e96c3bced"
   },
   "story/ep01-p23-latest": {
     "path": "/site/thumbs/story/ep01-p23-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "c8998f6335e9a61e1f51181a30892deb1a31082d07994c9e1d9475eb34945718",
+    "sha256": "8a2a9f1cc30dd149363c9d98df811129e7e322ce5bc11837e25dc9dbbbec8eed",
     "sourcePath": "/characters/story/ep01-p23-latest.webp",
-    "sourceSha256": "4cad324b839cdcba6e16075784383d635947cc7fd71e65452c667af87817f753"
+    "sourceSha256": "32b1b801e64e071b6f1e1568dc6f868fa75ab6632dd130ec151f8a4ca1cd8d19"
   },
   "story/ep01-p24-latest": {
     "path": "/site/thumbs/story/ep01-p24-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "e2bff58ef54b03a82c2e97c60f45a3b4ad45830d6068382d8f4d2fa941655864",
+    "sha256": "3a27b80fa9369c93943be4689d667ee61698b10cec85c9b5d344f8e570f16f87",
     "sourcePath": "/characters/story/ep01-p24-latest.webp",
-    "sourceSha256": "61086bec764f107a70747f4e7c71f8d84b13591f28e066acd3ceb9ef95515f9e"
+    "sourceSha256": "7a56c2cec7d4b5df8fd19f7848d1d1122bf72482ae25e69eb5c9269c8e8b61d2"
   },
-  "story/ep01-p25-26-latest": {
-    "path": "/site/thumbs/story/ep01-p25-26-latest.webp",
+  "story/ep01-p25-latest": {
+    "path": "/site/thumbs/story/ep01-p25-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "d5e40b68203e8df920a0280a6ec2157bb00d82a55df485c5deaec7f4f81bb824",
+    "sourcePath": "/characters/story/ep01-p25-latest.webp",
+    "sourceSha256": "eecce32f8d4a0e750483317d3c451e23e1da60b5a3d85e0f3c644c4938f98c24"
+  },
+  "story/ep01-p26-latest": {
+    "path": "/site/thumbs/story/ep01-p26-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "99b868a2aeb5afd58ec52436251309fb4d58e632b55aa83f23887046d5541d61",
+    "sourcePath": "/characters/story/ep01-p26-latest.webp",
+    "sourceSha256": "62a2f7ed8b42917e8772a6c6d5f11f568092f821240f8b90fc89376a8b27bbd2"
+  },
+  "story/ep01-p27-28-latest": {
+    "path": "/site/thumbs/story/ep01-p27-28-latest.webp",
     "width": 480,
     "height": 320,
-    "sha256": "5a103ed958b59eebb157ce885cba49e0dc765eb407925c87fb1e228ab4d8d212",
-    "sourcePath": "/characters/story/ep01-p25-26-latest.webp",
-    "sourceSha256": "ad8c4504a02f6597bb0ac594e7ca65b18c9f9008061fa4bd2ef9c19cdfd6483f"
-  },
-  "story/ep01-p27-latest": {
-    "path": "/site/thumbs/story/ep01-p27-latest.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "9d47cebfd56c3137758d94c6b4d60044cf37a11ed11551a4f2090f09dc911fd9",
-    "sourcePath": "/characters/story/ep01-p27-latest.webp",
-    "sourceSha256": "c1b0c54ff974791402d1284389a86027a74bfb02917014aea1453dba0cd3fac1"
-  },
-  "story/ep01-p28-latest": {
-    "path": "/site/thumbs/story/ep01-p28-latest.webp",
-    "width": 480,
-    "height": 720,
-    "sha256": "4d4378852a2d49644ca0c5108b6b716b5b96fee955020f550245e784f4f50705",
-    "sourcePath": "/characters/story/ep01-p28-latest.webp",
-    "sourceSha256": "1b805aefc2407fce060f351d21501d2eb8e17a623c9f37f6f3a19f52d0a6ced5"
+    "sha256": "406784d0609bd10fdfa19b09dae9f90d885b70136c02090c16fcae273c45089a",
+    "sourcePath": "/characters/story/ep01-p27-28-latest.webp",
+    "sourceSha256": "a2e94ede8cb267e61ade752414ae8f1e693f1510d24364428484a5deb69cb7a5"
   },
   "story/ep01-p29-latest": {
     "path": "/site/thumbs/story/ep01-p29-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "cbffd480364fcf415b77df0c902f6946cfc90a114ab8b6ab9898b66d5c6a6877",
+    "sha256": "72f837c769ef69e387dc778b296dbb8ab73a100d57888d1f466a8c829fd7524e",
     "sourcePath": "/characters/story/ep01-p29-latest.webp",
-    "sourceSha256": "477b452a62b51b001a1d18fc4d3c1e76a67e8e8fd728fb34b9ab801b33fb4404"
+    "sourceSha256": "31a45b30fad39b76931122c41ae18d6097333af53799d90085a95afe6ad21b49"
   },
   "story/ep01-p30-latest": {
     "path": "/site/thumbs/story/ep01-p30-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "6026ae7de4ad2880d2fe4daa5161778ab5fa9e82d504edeb153d9e896d5ddcbc",
+    "sha256": "55dd7149c6f8fabd2831e31ccf8a8512a83fc590c4dc29959c0269b726372be3",
     "sourcePath": "/characters/story/ep01-p30-latest.webp",
-    "sourceSha256": "9c597f41bcc11322d1a8322d4cb006b785820a4ef29c42223775a19a62b7b550"
+    "sourceSha256": "feb4d080798886e06b57516c194a157602165e89b9fd5fecf654777bdcd81631"
   },
   "story/ep01-p31-latest": {
     "path": "/site/thumbs/story/ep01-p31-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "2e4807eb6f9ba439af55bb398e30149e760ea35819d337becbfaa0d4e232a273",
+    "sha256": "c2e1ce387fa7aee56816b7dc7b7fb67a47195fb9d7e79a24308ff32184a9a776",
     "sourcePath": "/characters/story/ep01-p31-latest.webp",
-    "sourceSha256": "bde21898dbf97f4a638649a6bb7117bdc9dbf1ba879151bed669ea434ef681e8"
+    "sourceSha256": "6254849c678e71d0c1b701df6dc7dcb909a0515bd1b1c8cb399ec198c53c8c99"
   },
-  "story/ep01-p32-33-latest": {
-    "path": "/site/thumbs/story/ep01-p32-33-latest.webp",
-    "width": 480,
-    "height": 320,
-    "sha256": "34338c690ba34dccbebed88b617d99b3757df99d1a323331fa12f46011bffe4a",
-    "sourcePath": "/characters/story/ep01-p32-33-latest.webp",
-    "sourceSha256": "9d761fb0d872735993b2242b0fc7152bd75f794ba27ed077a901fbdee94a9d81"
-  },
-  "story/ep01-p34-latest": {
-    "path": "/site/thumbs/story/ep01-p34-latest.webp",
+  "story/ep01-p32-latest": {
+    "path": "/site/thumbs/story/ep01-p32-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "a7a3f1a7f6c6a4794243266088c9d2c0b9454734a978365fa013495dd8e9e9f7",
-    "sourcePath": "/characters/story/ep01-p34-latest.webp",
-    "sourceSha256": "dfc6453b93f1e152157a03b2d4d9814e6e32e5523141a652ae5b4fcae6c99fc9"
+    "sha256": "97f2c02e58f32794d6b91286978e361b38a37b6dd75f058d9b776fba342fce7d",
+    "sourcePath": "/characters/story/ep01-p32-latest.webp",
+    "sourceSha256": "720d44e813dcdc8b4c75fb4dcc8166632dc6a218634b7e1ee8ca228d8abc64bd"
+  },
+  "story/ep01-p33-34-latest": {
+    "path": "/site/thumbs/story/ep01-p33-34-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "d9e44ddcffb2b2302c6c86c79bd22a416595ca3163768ad0e1341684bda210d9",
+    "sourcePath": "/characters/story/ep01-p33-34-latest.webp",
+    "sourceSha256": "4deaed5eeccb0e1eaaaabdcde0b63e642ff284c62b40b0d7c47a238d38066e88"
+  },
+  "story/ep01-p35-latest": {
+    "path": "/site/thumbs/story/ep01-p35-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "c08b7423d359a32ae2dff73d2a52cd3f483533d51e8c62e116dfcb0f9e274b4b",
+    "sourcePath": "/characters/story/ep01-p35-latest.webp",
+    "sourceSha256": "aed19d3e2624a1f8317509393cf97d4c73653a255c5b033e1f50ab99ef416bac"
+  },
+  "story/ep01-p36-latest": {
+    "path": "/site/thumbs/story/ep01-p36-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "fa66a13ce0e5114ae767845ee85917b43e615af44f70a616c0e18d514be73172",
+    "sourcePath": "/characters/story/ep01-p36-latest.webp",
+    "sourceSha256": "6fffadb8a60a879860bd8f9126041ffe39d6ad5e62659622c833ded6023661df"
+  },
+  "story/ep01-p37-latest": {
+    "path": "/site/thumbs/story/ep01-p37-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "5f5c971fc91813dd434108d9f0430e0a3237da4ebc92d600df03f4081ef11c3d",
+    "sourcePath": "/characters/story/ep01-p37-latest.webp",
+    "sourceSha256": "05b8279b3d9d1c23d10eccfa6d9b33719ee18185fbdaaefa49583beea1828e83"
+  },
+  "story/ep01-p38-latest": {
+    "path": "/site/thumbs/story/ep01-p38-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "42b8a14bb92649f4318b0d4b10b5594b5f4487a5451c35b7c52f67827397d200",
+    "sourcePath": "/characters/story/ep01-p38-latest.webp",
+    "sourceSha256": "d5125bd01059ebf97cd447cffaf73fe4cef08f8f2829861d62bcb568d284bbc4"
+  },
+  "story/ep01-p39-latest": {
+    "path": "/site/thumbs/story/ep01-p39-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "4fcf2f9f65a14680de7342fca56e8eed9c2b0ea555b0fe4628984d0f1edfeb83",
+    "sourcePath": "/characters/story/ep01-p39-latest.webp",
+    "sourceSha256": "0c1b4dd91d28d8b11109bcc12cb878fa0e7cdb23fdda35247c5dab23b4ba3df2"
+  },
+  "story/ep01-p40-41-latest": {
+    "path": "/site/thumbs/story/ep01-p40-41-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "d08acab33371e45c8b626069e45aeb75b34b38e9a3c3d93a05db095f5da7e3cf",
+    "sourcePath": "/characters/story/ep01-p40-41-latest.webp",
+    "sourceSha256": "691f6219811c0fe2277f1959319ac9bdbdcc071570b9f65f978dbfdb0335d613"
+  },
+  "story/ep01-p42-latest": {
+    "path": "/site/thumbs/story/ep01-p42-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "d1b51245338aae9f5721d304a6a4b9f58924e088da03f1db8503e50e95b62d1d",
+    "sourcePath": "/characters/story/ep01-p42-latest.webp",
+    "sourceSha256": "dbbf32ac64363923cad18e8f04ada337befc875d01cbf3f3691f735824530397"
   },
   "world/eileen-darrow-card-latest": {
     "path": "/site/thumbs/world/eileen-darrow-card-latest.webp",

@@ -3958,8 +3958,14 @@
     },
     {
       "character": "story",
-      "path": "/media/story/ep01-p19-20-latest.png",
-      "key": "x_ops/design/characters/story/latest/ep01-p19-20-latest.png",
+      "path": "/media/story/ep01-p19-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p19-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "story",
+      "path": "/media/story/ep01-p20-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p20-latest.png",
       "contentType": "image/png"
     },
     {
@@ -3988,20 +3994,20 @@
     },
     {
       "character": "story",
-      "path": "/media/story/ep01-p25-26-latest.png",
-      "key": "x_ops/design/characters/story/latest/ep01-p25-26-latest.png",
+      "path": "/media/story/ep01-p25-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p25-latest.png",
       "contentType": "image/png"
     },
     {
       "character": "story",
-      "path": "/media/story/ep01-p27-latest.png",
-      "key": "x_ops/design/characters/story/latest/ep01-p27-latest.png",
+      "path": "/media/story/ep01-p26-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p26-latest.png",
       "contentType": "image/png"
     },
     {
       "character": "story",
-      "path": "/media/story/ep01-p28-latest.png",
-      "key": "x_ops/design/characters/story/latest/ep01-p28-latest.png",
+      "path": "/media/story/ep01-p27-28-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p27-28-latest.png",
       "contentType": "image/png"
     },
     {
@@ -4024,14 +4030,56 @@
     },
     {
       "character": "story",
-      "path": "/media/story/ep01-p32-33-latest.png",
-      "key": "x_ops/design/characters/story/latest/ep01-p32-33-latest.png",
+      "path": "/media/story/ep01-p32-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p32-latest.png",
       "contentType": "image/png"
     },
     {
       "character": "story",
-      "path": "/media/story/ep01-p34-latest.png",
-      "key": "x_ops/design/characters/story/latest/ep01-p34-latest.png",
+      "path": "/media/story/ep01-p33-34-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p33-34-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "story",
+      "path": "/media/story/ep01-p35-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p35-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "story",
+      "path": "/media/story/ep01-p36-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p36-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "story",
+      "path": "/media/story/ep01-p37-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p37-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "story",
+      "path": "/media/story/ep01-p38-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p38-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "story",
+      "path": "/media/story/ep01-p39-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p39-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "story",
+      "path": "/media/story/ep01-p40-41-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p40-41-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "story",
+      "path": "/media/story/ep01-p42-latest.png",
+      "key": "x_ops/design/characters/story/latest/ep01-p42-latest.png",
       "contentType": "image/png"
     },
     {

@@ -10,17 +10,17 @@
     },
     {
       "path": "/characters/soren-vane/inner-shirt",
-      "title": "暗纹黑衬与零点探针滑轨"
+      "title": "米白亚麻衬衣与零点探针腕表"
     },
     {
       "path": "/characters/soren-vane/vest-rig",
-      "title": "六角执印修身马甲与手套"
+      "title": "深炭羊毛马甲与温室园丁态"
     },
     {
       "path": "/characters/soren-vane/magistrate-coat",
-      "title": "冷白执印官礼装大衣与铸模匣"
+      "title": "米白亚麻执政长衫与空腔外模"
     }
   ],
   "portrait": "character-card-latest",
-  "accent": "#475569"
+  "accent": "#5B6777"
 }

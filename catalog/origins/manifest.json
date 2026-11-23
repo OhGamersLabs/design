@@ -220,19 +220,19 @@
       "original": {
         "path": "/media/origins/soren-vane-original-latest.png",
         "mime_type": "image/png",
-        "width": 2352,
-        "height": 3520,
-        "bytes": 7366473,
-        "sha256": "69fed15e82f656501ae7eabe120b3f428566711f75553864ee14980daaf00311",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2527805,
+        "sha256": "c15f46ce9d7ecb610130539d97ab817ff71e03ad6b73b18e514b92954f66b5c9",
         "alpha": false
       },
       "web": {
         "path": "/characters/origins/soren-vane-original-latest.webp",
         "mime_type": "image/webp",
-        "width": 1368,
-        "height": 2048,
-        "bytes": 1902172,
-        "sha256": "69da3cd87debb90a9eae2dabff704dbdfae9c11fa7a20918196dd422b83c2c67",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1783064,
+        "sha256": "6d51d4762c5323e720046afdbf9b53bce01c27fbd321b5e5839c04e174ac2b7c",
         "alpha": false
       }
     },
