@@ -44,8 +44,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 13.5
     },
     "starport": {
-      "x": 11.5,
-      "y": 21.5
+      "x": 24.2,
+      "y": 13.8
     },
     "spotAssetId": "ensemble-spot-wylin-latest",
     "boxPct": {
@@ -71,8 +71,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 22.8
     },
     "starport": {
-      "x": 90.2,
-      "y": 22.5
+      "x": 74.8,
+      "y": 28.5
     },
     "spotAssetId": "ensemble-spot-gunnar-latest",
     "boxPct": {
@@ -98,8 +98,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 14.5
     },
     "starport": {
-      "x": 74.2,
-      "y": 30.5
+      "x": 85.5,
+      "y": 5.5
     },
     "spotAssetId": "ensemble-spot-ange-latest",
     "boxPct": {
@@ -125,8 +125,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 8.2
     },
     "starport": {
-      "x": 42.5,
-      "y": 24.5
+      "x": 48.2,
+      "y": 5.8
     },
     "spotAssetId": "ensemble-spot-rook-latest",
     "boxPct": {
@@ -152,8 +152,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 11.8
     },
     "starport": {
-      "x": 58.0,
-      "y": 26.5
+      "x": 61.8,
+      "y": 7.2
     },
     "spotAssetId": "ensemble-spot-bonnie-latest",
     "boxPct": {
@@ -179,8 +179,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 38.2
     },
     "starport": {
-      "x": 21.5,
-      "y": 43.0
+      "x": 15.2,
+      "y": 36.5
     },
     "spotAssetId": "ensemble-spot-kyuzo-latest",
     "boxPct": {
@@ -208,8 +208,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 51.0
     },
     "starport": {
-      "x": 69.0,
-      "y": 59.0
+      "x": 65.5,
+      "y": 56.5
     },
     "spotAssetId": "ensemble-spot-cruz-latest",
     "boxPct": {
@@ -235,8 +235,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 50.0
     },
     "starport": {
-      "x": 83.5,
-      "y": 56.5
+      "x": 86.2,
+      "y": 46.5
     },
     "spotAssetId": "ensemble-spot-dorji-latest",
     "boxPct": {
@@ -262,8 +262,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 51.8
     },
     "starport": {
-      "x": 11.8,
-      "y": 64.5
+      "x": 31.2,
+      "y": 56.5
     },
     "spotAssetId": "ensemble-spot-miu-latest",
     "boxPct": {
@@ -289,8 +289,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 55.5
     },
     "starport": {
-      "x": 49.2,
-      "y": 55.0
+      "x": 41.8,
+      "y": 37.8
     },
     "spotAssetId": "ensemble-spot-roya-latest",
     "boxPct": {
@@ -316,8 +316,8 @@ const ensemblePins: HotspotPin[] = [
       "y": 57.5
     },
     "starport": {
-      "x": 36.8,
-      "y": 60.0
+      "x": 55.5,
+      "y": 34.0
     },
     "spotAssetId": "ensemble-spot-roy-latest",
     "boxPct": {
