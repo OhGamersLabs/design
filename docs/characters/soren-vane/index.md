@@ -80,4 +80,18 @@ releaseReady: false
   <AssetImage id="character-card-latest" detail="白塔天秤最高执印官重点角色卡定稿" use-thumb />
 </div>
 
+<div class="bunny-section-heading">
+
+## 十年前副领队时期 {#expedition-era}
+
+<p>零号科考船事变期（四十二岁白塔先驱研究所副考察领队时期）的角色设定卡：严格剥离现今统御者的长礼装大衣、六角胸扣与银头礼靴，还原与达罗夫妇同属研究所实地探险队的朴素学者装束与角色左前臂便携零点能谱仪。</p>
+</div>
+
+<div class="bunny-expression-grid">
+  <AssetImage id="young-soren-card-latest" detail="四十二岁副考察领队时期 · 画面左半防风派克服与脱外套仪器马甲双态立绘、画面右半三态神情及角色左前臂 0.00 便携能谱仪特写" use-thumb />
+  <AssetImage id="character-card-latest" detail="十年后（五十二岁） · 白塔天秤最高执印官完全体角色卡对照" use-thumb />
+</div>
+
+<p class="bunny-expression-note">十年前的索伦蓄深炭灰背梳短发，仅双鬓与额前初现少量银丝，平时不戴眼镜；外穿暖灰白拼深石板藏青研究所防风派克服（角色左胸夹挂半透研究员证卡），内搭深炭藏青工装衬衫与暗橄榄单拉链仪器马甲。第三幅半身表情定格其首次架起无框矩形眼镜、决意以铸模秩序接管星环的冰冷转折瞬间。</p>
+
 <p class="bunny-section-links"><a href="/characters/soren-vane/body">第 0 层：身体</a> · <a href="/characters/soren-vane/inner-shirt">第 1 层：暗纹黑衬与零点探针滑轨</a> · <a href="/characters/soren-vane/vest-rig">第 2 层：六角执印修身马甲与手套</a> · <a href="/characters/soren-vane/magistrate-coat">第 3 层：冷白执印官礼装大衣与铸模匣</a></p>

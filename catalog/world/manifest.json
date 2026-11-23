@@ -4,8 +4,31 @@
   "language": "zh-CN",
   "title": "星环纪元核心信物设定",
   "status": "local-review",
-  "asset_count": 20,
+  "asset_count": 22,
   "assets": [
+    {
+      "id": "eileen-darrow-card-latest",
+      "character": "world",
+      "title": "eileen-darrow-card-latest",
+      "original": {
+        "path": "/media/world/eileen-darrow-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 8170654,
+        "sha256": "17c45509f7e0fd7cdd556519e9ebb23ad9f6aabfaab195401da261ea6b4b9274",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/eileen-darrow-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2990906,
+        "sha256": "63a8b999fef81e806913d5a55443c64c5b4e3d6291714989ad7b10ad3af23bf7",
+        "alpha": false
+      }
+    },
     {
       "id": "ensemble-artbook-4x3-latest",
       "character": "world",
@@ -463,6 +486,29 @@
         "height": 2048,
         "bytes": 2609228,
         "sha256": "acb549c398bd07d468cbbbe8eab6621929dec65c0f58e6a11a709b2c7a5f8540",
+        "alpha": false
+      }
+    },
+    {
+      "id": "renn-darrow-card-latest",
+      "character": "world",
+      "title": "renn-darrow-card-latest",
+      "original": {
+        "path": "/media/world/renn-darrow-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 10049521,
+        "sha256": "8c672add0b68e8d2a6c2ce6e267f943f924f7fe0a5360dd64aaee39ae486db6c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/renn-darrow-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 3697604,
+        "sha256": "ee9070cee02996577d545b935bd2fb4d015f8c3ef85cf8ad8c40814f3029fbc4",
         "alpha": false
       }
     }

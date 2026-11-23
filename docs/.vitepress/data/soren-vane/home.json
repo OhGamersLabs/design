@@ -39,15 +39,15 @@
     },
     {
       "date": "2026-11-23",
-      "title": "四层穿戴拆解完成",
-      "asset": "magistrate-coat-front-latest",
-      "caption": "从标准青年男素体、角色左袖零点探针黑衬、白瓷六角扣立领马甲至执印官礼装大衣，每层配齐 A 姿三视与 T 姿四视。"
+      "title": "十年前副领队角色卡",
+      "asset": "young-soren-card-latest",
+      "caption": "四十二岁白塔先驱研究所副考察领队时期设定卡：考察防风派克服、仪器马甲与角色左前臂 0.00 便携零点能谱仪。"
     },
     {
       "date": "2026-11-23",
-      "title": "表情表定稿",
-      "asset": "expressions-sheet-latest",
-      "caption": "4×4 十六格神态，覆盖十年前伪善慈父微笑、镜片反光审视、冰冷命令与目睹零点零零裂壳时的震动。"
+      "title": "四层穿戴拆解完成",
+      "asset": "magistrate-coat-front-latest",
+      "caption": "从标准青年男素体、角色左袖零点探针黑衬、白瓷六角扣立领马甲至执印官礼装大衣，每层配齐 A 姿三视与 T 姿四视。"
     },
     {
       "date": "2026-11-23",
@@ -128,6 +128,10 @@
     {
       "id": "breakdown",
       "label": "拆解与角色卡"
+    },
+    {
+      "id": "expedition-era",
+      "label": "十年前时期"
     }
   ]
 }

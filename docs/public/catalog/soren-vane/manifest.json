@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "索伦·韦恩 设计参考",
   "status": "local-review",
-  "asset_count": 35,
+  "asset_count": 36,
   "assets": [
     {
       "id": "body-back-latest",
@@ -808,6 +808,29 @@
         "height": 2048,
         "bytes": 1301322,
         "sha256": "95f36b3960626211f7af0b5c4319c7fa3109753305a872ec76628e77325b79b9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "young-soren-card-latest",
+      "character": "soren-vane",
+      "title": "young-soren-card-latest",
+      "original": {
+        "path": "/media/soren-vane/young-soren-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 9539867,
+        "sha256": "cb3115d1ea74e2626c6a0ad6ea727bfd7f50e0a7825ff1129c8bffcd0988dd87",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/young-soren-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 3384314,
+        "sha256": "452ca9e61a4773d8d5adb923b572f436d851919f803aba8d2da09b1e61a20d17",
         "alpha": false
       }
     }

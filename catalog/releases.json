@@ -3843,6 +3843,12 @@
       "contentType": "image/png"
     },
     {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/young-soren-card-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/young-soren-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "story",
       "path": "/media/story/ep01-p01-latest.png",
       "key": "x_ops/design/characters/story/latest/ep01-p01-latest.png",
@@ -4030,6 +4036,12 @@
     },
     {
       "character": "world",
+      "path": "/media/world/eileen-darrow-card-latest.png",
+      "key": "x_ops/design/characters/world/latest/eileen-darrow-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
       "path": "/media/world/ensemble-artbook-4x3-latest.png",
       "key": "x_ops/design/characters/world/latest/ensemble-artbook-4x3-latest.png",
       "contentType": "image/png"
@@ -4146,6 +4158,12 @@
       "character": "world",
       "path": "/media/world/lorn-vele-card-latest.png",
       "key": "x_ops/design/characters/world/latest/lorn-vele-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/renn-darrow-card-latest.png",
+      "key": "x_ops/design/characters/world/latest/renn-darrow-card-latest.png",
       "contentType": "image/png"
     },
     {

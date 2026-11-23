@@ -5119,6 +5119,14 @@
     "sourcePath": "/characters/soren-vane/vest-rig-tpose-right-latest.webp",
     "sourceSha256": "95f36b3960626211f7af0b5c4319c7fa3109753305a872ec76628e77325b79b9"
   },
+  "soren-vane/young-soren-card-latest": {
+    "path": "/site/thumbs/soren-vane/young-soren-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "b2d0e1c52fbfa530e83904a10902f4ac6748cc1b30b42ca86b3089ff8bdc0633",
+    "sourcePath": "/characters/soren-vane/young-soren-card-latest.webp",
+    "sourceSha256": "452ca9e61a4773d8d5adb923b572f436d851919f803aba8d2da09b1e61a20d17"
+  },
   "story/ep01-p01-latest": {
     "path": "/site/thumbs/story/ep01-p01-latest.webp",
     "width": 480,
@@ -5367,6 +5375,14 @@
     "sourcePath": "/characters/story/ep01-p34-latest.webp",
     "sourceSha256": "dfc6453b93f1e152157a03b2d4d9814e6e32e5523141a652ae5b4fcae6c99fc9"
   },
+  "world/eileen-darrow-card-latest": {
+    "path": "/site/thumbs/world/eileen-darrow-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "c1c7e5b6ec0d143c399f362443e4631d939612abded041a12441a6b7126f71c5",
+    "sourcePath": "/characters/world/eileen-darrow-card-latest.webp",
+    "sourceSha256": "63a8b999fef81e806913d5a55443c64c5b4e3d6291714989ad7b10ad3af23bf7"
+  },
   "world/ensemble-artbook-4x3-latest": {
     "path": "/site/thumbs/world/ensemble-artbook-4x3-latest.webp",
     "width": 480,
@@ -5526,6 +5542,14 @@
     "sha256": "6b80b8ec425743b8affd53ec6f57be4f826bcbb500e3e979599275f950e9ed4a",
     "sourcePath": "/characters/world/lorn-vele-card-latest.webp",
     "sourceSha256": "acb549c398bd07d468cbbbe8eab6621929dec65c0f58e6a11a709b2c7a5f8540"
+  },
+  "world/renn-darrow-card-latest": {
+    "path": "/site/thumbs/world/renn-darrow-card-latest.webp",
+    "width": 480,
+    "height": 480,
+    "sha256": "0f13c8cb0059c3363f9b49a5b6b80c669e5f8d06b142feb6a44846f8f637d7fb",
+    "sourcePath": "/characters/world/renn-darrow-card-latest.webp",
+    "sourceSha256": "ee9070cee02996577d545b935bd2fb4d015f8c3ef85cf8ad8c40814f3029fbc4"
   },
   "wylin/arcane-coat-back-latest": {
     "path": "/site/thumbs/wylin/arcane-coat-back-latest.webp",

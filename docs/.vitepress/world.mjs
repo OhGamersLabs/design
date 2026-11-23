@@ -27,15 +27,34 @@ function parseSectionCards(raw, listKey) {
 export function loadWorld(root = defaultRoot) {
   const source = record(readJson(resolve(root, 'docs/.vitepress/data/world/world.json')))
   const manifestPath = resolve(root, 'catalog/world/manifest.json')
-  let assets = {}
-  if (existsSync(manifestPath)) {
-    const manifest = parseManifest(readJson(manifestPath))
-    const thumbs = Object.fromEntries(Object.entries(record(readJson(resolve(root, 'docs/public/site/thumbs/index.json')))).map(([key, value]) => {
+  const thumbs = existsSync(manifestPath)
+    ? Object.fromEntries(Object.entries(record(readJson(resolve(root, 'docs/public/site/thumbs/index.json')))).map(([key, value]) => {
       const thumb = record(value)
       return [key, { path: text(thumb.path), width: number(thumb.width), height: number(thumb.height) }]
     }))
+    : {}
+  let assets = {}
+  if (existsSync(manifestPath)) {
+    const manifest = parseManifest(readJson(manifestPath))
     const assetNames = parseNames(source.assetNames ?? {})
     assets = buildAssetIndex({ character: 'world', manifests: [manifest], names: assetNames, thumbs })
+  }
+  const collectionAssetsCache = { world: assets }
+  function getCollectionAssets(collection) {
+    if (Object.hasOwn(collectionAssetsCache, collection)) return collectionAssetsCache[collection]
+    const mPath = resolve(root, 'catalog', collection, 'manifest.json')
+    const nPath = resolve(root, 'docs/.vitepress/data', collection, 'asset-names.json')
+    if (!existsSync(mPath) || !existsSync(nPath)) {
+      collectionAssetsCache[collection] = {}
+      return {}
+    }
+    const manifest = parseManifest(readJson(mPath))
+    const rawNames = parseNames(readJson(nPath))
+    const ownIds = new Set(manifest.assets.map((a) => a.id))
+    const filteredNames = Object.fromEntries(Object.entries(rawNames).filter(([k]) => ownIds.has(k)))
+    const idx = buildAssetIndex({ character: collection, manifests: [manifest], names: filteredNames, thumbs })
+    collectionAssetsCache[collection] = idx
+    return idx
   }
   const races = list(source.races).map((entry) => {
     const race = record(entry)
@@ -119,9 +138,13 @@ export function loadWorld(root = defaultRoot) {
     }),
     standardCards: list(rawCast.standardCards).map((entry) => {
       const item = record(entry)
+      const collection = item.collection === undefined ? 'world' : text(item.collection)
       const asset = text(item.asset)
+      const collAssets = getCollectionAssets(collection)
+      const resolved = Object.hasOwn(collAssets, asset) ? assetById(collAssets, asset) : null
       return {
         id: text(item.id),
+        collection,
         asset,
         name: text(item.name),
         enName: text(item.enName),
@@ -133,7 +156,10 @@ export function loadWorld(root = defaultRoot) {
         tagline: text(item.tagline),
         signature: text(item.signature),
         story: text(item.story),
-        portrait: Object.hasOwn(assets, asset) ? { asset, ...assetById(assets, asset).thumb } : null,
+        ...(item.profileLink === undefined ? {} : { profileLink: text(item.profileLink) }),
+        ...(item.profileLinkLabel === undefined ? {} : { profileLinkLabel: text(item.profileLinkLabel) }),
+        portrait: resolved ? { asset, ...resolved.thumb } : null,
+        image: resolved,
       }
     }),
   } : null

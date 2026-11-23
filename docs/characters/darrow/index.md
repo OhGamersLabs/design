@@ -107,6 +107,6 @@ releaseReady: false
   <AssetImage id="child-roya-card-latest" detail="幼年罗娅（八岁） · 画面左半全身正背立绘、画面右半三态神情与双手捧持的 09 暗礁六角船工铝牌特写" use-thumb />
 </div>
 
-<p class="bunny-expression-note">幼年形态专供开篇雨夜检疫机坪与童年回忆分镜锚定：八岁罗伊穿深石板蓝拼冷白随船连帽风衣配卡其工装短裤，角色左膝贴创可贴、缠绷带擦伤小手紧护父亲塞入掌心的 OG 街机代币；八岁罗娅穿反转配色的冷白拼深蓝随船连帽卫衣配百褶短裤与及膝黑袜，颈间贴身佩戴蚀刻 09 编号的父母造船工六角铝牌。</p>
+<p class="bunny-expression-note">幼年形态专供开篇雨夜检疫机坪与童年回忆分镜锚定：八岁罗伊穿深石板蓝拼冷白随船连帽风衣配卡其工装短裤，角色左膝贴创可贴、缠绷带擦伤小手紧护父亲塞入掌心的 OG 街机代币；八岁罗娅穿反转配色的冷白拼深蓝随船连帽卫衣配百褶短裤与及膝黑袜，颈间贴身佩戴蚀刻 09 编号的父母造船工六角铝牌。父母双亲完整 4K 角色设定卡详见剧情图鉴：<a href="/world/cast#renn-darrow">父亲伦恩·达罗</a> · <a href="/world/cast#eileen-darrow">母亲艾琳·达罗</a>。</p>
 
 <p class="bunny-section-links"><a href="/characters/darrow/body">第 0 层：罗伊 · 身体</a> · <a href="/characters/darrow/goggles">第 4 层：罗伊 · 深红护目镜</a> · <a href="/characters/darrow/female-body">第 5 层：罗娅 · 身体</a> · <a href="/characters/darrow/female-goggles">第 9 层：罗娅 · 橙红护目镜</a></p>

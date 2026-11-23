@@ -10,6 +10,7 @@ import WorldMysteryOnboarding from './components/WorldMysteryOnboarding.vue'
 import WorldCoinInteractive from './components/WorldCoinInteractive.vue'
 import WorldArkGenerations from './components/WorldArkGenerations.vue'
 import WorldImage from './components/WorldImage.vue'
+import ReleaseImage from './components/ReleaseImage.vue'
 
 const { frontmatter, page } = useData()
 
@@ -62,7 +63,7 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
         <a href="#tier-rules">资产分级标准</a>
         <a href="#major-cast">重点角色 · 索伦·韦恩</a>
         <a v-for="npc in world.storyCast.standardCards" :key="npc.id" :href="`#${npc.id}`">
-          普通角色 · {{ npc.name }}
+          角色卡 · {{ npc.name }}
         </a>
       </nav>
       <p class="bunny-side-card__callout">
@@ -340,8 +341,8 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
           </section>
 
           <div class="bunny-section-heading">
-            <h2 id="standard-cast">普通角色卡档案</h2>
-            <p>自《第 01 话：0.00 的游戏币》提炼的财团清剿兵种、街区受控卫兵与获救见证者，均采用独立全身角色卡建档。</p>
+            <h2 id="standard-cast">剧情与往昔时期角色卡档案</h2>
+            <p>完整收录《第 01 话：0.00 的游戏币》中的零号考察队先辈父母、十年前副领队时期索伦、八岁遗孤时期达罗兄妹，以及天秤财团清剿兵种、受控卫兵与获救见证者的 4K 角色设定卡。</p>
           </div>
 
           <section
@@ -352,11 +353,18 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
           >
             <div class="world-cast-card__grid">
               <div class="world-cast-card__media">
-                <WorldImage
-                  :id="npc.asset"
-                  :caption="`${npc.name} · 普通角色卡`"
+                <ReleaseImage
+                  v-if="npc.image"
+                  :src="npc.image.web.path"
+                  :original="npc.image.original.path"
+                  :width="npc.image.web.width"
+                  :height="npc.image.web.height"
+                  :alt="npc.image.name"
+                  :caption="`${npc.name} · 角色设定卡`"
+                  :lightbox-caption="npc.image.name"
                   :detail="npc.debut"
                   group="ep01-standard-cast"
+                  :asset-id="npc.asset"
                 />
               </div>
               <div class="world-cast-card__body">
@@ -389,6 +397,9 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
                     <dd>{{ npc.story }}</dd>
                   </div>
                 </dl>
+                <p v-if="npc.profileLink" class="character-lore__link">
+                  <a :href="withBase(npc.profileLink)">{{ npc.profileLinkLabel ?? '查看关联角色专页' }} <span aria-hidden="true">↗</span></a>
+                </p>
               </div>
             </div>
           </section>
