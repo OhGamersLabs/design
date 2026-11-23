@@ -1,9 +1,0 @@
-{
-  "anchors": {},
-  "stubs": {
-    "/characters/fixture/legacy": {
-      "target": "/characters/fixture/#parts",
-      "title": "部件装配"
-    }
-  }
-}

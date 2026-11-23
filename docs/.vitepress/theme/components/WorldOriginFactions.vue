@@ -5,10 +5,10 @@ import { withBase } from 'vitepress'
 const activeTab = ref(0)
 
 const castLinks = [
-  { id: 'samurai', label: '久藏：抗拒旗下军工格式化', href: '/characters/samurai/' },
-  { id: 'wizard', label: '维琳：斩断旗下高轨遥控链', href: '/characters/wizard/' },
-  { id: 'crew', label: '克露丝：反抗旗下船坞封厂令', href: '/characters/crew/' },
-  { id: 'gold-hunter', label: '达罗兄妹：正面击溃叛徒索伦', href: '/characters/gold-hunter/' },
+  { id: 'kyuzo', label: '久藏：抗拒旗下军工格式化', href: '/characters/kyuzo/' },
+  { id: 'wylin', label: '维琳：斩断旗下高轨遥控链', href: '/characters/wylin/' },
+  { id: 'cruz', label: '克露丝：反抗旗下船坞封厂令', href: '/characters/cruz/' },
+  { id: 'darrow', label: '达罗兄妹：正面击溃叛徒索伦', href: '/characters/darrow/' },
 ]
 </script>
 

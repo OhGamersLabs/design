@@ -1,0 +1,61 @@
+{
+  "name": "邦妮·弗林",
+  "role": "刺客",
+  "order": 2,
+  "pages": [
+    {
+      "path": "/characters/bonnie/body-base",
+      "title": "身体"
+    },
+    {
+      "path": "/characters/bonnie/innerwear",
+      "title": "上衣与短裤"
+    },
+    {
+      "path": "/characters/bonnie/hosiery",
+      "title": "袜装"
+    },
+    {
+      "path": "/characters/bonnie/shoes",
+      "title": "鞋靴"
+    },
+    {
+      "path": "/characters/bonnie/hands",
+      "title": "手部"
+    },
+    {
+      "path": "/characters/bonnie/thigh-gear",
+      "title": "腿带"
+    },
+    {
+      "path": "/characters/bonnie/jacket",
+      "title": "橙色夹克"
+    },
+    {
+      "path": "/characters/bonnie/headgear",
+      "title": "护目镜"
+    },
+    {
+      "path": "/characters/bonnie/harness",
+      "title": "裤腰皮带"
+    },
+    {
+      "path": "/characters/bonnie/weapon",
+      "title": "双匕首"
+    },
+    {
+      "path": "/characters/bonnie/dimensions",
+      "title": "图面尺寸"
+    },
+    {
+      "path": "/characters/bonnie/visual-language",
+      "title": "画风与配色"
+    },
+    {
+      "path": "/characters/bonnie/application",
+      "title": "使用检查"
+    }
+  ],
+  "portrait": "daggers-front-latest",
+  "accent": "#D95818"
+}

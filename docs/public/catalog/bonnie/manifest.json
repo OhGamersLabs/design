@@ -1,0 +1,2195 @@
+{
+  "schema_version": "2.0",
+  "character_id": "bonnie",
+  "language": "zh-CN",
+  "title": "邦妮·弗林 设计参考",
+  "status": "local-review",
+  "asset_count": 95,
+  "assets": [
+    {
+      "id": "belt-back-latest",
+      "character": "bonnie",
+      "title": "belt-back-latest",
+      "original": {
+        "path": "/media/bonnie/belt-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3489289,
+        "sha256": "d05f287331025cb6b30191528f77d62ce8465698af4ada137cabe52e1f4e5fac",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/belt-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 930704,
+        "sha256": "4f49a9b48d69d721a0ad5f2252cae14d8024a1e663977287867a469aee1c1db2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-board-latest",
+      "character": "bonnie",
+      "title": "belt-board-latest",
+      "original": {
+        "path": "/media/bonnie/belt-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4501961,
+        "sha256": "5d700d2a38e6c79eb6c3ed94724950637ff924b092dbb8882d067cf5391cb19c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/belt-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1227338,
+        "sha256": "07e3d2d3cf7095fcd6ff01ad19d032e6dd3c6afe1b8dd833f59509bd142eac29",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-front-latest",
+      "character": "bonnie",
+      "title": "belt-front-latest",
+      "original": {
+        "path": "/media/bonnie/belt-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3853747,
+        "sha256": "7245b6c85ace83c714ac97700d941df276e6d34efaecda2c24ff9a8b74840a43",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/belt-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1059564,
+        "sha256": "679d0d02f7db435dec11bbb32225c20f76204ce0ea9ea846ea46f29619dab495",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-side-latest",
+      "character": "bonnie",
+      "title": "belt-side-latest",
+      "original": {
+        "path": "/media/bonnie/belt-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3778237,
+        "sha256": "3b46ec82115a198864c82c0faeb6c4a8575a49586f677aa93be9eb3c943592d7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/belt-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1085106,
+        "sha256": "90d3225198e4847141afc0d4d079e2441f4971dc1eb581cf95a3e62116575a21",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-tpose-back-latest",
+      "character": "bonnie",
+      "title": "belt-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/belt-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3268303,
+        "sha256": "8b3564b722d6860b0aad0087eb216f603bea7bbd96afb6282963e88272f21f68",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/belt-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1115382,
+        "sha256": "2d13df639b9ac24d1b08c5794320dcd0a348e98de794516e823ad74d9aba2369",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-tpose-front-latest",
+      "character": "bonnie",
+      "title": "belt-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/belt-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3627522,
+        "sha256": "4c798490526e38a46f23b01755bef1f747a4d21f153330634eb46fd008870110",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/belt-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1332826,
+        "sha256": "ba92caefe38f52b0167535209a934b94bc34a1dda6943ac03808f98311667f70",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-tpose-left-latest",
+      "character": "bonnie",
+      "title": "belt-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/belt-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3665173,
+        "sha256": "78d2c5d27f66dbc153716838d92adc6641f9e8d678503256ac0e3a36b5f68807",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/belt-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1409144,
+        "sha256": "010dcb77e8a1ff1317145aa9ce41e089e7aea5fa2fe0eb4b96d8419d1ed917eb",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-tpose-right-latest",
+      "character": "bonnie",
+      "title": "belt-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/belt-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3664280,
+        "sha256": "b002f95a8965da0d8e2ac3c6fcae9d0cce4a9de3e1f5972ebb45a12d10fd5f18",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/belt-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1414374,
+        "sha256": "2eda13dde6165eb97a4a97ebb36ffb495929b34026ab7f808f1d74adb1977885",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-back-latest",
+      "character": "bonnie",
+      "title": "body-back-latest",
+      "original": {
+        "path": "/media/bonnie/body-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 6203517,
+        "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/body-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1331132,
+        "sha256": "c05282f0f4263da162ce895b2436cd34361c10e4653a816604711302f3dd1011",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-front-latest",
+      "character": "bonnie",
+      "title": "body-front-latest",
+      "original": {
+        "path": "/media/bonnie/body-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4935701,
+        "sha256": "69a04fa0bf7091b1524346d47041e41bf39576ce9648a6d24f7058670af254ab",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/body-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1252302,
+        "sha256": "f2f2c272be02145a75c4f3ef3016614126a3cf62ba4e3890a9f1a1fb4a13dea6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-side-latest",
+      "character": "bonnie",
+      "title": "body-side-latest",
+      "original": {
+        "path": "/media/bonnie/body-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3234330,
+        "sha256": "6e32a08c6353e1abeea307fa7400415dc29567c24f3d1746f76162d505eadeac",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/body-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 905108,
+        "sha256": "7988a5c528b634d1c2634c4a5c9f2f400b35cf8940bb7cc1f4e8468e8a5c1eff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-back-latest",
+      "character": "bonnie",
+      "title": "body-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/body-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3668694,
+        "sha256": "a92410a99d5145cfac4670e9f73720663066e8a3e4e4736860e7f1ac90758b70",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/body-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1356152,
+        "sha256": "d8b3881f3228e855a97a95baf3ad0ee550843088f868681503b18fa2e1e0584e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-front-latest",
+      "character": "bonnie",
+      "title": "body-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/body-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3571142,
+        "sha256": "8d7e4758486ff3c2ed0ff94afc70ea07094df694fafcd9373567bd6ceea8d2cf",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/body-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1341160,
+        "sha256": "f161c3e11a940185918b116ca7aabc45e6678dcb7a89d58f2daaca0c62997b7f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-left-latest",
+      "character": "bonnie",
+      "title": "body-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/body-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3181151,
+        "sha256": "80088ff93433caa8cdc93782df07f4ab1f8a7f852cdf90e2c864fa0be8bc33c0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/body-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1098672,
+        "sha256": "a385b84eb1fe6973c3bc344aa69e8556a75d7818e58fd49ea8472125bb7ba764",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-right-latest",
+      "character": "bonnie",
+      "title": "body-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/body-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6166862,
+        "sha256": "f39c92a514ced9c2145cdb04dd4ca14c846df3d385c3ad63a8416a005271ebda",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/body-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1842458,
+        "sha256": "9a97be22f55c63611c5de60886a75f30ca08003a6bf27ddb60b62df8a210493b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-armed-expressions-latest",
+      "character": "bonnie",
+      "title": "daggers-armed-expressions-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-armed-expressions-latest.png",
+        "mime_type": "image/png",
+        "width": 2160,
+        "height": 720,
+        "bytes": 1771325,
+        "sha256": "8374a4d84be8a9498d57af178c4d8dcba0155bdda9bad72e7478f178973966f1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-armed-expressions-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 683,
+        "bytes": 1091356,
+        "sha256": "c780cc366a8dcfa35c1289ae913bd1cd6a120eb32deccc11297d6186036860c1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-back-latest",
+      "character": "bonnie",
+      "title": "daggers-back-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3620745,
+        "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 958688,
+        "sha256": "34ff4de37b8455ad0ad80a12d3ad9e36b45fc633ff4efaa7f7eae770ba0b5716",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-dark-board-latest",
+      "character": "bonnie",
+      "title": "daggers-dark-board-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-dark-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1142506,
+        "sha256": "4eb7aff958d92bff873ae0b4f672910b5034e7bec46a4c195f1090e94db65cc3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-dark-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 573180,
+        "sha256": "f1bd6c7bd6085d17686ca0cd3b7945d650a83ef2fdf4f0d21157e19d64937e65",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-dual-wield-latest",
+      "character": "bonnie",
+      "title": "daggers-dual-wield-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-dual-wield-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1424123,
+        "sha256": "9b8f441dc0ad6e49dac1291e2c664bf00a97809b03820eedbdb0706085d8a369",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-dual-wield-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 790202,
+        "sha256": "66e028755a1af3e266712cea702694e09de6185222e184135a09c16c65d5d031",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-front-latest",
+      "character": "bonnie",
+      "title": "daggers-front-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3899759,
+        "sha256": "407870ed7490ea97b1e8ad861b044371527b086eb0efb9acda46b83dc88e1938",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1071476,
+        "sha256": "702a3313361f6d73721773bdc84d57503b6b0e7ef04c6446885d613141262ba5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-ivory-board-latest",
+      "character": "bonnie",
+      "title": "daggers-ivory-board-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-ivory-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1069766,
+        "sha256": "6d42ba2ee376fdafde45f68ba6bd53b63a60f771be0a60957dc77271ae513624",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-ivory-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 517104,
+        "sha256": "6c4a7608bf6c2df02f56efe54c5343d4abf8c8f0790880f6465150886b161abc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-mount-board-latest",
+      "character": "bonnie",
+      "title": "daggers-mount-board-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-mount-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5899377,
+        "sha256": "40355d3564c311f526ba3acbeffcf98b08b1471c03d79b7c79219d83099c09ab",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-mount-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1649010,
+        "sha256": "7809223da98e57786c8a3c01ff9e04ff9faa3cea59320a0bd9a25d2de4cb1a8e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-scale-board-latest",
+      "character": "bonnie",
+      "title": "daggers-scale-board-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-scale-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1296571,
+        "sha256": "d48aced552fd745c2574a316507df2c44a5c42282ec2e45e29c77e9cf079e790",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-scale-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 708134,
+        "sha256": "7eaaec7e4a8609452348ba6d94a70ce6cc5a9eb56a2ff1b6b31b8078209c00bb",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-side-latest",
+      "character": "bonnie",
+      "title": "daggers-side-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3809476,
+        "sha256": "0d8ce117be08e28a7c475ce1dd0db793be063210282ac187a02445b176cfcf19",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1095908,
+        "sha256": "a31cae3d451c2cc05be7a24744b0b1c720998354b540aa728b115b3f9b0028e3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-standing-card-latest",
+      "character": "bonnie",
+      "title": "daggers-standing-card-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-standing-card-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1336965,
+        "sha256": "3de9252e0655ad9a21cddb66590e0c9367cb4517912cebc36f9c7f921493a386",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-standing-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 826318,
+        "sha256": "cbd008f70bf03627550d5dfcb41f060ca35f03e1993760c68aae748589b1dad8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-tpose-back-latest",
+      "character": "bonnie",
+      "title": "daggers-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3465675,
+        "sha256": "3969c48b2e3193a6edbe07cc3d498eae3433f8cf269218ccc399fa992363043c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1188980,
+        "sha256": "02491a460d33a8bd947b7d55e4352d4240c1350ab70876b85c2c0ab9e628f55f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-tpose-front-latest",
+      "character": "bonnie",
+      "title": "daggers-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3605296,
+        "sha256": "32500fb4b160fe4ddd10703cc7dcaad2e52c216459473da4a39b969121c68343",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1246960,
+        "sha256": "87df33dc9dcdaf445b74e63113acd9e6b21ea7df3f4595da110468540575a24d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-tpose-left-latest",
+      "character": "bonnie",
+      "title": "daggers-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3669229,
+        "sha256": "7bb51d28da81f47e41cd5cde3eaa1d6729511f542854600183442d640595e2b2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1406198,
+        "sha256": "fce179d4441f0b253b7c26d45eb89b9ab3070adf753c7043d4d30f47730df073",
+        "alpha": false
+      }
+    },
+    {
+      "id": "daggers-tpose-right-latest",
+      "character": "bonnie",
+      "title": "daggers-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/daggers-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3678228,
+        "sha256": "b9d876fe5232aae35cfc3232d7050a2ada39cabd9fd89156b4aa24e680fcd67d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/daggers-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1419060,
+        "sha256": "0d902973fe986b8b4a425bc45030f301fa28f399ea59f482d0891ed7ca1e76c0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "bonnie",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/bonnie/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2495479,
+        "sha256": "a6dd535e5acbe9dfab82b232ebb094a5c62b2766b5d1cc1fdb49789233437e74",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1686590,
+        "sha256": "863581ed52e9176091bcb4739b5cf5081f33f3917df565d140853db946a01b0c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-back-latest",
+      "character": "bonnie",
+      "title": "goggles-back-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3467048,
+        "sha256": "26ebf82e746434230754d42f8763ee2e9924f60392158078493de5477525a97e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 921232,
+        "sha256": "dcd5c7229875df517cbd0431f9b828011875a64b31f0be649b0ceeba6dc7f5d4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-board-latest",
+      "character": "bonnie",
+      "title": "goggles-board-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1382031,
+        "sha256": "f333eb16a380f206b8bc39cea640b936b1db894a2583bfc22c9a0aed2798a080",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 778380,
+        "sha256": "d1422907440832760e627e1dc263ca32200b66671fa56325ef0327db9425e4c9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-closeup-board-latest",
+      "character": "bonnie",
+      "title": "goggles-closeup-board-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-closeup-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5601430,
+        "sha256": "cd91b4f4ee8e095e56797bfe6ffd8b9fe65bc61a7ecf98a25f08bd58f5b11bb9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-closeup-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1571150,
+        "sha256": "0ac2b78c07a8c34d7ff406092600522499f639969c21965acb9e93661fc607c1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-front-latest",
+      "character": "bonnie",
+      "title": "goggles-front-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3796406,
+        "sha256": "43f671f53a129781fa42fa12715df52d2edde2c7171ae22785ff28a122f7daa3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1039886,
+        "sha256": "8444b50231d1ee1ae2a529427978732a948e6d1691e1e18b2e5dfa9749bf9647",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-side-latest",
+      "character": "bonnie",
+      "title": "goggles-side-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3806340,
+        "sha256": "3d594b4148d0cc36854785f2c72f31720ac516fa4b8302ca81e4b64d5f4d97e9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1098940,
+        "sha256": "f79855afd791c4e45b4422cec22c5d10fe1499b9ae626192f6f1c345770e9ff2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-back-latest",
+      "character": "bonnie",
+      "title": "goggles-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3218424,
+        "sha256": "a5f026e6e4d319f6414ba13dc7e2307b6de3c1da42632d53e4a849c5064c1960",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1097956,
+        "sha256": "bb330d26eeb62151a4e82c5924e0fd3cd3d6ad337c89b100434a913b5f558656",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-front-latest",
+      "character": "bonnie",
+      "title": "goggles-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3756123,
+        "sha256": "fe6d066a192671f8f6eee4b991be79448b977d8b32cbbf4682432c1d0704be59",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1395906,
+        "sha256": "d209e31ad34bfbd0fc4ef4a64ebc604ac3e14b0bd1d0227c4d51acb7a614f327",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-left-latest",
+      "character": "bonnie",
+      "title": "goggles-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3676703,
+        "sha256": "4c095958dc8aa0b6e7b1850d3cd66627a8d22d3e9479a213908b8d10c39d3e2c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1411536,
+        "sha256": "bea2c3193ca780672bfa10cbbb9c3a2063f4a1790a5467e272bf25c0bf368e2e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-right-latest",
+      "character": "bonnie",
+      "title": "goggles-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3635697,
+        "sha256": "c6c2448067490c2c8e1894f67ad26527dd9ad88e76438e18b9291e901a9f56ef",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1403636,
+        "sha256": "77230114a9f099bee635af88d07b1e29af4b4889d74062e2a3cbcee7fcff6355",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-back-latest",
+      "character": "bonnie",
+      "title": "hands-back-latest",
+      "original": {
+        "path": "/media/bonnie/hands-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5507581,
+        "sha256": "de5d950d4e4b6014df273c3adfdec2ac3e31e5b89fea4ee8d7e74445a205defc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hands-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1353038,
+        "sha256": "04d9bb71f5472aa8e6d52b82de9fec5f5cc8b4da955143e2d0bacd735ea87023",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-front-latest",
+      "character": "bonnie",
+      "title": "hands-front-latest",
+      "original": {
+        "path": "/media/bonnie/hands-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4031463,
+        "sha256": "0ce81b093b6cbb201f085e0196d1e72add5343b059326936eb6b30eeb599f27b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hands-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1157342,
+        "sha256": "77fbe449b5f8572db806b2c5e8055453e39c25d92c3fb47fd4a67929912b17de",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-gloves-board-latest",
+      "character": "bonnie",
+      "title": "hands-gloves-board-latest",
+      "original": {
+        "path": "/media/bonnie/hands-gloves-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1317319,
+        "sha256": "341e045496fa25466297645ba9444a6c583e18bbd238de74ca664a24e37d2adb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hands-gloves-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 761266,
+        "sha256": "002ca0e038fe3bb923208ba0a0425ae71f657c71dccafff30ffb81ffc12789cd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-side-latest",
+      "character": "bonnie",
+      "title": "hands-side-latest",
+      "original": {
+        "path": "/media/bonnie/hands-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3560934,
+        "sha256": "65066a053e777cc1bf9e970e9992cf36bb7ba0e2ba39a290cf4add9d3f8a2e45",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hands-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1011030,
+        "sha256": "df07b2e05c11ef35813fd8f44615e7fce5f3ff8ab69d6e3877e95df5b051f6bc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-tpose-back-latest",
+      "character": "bonnie",
+      "title": "hands-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/hands-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5397476,
+        "sha256": "f3045a18c41beaa77001493f18efa2d9c7d2ddc83df9a3296054f633641135a0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hands-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1845974,
+        "sha256": "0dcf1dfe283a221a7c8c53e4bf0eb34cb1b7db489fc470d56a655529cb261a95",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-tpose-front-latest",
+      "character": "bonnie",
+      "title": "hands-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/hands-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5599764,
+        "sha256": "6114c0bbbf37e60714eccc568550c5c77046fa6378c9937f4aeb7a5919dc3508",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hands-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1936498,
+        "sha256": "bbcc7d8abb3c51601559d180ff5d38d619ca331789a9e3adab75512fec7df008",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-tpose-left-latest",
+      "character": "bonnie",
+      "title": "hands-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/hands-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5685666,
+        "sha256": "13e366dce24108866c997987d83100a79bcf02cc1a411147c81c1c880eefa55c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hands-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1782370,
+        "sha256": "0cca4e5f185df02b30680217d6f919380cce8976c2026fbb1e79289344383ebc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-tpose-right-latest",
+      "character": "bonnie",
+      "title": "hands-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/hands-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5969933,
+        "sha256": "bb475ee07267dd586769aa069797d68e964b1c8f5717f69d3cd7018e65e81eff",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hands-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1867414,
+        "sha256": "37d2235e7d52c6ad86f383f1ebdafe0ae653258c0f5fce0cfca80baa9a7fa14e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hands-wrist-board-latest",
+      "character": "bonnie",
+      "title": "hands-wrist-board-latest",
+      "original": {
+        "path": "/media/bonnie/hands-wrist-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1449369,
+        "sha256": "0930561b3021da8795e2f5da2ff539acf5cdd7028b5f00120d16e17d4ced0e57",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hands-wrist-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 889456,
+        "sha256": "ef1246f0f541e4d5b694cbfd7dc6a51eab8188a10e6d79251bd8929198dc2f14",
+        "alpha": false
+      }
+    },
+    {
+      "id": "head-reference-latest",
+      "character": "bonnie",
+      "title": "head-reference-latest",
+      "original": {
+        "path": "/media/bonnie/head-reference-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1580903,
+        "sha256": "9a0895a56fb3f0aeb45ee2fb23e1f4e3632a4151039a69cdefa81de971d01768",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/head-reference-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 981340,
+        "sha256": "5802b882ff4904d4936aa09dc0bbf7e8da68395d6507bb4e05dd0961c70bcdb0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-back-latest",
+      "character": "bonnie",
+      "title": "hosiery-back-latest",
+      "original": {
+        "path": "/media/bonnie/hosiery-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 6307394,
+        "sha256": "3daddf87ba68b170e95e16faafe573da54b848fb597984d045c9f2491316d7fc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hosiery-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1398124,
+        "sha256": "3cb3f40bac7763f9fbe5df1d5e209960d54867b4310678e7b6de68194310d144",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-board-latest",
+      "character": "bonnie",
+      "title": "hosiery-board-latest",
+      "original": {
+        "path": "/media/bonnie/hosiery-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1803173,
+        "sha256": "a7175b82fbd6bb6a76ef20aa74eb2e65f0881d4ad63fbafeed8d4d0314c8c26a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hosiery-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1161994,
+        "sha256": "b234cc2edcc87c3499c2d9ea4e9a7e0b076db928facadc12bb5967a48f63d9c4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-front-latest",
+      "character": "bonnie",
+      "title": "hosiery-front-latest",
+      "original": {
+        "path": "/media/bonnie/hosiery-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 6092835,
+        "sha256": "7a76136acdcade7d466200692c4982479e41f06250107034d5613034632fe532",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hosiery-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1407820,
+        "sha256": "3124cd4e1b20411b866c9d465d35893fa69c953194e89eed5c8eb81209c3a688",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-side-latest",
+      "character": "bonnie",
+      "title": "hosiery-side-latest",
+      "original": {
+        "path": "/media/bonnie/hosiery-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5601352,
+        "sha256": "856d17465073c5b7449b759cda42759ce1f312a91037c8be26d53d1991ece1a4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hosiery-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1262630,
+        "sha256": "46065f4536600b35a1333272d27d9054986b484fe6939ca9ea81746e2dbdb7d9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-tpose-back-latest",
+      "character": "bonnie",
+      "title": "hosiery-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/hosiery-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5637661,
+        "sha256": "54ae6c2d840bb25ef2048717ac58a21fdb3cecd4071fea08675ff9332c0b07ea",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hosiery-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1841720,
+        "sha256": "2e18671956250a6cd86015be6988d2301ad8bcd1d0e9960cf5ffd427bd54b821",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-tpose-front-latest",
+      "character": "bonnie",
+      "title": "hosiery-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/hosiery-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5938984,
+        "sha256": "39427cd50ba599f34a822a454bf316e227f68a75ec9f5e7e874edec0128545b5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hosiery-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1892462,
+        "sha256": "f34e17c7bc4f1da0d679f7786455797e5cffe79bc2062a3e19c898e383112a66",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-tpose-left-latest",
+      "character": "bonnie",
+      "title": "hosiery-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/hosiery-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5454013,
+        "sha256": "9c92e90788de21949b9ad00a54a559980150ed9cd68e1b4e05b844696eab2256",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hosiery-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1806884,
+        "sha256": "0037dcffe226b9c15e4f21dfe6bd60d9a960dc0dfd06effc9e73384a36f08627",
+        "alpha": false
+      }
+    },
+    {
+      "id": "hosiery-tpose-right-latest",
+      "character": "bonnie",
+      "title": "hosiery-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/hosiery-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6441551,
+        "sha256": "fe67839d706bf2a8e6adec7b30edb71cd860e973c436f013e1bb34694b7d0902",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/hosiery-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1923124,
+        "sha256": "3e07268c8e4b464ecd899327c94eb8792c4af0d2ecb575df3ba71c7062bd55a0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-back-latest",
+      "character": "bonnie",
+      "title": "innerwear-back-latest",
+      "original": {
+        "path": "/media/bonnie/innerwear-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5930861,
+        "sha256": "e2f0994f41c3862e0af4e59a85014996fdb4553378c0104e6f6673a42ce41431",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/innerwear-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1377320,
+        "sha256": "5cda1dea806eb8b2af7eff045b71dfccdf0798102622e3beabced75ccca2f78c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-front-latest",
+      "character": "bonnie",
+      "title": "innerwear-front-latest",
+      "original": {
+        "path": "/media/bonnie/innerwear-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5255744,
+        "sha256": "668230a54a9b75469c5cd7e698ed4106c09b4bf5fbb2cc4f4ca71dd68c95f97f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/innerwear-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1329468,
+        "sha256": "07f09ac4231963fb51fdb68a710b8f4d9cd76e098b8e5a1fae6efb42fd478e1e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-shorts-board-latest",
+      "character": "bonnie",
+      "title": "innerwear-shorts-board-latest",
+      "original": {
+        "path": "/media/bonnie/innerwear-shorts-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1641552,
+        "sha256": "f18e2316ea3aa7f27b5fa8509af908c0c5436f29a64a1bf982154b2a6d7908fd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/innerwear-shorts-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1064388,
+        "sha256": "d84631237236fcac2832e01b6c80c82d2fcd85ab3a3c1c77a2432a19d1c5af77",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-side-latest",
+      "character": "bonnie",
+      "title": "innerwear-side-latest",
+      "original": {
+        "path": "/media/bonnie/innerwear-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3529730,
+        "sha256": "c6a04d481b22e1904fe00826e2aaa865862eb84b0962c12cc7536f9f530fbc5f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/innerwear-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 986384,
+        "sha256": "101fa00a74754a1f0c99bc8e24816cf4847ca88d4b9598b2f2f450e90ee7a94d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-top-board-latest",
+      "character": "bonnie",
+      "title": "innerwear-top-board-latest",
+      "original": {
+        "path": "/media/bonnie/innerwear-top-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1688937,
+        "sha256": "d949df8f7e088623bc4429a15a2a12e71712b2f1cf7291e73bf2707c9e57e890",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/innerwear-top-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 979558,
+        "sha256": "016c6a89983452c54c3c9459f29811c126c3714e3c118f797e35d8ea94dbc14f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-tpose-back-latest",
+      "character": "bonnie",
+      "title": "innerwear-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/innerwear-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3672851,
+        "sha256": "19f1995e88a25250cad7e8f90af292b17be8ad19acb7f7708ea036e9bb2f19a5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/innerwear-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1371716,
+        "sha256": "97ab80a494b559efc6a4cecea4baaaf3df725f12aa697f9e11b28ec10dc05bdc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-tpose-front-latest",
+      "character": "bonnie",
+      "title": "innerwear-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/innerwear-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5949375,
+        "sha256": "f36460fa41aa7c06a01da5c203f724bdb19750875536673d20019f6cc43a9d72",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/innerwear-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1906814,
+        "sha256": "c6b3d3f893b9b979b532642f1375ca3de4411941e23b5e3d78f2057503d72206",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-tpose-left-latest",
+      "character": "bonnie",
+      "title": "innerwear-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/innerwear-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6026253,
+        "sha256": "7b15138dac06abd5f448de5b46238c13d9aaa7862ff1bd5887e1b3100ba050ed",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/innerwear-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1829676,
+        "sha256": "ba4a609d86417c076f6c69046d5a4c94a00c38274d54656420f077a22df73cdb",
+        "alpha": false
+      }
+    },
+    {
+      "id": "innerwear-tpose-right-latest",
+      "character": "bonnie",
+      "title": "innerwear-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/innerwear-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4867999,
+        "sha256": "0f638bae3a33b2c9d5713d0dba93d056546b394f959788ba7a64a70d4be73df6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/innerwear-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1550572,
+        "sha256": "48e1d9179b8a79747b87f017eadea9cd3bd9f61c8bfcdaf19d4c1aa7915502aa",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-back-latest",
+      "character": "bonnie",
+      "title": "jacket-back-latest",
+      "original": {
+        "path": "/media/bonnie/jacket-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3545734,
+        "sha256": "ba2409d02fd27e879b6fe5c52ac20d6072892cb59013f5461b1f784c75e23ae5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/jacket-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 973578,
+        "sha256": "6f44c73a5e2283f642ff38252bd9449e09cf6c6f6aa599f13cd88270b7609007",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-board-latest",
+      "character": "bonnie",
+      "title": "jacket-board-latest",
+      "original": {
+        "path": "/media/bonnie/jacket-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4632754,
+        "sha256": "80fc0de79ca9752ba7a3286a47f28eb606d412c751a80513fbaaef029c4503dd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/jacket-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1355338,
+        "sha256": "4a2e7d08aa85b38643ebef1aa0efce097994e6d4c79f1ba978a769e99c057cdc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-details-board-latest",
+      "character": "bonnie",
+      "title": "jacket-details-board-latest",
+      "original": {
+        "path": "/media/bonnie/jacket-details-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1606022,
+        "sha256": "2c83e1df94e08b2c4201d88cec1a1380c57f960668f1fce543f9670596574f9f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/jacket-details-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1082306,
+        "sha256": "fd6dabfcfd15245f3cc9122b63949d4f8f10588a41b65d53e05335acb417c5f9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-front-latest",
+      "character": "bonnie",
+      "title": "jacket-front-latest",
+      "original": {
+        "path": "/media/bonnie/jacket-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3808177,
+        "sha256": "c59c7aacb76b7fb66040fd67f9cc8610e4c5d6607d5f4fdca0082d47aece29b2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/jacket-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1050280,
+        "sha256": "a571d9f13d7e5dfe7554ca41c7a725182499ba35763da1f92d8ef6b62824b63b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-side-latest",
+      "character": "bonnie",
+      "title": "jacket-side-latest",
+      "original": {
+        "path": "/media/bonnie/jacket-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3784257,
+        "sha256": "86d8db69a2c96ad6978caf9de536d9631fd156ed89c63aeff716ac7361d2f11d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/jacket-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1090514,
+        "sha256": "0b0fd7f708c3a22ad05be731905bae4b40b8dfe33552757b8b42cc2952010c66",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-back-latest",
+      "character": "bonnie",
+      "title": "jacket-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/jacket-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3292560,
+        "sha256": "42f0e9ac5f39c381201ce723d82239dcd117979042a7ff378c7bc664afe751d3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/jacket-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1133956,
+        "sha256": "e68b9e60f7876f8fd8a1e2ab97407768df41c621325842aa53d5ab27e478a7ab",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-front-latest",
+      "character": "bonnie",
+      "title": "jacket-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/jacket-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3625056,
+        "sha256": "f00b92cdd7f2671ca3f68d9fa28a2bed956ac6ce38456965d6b86894082b05c0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/jacket-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1331222,
+        "sha256": "b1446a79bbc39c73285f312b8cee760e1f67a3492e4685751ddfa403ada43d90",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-left-latest",
+      "character": "bonnie",
+      "title": "jacket-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/jacket-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3625978,
+        "sha256": "6b292281b786c27e4be3ffb39bd690e8c55c9a07f8b56511cb851857ba2ada4a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/jacket-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1394674,
+        "sha256": "53de4358ae99e56dbe44649621eba3912f729a3dd2f6c4054e3f465ab475ffde",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-right-latest",
+      "character": "bonnie",
+      "title": "jacket-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/jacket-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3645465,
+        "sha256": "8e0edfca259922b2d73e507fe5d3764ef0b2d40ac7ba9bf1b81fcd3533f251a7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/jacket-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1407092,
+        "sha256": "15b1848bd824180ba7595e5ece2afdb8d5f6acc282665c765b97f3f559a06b02",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-back-latest",
+      "character": "bonnie",
+      "title": "shoes-back-latest",
+      "original": {
+        "path": "/media/bonnie/shoes-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 5749013,
+        "sha256": "e749d4dfac41bbf3a5a750eb2372d33d6af5d5bb9d09fd7775b2ed075bbfbb65",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/shoes-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1383252,
+        "sha256": "2248dfdb73866cc6d7bbdf2d7bc2299accde1f08254cf017d28292adca2a5c28",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-board-latest",
+      "character": "bonnie",
+      "title": "shoes-board-latest",
+      "original": {
+        "path": "/media/bonnie/shoes-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1576720,
+        "sha256": "f547cd3d02364f8deba75ea54f6f51192803bcd45cf4c0a85970d6912972b2f7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/shoes-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1021668,
+        "sha256": "e6145abfc9e43b9d88b23f4410b394c7268b3864c116f1b910de0ec7f74958e1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-front-latest",
+      "character": "bonnie",
+      "title": "shoes-front-latest",
+      "original": {
+        "path": "/media/bonnie/shoes-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4848805,
+        "sha256": "09b790b376dda0248f4dfdbc8382b013aac000a0a1b5793dbbfee60c7e828c43",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/shoes-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1308498,
+        "sha256": "5434f8857409983c3737865cfb7a70cfddc12f91a8b5b20364e73b495207e166",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-side-latest",
+      "character": "bonnie",
+      "title": "shoes-side-latest",
+      "original": {
+        "path": "/media/bonnie/shoes-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4406540,
+        "sha256": "375b19038c4da1954fda2140fb7e202dfbe968d62ce751238decf4c596aa8835",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/shoes-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1134894,
+        "sha256": "bf9d639cd58e68ef6340f6d87aa4e6f40db15adc941c7693c8d56233dfbf09f9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-tpose-back-latest",
+      "character": "bonnie",
+      "title": "shoes-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/shoes-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 6115590,
+        "sha256": "1056705cd34c431c3cf18995f5424bfde018ad6d2774c9de100e8d35cfca13a3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/shoes-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1923508,
+        "sha256": "3e4dd3909ba5eaf3cc4136fcb7857ebe0bdd57e0b623f6299aa2b6d4fd1ea477",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-tpose-front-latest",
+      "character": "bonnie",
+      "title": "shoes-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/shoes-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3957215,
+        "sha256": "bbd27395d9e3e572fee881c0fa105c80da94b3c0f922cc5ce2d23c838cdd1423",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/shoes-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1522358,
+        "sha256": "6f01306fa7008a6f50ebdb6b72c47359bd3376f95a5cddeeb1a225db5d47c54d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-tpose-left-latest",
+      "character": "bonnie",
+      "title": "shoes-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/shoes-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5230020,
+        "sha256": "57dcf6d0022e41a877fdf9c735e883fff32173d204fb3010b598226000bef8f5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/shoes-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1755124,
+        "sha256": "40449fd280b85fdf55e1087be2c57c70ca5569ff1a30a51bdf93b86bf7cbd718",
+        "alpha": false
+      }
+    },
+    {
+      "id": "shoes-tpose-right-latest",
+      "character": "bonnie",
+      "title": "shoes-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/shoes-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5968787,
+        "sha256": "f941d104be9c2a492dfc25f41181087d33dd12e1b729fa4a896c8b90ee799b6e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/shoes-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1858740,
+        "sha256": "65a821ef6c1c4e24e1d1c6648e246da7b805fe576dad17605b8279765cbab003",
+        "alpha": false
+      }
+    },
+    {
+      "id": "structure20-lineart-latest",
+      "character": "bonnie",
+      "title": "structure20-lineart-latest",
+      "original": {
+        "path": "/media/bonnie/structure20-lineart-latest.png",
+        "mime_type": "image/png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1436115,
+        "sha256": "5d57cdcffa8d22e1948059d03cc32cb08e9526de3eed0eaaf9e17a3bbdcc5c5f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/structure20-lineart-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1774,
+        "height": 887,
+        "bytes": 99396,
+        "sha256": "e70a14293fa49442fcfdc8b75325890bd50b98278bb42a3ca4307f296f5a99ad",
+        "alpha": false
+      }
+    },
+    {
+      "id": "sun05-pose-structure-latest",
+      "character": "bonnie",
+      "title": "sun05-pose-structure-latest",
+      "original": {
+        "path": "/media/bonnie/sun05-pose-structure-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1312057,
+        "sha256": "cb02a60b101c3668252059e68204902d0b2fe3b704d82b40c77b28ca55a05755",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/sun05-pose-structure-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 46976,
+        "sha256": "a8008bb770572f7e585470612f59aba747614a81cac64b188f14377a51078bec",
+        "alpha": false
+      }
+    },
+    {
+      "id": "sun05-scene-latest",
+      "character": "bonnie",
+      "title": "sun05-scene-latest",
+      "original": {
+        "path": "/media/bonnie/sun05-scene-latest.png",
+        "mime_type": "image/png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2651366,
+        "sha256": "cfb89d59ec0f9ca6b04d7f987a9371d4be0c5d28e2b83095dbd76dffa65d061a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/sun05-scene-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1774,
+        "height": 887,
+        "bytes": 381858,
+        "sha256": "ecdcf0420309fee3ed41528b2aa93b1a30245f6346b1bab60e5ab3a06548a746",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-back-latest",
+      "character": "bonnie",
+      "title": "thigh-gear-back-latest",
+      "original": {
+        "path": "/media/bonnie/thigh-gear-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3806149,
+        "sha256": "955a28476e74c2fcca93469e2aa7d26087df1c4225b0780cc4c476bb6c76dae4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/thigh-gear-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1060942,
+        "sha256": "edd7bbcbabb8939419f96f160c7390498e3a63df40d658f427f2835e53c948c4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-front-latest",
+      "character": "bonnie",
+      "title": "thigh-gear-front-latest",
+      "original": {
+        "path": "/media/bonnie/thigh-gear-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4052469,
+        "sha256": "73c2468d35321cdaaa3df6fce21c13ad717be878da32139dc75b4cdbfa993575",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/thigh-gear-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1165484,
+        "sha256": "17a3cb99b0317d315dc95e24de3f85fc01ac28db7e6ea1fdad89a2259cb8f5ad",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-pouch-board-latest",
+      "character": "bonnie",
+      "title": "thigh-gear-pouch-board-latest",
+      "original": {
+        "path": "/media/bonnie/thigh-gear-pouch-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4729604,
+        "sha256": "750d57b5929eff6022a52d2b4df5344e5390fe0ffe4cfc1f8ca64757b01df177",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/thigh-gear-pouch-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1314006,
+        "sha256": "a833f699143700a5f451dbd1e18ff1fd4fb9871a107c297682e3399066db4a74",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-side-latest",
+      "character": "bonnie",
+      "title": "thigh-gear-side-latest",
+      "original": {
+        "path": "/media/bonnie/thigh-gear-side-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3535308,
+        "sha256": "0e04ffadcd7cf9c70c12a44e41085162b320bb48c881b7b9c59f9b278ee173e2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/thigh-gear-side-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1013466,
+        "sha256": "9d79d08cf73f0d32192d7c6a618117d0024859168a40bd938de672c089d8be9b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-terminal-board-latest",
+      "character": "bonnie",
+      "title": "thigh-gear-terminal-board-latest",
+      "original": {
+        "path": "/media/bonnie/thigh-gear-terminal-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1330883,
+        "sha256": "e955e48e5b1f31b13d9922a9e74494f24e0621912434cb859b87160917a307e8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/thigh-gear-terminal-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 755582,
+        "sha256": "ca93cdf5e501888272f70620545b77c8c0eccbc16b93d84242ebd498e1b82929",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-tpose-back-latest",
+      "character": "bonnie",
+      "title": "thigh-gear-tpose-back-latest",
+      "original": {
+        "path": "/media/bonnie/thigh-gear-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3719564,
+        "sha256": "7cfd2edd4b3041423fb9e39c0c2afc808f4b7835bc0abe017dc713acc05195e4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/thigh-gear-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1399924,
+        "sha256": "3c2b695dcc2e37f14f9dbda6367149ffbbf5905c2e4c187f8a8a9d806f79a657",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-tpose-front-latest",
+      "character": "bonnie",
+      "title": "thigh-gear-tpose-front-latest",
+      "original": {
+        "path": "/media/bonnie/thigh-gear-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3971037,
+        "sha256": "6a00daf02b20f09e6c0ffc6f6836da3e71276cc969a5fbaf2adc986dd0b86304",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/thigh-gear-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1535816,
+        "sha256": "e9bbee2e1d5727303f8b72d1a621ec65650fa771e8ef4e631cbfd111916c73a2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-tpose-left-latest",
+      "character": "bonnie",
+      "title": "thigh-gear-tpose-left-latest",
+      "original": {
+        "path": "/media/bonnie/thigh-gear-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3631156,
+        "sha256": "e65a1764562825112bf735138b1cf7a8d6d54de9d3317ffd5aa62d992ff4b4dd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/thigh-gear-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1394506,
+        "sha256": "c6655a6b530a15c8b198fbdaa176310e3376858f7d4b948209d35a21a30af4ff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "thigh-gear-tpose-right-latest",
+      "character": "bonnie",
+      "title": "thigh-gear-tpose-right-latest",
+      "original": {
+        "path": "/media/bonnie/thigh-gear-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3585189,
+        "sha256": "b4ffd8b44c294bd37a84da35f7fe7f9a57a24fcac7b58d6afaee9ba8deadfeb5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/thigh-gear-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1379680,
+        "sha256": "bf948056e26adf34251379992b35a6f75ff41ba236389e52823acefa5a4c143a",
+        "alpha": false
+      }
+    }
+  ]
+}

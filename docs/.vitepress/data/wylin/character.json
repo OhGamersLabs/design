@@ -1,0 +1,21 @@
+{
+  "name": "维琳·西莱克斯",
+  "role": "雷电法师",
+  "order": 10,
+  "portrait": "arcane-coat-front-latest",
+  "pages": [
+    {
+      "path": "/characters/wylin/body",
+      "title": "身体"
+    },
+    {
+      "path": "/characters/wylin/combat-rig",
+      "title": "束腰前帘、腕部导能环与平底法靴"
+    },
+    {
+      "path": "/characters/wylin/arcane-coat",
+      "title": "高立领半袖燕尾奥术风衣"
+    }
+  ],
+  "accent": "#2F588F"
+}

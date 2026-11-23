@@ -1,0 +1,49 @@
+{
+  "name": "罗伊 & 罗娅·达罗",
+  "role": "赏金猎人 · 双主角",
+  "order": 1,
+  "portrait": "duo-front-latest",
+  "pages": [
+    {
+      "path": "/characters/darrow/body",
+      "title": "罗伊 · 身体"
+    },
+    {
+      "path": "/characters/darrow/base-kit",
+      "title": "罗伊 · 内搭与机能球鞋"
+    },
+    {
+      "path": "/characters/darrow/belt-guards",
+      "title": "罗伊 · 护具与腰间金币匣"
+    },
+    {
+      "path": "/characters/darrow/parka",
+      "title": "罗伊 · 燕尾连帽派克外套"
+    },
+    {
+      "path": "/characters/darrow/goggles",
+      "title": "罗伊 · 深红护目镜"
+    },
+    {
+      "path": "/characters/darrow/female-body",
+      "title": "罗娅 · 身体"
+    },
+    {
+      "path": "/characters/darrow/female-base-kit",
+      "title": "罗娅 · 露脐运动内搭与鞋袜"
+    },
+    {
+      "path": "/characters/darrow/female-belt-guards",
+      "title": "罗娅 · 腰带护具与单腿绑带"
+    },
+    {
+      "path": "/characters/darrow/female-parka",
+      "title": "罗娅 · 燕尾连帽派克外套"
+    },
+    {
+      "path": "/characters/darrow/female-goggles",
+      "title": "罗娅 · 橙红护目镜"
+    }
+  ],
+  "accent": "#C47A1E"
+}

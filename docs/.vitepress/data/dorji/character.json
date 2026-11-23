@@ -1,0 +1,41 @@
+{
+  "name": "多吉·库诺",
+  "role": "吉祥物 · 先锋重坦",
+  "order": 5,
+  "portrait": "vanguard-beanie-front-latest",
+  "pages": [
+    {
+      "path": "/characters/dorji/body",
+      "title": "Q 版身体"
+    },
+    {
+      "path": "/characters/dorji/suit",
+      "title": "Q 版宇航服"
+    },
+    {
+      "path": "/characters/dorji/pack",
+      "title": "Q 版胸盒与背包"
+    },
+    {
+      "path": "/characters/dorji/beanie",
+      "title": "Q 版毛线帽"
+    },
+    {
+      "path": "/characters/dorji/vanguard-body",
+      "title": "先锋重坦素体"
+    },
+    {
+      "path": "/characters/dorji/vanguard-suit",
+      "title": "先锋内搭与腿甲"
+    },
+    {
+      "path": "/characters/dorji/vanguard-armor",
+      "title": "先锋胸甲与双盾臂铠"
+    },
+    {
+      "path": "/characters/dorji/vanguard-beanie",
+      "title": "先锋毛线帽"
+    }
+  ],
+  "accent": "#BD6E24"
+}

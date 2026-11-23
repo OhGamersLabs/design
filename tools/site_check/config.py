@@ -7,10 +7,10 @@ import re
 
 PROCESS_WORDS = ('本轮','此前','已取消','取消','保留','旧','历史','尚未','待选','待补','改为','原有')
 EDITORIAL_CLAIMS = ('最容易画错','一眼就能认出')
-DIRECTION_EXCEPTIONS = ('角色左','角色右','画面左','画面右','左右识别','左右翻看','左右键','左右肩宽')
+DIRECTION_EXCEPTIONS = ('角色左','角色右','画面左','画面右','左右识别','左右翻看','左右键','左右肩宽','从左往右')
 PURPLES = ('#6551b9','#7462c4','#7462c412','#5743a8','#4f3c9b','#faf9fd','#f6f5fa','#f2f0f8','#e8e5ef')
-SHARED_COLLECTIONS = frozenset(('origins', 'base-bodies', 'world'))
-RULE_IDS = ('R1','R2','R3','R4','R6','R7','R7b','R8','R9','R10','R11','R12a','R12b','R13','R14','R15','R16','R17','A1','A2','D2','D4')
+SHARED_COLLECTIONS = frozenset(('origins', 'base-bodies', 'world', 'story'))
+RULE_IDS = ('R1','R3','R4','R6','R7','R7b','R8','R9','R10','R11','R12a','R12b','R13','R14','R15','R16','R17','A1','A2','D2','D4')
 
 
 @dataclass
@@ -87,8 +87,7 @@ def discover_characters(root):
         for entry in character['pages']:
             page=object_value(entry,f'{cid}:pages')
             pages[character_path(page['path'],cid)]=string(page['title'],f'{cid}:page title')
-        mapping=read_object(file.with_name('anchor-map.json'))
-        stubs=tuple(character_path(path,cid) for path in object_value(mapping['stubs'],f'{cid}:stubs'))
+        stubs=()
         home=read_object(file.with_name('home.json'))
         updated=string(home['updated'],f'{cid}:updated')
         if not isinstance(home['highlights'],list):raise ValueError(f'expected highlights list: {cid}')
@@ -123,10 +122,17 @@ def discover_characters(root):
 
 
 def discover_shared_dates(root):
-    file=root/'docs/.vitepress/data/base-bodies/base-bodies.json'
-    if not file.is_file():return ()
-    data=read_object(file)
-    return strings(data.get('allowedDates',[]),str(file)+':allowedDates')
+    dates=[]
+    for rel in ('docs/.vitepress/data/base-bodies/base-bodies.json','docs/.vitepress/data/story/story.json'):
+        file=root/rel
+        if file.is_file():
+            data=read_object(file)
+            dates.extend(strings(data.get('allowedDates',[]),str(file)+':allowedDates'))
+    wfile=root/'docs/.vitepress/data/world/world.json'
+    if wfile.is_file():
+        wdata=read_object(wfile)
+        if isinstance(wdata.get('updated'),str):dates.append(wdata['updated'])
+    return tuple(dict.fromkeys(dates))
 
 
 @dataclass

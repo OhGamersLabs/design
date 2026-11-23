@@ -1,0 +1,723 @@
+{
+  "schema_version": "2.0",
+  "character_id": "story",
+  "language": "zh-CN",
+  "title": "星环纪元主线漫画连载",
+  "status": "local-review",
+  "asset_count": 31,
+  "assets": [
+    {
+      "id": "ep01-p01-latest",
+      "character": "story",
+      "title": "ep01-p01-latest",
+      "original": {
+        "path": "/media/story/ep01-p01-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1823762,
+        "sha256": "f873dde8a297f16f329b2f862505647ccb7be6cc9a7830c0eaa09ccb389a66e8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p01-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 994078,
+        "sha256": "403c2b1e4eef47e518435321f4f73c29eb4d4e7a57285954d2e887b0a94362e3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p02-latest",
+      "character": "story",
+      "title": "ep01-p02-latest",
+      "original": {
+        "path": "/media/story/ep01-p02-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1826556,
+        "sha256": "7fe48e0b32f26af3773de2208d6a66ecb18b800bbdbec6bc099ccd5584308161",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p02-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1013736,
+        "sha256": "497e643039fd344d0781eaece153a1fcccaeabddc5707abd4ec5ea5fb00007d1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p03-latest",
+      "character": "story",
+      "title": "ep01-p03-latest",
+      "original": {
+        "path": "/media/story/ep01-p03-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1781911,
+        "sha256": "ef4509d7ba8362c0c668353da072b72684bd0d70c4233bf6d12bbe85b7be93d0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p03-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1000744,
+        "sha256": "4c302f5df7845bfb7ff402bffa79ae725eac1ac65169f6dcfb597f58f114b2bc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p04-latest",
+      "character": "story",
+      "title": "ep01-p04-latest",
+      "original": {
+        "path": "/media/story/ep01-p04-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1675401,
+        "sha256": "7527ccf262c51e21ba51e043ac46c93188c992da808fcc8e1e167da0b499d418",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p04-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 931030,
+        "sha256": "23ff1bbe772517d6a2194a1a567206c7b117b7dffb71ea4354fb60246136a016",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p05-latest",
+      "character": "story",
+      "title": "ep01-p05-latest",
+      "original": {
+        "path": "/media/story/ep01-p05-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1493676,
+        "sha256": "f61de9cfdd0ea5a031f0ffe05e90d8d7b9ffb619ab36d2fd7c0b69203efc5d81",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p05-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 812336,
+        "sha256": "c607cbd3cf0b109120f2adddd8854f5377e8414da8eccccf4d6f96b351aac39d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p06-latest",
+      "character": "story",
+      "title": "ep01-p06-latest",
+      "original": {
+        "path": "/media/story/ep01-p06-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1725469,
+        "sha256": "97f8b98d2d53bf7b58a81e9519184a380d799123a253bcfcc0ae18125c3a8e75",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p06-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 930664,
+        "sha256": "8b25b2dbb0586452483a317525b82a9b1c40153e406325fe0fe4433d4dcd4697",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p07-latest",
+      "character": "story",
+      "title": "ep01-p07-latest",
+      "original": {
+        "path": "/media/story/ep01-p07-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1861694,
+        "sha256": "5c8b38f4de7e4aca36002f9df06fd874989f4b2be3e2f4da30ea3800d807cd80",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p07-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 979794,
+        "sha256": "460232525f637068026770f8aed43f622e62771b469f31d5f7e9ed74e1cdf71e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p08-latest",
+      "character": "story",
+      "title": "ep01-p08-latest",
+      "original": {
+        "path": "/media/story/ep01-p08-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2092592,
+        "sha256": "20dfdc1eb48968ec90bd48a204c0e79afd830532afd314e4c881e6910439a50c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p08-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1107436,
+        "sha256": "62d6127e84dbfd03c721ce0f2f21ee0b97b805978c01e5360ca3a24af92a1a84",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p09-latest",
+      "character": "story",
+      "title": "ep01-p09-latest",
+      "original": {
+        "path": "/media/story/ep01-p09-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1847854,
+        "sha256": "952d171f163bf82bff0377cde050f55657db81a7404ad2f73fabe3743f5a1969",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p09-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 975370,
+        "sha256": "ac87d7c07e634f54099cdbc1171bdec2118dfd883de14c6e712583ec0e153051",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p10-latest",
+      "character": "story",
+      "title": "ep01-p10-latest",
+      "original": {
+        "path": "/media/story/ep01-p10-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2121367,
+        "sha256": "d57282404ec5790a4ce77502dacb683c0af602dd62dcf47e62aa0fb60c53ab75",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p10-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1096088,
+        "sha256": "aec2b65aa618934433f826ef427ad5e780d962b08690c0fa09da9192b8998996",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p11-latest",
+      "character": "story",
+      "title": "ep01-p11-latest",
+      "original": {
+        "path": "/media/story/ep01-p11-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2048316,
+        "sha256": "c68900835a401ed018be194565adb43823bc19afb738b6c47d8656abfe3e81ff",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p11-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1071580,
+        "sha256": "649113d804c08ea47c72e15748104c145598b2d7e2d3f542927e021ac18d94b0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p12-latest",
+      "character": "story",
+      "title": "ep01-p12-latest",
+      "original": {
+        "path": "/media/story/ep01-p12-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1770483,
+        "sha256": "6f8b690f87ec2a65f1b4d4c27f801b776f7c6534286e22ff18b1391ee727c1d3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p12-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 952776,
+        "sha256": "15589e3b8eb1d8d7b6f1ce2a5f96d1d433e84b8bfcf854f1e122130ce3a24fcd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p13-latest",
+      "character": "story",
+      "title": "ep01-p13-latest",
+      "original": {
+        "path": "/media/story/ep01-p13-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1896018,
+        "sha256": "21fb76594d864504318fa6242d9c79b88a22974764689c71dd0161ecacb795d2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p13-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1012282,
+        "sha256": "4a733c1d29403a1aaae8a4a99329fbde5deb61df7e44c4cb07bc17daecf7d158",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p14-latest",
+      "character": "story",
+      "title": "ep01-p14-latest",
+      "original": {
+        "path": "/media/story/ep01-p14-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1984585,
+        "sha256": "2d834731fc266b37c133bfc04fa003fda40860f5b75566d8de6d8831f3ee344e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p14-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1059090,
+        "sha256": "d4c91c1505a786ac3361cd6e13eee0afe2df946668c53c8d62240d59786a1a76",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p15-latest",
+      "character": "story",
+      "title": "ep01-p15-latest",
+      "original": {
+        "path": "/media/story/ep01-p15-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2111854,
+        "sha256": "ff3b6fc990043bf4f4d76e713e591d3f3317b8c7ea8b7ed6b37b1095c60cc0c2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p15-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1089952,
+        "sha256": "2eb53bff840ecfb98a249ed6e253b12533a08209531002a7e57512cfa717e7a7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p16-latest",
+      "character": "story",
+      "title": "ep01-p16-latest",
+      "original": {
+        "path": "/media/story/ep01-p16-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2053117,
+        "sha256": "63b386c7c30d3725884e9fffdf582c749bafe5c4402dd35bc4fd31d1df33e146",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p16-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1104372,
+        "sha256": "7ef59852dde021ad39fa5fb60ebb8fac9b9fcd8e0271ec2100cf3aafb7327fdd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p17-latest",
+      "character": "story",
+      "title": "ep01-p17-latest",
+      "original": {
+        "path": "/media/story/ep01-p17-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1859602,
+        "sha256": "353713b6a67f9d2e793b59bf51d11ba65af7e376cf200f6ceac02aa19b2bf517",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p17-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1004556,
+        "sha256": "fd08b452a3d1c1a01836e378017bc0c4210d30340f4c82abfc27f3f6d5b8641b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p18-latest",
+      "character": "story",
+      "title": "ep01-p18-latest",
+      "original": {
+        "path": "/media/story/ep01-p18-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1515534,
+        "sha256": "9ebca65e4535a7574bf234936d337eaf9097251de69c139e7767af579f4a1eb0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p18-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 814940,
+        "sha256": "c72cf98d6d299f00895cb0ead01a207a6e3de6c2a3497c3b396e7d7f11fc9def",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p19-20-latest",
+      "character": "story",
+      "title": "ep01-p19-20-latest",
+      "original": {
+        "path": "/media/story/ep01-p19-20-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1817337,
+        "sha256": "986531640b37d4488afe5302bd57e41620fcc0fb73856c394d3dedd3855d5388",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p19-20-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 930542,
+        "sha256": "6e38c1ab52c9fa651b98fc22e4769c9171ca1a27f8d8185c5d337bae1e87017e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p21-latest",
+      "character": "story",
+      "title": "ep01-p21-latest",
+      "original": {
+        "path": "/media/story/ep01-p21-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1926045,
+        "sha256": "9167750f9f4e214602534e34f9ffa39e812c346a2524fe42b64ce34abc8b5827",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p21-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1013350,
+        "sha256": "21af75aa05f6ca2a5fe7918554f5c72f35b894d9e7882849d3f3257a1fe53efc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p22-latest",
+      "character": "story",
+      "title": "ep01-p22-latest",
+      "original": {
+        "path": "/media/story/ep01-p22-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1765733,
+        "sha256": "a03d3552aec83cc87a2d53d13a81f28cd3a4966b4371827c4484e1f4295543f9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p22-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 941586,
+        "sha256": "79057ed4f4c2db17c72e6ca605a03525faafa12fc77d25e4f8c015cc06b14bba",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p23-latest",
+      "character": "story",
+      "title": "ep01-p23-latest",
+      "original": {
+        "path": "/media/story/ep01-p23-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1827405,
+        "sha256": "e076eadc5cb7464200a4bd412f6e22d535d3fca5dcc2d087afbecc1713fbda48",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p23-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 985572,
+        "sha256": "4cad324b839cdcba6e16075784383d635947cc7fd71e65452c667af87817f753",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p24-latest",
+      "character": "story",
+      "title": "ep01-p24-latest",
+      "original": {
+        "path": "/media/story/ep01-p24-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1699970,
+        "sha256": "1755913176c36d4fa49f978889007a685141695f32dfbea2926e486790cf4db3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p24-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 917946,
+        "sha256": "61086bec764f107a70747f4e7c71f8d84b13591f28e066acd3ceb9ef95515f9e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p25-26-latest",
+      "character": "story",
+      "title": "ep01-p25-26-latest",
+      "original": {
+        "path": "/media/story/ep01-p25-26-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2028432,
+        "sha256": "401bdf2b33d8dd2551025e3628407c0af1aed75b13155a6eae0109a31fe88914",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p25-26-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1082672,
+        "sha256": "ad8c4504a02f6597bb0ac594e7ca65b18c9f9008061fa4bd2ef9c19cdfd6483f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p27-latest",
+      "character": "story",
+      "title": "ep01-p27-latest",
+      "original": {
+        "path": "/media/story/ep01-p27-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1806221,
+        "sha256": "e0bf025ca667ae0ad6fbc0aa84a875d7a786feb42b5ef80326571524541902de",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p27-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 957164,
+        "sha256": "c1b0c54ff974791402d1284389a86027a74bfb02917014aea1453dba0cd3fac1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p28-latest",
+      "character": "story",
+      "title": "ep01-p28-latest",
+      "original": {
+        "path": "/media/story/ep01-p28-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1637894,
+        "sha256": "ae860ed7e1bf43bfe3186bf10aad324c1cd6a926073e9e60791eb8a23abf7dd3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p28-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 933900,
+        "sha256": "1b805aefc2407fce060f351d21501d2eb8e17a623c9f37f6f3a19f52d0a6ced5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p29-latest",
+      "character": "story",
+      "title": "ep01-p29-latest",
+      "original": {
+        "path": "/media/story/ep01-p29-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1869024,
+        "sha256": "0a41a2031bfd3afb05c605e50cd28f17c06f96c7e8e97b3f8b6ce2cbc63a545a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p29-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1029744,
+        "sha256": "477b452a62b51b001a1d18fc4d3c1e76a67e8e8fd728fb34b9ab801b33fb4404",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p30-latest",
+      "character": "story",
+      "title": "ep01-p30-latest",
+      "original": {
+        "path": "/media/story/ep01-p30-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2036265,
+        "sha256": "7966a2f03b7bb7d875a2eae5aaa5fefd449026766bf26dde5f1964de5d3fcbb7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p30-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1078532,
+        "sha256": "9c597f41bcc11322d1a8322d4cb006b785820a4ef29c42223775a19a62b7b550",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p31-latest",
+      "character": "story",
+      "title": "ep01-p31-latest",
+      "original": {
+        "path": "/media/story/ep01-p31-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1630058,
+        "sha256": "1dfee43dbee6e421856b54d4ed32e13aa6af5850e654bdcf5b1effe6a3c8aea0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p31-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 918560,
+        "sha256": "bde21898dbf97f4a638649a6bb7117bdc9dbf1ba879151bed669ea434ef681e8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p32-33-latest",
+      "character": "story",
+      "title": "ep01-p32-33-latest",
+      "original": {
+        "path": "/media/story/ep01-p32-33-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2077643,
+        "sha256": "cb23af03160531777c464eae3a6422398037b591335c74f7c4e40668ec0fa97a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p32-33-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1153550,
+        "sha256": "9d761fb0d872735993b2242b0fc7152bd75f794ba27ed077a901fbdee94a9d81",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ep01-p34-latest",
+      "character": "story",
+      "title": "ep01-p34-latest",
+      "original": {
+        "path": "/media/story/ep01-p34-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2061841,
+        "sha256": "a63dd9c0495a4de9283ef9ae4a899c68ea90dad3b5fca6eec73f22baa58b6420",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/story/ep01-p34-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1083104,
+        "sha256": "dfc6453b93f1e152157a03b2d4d9814e6e32e5523141a652ae5b4fcae6c99fc9",
+        "alpha": false
+      }
+    }
+  ]
+}

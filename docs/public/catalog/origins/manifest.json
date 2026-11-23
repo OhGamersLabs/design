@@ -7,11 +7,11 @@
   "asset_count": 11,
   "assets": [
     {
-      "id": "angel-original-latest",
+      "id": "ange-original-latest",
       "character": "origins",
-      "title": "angel-original-latest",
+      "title": "ange-original-latest",
       "original": {
-        "path": "/media/origins/angel-original-latest.png",
+        "path": "/media/origins/ange-original-latest.png",
         "mime_type": "image/png",
         "width": 4810,
         "height": 5102,
@@ -20,7 +20,7 @@
         "alpha": true
       },
       "web": {
-        "path": "/characters/origins/angel-original-latest.webp",
+        "path": "/characters/origins/ange-original-latest.webp",
         "mime_type": "image/webp",
         "width": 1931,
         "height": 2048,
@@ -30,11 +30,11 @@
       }
     },
     {
-      "id": "bunny-original-latest",
+      "id": "bonnie-original-latest",
       "character": "origins",
-      "title": "bunny-original-latest",
+      "title": "bonnie-original-latest",
       "original": {
-        "path": "/media/origins/bunny-original-latest.png",
+        "path": "/media/origins/bonnie-original-latest.png",
         "mime_type": "image/png",
         "width": 1722,
         "height": 2048,
@@ -43,7 +43,7 @@
         "alpha": true
       },
       "web": {
-        "path": "/characters/origins/bunny-original-latest.webp",
+        "path": "/characters/origins/bonnie-original-latest.webp",
         "mime_type": "image/webp",
         "width": 1513,
         "height": 1800,
@@ -53,11 +53,11 @@
       }
     },
     {
-      "id": "crew-original-latest",
+      "id": "cruz-original-latest",
       "character": "origins",
-      "title": "crew-original-latest",
+      "title": "cruz-original-latest",
       "original": {
-        "path": "/media/origins/crew-original-latest.png",
+        "path": "/media/origins/cruz-original-latest.png",
         "mime_type": "image/png",
         "width": 3491,
         "height": 5102,
@@ -66,7 +66,7 @@
         "alpha": true
       },
       "web": {
-        "path": "/characters/origins/crew-original-latest.webp",
+        "path": "/characters/origins/cruz-original-latest.webp",
         "mime_type": "image/webp",
         "width": 1401,
         "height": 2048,
@@ -76,34 +76,11 @@
       }
     },
     {
-      "id": "doge-original-latest",
+      "id": "darrow-original-latest",
       "character": "origins",
-      "title": "doge-original-latest",
+      "title": "darrow-original-latest",
       "original": {
-        "path": "/media/origins/doge-original-latest.png",
-        "mime_type": "image/png",
-        "width": 1693,
-        "height": 2048,
-        "bytes": 2747532,
-        "sha256": "01243bf39e42f4274b6299b8ed5a1cf75f3433300782bd22ace84ccba9485cbc",
-        "alpha": true
-      },
-      "web": {
-        "path": "/characters/origins/doge-original-latest.webp",
-        "mime_type": "image/webp",
-        "width": 1693,
-        "height": 2048,
-        "bytes": 1862058,
-        "sha256": "6e440b9ba50356db74afd8b36dc1aefe7ac5ac568b18080841ef57dfca2b75c3",
-        "alpha": true
-      }
-    },
-    {
-      "id": "gold-hunter-original-latest",
-      "character": "origins",
-      "title": "gold-hunter-original-latest",
-      "original": {
-        "path": "/media/origins/gold-hunter-original-latest.png",
+        "path": "/media/origins/darrow-original-latest.png",
         "mime_type": "image/png",
         "width": 3294,
         "height": 2835,
@@ -112,7 +89,7 @@
         "alpha": true
       },
       "web": {
-        "path": "/characters/origins/gold-hunter-original-latest.webp",
+        "path": "/characters/origins/darrow-original-latest.webp",
         "mime_type": "image/webp",
         "width": 2048,
         "height": 1763,
@@ -122,11 +99,34 @@
       }
     },
     {
-      "id": "gunman-original-latest",
+      "id": "dorji-original-latest",
       "character": "origins",
-      "title": "gunman-original-latest",
+      "title": "dorji-original-latest",
       "original": {
-        "path": "/media/origins/gunman-original-latest.png",
+        "path": "/media/origins/dorji-original-latest.png",
+        "mime_type": "image/png",
+        "width": 1693,
+        "height": 2048,
+        "bytes": 2747532,
+        "sha256": "01243bf39e42f4274b6299b8ed5a1cf75f3433300782bd22ace84ccba9485cbc",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/dorji-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1693,
+        "height": 2048,
+        "bytes": 1862058,
+        "sha256": "6e440b9ba50356db74afd8b36dc1aefe7ac5ac568b18080841ef57dfca2b75c3",
+        "alpha": true
+      }
+    },
+    {
+      "id": "gunnar-original-latest",
+      "character": "origins",
+      "title": "gunnar-original-latest",
+      "original": {
+        "path": "/media/origins/gunnar-original-latest.png",
         "mime_type": "image/png",
         "width": 4877,
         "height": 5102,
@@ -135,7 +135,7 @@
         "alpha": true
       },
       "web": {
-        "path": "/characters/origins/gunman-original-latest.webp",
+        "path": "/characters/origins/gunnar-original-latest.webp",
         "mime_type": "image/webp",
         "width": 1958,
         "height": 2048,
@@ -145,11 +145,34 @@
       }
     },
     {
-      "id": "mew-original-latest",
+      "id": "kyuzo-original-latest",
       "character": "origins",
-      "title": "mew-original-latest",
+      "title": "kyuzo-original-latest",
       "original": {
-        "path": "/media/origins/mew-original-latest.png",
+        "path": "/media/origins/kyuzo-original-latest.png",
+        "mime_type": "image/png",
+        "width": 2028,
+        "height": 2048,
+        "bytes": 2229121,
+        "sha256": "77c2b88724904ef0dd5017fc88dcfe9f68f098a01923d64226d7f2662fd5c4df",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/origins/kyuzo-original-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2028,
+        "height": 2048,
+        "bytes": 1154408,
+        "sha256": "25e74b33128a21ea036bc6da64ead91f852d8ad926a388d5f1df0dd1b6d7f2b6",
+        "alpha": true
+      }
+    },
+    {
+      "id": "miu-original-latest",
+      "character": "origins",
+      "title": "miu-original-latest",
+      "original": {
+        "path": "/media/origins/miu-original-latest.png",
         "mime_type": "image/png",
         "width": 2048,
         "height": 1961,
@@ -158,7 +181,7 @@
         "alpha": true
       },
       "web": {
-        "path": "/characters/origins/mew-original-latest.webp",
+        "path": "/characters/origins/miu-original-latest.webp",
         "mime_type": "image/webp",
         "width": 2048,
         "height": 1961,
@@ -168,11 +191,11 @@
       }
     },
     {
-      "id": "robot-original-latest",
+      "id": "rook-original-latest",
       "character": "origins",
-      "title": "robot-original-latest",
+      "title": "rook-original-latest",
       "original": {
-        "path": "/media/origins/robot-original-latest.png",
+        "path": "/media/origins/rook-original-latest.png",
         "mime_type": "image/png",
         "width": 2048,
         "height": 1927,
@@ -181,35 +204,12 @@
         "alpha": true
       },
       "web": {
-        "path": "/characters/origins/robot-original-latest.webp",
+        "path": "/characters/origins/rook-original-latest.webp",
         "mime_type": "image/webp",
         "width": 2048,
         "height": 1927,
         "bytes": 2041060,
         "sha256": "6b51f8f563c8df4134a9a7651eeeb25acadba3f333220e7881f6a939e1cdca2e",
-        "alpha": true
-      }
-    },
-    {
-      "id": "samurai-original-latest",
-      "character": "origins",
-      "title": "samurai-original-latest",
-      "original": {
-        "path": "/media/origins/samurai-original-latest.png",
-        "mime_type": "image/png",
-        "width": 2028,
-        "height": 2048,
-        "bytes": 2229121,
-        "sha256": "77c2b88724904ef0dd5017fc88dcfe9f68f098a01923d64226d7f2662fd5c4df",
-        "alpha": true
-      },
-      "web": {
-        "path": "/characters/origins/samurai-original-latest.webp",
-        "mime_type": "image/webp",
-        "width": 2028,
-        "height": 2048,
-        "bytes": 1154408,
-        "sha256": "25e74b33128a21ea036bc6da64ead91f852d8ad926a388d5f1df0dd1b6d7f2b6",
         "alpha": true
       }
     },
@@ -237,11 +237,11 @@
       }
     },
     {
-      "id": "wizard-original-latest",
+      "id": "wylin-original-latest",
       "character": "origins",
-      "title": "wizard-original-latest",
+      "title": "wylin-original-latest",
       "original": {
-        "path": "/media/origins/wizard-original-latest.png",
+        "path": "/media/origins/wylin-original-latest.png",
         "mime_type": "image/png",
         "width": 5236,
         "height": 6949,
@@ -250,7 +250,7 @@
         "alpha": true
       },
       "web": {
-        "path": "/characters/origins/wizard-original-latest.webp",
+        "path": "/characters/origins/wylin-original-latest.webp",
         "mime_type": "image/webp",
         "width": 1543,
         "height": 2048,

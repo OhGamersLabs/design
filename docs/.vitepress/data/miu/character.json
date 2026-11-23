@@ -1,0 +1,37 @@
+{
+  "name": "弥羽·奥塞尔",
+  "role": "太空猫 · 格斗士",
+  "order": 6,
+  "portrait": "catgirl-pack-front-latest",
+  "pages": [
+    {
+      "path": "/characters/miu/body",
+      "title": "Q 版身体"
+    },
+    {
+      "path": "/characters/miu/suit",
+      "title": "Q 版宇航服"
+    },
+    {
+      "path": "/characters/miu/pod",
+      "title": "Q 版太空舱与头盔"
+    },
+    {
+      "path": "/characters/miu/catgirl-body",
+      "title": "猫娘素体"
+    },
+    {
+      "path": "/characters/miu/catgirl-unitard",
+      "title": "猫娘紧身战衣与项圈"
+    },
+    {
+      "path": "/characters/miu/catgirl-limbs",
+      "title": "猫娘护臂手套与疾速长靴"
+    },
+    {
+      "path": "/characters/miu/catgirl-pack",
+      "title": "猫娘推进翼包与猫耳通讯器"
+    }
+  ],
+  "accent": "#C4503E"
+}

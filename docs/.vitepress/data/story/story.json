@@ -1,0 +1,355 @@
+{
+  "title": "主线漫画连载",
+  "subtitle": "OhGamers 星环纪元 · 原作分镜与正篇漫画归档",
+  "updated": "2026-11-23",
+  "status": "本地审阅版，不是生产发布",
+  "allowedDates": [
+    "2026-11-23"
+  ],
+  "intro": "以周刊卷头加量规格连载《OhGamers · 星环纪元》正篇故事。全系列采用从左往右阅读动线，完整呈现十年前达罗老宅封币灯下黑、白塔索道劫车破局、母核裂壳首契邦妮至零九号暗礁唤醒百米母舰「归航号」的开篇史诗。",
+  "assetNames": {
+    "ep01-p01-latest": "第 01 话《0.00 的游戏币》 · 第 01 页 · 启航前夜地下工坊封币归零与玄关送别",
+    "ep01-p02-latest": "第 01 话《0.00 的游戏币》 · 第 02 页 · 暴雨夜抄查达罗老宅与沙发角受惊遗孤",
+    "ep01-p03-latest": "第 01 话《0.00 的游戏币》 · 第 03 页 · 客厅低机位拦警与世交叔父脱衣裹孤",
+    "ep01-p04-latest": "第 01 话《0.00 的游戏币》 · 第 04 页 · 沙发前暗战与袖口探针零点读数",
+    "ep01-p05-latest": "第 01 话《0.00 的游戏币》 · 第 05 页 · 台灯下亲手擦净归还真核的极致反讽",
+    "ep01-p06-latest": "第 01 话《0.00 的游戏币》 · 第 06 页 · 院门外专车变脸与十年光阴转场",
+    "ep01-p07-latest": "第 01 话《0.00 的游戏币》 · 第 07 页 · 十年后第七索道扇区达罗兄妹登场",
+    "ep01-p08-latest": "第 01 话《0.00 的游戏币》 · 第 08 页 · 白塔繁华巨城与白瓷稳压章秩序",
+    "ep01-p09-latest": "第 01 话《0.00 的游戏币》 · 第 09 页 · 微笑流泪的鳞裔协理维和员",
+    "ep01-p10-latest": "第 01 话《0.00 的游戏币》 · 第 10 页 · 邦妮高空索道劫车突入",
+    "ep01-p11-latest": "第 01 话《0.00 的游戏币》 · 第 11 页 · 天降七号转运箱与不准作弊的一抛",
+    "ep01-p12-latest": "第 01 话《0.00 的游戏币》 · 第 12 页 · 命运正面朝上与撬开低温棺箱",
+    "ep01-p13-latest": "第 01 话《0.00 的游戏币》 · 第 13 页 · 洛恩碎裂的白瓷壳与黑铁锁芯真相",
+    "ep01-p14-latest": "第 01 话《0.00 的游戏币》 · 第 14 页 · 天秤回收清道夫与统御调谐器降临",
+    "ep01-p15-latest": "第 01 话《0.00 的游戏币》 · 第 15 页 · 流着血泪被迫锁喉的提线傀儡",
+    "ep01-p16-latest": "第 01 话《0.00 的游戏币》 · 第 16 页 · 退无可退与过载拔销危机",
+    "ep01-p17-latest": "第 01 话《0.00 的游戏币》 · 第 17 页 · 引力重压与冒烟炸裂的腰间币匣",
+    "ep01-p18-latest": "第 01 话《0.00 的游戏币》 · 第 18 页 · 十年万次摩挲与铜壳第一道裂痕",
+    "ep01-p19-20-latest": "第 01 话《0.00 的游戏币》 · 第 19–20 跨页 · 绝对无音的半秒与崩裂显露的无字母核",
+    "ep01-p21-latest": "第 01 话《0.00 的游戏币》 · 第 21 页 · 白塔顶层温室剪破的白手套",
+    "ep01-p22-latest": "第 01 话《0.00 的游戏币》 · 第 22 页 · 断缆绝境与破釜沉舟的一弹",
+    "ep01-p23-latest": "第 01 话《0.00 的游戏币》 · 第 23 页 · 触影立契与双重视野叠影眩晕",
+    "ep01-p24-latest": "第 01 话《0.00 的游戏币》 · 第 24 页 · 罗娅一秒战术决断与视野分工",
+    "ep01-p25-26-latest": "第 01 话《0.00 的游戏币》 · 第 25–26 跨页 · 双人同频共链斩碎调谐器",
+    "ep01-p27-latest": "第 01 话《0.00 的游戏币》 · 第 27 页 · 刀指鼻尖的初见与铜壳漏电警报",
+    "ep01-p28-latest": "第 01 话《0.00 的游戏币》 · 第 28 页 · 百亿人口白塔星港为一枚硬币封网",
+    "ep01-p29-latest": "第 01 话《0.00 的游戏币》 · 第 29 页 · 十二艘近卫重巡升空与辐射追踪",
+    "ep01-p30-latest": "第 01 话《0.00 的游戏币》 · 第 30 页 · 零九号暗礁铝牌与秘密航向",
+    "ep01-p31-latest": "第 01 话《0.00 的游戏币》 · 第 31 页 · 荒废暗礁船台苏醒的领航灯",
+    "ep01-p32-33-latest": "第 01 话《0.00 的游戏币》 · 第 32–33 跨页 · 百米级母舰归航号真容现世",
+    "ep01-p34-latest": "第 01 话《0.00 的游戏币》 · 第 34 页 · 母核倒计时与下一席伙伴悬念尾声"
+  },
+  "episodes": [
+    {
+      "id": "ep01",
+      "number": "EPISODE 01",
+      "title": "第 01 话：0.00 的游戏币",
+      "enTitle": "The 0.00 Arcade Coin",
+      "path": "/story/ep01",
+      "updated": "2026-11-23",
+      "pageCountLabel": "34 页（28 单页 + 3 组双页大跨页）",
+      "readingDirection": "从左往右（L → R）横排阅读",
+      "coverAsset": "ep01-p01-latest",
+      "previewAssets": [
+        "ep01-p01-latest",
+        "ep01-p02-latest",
+        "ep01-p19-20-latest",
+        "ep01-p32-33-latest"
+      ],
+      "summary": "十年前启航前夜，父亲达罗将唯一无字炽环母核压入两片掏空的 OG 街机黄铜壳，能谱读数归零为 0.00，骗过叛徒索伦·韦恩雨夜亲自搜身。十年后白塔第七索道高空死斗中，铜壳迸裂首露真核，罗伊与邦妮缔结第一道星环视野共链，循着母亲留下的 09 号船坞铝牌直抵沉睡暗礁的百米母舰归航号。",
+      "featuredCharacters": [
+        "darrow",
+        "bonnie",
+        "soren-vane"
+      ],
+      "featuredNpcs": [
+        "libra-cleaner",
+        "lorn-vele",
+        "libra-peacekeeper"
+      ],
+      "acts": [
+        {
+          "id": "act0",
+          "code": "序幕 · Act 0",
+          "title": "启航前夕的幸运币与雨夜抄家",
+          "range": "P01–P06"
+        },
+        {
+          "id": "act1",
+          "code": "第一幕 · Act 1",
+          "title": "微笑流泪的维和兵与不准作弊的一抛",
+          "range": "P07–P12"
+        },
+        {
+          "id": "act2",
+          "code": "第二幕 · Act 2",
+          "title": "白瓷下的黑铁锁芯与回收清道夫",
+          "range": "P13–P18"
+        },
+        {
+          "id": "act3",
+          "code": "第三幕 · Act 3",
+          "title": "绝对无音的半秒与显露母核",
+          "range": "P19–P22"
+        },
+        {
+          "id": "act4",
+          "code": "第四幕 · Act 4",
+          "title": "双人同频共链与归航号现世",
+          "range": "P23–P34"
+        }
+      ],
+      "pages": [
+        {
+          "index": 1,
+          "asset": "ep01-p01-latest",
+          "pageLabel": "P01",
+          "actId": "act0",
+          "spread": false,
+          "title": "第 01 页 · 启航前夜地下工坊封币归零与玄关送别"
+        },
+        {
+          "index": 2,
+          "asset": "ep01-p02-latest",
+          "pageLabel": "P02",
+          "actId": "act0",
+          "spread": false,
+          "title": "第 02 页 · 暴雨夜抄查达罗老宅与沙发角受惊遗孤"
+        },
+        {
+          "index": 3,
+          "asset": "ep01-p03-latest",
+          "pageLabel": "P03",
+          "actId": "act0",
+          "spread": false,
+          "title": "第 03 页 · 客厅低机位拦警与世交叔父脱衣裹孤"
+        },
+        {
+          "index": 4,
+          "asset": "ep01-p04-latest",
+          "pageLabel": "P04",
+          "actId": "act0",
+          "spread": false,
+          "title": "第 04 页 · 沙发前暗战与袖口探针零点读数"
+        },
+        {
+          "index": 5,
+          "asset": "ep01-p05-latest",
+          "pageLabel": "P05",
+          "actId": "act0",
+          "spread": false,
+          "title": "第 05 页 · 台灯下亲手擦净归还真核的极致反讽"
+        },
+        {
+          "index": 6,
+          "asset": "ep01-p06-latest",
+          "pageLabel": "P06",
+          "actId": "act0",
+          "spread": false,
+          "title": "第 06 页 · 院门外专车变脸与十年光阴转场"
+        },
+        {
+          "index": 7,
+          "asset": "ep01-p07-latest",
+          "pageLabel": "P07",
+          "actId": "act1",
+          "spread": false,
+          "title": "第 07 页 · 十年后第七索道扇区达罗兄妹登场"
+        },
+        {
+          "index": 8,
+          "asset": "ep01-p08-latest",
+          "pageLabel": "P08",
+          "actId": "act1",
+          "spread": false,
+          "title": "第 08 页 · 白塔繁华巨城与白瓷稳压章秩序"
+        },
+        {
+          "index": 9,
+          "asset": "ep01-p09-latest",
+          "pageLabel": "P09",
+          "actId": "act1",
+          "spread": false,
+          "title": "第 09 页 · 微笑流泪的鳞裔协理维和员"
+        },
+        {
+          "index": 10,
+          "asset": "ep01-p10-latest",
+          "pageLabel": "P10",
+          "actId": "act1",
+          "spread": false,
+          "title": "第 10 页 · 邦妮高空索道劫车突入"
+        },
+        {
+          "index": 11,
+          "asset": "ep01-p11-latest",
+          "pageLabel": "P11",
+          "actId": "act1",
+          "spread": false,
+          "title": "第 11 页 · 天降七号转运箱与不准作弊的一抛"
+        },
+        {
+          "index": 12,
+          "asset": "ep01-p12-latest",
+          "pageLabel": "P12",
+          "actId": "act1",
+          "spread": false,
+          "title": "第 12 页 · 命运正面朝上与撬开低温棺箱"
+        },
+        {
+          "index": 13,
+          "asset": "ep01-p13-latest",
+          "pageLabel": "P13",
+          "actId": "act2",
+          "spread": false,
+          "title": "第 13 页 · 洛恩碎裂的白瓷壳与黑铁锁芯真相"
+        },
+        {
+          "index": 14,
+          "asset": "ep01-p14-latest",
+          "pageLabel": "P14",
+          "actId": "act2",
+          "spread": false,
+          "title": "第 14 页 · 天秤回收清道夫与统御调谐器降临"
+        },
+        {
+          "index": 15,
+          "asset": "ep01-p15-latest",
+          "pageLabel": "P15",
+          "actId": "act2",
+          "spread": false,
+          "title": "第 15 页 · 流着血泪被迫锁喉的提线傀儡"
+        },
+        {
+          "index": 16,
+          "asset": "ep01-p16-latest",
+          "pageLabel": "P16",
+          "actId": "act2",
+          "spread": false,
+          "title": "第 16 页 · 退无可退与过载拔销危机"
+        },
+        {
+          "index": 17,
+          "asset": "ep01-p17-latest",
+          "pageLabel": "P17",
+          "actId": "act2",
+          "spread": false,
+          "title": "第 17 页 · 引力重压与冒烟炸裂的腰间币匣"
+        },
+        {
+          "index": 18,
+          "asset": "ep01-p18-latest",
+          "pageLabel": "P18",
+          "actId": "act2",
+          "spread": false,
+          "title": "第 18 页 · 十年万次摩挲与铜壳第一道裂痕"
+        },
+        {
+          "index": 19,
+          "asset": "ep01-p19-20-latest",
+          "pageLabel": "P19–20",
+          "actId": "act3",
+          "spread": true,
+          "title": "第 19–20 跨页 · 绝对无音的半秒与崩裂显露的无字母核"
+        },
+        {
+          "index": 20,
+          "asset": "ep01-p21-latest",
+          "pageLabel": "P21",
+          "actId": "act3",
+          "spread": false,
+          "title": "第 21 页 · 白塔顶层温室剪破的白手套"
+        },
+        {
+          "index": 21,
+          "asset": "ep01-p22-latest",
+          "pageLabel": "P22",
+          "actId": "act3",
+          "spread": false,
+          "title": "第 22 页 · 断缆绝境与破釜沉舟的一弹"
+        },
+        {
+          "index": 22,
+          "asset": "ep01-p23-latest",
+          "pageLabel": "P23",
+          "actId": "act4",
+          "spread": false,
+          "title": "第 23 页 · 触影立契与双重视野叠影眩晕"
+        },
+        {
+          "index": 23,
+          "asset": "ep01-p24-latest",
+          "pageLabel": "P24",
+          "actId": "act4",
+          "spread": false,
+          "title": "第 24 页 · 罗娅一秒战术决断与视野分工"
+        },
+        {
+          "index": 24,
+          "asset": "ep01-p25-26-latest",
+          "pageLabel": "P25–26",
+          "actId": "act4",
+          "spread": true,
+          "title": "第 25–26 跨页 · 双人同频共链斩碎调谐器"
+        },
+        {
+          "index": 25,
+          "asset": "ep01-p27-latest",
+          "pageLabel": "P27",
+          "actId": "act4",
+          "spread": false,
+          "title": "第 27 页 · 刀指鼻尖的初见与铜壳漏电警报"
+        },
+        {
+          "index": 26,
+          "asset": "ep01-p28-latest",
+          "pageLabel": "P28",
+          "actId": "act4",
+          "spread": false,
+          "title": "第 28 页 · 百亿人口白塔星港为一枚硬币封网"
+        },
+        {
+          "index": 27,
+          "asset": "ep01-p29-latest",
+          "pageLabel": "P29",
+          "actId": "act4",
+          "spread": false,
+          "title": "第 29 页 · 十二艘近卫重巡升空与辐射追踪"
+        },
+        {
+          "index": 28,
+          "asset": "ep01-p30-latest",
+          "pageLabel": "P30",
+          "actId": "act4",
+          "spread": false,
+          "title": "第 30 页 · 零九号暗礁铝牌与秘密航向"
+        },
+        {
+          "index": 29,
+          "asset": "ep01-p31-latest",
+          "pageLabel": "P31",
+          "actId": "act4",
+          "spread": false,
+          "title": "第 31 页 · 荒废暗礁船台苏醒的领航灯"
+        },
+        {
+          "index": 30,
+          "asset": "ep01-p32-33-latest",
+          "pageLabel": "P32–33",
+          "actId": "act4",
+          "spread": true,
+          "title": "第 32–33 跨页 · 百米级母舰归航号真容现世"
+        },
+        {
+          "index": 31,
+          "asset": "ep01-p34-latest",
+          "pageLabel": "P34",
+          "actId": "act4",
+          "spread": false,
+          "title": "第 34 页 · 母核倒计时与下一席伙伴悬念尾声"
+        }
+      ]
+    }
+  ]
+}

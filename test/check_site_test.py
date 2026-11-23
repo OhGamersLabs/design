@@ -151,12 +151,6 @@ class SiteCheckTests(unittest.TestCase):
             self.page(home+'body-base','<h1>身体</h1>'+figure)
         return spec
 
-    def test_multichar_r2_merges_every_listed_stub(self):
-        robot=self.add_robot();path=robot.home+'legacy';robot.stubs=(path,)
-        self.json(robot.data_dir+'/anchor-map.json',{'anchors':{},'stubs':{path:{'target':robot.home,'title':'Robot'}}})
-        self.page(path,f'<p data-redirect-stub><a href="{robot.home}">Robot</a></p>',head=f'<meta http-equiv="refresh" content="3; url={robot.home}">')
-        self.good('R2');self.replace(path,'3; url='+robot.home,'3; url='+self.home);self.bad('R2')
-
     def test_multichar_forbidden_words_are_scoped(self):
         robot=self.add_robot()
         self.append(robot.home,'<p>耳机</p>');self.append(self.home,'<p>电池</p>');self.good('R4')
@@ -249,21 +243,14 @@ class SiteCheckTests(unittest.TestCase):
         cfg=self.discovered_config();self.assertIsNone(cfg.character_error)
         spec=cfg.characters[0]
         self.assertEqual(list(spec.page_titles.items()),[(self.home,'Bunny'),(self.layer,'身体')])
-        self.assertEqual(spec.stubs,(self.stub,))
+        self.assertEqual(spec.stubs,())
         self.assertEqual(spec.latest,self.spec.latest)
         self.assertEqual((spec.order,spec.role,spec.portrait,spec.portrait_path,spec.portrait_width,spec.portrait_height,spec.updated),(1,'刺客','scene-latest','/site/thumbs/bunny/scene-latest.webp',2,1,'2026-11-02'))
-        self.assertEqual([],run_checks(cfg,rules=['D4','R2','R9']))
+        self.assertEqual([],run_checks(cfg,rules=['D4','R9']))
         path=self.spec.data_dir+'/character.json';source=self.read_json(path)
         source['pages'][0]['title']='错误标题';self.json(path,source)
         errors=run_checks(self.discovered_config(),rules=['D4'])
         self.assertEqual([('D4',self.layer,'first .vp-doc h1 must be 错误标题')],[(e.rule,e.page,e.message) for e in errors])
-
-    def test_discovery_uses_anchor_map_stub_keys(self):
-        path=self.spec.data_dir+'/anchor-map.json';source=self.read_json(path)
-        source['stubs'][self.home+'new-stub']={'target':self.home,'title':'Bunny'};self.json(path,source)
-        cfg=self.discovered_config()
-        self.assertEqual(cfg.characters[0].stubs,(self.stub,self.home+'new-stub'))
-        self.assertEqual([self.home+'new-stub'],[e.page for e in run_checks(cfg,rules=['R2'])])
 
     def test_discovery_uses_home_highlight_content_and_order(self):
         path=self.spec.data_dir+'/home.json';source=self.read_json(path)
@@ -279,8 +266,6 @@ class SiteCheckTests(unittest.TestCase):
             ('character.json',lambda d:d['pages'][0].update(path='/characters/other/page')),
             ('character.json',lambda d:d['pages'][0].update(path=42)),
             ('character.json',lambda d:d['pages'][0].update(title=42)),
-            ('anchor-map.json',lambda d:d.update(stubs=[])),
-            ('anchor-map.json',lambda d:d.update(stubs={'/characters/other/stub':{}})),
             ('home.json',lambda d:d.update(highlights={})),
             ('home.json',lambda d:d['highlights'].__setitem__(0,[])),
             *[('home.json',lambda d,key=key:d['highlights'][0].update({key:42})) for key in ('date','title','asset')],
@@ -434,14 +419,6 @@ class SiteCheckTests(unittest.TestCase):
     def test_r1_selected_page_resolves_unselected_target(self):
         self.append(self.layer,f'<a href="{self.home}#identity">链接</a>');self.good('R1',pages=[self.layer]);self.replace(self.home,'id="identity"','id="gone"');self.bad('R1',pages=[self.layer])
     def test_r1_media_catalog(self):self.append(self.layer,'<a href="/media/bunny/scene-latest.png">图</a>');self.good('R1');self.append(self.layer,'<a href="/media/bunny/missing.png">图</a>');self.bad('R1')
-    def test_r2_missing_mapping(self):self.good('R2');self.replace(self.layer,'id="body"','id="other"');self.bad('R2')
-    def test_r2_missing_target(self):
-        self.good('R2');self.replace(self.layer,'id="body"','id="other"');d=self.read_json('docs/.vitepress/data/bunny/anchor-map.json');d['anchors'][self.layer+'#body']='/gone#x';self.json('docs/.vitepress/data/bunny/anchor-map.json',d);self.bad('R2')
-    def test_r2_stub_target(self):
-        self.good('R2');self.replace(self.layer,'id="body"','id="other"');d=self.read_json('docs/.vitepress/data/bunny/anchor-map.json');d['anchors'][self.layer+'#body']=self.stub;self.json('docs/.vitepress/data/bunny/anchor-map.json',d);self.bad('R2')
-    def test_r2_refresh_mismatch(self):self.good('R2');self.replace(self.stub,'3; url='+self.home+'#identity','3; url='+self.layer+'#body');self.bad('R2')
-    def test_r2_percent_encoded_html_target(self):
-        self.replace(self.layer,'id="body"','id="身体"');self.json('baseline.json',{self.layer:['body']});d=self.read_json('docs/.vitepress/data/bunny/anchor-map.json');d['anchors'][self.layer+'#body']=self.layer+'.html#%E8%BA%AB%E4%BD%93';self.json('docs/.vitepress/data/bunny/anchor-map.json',d);self.good('R2');d['anchors']['/unknown#x']=self.home;self.json('docs/.vitepress/data/bunny/anchor-map.json',d);self.bad('R2')
     def test_r4_process_this_round(self):self.mutate_text('R4','本轮')
     def test_r4_process_keep(self):self.mutate_text('R4','保留')
     def test_r4_details(self):self.good('R4');self.append(self.layer,'<details>说明</details>');self.bad('R4')
@@ -690,10 +667,6 @@ class SiteCheckTests(unittest.TestCase):
         self.write('dist/characters/bunny/scene-latest.webp',b'scene-web')
         self.append(self.layer,'<a href="/characters/bunny/scene-latest.webp">图像</a>')
         self.good('R1');(self.dist/'characters/bunny/scene-latest.webp').unlink();self.bad('R1')
-    def test_regression_r2_external_mapping(self):
-        self.good('R2');self.replace(self.layer,'id="body"','id="other"')
-        data=self.read_json('docs/.vitepress/data/bunny/anchor-map.json');data['anchors'][self.layer+'#body']='https://example.com/not-a-built-page#gone'
-        self.json('docs/.vitepress/data/bunny/anchor-map.json',data);self.bad('R2')
     def test_regression_r7b_relative_image(self):
         self.good('R7b');self.replace(self.layer,' data-asset-id="scene-latest"','');self.replace(self.layer,'/characters/bunny/scene-latest.webp','scene-latest.webp');self.bad('R7b')
     def test_regression_r13_bare_original(self):
@@ -722,18 +695,6 @@ class SiteCheckTests(unittest.TestCase):
         errors=self.check('R1')
         self.assertTrue(any('target anchor does not exist' in x.message for x in errors))
         self.assertFalse(any('target is redirect stub' in x.message for x in errors))
-
-    def test_fix1_text_r1_document_ids_do_not_expand_r2_baseline_targets(self):
-        self.replace(self.layer,'id="body"','id="other"')
-        self.append(self.home,'<span id="outside"></span>')
-        self.append(self.layer,f'<a href="{self.home}#outside">目标</a>')
-        mapping=self.read_json('docs/.vitepress/data/bunny/anchor-map.json')
-        mapping['anchors'][self.layer+'#body']=self.home+'#outside'
-        self.json('docs/.vitepress/data/bunny/anchor-map.json',mapping)
-        self.bad('R1');self.bad('R2')
-        self.replace(self.home,'<span id="outside"></span>','')
-        self.replace(self.home,'<h1>Bunny</h1>','<h1>Bunny</h1><span id="outside"></span>')
-        self.good('R1');self.good('R2')
 
     def test_fix1_text_d4_ascii_stage_before_chinese(self):
         self.append(self.layer,'<p>v2.0中性头部</p>');self.good('D4')
@@ -1271,16 +1232,6 @@ class SiteCheckTests(unittest.TestCase):
     def test_r8_missing_thumbnail_file(self):
         self.good('R8')
         (self.root/'docs/public/site/thumbs/bunny/scene-latest.webp').unlink();self.bad('R8')
-
-    def test_r2_removed_page_redirects_target_current_home(self):
-        mapping=self.read_json('docs/.vitepress/data/bunny/anchor-map.json')
-        for path in ('/characters/bunny/archive','/characters/bunny/downloads'):
-            self.spec.stubs=(*self.spec.stubs,path)
-            mapping['stubs'][path]={'target':self.home}
-            self.page(path,f'<p data-redirect-stub><a href="{self.home}">Bunny</a></p>',head=f'<meta http-equiv="refresh" content="3; url={self.home}">')
-        self.json('docs/.vitepress/data/bunny/anchor-map.json',mapping)
-        self.good('R2');self.good('R3')
-        self.append(self.layer,'<a href="/characters/bunny/downloads">下载</a>');self.bad('R1');self.bad('R3')
 
     def test_new_rules_are_enabled_and_retired_rules_removed(self):
         from site_check.rules import expand_rules

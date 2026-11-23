@@ -13,7 +13,7 @@ import siteLoader from '../docs/.vitepress/data/site.data.mjs'
 
 const root = fileURLToPath(new URL('../', import.meta.url))
 const read = (path) => readFileSync(resolve(root, path), 'utf8')
-const specification = JSON.parse(read('catalog/bunny/dagger-dimensions.json'))
+const specification = JSON.parse(read('catalog/bonnie/dagger-dimensions.json'))
 const siteData = await siteLoader.load()
 const md = await createMarkdownRenderer(resolve(root, 'docs'))
 const forbidden = /新图|旧图|重画|抽卡|take|guide|引导图|Phase|迭代|版本|不沿用旧测点|修图|(?:l9[a-z0-9]*-[^\s<>]*|dagger-master[^\s<>]*|root-scale-decision|sunraku04-projection-scale-analysis)\.(?:json|png)/iu
@@ -47,8 +47,8 @@ const snapshot = (node) => ({ tag: node.tag, text: node.text, props: { ...node.p
 const Empty = { render: () => null }
 
 function renderPage(page, extra = '') {
-  const env = { relativePath: `characters/bunny/${page}.md` }
-  const template = md.render(read(`docs/characters/bunny/${page}.md`) + extra, env)
+  const env = { relativePath: `characters/bonnie/${page}.md` }
+  const template = md.render(read(`docs/characters/bonnie/${page}.md`) + extra, env)
   const { code } = compile(template, { mode: 'function', prefixIdentifiers: true, hoistStatic: false })
   const render = new Function('Vue', code)(vue)
   const { renderer, container } = host()
@@ -68,7 +68,7 @@ async function layerCard(data = siteData) {
   const { descriptor, errors } = parse(read(filename), { filename })
   assert.deepEqual(errors, [])
   const compiled = compileScript(descriptor, { id: 'dagger-layer-client', genDefaultAs: '__component', inlineTemplate: true }).content
-  const context = await characterContext(data, 'characters/bunny/weapon.md')
+  const context = await characterContext(data, 'characters/bonnie/weapon.md')
   const modules = { vue, vitepress: context.vitepress, '../use-character': context.composable }
   let executable = (await transformWithEsbuild(compiled, filename + '.ts', { loader: 'ts' })).code
   for (const node of babelParse(executable, { sourceType: 'module' }).program.body.toReversed()) {
@@ -120,7 +120,7 @@ test('dagger pages render current target strings through VitePress and the clien
 
 test('layer 9 fact strings execute the actual client Vue component setup and template', async () => {
   const text = await layerCard()
-  const facts = siteData.characters.bunny.layers.items.find((layer) => layer.layer === 9).facts
+  const facts = siteData.characters.bonnie.layers.items.find((layer) => layer.layer === 9).facts
   for (const fact of facts) assert.ok(text.includes(fact.value), `layer fact missing from render: ${fact.term}`)
   assertDesignText(text)
 })
@@ -131,7 +131,7 @@ test('rendered dagger checks reject every prohibited process term and internal e
     const { text } = renderPage('weapon', `\n\n<p>${term}</p>\n`)
     assert.throws(() => assertDesignText(text), { name: 'AssertionError' }, `rendered Markdown must reject ${term}`)
     const mutated = structuredClone(siteData)
-    mutated.characters.bunny.layers.items.find((layer) => layer.layer === 9).facts[0].value = term
+    mutated.characters.bonnie.layers.items.find((layer) => layer.layer === 9).facts[0].value = term
     const dynamicText = await layerCard(mutated)
     assert.throws(() => assertDesignText(dynamicText), { name: 'AssertionError' }, `rendered Vue fact must reject ${term}`)
   }

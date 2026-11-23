@@ -4,8 +4,307 @@
   "language": "zh-CN",
   "title": "星环纪元核心信物设定",
   "status": "local-review",
-  "asset_count": 3,
+  "asset_count": 16,
   "assets": [
+    {
+      "id": "ensemble-artbook-latest",
+      "character": "world",
+      "title": "ensemble-artbook-latest",
+      "original": {
+        "path": "/media/world/ensemble-artbook-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 2160,
+        "bytes": 14923177,
+        "sha256": "e98f8bf83b06f884c5b1f2339246453704185d206e8a5eccec74c46ea2d752fd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/ensemble-artbook-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 3693664,
+        "sha256": "6be553d08e119b38349f2646265516ba7aa18065a369f37afa604136e5426a80",
+        "alpha": false
+      }
+    },
+    {
+      "id": "ensemble-spot-ange-latest",
+      "character": "world",
+      "title": "ensemble-spot-ange-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-ange-latest.png",
+        "mime_type": "image/png",
+        "width": 573,
+        "height": 575,
+        "bytes": 476888,
+        "sha256": "b27dd97fe476d4b7f01aac941359ae8afb6abd9c89110356bfbbf563e2a1df5f",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-ange-latest.webp",
+        "mime_type": "image/webp",
+        "width": 573,
+        "height": 575,
+        "bytes": 100412,
+        "sha256": "59776169deb40ca4c36d97a9816ec9e9da3f7334b882c50635af32f33dc46d3f",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-bonnie-latest",
+      "character": "world",
+      "title": "ensemble-spot-bonnie-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-bonnie-latest.png",
+        "mime_type": "image/png",
+        "width": 303,
+        "height": 468,
+        "bytes": 184390,
+        "sha256": "c23b3927126676524a2022c55f3387c7f0ab2c6df1f878e95a83a23233cdd68b",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-bonnie-latest.webp",
+        "mime_type": "image/webp",
+        "width": 303,
+        "height": 468,
+        "bytes": 40152,
+        "sha256": "10d418f0af0fee1ac273f917aaca78687d0bc02b89f909a60d9cf7bbdae36e19",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-cruz-latest",
+      "character": "world",
+      "title": "ensemble-spot-cruz-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-cruz-latest.png",
+        "mime_type": "image/png",
+        "width": 399,
+        "height": 722,
+        "bytes": 340363,
+        "sha256": "bf81028bcf3955c3ad06fc2da56fb79f277cc556afbcafe880d61fd1e4f2fc23",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-cruz-latest.webp",
+        "mime_type": "image/webp",
+        "width": 399,
+        "height": 722,
+        "bytes": 69376,
+        "sha256": "828e49125ed9ed5c07c6752ea4ffbaee06e931cc1422eecf80def2147860bf61",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-dorji-latest",
+      "character": "world",
+      "title": "ensemble-spot-dorji-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-dorji-latest.png",
+        "mime_type": "image/png",
+        "width": 532,
+        "height": 823,
+        "bytes": 500640,
+        "sha256": "dfc5f576dc5f9f042e43488063b572dbba99343881330cc735215389de8ecbf3",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-dorji-latest.webp",
+        "mime_type": "image/webp",
+        "width": 532,
+        "height": 823,
+        "bytes": 88204,
+        "sha256": "6046d1a684dc8599c5bca6d3f5c64d2b20be95d1a0d3c8b963341df405fe0749",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-gunnar-latest",
+      "character": "world",
+      "title": "ensemble-spot-gunnar-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-gunnar-latest.png",
+        "mime_type": "image/png",
+        "width": 330,
+        "height": 488,
+        "bytes": 190172,
+        "sha256": "d3161490f7f1773fd9f4485d94e144692facec35ad996e4c6129dc06ef837750",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-gunnar-latest.webp",
+        "mime_type": "image/webp",
+        "width": 330,
+        "height": 488,
+        "bytes": 43108,
+        "sha256": "03d18597fdc6a21abd82ce88989bc6cf9b08b5212dc457820d8ad375ab9b2a50",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-kyuzo-latest",
+      "character": "world",
+      "title": "ensemble-spot-kyuzo-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-kyuzo-latest.png",
+        "mime_type": "image/png",
+        "width": 438,
+        "height": 685,
+        "bytes": 354958,
+        "sha256": "0af4268ec9a753d92bc584d1040bea0e88add9bc21c8d3c040d8e822d3b46b77",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-kyuzo-latest.webp",
+        "mime_type": "image/webp",
+        "width": 438,
+        "height": 685,
+        "bytes": 73080,
+        "sha256": "ce82c801a9909c21cc3ad875e6e7d64f430d26615eea45466f3299ad9b140aad",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-miu-latest",
+      "character": "world",
+      "title": "ensemble-spot-miu-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-miu-latest.png",
+        "mime_type": "image/png",
+        "width": 535,
+        "height": 801,
+        "bytes": 576355,
+        "sha256": "c57a7cdfa269bae677c204e2bf3d7ad12daed4996cdfc6a19b33e23595ef8929",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-miu-latest.webp",
+        "mime_type": "image/webp",
+        "width": 535,
+        "height": 801,
+        "bytes": 105936,
+        "sha256": "f8d489b2bfc48dc25380ebc88e4864dd93dfcc1ce766b0ca080bc081a47c738f",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-rook-latest",
+      "character": "world",
+      "title": "ensemble-spot-rook-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-rook-latest.png",
+        "mime_type": "image/png",
+        "width": 1320,
+        "height": 901,
+        "bytes": 1439178,
+        "sha256": "60795d8f3f25bbde973825413576ea12b8b05d98ba0458d4414c20ac386d4e96",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-rook-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1320,
+        "height": 901,
+        "bytes": 231866,
+        "sha256": "bcfe0e6a50fd49a710e9cd2a896efc3ae4eb9c401ac437d4b9f8b532374bdd48",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-roy-latest",
+      "character": "world",
+      "title": "ensemble-spot-roy-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-roy-latest.png",
+        "mime_type": "image/png",
+        "width": 673,
+        "height": 935,
+        "bytes": 778519,
+        "sha256": "a13a0f1d19295042fb8d93ba6dbac473a21384252e09137d9d979b24731adbdf",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-roy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 673,
+        "height": 935,
+        "bytes": 130208,
+        "sha256": "df482f29e6d3f8bb1e79da09e469456a8c6a3d1e997f561ed557f37f35b923e7",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-roya-latest",
+      "character": "world",
+      "title": "ensemble-spot-roya-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-roya-latest.png",
+        "mime_type": "image/png",
+        "width": 468,
+        "height": 921,
+        "bytes": 483001,
+        "sha256": "8727edbe4811edf4b15d5f9d5fb7306227f4cbabd96c328972afa7359f958162",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-roya-latest.webp",
+        "mime_type": "image/webp",
+        "width": 468,
+        "height": 921,
+        "bytes": 84762,
+        "sha256": "5da03539897d5684b7379d96df88d121770791d2d7d39fb77cf460a32718f6d9",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-spot-wylin-latest",
+      "character": "world",
+      "title": "ensemble-spot-wylin-latest",
+      "original": {
+        "path": "/media/world/ensemble-spot-wylin-latest.png",
+        "mime_type": "image/png",
+        "width": 418,
+        "height": 511,
+        "bytes": 285166,
+        "sha256": "2d33f1850693a6aada219b896fedeedf8082097d2bf495c8a0e03354a48e29dc",
+        "alpha": true
+      },
+      "web": {
+        "path": "/characters/world/ensemble-spot-wylin-latest.webp",
+        "mime_type": "image/webp",
+        "width": 418,
+        "height": 511,
+        "bytes": 64426,
+        "sha256": "1eb64d0edd7cb3263a8d5395b48303d270820b6810da549d830e1e977a3d6e04",
+        "alpha": true
+      }
+    },
+    {
+      "id": "ensemble-starport-latest",
+      "character": "world",
+      "title": "ensemble-starport-latest",
+      "original": {
+        "path": "/media/world/ensemble-starport-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 2160,
+        "bytes": 12062944,
+        "sha256": "b9269fac812ca0706dd5322b020b53b7369073e8f7a40d66d85eccddd3016c6e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/ensemble-starport-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 3171852,
+        "sha256": "56d590eed6f22f9c8201d1324aa428617df52b1e812dd15e3daa771948092e2c",
+        "alpha": false
+      }
+    },
     {
       "id": "libra-cleaner-card-latest",
       "character": "world",

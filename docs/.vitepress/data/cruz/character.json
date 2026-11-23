@@ -1,0 +1,33 @@
+{
+  "name": "克露丝·埃雷拉",
+  "role": "工程师",
+  "order": 3,
+  "pages": [
+    {
+      "path": "/characters/cruz/body",
+      "title": "身体"
+    },
+    {
+      "path": "/characters/cruz/jumpsuit",
+      "title": "贴身连体工装"
+    },
+    {
+      "path": "/characters/cruz/boots-gloves",
+      "title": "高帮战术靴与手套"
+    },
+    {
+      "path": "/characters/cruz/belt-holster",
+      "title": "腰带、枪套与挂环"
+    },
+    {
+      "path": "/characters/cruz/jacket",
+      "title": "蓝灰短款战术夹克"
+    },
+    {
+      "path": "/characters/cruz/back-rig",
+      "title": "肩带背板与大扳手"
+    }
+  ],
+  "portrait": "back-rig-front-latest",
+  "accent": "#2B6299"
+}

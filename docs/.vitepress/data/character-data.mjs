@@ -28,17 +28,6 @@ export function number(value) {
 export function parseNames(value) {
   return Object.fromEntries(Object.entries(record(value)).map(([key, name]) => [key, text(name)]))
 }
-/** @param {unknown} value @returns {import('../theme/character-site-types').AnchorMap} */
-export function parseAnchorMap(value) {
-  const source = record(value)
-  return {
-    anchors: parseNames(source.anchors),
-    stubs: Object.fromEntries(Object.entries(record(source.stubs)).map(([path, entry]) => {
-      const stub = record(entry)
-      return [path, { target: text(stub.target), title: text(stub.title) }]
-    })),
-  }
-}
 
 /** @param {unknown} value @returns {import('../theme/character-site-types').AssetFile} */
 function parseImage(value) {
@@ -142,6 +131,8 @@ export function parseCharacter(value, id, listed) {
   if (portrait === `${id}-original-latest`) throw new Error(`Portrait must belong to character collection: ${id}/${portrait}`)
   const group = character.group === undefined ? undefined : text(character.group)
   if (group !== undefined && group !== 'squad' && group !== 'major-cast') throw new Error(`Invalid character group: ${id}/${group}`)
+  const accent = character.accent === undefined ? undefined : text(character.accent)
+  if (accent !== undefined && !/^#[0-9a-fA-F]{6}$/.test(accent)) throw new Error(`Invalid character accent: ${id}/${accent}`)
   return {
     id,
     name: text(character.name),
@@ -150,6 +141,7 @@ export function parseCharacter(value, id, listed) {
     portrait,
     listed,
     ...(group === undefined ? {} : { group }),
+    ...(accent === undefined ? {} : { accent }),
     pages,
   }
 }

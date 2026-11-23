@@ -3,57 +3,37 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import {
   activeChapterId, assetById, bodyMeasurementScope, buildAssetIndex, createDisplayTextLookup,
-  focusAfterStep, garmentMeasurementScope, readingLine, readingNeighbors, resolveAnchorTarget,
-  selectMeasurementMetric, selectMeasurementSource,
-  shouldRedirectForHash, stepIndex,
+  focusAfterStep, garmentMeasurementScope, readingLine, readingNeighbors,   selectMeasurementMetric, selectMeasurementSource,
+  stepIndex,
 } from '../docs/.vitepress/theme/character-site.mjs'
 
 const json = (path) => JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8'))
-const character = json('../docs/.vitepress/data/bunny/character.json')
-const readingOrder = [{ path: '/characters/bunny/', title: character.name }, ...character.pages]
+const character = json('../docs/.vitepress/data/bonnie/character.json')
+const readingOrder = [{ path: '/characters/bonnie/', title: character.name }, ...character.pages]
 // The site gives each character only its own original from the shared origins collection (characters.mjs).
 const origins = json('../catalog/origins/manifest.json')
-const manifests = [json('../catalog/bunny/manifest.json'), { ...origins, assets: origins.assets.filter((asset) => asset.id === 'bunny-original-latest') }]
-const names = json('../docs/.vitepress/data/bunny/asset-names.json')
+const manifests = [json('../catalog/bonnie/manifest.json'), { ...origins, assets: origins.assets.filter((asset) => asset.id === 'bonnie-original-latest') }]
+const names = json('../docs/.vitepress/data/bonnie/asset-names.json')
 const thumbs = json('../docs/public/site/thumbs/index.json')
 
 test('asset index joins manifests, finalized names and thumbnails', () => {
-  const index = buildAssetIndex({ character: 'bunny', manifests, names, thumbs })
+  const index = buildAssetIndex({ character: 'bonnie', manifests, names, thumbs })
   assert.equal(Object.keys(index).length, 96)
   assert.equal(index['sun05-scene-latest'].web.width, 1774)
   assert.equal(index['sun05-scene-latest'].thumb.width, 480)
-  assert.equal(index['bunny-original-latest'].collection, 'origins')
+  assert.equal(index['bonnie-original-latest'].collection, 'origins')
   assert.throws(() => assetById(index, 'no-such-id'), /no-such-id/)
   assert.throws(() => assetById(index, 'constructor'), /constructor/)
 })
 test('incomplete or unknown names and missing thumbnails fail with the id', () => {
   const missing = { ...names }
   delete missing['sun05-scene-latest']
-  assert.throws(() => buildAssetIndex({ character: 'bunny', manifests, names: missing, thumbs }), /sun05-scene-latest/)
-  assert.throws(() => buildAssetIndex({ character: 'bunny', manifests, names: { ...names, unknown: '未知' }, thumbs }), /unknown/)
-  assert.throws(() => buildAssetIndex({ character: 'bunny', manifests, names: { ...names, 'sun05-scene-latest': ' ' }, thumbs }), /sun05-scene-latest/)
+  assert.throws(() => buildAssetIndex({ character: 'bonnie', manifests, names: missing, thumbs }), /sun05-scene-latest/)
+  assert.throws(() => buildAssetIndex({ character: 'bonnie', manifests, names: { ...names, unknown: '未知' }, thumbs }), /unknown/)
+  assert.throws(() => buildAssetIndex({ character: 'bonnie', manifests, names: { ...names, 'sun05-scene-latest': ' ' }, thumbs }), /sun05-scene-latest/)
   const missingThumb = { ...thumbs }
-  delete missingThumb['bunny/sun05-scene-latest']
-  assert.throws(() => buildAssetIndex({ character: 'bunny', manifests, names, thumbs: missingThumb }), /sun05-scene-latest/)
-})
-const anchorMap = {
-  stubs: { '/characters/bunny/face': { target: '/characters/bunny/#identity', title: '身份与画风' } },
-  anchors: { '/characters/bunny/face#头': '/characters/bunny/#head', '/characters/bunny/#本轮补充': '/characters/bunny/' },
-}
-test('legacy URLs normalize html/index and percent-encoded hashes before lookup', () => {
-  assert.equal(resolveAnchorTarget(anchorMap, '/characters/bunny/face.html', '#%E5%A4%B4'), '/characters/bunny/#head')
-  assert.equal(resolveAnchorTarget(anchorMap, '/characters/bunny/index.html', '#%E6%9C%AC%E8%BD%AE%E8%A1%A5%E5%85%85'), '/characters/bunny/')
-  assert.equal(resolveAnchorTarget(anchorMap, '/characters/bunny/index', '#本轮补充'), '/characters/bunny/')
-  assert.equal(resolveAnchorTarget(anchorMap, '/characters/bunny/face', ''), '/characters/bunny/#identity')
-  assert.equal(resolveAnchorTarget(anchorMap, '/characters/bunny/jacket', '#jacket-wearing'), null)
-  assert.equal(resolveAnchorTarget(anchorMap, '/characters/bunny/jacket', '#%broken'), null)
-})
-test('hash fallback requires a missing nonempty id; a later route is checked afresh', () => {
-  assert.equal(shouldRedirectForHash('#x', false), true)
-  assert.equal(shouldRedirectForHash('#x', true), false)
-  assert.equal(shouldRedirectForHash('', false), false)
-  assert.equal(shouldRedirectForHash('#', false), false)
-  assert.deepEqual([true, false].map((exists) => shouldRedirectForHash('#x', exists)), [false, true])
+  delete missingThumb['bonnie/sun05-scene-latest']
+  assert.throws(() => buildAssetIndex({ character: 'bonnie', manifests, names, thumbs: missingThumb }), /sun05-scene-latest/)
 })
 test('lightbox steps clamp, including single and empty groups', () => {
   assert.equal(stepIndex(0, -1, 3), 0)
@@ -92,24 +72,24 @@ test('reading line never sits above the heading landing position on short viewpo
 })
 
 test('reading neighbors follow layer order and stop at both ends', () => {
-  const { prev, next } = readingNeighbors(readingOrder, '/characters/bunny/jacket')
-  assert.equal(prev.path, '/characters/bunny/thigh-gear')
-  assert.equal(next.path, '/characters/bunny/headgear')
-  assert.equal(readingNeighbors(readingOrder, '/characters/bunny/headgear').next.path, '/characters/bunny/harness')
-  assert.equal(readingNeighbors(readingOrder, '/characters/bunny/harness').next.path, '/characters/bunny/weapon')
-  assert.equal(readingNeighbors(readingOrder, '/characters/bunny/index.html').prev, null)
-  assert.equal(readingNeighbors(readingOrder, '/characters/bunny/downloads').next, null)
+  const { prev, next } = readingNeighbors(readingOrder, '/characters/bonnie/jacket')
+  assert.equal(prev.path, '/characters/bonnie/thigh-gear')
+  assert.equal(next.path, '/characters/bonnie/headgear')
+  assert.equal(readingNeighbors(readingOrder, '/characters/bonnie/headgear').next.path, '/characters/bonnie/harness')
+  assert.equal(readingNeighbors(readingOrder, '/characters/bonnie/harness').next.path, '/characters/bonnie/weapon')
+  assert.equal(readingNeighbors(readingOrder, '/characters/bonnie/index.html').prev, null)
+  assert.equal(readingNeighbors(readingOrder, '/characters/bonnie/downloads').next, null)
   assert.deepEqual(readingNeighbors(readingOrder, '/missing'), { prev: null, next: null })
 })
 
 
-const assets = buildAssetIndex({ character: 'bunny', manifests, names, thumbs })
-const bodyMeasurements = json('../catalog/bunny/body-measurements.json')
-const garmentMeasurements = json('../catalog/bunny/garment-measurements.json')
+const assets = buildAssetIndex({ character: 'bonnie', manifests, names, thumbs })
+const bodyMeasurements = json('../catalog/bonnie/body-measurements.json')
+const garmentMeasurements = json('../catalog/bonnie/garment-measurements.json')
 
 test('garment current scope falls back to a ruler source when the preferred source has no ruler', () => {
   const data = { ...garmentMeasurements, defaultSourceId: 'hosiery-front' }
-  const current = garmentMeasurementScope(data, assets, 'bunny', 'current')
+  const current = garmentMeasurementScope(data, assets, 'bonnie', 'current')
   assert.equal(current.models.some((model) => model.id === 'hosiery-front' && !model.resources.ruler), true)
   assert.equal(current.defaultSourceId, 'innerwear-front')
   assert.ok(current.models.find((model) => model.id === current.defaultSourceId).resources.ruler)
@@ -127,7 +107,7 @@ test('garment metric selector includes a metric available only through a derived
     reference: { sourceId: 'innerwear-front', metricId: 'topMatchedRightHem', endpoint: 1, sha256: data.sources['innerwear-front'].source.sha256 },
   }]
   const before = structuredClone(data)
-  const scoped = garmentMeasurementScope(data, assets, 'bunny')
+  const scoped = garmentMeasurementScope(data, assets, 'bonnie')
   assert.equal(scoped.models.some((model) => model.rows.some(({ id }) => id === 'jacketRightOffset')), false)
   assert.equal(scoped.models.some((model) => model.derived.some(({ id }) => id === 'jacketRightOffset')), true)
   assert.equal(scoped.metrics.some(({ id }) => id === 'jacketRightOffset'), true)
@@ -138,19 +118,19 @@ test('garment metric selector includes a metric available only through a derived
   assert.deepEqual(data, before)
   const wrongHash = structuredClone(data)
   wrongHash.sources['jacket-highlow-base-aligned-front'].referenceDerivedMetrics[0].reference.sha256 = '0'.repeat(64)
-  assert.throws(() => garmentMeasurementScope(wrongHash, assets, 'bunny'), /exact same-view source/)
+  assert.throws(() => garmentMeasurementScope(wrongHash, assets, 'bonnie'), /exact same-view source/)
 })
 
 test('measurement scopes reject unknown assets and invalid scopes, including empty sources', () => {
   const unknownBody = structuredClone(bodyMeasurements)
-  unknownBody.views.front.resources.web = '/characters/bunny/unknown-body-latest.webp'
-  assert.throws(() => bodyMeasurementScope(unknownBody, assets, 'bunny', 'current'), /Unknown asset id: unknown-body/)
+  unknownBody.views.front.resources.web = '/characters/bonnie/unknown-body-latest.webp'
+  assert.throws(() => bodyMeasurementScope(unknownBody, assets, 'bonnie', 'current'), /Unknown asset id: unknown-body/)
   const unknownGarment = structuredClone(garmentMeasurements)
-  unknownGarment.sources[Object.keys(unknownGarment.sources)[0]].resources.web = '/characters/bunny/unknown-garment-latest.webp'
-  assert.throws(() => garmentMeasurementScope(unknownGarment, assets, 'bunny', 'current'), /Unknown asset id: unknown-garment/)
+  unknownGarment.sources[Object.keys(unknownGarment.sources)[0]].resources.web = '/characters/bonnie/unknown-garment-latest.webp'
+  assert.throws(() => garmentMeasurementScope(unknownGarment, assets, 'bonnie', 'current'), /Unknown asset id: unknown-garment/)
   for (const scope of ['', 'all', null]) {
-    assert.throws(() => bodyMeasurementScope({ views: {} }, assets, 'bunny', scope), /Invalid measurement scope/)
-    assert.throws(() => garmentMeasurementScope({ sources: {} }, assets, 'bunny', scope), /Invalid measurement scope/)
+    assert.throws(() => bodyMeasurementScope({ views: {} }, assets, 'bonnie', scope), /Invalid measurement scope/)
+    assert.throws(() => garmentMeasurementScope({ sources: {} }, assets, 'bonnie', scope), /Invalid measurement scope/)
   }
 })
 
@@ -173,19 +153,19 @@ test('display text matches whole strings globally and ignores view-label entries
 
 
 test('only current measurement sources remain and resolve to stable assets', () => {
-  const body = bodyMeasurementScope(bodyMeasurements, assets, 'bunny')
+  const body = bodyMeasurementScope(bodyMeasurements, assets, 'bonnie')
   assert.deepEqual(body.models.map(({ id }) => id), ['front', 'side', 'back'])
   assert.equal(body.defaultSourceId, 'front')
-  const garment = garmentMeasurementScope(garmentMeasurements, assets, 'bunny')
+  const garment = garmentMeasurementScope(garmentMeasurements, assets, 'bonnie')
   assert.equal(garment.models.length, 18)
   assert.equal(garment.models.filter(({ resources }) => resources.ruler).length, 6)
   for (const model of [...body.models, ...garment.models]) assert.match(model.resources.web, /-latest[.]webp$/)
   assert.equal(garment.defaultSourceId, garmentMeasurements.defaultSourceId)
-  for (const fn of [bodyMeasurementScope, garmentMeasurementScope]) assert.throws(() => fn({}, assets, 'bunny', 'archive'), /Invalid measurement scope/)
+  for (const fn of [bodyMeasurementScope, garmentMeasurementScope]) assert.throws(() => fn({}, assets, 'bonnie', 'archive'), /Invalid measurement scope/)
 })
 
 test('home highlights reference current image identities without change history', () => {
-  const home = json('../docs/.vitepress/data/bunny/home.json')
+  const home = json('../docs/.vitepress/data/bonnie/home.json')
   assert.equal(home.highlights.length, 4)
   for (const entry of home.highlights) assert.ok(assets[entry.asset])
   assert.ok(home.chapters.every(({ id }) => id !== 'downloads'))
@@ -193,7 +173,7 @@ test('home highlights reference current image identities without change history'
 
 
 test('all ten cumulative layers use the approved order and four character-relative T-pose views', () => {
-  const layers = json('../docs/.vitepress/data/bunny/layers.json').items
+  const layers = json('../docs/.vitepress/data/bonnie/layers.json').items
   const prefixes = ['body', 'innerwear', 'hosiery', 'shoes', 'hands', 'thigh-gear', 'jacket', 'goggles', 'belt', 'daggers']
   assert.deepEqual(layers.map(({ layer }) => layer), [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
   assert.deepEqual(layers.map(({ name }) => name), ['身体', '上衣与短裤', '袜装', '鞋靴', '手部', '腿带', '橙色夹克', '护目镜', '裤腰皮带', '双匕首'])
@@ -207,18 +187,18 @@ test('all ten cumulative layers use the approved order and four character-relati
     assert.match(page, new RegExp(`layer: ${i}\\n`))
     assert.ok(page.includes(`<LayerTpose :layer="${i}" />`), layer.path)
   }
-  assert.equal(layers[7].path, '/characters/bunny/headgear')
-  assert.equal(layers[8].path, '/characters/bunny/harness')
-  assert.equal(layers[9].path, '/characters/bunny/weapon')
+  assert.equal(layers[7].path, '/characters/bonnie/headgear')
+  assert.equal(layers[8].path, '/characters/bonnie/harness')
+  assert.equal(layers[9].path, '/characters/bonnie/weapon')
   assert.equal(layers[9].facts.find(({ term }) => term === '外层').value, '最外层')
-  const home = json('../docs/.vitepress/data/bunny/home.json')
+  const home = json('../docs/.vitepress/data/bonnie/home.json')
   assert.deepEqual(home.tabs.find(({ key }) => key === 'tpose').assets, Object.values(layers[9].tpose))
   assert.equal(home.updated, '2026-11-22')
 })
 
 test('downloadable dagger specification matches the approved leather-tab carry source', () => {
-  const source = json('../catalog/bunny/dagger-dimensions.json')
-  assert.deepEqual(json('../docs/public/catalog/bunny/dagger-dimensions.json'), source)
+  const source = json('../catalog/bonnie/dagger-dimensions.json')
+  assert.deepEqual(json('../docs/public/catalog/bonnie/dagger-dimensions.json'), source)
   const carry = source.carryingDesign.definition
   const visible = source.carryingDesign.visibleAppearance
   assert.match(carry, /^设计要求：/)
@@ -230,7 +210,7 @@ test('downloadable dagger specification matches the approved leather-tab carry s
 })
 
 test('dagger totals and every master proportion use the current owner length decision', () => {
-  const source = json('../catalog/bunny/dagger-dimensions.json')
+  const source = json('../catalog/bonnie/dagger-dimensions.json')
   assert.equal(source.updated, '2026-11-22')
   assert.deepEqual(source.designTargets.rootTotalDecision, {
     path: '/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-length-angle-decision.json',

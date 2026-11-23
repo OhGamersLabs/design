@@ -9,13 +9,14 @@ import { parse, compileScript } from 'vue/compiler-sfc'
 import { transformWithEsbuild } from 'vite'
 import * as vue from 'vue'
 import * as serverRenderer from 'vue/server-renderer'
-import { discoverCharacters, loadCharacters, mergeAnchorMaps, siteNav } from '../docs/.vitepress/characters.mjs'
+import { discoverCharacters, loadCharacters, siteNav } from '../docs/.vitepress/characters.mjs'
 import { loadBaseBodies } from '../docs/.vitepress/base-bodies.mjs'
 import { loadWorld } from '../docs/.vitepress/world.mjs'
 import { parseChip } from '../docs/.vitepress/data/character-data.mjs'
 import loader from '../docs/.vitepress/data/site.data.mjs'
 import baseBodiesLoader from '../docs/.vitepress/data/base-bodies.data.mjs'
 import worldLoader from '../docs/.vitepress/data/world.data.mjs'
+import storyLoader from '../docs/.vitepress/data/story.data.mjs'
 import { assetById, buildAssetIndex, characterForPage, focusAfterStep, readingNeighbors, stepIndex } from '../docs/.vitepress/theme/character-site.mjs'
 import { measurementModel } from '../docs/.vitepress/theme/components/body-measurements.mjs'
 import { garmentModel } from '../docs/.vitepress/theme/components/garment-measurements.mjs'
@@ -79,7 +80,7 @@ test('discovery uses character.json and the home file alone determines listing',
   write(root, 'docs/characters/robot/index.md', '# Robot')
   assert.equal(discoverCharacters(root)[1].listed, true)
 })
-for (const id of ['Bad', 'two--words', 'origins', 'base-bodies', 'world']) test(`discovery rejects invalid or shared collection id ${id}`, (t) => {
+for (const id of ['Bad', 'two--words', 'origins', 'base-bodies', 'world', 'story']) test(`discovery rejects invalid or shared collection id ${id}`, (t) => {
   const root = sandbox(t)
   write(root, `docs/.vitepress/data/${id}/character.json`, { name: id, role: '角色', order: 1, pages: [] })
   assert.throws(() => discoverCharacters(root), /Invalid character id/)
@@ -121,6 +122,13 @@ for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one �
       { text: '剧情角色与敌方图鉴', link: '/world/cast', activeMatch: '^/world/cast' },
     ],
   }
+  const story = {
+    text: '主线连载', activeMatch: '^/story/',
+    items: [
+      { text: '连载总览', link: '/story/', activeMatch: '^/story/$' },
+      { text: '第 01 话：0.00 的游戏币', link: '/story/ep01', activeMatch: '^/story/ep01' },
+    ],
+  }
   const standards = {
     text: '通用规范', activeMatch: '^/standards/',
     items: [
@@ -134,7 +142,7 @@ for (const count of [0, 1, 2]) test(`siteNav lists ${count} characters in one �
   const expected = count ? [{ text: '角色', activeMatch: '^/characters/', items: [
     { text: 'Bunny', link: '/characters/bunny/', activeMatch: '^/characters/bunny/' },
     ...(count === 2 ? [{ text: 'Robot', link: '/characters/robot/', activeMatch: '^/characters/robot/' }] : []),
-  ] }, world, standards] : [world, standards]
+  ] }, world, story, standards] : [world, story, standards]
   assert.deepEqual(siteNav(loadCharacters(root).roster), expected)
 })
 for (const portrait of ['missing-latest', 'robot-original-latest']) test(`registry rejects portrait ${portrait} even without pages`, (t) => {
@@ -154,10 +162,9 @@ for (const key of ['pages', 'stubs', 'latest', 'unexpected']) test(`site-check r
 })
 test('loader exposes all characters, roster, merged map and wildcard watch paths', () => {
   const data = loader.load()
-  assert.deepEqual(Object.keys(data).sort(), ['anchorMap', 'characters', 'majorCast', 'roster'])
-  assert.equal(data.characters.bunny.readingOrder.length, 14)
-  assert.equal(data.characters.bunny.layers.items.length, 10)
-  assert.deepEqual(data.anchorMap, data.characters.bunny.anchorMap)
+  assert.deepEqual(Object.keys(data).sort(), ['characters', 'majorCast', 'roster'])
+  assert.equal(data.characters.bonnie.readingOrder.length, 14)
+  assert.equal(data.characters.bonnie.layers.items.length, 10)
   assert.deepEqual(loader.watch.map((path) => path.slice(path.indexOf('/docs/') >= 0 ? path.indexOf('/docs/') : path.indexOf('/catalog/'))), ['/docs/.vitepress/data/*/*.json', '/catalog/*/manifest.json', '/docs/public/site/thumbs/index.json'])
 })
 test('two characters share local asset ids without sharing artwork or originals', (t) => {
@@ -179,15 +186,6 @@ test('buildAssetIndex rejects a foreign collection, foreign original and duplica
   const own = { ...asset, id: 'bunny-original-latest' }
   const ownInput = { character: 'bunny', names: { [own.id]: '原稿' }, thumbs: { [`origins/${own.id}`]: image } }
   assert.throws(() => buildAssetIndex({ ...ownInput, manifests: [{ character_id: 'origins', assets: [own, own] }] }), /Duplicate asset id/)
-})
-test('merged anchor and stub keys are unique across character maps', (t) => {
-  const root = sandbox(t)
-  addCharacter(root, 'bunny')
-  const robot = addCharacter(root, 'robot')
-  const key = '/characters/bunny/legacy'
-  mutate(root, robot, 'anchor-map.json', (map) => { map.anchors[key] = '/characters/robot/' })
-  assert.throws(() => loadCharacters(root), /Duplicate anchor map key/)
-  assert.throws(() => mergeAnchorMaps([{ stubs: {}, anchors: { [key]: '/' } }, { stubs: { [key]: { target: '/', title: '角色' } }, anchors: {} }]), /Duplicate anchor map key/)
 })
 for (const [label, patch] of [
   ['both chip formats', { swatch: 'orange', color: '#123456' }],
@@ -215,7 +213,6 @@ test('optional layers are null, while a supplied layer chapter must exist', (t) 
 })
 for (const [label, update] of [
   ['reading page path', (root, dir) => mutate(root, dir, 'character.json', (value) => { value.pages[0].path = '/characters/other/page' })],
-  ['stub path', (root, dir) => mutate(root, dir, 'anchor-map.json', (value) => { value.stubs['/characters/other/page'] = { target: '/characters/robot/', title: '角色' } })],
   ['layer path', (root, dir) => mutate(root, dir, 'layers.json', (value) => { value.items[0].path = '/characters/other/page' })],
   ['duplicate layer number', (root, dir) => mutate(root, dir, 'layers.json', (value) => { value.items[1].layer = 0 })],
   ['fractional layer number', (root, dir) => mutate(root, dir, 'layers.json', (value) => { value.items[0].layer = 1.5 })],
@@ -268,7 +265,8 @@ async function renderComponent(name, data, path, props = {}, frontmatter = {}) {
   const code = (await transformWithEsbuild(compiled, url.pathname + '.ts', { loader: 'ts' })).code
   const baseBodies = baseBodiesLoader.load()
   const world = worldLoader.load()
-  const modules = { vue, 'vue/server-renderer': serverRenderer, vitepress: context.vitepress, '../data/site.data.mjs': { data }, '../data/base-bodies.data.mjs': { data: baseBodies }, '../../data/base-bodies.data.mjs': { data: baseBodies }, '../data/world.data.mjs': { data: world }, '../../data/world.data.mjs': { data: world }, '../use-character': context.composable, './use-character': context.composable,
+  const story = storyLoader.load()
+  const modules = { vue, 'vue/server-renderer': serverRenderer, vitepress: context.vitepress, '../data/site.data.mjs': { data }, '../data/base-bodies.data.mjs': { data: baseBodies }, '../../data/base-bodies.data.mjs': { data: baseBodies }, '../data/world.data.mjs': { data: world }, '../../data/world.data.mjs': { data: world }, '../data/story.data.mjs': { data: story }, '../../data/story.data.mjs': { data: story }, './components/WorldImage.vue': { default: empty }, './components/StoryImage.vue': { default: empty }, '../use-character': context.composable, './use-character': context.composable,
     '../character-site.mjs': { assetById, buildAssetIndex, focusAfterStep, readingNeighbors, stepIndex }, './AssetImage.vue': { default: { props: ['id', 'group'], render() { return vue.h('figure', { 'data-image-id': this.id, 'data-group': this.group }) } } },
     './ReleaseImage.vue': { default: { props: ['src', 'group'], render() { return vue.h('figure', { 'data-source': this.src, 'data-group': this.group }) } } },
     './components/LayerCard.vue': { default: empty }, './components/ReferenceCard.vue': { default: empty }, './components/PagePager.vue': { default: empty }, './components/RedirectStub.vue': { default: empty } }
@@ -323,8 +321,8 @@ test('world lore registry loads all five races and covers every listed character
   }
 })
 test('Bunny LayerCard retains its exact breadcrumb, noun, range and wear', async () => {
-  const html = await renderComponent('components/LayerCard.vue', loader.load(), 'characters/bunny/weapon.md', { layer: 9 })
-  for (const value of ['href="/characters/bunny/">邦妮·弗林</a> / <a href="/characters/bunny/#layers">衣层由内到外</a>', 'aria-label="衣层资料"', '第 9 层，共 0 到 9 层', 'aria-label="第 0 到 9 层穿着"']) assert.ok(html.includes(value), value)
+  const html = await renderComponent('components/LayerCard.vue', loader.load(), 'characters/bonnie/weapon.md', { layer: 9 })
+  for (const value of ['href="/characters/bonnie/">邦妮·弗林</a> / <a href="/characters/bonnie/#layers">衣层由内到外</a>', 'aria-label="衣层资料"', '第 9 层，共 0 到 9 层', 'aria-label="第 0 到 9 层穿着"']) assert.ok(html.includes(value), value)
 })
 test('CharacterPage validates layers against its data, including a number beyond nine', async (t) => {
   const root = sandbox(t); const dir = addCharacter(root, 'fixture')
@@ -375,9 +373,9 @@ test('OriginNote selects the current character original with the existing captio
 })
 test('ReleaseImage excludes every origins source from groups while retaining ordinary groups', async () => {
   const data = loader.load()
-  const origin = await renderComponent('components/ReleaseImage.vue', data, 'index.md', { src: '/characters/origins/robot-original-latest.webp', alt: '画师原稿', group: 'gallery' })
+  const origin = await renderComponent('components/ReleaseImage.vue', data, 'index.md', { src: '/characters/origins/rook-original-latest.webp', alt: '画师原稿', group: 'gallery' })
   assert.doesNotMatch(origin, /data-lightbox-group/)
-  const ordinary = await renderComponent('components/ReleaseImage.vue', data, 'index.md', { src: '/characters/robot/body-front-latest.webp', alt: '正面', group: 'gallery' })
+  const ordinary = await renderComponent('components/ReleaseImage.vue', data, 'index.md', { src: '/characters/rook/body-front-latest.webp', alt: '正面', group: 'gallery' })
   assert.match(ordinary, /data-lightbox-group="gallery"/)
 })
 test('AssetImage can explicitly select another character outside a character page', async (t) => {
@@ -406,17 +404,17 @@ test('measurement builders traverse every catalog, skip absent files and keep ga
   }
   const hash = (value) => createHash('sha256').update(value).digest('hex')
   for (const character of ['bunny', 'robot']) {
-    const bodyBytes = readFileSync(new URL('catalog/bunny/body-measurements.json', sourceRoot), 'utf8').replaceAll('/bunny/', `/${character}/`)
+    const bodyBytes = readFileSync(new URL('catalog/bonnie/body-measurements.json', sourceRoot), 'utf8').replaceAll('/bonnie/', `/${character}/`)
     const body = JSON.parse(bodyBytes)
-    const garment = JSON.parse(readFileSync(new URL('catalog/bunny/garment-measurements.json', sourceRoot), 'utf8').replaceAll('/bunny/', `/${character}/`))
+    const garment = JSON.parse(readFileSync(new URL('catalog/bonnie/garment-measurements.json', sourceRoot), 'utf8').replaceAll('/bonnie/', `/${character}/`))
     garment.bodyMeasurementsSha256 = hash(bodyBytes)
-    const manifest = readFileSync(new URL('catalog/bunny/manifest.json', sourceRoot), 'utf8').replaceAll('/bunny/', `/${character}/`)
+    const manifest = readFileSync(new URL('catalog/bonnie/manifest.json', sourceRoot), 'utf8').replaceAll('/bonnie/', `/${character}/`)
     write(root, `catalog/${character}/body-measurements.json`, bodyBytes)
     write(root, `catalog/${character}/garment-measurements.json`, garment)
     write(root, `catalog/${character}/manifest.json`, manifest)
     const models = [...Object.keys(body.views).map((id) => measurementModel(body, id, character)), ...Object.keys(garment.sources).map((id) => garmentModel(garment, id, character))]
     for (const path of new Set(models.map(({ resources }) => resources.web))) {
-      const source = path.replace(`/${character}/`, '/bunny/')
+      const source = path.replace(`/${character}/`, '/bonnie/')
       mkdirSync(join(root, 'docs/public' + path, '..'), { recursive: true })
       cpSync(new URL('docs/public' + source, sourceRoot), join(root, 'docs/public' + path))
     }

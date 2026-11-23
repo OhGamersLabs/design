@@ -9,7 +9,7 @@ OhGamers 角色设计资料站，使用 VitePress 1.6.4 与 Vue 3，按角色主
 - 首页 `/` 上半部分是十人角色卡墙（卡片图、正式全名、职业、最近更新），中段展示「世界观与五大种族」入口，下方独立分区展示四档通用素体；顶栏列出「角色」「世界观」「通用规范」下拉。
 - 独立专栏 `/world/` 收录星环纪元世界观总览（`/world/`）与五大种族及姓氏谱系详录（`/world/races`），数据单一权威位于 `docs/.vitepress/data/world/world.json`，并同步渲染至每位角色主页的「背景故事」章节。
 - 独立专栏 `/standards/` 收录全家族四档通用 2D 素体与跨角色设计规范（`/standards/`、`/standards/female-standard`、`/standards/female-curvy`、`/standards/male-standard`、`/standards/male-heavy`），对应共享集合 `base-bodies`，不是角色。
-- 每个角色使用 `/characters/<id>/` 作为主页，页面数据位于 `docs/.vitepress/data/<id>/`。当前 Bunny 主页仍为 `/characters/bunny/`，展示精选、身份与画风、身体基准、衣层、表情、武器与携行、动作与场景。
+- 每个角色使用 `/characters/<id>/` 作为主页，页面数据位于 `docs/.vitepress/data/<id>/`。当前 Bunny 主页仍为 `/characters/bonnie/`，展示精选、身份与画风、身体基准、衣层、表情、武器与携行、动作与场景。
 - 角色内页分为层级页和参考页；阅读顺序由该角色的 `character.json` 决定。Bunny 的身体到双匕首各页，以及图面尺寸、画风与配色、使用检查沿用原来的顺序。
 - 旧 URL 由各角色的 `anchor-map.json` 映射到当前内容；跳转桩不进导航和搜索。原档案及下载页跳到角色主页。
 - `origins` 是各角色共享的画师原稿集合，不是角色。
@@ -68,7 +68,7 @@ python3 tools/build-local-catalog.py --refresh-web bunny/daggers-front-latest bu
 
 ## 检查与发布边界
 
-`npm test` 运行 Worker、目录、页面与测量辅助函数、搜索、构建器、站点检查器及发布流程的离线测试。`npm run build` 校验允许路径并构建静态站。先构建，再运行 `npm run check:site`；它检查链接与旧锚点跳转、当前图片覆盖、原图完整性、稳定文件名、图注、方向、配色、外部资源和搜索。A1/A2 检查清单和页面引用，不再冻结某批图片哈希。`python3 tools/check-site.py --rules R1,R2` 可缩小规则范围；`--pages /characters/bunny/weapon` 可缩小页面扫描范围，全局清单检查仍覆盖全仓。
+`npm test` 运行 Worker、目录、页面与测量辅助函数、搜索、构建器、站点检查器及发布流程的离线测试。`npm run build` 校验允许路径并构建静态站。先构建，再运行 `npm run check:site`；它检查链接与旧锚点跳转、当前图片覆盖、原图完整性、稳定文件名、图注、方向、配色、外部资源和搜索。A1/A2 检查清单和页面引用，不再冻结某批图片哈希。`python3 tools/check-site.py --rules R1,R2` 可缩小规则范围；`--pages /characters/bonnie/weapon` 可缩小页面扫描范围，全局清单检查仍覆盖全仓。
 
 授权发布到指定目标后，先检查远端计划，再应用图片替换。下面各条 Cloudflare 命令均需追加 `--credentials <本地凭据文件> --email <账户邮箱>`；不要将实际凭据写入文档或日志：
 

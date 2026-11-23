@@ -290,7 +290,7 @@ def r7b(c):
             fig=figure_for(node)
             asset=c.asset_for_url(url,p.path)
             if not asset:continue
-            card=node.ancestor(lambda n:n.tag=='a' and (n.has_class('character-card') or n.has_class('base-body-card') or n.has_class('npc-roster-card')))
+            card=node.ancestor(lambda n:n.tag=='a' and (n.has_class('character-card') or n.has_class('base-body-card') or n.has_class('npc-roster-card') or n.has_class('story-preview-card')))
             if node.tag=='img' and card is not None and card.attrs.get('data-asset-id')==asset['id']:continue
             key=(fig or node,asset['id'])
             if key in seen:continue
@@ -586,6 +586,7 @@ def r17(c):
     """The home cards and native flyout share the listed squad character roster."""
     errors=[]
     squad=[spec for spec in c.listed if getattr(spec,'group','squad')=='squad']
+    major_cast=[spec for spec in c.listed if getattr(spec,'group','squad')=='major-cast']
     if c.wanted('/'):
         home=c.pages.get('/')
         grids=[node for node in home.body.walk() if node.has_class('character-grid')] if home else []
@@ -606,6 +607,10 @@ def r17(c):
                 dates=card.find('time')
                 if len(dates)!=1 or dates[0].attrs.get('datetime')!=spec.updated or dates[0].text().strip()!=spec.updated:
                     errors.append(fail('R17','/','card date differs: '+spec.id))
+    expected_nav_links=[(spec.home,spec.name) for spec in squad]
+    if major_cast:
+        expected_nav_links.extend((spec.home,spec.name) for spec in major_cast)
+        expected_nav_links.append(('/world/cast','普通剧情角色图鉴'))
     for page in c.scanned():
         for nav in (node for node in page.body.find('nav') if node.has_class('VPNavBarMenu')):
             flyouts=[node for node in nav.walk() if node.has_class('VPFlyout') and any(button.text().strip()=='角色' for button in node.find('button'))]
@@ -613,7 +618,7 @@ def r17(c):
                 errors.append(fail('R17',page.path,'角色 flyout count differs from listed characters'))
             elif flyouts:
                 links=[(node.attrs['href'],node.text().strip()) for node in flyouts[0].find('a','href')]
-                if links!=[(spec.home,spec.name) for spec in squad]:errors.append(fail('R17',page.path,'角色 menu links or order differ from listed characters'))
+                if links!=expected_nav_links:errors.append(fail('R17',page.path,'角色 menu links or order differ from listed characters'))
     listed_ids={spec.id for spec in c.listed}
     for page in c.pages.values():
         for node in page.root.find('a','href'):
@@ -682,6 +687,14 @@ def a1(c):
             errors.append(fail('A1','world.json','world assetNames differ from manifest assets'))
         else:
             for aid,name in w_names.items():
+                if not isinstance(name,str) or not name.strip():errors.append(fail('A1',aid,'Chinese display name is empty'))
+    if 'story' in ids:
+        s_file=c.cfg.root/'docs/.vitepress/data/story/story.json'
+        s_names=c.read(s_file).get('assetNames',{})
+        if not isinstance(s_names,dict) or set(s_names)!=ids['story']:
+            errors.append(fail('A1','story.json','story assetNames differ from manifest assets'))
+        else:
+            for aid,name in s_names.items():
                 if not isinstance(name,str) or not name.strip():errors.append(fail('A1',aid,'Chinese display name is empty'))
     return errors
 

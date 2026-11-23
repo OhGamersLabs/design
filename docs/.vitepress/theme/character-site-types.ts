@@ -63,11 +63,6 @@ export interface LayerSet {
   items: LayerRecord[]
 }
 
-export interface AnchorMap {
-  stubs: Record<string, { target: string; title: string }>
-  anchors: Record<string, string>
-}
-
 export interface ReadingEntry {
   path: string
   title: string
@@ -83,6 +78,7 @@ export interface CharacterDefinition {
   portrait: string
   listed: boolean
   group?: CharacterGroup
+  accent?: string
   pages: ReadingEntry[]
 }
 
@@ -94,11 +90,11 @@ export interface CharacterData {
   portrait: string
   listed: boolean
   group?: CharacterGroup
+  accent?: string
   readingOrder: ReadingEntry[]
   assets: Record<string, AssetRecord>
   home: HomeData
   layers: LayerSet | null
-  anchorMap: AnchorMap
   displayText: Record<string, Record<string, string>>
 }
 
@@ -108,6 +104,7 @@ export interface RosterEntry {
   role: string
   home: string
   updated: string
+  accent?: string
   portrait: { asset: string; path: string; width: number; height: number }
 }
 
@@ -115,5 +112,4 @@ export interface SiteData {
   characters: Record<string, CharacterData>
   roster: RosterEntry[]
   majorCast: RosterEntry[]
-  anchorMap: AnchorMap
 }

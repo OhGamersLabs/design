@@ -1,0 +1,37 @@
+{
+  "name": "安洁·阿维拉",
+  "role": "治疗师",
+  "order": 7,
+  "portrait": "plume-staff-front-latest",
+  "pages": [
+    {
+      "path": "/characters/ange/bodysuit",
+      "title": "白黑连体衣"
+    },
+    {
+      "path": "/characters/ange/boots",
+      "title": "过膝长靴"
+    },
+    {
+      "path": "/characters/ange/arm-sleeves",
+      "title": "黑色长臂套"
+    },
+    {
+      "path": "/characters/ange/choker",
+      "title": "独立颈圈"
+    },
+    {
+      "path": "/characters/ange/hip-emblem",
+      "title": "胯章与外侧腿带"
+    },
+    {
+      "path": "/characters/ange/angel-wings",
+      "title": "羽耳与蝴蝶骨光翼"
+    },
+    {
+      "path": "/characters/ange/plume-staff",
+      "title": "栖羽光轮杖"
+    }
+  ],
+  "accent": "#3B72A6"
+}

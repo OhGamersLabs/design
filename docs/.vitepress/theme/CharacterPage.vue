@@ -5,13 +5,12 @@ import { useCharacter } from './use-character'
 import LayerCard from './components/LayerCard.vue'
 import ReferenceCard from './components/ReferenceCard.vue'
 import PagePager from './components/PagePager.vue'
-import RedirectStub from './components/RedirectStub.vue'
 
 const { frontmatter } = useData()
 const data = useCharacter()
 const mode = computed(() => {
   const value: unknown = frontmatter.value.pageType
-  if (value === 'home' || value === 'layer' || value === 'reference' || value === 'stub') return value
+  if (value === 'home' || value === 'layer' || value === 'reference') return value
   throw new Error(`Unknown character page layout: ${String(value)}`)
 })
 const layer = computed(() => {
@@ -24,18 +23,20 @@ const category = computed(() => {
   if (typeof value !== 'string' || !value.trim()) throw new Error('Character reference page needs a category')
   return value
 })
+const pageStyle = computed(() => data.value.accent ? { '--char-accent': data.value.accent } : undefined)
 </script>
 
 <template>
-  <main class="bunny-page" :class="[`bunny-page--${mode}`, { 'bunny-page--inner': mode === 'layer' || mode === 'reference' }]">
-    <RedirectStub v-if="mode === 'stub'" />
-    <template v-else>
-      <LayerCard v-if="mode === 'layer'" :layer="layer" />
-      <ReferenceCard v-else-if="mode === 'reference'" :category="category" />
-      <div class="bunny-page__body">
-        <div class="vp-doc"><Content /></div>
-        <PagePager v-if="mode === 'layer' || mode === 'reference'" />
-      </div>
-    </template>
+  <main
+    class="bunny-page"
+    :class="[`bunny-page--${mode}`, { 'bunny-page--inner': mode === 'layer' || mode === 'reference' }]"
+    :style="pageStyle"
+  >
+    <LayerCard v-if="mode === 'layer'" :layer="layer" />
+    <ReferenceCard v-else-if="mode === 'reference'" :category="category" />
+    <div class="bunny-page__body">
+      <div class="vp-doc"><Content /></div>
+      <PagePager v-if="mode === 'layer' || mode === 'reference'" />
+    </div>
   </main>
 </template>

@@ -17,7 +17,7 @@ const root = process.env.BUNNY_RENDER_DATA_ROOT ?? fileURLToPath(new URL('../', 
 const markdownRoot = process.env.BUNNY_RENDER_MARKDOWN_ROOT ?? resolve(root, 'docs')
 const read = (path) => readFileSync(resolve(root, path), 'utf8')
 const json = (path) => JSON.parse(read(path))
-const displayText = json('docs/.vitepress/data/bunny/display-text.json')
+const displayText = json('docs/.vitepress/data/bonnie/display-text.json')
 const display = createDisplayTextLookup(displayText)
 const forbidden = /Phase|阶段\s*[A-Z]|新图|新侧面|新批准|旧图|旧读数|旧测点|重读|复读|不沿用|不继承|更换前|本轮|历史|工作稿|重画|抽卡|take|guide|引导图|迭代|版本|修图|(?:l9[a-z0-9]*-[^\s<>]*|dagger-master[^\s<>]*|root-scale-decision|sunraku04-projection-scale-analysis)\.(?:json|png)/iu
 
@@ -57,10 +57,10 @@ function javascriptLiterals(source, expression = false) {
   return literals
 }
 
-const displayFile = 'docs/.vitepress/data/bunny/display-text.json'
-const garmentFile = 'catalog/bunny/garment-measurements.json'
-const bodyFile = 'catalog/bunny/body-measurements.json'
-const daggerFile = 'catalog/bunny/dagger-dimensions.json'
+const displayFile = 'docs/.vitepress/data/bonnie/display-text.json'
+const garmentFile = 'catalog/bonnie/garment-measurements.json'
+const bodyFile = 'catalog/bonnie/body-measurements.json'
+const daggerFile = 'catalog/bonnie/dagger-dimensions.json'
 
 function stringLeaves(value, path = '$') {
   if (typeof value === 'string') return [[path, value]]
@@ -92,8 +92,8 @@ function fields(object, names, prefix, transform = display) {
 }
 
 test('all 18 garment models display current image readings without process commentary', () => {
-  const data = json('catalog/bunny/garment-measurements.json')
-  const models = Object.keys(data.sources).map((id) => garmentModel(data, id, 'bunny'))
+  const data = json('catalog/bonnie/garment-measurements.json')
+  const models = Object.keys(data.sources).map((id) => garmentModel(data, id, 'bonnie'))
   assert.equal(models.length, 18)
   const entries = [
     ...fields(data.designUnit, ['definition'], 'designUnit'),
@@ -127,8 +127,8 @@ test('all 18 garment models display current image readings without process comme
 })
 
 test('body models apply display text to every rendered definition and unavailable-point reason', () => {
-  const data = json('catalog/bunny/body-measurements.json')
-  const models = Object.keys(data.views).map((id) => measurementModel(data, id, 'bunny'))
+  const data = json('catalog/bonnie/body-measurements.json')
+  const models = Object.keys(data.views).map((id) => measurementModel(data, id, 'bonnie'))
   assert.equal(models.length, 3)
   const entries = []
   for (const model of models) {
@@ -144,7 +144,7 @@ test('body models apply display text to every rendered definition and unavailabl
 })
 
 test('dagger specification prose accompanying the page readings has no process commentary', () => {
-  const data = json('catalog/bunny/dagger-dimensions.json')
+  const data = json('catalog/bonnie/dagger-dimensions.json')
   const entries = [
     ...fields(data.designUnit, ['definition'], 'dagger.designUnit'),
     ...fields(data.definitions, Object.keys(data.definitions), 'dagger.definitions'),
@@ -308,20 +308,20 @@ test('every Markdown page under docs renders no process commentary', async () =>
   const pages = filesUnder(markdownRoot, (path) => path.endsWith('.md'), new Set(['public', '.vitepress']))
   assert.ok(pages.length >= 3)
   // Keep the former Bunny-page count and mandatory home-page coverage.
-  assert.ok(readdirSync(resolve(markdownRoot, 'characters/bunny')).filter((name) => name.endsWith('.md')).length >= 3)
+  assert.ok(readdirSync(resolve(markdownRoot, 'characters/bonnie')).filter((name) => name.endsWith('.md')).length >= 3)
   assert.ok(pages.includes(resolve(markdownRoot, 'index.md')), 'docs/index.md must be present')
   const entries = pages.flatMap((path) => markdownEntries(md, `docs/${relative(markdownRoot, path)}`, readFileSync(path, 'utf8')))
   assertRendered(entries)
 })
 
-// Derive expected redirect and reading-order coverage from the real page
+// Derive expected reading-order coverage from the real page
 // frontmatter, independently of the structures whose strings are scanned.
 let pageInventory
 async function bunnyPages() {
   pageInventory ??= (async () => {
     const docs = resolve(root, 'docs')
     const md = await createMarkdownRenderer(docs)
-    return filesUnder(resolve(docs, 'characters/bunny'), (path) => path.endsWith('.md')).map((path) => {
+    return filesUnder(resolve(docs, 'characters/bonnie'), (path) => path.endsWith('.md')).map((path) => {
       const env = {}
       md.render(readFileSync(path, 'utf8'), env)
       return { path: `/${relative(docs, path).replace(/\.md$/, '').replace(/index$/, '')}`, frontmatter: env.frontmatter ?? {} }
@@ -330,34 +330,25 @@ async function bunnyPages() {
   return pageInventory
 }
 
-test('asset names and redirect stub titles render no process commentary', async () => {
-  const namesFile = 'docs/.vitepress/data/bunny/asset-names.json'
-  const anchorsFile = 'docs/.vitepress/data/bunny/anchor-map.json'
+test('asset names render no process commentary', async () => {
+  const namesFile = 'docs/.vitepress/data/bonnie/asset-names.json'
   const names = json(namesFile)
-  // These are the same two collections read by site.data.mjs; the shared origins collection gives Bunny only its own original.
-  const manifests = ['bunny', 'origins'].map((id) => json(`catalog/${id}/manifest.json`))
+  // These are the same two collections read by site.data.mjs; the shared origins collection gives Bonnie only its own original.
+  const manifests = ['bonnie', 'origins'].map((id) => json(`catalog/${id}/manifest.json`))
   const expectedNames = manifests.flatMap((manifest) => manifest.assets.map(({ id }) => id)
-    .filter((id) => manifest.character_id !== 'origins' || id === 'bunny-original-latest')).sort()
+    .filter((id) => manifest.character_id !== 'origins' || id === 'bonnie-original-latest')).sort()
   assert.ok(expectedNames.length > 0, 'the manifests must enumerate assets')
   for (const manifest of manifests) assert.equal(manifest.assets.length, manifest.asset_count, `${manifest.character_id} manifest asset count`)
   assert.deepEqual(Object.keys(names).sort(), expectedNames, `${namesFile}: every manifest asset needs a name`)
   for (const [id, value] of Object.entries(names)) assert.ok(typeof value === 'string' && value.trim(), `${namesFile}#${id}: nonempty asset name`)
   const entries = stringLeaves(names).map(([path, text]) => [`${namesFile}#${path}`, text])
-  const stubs = json(anchorsFile).stubs
-  const expectedStubs = (await bunnyPages()).filter(({ frontmatter }) => frontmatter.pageType === 'stub').map(({ path }) => path).sort()
-  assert.ok(expectedStubs.length > 0, 'redirect stub pages must be present')
-  assert.deepEqual(Object.keys(stubs).sort(), expectedStubs, `${anchorsFile}: every stub page needs a title`)
-  for (const [key, stub] of Object.entries(stubs)) {
-    assert.ok(typeof stub.title === 'string' && stub.title.trim(), `${anchorsFile}#${key}: nonempty stub title`)
-    entries.push([`${anchorsFile}#$["stubs"][${JSON.stringify(key)}]["title"]`, stub.title])
-  }
   assertRendered(entries)
 })
 
 test('reading-order navigation titles render no process commentary', async () => {
-  const path = 'docs/.vitepress/data/bunny/character.json'
+  const path = 'docs/.vitepress/data/bonnie/character.json'
   const character = json(path)
-  const READING_ORDER = [{ path: '/characters/bunny/', title: character.name }, ...character.pages]
+  const READING_ORDER = [{ path: '/characters/bonnie/', title: character.name }, ...character.pages]
   assert.ok(Array.isArray(READING_ORDER) && READING_ORDER.length > 0)
   const expected = (await bunnyPages()).filter(({ frontmatter }) => frontmatter.pageType && frontmatter.pageType !== 'stub').map(({ path }) => path).sort()
   assert.deepEqual(READING_ORDER.map(({ path }) => path).sort(), expected, `${path}: every non-stub Bunny page needs a reading-order entry`)
@@ -369,13 +360,13 @@ test('reading-order navigation titles render no process commentary', async () =>
 })
 
 test('Bunny SVG text and accessible names contain no process commentary', () => {
-  const paths = filesUnder(resolve(root, 'docs/public/characters/bunny'), (path) => path.endsWith('.svg'))
+  const paths = filesUnder(resolve(root, 'docs/public/characters/bonnie'), (path) => path.endsWith('.svg'))
   assert.ok(paths.length > 0, 'Bunny SVG sources must be present in the copied data root')
   const body = json(bodyFile)
   const garment = json(garmentFile)
   const expected = [
-    ...Object.keys(body.views).map((id) => measurementModel(body, id, 'bunny').resources.ruler),
-    ...Object.keys(garment.sources).map((id) => garmentModel(garment, id, 'bunny').resources.ruler).filter(Boolean),
+    ...Object.keys(body.views).map((id) => measurementModel(body, id, 'bonnie').resources.ruler),
+    ...Object.keys(garment.sources).map((id) => garmentModel(garment, id, 'bonnie').resources.ruler).filter(Boolean),
   ].map((url) => resolve(root, `docs/public${url}`)).sort()
   assert.equal(new Set(expected).size, expected.length, 'ruler resources must be unique')
   assert.deepEqual(paths.filter((path) => path.endsWith('-ruler-latest.svg')).sort(), expected, 'ruler SVGs must cover every catalog ruler resource')
@@ -402,7 +393,7 @@ test('Bunny SVG text and accessible names contain no process commentary', () => 
 })
 
 test('every layer card and layer overview render no process commentary', () => {
-  const path = 'docs/.vitepress/data/bunny/layers.json'
+  const path = 'docs/.vitepress/data/bonnie/layers.json'
   const layers = json(path).items
   assert.ok(layers.find(({ layer }) => layer === 9))
   const entries = layers.flatMap((layer, i) => [
@@ -413,7 +404,7 @@ test('every layer card and layer overview render no process commentary', () => {
 })
 
 test('home hero, color chips, captions, chapters and latest entries render no process commentary', () => {
-  const path = 'docs/.vitepress/data/bunny/home.json'
+  const path = 'docs/.vitepress/data/bonnie/home.json'
   const home = json(path)
   const entries = fields(home, ['chipNote', 'status', 'updated'], `${path}#$`, (value) => value)
   for (const [collection, names] of Object.entries({

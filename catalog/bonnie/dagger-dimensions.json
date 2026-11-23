@@ -1,0 +1,2043 @@
+{
+  "schemaVersion": 1,
+  "status": "final4k-native-projection-observations; fixed design targets unchanged",
+  "designUnit": {
+    "H0Px": 3097,
+    "h0Px": 470,
+    "definition": "当前正面身体基准的可见发冠至赤脚地面；含发量，不含护目镜和鞋底。",
+    "bodyMeasurementRecord": {
+      "path": "catalog/bonnie/body-measurements.json",
+      "sha256": "c073a8d324546e887aa533d698555471d2796341cdd00d1e7f084d079d72f177"
+    },
+    "bodyOriginal": "/media/bonnie/body-front-latest.png",
+    "bodySourceSHA256": "69a04fa0bf7091b1524346d47041e41bf39576ce9648a6d24f7058670af254ab",
+    "centimetres": null
+  },
+  "definitions": {
+    "total": "刀尖至柄尾端点的直线距离；分段接缝向该长轴投影。",
+    "segments": "Each central seam station projected onto straight tip-to-pommel axis; five non-overlapping axial segments sum to total. Blade/guard contact seam is blade root. Curved guard wing envelope measured separately. Grip means visible exterior part, not proven functional grip.",
+    "frontWidth": "刀身与握柄宽取垂直长轴的同一截面；护手总横向跨度单列为翼形外包宽，不混用两种量法。",
+    "thickness": "正面母版只显示两把匕首的正面，没有窄侧视；刀身侧厚和握柄侧深均未测，值为 null。",
+    "measurementUncertainty": "正面母版的端点估读约±2px、接缝约±4px、距离约±4px、段长约±8px、截宽约±3px。携行背面图的整刀端点估读约±4原生px，局部刀身截线边缘约±3px；配准锚点分别记录容差。两者各按自己的原生像素计，均为图面估读范围，不是统计置信区间。",
+    "bodyAlignment": "H0 取正面身体图的可见发冠至赤脚地面，人物画布大小、护目镜高度和鞋底均不能代替 H0。人物图须有身体配准才能比较图面读数与设计目标。"
+  },
+  "designTargets": {
+    "rootTotalDecision": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-length-angle-decision.json",
+      "sha256": "4d401d922c4e653824cb28f439e7fb109a00e79f76f46c56bbe7131fc1455d59"
+    },
+    "values": {
+      "dark": {
+        "characterSide": "right",
+        "total_H0": 0.2246,
+        "totalReferencePx": 695.5862,
+        "partsAndWidths_H0": {
+          "blade_axial": 0.161244832,
+          "guard_center_band": 0.010989678,
+          "red_collar": 0.00462676,
+          "visible_grip": 0.032099831999999995,
+          "pommel_axial": 0.015638898,
+          "blade_max_front_width": 0.022713824251481034,
+          "grip_max_front_width": 0.01977701473021295,
+          "guard_transverse_envelope": 0.038377807279713946
+        },
+        "blade_max_edge_thickness": null,
+        "grip_max_edge_depth": null
+      },
+      "ivory": {
+        "characterSide": "left",
+        "total_H0": 0.2633,
+        "totalReferencePx": 815.4400999999999,
+        "partsAndWidths_H0": {
+          "blade_axial": 0.195089502,
+          "guard_center_band": 0.011471981,
+          "red_collar": 0.004960571999999999,
+          "visible_grip": 0.035034698,
+          "pommel_axial": 0.016743246999999996,
+          "blade_max_front_width": 0.027419208411718413,
+          "grip_max_front_width": 0.02272804489032669,
+          "guard_transverse_envelope": 0.04220599050071499
+        },
+        "blade_max_edge_thickness": null,
+        "grip_max_edge_depth": null
+      }
+    },
+    "meaning": "整长设计目标为墨黑 0.2246 H0、骨白 0.2633 H0；细分按双匕首尺寸母版的可见轴向段与截宽占整长比例，分别归一到每把刀的整长。",
+    "detailRevision": "v2-native-master-revision"
+  },
+  "sourceObservations": [
+    {
+      "status": "accepted-current-front-master",
+      "source": {
+        "path": ".release/bonnie/daggers-scale-board-latest.png",
+        "sha256": "d48aced552fd745c2574a316507df2c44a5c42282ec2e45e29c77e9cf079e790",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      "resources": {
+        "original": "/media/bonnie/daggers-scale-board-latest.png",
+        "web": "/characters/bonnie/daggers-scale-board-latest.webp"
+      },
+      "measurementRecord": {
+        "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/dagger-master-v4-observed.json",
+        "sha256": "a3917018be1c61eb31320b6352ec15f51d565bf7744c3bd69aaec0a9070ed51d"
+      },
+      "bodyScale": null,
+      "method": "Same tip-to-pommel axis and seam-midpoint convention as observed-current-dagger-proportions.json. Width is same-station perpendicular section; guard is total transverse envelope. No curved arc length.",
+      "uncertainty": {
+        "endpoints_px": 2,
+        "seams_px": 4,
+        "length_px_approx": 4,
+        "segment_px_approx": 8,
+        "width_px_approx": 3
+      },
+      "observations": [
+        {
+          "name": "dark",
+          "tip": [
+            167,
+            204
+          ],
+          "pommel_end": [
+            227,
+            976
+          ],
+          "length_px": 774.3280958353506,
+          "axis_unit": [
+            0.07748653358015065,
+            0.9969933987312716
+          ],
+          "normal_unit": [
+            0.9969933987312716,
+            -0.07748653358015065
+          ],
+          "stations": {
+            "blade_guard_seam": {
+              "point": [
+                226,
+                757
+              ],
+              "axial_px": 555.909054979622
+            },
+            "guard_collar_seam": {
+              "point": [
+                226,
+                795
+              ],
+              "axial_px": 593.7948041314104
+            },
+            "collar_grip_seam": {
+              "point": [
+                226,
+                811
+              ],
+              "axial_px": 609.7466985111107
+            },
+            "grip_pommel_seam": {
+              "point": [
+                226,
+                922
+              ],
+              "axial_px": 720.4129657702819
+            }
+          },
+          "segments": {
+            "blade": {
+              "px": 555.91,
+              "fraction_of_L": 0.71792
+            },
+            "guard_center_band": {
+              "px": 37.89,
+              "fraction_of_L": 0.04893
+            },
+            "red_collar": {
+              "px": 15.95,
+              "fraction_of_L": 0.0206
+            },
+            "visible_grip": {
+              "px": 110.67,
+              "fraction_of_L": 0.14292
+            },
+            "pommel": {
+              "px": 53.92,
+              "fraction_of_L": 0.06963
+            }
+          },
+          "widths": {
+            "blade": {
+              "roi": [
+                165,
+                360,
+                270,
+                745
+              ],
+              "threshold_sensitivity": {
+                "180": {
+                  "width_px": 78,
+                  "fraction_of_L": 0.10113011688103755,
+                  "axis_station_px": 461,
+                  "endpoints": [
+                    [
+                      191.0,
+                      664.5
+                    ],
+                    [
+                      269.0,
+                      658.5
+                    ]
+                  ]
+                },
+                "210": {
+                  "width_px": 78,
+                  "fraction_of_L": 0.10113011688103755,
+                  "axis_station_px": 456,
+                  "endpoints": [
+                    [
+                      191.0,
+                      659.5
+                    ],
+                    [
+                      269.0,
+                      653.4
+                    ]
+                  ]
+                },
+                "230": {
+                  "width_px": 78,
+                  "fraction_of_L": 0.10113011688103755,
+                  "axis_station_px": 456,
+                  "endpoints": [
+                    [
+                      191.0,
+                      659.5
+                    ],
+                    [
+                      269.0,
+                      653.4
+                    ]
+                  ]
+                }
+              }
+            },
+            "grip": {
+              "roi": [
+                185,
+                815,
+                268,
+                918
+              ],
+              "threshold_sensitivity": {
+                "180": {
+                  "width_px": 68,
+                  "fraction_of_L": 0.08805438437316541,
+                  "axis_station_px": 635,
+                  "endpoints": [
+                    [
+                      194.0,
+                      838.8
+                    ],
+                    [
+                      262.0,
+                      833.5
+                    ]
+                  ]
+                },
+                "210": {
+                  "width_px": 68,
+                  "fraction_of_L": 0.08805438437316541,
+                  "axis_station_px": 635,
+                  "endpoints": [
+                    [
+                      194.0,
+                      838.8
+                    ],
+                    [
+                      262.0,
+                      833.5
+                    ]
+                  ]
+                },
+                "230": {
+                  "width_px": 68,
+                  "fraction_of_L": 0.08805438437316541,
+                  "axis_station_px": 635,
+                  "endpoints": [
+                    [
+                      194.0,
+                      838.8
+                    ],
+                    [
+                      262.0,
+                      833.5
+                    ]
+                  ]
+                }
+              }
+            }
+          },
+          "guard_envelope": {
+            "points": [
+              [
+                151,
+                783
+              ],
+              [
+                282,
+                761
+              ]
+            ],
+            "normal_span_px": 132.3108389725599,
+            "fraction_of_L": 0.17087180445108613
+          }
+        },
+        {
+          "name": "ivory",
+          "tip": [
+            810,
+            141
+          ],
+          "pommel_end": [
+            701,
+            976
+          ],
+          "length_px": 842.0843188184898,
+          "axis_unit": [
+            -0.12944071937230173,
+            0.9915871621639628
+          ],
+          "normal_unit": [
+            0.9915871621639628,
+            0.12944071937230173
+          ],
+          "stations": {
+            "blade_guard_seam": {
+              "point": [
+                701,
+                756
+              ],
+              "axial_px": 623.9351431424179
+            },
+            "guard_collar_seam": {
+              "point": [
+                701,
+                793
+              ],
+              "axial_px": 660.6238681424846
+            },
+            "collar_grip_seam": {
+              "point": [
+                701,
+                809
+              ],
+              "axial_px": 676.489262737108
+            },
+            "grip_pommel_seam": {
+              "point": [
+                701,
+                922
+              ],
+              "axial_px": 788.5386120616358
+            }
+          },
+          "segments": {
+            "blade": {
+              "px": 623.94,
+              "fraction_of_L": 0.74094
+            },
+            "guard_center_band": {
+              "px": 36.69,
+              "fraction_of_L": 0.04357
+            },
+            "red_collar": {
+              "px": 15.87,
+              "fraction_of_L": 0.01884
+            },
+            "visible_grip": {
+              "px": 112.05,
+              "fraction_of_L": 0.13306
+            },
+            "pommel": {
+              "px": 53.55,
+              "fraction_of_L": 0.06359
+            }
+          },
+          "widths": {
+            "blade": {
+              "roi": [
+                638,
+                380,
+                750,
+                745
+              ],
+              "threshold_sensitivity": {
+                "180": {
+                  "width_px": 87,
+                  "fraction_of_L": 0.10295921907302999,
+                  "axis_station_px": 282,
+                  "endpoints": [
+                    [
+                      659.0,
+                      405.7
+                    ],
+                    [
+                      745.0,
+                      416.9
+                    ]
+                  ]
+                },
+                "210": {
+                  "width_px": 88,
+                  "fraction_of_L": 0.1041367581151478,
+                  "axis_station_px": 286,
+                  "endpoints": [
+                    [
+                      658.1,
+                      409.6
+                    ],
+                    [
+                      745.0,
+                      420.9
+                    ]
+                  ]
+                },
+                "230": {
+                  "width_px": 88,
+                  "fraction_of_L": 0.10413675811514782,
+                  "axis_station_px": 287,
+                  "endpoints": [
+                    [
+                      658.1,
+                      410.6
+                    ],
+                    [
+                      745.0,
+                      422.0
+                    ]
+                  ]
+                }
+              }
+            },
+            "grip": {
+              "roi": [
+                655,
+                813,
+                745,
+                918
+              ],
+              "threshold_sensitivity": {
+                "180": {
+                  "width_px": 73,
+                  "fraction_of_L": 0.08631995780602618,
+                  "axis_station_px": 726,
+                  "endpoints": [
+                    [
+                      664.0,
+                      854.1
+                    ],
+                    [
+                      736.1,
+                      863.5
+                    ]
+                  ]
+                },
+                "210": {
+                  "width_px": 73,
+                  "fraction_of_L": 0.08631995780602618,
+                  "axis_station_px": 726,
+                  "endpoints": [
+                    [
+                      664.0,
+                      854.1
+                    ],
+                    [
+                      736.1,
+                      863.5
+                    ]
+                  ]
+                },
+                "230": {
+                  "width_px": 73,
+                  "fraction_of_L": 0.08631995780602618,
+                  "axis_station_px": 726,
+                  "endpoints": [
+                    [
+                      664.0,
+                      854.1
+                    ],
+                    [
+                      736.1,
+                      863.5
+                    ]
+                  ]
+                }
+              }
+            }
+          },
+          "guard_envelope": {
+            "points": [
+              [
+                619,
+                783
+              ],
+              [
+                758,
+                761
+              ]
+            ],
+            "normal_span_px": 134.9829197146002,
+            "fraction_of_L": 0.16029620395258257
+          }
+        }
+      ]
+    }
+  ],
+  "referenceBasis": {
+    "officialPage": "https://tamashiiweb.com/item/14790/",
+    "projectionAnalysis": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/sunraku04-projection-scale-analysis.json",
+      "sha256": "1a6922eb22b1233f0de646167b445e62ff80003bdc320530d6ae0bea51b8e1fe"
+    },
+    "meaning": "照片投影仅启发尺寸方向；Bunny 的整长设计目标为墨黑 0.2246 H0、骨白 0.2633 H0，不是原作武器真实长度。"
+  },
+  "carryingDesign": {
+    "status": "final4k-artwork-native-observations",
+    "mode": "rear-trouser-belt-leather-tabs-with-blade-slits-and-snap-straps",
+    "right": "dark dagger",
+    "left": "ivory dagger",
+    "definition": "设计要求：挂片上沿翻过皮带，在皮带下沿缝死；片上开一条与刀身垂直的窄口，长度正好等于刀身宽度，限制刀转动，使刀尖至柄尾端点的直线停在相对水平向外上方 28°；握柄方向另行读取，角度更陡。刀身从正面穿过窄口，到挂片后面贴着短裤，全部露在外面；护手卡在窄口，刀的重量压在护手上；按扣带压住刀柄根部，防止跑跳时刀向上脱出；取刀时先打开按扣，再沿握柄方向向外上方抽出。",
+    "visibleAppearance": "图面可见：两把匕首不带鞘，挂在背后的裤腰皮带上；后中裤袢两侧各有一片黑色皮挂片，每把握柄在红领上方各绕一条黑短带，各有一颗圆形银按扣。两把刀柄朝上、朝外，墨黑匕首在角色右侧，柄尾朝角色右上方；骨白匕首在角色左侧，柄尾朝角色左上方；裸露刀身向对侧延伸，在后腰浅交叉成 X，交叉处骨白在外。",
+    "newMountMeasurements": {
+      "record": {
+        "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-daggers-back-native-observations-corrected.json",
+        "sha256": "95be7b58dcf6fb8ade6444d52fd32a5f598b3a2080b0b4f30ffdeb6a2965b0ab"
+      },
+      "evidence": [
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-chord-endpoints-native.png",
+          "sha256": "973e1d0bdea24f2edd81eea2266fc3ab9c889711c4949bc20209309c665b0c48",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            780,
+            1140,
+            1620,
+            1610
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-grip-tab-snap-native-corrected.png",
+          "sha256": "b78591d4bb3c89f0f6b3fb160b9e9816becc9789e8dcc5db3a85a22cdb24ceda",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            820,
+            1145,
+            1510,
+            1380
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-local-blade-sections-native.png",
+          "sha256": "3672496b2b6556f5bddbebe638e1299dc829738c26d60e84292b62efacd6fabb",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            860,
+            1320,
+            1470,
+            1560
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-source-head-native.png",
+          "sha256": "79c1b3359e6ef8f26fffc1d10aa22788b7861ccce3b92bfd4bd052d0adc43fa0",
+          "source": {
+            "path": ".release/bonnie/body-back-latest.png",
+            "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            1040,
+            70,
+            1340,
+            630
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-source-knee-native.png",
+          "sha256": "2e871242cda025a22b75e479b94776816eb275c18d48a68beb1b343826e4cf08",
+          "source": {
+            "path": ".release/bonnie/body-back-latest.png",
+            "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            1220,
+            2140,
+            1390,
+            2290
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-target-head-native.png",
+          "sha256": "a0aa9d27435c2614ca6a8fc70fe287d5cdea01d0d3ad12cd7abec45363dde72a",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            1040,
+            70,
+            1340,
+            630
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-target-knee-native.png",
+          "sha256": "08e2bfb80c07313ee83a592a9fb2a5c5c2fefc88a0cf4f6540ca2f738b3496a8",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            1220,
+            2140,
+            1390,
+            2290
+          ],
+          "resampling": false
+        }
+      ],
+      "meaning": "Native back-image observations: the 28 degree target uses the tip-to-pommel-end chord above horizontal. Orange pommel mark to red collar defines a separate, steeper observed grip direction; construction grip angles are not owner-decided values."
+    },
+    "dynamicClearanceValidated": false,
+    "note": "正面腰旁露出两把柄尾，画面左侧臀旁露出骨白刀尖，中段被身体遮挡，不测完整刀长。角色右侧面在袖缘后可见黑色握柄块、红领和银色圆扣，上方露出骨白柄尾尖端与橙标；腰后可见窄刀身投影。遮挡和叠合不支持重建整刀长度或侧厚。T姿正面可见腰两侧柄尾与画面左侧骨白尖端；背面可见骨白在外的浅 X 交叉及挂片、按扣带；两侧面可见柄尾、固定带与窄刃投影。T姿仅记录可见性，不据此推整刀数值。人物背面两刀端点均可见，所列长度和角度是该图的二维估读，不是3D尺寸验收。",
+    "crossingAngleDegrees": 60.71775657025974,
+    "mountPositions": {
+      "ivory": {
+        "character_side": "left",
+        "image_side": "left in back view",
+        "tab_visible_region": [
+          1015,
+          1218,
+          1090,
+          1304
+        ],
+        "tab_visible_polygon": [
+          [
+            1005,
+            1229
+          ],
+          [
+            1104,
+            1228
+          ],
+          [
+            1108,
+            1234
+          ],
+          [
+            1108,
+            1292
+          ],
+          [
+            1087,
+            1321
+          ],
+          [
+            1066,
+            1307
+          ],
+          [
+            1045,
+            1250
+          ],
+          [
+            1002,
+            1263
+          ]
+        ],
+        "visible_contour_tolerance_px": 4,
+        "snap_center": [
+          1009,
+          1261
+        ],
+        "snap_center_tolerance_px": 3,
+        "strap_direction": "从画面右上银按扣斜向左下，跨过红领上方的黑握柄。",
+        "tab_position": "人物背面图中位于后中红色裤袢的画面左侧；挂片顶边约与黑皮带上沿齐平，局部略高，刀与护手遮住部分下缘。"
+      },
+      "dark": {
+        "character_side": "right",
+        "image_side": "right in back view",
+        "tab_visible_region": [
+          1246,
+          1218,
+          1338,
+          1308
+        ],
+        "tab_visible_polygon": [
+          [
+            1233,
+            1233
+          ],
+          [
+            1238,
+            1229
+          ],
+          [
+            1330,
+            1229
+          ],
+          [
+            1335,
+            1236
+          ],
+          [
+            1335,
+            1265
+          ],
+          [
+            1300,
+            1286
+          ],
+          [
+            1275,
+            1267
+          ],
+          [
+            1256,
+            1256
+          ],
+          [
+            1232,
+            1300
+          ]
+        ],
+        "visible_contour_tolerance_px": 4,
+        "snap_center": [
+          1318,
+          1264
+        ],
+        "snap_center_tolerance_px": 3,
+        "strap_direction": "从画面左上银按扣斜向右下，跨过红领上方的黑握柄。",
+        "tab_position": "人物背面图中位于后中红色裤袢的画面右侧；挂片顶边约与黑皮带上沿齐平，局部略高，刀与护手遮住部分下缘。"
+      }
+    },
+    "fixingStructure": {
+      "kind": "black-leather-belt-tab-with-blade-slit-and-snap-strap",
+      "source": {
+        "path": ".release/bonnie/daggers-mount-board-latest.png",
+        "sha256": "40355d3564c311f526ba3acbeffcf98b08b1471c03d79b7c79219d83099c09ab",
+        "width": 3520,
+        "height": 2352
+      },
+      "acceptanceRecord": {
+        "status": "final4k-artwork-native-observations; projection readings are not dimensional acceptance",
+        "manifest": {
+          "path": "/tmp/bunny_audit/redo/final4k/MANIFEST.json",
+          "sha256": "ab11390f1bb9c0ee5e514fb9af233e7e614d31d8b13acd8b5b13b285c8f2a7fa"
+        },
+        "reviewDate": "2026-11-02"
+      },
+      "resources": {
+        "original": "/media/bonnie/daggers-mount-board-latest.png",
+        "web": "/characters/bonnie/daggers-mount-board-latest.webp",
+        "page": "/characters/bonnie/weapon#dagger-waist-mount-structure"
+      },
+      "parts": [
+        "设计要求：挂片上沿翻过皮带，在皮带下沿缝死；图中未画出背面固定与皮带下沿缝线。",
+        "设计要求：窄口与刀身垂直，长度正好等于刀身宽度；刀身从正面穿过窄口，到挂片后面贴着短裤，全部露在外面；护手卡在窄口承重。图中护手与挂片重叠，未画出可独立辨认的穿刀窄口或抽刀动作。",
+        "设计要求：按扣带压住刀柄根部，防止跑跳时刀向上脱出；取刀时先打开按扣，再沿握柄方向向外上方抽出。",
+        "图面可见：每把握柄在红领上方各绕一条黑短带，各有一颗圆形银按扣。"
+      ],
+      "crossingOrder": "ivory outside dark",
+      "notWeaponComponentsBoard": true,
+      "notDimensionAuthority": true,
+      "visualObservationRecord": {
+        "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-mount-board-native-observations.json",
+        "sha256": "894fc15e2dbecaa2468ae42a7b999236884255f79c5b87748c196613257e37ec"
+      },
+      "observedStructure": [
+        {
+          "part": "后中裤袢两侧的两片黑色皮挂片",
+          "observation": "后中红色裤袢两侧各一片黑挂片，圆角顶端略高于黑皮带上沿。",
+          "limits": "图中未画出挂片背面与皮带下沿固定缝线，翻折和缝合路径为设计要求。"
+        },
+        {
+          "part": "护手与裸露刀身",
+          "observation": "护手与挂片下缘重叠；骨白刀身在外，覆盖交叉处的墨黑刀身。",
+          "limits": "没有可独立辨认的穿刀窄口，不能从重叠关系确认刀身穿入挂片背面；窄口尺寸与抽刀动作无法据图确定。"
+        },
+        {
+          "part": "握柄按扣带",
+          "observation": "每把握柄在红领上方各绕一条黑短带，各有一颗圆形银按扣。",
+          "limits": "遮挡的短带回路与材料厚度不测。"
+        }
+      ],
+      "layout": "single unlabelled enlarged rear-waist image; no cells or printed dimensions",
+      "limitations": [
+        "physical load",
+        "dynamic clearance",
+        "draw motion",
+        "3D collisions",
+        "concealed stitches",
+        "slit dimensions"
+      ],
+      "pixelObservations": {
+        "source": {
+          "path": ".release/bonnie/daggers-mount-board-latest.png",
+          "sha256": "40355d3564c311f526ba3acbeffcf98b08b1471c03d79b7c79219d83099c09ab",
+          "width": 3520,
+          "height": 2352
+        },
+        "method": "Native-pixel inspection of the single rear-waist close-up. Coordinates are in its own 3520 x 2352 canvas, not transferred from a figure or another board. Approximate visible contours, not complete hidden outlines.",
+        "coordinateTolerancePx": 6,
+        "snapCenterTolerancePx": 4,
+        "tabs": {
+          "ivory": {
+            "visibleRegion": [
+              1080,
+              776,
+              1438,
+              1070
+            ],
+            "top_y": 777,
+            "adjacent_belt_edges_at_x": 1480,
+            "belt_upper_y": 805,
+            "belt_lower_y": 959,
+            "snap_center": [
+              1135,
+              918
+            ],
+            "strapDirection": "从画面右上银按扣斜向左下，跨过红领上方的黑握柄。"
+          },
+          "dark": {
+            "visibleRegion": [
+              2027,
+              778,
+              2360,
+              1022
+            ],
+            "top_y": 779,
+            "adjacent_belt_edges_at_x": 2010,
+            "belt_upper_y": 804,
+            "belt_lower_y": 958,
+            "snap_center": [
+              2288,
+              935
+            ],
+            "strapDirection": "从画面左上银按扣斜向右下，跨过红领上方的黑握柄。"
+          }
+        },
+        "observations": [
+          "单幅无文字的后腰近景，未列尺寸。",
+          "后中红色裤袢两侧各一片黑挂片，圆角顶端略高于黑皮带上沿。",
+          "每把握柄在红领上方各绕一条黑短带，各一颗圆形银按扣。",
+          "骨白刀身在外，覆盖交叉处的墨黑刀身；两把裸刃向对侧伸出。",
+          "护手与挂片下缘重叠；没有可独立辨认的穿刀窄口，不能从重叠关系确认刀身穿入挂片背面。",
+          "未画出挂片背面、皮带下沿的固定缝线或抽刀动作；侧缘装饰线不等于背面固定证据。"
+        ],
+        "evidence": [
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-mount-left-native-grid.png",
+            "sha256": "e26049949e25451a659bcd2aa9b992753c50378d6792a0aae14a50c728b8b493",
+            "sourceCropBox": [
+              880,
+              700,
+              1500,
+              1180
+            ]
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-mount-right-native-grid.png",
+            "sha256": "be17d6ad5a0c24ec1b08dcb57aa119c2d186aa67d511533143b871ff6d9ae36c",
+            "sourceCropBox": [
+              1950,
+              720,
+              2450,
+              1190
+            ]
+          }
+        ]
+      }
+    },
+    "acceptedFigureSources": [
+      {
+        "role": "back",
+        "source": {
+          "path": ".release/bonnie/daggers-back-latest.png",
+          "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+          "width": 2352,
+          "height": 3520
+        },
+        "acceptanceRecord": {
+          "status": "final4k-artwork-native-observations; projection readings are not dimensional acceptance",
+          "manifest": {
+            "path": "/tmp/bunny_audit/redo/final4k/MANIFEST.json",
+            "sha256": "ab11390f1bb9c0ee5e514fb9af233e7e614d31d8b13acd8b5b13b285c8f2a7fa"
+          },
+          "reviewDate": "2026-11-22"
+        },
+        "measurementRecord": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-daggers-back-native-observations-corrected.json",
+          "sha256": "95be7b58dcf6fb8ade6444d52fd32a5f598b3a2080b0b4f30ffdeb6a2965b0ab"
+        },
+        "evidence": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-chord-endpoints-native.png",
+          "sha256": "973e1d0bdea24f2edd81eea2266fc3ab9c889711c4949bc20209309c665b0c48",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            780,
+            1140,
+            1620,
+            1610
+          ],
+          "resampling": false
+        },
+        "completeDarkWeaponLength": 733.5100544641498,
+        "completeIvoryWeaponLength": 806.4862057096823,
+        "observationScope": "Both tips and pommel endpoints are visible. Body-back registration, full chords, local blade sections and separate grip directions are recorded with tolerances. Length targets fall within the combined reading intervals; no physical dimensional acceptance is inferred."
+      },
+      {
+        "role": "front",
+        "source": {
+          "path": ".release/bonnie/daggers-front-latest.png",
+          "sha256": "407870ed7490ea97b1e8ad861b044371527b086eb0efb9acda46b83dc88e1938",
+          "width": 2352,
+          "height": 3520
+        },
+        "observationScope": "正面腰旁露出两把柄尾；画面左侧臀旁露出骨白刀尖，画面右侧短裤外缘另有极短尖端。刀身中段被身体遮挡，不据此测整刀长度。",
+        "evidence": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-front-visible-native-grid.png",
+          "sha256": "0fd441b7af5d46f6281e96f64f33adce0235ddc10030e84266acb42ff4afb9be",
+          "sourceCropBox": [
+            750,
+            1100,
+            1520,
+            1630
+          ]
+        },
+        "completeWeaponLength": null,
+        "H0": null,
+        "thickness": null,
+        "acceptanceRecord": {
+          "status": "final4k-artwork-native-observations; projection readings are not dimensional acceptance",
+          "manifest": {
+            "path": "/tmp/bunny_audit/redo/final4k/MANIFEST.json",
+            "sha256": "ab11390f1bb9c0ee5e514fb9af233e7e614d31d8b13acd8b5b13b285c8f2a7fa"
+          },
+          "reviewDate": "2026-11-22"
+        },
+        "measurementRecord": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-other-view-native-observations.json",
+          "sha256": "4e304b65e4f8edfe595c9128bbd1d00c79887f1b0c8871572fd608e71a72b7aa"
+        }
+      },
+      {
+        "role": "right-side",
+        "source": {
+          "path": ".release/bonnie/daggers-side-latest.png",
+          "sha256": "0d8ce117be08e28a7c475ce1dd0db793be063210282ac187a02445b176cfcf19",
+          "width": 2352,
+          "height": 3520
+        },
+        "observationScope": "角色右侧面在袖缘后露出黑色八角握柄、红领、黑皮固定带与一颗银色圆扣，上方可见橙点柄尾；腰后可见窄白刃投影。遮挡与叠合不支持重建两把完整整刀弦，也不据此测侧厚。",
+        "evidence": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-side-visible-native-grid.png",
+          "sha256": "31d3facf61d6c114119856443da71a3e4ac688b5e9d6162cee910bedb7e56586",
+          "sourceCropBox": [
+            860,
+            1100,
+            1150,
+            1610
+          ]
+        },
+        "completeWeaponLength": null,
+        "H0": null,
+        "thickness": null,
+        "acceptanceRecord": {
+          "status": "final4k-artwork-native-observations; projection readings are not dimensional acceptance",
+          "manifest": {
+            "path": "/tmp/bunny_audit/redo/final4k/MANIFEST.json",
+            "sha256": "ab11390f1bb9c0ee5e514fb9af233e7e614d31d8b13acd8b5b13b285c8f2a7fa"
+          },
+          "reviewDate": "2026-11-22"
+        },
+        "measurementRecord": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-other-view-native-observations.json",
+          "sha256": "4e304b65e4f8edfe595c9128bbd1d00c79887f1b0c8871572fd608e71a72b7aa"
+        }
+      },
+      {
+        "role": "tpose-front",
+        "source": {
+          "path": ".release/bonnie/daggers-tpose-front-latest.png",
+          "sha256": "32500fb4b160fe4ddd10703cc7dcaad2e52c216459473da4a39b969121c68343",
+          "width": 2880,
+          "height": 2880
+        },
+        "observationScope": "T姿正面两把柄尾从腰两侧朝外上方伸出，画面左侧臀旁露出骨白刀尖，刀身中段被身体遮挡。",
+        "evidence": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-tpose-front-visibility-grid.png",
+          "sha256": "89f6bc3d253b0f8802083fe4a06845791cf5119d3e2e0bbd0c30e0dc6e885660",
+          "sourceCropBox": [
+            1100,
+            1000,
+            1740,
+            1380
+          ]
+        },
+        "completeWeaponLength": null,
+        "H0": null,
+        "thickness": null,
+        "acceptanceRecord": {
+          "status": "final4k-artwork-native-observations; projection readings are not dimensional acceptance",
+          "manifest": {
+            "path": "/tmp/bunny_audit/redo/final4k/MANIFEST.json",
+            "sha256": "ab11390f1bb9c0ee5e514fb9af233e7e614d31d8b13acd8b5b13b285c8f2a7fa"
+          },
+          "reviewDate": "2026-11-22"
+        },
+        "measurementRecord": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-other-view-native-observations.json",
+          "sha256": "4e304b65e4f8edfe595c9128bbd1d00c79887f1b0c8871572fd608e71a72b7aa"
+        }
+      },
+      {
+        "role": "tpose-back",
+        "source": {
+          "path": ".release/bonnie/daggers-tpose-back-latest.png",
+          "sha256": "3969c48b2e3193a6edbe07cc3d498eae3433f8cf269218ccc399fa992363043c",
+          "width": 2880,
+          "height": 2880
+        },
+        "observationScope": "T姿背面可见两把裸刃及朝外上方的柄尾，骨白在外浅X交叉；后中裤袢两侧可见挂片和按扣带。",
+        "evidence": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-tpose-back-visibility-grid.png",
+          "sha256": "49f92d2b65851ef63077f008ddbd06d769cb4bf9f073f3ed9cf17ba43015422a",
+          "sourceCropBox": [
+            1140,
+            1000,
+            1760,
+            1380
+          ]
+        },
+        "completeWeaponLength": null,
+        "H0": null,
+        "thickness": null,
+        "acceptanceRecord": {
+          "status": "final4k-artwork-native-observations; projection readings are not dimensional acceptance",
+          "manifest": {
+            "path": "/tmp/bunny_audit/redo/final4k/MANIFEST.json",
+            "sha256": "ab11390f1bb9c0ee5e514fb9af233e7e614d31d8b13acd8b5b13b285c8f2a7fa"
+          },
+          "reviewDate": "2026-11-22"
+        },
+        "measurementRecord": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-other-view-native-observations.json",
+          "sha256": "4e304b65e4f8edfe595c9128bbd1d00c79887f1b0c8871572fd608e71a72b7aa"
+        }
+      },
+      {
+        "role": "tpose-right",
+        "source": {
+          "path": ".release/bonnie/daggers-tpose-right-latest.png",
+          "sha256": "b9d876fe5232aae35cfc3232d7050a2ada39cabd9fd89156b4aa24e680fcd67d",
+          "width": 2880,
+          "height": 2880
+        },
+        "observationScope": "T姿角色右侧面可见墨黑柄尾的橙标、黑握柄块与固定带，下方露出叠合的窄刃投影。",
+        "evidence": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-tpose-right-visibility-grid.png",
+          "sha256": "6e8f8afd10552d65619053c75f1e3a29b41ef2b010e89ceba11a6c830c5368d7",
+          "sourceCropBox": [
+            1210,
+            1020,
+            1400,
+            1400
+          ]
+        },
+        "completeWeaponLength": null,
+        "H0": null,
+        "thickness": null,
+        "acceptanceRecord": {
+          "status": "final4k-artwork-native-observations; projection readings are not dimensional acceptance",
+          "manifest": {
+            "path": "/tmp/bunny_audit/redo/final4k/MANIFEST.json",
+            "sha256": "ab11390f1bb9c0ee5e514fb9af233e7e614d31d8b13acd8b5b13b285c8f2a7fa"
+          },
+          "reviewDate": "2026-11-22"
+        },
+        "measurementRecord": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-other-view-native-observations.json",
+          "sha256": "4e304b65e4f8edfe595c9128bbd1d00c79887f1b0c8871572fd608e71a72b7aa"
+        }
+      },
+      {
+        "role": "tpose-left",
+        "source": {
+          "path": ".release/bonnie/daggers-tpose-left-latest.png",
+          "sha256": "7bb51d28da81f47e41cd5cde3eaa1d6729511f542854600183442d640595e2b2",
+          "width": 2880,
+          "height": 2880
+        },
+        "observationScope": "T姿角色左侧面可见骨白柄尾的橙标、黑白握柄、黑固定带与红领，下方露出叠合的窄刃投影。",
+        "evidence": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-tpose-left-visibility-grid.png",
+          "sha256": "412f0cb551d78cf37fc59f8df9adf5cffc076ec687f707ce9a8d6e839d29f062",
+          "sourceCropBox": [
+            1450,
+            1000,
+            1660,
+            1390
+          ]
+        },
+        "completeWeaponLength": null,
+        "H0": null,
+        "thickness": null,
+        "acceptanceRecord": {
+          "status": "final4k-artwork-native-observations; projection readings are not dimensional acceptance",
+          "manifest": {
+            "path": "/tmp/bunny_audit/redo/final4k/MANIFEST.json",
+            "sha256": "ab11390f1bb9c0ee5e514fb9af233e7e614d31d8b13acd8b5b13b285c8f2a7fa"
+          },
+          "reviewDate": "2026-11-22"
+        },
+        "measurementRecord": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-other-view-native-observations.json",
+          "sha256": "4e304b65e4f8edfe595c9128bbd1d00c79887f1b0c8871572fd608e71a72b7aa"
+        }
+      }
+    ],
+    "crossingAngleDefinition": "Acute crossing angle of the two complete tip-to-pommel projected chords, not a physical 3D crossing angle."
+  },
+  "currentDimensions": {
+    "status": "accepted-source-defined-exterior-dimensions",
+    "source": {
+      "path": ".release/bonnie/daggers-scale-board-latest.png",
+      "sha256": "d48aced552fd745c2574a316507df2c44a5c42282ec2e45e29c77e9cf079e790"
+    },
+    "observedRecord": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/dagger-master-v4-observed.json",
+      "sha256": "a3917018be1c61eb31320b6352ec15f51d565bf7744c3bd69aaec0a9070ed51d"
+    },
+    "acceptanceRecord": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/dagger-master-v4-acceptance.json",
+      "sha256": "327521e3cfeece12b76dd2a7603c7f7b6ece1cd23f93c691eed46d1644848a2b"
+    },
+    "values": {
+      "dark": {
+        "total_H0": 0.2246,
+        "sourceLengthPx": 774.3280958353506,
+        "H0PerSourcePixel": 0.00029005792403503054,
+        "partsAndWidths_H0": {
+          "blade_axial": 0.161244832,
+          "guard_center_band": 0.010989678,
+          "red_collar": 0.00462676,
+          "visible_grip": 0.032099831999999995,
+          "pommel_axial": 0.015638898,
+          "blade_max_front_width": 0.022713824251481034,
+          "grip_max_front_width": 0.01977701473021295,
+          "guard_transverse_envelope": 0.038377807279713946
+        },
+        "conservativeIntervals_H0": {
+          "blade_axial": [
+            0.158108883205512,
+            0.16441589847849838
+          ],
+          "guard_center_band": [
+            0.008625275171128021,
+            0.013379875478672646
+          ],
+          "red_collar": [
+            0.002294109655753354,
+            0.006982959636395944
+          ],
+          "visible_grip": [
+            0.02962719979323231,
+            0.03459990897916938
+          ],
+          "pommel_axial": [
+            0.013251008225433212,
+            0.01805364762779277
+          ],
+          "blade_max_front_width": [
+            0.021642543922201458,
+            0.023616690210775428
+          ],
+          "grip_max_front_width": [
+            0.01875687139924126,
+            0.02070104944401303
+          ],
+          "guard_transverse_envelope": [
+            0.037314873494404634,
+            0.0394517798293218
+          ]
+        },
+        "blade_max_edge_thickness": null,
+        "grip_max_edge_depth": null,
+        "method": "Each dagger normalized by its own locked total length; no image pixels are scaled. Intervals propagate source endpoint/seam/width reading bounds and are not statistical confidence intervals."
+      },
+      "ivory": {
+        "total_H0": 0.2633,
+        "sourceLengthPx": 842.0843188184898,
+        "H0PerSourcePixel": 0.0003126765267039178,
+        "partsAndWidths_H0": {
+          "blade_axial": 0.195089502,
+          "guard_center_band": 0.011471981,
+          "red_collar": 0.004960571999999999,
+          "visible_grip": 0.035034698,
+          "pommel_axial": 0.016743246999999996,
+          "blade_max_front_width": 0.027419208411718413,
+          "grip_max_front_width": 0.02272804489032669,
+          "guard_transverse_envelope": 0.04220599050071499
+        },
+        "conservativeIntervals_H0": {
+          "blade_axial": [
+            0.1916794796840949,
+            0.19853587313812548
+          ],
+          "guard_center_band": [
+            0.008928279170270939,
+            0.014040206618575855
+          ],
+          "red_collar": [
+            0.00244913060543856,
+            0.007499210829836779
+          ],
+          "visible_grip": [
+            0.032380182909260764,
+            0.03771597235533747
+          ],
+          "pommel_axial": [
+            0.014175082474933471,
+            0.019337093698217588
+          ],
+          "blade_max_front_width": [
+            0.02645185533192854,
+            0.028589366799964263
+          ],
+          "grip_max_front_width": [
+            0.021783880861588212,
+            0.023876833810959168
+          ],
+          "guard_transverse_envelope": [
+            0.041072859983248756,
+            0.04334993740495303
+          ]
+        },
+        "blade_max_edge_thickness": null,
+        "grip_max_edge_depth": null,
+        "method": "Each dagger normalized by its own locked total length; no image pixels are scaled. Intervals propagate source endpoint/seam/width reading bounds and are not statistical confidence intervals."
+      }
+    },
+    "observedBlackToIvoryRatio": 0.9195374839918566,
+    "targetBlackToIvoryRatio": 0.8530193695404482,
+    "ratioRelativeDifference": 0.07797960612224326,
+    "thicknessObservation": null,
+    "meaning": "The current front master defines exterior part proportions. Fixed total lengths are design choices; blade thickness and grip depth are unmeasured."
+  },
+  "figureObservations": [
+    {
+      "status": "final4k-artwork-native-projection-observations; not dimensional acceptance",
+      "source": {
+        "path": ".release/bonnie/daggers-back-latest.png",
+        "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+        "width": 2352,
+        "height": 3520
+      },
+      "resources": {
+        "original": "/media/bonnie/daggers-back-latest.png",
+        "web": "/characters/bonnie/daggers-back-latest.webp",
+        "page": "/characters/bonnie/weapon#carry"
+      },
+      "measurementRecord": {
+        "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-daggers-back-native-observations-corrected.json",
+        "sha256": "95be7b58dcf6fb8ade6444d52fd32a5f598b3a2080b0b4f30ffdeb6a2965b0ab"
+      },
+      "artworkAcceptanceRecord": {
+        "status": "final4k-artwork-native-observations; projection readings are not dimensional acceptance",
+        "manifest": {
+          "path": "/tmp/bunny_audit/redo/final4k/MANIFEST.json",
+          "sha256": "ab11390f1bb9c0ee5e514fb9af233e7e614d31d8b13acd8b5b13b285c8f2a7fa"
+        },
+        "reviewDate": "2026-11-22"
+      },
+      "observations": {
+        "source": {
+          "path": ".release/bonnie/daggers-back-latest.png",
+          "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+          "width": 2352,
+          "height": 3520
+        },
+        "registration_source": {
+          "path": ".release/bonnie/body-back-latest.png",
+          "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
+          "width": 2352,
+          "height": 3520,
+          "canonical_H0": 3097,
+          "raw_back_crown_to_barefoot": 3089
+        },
+        "method": "Native-pixel outline and visible colour-region reading. Positive uniform scale plus translation fitted body-back to daggers-back from three explicitly reread visible anchors; no rotation or axis stretch. Hair and knee marks are drawing proxies, not anatomical joints.",
+        "anchors": [
+          {
+            "name": "right visible hair-crown peak; not equipment",
+            "source": [
+              1208,
+              102
+            ],
+            "target": [
+              1206,
+              104
+            ],
+            "sourceTolerancePx": 4,
+            "targetTolerancePx": 4,
+            "region": "head"
+          },
+          {
+            "name": "central lowest occipital hair-tip outline; not a neck bone",
+            "source": [
+              1174,
+              602
+            ],
+            "target": [
+              1173,
+              595
+            ],
+            "sourceTolerancePx": 8,
+            "targetTolerancePx": 8,
+            "region": "head"
+          },
+          {
+            "name": "upper apex of inner right-knee shadow; not a joint centre",
+            "source": [
+              1305,
+              2198
+            ],
+            "target": [
+              1300,
+              2199
+            ],
+            "sourceTolerancePx": 16,
+            "targetTolerancePx": 16,
+            "region": "leg"
+          }
+        ],
+        "fit": {
+          "scale": 1.0007374457583222,
+          "translation_px": [
+            -3.572987503644754,
+            -2.04668919688379
+          ],
+          "residual_vectors_px": [
+            [
+              0.6821530275915393,
+              3.971469729534917
+            ],
+            [
+              1.7072261833743596,
+              -5.397253149626181
+            ],
+            [
+              -2.3893792109656715,
+              1.4257834200916477
+            ]
+          ],
+          "residuals_px": [
+            4.029628340885106,
+            5.660827042257051,
+            2.7824434180775666
+          ],
+          "rms_residual_px": 4.321452639364697,
+          "H0_proxy_px": 3099.2838695135238
+        },
+        "sensitivity_range_H0_px": [
+          3027.6206899119134,
+          3170.8524254195295
+        ],
+        "sensitivity_semantics": "4096 source/target x/y tolerance-box corner fits, all three anchors included. Sensitivity envelope, not a statistical confidence interval.",
+        "weapons": {
+          "dark": {
+            "pommel": [
+              1474,
+              1185
+            ],
+            "tip": [
+              843,
+              1559
+            ],
+            "chord_px": 733.5100544641498,
+            "full_length_px": 733.5100544641498,
+            "L_over_H0_proxy": 0.23667081988823582,
+            "nominal": 0.2246,
+            "relative_deviation_percent": 5.374363262794224,
+            "endpoint_tolerance_px": 4,
+            "chord_length_tolerance_corner_range_px": [
+              722.5544962146454,
+              744.4763260171542
+            ],
+            "axis_angle_above_horizontal_degrees": 30.655645653883496,
+            "axis_angle_tolerance_corner_range_degrees": [
+              29.80278504631769,
+              31.515048356861186
+            ],
+            "axis_definition": "Straight visible tip-to-pommel-end chord above horizontal; this is the 28 degree design-target axis. It is separate from the steeper grip direction.",
+            "target_angle_degrees": 28,
+            "visibility": "Both terminal vertices visible in this native back image.",
+            "reading_kind": "图面估读",
+            "visible_blade_axis": {
+              "sections": [
+                [
+                  [
+                    960,
+                    1445
+                  ],
+                  [
+                    960,
+                    1528
+                  ]
+                ],
+                [
+                  [
+                    1080,
+                    1385
+                  ],
+                  [
+                    1080,
+                    1468
+                  ]
+                ]
+              ],
+              "centerline_points": [
+                [
+                  960,
+                  1486.5
+                ],
+                [
+                  1080,
+                  1426.5
+                ]
+              ],
+              "angle_above_horizontal_degrees": 26.56505117707799,
+              "section_edge_tolerance_px": 3,
+              "angle_tolerance_range_degrees": [
+                24.22774531795417,
+                28.810793742973058
+              ],
+              "method": "Midpoints of two fully visible vertical sections at the specified native x coordinates; y contour centres approximately +/-3 pixels.",
+              "whole_blade_axis": null,
+              "whole_blade_axis_limit": "Curved outline and partly covered root do not establish one unique straight whole-blade centreline."
+            },
+            "grip_direction": {
+              "pommel_mark_center": [
+                1454,
+                1197
+              ],
+              "red_collar_center": [
+                1345,
+                1269
+              ],
+              "endpointTolerancePx": 3,
+              "angle_degrees": 33.44677480771494,
+              "angle_tolerance_range_degrees": [
+                29.85207626918268,
+                37.135975204500454
+              ],
+              "definition": "Centre of visible orange pommel mark to centre of red collar, independently read in native pixels.",
+              "method": "Visible colour regions and collar outline centre; +/-3 pixels per x/y centre coordinate; all endpoint-box corners enumerated.",
+              "target_degrees": null,
+              "target_comparison": "Observed grip direction is distinct from the 28 degree chord target; no owner-decided grip angle is asserted."
+            },
+            "length_fraction_registration_sensitivity_range": [
+              0.23132897910475933,
+              0.24227277112625717
+            ],
+            "length_fraction_combined_tolerance_range": [
+              0.22787389612401956,
+              0.24589484689999733
+            ],
+            "length_fraction_display": "0.237 H0"
+          },
+          "ivory": {
+            "pommel": [
+              842,
+              1173
+            ],
+            "tip": [
+              1540,
+              1577
+            ],
+            "chord_px": 806.4862057096823,
+            "full_length_px": 806.4862057096823,
+            "L_over_H0_proxy": 0.26021695322676963,
+            "nominal": 0.2633,
+            "relative_deviation_percent": -1.1709254740715334,
+            "endpoint_tolerance_px": 4,
+            "chord_length_tolerance_corner_range_px": [
+              795.560179998974,
+              817.4227792274937
+            ],
+            "axis_angle_above_horizontal_degrees": 30.06211091637624,
+            "axis_angle_tolerance_corner_range_degrees": [
+              29.28835088284318,
+              30.84148659494624
+            ],
+            "axis_definition": "Straight visible tip-to-pommel-end chord above horizontal; this is the 28 degree design-target axis. It is separate from the steeper grip direction.",
+            "target_angle_degrees": 28,
+            "visibility": "Both terminal vertices visible in this native back image.",
+            "reading_kind": "图面估读",
+            "visible_blade_axis": {
+              "sections": [
+                [
+                  [
+                    1280,
+                    1410
+                  ],
+                  [
+                    1280,
+                    1478
+                  ]
+                ],
+                [
+                  [
+                    1420,
+                    1488
+                  ],
+                  [
+                    1420,
+                    1546
+                  ]
+                ]
+              ],
+              "centerline_points": [
+                [
+                  1280,
+                  1444.0
+                ],
+                [
+                  1420,
+                  1517.0
+                ]
+              ],
+              "angle_above_horizontal_degrees": 27.538823349575534,
+              "section_edge_tolerance_px": 3,
+              "angle_tolerance_range_degrees": [
+                25.574444772100115,
+                29.435416361392637
+              ],
+              "method": "Midpoints of two fully visible vertical sections at the specified native x coordinates; y contour centres approximately +/-3 pixels.",
+              "whole_blade_axis": null,
+              "whole_blade_axis_limit": "Curved outline and partly covered root do not establish one unique straight whole-blade centreline."
+            },
+            "grip_direction": {
+              "pommel_mark_center": [
+                860,
+                1184
+              ],
+              "red_collar_center": [
+                974,
+                1268
+              ],
+              "endpointTolerancePx": 3,
+              "angle_degrees": 36.384351815835885,
+              "angle_tolerance_range_degrees": [
+                33.02386755579665,
+                39.80557109226519
+              ],
+              "definition": "Centre of visible orange pommel mark to centre of red collar, independently read in native pixels.",
+              "method": "Visible colour regions and collar outline centre; +/-3 pixels per x/y centre coordinate; all endpoint-box corners enumerated.",
+              "target_degrees": null,
+              "target_comparison": "Observed grip direction is distinct from the 28 degree chord target; no owner-decided grip angle is asserted."
+            },
+            "length_fraction_registration_sensitivity_range": [
+              0.2543436582681635,
+              0.26637623675809485
+            ],
+            "length_fraction_combined_tolerance_range": [
+              0.2508978890412142,
+              0.26998850349753556
+            ],
+            "length_fraction_display": "0.260 H0"
+          }
+        },
+        "full_dark_ivory_ratio": 0.9095134538831748,
+        "crossing_order": "ivory outside dark: ivory blade edges are continuous across the dark blade",
+        "crossing_region_approx": [
+          1184,
+          1391
+        ],
+        "crossing_region_tolerance_px": 10,
+        "crossing_angle_degrees": 60.71775657025974,
+        "crossing_angle_tolerance_range_degrees": [
+          59.09113592916087,
+          62.356534951807426
+        ],
+        "crossing_angle_definition": "Acute angle between full weapon chords, not local blade tangents or a three-dimensional angle.",
+        "mount_positions": {
+          "ivory": {
+            "character_side": "left",
+            "image_side": "left in back view",
+            "tab_visible_region": [
+              1015,
+              1218,
+              1090,
+              1304
+            ],
+            "tab_visible_polygon": [
+              [
+                1005,
+                1229
+              ],
+              [
+                1104,
+                1228
+              ],
+              [
+                1108,
+                1234
+              ],
+              [
+                1108,
+                1292
+              ],
+              [
+                1087,
+                1321
+              ],
+              [
+                1066,
+                1307
+              ],
+              [
+                1045,
+                1250
+              ],
+              [
+                1002,
+                1263
+              ]
+            ],
+            "visible_contour_tolerance_px": 4,
+            "snap_center": [
+              1009,
+              1261
+            ],
+            "snap_center_tolerance_px": 3,
+            "strap_direction": "从画面右上银按扣斜向左下，跨过红领上方的黑握柄。",
+            "tab_position": "人物背面图中位于后中红色裤袢的画面左侧；挂片顶边约与黑皮带上沿齐平，局部略高，刀与护手遮住部分下缘。"
+          },
+          "dark": {
+            "character_side": "right",
+            "image_side": "right in back view",
+            "tab_visible_region": [
+              1246,
+              1218,
+              1338,
+              1308
+            ],
+            "tab_visible_polygon": [
+              [
+                1233,
+                1233
+              ],
+              [
+                1238,
+                1229
+              ],
+              [
+                1330,
+                1229
+              ],
+              [
+                1335,
+                1236
+              ],
+              [
+                1335,
+                1265
+              ],
+              [
+                1300,
+                1286
+              ],
+              [
+                1275,
+                1267
+              ],
+              [
+                1256,
+                1256
+              ],
+              [
+                1232,
+                1300
+              ]
+            ],
+            "visible_contour_tolerance_px": 4,
+            "snap_center": [
+              1318,
+              1264
+            ],
+            "snap_center_tolerance_px": 3,
+            "strap_direction": "从画面左上银按扣斜向右下，跨过红领上方的黑握柄。",
+            "tab_position": "人物背面图中位于后中红色裤袢的画面右侧；挂片顶边约与黑皮带上沿齐平，局部略高，刀与护手遮住部分下缘。"
+          }
+        },
+        "mount_position_semantics": "Approximate visible regions only; polygons trace observable fragments/envelopes, not concealed complete tab shapes.",
+        "back_tab_slit_observation": "黑挂片与刀根、护手相叠，局部刀根被黑挂片遮挡；图中没有可独立辨认、与刀身垂直的窄口轮廓。可见遮挡不能证明完整穿入路径或窄口尺寸。",
+        "master_unchanged": true,
+        "physical_dimensions": "not inferred",
+        "evidence": [
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-chord-endpoints-native.png",
+            "sha256": "973e1d0bdea24f2edd81eea2266fc3ab9c889711c4949bc20209309c665b0c48",
+            "source": {
+              "path": ".release/bonnie/daggers-back-latest.png",
+              "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+              "width": 2352,
+              "height": 3520
+            },
+            "sourceCropBox": [
+              780,
+              1140,
+              1620,
+              1610
+            ],
+            "resampling": false
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-grip-tab-snap-native-corrected.png",
+            "sha256": "b78591d4bb3c89f0f6b3fb160b9e9816becc9789e8dcc5db3a85a22cdb24ceda",
+            "source": {
+              "path": ".release/bonnie/daggers-back-latest.png",
+              "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+              "width": 2352,
+              "height": 3520
+            },
+            "sourceCropBox": [
+              820,
+              1145,
+              1510,
+              1380
+            ],
+            "resampling": false
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-local-blade-sections-native.png",
+            "sha256": "3672496b2b6556f5bddbebe638e1299dc829738c26d60e84292b62efacd6fabb",
+            "source": {
+              "path": ".release/bonnie/daggers-back-latest.png",
+              "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+              "width": 2352,
+              "height": 3520
+            },
+            "sourceCropBox": [
+              860,
+              1320,
+              1470,
+              1560
+            ],
+            "resampling": false
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-source-head-native.png",
+            "sha256": "79c1b3359e6ef8f26fffc1d10aa22788b7861ccce3b92bfd4bd052d0adc43fa0",
+            "source": {
+              "path": ".release/bonnie/body-back-latest.png",
+              "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
+              "width": 2352,
+              "height": 3520
+            },
+            "sourceCropBox": [
+              1040,
+              70,
+              1340,
+              630
+            ],
+            "resampling": false
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-source-knee-native.png",
+            "sha256": "2e871242cda025a22b75e479b94776816eb275c18d48a68beb1b343826e4cf08",
+            "source": {
+              "path": ".release/bonnie/body-back-latest.png",
+              "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
+              "width": 2352,
+              "height": 3520
+            },
+            "sourceCropBox": [
+              1220,
+              2140,
+              1390,
+              2290
+            ],
+            "resampling": false
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-target-head-native.png",
+            "sha256": "a0aa9d27435c2614ca6a8fc70fe287d5cdea01d0d3ad12cd7abec45363dde72a",
+            "source": {
+              "path": ".release/bonnie/daggers-back-latest.png",
+              "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+              "width": 2352,
+              "height": 3520
+            },
+            "sourceCropBox": [
+              1040,
+              70,
+              1340,
+              630
+            ],
+            "resampling": false
+          },
+          {
+            "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-target-knee-native.png",
+            "sha256": "08e2bfb80c07313ee83a592a9fb2a5c5c2fefc88a0cf4f6540ca2f738b3496a8",
+            "source": {
+              "path": ".release/bonnie/daggers-back-latest.png",
+              "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+              "width": 2352,
+              "height": 3520
+            },
+            "sourceCropBox": [
+              1220,
+              2140,
+              1390,
+              2290
+            ],
+            "resampling": false
+          }
+        ],
+        "supersedes": {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-daggers-back-native-observations.json",
+          "sha256": "2bb9909df1a4b11069152ae719da81f56e06202754b10daa56053994c95fa38e",
+          "reason": "Marked-evidence QA found the preliminary snap points at the upper silver edges. Silver-region centroids and full circular outlines put the centres at (1010,1267) and (1314,1279), +/-3px. Every earlier evidence file is retained without overwriting."
+        },
+        "snap_centre_reading": {
+          "method": "Native silver-region segmentation in isolated snap ROIs, visually checked against the circular outlines; threshold sensitivity 140/180/210. These locate colour regions, not hidden attachment centres.",
+          "ivory": {
+            "roi": [
+              991,
+              1244,
+              1026,
+              1285
+            ],
+            "bright_region_bbox": [
+              1002,
+              1260,
+              1017,
+              1275
+            ],
+            "centroid_threshold_140": [
+              1009.41,
+              1267.31
+            ],
+            "centroid_threshold_180": [
+              1009.5,
+              1267.11
+            ],
+            "chosen_center": [
+              1010,
+              1267
+            ],
+            "tolerance_px": 3
+          },
+          "dark": {
+            "roi": [
+              1296,
+              1252,
+              1334,
+              1297
+            ],
+            "bright_region_bbox": [
+              1306,
+              1271,
+              1322,
+              1286
+            ],
+            "centroid_threshold_140": [
+              1313.91,
+              1278.5
+            ],
+            "centroid_threshold_180": [
+              1313.77,
+              1278.51
+            ],
+            "chosen_center": [
+              1314,
+              1279
+            ],
+            "tolerance_px": 3
+          }
+        }
+      },
+      "qaEvidence": [
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-chord-endpoints-native.png",
+          "sha256": "973e1d0bdea24f2edd81eea2266fc3ab9c889711c4949bc20209309c665b0c48",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            780,
+            1140,
+            1620,
+            1610
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-grip-tab-snap-native-corrected.png",
+          "sha256": "b78591d4bb3c89f0f6b3fb160b9e9816becc9789e8dcc5db3a85a22cdb24ceda",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            820,
+            1145,
+            1510,
+            1380
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-back-local-blade-sections-native.png",
+          "sha256": "3672496b2b6556f5bddbebe638e1299dc829738c26d60e84292b62efacd6fabb",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            860,
+            1320,
+            1470,
+            1560
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-source-head-native.png",
+          "sha256": "79c1b3359e6ef8f26fffc1d10aa22788b7861ccce3b92bfd4bd052d0adc43fa0",
+          "source": {
+            "path": ".release/bonnie/body-back-latest.png",
+            "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            1040,
+            70,
+            1340,
+            630
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-source-knee-native.png",
+          "sha256": "2e871242cda025a22b75e479b94776816eb275c18d48a68beb1b343826e4cf08",
+          "source": {
+            "path": ".release/bonnie/body-back-latest.png",
+            "sha256": "d86075a1372a47f1ad4f857007fabb39fa6fcd49101945e330fc651dece8e1ef",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            1220,
+            2140,
+            1390,
+            2290
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-target-head-native.png",
+          "sha256": "a0aa9d27435c2614ca6a8fc70fe287d5cdea01d0d3ad12cd7abec45363dde72a",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            1040,
+            70,
+            1340,
+            630
+          ],
+          "resampling": false
+        },
+        {
+          "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-registration-target-knee-native.png",
+          "sha256": "08e2bfb80c07313ee83a592a9fb2a5c5c2fefc88a0cf4f6540ca2f738b3496a8",
+          "source": {
+            "path": ".release/bonnie/daggers-back-latest.png",
+            "sha256": "b95b123e79c993530053ffb3feeabd47d1cf4fce850793e81202655702f38483",
+            "width": 2352,
+            "height": 3520
+          },
+          "sourceCropBox": [
+            1220,
+            2140,
+            1390,
+            2290
+          ],
+          "resampling": false
+        }
+      ],
+      "meaning": "人物背面整刀弦长约墨黑 0.237 H0、骨白 0.260 H0；端点各约 ±4 px，身体配准与端点合并估读范围约为 0.227–0.246 H0／0.250–0.270 H0。刀尖至柄尾直线相对水平约 30.7°／30.1°，28° 目标按此直线定义；柄尾橙标中心至红领中心另读约 33.4°／36.4°，各中心约 ±3 px。柄方向更陡，属于图面观察，不是所有者另定的角度。曲刃局部轴、整刀弦与柄方向分别记录；二维投影不验收3D尺寸。"
+    }
+  ],
+  "updated": "2026-11-22",
+  "auditNotes": {
+    "definitionProcessCommentary": {
+      "thickness": "当前母版只有两把匕首的正面，没有窄侧视；刀身侧厚和握柄侧深尚未测定，当前值为null，不作为已验收尺寸。",
+      "measurementUncertainty": "正面母版的估读记录为端点±2px、接缝±4px、距离约±4px、段长约±8px、宽约±3px。4K携行背图的独立图面估读为：整刀端点约±4原生px；局部刀身截线边缘约±3px；配准锚点分别记录容差。均为图面估读范围，不是统计置信区间，不把母版容差移植给人物图。",
+      "bodyAlignment": "人物画布大小、护目镜高度或鞋底不得直接代替H0。姿势投影不改变设计目标，没有身体配准的图面不标为尺寸通过。"
+    },
+    "mountBoardPixelEvidence": "挂法近景原生 3520×2352：骨白侧挂片顶端约 y777、邻接皮带 x1480 处约 y805–959；墨黑侧挂片顶端约 y779、邻接皮带 x2010 处约 y804–958。轮廓容差各约 ±6 px；银扣中心分别约 (1135,918)、(2288,935)，各约 ±4 px。仅是可见高差，未证明翻折、缝合或窄口路径。",
+    "backTabSlitEvidence": "黑挂片与刀根、护手相叠，局部刀根被黑挂片遮挡；图中没有可独立辨认、与刀身垂直的窄口轮廓。可见遮挡不能证明完整穿入路径或窄口尺寸。",
+    "backNativeObservationRecord": {
+      "path": "/Users/roy/Developments/x_ops/output/bunny-l9-4k-evidence/l9n-daggers-back-native-observations-corrected.json",
+      "sha256": "95be7b58dcf6fb8ade6444d52fd32a5f598b3a2080b0b4f30ffdeb6a2965b0ab"
+    }
+  }
+}

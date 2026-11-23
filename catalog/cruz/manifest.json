@@ -1,0 +1,1206 @@
+{
+  "schema_version": "2.0",
+  "character_id": "cruz",
+  "language": "zh-CN",
+  "title": "克露丝·埃雷拉 设计参考",
+  "status": "local-review",
+  "asset_count": 52,
+  "assets": [
+    {
+      "id": "anchor-card-latest",
+      "character": "cruz",
+      "title": "anchor-card-latest",
+      "original": {
+        "path": "/media/cruz/anchor-card-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1301488,
+        "sha256": "c678b1d7b16d235429c37904b8d8f6efde8670d0f44661a15a3c35ea9da45735",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/anchor-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 936704,
+        "sha256": "00967ccd750c48ce0f6ef10df95d28dc7cba2136c261498b8ae0d9a77ef01633",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-back-latest",
+      "character": "cruz",
+      "title": "back-rig-back-latest",
+      "original": {
+        "path": "/media/cruz/back-rig-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1032738,
+        "sha256": "58b2a483e5f0a4adee4b2aff51658e745301f4aa779c4127bf17cbdf7cf67d8b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/back-rig-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 715032,
+        "sha256": "e6af8c1027fd2333949c6927b608541bc4f3ca1a293ec38edd857012dde35be0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-board-latest",
+      "character": "cruz",
+      "title": "back-rig-board-latest",
+      "original": {
+        "path": "/media/cruz/back-rig-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1348511,
+        "sha256": "e5e14dcac2aafb625896b8e4cadbb12a7761f1ea56201f681a920b8abe727c61",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/back-rig-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 916454,
+        "sha256": "9f691811ce6864fe2930dcd0a83a5376fa52430f75c529c834b0ec52ff57c672",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-front-latest",
+      "character": "cruz",
+      "title": "back-rig-front-latest",
+      "original": {
+        "path": "/media/cruz/back-rig-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1103222,
+        "sha256": "7ae903b8061a3684cd17ece56d07e6778a4e63d4af0a8ab71011b9dd3304b750",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/back-rig-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 770638,
+        "sha256": "2785e2420158070047c83144651e0c54b716709156b0e695ee13469305f7029e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-right-latest",
+      "character": "cruz",
+      "title": "back-rig-right-latest",
+      "original": {
+        "path": "/media/cruz/back-rig-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 787370,
+        "sha256": "7e0e8e10ddfdb2eabac59eec507730fa2ea3a4b9e13be2a099689426a564184e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/back-rig-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 536612,
+        "sha256": "d92428554901a8c324412895fc616599d9e4acc8357f32775cfeeda3e705ef68",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-tpose-back-latest",
+      "character": "cruz",
+      "title": "back-rig-tpose-back-latest",
+      "original": {
+        "path": "/media/cruz/back-rig-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 655559,
+        "sha256": "6e8e18b58e4b13427322a755d2df66e87727d386da0c5620ed6cfb50248a7cc7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/back-rig-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 441422,
+        "sha256": "05c6ff239903fe4ad55f93d6d9692950c1320ec9fe1577d1655be5368b02e9e7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-tpose-front-latest",
+      "character": "cruz",
+      "title": "back-rig-tpose-front-latest",
+      "original": {
+        "path": "/media/cruz/back-rig-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 676287,
+        "sha256": "604f931a67d5e0ee441e4074384b938cc544642a128acc8d387465247f6d58bc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/back-rig-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 457918,
+        "sha256": "410f4f2511280c43d567151de8b5c8c652461d057585379d25a57947b5810499",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-tpose-left-latest",
+      "character": "cruz",
+      "title": "back-rig-tpose-left-latest",
+      "original": {
+        "path": "/media/cruz/back-rig-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 505407,
+        "sha256": "0c35a130ef80f4b7e0cbecd406cb78a642bc6c102e1b946ae806620daee101c8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/back-rig-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 329196,
+        "sha256": "94388db0e4a5213c3310476ad8cda6d703697ec1f7b3b845913b93b2c1f34cee",
+        "alpha": false
+      }
+    },
+    {
+      "id": "back-rig-tpose-right-latest",
+      "character": "cruz",
+      "title": "back-rig-tpose-right-latest",
+      "original": {
+        "path": "/media/cruz/back-rig-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 499567,
+        "sha256": "ece45399390aa1b7b8757489fa9ea5e56e8b1678eccdc4416f4c884eb9611151",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/back-rig-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 327378,
+        "sha256": "c9ac7e121270bd175327ea07a49f81414cdf0c27639a41cd844596bc49b51de2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-back-latest",
+      "character": "cruz",
+      "title": "belt-holster-back-latest",
+      "original": {
+        "path": "/media/cruz/belt-holster-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 966480,
+        "sha256": "364541300c39885ebcc6bc010691c604d63480e212b55cb9792d0fb6547bee88",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/belt-holster-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 665202,
+        "sha256": "772fe1e25e229c50c8be5bd1fb666b844c1f7ec7763c5a46fcf4a5a3a9ec4c7f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-board-latest",
+      "character": "cruz",
+      "title": "belt-holster-board-latest",
+      "original": {
+        "path": "/media/cruz/belt-holster-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1466675,
+        "sha256": "b59b52934e3b1554e5998f290b9f15d369d952d82731d7124460ae55ed227414",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/belt-holster-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1053904,
+        "sha256": "33cae5c5b2ba4d864d89861ee84fd8b8788c42165a8cb0d4b67f5c09f50c01f9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-front-latest",
+      "character": "cruz",
+      "title": "belt-holster-front-latest",
+      "original": {
+        "path": "/media/cruz/belt-holster-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1062315,
+        "sha256": "b8de64fcfd13082a99e980e041d6fcd916778607cb92d4b36a1a02f5b136af6e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/belt-holster-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 743402,
+        "sha256": "c14848bb2c1aef0d9bcaa6a2499a5b4da473944d7054acd321c91700e5574b64",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-right-latest",
+      "character": "cruz",
+      "title": "belt-holster-right-latest",
+      "original": {
+        "path": "/media/cruz/belt-holster-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 860215,
+        "sha256": "81bc6f1ca6edef793a083f0b447c144f1d6510549ac1eb0fdb11b4c170468406",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/belt-holster-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 576416,
+        "sha256": "d26940ca70573265757f152b2d7e6224b958f441b4549704d1d4e322e995295c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-tpose-back-latest",
+      "character": "cruz",
+      "title": "belt-holster-tpose-back-latest",
+      "original": {
+        "path": "/media/cruz/belt-holster-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 631282,
+        "sha256": "ddb9f6279250afafff74fee747c38de10e3192ab24879eae100dec330545c60a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/belt-holster-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 385858,
+        "sha256": "2f0cecbcc429b19d22abd748ff54e7f72691e5b0ebedf46e8add85fc03cd2c38",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-tpose-front-latest",
+      "character": "cruz",
+      "title": "belt-holster-tpose-front-latest",
+      "original": {
+        "path": "/media/cruz/belt-holster-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 653880,
+        "sha256": "eab2582675bce50b7db8c34e3b9374dbb834abef775dad4b1bb655814e499115",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/belt-holster-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 437390,
+        "sha256": "034351657490f5ef8b42830edcfe779ab9a9c1894c3f7ffa60257a2e13f20927",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-tpose-left-latest",
+      "character": "cruz",
+      "title": "belt-holster-tpose-left-latest",
+      "original": {
+        "path": "/media/cruz/belt-holster-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 445971,
+        "sha256": "ae1ff883d95e2c1297e9ab7af2c81f07970b8f7ffc1b3fdae2b8d2f582a6bbfa",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/belt-holster-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 292978,
+        "sha256": "04cf2975a698ea2cb588ecaf7c839b1bbd423bc6fc577f5e0ba0914b08bc44f4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-holster-tpose-right-latest",
+      "character": "cruz",
+      "title": "belt-holster-tpose-right-latest",
+      "original": {
+        "path": "/media/cruz/belt-holster-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 539722,
+        "sha256": "7395b82db144010c91f0593f7be5ce98ca84631d3fd4ca5dcb814f5a9629a190",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/belt-holster-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 349938,
+        "sha256": "035d35299bbe89a7a45b85d45e69a704cde8a0bfd4aa8145d2b72f87a87f5cb6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-back-latest",
+      "character": "cruz",
+      "title": "body-back-latest",
+      "original": {
+        "path": "/media/cruz/body-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 918688,
+        "sha256": "ffc21fb8c4cb53f011d62f9d77d79992e0f906183cd62d80219ad17e852063f0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/body-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 632006,
+        "sha256": "b1cc5afee4fbe5a835b04056eaef765e7d565e28366be4c98df4f3590897f75f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-front-latest",
+      "character": "cruz",
+      "title": "body-front-latest",
+      "original": {
+        "path": "/media/cruz/body-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 919414,
+        "sha256": "dc29e06494f6c24021bc134061922cf989649aa0ebad58bacae5921a24ea2e53",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/body-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 630860,
+        "sha256": "6d89187a268a19eb44f18d21b3bed6cb1ac346adbfd6613c49efc75db3ac3d3a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-right-latest",
+      "character": "cruz",
+      "title": "body-right-latest",
+      "original": {
+        "path": "/media/cruz/body-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 836636,
+        "sha256": "04d412efecf410ea45172c516ab6ea203db955a2157449e1d388dcf639af4a12",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/body-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 584662,
+        "sha256": "99d8dc05f29a7122fd10c956f549b120a9f22ec59b113cc6bf73e566dc19a5b0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-back-latest",
+      "character": "cruz",
+      "title": "body-tpose-back-latest",
+      "original": {
+        "path": "/media/cruz/body-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 599661,
+        "sha256": "4fec04de39dab319c2d0d49b6fd56159022b7be29c29374be54cee2b41ca7f22",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/body-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 409602,
+        "sha256": "fca351a5e6a5ccac382f84c95e97380aa6012263ca3488d6711728a50c6823dd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-front-latest",
+      "character": "cruz",
+      "title": "body-tpose-front-latest",
+      "original": {
+        "path": "/media/cruz/body-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 779426,
+        "sha256": "67bf1cedf52c3f725a5a7f41ed2b03fe150623c888ef7e07fe907062299bf69a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/body-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 570104,
+        "sha256": "6886180f3cc56e97fd46cc6302379080bf47ca7dc34e65b31036ac51c9469962",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-left-latest",
+      "character": "cruz",
+      "title": "body-tpose-left-latest",
+      "original": {
+        "path": "/media/cruz/body-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 542259,
+        "sha256": "a0f511b7ca86fa7fb129faf479d8e6b9323ec7c821f598e898b0f14348655ae4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/body-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 359362,
+        "sha256": "cd442f4eb1b7ea36375f5a27820b8f9874b50c8ae15e4a365ebd56d149aaa072",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-right-latest",
+      "character": "cruz",
+      "title": "body-tpose-right-latest",
+      "original": {
+        "path": "/media/cruz/body-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 545639,
+        "sha256": "bf76eacb61d36ff28d71433a966318475031b745733303b269f2b003d63bba83",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/body-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 360408,
+        "sha256": "e9ec4493bc3a0db9596167927b19bc314ddee58532cf757a6aa92f5cfc0c28aa",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-back-latest",
+      "character": "cruz",
+      "title": "boots-gloves-back-latest",
+      "original": {
+        "path": "/media/cruz/boots-gloves-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 909334,
+        "sha256": "9906e82697241ab70420f65bab57bbbc01f8c0fce74e6a6a66f8fb4ecc60479a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/boots-gloves-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 650888,
+        "sha256": "ffdf98986af75389831bc28754499c110b526241ad85cc523c8ab5d12dd2c527",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-board-latest",
+      "character": "cruz",
+      "title": "boots-gloves-board-latest",
+      "original": {
+        "path": "/media/cruz/boots-gloves-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1718269,
+        "sha256": "3ad67212e9bd56715e4a52c26292f2fa66566099d2eb8f509ceae1f151b99721",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/boots-gloves-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1267910,
+        "sha256": "7ef51058163f4f504af00b14331c30cb35ac7b2a369407718dd9176c7fbe5758",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-front-latest",
+      "character": "cruz",
+      "title": "boots-gloves-front-latest",
+      "original": {
+        "path": "/media/cruz/boots-gloves-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 987334,
+        "sha256": "765d7cf75b249a6d75ada9689cca5881764dec9e156779dfa3bf4fde57f1e9d2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/boots-gloves-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 706982,
+        "sha256": "c5892ce3840e747cd18753461307121d49f1d865df9e113274950a07cf2309a9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-right-latest",
+      "character": "cruz",
+      "title": "boots-gloves-right-latest",
+      "original": {
+        "path": "/media/cruz/boots-gloves-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 660189,
+        "sha256": "1bbe2f931b3fa5f630305caa9f3035eb2bfc63b3aa970f2936458b5447cb697b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/boots-gloves-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 458790,
+        "sha256": "71acf38e47a0da27ca7b3e184a17feffdb9d204d1b19f46ac84453e0c542a2c9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-tpose-back-latest",
+      "character": "cruz",
+      "title": "boots-gloves-tpose-back-latest",
+      "original": {
+        "path": "/media/cruz/boots-gloves-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 593233,
+        "sha256": "c2d5a1f66b3d05114abc9e38c802b7545cf4f97dc2e094a3f09bd5ebe6e5f9d4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/boots-gloves-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 406502,
+        "sha256": "b08b3b9fedfa148238ea253d21c75fec0700b40499993b2f30982332763bd930",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-tpose-front-latest",
+      "character": "cruz",
+      "title": "boots-gloves-tpose-front-latest",
+      "original": {
+        "path": "/media/cruz/boots-gloves-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 597322,
+        "sha256": "fdabebb0a08e58ac0babadfb061303821d067a0e3958f23d3bea7f82da83bae3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/boots-gloves-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 408522,
+        "sha256": "12a2868dd2ef29be81589310a80c191de13792d7e239c497db9548d55c10f2d1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-tpose-left-latest",
+      "character": "cruz",
+      "title": "boots-gloves-tpose-left-latest",
+      "original": {
+        "path": "/media/cruz/boots-gloves-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 519562,
+        "sha256": "fed6a60113762183564cf8fea2ad017b73c468d296803c98a6cd1971920408fc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/boots-gloves-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 337442,
+        "sha256": "b9187c0dee296397b14b6bd6d8c64a9c8376e53a362c6ccb2e77d442b4329d5b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "boots-gloves-tpose-right-latest",
+      "character": "cruz",
+      "title": "boots-gloves-tpose-right-latest",
+      "original": {
+        "path": "/media/cruz/boots-gloves-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 555991,
+        "sha256": "4247990efc0f890a9d3031d6cc6aa545fdf3e7ed006cd957fee23884327aca67",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/boots-gloves-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 362442,
+        "sha256": "72678feedd2808555e4751d42d62709010db1c476a126919992372a846b94617",
+        "alpha": false
+      }
+    },
+    {
+      "id": "breakdown-sheet-latest",
+      "character": "cruz",
+      "title": "breakdown-sheet-latest",
+      "original": {
+        "path": "/media/cruz/breakdown-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 2296,
+        "bytes": 3392733,
+        "sha256": "f46c69df3b0e051cc9ec516d8463fddf32b3f02290db3d37df9a5ea81e1ab574",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/breakdown-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1225,
+        "bytes": 1032966,
+        "sha256": "996ef9e5267c6e125f307be90a1bdec4bf29a0ac95c7d9ec1b4beaaba42149fb",
+        "alpha": false
+      }
+    },
+    {
+      "id": "character-card-latest",
+      "character": "cruz",
+      "title": "character-card-latest",
+      "original": {
+        "path": "/media/cruz/character-card-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1361142,
+        "sha256": "50d39c9c54b0569bb7ec3f98c4f65f6fe196cc2bf2e286b914034737506b7cc4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/character-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 968870,
+        "sha256": "acdf30634c7d8ee98729e24ec96588ea1fc623a6597a4dd555a5341dd79f8fe3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "cruz",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/cruz/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1952015,
+        "sha256": "a376638ae3594793f2ac79382ab0b8621f85117b039c434c1857849d786a1ae2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1428552,
+        "sha256": "5fae5ba35bfc7fd3b4d96ddbbb6a844d61657427bc5d5b0caf13d5b79ae9b619",
+        "alpha": false
+      }
+    },
+    {
+      "id": "face-sheet-latest",
+      "character": "cruz",
+      "title": "face-sheet-latest",
+      "original": {
+        "path": "/media/cruz/face-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1382014,
+        "sha256": "45b5ed0edfd7d3927f7d0173883eb48cd2731c92dec117a7c6fdaaa0ce9da053",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/face-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 969024,
+        "sha256": "04ac1bf4b342bf279cbf188044443da0bd55baa5ef71e4ba4bb1c6d3fbf95eff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-back-latest",
+      "character": "cruz",
+      "title": "jacket-back-latest",
+      "original": {
+        "path": "/media/cruz/jacket-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 993342,
+        "sha256": "339789c719d6005aefc03140173595487257c1331c7fef379021d3326e4ce815",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jacket-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 685250,
+        "sha256": "53897492e4083e06cc02f18789fa1a6f8cef56571bcdad9a5d7a5c8cddab3593",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-board-latest",
+      "character": "cruz",
+      "title": "jacket-board-latest",
+      "original": {
+        "path": "/media/cruz/jacket-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1540436,
+        "sha256": "c38be9cc3e9a489b0c1f2d2ccd357073cb5ab35f6459317399cfa967a34e4a45",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jacket-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1185902,
+        "sha256": "94e2ebadcccbd0e96339eb7e32f37fcca0b5826b553945f94e7c95a2e38a32fd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-front-latest",
+      "character": "cruz",
+      "title": "jacket-front-latest",
+      "original": {
+        "path": "/media/cruz/jacket-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1081231,
+        "sha256": "a20f8f3de2675add959556066b978341fdb986dbe9f68faf038c70ce5d181ac7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jacket-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 756704,
+        "sha256": "1a2ebb1bdb79078981acb40b13a35303c1529cb6596126a5b1332e4fa2b85ad3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-right-latest",
+      "character": "cruz",
+      "title": "jacket-right-latest",
+      "original": {
+        "path": "/media/cruz/jacket-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 878041,
+        "sha256": "cb693e37f0a0a8132592f93093a6d715553a01b7937595aecf40b9bf2197e0c9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jacket-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 591004,
+        "sha256": "6909c3e0b6c7b6597d663f34689cc716eb1c46aba7154d004d518fb5db96482b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-back-latest",
+      "character": "cruz",
+      "title": "jacket-tpose-back-latest",
+      "original": {
+        "path": "/media/cruz/jacket-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 584121,
+        "sha256": "52ec7332395b16b884e587a819f12b6510dbe7922a3db833161af4ccdd660e32",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jacket-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 396560,
+        "sha256": "f406ade2437641fc97ae1834eb8391b4c8365efd53363152e3950eb18f7b1da9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-front-latest",
+      "character": "cruz",
+      "title": "jacket-tpose-front-latest",
+      "original": {
+        "path": "/media/cruz/jacket-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 779211,
+        "sha256": "19e29abbc4e4a301b03c427cbcf35108615663c41535e461c360c562c82ec3bd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jacket-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 548804,
+        "sha256": "c01d66ec65a65cfb2aaac8949e7d29c534afc2e34824f908e579f1ede3865179",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-left-latest",
+      "character": "cruz",
+      "title": "jacket-tpose-left-latest",
+      "original": {
+        "path": "/media/cruz/jacket-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 455543,
+        "sha256": "c7254faf5ef2d7bcdfe14d9b1dc4b8cf249f68b8fced6442ff4f5c9cbe755705",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jacket-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 309540,
+        "sha256": "e3bc26916f8ffe82c44497a49c1b2c9fab3f1784354d2b9f75ccf117215807af",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jacket-tpose-right-latest",
+      "character": "cruz",
+      "title": "jacket-tpose-right-latest",
+      "original": {
+        "path": "/media/cruz/jacket-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 492526,
+        "sha256": "792fdb7bb106acab285a35574dc0a93d9ba15a086e9a6a9aead22bd32c54dd86",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jacket-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 321990,
+        "sha256": "341e1e6a70b827dca23da92fd66ba20fb70fd0df3b6f65f75d5588bbbe13ccb3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-back-latest",
+      "character": "cruz",
+      "title": "jumpsuit-back-latest",
+      "original": {
+        "path": "/media/cruz/jumpsuit-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 922158,
+        "sha256": "f3e1610e88980be07b94450ceece531c4731a8a287fc1a00724434d74e70cc8a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jumpsuit-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 636432,
+        "sha256": "2d509a4788fb27188630e91df8fe305fd15e965b5c242ac6e14a5e85e4bfb49c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-board-latest",
+      "character": "cruz",
+      "title": "jumpsuit-board-latest",
+      "original": {
+        "path": "/media/cruz/jumpsuit-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1348140,
+        "sha256": "664109665a4a7330e5ae3343d83f245c871fcb18ece7bc960e823b3e0adbe602",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jumpsuit-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 940952,
+        "sha256": "d77fc5040537d5da8b126b8749042499c8a15f3a49bc02b1898614ef20eb9fbd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-front-latest",
+      "character": "cruz",
+      "title": "jumpsuit-front-latest",
+      "original": {
+        "path": "/media/cruz/jumpsuit-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 958057,
+        "sha256": "ac6848a0df3b36d12aa96b97911a723ab10b739397523eaf38bb28766dd5afd2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jumpsuit-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 661068,
+        "sha256": "b1700fe48a2aecfe3a55e335f54ed8e1d71b69fc6c56310efc6411fb4514d4f5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-right-latest",
+      "character": "cruz",
+      "title": "jumpsuit-right-latest",
+      "original": {
+        "path": "/media/cruz/jumpsuit-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 803296,
+        "sha256": "1af8dafcd7e9722ded61d6a1f23cfd36289973d12b547900daa8e889575a599b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jumpsuit-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 540214,
+        "sha256": "ef4fced2f6f8b8d57a8cbe18030e114442925c63b07fb107a24cf52029eb2aa2",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-tpose-back-latest",
+      "character": "cruz",
+      "title": "jumpsuit-tpose-back-latest",
+      "original": {
+        "path": "/media/cruz/jumpsuit-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 573459,
+        "sha256": "88eb52f93a3629972f4809a5d106cba80681d62f79da62b02418a0e63ca39096",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jumpsuit-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 380120,
+        "sha256": "0f2c0dd6a92adee65d88ba1df09009b7f029097148078f084427734c03ec1b24",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-tpose-front-latest",
+      "character": "cruz",
+      "title": "jumpsuit-tpose-front-latest",
+      "original": {
+        "path": "/media/cruz/jumpsuit-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 597021,
+        "sha256": "f7704a1b60826a0f5abba1a177662115ddf6845171d7fd884fe300cf8d6a58bb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jumpsuit-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 394298,
+        "sha256": "3c1bf18d45987f2befebc491db80a787e89b2446848ddbb2e0b67fd183baa174",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-tpose-left-latest",
+      "character": "cruz",
+      "title": "jumpsuit-tpose-left-latest",
+      "original": {
+        "path": "/media/cruz/jumpsuit-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 517253,
+        "sha256": "2a27a70a7f47ab8b4d8c44e1763756cb27f99ac47d9bdc8ef2c7c9e47ff3f78b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jumpsuit-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 335492,
+        "sha256": "1428251a03c19c6982128211b6e08a8c9002152745c03b7aabf288a8452ae22b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "jumpsuit-tpose-right-latest",
+      "character": "cruz",
+      "title": "jumpsuit-tpose-right-latest",
+      "original": {
+        "path": "/media/cruz/jumpsuit-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 470209,
+        "sha256": "509ef9f2dac0bcda997269852c33ca4917eba9cab664b0302b987703b2806edb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/cruz/jumpsuit-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 308944,
+        "sha256": "a2e46a7fa130f52c151f8ec7821d54ca005f9141a79b57278e70fcc51aa19d8c",
+        "alpha": false
+      }
+    }
+  ]
+}

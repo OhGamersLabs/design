@@ -1,0 +1,2126 @@
+{
+  "schema_version": "2.0",
+  "character_id": "darrow",
+  "language": "zh-CN",
+  "title": "罗伊 & 罗娅·达罗 设计参考",
+  "status": "local-review",
+  "asset_count": 92,
+  "assets": [
+    {
+      "id": "base-kit-back-latest",
+      "character": "darrow",
+      "title": "base-kit-back-latest",
+      "original": {
+        "path": "/media/darrow/base-kit-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3402679,
+        "sha256": "f50690ae3729f7f5917e918bd9473b6ec6c64ee565836f01de11b6d325925769",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/base-kit-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1121358,
+        "sha256": "2dd9a6dee64bdf6512e2939eb12d59d6d6ebd47ea12117727a468392c1e51847",
+        "alpha": false
+      }
+    },
+    {
+      "id": "base-kit-board-latest",
+      "character": "darrow",
+      "title": "base-kit-board-latest",
+      "original": {
+        "path": "/media/darrow/base-kit-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5453392,
+        "sha256": "2d422f2354627c5fe94e6f37cd50bd76ac6a41e59828a4cbfd1d1da85b26c1a1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/base-kit-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1704874,
+        "sha256": "a4b5186e46b3b4270cad3406711d8d30276e1a24362280695195088b59264577",
+        "alpha": false
+      }
+    },
+    {
+      "id": "base-kit-front-latest",
+      "character": "darrow",
+      "title": "base-kit-front-latest",
+      "original": {
+        "path": "/media/darrow/base-kit-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3576646,
+        "sha256": "689ce890ef01c9995e0a32e3b737256c8d7c4560e70d2d0d124d1dfe1485b486",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/base-kit-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1172950,
+        "sha256": "7940a4fa89b63ebfe8ae6c9a124b092c56fd56a10bf90b6496a96e137346b1de",
+        "alpha": false
+      }
+    },
+    {
+      "id": "base-kit-right-latest",
+      "character": "darrow",
+      "title": "base-kit-right-latest",
+      "original": {
+        "path": "/media/darrow/base-kit-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2891587,
+        "sha256": "8490374140caa85e4e92df77a97c960b0214023ef5119c8dd126391ccee192bd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/base-kit-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 973560,
+        "sha256": "1138456ee4ccac1b478e44ca4c07f895c1519e21d3362adc92a2a9395d4c192a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "base-kit-tpose-back-latest",
+      "character": "darrow",
+      "title": "base-kit-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/base-kit-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3208995,
+        "sha256": "8cbd0dbb9e8e0aaeef3fc209e80f9e3840d1950ace1b976ce472834ff7bf23d5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/base-kit-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1460292,
+        "sha256": "a99d0a6f69ab57ad76e66ba1f6fb7b4fb2a2a71d5009a4a2b40554fcdfa25940",
+        "alpha": false
+      }
+    },
+    {
+      "id": "base-kit-tpose-front-latest",
+      "character": "darrow",
+      "title": "base-kit-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/base-kit-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3326207,
+        "sha256": "032bcd01b9681cc6ad9db920d777484428b1dc821959845974501c81eca883af",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/base-kit-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1512470,
+        "sha256": "a3c76f7fd9a37c06ad3738423bd8f933d7abc04031c0524c4b226aa171362f93",
+        "alpha": false
+      }
+    },
+    {
+      "id": "base-kit-tpose-left-latest",
+      "character": "darrow",
+      "title": "base-kit-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/base-kit-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2919639,
+        "sha256": "1d1c0e304efc30993f4151ca82fccb90f60b5d739643675711d39b5a17ace98c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/base-kit-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1346322,
+        "sha256": "e69fea4bb8c810bd0eee130bdb8f224692ac675e3937608ea72511c5add38add",
+        "alpha": false
+      }
+    },
+    {
+      "id": "base-kit-tpose-right-latest",
+      "character": "darrow",
+      "title": "base-kit-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/base-kit-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2944864,
+        "sha256": "53e9a3803c4fdf23bccc952d8c2a09ccbb4fddf0c771b3b251e495015441a93b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/base-kit-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1358460,
+        "sha256": "4241b06e49fde08d7f9d7332abf7a9e642b31148bb5b0021cc689ade983a7cd5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-guards-back-latest",
+      "character": "darrow",
+      "title": "belt-guards-back-latest",
+      "original": {
+        "path": "/media/darrow/belt-guards-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3422942,
+        "sha256": "5254b93cf8011902d68b9da1b40c6a9b36d90b3bbe390a984adec32fbde4bf88",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/belt-guards-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1119052,
+        "sha256": "748c3826d337fa0dc51529298b45565aae75a519a74da88e40a9fc5d75d36a03",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-guards-board-latest",
+      "character": "darrow",
+      "title": "belt-guards-board-latest",
+      "original": {
+        "path": "/media/darrow/belt-guards-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5188868,
+        "sha256": "3fa69cdf2eed0b574cab29d2839c4622ea7692447945050926c8624e4d593e47",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/belt-guards-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1618372,
+        "sha256": "0ab4e436c3356332a91cb1e8441430c9c7c00902bf1d43d7fd0c3eada5b1c52f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-guards-front-latest",
+      "character": "darrow",
+      "title": "belt-guards-front-latest",
+      "original": {
+        "path": "/media/darrow/belt-guards-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3720212,
+        "sha256": "9d34c2fc504177e7e847c667c6cd6df046abb902a9b3055fd68911dd217c6932",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/belt-guards-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1199552,
+        "sha256": "3baaabc28e1986ad77013252b9c789c63eced6af88839be03c376701c07f2651",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-guards-right-latest",
+      "character": "darrow",
+      "title": "belt-guards-right-latest",
+      "original": {
+        "path": "/media/darrow/belt-guards-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3071784,
+        "sha256": "7a15f5710ef4070b7b9a12c168908f3b25d9c54c5f7f70cc793b609ba2f91dfa",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/belt-guards-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1019824,
+        "sha256": "ba41bdfdecd6ecd1efd6feb7107d7c521ccbc3cac4e162215701990c5a5ee4f5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-guards-tpose-back-latest",
+      "character": "darrow",
+      "title": "belt-guards-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/belt-guards-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3230600,
+        "sha256": "53d0bacc387d4a893f2b41ac08ca42ff4444ddc593fce2b638c8dd254e51688b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/belt-guards-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1467146,
+        "sha256": "57e860e3750f3356dc9da147e521035a9413b01c2c9ba28e5d2b1d56ecfa4379",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-guards-tpose-front-latest",
+      "character": "darrow",
+      "title": "belt-guards-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/belt-guards-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3471933,
+        "sha256": "376162a40f67c329a1bf9b0f06ac7b08be6e295374c7d92da552c63834c610d5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/belt-guards-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1547154,
+        "sha256": "8342eda6b7885d73c17a224c6294fcb9652c222df50b5587e85cbb84172a6f88",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-guards-tpose-left-latest",
+      "character": "darrow",
+      "title": "belt-guards-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/belt-guards-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2958805,
+        "sha256": "335b10e54aeaff384f03d8091b3e6a28e39180f0c8b6274e14823c96e0790218",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/belt-guards-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1351442,
+        "sha256": "a0025aac7c7591c3074a6069665ad56857ddace43c82c4dc828b3c398112c2e5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "belt-guards-tpose-right-latest",
+      "character": "darrow",
+      "title": "belt-guards-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/belt-guards-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2965459,
+        "sha256": "d72194ea7758fa59025bf3b67d411fd2a6a68db50570a1af8b8162f500fcb260",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/belt-guards-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1360922,
+        "sha256": "069a3f95356ad85d9f0b5e2097cffc3cc769f5321c4457530147e26e534c47ca",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-back-latest",
+      "character": "darrow",
+      "title": "body-back-latest",
+      "original": {
+        "path": "/media/darrow/body-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3190262,
+        "sha256": "1d7fd7205ba0f3aad860638c3cb91bbdc1b162c7ddbfa6e86a5dd36c4f98e547",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/body-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1102686,
+        "sha256": "4625ea6fa7bf261b0620840ac11e7c941d3e1d9e60946adb5aefc2e1450b968b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-front-latest",
+      "character": "darrow",
+      "title": "body-front-latest",
+      "original": {
+        "path": "/media/darrow/body-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3238567,
+        "sha256": "f706979c1622949b054f60ee79dd7516c218a0b8e4b0fc9231efdd213c3f4cc6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/body-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1116518,
+        "sha256": "954e726f3019187d20a9c2f16afb6e625e0ac79e3aca1e3e3180e22319b73c92",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-right-latest",
+      "character": "darrow",
+      "title": "body-right-latest",
+      "original": {
+        "path": "/media/darrow/body-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2728680,
+        "sha256": "3f9e6a30118d0fef4fe9542dd4ed3e7f08ef9feaf5f722c692c1b94208c25456",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/body-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 961236,
+        "sha256": "c72688ca24ed963bbc12ddaab00dc8ed9226afbea4af4ac869a2d19f472e0b45",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-back-latest",
+      "character": "darrow",
+      "title": "body-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/body-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3013765,
+        "sha256": "52dac13cce5f667881d7d065d1d52d209f9e465f32455c9db6538f78ad20d5bf",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/body-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1430374,
+        "sha256": "c04a87b21bb34c82dd8a2f35d9a8e61b02623c0f5f89af872c565e90f6c68b79",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-front-latest",
+      "character": "darrow",
+      "title": "body-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/body-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3006579,
+        "sha256": "6620c8115120cccdd0f5e2f3c6780c8a006dde42e05c651b430a96a2cccbc42d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/body-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1407092,
+        "sha256": "d0ffa4be4c47716c1e0bea47e5d72edd237b97f2414c92152354cd925a6c48b3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-left-latest",
+      "character": "darrow",
+      "title": "body-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/body-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2676737,
+        "sha256": "225ed3b44099c4c20c092c31dd7a0a81312bb54c98b09d52f61a69c465b2f658",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/body-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1273286,
+        "sha256": "a0abce999eaacbc41613209b8d829b9e2edc4cd7fe95f160ca2449cf96457af0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-right-latest",
+      "character": "darrow",
+      "title": "body-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/body-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2639127,
+        "sha256": "c099e80402154d17cb1188f98d786f9f23512b968576fcbab78bd62e31c3ba25",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/body-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1266190,
+        "sha256": "2cda5712bbb113a843024ad87a93204c5b694424cd616f695e55bd1e5355ac8a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "breakdown-sheet-latest",
+      "character": "darrow",
+      "title": "breakdown-sheet-latest",
+      "original": {
+        "path": "/media/darrow/breakdown-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 2628,
+        "bytes": 4760233,
+        "sha256": "846c862322e5ce9e4c3b30a29e4c45e67a776667b00ecb77c0b014e32723320a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/breakdown-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1402,
+        "bytes": 1379120,
+        "sha256": "5707c62db998ce9f0ae9ea137cfb0e1c0de4c4972ad8a61386f459c97682a418",
+        "alpha": false
+      }
+    },
+    {
+      "id": "character-card-latest",
+      "character": "darrow",
+      "title": "character-card-latest",
+      "original": {
+        "path": "/media/darrow/character-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 7428500,
+        "sha256": "4799317a23be8cb1c0a1eb5866590cd373a4e172f142ef3246db0a0648460243",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/character-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 3016636,
+        "sha256": "8c03694ef98e4fcae74b3549c70ea93ce8f583bb9533aea82916dbb7bb75b520",
+        "alpha": false
+      }
+    },
+    {
+      "id": "child-roy-card-latest",
+      "character": "darrow",
+      "title": "child-roy-card-latest",
+      "original": {
+        "path": "/media/darrow/child-roy-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 7726959,
+        "sha256": "519d78f7c9238d910fa2eafc46ab0a428d46def38dcbd5b60645b82c460fb92c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/child-roy-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2924448,
+        "sha256": "fabe4e08930ad81b35212032a81e4e76f3dcf37ae793d9b7fcb59ea65add66ff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "child-roya-card-latest",
+      "character": "darrow",
+      "title": "child-roya-card-latest",
+      "original": {
+        "path": "/media/darrow/child-roya-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 7394203,
+        "sha256": "534ca7fc3ed9ff1c472d7731efe632583bdb34a1a10295bff7ffcd0acdb92199",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/child-roya-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2786130,
+        "sha256": "2975063862a2e9f482ded9a097064bc42e24cfb01e714b55cd4c3e8edc7ce428",
+        "alpha": false
+      }
+    },
+    {
+      "id": "duo-front-latest",
+      "character": "darrow",
+      "title": "duo-front-latest",
+      "original": {
+        "path": "/media/darrow/duo-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4624706,
+        "sha256": "bbec6a660634cc9017b75354f507d55a1685a216efabe5e8c66bea58bae56384",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/duo-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1345708,
+        "sha256": "02ebf0c4e0891aa8017e7d298a147b02998353895a8f1463598cfdba663778e1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "darrow",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/darrow/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 6993856,
+        "sha256": "bbef0f896092b3f5d00a9464bff2836cd61901a52356998a36d984cf3bb8d2f9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 2199862,
+        "sha256": "a1b6b7963e5a560207d0d5d3c9c40d70233fd21c72354f960378fcf2dd2442cc",
+        "alpha": false
+      }
+    },
+    {
+      "id": "face-sheet-latest",
+      "character": "darrow",
+      "title": "face-sheet-latest",
+      "original": {
+        "path": "/media/darrow/face-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5699247,
+        "sha256": "7f88d9124c0f4a8605339d43973434bef89d4ffb91fc378c655a3036ad813494",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/face-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1791334,
+        "sha256": "73e3a76d8f3029cb262b274e1c93ffd7052905fc4db5052e89fa1700760b619e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-base-kit-back-latest",
+      "character": "darrow",
+      "title": "female-base-kit-back-latest",
+      "original": {
+        "path": "/media/darrow/female-base-kit-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3240073,
+        "sha256": "681d15db2838c56bface996daaa405799671fa7e3e81a47db26fdee320141066",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-base-kit-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1100138,
+        "sha256": "18172704392ec55b04bd75502ee972fab2974f2696764d2171ab4120e3508ab5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-base-kit-board-latest",
+      "character": "darrow",
+      "title": "female-base-kit-board-latest",
+      "original": {
+        "path": "/media/darrow/female-base-kit-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5072267,
+        "sha256": "b915f960bd2dd1f6cd67b5401fe12c83548f303bd9d9384c60f9e33db76de76d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-base-kit-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1610656,
+        "sha256": "375b962f38cd60acf3db68fd2bea9e4172e29dcf9665683da4c785ddf7e5ba47",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-base-kit-front-latest",
+      "character": "darrow",
+      "title": "female-base-kit-front-latest",
+      "original": {
+        "path": "/media/darrow/female-base-kit-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4195244,
+        "sha256": "afdd0cfd2b166115eae73c6966ab19c3d753f804c7d66b8a2a030754970c19a6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-base-kit-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1273556,
+        "sha256": "bcfe0d85e2c7657b82fcebced8e960f960e7e3222c938924e72aa196656a389f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-base-kit-right-latest",
+      "character": "darrow",
+      "title": "female-base-kit-right-latest",
+      "original": {
+        "path": "/media/darrow/female-base-kit-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2594209,
+        "sha256": "a25a60527b7be047e667b905482c6e96d9e94d518596d7c2c133e00e8ab28d4d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-base-kit-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 888920,
+        "sha256": "c0c3461474f5c8b179aab24b0935793cd6131fe7a934b134639837384fedd0a3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-base-kit-tpose-back-latest",
+      "character": "darrow",
+      "title": "female-base-kit-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/female-base-kit-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2952794,
+        "sha256": "0229887b2a0b059aef7387afc0dff3f659b5a67c09004eef801141b12806b41a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-base-kit-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1386506,
+        "sha256": "a279bf258071a6fc68fb68a381b7097f2805f37212fa7eb6ecc27e99dc3cf357",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-base-kit-tpose-front-latest",
+      "character": "darrow",
+      "title": "female-base-kit-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/female-base-kit-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3091177,
+        "sha256": "cc552534a2aab22a023bf1a53c462852c19b35e92b22a1bf839531bad406c2ec",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-base-kit-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1442338,
+        "sha256": "911dda5e857fc885e29e2fc82d7bb4aa8e53dbbcf3e878bdf548b45c2131f831",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-base-kit-tpose-left-latest",
+      "character": "darrow",
+      "title": "female-base-kit-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/female-base-kit-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2689703,
+        "sha256": "f37c1b100f872f73c667e255b5024bd4eca055431286ba9a90e110f3f9a9c049",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-base-kit-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1273098,
+        "sha256": "bfb79c8a17a70475b2f9a6b756142e9f94d391f91f958e8e0ffd8e56d411deaf",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-base-kit-tpose-right-latest",
+      "character": "darrow",
+      "title": "female-base-kit-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/female-base-kit-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4952471,
+        "sha256": "392e1d3666b37a8e4d76e04aacd0d14167b5acaa300d69982219d3cea702ec11",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-base-kit-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2019066,
+        "sha256": "eb6a594fad9af9ab350e6bf385c88953fb6b4bc8beb8b5a0b173b90a25612f76",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-belt-guards-back-latest",
+      "character": "darrow",
+      "title": "female-belt-guards-back-latest",
+      "original": {
+        "path": "/media/darrow/female-belt-guards-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4402704,
+        "sha256": "8fdb6b23c9d3848571f72c3224850cf8d0640b34dc7fd0e66234f9bc9510c2f1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-belt-guards-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1336416,
+        "sha256": "73c797cc77f1620b78bf8abc3648090b5645d2b22a322d35231aebf0da98d3ac",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-belt-guards-board-latest",
+      "character": "darrow",
+      "title": "female-belt-guards-board-latest",
+      "original": {
+        "path": "/media/darrow/female-belt-guards-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5545479,
+        "sha256": "e86aa30be84509ab1ee7553765dba390ab5c24609022c521382fa6e2078ba902",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-belt-guards-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1728876,
+        "sha256": "b404a16331b10a8560ea4610d254ddda7257f82d4427b546ae6992d16c615788",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-belt-guards-front-latest",
+      "character": "darrow",
+      "title": "female-belt-guards-front-latest",
+      "original": {
+        "path": "/media/darrow/female-belt-guards-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4653920,
+        "sha256": "70bf028d3c338f4e4110e02d7aca57138e9a2b88bceda7bd7230942425107f7d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-belt-guards-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1384816,
+        "sha256": "d601d8735b016a968660f00c0d74c9922a2309e2626022911c438637ba7737dd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-belt-guards-right-latest",
+      "character": "darrow",
+      "title": "female-belt-guards-right-latest",
+      "original": {
+        "path": "/media/darrow/female-belt-guards-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2762498,
+        "sha256": "1b94b93f67a41d93e7a1d55e9fe40b563761d7933cd43d3ecdf9941d64c1ca2d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-belt-guards-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 941438,
+        "sha256": "d8d8381743b4d0ff0e9472d08813f7a3ac5b9622ce0c269534ef41edad172aa8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-belt-guards-tpose-back-latest",
+      "character": "darrow",
+      "title": "female-belt-guards-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/female-belt-guards-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4519669,
+        "sha256": "1c63aa3f5c5a799d886f621c0dd436eadd5088ecd6ce2a115b95806e7926a225",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-belt-guards-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1926968,
+        "sha256": "85735ba30663b7ab638727d63d45464f2a8bb5f092ee55870299742cde97d776",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-belt-guards-tpose-front-latest",
+      "character": "darrow",
+      "title": "female-belt-guards-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/female-belt-guards-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4134432,
+        "sha256": "1f01e0590d149be43a952d0dbdbf4aac85a84e189f58baae897f22a440571c7a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-belt-guards-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1758854,
+        "sha256": "3143bdecdad81f592c2b20c702ff197b63ec2e781622ecd3813b207ad2193aa5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-belt-guards-tpose-left-latest",
+      "character": "darrow",
+      "title": "female-belt-guards-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/female-belt-guards-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2869076,
+        "sha256": "6eb9bbd77b55d3a55c6fd8ff7a0d580a4b1a0c2e35230254d7d0837376d821a4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-belt-guards-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1341264,
+        "sha256": "1f3d25b095699298a8d87282b31f49973b417ecad8448fbeb722e1f92102ae22",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-belt-guards-tpose-right-latest",
+      "character": "darrow",
+      "title": "female-belt-guards-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/female-belt-guards-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2874415,
+        "sha256": "b9d7ca58148e0565e1cc2bf8ba00ea78aeea90a683f4fca4c885a389f90b5ddb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-belt-guards-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1342860,
+        "sha256": "8774d1dd7688700fa21e5f198b93c352feb5a224e1505e9fa5d75337203eb5ec",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-body-back-latest",
+      "character": "darrow",
+      "title": "female-body-back-latest",
+      "original": {
+        "path": "/media/darrow/female-body-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3055976,
+        "sha256": "780c971da4ec78f5082b5c0527f8006a91beaf93ef757fb7e1b23a989cb5a04e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-body-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1067704,
+        "sha256": "c606e5ecd5179e6a834e9d0d530ed40666a06958d9b61e6af82ab52d4c4829c8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-body-front-latest",
+      "character": "darrow",
+      "title": "female-body-front-latest",
+      "original": {
+        "path": "/media/darrow/female-body-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3186670,
+        "sha256": "6139cc27f026c88892c254916781e75449b50839d33dc8fb8b6bfde10dda98d7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-body-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1103452,
+        "sha256": "02829cbbffd53e6e486c0702633689dff145be2e12b6832a29c4ea9b3c0d3de1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-body-right-latest",
+      "character": "darrow",
+      "title": "female-body-right-latest",
+      "original": {
+        "path": "/media/darrow/female-body-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2521766,
+        "sha256": "9f93074ee89c80137c33eed5d2e6a20e65be45a0bf4d034e2890e8780a8edd66",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-body-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 882648,
+        "sha256": "566dc8edb52952df39cfd0320b5f05277afa141881fe8c9d5684e65c039075f4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-body-tpose-back-latest",
+      "character": "darrow",
+      "title": "female-body-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/female-body-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2830424,
+        "sha256": "e611496c7a5e94de4d0a57ba4a24d1c06bb2bac0e17aed66c2fb9a0f5f9c8627",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-body-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1349786,
+        "sha256": "7c419681c9ea64f01b41760b2372c3177ff5d447011490f8401bed43278033a4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-body-tpose-front-latest",
+      "character": "darrow",
+      "title": "female-body-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/female-body-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2940477,
+        "sha256": "4b4c09e92aa60262163564b14d8be1af7ce66aa73826e1977a45f0a80e0ce0e8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-body-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1385650,
+        "sha256": "8617ab7439518f9aebf3a16487d409cea3b74725ace338a79ea9aed04dfa85c7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-body-tpose-left-latest",
+      "character": "darrow",
+      "title": "female-body-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/female-body-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2504843,
+        "sha256": "69af2994c02efdceb550545222642083ae852fa933f2693418821e9cceae55d1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-body-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1200006,
+        "sha256": "dc935669a92213f51ca524e9907339e2d7bc1b89dd7bcc8d7765ebbd9479a164",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-body-tpose-right-latest",
+      "character": "darrow",
+      "title": "female-body-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/female-body-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2474135,
+        "sha256": "3369a014d48f7d959c04397714295bf504eff603a7f288e03d1bfae648c05fc4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-body-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1187788,
+        "sha256": "e2f16527c1f326950f5d7c5be841d8ae9466ac4ab8b385139b0d2f6b86f7d90e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-breakdown-sheet-latest",
+      "character": "darrow",
+      "title": "female-breakdown-sheet-latest",
+      "original": {
+        "path": "/media/darrow/female-breakdown-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 2628,
+        "bytes": 4629771,
+        "sha256": "89dffee498fe98a23b56958606564b5fdb07dcbe0941819ba58e5ce00bd93d80",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-breakdown-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1402,
+        "bytes": 1340456,
+        "sha256": "e9b59feb7fea33394462520954e2f9775b1d247dee9e67306e74004c919819d5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-card-latest",
+      "character": "darrow",
+      "title": "female-card-latest",
+      "original": {
+        "path": "/media/darrow/female-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5952370,
+        "sha256": "c8401a71dd4d609dd00034cb7d9a8fab490719428b94f945402b984149a38abf",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2445152,
+        "sha256": "30d93bcd0008a8118716703a3274fdea763423211024425274ec373ae4d34d4f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-expressions-sheet-latest",
+      "character": "darrow",
+      "title": "female-expressions-sheet-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 7106750,
+        "sha256": "5945edf8aa306c4eca037f6ffa1ce862aa37e8a4a2a6da5aace14f287b830550",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 2220806,
+        "sha256": "cd95ffef35fc42a68230d856df5b17dafe4616db77eafa4f0c2ef791a9812fdd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-face-sheet-latest",
+      "character": "darrow",
+      "title": "female-face-sheet-latest",
+      "original": {
+        "path": "/media/darrow/female-face-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5631351,
+        "sha256": "3a623dd2c4f5eaaca47a7320801e150b5a40f7323452be2dd06534c64d4a2665",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-face-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1781418,
+        "sha256": "751d41b78581e528adc191172c8affc91b59170c469406bcebd7781d9e98bee5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-goggles-back-latest",
+      "character": "darrow",
+      "title": "female-goggles-back-latest",
+      "original": {
+        "path": "/media/darrow/female-goggles-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3388840,
+        "sha256": "8398bfc05e56bab1778c2c8563d715c12f80f8fdf590fccf1646979773d1b33e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-goggles-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1132208,
+        "sha256": "1b173c035e9d621a57ff606c2a87c4c40ceb66bba64b691f57f61cbfca618cc7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-goggles-board-latest",
+      "character": "darrow",
+      "title": "female-goggles-board-latest",
+      "original": {
+        "path": "/media/darrow/female-goggles-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4920381,
+        "sha256": "56bf0e81e1e5a4a22272bbe1c8b492c20d568cc84505df0070e87c498ea847fb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-goggles-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1467138,
+        "sha256": "7772e383c2e36004d5d7cbb2f5788884e172ac740b710120b330438dbbf46dde",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-goggles-front-latest",
+      "character": "darrow",
+      "title": "female-goggles-front-latest",
+      "original": {
+        "path": "/media/darrow/female-goggles-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4289334,
+        "sha256": "c04a572c4bfc4568627deea1f669b2f33aa17bcb0303076f89e864ab6b0434aa",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-goggles-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1291166,
+        "sha256": "1143332b45e080b396c4bc9161ecc20c6eb6fd7cf21b8914fe19b5ca8c5d3984",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-goggles-over-eyes-latest",
+      "character": "darrow",
+      "title": "female-goggles-over-eyes-latest",
+      "original": {
+        "path": "/media/darrow/female-goggles-over-eyes-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3794644,
+        "sha256": "3f0ac48d884c6524cbfc40282a6c5722fe2ea5c9ac26249f02385c3064cc2e99",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-goggles-over-eyes-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1222998,
+        "sha256": "807e2d73b593cacebf5f3c23d01c0d08bc912aea69d530db71c04826b40b8dcf",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-goggles-right-latest",
+      "character": "darrow",
+      "title": "female-goggles-right-latest",
+      "original": {
+        "path": "/media/darrow/female-goggles-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2961938,
+        "sha256": "b9d1acb917c25237b1f8051c94da088c412285ddcfcbde0a0d6c018c8a6013ce",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-goggles-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1001592,
+        "sha256": "65c1cd59ff655e0c19d837089eec28b8dd25e3ad7e13491b379f0a8a88e0beaa",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-goggles-tpose-back-latest",
+      "character": "darrow",
+      "title": "female-goggles-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/female-goggles-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3127072,
+        "sha256": "cec8f0fda5bbddab73499f61c6fbd4b8ab623385f5bc3fc13b2dcc38ef75cefb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-goggles-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1443236,
+        "sha256": "9c5621a10e8e14288dc90eecb04bcae25ff9f8d69b2dd11e776405e9e096d6a8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-goggles-tpose-front-latest",
+      "character": "darrow",
+      "title": "female-goggles-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/female-goggles-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4371678,
+        "sha256": "c201e44b89dbcc7c5e48618affba9323de78347ef65180e6e451a28774f83232",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-goggles-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1828450,
+        "sha256": "b54b0f45a7ab566ad7d34349ede45f5bf3ff9fd69a39caed6a3ee013916b9095",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-goggles-tpose-left-latest",
+      "character": "darrow",
+      "title": "female-goggles-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/female-goggles-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2988889,
+        "sha256": "6bdf1b77c348c3738eb27647cf267fc76cf022006a60bc79002e705ab1ed8db6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-goggles-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1381212,
+        "sha256": "798758de7cc7e0557210f32db645e7d3b645b0b06a635f5d2b236358ccf1d356",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-goggles-tpose-right-latest",
+      "character": "darrow",
+      "title": "female-goggles-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/female-goggles-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3044063,
+        "sha256": "90fa5013acb799ce3d4518e0a27817ca4620973c29a9206f3d5e94ca80999be0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-goggles-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1404358,
+        "sha256": "ff0758b2d2f2d9b03a267b28bf374291331ea09b94609c5b5d4f22d97a905086",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-parka-back-latest",
+      "character": "darrow",
+      "title": "female-parka-back-latest",
+      "original": {
+        "path": "/media/darrow/female-parka-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3359845,
+        "sha256": "9b32a4b5aa8123e26b8633ce28b421d520fb47b6b6e7d099738a9d4376f466a6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-parka-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1125402,
+        "sha256": "af983faa04d0d8930da0b996d18b5c9492f99e4286fa7ba333b80c07ee86453a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-parka-board-latest",
+      "character": "darrow",
+      "title": "female-parka-board-latest",
+      "original": {
+        "path": "/media/darrow/female-parka-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5565404,
+        "sha256": "01e212f239b7741dc08555f7c7af51bdf44b21fec36db0d1571a56b6e249362c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-parka-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1716980,
+        "sha256": "e23f88e00a8d23d8becf4034f06c6fdbbe12a95f9da64b92f627769ad683d383",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-parka-front-latest",
+      "character": "darrow",
+      "title": "female-parka-front-latest",
+      "original": {
+        "path": "/media/darrow/female-parka-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3805555,
+        "sha256": "d0b00a7c4f6a99399d0933aea7bb49b18ff051bdf0ecc4da5fa92e003c1a1288",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-parka-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1236370,
+        "sha256": "e69aaa490faf060511a3b4a7fc6c07dcd01e971a749efc43bdef4033db534828",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-parka-right-latest",
+      "character": "darrow",
+      "title": "female-parka-right-latest",
+      "original": {
+        "path": "/media/darrow/female-parka-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4870917,
+        "sha256": "faac0c93fe9227efa71a627b4409bd2bf09fd5de1fffb882ca0aee21883d0013",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-parka-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1422724,
+        "sha256": "e198a74ed512193cf38573e07b22e1d60adea12e42bdb1029c9d39cbc9eb83e8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-parka-tpose-back-latest",
+      "character": "darrow",
+      "title": "female-parka-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/female-parka-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2955016,
+        "sha256": "957abc8a3e39ab3f6c5ae4c8e806c88fd6a936cc9acf33b265c5879368764873",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-parka-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1356404,
+        "sha256": "d171c1e6e4cda6d385b9bf1f9a23db548796e70143a6439f1f6eae44655c0ba5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-parka-tpose-front-latest",
+      "character": "darrow",
+      "title": "female-parka-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/female-parka-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3383138,
+        "sha256": "8d258c4eca1193885186727d1fb7a0d831afeb6847b2b210acf930643d32e090",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-parka-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1528722,
+        "sha256": "df6ef7b1f47f5591c800e571868ce426e363b440c682f44b2a71b26efa0f274d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-parka-tpose-left-latest",
+      "character": "darrow",
+      "title": "female-parka-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/female-parka-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2839879,
+        "sha256": "53ef4639607c88807fe7f293fc4c683d8add402a72cd427a1ad402fc74d5f470",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-parka-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1303326,
+        "sha256": "29156ee297c3f1a2eb578720376cb4d55d0050f770368b35fdf77663658c54f8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-parka-tpose-right-latest",
+      "character": "darrow",
+      "title": "female-parka-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/female-parka-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2947190,
+        "sha256": "52a791d915d74befbcd38b6c9279324c81f9cef65cfb4f2725839f2943539dfe",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-parka-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1360020,
+        "sha256": "75f0e518972d0e2d947f037ecb86cadb44a7feeefb856be9f09d9af514436e3d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-back-latest",
+      "character": "darrow",
+      "title": "goggles-back-latest",
+      "original": {
+        "path": "/media/darrow/goggles-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3760729,
+        "sha256": "dd33f5bba139032b69b23d008aa56c6551d488adda6dd377bdd32e8b11a5ff98",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/goggles-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1215416,
+        "sha256": "249a00453c50c24f34d051b9e89118681fe464ec4d1db5b718d73d5083d73811",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-board-latest",
+      "character": "darrow",
+      "title": "goggles-board-latest",
+      "original": {
+        "path": "/media/darrow/goggles-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4749349,
+        "sha256": "6186a615b71e9b515a5fcfb8d47fdda90343fb725ddbd1f496562196ca010f56",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/goggles-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1429828,
+        "sha256": "52b71eaa991cbf211de6a511c13023d3cbb274bc583074552de3dbe0acf0e63c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-front-latest",
+      "character": "darrow",
+      "title": "goggles-front-latest",
+      "original": {
+        "path": "/media/darrow/goggles-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4139790,
+        "sha256": "1993c003d8e63f841184f4cca9dd682cd7d9f82571683fdc410acb380e8ec391",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/goggles-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1315882,
+        "sha256": "0639dfaa046dd43962285626a21234e95f05d5fb949617ed260e6dbe15da04b7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-over-eyes-latest",
+      "character": "darrow",
+      "title": "goggles-over-eyes-latest",
+      "original": {
+        "path": "/media/darrow/goggles-over-eyes-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4141112,
+        "sha256": "e9c0e721f43742d0537da3be7996df2f39ba0deca7687f61a3ee57f9b4df3ae2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/goggles-over-eyes-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1313816,
+        "sha256": "ed90735b6d320df46d1b8364c3c233b66180ac7229777f960c93d49cfaf5fc1c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-right-latest",
+      "character": "darrow",
+      "title": "goggles-right-latest",
+      "original": {
+        "path": "/media/darrow/goggles-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3178753,
+        "sha256": "e7b4660902530ca46600a899c2a471c10870180899b03f9f4cd5bbc87f1b6a44",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/goggles-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1052078,
+        "sha256": "46c7edcb48bd40fa92510a8075430840f9fb2053310428290832448585b6bc0b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-back-latest",
+      "character": "darrow",
+      "title": "goggles-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/goggles-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3454775,
+        "sha256": "f308fda046e003c7d43ae756fa4972fbd3e81236af4339d73c730d41dcb6c22d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/goggles-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1549542,
+        "sha256": "306312728f26cdaf444a6de598f2b6af2dde0f6575fa1c97fdaf752162e9bd1f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-front-latest",
+      "character": "darrow",
+      "title": "goggles-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/goggles-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3719892,
+        "sha256": "30012c0ccc847f59fcf267e5d1153553b607deeeb1e0a250df6074e10fd7a50d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/goggles-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1649126,
+        "sha256": "bca72a4b05f03e2e4dc357a819e3ad9f026335a6c2e5b36fd854a466dbeb7ea0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-left-latest",
+      "character": "darrow",
+      "title": "goggles-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/goggles-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3138156,
+        "sha256": "24fc3f2413855491481b4dff7dd64bb426898e04fdfd7dac93a6ff9ed2068df9",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/goggles-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1424302,
+        "sha256": "3c0f1795b40fb290164793ccc0badcb432f1cbce2c7c0d668e63f4f3cd2ba7e4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-tpose-right-latest",
+      "character": "darrow",
+      "title": "goggles-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/goggles-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3056607,
+        "sha256": "ab8d08b351f2611bf75c6f94e52073ffc04f61b984d1ec88e27f73cd881c5267",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/goggles-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1399218,
+        "sha256": "475bc308f46add1acc489fd691768d84b8a214320af74a02c31d5aedfb593149",
+        "alpha": false
+      }
+    },
+    {
+      "id": "male-card-latest",
+      "character": "darrow",
+      "title": "male-card-latest",
+      "original": {
+        "path": "/media/darrow/male-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5803175,
+        "sha256": "73889a08bcabc1f278a2a59b2037bdf9c3fd291de47a54519e7ae132ba27a950",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/male-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2376788,
+        "sha256": "753bd05c75b3e335e038490e6faddc42f59127a70a7decba06586d21af2c6a7e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "parka-back-latest",
+      "character": "darrow",
+      "title": "parka-back-latest",
+      "original": {
+        "path": "/media/darrow/parka-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3769326,
+        "sha256": "8bbfc761d4007ec4ccf24f29898bd16c99bc6213ebcfe34bf3d7ec5297e5708c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/parka-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1221374,
+        "sha256": "357a48b0b27cbac0bdb9ba6471b493333868db04d9892bfb2eaff5e48f1ea2e8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "parka-board-latest",
+      "character": "darrow",
+      "title": "parka-board-latest",
+      "original": {
+        "path": "/media/darrow/parka-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5593223,
+        "sha256": "997560dbf8717bb7cf5821207825a05b5478a410b1f7527bd8cefd723c604d67",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/parka-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1711192,
+        "sha256": "e229e98116a53211cfbeb348123ecb9b1ef65be8ab6d42228c28d47de2c169a0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "parka-front-latest",
+      "character": "darrow",
+      "title": "parka-front-latest",
+      "original": {
+        "path": "/media/darrow/parka-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4050896,
+        "sha256": "9b80daee1987ee65e6d413497fda29d4c96175abb8d7070be369fa9c53f6def8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/parka-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1296356,
+        "sha256": "2c4490d512ccdd0e1f7eb195931b252cc39353e04ce12d0a6ecb7765b6f12375",
+        "alpha": false
+      }
+    },
+    {
+      "id": "parka-right-latest",
+      "character": "darrow",
+      "title": "parka-right-latest",
+      "original": {
+        "path": "/media/darrow/parka-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3242860,
+        "sha256": "44f74c25997d9bfb09b1248972d37fbbd5c2b7a7da604f492b4d760dcea8c702",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/parka-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1064630,
+        "sha256": "26c00c490d948c51b2dad9f1044f8b1e4749e036ae5f9be30b62f32f4ee455d7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "parka-tpose-back-latest",
+      "character": "darrow",
+      "title": "parka-tpose-back-latest",
+      "original": {
+        "path": "/media/darrow/parka-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3496803,
+        "sha256": "18dd9e7897829032f07c916821ad00c26d2d7f989316e56f7b8f8a95ef1afcea",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/parka-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1563838,
+        "sha256": "8e3b3b820d920fe10f3788523fa87e410b2504b27a90e65489a622095fc4895f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "parka-tpose-front-latest",
+      "character": "darrow",
+      "title": "parka-tpose-front-latest",
+      "original": {
+        "path": "/media/darrow/parka-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3752521,
+        "sha256": "db09a2437dda271efba1f83225ef482650438b30ba8aa16e3d4b6bf331905ef0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/parka-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1661706,
+        "sha256": "012c667c5ce78b358afcb211f99e87e106970be74597157c2a8974aad89b91d9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "parka-tpose-left-latest",
+      "character": "darrow",
+      "title": "parka-tpose-left-latest",
+      "original": {
+        "path": "/media/darrow/parka-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3094667,
+        "sha256": "410a1901c655312090652af000df2761c7b9b5e64724b811e65e626d657a85e2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/parka-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1406022,
+        "sha256": "8f68fa08fd7594f6f220cead338b90abe6ba483ccaacf51970bb2bba679521cf",
+        "alpha": false
+      }
+    },
+    {
+      "id": "parka-tpose-right-latest",
+      "character": "darrow",
+      "title": "parka-tpose-right-latest",
+      "original": {
+        "path": "/media/darrow/parka-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3055568,
+        "sha256": "a6600aa9fea67c0290a47500c8281f03d2d3eea5a27fc84056b67ee0531cec2b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/parka-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1389554,
+        "sha256": "6ee553b632b9d4f79940b669046d2df23ce45c1b80a9a5213328e56b25ba03dc",
+        "alpha": false
+      }
+    }
+  ]
+}

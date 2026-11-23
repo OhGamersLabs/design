@@ -21,7 +21,7 @@ const compiled = compileScript(descriptor, {
 // Compile the actual SFC, with its complete template and setup. Only the image
 // child and URL base need stand-ins; all data/model/formatting code runs as used
 // by the page, with the real Vue SSR runtime and site loader.
-const context = await characterContext(await siteLoader.load(), 'characters/bunny/dimensions.md')
+const context = await characterContext(await siteLoader.load(), 'characters/bonnie/dimensions.md')
 const modules = {
   vue, 'vue/server-renderer': serverRenderer,
   vitepress: context.vitepress,
@@ -43,7 +43,7 @@ for (const node of babelParse(compiled, { sourceType: 'module' }).program.body.t
     + executable.slice(node.end)
 }
 const component = new Function('modules', `${executable}\nreturn __component`)(modules)
-const data = JSON.parse(readFileSync(new URL('../catalog/bunny/garment-measurements.json', import.meta.url), 'utf8'))
+const data = JSON.parse(readFileSync(new URL('../catalog/bonnie/garment-measurements.json', import.meta.url), 'utf8'))
 
 function all(node, tag) {
   return [...(node.type === 1 && node.tag === tag ? [node] : []),

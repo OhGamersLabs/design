@@ -1,0 +1,109 @@
+{
+  "chapter": "layers",
+  "noun": "衣层",
+  "wear": "穿着",
+  "items": [
+    {
+      "layer": 0,
+      "name": "身体",
+      "path": "/characters/wylin/body",
+      "front": "body-front-latest",
+      "side": "body-right-latest",
+      "back": "body-back-latest",
+      "tpose": {
+        "front": "body-tpose-front-latest",
+        "right": "body-tpose-right-latest",
+        "back": "body-tpose-back-latest",
+        "left": "body-tpose-left-latest"
+      },
+      "summary": "基于标准成年女素体比例的颈下全硅碳仿生躯体：洁净无宝石瓷白面庞配单轨机械面壳缝与全机械耳、午夜蓝黑夹蓝紫挑染长发、黑曜石古金肋甲躯干与陶瓷白四肢。",
+      "facts": [
+        {
+          "term": "形体",
+          "value": "基于标准成年女素体，约 6.50 头身，厘米身高未设定"
+        },
+        {
+          "term": "面部与耳",
+          "value": "洁净无宝石额头、电光紫水晶瞳、双颊纤细单轨深灰机械缝与上颧骨极细电青光缝、双侧全机械仿生耳"
+        },
+        {
+          "term": "仿生躯体",
+          "value": "黑曜石古金分节躯干配背部纵向电青脊椎灯、陶瓷白双臂与双腿、圆盘状电青关节伺服环及裸足平底机械脚"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 1、第 2 层"
+        }
+      ],
+      "leftRight": "发丝非对称左右识别：不对称碎刘海微微偏向角色右侧（正面图偏向画面左边），角色左额与太阳穴外缘带醒目电光蓝紫挑染条（正面图位于画面右边，角色左侧面尤为突出），长发披垂至后背齐腰位置；全机械仿生耳与颈下硅碳躯体双侧对称。"
+    },
+    {
+      "layer": 1,
+      "name": "束腰前帘、腕部导能环与平底法靴",
+      "path": "/characters/wylin/combat-rig",
+      "front": "combat-rig-front-latest",
+      "side": "combat-rig-right-latest",
+      "back": "combat-rig-back-latest",
+      "tpose": {
+        "front": "combat-rig-tpose-front-latest",
+        "right": "combat-rig-tpose-right-latest",
+        "back": "combat-rig-tpose-back-latest",
+        "left": "combat-rig-tpose-left-latest"
+      },
+      "summary": "贴合仿生躯体的轻装战斗组件：古金 V 扣束腰带与黑石板双菱纹窄前腰帘、双腕对称三联发光电青导能环以及低帮 V 口全掌平底装甲法靴。",
+      "facts": [
+        {
+          "term": "束腰前帘",
+          "value": "贴合髂骨曲线的古金腰带与五边 V 形前扣，下挂双菱纹窄黑石板前帘收于大腿内缝顶角，背面仅设精炼古金 V 形桥扣"
+        },
+        {
+          "term": "腕部导能环",
+          "value": "双腕黑曜石内套各绕三枚闭合发光电青导能环与微小垂直导管刻度，取代裸素体背腕小环"
+        },
+        {
+          "term": "平底装甲靴",
+          "value": "低帮 V 口古金靴领收于脚踝电青圆盘下方，全掌一体平直防滑战术大底，零高跟与零足弓缺口"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 2 层"
+        }
+      ],
+      "leftRight": "第 1 层全部可穿戴装备达成双侧对称：古金腰帘严格居中，双腕三联电青导能环与双脚低帮平底装甲法靴规格一致；T 姿角色左侧面与角色右侧面省近臂正交图不出现悬空腕环。"
+    },
+    {
+      "layer": 2,
+      "name": "高立领半袖燕尾奥术风衣",
+      "path": "/characters/wylin/arcane-coat",
+      "front": "arcane-coat-front-latest",
+      "side": "arcane-coat-right-latest",
+      "back": "arcane-coat-back-latest",
+      "tpose": {
+        "front": "arcane-coat-tpose-front-latest",
+        "right": "arcane-coat-tpose-right-latest",
+        "back": "arcane-coat-tpose-back-latest",
+        "left": "arcane-coat-tpose-left-latest"
+      },
+      "summary": "敞怀高立领深炭灰燕尾奥术风衣：高明度板岩蓝紫内衬与翻领、角色右侧翻领闭口古金 OG 徽标、二头肌下端梯形金纹微喇短袖与后背深开叉尖角双翼尾摆。",
+      "facts": [
+        {
+          "term": "立领与徽标",
+          "value": "挺括外翻高立领配对称折返胸领，闭口拉丝古金大写 OG 徽标严格仅置于角色右侧翻领，角色左侧翻领素面"
+        },
+        {
+          "term": "微喇短袖",
+          "value": "利落肩线落至二头肌下端、恰好收于手肘电青圆盘上方，袖外侧饰阶梯闪电古金纹，完整露肘环与三联腕环"
+        },
+        {
+          "term": "燕尾与垂发",
+          "value": "齐腰背发垂于风衣外侧，其下设腰际倒 V 古金缝衔接中后深开叉燕尾；外侧尖角尾翼带几何金框，凹弧后摆与中缝保持素黑描边"
+        },
+        {
+          "term": "外层",
+          "value": "最外层"
+        }
+      ],
+      "leftRight": "胸领徽标左右识别：闭口古金大写 OG 严格仅印于角色右侧胸领（正面图位于画面左边，角色右侧面斜向可见，背面图隐藏）；角色左侧胸领（正面图位于画面右边，T 姿角色左侧面清晰可见）为纯粹板岩蓝紫配古金滚边、无任何文字或徽章。袖口闪电纹与燕尾双翼双侧对称。"
+    }
+  ]
+}

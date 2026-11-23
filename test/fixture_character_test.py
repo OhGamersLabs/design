@@ -18,13 +18,13 @@ from site_check.htmlscan import parse_html
 
 
 class FixtureCharacterTest(unittest.TestCase):
-    def listed_roster(self,root):
-        """Listed squad characters in roster order, re-derived from the files: a data folder plus a home page, by order then id."""
+    def listed_roster(self,root,group='squad'):
+        """Listed characters in roster order, re-derived from the files: a data folder plus a home page, by order then id."""
         listed=[]
         for data in (root/'docs/.vitepress/data').iterdir():
             if not ((data/'character.json').is_file() and (root/'docs/characters'/data.name/'index.md').is_file()):continue
             character=json.loads((data/'character.json').read_text())
-            if character.get('group','squad')!='squad':continue
+            if character.get('group','squad')!=group:continue
             listed.append((character['order'],data.name))
         return [cid for _,cid in sorted(listed)]
 
@@ -124,12 +124,12 @@ class FixtureCharacterTest(unittest.TestCase):
 
     def main_markup(self,dist):
         result={}
-        for file in sorted((dist/'characters/bunny').glob('*.html')):
+        for file in sorted((dist/'characters/bonnie').glob('*.html')):
             html=file.read_text()
             main=re.search(r'<main\b[^>]*\bclass="[^"]*\bbunny-page\b[^"]*"[^>]*>.*?</main>',html,re.S)
             self.assertIsNotNone(main,str(file))
             result[file.name]=main[0]
-        self.assertEqual(len(result),30,'every Bunny character page must be compared')
+        self.assertEqual(len(result),14,'every Bonnie character page must be compared')
         return result
 
     def parsed(self,root,path):
@@ -142,7 +142,7 @@ class FixtureCharacterTest(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix='design-fixture-character-') as temporary:
             root=Path(temporary)/'repo'
             self.copy_repository(root)
-            has_originals=(root/'.release/bunny').is_dir()
+            has_originals=(root/'.release/bonnie').is_dir()
             self.run_flow(root,'npm','run','build')
             dist=root/'docs/.vitepress/dist'
             baseline=self.main_markup(dist)
@@ -157,7 +157,7 @@ class FixtureCharacterTest(unittest.TestCase):
                 self.run_flow(root,'python3','tools/build-local-catalog.py')
             else:
                 self.fixture_only_catalog(root,Path(temporary)/'generated-fixture')
-                print('Fixture character: .release/bunny is absent; generated fixture catalogs separately; skipped check:local and check:site (native originals required).',flush=True)
+                print('Fixture character: .release/bonnie is absent; generated fixture catalogs separately; skipped check:local and check:site (native originals required).',flush=True)
             self.run_flow(root,'python3','tools/build-thumbs.py')
             self.run_flow(root,'npm','run','build')
             if has_originals:
@@ -168,8 +168,10 @@ class FixtureCharacterTest(unittest.TestCase):
             self.assertEqual(len(grids),1)
             cards=[node for node in grids[0].find('a') if node.has_class('character-card')]
             roster_ids=self.listed_roster(root)
-            self.assertEqual([cid for cid in ('bunny','fixture','draft') if cid in roster_ids],['bunny','fixture'])
-            menu=[(f'/characters/{cid}/',json.loads((root/f'docs/.vitepress/data/{cid}/character.json').read_text())['name']) for cid in roster_ids]
+            major_ids=self.listed_roster(root,'major-cast')
+            self.assertEqual([cid for cid in ('bonnie','fixture','draft') if cid in roster_ids],['bonnie','fixture'])
+            character_links=[(f'/characters/{cid}/',json.loads((root/f'docs/.vitepress/data/{cid}/character.json').read_text())['name']) for cid in roster_ids+major_ids]
+            menu=character_links+([('/world/cast','普通剧情角色图鉴')] if major_ids else [])
             self.assertEqual([card.attrs.get('data-character-id') for card in cards],roster_ids)
             for card,cid in zip(cards,roster_ids):
                 data=root/f'docs/.vitepress/data/{cid}'
@@ -202,7 +204,7 @@ class FixtureCharacterTest(unittest.TestCase):
             nav=[node for node in home.root.walk() if node.has_class('VPNavBarMenu')]
             self.assertEqual(len(nav),1)
             links=[a for a in nav[0].find('a') if a.attrs.get('href','').startswith('/characters/')]
-            self.assertEqual([(a.attrs['href'],a.text().strip()) for a in links],menu)
+            self.assertEqual([(a.attrs['href'],a.text().strip()) for a in links],character_links)
             chips=[node for node in home.body.walk() if node.has_class('bunny-chips__swatch')]
             custom=[chip for chip in chips if 'style' in chip.attrs]
             self.assertEqual(len(custom),1)
@@ -231,6 +233,4 @@ class FixtureCharacterTest(unittest.TestCase):
             self.assertEqual([(a.attrs['href'],a.text()) for a in cards[0].find('a') if a.attrs['href'].endswith('/')],[('/characters/fixture/','Fixture')])
             reference_pager=[node for node in reference.body.walk() if node.has_class('bunny-pager')]
             self.assertEqual([a.attrs['href'] for a in reference_pager[0].find('a')],['/characters/fixture/part-2'])
-            stub=self.parsed(root,'characters/fixture/legacy.html')
-            self.assertEqual([n.attrs['content'] for n in stub.root.find('meta') if n.attrs.get('http-equiv')=='refresh'],['3; url=/characters/fixture/#parts'])
-            self.assertEqual(self.main_markup(dist),baseline,'Bunny main markup must remain byte-identical after the overlay')
+            self.assertEqual(self.main_markup(dist),baseline,'Bonnie main markup must remain byte-identical after the overlay')

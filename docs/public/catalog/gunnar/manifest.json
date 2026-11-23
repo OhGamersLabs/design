@@ -1,0 +1,1206 @@
+{
+  "schema_version": "2.0",
+  "character_id": "gunnar",
+  "language": "zh-CN",
+  "title": "冈纳·霍尔姆 设计参考",
+  "status": "local-review",
+  "asset_count": 52,
+  "assets": [
+    {
+      "id": "anchor-card-latest",
+      "character": "gunnar",
+      "title": "anchor-card-latest",
+      "original": {
+        "path": "/media/gunnar/anchor-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5440700,
+        "sha256": "b78c61b40913746cc7e6a49e79e498ccced928e6083c51ef941970332ee29488",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/anchor-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2218334,
+        "sha256": "c0d148536fb2ca1f6d3aa5bee000a57c0cbf4890260f51ca9ef513749b85cb6c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "armor-back-latest",
+      "character": "gunnar",
+      "title": "armor-back-latest",
+      "original": {
+        "path": "/media/gunnar/armor-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4002545,
+        "sha256": "3617e00e8d1615c064346bb4a3a9db96c48372b3f7e26aca7f47831818bba20a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/armor-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1268884,
+        "sha256": "af3708d239028e0d528cad2424aa49ca6327dfd464c1e6863b0d5742204f685f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "armor-board-latest",
+      "character": "gunnar",
+      "title": "armor-board-latest",
+      "original": {
+        "path": "/media/gunnar/armor-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5268335,
+        "sha256": "b9086000c7d6531074270c1b92d14392a2c5e29fca6cbaeb81c3d431c487d259",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/armor-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1621642,
+        "sha256": "d4adda65f67c75f5aafb75e335fad623375b603737f2474bd5d94783177a4c35",
+        "alpha": false
+      }
+    },
+    {
+      "id": "armor-front-latest",
+      "character": "gunnar",
+      "title": "armor-front-latest",
+      "original": {
+        "path": "/media/gunnar/armor-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4264802,
+        "sha256": "a6bd6081ebb84d80f0e853895aeeae3f704552f9f0c64d72daa1127cf9a7f242",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/armor-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1352842,
+        "sha256": "f681e173ad5498edec66cd8d9ab6f14e9e140797f9631062047aaedef6ea01db",
+        "alpha": false
+      }
+    },
+    {
+      "id": "armor-right-latest",
+      "character": "gunnar",
+      "title": "armor-right-latest",
+      "original": {
+        "path": "/media/gunnar/armor-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3389580,
+        "sha256": "7c96242ecaf1ef1ce52a1b604bac28c95455fbce6f0076822483e2b8aab8a14f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/armor-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1108872,
+        "sha256": "6e18779e8222c03754ba886a59e15a3ada3decf9a1cc01b53a997750d2df717d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "armor-tpose-back-latest",
+      "character": "gunnar",
+      "title": "armor-tpose-back-latest",
+      "original": {
+        "path": "/media/gunnar/armor-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3711290,
+        "sha256": "755a6021f3bf30df6154f49e0792f4575997a9345f111da8ea4467b726329842",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/armor-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1644504,
+        "sha256": "d9bb6f1a6d96a34284683f28961fa630e889d222a7728fcd4aff113f479fc476",
+        "alpha": false
+      }
+    },
+    {
+      "id": "armor-tpose-front-latest",
+      "character": "gunnar",
+      "title": "armor-tpose-front-latest",
+      "original": {
+        "path": "/media/gunnar/armor-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3843805,
+        "sha256": "8ba69125835923ac66a4cd872e66576eac257085c4ebf3d423f0221f58a84366",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/armor-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1699624,
+        "sha256": "2746f8e1acd2bafed24e95a86c11767fddce67eda60aa1207c3cc66793004c2c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "armor-tpose-left-latest",
+      "character": "gunnar",
+      "title": "armor-tpose-left-latest",
+      "original": {
+        "path": "/media/gunnar/armor-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3079298,
+        "sha256": "9194a54e035fa7fe560b8e9e6c70a5538c805f8592ecd72add564d165c8682eb",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/armor-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1394336,
+        "sha256": "4f0555fc17c27c593c46fe67df72edc1cf36cceb88d8756347f4251b6b14b71b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "armor-tpose-right-latest",
+      "character": "gunnar",
+      "title": "armor-tpose-right-latest",
+      "original": {
+        "path": "/media/gunnar/armor-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3107399,
+        "sha256": "d7cbd7e972d3761d497a2056c791875df0b47c9a901da72152cad023e389bbb8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/armor-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1402226,
+        "sha256": "4828fd22d60e3faa8055c4edf2469aa201526927dadc33e7a98e1de3082e489b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-back-latest",
+      "character": "gunnar",
+      "title": "body-back-latest",
+      "original": {
+        "path": "/media/gunnar/body-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3376366,
+        "sha256": "1d103d58330dffb9f351368653bce97932da163209d1decc698e992de26b1dc2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/body-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1148810,
+        "sha256": "e7ad6856b9230635a40fd9a2e5cfb602c63dc28de554d9f64432c9268fe1a0b6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-front-latest",
+      "character": "gunnar",
+      "title": "body-front-latest",
+      "original": {
+        "path": "/media/gunnar/body-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3406421,
+        "sha256": "97caafdeb4cf9b9ee4b8328998ec169af44c56de9418e189c5920abbd3ee37dd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/body-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1165960,
+        "sha256": "20edd1c4665510de1582760af2dfc8aa00c0e14dba7aa4532b3dcfd8266207c6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-right-latest",
+      "character": "gunnar",
+      "title": "body-right-latest",
+      "original": {
+        "path": "/media/gunnar/body-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 2985720,
+        "sha256": "98d22608bc9e8a74080b46854d2a1dc10e82811340351ab9e60b0a3ff704eb88",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/body-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1039618,
+        "sha256": "1604be5aaffec9ed29445e8aa639811d51da01ad4e75f1632a9c6c3bbafdfa8e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-back-latest",
+      "character": "gunnar",
+      "title": "body-tpose-back-latest",
+      "original": {
+        "path": "/media/gunnar/body-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3022735,
+        "sha256": "0a6f6890c5352cfedd17e4327465e98b3866ebd3080ddec1c6368479129fcf06",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/body-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1409260,
+        "sha256": "6d51e4281f2dfff41e55e687a1c42309496f06f689f5d5330de14c27af715d23",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-front-latest",
+      "character": "gunnar",
+      "title": "body-tpose-front-latest",
+      "original": {
+        "path": "/media/gunnar/body-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3030232,
+        "sha256": "b6fa4597aecdfcd1a7f3fe948b9fb8c2fb21c53f74974e77dea4c81e3b849423",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/body-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1407072,
+        "sha256": "6995d7d5a12fe36556780ee39b818f8c2d16ccb8eff23dcccb2bc46ea5287200",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-left-latest",
+      "character": "gunnar",
+      "title": "body-tpose-left-latest",
+      "original": {
+        "path": "/media/gunnar/body-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2762173,
+        "sha256": "d9c124094be87fda0f6c1ffceccd02d84c9268a2a539081775587e310c1e38ed",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/body-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1313224,
+        "sha256": "1c24a6c11496b16e60044f7f9c75587a1dd0e0e3d98378a1591fb86e7329b66f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "body-tpose-right-latest",
+      "character": "gunnar",
+      "title": "body-tpose-right-latest",
+      "original": {
+        "path": "/media/gunnar/body-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2830780,
+        "sha256": "9ae3edd869003c4967ed0479ac165d414ebc77b682d26b8bf8302102d77870fd",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/body-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1341318,
+        "sha256": "345db16b2816f8345620e0943f002841683a3c224e4a8a477d3ce42734ddb676",
+        "alpha": false
+      }
+    },
+    {
+      "id": "breakdown-sheet-latest",
+      "character": "gunnar",
+      "title": "breakdown-sheet-latest",
+      "original": {
+        "path": "/media/gunnar/breakdown-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3840,
+        "height": 2296,
+        "bytes": 3475683,
+        "sha256": "005ef8335251ae27e672559c3c34914440217826af9bfe0de7bb6f31a12fb410",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/breakdown-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1225,
+        "bytes": 1011248,
+        "sha256": "c38e000a567296eab8735b4437a8b6b33b6fbcade0d9e7f261631d3d2737f73b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "character-card-latest",
+      "character": "gunnar",
+      "title": "character-card-latest",
+      "original": {
+        "path": "/media/gunnar/character-card-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 5406117,
+        "sha256": "c7ab1f423eb769b39dd8a2c74b95f5a579bb80b5d57090d70a1e73c755f8e275",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/character-card-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 2237056,
+        "sha256": "efaef94df67cc94c1586440831ceadb629246f14d669d7e7f62517012c0ec34f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "combat-suit-back-latest",
+      "character": "gunnar",
+      "title": "combat-suit-back-latest",
+      "original": {
+        "path": "/media/gunnar/combat-suit-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3598600,
+        "sha256": "7c24fa379f3e79e083f97cb1ab249a587886ce9546943e18557d5bfbf84e47c4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/combat-suit-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1178108,
+        "sha256": "b8c791e17c41fd4573f19874e7ea415a606723dbc6cfdf1b5d11e84bb6eaf9b0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "combat-suit-board-latest",
+      "character": "gunnar",
+      "title": "combat-suit-board-latest",
+      "original": {
+        "path": "/media/gunnar/combat-suit-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5446130,
+        "sha256": "882852b523084299b5008524b04476ad1d5a516523c511177a133b2eeb2c25ea",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/combat-suit-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1715990,
+        "sha256": "2e2b4f03bb5fac12fae0113e56a396b5ab34bb510beb37d794feef43ce906735",
+        "alpha": false
+      }
+    },
+    {
+      "id": "combat-suit-front-latest",
+      "character": "gunnar",
+      "title": "combat-suit-front-latest",
+      "original": {
+        "path": "/media/gunnar/combat-suit-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3798632,
+        "sha256": "95fbb8c2e923322dae3025f00524fd46daf705580b22d9bb69d7592145065017",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/combat-suit-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1239550,
+        "sha256": "75e9952357f1a2d8dda2f216b9069db9514377b7bce1b492880f89f71732d7ce",
+        "alpha": false
+      }
+    },
+    {
+      "id": "combat-suit-right-latest",
+      "character": "gunnar",
+      "title": "combat-suit-right-latest",
+      "original": {
+        "path": "/media/gunnar/combat-suit-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3199693,
+        "sha256": "8c4e822d9712410406c6d398f44ba69cc5ded431de26490708a7ab7ff34b173e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/combat-suit-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1072182,
+        "sha256": "358719bffe3ab1faf00c2ffcc3dd34678e513db32f0d3df86a652b035cf47295",
+        "alpha": false
+      }
+    },
+    {
+      "id": "combat-suit-tpose-back-latest",
+      "character": "gunnar",
+      "title": "combat-suit-tpose-back-latest",
+      "original": {
+        "path": "/media/gunnar/combat-suit-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3388086,
+        "sha256": "8d4394362ef26d4c9cfd32e14c8613de806bab78892b5b0a7f6263b066b11157",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/combat-suit-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1547000,
+        "sha256": "17ba1321de34223f9d314366a5cba80e1fd3c63d41f4d9db50cc3497dac92824",
+        "alpha": false
+      }
+    },
+    {
+      "id": "combat-suit-tpose-front-latest",
+      "character": "gunnar",
+      "title": "combat-suit-tpose-front-latest",
+      "original": {
+        "path": "/media/gunnar/combat-suit-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3531138,
+        "sha256": "68b676cd9a34e62133cab4339160b0a0fdb493b48c37b4da8aed53a9d7f4104e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/combat-suit-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1597142,
+        "sha256": "d4ef660b1900513226080542a55c0e8d761ebceedc637337a798b4dfeea92894",
+        "alpha": false
+      }
+    },
+    {
+      "id": "combat-suit-tpose-left-latest",
+      "character": "gunnar",
+      "title": "combat-suit-tpose-left-latest",
+      "original": {
+        "path": "/media/gunnar/combat-suit-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2961225,
+        "sha256": "41f368aec4a45e6fffa21abb2419f7b1252ffcfdcd88b990df867d35f76b5cc5",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/combat-suit-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1358038,
+        "sha256": "c67cc85a891d07d7ef037a6bbcc53efc760ace0bcf174c038b826ef76b5061b9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "combat-suit-tpose-right-latest",
+      "character": "gunnar",
+      "title": "combat-suit-tpose-right-latest",
+      "original": {
+        "path": "/media/gunnar/combat-suit-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 2989149,
+        "sha256": "3fcde915f7ad9a1a15ffad75a8aeef99b6f046250f7980f3c2a2b5948bdd5d94",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/combat-suit-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1373674,
+        "sha256": "1dc7a7d01324c9ae931925e4f3f2691414a72d7d0dd038a3c93aeb26b0f935ab",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "gunnar",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/gunnar/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 7063025,
+        "sha256": "ed1099fc4d062c8bea6eac9b3db432c984d1c1309da2088894369cfa1b80f483",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 2174202,
+        "sha256": "777a34aa216eccc40c957173e54060b3badcb666223e19db119521d5af67b0cf",
+        "alpha": false
+      }
+    },
+    {
+      "id": "face-sheet-latest",
+      "character": "gunnar",
+      "title": "face-sheet-latest",
+      "original": {
+        "path": "/media/gunnar/face-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5560838,
+        "sha256": "8027181873583ea6eca8e90a7907325acc380e7608659222bcb2bdeaf83db8f7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/face-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1748992,
+        "sha256": "23e838ac8dd183c5c907c817dd7737fb8479e8ff3526de3b97fdb114b299118e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "rifle-back-latest",
+      "character": "gunnar",
+      "title": "rifle-back-latest",
+      "original": {
+        "path": "/media/gunnar/rifle-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4449595,
+        "sha256": "31684820f5da45514421b6bf48226fb2f0c4cdf3a660e7b73f95a89198679603",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/rifle-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1414966,
+        "sha256": "b5048a5b0bec3abfb058007aff31069dcb8582e57d8f58f9086ce467e3296683",
+        "alpha": false
+      }
+    },
+    {
+      "id": "rifle-board-latest",
+      "character": "gunnar",
+      "title": "rifle-board-latest",
+      "original": {
+        "path": "/media/gunnar/rifle-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5086506,
+        "sha256": "1f40e8f7e8c1496396935ff657060eb62759aae257a02e6a9211d7956b05ed15",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/rifle-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1628550,
+        "sha256": "4c8c4964cb35d858b832e41075d6fb09524119f2eb347be6b08edaa776bc63e6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "rifle-front-latest",
+      "character": "gunnar",
+      "title": "rifle-front-latest",
+      "original": {
+        "path": "/media/gunnar/rifle-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4596311,
+        "sha256": "72e8f0d233ea0cff203dd7c55c20c2ee996d10f708ac76e6ff89f5cf979055ad",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/rifle-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1433276,
+        "sha256": "75a1f33fab59dcde97fc0d95c502d84271686ce88438677688ea7dab7a7d3b03",
+        "alpha": false
+      }
+    },
+    {
+      "id": "rifle-right-latest",
+      "character": "gunnar",
+      "title": "rifle-right-latest",
+      "original": {
+        "path": "/media/gunnar/rifle-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3679854,
+        "sha256": "bc5051064925caacca84a25c17cb7001012cfc231f096a3b96062d0219355b22",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/rifle-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1194250,
+        "sha256": "e7855248feaccc251cb2de7e9afd0cad33dfbb0694cdbe4de4a8b9baa022c34e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "rifle-tpose-back-latest",
+      "character": "gunnar",
+      "title": "rifle-tpose-back-latest",
+      "original": {
+        "path": "/media/gunnar/rifle-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3968514,
+        "sha256": "5787a0532c84e7ee2cd9ffba6684d8d2b69c87650b3a0c0a6236f4adf844945c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/rifle-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1756016,
+        "sha256": "0d1fd361a02647ba6a2aa16b21a07e36757b8c7d318179215e20d2f5115d4409",
+        "alpha": false
+      }
+    },
+    {
+      "id": "rifle-tpose-front-latest",
+      "character": "gunnar",
+      "title": "rifle-tpose-front-latest",
+      "original": {
+        "path": "/media/gunnar/rifle-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 4040995,
+        "sha256": "d54c16541385b4e0a43e77ca18a1e2ec8989d4ff60581ff2e77470a2523fdb31",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/rifle-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1776204,
+        "sha256": "8cec819932ed1bb189b7021f1c6dd66eac5bfecd98d603d343bc59954c9ee9a8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "rifle-tpose-left-latest",
+      "character": "gunnar",
+      "title": "rifle-tpose-left-latest",
+      "original": {
+        "path": "/media/gunnar/rifle-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3311355,
+        "sha256": "f467afeecc7bc1b45a2278e2ff11cd74d48c0bcc08730bd312c2d1a3e6277b00",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/rifle-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1492966,
+        "sha256": "43e1aed09465c596997fbaf96009e57e9d988de5155921fbd2a7d80421e12c43",
+        "alpha": false
+      }
+    },
+    {
+      "id": "rifle-tpose-right-latest",
+      "character": "gunnar",
+      "title": "rifle-tpose-right-latest",
+      "original": {
+        "path": "/media/gunnar/rifle-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3333753,
+        "sha256": "5c93bbf49555e295484121069193d55518a9c1fef6486b9300a516c005ba5df3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/rifle-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1496026,
+        "sha256": "6c68ab48fc1a673e7cd5fd8a70a7e7989935c6899424dd4b09adf7dbeab50527",
+        "alpha": false
+      }
+    },
+    {
+      "id": "tactical-rig-back-latest",
+      "character": "gunnar",
+      "title": "tactical-rig-back-latest",
+      "original": {
+        "path": "/media/gunnar/tactical-rig-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3772269,
+        "sha256": "2decd558dc1e5ed7755ba9e1801896890b340a08223f198ed6afae5204a1698d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/tactical-rig-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1222022,
+        "sha256": "1fcb179c281e835277ac5b4012140bd9b963f19143f299e4a2c0dd8c1ae40805",
+        "alpha": false
+      }
+    },
+    {
+      "id": "tactical-rig-board-latest",
+      "character": "gunnar",
+      "title": "tactical-rig-board-latest",
+      "original": {
+        "path": "/media/gunnar/tactical-rig-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 5401193,
+        "sha256": "bee3d2a8ebbc6740d09f363d344827bb3f341084432abc8366861c67ee081c00",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/tactical-rig-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1690024,
+        "sha256": "328d690338364baa8f312fce76a8a75e3613e32201a1b037349d7fa9800bc629",
+        "alpha": false
+      }
+    },
+    {
+      "id": "tactical-rig-front-latest",
+      "character": "gunnar",
+      "title": "tactical-rig-front-latest",
+      "original": {
+        "path": "/media/gunnar/tactical-rig-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4083327,
+        "sha256": "51657047ce0372909bd0457137646a0cdf7dba7bf56a69c0410c40c0cc1a8752",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/tactical-rig-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1303256,
+        "sha256": "071495998bc6f3d8c9fdf54671fc436f7fbdb09a288ab4964626eb5393101f98",
+        "alpha": false
+      }
+    },
+    {
+      "id": "tactical-rig-right-latest",
+      "character": "gunnar",
+      "title": "tactical-rig-right-latest",
+      "original": {
+        "path": "/media/gunnar/tactical-rig-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3334530,
+        "sha256": "b47b33737b262ccf2c9bcd72211e580955da3c8bc9f0ec5fd60613e19b9a7b1d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/tactical-rig-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1103894,
+        "sha256": "e04b43ba620ed9e30dde414a174cf072940dfd8cf50f626b10f347939acf7ccd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "tactical-rig-tpose-back-latest",
+      "character": "gunnar",
+      "title": "tactical-rig-tpose-back-latest",
+      "original": {
+        "path": "/media/gunnar/tactical-rig-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3469051,
+        "sha256": "1355300630d8690482a682828a207d98aba1d9acb8912597fe528cf5ae8a0c42",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/tactical-rig-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1561914,
+        "sha256": "f3e80d105dd883f2ceaf8a4a6367b4f81a0bbcc92d854a6ad22adcbd70f7078c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "tactical-rig-tpose-front-latest",
+      "character": "gunnar",
+      "title": "tactical-rig-tpose-front-latest",
+      "original": {
+        "path": "/media/gunnar/tactical-rig-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3705306,
+        "sha256": "f31eda3e53c517d5b4f9a5a3fee8fed335d6c808136cd0ed8fc7091b70bac9aa",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/tactical-rig-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1644878,
+        "sha256": "054856ed009fdb9b8020022178b596535d6b2092debc4eb1e0efdf3654a39ed4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "tactical-rig-tpose-left-latest",
+      "character": "gunnar",
+      "title": "tactical-rig-tpose-left-latest",
+      "original": {
+        "path": "/media/gunnar/tactical-rig-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3004963,
+        "sha256": "5b6064c1c1cf9013f90efc676d9cb0f085806a723a03016bb9f2e54219dd5481",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/tactical-rig-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1378614,
+        "sha256": "a643704f47690045215c0d7d9f9a5134d4bc96a3e977e5af040b74d4f3f5bcc1",
+        "alpha": false
+      }
+    },
+    {
+      "id": "tactical-rig-tpose-right-latest",
+      "character": "gunnar",
+      "title": "tactical-rig-tpose-right-latest",
+      "original": {
+        "path": "/media/gunnar/tactical-rig-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3144190,
+        "sha256": "50a39bfaffe9a3a3ca1711b0a95604fc49107e0ef76778ab0e42e3a26869884e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/tactical-rig-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1420756,
+        "sha256": "7c00f2412ddd492422e8cc761bf94a2f5b89b5e2f0f713b04690b152ada625de",
+        "alpha": false
+      }
+    },
+    {
+      "id": "visor-mask-back-latest",
+      "character": "gunnar",
+      "title": "visor-mask-back-latest",
+      "original": {
+        "path": "/media/gunnar/visor-mask-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4071343,
+        "sha256": "2f12ddaaddab0b4213de263272491f7fd7a7b3c19a18d41ae7eb86d4652e3bd0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/visor-mask-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1298002,
+        "sha256": "689e9b8b08dd98ea79d1708e0783505683c2706d427be64ad6d6417705cbd325",
+        "alpha": false
+      }
+    },
+    {
+      "id": "visor-mask-board-latest",
+      "character": "gunnar",
+      "title": "visor-mask-board-latest",
+      "original": {
+        "path": "/media/gunnar/visor-mask-board-latest.png",
+        "mime_type": "image/png",
+        "width": 3520,
+        "height": 2352,
+        "bytes": 4842135,
+        "sha256": "0d7d1b5ceaf2eac30bc04dc01ef22945996d36484a143db3001f457ca7c862ec",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/visor-mask-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 1368,
+        "bytes": 1519228,
+        "sha256": "3361aaf47dcf514e5da37f67f015ccf1b4cbd5ee73f70d03752d8e04f83c4edf",
+        "alpha": false
+      }
+    },
+    {
+      "id": "visor-mask-front-latest",
+      "character": "gunnar",
+      "title": "visor-mask-front-latest",
+      "original": {
+        "path": "/media/gunnar/visor-mask-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 4313263,
+        "sha256": "9300637880652bdea8532833913b473866af14a230db2895d7f90832df5e763a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/visor-mask-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1355932,
+        "sha256": "cbe42712867d6ddd46c9beaaa8adc644340ab73c484619ff40a3a52675685c0e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "visor-mask-right-latest",
+      "character": "gunnar",
+      "title": "visor-mask-right-latest",
+      "original": {
+        "path": "/media/gunnar/visor-mask-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2352,
+        "height": 3520,
+        "bytes": 3456886,
+        "sha256": "4a3fd4b533228267c3ef4bf2fda963fbde7829fb473f6551bbbd64c589c26852",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/visor-mask-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1368,
+        "height": 2048,
+        "bytes": 1123960,
+        "sha256": "7d005a2e6a00e0b55f646e1874f6a3d25cadbb08a1f5e3727a65ac0137f8b40e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "visor-mask-tpose-back-latest",
+      "character": "gunnar",
+      "title": "visor-mask-tpose-back-latest",
+      "original": {
+        "path": "/media/gunnar/visor-mask-tpose-back-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3650797,
+        "sha256": "fadedd0314bc8ad6c7b8805a0be06e7815ddb8c6f876f1dba6cd009bd8fe3420",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/visor-mask-tpose-back-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1625740,
+        "sha256": "b172da608393dcc43e98e05ab0223758336c9b700c668a6cb52f4feea100dcc8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "visor-mask-tpose-front-latest",
+      "character": "gunnar",
+      "title": "visor-mask-tpose-front-latest",
+      "original": {
+        "path": "/media/gunnar/visor-mask-tpose-front-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3866118,
+        "sha256": "5679440c5b1fa14ff56465df7d570eb75f4033627b37042fdb1cb9a13315679e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/visor-mask-tpose-front-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1711402,
+        "sha256": "798b83ffd6ea7738a991437afbb4df3e68baccb37c08b8e3f229f178e479ef20",
+        "alpha": false
+      }
+    },
+    {
+      "id": "visor-mask-tpose-left-latest",
+      "character": "gunnar",
+      "title": "visor-mask-tpose-left-latest",
+      "original": {
+        "path": "/media/gunnar/visor-mask-tpose-left-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3048864,
+        "sha256": "a66f11660507a1fc3be63aa75b94b91865e1779dd544d870e696d82ce5bf6b98",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/visor-mask-tpose-left-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1382094,
+        "sha256": "a7dd2744d122a0ac391e73e49b5b3b8a2dc97e80ac6c6a9be466450f1e40170a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "visor-mask-tpose-right-latest",
+      "character": "gunnar",
+      "title": "visor-mask-tpose-right-latest",
+      "original": {
+        "path": "/media/gunnar/visor-mask-tpose-right-latest.png",
+        "mime_type": "image/png",
+        "width": 2880,
+        "height": 2880,
+        "bytes": 3136741,
+        "sha256": "366c41698a761ae1376fec2de162c222cf52454cb5f9ce273e33500201bbaf41",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/gunnar/visor-mask-tpose-right-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2048,
+        "height": 2048,
+        "bytes": 1420428,
+        "sha256": "4fd02fda856810542642fb571636528b516b5cf85e1ce9dca3c8fa7e66ce83cd",
+        "alpha": false
+      }
+    }
+  ]
+}

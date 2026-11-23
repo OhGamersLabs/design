@@ -1,0 +1,211 @@
+{
+  "chapter": "layers",
+  "noun": "衣层",
+  "wear": "穿着",
+  "items": [
+    {
+      "layer": 0,
+      "name": "身体",
+      "path": "/characters/cruz/body",
+      "front": "body-front-latest",
+      "side": "body-right-latest",
+      "back": "body-back-latest",
+      "tpose": {
+        "front": "body-tpose-front-latest",
+        "right": "body-tpose-right-latest",
+        "back": "body-tpose-back-latest",
+        "left": "body-tpose-left-latest"
+      },
+      "summary": "基于女性标准素体的身体基准，小麦肤色、栗棕高丸子头与深炭黑两件式人台打底。",
+      "facts": [
+        {
+          "term": "形体",
+          "value": "基于女性标准素体，赤脚约 6.5 头身，厘米身高未设定"
+        },
+        {
+          "term": "发型",
+          "value": "栗棕色高丸子头配不对称斜刘海，无发夹耳饰"
+        },
+        {
+          "term": "五官",
+          "value": "琥珀色杏眼，中性闭口平静神态"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 1 到第 5 层"
+        }
+      ],
+      "leftRight": "发缝分在角色右侧并完整露出角色右耳；长斜刘海覆过角色左颊遮住角色左耳。角色右侧面与角色左侧面双耳呈现完全不对称。"
+    },
+    {
+      "layer": 1,
+      "name": "贴身连体工装",
+      "path": "/characters/cruz/jumpsuit",
+      "front": "jumpsuit-front-latest",
+      "side": "jumpsuit-right-latest",
+      "back": "jumpsuit-back-latest",
+      "tpose": {
+        "front": "jumpsuit-tpose-front-latest",
+        "right": "jumpsuit-tpose-right-latest",
+        "back": "jumpsuit-tpose-back-latest",
+        "left": "jumpsuit-tpose-left-latest"
+      },
+      "summary": "无袖平领贴身连体工装，深棕胸片与米白下装衔接 V 形腰框，双膝嵌入六角护膝。",
+      "facts": [
+        {
+          "term": "版型",
+          "value": "无袖平底圆领齐锁骨根部，露出完整颈部皮肤，后背隐形中线拉链穿脱"
+        },
+        {
+          "term": "腰框",
+          "value": "高腰 V 形米白模塑腰框配深炭灰包边"
+        },
+        {
+          "term": "护膝",
+          "value": "双侧镜像嵌入式六角深炭蓝复合护膝，带银色平铆钉与亮青中心嵌徽"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 2 到第 5 层"
+        }
+      ],
+      "leftRight": "米白腰框角色右上胯饰亮青长条嵌块，角色左上胯饰浅灰卡扣配亮青窄边。大腿外侧自上而下延伸细亮青线。"
+    },
+    {
+      "layer": 2,
+      "name": "高帮战术靴与手套",
+      "path": "/characters/cruz/boots-gloves",
+      "front": "boots-gloves-front-latest",
+      "side": "boots-gloves-right-latest",
+      "back": "boots-gloves-back-latest",
+      "tpose": {
+        "front": "boots-gloves-tpose-front-latest",
+        "right": "boots-gloves-tpose-right-latest",
+        "back": "boots-gloves-tpose-back-latest",
+        "left": "boots-gloves-tpose-left-latest"
+      },
+      "summary": "双侧镜像高帮战术靴与全指装甲手套，亮青加厚鞋舌配仅位于外侧脚踝的亮青旋钮。",
+      "facts": [
+        {
+          "term": "鞋靴",
+          "value": "平滑深棕高帮靴领（无后提环）、亮青鞋舌、白灰加厚中底与生胶棕锯齿大底"
+        },
+        {
+          "term": "鞋踝旋钮",
+          "value": "亮青圆形机械旋钮严格装在角色左脚与角色右脚的外侧脚踝"
+        },
+        {
+          "term": "手套",
+          "value": "深炭灰全指露掌抓握手套，配深棕腕带、亮青手背护甲与金黄指节防撞条"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 3 到第 5 层"
+        }
+      ],
+      "leftRight": "双靴为双侧镜像对称结构：亮青圆形旋钮仅出现在外侧踝领，双脚内踝保持平滑避免磕碰；角色右侧面与角色左侧面均可清晰看到外侧旋钮。"
+    },
+    {
+      "layer": 3,
+      "name": "腰带、枪套与挂环",
+      "path": "/characters/cruz/belt-holster",
+      "front": "belt-holster-front-latest",
+      "side": "belt-holster-right-latest",
+      "back": "belt-holster-back-latest",
+      "tpose": {
+        "front": "belt-holster-tpose-front-latest",
+        "right": "belt-holster-tpose-right-latest",
+        "back": "belt-holster-tpose-back-latest",
+        "left": "belt-holster-tpose-left-latest"
+      },
+      "summary": "360 度连续竖棱焦棕织带腰带与大腿带，角色右胯配副武器枪套，角色左腿挂亮青 D 形登山扣。",
+      "facts": [
+        {
+          "term": "腰带",
+          "value": "沿着米白腰框上缘环绕一周的竖棱焦棕织带，前中配平低哑光枪灰扣头"
+        },
+        {
+          "term": "角色右胯",
+          "value": "切面深炭灰硬壳枪套（配亮青快拆键与双银六角螺钉）与双轨电磁脉冲副武器（钛灰双导轨配亮青等离子槽、米白散热护壳与炭灰复合握把）"
+        },
+        {
+          "term": "角色左腿",
+          "value": "焦棕短织带环悬挂阳极氧化亮青中空 D 形战术锁扣登山扣"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 4、第 5 层"
+        }
+      ],
+      "leftRight": "强左右识别层：枪套与副武器固定在角色右胯外侧（正面图位于画面左边），亮青中空 D 形登山扣悬挂在角色左大腿外前侧（正面图位于画面右边）。"
+    },
+    {
+      "layer": 4,
+      "name": "蓝灰短款战术夹克",
+      "path": "/characters/cruz/jacket",
+      "front": "jacket-front-latest",
+      "side": "jacket-right-latest",
+      "back": "jacket-back-latest",
+      "tpose": {
+        "front": "jacket-tpose-front-latest",
+        "right": "jacket-tpose-right-latest",
+        "back": "jacket-tpose-back-latest",
+        "left": "jacket-tpose-left-latest"
+      },
+      "summary": "修身立领蓝灰短款机能夹克，前襟敞开，胸前白色 OG 标配角色右上臂翻盖工具臂袋与双袖警示印花。",
+      "facts": [
+        {
+          "term": "剪裁",
+          "value": "收腰利落飞行员短夹克袖型，前襟敞开至自然腰线，高立领配外露银齿拉链"
+        },
+        {
+          "term": "后背",
+          "value": "后领根部中空亮青挂环，上背设深炭灰横轭与白色 OG 标志"
+        },
+        {
+          "term": "袖部",
+          "value": "角色右上臂设深炭灰金黄翻盖工具臂袋配六角螺母标；双袖统配平行金黄双斜杠基线纹"
+        },
+        {
+          "term": "外层",
+          "value": "之上还有第 5 层"
+        }
+      ],
+      "leftRight": "角色右胸上方带深炭灰横条、开阔蓝灰胸片居中白色 OG 标志与斜插袋，角色右上臂设深炭灰金黄翻盖工具臂袋及实心六角螺母标，角色右前臂外侧带平行金黄双斜杠基线纹；角色左胸为蓝灰素面拼片，角色左上臂仅设银齿斜拉链并在拉链外侧配同款金黄双斜杠基线纹。"
+    },
+    {
+      "layer": 5,
+      "name": "肩带背板与大扳手",
+      "path": "/characters/cruz/back-rig",
+      "front": "back-rig-front-latest",
+      "side": "back-rig-right-latest",
+      "back": "back-rig-back-latest",
+      "tpose": {
+        "front": "back-rig-tpose-front-latest",
+        "right": "back-rig-tpose-right-latest",
+        "back": "back-rig-tpose-back-latest",
+        "left": "back-rig-tpose-left-latest"
+      },
+      "summary": "穿在蓝灰夹克外侧的深炭黑梯形纹肩带、超薄六角工具背板与斜挂大号拉丝钢两用扳手，构成完整装。",
+      "facts": [
+        {
+          "term": "背具",
+          "value": "加厚模塑矩形棱纹深炭黑双肩带经腋下绕扣至肩胛间超薄六角背板"
+        },
+        {
+          "term": "固定夹",
+          "value": "上下双弹簧 C 型快拆夹带亮青解锁拨片，上夹顶抵扳手颈部防止滑落"
+        },
+        {
+          "term": "大扳手",
+          "value": "拉丝不锈钢两用扳手，前端开口 U 形钳口带阶梯精密齿纹，尾端为封闭十二角梅花圈"
+        },
+        {
+          "term": "外层",
+          "value": "最外层"
+        }
+      ],
+      "leftRight": "大扳手斜向背负：开口大钳口探出角色右肩后上方（正面图在画面左上方，背面图在画面右上方），梅花尾端斜向角色左腰夹克下摆边缘，方便角色左手反手取用。"
+    }
+  ]
+}

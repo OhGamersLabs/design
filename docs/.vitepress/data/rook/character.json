@@ -1,0 +1,41 @@
+{
+  "name": "罗克·卡迈恩",
+  "role": "重火力机甲",
+  "order": 9,
+  "portrait": "armor-details-front-latest",
+  "pages": [
+    {
+      "path": "/characters/rook/body",
+      "title": "双粉本体"
+    },
+    {
+      "path": "/characters/rook/load-frame",
+      "title": "重载承力内架"
+    },
+    {
+      "path": "/characters/rook/torso-armor",
+      "title": "躯干重甲与排热舱"
+    },
+    {
+      "path": "/characters/rook/shoulder-pods",
+      "title": "双肩集束导弹舱"
+    },
+    {
+      "path": "/characters/rook/arm-cannons",
+      "title": "双臂重装武装炮"
+    },
+    {
+      "path": "/characters/rook/leg-armor",
+      "title": "钟形超重下肢与驻锄"
+    },
+    {
+      "path": "/characters/rook/helmet-sensors",
+      "title": "伪装头盔与肩顶模块"
+    },
+    {
+      "path": "/characters/rook/armor-details",
+      "title": "装甲细节与涂装终稿"
+    }
+  ],
+  "accent": "#B03E35"
+}
