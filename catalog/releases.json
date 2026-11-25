@@ -4318,8 +4318,38 @@
     },
     {
       "character": "world",
-      "path": "/media/world/eileen-darrow-expressions-latest.png",
-      "key": "x_ops/design/characters/world/latest/eileen-darrow-expressions-latest.png",
+      "path": "/media/world/eileen-darrow-expressions-anger-latest.png",
+      "key": "x_ops/design/characters/world/latest/eileen-darrow-expressions-anger-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/eileen-darrow-expressions-baseline-latest.png",
+      "key": "x_ops/design/characters/world/latest/eileen-darrow-expressions-baseline-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/eileen-darrow-expressions-desires-latest.png",
+      "key": "x_ops/design/characters/world/latest/eileen-darrow-expressions-desires-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/eileen-darrow-expressions-fear-pain-latest.png",
+      "key": "x_ops/design/characters/world/latest/eileen-darrow-expressions-fear-pain-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/eileen-darrow-expressions-joy-latest.png",
+      "key": "x_ops/design/characters/world/latest/eileen-darrow-expressions-joy-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/eileen-darrow-expressions-sorrow-latest.png",
+      "key": "x_ops/design/characters/world/latest/eileen-darrow-expressions-sorrow-latest.png",
       "contentType": "image/png"
     },
     {
@@ -4456,8 +4486,38 @@
     },
     {
       "character": "world",
-      "path": "/media/world/renn-darrow-expressions-latest.png",
-      "key": "x_ops/design/characters/world/latest/renn-darrow-expressions-latest.png",
+      "path": "/media/world/renn-darrow-expressions-anger-latest.png",
+      "key": "x_ops/design/characters/world/latest/renn-darrow-expressions-anger-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/renn-darrow-expressions-baseline-latest.png",
+      "key": "x_ops/design/characters/world/latest/renn-darrow-expressions-baseline-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/renn-darrow-expressions-desires-latest.png",
+      "key": "x_ops/design/characters/world/latest/renn-darrow-expressions-desires-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/renn-darrow-expressions-fear-pain-latest.png",
+      "key": "x_ops/design/characters/world/latest/renn-darrow-expressions-fear-pain-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/renn-darrow-expressions-joy-latest.png",
+      "key": "x_ops/design/characters/world/latest/renn-darrow-expressions-joy-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/renn-darrow-expressions-sorrow-latest.png",
+      "key": "x_ops/design/characters/world/latest/renn-darrow-expressions-sorrow-latest.png",
       "contentType": "image/png"
     },
     {

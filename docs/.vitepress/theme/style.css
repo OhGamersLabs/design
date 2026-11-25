@@ -2549,8 +2549,8 @@ a.coin-slot:hover {
 }
 .acting-cast-bar__pills {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
 }
 .acting-cast-pill {
   display: flex;
@@ -2609,12 +2609,12 @@ a.coin-slot:hover {
 }
 .acting-cross-slots {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
   margin-top: 16px;
 }
 .acting-cross-slot {
-  padding: 12px 14px;
+  padding: 12px 13px;
   border: 1px solid var(--bunny-rule);
   background: var(--bunny-fabric);
 }
@@ -2644,8 +2644,14 @@ a.coin-slot:hover {
 .acting-cross-slot p {
   margin: 0 !important;
   color: var(--bunny-ink-2);
-  font-size: 13px;
-  line-height: 1.65 !important;
+  font-size: 12.5px;
+  line-height: 1.6 !important;
+}
+@media (max-width: 1280px) {
+  .acting-cast-bar__pills,
+  .acting-cross-slots {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 @media (max-width: 900px) {
   .acting-cast-bar__pills,

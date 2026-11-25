@@ -5682,50 +5682,50 @@
   "world/acting-cross-d01-appetite-latest": {
     "path": "/site/thumbs/world/acting-cross-d01-appetite-latest.webp",
     "width": 480,
-    "height": 163,
-    "sha256": "ee5e8aa66946586c785d4b5398e30eec88f29676c49099e9f6e0457a4286095e",
+    "height": 96,
+    "sha256": "b1a5046d77ff5961d567d320c34237d294811a67029ba2cf69f19716281ceae6",
     "sourcePath": "/characters/world/acting-cross-d01-appetite-latest.webp",
-    "sourceSha256": "50e927cfbba6e8567fbeb1a0028aaceaa5c64fd9ad77edb7f55194368cd98043"
+    "sourceSha256": "159261f8cd850a93b4a40e061625d01d2bd2d6838bc18545ef97d98524e2aa9f"
   },
   "world/acting-cross-d02-indulgence-latest": {
     "path": "/site/thumbs/world/acting-cross-d02-indulgence-latest.webp",
     "width": 480,
-    "height": 163,
-    "sha256": "488619ddd0fa8a67f7fc69d1dfd84e06a7a9677af0176805fe48a2872033118a",
+    "height": 96,
+    "sha256": "e9af5855706437cfab1b63cd23d2c6088a34063f23650a5d471b1c7fcb08e2ef",
     "sourcePath": "/characters/world/acting-cross-d02-indulgence-latest.webp",
-    "sourceSha256": "78d0ef68c7548010cd3793022d0c734df082d206359c1e6591c44484f7ec9d0c"
+    "sourceSha256": "db17fa9eb1b1ef94a681efd08d297ae62b22cf6d96a1ffa92498d246d11c66b5"
   },
   "world/acting-cross-d03-fatigue-latest": {
     "path": "/site/thumbs/world/acting-cross-d03-fatigue-latest.webp",
     "width": 480,
-    "height": 163,
-    "sha256": "b77722a41f2ef6d2d1d52b85f4d30db684dc87dfed7b4a554953cee5e86fc445",
+    "height": 96,
+    "sha256": "5ca90abd7a4745179853d5163068a0d0526cc8eaa9361a07acdc3552c73d791e",
     "sourcePath": "/characters/world/acting-cross-d03-fatigue-latest.webp",
-    "sourceSha256": "991977af20419fa177b5512e63db2aa1fae4224025c96a47a867701ca010a50f"
+    "sourceSha256": "43b45aadf303eecbb7dc270874c8033e7297be05dcb8bdb65f682e33eaa207e2"
   },
   "world/acting-cross-d04-lethal-latest": {
     "path": "/site/thumbs/world/acting-cross-d04-lethal-latest.webp",
     "width": 480,
-    "height": 163,
-    "sha256": "6ad3f6282ebdc8712a07f0a87fd0092562a9e0cef46bd37ca6708c06431b656f",
+    "height": 96,
+    "sha256": "22a293461db2eb27df8c0b08b81ad5ca533c31c58044709293ebb33a5b8b8e68",
     "sourcePath": "/characters/world/acting-cross-d04-lethal-latest.webp",
-    "sourceSha256": "18e7c834a405ac6850776133ed97d9c8894624e51905a6809a943ce54e9ff836"
+    "sourceSha256": "b8857be73c52ce32a60be8c4d14375fde92439c08e73b3cd937f257f0a1de991"
   },
   "world/acting-cross-d05-grief-latest": {
     "path": "/site/thumbs/world/acting-cross-d05-grief-latest.webp",
     "width": 480,
-    "height": 163,
-    "sha256": "1e3913b0646e09e2e1371409290f60671ed4e125444651830c49002ba5beedfc",
+    "height": 96,
+    "sha256": "4a820cbf211508f07a4a15e907fbdf070217115fef253888d1e52df95557c4c9",
     "sourcePath": "/characters/world/acting-cross-d05-grief-latest.webp",
-    "sourceSha256": "37353076bfc6f13b24efbc7b8688ad2c66ed38ae9643a4d53f5740e17833b66a"
+    "sourceSha256": "6fcab5916da7c4d398780155dfefcbfbffac900ac76dbed33a80b3bc67781ccd"
   },
   "world/acting-cross-d06-fluster-latest": {
     "path": "/site/thumbs/world/acting-cross-d06-fluster-latest.webp",
     "width": 480,
-    "height": 163,
-    "sha256": "3ad47e5e615deb933ef860ce636f54e0ab07ccb3dcddf694a74aceeeedee9ea9",
+    "height": 96,
+    "sha256": "7c602101eb2e2e05af19e9b3ab056b1941b4148c7ac64113affba043012f2b47",
     "sourcePath": "/characters/world/acting-cross-d06-fluster-latest.webp",
-    "sourceSha256": "4422fbf591afbc4f384ea0cd0b308418f14fdc9ec13d9a4eafa34106ace53179"
+    "sourceSha256": "808ae0eba0efd0231dfa74ebc28f400355653abe17d44515c05f1d737fb8a89e"
   },
   "world/astral-mother-core-board-latest": {
     "path": "/site/thumbs/world/astral-mother-core-board-latest.webp",
@@ -5751,13 +5751,53 @@
     "sourcePath": "/characters/world/eileen-darrow-card-latest.webp",
     "sourceSha256": "63a8b999fef81e806913d5a55443c64c5b4e3d6291714989ad7b10ad3af23bf7"
   },
-  "world/eileen-darrow-expressions-latest": {
-    "path": "/site/thumbs/world/eileen-darrow-expressions-latest.webp",
+  "world/eileen-darrow-expressions-anger-latest": {
+    "path": "/site/thumbs/world/eileen-darrow-expressions-anger-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "9633741299307197b043c6af1b99a3bd3eb403c0feeb09adf8ffdae7446dc917",
-    "sourcePath": "/characters/world/eileen-darrow-expressions-latest.webp",
-    "sourceSha256": "563397dcf7787a402e9718c832102a9b6b3d09277d29307e482dc7a5fc06e476"
+    "height": 320,
+    "sha256": "a181a5ebc04a33ca585d7faebe1b1bef4946ce1f6465765d0338bcfe77002c6b",
+    "sourcePath": "/characters/world/eileen-darrow-expressions-anger-latest.webp",
+    "sourceSha256": "d4881afc78f268b85863eddb58bab1e4d7799d94c50151ff2dba2af8a9bff2f7"
+  },
+  "world/eileen-darrow-expressions-baseline-latest": {
+    "path": "/site/thumbs/world/eileen-darrow-expressions-baseline-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "e403663067f67f370c4864312bea841cabd3ef4a01e5361ef774c4372a96eb7b",
+    "sourcePath": "/characters/world/eileen-darrow-expressions-baseline-latest.webp",
+    "sourceSha256": "46a7736dd2fee458c324638732f5393273edc6de79fe987a7395db6eb97427d8"
+  },
+  "world/eileen-darrow-expressions-desires-latest": {
+    "path": "/site/thumbs/world/eileen-darrow-expressions-desires-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "4fe6e2317fbfe34b78f6e4e12043f89bbeaf369ee9df8101f253ec543f65bca9",
+    "sourcePath": "/characters/world/eileen-darrow-expressions-desires-latest.webp",
+    "sourceSha256": "a1c0756de3d2b6a67ea224488124ce063bb8a363a334ff985a3924a2213b4fa5"
+  },
+  "world/eileen-darrow-expressions-fear-pain-latest": {
+    "path": "/site/thumbs/world/eileen-darrow-expressions-fear-pain-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "8f42cd3be68969a54bde22365caced57e7e15e53a41465a7243e194b888b73f3",
+    "sourcePath": "/characters/world/eileen-darrow-expressions-fear-pain-latest.webp",
+    "sourceSha256": "adf3d352a2aaac91ae022a8c5798509f0dc3448acd9848aa6941a68a81592063"
+  },
+  "world/eileen-darrow-expressions-joy-latest": {
+    "path": "/site/thumbs/world/eileen-darrow-expressions-joy-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "8137065902bd80b5510a701b4e03978d5e425341589d41392efc4af078321df1",
+    "sourcePath": "/characters/world/eileen-darrow-expressions-joy-latest.webp",
+    "sourceSha256": "5caa1987eaebb7572705c8267f5d0feab73f794426baddd96f2c04eb47adc203"
+  },
+  "world/eileen-darrow-expressions-sorrow-latest": {
+    "path": "/site/thumbs/world/eileen-darrow-expressions-sorrow-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "bd9db093c41136144a01af6b6b06ad9a2f5eddffa42470e9ae7f83fef6e1aade",
+    "sourcePath": "/characters/world/eileen-darrow-expressions-sorrow-latest.webp",
+    "sourceSha256": "cc3599d71674e62db0349e3a7e1c2acf3b5f735c09f4f5533b0deb387f7d788b"
   },
   "world/ensemble-artbook-4x3-latest": {
     "path": "/site/thumbs/world/ensemble-artbook-4x3-latest.webp",
@@ -5935,13 +5975,53 @@
     "sourcePath": "/characters/world/renn-darrow-card-latest.webp",
     "sourceSha256": "79c4825ac9bde838f0757cf043e0383268c7b1764888ee7ab88dfff2fc2aa9e8"
   },
-  "world/renn-darrow-expressions-latest": {
-    "path": "/site/thumbs/world/renn-darrow-expressions-latest.webp",
+  "world/renn-darrow-expressions-anger-latest": {
+    "path": "/site/thumbs/world/renn-darrow-expressions-anger-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "7c7836e23462879a0a33cb4a8b0846f1fc88e7a1b4b4a38b3d61574d2b160e08",
-    "sourcePath": "/characters/world/renn-darrow-expressions-latest.webp",
-    "sourceSha256": "9ca038f263eb8b9da41a2b8917262812e99d675735a78bdc326c65c69a288a81"
+    "height": 320,
+    "sha256": "c38c4b5af814f0a206749cd48598fd8c6788381f1382dd5b7d7cae79283ed732",
+    "sourcePath": "/characters/world/renn-darrow-expressions-anger-latest.webp",
+    "sourceSha256": "8eb5c1894dcfc0a191b37c9992820b5f1c4fd13c463f061e4096e2df0b7d877b"
+  },
+  "world/renn-darrow-expressions-baseline-latest": {
+    "path": "/site/thumbs/world/renn-darrow-expressions-baseline-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "678de2c1222f24ab474b4bdf33c7a0bfd2672d28f9d2ddf6c8ce5cc21ec0d19e",
+    "sourcePath": "/characters/world/renn-darrow-expressions-baseline-latest.webp",
+    "sourceSha256": "32fb9510562659d779ddbcd4f2a850ff6c0da48f15e4d8055d01c6d8ed7d8b06"
+  },
+  "world/renn-darrow-expressions-desires-latest": {
+    "path": "/site/thumbs/world/renn-darrow-expressions-desires-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "fb9cd1f635b127ab8645ad24e9c2c687e528f70261dd64ab6b8a206e19576d92",
+    "sourcePath": "/characters/world/renn-darrow-expressions-desires-latest.webp",
+    "sourceSha256": "2aaa868bd2b9cc166134df5a1437cce67b060c5edbd199e89173e7c8c42d03c6"
+  },
+  "world/renn-darrow-expressions-fear-pain-latest": {
+    "path": "/site/thumbs/world/renn-darrow-expressions-fear-pain-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "6743558c1235e81df2f6dfbbfab0f8793f12c9ec4937363a067d1736692b8c35",
+    "sourcePath": "/characters/world/renn-darrow-expressions-fear-pain-latest.webp",
+    "sourceSha256": "d29323b3de6a41804c7c63f757c3c88590886b3d68f310e676d313d33e024c99"
+  },
+  "world/renn-darrow-expressions-joy-latest": {
+    "path": "/site/thumbs/world/renn-darrow-expressions-joy-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "ccf899b1e0d80d8bdef3a05124379274e5bd42fe884cfca49dfc15164dbf15f5",
+    "sourcePath": "/characters/world/renn-darrow-expressions-joy-latest.webp",
+    "sourceSha256": "dda2526941cae464c74a60c655bee164ff62f680d07d440a5eafdd36beb561d7"
+  },
+  "world/renn-darrow-expressions-sorrow-latest": {
+    "path": "/site/thumbs/world/renn-darrow-expressions-sorrow-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "f2c3ea342cde619694ac1da5b8d200f07dfaf4a4eefc926d0d4bfe993e36bf99",
+    "sourcePath": "/characters/world/renn-darrow-expressions-sorrow-latest.webp",
+    "sourceSha256": "57a90b6c153b25c05ed813cf2e1d659478a1e8bb37ef382bdb67466a5448d861"
   },
   "world/zero-gate-three-relics-latest": {
     "path": "/site/thumbs/world/zero-gate-three-relics-latest.webp",

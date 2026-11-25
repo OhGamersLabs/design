@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "星环纪元核心信物设定",
   "status": "local-review",
-  "asset_count": 34,
+  "asset_count": 44,
   "assets": [
     {
       "id": "acting-cross-d01-appetite-latest",
@@ -13,19 +13,19 @@
       "original": {
         "path": "/media/world/acting-cross-d01-appetite-latest.png",
         "mime_type": "image/png",
-        "width": 2000,
-        "height": 680,
-        "bytes": 1248712,
-        "sha256": "1498d82a1610b5aae993f4c92a3236733e381ddfaf5cc1388957f3dccc7e3a8b",
+        "width": 2400,
+        "height": 480,
+        "bytes": 969177,
+        "sha256": "75efbac1d4c8f3dfaa76ea750265871e917152f1098fb09b2483420139e46a0a",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d01-appetite-latest.webp",
         "mime_type": "image/webp",
-        "width": 2000,
-        "height": 680,
-        "bytes": 917840,
-        "sha256": "50e927cfbba6e8567fbeb1a0028aaceaa5c64fd9ad77edb7f55194368cd98043",
+        "width": 2048,
+        "height": 410,
+        "bytes": 529874,
+        "sha256": "159261f8cd850a93b4a40e061625d01d2bd2d6838bc18545ef97d98524e2aa9f",
         "alpha": false
       }
     },
@@ -36,19 +36,19 @@
       "original": {
         "path": "/media/world/acting-cross-d02-indulgence-latest.png",
         "mime_type": "image/png",
-        "width": 2000,
-        "height": 680,
-        "bytes": 1200522,
-        "sha256": "586a30aee00ee326e8c7600a6c311dcdc8559fe42fd9630937153b94b8747f63",
+        "width": 2400,
+        "height": 480,
+        "bytes": 1016767,
+        "sha256": "3de236b47e518ea7304240bd2d11e7ef48af0df28187ba850dbbefd810328a35",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d02-indulgence-latest.webp",
         "mime_type": "image/webp",
-        "width": 2000,
-        "height": 680,
-        "bytes": 860866,
-        "sha256": "78d0ef68c7548010cd3793022d0c734df082d206359c1e6591c44484f7ec9d0c",
+        "width": 2048,
+        "height": 410,
+        "bytes": 540184,
+        "sha256": "db17fa9eb1b1ef94a681efd08d297ae62b22cf6d96a1ffa92498d246d11c66b5",
         "alpha": false
       }
     },
@@ -59,19 +59,19 @@
       "original": {
         "path": "/media/world/acting-cross-d03-fatigue-latest.png",
         "mime_type": "image/png",
-        "width": 2000,
-        "height": 680,
-        "bytes": 1318146,
-        "sha256": "8475ebf5e60e3a565793223a984574e5a7968f9dfb689567226ab8bf5f052f6d",
+        "width": 2400,
+        "height": 480,
+        "bytes": 1001450,
+        "sha256": "d4d65b8f0d4f0b0c3a0b7909e02af0980a740912074edcde68c92aeef32c1459",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d03-fatigue-latest.webp",
         "mime_type": "image/webp",
-        "width": 2000,
-        "height": 680,
-        "bytes": 952706,
-        "sha256": "991977af20419fa177b5512e63db2aa1fae4224025c96a47a867701ca010a50f",
+        "width": 2048,
+        "height": 410,
+        "bytes": 532150,
+        "sha256": "43b45aadf303eecbb7dc270874c8033e7297be05dcb8bdb65f682e33eaa207e2",
         "alpha": false
       }
     },
@@ -82,19 +82,19 @@
       "original": {
         "path": "/media/world/acting-cross-d04-lethal-latest.png",
         "mime_type": "image/png",
-        "width": 2000,
-        "height": 680,
-        "bytes": 1263472,
-        "sha256": "6cc9b93824274735c66bed5482bb1288c735c1276d68699ef248f93e5e322320",
+        "width": 2400,
+        "height": 480,
+        "bytes": 1076300,
+        "sha256": "9960c98ce8d19a061b4cc52a746fd88052e11ed55c02faea294a968e3647be73",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d04-lethal-latest.webp",
         "mime_type": "image/webp",
-        "width": 2000,
-        "height": 680,
-        "bytes": 913640,
-        "sha256": "18e7c834a405ac6850776133ed97d9c8894624e51905a6809a943ce54e9ff836",
+        "width": 2048,
+        "height": 410,
+        "bytes": 565118,
+        "sha256": "b8857be73c52ce32a60be8c4d14375fde92439c08e73b3cd937f257f0a1de991",
         "alpha": false
       }
     },
@@ -105,19 +105,19 @@
       "original": {
         "path": "/media/world/acting-cross-d05-grief-latest.png",
         "mime_type": "image/png",
-        "width": 2000,
-        "height": 680,
-        "bytes": 1285358,
-        "sha256": "568422bdf25b10003c27bdbc01dcc1f2b7a533b1f874d672d4a4461ceda9adca",
+        "width": 2400,
+        "height": 480,
+        "bytes": 1008077,
+        "sha256": "ced7d0e3f114636f80bfb4ba9f27eed03baca6e5436af87a2f817b9fa2e04fa2",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d05-grief-latest.webp",
         "mime_type": "image/webp",
-        "width": 2000,
-        "height": 680,
-        "bytes": 945578,
-        "sha256": "37353076bfc6f13b24efbc7b8688ad2c66ed38ae9643a4d53f5740e17833b66a",
+        "width": 2048,
+        "height": 410,
+        "bytes": 539270,
+        "sha256": "6fcab5916da7c4d398780155dfefcbfbffac900ac76dbed33a80b3bc67781ccd",
         "alpha": false
       }
     },
@@ -128,19 +128,19 @@
       "original": {
         "path": "/media/world/acting-cross-d06-fluster-latest.png",
         "mime_type": "image/png",
-        "width": 2000,
-        "height": 680,
-        "bytes": 1148863,
-        "sha256": "22127e9e4e358ce28931df38e95a6cc0b1c6a4187c3d82a51c128d8b9f726840",
+        "width": 2400,
+        "height": 480,
+        "bytes": 935780,
+        "sha256": "4056e05f18c97762830a582cb67b471cead8268ca754f729e06e8dc273f44afc",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d06-fluster-latest.webp",
         "mime_type": "image/webp",
-        "width": 2000,
-        "height": 680,
-        "bytes": 819222,
-        "sha256": "4422fbf591afbc4f384ea0cd0b308418f14fdc9ec13d9a4eafa34106ace53179",
+        "width": 2048,
+        "height": 410,
+        "bytes": 498988,
+        "sha256": "808ae0eba0efd0231dfa74ebc28f400355653abe17d44515c05f1d737fb8a89e",
         "alpha": false
       }
     },
@@ -214,25 +214,140 @@
       }
     },
     {
-      "id": "eileen-darrow-expressions-latest",
+      "id": "eileen-darrow-expressions-anger-latest",
       "character": "world",
-      "title": "eileen-darrow-expressions-latest",
+      "title": "eileen-darrow-expressions-anger-latest",
       "original": {
-        "path": "/media/world/eileen-darrow-expressions-latest.png",
+        "path": "/media/world/eileen-darrow-expressions-anger-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 2116473,
-        "sha256": "4b83e5a73f19630bf234f5b98c81a1205f02c9f63da69851b5a6b203e81b2511",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1129761,
+        "sha256": "ad71a066a6c430dd763c0f74d5b43c4487d68aa1cf533bc3bb5ed328f71d23d2",
         "alpha": false
       },
       "web": {
-        "path": "/characters/world/eileen-darrow-expressions-latest.webp",
+        "path": "/characters/world/eileen-darrow-expressions-anger-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1543776,
-        "sha256": "563397dcf7787a402e9718c832102a9b6b3d09277d29307e482dc7a5fc06e476",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 783252,
+        "sha256": "d4881afc78f268b85863eddb58bab1e4d7799d94c50151ff2dba2af8a9bff2f7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "eileen-darrow-expressions-baseline-latest",
+      "character": "world",
+      "title": "eileen-darrow-expressions-baseline-latest",
+      "original": {
+        "path": "/media/world/eileen-darrow-expressions-baseline-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1166236,
+        "sha256": "a18c67ec1295bcfa366658bdab3ef92e1dde318a90eb24358c0956452dc3bf6b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/eileen-darrow-expressions-baseline-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 814916,
+        "sha256": "46a7736dd2fee458c324638732f5393273edc6de79fe987a7395db6eb97427d8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "eileen-darrow-expressions-desires-latest",
+      "character": "world",
+      "title": "eileen-darrow-expressions-desires-latest",
+      "original": {
+        "path": "/media/world/eileen-darrow-expressions-desires-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1158265,
+        "sha256": "95f1ebc7e1acb492fc5e7b2cf8d95bf31b49ffdea67eacb323f39d4eedec16fe",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/eileen-darrow-expressions-desires-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 795298,
+        "sha256": "a1c0756de3d2b6a67ea224488124ce063bb8a363a334ff985a3924a2213b4fa5",
+        "alpha": false
+      }
+    },
+    {
+      "id": "eileen-darrow-expressions-fear-pain-latest",
+      "character": "world",
+      "title": "eileen-darrow-expressions-fear-pain-latest",
+      "original": {
+        "path": "/media/world/eileen-darrow-expressions-fear-pain-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1351166,
+        "sha256": "b2a96862dcf6079027c7214d5c6be0c0d6d6e835f1f7ef81621d82702c049de1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/eileen-darrow-expressions-fear-pain-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 920222,
+        "sha256": "adf3d352a2aaac91ae022a8c5798509f0dc3448acd9848aa6941a68a81592063",
+        "alpha": false
+      }
+    },
+    {
+      "id": "eileen-darrow-expressions-joy-latest",
+      "character": "world",
+      "title": "eileen-darrow-expressions-joy-latest",
+      "original": {
+        "path": "/media/world/eileen-darrow-expressions-joy-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1175122,
+        "sha256": "f5a5a7c2e6a335297537d9ef55bcdd87e8158c194ada87ceb91ac6c614e04bf1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/eileen-darrow-expressions-joy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 820114,
+        "sha256": "5caa1987eaebb7572705c8267f5d0feab73f794426baddd96f2c04eb47adc203",
+        "alpha": false
+      }
+    },
+    {
+      "id": "eileen-darrow-expressions-sorrow-latest",
+      "character": "world",
+      "title": "eileen-darrow-expressions-sorrow-latest",
+      "original": {
+        "path": "/media/world/eileen-darrow-expressions-sorrow-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1226196,
+        "sha256": "657e09f787bed223093699f1d15214b43bb8fa19ca894f6055440bf4d3e8ef96",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/eileen-darrow-expressions-sorrow-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 858168,
+        "sha256": "cc3599d71674e62db0349e3a7e1c2acf3b5f735c09f4f5533b0deb387f7d788b",
         "alpha": false
       }
     },
@@ -743,25 +858,140 @@
       }
     },
     {
-      "id": "renn-darrow-expressions-latest",
+      "id": "renn-darrow-expressions-anger-latest",
       "character": "world",
-      "title": "renn-darrow-expressions-latest",
+      "title": "renn-darrow-expressions-anger-latest",
       "original": {
-        "path": "/media/world/renn-darrow-expressions-latest.png",
+        "path": "/media/world/renn-darrow-expressions-anger-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 2228371,
-        "sha256": "ff92bb0a721dbbdac9122cbad6f3874acab61bed6691bfed640e377f85fbc97b",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1279313,
+        "sha256": "61afb0a6db28e2a848dd619a7c997cf63cb4358d78cf2f53e263eca630ba36a3",
         "alpha": false
       },
       "web": {
-        "path": "/characters/world/renn-darrow-expressions-latest.webp",
+        "path": "/characters/world/renn-darrow-expressions-anger-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1631004,
-        "sha256": "9ca038f263eb8b9da41a2b8917262812e99d675735a78bdc326c65c69a288a81",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 870316,
+        "sha256": "8eb5c1894dcfc0a191b37c9992820b5f1c4fd13c463f061e4096e2df0b7d877b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "renn-darrow-expressions-baseline-latest",
+      "character": "world",
+      "title": "renn-darrow-expressions-baseline-latest",
+      "original": {
+        "path": "/media/world/renn-darrow-expressions-baseline-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1269878,
+        "sha256": "fd4cc5813b7a12521a93be08217eb24d65c10983bf194d098d06c70f559906d6",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/renn-darrow-expressions-baseline-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 885246,
+        "sha256": "32fb9510562659d779ddbcd4f2a850ff6c0da48f15e4d8055d01c6d8ed7d8b06",
+        "alpha": false
+      }
+    },
+    {
+      "id": "renn-darrow-expressions-desires-latest",
+      "character": "world",
+      "title": "renn-darrow-expressions-desires-latest",
+      "original": {
+        "path": "/media/world/renn-darrow-expressions-desires-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1366229,
+        "sha256": "289527914460cf2d9dc467e474bd54ca379dc396eb12342a3c35075ea05db162",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/renn-darrow-expressions-desires-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 976232,
+        "sha256": "2aaa868bd2b9cc166134df5a1437cce67b060c5edbd199e89173e7c8c42d03c6",
+        "alpha": false
+      }
+    },
+    {
+      "id": "renn-darrow-expressions-fear-pain-latest",
+      "character": "world",
+      "title": "renn-darrow-expressions-fear-pain-latest",
+      "original": {
+        "path": "/media/world/renn-darrow-expressions-fear-pain-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1350200,
+        "sha256": "0d3c8b3ac09110d0ce3edcb1efcf89e84d3cdd74fb5e50be4acf69aea6e37bfc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/renn-darrow-expressions-fear-pain-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 938314,
+        "sha256": "d29323b3de6a41804c7c63f757c3c88590886b3d68f310e676d313d33e024c99",
+        "alpha": false
+      }
+    },
+    {
+      "id": "renn-darrow-expressions-joy-latest",
+      "character": "world",
+      "title": "renn-darrow-expressions-joy-latest",
+      "original": {
+        "path": "/media/world/renn-darrow-expressions-joy-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1221864,
+        "sha256": "b6e3302054a9452aa120201fb18f7a8c3daf335450427476b639cdee98b0c5d0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/renn-darrow-expressions-joy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 877832,
+        "sha256": "dda2526941cae464c74a60c655bee164ff62f680d07d440a5eafdd36beb561d7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "renn-darrow-expressions-sorrow-latest",
+      "character": "world",
+      "title": "renn-darrow-expressions-sorrow-latest",
+      "original": {
+        "path": "/media/world/renn-darrow-expressions-sorrow-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1740588,
+        "sha256": "03c8880797731624500bef9f2000fc04fe7a49afd9bd40e31ae6245a4c7a96d3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/renn-darrow-expressions-sorrow-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1212572,
+        "sha256": "57a90b6c153b25c05ed813cf2e1d659478a1e8bb37ef382bdb67466a5448d861",
         "alpha": false
       }
     },

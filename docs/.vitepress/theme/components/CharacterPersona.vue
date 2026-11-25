@@ -3,15 +3,48 @@ import { computed } from 'vue'
 import { useCharacter } from '../use-character'
 import { data as world } from '../../data/world.data.mjs'
 
+interface PersonaFace {
+  name: string
+  gearState: string
+  cue: string
+}
+
+interface PersonaSpectrumGroup {
+  axis: string
+  count: number
+  faces: PersonaFace[]
+}
+
+interface PersonaEntry {
+  id: string
+  name: string
+  roleTag: string
+  mbti?: string
+  archetype: string
+  temperament: { label: string; text: string }[]
+  desiresAndAversions?: { label: string; detail: string }[]
+  dailyHabits: { title: string; detail: string }[]
+  speechStyle: string
+  actingCues: string
+  actingSpectrum?: PersonaSpectrumGroup[]
+}
+
 const props = withDefaults(defineProps<{
   section?: 'all' | 'profile' | 'spectrum'
+  personas?: PersonaEntry[]
+  spectrumHref?: string
+  gearLabel?: string
+  spectrumNote?: string
 }>(), {
   section: 'all',
+  spectrumHref: '#expressions',
+  gearLabel: '护目镜起居切换态',
+  spectrumNote: '就近对照上方表情图板，逐格核验护目镜状态与面部微肌肉运动',
 })
 
-const character = useCharacter()
-const lore = computed(() => world.characters[character.value.id] ?? null)
-const personas = computed(() => lore.value?.personas ?? [])
+const character = props.personas ? null : useCharacter()
+const lore = computed(() => (character ? world.characters[character.value.id] ?? null : null))
+const personas = computed<PersonaEntry[]>(() => props.personas ?? lore.value?.personas ?? [])
 const spectrumPersonas = computed(() => personas.value.filter((p) => p.actingSpectrum?.length))
 </script>
 
@@ -68,8 +101,8 @@ const spectrumPersonas = computed(() => personas.value.filter((p) => p.actingSpe
       </div>
 
       <footer v-if="props.section === 'profile' && persona.actingSpectrum?.length" class="character-persona__jump">
-        <span>已按此人格坐标拆解 {{ persona.actingSpectrum.reduce((sum, g) => sum + g.count, 0) }} 张独立面孔与护目镜起居切换态</span>
-        <a href="#expressions">下翻查看七情六欲图板与逐格清单 <span aria-hidden="true">↓</span></a>
+        <span>已按此人格坐标拆解 {{ persona.actingSpectrum.reduce((sum, g) => sum + g.count, 0) }} 张独立面孔与{{ props.gearLabel }}</span>
+        <a :href="props.spectrumHref">下翻查看七情六欲图板与逐格清单 <span aria-hidden="true">↓</span></a>
       </footer>
 
       <div v-if="props.section === 'all' && persona.actingSpectrum?.length" class="character-persona__spectrum" aria-label="七情六欲全光谱面孔定义">
@@ -115,7 +148,7 @@ const spectrumPersonas = computed(() => personas.value.filter((p) => p.actingSpe
             </h4>
             <span v-if="persona.mbti" class="character-persona__mbti">{{ persona.mbti }}</span>
           </div>
-          <span class="character-persona__spectrum-note">就近对照上方表情图板，逐格核验护目镜状态与面部微肌肉运动</span>
+          <span class="character-persona__spectrum-note">{{ props.spectrumNote }}</span>
         </div>
         <div class="character-persona__spectrum-grid">
           <section v-for="group in persona.actingSpectrum" :key="group.axis" class="character-persona__axis">

@@ -181,6 +181,17 @@ export function loadWorld(root = defaultRoot) {
       const resolved = Object.hasOwn(collAssets, asset) ? assetById(collAssets, asset) : null
       const exprAsset = item.expressionsAsset === undefined ? null : text(item.expressionsAsset)
       const resolvedExpr = exprAsset && Object.hasOwn(collAssets, exprAsset) ? assetById(collAssets, exprAsset) : null
+      const exprPlates = item.expressionPlates === undefined ? [] : list(item.expressionPlates).map((plateEntry) => {
+        const plate = record(plateEntry)
+        const pid = text(plate.id)
+        const resolvedPlate = Object.hasOwn(collAssets, pid) ? assetById(collAssets, pid) : null
+        return {
+          id: pid,
+          caption: text(plate.caption),
+          detail: text(plate.detail),
+          image: resolvedPlate,
+        }
+      })
       return {
         id: text(item.id),
         collection,
@@ -197,6 +208,7 @@ export function loadWorld(root = defaultRoot) {
         story: text(item.story),
         persona: item.persona === undefined ? null : parsePersona(item.persona),
         ...(exprAsset ? { expressionsAsset: exprAsset, expressionsImage: resolvedExpr } : {}),
+        ...(exprPlates.length ? { expressionPlates: exprPlates } : {}),
         ...(item.profileLink === undefined ? {} : { profileLink: text(item.profileLink) }),
         ...(item.profileLinkLabel === undefined ? {} : { profileLinkLabel: text(item.profileLinkLabel) }),
         portrait: resolved ? { asset, ...resolved.thumb } : null,

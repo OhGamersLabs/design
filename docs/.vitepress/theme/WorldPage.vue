@@ -10,6 +10,7 @@ import WorldRelicMeasurements from './components/WorldRelicMeasurements.vue'
 import WorldMysteryOnboarding from './components/WorldMysteryOnboarding.vue'
 import WorldCoinInteractive from './components/WorldCoinInteractive.vue'
 import WorldArkGenerations from './components/WorldArkGenerations.vue'
+import CharacterPersona from './components/CharacterPersona.vue'
 import WorldImage from './components/WorldImage.vue'
 import ReleaseImage from './components/ReleaseImage.vue'
 
@@ -538,69 +539,53 @@ function characterMbtiBadges(characterId: string): string[] {
               </div>
             </div>
 
-            <article v-if="npc.persona" class="character-persona world-cast-persona" :aria-label="`${npc.persona.name}性格与日常习惯`">
-              <header class="character-persona__head">
-                <div class="character-persona__title-group">
-                  <span class="character-persona__eyebrow">{{ npc.persona.roleTag }}</span>
-                  <h3 class="character-persona__name">{{ npc.persona.name }} · 性格与日常习惯</h3>
-                  <span v-if="npc.persona.mbti" class="character-persona__mbti">{{ npc.persona.mbti }}</span>
+            <CharacterPersona
+              v-if="npc.persona"
+              class="world-cast-persona"
+              :section="npc.expressionPlates?.length ? 'profile' : 'all'"
+              :personas="[npc.persona]"
+              :spectrum-href="`#${npc.id}-expressions`"
+              gear-label="刚性镜具与工坊起居切换态"
+            />
+
+            <div
+              v-if="npc.expressionPlates?.length"
+              :id="`${npc.id}-expressions`"
+              class="world-cast-expressions"
+              :aria-label="`${npc.name}六板十八面孔神态谱系`"
+            >
+              <div class="world-cast-expressions__head">
+                <div>
+                  <span class="world-pillar-card__code">ACTING SPECTRUM · {{ npc.expressionPlates.length }} PLATES</span>
+                  <h3>{{ npc.name }} · 七情六欲分板神态设定（{{ npc.expressionPlates.length }} 板 {{ npc.persona?.actingSpectrum?.reduce((sum, g) => sum + g.count, 0) ?? 18 }} 张独立面孔）</h3>
                 </div>
-                <p class="character-persona__archetype">{{ npc.persona.archetype }}</p>
-              </header>
-              <div class="character-persona__layers" role="list" aria-label="三层性格结构">
-                <div v-for="item in npc.persona.temperament" :key="item.label" class="character-persona__layer" role="listitem">
-                  <span class="character-persona__layer-label">{{ item.label }}</span>
-                  <p class="character-persona__layer-text">{{ item.text }}</p>
-                </div>
+                <p>按人格认知功能栈、九型防御路径与先辈熟龄骨相逐板展开，点开任意图板可用左右键翻看原图细节。</p>
               </div>
-              <div v-if="npc.persona.desiresAndAversions?.length" class="character-persona__desires" role="list" aria-label="喜好厌恶与欲望底色">
-                <div v-for="item in npc.persona.desiresAndAversions" :key="item.label" class="character-persona__desire" role="listitem">
-                  <span class="character-persona__layer-label">{{ item.label }}</span>
-                  <p class="character-persona__layer-text">{{ item.detail }}</p>
-                </div>
+
+              <div class="world-cast-expressions__grid">
+                <ReleaseImage
+                  v-for="plate in npc.expressionPlates"
+                  :key="plate.id"
+                  :src="plate.image.web.path"
+                  :original="plate.image.original.path"
+                  :width="plate.image.web.width"
+                  :height="plate.image.web.height"
+                  :alt="plate.image.name"
+                  :caption="plate.caption"
+                  :lightbox-caption="plate.image.name"
+                  :detail="plate.detail"
+                  :group="`${npc.id}-expressions-spectrum`"
+                  :asset-id="plate.id"
+                />
               </div>
-              <div class="character-persona__body">
-                <div class="character-persona__habits">
-                  <h4 class="character-persona__subhead">日常起居与下意识习惯</h4>
-                  <ul class="character-persona__habit-list">
-                    <li v-for="habit in npc.persona.dailyHabits" :key="habit.title">
-                      <strong>{{ habit.title }}：</strong>{{ habit.detail }}
-                    </li>
-                  </ul>
-                </div>
-                <aside class="character-persona__side" aria-label="语感与神态锚点">
-                  <div class="character-persona__block">
-                    <h4 class="character-persona__subhead">说话方式与口癖</h4>
-                    <p>{{ npc.persona.speechStyle }}</p>
-                  </div>
-                  <div class="character-persona__block">
-                    <h4 class="character-persona__subhead">情绪与神态锚点</h4>
-                    <p>{{ npc.persona.actingCues }}</p>
-                  </div>
-                </aside>
-              </div>
-              <div v-if="npc.persona.actingSpectrum?.length" class="character-persona__spectrum" aria-label="七情六欲全光谱面孔定义">
-                <div class="character-persona__spectrum-head">
-                  <h4 class="character-persona__subhead">七情六欲 · 全光谱面孔定义清单（共 {{ npc.persona.actingSpectrum.reduce((sum, g) => sum + g.count, 0) }} 张独立面孔）</h4>
-                  <span class="character-persona__spectrum-note">按情绪与欲望原子态自然推导，不设固定网格上限</span>
-                </div>
-                <div class="character-persona__spectrum-grid">
-                  <section v-for="group in npc.persona.actingSpectrum" :key="group.axis" class="character-persona__axis">
-                    <header class="character-persona__axis-head">
-                      <strong>{{ group.axis }}</strong>
-                      <span>{{ group.count }} 张</span>
-                    </header>
-                    <ul class="character-persona__face-list">
-                      <li v-for="face in group.faces" :key="face.name">
-                        <b>{{ face.name }}</b>
-                        <em>{{ face.gearState }}</em>
-                        <span>{{ face.cue }}</span>
-                      </li>
-                    </ul>
-                  </section>
-                </div>
-              </div>
-            </article>
+
+              <CharacterPersona
+                v-if="npc.persona?.actingSpectrum?.length"
+                section="spectrum"
+                :personas="[npc.persona]"
+                spectrum-note="就近对照上方六张分板特写，逐格核验刚性镜具状态与面部微肌肉运动"
+              />
+            </div>
           </section>
         </div>
 
@@ -630,6 +615,45 @@ function characterMbtiBadges(characterId: string): string[] {
 }
 .world-cast-persona {
   margin-top: 22px;
+}
+.world-cast-expressions {
+  margin-top: 26px;
+  padding-top: 22px;
+  border-top: 1px solid var(--vp-c-divider);
+}
+.world-cast-expressions__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px 24px;
+  margin-bottom: 18px;
+}
+.world-cast-expressions__head h3 {
+  margin: 4px 0 0 !important;
+  font-size: 19px !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+}
+.world-cast-expressions__head p {
+  margin: 0 !important;
+  color: var(--vp-c-text-2);
+  font-size: 13.5px;
+  line-height: 1.6 !important;
+}
+.world-cast-expressions__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+.world-cast-expressions__grid :deep(.release-image) {
+  margin: 0 !important;
+}
+@media (max-width: 760px) {
+  .world-cast-expressions__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 .world-relic-card {
   padding: 22px 24px 24px;
