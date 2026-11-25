@@ -5439,6 +5439,22 @@
     "sourcePath": "/characters/story/ep01-p42-latest.webp",
     "sourceSha256": "dbbf32ac64363923cad18e8f04ada337befc875d01cbf3f3691f735824530397"
   },
+  "world/astral-mother-core-board-latest": {
+    "path": "/site/thumbs/world/astral-mother-core-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "67b3d54b23e87293f51e1ca1e8d81e2a465a2069b01cffb75cd77cdb5bf2be0b",
+    "sourcePath": "/characters/world/astral-mother-core-board-latest.webp",
+    "sourceSha256": "dd6fdab4f5915feeef4d54500e9753dd05c56d9eb8b4687c989b72af5a597a8d"
+  },
+  "world/coin-core-orthographic-board-latest": {
+    "path": "/site/thumbs/world/coin-core-orthographic-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "42ff6a6fbea04ef436700db544d7df8eac2785b16a6b62380d34d3195a17fff3",
+    "sourcePath": "/characters/world/coin-core-orthographic-board-latest.webp",
+    "sourceSha256": "855227d59b767780828925fbb65e67cb3dfbd8efcdb7ac7a2f17ee8bfc11cda5"
+  },
   "world/eileen-darrow-card-latest": {
     "path": "/site/thumbs/world/eileen-darrow-card-latest.webp",
     "width": 480,
@@ -5607,6 +5623,14 @@
     "sourcePath": "/characters/world/lorn-vele-card-latest.webp",
     "sourceSha256": "acb549c398bd07d468cbbbe8eab6621929dec65c0f58e6a11a709b2c7a5f8540"
   },
+  "world/og-arcade-shell-board-latest": {
+    "path": "/site/thumbs/world/og-arcade-shell-board-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "ce50154d3e2aebaa55948c72f2f0a38fe473b7eb581309b3760ba3095948873d",
+    "sourcePath": "/characters/world/og-arcade-shell-board-latest.webp",
+    "sourceSha256": "5f3a5f5a1833358bbdb35117d553ac430a3fe296d85c95b857453f2400739de4"
+  },
   "world/renn-darrow-card-latest": {
     "path": "/site/thumbs/world/renn-darrow-card-latest.webp",
     "width": 480,
@@ -5614,6 +5638,14 @@
     "sha256": "0f13c8cb0059c3363f9b49a5b6b80c669e5f8d06b142feb6a44846f8f637d7fb",
     "sourcePath": "/characters/world/renn-darrow-card-latest.webp",
     "sourceSha256": "ee9070cee02996577d545b935bd2fb4d015f8c3ef85cf8ad8c40814f3029fbc4"
+  },
+  "world/zero-gate-three-relics-latest": {
+    "path": "/site/thumbs/world/zero-gate-three-relics-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "b8d45fa21f107812f7df95cb341ecd23233297953f262208e9a29e597836bb40",
+    "sourcePath": "/characters/world/zero-gate-three-relics-latest.webp",
+    "sourceSha256": "1f4938193f356eb802d8ed3662163247ddd4500fe9a7308ec5bb3594d241bda8"
   },
   "wylin/arcane-coat-back-latest": {
     "path": "/site/thumbs/wylin/arcane-coat-back-latest.webp",

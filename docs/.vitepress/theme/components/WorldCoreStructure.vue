@@ -5,70 +5,110 @@ const activeTab = ref(0)
 
 const states = [
   {
-    tab: '01 外皮 · OG 黄铜屏蔽壳',
-    badge: '索伦能谱仪读数：0.00（完全隐身）',
-    tag: '凡人伪装外皮',
-    title: '只有外层人类黄铜皮才印着「OG 街机游戏币」',
+    tab: '01 两代外皮 · 阻波铜币与透波金瓷壳',
+    badge: '初代阻波潜伏 → 二代零点全透波谐振',
+    tag: '雷恩三周年阻波铜衣 → 克露丝透波金瓷新壳',
+    title: '两代外皮细腻演进：从「三周年阻波黄铜币」到克露丝重制「零点全透波金瓷壳」',
     summary:
-      '十年前父母用原子级惰性屏蔽黄铜把先驱神核严密包覆，压印成满街可见的「OhGamers（OG）街机代币」。首战共振裂壳后，克露丝将其精工重塑为贴合母核的卡扣式法拉第暗壳——日常必须合壳隔绝辐射，防止索伦全星域雷达锁定。',
+      '十年前父亲雷恩为隔绝母核零点波，借合体纯平母核作刚性内砧，以零九号船坞波导铋黄铜无缝冲压成手心尺度的「OhGamers 三周年店庆纪念币」（防孩子误投街机口，锁死 0.00 潜伏十年，肉搏撞击钢梁仅在币边撕裂一条细缝）。进入零九号暗礁后，总工克露丝剥下完成潜伏使命的初代软黄铜外衣，采用掺金氮化硅碳复合金瓷为母核重制第二代旋锁式「零点全透波战术壳」——绝不阻挡零点波，平时插回加装波导屏蔽内衬的角色右腰黑橙磁吸匣即锁死 0.00，拔出抛币即全功率无损激振！',
     bullets: [
-      { k: '命名与外观归位', v: '唯有凡人造的黄铜外皮印有人类字母 OG；内胆名为「炽环母核」，绝无半个英文字母' },
-      { k: '角色立绘零冲突', v: '达罗兄妹立绘中抛起、插在角色右腰黑橙磁吸匣里的，正是合壳潜伏态的金黄 OG 铜币' },
-      { k: '小队名号由来', v: '兄妹叫顺嘴了十年的「游戏币」反成全队叛逆旗号，罗克更主动在胸甲喷涂纯白 OG 队徽' },
+      { k: '初代阻波黄铜衣', v: '正面素底连体 OG，反面嘉禾绶带与数字 3；波导黄铜全反射锁死零点波，仅靠撞裂的一条币边细缝勉强漏波' },
+      { k: '二代透波金瓷壳', v: '延续暖金钛瓷色调与精工 OG 徽记（兼容双主角立绘角色右腰外观），围绕 OG 嵌环形透波暗晶导流窗，外周设四向无损旋锁卡槽' },
+      { k: '波导腰匣快抽闭环', v: '二代新外皮对零点波完全透明；潜伏屏蔽职责交由角色右腰波导磁吸快抽匣承担，实现插匣归零、拔币满功率共鸣' },
     ],
   },
   {
-    tab: '02 内胆 · 无字无孔极简核',
-    badge: '表层特征：零字母 · 零开孔 · 浑然无瑕',
-    tag: '大巧不工 · 高维造物',
-    title: '拇指弹开 OG 铜壳 → 显露浑然无瑕的先驱「炽环母核」',
+    tab: '02 可分体母核 · 阴阳子母星榫双片',
+    badge: '外平内扣：阳片凸阶星榫 × 阴片凹阶星卯',
+    tag: '合体上下纯平 · 分体凹凸十重星榫互补',
+    title: '可分体「炽环母核」本体设计：开拓阳片（凸阶星榫）与锚定阴片（凹阶星卯）',
     summary:
-      '先驱高维造物不设任何外露刻度与发光孔位。弹开金黄铜壳后，内胆是一枚边缘光滑无缝、无字无孔的铂乌镜面圆盘，肉眼看不出任何机械开关或次数上限。',
+      '先驱「炽环母核」并非不可拆分的单板，而是由「开拓阳片（兄）」与「锚定阴片（妹）」通过内部子母微阶梯十重星榫精密咬合、再经先驱零点场原子级锁死而成的双片复合体。合体时阳片外表面与阴片外表面绝对纯平平行（故十年前能零气隙包进初代纪念币内）；分体后一凸一凹的十重星榫与星卯剖面形成天生一对的互补结构。',
     bullets: [
-      { k: '材质代差反差', v: '外层是暖金黄铜街机壳；内胆是冷冽铂铱金属环包裹深邃乌金镜面，凡壳与神核一眼分明' },
-      { k: '正面 · 环冠相', v: '乌金镜面中央仅浮现一道极简闭合微光圆环，开启零延迟视野与算力共链' },
-      { k: '反面 · 蚀日相', v: '翻转浮现一道日食偏蚀残环微光，瞬时解开伙伴种族潜能限制器，神经负荷归执核人' },
+      { k: '开拓阳片（罗伊）', v: '外表面为纯平环冠面（哑光外环配十重游标微刻）；内耦合面隆起十重微星芒正圆凸阶星榫台，蚀刻暖白金外拓日冕波导轨' },
+      { k: '锚定阴片（罗娅）', v: '外表面为纯平同平面偏心月蚀双圆面；内耦合面内沉互补的十重微星芒正圆凹阶星卯槽，蚀刻冰青银内敛月蚀弦波轨' },
+      { k: '环冠与蚀日双相', v: '拇指生物电激振瞬间，环冠相亮起闭合冷白金星环建立零反噬共链；蚀日相燃起炽珀赤金贝利珠残弧解开伙伴潜能限制器' },
     ],
   },
   {
-    tab: '03 无限扩容 · 微观准晶胞',
-    badge: '扩容上限：无外观枷锁（支持无限扩展）',
-    tag: '仪器透视破译 · 不锁死表层',
-    title: '容量与点将全藏在原子级「内部准晶点阵」，不在表面',
+    tab: '03 准晶透视 · 极高硬度与无限扩容',
+    badge: '极高硬度根源：十重非周期键合无滑移面',
+    tag: '相干干涉仪透视 · 零外观枷锁',
+    title: '为何切刀崩刃、百吨不弯？高倍干涉仪揭晓「无滑移面十重彭罗斯准晶」',
     summary:
-      '肉眼看它只是一块死寂圆盘；直至克露丝用高倍相干干涉仪打入探测波，才在仪器屏幕上惊见母核内部悬浮着亿万高维准晶胞——因断环后零点能枯竭，初始仅有浅层九颗晶胞处于激发态。',
+      '克露丝在钨钢切刀触芯崩断后，以高倍相干干涉仪透视揭开阴阳双片极高硬度与无限容量的共同物理根源：常规金属存在周期滑移面故易变形，而母核双片是由高维零点场锁死的十重彭罗斯非周期准晶——内部有序却永不周期重复、不存在任何晶体滑移面，与索伦死板密铺的六角蜂巢锁印形成根本对立。',
     bullets: [
-      { k: '初始额度怎么测', v: '靠克露丝的高能干涉仪在屏幕读数上测出当前活跃晶胞数，而非数硬币边上的物理凹槽' },
-      { k: '战时怎么精准点将', v: '靠执核人拇指弹击母核瞬间的生物电与谐振指法频率匹配目标波谱，无需抠按物理开关' },
-      { k: '未来无限扩容', v: '每重燃一座断联主星门，原初炉心辐射便唤醒深层成片休眠晶胞，母核外观万古不变' },
+      { k: '浅层九颗激发晶胞', v: '断环后零点能枯竭，初始仅有浅层环带的九颗菱形准晶胞处于激发态，由干涉仪视窗精准测读余量' },
+      { k: '生物电指法点将', v: '战时凭执核人拇指弹击瞬间的生物电与谐振指法频率匹配伙伴专属晶胞波谱，无需任何表面物理按键' },
+      { k: '燃门相变无限扩容', v: '每重燃一座断联主炽环门，原初炉心辐射便唤醒深层成片休眠准晶胞，超硬双晶片外观万古不变' },
     ],
   },
   {
-    tab: '04 双核分执 · 半壳潜伏',
-    badge: '双主角闭环：合盖同呈 OG 币面',
-    tag: '原子暗缝 · 双腰匣呼应',
-    title: '沿原子暗缝旋开阴阳双片 · 兄妹腰匣各配半副 OG 屏蔽壳',
+    tab: '04 双生解耦 · 战后二代阴阳对币',
+    badge: '双生血脉唯一解锁：星榫轴向平滑退出',
+    tag: '旋拆二代外壳 · 定制兄妹阴阳透波对币',
+    title: '舰桥旋壳触发「阴阳子母星榫解耦」· 战后克露丝定制兄妹二代透波对币',
     summary:
-      '未旋开时接缝达原子级无痕贴合，十年间无人察觉；暗礁围剿危机中为适配归航号半深凹槽，兄妹合力将其旋开为「开拓阳核」与「锚定阴核」，克露丝同步把 OG 黄铜壳重塑为两只随身半核屏蔽护套。',
+      '开篇期唯罗伊执真核，妹妹罗娅在角色右腰匣插二手地摊淘来的同款实心三周年纪念币配成兄妹对装。归航号舰桥破壁战中，克露丝用专用扳手无损旋开二代透波外皮取出合体母核；面对舰桥双圆槽，唯兄妹双手同握谐振解开内部零点锁，阳片凸阶星榫台方从阴片凹阶星卯槽中平滑退出。',
     bullets: [
-      { k: '罗伊角色右腰匣', v: '内藏开拓阳核，外覆半副 OG 黄铜屏蔽前盖；平时隐蔽潜行，拔出滑壳即刻点将' },
-      { k: '罗娅角色右腰匣', v: '内藏锚定阴核，外覆半副 OG 黄铜屏蔽背盖；跨光年开荒或燃门时兄妹双核合鸣' },
-      { k: '三方裂片同源对比', v: '真核极简浑然，索伦执冷银六角圣匣外层铸模量产刺针伪币，莫罗将断裂导能残环焊死胸口' },
+      { k: '罗伊角色右腰匣', v: '战后装入克露丝定制的「二代透波阳壳」（正面透晶环窗 OG，反面日冕透波环窗），内嵌凸阶星榫开拓阳片，插匣归零、拔币即战' },
+      { k: '罗娅角色右腰匣', v: '换下早期普通实心币，装入定制「二代透波阴壳」（正面透晶环窗 OG，反面偏心月蚀弧窗），内嵌凹阶星卯锚定阴片；单核调遣全员，燃门双核合璧' },
+      { k: '正邪三碎片对位', v: '真核为阴阳星榫双片配透波金瓷壳（共担），索伦执空腔六角外模冲压白瓷盖四刺伪币（统御），莫罗焊死断裂半圈护环（剥夺）' },
     ],
   },
 ]
+
+const activeQuasicells = Array.from({ length: 9 }, (_, i) => {
+  const rad = ((-90 + i * 40) * Math.PI) / 180
+  const r = i % 2 === 0 ? 35 : 31
+  return {
+    cx: +(180 + Math.cos(rad) * r).toFixed(1),
+    cy: +(76 + Math.sin(rad) * r).toFixed(1),
+    lit: i < 3,
+  }
+})
+
+const dormantQuasicells = Array.from({ length: 10 }, (_, i) => {
+  const rad = ((18 + i * 36) * Math.PI) / 180
+  return {
+    cx: +(180 + Math.cos(rad) * 18).toFixed(1),
+    cy: +(76 + Math.sin(rad) * 18).toFixed(1),
+  }
+})
+
+const makeStarPolygon = (cx: number, cy: number, rOuter: number, rInner: number, points = 10) => {
+  const pts: string[] = []
+  for (let i = 0; i < points * 2; i++) {
+    const r = i % 2 === 0 ? rOuter : rInner
+    const rad = ((-90 + (i * 180) / points) * Math.PI) / 180
+    pts.push(`${(cx + Math.cos(rad) * r).toFixed(1)},${(cy + Math.sin(rad) * r).toFixed(1)}`)
+  }
+  return pts.join(' ')
+}
+
+const decagonStarPath = (() => {
+  const pts: string[] = []
+  for (let i = 0; i < 10; i++) {
+    const idx = (i * 3) % 10
+    const rad = ((-90 + idx * 36) * Math.PI) / 180
+    const x = (180 + Math.cos(rad) * 42).toFixed(1)
+    const y = (76 + Math.sin(rad) * 42).toFixed(1)
+    pts.push(`${i === 0 ? 'M' : 'L'}${x},${y}`)
+  }
+  return `${pts.join(' ')} Z`
+})()
 
 const cur = computed(() => states[activeTab.value])
 </script>
 
 <template>
-  <section class="coin-viz-box world-single-viz" aria-label="外层 OG 屏蔽铜壳与内层无字炽环母核结构交互图解">
+  <section class="coin-viz-box world-single-viz" aria-label="两代外皮演进与可分体阴阳子母星榫炽环母核交互图解">
     <header class="coin-viz-box__head">
       <div>
         <span class="coin-viz-box__eyebrow">INTERACTIVE DIAGRAM 02</span>
-        <h3 class="coin-viz-box__title">外壳与内胆真容：凡人「OG 屏蔽铜壳」包裹无字无槽先驱「炽环母核」</h3>
+        <h3 class="coin-viz-box__title">两代外皮与阴阳双片：从「初代阻波铜币」升级「克露丝透波金瓷壳」，内藏「子母星榫阳片与阴片」</h3>
       </div>
-      <div class="coin-viz-tabs" role="tablist" aria-label="母核内外结构四态切换">
+      <div class="coin-viz-tabs" role="tablist" aria-label="两代外皮与阴阳母核四态切换">
         <button
           v-for="(item, idx) in states"
           :key="item.tab"
@@ -91,72 +131,122 @@ const cur = computed(() => states[activeTab.value])
           <span>{{ cur.badge }}</span>
         </div>
 
-        <!-- Tab 0: Outer Brass OG Faraday Shell -->
+        <!-- Tab 0: Gen-1 Blocking Brass Medal vs Gen-2 Cruz Transmissive Gold-Cermet Shell -->
         <svg v-if="activeTab === 0" class="coin-map-svg" viewBox="0 0 360 176" aria-hidden="true">
-          <circle cx="180" cy="78" r="56" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="3.6" />
-          <circle cx="180" cy="78" r="45" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.5" />
-          <circle cx="180" cy="78" r="33" fill="var(--bunny-fabric)" stroke="var(--bunny-orange)" stroke-width="2.2" />
-          <text x="180" y="88" text-anchor="middle" font-size="28" font-weight="800" fill="var(--bunny-orange)">OG</text>
-          <text x="180" y="156" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--coin-green)">
-            人类街机黄铜屏蔽壳 · 合壳隔绝一切高维辐射
+          <!-- Left: Gen-1 Renn Seamless Blocking Brass Medal -->
+          <g>
+            <circle cx="96" cy="72" r="46" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="3.4" />
+            <circle cx="96" cy="72" r="36" fill="var(--bunny-fabric)" stroke="var(--bunny-orange)" stroke-width="1.8" />
+            <text x="96" y="80" text-anchor="middle" font-size="22" font-weight="800" fill="var(--bunny-orange)">OG</text>
+            <text x="96" y="136" text-anchor="middle" font-size="11" font-weight="700" fill="var(--bunny-ink-2)">初代 · 阻波黄铜三周年币</text>
+          </g>
+
+          <!-- Arrow -->
+          <line x1="152" y1="72" x2="202" y2="72" stroke="var(--coin-green)" stroke-width="2.2" stroke-dasharray="4 3" />
+          <polygon points="204,72 197,68 197,76" fill="var(--coin-green)" />
+          <text x="178" y="62" text-anchor="middle" font-size="10" font-weight="700" fill="var(--coin-green)">克露丝重制</text>
+
+          <!-- Right: Gen-2 Cruz Zero-Point Transmissive Gold-Cermet Shell (with dark transmissive ring window!) -->
+          <g>
+            <circle cx="264" cy="72" r="46" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="3.4" />
+            <!-- Dark smoky-crystal transmissive ring window -->
+            <circle cx="264" cy="72" r="33" fill="none" stroke="var(--bunny-ink)" stroke-width="8.5" />
+            <circle cx="264" cy="72" r="33" fill="none" stroke="var(--coin-green)" stroke-width="1.4" stroke-dasharray="5 3" />
+            <circle cx="264" cy="72" r="24" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="1.8" />
+            <text x="264" y="80" text-anchor="middle" font-size="20" font-weight="800" fill="var(--bunny-orange)">OG</text>
+            <text x="264" y="136" text-anchor="middle" font-size="11" font-weight="700" fill="var(--coin-green)">二代 · 零点全透波金瓷壳</text>
+          </g>
+
+          <text x="180" y="164" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--bunny-ink)">
+            二代新壳不阻挡零点波 · 环形暗晶窗全功率透射 · 插回波导腰匣归零
           </text>
         </svg>
 
-        <!-- Tab 1: Inner Seamless Letterless Astral Ring Core -->
+        <!-- Tab 1: Separable Yang Tenon Piece & Yin Mortise Piece + Stepped Cross-Section -->
         <svg v-else-if="activeTab === 1" class="coin-map-svg" viewBox="0 0 360 176" aria-hidden="true">
+          <!-- Left: Pioneer Yang Piece Inner Mating Face (10-Point Raised Star Tenon Boss) -->
           <g>
-            <circle cx="106" cy="76" r="46" fill="var(--bunny-fabric)" stroke="var(--bunny-ink)" stroke-width="3" />
-            <circle cx="106" cy="76" r="39" fill="var(--bunny-ink)" />
-            <circle cx="106" cy="76" r="21" fill="none" stroke="var(--bunny-paper)" stroke-width="2.2" />
-            <text x="106" y="142" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-ink)">正面 · 极简闭合环</text>
+            <circle cx="94" cy="62" r="41" fill="var(--bunny-ink)" stroke="var(--bunny-ink-2)" stroke-width="1.5" />
+            <polygon :points="makeStarPolygon(94, 62, 29, 24, 10)" fill="var(--bunny-ink-2)" stroke="var(--bunny-orange)" stroke-width="1.5" />
+            <circle cx="94" cy="62" r="16" fill="none" stroke="var(--bunny-paper)" stroke-width="1.4" />
+            <text x="94" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="var(--bunny-orange)">开拓阳片 · 凸阶十重星榫</text>
           </g>
+
+          <!-- Center: Stepped Mating Cross-Section (`┻` Yang Boss + `┳` Yin Socket = Flat Combined Disc!) -->
           <g>
-            <circle cx="254" cy="76" r="46" fill="var(--bunny-fabric)" stroke="var(--bunny-ink)" stroke-width="3" />
-            <circle cx="254" cy="76" r="39" fill="var(--bunny-ink)" />
-            <circle cx="254" cy="76" r="21" fill="none" stroke="var(--bunny-orange)" stroke-width="2.4" />
-            <circle cx="259" cy="73" r="19" fill="var(--bunny-ink)" />
-            <text x="254" y="142" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-orange)">反面 · 极简蚀日环</text>
+            <!-- Yang stepped section (`┻` inverted: flat top, raised bottom boss) -->
+            <path d="M150,42 H210 V48 H196 V54 H164 V48 H150 Z" fill="var(--bunny-ink)" stroke="var(--bunny-orange)" stroke-width="1.3" />
+            <!-- Yin stepped section (`┳`: recessed top socket, flat bottom) -->
+            <path d="M150,62 H164 V68 H196 V62 H210 V74 H150 Z" fill="var(--bunny-ink)" stroke="var(--coin-green)" stroke-width="1.3" />
+            <text x="180" y="92" text-anchor="middle" font-size="10" font-weight="700" fill="var(--bunny-ink-2)">外平内扣剖面</text>
           </g>
-          <text x="180" y="166" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-ink-2)">
-            光滑无缝铂乌圆盘 · 无字母、无开孔、无外露刻度
+
+          <!-- Right: Anchor Yin Piece Inner Mating Face (10-Point Recessed Star Mortise Socket) -->
+          <g>
+            <circle cx="266" cy="62" r="41" fill="var(--bunny-ink-2)" stroke="var(--bunny-ink)" stroke-width="1.5" />
+            <polygon :points="makeStarPolygon(266, 62, 29, 24, 10)" fill="var(--bunny-ink)" stroke="var(--coin-green)" stroke-width="1.5" />
+            <circle cx="266" cy="62" r="16" fill="none" stroke="var(--coin-green)" stroke-width="1.4" stroke-dasharray="4 2" />
+            <text x="266" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="var(--coin-green)">锚定阴片 · 凹阶十重星卯</text>
+          </g>
+
+          <text x="180" y="156" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--bunny-ink)">
+            合体上下纯平严密包芯 · 分体一凸一凹十重星榫卯天然互补
           </text>
         </svg>
 
-        <!-- Tab 2: Sub-atomic Quasicrystal Lattice on Interferometer -->
+        <!-- Tab 2: Slip-Plane-Free 10-Fold Aperiodic Quasicrystal Lattice -->
         <svg v-else-if="activeTab === 2" class="coin-map-svg" viewBox="0 0 360 176" aria-hidden="true">
-          <rect x="54" y="14" width="252" height="126" rx="8" fill="var(--bunny-fabric)" stroke="var(--bunny-ink)" stroke-width="2" />
-          <line x1="54" y1="77" x2="306" y2="77" stroke="var(--bunny-rule-strong)" stroke-width="1" stroke-dasharray="3 3" />
-          <line x1="180" y1="14" x2="180" y2="140" stroke="var(--bunny-rule-strong)" stroke-width="1" stroke-dasharray="3 3" />
-          <circle cx="180" cy="77" r="46" fill="none" stroke="var(--bunny-ink-2)" stroke-width="1.8" />
-          <circle cx="180" cy="77" r="34" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.2" stroke-dasharray="2 4" />
-          <circle cx="180" cy="77" r="22" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.2" stroke-dasharray="2 3" />
-          <circle cx="180" cy="77" r="10" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.2" stroke-dasharray="1.5 2.5" />
-          <circle cx="156" cy="52" r="3.5" fill="var(--coin-green)" />
-          <circle cx="208" cy="59" r="3.5" fill="var(--coin-green)" />
-          <circle cx="195" cy="105" r="3.5" fill="var(--coin-green)" />
-          <circle cx="149" cy="89" r="3.5" fill="var(--bunny-orange)" />
+          <rect x="48" y="12" width="264" height="128" rx="8" fill="var(--bunny-fabric)" stroke="var(--bunny-ink)" stroke-width="2" />
+          <line x1="48" y1="76" x2="312" y2="76" stroke="var(--bunny-rule-strong)" stroke-width="1" stroke-dasharray="3 3" />
+          <line x1="180" y1="12" x2="180" y2="140" stroke="var(--bunny-rule-strong)" stroke-width="1" stroke-dasharray="3 3" />
+          <circle cx="180" cy="76" r="48" fill="none" stroke="var(--bunny-ink)" stroke-width="2.2" />
+          <path :d="decagonStarPath" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1" opacity="0.55" />
+          <circle cx="180" cy="76" r="19" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.1" stroke-dasharray="2 3" />
+          <circle
+            v-for="(dc, idx) in dormantQuasicells"
+            :key="`d-${idx}`"
+            :cx="dc.cx"
+            :cy="dc.cy"
+            r="2.1"
+            fill="var(--bunny-ink-3)"
+            opacity="0.55"
+          />
+          <circle
+            v-for="(ac, idx) in activeQuasicells"
+            :key="`a-${idx}`"
+            :cx="ac.cx"
+            :cy="ac.cy"
+            r="3.8"
+            :fill="ac.lit ? 'var(--bunny-orange)' : 'var(--coin-green)'"
+          />
+          <circle cx="180" cy="76" r="3" fill="var(--bunny-ink)" />
           <text x="180" y="162" text-anchor="middle" font-size="12" font-weight="700" fill="var(--coin-green)">
-            唯高倍相干干涉仪可见：内部悬浮无上限休眠准晶胞
+            无滑移面十重彭罗斯准晶键合 · 极高硬度根源与浅层九颗激发晶胞
           </text>
         </svg>
 
-        <!-- Tab 3: Twin Halves Each With Brass Shield Cap -->
+        <!-- Tab 3: Twin Bio-Electric Star-Tenon Unlocking & Gen-2 Sibling Pair -->
         <svg v-else class="coin-map-svg" viewBox="0 0 360 176" aria-hidden="true">
+          <!-- Left: Roy's Yang Piece + Gen-2 Shell -->
           <g>
-            <ellipse cx="108" cy="76" rx="32" ry="48" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="2.6" />
-            <ellipse cx="122" cy="76" rx="26" ry="42" fill="var(--bunny-ink)" stroke="var(--bunny-ink-2)" stroke-width="2" />
-            <text x="93" y="81" text-anchor="middle" font-size="13" font-weight="800" fill="var(--bunny-orange)">OG</text>
-            <text x="114" y="144" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-ink)">阳核 + OG 屏蔽盖</text>
+            <ellipse cx="106" cy="72" rx="30" ry="44" fill="var(--bunny-ink)" stroke="var(--bunny-orange)" stroke-width="2" />
+            <ellipse cx="112" cy="72" rx="18" ry="28" fill="var(--bunny-ink-2)" stroke="var(--bunny-paper)" stroke-width="1.4" />
+            <text x="106" y="138" text-anchor="middle" font-size="11" font-weight="700" fill="var(--bunny-orange)">开拓阳片 + 二代透波阳壳</text>
           </g>
-          <line x1="156" y1="76" x2="204" y2="76" stroke="var(--coin-green)" stroke-width="2.2" class="coin-dash-anim" />
+
+          <line x1="142" y1="66" x2="218" y2="66" stroke="var(--bunny-orange)" stroke-width="2" class="coin-dash-anim" />
+          <line x1="142" y1="78" x2="218" y2="78" stroke="var(--coin-green)" stroke-width="2" class="coin-dash-anim" />
+          <text x="180" y="55" text-anchor="middle" font-size="10.5" font-weight="700" fill="var(--coin-green)">星榫轴向解锁</text>
+
+          <!-- Right: Roya's Yin Piece + Gen-2 Shell -->
           <g>
-            <ellipse cx="252" cy="76" rx="32" ry="48" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="2.6" />
-            <ellipse cx="238" cy="76" rx="26" ry="42" fill="var(--bunny-ink)" stroke="var(--bunny-ink-2)" stroke-width="2" />
-            <text x="267" y="81" text-anchor="middle" font-size="13" font-weight="800" fill="var(--bunny-orange)">OG</text>
-            <text x="246" y="144" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-orange)">阴核 + OG 屏蔽盖</text>
+            <ellipse cx="254" cy="72" rx="30" ry="44" fill="var(--bunny-ink)" stroke="var(--coin-green)" stroke-width="2" />
+            <ellipse cx="248" cy="72" rx="18" ry="28" fill="var(--bunny-ink)" stroke="var(--coin-green)" stroke-width="1.4" stroke-dasharray="3 2" />
+            <text x="254" y="138" text-anchor="middle" font-size="11" font-weight="700" fill="var(--coin-green)">锚定阴片 + 二代透波阴壳</text>
           </g>
-          <text x="180" y="166" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-ink-2)">
-            兄妹角色右腰磁吸匣外露皆为 OG 屏蔽壳 · 拔出滑盖即战
+
+          <text x="180" y="164" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--bunny-ink-2)">
+            双生生物电解锁子母星榫 · 战后分装二代透波对币配入兄妹角色右腰匣
           </text>
         </svg>
       </div>

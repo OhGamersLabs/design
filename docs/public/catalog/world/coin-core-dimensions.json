@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 2,
+  "designUnit": {
+    "H0Px": 3097,
+    "bodySource": "/media/darrow/body-front-latest.png",
+    "definition": "罗伊正面身体基准图的可见发冠至赤脚地面（y = 194 → 3291，厘米身高未设定）。"
+  },
+  "source": {
+    "id": "coin-core-orthographic-board-latest",
+    "width": 1536,
+    "height": 1024,
+    "originalSha256": "a96119b90e7f51bdeeee117fbcc60cd4bcfb4fdd71b67683e7b38fe1abfe2410",
+    "webSha256": "855227d59b767780828925fbb65e67cb3dfbd8efcdb7ac7a2f17ee8bfc11cda5"
+  },
+  "rulerCanvas": {
+    "width": 1536,
+    "height": 1272
+  },
+  "resources": {
+    "original": "/media/world/coin-core-orthographic-board-latest.png",
+    "web": "/characters/world/coin-core-orthographic-board-latest.webp",
+    "ruler": "/characters/darrow/coin-core-orthographic-ruler-latest.svg",
+    "json": "/catalog/world/coin-core-dimensions.json"
+  },
+  "masterScale": {
+    "D0Px": 180,
+    "D0_H0": 0.035,
+    "DcPx": 166,
+    "Dc_D0": 0.9222,
+    "DsPx": 114,
+    "Ds_D0": 0.6333,
+    "T1Px": 16,
+    "TcPx": 10
+  },
+  "rows": [
+    {
+      "id": "gen1_diameter",
+      "symbol": "D0",
+      "label": "初代三周年阻波黄铜币外径",
+      "group": "shell",
+      "viewTag": "初代正视 / 背视",
+      "px": 180,
+      "ratioD0": 1.0,
+      "targetH0": 0.035,
+      "coordinates": "(72, 252) → (252, 252)",
+      "tolerancePx": 1.0,
+      "definition": "十年前雷恩以波导废铋黄铜无缝冲压的三周年店庆纪念币圆周外径，作全板统一基准单位。"
+    },
+    {
+      "id": "gen1_thickness",
+      "symbol": "T1",
+      "label": "初代阻波铜币侧壁总厚",
+      "group": "shell",
+      "viewTag": "初代正侧视 / A-A 剖视",
+      "px": 16,
+      "ratioD0": 0.0889,
+      "targetH0": 0.0031,
+      "coordinates": "(318, 162) → (334, 162)",
+      "tolerancePx": 0.5,
+      "definition": "初代无缝冲压波导黄铜币轴向总厚度（单面铜衣 Tb = 3.0 px，圆周包边 Tr = 7.0 px）。"
+    },
+    {
+      "id": "rim_crack_len",
+      "symbol": "Lc",
+      "label": "初代币边纵向细裂缝弦长",
+      "group": "shell",
+      "viewTag": "初代正侧视",
+      "px": 44,
+      "ratioD0": 0.2444,
+      "targetH0": 0.0086,
+      "coordinates": "x = 326, y = 230 → 274",
+      "tolerancePx": 1.0,
+      "definition": "货运走廊撞击钢梁棱角后，在光滑币边柱面撑开的单条纵向细缝长。"
+    },
+    {
+      "id": "gen2_diameter",
+      "symbol": "D2",
+      "label": "克露丝二代透波金瓷壳外径",
+      "group": "shell",
+      "viewTag": "二代正视 / 背视",
+      "px": 180,
+      "ratioD0": 1.0,
+      "targetH0": 0.035,
+      "coordinates": "(72, 736) → (252, 736)",
+      "tolerancePx": 1.0,
+      "definition": "克露丝重制的零点全透波掺金氮化硅碳复合金瓷壳外径，与初代等径以完美兼容角色右腰快抽匣。"
+    },
+    {
+      "id": "gen2_window_d",
+      "symbol": "Dw",
+      "label": "二代正面环形透晶导流窗外径",
+      "group": "shell",
+      "viewTag": "二代正视 / B-B 剖视",
+      "px": 136,
+      "ratioD0": 0.7556,
+      "targetH0": 0.0264,
+      "coordinates": "(94, 736) → (230, 736)",
+      "tolerancePx": 1.0,
+      "definition": "围绕中央 OG 徽记镶嵌的零点全透波暗晶环窗外径，零点波经此无损全向透射。"
+    },
+    {
+      "id": "gen2_thickness",
+      "symbol": "T2",
+      "label": "二代旋锁透波金瓷壳总厚",
+      "group": "shell",
+      "viewTag": "二代正侧视 / B-B 剖视",
+      "px": 16,
+      "ratioD0": 0.0889,
+      "targetH0": 0.0031,
+      "coordinates": "(318, 646) → (334, 646)",
+      "tolerancePx": 0.5,
+      "definition": "四向旋锁子母双半壳扣合后的轴向总厚度，支持专用扳手无损拆装退壳。"
+    },
+    {
+      "id": "core_diameter",
+      "symbol": "Dc",
+      "label": "可分体母核（阳片/阴片）外径",
+      "group": "core",
+      "viewTag": "阳片与阴片正背三视",
+      "px": 166,
+      "ratioD0": 0.9222,
+      "targetH0": 0.0323,
+      "coordinates": "(841, 252) → (1007, 252)",
+      "tolerancePx": 1.0,
+      "definition": "开拓阳片与锚定阴片的纯平正圆烟晶黑钻外径，严丝合缝嵌于两代外皮内腔。"
+    },
+    {
+      "id": "star_tenon_span",
+      "symbol": "Ds",
+      "label": "十重子母微阶梯星榫卯跨度",
+      "group": "core",
+      "viewTag": "阳片内榫面 / 阴片内卯面",
+      "px": 114,
+      "ratioD0": 0.6333,
+      "targetH0": 0.0222,
+      "coordinates": "(1239, 252) → (1353, 252)",
+      "tolerancePx": 1.0,
+      "definition": "阳片内耦合面隆起凸阶十重星榫与阴片内耦合面内沉凹阶十重星卯的精密公母配合外跨。"
+    },
+    {
+      "id": "combined_core_t",
+      "symbol": "Tc",
+      "label": "阴阳双片合体纯平圆饼总厚",
+      "group": "core",
+      "viewTag": "C-C 合体咬合全剖视",
+      "px": 10,
+      "ratioD0": 0.0556,
+      "targetH0": 0.0019,
+      "coordinates": "(1129, 169) → (1139, 169)",
+      "tolerancePx": 0.5,
+      "definition": "阳片凸榫与阴片凹卯零间隙咬合后的合体厚度（边缘 4+6=10 px，中心 6+4=10 px，上下绝对纯平）。"
+    },
+    {
+      "id": "yang_thick",
+      "symbol": "Ty",
+      "label": "开拓阳片（边缘 / 中心星榫）厚",
+      "group": "yang",
+      "viewTag": "阳片阶梯侧剖视",
+      "px": 6,
+      "ratioD0": 0.0333,
+      "targetH0": null,
+      "coordinates": "边缘 Ty0 = 4.0 px / 中心凸台 Ty1 = 6.0 px",
+      "tolerancePx": 0.5,
+      "definition": "罗伊所持开拓阳片的外平内凸阶梯厚度（外表面纯平，内侧十重星榫台隆起 2.0 px）。"
+    },
+    {
+      "id": "yin_thick",
+      "symbol": "Tn",
+      "label": "锚定阴片（边缘 / 凹卯底）厚",
+      "group": "yin",
+      "viewTag": "阴片阶梯侧剖视",
+      "px": 6,
+      "ratioD0": 0.0333,
+      "targetH0": null,
+      "coordinates": "边缘 Tn1 = 6.0 px / 中心凹底 Tn0 = 4.0 px",
+      "tolerancePx": 0.5,
+      "definition": "罗娅所持锚定阴片的外平内凹阶梯厚度（外表面纯平，内侧十重星卯槽内沉 2.0 px）。"
+    }
+  ],
+  "characterCheck": {
+    "bodyCanvas": "2352×3520",
+    "carrySource": "/media/darrow/belt-guards-right-latest.png",
+    "observations": [
+      {
+        "id": "carry_coin_chord",
+        "label": "罗伊角色右侧面 · 匣口半露 OG 币可见横弦",
+        "coords": "(970, 1486) → (1076, 1486)",
+        "px": 106.0,
+        "ratioH0": 0.0342
+      },
+      {
+        "id": "carry_holster_span",
+        "label": "罗伊角色右侧面 · 斜挂波导磁吸快抽腰匣包络",
+        "coords": "(1046, 1430) → (976, 1656)",
+        "px": 236.6,
+        "ratioH0": 0.0764
+      }
+    ]
+  }
+}

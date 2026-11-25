@@ -6,6 +6,7 @@ import { data as site } from '../data/site.data.mjs'
 import { readingNeighbors } from './character-site.mjs'
 import WorldOriginFactions from './components/WorldOriginFactions.vue'
 import WorldCoreStructure from './components/WorldCoreStructure.vue'
+import WorldRelicMeasurements from './components/WorldRelicMeasurements.vue'
 import WorldMysteryOnboarding from './components/WorldMysteryOnboarding.vue'
 import WorldCoinInteractive from './components/WorldCoinInteractive.vue'
 import WorldArkGenerations from './components/WorldArkGenerations.vue'
@@ -125,6 +126,108 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
           </div>
 
           <WorldCoreStructure />
+
+          <WorldRelicMeasurements />
+
+          <div class="world-relic-list" aria-label="核心信物与正邪三碎片设定板">
+            <article class="world-relic-card">
+              <div class="world-relic-card__head">
+                <span class="world-pillar-card__code">RELIC PROP SHEET 01 · TWO-GENERATION SHELL EVOLUTION</span>
+                <h3>两代外皮演进：初代三周年阻波黄铜币、切刀崩刃剥皮与克露丝重制「二代零点全透波金瓷壳」</h3>
+              </div>
+              <WorldImage
+                id="og-arcade-shell-board-latest"
+                caption="两代外皮演进 · 初代阻波黄铜币、克露丝二代零点全透波金瓷壳与波导腰匣设定板"
+                detail="初代波导黄铜阻波伪装 · 二代掺金硅碳复合金瓷环形透晶窗零损耗透波"
+                group="world-relic-props"
+              />
+              <div class="world-relic-badges">
+                <div class="world-relic-badge">
+                  <b>画面左上方 · 初代阻波三周年铜币与边缝</b>
+                  <span>十年前雷恩以波导废黄铜无缝紧包母核冲压为三周年店庆纪念币（防误投街机口且锁死零点波），肉搏硬磕仅裂一条币边细缝。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>画面右上方 · 钨钢切刀崩刃与剥除初代铜皮</b>
+                  <span>第 02 话克露丝切刀探缝触芯当场崩断，遂剥下完成潜伏使命的初代软黄铜外衣（由罗伊珍藏纪念父母），显露无损暗晶母核。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>画面左下方 · 克露丝二代「零点全透波金瓷壳」</b>
+                  <span>采用不阻挡零点波的暖金钛瓷合成材料配四向旋锁卡口，正面围绕 OG 嵌环形透波暗晶窗，战后分制日冕阳壳与月蚀阴壳背面。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>画面右下方 · 波导屏蔽腰匣与全功率拔币激振</b>
+                  <span>平时插回加装波导内衬的角色右腰黑橙磁吸匣即锁死 0.00（对齐立绘外观）；拔出二代透波币即由环形透晶窗全功率激振。</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="world-relic-card">
+              <div class="world-relic-card__head">
+                <span class="world-pillar-card__code">RELIC PROP SHEET 02 · SEPARABLE YANG &amp; YIN MOTHER CORE</span>
+                <h3>可分体「炽环母核」专项六视设定：外平内扣咬合半剖、开拓阳片（凸阶星榫）、锚定阴片（凹阶星卯）与准晶透视</h3>
+              </div>
+              <WorldImage
+                id="astral-mother-core-board-latest"
+                caption="可分体先驱炽环母核 · 六视图合体星榫半剖、开拓阳片、锚定阴片与准晶透视设定板"
+                detail="合体上下纯平严密包芯 · 分体阳片十重凸阶星榫与阴片十重凹阶星卯精密互补"
+                group="world-relic-props"
+              />
+              <div class="world-relic-badges">
+                <div class="world-relic-badge">
+                  <b>画面左上方 · 合体纯平圆饼与星榫半剖</b>
+                  <span>合体态上下外表面绝对纯平平行；切面展示上层阳片凸阶星榫与下层阴片凹阶星卯零间隙咬合锁死。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>画面上中 · 开拓阳片（兄）内外双面</b>
+                  <span>外表面为纯平环冠面（哑光外环与十重游标微刻）；内耦合面隆起十重微星芒正圆凸阶星榫台与暖白金日冕轨。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>画面右上方 · 锚定阴片（妹）内外双面</b>
+                  <span>外表面为纯平同平面偏心月蚀双圆面；内耦合面内沉互补的十重微星芒正圆凹阶星卯槽与冰青银月蚀轨。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>画面左下方 · 环冠相与蚀日相激振发光</b>
+                  <span>拇指生物电激振瞬间，环冠相亮起闭合冷白金星环与天顶星芒共链；蚀日相燃起炽珀赤金贝利珠日冕残弧解限。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>画面下中 · 双生生物电「子母星榫轴向分离」</b>
+                  <span>物理刀锯不可撬开；唯达罗双生生物电谐振解锁零点场，阳片十重凸阶星榫台方从阴片凹阶星卯槽中平滑退出。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>画面右下方 · 十重彭罗斯准晶与九激发晶胞</b>
+                  <span>干涉仪透视揭示极高硬度根源：无滑移面十重非周期菱形准晶键合网，浅层点亮九颗激发晶胞、深层嵌套休眠晶海。</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="world-relic-card">
+              <div class="world-relic-card__head">
+                <span class="world-pillar-card__code">RELIC PROP SHEET 03 · THREE ZERO-GATE RELIC SHARDS</span>
+                <h3>零号母门一物裂三方：两代外皮与阴阳分体真核、天秤六角空腔外模伪币及暗环剥夺残环</h3>
+              </div>
+              <WorldImage
+                id="zero-gate-three-relics-latest"
+                caption="零号母门正邪三碎片 · 三方核心信物对比设定板"
+                detail="两代外皮与阴阳星榫真核 · 六角蜂巢统御外模伪币 · 断裂半圈剥夺护环"
+                group="world-relic-props"
+              />
+              <div class="world-relic-badges">
+                <div class="world-relic-badge">
+                  <b>画面左列 · 达罗兄妹「共担真核与两代外皮」</b>
+                  <span>初代三周年铜皮、克露丝二代透波金瓷 OG 壳、分离态凸星榫阳片与凹星卯阴片及波导快抽腰匣，力量归伙伴而负荷归己身。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>中列 · 索伦·韦恩「统御外模与伪币」</b>
+                  <span>冷银拼黑曜空腔六角圣匣外模，批量冲压表面光洁纯白六角瓷盖、底层暗藏哑黑六角铁座与四根暗红神经刺针的稳压章。</span>
+                </div>
+                <div class="world-relic-badge">
+                  <b>画面右列 · 德雷克·莫罗「剥夺残环」</b>
+                  <span>两端焦黑撕裂的半圈远古金钛导能护环，加装粗糙黑钢胸骨外科抓扣与紫铜抽吸线圈，强行榨取异族炉心嫁接自身。</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
           <WorldMysteryOnboarding />
           <WorldCoinInteractive />
 
@@ -419,6 +522,57 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
 </template>
 
 <style scoped>
+.world-relic-list {
+  display: grid;
+  gap: 24px;
+  margin: 20px 0 36px;
+}
+.world-relic-card {
+  padding: 22px 24px 24px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg);
+}
+.world-relic-card__head h3 {
+  margin: 6px 0 0;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.world-relic-card :deep(.release-image) {
+  margin: 16px 0 18px;
+}
+.world-relic-badges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px 12px;
+}
+.world-relic-badge {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+}
+.world-relic-badge b {
+  color: var(--vp-c-text-1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.world-relic-badge span {
+  color: var(--vp-c-text-2);
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+@media (max-width: 640px) {
+  .world-relic-card {
+    padding: 16px;
+  }
+}
+
 .world-relic-list {
   display: grid;
   gap: 24px;

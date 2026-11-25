@@ -6,63 +6,63 @@ const activeOnboarding = ref(0)
 
 const mysteryStages = [
   {
-    cap: '肉眼视角：印着 OG 字样的黄铜街机代币',
-    badge: '探测仪读数：0.00（灯下黑）',
-    title: '谜题 01 · 十年灯下黑：只有外层人类铜壳才是「OG 街机币」',
-    how: '父母提前给先驱无字「炽环母核」裹上惰性屏蔽黄铜皮，压印成廉价的「OhGamers（OG）街机游戏代币」，骗过叛徒索伦十年前的亲自搜身。兄妹俩十年间拿它当普通护身铜板，养成凡事抛正反拍板的习惯。',
-    solve: '为何十年抛掷上千次皆无异象？因黄铜外皮隔绝了一切辐射！直至首战撞上财团高功率「锁印伪币」共振裂壳，显露出内部无字无槽的铂乌镜面母核；克露丝随即把裂开的 OG 黄铜皮精工重塑为卡扣式屏蔽暗壳，供日常合壳防雷达锁定。',
-    foot: '一石三鸟：同时圆死「十年为何没被抢」、「为何只有外皮印 OG」与「为何立绘腰匣平时仍露金黄 OG 币面」。',
+    cap: '肉眼视角：正面素底 OG、反面三周年店庆纹的无缝纪念币',
+    badge: '探测仪读数：0.00（无缝紧包死腔）',
+    title: '谜题 01 · 十年灯下黑：冲压捶打无缝「三周年店庆纪念币」与币缘细缝',
+    how: '父母借极高硬度母核充当刚性内砧，用零九号船坞星门波导废铜将母核捶打收口至完全无缝无空腔，再冲压复原为「OhGamers 三周年店庆纪念币」（背面刻三颗星与数字 3，塞不进投币口不会被孩子花掉），兄妹十年间拿它抛正反拍板日常。',
+    solve: '为何十年抛掷上万次皆无异象？因无缝波导黄铜紧包锁死了全部辐射！直至货运走廊肉搏重磕钢梁，内有超硬母核死顶导致币缘侧壁撕裂出一条细窄裂缝漏出一缕零点波；进入暗礁后克露丝剥下初代黄铜皮，以不阻挡零点波的「零点全透波金瓷新材料」重制第二代旋锁式 OG 战术外皮，插回波导腰匣归零、拔出即全功率激振！',
+    foot: '细腻进化：从「初代阻波黄铜店庆币（细缝漏波）」平滑升级至「克露丝二代零点全透波金瓷壳 + 波导腰匣」。',
   },
   {
-    cap: '克露丝高倍相干干涉仪 · 原子级透视',
-    badge: '浅层活跃晶胞：共 9 颗（余 7）',
-    title: '谜题 02 · 表层浑然无孔：容量深藏内部「高维准晶点阵」',
-    how: '母核表层光滑无缝、不设任何外露凹槽或发光刻度；直至克露丝将探测波打入母核内部，全员看着干涉仪屏幕倒吸一口凉气——',
-    solve: '看似死寂的圆盘内部竟悬浮着亿万高维准晶胞！因断环后零点能枯竭，初始仅有浅层九颗晶胞处于活跃态（连上邦妮与克露丝后已绑定两颗，仅余七次初始额度）。战时凭执核人拇指弹击的生物电谐振频率即可精准唤醒对应伙伴的晶胞！',
-    foot: '高维极简造物：表层不留任何固定槽位痕迹，机制全藏于微观晶格，为后续资料片留出无限扩容空间。',
+    cap: '克露丝切刀崩刃验证 · 高倍相干干涉仪透视',
+    badge: '浅层激发晶胞：共 9 颗（余 7）',
+    title: '谜题 02 · 切刀崩刃：极高硬度源于内部「无滑移面十重非周期准晶」',
+    how: '克露丝起初试图拿钨钢微切刀沿币缘细缝探入取样，刀尖触及暗乌内芯瞬间火星迸溅当场崩断，而内芯连一道白痕都没留下！她遂剥开初代软黄铜外衣打入相干干涉波——',
+    solve: '干涉仪视窗赫然显现出有序却永不周期重复的十重非周期准晶单晶点阵！因内部不存在任何周期晶体滑移面，故具备超越常规物质的极高硬度；初始仅有浅层环带的九颗准晶胞处于激发态，战时凭拇指弹击的生物电频率即可定向点将！',
+    foot: '材料学与世界观合一：用「无滑移面非周期准晶」同时解释为何百吨冲压不坏、为何索伦是六角周期晶格、以及如何无限扩容。',
   },
   {
-    cap: '归航号舰桥半深凹槽实验 · 阴阳分核',
-    badge: '对齐双人立绘：各配半副 OG 壳',
-    title: '谜题 03 · 暗缝旋开：无痕圆核拧成阴阳双片，各覆半副屏蔽铜盖',
-    how: '天秤财团焊死本地频段围剿暗礁，克露丝脱去铜壳将母核按入归航号舰桥主控台的远古圆槽，却惊觉凹槽深度只有母核厚度的一半！',
-    solve: '千钧一发之际兄妹合力一拧，十年来连刀片都插不进暗缝的浑然母核竟沿原子级相位面旋开为「开拓阳核」与「锚定阴核」；克露丝同步将 OG 黄铜壳对半制成两只屏蔽护套——兄妹分佩角色右腰磁吸匣时，匣口外露依然皆为金黄 OG 币面！',
-    foot: '严丝合缝：既确立了从小只有唯一一枚信物，又完整解释了兄妹双人造型各自角色右腰磁吸匣均插有 OG 金币的来由。',
+    cap: '归航号舰桥旋壳实验 · 阴阳子母星榫双片解耦',
+    badge: '唯一解锁途径：双生生物电星榫分离',
+    title: '谜题 03 · 舰桥旋壳分体：双生血脉解锁「阳片凸阶星榫 × 阴片凹阶星卯」',
+    how: '天秤财团焊死本地频段围剿暗礁，克露丝用专用扳手无损旋开二代透波外皮取出合体母核，却发现归航号舰桥主控台设有一阳一阴两处浅圆槽！',
+    solve: '任何重锤与激光切割皆无法撬开母核内部咬合分界面分毫；生死关头罗伊与罗娅双手同握母核，达罗双生生物电解锁内部零点锁，阳片「十重凸阶星榫台」无声从阴片「十重凹阶星卯槽」中平滑退出（战后克露丝为阳片、阴片各定制一套二代零点透波金瓷 OG 壳配入兄妹各自角色右腰波导磁吸匣）！',
+    foot: '神性与工程双闭环：合体上下纯平、分体一凸一凹星榫互补，战后升级为兄妹一人一枚二代透波 OG 战术币。',
   },
   {
-    cap: '维琳无损高能透视 · 深层休眠准晶群',
+    cap: '维琳无损高能透视 · 深层休眠准晶海',
     badge: '扩容零外观负担：燃门辐射相变',
-    title: '谜题 04 · 无限扩容：重燃星门唤醒深层晶胞，外观万古不变',
-    how: '当浅层九颗活跃晶胞随第九位同伴维琳入列而全部绑定，母核初始结契额度彻底归零。',
-    solve: '精通高维能谱的硅碳学者维琳与克露丝联手深度透视，证实母核深处仍沉睡着成百上千颗未激活的准晶胞——常规电力丝毫无用，唯有抵近熄灭断联的主炽环门、沐浴星门重燃瞬间的原初炉心辐射，深层晶胞便会成片相变苏醒！',
-    foot: '无限扩展闭环：无论未来资料片横跨多少世代、接纳多少位新同伴，母核极简纯粹的外观永远无需改动丝毫。',
+    title: '谜题 04 · 无限扩容：重燃星门唤醒深层准晶胞，超硬单晶万古不变',
+    how: '当浅层九颗激发态准晶胞随第九位同伴维琳入列而全部绑定，母核初始结契额度彻底归零。',
+    solve: '精通高维能谱的硅碳学者维琳与克露丝联手深度透视，证实超硬单晶深处仍层层嵌套着成百上千颗未激活的休眠准晶胞——常规电力丝毫无用，唯有抵近熄灭断联的主炽环门、沐浴星门重燃瞬间的原初炉心辐射，深层晶胞便会成片相变苏醒！',
+    foot: '跨世代扩展闭环：无论未来资料片横跨多少世代、接纳多少位新同伴，一体超硬暗乌单晶的纯粹外观永远无需改动丝毫。',
   },
 ]
 
 const onboardingSteps = [
   {
     rangeBadge: '共鸣半径：数公里（同港区）',
-    radarCaption: '无外接天线 · 肉身裸抛',
-    title: '新手第 01 步（同港区）：邦妮 · 肉眼可见的初醒',
-    why: '为何只飞这么近：开局未搭接任何中继设备，仅凭罗伊手抛的自然感应半径，只能扫过同一座索道港区的邻近街区。',
-    plot: '揭秘职责：兄妹在摩天索道遭财团堵截，本能弹出刚被伪币撞裂铜壳的信物——金光虚影拐过两条街被跑酷经过的邦妮抄住，当场揭秘「触影立契 + 正面视野共链」。',
-    foot: '认知一阶：此时三人以为这枚奇物只是个能在附近几条街找帮手的近距战术信标。',
+    radarCaption: '无外接天线 · 币缘细缝裸抛',
+    title: '新手第 01 步（同港区）：邦妮 · 零前兆贴脸大变活人',
+    why: '为何只飞这么近：开局未搭接任何中继设备，仅靠重磕钢梁在币缘撕裂出的那条细窄裂缝自然逸散功率，只能扫过数公里内的同城高塔空域。',
+    plot: '揭秘职责：兄妹救下洛恩退入三岔死角，罗伊冷汗弹出带边缘细缝的三周年 OG 纪念币赌逃跑路线（肉眼无浮夸光环）——细缝逸出的一缕无字细光环突现上层高塔坠空绝境的邦妮鼻尖前，邦妮本能一抓即触发零传送门前兆水波折裂，直接跨空贴脸降临兄妹面前！',
+    foot: '认知一阶：三人面面相觑一头雾水，起初只当这枚裂了一条边缝的纪念币触发了某种短距保命传送奇观。',
   },
   {
     rangeBadge: '共鸣半径：千万公里（跨轨道卫星）',
     radarCaption: '搭接暗礁残破轨道信标',
-    title: '新手第 02 步（不同卫星）：克露丝 · 首次跨空间拉人与干涉仪破译',
-    why: '为何射程变远了：三人退回零九号暗礁面对瘫痪的归航号束手无策，罗伊尝试将母核贴在暗礁残存的区间轨道信标上再弹一次，搜索半径跃升至邻近工业卫星！',
-    plot: '揭秘职责：金影飞入三号船坞工业卫星落在克露丝台面，触碰瞬间将她跨深空折跃拉至暗礁！首次揭秘「空间折跃召遣」，并由克露丝重塑 OG 屏蔽壳、以干涉仪测出内部浅层九颗活跃晶胞。',
-    foot: '认知二阶：四人小班底成型，但大家仍以为母核顶多只能在白塔星域内部寻找人类同胞。',
+    title: '新手第 02 步（不同卫星）：克露丝 · 跨卫拉人、剥除铜衣换装「二代零点全透波金瓷壳」',
+    why: '为何射程变远了：退回零九号暗礁面对瘫痪的归航号与细缝漏波危机，罗伊将初代硬币裂口贴在暗礁残存的区间轨道信标上弹射，搜索半径跃升至邻近工业卫星！',
+    plot: '揭秘职责：无字光环飞入三号船坞工业卫星落在克露丝台面，扳手敲击瞬间将她跨深空折跃拉至暗礁！克露丝切刀探缝崩刃后剥下初代阻波黄铜皮，测出十重准晶与九颗浅层晶胞，并用不阻挡零点波的掺金氮化硅碳复合金瓷重制「第二代透波 OG 外皮」，配入加装波导屏蔽内衬的角色右腰黑橙磁吸匣。',
+    foot: '认知二阶：换上二代透波新外皮后，罗伊拔出 OG 战术币一抛即可全功率无损释放母核共鸣，插回腰匣即归零隐身。',
   },
   {
     rangeBadge: '共鸣半径：数百光年（跨恒星系破壁）',
-    radarCaption: '强接归航号主天线 + 阴阳双核合鸣',
-    title: '正轨破壁战（封网危机触发）：冈纳 · 跨百光年神兵天降！',
+    radarCaption: '旋拆二代外壳 + 阴阳子母星榫解耦合鸣',
+    title: '正轨破壁战（封网危机触发）：冈纳 · 阴阳分体跨百光年神兵天降！',
     why: '危机如何逼出远距：天秤财团重甲队合围暗礁，并彻底焊死白塔星域全部本地轨道频段，断绝在星域内摇人的可能！',
-    plot: '破壁高潮：绝境下克露丝强行接通归航号舰桥第一层远古天线，兄妹首次拧开阴阳双核合鸣，将第三道金影轰入主炽环门波段——跨越数百光年砸在北境边防要塞星冈纳枪前！重装老兵踏火降临一枪轰碎包围网。',
-    foot: '新手村正式毕业：全员震骇意识到——只要天线功率足够，这枚母核竟能跨越光年连向全宇宙！',
+    plot: '破壁高潮：绝境下克露丝旋开二代透波外皮取出母核，兄妹双手同握触发双生生物电解锁内部子母微阶梯星榫，分离为「开拓阳片」与「锚定阴片」嵌入舰桥双槽接通主天线——第三道光环跨越数百光年砸在北境边防要塞星冈纳枪前，重装老兵踏火降临轰碎包围网（战后克露丝为兄妹阳片、阴片各定制一套二代透波外皮）！',
+    foot: '新手村正式毕业：全员震骇意识到——只要天线功率足够，这枚超硬无字母核竟能跨越光年连向全宇宙！',
   },
   {
     rangeBadge: '共鸣半径：全内环航网（跨物种盲盒）',
@@ -85,7 +85,7 @@ const currentStep = computed(() => onboardingSteps[activeOnboarding.value])
       <header class="coin-viz-box__head">
         <div>
           <span class="coin-viz-box__eyebrow">INTERACTIVE DIAGRAM 03</span>
-          <h3 class="coin-viz-box__title">凡物藏神技：从小抛正反的「唯一街机币」如何被一步步科学破译</h3>
+          <h3 class="coin-viz-box__title">凡物藏神技：无缝冲压的「三周年店庆纪念币」如何被一步步科学破译</h3>
         </div>
         <div class="coin-viz-tabs" role="tablist" aria-label="母核逆向解谜四步切换">
           <button
@@ -96,7 +96,7 @@ const currentStep = computed(() => onboardingSteps[activeOnboarding.value])
             :class="{ 'is-active': activeMystery === 0 }"
             @click="activeMystery = 0"
           >
-            01 铜皮伪装与暗壳
+            01 无缝铜皮与边缝腰匣
           </button>
           <button
             type="button"
@@ -106,7 +106,7 @@ const currentStep = computed(() => onboardingSteps[activeOnboarding.value])
             :class="{ 'is-active': activeMystery === 1 }"
             @click="activeMystery = 1"
           >
-            02 干涉仪测晶格
+            02 切刀崩刃测十重准晶
           </button>
           <button
             type="button"
@@ -116,7 +116,7 @@ const currentStep = computed(() => onboardingSteps[activeOnboarding.value])
             :class="{ 'is-active': activeMystery === 2 }"
             @click="activeMystery = 2"
           >
-            03 危机旋开双核
+            03 重工剥皮量子解耦
           </button>
           <button
             type="button"
@@ -138,46 +138,52 @@ const currentStep = computed(() => onboardingSteps[activeOnboarding.value])
             <span>{{ currentMystery.badge }}</span>
           </div>
 
-          <!-- Stage 0 SVG -->
+          <!-- Stage 0 SVG: Seamless Coin + Hairline Rim Crack + Waveguide Holster -->
           <svg v-if="activeMystery === 0" class="coin-map-svg" viewBox="0 0 360 164" aria-hidden="true">
-            <circle cx="180" cy="76" r="52" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="3.2" />
-            <circle cx="180" cy="76" r="42" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.4" stroke-dasharray="3 3" />
-            <text x="180" y="84" text-anchor="middle" font-size="22" font-weight="700" fill="var(--bunny-orange)">OG</text>
-            <text x="180" y="150" text-anchor="middle" font-size="12.5" font-weight="600" fill="var(--bunny-ink-2)">
-              外覆人类 OG 黄铜屏蔽壳 · 合壳潜伏归零，弹壳显露无字神核
+            <circle cx="132" cy="74" r="45" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="3.4" />
+            <circle cx="132" cy="74" r="35" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.3" />
+            <text x="132" y="82" text-anchor="middle" font-size="20" font-weight="800" fill="var(--bunny-orange)">OG</text>
+            <!-- Thin hairline crack right on the right cylindrical rim -->
+            <line x1="176" y1="64" x2="176" y2="84" stroke="var(--bunny-ink)" stroke-width="2.2" />
+            <rect x="214" y="34" width="64" height="80" rx="8" fill="var(--bunny-ink)" stroke="var(--bunny-orange)" stroke-width="2.4" />
+            <text x="246" y="78" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--bunny-paper)">波导腰匣</text>
+            <text x="180" y="148" text-anchor="middle" font-size="12" font-weight="600" fill="var(--bunny-ink-2)">
+              前中期不剥无缝铜皮 · 拔币借边缘细缝透波，插回波导腰匣封缝归零
             </text>
           </svg>
 
-          <!-- Stage 1 SVG: Internal Quasicrystal Lattice (NO surface notches!) -->
+          <!-- Stage 1 SVG: Internal Quasicrystal Lattice -->
           <svg v-else-if="activeMystery === 1" class="coin-map-svg" viewBox="0 0 360 164" aria-hidden="true">
             <rect x="64" y="14" width="232" height="118" rx="6" fill="var(--bunny-fabric)" stroke="var(--bunny-ink)" stroke-width="1.8" />
-            <circle cx="180" cy="73" r="44" fill="var(--bunny-paper)" stroke="var(--bunny-ink)" stroke-width="2.4" />
-            <circle cx="180" cy="73" r="30" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.2" stroke-dasharray="2 3" />
-            <circle cx="180" cy="73" r="16" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.2" stroke-dasharray="2 3" />
-            <circle cx="162" cy="52" r="4" fill="var(--coin-green)" />
-            <circle cx="201" cy="57" r="4" fill="var(--coin-green)" />
-            <circle cx="194" cy="94" r="3.5" fill="var(--bunny-orange)" />
-            <circle cx="154" cy="86" r="3.5" fill="var(--bunny-orange)" />
-            <text x="180" y="152" text-anchor="middle" font-size="12.5" font-weight="600" fill="var(--coin-green)">
-              表层光滑零凹槽 · 唯干涉仪屏幕可见内部活跃准晶胞
+            <circle cx="180" cy="73" r="44" fill="var(--bunny-ink)" />
+            <circle cx="180" cy="73" r="31" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.2" stroke-dasharray="2 3" />
+            <circle cx="180" cy="73" r="17" fill="none" stroke="var(--bunny-ink-3)" stroke-width="1.2" stroke-dasharray="2 3" />
+            <circle cx="162" cy="49" r="3.8" fill="var(--bunny-orange)" />
+            <circle cx="198" cy="51" r="3.8" fill="var(--bunny-orange)" />
+            <circle cx="209" cy="75" r="3.6" fill="var(--coin-green)" />
+            <circle cx="196" cy="97" r="3.6" fill="var(--coin-green)" />
+            <circle cx="164" cy="97" r="3.6" fill="var(--coin-green)" />
+            <circle cx="151" cy="74" r="3.6" fill="var(--coin-green)" />
+            <text x="180" y="150" text-anchor="middle" font-size="12" font-weight="600" fill="var(--coin-green)">
+              钨钢切刀触芯崩刃 · 干涉仪视窗显露无滑移面十重非周期准晶
             </text>
           </svg>
 
-          <!-- Stage 2 SVG: Split Interlocking Halves -->
+          <!-- Stage 2 SVG: Quantum Cleavage Twin Ultra-Hard Discs -->
           <svg v-else-if="activeMystery === 2" class="coin-map-svg" viewBox="0 0 360 164" aria-hidden="true">
-            <ellipse cx="122" cy="74" rx="44" ry="50" fill="var(--bunny-paper)" stroke="var(--bunny-ink)" stroke-width="2.8" />
-            <text x="122" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="var(--bunny-ink)">开拓阳核</text>
-            <text x="122" y="90" text-anchor="middle" font-size="12" fill="var(--bunny-ink-2)">罗伊角色右腰匣</text>
+            <ellipse cx="120" cy="74" rx="40" ry="47" fill="var(--bunny-ink)" />
+            <text x="120" y="70" text-anchor="middle" font-size="13.5" font-weight="700" fill="var(--bunny-paper)">开拓阳核</text>
+            <text x="120" y="89" text-anchor="middle" font-size="11.5" fill="var(--bunny-orange)">罗伊角色右腰匣</text>
 
-            <line x1="168" y1="58" x2="192" y2="58" stroke="var(--bunny-orange)" stroke-width="2.2" class="coin-dash-anim" />
-            <line x1="168" y1="90" x2="192" y2="90" stroke="var(--bunny-orange)" stroke-width="2.2" class="coin-dash-anim" />
+            <line x1="164" y1="58" x2="196" y2="58" stroke="var(--bunny-orange)" stroke-width="2.2" class="coin-dash-anim" />
+            <line x1="164" y1="90" x2="196" y2="90" stroke="var(--coin-green)" stroke-width="2.2" class="coin-dash-anim" />
 
-            <ellipse cx="238" cy="74" rx="44" ry="50" fill="var(--bunny-paper)" stroke="var(--bunny-orange)" stroke-width="2.8" />
-            <text x="238" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="var(--bunny-orange)">锚定阴核</text>
-            <text x="238" y="90" text-anchor="middle" font-size="12" fill="var(--bunny-ink-2)">罗娅角色右腰匣</text>
+            <ellipse cx="240" cy="74" rx="40" ry="47" fill="var(--bunny-ink)" />
+            <text x="240" y="70" text-anchor="middle" font-size="13.5" font-weight="700" fill="var(--bunny-paper)">锚定阴核</text>
+            <text x="240" y="89" text-anchor="middle" font-size="11.5" fill="var(--coin-green)">罗娅角色右腰匣</text>
 
-            <text x="180" y="150" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--bunny-orange)">
-              沿原子无痕暗缝旋开阴阳双核 · 各自外覆半副 OG 屏蔽壳！
+            <text x="180" y="149" text-anchor="middle" font-size="12" font-weight="700" fill="var(--bunny-orange)">
+              重工撕开铜衣 · 双生生物电沿原子晶面平滑解耦两片超硬单晶！
             </text>
           </svg>
 
@@ -187,8 +193,8 @@ const currentStep = computed(() => onboardingSteps[activeOnboarding.value])
             <circle cx="180" cy="74" r="36" fill="none" stroke="var(--coin-green)" stroke-width="2.4" class="coin-dash-anim" />
             <circle cx="180" cy="74" r="20" fill="none" stroke="var(--bunny-orange)" stroke-width="2" stroke-dasharray="3 3" />
             <text x="180" y="78" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--coin-green)">深层晶胞相变</text>
-            <text x="180" y="150" text-anchor="middle" font-size="12.5" font-weight="600" fill="var(--coin-green)">
-              沐浴主炽环门重燃辐射 → 深层晶胞成片苏醒，母核外观永不改变！
+            <text x="180" y="150" text-anchor="middle" font-size="12" font-weight="600" fill="var(--coin-green)">
+              沐浴主炽环门重燃辐射 → 深层晶胞成片苏醒，超硬单晶外观永不改变！
             </text>
           </svg>
         </div>
@@ -211,7 +217,7 @@ const currentStep = computed(() => onboardingSteps[activeOnboarding.value])
       <header class="coin-viz-box__head">
         <div>
           <span class="coin-viz-box__eyebrow">INTERACTIVE DIAGRAM 04</span>
-          <h3 class="coin-viz-box__title">开篇射程三级跳：从同港初醒、跨卫星修船到封网危机跨百光年破壁</h3>
+          <h3 class="coin-viz-box__title">开篇射程三级跳：从币缘细缝初醒、跨卫切刀崩刃到舰桥剥皮解耦跨百光年破壁</h3>
         </div>
         <div class="coin-viz-tabs" role="tablist" aria-label="开篇射程递进切换">
           <button

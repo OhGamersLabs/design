@@ -4,8 +4,54 @@
   "language": "zh-CN",
   "title": "星环纪元核心信物设定",
   "status": "local-review",
-  "asset_count": 22,
+  "asset_count": 26,
   "assets": [
+    {
+      "id": "astral-mother-core-board-latest",
+      "character": "world",
+      "title": "astral-mother-core-board-latest",
+      "original": {
+        "path": "/media/world/astral-mother-core-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 906486,
+        "sha256": "7d3db3993babe061b949bb1f48bb874528c39e963d7c228c0e2e01db777da578",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/astral-mother-core-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 613104,
+        "sha256": "dd6fdab4f5915feeef4d54500e9753dd05c56d9eb8b4687c989b72af5a597a8d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "coin-core-orthographic-board-latest",
+      "character": "world",
+      "title": "coin-core-orthographic-board-latest",
+      "original": {
+        "path": "/media/world/coin-core-orthographic-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 364434,
+        "sha256": "a96119b90e7f51bdeeee117fbcc60cd4bcfb4fdd71b67683e7b38fe1abfe2410",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/coin-core-orthographic-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 260490,
+        "sha256": "855227d59b767780828925fbb65e67cb3dfbd8efcdb7ac7a2f17ee8bfc11cda5",
+        "alpha": false
+      }
+    },
     {
       "id": "eileen-darrow-card-latest",
       "character": "world",
@@ -490,6 +536,29 @@
       }
     },
     {
+      "id": "og-arcade-shell-board-latest",
+      "character": "world",
+      "title": "og-arcade-shell-board-latest",
+      "original": {
+        "path": "/media/world/og-arcade-shell-board-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 916835,
+        "sha256": "f52dee22ea15d95d49bdd6a70804945396bceb40307367e509976cc1fce0ad51",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/og-arcade-shell-board-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 691204,
+        "sha256": "5f3a5f5a1833358bbdb35117d553ac430a3fe296d85c95b857453f2400739de4",
+        "alpha": false
+      }
+    },
+    {
       "id": "renn-darrow-card-latest",
       "character": "world",
       "title": "renn-darrow-card-latest",
@@ -509,6 +578,29 @@
         "height": 2048,
         "bytes": 3697604,
         "sha256": "ee9070cee02996577d545b935bd2fb4d015f8c3ef85cf8ad8c40814f3029fbc4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "zero-gate-three-relics-latest",
+      "character": "world",
+      "title": "zero-gate-three-relics-latest",
+      "original": {
+        "path": "/media/world/zero-gate-three-relics-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1685616,
+        "sha256": "56e5fe0763647418f0bdf3b63d2455dd9d4d4ff95bee237e38c4b628144dcec2",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/zero-gate-three-relics-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1306238,
+        "sha256": "1f4938193f356eb802d8ed3662163247ddd4500fe9a7308ec5bb3594d241bda8",
         "alpha": false
       }
     }

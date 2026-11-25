@@ -4084,6 +4084,18 @@
     },
     {
       "character": "world",
+      "path": "/media/world/astral-mother-core-board-latest.png",
+      "key": "x_ops/design/characters/world/latest/astral-mother-core-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/coin-core-orthographic-board-latest.png",
+      "key": "x_ops/design/characters/world/latest/coin-core-orthographic-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
       "path": "/media/world/eileen-darrow-card-latest.png",
       "key": "x_ops/design/characters/world/latest/eileen-darrow-card-latest.png",
       "contentType": "image/png"
@@ -4210,8 +4222,20 @@
     },
     {
       "character": "world",
+      "path": "/media/world/og-arcade-shell-board-latest.png",
+      "key": "x_ops/design/characters/world/latest/og-arcade-shell-board-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
       "path": "/media/world/renn-darrow-card-latest.png",
       "key": "x_ops/design/characters/world/latest/renn-darrow-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/zero-gate-three-relics-latest.png",
+      "key": "x_ops/design/characters/world/latest/zero-gate-three-relics-latest.png",
       "contentType": "image/png"
     },
     {
