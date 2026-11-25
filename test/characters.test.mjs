@@ -350,6 +350,24 @@ test('world lore registry loads all five races and covers every listed character
     }
     assert.equal(card.persona.actingSpectrum.reduce((s, g) => s + g.count, 0), 18)
   }
+  const soren52 = world.characters['soren-vane'].personas[0]
+  const soren42 = world.characters['soren-vane'].personas[1]
+  assert.equal(soren52.desiresAndAversions.length, 4)
+  assert.equal(soren52.actingSpectrum.length, 6)
+  assert.equal(soren52.actingSpectrum.reduce((s, g) => s + g.count, 0), 18)
+  assert.equal(soren42.desiresAndAversions.length, 4)
+  assert.equal(soren42.actingSpectrum.length, 4)
+  assert.equal(soren42.actingSpectrum.reduce((s, g) => s + g.count, 0), 12)
+  const youngSorenCard = world.storyCast.standardCards.find((c) => c.id === 'young-soren')
+  assert.ok(youngSorenCard)
+  assert.equal(youngSorenCard.collection, 'soren-vane')
+  assert.equal(youngSorenCard.updated, '2026-11-25')
+  assert.equal(youngSorenCard.expressionPlates.length, 4)
+  for (const plate of youngSorenCard.expressionPlates) {
+    assert.ok(plate.image, `Missing resolved image for ${plate.id}`)
+    assert.match(plate.image.web.path, /^\/characters\/soren-vane\//)
+  }
+  assert.equal(youngSorenCard.persona.actingSpectrum.reduce((s, g) => s + g.count, 0), 12)
 })
 test('Bunny LayerCard retains its exact breadcrumb, noun, range and wear', async () => {
   const html = await renderComponent('components/LayerCard.vue', loader.load(), 'characters/bonnie/weapon.md', { layer: 9 })

@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "索伦·韦恩 设计参考",
   "status": "local-review",
-  "asset_count": 37,
+  "asset_count": 45,
   "assets": [
     {
       "id": "body-back-latest",
@@ -214,25 +214,140 @@
       }
     },
     {
-      "id": "expressions-sheet-latest",
+      "id": "expressions-anger-latest",
       "character": "soren-vane",
-      "title": "expressions-sheet-latest",
+      "title": "expressions-anger-latest",
       "original": {
-        "path": "/media/soren-vane/expressions-sheet-latest.png",
+        "path": "/media/soren-vane/expressions-anger-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1983351,
-        "sha256": "ff47b12985da2cc267d5d8f836b9bb5c346ab9cfa133324c9c04a97c304f78f7",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1232631,
+        "sha256": "2f1664fd763de5de1d72af79f31354c5f81d8d72530f19d7695f94c349d070f6",
         "alpha": false
       },
       "web": {
-        "path": "/characters/soren-vane/expressions-sheet-latest.webp",
+        "path": "/characters/soren-vane/expressions-anger-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1466756,
-        "sha256": "5d548836a2a6266b3dc089fb6ed1800a11c38cad0097ee2776b354ae24c9bfc2",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 874658,
+        "sha256": "736639d1fc8ca13f3260eb413b952626a60a58f4bf2eb9a16c5a09bb9973c9ae",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-baseline-latest",
+      "character": "soren-vane",
+      "title": "expressions-baseline-latest",
+      "original": {
+        "path": "/media/soren-vane/expressions-baseline-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1276339,
+        "sha256": "81231a4d1cf390d1687fbf2777fdedb106c423a762c74fc2b3476eb9a17cb8bc",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/expressions-baseline-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 897510,
+        "sha256": "8c08466fb7a0760ffa04c6c56c5b9bf1b85f9f02972882b6a5e491c3887b483b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-burden-latest",
+      "character": "soren-vane",
+      "title": "expressions-burden-latest",
+      "original": {
+        "path": "/media/soren-vane/expressions-burden-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1178451,
+        "sha256": "fccf565aa0a89f877f4491252f652074f921db97a9b6706b921358816892bd11",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/expressions-burden-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 836636,
+        "sha256": "4c5091cf6201ed95f2103f0e7e887a1c86ee2e1f91a1ff72926f16f52a052c6c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-desires-latest",
+      "character": "soren-vane",
+      "title": "expressions-desires-latest",
+      "original": {
+        "path": "/media/soren-vane/expressions-desires-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 981658,
+        "sha256": "dc660d8463e3b989c2126bf044a5820731f73e8949bc12d2f52c02bf19114992",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/expressions-desires-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 677818,
+        "sha256": "e5ba34aa549224c052b638f55b4b31b9126ef7c71c86fdaf650b49eadbdd3a4c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-joy-latest",
+      "character": "soren-vane",
+      "title": "expressions-joy-latest",
+      "original": {
+        "path": "/media/soren-vane/expressions-joy-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1253992,
+        "sha256": "fcc6c4a67d8cdf087cb773e73088de5245d1fa66d3f864245df09ef3e88d1487",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/expressions-joy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 858606,
+        "sha256": "43b153f5b5f1e359c82c995db94702803a36707e8155728eee66ec7f97e90c4d",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sorrow-latest",
+      "character": "soren-vane",
+      "title": "expressions-sorrow-latest",
+      "original": {
+        "path": "/media/soren-vane/expressions-sorrow-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1352190,
+        "sha256": "dd69448fa4b8432a15ac6c34560e9471f7b20b03fd64e6324751e01844815036",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/expressions-sorrow-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 927642,
+        "sha256": "7b39f8d70305c4e3ce3b3c3b594c38bb521418a807f59a31cef3213309379233",
         "alpha": false
       }
     },
@@ -835,25 +950,94 @@
       }
     },
     {
-      "id": "young-soren-expressions-latest",
+      "id": "young-soren-expressions-collapse-latest",
       "character": "soren-vane",
-      "title": "young-soren-expressions-latest",
+      "title": "young-soren-expressions-collapse-latest",
       "original": {
-        "path": "/media/soren-vane/young-soren-expressions-latest.png",
+        "path": "/media/soren-vane/young-soren-expressions-collapse-latest.png",
         "mime_type": "image/png",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 2234892,
-        "sha256": "3f42c19552358da5a6f9f6c3e0089280dae4b3d617f25b6e68ba201b474739d0",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1646661,
+        "sha256": "b55928b9a2544947e0514a251891a7043eb08cdcd23f997e02ee30c0a22885e7",
         "alpha": false
       },
       "web": {
-        "path": "/characters/soren-vane/young-soren-expressions-latest.webp",
+        "path": "/characters/soren-vane/young-soren-expressions-collapse-latest.webp",
         "mime_type": "image/webp",
-        "width": 1024,
-        "height": 1536,
-        "bytes": 1642358,
-        "sha256": "ead0ffa5dea59bb08edd1a000735e4294ecded9a40c6f94c4980577569b5b020",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1149928,
+        "sha256": "1a6afbeff8f9bcc463b61d338dd1130b9320599a71db5391a7c3cc188e945f49",
+        "alpha": false
+      }
+    },
+    {
+      "id": "young-soren-expressions-deputy-latest",
+      "character": "soren-vane",
+      "title": "young-soren-expressions-deputy-latest",
+      "original": {
+        "path": "/media/soren-vane/young-soren-expressions-deputy-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1300185,
+        "sha256": "8b65196d7285182b74c68e7e4ccdc3004e7d203d8130ac52ce4ecd88bb0dbed3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/young-soren-expressions-deputy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 934616,
+        "sha256": "02bfcacf4d0e7f3f1a595592143243b5fbc6b88064d295e4a6b2139fdc6fb6df",
+        "alpha": false
+      }
+    },
+    {
+      "id": "young-soren-expressions-metamorphosis-latest",
+      "character": "soren-vane",
+      "title": "young-soren-expressions-metamorphosis-latest",
+      "original": {
+        "path": "/media/soren-vane/young-soren-expressions-metamorphosis-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1442885,
+        "sha256": "9b5ee696ae6302a85fad19c8ca63ca73adedc68d1637446e2660a29dae7ecc6e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/young-soren-expressions-metamorphosis-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1008572,
+        "sha256": "b9693280e7a92e241142c82060e7a59712c515b4ce0c7c1c148b9b3195c9b813",
+        "alpha": false
+      }
+    },
+    {
+      "id": "young-soren-expressions-uncle-latest",
+      "character": "soren-vane",
+      "title": "young-soren-expressions-uncle-latest",
+      "original": {
+        "path": "/media/soren-vane/young-soren-expressions-uncle-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1300145,
+        "sha256": "a4f8f303b6d750882f412b66ddfd503b5ad989ba2b641de1c1746da9a0420090",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/young-soren-expressions-uncle-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 932296,
+        "sha256": "86b55e588771fa5af33eb8fe64d68af669569a0c23eb0755784051c1f8109222",
         "alpha": false
       }
     }

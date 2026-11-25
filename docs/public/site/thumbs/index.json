@@ -5143,13 +5143,53 @@
     "sourcePath": "/characters/soren-vane/character-card-latest.webp",
     "sourceSha256": "05baa459e5b9238a07c722dd2d700c0de225146a4ee0398fbd2fc05e389701ae"
   },
-  "soren-vane/expressions-sheet-latest": {
-    "path": "/site/thumbs/soren-vane/expressions-sheet-latest.webp",
+  "soren-vane/expressions-anger-latest": {
+    "path": "/site/thumbs/soren-vane/expressions-anger-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "93fd0f5940670f023f6c16bb89401d012b39807a6a73af28b804eefe293ca1b7",
-    "sourcePath": "/characters/soren-vane/expressions-sheet-latest.webp",
-    "sourceSha256": "5d548836a2a6266b3dc089fb6ed1800a11c38cad0097ee2776b354ae24c9bfc2"
+    "height": 320,
+    "sha256": "b869ceafe9606a80fd33fd99f6ae68a2c9d16ae97b8e828a10a4a78617f54f73",
+    "sourcePath": "/characters/soren-vane/expressions-anger-latest.webp",
+    "sourceSha256": "736639d1fc8ca13f3260eb413b952626a60a58f4bf2eb9a16c5a09bb9973c9ae"
+  },
+  "soren-vane/expressions-baseline-latest": {
+    "path": "/site/thumbs/soren-vane/expressions-baseline-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "a47ded4b181be00885f9faff16d68cd47bd46ac23a01c206d151c11749c61eda",
+    "sourcePath": "/characters/soren-vane/expressions-baseline-latest.webp",
+    "sourceSha256": "8c08466fb7a0760ffa04c6c56c5b9bf1b85f9f02972882b6a5e491c3887b483b"
+  },
+  "soren-vane/expressions-burden-latest": {
+    "path": "/site/thumbs/soren-vane/expressions-burden-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "0b8f61a03a7afb4c3551d25b2383f5554f35763fc23a47dad4693cb707baf587",
+    "sourcePath": "/characters/soren-vane/expressions-burden-latest.webp",
+    "sourceSha256": "4c5091cf6201ed95f2103f0e7e887a1c86ee2e1f91a1ff72926f16f52a052c6c"
+  },
+  "soren-vane/expressions-desires-latest": {
+    "path": "/site/thumbs/soren-vane/expressions-desires-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "dabc2bcaee2f9d6f48eb4cc9a197747cbd63b3bb6cbd484456658304d99ce0d6",
+    "sourcePath": "/characters/soren-vane/expressions-desires-latest.webp",
+    "sourceSha256": "e5ba34aa549224c052b638f55b4b31b9126ef7c71c86fdaf650b49eadbdd3a4c"
+  },
+  "soren-vane/expressions-joy-latest": {
+    "path": "/site/thumbs/soren-vane/expressions-joy-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "2c3f6657ccb492b6b16d1c4c0fd00fe1a52969f9125cfd7f3f178aa83779369b",
+    "sourcePath": "/characters/soren-vane/expressions-joy-latest.webp",
+    "sourceSha256": "43b153f5b5f1e359c82c995db94702803a36707e8155728eee66ec7f97e90c4d"
+  },
+  "soren-vane/expressions-sorrow-latest": {
+    "path": "/site/thumbs/soren-vane/expressions-sorrow-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "3705d251a5effe162e26ef063e58e2bc3402d8b54e928fe95c3411dafd6b1f6a",
+    "sourcePath": "/characters/soren-vane/expressions-sorrow-latest.webp",
+    "sourceSha256": "7b39f8d70305c4e3ce3b3c3b594c38bb521418a807f59a31cef3213309379233"
   },
   "soren-vane/face-sheet-latest": {
     "path": "/site/thumbs/soren-vane/face-sheet-latest.webp",
@@ -5359,13 +5399,37 @@
     "sourcePath": "/characters/soren-vane/young-soren-card-latest.webp",
     "sourceSha256": "f61ccd0e42ab4b5d6c8415f441fa0160902c9984c84dc898297bcf38e939696e"
   },
-  "soren-vane/young-soren-expressions-latest": {
-    "path": "/site/thumbs/soren-vane/young-soren-expressions-latest.webp",
+  "soren-vane/young-soren-expressions-collapse-latest": {
+    "path": "/site/thumbs/soren-vane/young-soren-expressions-collapse-latest.webp",
     "width": 480,
-    "height": 720,
-    "sha256": "b2a32aba86d65c09a8c7cd698f179475057ac67456afc84a54709da67956c022",
-    "sourcePath": "/characters/soren-vane/young-soren-expressions-latest.webp",
-    "sourceSha256": "ead0ffa5dea59bb08edd1a000735e4294ecded9a40c6f94c4980577569b5b020"
+    "height": 320,
+    "sha256": "93f2edf778897b7b2037e9612fb94ddcba5e3071d23549e04dc93dc75fc8edd8",
+    "sourcePath": "/characters/soren-vane/young-soren-expressions-collapse-latest.webp",
+    "sourceSha256": "1a6afbeff8f9bcc463b61d338dd1130b9320599a71db5391a7c3cc188e945f49"
+  },
+  "soren-vane/young-soren-expressions-deputy-latest": {
+    "path": "/site/thumbs/soren-vane/young-soren-expressions-deputy-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "b38e28c5b3cfeee4c603928af27c17a9e30ac18be167023f9c5d2c638034e11d",
+    "sourcePath": "/characters/soren-vane/young-soren-expressions-deputy-latest.webp",
+    "sourceSha256": "02bfcacf4d0e7f3f1a595592143243b5fbc6b88064d295e4a6b2139fdc6fb6df"
+  },
+  "soren-vane/young-soren-expressions-metamorphosis-latest": {
+    "path": "/site/thumbs/soren-vane/young-soren-expressions-metamorphosis-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "4595b2b2d003f34465a362a16ffcb663ec0bea613e3ae8092690d88659e2baeb",
+    "sourcePath": "/characters/soren-vane/young-soren-expressions-metamorphosis-latest.webp",
+    "sourceSha256": "b9693280e7a92e241142c82060e7a59712c515b4ce0c7c1c148b9b3195c9b813"
+  },
+  "soren-vane/young-soren-expressions-uncle-latest": {
+    "path": "/site/thumbs/soren-vane/young-soren-expressions-uncle-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "c63d5e84595f69d72ae301262a9ae3814726ede02c20fe6abc2f7fecb3bb8dd0",
+    "sourcePath": "/characters/soren-vane/young-soren-expressions-uncle-latest.webp",
+    "sourceSha256": "86b55e588771fa5af33eb8fe64d68af669569a0c23eb0755784051c1f8109222"
   },
   "story/ep01-p01-latest": {
     "path": "/site/thumbs/story/ep01-p01-latest.webp",
@@ -5682,50 +5746,50 @@
   "world/acting-cross-d01-appetite-latest": {
     "path": "/site/thumbs/world/acting-cross-d01-appetite-latest.webp",
     "width": 480,
-    "height": 96,
-    "sha256": "b1a5046d77ff5961d567d320c34237d294811a67029ba2cf69f19716281ceae6",
+    "height": 80,
+    "sha256": "07c50faaf7ba875d0ebd3ca3f8e2e21478da5e7e660ca29379570b40e6563b7d",
     "sourcePath": "/characters/world/acting-cross-d01-appetite-latest.webp",
-    "sourceSha256": "159261f8cd850a93b4a40e061625d01d2bd2d6838bc18545ef97d98524e2aa9f"
+    "sourceSha256": "99ab334cc592ce4f0d0c35a1be65dfc153e35d93cae8f3a6e65a3c0af3278e47"
   },
   "world/acting-cross-d02-indulgence-latest": {
     "path": "/site/thumbs/world/acting-cross-d02-indulgence-latest.webp",
     "width": 480,
-    "height": 96,
-    "sha256": "e9af5855706437cfab1b63cd23d2c6088a34063f23650a5d471b1c7fcb08e2ef",
+    "height": 80,
+    "sha256": "0cc1eba20015e0365551007e3094b35f07f6250a28265e2d26091a48ad0de3f3",
     "sourcePath": "/characters/world/acting-cross-d02-indulgence-latest.webp",
-    "sourceSha256": "db17fa9eb1b1ef94a681efd08d297ae62b22cf6d96a1ffa92498d246d11c66b5"
+    "sourceSha256": "4798bf3e349fb89e441736f3dba53777337eefb79afc06105f34875bf714b9c8"
   },
   "world/acting-cross-d03-fatigue-latest": {
     "path": "/site/thumbs/world/acting-cross-d03-fatigue-latest.webp",
     "width": 480,
-    "height": 96,
-    "sha256": "5ca90abd7a4745179853d5163068a0d0526cc8eaa9361a07acdc3552c73d791e",
+    "height": 80,
+    "sha256": "ecff9ab346a648ebb5ceb29f8536f859e7e95a284ee9f140f4a7ebf2a1c1110b",
     "sourcePath": "/characters/world/acting-cross-d03-fatigue-latest.webp",
-    "sourceSha256": "43b45aadf303eecbb7dc270874c8033e7297be05dcb8bdb65f682e33eaa207e2"
+    "sourceSha256": "346bc30680be749af47b06730af87c77403888fc8ad769b9866578e878f8d54d"
   },
   "world/acting-cross-d04-lethal-latest": {
     "path": "/site/thumbs/world/acting-cross-d04-lethal-latest.webp",
     "width": 480,
-    "height": 96,
-    "sha256": "22a293461db2eb27df8c0b08b81ad5ca533c31c58044709293ebb33a5b8b8e68",
+    "height": 80,
+    "sha256": "408cad8a291579cfc13e6765b3cc240c9c700e04e6b977c6ba40d41d8ca57aef",
     "sourcePath": "/characters/world/acting-cross-d04-lethal-latest.webp",
-    "sourceSha256": "b8857be73c52ce32a60be8c4d14375fde92439c08e73b3cd937f257f0a1de991"
+    "sourceSha256": "fa9d1cdda2c016d21aafa89956f190993f35009cdbe4e08c81b3a65fd0d61b14"
   },
   "world/acting-cross-d05-grief-latest": {
     "path": "/site/thumbs/world/acting-cross-d05-grief-latest.webp",
     "width": 480,
-    "height": 96,
-    "sha256": "4a820cbf211508f07a4a15e907fbdf070217115fef253888d1e52df95557c4c9",
+    "height": 80,
+    "sha256": "cb64a542177a48a74c3717522d60ef351e9881253ca722bc464511778e29f03f",
     "sourcePath": "/characters/world/acting-cross-d05-grief-latest.webp",
-    "sourceSha256": "6fcab5916da7c4d398780155dfefcbfbffac900ac76dbed33a80b3bc67781ccd"
+    "sourceSha256": "49cf8c624c7cc8aded11594f8fe2f208a74296372e6e740bb0d6c18dbb4716b8"
   },
   "world/acting-cross-d06-fluster-latest": {
     "path": "/site/thumbs/world/acting-cross-d06-fluster-latest.webp",
     "width": 480,
-    "height": 96,
-    "sha256": "7c602101eb2e2e05af19e9b3ab056b1941b4148c7ac64113affba043012f2b47",
+    "height": 80,
+    "sha256": "30abf39e7507c43e1b2e2bc367471604c8bba038fd7f158f1e26e5e4e6203a62",
     "sourcePath": "/characters/world/acting-cross-d06-fluster-latest.webp",
-    "sourceSha256": "808ae0eba0efd0231dfa74ebc28f400355653abe17d44515c05f1d737fb8a89e"
+    "sourceSha256": "6916eb1110ee18d88459548327dc413660b0c1df6356e927e24757dbfa382d43"
   },
   "world/astral-mother-core-board-latest": {
     "path": "/site/thumbs/world/astral-mother-core-board-latest.webp",

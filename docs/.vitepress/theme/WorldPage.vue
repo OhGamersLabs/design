@@ -41,6 +41,14 @@ function characterMbtiBadges(characterId: string): string[] {
   }
   return withMbti.map((p: { mbti: string }) => p.mbti)
 }
+
+function plateCountZh(count: number): string {
+  return ({ 4: '四', 6: '六', 8: '八', 9: '九' } as Record<number, string>)[count] ?? String(count)
+}
+
+function faceCountZh(count: number): string {
+  return ({ 12: '十二', 18: '十八', 28: '二十八', 30: '三十' } as Record<number, string>)[count] ?? String(count)
+}
 </script>
 
 <template>
@@ -552,14 +560,14 @@ function characterMbtiBadges(characterId: string): string[] {
               v-if="npc.expressionPlates?.length"
               :id="`${npc.id}-expressions`"
               class="world-cast-expressions"
-              :aria-label="`${npc.name}六板十八面孔神态谱系`"
+              :aria-label="`${npc.name}${plateCountZh(npc.expressionPlates.length)}板${faceCountZh(npc.persona?.actingSpectrum?.reduce((sum, g) => sum + g.count, 0) ?? 18)}面孔神态谱系`"
             >
               <div class="world-cast-expressions__head">
                 <div>
                   <span class="world-pillar-card__code">ACTING SPECTRUM · {{ npc.expressionPlates.length }} PLATES</span>
                   <h3>{{ npc.name }} · 七情六欲分板神态设定（{{ npc.expressionPlates.length }} 板 {{ npc.persona?.actingSpectrum?.reduce((sum, g) => sum + g.count, 0) ?? 18 }} 张独立面孔）</h3>
                 </div>
-                <p>按人格认知功能栈、九型防御路径与先辈熟龄骨相逐板展开，点开任意图板可用左右键翻看原图细节。</p>
+                <p>按人格认知功能栈、九型防御路径与时期骨相逐板展开，点开任意图板可用左右键翻看原图细节。</p>
               </div>
 
               <div class="world-cast-expressions__grid">
@@ -583,7 +591,7 @@ function characterMbtiBadges(characterId: string): string[] {
                 v-if="npc.persona?.actingSpectrum?.length"
                 section="spectrum"
                 :personas="[npc.persona]"
-                spectrum-note="就近对照上方六张分板特写，逐格核验刚性镜具状态与面部微肌肉运动"
+                :spectrum-note="`就近对照上方${plateCountZh(npc.expressionPlates.length)}张分板特写，逐格核验刚性镜具状态与面部微肌肉运动`"
               />
             </div>
           </section>

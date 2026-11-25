@@ -2,7 +2,12 @@
   "character-card-latest": "索伦·韦恩 重点角色卡",
   "breakdown-sheet-latest": "索伦·韦恩 四层拆解总览",
   "face-sheet-latest": "面部与细钛圆角老花镜多视角设定",
-  "expressions-sheet-latest": "3×4 执政长衫与人文演技表",
+  "expressions-baseline-latest": "五十二岁执印官第 1 板 · 学者院长常态与探针顿悟（3 面孔）",
+  "expressions-joy-latest": "五十二岁执印官第 2 板 · 温室剪白玫瑰、长辈暖笑与静听夜雨（3 面孔）",
+  "expressions-anger-latest": "五十二岁执印官第 3 板 · 镜片冷白威压、按桌驳回与提模镇场（3 面孔）",
+  "expressions-sorrow-latest": "五十二岁执印官第 4 板 · 捧帕追忆、握刺渗血湿眸与抚模苦笑（3 面孔）",
+  "expressions-burden-latest": "五十二岁执印官第 5 板 · 按胸忍痛、天灾缩瞳与拉平袖口赴局（3 面孔）",
+  "expressions-desires-latest": "五十二岁执印官第 6 板 · 拨盖品苦茶、摘镜平放静憩与扶镜暗喜（3 面孔）",
   "soren-vane-original-latest": "索伦·韦恩 画师原稿",
   "body-front-latest": "身体 · 站姿正面",
   "body-right-latest": "身体 · 站姿角色右侧面",
@@ -36,5 +41,8 @@
   "magistrate-coat-tpose-back-latest": "米白亚麻执政长衫与空腔外模 · 平举背面",
   "magistrate-coat-tpose-left-latest": "米白亚麻执政长衫与空腔外模 · 平举角色左侧面",
   "young-soren-card-latest": "索伦·韦恩 · 十年前考察副领队角色卡",
-  "young-soren-expressions-latest": "索伦·韦恩 · 十年前副领队期 3×4 性格演技表"
+  "young-soren-expressions-deputy-latest": "四十二岁副领队第 1 板 · 裸眼清朗基准、拢鬓调侃与校核能谱（3 面孔）",
+  "young-soren-expressions-uncle-latest": "四十二岁副领队第 2 板 · 递果糖哄娃、双手递白手帕与焊修小飞船（3 面孔）",
+  "young-soren-expressions-collapse-latest": "四十二岁副领队第 3 板 · 假核崩碎震颤、碎茬划指急痛与拍窗诀别落泪（3 面孔）",
+  "young-soren-expressions-metamorphosis-latest": "四十二岁副领队第 4 板 · 雨夜挡门冷喝、俯身留手帕与轿车内首次架镜（3 面孔）"
 }

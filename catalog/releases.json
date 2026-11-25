@@ -3862,8 +3862,38 @@
     },
     {
       "character": "soren-vane",
-      "path": "/media/soren-vane/expressions-sheet-latest.png",
-      "key": "x_ops/design/characters/soren-vane/latest/expressions-sheet-latest.png",
+      "path": "/media/soren-vane/expressions-anger-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/expressions-anger-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/expressions-baseline-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/expressions-baseline-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/expressions-burden-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/expressions-burden-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/expressions-desires-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/expressions-desires-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/expressions-joy-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/expressions-joy-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/expressions-sorrow-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/expressions-sorrow-latest.png",
       "contentType": "image/png"
     },
     {
@@ -4024,8 +4054,26 @@
     },
     {
       "character": "soren-vane",
-      "path": "/media/soren-vane/young-soren-expressions-latest.png",
-      "key": "x_ops/design/characters/soren-vane/latest/young-soren-expressions-latest.png",
+      "path": "/media/soren-vane/young-soren-expressions-collapse-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/young-soren-expressions-collapse-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/young-soren-expressions-deputy-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/young-soren-expressions-deputy-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/young-soren-expressions-metamorphosis-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/young-soren-expressions-metamorphosis-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/young-soren-expressions-uncle-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/young-soren-expressions-uncle-latest.png",
       "contentType": "image/png"
     },
     {

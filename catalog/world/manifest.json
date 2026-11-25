@@ -13,19 +13,19 @@
       "original": {
         "path": "/media/world/acting-cross-d01-appetite-latest.png",
         "mime_type": "image/png",
-        "width": 2400,
-        "height": 480,
-        "bytes": 969177,
-        "sha256": "75efbac1d4c8f3dfaa76ea750265871e917152f1098fb09b2483420139e46a0a",
+        "width": 2520,
+        "height": 420,
+        "bytes": 975431,
+        "sha256": "22e959caf95237f119260b65d180346577c917c78a440283fa00f25cdae16dc7",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d01-appetite-latest.webp",
         "mime_type": "image/webp",
         "width": 2048,
-        "height": 410,
-        "bytes": 529874,
-        "sha256": "159261f8cd850a93b4a40e061625d01d2bd2d6838bc18545ef97d98524e2aa9f",
+        "height": 341,
+        "bytes": 480100,
+        "sha256": "99ab334cc592ce4f0d0c35a1be65dfc153e35d93cae8f3a6e65a3c0af3278e47",
         "alpha": false
       }
     },
@@ -36,19 +36,19 @@
       "original": {
         "path": "/media/world/acting-cross-d02-indulgence-latest.png",
         "mime_type": "image/png",
-        "width": 2400,
-        "height": 480,
-        "bytes": 1016767,
-        "sha256": "3de236b47e518ea7304240bd2d11e7ef48af0df28187ba850dbbefd810328a35",
+        "width": 2520,
+        "height": 420,
+        "bytes": 991949,
+        "sha256": "af4f8b6aaa9fca3507fcc2bc3b1781c81f18ef2a12ac99d07d134121dc2c33ec",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d02-indulgence-latest.webp",
         "mime_type": "image/webp",
         "width": 2048,
-        "height": 410,
-        "bytes": 540184,
-        "sha256": "db17fa9eb1b1ef94a681efd08d297ae62b22cf6d96a1ffa92498d246d11c66b5",
+        "height": 341,
+        "bytes": 479464,
+        "sha256": "4798bf3e349fb89e441736f3dba53777337eefb79afc06105f34875bf714b9c8",
         "alpha": false
       }
     },
@@ -59,19 +59,19 @@
       "original": {
         "path": "/media/world/acting-cross-d03-fatigue-latest.png",
         "mime_type": "image/png",
-        "width": 2400,
-        "height": 480,
-        "bytes": 1001450,
-        "sha256": "d4d65b8f0d4f0b0c3a0b7909e02af0980a740912074edcde68c92aeef32c1459",
+        "width": 2520,
+        "height": 420,
+        "bytes": 981089,
+        "sha256": "c5c5fc8322eee1c4758f1584844848659cb75374f9d62dbe1dfb7363adfdbbc7",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d03-fatigue-latest.webp",
         "mime_type": "image/webp",
         "width": 2048,
-        "height": 410,
-        "bytes": 532150,
-        "sha256": "43b45aadf303eecbb7dc270874c8033e7297be05dcb8bdb65f682e33eaa207e2",
+        "height": 341,
+        "bytes": 472094,
+        "sha256": "346bc30680be749af47b06730af87c77403888fc8ad769b9866578e878f8d54d",
         "alpha": false
       }
     },
@@ -82,19 +82,19 @@
       "original": {
         "path": "/media/world/acting-cross-d04-lethal-latest.png",
         "mime_type": "image/png",
-        "width": 2400,
-        "height": 480,
-        "bytes": 1076300,
-        "sha256": "9960c98ce8d19a061b4cc52a746fd88052e11ed55c02faea294a968e3647be73",
+        "width": 2520,
+        "height": 420,
+        "bytes": 1025119,
+        "sha256": "45359314747dae1e9c00b3cd0e3e7218ec5ff229e8ced21f416df490482eb777",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d04-lethal-latest.webp",
         "mime_type": "image/webp",
         "width": 2048,
-        "height": 410,
-        "bytes": 565118,
-        "sha256": "b8857be73c52ce32a60be8c4d14375fde92439c08e73b3cd937f257f0a1de991",
+        "height": 341,
+        "bytes": 491460,
+        "sha256": "fa9d1cdda2c016d21aafa89956f190993f35009cdbe4e08c81b3a65fd0d61b14",
         "alpha": false
       }
     },
@@ -105,19 +105,19 @@
       "original": {
         "path": "/media/world/acting-cross-d05-grief-latest.png",
         "mime_type": "image/png",
-        "width": 2400,
-        "height": 480,
-        "bytes": 1008077,
-        "sha256": "ced7d0e3f114636f80bfb4ba9f27eed03baca6e5436af87a2f817b9fa2e04fa2",
+        "width": 2520,
+        "height": 420,
+        "bytes": 988638,
+        "sha256": "3f6e550dbe78ebbc01682e5a12f3fa69ac768085f5722f7ad49b6d4014900ba1",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d05-grief-latest.webp",
         "mime_type": "image/webp",
         "width": 2048,
-        "height": 410,
-        "bytes": 539270,
-        "sha256": "6fcab5916da7c4d398780155dfefcbfbffac900ac76dbed33a80b3bc67781ccd",
+        "height": 341,
+        "bytes": 478746,
+        "sha256": "49cf8c624c7cc8aded11594f8fe2f208a74296372e6e740bb0d6c18dbb4716b8",
         "alpha": false
       }
     },
@@ -128,19 +128,19 @@
       "original": {
         "path": "/media/world/acting-cross-d06-fluster-latest.png",
         "mime_type": "image/png",
-        "width": 2400,
-        "height": 480,
-        "bytes": 935780,
-        "sha256": "4056e05f18c97762830a582cb67b471cead8268ca754f729e06e8dc273f44afc",
+        "width": 2520,
+        "height": 420,
+        "bytes": 950088,
+        "sha256": "88ca353d782f208b43d9cf4b6dd7b62a01b0260028e8ad814dde39734dae6463",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/acting-cross-d06-fluster-latest.webp",
         "mime_type": "image/webp",
         "width": 2048,
-        "height": 410,
-        "bytes": 498988,
-        "sha256": "808ae0eba0efd0231dfa74ebc28f400355653abe17d44515c05f1d737fb8a89e",
+        "height": 341,
+        "bytes": 461080,
+        "sha256": "6916eb1110ee18d88459548327dc413660b0c1df6356e927e24757dbfa382d43",
         "alpha": false
       }
     },

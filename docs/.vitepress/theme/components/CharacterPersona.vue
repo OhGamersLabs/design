@@ -31,8 +31,10 @@ interface PersonaEntry {
 
 const props = withDefaults(defineProps<{
   section?: 'all' | 'profile' | 'spectrum'
+  personaId?: string
   personas?: PersonaEntry[]
   spectrumHref?: string
+  spectrumHrefMap?: Record<string, string>
   gearLabel?: string
   spectrumNote?: string
 }>(), {
@@ -44,7 +46,10 @@ const props = withDefaults(defineProps<{
 
 const character = props.personas ? null : useCharacter()
 const lore = computed(() => (character ? world.characters[character.value.id] ?? null : null))
-const personas = computed<PersonaEntry[]>(() => props.personas ?? lore.value?.personas ?? [])
+const allPersonas = computed<PersonaEntry[]>(() => props.personas ?? lore.value?.personas ?? [])
+const personas = computed<PersonaEntry[]>(() =>
+  props.personaId ? allPersonas.value.filter((p) => p.id === props.personaId) : allPersonas.value,
+)
 const spectrumPersonas = computed(() => personas.value.filter((p) => p.actingSpectrum?.length))
 </script>
 
@@ -102,7 +107,7 @@ const spectrumPersonas = computed(() => personas.value.filter((p) => p.actingSpe
 
       <footer v-if="props.section === 'profile' && persona.actingSpectrum?.length" class="character-persona__jump">
         <span>已按此人格坐标拆解 {{ persona.actingSpectrum.reduce((sum, g) => sum + g.count, 0) }} 张独立面孔与{{ props.gearLabel }}</span>
-        <a :href="props.spectrumHref">下翻查看七情六欲图板与逐格清单 <span aria-hidden="true">↓</span></a>
+        <a :href="props.spectrumHrefMap?.[persona.id] ?? props.spectrumHref">下翻查看七情六欲图板与逐格清单 <span aria-hidden="true">↓</span></a>
       </footer>
 
       <div v-if="props.section === 'all' && persona.actingSpectrum?.length" class="character-persona__spectrum" aria-label="七情六欲全光谱面孔定义">
