@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "星环纪元核心信物设定",
   "status": "local-review",
-  "asset_count": 44,
+  "asset_count": 47,
   "assets": [
     {
       "id": "acting-cross-d01-appetite-latest",
@@ -808,6 +808,75 @@
         "height": 2048,
         "bytes": 2609228,
         "sha256": "acb549c398bd07d468cbbbe8eab6621929dec65c0f58e6a11a709b2c7a5f8540",
+        "alpha": false
+      }
+    },
+    {
+      "id": "lorn-vele-expressions-agony-latest",
+      "character": "world",
+      "title": "lorn-vele-expressions-agony-latest",
+      "original": {
+        "path": "/media/world/lorn-vele-expressions-agony-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1822604,
+        "sha256": "418241d36bffbb2e6ffc2f6c9629682e365bc73276ad937ba16d22b994a1cc9e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/lorn-vele-expressions-agony-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1264516,
+        "sha256": "1c0a11a407ee3953203c19f184f52902947e0e50112a62337fb36a6c78a95af3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "lorn-vele-expressions-cryo-latest",
+      "character": "world",
+      "title": "lorn-vele-expressions-cryo-latest",
+      "original": {
+        "path": "/media/world/lorn-vele-expressions-cryo-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2063401,
+        "sha256": "53b06cfa3ae870ce78df6fd38688694e1239907beca735d34b156b1b93855137",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/lorn-vele-expressions-cryo-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1433706,
+        "sha256": "15d1155d9552d1f7311cd9d9c6eb60b9cbadbb2a1fbef174758827d9ea3688a4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "lorn-vele-expressions-witness-latest",
+      "character": "world",
+      "title": "lorn-vele-expressions-witness-latest",
+      "original": {
+        "path": "/media/world/lorn-vele-expressions-witness-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2028039,
+        "sha256": "00460370908a9f3f3777dc5f83aa4105c4120c76bac8422fd693b983f85e4441",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/lorn-vele-expressions-witness-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1391870,
+        "sha256": "dce8a9b84810a80c7c679997947758e30776fce66fb3d3b1d9c08cabbd4e06bc",
         "alpha": false
       }
     },

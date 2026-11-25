@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "罗伊 & 罗娅·达罗 设计参考",
   "status": "local-review",
-  "asset_count": 109,
+  "asset_count": 113,
   "assets": [
     {
       "id": "base-kit-back-latest",
@@ -605,6 +605,52 @@
       }
     },
     {
+      "id": "child-roy-expressions-rainy-latest",
+      "character": "darrow",
+      "title": "child-roy-expressions-rainy-latest",
+      "original": {
+        "path": "/media/darrow/child-roy-expressions-rainy-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1338814,
+        "sha256": "012927df6ee050f94b60c3b99c60fff48ac42c4bb604dac0a6893926108c9769",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/child-roy-expressions-rainy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 938544,
+        "sha256": "b9dd25878cff57ac17bd6cbf1a543b4ac94ce7e361ff7a03791e9ff7166b40ae",
+        "alpha": false
+      }
+    },
+    {
+      "id": "child-roy-expressions-shipyard-latest",
+      "character": "darrow",
+      "title": "child-roy-expressions-shipyard-latest",
+      "original": {
+        "path": "/media/darrow/child-roy-expressions-shipyard-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1254366,
+        "sha256": "83333efe051310f8474b7871706483a3a714ac7a0e5a44e43c8a7aea43411ad3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/child-roy-expressions-shipyard-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 897532,
+        "sha256": "43447a8f5dd98189576cb887839bc149b5a5d3525ae92251e5a6eeffbed0025f",
+        "alpha": false
+      }
+    },
+    {
       "id": "child-roya-card-latest",
       "character": "darrow",
       "title": "child-roya-card-latest",
@@ -624,6 +670,52 @@
         "height": 2048,
         "bytes": 2786130,
         "sha256": "2975063862a2e9f482ded9a097064bc42e24cfb01e714b55cd4c3e8edc7ce428",
+        "alpha": false
+      }
+    },
+    {
+      "id": "child-roya-expressions-rainy-latest",
+      "character": "darrow",
+      "title": "child-roya-expressions-rainy-latest",
+      "original": {
+        "path": "/media/darrow/child-roya-expressions-rainy-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1804566,
+        "sha256": "858a253bb39c499cd7cf9ad1010674b94be99508757b43882338eeed5386ae2f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/child-roya-expressions-rainy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1290092,
+        "sha256": "b7ddeaa9b5f850671c6a216ea4962a9f291f2e8b1c2bd4abf4dfcf56e2f05ea0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "child-roya-expressions-steward-latest",
+      "character": "darrow",
+      "title": "child-roya-expressions-steward-latest",
+      "original": {
+        "path": "/media/darrow/child-roya-expressions-steward-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1527647,
+        "sha256": "dcf2b25cd8833d431c9bcb5a7f2d3fe9cb8dcb0b1489005365258e8b13609e41",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/child-roya-expressions-steward-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1108278,
+        "sha256": "094d2eb62a3133dbc3ccf39be673d6be6f27aa8ef378587646c2a567da2525eb",
         "alpha": false
       }
     },

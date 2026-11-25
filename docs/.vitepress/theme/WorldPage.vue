@@ -43,11 +43,24 @@ function characterMbtiBadges(characterId: string): string[] {
 }
 
 function plateCountZh(count: number): string {
-  return ({ 4: '四', 6: '六', 8: '八', 9: '九' } as Record<number, string>)[count] ?? String(count)
+  return ({ 2: '两', 3: '三', 4: '四', 6: '六', 8: '八', 9: '九' } as Record<number, string>)[count] ?? String(count)
 }
 
 function faceCountZh(count: number): string {
-  return ({ 12: '十二', 18: '十八', 28: '二十八', 30: '三十' } as Record<number, string>)[count] ?? String(count)
+  return ({ 6: '六', 9: '九', 12: '十二', 18: '十八', 28: '二十八', 30: '三十' } as Record<number, string>)[count] ?? String(count)
+}
+
+function castGearLabel(npcId: string): string {
+  if (npcId === 'lorn-vele') return '天羽生物柔羽耳与装束状态'
+  if (npcId === 'child-roy' || npcId === 'child-roya') return '船坞日常与暴雨夜状态'
+  return '刚性镜具与工坊起居切换态'
+}
+
+function castSpectrumNote(npcId: string, plateCount: number): string {
+  const count = plateCountZh(plateCount)
+  if (npcId === 'lorn-vele') return `就近对照上方${count}张分板特写，逐格核验双侧白至冰青生物柔羽耳动势、锁芯明灭与面部微肌肉运动`
+  if (npcId === 'child-roy' || npcId === 'child-roya') return `就近对照上方${count}张分板特写，逐格核验八岁幼态骨相、随身信物与面部微肌肉运动`
+  return `就近对照上方${count}张分板特写，逐格核验刚性镜具状态与面部微肌肉运动`
 }
 </script>
 
@@ -553,7 +566,7 @@ function faceCountZh(count: number): string {
               :section="npc.expressionPlates?.length ? 'profile' : 'all'"
               :personas="[npc.persona]"
               :spectrum-href="`#${npc.id}-expressions`"
-              gear-label="刚性镜具与工坊起居切换态"
+              :gear-label="castGearLabel(npc.id)"
             />
 
             <div
@@ -591,7 +604,7 @@ function faceCountZh(count: number): string {
                 v-if="npc.persona?.actingSpectrum?.length"
                 section="spectrum"
                 :personas="[npc.persona]"
-                :spectrum-note="`就近对照上方${plateCountZh(npc.expressionPlates.length)}张分板特写，逐格核验刚性镜具状态与面部微肌肉运动`"
+                :spectrum-note="castSpectrumNote(npc.id, npc.expressionPlates.length)"
               />
             </div>
           </section>

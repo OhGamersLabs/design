@@ -1672,8 +1672,32 @@
     },
     {
       "character": "darrow",
+      "path": "/media/darrow/child-roy-expressions-rainy-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/child-roy-expressions-rainy-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/child-roy-expressions-shipyard-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/child-roy-expressions-shipyard-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
       "path": "/media/darrow/child-roya-card-latest.png",
       "key": "x_ops/design/characters/darrow/latest/child-roya-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/child-roya-expressions-rainy-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/child-roya-expressions-rainy-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/child-roya-expressions-steward-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/child-roya-expressions-steward-latest.png",
       "contentType": "image/png"
     },
     {
@@ -4518,6 +4542,24 @@
       "character": "world",
       "path": "/media/world/lorn-vele-card-latest.png",
       "key": "x_ops/design/characters/world/latest/lorn-vele-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/lorn-vele-expressions-agony-latest.png",
+      "key": "x_ops/design/characters/world/latest/lorn-vele-expressions-agony-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/lorn-vele-expressions-cryo-latest.png",
+      "key": "x_ops/design/characters/world/latest/lorn-vele-expressions-cryo-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/lorn-vele-expressions-witness-latest.png",
+      "key": "x_ops/design/characters/world/latest/lorn-vele-expressions-witness-latest.png",
       "contentType": "image/png"
     },
     {

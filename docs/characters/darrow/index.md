@@ -133,7 +133,7 @@ releaseReady: false
 
 ## 幼年形态设定 {#childhood}
 
-<p>零号科考船事变期（八岁遗孤时期）的达罗兄妹幼年角色设定卡：完整承袭墨黑短发、角色左额暖灰棕挑染与亮琥珀金眼眸的同源骨相基因，不佩戴成年期的滑雪护目镜与战术半指手套，仅以角色卡定格孩童正背穿搭、核心情绪与父母遗留的两件初代信物。</p>
+<p>零号科考船事变期（八岁遗孤时期）的达罗兄妹幼年角色设定卡与四板十二面孔神态档案：完整承袭墨黑短发、角色左额暖灰棕挑染与亮琥珀金眼眸的同源骨相基因，不佩戴成年期的滑雪护目镜与战术半指手套，完整定格八岁船坞日常、父母信物托付与暴雨夜护妹成长弧。</p>
 </div>
 
 <div class="bunny-expression-grid">
@@ -141,6 +141,16 @@ releaseReady: false
   <AssetImage id="child-roya-card-latest" detail="幼年罗娅（八岁） · 画面左半全身正背立绘、画面右半三态神情与双手捧持的 09 暗礁六角船工铝牌特写" use-thumb />
 </div>
 
-<p class="bunny-expression-note">幼年形态专供开篇雨夜检疫机坪与童年回忆分镜锚定：八岁罗伊穿深石板蓝拼冷白随船连帽风衣配卡其工装短裤，角色左膝贴创可贴、缠绷带擦伤小手紧护父亲塞入掌心的 OG 街机代币；八岁罗娅穿反转配色的冷白拼深蓝随船连帽卫衣配百褶短裤与及膝黑袜，颈间贴身佩戴蚀刻 09 编号的父母造船工六角铝牌。父母双亲完整 4K 角色设定卡与同源异构六板神态档案详见剧情图鉴：<a href="/world/cast#renn-darrow">父亲伦恩·达罗</a>（<a href="/world/cast#renn-darrow-expressions">六板十八面孔神态谱系</a>） · <a href="/world/cast#eileen-darrow">母亲艾琳·达罗</a>（<a href="/world/cast#eileen-darrow-expressions">六板十八面孔神态谱系</a>）。</p>
+<div class="bunny-expression-grid">
+  <AssetImage id="child-roy-expressions-shipyard-latest" detail="幼年罗伊第 1 板 · 船坞日常与铜币约定（3 面孔，从左往右：双手叉腰露小虎牙船坞皮猴灿笑 / 趴原木工作台垫颌瞪圆琥珀眼偷看造船 / 缠白纱布小双手郑重捧起无字黄铜币的男子汉约定）" group="child-roy-expressions-spectrum" />
+  <AssetImage id="child-roy-expressions-rainy-latest" detail="幼年罗伊第 2 板 · 暴雨夜护妹与孤勇决绝（3 面孔，从左往右：湿发张开缠绷带双臂护身前的小狼崽怒视 / 低头双手死攥白棉手帕咬唇蓄泪不落 / 侧身回望雨幕以角色右手隔风衣按紧胸前硬币的早熟决绝）" group="child-roy-expressions-spectrum" />
+</div>
+
+<div class="bunny-expression-grid">
+  <AssetImage id="child-roya-expressions-steward-latest" detail="幼年罗娅第 1 板 · 早慧小管家与铝牌依恋（3 面孔，从左往右：端正站立双手交叠胸前小淑女基准浅笑 / 角色左手叉腰角色右食指前点鼓腮训兄 / 双手轻捧胸前无字六角船工铝牌仰望母亲依恋）" group="child-roya-expressions-spectrum" />
+  <AssetImage id="child-roya-expressions-rainy-latest" detail="幼年罗娅第 2 板 · 暴雨夜惊痛与收泪坚强（3 面孔，从左往右：警卫破门瞬间小双手悬停下唇外缘瞳孔骤缩惊恐 / 双手紧护胸前六角铝牌八字悲眉大颗滚泪啜泣 / 擦干泪痕红着眼圈双手平稳前递白棉手帕的早慧坚强）" group="child-roya-expressions-spectrum" />
+</div>
+
+<p class="bunny-expression-note">幼年形态与四板十二面孔专供开篇雨夜检疫机坪与童年回忆分镜锚定：八岁罗伊穿深石板蓝拼冷白随船连帽风衣配卡其工装短裤，角色左膝贴创可贴、缠白纱布小手紧护父亲塞入掌心的无字 OG 街机代币，从船坞里露虎牙傻笑的皮猴一夜蜕变为暴雨夜张臂护妹、死攥白手帕不肯哭出声的孤勇长兄；八岁罗娅穿反转配色的冷白拼深蓝随船连帽卫衣配百褶短裤与及膝黑袜，颈间贴身佩戴母亲系上的 09 暗礁六角船工铝牌，从叉腰鼓腮训哥的小管家在惊痛滚泪后迅速擦干眼泪托回白手帕，确立十年后秩序管家的早慧起点。完整逐格幼年神态清单与父母双亲档案详见剧情图鉴：<a href="/world/cast#child-roy-expressions">幼年罗伊两板六面孔档案</a> · <a href="/world/cast#child-roya-expressions">幼年罗娅两板六面孔档案</a> · <a href="/world/cast#renn-darrow">父亲伦恩·达罗</a>（<a href="/world/cast#renn-darrow-expressions">六板十八面孔</a>） · <a href="/world/cast#eileen-darrow">母亲艾琳·达罗</a>（<a href="/world/cast#eileen-darrow-expressions">六板十八面孔</a>）。</p>
 
 <p class="bunny-section-links"><a href="/characters/darrow/body">第 0 层：罗伊 · 身体</a> · <a href="/characters/darrow/goggles">第 4 层：罗伊 · 深红护目镜</a> · <a href="/characters/darrow/female-body">第 5 层：罗娅 · 身体</a> · <a href="/characters/darrow/female-goggles">第 9 层：罗娅 · 橙红护目镜</a></p>

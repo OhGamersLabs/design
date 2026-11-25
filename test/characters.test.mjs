@@ -368,6 +368,37 @@ test('world lore registry loads all five races and covers every listed character
     assert.match(plate.image.web.path, /^\/characters\/soren-vane\//)
   }
   assert.equal(youngSorenCard.persona.actingSpectrum.reduce((s, g) => s + g.count, 0), 12)
+  for (const childId of ['child-roy', 'child-roya']) {
+    const childCard = world.storyCast.standardCards.find((c) => c.id === childId)
+    assert.ok(childCard, `Missing standardCard for ${childId}`)
+    assert.equal(childCard.collection, 'darrow')
+    assert.equal(childCard.updated, '2026-11-25')
+    assert.equal(childCard.expressionPlates.length, 2)
+    for (const plate of childCard.expressionPlates) {
+      assert.ok(plate.image, `Missing resolved image for ${plate.id}`)
+      assert.match(plate.image.web.path, /^\/characters\/darrow\//)
+    }
+    assert.equal(childCard.persona.actingSpectrum.length, 2)
+    for (const group of childCard.persona.actingSpectrum) {
+      assert.equal(group.count, group.faces.length)
+    }
+    assert.equal(childCard.persona.actingSpectrum.reduce((s, g) => s + g.count, 0), 6)
+  }
+  const lornCard = world.storyCast.standardCards.find((c) => c.id === 'lorn-vele')
+  assert.ok(lornCard)
+  assert.equal(lornCard.collection, 'world')
+  assert.equal(lornCard.updated, '2026-11-25')
+  assert.equal(lornCard.expressionPlates.length, 3)
+  for (const plate of lornCard.expressionPlates) {
+    assert.ok(plate.image, `Missing resolved image for ${plate.id}`)
+    assert.match(plate.image.web.path, /^\/characters\/world\//)
+  }
+  assert.equal(lornCard.persona.desiresAndAversions.length, 4)
+  assert.equal(lornCard.persona.actingSpectrum.length, 3)
+  for (const group of lornCard.persona.actingSpectrum) {
+    assert.equal(group.count, group.faces.length)
+  }
+  assert.equal(lornCard.persona.actingSpectrum.reduce((s, g) => s + g.count, 0), 9)
 })
 test('Bunny LayerCard retains its exact breadcrumb, noun, range and wear', async () => {
   const html = await renderComponent('components/LayerCard.vue', loader.load(), 'characters/bonnie/weapon.md', { layer: 9 })

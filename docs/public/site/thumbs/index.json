@@ -2223,6 +2223,22 @@
     "sourcePath": "/characters/darrow/child-roy-card-latest.webp",
     "sourceSha256": "fcd75122db2b8099d0a39d1072a32999c1cdd5d45419a1268fd900696a2d0662"
   },
+  "darrow/child-roy-expressions-rainy-latest": {
+    "path": "/site/thumbs/darrow/child-roy-expressions-rainy-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "734e8a3f9ed4965eb2d83da564d2ed07147b586e713f8e85dd826f84c82d8b31",
+    "sourcePath": "/characters/darrow/child-roy-expressions-rainy-latest.webp",
+    "sourceSha256": "b9dd25878cff57ac17bd6cbf1a543b4ac94ce7e361ff7a03791e9ff7166b40ae"
+  },
+  "darrow/child-roy-expressions-shipyard-latest": {
+    "path": "/site/thumbs/darrow/child-roy-expressions-shipyard-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "6465314bc24ba9917ed362c94b3e8747c3728a3a385e1504b36aa14edd11f51b",
+    "sourcePath": "/characters/darrow/child-roy-expressions-shipyard-latest.webp",
+    "sourceSha256": "43447a8f5dd98189576cb887839bc149b5a5d3525ae92251e5a6eeffbed0025f"
+  },
   "darrow/child-roya-card-latest": {
     "path": "/site/thumbs/darrow/child-roya-card-latest.webp",
     "width": 480,
@@ -2230,6 +2246,22 @@
     "sha256": "9ae4b4d0ed5f768c924df0b45e5a8a1f4eb7b4a833f5636dfab9ee931f585826",
     "sourcePath": "/characters/darrow/child-roya-card-latest.webp",
     "sourceSha256": "2975063862a2e9f482ded9a097064bc42e24cfb01e714b55cd4c3e8edc7ce428"
+  },
+  "darrow/child-roya-expressions-rainy-latest": {
+    "path": "/site/thumbs/darrow/child-roya-expressions-rainy-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "bcff059ade58e38e607445abe79cf9c29d415556b52f72d2172ae5309c0790e8",
+    "sourcePath": "/characters/darrow/child-roya-expressions-rainy-latest.webp",
+    "sourceSha256": "b7ddeaa9b5f850671c6a216ea4962a9f291f2e8b1c2bd4abf4dfcf56e2f05ea0"
+  },
+  "darrow/child-roya-expressions-steward-latest": {
+    "path": "/site/thumbs/darrow/child-roya-expressions-steward-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "cc84250df6786c11cbe759f69b71f495db371b6d50e6cf2932872bea821fe069",
+    "sourcePath": "/characters/darrow/child-roya-expressions-steward-latest.webp",
+    "sourceSha256": "094d2eb62a3133dbc3ccf39be673d6be6f27aa8ef378587646c2a567da2525eb"
   },
   "darrow/duo-front-latest": {
     "path": "/site/thumbs/darrow/duo-front-latest.webp",
@@ -6022,6 +6054,30 @@
     "sha256": "6b80b8ec425743b8affd53ec6f57be4f826bcbb500e3e979599275f950e9ed4a",
     "sourcePath": "/characters/world/lorn-vele-card-latest.webp",
     "sourceSha256": "acb549c398bd07d468cbbbe8eab6621929dec65c0f58e6a11a709b2c7a5f8540"
+  },
+  "world/lorn-vele-expressions-agony-latest": {
+    "path": "/site/thumbs/world/lorn-vele-expressions-agony-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "4e89e6d63e961121470670ac241236ae8f387460b934c86b96daaa75f25f0c58",
+    "sourcePath": "/characters/world/lorn-vele-expressions-agony-latest.webp",
+    "sourceSha256": "1c0a11a407ee3953203c19f184f52902947e0e50112a62337fb36a6c78a95af3"
+  },
+  "world/lorn-vele-expressions-cryo-latest": {
+    "path": "/site/thumbs/world/lorn-vele-expressions-cryo-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "66126c9dbcf9983d4b07b3391e1b235083037d5bcc3b38cd09dbcf56d06d1cf2",
+    "sourcePath": "/characters/world/lorn-vele-expressions-cryo-latest.webp",
+    "sourceSha256": "15d1155d9552d1f7311cd9d9c6eb60b9cbadbb2a1fbef174758827d9ea3688a4"
+  },
+  "world/lorn-vele-expressions-witness-latest": {
+    "path": "/site/thumbs/world/lorn-vele-expressions-witness-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "7e8bde156abc7ca9d62c03fb5f1d61f111bd7e6b375b36a77291408655f95830",
+    "sourcePath": "/characters/world/lorn-vele-expressions-witness-latest.webp",
+    "sourceSha256": "dce8a9b84810a80c7c679997947758e30776fce66fb3d3b1d9c08cabbd4e06bc"
   },
   "world/og-arcade-shell-board-latest": {
     "path": "/site/thumbs/world/og-arcade-shell-board-latest.webp",
