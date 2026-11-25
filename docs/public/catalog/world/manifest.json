@@ -4,8 +4,146 @@
   "language": "zh-CN",
   "title": "星环纪元核心信物设定",
   "status": "local-review",
-  "asset_count": 26,
+  "asset_count": 34,
   "assets": [
+    {
+      "id": "acting-cross-d01-appetite-latest",
+      "character": "world",
+      "title": "acting-cross-d01-appetite-latest",
+      "original": {
+        "path": "/media/world/acting-cross-d01-appetite-latest.png",
+        "mime_type": "image/png",
+        "width": 2000,
+        "height": 680,
+        "bytes": 1248712,
+        "sha256": "1498d82a1610b5aae993f4c92a3236733e381ddfaf5cc1388957f3dccc7e3a8b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/acting-cross-d01-appetite-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2000,
+        "height": 680,
+        "bytes": 917840,
+        "sha256": "50e927cfbba6e8567fbeb1a0028aaceaa5c64fd9ad77edb7f55194368cd98043",
+        "alpha": false
+      }
+    },
+    {
+      "id": "acting-cross-d02-indulgence-latest",
+      "character": "world",
+      "title": "acting-cross-d02-indulgence-latest",
+      "original": {
+        "path": "/media/world/acting-cross-d02-indulgence-latest.png",
+        "mime_type": "image/png",
+        "width": 2000,
+        "height": 680,
+        "bytes": 1200522,
+        "sha256": "586a30aee00ee326e8c7600a6c311dcdc8559fe42fd9630937153b94b8747f63",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/acting-cross-d02-indulgence-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2000,
+        "height": 680,
+        "bytes": 860866,
+        "sha256": "78d0ef68c7548010cd3793022d0c734df082d206359c1e6591c44484f7ec9d0c",
+        "alpha": false
+      }
+    },
+    {
+      "id": "acting-cross-d03-fatigue-latest",
+      "character": "world",
+      "title": "acting-cross-d03-fatigue-latest",
+      "original": {
+        "path": "/media/world/acting-cross-d03-fatigue-latest.png",
+        "mime_type": "image/png",
+        "width": 2000,
+        "height": 680,
+        "bytes": 1318146,
+        "sha256": "8475ebf5e60e3a565793223a984574e5a7968f9dfb689567226ab8bf5f052f6d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/acting-cross-d03-fatigue-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2000,
+        "height": 680,
+        "bytes": 952706,
+        "sha256": "991977af20419fa177b5512e63db2aa1fae4224025c96a47a867701ca010a50f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "acting-cross-d04-lethal-latest",
+      "character": "world",
+      "title": "acting-cross-d04-lethal-latest",
+      "original": {
+        "path": "/media/world/acting-cross-d04-lethal-latest.png",
+        "mime_type": "image/png",
+        "width": 2000,
+        "height": 680,
+        "bytes": 1263472,
+        "sha256": "6cc9b93824274735c66bed5482bb1288c735c1276d68699ef248f93e5e322320",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/acting-cross-d04-lethal-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2000,
+        "height": 680,
+        "bytes": 913640,
+        "sha256": "18e7c834a405ac6850776133ed97d9c8894624e51905a6809a943ce54e9ff836",
+        "alpha": false
+      }
+    },
+    {
+      "id": "acting-cross-d05-grief-latest",
+      "character": "world",
+      "title": "acting-cross-d05-grief-latest",
+      "original": {
+        "path": "/media/world/acting-cross-d05-grief-latest.png",
+        "mime_type": "image/png",
+        "width": 2000,
+        "height": 680,
+        "bytes": 1285358,
+        "sha256": "568422bdf25b10003c27bdbc01dcc1f2b7a533b1f874d672d4a4461ceda9adca",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/acting-cross-d05-grief-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2000,
+        "height": 680,
+        "bytes": 945578,
+        "sha256": "37353076bfc6f13b24efbc7b8688ad2c66ed38ae9643a4d53f5740e17833b66a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "acting-cross-d06-fluster-latest",
+      "character": "world",
+      "title": "acting-cross-d06-fluster-latest",
+      "original": {
+        "path": "/media/world/acting-cross-d06-fluster-latest.png",
+        "mime_type": "image/png",
+        "width": 2000,
+        "height": 680,
+        "bytes": 1148863,
+        "sha256": "22127e9e4e358ce28931df38e95a6cc0b1c6a4187c3d82a51c128d8b9f726840",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/acting-cross-d06-fluster-latest.webp",
+        "mime_type": "image/webp",
+        "width": 2000,
+        "height": 680,
+        "bytes": 819222,
+        "sha256": "4422fbf591afbc4f384ea0cd0b308418f14fdc9ec13d9a4eafa34106ace53179",
+        "alpha": false
+      }
+    },
     {
       "id": "astral-mother-core-board-latest",
       "character": "world",
@@ -72,6 +210,29 @@
         "height": 2048,
         "bytes": 2990906,
         "sha256": "63a8b999fef81e806913d5a55443c64c5b4e3d6291714989ad7b10ad3af23bf7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "eileen-darrow-expressions-latest",
+      "character": "world",
+      "title": "eileen-darrow-expressions-latest",
+      "original": {
+        "path": "/media/world/eileen-darrow-expressions-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2116473,
+        "sha256": "4b83e5a73f19630bf234f5b98c81a1205f02c9f63da69851b5a6b203e81b2511",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/eileen-darrow-expressions-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1543776,
+        "sha256": "563397dcf7787a402e9718c832102a9b6b3d09277d29307e482dc7a5fc06e476",
         "alpha": false
       }
     },
@@ -565,19 +726,42 @@
       "original": {
         "path": "/media/world/renn-darrow-card-latest.png",
         "mime_type": "image/png",
-        "width": 2880,
-        "height": 2880,
-        "bytes": 10049521,
-        "sha256": "8c672add0b68e8d2a6c2ce6e267f943f924f7fe0a5360dd64aaee39ae486db6c",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1524079,
+        "sha256": "998b04a808419c7c0b27ebbdedb9411b8e9093f070b7b46e111d9e5637dd004c",
         "alpha": false
       },
       "web": {
         "path": "/characters/world/renn-darrow-card-latest.webp",
         "mime_type": "image/webp",
-        "width": 2048,
-        "height": 2048,
-        "bytes": 3697604,
-        "sha256": "ee9070cee02996577d545b935bd2fb4d015f8c3ef85cf8ad8c40814f3029fbc4",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1086898,
+        "sha256": "79c4825ac9bde838f0757cf043e0383268c7b1764888ee7ab88dfff2fc2aa9e8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "renn-darrow-expressions-latest",
+      "character": "world",
+      "title": "renn-darrow-expressions-latest",
+      "original": {
+        "path": "/media/world/renn-darrow-expressions-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2228371,
+        "sha256": "ff92bb0a721dbbdac9122cbad6f3874acab61bed6691bfed640e377f85fbc97b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/world/renn-darrow-expressions-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1631004,
+        "sha256": "9ca038f263eb8b9da41a2b8917262812e99d675735a78bdc326c65c69a288a81",
         "alpha": false
       }
     },

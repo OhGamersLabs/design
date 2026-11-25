@@ -112,8 +112,16 @@
       "label": "背景故事"
     },
     {
+      "id": "personality",
+      "label": "性格与日常习惯"
+    },
+    {
       "id": "layers",
       "label": "衣层由内到外"
+    },
+    {
+      "id": "expressions",
+      "label": "光学与姿态演技"
     },
     {
       "id": "breakdown",

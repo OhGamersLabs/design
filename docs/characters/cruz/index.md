@@ -47,6 +47,15 @@ releaseReady: false
 
 <div class="bunny-section-heading">
 
+## 性格与日常习惯 {#personality}
+
+<p>三层性格底色、说话口癖、日常起居习惯与神态演绎锚点。</p>
+</div>
+
+<CharacterPersona />
+
+<div class="bunny-section-heading">
+
 ## 衣层由内到外 {#layers}
 
 <p>从女性标准素体出发，按第 0 到第 5 层依次穿戴并配备完整外挂工程武装。点开任意一图，可用左右键逐层翻看。</p>
@@ -58,15 +67,15 @@ releaseReady: false
 
 ## 面部与表情 {#expressions}
 
-<p>同一张脸的面部结构三视与十六格 3/4 角色右侧视角情绪变化。</p>
+<p>同一张脸的面部结构三视，以及穿戴蓝灰夹克立领、融入船坞总工日常习惯的 3×4 性格演技表。</p>
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="expressions-sheet-latest" detail="16 格 · 4×4 情绪分级排列" />
+  <AssetImage id="expressions-sheet-latest" detail="12 格 · 3×4 护船工头、技术狂热与被夸蹭鼻脸红演技排列" />
   <AssetImage id="face-sheet-latest" detail="正面、角色右侧面、背面" use-thumb />
 </div>
 
-<p class="bunny-expression-note">按行从画面左至画面右：第一行平静默认 / 柔和浅笑 / 眯眼大笑 / 自信微笑；第二行微皱专注 / 严肃凝视 / 咬牙生怒 / 张口喊话；第三行冒汗为难 / 无奈斜视 / 含泪委屈 / 闭眼大哭；第四行惊讶张口 / 惊喜展颜 / 脸红羞赧 / 闭眼安心微笑。</p>
+<p class="bunny-expression-note">按行从画面左至画面右：第一行干练总工自信笑 / 扛大扳手核善威胁笑 / 嘴叼垫圈单眼游标卡尺校准；第二行见先驱构件双眸放光 / 熬夜黑眼圈捧杯灌三倍苦咖啡 / 揉太阳穴打大哈欠；第三行机库大嗓门呵斥 / 脸上沾机油咬牙抢修 / 捏断齿齿轮半月眼叹气；第四行被夸手艺拿手套手背蹭鼻尖脸红 / 深夜专注调校零件 / 爽朗仰头大笑。</p>
 
 <div class="bunny-section-heading">
 

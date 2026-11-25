@@ -21,6 +21,8 @@ import BaseBodyTierViews from './components/BaseBodyTierViews.vue'
 import WorldPage from './WorldPage.vue'
 import StoryPage from './StoryPage.vue'
 import CharacterLore from './components/CharacterLore.vue'
+import CharacterPersona from './components/CharacterPersona.vue'
+import ActingStandardsSection from './components/ActingStandardsSection.vue'
 import './style.css'
 
 export default {
@@ -38,6 +40,8 @@ export default {
     app.component('WorldPage', WorldPage)
     app.component('StoryPage', StoryPage)
     app.component('CharacterLore', CharacterLore)
+    app.component('CharacterPersona', CharacterPersona)
+    app.component('ActingStandardsSection', ActingStandardsSection)
     app.component('AssetImage', AssetImage)
     app.component('OriginNote', OriginNote)
     app.component('LayerStrip', LayerStrip)

@@ -47,12 +47,35 @@ releaseReady: false
 
 <div class="bunny-section-heading">
 
+## 性格与日常习惯 {#personality}
+
+<p>三层性格底色、说话口癖、日常起居习惯与神态演绎锚点。</p>
+</div>
+
+<CharacterPersona />
+
+<div class="bunny-section-heading">
+
 ## 衣层由内到外 {#layers}
 
 <p>从标准青年男骨架机械本体出发，按第 0 到第 4 层依次叠加胸腰甲、悬臂肩甲长披风、铁血机械脏辫战盔与超长热能正宗。点开任意一图，可用左右键逐层翻看。</p>
 </div>
 
 <LayerStrip />
+
+<div class="bunny-section-heading">
+
+## 光学与姿态演技 {#expressions}
+
+<p>纯硅基智械战盔不设人类五官，以猩红窄目镜光效、角色右眉黄光锁、液压机械脏辫泄压蒸汽与武士手势传达灵魂的 3×4 演技表。</p>
+</div>
+
+<div class="bunny-expression-grid">
+  <AssetImage id="expressions-sheet-latest" detail="12 格 · 3×4 捧茶闻香、单手扶盔排气叹息与热能正宗顶镡锁敌演技" />
+  <AssetImage id="dreadlock-helm-board-latest" detail="铁血机械脏辫战盔三视与角色右眉单侧浅亮黄微光基准" use-thumb />
+</div>
+
+<p class="bunny-expression-note">按行从画面左至画面右：第一行抱臂沉稳守望 / 角色右手双指轻点压眉战盔帽檐致礼 / 双手捧白瓷煎茶盏凑近面罩熏热茶水汽；第二行对胡闹晚辈无奈单手扶额配半垂目镜与领口排气轻叹 / 歪头疑惑倾听 / 抱臂垂首微光假寐；第三行角色左手拇指顶开热能正宗刀镡露一线橙红刃光 / 液压脏辫怒张喷出冷却白汽配猩红十字寒芒 / 回身挥斩凌厉锁定；第四行肩甲擦出火花纹丝不动 / 双手解开暖灰褐披风替熟睡晚辈盖衣 / 按胸垂首恪守刀契。</p>
 
 <div class="bunny-section-heading">
 

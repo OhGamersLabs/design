@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "荒铁·久藏 设计参考",
   "status": "local-review",
-  "asset_count": 46,
+  "asset_count": 47,
   "assets": [
     {
       "id": "body-3q-left-latest",
@@ -647,6 +647,29 @@
         "height": 2048,
         "bytes": 1523832,
         "sha256": "ba9a7c1080101aba8610758972458c542365daa6c6ce7bdff53826ac4c410a0b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "kyuzo",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/kyuzo/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2470663,
+        "sha256": "993cd759dc3a340ad67faaef552e0e7b89a93423e0a299abf162b886542aec9f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/kyuzo/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1752322,
+        "sha256": "896b98d6ca5d256a78ba5e1a2efe237c0bb7976b3569e79c7805b6efbffbc364",
         "alpha": false
       }
     },

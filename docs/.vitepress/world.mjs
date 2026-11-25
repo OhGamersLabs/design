@@ -24,6 +24,42 @@ function parseSectionCards(raw, listKey) {
   }
 }
 
+function parsePersona(p) {
+  const item = record(p)
+  return {
+    id: text(item.id),
+    name: text(item.name),
+    roleTag: text(item.roleTag),
+    mbti: item.mbti === undefined ? '' : text(item.mbti),
+    archetype: text(item.archetype),
+    temperament: list(item.temperament).map((t) => {
+      const layer = record(t)
+      return { label: text(layer.label), text: text(layer.text) }
+    }),
+    desiresAndAversions: item.desiresAndAversions === undefined ? [] : list(item.desiresAndAversions).map((d) => {
+      const entry = record(d)
+      return { label: text(entry.label), detail: text(entry.detail) }
+    }),
+    speechStyle: text(item.speechStyle),
+    dailyHabits: list(item.dailyHabits).map((h) => {
+      const habit = record(h)
+      return { title: text(habit.title), detail: text(habit.detail) }
+    }),
+    actingCues: text(item.actingCues),
+    actingSpectrum: item.actingSpectrum === undefined ? [] : list(item.actingSpectrum).map((g) => {
+      const group = record(g)
+      return {
+        axis: text(group.axis),
+        count: number(group.count),
+        faces: list(group.faces).map((f) => {
+          const face = record(f)
+          return { name: text(face.name), gearState: text(face.gearState), cue: text(face.cue) }
+        }),
+      }
+    }),
+  }
+}
+
 export function loadWorld(root = defaultRoot) {
   const source = record(readJson(resolve(root, 'docs/.vitepress/data/world/world.json')))
   const manifestPath = resolve(root, 'catalog/world/manifest.json')
@@ -91,6 +127,7 @@ export function loadWorld(root = defaultRoot) {
           signatureGear: text(ch.signatureGear),
           bonds: text(ch.bonds),
           story: list(ch.story).map(text),
+          personas: ch.personas === undefined ? [] : list(ch.personas).map(parsePersona),
         },
       ]
     }),
@@ -142,6 +179,8 @@ export function loadWorld(root = defaultRoot) {
       const asset = text(item.asset)
       const collAssets = getCollectionAssets(collection)
       const resolved = Object.hasOwn(collAssets, asset) ? assetById(collAssets, asset) : null
+      const exprAsset = item.expressionsAsset === undefined ? null : text(item.expressionsAsset)
+      const resolvedExpr = exprAsset && Object.hasOwn(collAssets, exprAsset) ? assetById(collAssets, exprAsset) : null
       return {
         id: text(item.id),
         collection,
@@ -156,6 +195,8 @@ export function loadWorld(root = defaultRoot) {
         tagline: text(item.tagline),
         signature: text(item.signature),
         story: text(item.story),
+        persona: item.persona === undefined ? null : parsePersona(item.persona),
+        ...(exprAsset ? { expressionsAsset: exprAsset, expressionsImage: resolvedExpr } : {}),
         ...(item.profileLink === undefined ? {} : { profileLink: text(item.profileLink) }),
         ...(item.profileLinkLabel === undefined ? {} : { profileLinkLabel: text(item.profileLinkLabel) }),
         portrait: resolved ? { asset, ...resolved.thumb } : null,

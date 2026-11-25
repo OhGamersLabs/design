@@ -588,19 +588,19 @@
       "original": {
         "path": "/media/wylin/expressions-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 2352,
-        "height": 3520,
-        "bytes": 7981042,
-        "sha256": "54eedc5d7fed18fa0debb494e0859a37790449f3c4734951a58ec1c25e9ac05a",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2361895,
+        "sha256": "299a35300e9135b54214f7a49caf7c93f57bd542b77ad67485bce44b6bc795d7",
         "alpha": false
       },
       "web": {
         "path": "/characters/wylin/expressions-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1368,
-        "height": 2048,
-        "bytes": 2552570,
-        "sha256": "f0ab8490e40915ea4fb632769b8424a69663b2fbe81a8daacdd1e5f27726a1d5",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1838450,
+        "sha256": "187b01082e822de84abf8a6dc4916bbbba194ad392d4b1a0ba65228dcf7b0938",
         "alpha": false
       }
     },

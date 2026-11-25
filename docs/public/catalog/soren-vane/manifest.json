@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "索伦·韦恩 设计参考",
   "status": "local-review",
-  "asset_count": 36,
+  "asset_count": 37,
   "assets": [
     {
       "id": "body-back-latest",
@@ -199,8 +199,8 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1024,
-        "bytes": 819899,
-        "sha256": "eb19eb881448e7428ad7ef6d0c695a0f9a1f5b488a27104917e1a0be4e8a36be",
+        "bytes": 977472,
+        "sha256": "cf7db930aa197dd25ae48497ef18daeaaee9bdf5524b28a706842eeabdca4f2c",
         "alpha": false
       },
       "web": {
@@ -208,8 +208,8 @@
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1024,
-        "bytes": 626184,
-        "sha256": "82695880e1c386222444c8160face3f3dc59be573bbf14ac55fd53ddc7b5a7a5",
+        "bytes": 730582,
+        "sha256": "05baa459e5b9238a07c722dd2d700c0de225146a4ee0398fbd2fc05e389701ae",
         "alpha": false
       }
     },
@@ -222,8 +222,8 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1536,
-        "bytes": 2296647,
-        "sha256": "a4f4b562d5f919b2db9b7ae7790242d9e9561c016a6dc24ca6a01772d3fc6973",
+        "bytes": 1983351,
+        "sha256": "ff47b12985da2cc267d5d8f836b9bb5c346ab9cfa133324c9c04a97c304f78f7",
         "alpha": false
       },
       "web": {
@@ -231,8 +231,8 @@
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1536,
-        "bytes": 1665288,
-        "sha256": "03301dea266e634d1382844eb75c1059fb4ff745eab14fd3cfedfad6dc1c801f",
+        "bytes": 1466756,
+        "sha256": "5d548836a2a6266b3dc089fb6ed1800a11c38cad0097ee2776b354ae24c9bfc2",
         "alpha": false
       }
     },
@@ -245,8 +245,8 @@
         "mime_type": "image/png",
         "width": 1536,
         "height": 1024,
-        "bytes": 1727133,
-        "sha256": "b6896bc02461e43ef2de1fb629a3aa22dfd8b892616b4c7ad62b9cd825582b1d",
+        "bytes": 1827558,
+        "sha256": "f5d4deb915ee7186169f9225890972104d96cad29474df49846e6df1ea1e2dc1",
         "alpha": false
       },
       "web": {
@@ -254,8 +254,8 @@
         "mime_type": "image/webp",
         "width": 1536,
         "height": 1024,
-        "bytes": 1275148,
-        "sha256": "672b94744ad823bc0d6fc885f3355c6e6553103361eb2662bef0e995182ffdd8",
+        "bytes": 1336632,
+        "sha256": "df52fb8e338d725ec6ff3eb98af1356b93ebcfe8394785c7377178b6ca767d81",
         "alpha": false
       }
     },
@@ -820,8 +820,8 @@
         "mime_type": "image/png",
         "width": 1024,
         "height": 1024,
-        "bytes": 1390295,
-        "sha256": "4835f1ffe80e89c7b09a079b421ccd84c1300cc958bc85140c07f8e39bf1fe91",
+        "bytes": 1374068,
+        "sha256": "77e59cf5e0771ce0e7c131fd35e52d14fd3b2900151acea4af4fe15051c7eec8",
         "alpha": false
       },
       "web": {
@@ -829,8 +829,31 @@
         "mime_type": "image/webp",
         "width": 1024,
         "height": 1024,
-        "bytes": 1017772,
-        "sha256": "f8edeb4552d7ae784c11d0cbf3a17fcece919c7265bab60876469c3a422376da",
+        "bytes": 1009540,
+        "sha256": "f61ccd0e42ab4b5d6c8415f441fa0160902c9984c84dc898297bcf38e939696e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "young-soren-expressions-latest",
+      "character": "soren-vane",
+      "title": "young-soren-expressions-latest",
+      "original": {
+        "path": "/media/soren-vane/young-soren-expressions-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2234892,
+        "sha256": "3f42c19552358da5a6f9f6c3e0089280dae4b3d617f25b6e68ba201b474739d0",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/soren-vane/young-soren-expressions-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1642358,
+        "sha256": "ead0ffa5dea59bb08edd1a000735e4294ecded9a40c6f94c4980577569b5b020",
         "alpha": false
       }
     }

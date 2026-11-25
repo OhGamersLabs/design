@@ -14,6 +14,14 @@ releaseReady: false
 
 <BaseBodyHero />
 
+<nav class="bunny-chapters standards-chapters" aria-label="本页章节">
+  <a href="#tiers">四档素体</a>
+  <a href="#proportions">比例对照</a>
+  <a href="#rules">画风与调用</a>
+  <a href="#acting-system">神态与反同质化规范</a>
+  <a href="#角色档案">角色档案</a>
+</nav>
+
 <div class="bunny-section-heading">
 
 ## 四档素体 {#tiers}
@@ -70,6 +78,15 @@ releaseReady: false
     <p>每档 T 姿四视均为 1024×1024 纯白底正交图，涵盖正面、角色右侧面、背面与角色左侧面。角色左侧面与角色右侧面均省去近侧手臂，完整露出圆润肩帽、胸背起伏与腰臀侧轮廓。</p>
   </div>
 </div>
+
+<div class="bunny-section-heading">
+
+## 人格坐标与神态演绎规范 {#acting-system}
+
+<p>以 MBTI 认知功能栈、九型防御侧翼与主导感官锚定角色七情六欲微表情，杜绝跨角色换皮同质化与刚性护目镜变形。</p>
+</div>
+
+<ActingStandardsSection />
 
 <div class="bunny-section-heading">
 

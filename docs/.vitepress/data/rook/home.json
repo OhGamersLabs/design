@@ -134,12 +134,20 @@
       "label": "背景故事"
     },
     {
+      "id": "personality",
+      "label": "性格与日常习惯"
+    },
+    {
       "id": "layers",
       "label": "装甲由内到外"
     },
     {
       "id": "purge",
       "label": "爆甲三态与头部结构"
+    },
+    {
+      "id": "expressions",
+      "label": "光学与双态演技"
     },
     {
       "id": "breakdown",

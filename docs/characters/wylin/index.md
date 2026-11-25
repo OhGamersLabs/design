@@ -47,6 +47,15 @@ releaseReady: false
 
 <div class="bunny-section-heading">
 
+## 性格与日常习惯 {#personality}
+
+<p>三层性格底色、说话口癖、日常起居习惯与神态演绎锚点。</p>
+</div>
+
+<CharacterPersona />
+
+<div class="bunny-section-heading">
+
 ## 衣层由内到外 {#layers}
 
 <p>从硅碳仿生基础素体出发，按第 0 到第 2 层依次穿戴轻装战斗组件与高立领半袖燕尾奥术风衣。点开任意一图，可用左右键逐层翻看。</p>
@@ -58,15 +67,15 @@ releaseReady: false
 
 ## 面部与表情 {#expressions}
 
-<p>与标准成年女素体严格对齐的精致面部结构设定，以及十六格微 3/4 角色左侧面视角情绪变化。</p>
+<p>单轨机械面缝与全机械仿生耳基准三视，以及穿高立领奥术风衣、刻画硅碳义体过载漏电反差的 3×4 性格演技表。</p>
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="expressions-sheet-latest" detail="16 格 · 4×4 喜怒哀乐情绪排列" />
+  <AssetImage id="expressions-sheet-latest" detail="12 格 · 3×4 星图推演、过载漏电炸呆毛与尝热汤柔和神态" />
   <AssetImage id="face-sheet-latest" detail="正面与角色右侧面单轨机械面壳缝及全机械仿生耳基准" use-thumb />
 </div>
 
-<p class="bunny-expression-note">按行从画面左边至画面右边：第一行冷静平视 / 柔和微笑 / 自信轻笑 / 闭眼欣慰微笑；第二行锐利凝视 / 蹙眉不悦 / 震怒呵斥 / 切齿怒视；第三行微怔惊讶 / 失落低眸 / 含泪哀伤 / 紧闭双眸忍痛；第四行轻声思索 / 略微脸红羞赧 / 困惑迟疑 / 无奈冒汗。</p>
+<p class="bunny-expression-note">按行从画面左边至画面右边：第一行点选全息星图冷静推演 / 听不懂街头俚语偏头困惑 / 托腮自信破题；第二行见离谱抛币赌局逻辑死机冒白汽与静电呆毛 / 害羞过载双耳滋啦漏电捂耳脸红 / 静电炸毛别扭侧目；第三行高出力浮发唤雷 / 冷冽俯视拒斥强权 / 咬牙撑盾抗压；第四行捧碗小勺认真品评热汤 / 悬浮闭目冥想 / 双掌托暖光露出柔和浅笑。</p>
 
 <div class="bunny-section-heading">
 

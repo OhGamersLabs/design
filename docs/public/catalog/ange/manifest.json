@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "安洁·阿维拉 设计参考",
   "status": "local-review",
-  "asset_count": 66,
+  "asset_count": 67,
   "assets": [
     {
       "id": "angel-wings-back-latest",
@@ -1084,6 +1084,29 @@
         "height": 1248,
         "bytes": 534332,
         "sha256": "32802daec77edbd27cf4ed268ce4b6ce8b9570b18d3a5c299473da78f19fcb43",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "ange",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/ange/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2298763,
+        "sha256": "4f05a6a11138cf2ee0bbccd2a85b33b7d39520ba0b914d3fa1dbc9477182680a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/ange/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1799940,
+        "sha256": "7ab8cdf36867043fc669ff09722e35b33c0beeeed7d1336431df8cd435bbe864",
         "alpha": false
       }
     },

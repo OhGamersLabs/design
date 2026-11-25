@@ -53,6 +53,11 @@
       "note": "碳基人族 · 星港街头"
     },
     {
+      "term": "人格坐标",
+      "value": "ISTP（Ti-Se-Ni-Fe）· 7w8 独行野猫怪盗",
+      "note": "冷感技术流拆解外壳与贪享感官自由本能"
+    },
+    {
       "term": "外观",
       "value": "成年纤细女性，银白短乱发，蓝眼；白色切面战术护目镜推在额上",
       "note": ""
@@ -97,7 +102,7 @@
   ],
   "chipNote": "取自定稿图的近似色",
   "status": "本地审阅版，不是生产发布",
-  "updated": "2026-11-22",
+  "updated": "2026-11-25",
   "chapters": [
     {
       "id": "identity",
@@ -106,6 +111,10 @@
     {
       "id": "story",
       "label": "背景故事"
+    },
+    {
+      "id": "personality",
+      "label": "性格与日常习惯"
     },
     {
       "id": "body",
@@ -130,6 +139,12 @@
   ],
   "highlights": [
     {
+      "date": "2026-11-25",
+      "title": "七情六欲八板三十面孔谱系",
+      "asset": "expressions-desires-latest",
+      "caption": "按 ISTP 野猫怪盗人格棱镜拆解八组三十张独立面孔，真实切换卸镜露额、挂颈与推额护眼态。"
+    },
+    {
       "date": "2026-11-22",
       "title": "双匕首站姿立绘角色卡",
       "asset": "daggers-standing-card-latest",
@@ -140,12 +155,6 @@
       "title": "异构工业双匕首比例母版",
       "asset": "daggers-scale-board-latest",
       "caption": "墨黑微链刃与骨白高频弯刃并列正面外观、微链驱动机构与紧凑八角直柄特写。"
-    },
-    {
-      "date": "2026-11-22",
-      "title": "裤腰皮带挂片携行背面",
-      "asset": "daggers-back-latest",
-      "caption": "背面：后中裤袢两侧各一片黑色皮挂片，握柄绕银按扣黑短带，骨白高频弯刃在外、墨黑微链刃在内。"
     },
     {
       "date": "2026-10-29",

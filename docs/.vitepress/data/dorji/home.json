@@ -136,6 +136,10 @@
       "label": "背景故事"
     },
     {
+      "id": "personality",
+      "label": "性格与日常习惯"
+    },
+    {
       "id": "layers",
       "label": "穿戴由内到外"
     },

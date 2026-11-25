@@ -18,7 +18,9 @@ const thumbs = json('../docs/public/site/thumbs/index.json')
 
 test('asset index joins manifests, finalized names and thumbnails', () => {
   const index = buildAssetIndex({ character: 'bonnie', manifests, names, thumbs })
-  assert.equal(Object.keys(index).length, 96)
+  assert.equal(Object.keys(index).length, 105)
+  assert.ok(index['goggles-over-eyes-latest'])
+  assert.ok(index['expressions-desires-latest'])
   assert.equal(index['sun05-scene-latest'].web.width, 1774)
   assert.equal(index['sun05-scene-latest'].thumb.width, 480)
   assert.equal(index['bonnie-original-latest'].collection, 'origins')
@@ -193,7 +195,7 @@ test('all ten cumulative layers use the approved order and four character-relati
   assert.equal(layers[9].facts.find(({ term }) => term === '外层').value, '最外层')
   const home = json('../docs/.vitepress/data/bonnie/home.json')
   assert.deepEqual(home.tabs.find(({ key }) => key === 'tpose').assets, Object.values(layers[9].tpose))
-  assert.equal(home.updated, '2026-11-22')
+  assert.equal(home.updated, '2026-11-25')
 })
 
 test('downloadable dagger specification matches the approved leather-tab carry source', () => {

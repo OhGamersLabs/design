@@ -124,4 +124,4 @@ Bunny 以刺客定位使用渡月工业风的异构双匕首：角色右侧是�
 
 <AssetImage id="daggers-armed-expressions-latest" group="weapon" caption="画面左至画面右：专注 / 自信轻笑 / 放松" />
 
-专注、自信轻笑与放松三格持刀表情独立于 16 格身份表情展示，面部身份以[中性头部](/characters/bonnie/#identity)和[16 格表情](/characters/bonnie/#expressions)为依据。
+专注、自信轻笑与放松三格持刀表情独立于 12 格性格演技表展示，面部身份以[中性头部](/characters/bonnie/#identity)和[12 格演技表](/characters/bonnie/#expressions)为依据。

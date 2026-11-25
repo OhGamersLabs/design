@@ -289,19 +289,19 @@
       "original": {
         "path": "/media/dorji/expressions-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 2352,
-        "height": 3520,
-        "bytes": 6186418,
-        "sha256": "c01d0f3bcfb56d2de89d3d029229231879d0741e984bdcd9de48dbd131e26c6f",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2076454,
+        "sha256": "766885ada4eb956fdd6f7502ec1ea0e273a7f532b702eb92dd23ea899a3565df",
         "alpha": false
       },
       "web": {
         "path": "/characters/dorji/expressions-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1368,
-        "height": 2048,
-        "bytes": 2109152,
-        "sha256": "8f8561daf40f12d8f7ba1b00180e8357547362b47dccaf19fa3ab6a6f89e961f",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1613854,
+        "sha256": "a78eaf28b1ede80bb43ce66a7ed7a72c4e600ddd646e9c69372ee4c6f24d5eff",
         "alpha": false
       }
     },
@@ -1117,19 +1117,19 @@
       "original": {
         "path": "/media/dorji/vanguard-expressions-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 2352,
-        "height": 3520,
-        "bytes": 6548932,
-        "sha256": "b30cbeb4540b7a60bd64ab008d6f2c2ef789ef66e67a6101c81bc920196de11a",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2181616,
+        "sha256": "0899a0f151804f6ad4a81ba0ce73c4f1de600d12728a1c72112c70e26ed3852c",
         "alpha": false
       },
       "web": {
         "path": "/characters/dorji/vanguard-expressions-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1368,
-        "height": 2048,
-        "bytes": 2159872,
-        "sha256": "bcd25452bf403dcb7d839576b76f8b69d5db8bb3aaa98cf0dd0e255ebb91e782",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1662318,
+        "sha256": "45b5f2639466dd8ef12819389142971e6515c12e2e10b22679c38d4842618226",
         "alpha": false
       }
     },

@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "邦妮·弗林 设计参考",
   "status": "local-review",
-  "asset_count": 95,
+  "asset_count": 104,
   "assets": [
     {
       "id": "belt-back-latest",
@@ -674,25 +674,209 @@
       }
     },
     {
+      "id": "expressions-affection-latest",
+      "character": "bonnie",
+      "title": "expressions-affection-latest",
+      "original": {
+        "path": "/media/bonnie/expressions-affection-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1309130,
+        "sha256": "c5d2a412366f34d1d92ca73c92662c9b4b5007d7c5987bb168ce1974d9a4a0e7",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/expressions-affection-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 980952,
+        "sha256": "463b6cf4a9db2b702d05c2be8bd0af43a3aff458063d4a2428879bfdbab3e4a9",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-anger-latest",
+      "character": "bonnie",
+      "title": "expressions-anger-latest",
+      "original": {
+        "path": "/media/bonnie/expressions-anger-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1551825,
+        "sha256": "6ebbc47ab928daa2e0c6e70b0bdb15c06f388d4db6ddaa6f9b790141c6cc8df1",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/expressions-anger-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1178958,
+        "sha256": "c365dd29f18eac45b7cb4b01f1e6277ed88e396e1db5d89a89c3060c6b3aaffd",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-cognition-latest",
+      "character": "bonnie",
+      "title": "expressions-cognition-latest",
+      "original": {
+        "path": "/media/bonnie/expressions-cognition-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1526652,
+        "sha256": "cd75a2e2a5357f35fcfd5c4bed1fc5b25e9efacb76dfa58525edc72b602bef74",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/expressions-cognition-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1165632,
+        "sha256": "05d5eabe96e5ccfe4bb654804726e5c04f4e2a8f226406eff02fb9ddbd0d6e98",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-desires-latest",
+      "character": "bonnie",
+      "title": "expressions-desires-latest",
+      "original": {
+        "path": "/media/bonnie/expressions-desires-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1861066,
+        "sha256": "20adb63ce5936a82e708e043bccaa8a929626ddc71ff20665adf0208a9557581",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/expressions-desires-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1426668,
+        "sha256": "f727a853de7f206085f9b130d9243c3cd2b277c4c88095fbee7d4a8139ca448b",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-disgust-latest",
+      "character": "bonnie",
+      "title": "expressions-disgust-latest",
+      "original": {
+        "path": "/media/bonnie/expressions-disgust-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1380457,
+        "sha256": "8219fe5819fc6f5b86f08b2f3965cdf6a4c694f1abf210bae34dce18f2627085",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/expressions-disgust-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1040918,
+        "sha256": "9ee17161b39ff9a9f06ff105c588588d7167420d55710696adf1f96745bc4278",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-fear-pain-latest",
+      "character": "bonnie",
+      "title": "expressions-fear-pain-latest",
+      "original": {
+        "path": "/media/bonnie/expressions-fear-pain-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1491662,
+        "sha256": "84b3d380d5eca00b7a7dde6430a1299a1b4862c45c48f597e4a0c3a70fa15d4b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/expressions-fear-pain-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1113342,
+        "sha256": "aa8b9704b28d0481343190d351f3dcc619191fb0aeb26325c68c5097e48f9ac8",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-joy-latest",
+      "character": "bonnie",
+      "title": "expressions-joy-latest",
+      "original": {
+        "path": "/media/bonnie/expressions-joy-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1621971,
+        "sha256": "3bfa561922fbae80a848aa10b35c6da01bae770915d11a65b2d03ac6cc050bea",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/expressions-joy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1235612,
+        "sha256": "3cc1c263ef704aadc4eda5a137c8818aeac641b45ada236d276bbe14d7f79e73",
+        "alpha": false
+      }
+    },
+    {
       "id": "expressions-sheet-latest",
       "character": "bonnie",
       "title": "expressions-sheet-latest",
       "original": {
         "path": "/media/bonnie/expressions-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 1254,
-        "height": 1254,
-        "bytes": 2495479,
-        "sha256": "a6dd535e5acbe9dfab82b232ebb094a5c62b2766b5d1cc1fdb49789233437e74",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2477434,
+        "sha256": "c9b45554bbc1bf875a61fff8a479eee7a9033d458ac544a1bec2f14b12b04a7a",
         "alpha": false
       },
       "web": {
         "path": "/characters/bonnie/expressions-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1254,
-        "height": 1254,
-        "bytes": 1686590,
-        "sha256": "863581ed52e9176091bcb4739b5cf5081f33f3917df565d140853db946a01b0c",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1870146,
+        "sha256": "504c097d8ccdd55aff1257f877b2f50125eb00a239c8703044135abfdc8b463e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sorrow-latest",
+      "character": "bonnie",
+      "title": "expressions-sorrow-latest",
+      "original": {
+        "path": "/media/bonnie/expressions-sorrow-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1543948,
+        "sha256": "e50348da186de3e3d4d0963b943f5033ede2e9cdb89cda8803fd5c76c37c0260",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/expressions-sorrow-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1200764,
+        "sha256": "d0fce114a00e26fbbef3b32d477e7a5763acd8241984a62b9d214a0a7f15949c",
         "alpha": false
       }
     },
@@ -785,6 +969,29 @@
         "height": 2048,
         "bytes": 1039886,
         "sha256": "8444b50231d1ee1ae2a529427978732a948e6d1691e1e18b2e5dfa9749bf9647",
+        "alpha": false
+      }
+    },
+    {
+      "id": "goggles-over-eyes-latest",
+      "character": "bonnie",
+      "title": "goggles-over-eyes-latest",
+      "original": {
+        "path": "/media/bonnie/goggles-over-eyes-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 953777,
+        "sha256": "d315aa101748835f9e876ea2febed1d19b0c70a534c8e87fa6162231bea3378a",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/bonnie/goggles-over-eyes-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 750250,
+        "sha256": "790879d13c46c8d62ccc02d699a32c90462c4dac5974a3e3999a5bb83e438349",
         "alpha": false
       }
     },

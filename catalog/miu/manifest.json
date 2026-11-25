@@ -312,19 +312,19 @@
       "original": {
         "path": "/media/miu/catgirl-expressions-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 2352,
-        "height": 3520,
-        "bytes": 7321707,
-        "sha256": "76fb4ab3a439c67c458dbbd804cca96c0911a2cc8a6b95561d18188cce7d1775",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2016914,
+        "sha256": "5ca88aa618aa4fa1fb9a9d9d26a738fc180249b5187a4390702d04568c3b85c7",
         "alpha": false
       },
       "web": {
         "path": "/characters/miu/catgirl-expressions-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1368,
-        "height": 2048,
-        "bytes": 2221748,
-        "sha256": "9047b6c20b8e0176bdef03b6d085eac9ba1ad02440a1b61c559e895113302a1e",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1488076,
+        "sha256": "391727b1d715f3036e9eee373723ce62535b3f3f1bee973ce82080d0ed1559e7",
         "alpha": false
       }
     },
@@ -956,19 +956,19 @@
       "original": {
         "path": "/media/miu/expressions-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 2352,
-        "height": 3520,
-        "bytes": 6077082,
-        "sha256": "9eb1426bc8a6fea98d47cef3af69b37292864f6a08c8c3410e97928fed5ea5f3",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1847212,
+        "sha256": "b94afb09a282711e724d7d22054b47efd4709452f3b41a8c4e08015974ce61ed",
         "alpha": false
       },
       "web": {
         "path": "/characters/miu/expressions-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1368,
-        "height": 2048,
-        "bytes": 1927274,
-        "sha256": "7a8ed7020e955deb15867d354f89c5ada9b29d8b27d8fef4feac0f7ce9d8a04a",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1356826,
+        "sha256": "bad973c7254c5780ace63d94474b80b8b36e2c8ed4eb46e5571bb6af21a6e1d0",
         "alpha": false
       }
     },

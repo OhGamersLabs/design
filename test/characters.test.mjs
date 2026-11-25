@@ -318,7 +318,23 @@ test('world lore registry loads all five races and covers every listed character
     assert.equal(lore.name, entry.name)
     assert.equal(lore.role, entry.role)
     assert.ok(lore.story.length >= 2)
+    assert.ok(lore.personas.length >= 1, `Missing personas for ${entry.id}`)
+    for (const p of lore.personas) {
+      assert.equal(p.temperament.length, 3, `Expected 3 temperament layers for ${p.id}`)
+      assert.ok(p.dailyHabits.length >= 3, `Expected >= 3 daily habits for ${p.id}`)
+      assert.ok(p.speechStyle.length > 10)
+      assert.ok(p.actingCues.length > 10)
+    }
   }
+  assert.equal(world.characters.darrow.personas.length, 2)
+  assert.equal(world.characters['soren-vane'].personas.length, 2)
+  const bonniePersona = world.characters.bonnie.personas[0]
+  assert.equal(bonniePersona.desiresAndAversions.length, 4)
+  assert.equal(bonniePersona.actingSpectrum.length, 8)
+  for (const group of bonniePersona.actingSpectrum) {
+    assert.equal(group.count, group.faces.length)
+  }
+  assert.equal(bonniePersona.actingSpectrum.reduce((s, g) => s + g.count, 0), 30)
 })
 test('Bunny LayerCard retains its exact breadcrumb, noun, range and wear', async () => {
   const html = await renderComponent('components/LayerCard.vue', loader.load(), 'characters/bonnie/weapon.md', { layer: 9 })

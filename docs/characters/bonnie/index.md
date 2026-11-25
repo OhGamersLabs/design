@@ -22,7 +22,7 @@ releaseReady: false
 
 <div class="bunny-identity-grid">
   <div>
-    <p class="bunny-identity-statement">成年纤细女性，银白短乱发，蓝眼，白色切面战术护目镜推在额上。</p>
+    <p class="bunny-identity-statement">成年纤细女性，银白短乱发，蓝眼，配双态白色切面深烟灰战术护目镜（常态抬置额上，潜行与高空突进时下拉护眼并隐约透出冰蓝瞳孔）。</p>
     <dl class="bunny-home-facts">
       <div><dt>正式全名</dt><dd>邦妮·弗林（Bonnie Flynn）</dd></div>
       <div><dt>所属种族</dt><dd><a href="/world/races#terran">碳基人族 · 星港街头</a></dd></div>
@@ -43,6 +43,15 @@ releaseReady: false
 </div>
 
 <CharacterLore />
+
+<div class="bunny-section-heading">
+
+## 性格与日常习惯 {#personality}
+
+<p>三维人格坐标（ISTP · 7w8）、三层性格底色、喜好厌恶六欲底色与日常起居习惯。</p>
+</div>
+
+<CharacterPersona section="profile" />
 
 <div class="bunny-section-heading">
 
@@ -88,15 +97,28 @@ releaseReady: false
 
 ## 表情 {#expressions}
 
-<p>同一张脸的表情变化，按表格排列。</p>
+<p>按人类「认知状态 · 七情梯度 · 六欲本能」拆解为八组高精特写板（共 30 张互不重复面孔），真实切换卸镜露额居家态、护目镜挂颈日常态与推额或下拉护眼战备态，解放眉弓起伏空间。</p>
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="expressions-sheet-latest" detail="16 格 · 与头部三视同一身份" />
-  <AssetImage id="head-reference-latest" detail="正面、角色右侧面、背面" use-thumb />
+  <AssetImage id="expressions-cognition-latest" detail="第 1 板 · 常态与认知（4 面孔：卸镜清朗松弛基准 / 挂颈侧睨警觉审视 / 角色右手扶框烟灰镜下拉锁定 / 挂颈猝然微怔）" group="expressions-spectrum" />
+  <AssetImage id="expressions-joy-latest" detail="第 2 板 · 喜的四重层次（4 面孔：睁眼清爽浅笑 / 角色右手搭框单挑角色左眉虎牙笑 / 推额迎风亢奋笑 / 挂颈角色左手五指虚拢偷笑）" group="expressions-spectrum" />
+  <AssetImage id="expressions-anger-latest" detail="第 3 板 · 怒的四级梯度（4 面孔：挂颈斜翻眼无语烦躁 / 推额倒竖扬眉炸毛 / 挂颈碎发仰睨隐忍 / 卸镜平眉灭高光零度杀意）" group="expressions-spectrum" />
+  <AssetImage id="expressions-sorrow-latest" detail="第 4 板 · 哀的四段弧光（4 面孔：垂眸孤寂落寞 / 挂颈苦涩自嘲 / 泛红湿眼紧抿唇委屈忍泪 / 单滴清泪无声滑落）" group="expressions-spectrum" />
+  <AssetImage id="expressions-fear-pain-latest" detail="第 5 板 · 惧与生理脆弱（3 面孔：挂颈心虚斜瞟冒汗 / 幽闭创伤缩瞳惊悸 / 角色右手按角色左肩汗湿碎发吃痛急喘）" group="expressions-spectrum" />
+  <AssetImage id="expressions-disgust-latest" detail="第 6 板 · 恶的双重排斥（2 面孔：皱鼻根掀单侧上唇生理嫌恶 / 挂颈双臂抱胸冷平眉俯视鄙夷）" group="expressions-spectrum" />
+  <AssetImage id="expressions-desires-latest" detail="第 7 板 · 六欲本能全开（6 面孔：角色左手单手托举刚性金条放光 / 嗜甜酥塔单侧鼓腮融化 / 挂颈十指轻拢搓手卖乖 / 角色左手托腮甜酒微醺迷离 / 晨起乱发哈欠断电 / 挂颈抿唇吃味较劲）" group="expressions-spectrum" />
+  <AssetImage id="expressions-affection-latest" detail="第 8 板 · 爱与情感破防（3 面孔：高推护目镜内扬八字急眉伸角色左手张口急呼 / 挂颈不挡脸耳尖红抿唇羞赧 / 卸镜夜风温柔浅笑）" group="expressions-spectrum" />
 </div>
 
-<p class="bunny-expression-note">按行从画面左至画面右：中性 / 微笑 / 大笑 / 惊讶；生气 / 怒喊 / 鼓腮不满 / 怀疑；疲倦 / 含泪难过 / 大哭 / 担忧；眨眼俏皮 / 会心笑 / 兴奋 / 安心。情绪由眉眼和嘴型表现，蓝色瞳色不随情绪改变。</p>
+<div class="bunny-expression-grid">
+  <AssetImage id="goggles-over-eyes-latest" detail="战备下拉戴眼正面态（半透深烟灰镜片隐约透出冰蓝双眸）" use-thumb />
+  <AssetImage id="expressions-sheet-latest" detail="单页 12 格紧凑速查总表" use-thumb />
+</div>
+
+<p class="bunny-expression-note">八组共三十张面孔按 ISTP 野猫怪盗的人格棱镜与欲望原子态分板绘制，真实切换卸镜露额居家态、护目镜挂颈日常态、高推发冠让眉态与半透烟灰镜护眼态，单脸特写完整呈现眉弓起伏、上下眼睑松紧、冰蓝瞳孔缩放、角色右手全指手套与角色左手半指手套五指近景解剖及克制唇线变化。</p>
+
+<CharacterPersona section="spectrum" />
 
 <div class="bunny-section-heading">
 

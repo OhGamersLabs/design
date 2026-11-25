@@ -22,7 +22,7 @@ releaseReady: false
 
 <div class="bunny-identity-grid">
   <div>
-    <p class="bunny-identity-statement">星环纪元内环执印首脑、白塔天秤财团最高执印官，基于 <a href="/standards/male-standard">标准青年男素体（1.08×）</a>；五十二岁温厚沉静的长辈学者骨相配七三偏分霜灰夹暖褐层叠短发、微垂温和石板蓝双眸与细钛圆角半框老花镜，身披朴素暖米亚麻低立领执政长衫，双手全程温暖裸露不戴皮手套，于百零八层温室一手轻执纯白玫瑰、一手提握空无一物的先驱六角外模。</p>
+    <p class="bunny-identity-statement">星环纪元内环执印首脑、白塔天秤财团最高执印官，基于 <a href="/standards/male-standard">标准青年男素体（1.08×）</a>；五十二岁温厚从容的学者院长骨相配七三偏分霜灰夹暖褐层叠短发、平直舒展学者眉、清澈沉静石板蓝双眸与细钛圆角半框老花镜，身披朴素暖米亚麻低立领执政长衫，双手全程温暖裸露不戴皮手套，于百零八层温室一手轻执纯白玫瑰、一手提握空无一物的先驱六角外模。</p>
     <dl class="bunny-home-facts">
       <div><dt>正式全名</dt><dd>索伦·韦恩（Soren Vane）</dd></div>
       <div><dt>所属谱系</dt><dd><a href="/world/races#terran">碳基人族 · 内环守夜执政</a></dd></div>
@@ -40,10 +40,19 @@ releaseReady: false
 
 ## 背景故事 {#story}
 
-<p>零号母门托孤遗诺、黑曜哑矿球破绽与十年孤身守夜之路。</p>
+<p>零号母门生死托孤、与五长老政治制衡及十年孤身守夜之路。</p>
 </div>
 
 <CharacterLore />
+
+<div class="bunny-section-heading">
+
+## 性格与日常习惯 {#personality}
+
+<p>三层性格底色、说话口癖、日常起居习惯与神态演绎锚点。</p>
+</div>
+
+<CharacterPersona />
 
 <div class="bunny-section-heading">
 
@@ -58,15 +67,15 @@ releaseReady: false
 
 ## 面部与表情 {#expressions}
 
-<p>裸脸温和骨相三视、细钛圆角半框老花镜佩戴基准，以及十六格人文神态演绎（零脸谱化狞笑）。</p>
+<p>裸脸温和骨相三视、细钛圆角半框老花镜佩戴基准，以及身着暖米亚麻执政长衫与深炭羊毛马甲的 3×4 剧场版人文演技表。</p>
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="expressions-sheet-latest" detail="16 格 · 4×4 温厚长辈、孤寂倦意与沉静决断神态排列" />
-  <AssetImage id="face-sheet-latest" detail="正面、3/4 与角色右侧面裸脸骨相及细钛圆角老花镜佩戴基准" use-thumb />
+  <AssetImage id="expressions-sheet-latest" detail="12 格 · 3×4 平舒学者眉、执茶单挑眉、温室赏花扬眉、镜片白光威压与摘镜安憩演技表" />
+  <AssetImage id="face-sheet-latest" detail="正面、3/4 与角色右侧面清朗裸脸骨相及细钛圆角老花镜动态眉眼基准" use-thumb />
 </div>
 
-<p class="bunny-expression-note">按行从画面左边至画面右边：第一行温和学者常颜 / 弯眼叔父暖笑 / 慈和院长浅笑 / 闭目安静倾听；第二行微蹙关切 / 闭目捏鼻梁深倦 / 寂寥轻叹 / 柔和怀念；第三行感知母核苏醒微怔 / 含泪悲恸 / 苦涩半笑 / 不忍隐痛；第四行沉静凝思 / 圆角镜片反光盲眼 / 庄重否定 / 静水流深的不动决断。</p>
+<p class="bunny-expression-note">按行从左往右：第一行平直舒展眉从容院长浅笑 / 执白瓷茶杯单挑角色右眉睿智微哂 / 裸手轻执纯白温室玫瑰双眉舒扬欣悦；第二行柔弧眉温和宽慰后辈 / 低看角色左腕探针双眉高扬惊奇 / 指抵下颌平眉沉静推演棋局；第三行平直沉眉配圆角镜片冷白反光威压 / 压眉垂眸冷声驳回五长老越权 / 摘下老花镜额头平展闭目静憩；第四行轻执纯白棉手帕微敛眉心克制追忆 / 双眉高扬惊觉真母核尚在人间 / 平眉整理亚麻袖口从容赴局。</p>
 
 <div class="bunny-section-heading">
 
@@ -76,7 +85,7 @@ releaseReady: false
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="breakdown-sheet-latest" detail="第 0 到第 3 层四阶段拆解、三块灰模部件板与 4×4 表情全览" />
+  <AssetImage id="breakdown-sheet-latest" detail="第 0 到第 3 层四阶段拆解与三块灰模部件板全览" />
   <AssetImage id="character-card-latest" detail="白塔天秤最高执印官重点角色卡定稿" use-thumb />
 </div>
 
@@ -88,10 +97,10 @@ releaseReady: false
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="young-soren-card-latest" detail="四十二岁副考察领队时期 · 画面左半防风派克服与挽袖仪器马甲双态立绘、画面右半三态神情及黑曜裂球划破角色右食指特写" use-thumb />
-  <AssetImage id="character-card-latest" detail="十年后（五十二岁） · 百零八层温室最高执印官完全体角色卡对照" use-thumb />
+  <AssetImage id="young-soren-expressions-latest" detail="四十二岁副领队时期 · 12 格 3×4 清朗裸眼学者、单挑眉调侃挚友、果糖白手帕叔叔与雨夜平眉架镜演技表" />
+  <AssetImage id="young-soren-card-latest" detail="四十二岁副考察领队时期 · 画面左半防风派克服与挽袖仪器马甲清朗立绘、画面右半黑曜碎茬划破角色右食指特写" use-thumb />
 </div>
 
-<p class="bunny-expression-note">十年前的索伦蓄暖深灰褐七三偏分短发，仅双鬓初染少量银霜，平时不戴眼镜；外穿暖灰白拼深藏青研究所防风派克服（角色左胸夹挂研究员证卡），内搭挽袖深炭衬衫与灰橄榄单拉链仪器马甲。画面右下特写定格金库高能激发台电裂伴生黑曜哑矿球、锋利内茬划破角色右食指指腹的关键瞬间；第三幅半身表情定格挚友亡故后独自架起细钛圆角眼镜、默默走上守夜孤路的沉重转折。</p>
+<p class="bunny-expression-note">十年前的索伦蓄暖深灰褐七三偏分短发，仅双鬓初染少量银霜，前十一格全程裸眼不戴眼镜，额头光洁舒展：日常与科研态以平直朗眉、单挑眉摊手调侃伦恩、高扬眉递果糖与白手帕哄娃、平眉核验角色左腕零点能谱仪为主；直至第九格隔防爆窗诀别才首次敛眉落下一滴克制清泪，第十二格以带伤角色右食指推上细钛圆角眼镜，双眉归于水平冷寂的守夜决意。</p>
 
 <p class="bunny-section-links"><a href="/characters/soren-vane/body">第 0 层：身体</a> · <a href="/characters/soren-vane/inner-shirt">第 1 层：米白亚麻衬衣与零点探针腕表</a> · <a href="/characters/soren-vane/vest-rig">第 2 层：深炭羊毛马甲与温室园丁态</a> · <a href="/characters/soren-vane/magistrate-coat">第 3 层：米白亚麻执政长衫与空腔外模</a></p>

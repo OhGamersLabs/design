@@ -110,8 +110,16 @@
       "label": "背景故事"
     },
     {
+      "id": "personality",
+      "label": "性格与日常习惯"
+    },
+    {
       "id": "layers",
       "label": "衣层顺序"
+    },
+    {
+      "id": "expressions",
+      "label": "表情与羽耳演技"
     },
     {
       "id": "card",

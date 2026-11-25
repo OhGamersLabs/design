@@ -39,6 +39,17 @@ aside: false
 人物比例参照[身体尺寸](/characters/bonnie/dimensions#body-dimensions)。
 
 
+## 战备下拉戴眼态 <small>红外潜行与高空防风</small> {#over-eyes}
+
+<span id="headgear-over-eyes"></span>
+
+日常状态下护目镜抬置于额头；进入红外激光阵扫描、暗井潜行或高空破窗强风俯冲时，白色多切面护目镜下拉贴合眉弓与鼻梁，前额银白碎刘海自然搭在白框上沿。半透深烟灰防眩光曲屏外侧呈现锐利冷白切面反光，内侧仍隐约透出澄澈冰蓝瞳孔与视线焦点，细黑弹性镜带自橙色侧扣斜向后方收进耳上银白外发层之下。
+
+<AssetImage id="goggles-over-eyes-latest" group="layer-7-over-eyes" caption="战备下拉戴眼正面态 · 半透深烟灰镜片微透冰蓝瞳孔" />
+
+在[八组三十张表情谱系](/characters/bonnie/#expressions)中，护目镜随起居与作战情境切换为卸镜露额居家态、松挂颈间日常态、高推发冠让眉态与半透烟灰镜下拉护眼态；无论处于何种佩戴位置，白色多切面哑光外框与深烟灰曲屏始终维持刚性几何体结构，不随眉弓起伏发生局部弯曲变形。
+
+
 ## 分件结构 <small>拆成单件看</small> {#construction}
 
 <span id="headgear-goggles"></span>

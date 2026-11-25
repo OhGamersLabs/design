@@ -375,6 +375,14 @@
     "sourcePath": "/characters/ange/choker-tpose-right-latest.webp",
     "sourceSha256": "32802daec77edbd27cf4ed268ce4b6ce8b9570b18d3a5c299473da78f19fcb43"
   },
+  "ange/expressions-sheet-latest": {
+    "path": "/site/thumbs/ange/expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "725cdc5ab2e3f7bfd52917f8c763c0ef54a45b4ebf5ee748dc3d06a39cdacd94",
+    "sourcePath": "/characters/ange/expressions-sheet-latest.webp",
+    "sourceSha256": "7ab8cdf36867043fc669ff09722e35b33c0beeeed7d1336431df8cd435bbe864"
+  },
   "ange/hip-emblem-back-latest": {
     "path": "/site/thumbs/ange/hip-emblem-back-latest.webp",
     "width": 480,
@@ -991,13 +999,77 @@
     "sourcePath": "/characters/bonnie/daggers-tpose-right-latest.webp",
     "sourceSha256": "0d902973fe986b8b4a425bc45030f301fa28f399ea59f482d0891ed7ca1e76c0"
   },
+  "bonnie/expressions-affection-latest": {
+    "path": "/site/thumbs/bonnie/expressions-affection-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "e662bc5c8d98efb267e771433e279225123269c357f2ca54105bc20be3b0f833",
+    "sourcePath": "/characters/bonnie/expressions-affection-latest.webp",
+    "sourceSha256": "463b6cf4a9db2b702d05c2be8bd0af43a3aff458063d4a2428879bfdbab3e4a9"
+  },
+  "bonnie/expressions-anger-latest": {
+    "path": "/site/thumbs/bonnie/expressions-anger-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "56e08bfc6f7a4e31e062e39d2c48221f6afc986f4cb7e09ad953884267b0986f",
+    "sourcePath": "/characters/bonnie/expressions-anger-latest.webp",
+    "sourceSha256": "c365dd29f18eac45b7cb4b01f1e6277ed88e396e1db5d89a89c3060c6b3aaffd"
+  },
+  "bonnie/expressions-cognition-latest": {
+    "path": "/site/thumbs/bonnie/expressions-cognition-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "710a38ee1eb75813df74eb10fb83774c9dc821bacc5d8b71484882de3cd4f8f7",
+    "sourcePath": "/characters/bonnie/expressions-cognition-latest.webp",
+    "sourceSha256": "05d5eabe96e5ccfe4bb654804726e5c04f4e2a8f226406eff02fb9ddbd0d6e98"
+  },
+  "bonnie/expressions-desires-latest": {
+    "path": "/site/thumbs/bonnie/expressions-desires-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "12ba57e6d0aead2ecaf89090a79f0f20cd7ddc28ac8ed0e28168d3b44b72a55e",
+    "sourcePath": "/characters/bonnie/expressions-desires-latest.webp",
+    "sourceSha256": "f727a853de7f206085f9b130d9243c3cd2b277c4c88095fbee7d4a8139ca448b"
+  },
+  "bonnie/expressions-disgust-latest": {
+    "path": "/site/thumbs/bonnie/expressions-disgust-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "e42390892acdec864b2c1c270e8d73e4c8afe952eb53c100794d3f5de9f0d534",
+    "sourcePath": "/characters/bonnie/expressions-disgust-latest.webp",
+    "sourceSha256": "9ee17161b39ff9a9f06ff105c588588d7167420d55710696adf1f96745bc4278"
+  },
+  "bonnie/expressions-fear-pain-latest": {
+    "path": "/site/thumbs/bonnie/expressions-fear-pain-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "56d08d49d750e53c279fee1fa636bd8c2b057df665532ca84e4b562d0187b85e",
+    "sourcePath": "/characters/bonnie/expressions-fear-pain-latest.webp",
+    "sourceSha256": "aa8b9704b28d0481343190d351f3dcc619191fb0aeb26325c68c5097e48f9ac8"
+  },
+  "bonnie/expressions-joy-latest": {
+    "path": "/site/thumbs/bonnie/expressions-joy-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "c16848ba47292c0af15655780eee22cdcb7af1f411043636b0e3d7eed34cd5a1",
+    "sourcePath": "/characters/bonnie/expressions-joy-latest.webp",
+    "sourceSha256": "3cc1c263ef704aadc4eda5a137c8818aeac641b45ada236d276bbe14d7f79e73"
+  },
   "bonnie/expressions-sheet-latest": {
     "path": "/site/thumbs/bonnie/expressions-sheet-latest.webp",
     "width": 480,
-    "height": 480,
-    "sha256": "9ddb8fb896da8a50bdbd9a4c21d85183694878211130256b817d6fe6185a1143",
+    "height": 720,
+    "sha256": "8ed31d2f85bf0329cb3c40a5eeca0e634311974004730a487a64e63455914e56",
     "sourcePath": "/characters/bonnie/expressions-sheet-latest.webp",
-    "sourceSha256": "863581ed52e9176091bcb4739b5cf5081f33f3917df565d140853db946a01b0c"
+    "sourceSha256": "504c097d8ccdd55aff1257f877b2f50125eb00a239c8703044135abfdc8b463e"
+  },
+  "bonnie/expressions-sorrow-latest": {
+    "path": "/site/thumbs/bonnie/expressions-sorrow-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "b5304bb7e1db5847904b5af532d590db26a3a6b643d04c72595b418c48ab32fa",
+    "sourcePath": "/characters/bonnie/expressions-sorrow-latest.webp",
+    "sourceSha256": "d0fce114a00e26fbbef3b32d477e7a5763acd8241984a62b9d214a0a7f15949c"
   },
   "bonnie/goggles-back-latest": {
     "path": "/site/thumbs/bonnie/goggles-back-latest.webp",
@@ -1030,6 +1102,14 @@
     "sha256": "b4183f130da40fc3245091d135212ebeb4580edfcb2150ea8017c22d2b2ab65c",
     "sourcePath": "/characters/bonnie/goggles-front-latest.webp",
     "sourceSha256": "8444b50231d1ee1ae2a529427978732a948e6d1691e1e18b2e5dfa9749bf9647"
+  },
+  "bonnie/goggles-over-eyes-latest": {
+    "path": "/site/thumbs/bonnie/goggles-over-eyes-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "dd5c16679b7271e10a022cc8fe404d6d4dc9d3b374fe919626e40f9c97171cdc",
+    "sourcePath": "/characters/bonnie/goggles-over-eyes-latest.webp",
+    "sourceSha256": "790879d13c46c8d62ccc02d699a32c90462c4dac5974a3e3999a5bb83e438349"
   },
   "bonnie/goggles-side-latest": {
     "path": "/site/thumbs/bonnie/goggles-side-latest.webp",
@@ -1795,9 +1875,9 @@
     "path": "/site/thumbs/cruz/expressions-sheet-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "5560a25d9425c792475cc90c5d40d58142b45349bfe21a63a731dffe69504f31",
+    "sha256": "b37dc7b775362370b7f25cdbc1fe70c60e34263ba200729d5ced806d1097704f",
     "sourcePath": "/characters/cruz/expressions-sheet-latest.webp",
-    "sourceSha256": "5fae5ba35bfc7fd3b4d96ddbbb6a844d61657427bc5d5b0caf13d5b79ae9b619"
+    "sourceSha256": "45410c86eb5484cc9c8e964de27bed8441b9c1f90cdf4294039dbceab06c64ca"
   },
   "cruz/face-sheet-latest": {
     "path": "/site/thumbs/cruz/face-sheet-latest.webp",
@@ -2139,9 +2219,9 @@
     "path": "/site/thumbs/darrow/child-roy-card-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "0d75243508f56b0bcd6e52346aba2731e86cd3ccb29917d1f87c605e90ce776a",
+    "sha256": "fc6ac1359b16ef0ffe69e0c79836f6c8ac016d454f3d662bf8215aadf4b0aef9",
     "sourcePath": "/characters/darrow/child-roy-card-latest.webp",
-    "sourceSha256": "fabe4e08930ad81b35212032a81e4e76f3dcf37ae793d9b7fcb59ea65add66ff"
+    "sourceSha256": "fcd75122db2b8099d0a39d1072a32999c1cdd5d45419a1268fd900696a2d0662"
   },
   "darrow/child-roya-card-latest": {
     "path": "/site/thumbs/darrow/child-roya-card-latest.webp",
@@ -2159,13 +2239,77 @@
     "sourcePath": "/characters/darrow/duo-front-latest.webp",
     "sourceSha256": "02ebf0c4e0891aa8017e7d298a147b02998353895a8f1463598cfdba663778e1"
   },
+  "darrow/expressions-affection-latest": {
+    "path": "/site/thumbs/darrow/expressions-affection-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "c11f954e5ca0dda4dc5d524bdcbacfe395be95ce81f77b6d2245208e2e7ead27",
+    "sourcePath": "/characters/darrow/expressions-affection-latest.webp",
+    "sourceSha256": "39c8a2638f9799f3c77dfe5cf8130169763922a6d582e7c5a14b92ea4c44b0db"
+  },
+  "darrow/expressions-anger-latest": {
+    "path": "/site/thumbs/darrow/expressions-anger-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "fbb97006dbda7063783129a82d779544d90d5fc7d1a8085ee4c617704d5da5dd",
+    "sourcePath": "/characters/darrow/expressions-anger-latest.webp",
+    "sourceSha256": "d51cdceec6bf95d30e746cbf13042d93f0eb7b93f5e470dd7e80c07ab1f7f26f"
+  },
+  "darrow/expressions-cognition-latest": {
+    "path": "/site/thumbs/darrow/expressions-cognition-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "b0bd7bc40bf7680996417146b35356ead0e18cee3f6bae22488d4eafb89602e3",
+    "sourcePath": "/characters/darrow/expressions-cognition-latest.webp",
+    "sourceSha256": "ee973627656bd49c92d53f0b5800879363838291fe47287985e080eeef62139e"
+  },
+  "darrow/expressions-desires-latest": {
+    "path": "/site/thumbs/darrow/expressions-desires-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "c21ca7a3db715dc31eb267387e16d4fff19a35d3dbd43d1a32121eb04b9776f4",
+    "sourcePath": "/characters/darrow/expressions-desires-latest.webp",
+    "sourceSha256": "af80ac16c87b7562f2167fd15917cc439ed5b749a5c8b4669d0b2f30078e67b4"
+  },
+  "darrow/expressions-disgust-latest": {
+    "path": "/site/thumbs/darrow/expressions-disgust-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "c1a99590ce249896cb2a7e7249a4e0b190be4b5283711b4feb52945483cf8e8f",
+    "sourcePath": "/characters/darrow/expressions-disgust-latest.webp",
+    "sourceSha256": "9d6ccedb899017cd8fedeea7d65b5a75aeb150b96d757bd59015bfac4f4508de"
+  },
+  "darrow/expressions-fear-pain-latest": {
+    "path": "/site/thumbs/darrow/expressions-fear-pain-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "b46624f96d692a1495b742e9ad54d78e1c25106003eceb1c8b231febebb72d91",
+    "sourcePath": "/characters/darrow/expressions-fear-pain-latest.webp",
+    "sourceSha256": "a852474fc5e7bf482590e6e1f93b4c1f1c31a2ba98d4f1364f65d8d5e3c07696"
+  },
+  "darrow/expressions-joy-latest": {
+    "path": "/site/thumbs/darrow/expressions-joy-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "b42963da7307024687d42310f3a24f18588901a0627decf90ab1536df6e5c6c9",
+    "sourcePath": "/characters/darrow/expressions-joy-latest.webp",
+    "sourceSha256": "5cfb83bb3e47ec2a2fc267213c6f2a223e1a1be56a9b957180c997970729b266"
+  },
   "darrow/expressions-sheet-latest": {
     "path": "/site/thumbs/darrow/expressions-sheet-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "280d84e8030ac02af701d542e4a23ab489c24d6f4c87137cd1d3630b410ff6de",
+    "height": 720,
+    "sha256": "e84ea61715f433b4231fd679b99143883ddc35790ef83c0c5839c7235610999b",
     "sourcePath": "/characters/darrow/expressions-sheet-latest.webp",
-    "sourceSha256": "a1b6b7963e5a560207d0d5d3c9c40d70233fd21c72354f960378fcf2dd2442cc"
+    "sourceSha256": "030ec7bd779e99c644a2da91cece0c39af041c250b17ca1c381f3e1967a098c3"
+  },
+  "darrow/expressions-sorrow-latest": {
+    "path": "/site/thumbs/darrow/expressions-sorrow-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "45a3cead4d1ec9c4ee2d9eef7f1c6f7d0df590b6bcb1083f93ac4938e465b06c",
+    "sourcePath": "/characters/darrow/expressions-sorrow-latest.webp",
+    "sourceSha256": "ca4858d5de1fad46c7edee196acfe06b786fbf8ec84053efcbbe8fbd107caab5"
   },
   "darrow/face-sheet-latest": {
     "path": "/site/thumbs/darrow/face-sheet-latest.webp",
@@ -2375,13 +2519,85 @@
     "sourcePath": "/characters/darrow/female-card-latest.webp",
     "sourceSha256": "30d93bcd0008a8118716703a3274fdea763423211024425274ec373ae4d34d4f"
   },
+  "darrow/female-expressions-affection-latest": {
+    "path": "/site/thumbs/darrow/female-expressions-affection-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "cbaa756bef3cd702c90509b5be972dd300e73b41275041912e988ddb6edeec88",
+    "sourcePath": "/characters/darrow/female-expressions-affection-latest.webp",
+    "sourceSha256": "f3b5d7545f63344307888b203614ee056a2bfa70455d5204be1ebd84681dc6f4"
+  },
+  "darrow/female-expressions-anger-latest": {
+    "path": "/site/thumbs/darrow/female-expressions-anger-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "143408437f8b612a0b3ed7f5bdc80e412dad0063461ed0c5942e2356a4623e9f",
+    "sourcePath": "/characters/darrow/female-expressions-anger-latest.webp",
+    "sourceSha256": "7bc26dc1e1a61680ba6f1fd2615d918b7690af8140ba108201a5543820d5f95e"
+  },
+  "darrow/female-expressions-cognition-latest": {
+    "path": "/site/thumbs/darrow/female-expressions-cognition-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "5d71eb43fd9d870bd1e56dfe3b8ddcc4656cac435e36ed72d278074c7efb1d7a",
+    "sourcePath": "/characters/darrow/female-expressions-cognition-latest.webp",
+    "sourceSha256": "aee706c0e7f17feae15d0a5c8ac01c52f3afa6d1adc70d638dda638e1c5421d0"
+  },
+  "darrow/female-expressions-desires-drive-latest": {
+    "path": "/site/thumbs/darrow/female-expressions-desires-drive-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "821b9701f13e228db12be8f325068955bd411d0a422d152609ce782a62feeaff",
+    "sourcePath": "/characters/darrow/female-expressions-desires-drive-latest.webp",
+    "sourceSha256": "e9e64a434f3e064bbd7ace541c616fc2147952f3eb71f233fefdab9647956dfb"
+  },
+  "darrow/female-expressions-desires-pleasure-latest": {
+    "path": "/site/thumbs/darrow/female-expressions-desires-pleasure-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "b79e995ec231e216fa4fe3d894847eb4d6ccd3ac6bf36ead06984d57bfe7f512",
+    "sourcePath": "/characters/darrow/female-expressions-desires-pleasure-latest.webp",
+    "sourceSha256": "ae7ecdf9dfd1700d94d8ac7ad3a906eb0bf521c8e469149363fedf89477f1d81"
+  },
+  "darrow/female-expressions-disgust-latest": {
+    "path": "/site/thumbs/darrow/female-expressions-disgust-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "4d43b2025aa65307c7a4712df0b9f9c102d823d0979b1fad871ad3bbc478dcb2",
+    "sourcePath": "/characters/darrow/female-expressions-disgust-latest.webp",
+    "sourceSha256": "1126586aa350dcb535efbd78306f95497088b0a42d54f7c481fa9e774f0efac7"
+  },
+  "darrow/female-expressions-fear-pain-latest": {
+    "path": "/site/thumbs/darrow/female-expressions-fear-pain-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "5731bd1a531e6175fd61bfe34a8d75383c12f20c5fae3dbf04a041ca8aa6fd0c",
+    "sourcePath": "/characters/darrow/female-expressions-fear-pain-latest.webp",
+    "sourceSha256": "893818de827737970097ebb4a230f83c821af4879767cb61b8fadf166e9ebeb7"
+  },
+  "darrow/female-expressions-joy-latest": {
+    "path": "/site/thumbs/darrow/female-expressions-joy-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "55b9fa3f760b3065dc379d2d946d061c26c523c5c03a512f8d2f11ffa74df8df",
+    "sourcePath": "/characters/darrow/female-expressions-joy-latest.webp",
+    "sourceSha256": "cd349283cc9d8ea215fb12a571a9cb665d4d5a4edef3d79646ef50abcea62f90"
+  },
   "darrow/female-expressions-sheet-latest": {
     "path": "/site/thumbs/darrow/female-expressions-sheet-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "07a28d0c61081fefcd780e7b2347b2e84f48c6708f4f078ab03636040251e383",
+    "height": 720,
+    "sha256": "b44f921c2a9c0762721705200f93e1634e832293b21e68bf56bfe9db25216821",
     "sourcePath": "/characters/darrow/female-expressions-sheet-latest.webp",
-    "sourceSha256": "cd95ffef35fc42a68230d856df5b17dafe4616db77eafa4f0c2ef791a9812fdd"
+    "sourceSha256": "3820b9decb94903536f28608837d4cc3c1e63e4cfe4ea00a596c85739b12adff"
+  },
+  "darrow/female-expressions-sorrow-latest": {
+    "path": "/site/thumbs/darrow/female-expressions-sorrow-latest.webp",
+    "width": 480,
+    "height": 320,
+    "sha256": "d76de5ee2adef141d44fc19aba9aef6e4545044f49f8da7bb734406b289200c9",
+    "sourcePath": "/characters/darrow/female-expressions-sorrow-latest.webp",
+    "sourceSha256": "aac74ee5136c186c4c422eedf91b4e8afe98d2364eb075a1c928f3c482d5535f"
   },
   "darrow/female-face-sheet-latest": {
     "path": "/site/thumbs/darrow/female-face-sheet-latest.webp",
@@ -2770,10 +2986,10 @@
   "dorji/expressions-sheet-latest": {
     "path": "/site/thumbs/dorji/expressions-sheet-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "409005dd071970e3a118e179b42d6bd2e1e08f85931a919f5c48d0fc5cce94c4",
+    "height": 720,
+    "sha256": "0f296348edadb7ea29ae1edd905b080cb731ff4ca75230de674544f62acfbd3a",
     "sourcePath": "/characters/dorji/expressions-sheet-latest.webp",
-    "sourceSha256": "8f8561daf40f12d8f7ba1b00180e8357547362b47dccaf19fa3ab6a6f89e961f"
+    "sourceSha256": "a78eaf28b1ede80bb43ce66a7ed7a72c4e600ddd646e9c69372ee4c6f24d5eff"
   },
   "dorji/face-sheet-latest": {
     "path": "/site/thumbs/dorji/face-sheet-latest.webp",
@@ -3058,10 +3274,10 @@
   "dorji/vanguard-expressions-sheet-latest": {
     "path": "/site/thumbs/dorji/vanguard-expressions-sheet-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "15b47b21a9270036b6835ca43798df5567276071dc27aee6e24e0516172c7705",
+    "height": 720,
+    "sha256": "fe9ddd78c8c46d3cbd4e70b90cb760c4b69c84806984ef2145c6ded4e14adeec",
     "sourcePath": "/characters/dorji/vanguard-expressions-sheet-latest.webp",
-    "sourceSha256": "bcd25452bf403dcb7d839576b76f8b69d5db8bb3aaa98cf0dd0e255ebb91e782"
+    "sourceSha256": "45b5f2639466dd8ef12819389142971e6515c12e2e10b22679c38d4842618226"
   },
   "dorji/vanguard-face-sheet-latest": {
     "path": "/site/thumbs/dorji/vanguard-face-sheet-latest.webp",
@@ -3346,10 +3562,10 @@
   "gunnar/expressions-sheet-latest": {
     "path": "/site/thumbs/gunnar/expressions-sheet-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "dd76d259a65a20ec6769807cc082c45b93b90da884a6533456e7259123e1fdd7",
+    "height": 720,
+    "sha256": "410945c8f2533aa06cccb5de534399d62f33cbf829a5396fd13560bc72fb9536",
     "sourcePath": "/characters/gunnar/expressions-sheet-latest.webp",
-    "sourceSha256": "777a34aa216eccc40c957173e54060b3badcb666223e19db119521d5af67b0cf"
+    "sourceSha256": "8c9eb5409dc0196b69f558ef7b971ee2f00732e32d94b7afc0f8fa67ccb16763"
   },
   "gunnar/face-sheet-latest": {
     "path": "/site/thumbs/gunnar/face-sheet-latest.webp",
@@ -3775,6 +3991,14 @@
     "sourcePath": "/characters/kyuzo/dreadlock-helm-tpose-right-latest.webp",
     "sourceSha256": "ba9a7c1080101aba8610758972458c542365daa6c6ce7bdff53826ac4c410a0b"
   },
+  "kyuzo/expressions-sheet-latest": {
+    "path": "/site/thumbs/kyuzo/expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "1be14c4112e03e4c88be453ef2f12a6ef317fb0fbd469ca41961b8db00b718a2",
+    "sourcePath": "/characters/kyuzo/expressions-sheet-latest.webp",
+    "sourceSha256": "896b98d6ca5d256a78ba5e1a2efe237c0bb7976b3569e79c7805b6efbffbc364"
+  },
   "kyuzo/masamune-3q-left-latest": {
     "path": "/site/thumbs/kyuzo/masamune-3q-left-latest.webp",
     "width": 480,
@@ -4026,10 +4250,10 @@
   "miu/catgirl-expressions-sheet-latest": {
     "path": "/site/thumbs/miu/catgirl-expressions-sheet-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "0440b6d2a5fba87fb760d8b5d1563d7c706eca2b2e5088863c6ca13272a6a8ae",
+    "height": 720,
+    "sha256": "05fd59caed7c0de45022777fab175d624738a7dfb70a9dc08f56b354bee93cac",
     "sourcePath": "/characters/miu/catgirl-expressions-sheet-latest.webp",
-    "sourceSha256": "9047b6c20b8e0176bdef03b6d085eac9ba1ad02440a1b61c559e895113302a1e"
+    "sourceSha256": "391727b1d715f3036e9eee373723ce62535b3f3f1bee973ce82080d0ed1559e7"
   },
   "miu/catgirl-face-sheet-latest": {
     "path": "/site/thumbs/miu/catgirl-face-sheet-latest.webp",
@@ -4250,10 +4474,10 @@
   "miu/expressions-sheet-latest": {
     "path": "/site/thumbs/miu/expressions-sheet-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "63ca7dd9b8dd19c70bb71958f991487fb4956d5320eb5813df7a2c68dbd80cff",
+    "height": 720,
+    "sha256": "a127c78dc5f0a867f6291355bcf1a19c67a06d386c40a44a84fd4285a8b7f616",
     "sourcePath": "/characters/miu/expressions-sheet-latest.webp",
-    "sourceSha256": "7a8ed7020e955deb15867d354f89c5ada9b29d8b27d8fef4feac0f7ce9d8a04a"
+    "sourceSha256": "bad973c7254c5780ace63d94474b80b8b36e2c8ed4eb46e5571bb6af21a6e1d0"
   },
   "miu/face-sheet-latest": {
     "path": "/site/thumbs/miu/face-sheet-latest.webp",
@@ -4583,6 +4807,14 @@
     "sourcePath": "/characters/rook/character-card-latest.webp",
     "sourceSha256": "f77b374424411c93972eecba7faf06e80d4dcb825877eb48bf734860e24fdb5a"
   },
+  "rook/expressions-sheet-latest": {
+    "path": "/site/thumbs/rook/expressions-sheet-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "1e77008c3ab172f8402cd8930808aea6cb414fbcab2fb39d6a8f6b2a97ea5644",
+    "sourcePath": "/characters/rook/expressions-sheet-latest.webp",
+    "sourceSha256": "2190466c62373feffbf9a0433db4d95334be854e8950a2e5eac14dbca0f6f58a"
+  },
   "rook/head-comparison-latest": {
     "path": "/site/thumbs/rook/head-comparison-latest.webp",
     "width": 480,
@@ -4907,25 +5139,25 @@
     "path": "/site/thumbs/soren-vane/character-card-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "900e2500282e7a51023bc79453f37919bd24143d3ce38afd6564681a515d9456",
+    "sha256": "a46cc9ab84aa8655ccc4a5629d205dc09b1dce97676e7a1d5efd5d01a8890fca",
     "sourcePath": "/characters/soren-vane/character-card-latest.webp",
-    "sourceSha256": "82695880e1c386222444c8160face3f3dc59be573bbf14ac55fd53ddc7b5a7a5"
+    "sourceSha256": "05baa459e5b9238a07c722dd2d700c0de225146a4ee0398fbd2fc05e389701ae"
   },
   "soren-vane/expressions-sheet-latest": {
     "path": "/site/thumbs/soren-vane/expressions-sheet-latest.webp",
     "width": 480,
     "height": 720,
-    "sha256": "22258826eb39631583a998d0280578b687127a9381ab6eea41ceb4864db8a419",
+    "sha256": "93fd0f5940670f023f6c16bb89401d012b39807a6a73af28b804eefe293ca1b7",
     "sourcePath": "/characters/soren-vane/expressions-sheet-latest.webp",
-    "sourceSha256": "03301dea266e634d1382844eb75c1059fb4ff745eab14fd3cfedfad6dc1c801f"
+    "sourceSha256": "5d548836a2a6266b3dc089fb6ed1800a11c38cad0097ee2776b354ae24c9bfc2"
   },
   "soren-vane/face-sheet-latest": {
     "path": "/site/thumbs/soren-vane/face-sheet-latest.webp",
     "width": 480,
     "height": 320,
-    "sha256": "7449a1ba5da94822e37adbbfbcd74076591bb2ba4f81cf86e3d1e4d559f94dde",
+    "sha256": "4d3dec21cf1f19f79a3a88f8c97ad1fca89ca0df0dc49ac27a58bd385299e9b4",
     "sourcePath": "/characters/soren-vane/face-sheet-latest.webp",
-    "sourceSha256": "672b94744ad823bc0d6fc885f3355c6e6553103361eb2662bef0e995182ffdd8"
+    "sourceSha256": "df52fb8e338d725ec6ff3eb98af1356b93ebcfe8394785c7377178b6ca767d81"
   },
   "soren-vane/inner-shirt-back-latest": {
     "path": "/site/thumbs/soren-vane/inner-shirt-back-latest.webp",
@@ -5123,9 +5355,17 @@
     "path": "/site/thumbs/soren-vane/young-soren-card-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "c9ed69b260fb442c21a356257fd820f783f0c6cc36f4cae51caea3e80ae47941",
+    "sha256": "16b9739cb65fcbea26b2923726f67e2471c706203c084a5fa12dcee574bbcc45",
     "sourcePath": "/characters/soren-vane/young-soren-card-latest.webp",
-    "sourceSha256": "f8edeb4552d7ae784c11d0cbf3a17fcece919c7265bab60876469c3a422376da"
+    "sourceSha256": "f61ccd0e42ab4b5d6c8415f441fa0160902c9984c84dc898297bcf38e939696e"
+  },
+  "soren-vane/young-soren-expressions-latest": {
+    "path": "/site/thumbs/soren-vane/young-soren-expressions-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "b2a32aba86d65c09a8c7cd698f179475057ac67456afc84a54709da67956c022",
+    "sourcePath": "/characters/soren-vane/young-soren-expressions-latest.webp",
+    "sourceSha256": "ead0ffa5dea59bb08edd1a000735e4294ecded9a40c6f94c4980577569b5b020"
   },
   "story/ep01-p01-latest": {
     "path": "/site/thumbs/story/ep01-p01-latest.webp",
@@ -5439,6 +5679,54 @@
     "sourcePath": "/characters/story/ep01-p42-latest.webp",
     "sourceSha256": "dbbf32ac64363923cad18e8f04ada337befc875d01cbf3f3691f735824530397"
   },
+  "world/acting-cross-d01-appetite-latest": {
+    "path": "/site/thumbs/world/acting-cross-d01-appetite-latest.webp",
+    "width": 480,
+    "height": 163,
+    "sha256": "ee5e8aa66946586c785d4b5398e30eec88f29676c49099e9f6e0457a4286095e",
+    "sourcePath": "/characters/world/acting-cross-d01-appetite-latest.webp",
+    "sourceSha256": "50e927cfbba6e8567fbeb1a0028aaceaa5c64fd9ad77edb7f55194368cd98043"
+  },
+  "world/acting-cross-d02-indulgence-latest": {
+    "path": "/site/thumbs/world/acting-cross-d02-indulgence-latest.webp",
+    "width": 480,
+    "height": 163,
+    "sha256": "488619ddd0fa8a67f7fc69d1dfd84e06a7a9677af0176805fe48a2872033118a",
+    "sourcePath": "/characters/world/acting-cross-d02-indulgence-latest.webp",
+    "sourceSha256": "78d0ef68c7548010cd3793022d0c734df082d206359c1e6591c44484f7ec9d0c"
+  },
+  "world/acting-cross-d03-fatigue-latest": {
+    "path": "/site/thumbs/world/acting-cross-d03-fatigue-latest.webp",
+    "width": 480,
+    "height": 163,
+    "sha256": "b77722a41f2ef6d2d1d52b85f4d30db684dc87dfed7b4a554953cee5e86fc445",
+    "sourcePath": "/characters/world/acting-cross-d03-fatigue-latest.webp",
+    "sourceSha256": "991977af20419fa177b5512e63db2aa1fae4224025c96a47a867701ca010a50f"
+  },
+  "world/acting-cross-d04-lethal-latest": {
+    "path": "/site/thumbs/world/acting-cross-d04-lethal-latest.webp",
+    "width": 480,
+    "height": 163,
+    "sha256": "6ad3f6282ebdc8712a07f0a87fd0092562a9e0cef46bd37ca6708c06431b656f",
+    "sourcePath": "/characters/world/acting-cross-d04-lethal-latest.webp",
+    "sourceSha256": "18e7c834a405ac6850776133ed97d9c8894624e51905a6809a943ce54e9ff836"
+  },
+  "world/acting-cross-d05-grief-latest": {
+    "path": "/site/thumbs/world/acting-cross-d05-grief-latest.webp",
+    "width": 480,
+    "height": 163,
+    "sha256": "1e3913b0646e09e2e1371409290f60671ed4e125444651830c49002ba5beedfc",
+    "sourcePath": "/characters/world/acting-cross-d05-grief-latest.webp",
+    "sourceSha256": "37353076bfc6f13b24efbc7b8688ad2c66ed38ae9643a4d53f5740e17833b66a"
+  },
+  "world/acting-cross-d06-fluster-latest": {
+    "path": "/site/thumbs/world/acting-cross-d06-fluster-latest.webp",
+    "width": 480,
+    "height": 163,
+    "sha256": "3ad47e5e615deb933ef860ce636f54e0ab07ccb3dcddf694a74aceeeedee9ea9",
+    "sourcePath": "/characters/world/acting-cross-d06-fluster-latest.webp",
+    "sourceSha256": "4422fbf591afbc4f384ea0cd0b308418f14fdc9ec13d9a4eafa34106ace53179"
+  },
   "world/astral-mother-core-board-latest": {
     "path": "/site/thumbs/world/astral-mother-core-board-latest.webp",
     "width": 480,
@@ -5462,6 +5750,14 @@
     "sha256": "c1c7e5b6ec0d143c399f362443e4631d939612abded041a12441a6b7126f71c5",
     "sourcePath": "/characters/world/eileen-darrow-card-latest.webp",
     "sourceSha256": "63a8b999fef81e806913d5a55443c64c5b4e3d6291714989ad7b10ad3af23bf7"
+  },
+  "world/eileen-darrow-expressions-latest": {
+    "path": "/site/thumbs/world/eileen-darrow-expressions-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "9633741299307197b043c6af1b99a3bd3eb403c0feeb09adf8ffdae7446dc917",
+    "sourcePath": "/characters/world/eileen-darrow-expressions-latest.webp",
+    "sourceSha256": "563397dcf7787a402e9718c832102a9b6b3d09277d29307e482dc7a5fc06e476"
   },
   "world/ensemble-artbook-4x3-latest": {
     "path": "/site/thumbs/world/ensemble-artbook-4x3-latest.webp",
@@ -5635,9 +5931,17 @@
     "path": "/site/thumbs/world/renn-darrow-card-latest.webp",
     "width": 480,
     "height": 480,
-    "sha256": "0f13c8cb0059c3363f9b49a5b6b80c669e5f8d06b142feb6a44846f8f637d7fb",
+    "sha256": "644a34a982c3931a9424a9cbe06a3c48a81abe5fbd864e6b031a238683749b0e",
     "sourcePath": "/characters/world/renn-darrow-card-latest.webp",
-    "sourceSha256": "ee9070cee02996577d545b935bd2fb4d015f8c3ef85cf8ad8c40814f3029fbc4"
+    "sourceSha256": "79c4825ac9bde838f0757cf043e0383268c7b1764888ee7ab88dfff2fc2aa9e8"
+  },
+  "world/renn-darrow-expressions-latest": {
+    "path": "/site/thumbs/world/renn-darrow-expressions-latest.webp",
+    "width": 480,
+    "height": 720,
+    "sha256": "7c7836e23462879a0a33cb4a8b0846f1fc88e7a1b4b4a38b3d61574d2b160e08",
+    "sourcePath": "/characters/world/renn-darrow-expressions-latest.webp",
+    "sourceSha256": "9ca038f263eb8b9da41a2b8917262812e99d675735a78bdc326c65c69a288a81"
   },
   "world/zero-gate-three-relics-latest": {
     "path": "/site/thumbs/world/zero-gate-three-relics-latest.webp",
@@ -5850,10 +6154,10 @@
   "wylin/expressions-sheet-latest": {
     "path": "/site/thumbs/wylin/expressions-sheet-latest.webp",
     "width": 480,
-    "height": 719,
-    "sha256": "88e6fb7cec41cf5c3a139aa681a6380c07329f07dda3f109e3400eac971af5c7",
+    "height": 720,
+    "sha256": "e21f2b10443a8b8613d6a187d013a0463c0468a807d26f55cd7aad0252fcbfd6",
     "sourcePath": "/characters/wylin/expressions-sheet-latest.webp",
-    "sourceSha256": "f0ab8490e40915ea4fb632769b8424a69663b2fbe81a8daacdd1e5f27726a1d5"
+    "sourceSha256": "187b01082e822de84abf8a6dc4916bbbba194ad392d4b1a0ba65228dcf7b0938"
   },
   "wylin/face-sheet-latest": {
     "path": "/site/thumbs/wylin/face-sheet-latest.webp",

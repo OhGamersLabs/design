@@ -16,7 +16,8 @@
   "body-back-latest": "身体基准背面",
   "body-front-latest": "身体基准正面",
   "body-side-latest": "身体基准角色右侧面",
-  "expressions-sheet-latest": "表情表",
+  "expressions-sheet-latest": "3×4 剧场版头颈动态与护目镜联动演技表",
+  "goggles-over-eyes-latest": "护目镜战备下拉戴眼正面立绘",
   "shoes-back-latest": "红白厚底靴背面",
   "shoes-front-latest": "红白厚底靴正面",
   "shoes-side-latest": "红白厚底靴角色右侧面",
@@ -94,5 +95,13 @@
   "daggers-tpose-front-latest": "完整人物双匕首 T 姿正面",
   "daggers-tpose-right-latest": "完整人物双匕首 T 姿角色右侧面",
   "daggers-tpose-back-latest": "完整人物双匕首 T 姿背面",
-  "daggers-tpose-left-latest": "完整人物双匕首 T 姿角色左侧面"
+  "daggers-tpose-left-latest": "完整人物双匕首 T 姿角色左侧面",
+  "expressions-cognition-latest": "七情六欲第 1 板 · 常态与认知微相（4 面孔）",
+  "expressions-joy-latest": "七情六欲第 2 板 · 喜的四重层次（4 面孔）",
+  "expressions-anger-latest": "七情六欲第 3 板 · 怒的四级梯度（4 面孔）",
+  "expressions-sorrow-latest": "七情六欲第 4 板 · 哀的四段弧光（4 面孔）",
+  "expressions-fear-pain-latest": "七情六欲第 5 板 · 惧与生理脆弱（3 面孔）",
+  "expressions-disgust-latest": "七情六欲第 6 板 · 恶的双重排斥（2 面孔）",
+  "expressions-desires-latest": "七情六欲第 7 板 · 六欲本能全开（6 面孔）",
+  "expressions-affection-latest": "七情六欲第 8 板 · 爱与情感破防（3 面孔）"
 }

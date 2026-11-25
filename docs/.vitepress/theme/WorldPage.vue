@@ -27,6 +27,19 @@ const neighbors = computed(() => {
 })
 
 const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.majorCast ?? [])].map((entry) => [entry.id, entry])))
+
+function characterMbtiBadges(characterId: string): string[] {
+  const personas = world.characters[characterId]?.personas ?? []
+  const withMbti = personas.filter((p: { mbti?: string }) => Boolean(p.mbti))
+  if (!withMbti.length) return []
+  if (personas.length > 1) {
+    return withMbti.map((p: { id: string; name: string; mbti: string }) => {
+      const prefix = p.id === 'roy' ? '罗伊' : p.id === 'roya' ? '罗娅' : p.name
+      return `${prefix} · ${p.mbti}`
+    })
+  }
+  return withMbti.map((p: { mbti: string }) => p.mbti)
+}
 </script>
 
 <template>
@@ -291,7 +304,7 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
 
           <div class="bunny-section-heading">
             <h2 id="squad">初代十人名录</h2>
-            <p>正式中英文全名、种族归属、职业定位与共鸣特质速览。</p>
+            <p>正式中英文全名、种族归属、职业定位、人格坐标与共鸣特质速览。</p>
           </div>
           <div class="base-body-table-wrap">
             <table>
@@ -306,7 +319,13 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
               </thead>
               <tbody>
                 <tr v-for="entry in site.roster" :key="entry.id">
-                  <td><a :href="withBase(entry.home)">{{ entry.name }}</a><small v-if="world.characters[entry.id]?.twinNote" class="world-table-note">{{ world.characters[entry.id].twinNote }}</small></td>
+                  <td>
+                    <a :href="withBase(entry.home)">{{ entry.name }}</a>
+                    <small v-if="world.characters[entry.id]?.twinNote" class="world-table-note">{{ world.characters[entry.id].twinNote }}</small>
+                    <div v-if="characterMbtiBadges(entry.id).length" class="world-table-mbti-list">
+                      <span v-for="badge in characterMbtiBadges(entry.id)" :key="badge" class="character-persona__mbti world-table-mbti">{{ badge }}</span>
+                    </div>
+                  </td>
                   <td>{{ world.characters[entry.id]?.enName ?? '—' }}</td>
                   <td>
                     <a v-if="world.characters[entry.id]?.raceId" :href="withBase(`/world/races#${world.characters[entry.id].raceId}`)">{{ world.characters[entry.id].raceLabel }}</a>
@@ -469,6 +488,19 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
                   group="ep01-standard-cast"
                   :asset-id="npc.asset"
                 />
+                <ReleaseImage
+                  v-if="npc.expressionsImage"
+                  :src="npc.expressionsImage.web.path"
+                  :original="npc.expressionsImage.original.path"
+                  :width="npc.expressionsImage.web.width"
+                  :height="npc.expressionsImage.web.height"
+                  :alt="npc.expressionsImage.name"
+                  :caption="`${npc.name} · 3×4 性格与日常习惯演技表`"
+                  :lightbox-caption="npc.expressionsImage.name"
+                  detail="12 格多角度衣领与随身物件微演技基准"
+                  group="ep01-standard-cast"
+                  :asset-id="npc.expressionsAsset"
+                />
               </div>
               <div class="world-cast-card__body">
                 <div class="world-cast-card__head">
@@ -505,6 +537,70 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
                 </p>
               </div>
             </div>
+
+            <article v-if="npc.persona" class="character-persona world-cast-persona" :aria-label="`${npc.persona.name}性格与日常习惯`">
+              <header class="character-persona__head">
+                <div class="character-persona__title-group">
+                  <span class="character-persona__eyebrow">{{ npc.persona.roleTag }}</span>
+                  <h3 class="character-persona__name">{{ npc.persona.name }} · 性格与日常习惯</h3>
+                  <span v-if="npc.persona.mbti" class="character-persona__mbti">{{ npc.persona.mbti }}</span>
+                </div>
+                <p class="character-persona__archetype">{{ npc.persona.archetype }}</p>
+              </header>
+              <div class="character-persona__layers" role="list" aria-label="三层性格结构">
+                <div v-for="item in npc.persona.temperament" :key="item.label" class="character-persona__layer" role="listitem">
+                  <span class="character-persona__layer-label">{{ item.label }}</span>
+                  <p class="character-persona__layer-text">{{ item.text }}</p>
+                </div>
+              </div>
+              <div v-if="npc.persona.desiresAndAversions?.length" class="character-persona__desires" role="list" aria-label="喜好厌恶与欲望底色">
+                <div v-for="item in npc.persona.desiresAndAversions" :key="item.label" class="character-persona__desire" role="listitem">
+                  <span class="character-persona__layer-label">{{ item.label }}</span>
+                  <p class="character-persona__layer-text">{{ item.detail }}</p>
+                </div>
+              </div>
+              <div class="character-persona__body">
+                <div class="character-persona__habits">
+                  <h4 class="character-persona__subhead">日常起居与下意识习惯</h4>
+                  <ul class="character-persona__habit-list">
+                    <li v-for="habit in npc.persona.dailyHabits" :key="habit.title">
+                      <strong>{{ habit.title }}：</strong>{{ habit.detail }}
+                    </li>
+                  </ul>
+                </div>
+                <aside class="character-persona__side" aria-label="语感与神态锚点">
+                  <div class="character-persona__block">
+                    <h4 class="character-persona__subhead">说话方式与口癖</h4>
+                    <p>{{ npc.persona.speechStyle }}</p>
+                  </div>
+                  <div class="character-persona__block">
+                    <h4 class="character-persona__subhead">情绪与神态锚点</h4>
+                    <p>{{ npc.persona.actingCues }}</p>
+                  </div>
+                </aside>
+              </div>
+              <div v-if="npc.persona.actingSpectrum?.length" class="character-persona__spectrum" aria-label="七情六欲全光谱面孔定义">
+                <div class="character-persona__spectrum-head">
+                  <h4 class="character-persona__subhead">七情六欲 · 全光谱面孔定义清单（共 {{ npc.persona.actingSpectrum.reduce((sum, g) => sum + g.count, 0) }} 张独立面孔）</h4>
+                  <span class="character-persona__spectrum-note">按情绪与欲望原子态自然推导，不设固定网格上限</span>
+                </div>
+                <div class="character-persona__spectrum-grid">
+                  <section v-for="group in npc.persona.actingSpectrum" :key="group.axis" class="character-persona__axis">
+                    <header class="character-persona__axis-head">
+                      <strong>{{ group.axis }}</strong>
+                      <span>{{ group.count }} 张</span>
+                    </header>
+                    <ul class="character-persona__face-list">
+                      <li v-for="face in group.faces" :key="face.name">
+                        <b>{{ face.name }}</b>
+                        <em>{{ face.gearState }}</em>
+                        <span>{{ face.cue }}</span>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+            </article>
           </section>
         </div>
 
@@ -527,56 +623,13 @@ const rosterById = computed(() => Object.fromEntries([...site.roster, ...(site.m
   gap: 24px;
   margin: 20px 0 36px;
 }
-.world-relic-card {
-  padding: 22px 24px 24px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 14px;
-  background: var(--vp-c-bg);
-}
-.world-relic-card__head h3 {
-  margin: 6px 0 0;
-  font-size: 19px;
-  font-weight: 700;
-  line-height: 1.4;
-}
-.world-relic-card :deep(.release-image) {
-  margin: 16px 0 18px;
-}
-.world-relic-badges {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 10px 12px;
-}
-.world-relic-badge {
+.world-cast-card__media {
   display: flex;
   flex-direction: column;
-  gap: 3px;
-  padding: 10px 12px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 10px;
-  background: var(--vp-c-bg-soft);
+  gap: 16px;
 }
-.world-relic-badge b {
-  color: var(--vp-c-text-1);
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.45;
-}
-.world-relic-badge span {
-  color: var(--vp-c-text-2);
-  font-size: 12.5px;
-  line-height: 1.55;
-}
-@media (max-width: 640px) {
-  .world-relic-card {
-    padding: 16px;
-  }
-}
-
-.world-relic-list {
-  display: grid;
-  gap: 24px;
-  margin: 20px 0 36px;
+.world-cast-persona {
+  margin-top: 22px;
 }
 .world-relic-card {
   padding: 22px 24px 24px;

@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "罗伊 & 罗娅·达罗 设计参考",
   "status": "local-review",
-  "asset_count": 92,
+  "asset_count": 109,
   "assets": [
     {
       "id": "base-kit-back-latest",
@@ -588,19 +588,19 @@
       "original": {
         "path": "/media/darrow/child-roy-card-latest.png",
         "mime_type": "image/png",
-        "width": 2880,
-        "height": 2880,
-        "bytes": 7726959,
-        "sha256": "519d78f7c9238d910fa2eafc46ab0a428d46def38dcbd5b60645b82c460fb92c",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1393827,
+        "sha256": "b321753763cab607a4f96102ed604ce0b8f7e2594eeb74ea712f4677dcdd7178",
         "alpha": false
       },
       "web": {
         "path": "/characters/darrow/child-roy-card-latest.webp",
         "mime_type": "image/webp",
-        "width": 2048,
-        "height": 2048,
-        "bytes": 2924448,
-        "sha256": "fabe4e08930ad81b35212032a81e4e76f3dcf37ae793d9b7fcb59ea65add66ff",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1037738,
+        "sha256": "fcd75122db2b8099d0a39d1072a32999c1cdd5d45419a1268fd900696a2d0662",
         "alpha": false
       }
     },
@@ -651,25 +651,209 @@
       }
     },
     {
+      "id": "expressions-affection-latest",
+      "character": "darrow",
+      "title": "expressions-affection-latest",
+      "original": {
+        "path": "/media/darrow/expressions-affection-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1082194,
+        "sha256": "29cab6d4a2f8a27347c8702d4eccc14614409d3d79f96afa00bbc779a2cbac2c",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/expressions-affection-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 184746,
+        "sha256": "39c8a2638f9799f3c77dfe5cf8130169763922a6d582e7c5a14b92ea4c44b0db",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-anger-latest",
+      "character": "darrow",
+      "title": "expressions-anger-latest",
+      "original": {
+        "path": "/media/darrow/expressions-anger-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1716336,
+        "sha256": "5c65695e12849ac7be91c56cfe7cb45727150e26108c8f93fc50ba090e1f8998",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/expressions-anger-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 231024,
+        "sha256": "d51cdceec6bf95d30e746cbf13042d93f0eb7b93f5e470dd7e80c07ab1f7f26f",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-cognition-latest",
+      "character": "darrow",
+      "title": "expressions-cognition-latest",
+      "original": {
+        "path": "/media/darrow/expressions-cognition-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1693286,
+        "sha256": "2c593b37311d94c8041e26ebcfde931fe86c55316063dc71253348c2b2325283",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/expressions-cognition-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 237596,
+        "sha256": "ee973627656bd49c92d53f0b5800879363838291fe47287985e080eeef62139e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-desires-latest",
+      "character": "darrow",
+      "title": "expressions-desires-latest",
+      "original": {
+        "path": "/media/darrow/expressions-desires-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1925172,
+        "sha256": "8267ff9f1b15115faa3a230ba472aeb249b4531d36584a49b25c133a683e2624",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/expressions-desires-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 291732,
+        "sha256": "af80ac16c87b7562f2167fd15917cc439ed5b749a5c8b4669d0b2f30078e67b4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-disgust-latest",
+      "character": "darrow",
+      "title": "expressions-disgust-latest",
+      "original": {
+        "path": "/media/darrow/expressions-disgust-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1516588,
+        "sha256": "2b0294ba8e7f323f2b600db85320a3f53d0ab4a5d468719f2471ef1c11597751",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/expressions-disgust-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 185126,
+        "sha256": "9d6ccedb899017cd8fedeea7d65b5a75aeb150b96d757bd59015bfac4f4508de",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-fear-pain-latest",
+      "character": "darrow",
+      "title": "expressions-fear-pain-latest",
+      "original": {
+        "path": "/media/darrow/expressions-fear-pain-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1450392,
+        "sha256": "5d43fa49fbe78b05740efff876cbd7fd8e9974f84624864c2f88d2b525fcfedf",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/expressions-fear-pain-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 190810,
+        "sha256": "a852474fc5e7bf482590e6e1f93b4c1f1c31a2ba98d4f1364f65d8d5e3c07696",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-joy-latest",
+      "character": "darrow",
+      "title": "expressions-joy-latest",
+      "original": {
+        "path": "/media/darrow/expressions-joy-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1683782,
+        "sha256": "afb5d28248f34097b7dd867df8d9c58a5bb594c223aaf1d8704f52ab0997093e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/expressions-joy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 229424,
+        "sha256": "5cfb83bb3e47ec2a2fc267213c6f2a223e1a1be56a9b957180c997970729b266",
+        "alpha": false
+      }
+    },
+    {
       "id": "expressions-sheet-latest",
       "character": "darrow",
       "title": "expressions-sheet-latest",
       "original": {
         "path": "/media/darrow/expressions-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 2352,
-        "height": 3520,
-        "bytes": 6993856,
-        "sha256": "bbef0f896092b3f5d00a9464bff2836cd61901a52356998a36d984cf3bb8d2f9",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2222136,
+        "sha256": "4883102de4d21736dbcc760cfc615451e3f33c4564e6c29d996571d75cfd138e",
         "alpha": false
       },
       "web": {
         "path": "/characters/darrow/expressions-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1368,
-        "height": 2048,
-        "bytes": 2199862,
-        "sha256": "a1b6b7963e5a560207d0d5d3c9c40d70233fd21c72354f960378fcf2dd2442cc",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1603260,
+        "sha256": "030ec7bd779e99c644a2da91cece0c39af041c250b17ca1c381f3e1967a098c3",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sorrow-latest",
+      "character": "darrow",
+      "title": "expressions-sorrow-latest",
+      "original": {
+        "path": "/media/darrow/expressions-sorrow-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1552148,
+        "sha256": "7489fe3c6a84d3bb89b8e5740b0494b095d7ec5dc116020e613a656a802fe067",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/expressions-sorrow-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 176780,
+        "sha256": "ca4858d5de1fad46c7edee196acfe06b786fbf8ec84053efcbbe8fbd107caab5",
         "alpha": false
       }
     },
@@ -1272,25 +1456,232 @@
       }
     },
     {
+      "id": "female-expressions-affection-latest",
+      "character": "darrow",
+      "title": "female-expressions-affection-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-affection-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1597595,
+        "sha256": "6880cd90c59ae4eb2bc48527cece0cb1dbd202d2bdf8fde528d127f236860bb8",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-affection-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 197524,
+        "sha256": "f3b5d7545f63344307888b203614ee056a2bfa70455d5204be1ebd84681dc6f4",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-expressions-anger-latest",
+      "character": "darrow",
+      "title": "female-expressions-anger-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-anger-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1054862,
+        "sha256": "84aa32bd93cffa023c323a8b9db88b2ec504c96672042326f0f50f200ffe2f8e",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-anger-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 181464,
+        "sha256": "7bc26dc1e1a61680ba6f1fd2615d918b7690af8140ba108201a5543820d5f95e",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-expressions-cognition-latest",
+      "character": "darrow",
+      "title": "female-expressions-cognition-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-cognition-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1423335,
+        "sha256": "cff9a0ef3b46ee1c1fd6437d8106df690220edd2f54962eb4cadc20c56db7d7d",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-cognition-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 160022,
+        "sha256": "aee706c0e7f17feae15d0a5c8ac01c52f3afa6d1adc70d638dda638e1c5421d0",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-expressions-desires-drive-latest",
+      "character": "darrow",
+      "title": "female-expressions-desires-drive-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-desires-drive-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1405936,
+        "sha256": "6872be33c7f53a1e917ca0bf14855092882389673c572cf4f45326f3c0f7c82f",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-desires-drive-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 164632,
+        "sha256": "e9e64a434f3e064bbd7ace541c616fc2147952f3eb71f233fefdab9647956dfb",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-expressions-desires-pleasure-latest",
+      "character": "darrow",
+      "title": "female-expressions-desires-pleasure-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-desires-pleasure-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1141064,
+        "sha256": "506583b5562e5c166a57f176dda147a1b88bb8e927ca6b85e690962142f9d6fa",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-desires-pleasure-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 192128,
+        "sha256": "ae7ecdf9dfd1700d94d8ac7ad3a906eb0bf521c8e469149363fedf89477f1d81",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-expressions-disgust-latest",
+      "character": "darrow",
+      "title": "female-expressions-disgust-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-disgust-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1468093,
+        "sha256": "e4c4618ec3041e92f85c7d34f9577030b1ef5692089e27216bfe3f6dda358e17",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-disgust-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 179904,
+        "sha256": "1126586aa350dcb535efbd78306f95497088b0a42d54f7c481fa9e774f0efac7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-expressions-fear-pain-latest",
+      "character": "darrow",
+      "title": "female-expressions-fear-pain-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-fear-pain-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1059183,
+        "sha256": "7489e7fb1279ff65df01aaf07860cd59683b7f0c4feedb4f1f22d69f0b27936b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-fear-pain-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 168580,
+        "sha256": "893818de827737970097ebb4a230f83c821af4879767cb61b8fadf166e9ebeb7",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-expressions-joy-latest",
+      "character": "darrow",
+      "title": "female-expressions-joy-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-joy-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1011117,
+        "sha256": "8c6a4c0ca1cc2e66ed31f5b7e0cdac6e744a972d6fc71a2bd7b3fa6c66741b2b",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-joy-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 170966,
+        "sha256": "cd349283cc9d8ea215fb12a571a9cb665d4d5a4edef3d79646ef50abcea62f90",
+        "alpha": false
+      }
+    },
+    {
       "id": "female-expressions-sheet-latest",
       "character": "darrow",
       "title": "female-expressions-sheet-latest",
       "original": {
         "path": "/media/darrow/female-expressions-sheet-latest.png",
         "mime_type": "image/png",
-        "width": 2352,
-        "height": 3520,
-        "bytes": 7106750,
-        "sha256": "5945edf8aa306c4eca037f6ffa1ce862aa37e8a4a2a6da5aace14f287b830550",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2046918,
+        "sha256": "0aad6eabb47ee37dbadc2fb13e66ceff01c776571368c035e716d7ed72bef4e3",
         "alpha": false
       },
       "web": {
         "path": "/characters/darrow/female-expressions-sheet-latest.webp",
         "mime_type": "image/webp",
-        "width": 1368,
-        "height": 2048,
-        "bytes": 2220806,
-        "sha256": "cd95ffef35fc42a68230d856df5b17dafe4616db77eafa4f0c2ef791a9812fdd",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1510942,
+        "sha256": "3820b9decb94903536f28608837d4cc3c1e63e4cfe4ea00a596c85739b12adff",
+        "alpha": false
+      }
+    },
+    {
+      "id": "female-expressions-sorrow-latest",
+      "character": "darrow",
+      "title": "female-expressions-sorrow-latest",
+      "original": {
+        "path": "/media/darrow/female-expressions-sorrow-latest.png",
+        "mime_type": "image/png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1469801,
+        "sha256": "6fe21fcea2dc6ac4f714fd13de0da543d7e3166e9a659f6902973b7196cceaf4",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/darrow/female-expressions-sorrow-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 158070,
+        "sha256": "aac74ee5136c186c4c422eedf91b4e8afe98d2364eb075a1c928f3c482d5535f",
         "alpha": false
       }
     },

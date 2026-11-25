@@ -4,7 +4,7 @@
   "language": "zh-CN",
   "title": "罗克·卡迈恩 设计参考",
   "status": "local-review",
-  "asset_count": 52,
+  "asset_count": 53,
   "assets": [
     {
       "id": "arm-cannons-back-latest",
@@ -463,6 +463,29 @@
         "height": 2048,
         "bytes": 2670366,
         "sha256": "f77b374424411c93972eecba7faf06e80d4dcb825877eb48bf734860e24fdb5a",
+        "alpha": false
+      }
+    },
+    {
+      "id": "expressions-sheet-latest",
+      "character": "rook",
+      "title": "expressions-sheet-latest",
+      "original": {
+        "path": "/media/rook/expressions-sheet-latest.png",
+        "mime_type": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2277002,
+        "sha256": "1676ab70144479d91d3b587d02f471e1525e223dd80db10c7b60dbd28a536de3",
+        "alpha": false
+      },
+      "web": {
+        "path": "/characters/rook/expressions-sheet-latest.webp",
+        "mime_type": "image/webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1788272,
+        "sha256": "2190466c62373feffbf9a0433db4d95334be854e8950a2e5eac14dbca0f6f58a",
         "alpha": false
       }
     },

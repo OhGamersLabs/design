@@ -286,6 +286,12 @@
     },
     {
       "character": "ange",
+      "path": "/media/ange/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/ange/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "ange",
       "path": "/media/ange/hip-emblem-back-latest.png",
       "key": "x_ops/design/characters/ange/latest/hip-emblem-back-latest.png",
       "contentType": "image/png"
@@ -748,8 +754,56 @@
     },
     {
       "character": "bonnie",
+      "path": "/media/bonnie/expressions-affection-latest.png",
+      "key": "x_ops/design/characters/bonnie/latest/expressions-affection-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bonnie",
+      "path": "/media/bonnie/expressions-anger-latest.png",
+      "key": "x_ops/design/characters/bonnie/latest/expressions-anger-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bonnie",
+      "path": "/media/bonnie/expressions-cognition-latest.png",
+      "key": "x_ops/design/characters/bonnie/latest/expressions-cognition-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bonnie",
+      "path": "/media/bonnie/expressions-desires-latest.png",
+      "key": "x_ops/design/characters/bonnie/latest/expressions-desires-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bonnie",
+      "path": "/media/bonnie/expressions-disgust-latest.png",
+      "key": "x_ops/design/characters/bonnie/latest/expressions-disgust-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bonnie",
+      "path": "/media/bonnie/expressions-fear-pain-latest.png",
+      "key": "x_ops/design/characters/bonnie/latest/expressions-fear-pain-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bonnie",
+      "path": "/media/bonnie/expressions-joy-latest.png",
+      "key": "x_ops/design/characters/bonnie/latest/expressions-joy-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bonnie",
       "path": "/media/bonnie/expressions-sheet-latest.png",
       "key": "x_ops/design/characters/bonnie/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bonnie",
+      "path": "/media/bonnie/expressions-sorrow-latest.png",
+      "key": "x_ops/design/characters/bonnie/latest/expressions-sorrow-latest.png",
       "contentType": "image/png"
     },
     {
@@ -774,6 +828,12 @@
       "character": "bonnie",
       "path": "/media/bonnie/goggles-front-latest.png",
       "key": "x_ops/design/characters/bonnie/latest/goggles-front-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "bonnie",
+      "path": "/media/bonnie/goggles-over-eyes-latest.png",
+      "key": "x_ops/design/characters/bonnie/latest/goggles-over-eyes-latest.png",
       "contentType": "image/png"
     },
     {
@@ -1624,8 +1684,56 @@
     },
     {
       "character": "darrow",
+      "path": "/media/darrow/expressions-affection-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/expressions-affection-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/expressions-anger-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/expressions-anger-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/expressions-cognition-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/expressions-cognition-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/expressions-desires-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/expressions-desires-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/expressions-disgust-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/expressions-disgust-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/expressions-fear-pain-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/expressions-fear-pain-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/expressions-joy-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/expressions-joy-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
       "path": "/media/darrow/expressions-sheet-latest.png",
       "key": "x_ops/design/characters/darrow/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/expressions-sorrow-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/expressions-sorrow-latest.png",
       "contentType": "image/png"
     },
     {
@@ -1786,8 +1894,62 @@
     },
     {
       "character": "darrow",
+      "path": "/media/darrow/female-expressions-affection-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/female-expressions-affection-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/female-expressions-anger-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/female-expressions-anger-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/female-expressions-cognition-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/female-expressions-cognition-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/female-expressions-desires-drive-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/female-expressions-desires-drive-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/female-expressions-desires-pleasure-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/female-expressions-desires-pleasure-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/female-expressions-disgust-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/female-expressions-disgust-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/female-expressions-fear-pain-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/female-expressions-fear-pain-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/female-expressions-joy-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/female-expressions-joy-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
       "path": "/media/darrow/female-expressions-sheet-latest.png",
       "key": "x_ops/design/characters/darrow/latest/female-expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "darrow",
+      "path": "/media/darrow/female-expressions-sorrow-latest.png",
+      "key": "x_ops/design/characters/darrow/latest/female-expressions-sorrow-latest.png",
       "contentType": "image/png"
     },
     {
@@ -2836,6 +2998,12 @@
     },
     {
       "character": "kyuzo",
+      "path": "/media/kyuzo/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/kyuzo/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "kyuzo",
       "path": "/media/kyuzo/masamune-3q-left-latest.png",
       "key": "x_ops/design/characters/kyuzo/latest/masamune-3q-left-latest.png",
       "contentType": "image/png"
@@ -3442,6 +3610,12 @@
     },
     {
       "character": "rook",
+      "path": "/media/rook/expressions-sheet-latest.png",
+      "key": "x_ops/design/characters/rook/latest/expressions-sheet-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "rook",
       "path": "/media/rook/head-comparison-latest.png",
       "key": "x_ops/design/characters/rook/latest/head-comparison-latest.png",
       "contentType": "image/png"
@@ -3849,6 +4023,12 @@
       "contentType": "image/png"
     },
     {
+      "character": "soren-vane",
+      "path": "/media/soren-vane/young-soren-expressions-latest.png",
+      "key": "x_ops/design/characters/soren-vane/latest/young-soren-expressions-latest.png",
+      "contentType": "image/png"
+    },
+    {
       "character": "story",
       "path": "/media/story/ep01-p01-latest.png",
       "key": "x_ops/design/characters/story/latest/ep01-p01-latest.png",
@@ -4084,6 +4264,42 @@
     },
     {
       "character": "world",
+      "path": "/media/world/acting-cross-d01-appetite-latest.png",
+      "key": "x_ops/design/characters/world/latest/acting-cross-d01-appetite-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/acting-cross-d02-indulgence-latest.png",
+      "key": "x_ops/design/characters/world/latest/acting-cross-d02-indulgence-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/acting-cross-d03-fatigue-latest.png",
+      "key": "x_ops/design/characters/world/latest/acting-cross-d03-fatigue-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/acting-cross-d04-lethal-latest.png",
+      "key": "x_ops/design/characters/world/latest/acting-cross-d04-lethal-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/acting-cross-d05-grief-latest.png",
+      "key": "x_ops/design/characters/world/latest/acting-cross-d05-grief-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/acting-cross-d06-fluster-latest.png",
+      "key": "x_ops/design/characters/world/latest/acting-cross-d06-fluster-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
       "path": "/media/world/astral-mother-core-board-latest.png",
       "key": "x_ops/design/characters/world/latest/astral-mother-core-board-latest.png",
       "contentType": "image/png"
@@ -4098,6 +4314,12 @@
       "character": "world",
       "path": "/media/world/eileen-darrow-card-latest.png",
       "key": "x_ops/design/characters/world/latest/eileen-darrow-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/eileen-darrow-expressions-latest.png",
+      "key": "x_ops/design/characters/world/latest/eileen-darrow-expressions-latest.png",
       "contentType": "image/png"
     },
     {
@@ -4230,6 +4452,12 @@
       "character": "world",
       "path": "/media/world/renn-darrow-card-latest.png",
       "key": "x_ops/design/characters/world/latest/renn-darrow-card-latest.png",
+      "contentType": "image/png"
+    },
+    {
+      "character": "world",
+      "path": "/media/world/renn-darrow-expressions-latest.png",
+      "key": "x_ops/design/characters/world/latest/renn-darrow-expressions-latest.png",
       "contentType": "image/png"
     },
     {

@@ -47,6 +47,15 @@ releaseReady: false
 
 <div class="bunny-section-heading">
 
+## 性格与日常习惯 {#personality}
+
+<p>三层性格底色、说话口癖、日常起居习惯与神态演绎锚点。</p>
+</div>
+
+<CharacterPersona />
+
+<div class="bunny-section-heading">
+
 ## 穿戴由内到外 {#layers}
 
 <p>第 0 到第 2 层为日常 Q 版宇航与球形太空舱造型，第 3 到第 6 层为战斗猫娘高机动装甲造型。点开任意一图，可用左右键逐层翻看。</p>
@@ -58,20 +67,20 @@ releaseReady: false
 
 ## 面部与表情 {#expressions}
 
-<p>日常 Q 版与战斗猫娘各自拥有一套裸头三视图与 4×4 表情矩阵。</p>
+<p>日常 Q 版与战斗猫娘各自拥有一套裸头三视图，以及紧扣「低电量省电猫 × 看戏乐子人 × 狩猎本能破功」的 3×4 双态性格演技表。</p>
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="catgirl-expressions-sheet-latest" detail="战斗猫娘 16 格表情表 · 四类情绪正 3/4 面向画面右" />
+  <AssetImage id="catgirl-expressions-sheet-latest" detail="战斗猫娘 12 格 3×4 演技表 · 省电哈欠、黑瞳追光点挽尊与无重力冷冽拳手" />
   <AssetImage id="catgirl-face-sheet-latest" detail="战斗猫娘裸头三视图 · 正面 / 角色右侧面 / 背面" use-thumb />
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="expressions-sheet-latest" detail="日常 Q 版 16 格表情表 · 四类情绪正 3/4 面向画面右" />
+  <AssetImage id="expressions-sheet-latest" detail="日常 Q 版 12 格 3×4 演技表 · 瘫成猫饼、端小鱼干看戏与嫌弃苦药" />
   <AssetImage id="face-sheet-latest" detail="日常 Q 版裸头三视图 · 正面 / 微 3/4 / 角色右侧面" use-thumb />
 </div>
 
-<p class="bunny-expression-note">双态均采用三段式虹膜配色（上层深暗青、中层饱和蓝青、下层暖浅金月牙反光），战斗猫娘具备单对冠位猫耳、零人类侧耳及双颊纯白挑染，日常 Q 版则呈深炭倒 U 脸纹与粉嫩三角小鼻。</p>
+<p class="bunny-expression-note">双态均锁定三段式虹膜（上暗青、中蓝青、下暖金）与零人类侧耳结构：涵盖半阖省电倦态、捂嘴软哈欠、端小鱼干促狭看戏，见到激光红点瞬间放大成滚圆黑瞳、扑空后舔爪或理白挑染刘海假装无事发生，遇洗澡苦药炸毛哈气，以及进入无重力死斗时压平冠位猫耳的冰冷狩猎神情。</p>
 
 <div class="bunny-section-heading">
 

@@ -47,6 +47,15 @@ releaseReady: false
 
 <div class="bunny-section-heading">
 
+## 性格与日常习惯 {#personality}
+
+<p>三层性格底色、说话口癖、日常起居习惯与神态演绎锚点。</p>
+</div>
+
+<CharacterPersona />
+
+<div class="bunny-section-heading">
+
 ## 装甲由内到外 {#layers}
 
 <p>第 0 层为双粉本体，第 1 至第 7 层由内而外逐层叠加承力内架、躯干排热甲、双肩导弹舱、双臂重炮、钟形重腿、伪装头盔与全身涂装细节。点开任意一图，可用左右键逐层翻看。</p>
@@ -72,6 +81,20 @@ releaseReady: false
 </div>
 
 <p class="bunny-expression-note">伪装头盔紧嵌于 U 型高领之中，前掠兜帽内衬为本体白色 V 字天线预留无碰撞空腔，宽琥珀目镜与本体双目严格共轴；圆筒黑光学镜头严格仅设于角色左侧耳部，角色右侧面为洁净棱角护颊。</p>
+
+<div class="bunny-section-heading">
+
+## 光学与双态演技 {#expressions}
+
+<p>串联第 7 层重装玫瑰粉伪装头盔与第 0 层双粉核心本体，以宽琥珀目镜、角色左耳镜头对焦、导弹舱开合与肢体反差呈现机甲灵魂的 3×4 演技表。</p>
+</div>
+
+<div class="bunny-expression-grid">
+  <AssetImage id="expressions-sheet-latest" detail="12 格 · 3×4 重炮竖大拇指、护漆怒开导弹舱与三瓣爆甲露双粉本体反差演技" />
+  <AssetImage id="helmet-purge-latest" detail="伪装头盔三瓣爆甲显露白色 V 字天线本体基准" use-thumb />
+</div>
+
+<p class="bunny-expression-note">按行从画面左至画面右：第一行重装态暖琥珀目镜温和待机 / 竖起粗壮机械大拇指憨厚点赞 / 低头避让脚下小动物并点亮角色左耳圆筒镜头青光对焦；第二行握长柄软毛刷把胸前纯白 OG 队徽擦出星芒 / 低头惊见胸口粉漆被蹭黑一块 / 护漆暴怒切猩红目镜并掀开双肩导弹舱盖；第三行角色右肩双红镜锁定举炮齐射 / 琥珀爆破栓引爆三瓣脱壳显露本体头 / 双粉核心本体拔刃凌厉迎敌；第四行脱壳打赢后害羞抱臂催重装外甲 / 核心本体双指敬礼 / 重装肩头安稳停落蓝色小鸟。</p>
 
 <div class="bunny-section-heading">
 

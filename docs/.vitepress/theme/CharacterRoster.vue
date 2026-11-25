@@ -346,6 +346,12 @@ const activeSpotKey = computed(() => hoveredKey.value ?? pinnedKey.value)
 const rosterById = computed(() => Object.fromEntries(data.roster.map((item) => [item.id, item])))
 const activePin = computed(() => activeSpotKey.value ? (ensemblePins.find((p) => p.key === activeSpotKey.value) ?? null) : null)
 const activePinCharacter = computed(() => activePin.value ? rosterById.value[activePin.value.characterId] : null)
+const activePinMbti = computed(() => {
+  if (!activePin.value) return ''
+  const personas = world?.characters?.[activePin.value.characterId]?.personas ?? []
+  const matched = personas.find((p: { id?: string; mbti?: string }) => p.id === activePin.value?.key) ?? personas[0]
+  return matched?.mbti || ''
+})
 const activeCanvasId = computed(() => {
   const prefix = activeKv.value === 'artbook' ? 'ensemble-artbook' : 'ensemble-starport'
   if (activeAspect.value === '4x3') return `${prefix}-4x3-latest`
@@ -613,6 +619,9 @@ function padIndex(index: number) {
               {{ activePin.displayName }}
               <small>{{ activePin.enName }}</small>
             </h2>
+            <p v-if="activePinMbti" class="ensemble-dossier__mbti">
+              <span class="character-persona__mbti">{{ activePinMbti }}</span>
+            </p>
             <p class="ensemble-dossier__summary">{{ activePin.summary }}</p>
             <div class="ensemble-dossier__foot">
               <span>{{ world.characters[activePin.characterId]?.raceLabel }} · {{ activePinCharacter.role }}</span>

@@ -47,6 +47,15 @@ releaseReady: false
 
 <div class="bunny-section-heading">
 
+## 性格与日常习惯 {#personality}
+
+<p>三层性格底色、说话口癖、日常起居习惯与神态演绎锚点。</p>
+</div>
+
+<CharacterPersona />
+
+<div class="bunny-section-heading">
+
 ## 穿戴由内到外 {#layers}
 
 <p>第 0 到第 3 层为日常 Q 版宇航造型，第 4 到第 7 层为战神先锋重坦造型。点开任意一图，可用左右键逐层翻看。</p>
@@ -58,20 +67,20 @@ releaseReady: false
 
 ## 面部与表情 {#expressions}
 
-<p>日常 Q 版与先锋重坦各自拥有一套裸头三视图与 4×4 表情矩阵。</p>
+<p>日常 Q 版与先锋重坦各自拥有一套裸头三视图，以及统一佩戴暖燕麦 OG 毛线帽锚点的 3×4 双态性格演技表。</p>
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="vanguard-expressions-sheet-latest" detail="先锋重坦 16 格表情表 · 略偏 3/4 面向画面右" />
+  <AssetImage id="vanguard-expressions-sheet-latest" detail="先锋重坦 12 格 3×4 演技表 · 硬扛主炮战神与停火一秒吐舌求摸头反差" />
   <AssetImage id="vanguard-face-sheet-latest" detail="先锋重坦裸头三视图 · 正面 / 角色右侧面 / 背面" use-thumb />
 </div>
 
 <div class="bunny-expression-grid">
-  <AssetImage id="expressions-sheet-latest" detail="日常 Q 版 16 格表情表 · 略偏 3/4 面向画面右" />
+  <AssetImage id="expressions-sheet-latest" detail="日常 Q 版 12 格 3×4 演技表 · 竖耳等开饭、偷吃捂鼻与睡前拍平毛线帽" />
   <AssetImage id="face-sheet-latest" detail="日常 Q 版裸头三视图 · 正面 / 微 3/4 / 角色右侧面" use-thumb />
 </div>
 
-<p class="bunny-expression-note">日常 Q 版常态为原稿闭眼咧嘴吐舌笑，睁眼为深焦糖黑豆眼配下沿暖琥珀月牙高光；先锋重坦睁眼为亮琥珀金竖感瞳孔、狭长奶油额纹与双圆白眉点。</p>
+<p class="bunny-expression-note">双态演技统一佩戴角色左前嵌 OG 织标的暖燕麦罗纹毛线帽：先锋重坦涵盖威严警戒、举盾咆哮、护主凝视，以及停火瞬间破功吐舌傻笑、忘变小张臂飞扑、享受摸头、见棉签飞机耳缩脖呜咽等憨直反差；日常 Q 版涵盖拍爪欢笑、闻饭香竖耳流口水、捂黑鼻头藏肉干、怕棉签含泪、垫在同伴靴面陪伴与睡前摘帽仔细拍平褶子。</p>
 
 <div class="bunny-section-heading">
 
